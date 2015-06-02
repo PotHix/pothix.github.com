@@ -1,0 +1,35 @@
+<%= partial "partials/header" %>
+
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-#{current_page.data.id}" class="post-#{current_page.data.id} post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
+
+         <header class="entry-header">
+      	   <h2 class="entry-title">
+	    <%= current_page.data.title %>
+          </h2>
+        </header>
+
+        <div class="entry-meta">
+          <span class="posted-on">
+	    Published at <%= link_to current_page.date.strftime('%Y/%m/%d'), current_page, rel: "bookmark" %><time class="updated" datetime="<%= current_page.date.strftime("%Y-%m-%dT%H:%M:%S") %>"><%= current_page.date.strftime('%b %e, %Y') %></time>
+          </span>
+          <span class="cat-links">
+            In Category <%= link_to current_page.data.category, category_path(current_page.data.category), rel: "category tag" %>
+          </span>
+          <span class="tags-links">
+  	    Tags: <%= current_page.tags.map{|tag| link_to(tag, tag_path(tag), rel: "tag")}.join(",") %>
+          </span>
+        </div>
+
+        <div class="entry-content">
+          <%= yield %>
+	  <%= partial "partials/disqus" %>
+        </div>
+      </article>
+    </main>
+  </div>
+</div>
+
+<%= partial "partials/footer" %>

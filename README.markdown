@@ -1,11 +1,4 @@
-PotHix Resume
-=============
+PotHix Blog
+===========
 
-This is my resume made with HTML5 and microformats.
-
-You can view it by acessing [pothix.github.com](pothix.github.com).
-
-TODO
-----
-
-Add presentations.
+My blog made using _Doctype_ template from _codestag_ modified to use middleman.
