@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>PotHix blog - Facilitando a instalação de pacotes no Slackware</title>
+
+    <!-- Prefetch DNS for external resources to speed up loading time -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
+    <!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+
+    <link rel="icon" type="image/png" href="/images/favico.png">
+    <link rel='stylesheet' href='/stylesheets/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='/stylesheets/stag-custom-styles.css' type='text/css' media='all' />
+
+    <link rel="stylesheet" href="/stylesheets/font-awesome-4.3.0/css/font-awesome.min.css">
+    <link rel='stylesheet' id='doctype-fonts-css'  href='http://fonts.googleapis.com/css?family=Rokkitt%3A700%7CLato%3A300%2C400%2C700%2C300italic&#038;subset=latin' type='text/css' media='all' />
+
+    <body class="blog sticky-nav chrome stagtools">
+      <div id="page" class="hfeed site">
+	<header id="masthead" class="site-header site-header--fixed" role="banner">
+          <div class="inside">
+	    <div id="navbar" class="navbar">
+  <nav id="site-navigation" class="navigation main-navigation" role="navigation">
+    <ul id="primary-menu" class="primary-menu">
+      <li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13">
+	<a href="/">Home</a>
+      </li>
+      <li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14">
+	<a href="#">Portfolio</a>
+      </li>
+      <li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53">
+	<a href="#">About me</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+            <a class="site-branding" href="/" title="Doctype" rel="home">
+              <span class="logo-container">
+                <img data-at2x src="/images/logo.png" alt="Website's logo">
+              </span>
+            </a>
+          </div>
+	</header>
+
+
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-#{current_page.data.id}" class="post-#{current_page.data.id} post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
+
+         <header class="entry-header">
+      	   <h2 class="entry-title">
+	    Facilitando a instalação de pacotes no Slackware
+          </h2>
+        </header>
+
+        <div class="entry-meta">
+          <span class="posted-on">
+	    Published at <a rel="bookmark" href="/2008/11/11/2008-11-11-facilitando-a-instalacao-de-pacotes-no-slackware.html">2008/11/11</a><time class="updated" datetime="2008-11-11T00:00:00">Nov 11, 2008</time>
+          </span>
+          <span class="cat-links">
+            In Category <a rel="category tag" href="/categories/slackware.html">slackware</a>
+          </span>
+          <span class="tags-links">
+  	    Tags: <a rel="tag" href="/tags/slackware.html">slackware</a>,<a rel="tag" href="/tags/tech.html">tech</a>
+          </span>
+        </div>
+
+        <div class="entry-content">
+          <p><img title="Slackware Linux" alt="Slackware Linux" src="http://alunos.uportu.pt/~al18533/slackware.jpg" /></p>
+
+<p>Æ!!</p>
+
+<p>Estava escrevendo outro post e chegando em um ponto onde eu instalaria um pequeno Software utilizando o <a title="Slack Builds" href="http://www.slackbuilds.org">SlackBuilds</a> me fez escrever esse post sobre algumas facilitações de instalação para Slackware.</p>
+
+<p>Nesse post eu vou referenciar 4 facilitadores para instalação de pacotes no Slackware:
+1. <a href="#1">SlackBuilds</a>
+2. <a href="#2">LinuxPackages</a>
+3. <a href="#3">Slackpkg</a>
+4. <a href="#4">Slapt-get</a>
+5. <a href="#5">Checkinstall</a></p>
+
+<h4>[**1. SlackBuilds**](# &ldquo;&rdquo;)</h4>
+
+<p>Primeiramente vou comentar sobre um dos que eu mais uso e que mudou a minha vida ( heheh ), que é o <a title="Slack Builds" href="http://www.slackbuilds.org">SlackBuilds</a>!</p>
+
+<p>SlackBuilds são scripts que facilitam a instalação de softwares diretamente pelo seu fonte, ao invés de usarmos o velho ./configure &amp;&amp; make &amp;&amp; make install.</p>
+
+<p>Quando eu preciso instalar algo, o primeiro lugar que eu visito é o <a title="Slack Builds" href="http://www.slackbuilds.org">site do SlackBuilds</a> para procurar se tem o que eu estou procurando, depois procuro em outro lugar.</p>
+
+<p>Para usar o SlackBuilds é simples!
+* Primeiro você encontra o seu pacote no site.
+* Agora você faz o download do pacote do SlackBuilds, que geralmente está no formato nomeDoPacote.tar.gz
+* E faz o download do source do que você vai instalar, que geralmente está no formato: nomeDoPacote-versao.tar.gz
+* Agora você descompacta o seu pacote SlackBuilds da forma tradicional
+* <blockquote>
+    <code>$ tar xvf nomeDoPacote.tar.gz</code>
+</blockquote>
+* Agora ele criou uma pasta do seu SlackBuilds com o nome de nomeDoPacote.
+* copie os fontes para a pasta do seu SlackBuilds
+* <blockquote>
+    <code>$ cp nomeDoPacote-versao.tar.gz nomeDoPacote</code>
+</blockquote>
+* Agora entre na pasta do seu SlackBuilds
+* <blockquote>
+    <code>$ cd nomeDoPacote</code>
+</blockquote>
+* E como root execute o seu arquivo de SlackBuilds que deve estar nesse formato: nomeDoPacote.SlackBuilds
+* <blockquote>
+    <code># ./nomeDoPacote.SlackBuilds</code>
+</blockquote>
+* Se tudo der certo nesse passo ( pode ser que tenha alguma dependência, o que fará você tentar novamente o passo 1 para a dependência ) ele vai compilar tudo para você e vai gerar um pacote .tgz do Slackware no seu /tmp ! :)
+* Agora é só correr para o abraço! Acessar o seu /tmp e instalar o pacote com o bom e velho <strong>installpkg</strong></p>
+
+<h4>[2. Linux Packages](# &ldquo;&rdquo;)</h4>
+
+<p>Como segunda opção para facilitar a instalação no Slackware temos o <a title="Linux Packages" href="http://linuxpackages.net">Linux Packages</a> que tem muitos pacotes tgz para você baixar e instalar facilmente com o gerenciador de pacotes do Slackware.
+<h4><a href="#">3. Slackpkg</a></h4>
+Para instalações mais automatizadas temos também o <a href="http://piterpunk.info02.com.br/artigos/tutorial-slackpkg.html">Slackpkg</a> que foi criado pelo <a title="Piter Punk" href="http://piterpunk.info02.com.br/">Piter Punk</a> como um script para atualização de pacotes mais facilmente quando surgiam exploits ou bugs, e acabou se extendendo a instalação de pacotes e outras features interessantes.</p>
+
+<p>Eu utilizo o Slackpkg para atualizar pacotes e para instalar pacotes padrão da distro, e para isso é muito bom, mas não pense que ele vai instalar aquele pacote xyz que você estava procurando, pois ele não é um apt-get.
+<h4><a href="#">4. Slapt-get</a>
+<blockquote><a title="Slapt-get no Linux Packages" href="http://www.linuxpackages.net/pkg_details.php?id=12307">
+</a></blockquote>
+</h4>
+<a title="Página Oficial do Linux Packages" href="http://software.jaos.org/">Slapt-get</a> ( pode-se fazer o download no <a title="Slapt-get no Linux Packages" href="http://www.linuxpackages.net/pkg_details.php?id=12307">Linux Packages</a> ), esse sim tenta ser um apt-get! Ele faz quase as mesmas coisas que o apt-get faz, mas não resolve dependencias.</p>
+
+<p>Ele tambem tem um arquivo de mirrors que fica localizado em /etc/slapt-get/slapt-getrc. E em termos de comandos não muda muito do apt-get, e você pode usar o <em>slapt-get &ndash;install nomeDoPrograma</em> ou <em>slapt-get &ndash;update</em>.
+<h4><a href="#">5. Checkinstall</a></h4>
+O <a title="Download checkinstall" href="http://asic-linux.com.mx/~izto/checkinstall/download.php">checkinstall</a> é utilizado para quando você estiver instalando um programa a partir do seu fonte você possa gerar um pacote da sua distribuição no final da instalação e instalar por ele, assim você terá mais controle pelo seu gerenciador de pacotes e tambem para que da próxima vez seja mais fácil instalá-lo.</p>
+
+<p>A instalação segue padrão até o momento final:</p>
+
+<p>$ ./configure
+$ make</p>
+
+<p>E agora ao invés do nosso # make install usaremos:</p>
+
+<h1>checkinstall -S</h1>
+
+<p>E assim ele vai criar um pacote Slackware no diretório e instalar. :)</p>
+
+<p>Bem isso é só para dar uma idéia do que se pode fazer para deixar suas instalações do Slackware mais rápidas.</p>
+
+<p>Há braços</p>
+
+	  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'pothixcom';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+        </div>
+      </article>
+    </main>
+  </div>
+</div>
+
+	<footer class="footer-widget-area">
+          <div class="inside">
+            <div class="grids">
+              <aside id="stag-dribbble-2" class="widget grid-4 stag-dribbble">
+		<div class='stag-dribbble-widget'>
+		  <h3 class="widget-title">
+		    <span>A Dribbble widget</span>
+		  </h3>
+		  <ul class="dribbbles">
+                    <li class="dribbble-shot">
+                      <a href="https://dribbble.com/shots/2049446-Higgs-A-portfolio-WordPress-theme" class="dribbble-link" title="Higgs - A portfolio WordPress theme" target="_blank"><img src="https://d13yacurqjgara.cloudfront.net/users/271608/screenshots/2049446/higgs.jpg" alt="Higgs - A portfolio WordPress theme"></a>
+		    </li>
+                  </ul>
+		</div>
+	      </aside>
+
+	      <aside id="recent-posts-2" class="widget grid-4 widget_recent_entries">
+		<h3 class="widget-title">
+		  <span>latest blog entries</span>
+		</h3>
+		
+		<ul>
+		    <li>
+		      <a href="/2015/05/25/2015-05-25-new-layout-of-pothix-blog.html">New layout of PotHix blog</a> <span class="post-date">May 25, 2015</span>
+		    </li>
+		    <li>
+		      <a href="/2015/03/20/2015-03-20-as-escolhas-do-desenvolvedor.html">As escolhas do desenvolvedor</a> <span class="post-date">Mar 20, 2015</span>
+		    </li>
+		    <li>
+		      <a href="/2014/02/14/2014-02-14-ruby-python-e-native-threads.html">Ruby, Python e native threads</a> <span class="post-date">Feb 14, 2014</span>
+		    </li>
+		    <li>
+		      <a href="/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html">Golang and 1.2 version performance improvement</a> <span class="post-date">Dec  3, 2013</span>
+		    </li>
+                </ul>
+              </aside>
+
+	      <aside id="text-2" class="widget grid-4 widget_text">
+		<h3 class="widget-title">
+		  <span>More about me</span>
+		</h3>
+		<div class="textwidget">
+		  I'm a passionate programmer that likes to play with different things like games in the browser, networking, hypervisors and some financing in my spare time.
+		  <br/><br/>
+		  I've been playing with Python, Ruby, Javascript and a little bit of Golang and C in the past months, hope to spread good information here. ;)
+		</div>
+              </aside>
+            </div>
+          </div>
+	</footer>
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+          <div class="site-info">
+            <div class="grids">
+              <div class="grid-6">
+                © 2015 <a href="http://demo.codestag.com/doctype/">Doctype</a> WordPress Theme by <a href="//codestag.com">Codestag</a> modified by PotHix
+	      </div>
+            </div>
+          </div>
+	</footer>
+      </div>
+    </body>
+</html>
+
