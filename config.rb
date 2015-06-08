@@ -41,7 +41,9 @@ activate :blog do |blog|
   }
 end
 
-page "/feed.xml", layout: false
+page "/feed.xml",      layout: false
+page "/feed_en.xml",   layout: false
+page "/feed_tech.xml", layout: false
 
 ###
 # Compass
