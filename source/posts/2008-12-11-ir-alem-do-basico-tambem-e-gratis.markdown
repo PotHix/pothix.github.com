@@ -1,6 +1,6 @@
 ---
 title: "Ir além do básico tambem é gratis"
-date: "2008-12-11",
+date: "2008-12-11"
 tags: "linux,programming,tech,tips"
 category: "tips"
 ---
