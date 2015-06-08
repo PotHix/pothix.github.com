@@ -1,8 +1,8 @@
 ---
 title: "Serviços legais de Agosto"
 date: "2009-08-06"
-tags: "cool services,websites"
-category: "cool services"
+tags: "tips,review"
+category: "review"
 ---
 
 E lá vamos nós com mais um post (que felizmente estou conseguindo

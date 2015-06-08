@@ -1,8 +1,8 @@
 ---
 title: "Mais de uma distro no Notebook!"
 date: "2008-10-13"
-tags: "tech,ubuntu"
-category: "ubuntu"
+tags: "personal,ubuntu,linux"
+category: "linux"
 ---
 
 Pouco tempo atrás comprei um notebook

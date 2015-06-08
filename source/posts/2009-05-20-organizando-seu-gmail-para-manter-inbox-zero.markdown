@@ -1,7 +1,7 @@
 ---
 title: "Organizando seu Gmail para manter Inbox zero"
 date: "2009-05-20"
-tags: "gtd,tech"
+tags: "gtd,tech,personal"
 category: "personal"
 ---
 

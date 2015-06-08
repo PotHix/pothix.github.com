@@ -1,7 +1,7 @@
 ---
 title: "Translated Rubylearning presentation"
 date: "2009-04-10"
-tags: "events,ruby,rubylearning,tech"
+tags: "events,ruby,rubylearning,tech,english"
 category: "english"
 ---
 

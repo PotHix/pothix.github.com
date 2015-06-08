@@ -1,8 +1,8 @@
 ---
 title: "Instalando gems do GitHub manualmente"
 date: "2009-07-28"
-tags: "development,ruby,tech"
-category: "development"
+tags: "dev,ruby,tech"
+category: "dev"
 ---
 
 Esse vai ser um post rápido para relatar um problema que eu tive ( e

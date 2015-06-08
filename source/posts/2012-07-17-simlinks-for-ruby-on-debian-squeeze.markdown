@@ -1,8 +1,8 @@
 ---
 title: "Simlinks for ruby on Debian Squeeze"
 date: "2012-07-17"
-tags: "development,linux"
-category: "development"
+tags: "dev,linux,english"
+category: "dev"
 ---
 
 Every time we need to deploy a new Ruby application on top of Debian Squeeze

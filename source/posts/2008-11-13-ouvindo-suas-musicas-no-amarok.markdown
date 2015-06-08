@@ -1,8 +1,8 @@
 ---
 title: "Ouvindo suas musicas no Amarok"
 date: "2008-11-13"
-tags: "desktop,tech,ubuntu"
-category: "ubuntu"
+tags: "desktop,ubuntu,linux"
+category: "linux"
 ---
 
 Como sabem, instalei o Ubuntu no meu notebook Toshiba U405-S2854, e

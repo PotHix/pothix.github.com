@@ -1,7 +1,7 @@
 ---
 title: "Sempre aprender coisas diferentes"
 date: "2011-04-27"
-tags: "peoplesuck"
+tags: "people,personal"
 category: "personal"
 ---
 

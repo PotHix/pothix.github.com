@@ -1,8 +1,8 @@
 ---
 title: "Menos mac e mais Linux"
 date: "2012-07-19"
-tags: "development,linux"
-category: "development"
+tags: "dev,linux,tech"
+category: "dev"
 ---
 
 **TL; DR** Usei mac por mais de 6 meses e decidi voltar ao Linux. Na minha opinião

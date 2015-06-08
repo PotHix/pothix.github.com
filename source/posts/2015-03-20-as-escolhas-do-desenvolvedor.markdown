@@ -1,8 +1,9 @@
 ---
 title: "As escolhas do desenvolvedor"
 date: "2015-03-20"
-tags: "development"
-category: "development"
+tags: "dev"
+category: "dev"
+published: false
 ---
 
 Esse ano eu aceitei o convite da [Locaweb](http://www.locaweb.com.br) para

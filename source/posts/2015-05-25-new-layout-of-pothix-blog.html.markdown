@@ -1,8 +1,8 @@
 ---
 title: New layout of PotHix blog
 date: 2015-05-25
-tags: announcement
-category: announce
+tags: news
+category: news
 ---
 
 Welcome to the new blog layout of PotHix.com! :)

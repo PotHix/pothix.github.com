@@ -1,11 +1,11 @@
 ---
 title: "Ativando numlock na Inicialização do Fluxbox no Slackware"
 date: "2008-11-13"
-tags: "slackware,tech"
-category: "slackware"
+tags: "slackware,tech,linux"
+category: "linux"
 ---
 
-Pessoal, estava eu pesquisando na internet como conseguir fazer o meu
+Estava eu pesquisando na internet como conseguir fazer o meu
 numlock já iniciar ativado quando meu fluxbox inicia e encontrei
 várias dicas, sendo umas para XFCE e outros sistemas não sendo
 Slackware, portanto decidi escrever como fiz no Slackware.

@@ -1,12 +1,14 @@
 ---
 title: "Vendo Dragstar 2008"
 date: "2013-07-29"
-tags: ""
+tags: "personal,motorcycle"
 category: "personal"
 ---
 
-Chegou a hora de pendurar o colete por um tempo, obviamente estarei de volta num futuro não tão distante, mas pelo menos por enquanto vou ficar um tempo sem motos.
-Por esse motivo estou vendendo minha Dragstar 2008.
+Chegou a hora de pendurar o colete por um tempo, obviamente estarei de
+volta num futuro não tão distante, mas pelo menos por enquanto vou
+ficar um tempo sem motos. Por esse motivo estou vendendo minha
+Dragstar 2008.
 
 Informações sobre ela:
 
@@ -29,4 +31,6 @@ Acessórios que vão com ela (além de todas as peças originais):
 
 [![Foto da minha dragstar 2008](images/posts/dragstar.jpg "Dragstar 2008")](/images/posts/dragstar.jpg "")
 
-Quase 2k de acessórios. Se estiver interessado em comprar sem os acessórios o preço diminui também, mas entre em contato e conversamos. :)
+Quase 2k de acessórios. Se estiver interessado em comprar sem os
+acessórios o preço diminui também, mas entre em contato e
+conversamos. :)

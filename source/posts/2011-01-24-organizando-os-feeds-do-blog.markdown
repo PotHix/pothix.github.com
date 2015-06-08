@@ -1,8 +1,8 @@
 ---
 title: "Organizando os Feeds do Blog"
 date: "2011-01-24"
-tags: ""
-category: "development"
+tags: "dev,personal,tech"
+category: "dev"
 ---
 
 Como muitos sabem, eu sou meio doido por organização (heheh) e eu

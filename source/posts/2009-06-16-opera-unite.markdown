@@ -1,8 +1,8 @@
 ---
 title: "Opera Unite"
 date: "2009-06-16"
-tags: "opera"
-category: "development"
+tags: "opera,dev"
+category: "dev"
 ---
 
 Hoje é o dia em que o pessoal da Opera falou que iria reinventar a

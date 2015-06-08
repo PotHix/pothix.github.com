@@ -1,8 +1,8 @@
 ---
 title: "Começando a falar de Ruby"
 date: "2009-04-13"
-tags: "rails,ruby,tech"
-category: "development"
+tags: "rails,ruby,tech,dev"
+category: "dev"
 ---
 
 Se você já conhece Ruby, ignore esse post! A idéia do post é mostrar

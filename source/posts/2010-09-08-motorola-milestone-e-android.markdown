@@ -1,8 +1,8 @@
 ---
 title: "Motorola Milestone e Android"
 date: "2010-09-08"
-tags: "android,tech"
-category: "android"
+tags: "android,tech,personal"
+category: "personal"
 ---
 
 Muita gente tem me perguntado sobre o meu Android atual, um motorola

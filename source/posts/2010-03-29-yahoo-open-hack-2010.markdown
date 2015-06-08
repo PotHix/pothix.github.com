@@ -1,7 +1,7 @@
 ---
 title: "Yahoo Open Hack 2010"
 date: "2010-03-29"
-tags: "events,hack,ruby,tech"
+tags: "events,ruby,tech"
 category: "events"
 ---
 

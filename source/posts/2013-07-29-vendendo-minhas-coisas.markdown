@@ -1,11 +1,9 @@
 ---
 title: "Vendendo minhas coisas"
 date: "2013-07-29"
-tags: ""
+tags: "personal"
 category: "personal"
 ---
-
-Pessoal,
 
 Esse ano aconteceram algumas coisas zuadas para mim e resolvi capitalizar o
 dinheiro das coisas que eu tenho e começar denovo no ano que vem.

@@ -1,8 +1,8 @@
 ---
 title: "XMPP e Ruby"
 date: "2012-07-10"
-tags: ""
-category: "development"
+tags: "ruby,dev,tech"
+category: "dev"
 ---
 
 Alguns (vários…) meses atrás eu fiz uma palestra pequena no Guru-SP(São Paulo

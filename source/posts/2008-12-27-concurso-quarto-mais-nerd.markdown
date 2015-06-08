@@ -1,8 +1,8 @@
 ---
 title: "Concurso Quarto mais Nerd"
 date: "2008-12-27"
-tags: "geek"
-category: "geek / nerd"
+tags: "personal"
+category: "geek"
 ---
 
 Bem...Estava eu aproveitando as férias (tanto da faculdade como as

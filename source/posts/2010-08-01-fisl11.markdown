@@ -1,7 +1,7 @@
 ---
 title: "FISL11"
 date: "2010-08-01"
-tags: ""
+tags: "events,tech"
 category: "events"
 ---
 

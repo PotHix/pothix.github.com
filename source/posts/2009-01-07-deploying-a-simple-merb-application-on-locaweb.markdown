@@ -2,7 +2,7 @@
 title: "Deploying a simple Merb application on Locaweb"
 date: "2009-01-07"
 tags: "english,linux,ruby,tech"
-category: "english"
+category: "dev"
 ---
 
 I writing this post to help my friends of

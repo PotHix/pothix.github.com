@@ -1,7 +1,7 @@
 ---
 title: "Saldo final das férias de julho"
 date: "2009-08-17"
-tags: "university,vacation"
+tags: "personal"
 category: "personal"
 ---
 

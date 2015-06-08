@@ -1,12 +1,13 @@
 ---
 title: "Vendo intruder 125 customizada e com guidão seca suvaco"
 date: "2013-07-29"
-tags: ""
+tags: "personal,motorcycle"
 category: "personal"
 ---
 
-Depois de brincar de customização de motos por um tempo chegou a hora de vender minha intrudinha.
-Estou com ela desde 2008 e só me deu alegrias.
+Depois de brincar de customização de motos por um tempo chegou a hora
+de vender minha intrudinha. Estou com ela desde 2008 e só me deu
+alegrias.
 
 Algumas informações sobre ela:
 
@@ -26,7 +27,8 @@ Acessórios (fora todos os itens originais que vão junto!)
 
 ![Foto da minha intruder 2008 customizada](/images/posts/intruder.jpg "Intruder 2008 customizada")
 
-Quem estiver interessado é só entrar em contato por email, ou aqui nos comentários mesmo.
+Quem estiver interessado é só entrar em contato por email, ou aqui nos
+comentários mesmo.
 
 
 

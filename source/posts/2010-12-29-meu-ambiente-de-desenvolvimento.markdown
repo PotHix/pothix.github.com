@@ -1,8 +1,8 @@
 ---
 title: "Meu ambiente de desenvolvimento"
 date: "2010-12-29"
-tags: "environment,tech"
-category: "development"
+tags: "dev,tech"
+category: "dev"
 ---
 
 Fui convidado pelo [@jtadeulopes](http://twitter.com/#!/jtadeulopes) e

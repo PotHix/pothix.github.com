@@ -1,8 +1,8 @@
 ---
 title: "Golang and 1.2 version performance improvement"
 date: "2013-12-03"
-tags: "golang"
-category: "development"
+tags: "golang,english,dev,tech"
+category: "dev"
 ---
 
 I've started using Go last month and I really liked to work with the language.

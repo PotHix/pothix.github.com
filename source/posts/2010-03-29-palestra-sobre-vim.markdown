@@ -1,8 +1,8 @@
 ---
 title: "Palestra sobre Vim"
 date: "2010-03-29"
-tags: "linux,presentation,tech,vim"
-category: "presentation"
+tags: "linux,speaking,tech,vim"
+category: "speaking"
 ---
 
 Esse vai ser um post curto, apenas para deixar registrado algumas

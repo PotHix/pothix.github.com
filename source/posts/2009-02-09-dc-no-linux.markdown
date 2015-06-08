@@ -1,8 +1,8 @@
 ---
 title: "DC++ no Linux"
 date: "2009-02-09"
-tags: "applications,tech,ubuntu"
-category: "ubuntu"
+tags: "tech,linux"
+category: "linux"
 ---
 
 Hoje finalmente estou conseguindo escrever um post sobre o DC++! Desde

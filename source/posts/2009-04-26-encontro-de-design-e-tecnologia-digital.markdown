@@ -1,7 +1,7 @@
 ---
 title: "Encontro de Design e Tecnologia Digital"
 date: "2009-04-26"
-tags: "development,events,tech"
+tags: "dev,events,tech"
 category: "events"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "O Guru-SP e seus 5 anos de vida"
 date: "2013-09-17"
-tags: ""
+tags: "events,ruby"
 category: "events"
 ---
 

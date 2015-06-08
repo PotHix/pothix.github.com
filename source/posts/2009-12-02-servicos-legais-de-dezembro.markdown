@@ -1,8 +1,8 @@
 ---
 title: "Serviços legais de dezembro"
 date: "2009-12-02"
-tags: "cool services,tech"
-category: "cool services"
+tags: "review,tips"
+category: "review"
 ---
 
 Infelizmente não consegui postar sobre os serviços legais do mes de

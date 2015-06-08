@@ -1,8 +1,8 @@
 ---
-title: "Montando imagens do Nero ( nrg ) no Linux"
+title: "Montando imagens do Nero (nrg) no Linux"
 date: "2008-11-29"
-tags: "slackware,tech,ubuntu"
-category: "win2linux"
+tags: "tech,linux"
+category: "linux"
 ---
 
 Vou comentar agora sobre como montar aquela imagem chata do Nero (.nrg

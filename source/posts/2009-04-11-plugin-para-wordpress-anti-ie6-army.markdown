@@ -1,8 +1,8 @@
 ---
 title: "Plugin para WordPress: Anti IE6 Army"
 date: "2009-04-11"
-tags: "development,mozilla,tech"
-category: "development"
+tags: "dev,tech"
+category: "dev"
 ---
 
 Estou postando para anunciar que foi lançada a versão 1.0 do meu

@@ -1,8 +1,8 @@
 ---
 title: "Facilitando a instalação de pacotes no Slackware"
 date: "2008-11-11"
-tags: "slackware,tech"
-category: "slackware"
+tags: "slackware,linux,tech"
+category: "linux"
 ---
 
 Estava escrevendo outro post e chegando em um ponto onde eu instalaria

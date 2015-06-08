@@ -1,8 +1,8 @@
 ---
 title: "Configurando seu git para começar a usar"
 date: "2008-12-21"
-tags: "git,tech"
-category: "development"
+tags: "tech,linux,dev"
+category: "dev"
 ---
 
 Meu ultimo post foi sobre como subir um projeto para o

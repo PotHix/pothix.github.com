@@ -1,8 +1,8 @@
 ---
 title: "Como são os primeiros passos de um Linuxer"
 date: "2008-11-29"
-tags: "personal,tech,win2linux"
-category: "win2linux"
+tags: "personal,tech,linux"
+category: "linux"
 ---
 
 Nesse post eu vou contar um pouco de como são os primeiros passos de

@@ -1,7 +1,7 @@
 ---
 title: "Saudades do Poker"
 date: "2012-10-31"
-tags: ""
+tags: "games"
 category: "games"
 ---
 

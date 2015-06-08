@@ -1,8 +1,8 @@
 ---
 title: "VIVO online agora funciona no Firefox / Safari"
 date: "2009-01-30"
-tags: "development,mozilla,tech"
-category: "development"
+tags: "dev,tech"
+category: "dev"
 ---
 
 Boas novas!

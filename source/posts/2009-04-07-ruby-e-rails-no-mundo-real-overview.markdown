@@ -1,7 +1,7 @@
 ---
 title: "Ruby e Rails no mundo real"
 date: "2009-04-07"
-tags: "events,tech"
+tags: "events,tech,ruby,rails"
 category: "events"
 ---
 

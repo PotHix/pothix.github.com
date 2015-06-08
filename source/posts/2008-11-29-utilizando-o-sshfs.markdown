@@ -1,8 +1,8 @@
 ---
 title: "Utilizando o sshfs"
 date: "2008-11-29"
-tags: "slackware,tech,ubuntu"
-category: "slackware"
+tags: "tech,linux"
+category: "linux"
 ---
 
 Estou utilizando bastante o

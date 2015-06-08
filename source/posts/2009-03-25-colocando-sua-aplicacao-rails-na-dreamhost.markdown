@@ -1,14 +1,14 @@
 ---
 title: "Colocando sua aplicação Rails na Dreamhost"
 date: "2009-03-25"
-tags: "deploy,git,rails,ruby,tech"
-category: "development"
+tags: "rails,ruby,tech,dev"
+category: "dev"
 ---
 
 Estou fazendo um pequeno site em Rails e como tinha que mostrar o
 andamento para um colega, aproveitei para testar como seria o Deploy
 desse projeto na DreamHost ( mesmo sabendo que o provedor final não
-será lá ), e achei  muito fácil de se fazer, portanto resolvi escrever
+será lá ), e achei muito fácil de se fazer, portanto resolvi escrever
 um pouco sobre o processo. :D
 
 Primeiramente, você precisa ter acesso SSH na sua conta. Se você ainda

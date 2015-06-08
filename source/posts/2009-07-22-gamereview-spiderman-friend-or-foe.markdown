@@ -1,8 +1,8 @@
 ---
 title: "GameReview: SpiderMan - Friend or Foe"
 date: "2009-07-22"
-tags: "gamereview,psp"
-category: "games"
+tags: "gamereview,games,review"
+category: "review"
 ---
 
 Aqui estou eu com mais um GameReview de um jogo que eu tenho jogado

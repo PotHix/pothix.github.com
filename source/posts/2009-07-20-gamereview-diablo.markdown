@@ -1,8 +1,8 @@
 ---
 title: "GameReview: Diablo"
 date: "2009-07-20"
-tags: "diablo,gamereview,psp"
-category: "games"
+tags: "games,gamereview,review"
+category: "review"
 ---
 
 Pois é... Sei que muitos de vocês devem estar pensando se esse era um

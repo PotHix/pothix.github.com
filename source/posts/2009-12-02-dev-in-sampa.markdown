@@ -1,7 +1,7 @@
 ---
 title: "Dev In Sampa"
 date: "2009-12-02"
-tags: "development,events,games,python,rails,ruby,tech"
+tags: "dev,events,tech"
 category: "events"
 ---
 

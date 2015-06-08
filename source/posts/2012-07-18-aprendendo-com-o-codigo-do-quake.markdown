@@ -1,8 +1,8 @@
 ---
 title: "Aprendendo com o código do Quake"
 date: "2012-07-18"
-tags: "development"
-category: "development"
+tags: "dev,tech"
+category: "dev"
 ---
 
 Desde que eu terminei a faculdade eu venho lendo bastante coisa útil (foi muita 

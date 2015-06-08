@@ -1,8 +1,8 @@
 ---
 title: "Primeiro post por aqui!"
 date: "2008-09-02"
-tags: "personal"
-category: "off-topic"
+tags: "news"
+category: "news"
 ---
 
 Bem, como primeiro post vou me apresentar e dizer qual o meu intuito

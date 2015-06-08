@@ -1,8 +1,8 @@
 ---
 title: "Conto da migração para Rails 3"
 date: "2010-10-21"
-tags: "rails,ruby,tech"
-category: "development"
+tags: "rails,ruby,tech,dev"
+category: "dev"
 ---
 
 Nesse post eu vou falar um pouco de como foi atualizar a aplicação que

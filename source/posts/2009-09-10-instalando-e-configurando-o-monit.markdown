@@ -1,8 +1,8 @@
 ---
 title: "Instalando e configurando o monit"
 date: "2009-09-10"
-tags: "monitoring,sysadmin,tech"
-category: "development"
+tags: "monitoring,tech,dev"
+category: "dev"
 ---
 
 Esses dias eu peguei para instalar o monit no servidor da empresa que

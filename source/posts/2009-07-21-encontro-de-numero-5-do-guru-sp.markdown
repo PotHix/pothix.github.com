@@ -1,7 +1,7 @@
 ---
 title: "Encontro de numero 5 do Guru-sp"
 date: "2009-07-21"
-tags: "development,events,rails,ruby,tech,ubuntu"
+tags: "dev,events,rails,ruby,tech"
 category: "events"
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: "Fora IE6"
 date: "2009-01-12"
-tags: "development"
-category: "advice"
+tags: "dev"
+category: "tips"
 ---
 
 Já está mais do que na hora de eu fazer um post sobre isso, e acho que

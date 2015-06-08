@@ -1,7 +1,7 @@
 ---
 title: "Fluxo de leitura e o Android"
 date: "2010-09-08"
-tags: "android,ebooks,organization"
+tags: "android,books,personal"
 category: "android"
 ---
 

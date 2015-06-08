@@ -1,8 +1,8 @@
 ---
 title: "Iniciando seu primeiro projeto no GitHub"
 date: "2008-12-21"
-tags: "git,tech"
-category: "development"
+tags: "tech,dev"
+category: "dev"
 ---
 
 Hoje estou aqui para postar um pouco sobre o GitHub! =)

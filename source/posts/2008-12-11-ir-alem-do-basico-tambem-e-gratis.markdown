@@ -1,8 +1,8 @@
 ---
 title: "Ir além do básico tambem é gratis"
-date: "2008-12-11"
-tags: "linux,programming,tech"
-category: "advice"
+date: "2008-12-11",
+tags: "linux,programming,tech,tips"
+category: "tips"
 ---
 
 Faz um tempinho que eu estou querendo fazer um post seguindo os moldes

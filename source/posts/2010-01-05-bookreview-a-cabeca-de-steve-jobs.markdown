@@ -1,7 +1,7 @@
 ---
 title: "BookReview: A cabeça de Steve Jobs"
 date: "2010-01-05"
-tags: "entrepreneurship,tech"
+tags: "review,books"
 category: "books"
 ---
 

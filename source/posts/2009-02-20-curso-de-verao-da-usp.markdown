@@ -1,7 +1,7 @@
 ---
 title: "Curso de verão da USP"
 date: "2009-02-20"
-tags: "algorithms,courses,tech"
+tags: "courses,tech"
 category: "courses"
 ---
 

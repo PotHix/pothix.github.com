@@ -1,8 +1,8 @@
 ---
 title: "Projeto de fevereiro"
 date: "2009-04-03"
-tags: "development,personal,tech"
-category: "development"
+tags: "dev,personal,tech"
+category: "dev"
 ---
 
 No mês de fevereiro eu estive envolvido com um projeto bem

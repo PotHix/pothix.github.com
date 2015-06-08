@@ -1,8 +1,8 @@
 ---
 title: "A facilidade do Ubuntu"
 date: "2008-11-29"
-tags: "tech,ubuntu,win2linux"
-category: "win2linux"
+tags: "tech,ubuntu,linux"
+category: "linux"
 ---
 
 Deixa eu explicar aqui para quem estou destinando esse post. Esse post

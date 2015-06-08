@@ -1,8 +1,8 @@
 ---
 title: "BookReview: Lord of the Rings"
 date: "2009-07-25"
-tags: "books,lotr"
-category: "books"
+tags: "books,review"
+category: "review"
 ---
 
 Chegou o momento que eu estava esperando há vários meses.... Após

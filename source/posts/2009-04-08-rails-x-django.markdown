@@ -1,8 +1,8 @@
 ---
 title: "Rails X Django"
 date: "2009-04-08"
-tags: "django,python,rails,ruby,tech"
-category: "development"
+tags: "django,python,rails,ruby,tech,dev"
+category: "dev"
 ---
 
 Como todos sabem eu sou do mundo Ruby/Rails (Não sou xiita mas é o

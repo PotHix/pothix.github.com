@@ -1,8 +1,8 @@
 ---
 title: "Serviços legais de outubro"
 date: "2009-10-04"
-tags: "cool services,scrum,tech,uml"
-category: "cool services"
+tags: "tips,review"
+category: "review"
 ---
 
 Já estava me esquecendo de postar sobre os serviçoes legais desse mes! :P

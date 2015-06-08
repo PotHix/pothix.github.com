@@ -1,8 +1,8 @@
 ---
 title: "Instalando modem 3G Claro USB E226 no Ubuntu"
 date: "2009-06-13"
-tags: "internet,tech,ubuntu"
-category: "ubuntu"
+tags: "tech,linux"
+category: "linux"
 ---
 
 Após receber um modem Claro da [empresa que eu trabalho atualmente](http://www.ikwa.com.br "Ikwa Orientação Profissional")

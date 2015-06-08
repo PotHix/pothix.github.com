@@ -1,8 +1,8 @@
 ---
 title: "Ruby, Python e native threads"
 date: "2014-02-14"
-tags: ""
-category: "development"
+tags: "ruby,python,dev,tech"
+category: "dev"
 ---
 
 Pode ser que eu seja meio burro (heheh) mas eu ainda achava que o Ruby e o

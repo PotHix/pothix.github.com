@@ -1,8 +1,8 @@
 ---
 title: "Game Network Programming"
 date: "2013-07-15"
-tags: "gamedev"
-category: "development"
+tags: "gamedev,speaking,english,dev"
+category: "dev"
 ---
 
 **English Abstract**: This post was about my presentation with Diego Souza

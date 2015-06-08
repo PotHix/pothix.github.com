@@ -1,8 +1,8 @@
 ---
 title: "Um pouco sobre o Vim"
 date: "2009-08-14"
-tags: "development,tech,vim"
-category: "development"
+tags: "dev,tech,vim"
+category: "dev"
 ---
 
 Aqui começa uma série de artigos sobre por que eu gosto de usar o VIM

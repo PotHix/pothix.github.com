@@ -1,8 +1,8 @@
 ---
 title: "Usuários resolvem os problemas da VIVO"
 date: "2009-01-13"
-tags: "community,congratulate,mozilla,tech"
-category: "development"
+tags: "tech,news,dev"
+category: "dev"
 ---
 
 Primeiramente quero parabenizar o

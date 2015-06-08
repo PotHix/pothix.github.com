@@ -1,8 +1,8 @@
 ---
 title: "Ruby Inside Brasil"
 date: "2009-03-31"
-tags: "tech"
-category: "development"
+tags: "tech,dev,ruby"
+category: "dev"
 ---
 
 Há um tempo já que eu deveria ter postado sobre o [Ruby Inside Brasil],

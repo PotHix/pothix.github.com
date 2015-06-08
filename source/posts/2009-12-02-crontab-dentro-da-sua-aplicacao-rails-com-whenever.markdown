@@ -1,8 +1,8 @@
 ---
 title: "Crontab dentro da sua aplicação rails com whenever"
 date: "2009-12-02"
-tags: "rails,ruby,tech"
-category: "development"
+tags: "rails,ruby,tech,dev"
+category: "dev"
 ---
 
 Hoje estou aqui para falar de uma coisa que quando vi pela primeira vez

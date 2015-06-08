@@ -1,8 +1,8 @@
 ---
 title: "Serviços legais de Janeiro"
 date: "2010-01-26"
-tags: ""
-category: "cool services"
+tags: "tips,review"
+category: "review"
 ---
 
 E ae galera! Vamos para mais um post sobre os serviços legais do mes.

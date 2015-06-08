@@ -1,8 +1,8 @@
 ---
 title: "First post in English here"
 date: "2008-12-16"
-tags: "personal"
-category: "English"
+tags: "personal,english"
+category: "english"
 ---
 
 Hi international friends! :)

@@ -1,8 +1,8 @@
 ---
 title: "Show do ACDC"
 date: "2009-12-01"
-tags: ""
-category: "music"
+tags: "events,music"
+category: "events"
 ---
 
 Como muitos sabem eu tive o prazer de estar no show do ACDC aqui no

@@ -1,8 +1,8 @@
 ---
 title: "BookReview: Pragmatic version control using Git"
 date: "2009-07-19"
-tags: "books,development,git,tech"
-category: "books"
+tags: "books,dev,tech,review"
+category: "review"
 ---
 
 Há tempos que eu estava querendo conhecer um pouco mais do Git e nos

@@ -1,5 +1,5 @@
 ---
-title: "Rails Summit Latin Amerira ( Day 2 )"
+title: "Rails Summit Latin Amerira (Day 2)"
 date: "2008-10-22"
 tags: "events,rails,ruby,tech"
 category: "development"

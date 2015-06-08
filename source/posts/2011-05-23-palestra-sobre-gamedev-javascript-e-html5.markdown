@@ -1,7 +1,7 @@
 ---
 title: "Palestra sobre Gamedev, Javascript e HTML5"
 date: "2011-05-23"
-tags: "gamedev"
+tags: "gamedev,speaking"
 category: "games"
 ---
 

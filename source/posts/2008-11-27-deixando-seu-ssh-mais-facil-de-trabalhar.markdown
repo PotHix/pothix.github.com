@@ -1,8 +1,8 @@
 ---
 title: "Deixando seu ssh mais facil de trabalhar"
 date: "2008-11-27"
-tags: "slackware,tech,ubuntu"
-category: "slackware"
+tags: "tech,linux"
+category: "linux"
 ---
 
 Se você usa bastante [SSH](http://en.wikipedia.org/wiki/Ssh) vou

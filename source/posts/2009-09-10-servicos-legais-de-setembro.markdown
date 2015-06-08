@@ -1,8 +1,8 @@
 ---
 title: "Serviços legais de setembro"
 date: "2009-09-10"
-tags: "music"
-category: "cool services"
+tags: "review,tips"
+category: "review"
 ---
 
 E lá vamos nós novamente para mais um post sobre os serviços legais que eu encontrei esse mes.

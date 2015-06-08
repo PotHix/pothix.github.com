@@ -1,8 +1,8 @@
 ---
 title: "Serviços legais de Março"
 date: "2010-04-01"
-tags: "cool services"
-category: "cool services"
+tags: "review,tips"
+category: "review"
 ---
 
 Como vocês puderam perceber (ou não) eu não postei sobre os serviços

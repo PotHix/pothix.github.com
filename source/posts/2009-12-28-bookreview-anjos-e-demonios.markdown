@@ -1,8 +1,8 @@
 ---
 title: "BookReview: Anjos e Demônios"
 date: "2009-12-28"
-tags: "books"
-category: "books"
+tags: "books,review"
+category: "review"
 ---
 
 Felizmente eu estou de férias da faculdade novamente, e isso me dá um

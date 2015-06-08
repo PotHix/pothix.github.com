@@ -1,8 +1,8 @@
 ---
 title: "Serviços legais de Julho"
 date: "2009-07-04"
-tags: "websites"
-category: "cool services"
+tags: "tips,review"
+category: "review"
 ---
 
 Esse mês eu estou conseguindo novamente fazer um post sobre os

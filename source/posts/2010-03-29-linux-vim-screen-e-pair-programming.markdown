@@ -1,8 +1,8 @@
 ---
 title: "Linux, Vim, Screen e Pair programming!"
 date: "2010-03-29"
-tags: "linux,tech"
-category: "development"
+tags: "linux,tech,dev"
+category: "dev"
 ---
 
 Aqui estou eu mais uma vez para falar mais uma das maluquices que eu

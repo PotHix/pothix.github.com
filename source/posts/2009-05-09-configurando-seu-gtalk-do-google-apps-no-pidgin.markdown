@@ -1,8 +1,8 @@
 ---
 title: "Configurando seu Gtalk do Google Apps no Pidgin"
 date: "2009-05-09"
-tags: "slackware,tech,ubuntu"
-category: "slackware"
+tags: "tech,linux"
+category: "linux"
 ---
 
 Resolvi postar sobre isso depois de passar por 3 empresas que usam o

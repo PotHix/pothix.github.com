@@ -1,7 +1,7 @@
 ---
 title: "Voltando a ser um gamer"
 date: "2008-12-14"
-tags: "game development,games,psp"
+tags: "gamedev,games"
 category: "games"
 ---
 

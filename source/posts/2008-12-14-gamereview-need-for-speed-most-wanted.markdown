@@ -1,8 +1,8 @@
 ---
 title: "GameReview: Need For Speed - Most Wanted"
 date: "2008-12-14"
-tags: "gamereview,games,psp"
-category: "games"
+tags: "gamereview,games"
+category: "review"
 ---
 
 Como eu disse no [ultimo post](http://pothix.com/blog/games/voltando-a-ser-um-gamer) 

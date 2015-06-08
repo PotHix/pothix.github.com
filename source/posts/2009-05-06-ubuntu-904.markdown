@@ -1,8 +1,8 @@
 ---
 title: "Ubuntu 9.04"
 date: "2009-05-06"
-tags: "linux,tech,ubuntu"
-category: "ubuntu"
+tags: "linux,tech"
+category: "linux"
 ---
 
 Hoje estou aqui para falar um pouco sobre o Ubuntu 9.04! :)

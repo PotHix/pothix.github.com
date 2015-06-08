@@ -1,8 +1,8 @@
 ---
 title: "Como desabilitar o beep no Ubuntu"
 date: "2009-07-09"
-tags: "tech,ubuntu"
-category: "ubuntu"
+tags: "tech,linux"
+category: "linux"
 ---
 
 Resolvi postar sobre isso por que é uma coisa tão simples mas irrita

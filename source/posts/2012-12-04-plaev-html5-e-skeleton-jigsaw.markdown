@@ -1,8 +1,8 @@
 ---
 title: "Plaev, HTML5 e Skeleton-jigsaw"
 date: "2012-12-04"
-tags: "gamedev,plaev"
-category: "development"
+tags: "gamedev,plaev,dev,tech,speaking"
+category: "dev"
 ---
 
 Depois de muito tempo desenvolvendo finalmente terminamos o Skeleton-Jigsaw em

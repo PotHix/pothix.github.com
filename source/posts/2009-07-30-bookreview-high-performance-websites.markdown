@@ -1,8 +1,8 @@
 ---
 title: "BookReview: High Performance Websites"
 date: "2009-07-30"
-tags: "books,development,tech,websites"
-category: "books"
+tags: "books,review,dev,tech"
+category: "review"
 ---
 
 Mais um dos livros que eu consegui terminar de ler nas férias! O livro

@@ -1,8 +1,8 @@
 ---
 title: "Instalando o Allegro 4.2.2 no Linux x86"
 date: "2009-08-12"
-tags: "allegro,gamedev,slackware,tech,ubuntu"
-category: "development"
+tags: "gamedev,tech,linux,dev"
+category: "dev"
 ---
 
 Como mencionei no
