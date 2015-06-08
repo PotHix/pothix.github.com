@@ -14,7 +14,7 @@
 	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
 
-    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts)" href="/feed.xml" />
 
     <link rel="icon" type="image/png" href="/images/favico.png">
     <link rel='stylesheet' href='/stylesheets/style.css' type='text/css' media='all' />
@@ -68,42 +68,67 @@
 	    Published at <a rel="bookmark" href="/2008/12/21/2008-12-21-configurando-seu-git-para-comecar-a-usar.html">2008/12/21</a><time class="updated" datetime="2008-12-21T00:00:00">Dec 21, 2008</time>
           </span>
           <span class="cat-links">
-            In Category <a rel="category tag" href="/categories/development.html">development</a>
+            In Category <a rel="category tag" href="/categories/dev.html">dev</a>
           </span>
           <span class="tags-links">
-  	    Tags: <a rel="tag" href="/tags/git.html">git</a>,<a rel="tag" href="/tags/tech.html">tech</a>
+  	    Tags: <a rel="tag" href="/tags/tech.html">tech</a>,<a rel="tag" href="/tags/linux.html">linux</a>,<a rel="tag" href="/tags/dev.html">dev</a>
           </span>
         </div>
 
         <div class="entry-content">
-          <p>Æ!!</p>
+          <p>Meu ultimo post foi sobre como subir um projeto para o
+<a href="http://github.com">GitHub</a>, mas me veio agora uma vontade
+repentina de falar como deixar seu git legalzinho para começar a criar
+repositórios e contribuir com códigos! Serão apenas configurações
+básicas, mas que são bem úteis quando você estiver usando o Git
+ativamente!</p>
 
-<p>Meu ultimo post foi sobre como subir um projeto para o <a href="http://github.com">GitHub</a>, mas me veio agora uma vontade repentina de falar como deixar seu git legalzinho para começar a criar repositórios e contribuir com códigos! Serão apenas configurações básicas, mas que são bem úteis quando você estiver usando o Git ativamente!</p>
+<p>Antes de mais nada precisamos instalar o Git, portanto é só baixar ele
+no <a href="http://git.or.cz/#download">repositório oficial</a> e fazer a
+instalação referente ao seu sistema operacional.</p>
 
-<p>Antes de mais nada precisamos instalar o Git, portanto é só baixar ele no <a title="Repositório Oficial do Git" href="http://git.or.cz/#download">repositório oficial</a> e fazer a instalação referente ao seu sistema operacional.
-* No meu Slackware já veio o Git instalado belezinha, portanto foi moleza! No máximo eu atualizei com o SlackPkg.
-* No Ubuntu se eu não me engano eu precisei instalar, mas foi moleza, só baixar o .deb oficial e usar o dpkg -i :)</p>
+<ul>
+<li>No meu Slackware já veio o Git instalado belezinha, portanto foi moleza! No máximo eu atualizei com o SlackPkg.</li>
+<li>No Ubuntu se eu não me engano eu precisei instalar, mas foi moleza, só baixar o .deb oficial e usar o dpkg -i :)</li>
+</ul>
 
 <p>Vamos as configurações:</p>
 
-<p>Primeiramente precisamos de configurar o nosso nome e e-mail:
-<blockquote><code>git config --global user.name &quot;PotHix&quot;
-git config --global user.email &quot;PotHix@pothix.com&quot;</code></blockquote>
-Algora alguns Alias para facilitar:
-<blockquote><code>git config --global alias.st status
+<p>Primeiramente precisamos de configurar o nosso nome e e-mail:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2</pre></td><td class="code"><pre>git config --global user.name "PotHix"
+git config --global user.email "PotHix@pothix.com"
+</pre></td></tr></tbody></table>
+</div>
+
+<p>Algora alguns Alias para facilitar:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4</pre></td><td class="code"><pre>git config --global alias.st status
 git config --global alias.co checkout
 git config --global alias.ci commit
-git config --global alias.br branch</code></blockquote>
-Agora algumas cores para facilitar a leitura quando digitarmos os comandos:
-<blockquote><code>
-git config --global color.status auto
+git config --global alias.br branch
+</pre></td></tr></tbody></table>
+</div>
+
+<p>Agora algumas cores para facilitar a leitura quando digitarmos os comandos:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3</pre></td><td class="code"><pre>git config --global color.status auto
 git config --global color.branch auto
-git config --global color.diff auto</code></blockquote>
-Podemos já criar um projeto simples e enviar para o <a href="http://github.com">GitHub</a> assim como eu fiz no <a href="http://pothix.com/blog/git/iniciando-seu-primeiro-projeto-no-github">post anterior</a> mas agora já usando os nossos alias para ficar mais fácil! :)</p>
+git config --global color.diff auto
+</pre></td></tr></tbody></table>
+</div>
 
-<p>Com Git podemos fazer várias outras coisas que vou falando aos poucos em outros posts, esse aqui é só para mostrar como deixar seu git mais legal para começar.</p>
+<p>Podemos já criar um projeto simples e enviar para o
+<a href="http://github.com">GitHub</a> assim como eu fiz no
+<a href="http://pothix.com/blog/git/iniciando-seu-primeiro-projeto-no-github">post anterior</a>
+mas agora já usando os nossos alias para ficar mais fácil! :)</p>
 
-<p>Há braços</p>
+<p>Com Git podemos fazer várias outras coisas que vou falando aos poucos
+em outros posts, esse aqui é só para mostrar como deixar seu git mais
+legal para começar.</p>
 
 <p><em>Old comments by: Thiago Scherrer, Adelar S.Q. | Not available anymore. :(</em></p>
 
@@ -153,13 +178,13 @@ Podemos já criar um projeto simples e enviar para o <a href="http://github.com"
 		      <a href="/2015/05/25/2015-05-25-new-layout-of-pothix-blog.html">New layout of PotHix blog</a> <span class="post-date">May 25, 2015</span>
 		    </li>
 		    <li>
-		      <a href="/2015/03/20/2015-03-20-as-escolhas-do-desenvolvedor.html">As escolhas do desenvolvedor</a> <span class="post-date">Mar 20, 2015</span>
-		    </li>
-		    <li>
 		      <a href="/2014/02/14/2014-02-14-ruby-python-e-native-threads.html">Ruby, Python e native threads</a> <span class="post-date">Feb 14, 2014</span>
 		    </li>
 		    <li>
 		      <a href="/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html">Golang and 1.2 version performance improvement</a> <span class="post-date">Dec  3, 2013</span>
+		    </li>
+		    <li>
+		      <a href="/2013/09/17/2013-09-17-o-guru-sp-e-seus-5-anos-de-vida.html">O Guru-SP e seus 5 anos de vida</a> <span class="post-date">Sep 17, 2013</span>
 		    </li>
                 </ul>
               </aside>

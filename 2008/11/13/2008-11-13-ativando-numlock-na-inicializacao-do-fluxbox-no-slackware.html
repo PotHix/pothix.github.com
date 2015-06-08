@@ -14,7 +14,7 @@
 	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
 
-    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts)" href="/feed.xml" />
 
     <link rel="icon" type="image/png" href="/images/favico.png">
     <link rel='stylesheet' href='/stylesheets/style.css' type='text/css' media='all' />
@@ -68,43 +68,54 @@
 	    Published at <a rel="bookmark" href="/2008/11/13/2008-11-13-ativando-numlock-na-inicializacao-do-fluxbox-no-slackware.html">2008/11/13</a><time class="updated" datetime="2008-11-13T00:00:00">Nov 13, 2008</time>
           </span>
           <span class="cat-links">
-            In Category <a rel="category tag" href="/categories/slackware.html">slackware</a>
+            In Category <a rel="category tag" href="/categories/linux.html">linux</a>
           </span>
           <span class="tags-links">
-  	    Tags: <a rel="tag" href="/tags/slackware.html">slackware</a>,<a rel="tag" href="/tags/tech.html">tech</a>
+  	    Tags: <a rel="tag" href="/tags/slackware.html">slackware</a>,<a rel="tag" href="/tags/tech.html">tech</a>,<a rel="tag" href="/tags/linux.html">linux</a>
           </span>
         </div>
 
         <div class="entry-content">
-          <p>Æ!!</p>
+          <p>Estava eu pesquisando na internet como conseguir fazer o meu
+numlock já iniciar ativado quando meu fluxbox inicia e encontrei
+várias dicas, sendo umas para XFCE e outros sistemas não sendo
+Slackware, portanto decidi escrever como fiz no Slackware.</p>
 
-<p>Pessoal, estava eu pesquisando na internet como conseguir fazer o meu numlock já iniciar ativado quando meu fluxbox inicia e encontrei várias dicas, sendo umas para XFCE e outros sistemas não sendo Slackware, portanto decidi escrever como fiz no Slackware.</p>
+<p>Primeiramente precisamos do
+<a href="http://ktown.kde.org/~seli/numlockx/">numlockx</a>
+que é o programinha vai ativar o num facilmente.</p>
 
-<p>Primeiramente precisamos do <a title="Numlockx" href="http://ktown.kde.org/~seli/numlockx/">numlockx </a>que é o programinha vai ativar o num facilmente.</p>
+<p>Podemos instalar
+<a href="http://slackbuilds.org/repository/12.1/system/numlockx/">ele</a> via
+<a href="http://pothix.com/blog/slackware/facilitando-a-instalacao-no-slackware">SlackBuilds</a>
+que eu uso muito!</p>
 
-<p>Podemos instalar <a title="Numlockx no SlackBuilds" href="http://slackbuilds.org/repository/12.1/system/numlockx/">ele</a> via <a title="Slack Builds" href="http://pothix.com/blog/slackware/facilitando-a-instalacao-no-slackware">SlackBuilds</a> que eu uso muito!</p>
-
-<p>Após baixar o <strong>numlockx.tar.gz</strong> e o <strong>numlockx-.version.tar.gz</strong> vamos seguir os procedimentos do SlackBuilds:</p>
-
-<p><code>$ tar xvf numlockx.tar.gz
+<p>Após baixar o <code>numlockx.tar.gz</code> e o numlockx-.version.tar.gz`
+vamos seguir os procedimentos do SlackBuilds:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4</pre></td><td class="code"><pre>$ tar xvf numlockx.tar.gz
 $ mv numlockx-version.tar.gz numlockx
-$ cd numlockx</p>
+$ cd numlockx
+# ./numlockx.SlackBuilds
+</pre></td></tr></tbody></table>
+</div>
 
-<h1>./numlockx.SlackBuilds</code></h1>
+<p>Pronto! Seu pacote já está no seu <code>/tmp</code>! :)</p>
 
-<p>Pronto! Seu pacote já está no seu /tmp ! :)
-Agora só instalar com o pkgtool:
-<code></p>
+<p>Agora só instalar com o pkgtool:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>#installpkg numlockx.tgz
+</pre></td></tr></tbody></table>
+</div>
 
-<h1>installpkg numlockx.tgz</code></h1>
+<p>Agora é só inserir a seguinte linha no seu <code>~/.xinitrc</code>:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>exec numlockx &amp;amp;&lt;/code&gt;
+</pre></td></tr></tbody></table>
+</div>
 
-<p>Agora é só inserir a seguinte linha no seu <strong><em>~/.xinitrc</em></strong> :
-<code>
-exec numlockx &amp;</code></p>
-
-<p>E da próxima vez que inicar o seu Slack seu num vai acender automágicamente! :P</p>
-
-<p>Há braços</p>
+<p>E da próxima vez que inicar o seu Slack seu num vai acender
+automágicamente! :P</p>
 
 	  <div id="disqus_thread"></div>
 <script type="text/javascript">
@@ -152,13 +163,13 @@ exec numlockx &amp;</code></p>
 		      <a href="/2015/05/25/2015-05-25-new-layout-of-pothix-blog.html">New layout of PotHix blog</a> <span class="post-date">May 25, 2015</span>
 		    </li>
 		    <li>
-		      <a href="/2015/03/20/2015-03-20-as-escolhas-do-desenvolvedor.html">As escolhas do desenvolvedor</a> <span class="post-date">Mar 20, 2015</span>
-		    </li>
-		    <li>
 		      <a href="/2014/02/14/2014-02-14-ruby-python-e-native-threads.html">Ruby, Python e native threads</a> <span class="post-date">Feb 14, 2014</span>
 		    </li>
 		    <li>
 		      <a href="/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html">Golang and 1.2 version performance improvement</a> <span class="post-date">Dec  3, 2013</span>
+		    </li>
+		    <li>
+		      <a href="/2013/09/17/2013-09-17-o-guru-sp-e-seus-5-anos-de-vida.html">O Guru-SP e seus 5 anos de vida</a> <span class="post-date">Sep 17, 2013</span>
 		    </li>
                 </ul>
               </aside>

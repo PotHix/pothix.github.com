@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
 
-    <title>PotHix blog - As escolhas do desenvolvedor</title>
+    <title>PotHix blog</title>
 
     <!-- Prefetch DNS for external resources to speed up loading time -->
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -14,7 +14,7 @@
 	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
 
-    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts)" href="/feed.xml" />
 
     <link rel="icon" type="image/png" href="/images/favico.png">
     <link rel='stylesheet' href='/stylesheets/style.css' type='text/css' media='all' />
@@ -55,62 +55,46 @@
 <div id="content" class="site-content">
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
-      <article id="post-#{current_page.data.id}" class="post-#{current_page.data.id} post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
+      <header class="page-header">
+  <h1 class='blog-title'>Articles for category</h1>
+  <p class='blog-subtitle'>speaking</p>
+</header>
 
-         <header class="entry-header">
-      	   <h2 class="entry-title">
-	    As escolhas do desenvolvedor
-          </h2>
-        </header>
+  <article id="post-#{article.id}" class="post-#{article.id} post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
 
-        <div class="entry-meta">
-          <span class="posted-on">
-	    Published at <a rel="bookmark" href="/2015/03/20/2015-03-20-as-escolhas-do-desenvolvedor.html">2015/03/20</a><time class="updated" datetime="2015-03-20T00:00:00">Mar 20, 2015</time>
-          </span>
-          <span class="cat-links">
-            In Category <a rel="category tag" href="/categories/development.html">development</a>
-          </span>
-          <span class="tags-links">
-  	    Tags: <a rel="tag" href="/tags/development.html">development</a>
-          </span>
-        </div>
+    <header class="entry-header">
+      <h2 class="entry-title">
+	<a rel="bookmark" href="/2010/03/29/2010-03-29-palestra-sobre-vim.html">Palestra sobre Vim</a>
+      </h2>
+    </header>
 
-        <div class="entry-content">
-          <p>Esse ano eu aceitei o convite da <a href="http://www.locaweb.com.br">Locaweb</a> para
-palestrar pelo Brasil durante o <a href="http://eventos.locaweb.com.br">Encontro Locaweb</a>
-que acontece em Belo Horizonte, Recife, Curitiba, Porto Alegre, Rio de Janeiro
-e São Paulo.</p>
+    <div class="entry-meta">
+      <span class="posted-on">
+	Published at <a rel="bookmark" href="/2010/03/29/2010-03-29-palestra-sobre-vim.html">2010/03/29</a><time class="updated" datetime="2010-03-29T00:00:00">Mar 29, 2010</time>
+      </span>
+      <span class="cat-links">
+	In Category <a rel="category tag" href="/categories/speaking.html">speaking</a>
+      </span>
+      <span class="tags-links">
+	Tags: <a rel="tag" href="/tags/linux.html">linux</a>,<a rel="tag" href="/tags/speaking.html">speaking</a>,<a rel="tag" href="/tags/tech.html">tech</a>,<a rel="tag" href="/tags/vim.html">vim</a>
+      </span>
+    </div>
 
-<p>O título da minha palestra é <strong>As escolhas do desenvolvedor</strong>, nessa palestra
-comento sobre as escolhas que fazemos durante a nossa carreira enquanto trabalhamos
-em projetos variados, desde a escolha de linguagem, utilização de testes, 
-organizacão do time, configuração de servidor e deploy para produção. 
-Cada um desses passos nós escolhemos usar ou não usar as melhores
-práticas (se as conhecermos), portanto a ideia da palestra é mostrar as opções
-que temos durante essas fases.</p>
+    <div class="entry-content">
+      <p>Esse vai ser um post curto, apenas para deixar registrado algumas
+informações sobre a palestra de Vim que teve no sétimo encontro do
+Guru-sp (sim, eu fui o palestrante :D).
 
-<p>Fiquem ligados no <a href="http://eventos.locaweb.com.br">site de eventos da Locaweb</a> para
-as próximas datas e apareça por lá se for de alguma dessas cidades para conversarmos.</p>
+Primeiramente, já começo com uma desculpa, por que já faz mais de 2
+semanas que palestrei e só agora estou fazendo esse post. :(
 
-<p>Assim que passar o último encontro (de São Paulo) eu vou editar esse post e colocar o
-link para o vídeo (se estiver disponível) e para os slides.</p>
+Foi bem legal palestrar para uma galera que já conhecia ao menos um
+pouco do editor. Quando eu...</p>
+    </div>
+  </article>
 
-	  <div id="disqus_thread"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = 'pothixcom';
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
-        </div>
-      </article>
+
     </main>
   </div>
 </div>
@@ -141,13 +125,13 @@ link para o vídeo (se estiver disponível) e para os slides.</p>
 		      <a href="/2015/05/25/2015-05-25-new-layout-of-pothix-blog.html">New layout of PotHix blog</a> <span class="post-date">May 25, 2015</span>
 		    </li>
 		    <li>
-		      <a href="/2015/03/20/2015-03-20-as-escolhas-do-desenvolvedor.html">As escolhas do desenvolvedor</a> <span class="post-date">Mar 20, 2015</span>
-		    </li>
-		    <li>
 		      <a href="/2014/02/14/2014-02-14-ruby-python-e-native-threads.html">Ruby, Python e native threads</a> <span class="post-date">Feb 14, 2014</span>
 		    </li>
 		    <li>
 		      <a href="/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html">Golang and 1.2 version performance improvement</a> <span class="post-date">Dec  3, 2013</span>
+		    </li>
+		    <li>
+		      <a href="/2013/09/17/2013-09-17-o-guru-sp-e-seus-5-anos-de-vida.html">O Guru-SP e seus 5 anos de vida</a> <span class="post-date">Sep 17, 2013</span>
 		    </li>
                 </ul>
               </aside>

@@ -14,7 +14,7 @@
 	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
 
-    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts)" href="/feed.xml" />
 
     <link rel="icon" type="image/png" href="/images/favico.png">
     <link rel='stylesheet' href='/stylesheets/style.css' type='text/css' media='all' />
@@ -68,43 +68,65 @@
 	    Published at <a rel="bookmark" href="/2008/11/29/2008-11-29-utilizando-o-sshfs.html">2008/11/29</a><time class="updated" datetime="2008-11-29T00:00:00">Nov 29, 2008</time>
           </span>
           <span class="cat-links">
-            In Category <a rel="category tag" href="/categories/slackware.html">slackware</a>
+            In Category <a rel="category tag" href="/categories/linux.html">linux</a>
           </span>
           <span class="tags-links">
-  	    Tags: <a rel="tag" href="/tags/slackware.html">slackware</a>,<a rel="tag" href="/tags/tech.html">tech</a>,<a rel="tag" href="/tags/ubuntu.html">ubuntu</a>
+  	    Tags: <a rel="tag" href="/tags/tech.html">tech</a>,<a rel="tag" href="/tags/linux.html">linux</a>
           </span>
         </div>
 
         <div class="entry-content">
-          <p>Æ!!</p>
+          <p>Estou utilizando bastante o
+<a title="sshfs" href="http://fuse.sourceforge.net/sshfs.html">sshfs</a> para
+transferir alguns arquivos para o servidor, ao invés de utilizar o bom
+e velho scp, por questão de ficar mais prático e facil a cópia de
+vários arquivos para diretórios distintos.</p>
 
-<p>Estou utilizando bastante o <a title="sshfs" href="http://fuse.sourceforge.net/sshfs.html">sshfs</a> para transferir alguns arquivos para o servidor, ao invés de utilizar o bom e velho scp, por questão de ficar mais prático e facil a cópia de vários arquivos para diretórios distintos.</p>
+<p>O que facilita bastante é utilizar a sua chave privada ( explicado por
+mim <a href="http://pothix.com/blog/slackware/deixando-seu-ssh-mais-facil-de-trabalhar">nesse tópico</a>)
+para montar os seus diretórios sshfs, assim você terá o diretório do
+servidor montado facilmente em seu computador e poderá enviar arquivos
+para esse diretório e seus sub-diretórios como se estivesse copiando
+arquivos para outro diretório qualquer.</p>
 
-<p>O que facilita bastante é utilizar a sua chave privada ( explicado por mim <a title="Deixando seu SSH mais fácil de trabalhar" href="http://pothix.com/blog/slackware/deixando-seu-ssh-mais-facil-de-trabalhar">nesse tópico</a> ) para montar os seus diretórios sshfs, assim você terá o diretório do servidor montado facilmente em seu computador e poderá enviar arquivos para esse diretório e seus sub-diretórios como se estivesse copiando arquivos para outro diretório qualquer.</p>
+<h3>Instalação</h3>
 
-<p><strong>Instalação</strong></p>
+<p>Se você está no Ubuntu as coisas são fáceis e práticas, com o bom e velho apt-get:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre># apt-get install sshfs
+</pre></td></tr></tbody></table>
+</div>
 
-<p>Se você está no Ubuntu as coisas são fáceis e práticas, com o bom e velho apt-get:
-<blockquote><code># apt-get install sshfs</code></blockquote>
-Agora se você utiliza Slackware temos alguns passos a mais, mas nada que lhe faça arrancar os cabelos ;)</p>
+<p>Agora se você utiliza Slackware temos alguns passos a mais, mas nada
+que lhe faça arrancar os cabelos ;)</p>
 
-<p>Primeiramente instale o <a title="Fuse no SlackBuilds" href="http://slackbuilds.org/repository/12.0/system/fuse/">fuse</a> no <a title="Facilitando a instalação no Slackware" href="http://pothix.com/blog/slackware/facilitando-a-instalacao-no-slackware">velho esquema SlackBuilds</a> ( ou outro se preferir )/</p>
+<p>Primeiramente instale o
+<a href="http://slackbuilds.org/repository/12.0/system/fuse/">fuse</a> no
+<a title="Facilitando a instalação no Slackware" href="http://pothix.com/blog/slackware/facilitando-a-instalacao-no-slackware">velho esquema SlackBuilds</a>
+(ou outro se preferir).</p>
 
-<p>Depois instale o <a title="sshfs no LinuxPackages" href="http://www.linuxpackages.net/search_view.php?by=name&amp;amp;name=sshfs&amp;amp;ver=12.1">sshfs</a> ( dessa vez do Linux Packages para mudar um pouco )</p>
+<p>Depois instale o
+<a href="http://www.linuxpackages.net/search_view.php?by=name&amp;amp;name=sshfs&amp;amp;ver=12.1">sshfs</a>
+(dessa vez do Linux Packages para mudar um pouco)</p>
 
-<p><strong>Utilização</strong>:</p>
+<h3>Utilização</h3>
 
-<p>Primeiramente temos que subir o módulo do fuse:
-<blockquote><code># modprobe fuse</code></blockquote>
-Essa tarefa pode ser automátizada posteriormente descomentando esse módulo no <code>/etc/rc.d/rc.modules</code></p>
+<p>Primeiramente temos que subir o módulo do fuse:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre># modprobe fuse
+</pre></td></tr></tbody></table>
+</div>
+
+<p>Essa tarefa pode ser automátizada posteriormente descomentando esse
+módulo no <code>/etc/rc.d/rc.modules</code></p>
 
 <p>E com isso já podemos usar o nosso sshfs! :)</p>
 
-<p>Eu costumo utilizar com os seguintes parâmetros:
-<blockquote><code>sshfs root@server:/local/da/pasta/no/server /local/da/minha/pasta/local -o reconnect,sshfs_sync</code></blockquote>
-E agora é só correr para o abraço e ter o seu diretório do servidor montado localmente para cópia de arquivos.</p>
+<p>Eu costumo utilizar com os seguintes parâmetros:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>sshfs root@server:/local/da/pasta/no/server /local/da/minha/pasta/local -o reconnect,sshfs_sync
+</pre></td></tr></tbody></table>
+</div>
 
-<p>Há braços</p>
+<p>E agora é só correr para o abraço e ter o seu diretório do servidor
+montado localmente para cópia de arquivos.</p>
 
 	  <div id="disqus_thread"></div>
 <script type="text/javascript">
@@ -152,13 +174,13 @@ E agora é só correr para o abraço e ter o seu diretório do servidor montado 
 		      <a href="/2015/05/25/2015-05-25-new-layout-of-pothix-blog.html">New layout of PotHix blog</a> <span class="post-date">May 25, 2015</span>
 		    </li>
 		    <li>
-		      <a href="/2015/03/20/2015-03-20-as-escolhas-do-desenvolvedor.html">As escolhas do desenvolvedor</a> <span class="post-date">Mar 20, 2015</span>
-		    </li>
-		    <li>
 		      <a href="/2014/02/14/2014-02-14-ruby-python-e-native-threads.html">Ruby, Python e native threads</a> <span class="post-date">Feb 14, 2014</span>
 		    </li>
 		    <li>
 		      <a href="/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html">Golang and 1.2 version performance improvement</a> <span class="post-date">Dec  3, 2013</span>
+		    </li>
+		    <li>
+		      <a href="/2013/09/17/2013-09-17-o-guru-sp-e-seus-5-anos-de-vida.html">O Guru-SP e seus 5 anos de vida</a> <span class="post-date">Sep 17, 2013</span>
 		    </li>
                 </ul>
               </aside>

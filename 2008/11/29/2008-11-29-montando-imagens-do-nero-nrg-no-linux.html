@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
 
-    <title>PotHix blog - Montando imagens do Nero ( nrg ) no Linux</title>
+    <title>PotHix blog - Montando imagens do Nero (nrg) no Linux</title>
 
     <!-- Prefetch DNS for external resources to speed up loading time -->
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -14,7 +14,7 @@
 	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
 
-    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts)" href="/feed.xml" />
 
     <link rel="icon" type="image/png" href="/images/favico.png">
     <link rel='stylesheet' href='/stylesheets/style.css' type='text/css' media='all' />
@@ -59,7 +59,7 @@
 
          <header class="entry-header">
       	   <h2 class="entry-title">
-	    Montando imagens do Nero ( nrg ) no Linux
+	    Montando imagens do Nero (nrg) no Linux
           </h2>
         </header>
 
@@ -68,37 +68,50 @@
 	    Published at <a rel="bookmark" href="/2008/11/29/2008-11-29-montando-imagens-do-nero-nrg-no-linux.html">2008/11/29</a><time class="updated" datetime="2008-11-29T00:00:00">Nov 29, 2008</time>
           </span>
           <span class="cat-links">
-            In Category <a rel="category tag" href="/categories/win2linux.html">win2linux</a>
+            In Category <a rel="category tag" href="/categories/linux.html">linux</a>
           </span>
           <span class="tags-links">
-  	    Tags: <a rel="tag" href="/tags/slackware.html">slackware</a>,<a rel="tag" href="/tags/tech.html">tech</a>,<a rel="tag" href="/tags/ubuntu.html">ubuntu</a>
+  	    Tags: <a rel="tag" href="/tags/tech.html">tech</a>,<a rel="tag" href="/tags/linux.html">linux</a>
           </span>
         </div>
 
         <div class="entry-content">
-          <p>Æ!!</p>
+          <p>Vou comentar agora sobre como montar aquela imagem chata do Nero (.nrg
+) que seu amigo que gosta de janelas lhe enviou com aqueles vários
+arquivos que você tinha pedido&hellip; É um hack bem fácil!</p>
 
-<p>Vou comentar agora sobre como montar aquela imagem chata do Nero (.nrg ) que seu amigo que gosta de janelas lhe enviou com aqueles vários arquivos que você tinha pedido&hellip;É um Hack bem fácil!</p>
+<h3>Instalações</h3>
 
-<h3>Instalações:</h3>
+<p>Primeiro instale o nrg2iso</p>
 
-<p>Primeiro instale o nrg2iso
 <h4>No Ubuntu</h4>
-<blockquote><code># apt-get install nrg2iso</code></blockquote>
-ou
-<h4>No Slackware:</h4>
-Baixando o <a title="Nrg2iso no LInux Packages" href="http://www.linuxpackages.net/pkg_details.php?id=12493">pacote no Linux Packages</a> e instalando normalmente com:
-<blockquote><code># installpkg nrg2iso-versao.tgz</code></blockquote></p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre># apt-get install nrg2iso
+</pre></td></tr></tbody></table>
+</div>
 
-<h3>Utilização:</h3>
+<h4>No Slackware</h4>
 
-<p>Agora já podemos utilizar o nrg3iso para converter nossa imagem:
-<blockquote><code>$ nrg2iso imagem.nrg novaimagem.iso</code></blockquote>
-E já temos nossa imagem convertida como novaimagem<strong>.iso</strong> e podemos montar nossa imagem normalmente em alguma pasta, como por exemplo /mnt/dirImagemMontada
-<blockquote><code># mount -o loop -t iso9660 imagem.iso /mnt/dirImagemMontada</code></blockquote>
-E pronto! Lá estarão seus arquivos para você brincar! ;)</p>
+<p>Baixando o <a href="http://www.linuxpackages.net/pkg_details.php?id=12493">pacote no Linux Packages</a>
+e instalando normalmente com:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre># installpkg nrg2iso-versao.tgz
+</pre></td></tr></tbody></table>
+</div>
 
-<p>Há braços</p>
+<h3>Utilização</h3>
+
+<p>Agora já podemos utilizar o nrg3iso para converter nossa imagem:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>$ nrg2iso imagem.nrg novaimagem.iso
+</pre></td></tr></tbody></table>
+</div>
+
+<p>E já temos nossa imagem convertida como novaimagem<strong>.iso</strong> e podemos
+montar nossa imagem normalmente em alguma pasta, como por exemplo
+/mnt/dirImagemMontada</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre># mount -o loop -t iso9660 imagem.iso /mnt/dirImagemMontada
+</pre></td></tr></tbody></table>
+</div>
+
+<p>E pronto! Lá estarão seus arquivos para você brincar! ;)</p>
 
 <p><em>Old comments by: Anderson Kemper, crebin | Not available anymore. :(</em></p>
 
@@ -148,13 +161,13 @@ E pronto! Lá estarão seus arquivos para você brincar! ;)</p>
 		      <a href="/2015/05/25/2015-05-25-new-layout-of-pothix-blog.html">New layout of PotHix blog</a> <span class="post-date">May 25, 2015</span>
 		    </li>
 		    <li>
-		      <a href="/2015/03/20/2015-03-20-as-escolhas-do-desenvolvedor.html">As escolhas do desenvolvedor</a> <span class="post-date">Mar 20, 2015</span>
-		    </li>
-		    <li>
 		      <a href="/2014/02/14/2014-02-14-ruby-python-e-native-threads.html">Ruby, Python e native threads</a> <span class="post-date">Feb 14, 2014</span>
 		    </li>
 		    <li>
 		      <a href="/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html">Golang and 1.2 version performance improvement</a> <span class="post-date">Dec  3, 2013</span>
+		    </li>
+		    <li>
+		      <a href="/2013/09/17/2013-09-17-o-guru-sp-e-seus-5-anos-de-vida.html">O Guru-SP e seus 5 anos de vida</a> <span class="post-date">Sep 17, 2013</span>
 		    </li>
                 </ul>
               </aside>

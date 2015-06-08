@@ -14,7 +14,7 @@
 	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
 
-    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts)" href="/feed.xml" />
 
     <link rel="icon" type="image/png" href="/images/favico.png">
     <link rel='stylesheet' href='/stylesheets/style.css' type='text/css' media='all' />
@@ -68,7 +68,7 @@
 	    Published at <a rel="bookmark" href="/2009/01/07/2009-01-07-deploying-a-simple-merb-application-on-locaweb.html">2009/01/07</a><time class="updated" datetime="2009-01-07T00:00:00">Jan  7, 2009</time>
           </span>
           <span class="cat-links">
-            In Category <a rel="category tag" href="/categories/english.html">english</a>
+            In Category <a rel="category tag" href="/categories/dev.html">dev</a>
           </span>
           <span class="tags-links">
   	    Tags: <a rel="tag" href="/tags/english.html">english</a>,<a rel="tag" href="/tags/linux.html">linux</a>,<a rel="tag" href="/tags/ruby.html">ruby</a>,<a rel="tag" href="/tags/tech.html">tech</a>
@@ -76,39 +76,79 @@
         </div>
 
         <div class="entry-content">
-          <p>Æ!!</p>
+          <p>I writing this post to help my friends of
+<a title="Rubylearning.org" href="http://rubylearning.org/class/">Rubylearning</a> with
+a little <a title="Merb Official Home Page" href="http://merbivore.com/">Merb</a>
+application deployment on <a title="Locaweb" href="http://www.locaweb.com.br">Locaweb</a>.
+I&rsquo;m just translating some informations that you can find
+<a title="Merb on Linux Share Host (in portuguese )" href="http://prodblog.locaweb.com.br/2008/11/11/suporte-a-merb-10-na-hospedagem-compartilhada-linux/">here</a> in portuguese.</p>
 
-<p>I writing this post to help my friends of <a title="Rubylearning.org" href="http://rubylearning.org/class/">Rubylearning</a> with a little <a title="Merb Official Home Page" href="http://merbivore.com/">Merb</a> application deployment on <a title="Locaweb" href="http://www.locaweb.com.br">Locaweb</a>. I&rsquo;m just translating some informations that you can find <a title="Merb on Linux Share Host ( In Portuguese )" href="http://prodblog.locaweb.com.br/2008/11/11/suporte-a-merb-10-na-hospedagem-compartilhada-linux/">here</a> in portuguese.</p>
+<p>Lets get started! :D</p>
 
-<p>Lets start! :D</p>
+<p>First open the</p>
 
-<p>First open the <a title="Gerenciador de domínios" href="http://painel.locaweb.com.br/painel_controle/gerenciador_dominios.asp">Domain Manager</a> ( Gerenciador de domínios ) on Locaweb Panel ( Painel da Locaweb ) and configure the pointer of your main site to  other directory on public_html of your account ( this directory don&rsquo;t need to exist ). Follow this steps:
-1. Click on &ldquo;alterar&rdquo; ( change )
-2. Change the &ldquo;Diretório Web&rdquo; ( web directory ) to the new diretory
-3. And click on button &ldquo;Salvar&rdquo; ( save )</p>
+<p><a title="Gerenciador de domínios" href="http://painel.locaweb.com.br/painel_controle/gerenciador_dominios.asp">Domain Manager</a>
+(gerenciador de domínios) on Locaweb Panel (painel da Locaweb) and
+configure the pointer of your main site to other directory on
+public_html of your account (this directory don&rsquo;t need to exist).</p>
 
-<p>Transfer your application to a directory on your host. For this example, lets say that your application is called &ldquo;sample<em>merb&rdquo;, so, connect via SSH on your account and create the directory &ldquo;rack</em>app&rdquo;:
-<blockquote><code>mkdir -p rack<em>app/sample</em>merb</code></blockquote>
-And move your application to there.</p>
+<p>Follow this steps:</p>
 
-<p>Your application must to have a file called &ldquo;config.ru&rdquo; to be executed by Phusion Passenger, so, you need to create this file on your application folder ( rack<em>app/sample</em>merb on this case ) with this content:
-<blockquote><code>require ‘rubygems’
-require ‘merb-core’</code></p>
+<ol>
+<li>Click on &ldquo;alterar&rdquo; (change)</li>
+<li>Change the &ldquo;Diretório Web&rdquo; (web directory) to the new diretory</li>
+<li>And click on button &ldquo;Salvar&rdquo; (save)</li>
+</ol>
 
-<p>Merb::Config.setup(:merb<em>root   =&gt; “.”,
-:environment =&gt; ENV[&lsquo;RACK</em>ENV&rsquo;])</p>
+<p>Transfer your application to this directory on your host. For this
+example, lets say that your application is called &ldquo;sample<em>merb&rdquo;, so,
+connect via SSH on your account and create the directory &ldquo;rack</em>app&rdquo;:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>mkdir -p rack_app/sample_merb
+</pre></td></tr></tbody></table>
+</div>
 
-<p>Merb.environment = Merb::Config[:environment]
-Merb.root = Merb::Config[:merb<em>root]
+<p>And move your application to there.</p>
+
+<p>Your application must to have a file called &ldquo;config.ru&rdquo; to be executed
+by Phusion Passenger, so, you need to create this file on your
+application folder (rack<em>app/sample</em>merb on this case) with this
+content:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9</pre></td><td class="code"><pre>require 'rubygems'
+require 'merb-core'
+
+Merb::Config.setup(:merb_root   =&gt; “.”, :environment =&gt;; ENV['RACK_ENV'])
+
+Merb.environment = Merb::Config[:environment]
+Merb.root = Merb::Config[:merb_root]
 Merb::BootLoader.run
-run Merb::Rack::Application.new</blockquote>
-Now you need to create a symbolic link on your public</em>html diretory, as you have configured on your Domain Manager ( Gerenciador de Domínios ) of Locaweb Panel.
-<blockquote><code>ln -s ~/rack<em>app/sample</em>merb/public ~/public<em>html/sample</em>merb</code></blockquote>
-With this simple configuration you will have your application pointed by apache with Phusion Passenger.</p>
+run Merb::Rack::Application.new
+</pre></td></tr></tbody></table>
+</div>
 
-<p>Just to you know, you can see the merb gems that are installed with:
-<blockquote><code>gem list | grep merb</code></blockquote>
-Hope this help you on how to make your simple application works on Locaweb. ;)</p>
+<p>Now you need to create a symbolic link on your public_html diretory,
+as you have configured on your Domain Manager (gerenciador de domínios)
+of Locaweb Panel.</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>ln -s ~/rack_app/sample_merb/public ~/public_html/sample_merb
+</pre></td></tr></tbody></table>
+</div>
+
+<p>By using this simple configuration you will have your application
+pointed by apache with Phusion Passenger.</p>
+
+<p>Just to you know, you can see the merb gems that are installed with:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>gem list | grep merb
+</pre></td></tr></tbody></table>
+</div>
+
+<p>Hope this help you on how to make your simple application works on Locaweb. ;)</p>
 
 <p><em>Old comments by: website erstellen lassen, Vikki Guitreau | Not available anymore. :(</em></p>
 
@@ -158,13 +198,13 @@ Hope this help you on how to make your simple application works on Locaweb. ;)</
 		      <a href="/2015/05/25/2015-05-25-new-layout-of-pothix-blog.html">New layout of PotHix blog</a> <span class="post-date">May 25, 2015</span>
 		    </li>
 		    <li>
-		      <a href="/2015/03/20/2015-03-20-as-escolhas-do-desenvolvedor.html">As escolhas do desenvolvedor</a> <span class="post-date">Mar 20, 2015</span>
-		    </li>
-		    <li>
 		      <a href="/2014/02/14/2014-02-14-ruby-python-e-native-threads.html">Ruby, Python e native threads</a> <span class="post-date">Feb 14, 2014</span>
 		    </li>
 		    <li>
 		      <a href="/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html">Golang and 1.2 version performance improvement</a> <span class="post-date">Dec  3, 2013</span>
+		    </li>
+		    <li>
+		      <a href="/2013/09/17/2013-09-17-o-guru-sp-e-seus-5-anos-de-vida.html">O Guru-SP e seus 5 anos de vida</a> <span class="post-date">Sep 17, 2013</span>
 		    </li>
                 </ul>
               </aside>

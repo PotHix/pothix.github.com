@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Blog Name</title>
-  <subtitle>Blog subtitle</subtitle>
-  <id>http://blog.url.com/</id>
-  <link href="http://blog.url.com/"/>
-  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <title>PotHix blog</title>
+  <subtitle>@PotHix</subtitle>
+  <id>http://pothix.com/</id>
+  <link href="http://pothix.com/"/>
+  <link href="http://pothix.com/feed.xml" rel="self"/>
   <updated>2015-05-24T21:00:00-03:00</updated>
   <author>
-    <name>Blog Author</name>
+    <name>Willian Molinari (a.k.a PotHix)</name>
   </author>
   <entry>
     <title>New layout of PotHix blog</title>
-    <link rel="alternate" href="http://blog.url.com/2015/05/25/2015-05-25-new-layout-of-pothix-blog.html"/>
-    <id>http://blog.url.com/2015/05/25/2015-05-25-new-layout-of-pothix-blog.html</id>
+    <link rel="alternate" href="http://pothix.com/2015/05/25/2015-05-25-new-layout-of-pothix-blog.html"/>
+    <id>http://pothix.com/2015/05/25/2015-05-25-new-layout-of-pothix-blog.html</id>
     <published>2015-05-24T21:00:00-03:00</published>
-    <updated>2015-06-02T11:51:55-03:00</updated>
+    <updated>2015-06-08T16:47:55-03:00</updated>
     <author>
-      <name>Article Author</name>
+      <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
     <content type="html">&lt;p&gt;Welcome to the new blog layout of PotHix.com! :)&lt;/p&gt;
 
@@ -29,42 +29,13 @@ instead of keeping the wordpress &amp;ldquo;infrastructure&amp;rdquo;.&lt;/p&gt;
 </content>
   </entry>
   <entry>
-    <title>As escolhas do desenvolvedor</title>
-    <link rel="alternate" href="http://blog.url.com/2015/03/20/2015-03-20-as-escolhas-do-desenvolvedor.html"/>
-    <id>http://blog.url.com/2015/03/20/2015-03-20-as-escolhas-do-desenvolvedor.html</id>
-    <published>2015-03-19T21:00:00-03:00</published>
-    <updated>2015-06-02T11:51:55-03:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Esse ano eu aceitei o convite da &lt;a href="http://www.locaweb.com.br"&gt;Locaweb&lt;/a&gt; para
-palestrar pelo Brasil durante o &lt;a href="http://eventos.locaweb.com.br"&gt;Encontro Locaweb&lt;/a&gt;
-que acontece em Belo Horizonte, Recife, Curitiba, Porto Alegre, Rio de Janeiro
-e São Paulo.&lt;/p&gt;
-
-&lt;p&gt;O título da minha palestra é &lt;strong&gt;As escolhas do desenvolvedor&lt;/strong&gt;, nessa palestra
-comento sobre as escolhas que fazemos durante a nossa carreira enquanto trabalhamos
-em projetos variados, desde a escolha de linguagem, utilização de testes, 
-organizacão do time, configuração de servidor e deploy para produção. 
-Cada um desses passos nós escolhemos usar ou não usar as melhores
-práticas (se as conhecermos), portanto a ideia da palestra é mostrar as opções
-que temos durante essas fases.&lt;/p&gt;
-
-&lt;p&gt;Fiquem ligados no &lt;a href="http://eventos.locaweb.com.br"&gt;site de eventos da Locaweb&lt;/a&gt; para
-as próximas datas e apareça por lá se for de alguma dessas cidades para conversarmos.&lt;/p&gt;
-
-&lt;p&gt;Assim que passar o último encontro (de São Paulo) eu vou editar esse post e colocar o
-link para o vídeo (se estiver disponível) e para os slides.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
     <title>Ruby, Python e native threads</title>
-    <link rel="alternate" href="http://blog.url.com/2014/02/14/2014-02-14-ruby-python-e-native-threads.html"/>
-    <id>http://blog.url.com/2014/02/14/2014-02-14-ruby-python-e-native-threads.html</id>
+    <link rel="alternate" href="http://pothix.com/2014/02/14/2014-02-14-ruby-python-e-native-threads.html"/>
+    <id>http://pothix.com/2014/02/14/2014-02-14-ruby-python-e-native-threads.html</id>
     <published>2014-02-13T22:00:00-02:00</published>
-    <updated>2015-06-02T11:51:56-03:00</updated>
+    <updated>2015-06-08T16:47:55-03:00</updated>
     <author>
-      <name>Article Author</name>
+      <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
     <content type="html">&lt;p&gt;Pode ser que eu seja meio burro (heheh) mas eu ainda achava que o Ruby e o
 Python usavam Green Threads, mas depois de conversar com uma galera me disseram
@@ -615,12 +586,12 @@ descobrir coisas novas. :)&lt;/p&gt;
   </entry>
   <entry>
     <title>Golang and 1.2 version performance improvement</title>
-    <link rel="alternate" href="http://blog.url.com/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html"/>
-    <id>http://blog.url.com/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html</id>
+    <link rel="alternate" href="http://pothix.com/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html"/>
+    <id>http://pothix.com/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html</id>
     <published>2013-12-02T22:00:00-02:00</published>
-    <updated>2015-06-02T11:51:56-03:00</updated>
+    <updated>2015-06-08T16:47:55-03:00</updated>
     <author>
-      <name>Article Author</name>
+      <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
     <content type="html">&lt;p&gt;I&amp;rsquo;ve started using Go last month and I really liked to work with the language.&lt;/p&gt;
 
@@ -729,12 +700,12 @@ Looks like it is a good idea of language for some of my projects, welcome Golang
   </entry>
   <entry>
     <title>O Guru-SP e seus 5 anos de vida</title>
-    <link rel="alternate" href="http://blog.url.com/2013/09/17/2013-09-17-o-guru-sp-e-seus-5-anos-de-vida.html"/>
-    <id>http://blog.url.com/2013/09/17/2013-09-17-o-guru-sp-e-seus-5-anos-de-vida.html</id>
+    <link rel="alternate" href="http://pothix.com/2013/09/17/2013-09-17-o-guru-sp-e-seus-5-anos-de-vida.html"/>
+    <id>http://pothix.com/2013/09/17/2013-09-17-o-guru-sp-e-seus-5-anos-de-vida.html</id>
     <published>2013-09-16T21:00:00-03:00</published>
-    <updated>2015-06-02T11:51:56-03:00</updated>
+    <updated>2015-06-08T16:47:55-03:00</updated>
     <author>
-      <name>Article Author</name>
+      <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
     <content type="html">&lt;p&gt;Há pouco tempo aconteceu o &lt;a href="http://gurusp.org/encontros/trigesimo-primeiro-encontro-do-guru-sp"&gt;encontro numero 31 do Guru-SP&lt;/a&gt;, e como sempre saímos
 (dessa vez estavamos &lt;a href="http://twitter.com/vinibaggio"&gt;@vinibaggio&lt;/a&gt;, &lt;a href="http://twitter.com/agaelebe"&gt;@agaelebe&lt;/a&gt;, &lt;a href="http://twitter.com/nuxlli"&gt;@nuxlli&lt;/a&gt; e &lt;a href="http://twitter.com/anderson_leite"&gt;@anderson_leite&lt;/a&gt;) para
@@ -814,15 +785,17 @@ Brasil, e mais do que isso um lugar legal para troca de conhecimentos.&lt;/p&gt;
   </entry>
   <entry>
     <title>Vendo Dragstar 2008</title>
-    <link rel="alternate" href="http://blog.url.com/2013/07/29/2013-07-29-vendo-dragstar-2008.html"/>
-    <id>http://blog.url.com/2013/07/29/2013-07-29-vendo-dragstar-2008.html</id>
+    <link rel="alternate" href="http://pothix.com/2013/07/29/2013-07-29-vendo-dragstar-2008.html"/>
+    <id>http://pothix.com/2013/07/29/2013-07-29-vendo-dragstar-2008.html</id>
     <published>2013-07-28T21:00:00-03:00</published>
-    <updated>2015-06-02T11:51:56-03:00</updated>
+    <updated>2015-06-08T16:47:55-03:00</updated>
     <author>
-      <name>Article Author</name>
+      <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
-    <content type="html">&lt;p&gt;Chegou a hora de pendurar o colete por um tempo, obviamente estarei de volta num futuro não tão distante, mas pelo menos por enquanto vou ficar um tempo sem motos.
-Por esse motivo estou vendendo minha Dragstar 2008.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Chegou a hora de pendurar o colete por um tempo, obviamente estarei de
+volta num futuro não tão distante, mas pelo menos por enquanto vou
+ficar um tempo sem motos. Por esse motivo estou vendendo minha
+Dragstar 2008.&lt;/p&gt;
 
 &lt;p&gt;Informações sobre ela:&lt;/p&gt;
 
@@ -849,7 +822,305 @@ Por esse motivo estou vendendo minha Dragstar 2008.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href="/images/posts/dragstar.jpg"&gt;&lt;img title="Dragstar 2008" alt="Foto da minha dragstar 2008" src="/images/posts/dragstar.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Quase 2k de acessórios. Se estiver interessado em comprar sem os acessórios o preço diminui também, mas entre em contato e conversamos. :)&lt;/p&gt;
+&lt;p&gt;Quase 2k de acessórios. Se estiver interessado em comprar sem os
+acessórios o preço diminui também, mas entre em contato e
+conversamos. :)&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Vendendo minhas coisas</title>
+    <link rel="alternate" href="http://pothix.com/2013/07/29/2013-07-29-vendendo-minhas-coisas.html"/>
+    <id>http://pothix.com/2013/07/29/2013-07-29-vendendo-minhas-coisas.html</id>
+    <published>2013-07-28T21:00:00-03:00</published>
+    <updated>2015-06-08T16:47:55-03:00</updated>
+    <author>
+      <name>Willian Molinari (a.k.a PotHix)</name>
+    </author>
+    <content type="html">&lt;p&gt;Esse ano aconteceram algumas coisas zuadas para mim e resolvi capitalizar o
+dinheiro das coisas que eu tenho e começar denovo no ano que vem.&lt;/p&gt;
+
+&lt;p&gt;Procurei preços justos para tudo que estou vendendo (os links das minhas
+pesquisas estão nas descrições dos produtos), mas caso alguém ache que alguma
+das coisas está com um preço não-justo e estiver interessado é só entrar em
+contato que negociamos.&lt;/p&gt;
+
+&lt;p&gt;Estou aproveitando para testar a plataforma do loja integrada, mas os
+pagamentos eu prefiro que sejam por depósito mesmo, e se possível marcamos a
+entrega pessoalmente.&lt;/p&gt;
+
+&lt;p&gt;Dá para acessar a loja pelo link &lt;a href="http://loja.pothix.com"&gt;http://loja.pothix.com&lt;/a&gt;
+(redireciona para a &lt;a href="http://pothix.lojaintegrada.com.br"&gt;lojaintegrada&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Espero conseguir vender essas paradas o quanto antes. :)&lt;/p&gt;
+
+&lt;p&gt;Quem puder me ajudar a divulgar eu agradeço muito.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Amadeus Folego | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Vendo intruder 125 customizada e com guidão seca suvaco</title>
+    <link rel="alternate" href="http://pothix.com/2013/07/29/2013-07-29-vendo-intruder-125-customizada-e-com-guidao-seca-suvaco.html"/>
+    <id>http://pothix.com/2013/07/29/2013-07-29-vendo-intruder-125-customizada-e-com-guidao-seca-suvaco.html</id>
+    <published>2013-07-28T21:00:00-03:00</published>
+    <updated>2015-06-08T16:47:55-03:00</updated>
+    <author>
+      <name>Willian Molinari (a.k.a PotHix)</name>
+    </author>
+    <content type="html">&lt;p&gt;Depois de brincar de customização de motos por um tempo chegou a hora
+de vender minha intrudinha. Estou com ela desde 2008 e só me deu
+alegrias.&lt;/p&gt;
+
+&lt;p&gt;Algumas informações sobre ela:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Único dono&lt;/li&gt;
+&lt;li&gt;Toda a parafernalha que veio com ela quando eu comprei eu ainda tenho&lt;/li&gt;
+&lt;li&gt;IPVA pago&lt;/li&gt;
+&lt;li&gt;Pneu traseiro praticamente novo, não rodou nem 100km&lt;/li&gt;
+&lt;li&gt;Bateria nova, 1 mês de uso&lt;/li&gt;
+&lt;li&gt;Motor, protetor de corrente e paralamas frontal são preto fosco.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Acessórios (fora todos os itens originais que vão junto!)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Guidão seca de 45cm que mandei fazer especialmente para ela&lt;/li&gt;
+&lt;li&gt;Sissy bar&lt;/li&gt;
+&lt;li&gt;Retrovisor pequeno&lt;/li&gt;
+&lt;li&gt;Escape aberto feito especialmente para ela&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img title="Intruder 2008 customizada" alt="Foto da minha intruder 2008 customizada" src="/images/posts/intruder.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Quem estiver interessado é só entrar em contato por email, ou aqui nos
+comentários mesmo.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: thalita | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Game Network Programming</title>
+    <link rel="alternate" href="http://pothix.com/2013/07/15/2013-07-15-game-network-programming.html"/>
+    <id>http://pothix.com/2013/07/15/2013-07-15-game-network-programming.html</id>
+    <published>2013-07-14T21:00:00-03:00</published>
+    <updated>2015-06-08T16:47:55-03:00</updated>
+    <author>
+      <name>Willian Molinari (a.k.a PotHix)</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;strong&gt;English Abstract&lt;/strong&gt;: This post was about my presentation with Diego Souza
+(vulgo Marciano) about Game network programming. I was studying and reading
+Quake source just for fun and decided to learn more about game networking in
+general, so I decided to prepare this presentation to show other people what
+I’ve learned. You can see the full video (portuguese only, sorry) and the slides
+below.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Portuguese&lt;/strong&gt;: Eu e o Diego Souza (vulgo Marciano) fizemos uma palestra sobre
+  Game network programming tanto na Locaweb como no Guru-SP. A palestra que
+  fizemos no Guru-SP foi gravada pelo Agaelebe:&lt;/p&gt;
+
+&lt;p&gt;&lt;embed type="application/x-shockwave-flash" src="http://a.blip.tv/api.swf#hOdBg5PuBQI" style="display:none"&gt;&lt;/embed&gt;&lt;/p&gt;
+
+&lt;p&gt;E aqui estão os slides:&lt;/p&gt;
+
+&lt;iframe src="http://blip.tv/play/hOdBg5PuBQI.html?p=1" width="550" height="443" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Como eu estava na vibe de jogos desde o começo do ano passado, eu estava lendo
+os posts sobre o código do Quake. Quem me conhece sabe que eu trabalho na equipe
+de IaaS da Locaweb e lá nós lidamos com bastante coisa de redes e eu curto o
+assunto.&lt;/p&gt;
+
+&lt;p&gt;Conversando com o Diego sobre os algoritmos de redes utilizados no Quake nós
+decidimos juntar as pesquisas dele sobre os protocolos TCP e UDP com o que eu li
+sobre a implementação dos algoritmos nos jogos para poder fazer uma palestra
+legal de game network programming, e assim saiu essa palestra.&lt;/p&gt;
+
+&lt;p&gt;Lá nós apresentamos os algoritmos de alguns jogos como o Quake, Age of Empires e
+outros não tão conhecidos, mostrando as soluções legais que eles chegaram e
+quais foram os maiores desafios que eles encontraram para resolver os problemas
+de latencia e necessidade de velocidade. O Diego focou mais na parte de
+otimização dos algoritmos e flags que podem ser alteradas para melhorar o
+comportamento da rede.&lt;/p&gt;
+
+&lt;p&gt;Essa foi uma palestra muito legal de fazer e aprendi bastante no processo
+também! Se tiverem dúvidas postem aí nos comentários. :)&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Plaev, HTML5 e Skeleton-jigsaw</title>
+    <link rel="alternate" href="http://pothix.com/2012/12/04/2012-12-04-plaev-html5-e-skeleton-jigsaw.html"/>
+    <id>http://pothix.com/2012/12/04/2012-12-04-plaev-html5-e-skeleton-jigsaw.html</id>
+    <published>2012-12-03T22:00:00-02:00</published>
+    <updated>2015-06-08T16:47:55-03:00</updated>
+    <author>
+      <name>Willian Molinari (a.k.a PotHix)</name>
+    </author>
+    <content type="html">&lt;p&gt;Depois de muito tempo desenvolvendo finalmente terminamos o Skeleton-Jigsaw em
+outubro! Demorei para postar sobre isso aqui no blog por falta de tempo, mas
+aqui está!&lt;/p&gt;
+
+&lt;p&gt;Eu e o Rafael Masoni trabalhamos nesse jogo durante quase 1 ano (começamos a
+falar dele no comecinho de janeiro) investindo nosso tempo livre para fazer
+todas as partes do jogo (audio, programação, arte, game design, level design e
+etc).&lt;/p&gt;
+
+&lt;p&gt;Vou descrever um pouco do que fizemos e como organizamos, mas vai ser apenas um
+resumo do que falamos na nossa palestra no Guru-SP:&lt;/p&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/J2yDMOHCYak" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;iframe src="http://www.slideshare.net/slideshow/embed_code/15490608" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt;
+
+&lt;p&gt;Obrigado pelo vídeo Agaelebe!&lt;/p&gt;
+
+&lt;p&gt;Começamos a trabalhar em janeiro do ano passado no que seria um protótipo da
+impact e aos poucos o jogo foi tomando forma e estavamos investindo cada vez
+mais esforço nele. A cada semana fazíamos uma Skype call para discutir no que
+trabalharíamos durante a semana e fazíamos o possível para entregar o que
+conversamos até a próxima call.&lt;/p&gt;
+
+&lt;p&gt;Foi bem legal trabalhar em todos os pontos do jogo, opinando em arte,
+trabalhando em trilha sonora, programando, discutindo level design, escrevendo
+uma prévia de história, otimizando assets, testando em vários navegadores,
+fazendo game design e tudo mais.&lt;/p&gt;
+
+&lt;p&gt;Todo esse trabalho trouxe muitas experiências legais de como é entregar um jogo
+funcional e completo para o seu escopo, e estou bem orgulhoso de conseguir
+entregar o jogo demo finalizado, e não deixar mais um trabalho incompleto
+perdido por aí.&lt;/p&gt;
+
+&lt;p&gt;Ainda não sabemos quais os planos para a Plæv, mas agora ela já tem seu primeiro
+jogo demo para não ficar com o portfolio em branco. :)&lt;/p&gt;
+
+&lt;p&gt;Não quis descrever muito aqui no post para não ficar somente repetindo conteúdo
+do vídeo, mas se tiverem dúvidas coloquem nos comentários.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Alexandre Araujo, David Paniz | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Saudades do Poker</title>
+    <link rel="alternate" href="http://pothix.com/2012/10/31/2012-10-31-saudades-do-poker.html"/>
+    <id>http://pothix.com/2012/10/31/2012-10-31-saudades-do-poker.html</id>
+    <published>2012-10-30T22:00:00-02:00</published>
+    <updated>2015-06-08T16:47:55-03:00</updated>
+    <author>
+      <name>Willian Molinari (a.k.a PotHix)</name>
+    </author>
+    <content type="html">&lt;p&gt;Apesar de eu não ser bom o suficiente eu curto bastante jogar poker, mas as
+poucas vezes que me juntei com os amigos pessoalmente para jogar foi na época
+da faculdade, que marcavamos as &amp;ldquo;poker nights&amp;rdquo; e jogavamos apostando pequenas
+quantias.&lt;/p&gt;
+
+&lt;p&gt;Depois de sair da faculdade eu sempre penso em tentar juntar aquele
+pessoal novamente, ou até mesmo juntar outras pessoas para poder jogar,
+mas eu acho difícil conseguir contato com o aquele pessoal novamente e a galera
+que eu tenho contato hoje geralmente não sabem jogar e tampouco se importam em
+aprender, ainda mais quando sabem que o jogo só tem graça quando está valendo
+dinheiro.&lt;/p&gt;
+
+&lt;p&gt;Há pouco tempo atrás eu estava assistindo um jogo de poker pela internet e
+resolvi procurar mais informações, sobre quando aconteciam os jogos
+(transmitidos pela internet) e até cheguei a ver alguns documentários e
+reportagens de pessoas que vivem de poker e passam o dia jogando pela internet,
+o que lhes traz uma quantia considerável por mês.&lt;/p&gt;
+
+&lt;p&gt;Resolvi começar a jogar pela internet novamente nas horas vagas e escolhi o
+&lt;a href="http://pt.partypoker.com/"&gt;partypoker&lt;/a&gt; para brincar. Ao entrar no site descobri
+que o instalador era para Windows, mas como eu já estava acostumado a ver sites
+de poker com instalador para windows eu decidi usar a interface web deles que
+funciona com um applet java e rolou tranquilo.&lt;/p&gt;
+
+&lt;p&gt;Jogar poker pela internet é bem divertido, e também necessário para quem quer levar
+o jogo a sério, mas eu ainda sinto falta de juntar os amigos pessoalmente e passar
+uma boa parte do tempo tentando adivinhar a poker face da galera para não ver meu
+dinheiro se perdendo. :P&lt;/p&gt;
+
+&lt;p&gt;Se alguém aí costuma se juntar para jogar, não esqueçam de me incluir! :)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Letícia F. | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>A lifestyle</title>
+    <link rel="alternate" href="http://pothix.com/2012/09/10/2012-09-10-a-lifestyle.html"/>
+    <id>http://pothix.com/2012/09/10/2012-09-10-a-lifestyle.html</id>
+    <published>2012-09-09T21:00:00-03:00</published>
+    <updated>2015-06-08T16:47:55-03:00</updated>
+    <author>
+      <name>Willian Molinari (a.k.a PotHix)</name>
+    </author>
+    <content type="html">&lt;p&gt;Just a transcript from &lt;a href="http://www.youtube.com/watch?v=vlZ4ONTb9i0&amp;amp;feature=youtu.be"&gt;here&lt;/a&gt;, 
+but it reflects my way of life at this stage of my life:&lt;/p&gt;
+&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;We believe in going our own way,no matter which way the rest of the world is going.
+
+We believe in bucking the system that’s built to smash individuals as bugs on a windshield.
+
+Some of us believe in the man upstairs.All of us believe in sticking in to the man down here.
+
+We believe in the sky and we don’t believe in the sunroof.
+
+We believe in freedom.
+
+We believe in dust,tumbleweeds,buffalo,mountain ranges and riding off into the sunset.
+
+We believe in saddle bags and we believe that cowboys had it right.
+
+We believe in refusing to knuckle under to anyone.
+
+We believe in wearing black,because it doesn’t show any dirt or weakness.
+
+We believe the world is going soft and we’re not going along with it.
+
+We believe in motorcycle rallies that last a week.
+
+We believe in road side attractions,gas station,hot dogs and finding what’s over the next.
+
+We believe in rumbling engines,pistons the size of garbage cans,fuel tanks designed in 1936, freight-train size headlights,chrome and custom paint.
+
+We believe in flames and skulls.
+
+We believe life is what you make it,and we make it one hell of a ride.
+
+We believe the machine you sit on can tell the world exactly where you stand.
+
+We don’t care what everyone else believes.
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;;)&lt;/p&gt;
 </content>
   </entry>
 </feed>

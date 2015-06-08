@@ -14,7 +14,7 @@
 	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
 
-    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts)" href="/feed.xml" />
 
     <link rel="icon" type="image/png" href="/images/favico.png">
     <link rel='stylesheet' href='/stylesheets/style.css' type='text/css' media='all' />
@@ -68,65 +68,95 @@
 	    Published at <a rel="bookmark" href="/2008/12/21/2008-12-21-iniciando-seu-primeiro-projeto-no-github.html">2008/12/21</a><time class="updated" datetime="2008-12-21T00:00:00">Dec 21, 2008</time>
           </span>
           <span class="cat-links">
-            In Category <a rel="category tag" href="/categories/development.html">development</a>
+            In Category <a rel="category tag" href="/categories/dev.html">dev</a>
           </span>
           <span class="tags-links">
-  	    Tags: <a rel="tag" href="/tags/git.html">git</a>,<a rel="tag" href="/tags/tech.html">tech</a>
+  	    Tags: <a rel="tag" href="/tags/tech.html">tech</a>,<a rel="tag" href="/tags/dev.html">dev</a>
           </span>
         </div>
 
         <div class="entry-content">
-          <p>Æ!!</p>
+          <p>Hoje estou aqui para postar um pouco sobre o GitHub! =)</p>
 
-<p>Hoje estou aqui para postar um pouco sobre o GitHub! =)
-Minha idéia hoje é apenas mostrar como você inicia um projeto por lá, ou seja, enviar um pequeno repositório git e deixar no GitHub, e conforme os meus progressos eu postarei mais coisas por aqui! ; )</p>
+<p>Minha idéia hoje é apenas mostrar como você inicia um projeto por lá,
+ou seja, enviar um pequeno repositório git e deixar no GitHub, e
+conforme os meus progressos eu postarei mais coisas por aqui! ; )</p>
 
-<p>Antes de começar tudo isso você precisar ter cadastro no GitHub ( obviamente ) e já ter uma public-key cadastrada.</p>
+<p>Antes de começar tudo isso você precisar ter cadastro no GitHub
+(obviamente) e já ter uma public-key cadastrada.</p>
 
-<p>Para cadastrar uma public-key é só logar no GitHub, clicar em account ( no canto superior direito ) e clicar em &ldquo;add public key&rdquo; que vão aparecer os campos para inserir a mesma.</p>
+<p>Para cadastrar uma public-key é só logar no GitHub, clicar em account
+(no canto superior direito) e clicar em &ldquo;add public key&rdquo; que vão
+aparecer os campos para inserir a mesma.</p>
 
-<p>Você pode encontrar a sua public key no diretório ~/.ssh com
-<strong><em>cat id_rsa.pub</em></strong></p>
+<p>Você pode encontrar a sua public key no diretório <code>~/.ssh</code> com o
+comando:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>cat id_rsa.pub
+</pre></td></tr></tbody></table>
+</div>
 
-<p>Caso ele não exista basta acessar sua home (~) e cria-lo com:
-<strong><em>ssh-keygen -t rsa</em></strong></p>
+<p>Caso ele não exista basta acessar sua home (~) e cria-lo com:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>ssh-keygen -t rsa
+</pre></td></tr></tbody></table>
+</div>
 
-<p><strong>OBS</strong>: Eu tenho <a href="http://pothix.com/blog/slackware/deixando-seu-ssh-mais-facil-de-trabalhar">um post</a> com mais informações sobre chave e SSH</p>
+<p><strong>OBS</strong>: Eu tenho <a href="http://pothix.com/blog/slackware/deixando-seu-ssh-mais-facil-de-trabalhar">um post</a>
+com mais informações sobre chave e SSH.</p>
 
 <p>Depois pegar o conteúdo do arquio id_rsa.pub e colocar lá no GitHub.
-Voltando a criação do repositório&hellip;Primeiramente crie um diretório <a title=" Novo repositório no GitHub" href="http://github.com/repositories/new">por aqui</a>:</p>
+Voltando a criação do repositório&hellip; Primeiramente crie um diretório
+<a title=" Novo repositório no
+GitHub" href="http://github.com/repositories/new">por aqui</a>:</p>
 
-<p>Depois de criar você já terá um local acessível para enviar seu código, que por sinal ainda não existe, portanto&hellip;.Vamos criá-lo! :)</p>
+<p>Depois de criar você já terá um local acessível para enviar seu
+código, que por sinal ainda não existe, portanto&hellip;.Vamos criá-lo! :)</p>
 
-<p>Primeiramente crie um diretório qualquer:
-<strong><em>mkdir codes</em></strong></p>
+<p>Primeiramente crie um diretório qualquer:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>mkdir codes
+</pre></td></tr></tbody></table>
+</div>
 
-<p>Acesse o diretório:
-<strong><em>cd codes</em></strong></p>
+<p>Acesse o diretório:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>cd codes
+</pre></td></tr></tbody></table>
+</div>
 
-<p>E vamos iniciar o git nesse repositório:
-<strong><em>git init</em></strong></p>
+<p>E vamos iniciar o git nesse repositório:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>git init
+</pre></td></tr></tbody></table>
+</div>
 
-<p>Coloque aqui seu arquivo de código ( Não necessáriamente código, mas nesse caso vamos usar código ;) ) e vamos adicioná-lo ao git:
-<em>**git add mycode.rb *</em>*( Obs: Ruby o/ )</p>
+<p>Coloque aqui seu arquivo de código (não necessáriamente código, mas
+nesse caso vamos usar código ;)) e vamos adicioná-lo ao git:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>git add mycode.rb (obs: Ruby o/)
+</pre></td></tr></tbody></table>
+</div>
 
-<p>Agora vamos dar um commit do que fizemos usando &ldquo;-m&rdquo; para deixar uma mensagem do motivo do commit:
-<strong><em>git commit -m &ldquo;Meu primeiro commit&rdquo;</em></strong></p>
+<p>Agora vamos dar um commit do que fizemos usando &ldquo;-m&rdquo; para deixar uma
+mensagem do motivo do commit:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>git commit -m "Meu primeiro commit"
+</pre></td></tr></tbody></table>
+</div>
 
-<p>Agora vamos adicionar como origem o nosso projeto criado no GitHub:
-<strong><em>git remote add origin git@github.com:seu-usuario-no-GitHub/nome-do-repositorio-criado.git</em></strong></p>
+<p>Agora vamos adicionar como origem o nosso projeto criado no GitHub:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>git remote add origin git@github.com:seu-usuario-no-GitHub/nome-do-repositorio-criado.git
+</pre></td></tr></tbody></table>
+</div>
 
-<p>E depois é só dar um:
-<strong><em>git push origin master</em></strong></p>
+<p>E depois é só dar um:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>git push origin master
+</pre></td></tr></tbody></table>
+</div>
 
-<p>E lá está o seu código no GitHub! :)
-Tudo que eu falei aqui está no tutorial do GitHub quando você cria um diretório:</p>
+<p>E lá está o seu código no GitHub! :)</p>
+
+<p>Tudo que eu falei aqui está no tutorial do GitHub quando você cria um
+diretório:</p>
 
 <p><a href="http://github.com/guides/setting-up-a-remote-repository-using-github-and-osx">http://github.com/guides/setting-up-a-remote-repository-using-github-and-osx</a></p>
 
-<p>Por enquanto é isso! Algo bem simples só para você não se assustar quando lhe falarem de GitHub.</p>
-
-<p>Há braços</p>
+<p>Por enquanto é isso! Algo bem simples só para você não se assustar
+quando lhe falarem de GitHub.</p>
 
 <p><em>Old comments by: John-Henrique, George Mendonça, Thiago Marinho, Neto, Denis rebelo | Not available anymore. :(</em></p>
 
@@ -176,13 +206,13 @@ Tudo que eu falei aqui está no tutorial do GitHub quando você cria um diretór
 		      <a href="/2015/05/25/2015-05-25-new-layout-of-pothix-blog.html">New layout of PotHix blog</a> <span class="post-date">May 25, 2015</span>
 		    </li>
 		    <li>
-		      <a href="/2015/03/20/2015-03-20-as-escolhas-do-desenvolvedor.html">As escolhas do desenvolvedor</a> <span class="post-date">Mar 20, 2015</span>
-		    </li>
-		    <li>
 		      <a href="/2014/02/14/2014-02-14-ruby-python-e-native-threads.html">Ruby, Python e native threads</a> <span class="post-date">Feb 14, 2014</span>
 		    </li>
 		    <li>
 		      <a href="/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html">Golang and 1.2 version performance improvement</a> <span class="post-date">Dec  3, 2013</span>
+		    </li>
+		    <li>
+		      <a href="/2013/09/17/2013-09-17-o-guru-sp-e-seus-5-anos-de-vida.html">O Guru-SP e seus 5 anos de vida</a> <span class="post-date">Sep 17, 2013</span>
 		    </li>
                 </ul>
               </aside>
