@@ -26,7 +26,7 @@ para passar para esse pessoal que ainda não conhece nada. Pretendo que
 esse seja o post introdutório de vários capítulos passando por partes
 interessantes da linguagem. :)
 
-## Então...Vamos falar de Ruby! :)
+### Então...Vamos falar de Ruby! :)
 
 Ruby é uma linguagem interpretada, criada pelo japonês
 [Yukihiro “matz” Matsumoto](http://www.rubyist.net/%7Ematz/ "") e
@@ -83,7 +83,7 @@ E tem bem mais [coisas](http://www.ruby-lang.org/pt/sobre-o-ruby/)
 [interessantes](http://pt.wikipedia.org/wiki/Ruby_(linguagem_de_programa%C3%A7%C3%A3o)
 "Artigo sobre Ruby na Wikipedia")!
 
-## Tá...E por que diabos eu deveria usar Ruby
+### Tá...E por que diabos eu deveria usar Ruby
 
 Aí que está! É aí que entram as coisas legais, como:
 
@@ -135,7 +135,7 @@ Meu foco nesse post não é abordar a fundo nenhuma das ferramentas que
 eu citei acima, e sim apenas dar um overview de tudo que você pode
 fazer usando essa linguagem.
 
-## Puxa, gostei! Como usar?
+### Puxa, gostei! Como usar?
 
 Moleza! Está no Linux né? Se estiver usando Ubuntu só dê os comandos mágicos:
 
@@ -148,7 +148,7 @@ instalar coisas e tudo mais, mas me parece fácil.
 Basta clicar [aqui](http://www.ruby-lang.org/pt/downloads/) e pegar os
 arquivos necessários para a instalação! :D
 
-## Vixe...Instalei, e agora?
+### Vixe...Instalei, e agora?
 
 Agora é hora de brincar um pouco com a linguagem para saber como ela
 funciona! Eu recomendo você a entrar no
@@ -163,7 +163,7 @@ Lá você pode tentar executar uns códigos, inclusive os poucos exemplos
 que eu postei aqui, é muito legal para você conhecer a linguagem,
 descobrir uns métodos e tudo mais.
 
-## Já estou no IRB, mas eu não sei fazer nada...
+### Já estou no IRB, mas eu não sei fazer nada...
 
 Bem, agora é partir para as cabeças! :D
 

@@ -9,7 +9,7 @@ Participei nesse sábado do EDTED (Encontro de Design e Tecnologia
 Digital), e vou postar as minhas impressões sobre o evento, focando
 as palestras que assisti:
 
-## CMS’s livres: não reinventado a roda no desenvolvimento web
+### CMS’s livres: não reinventado a roda no desenvolvimento web
 
 A palestra foi conduzida por Paulino Michelazzo da Fábrica Livre, e
 foi uma palestra interessante!
@@ -27,7 +27,7 @@ conseguem com os projetos eles doam para os softwares livres que eles
 usam, e isso sim é devolver o que você conseguiu gratuitamente!
 Parabens a [Fabrica Livre](www.fabricalivre.com.br "Fabrica Livre").
 
-## Scrum
+### Scrum
 
 Encontrei um amigos como o Ricardo
 (Guitarrista do [Megadriver](http://www.megadriver.com.br "Megadriver") e programador
@@ -44,7 +44,7 @@ palestrante.
 Para quem nunca tinha visto uma palestra de Scrum deve ter gostado
 bastante da palestra. :)
 
-## SEO - Search Engine Optimization
+### SEO - Search Engine Optimization
 
 Tambem já tinha assistido outras pelestras sobre esse tema, e elas
 geralmente são iguais, portanto para mim não teve muita novidade. De
@@ -60,7 +60,7 @@ não vai ter sempre alta relevância se você aplicou SEO e ficou bem nas
 buscas, pois isso vai caindo com o tempo, e você precisa continuar
 mantendo isso com boa semântica.
 
-## Desenvolvimento web ágil: ferramentas, arquiteturas e princípios
+### Desenvolvimento web ágil: ferramentas, arquiteturas e princípios
 
 O [Guilherme Chapiewski](http://twitter.com/gchapiewski "Twitter do Guilherme Chapiewski")
 falou sobre muita coisa legal, avaliando linguagens e frameworks como
@@ -99,7 +99,7 @@ obrigado a integrar com Java, por que ele não ve um bom motivo para
 usar Java, sendo que ele pode usar coisas que ele considera melhor e
 com mais benefícios.
 
-## The Rails Way - Como Ruby on Rails pode te tornar um programador pior
+### The Rails Way - Como Ruby on Rails pode te tornar um programador pior
 
 O [Carlos Brando](http://nomedojogo.com "Blog do Carlos Brando") falou
 e muito bem sobre o Ruby! Falou muita coisa que eu tinha vontade de
@@ -120,14 +120,14 @@ ainda mais mostrando os facilitadores dos frameworks que ajudam você,
 mas abstrai um pouco da sua felicidade em desenvolver um pouquinho
 mais low. :P
 
-## Mercado de trabalho em TI
+### Mercado de trabalho em TI
 
 Foi uma "mesa redonda" com todos os palestrantes, discutindo sobre
 assuntos sugeridos pelo pessoal que estava assistindo o evento. Foi
 discutido sobre os valores de trabalho no mercado, apoio as
 universidades pelo governo, scrum, software livre e outras coisas.
 
-## Considerações finais
+### Considerações finais
 
 Gostei bastante do evento, consegui conversar várias pessoas legais
 por lá, como o [Caue Linden](http://twitter.com/KaueLinden) da

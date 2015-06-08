@@ -5,8 +5,6 @@ tags: "events,ruby,rubylearning,tech"
 category: "english"
 ---
 
-Æ!!
-
 As I promised, here goes my presentation! :)
 
 Finally i finished to translate all the presentation! Watched the

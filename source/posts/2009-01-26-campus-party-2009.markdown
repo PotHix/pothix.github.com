@@ -12,7 +12,7 @@ outras coisas.
 
 Segue um pequeno resumo do que pude ver por lá:
 
-## Segunda-feira dia 19/01/2009
+### Segunda-feira dia 19/01/2009
 
 Cheguei no evento mais ou menos as 15:00 e consegui entrar
 rapidinho... Já armei a minha barraca
@@ -37,7 +37,7 @@ recolher para a minha barraca e dormir.
 
 *[Veja aqui as fotos do dia](http://picasaweb.google.com/Willian.molinari/20090119Cparty?feat=directlink "Fotos do primeiro dia")*
 
-## Terça-feira dia 20/01/2009
+### Terça-feira dia 20/01/2009
 
 Acordei as 8 da manhã para ver a palestra do Fabio Akita sobre
 ecossistema RubyOnRails e até fui mencionado por ele quando ele falou
@@ -99,7 +99,7 @@ portanto não vou conseguir assistir nenhuma.
 
 *[Veja aqui as fotos do dia](http://picasaweb.google.com/Willian.molinari/20090120Cparty?feat=directlink "Fotos do segundo dia")*
 
-## Quarta-feira dia 21/01/2009
+### Quarta-feira dia 21/01/2009
 
 Peguei um HD externo de 40Gb para fazer download de umas coisas para
 um colega meu, e descobri o
@@ -161,7 +161,7 @@ quentinha. :P
 
 *[Veja aqui as fotos do dia ](http://picasaweb.google.com/Willian.molinari/20090121Cparty?feat=directlink "Fotos do terceiro dia")*
 
-## Quinta-feira dia 22/01/2009
+### Quinta-feira dia 22/01/2009
 
 Acordei um pouco mais tarde e tirei o dia para mexer nos exercícios,
 portanto fiquei pouco na Campus Party.
@@ -189,7 +189,7 @@ na segunda feira) e baixar trecos legais! :)
 
 *[Veja aqui as fotos do dia ](http://picasaweb.google.com/Willian.molinari/20090122Cparty?feat=directlink "Fotos do quarto dia")*
 
-## Sexta-feira dia 23/01/2009
+### Sexta-feira dia 23/01/2009
 
 Sexta feira foi um dia legal por aqui! já menos preocupado com a lista
 de exercícios (mas preocupado com a prova de segunda), eu consegui
@@ -213,7 +213,7 @@ No fim das contas ainda fiquei pouco tempo por aqui (das 19:00 as
 
 *[Veja aqui as fotos do dia ](http://picasaweb.google.com/Willian.molinari/20090123Cparty?feat=directlink "Fotos do quinto dia")*
 
-## **Sábado  dia 24/01/2009**
+### **Sábado  dia 24/01/2009**
 
 Após ficar até as 4 da manhã estudando na casa de um amigo, durmi um pouco e vim direto para cá! :)
 
@@ -264,7 +264,7 @@ Desmontei minha barraca e saí de lá as 6 da manhã mais ou menos. ;)
 
 *[Veja aqui as fotos do dia ](http://picasaweb.google.com/Willian.molinari/20090124Cparty?feat=directlink "Fotos do ultimo dia")*
 
-## Considerações finais
+### Considerações finais
 
 A Campus Party para mim terminou no Sábado, mas domingo a area Expo
 ainda estava aberta para visitas, mas resolvi não aparecer por lá já

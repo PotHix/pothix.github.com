@@ -18,7 +18,7 @@ Tudo bem que isso é um direito nosso e já deveria funcionar em todos
 desde o começo do serviço, pois prejudicava os usuários de outros
 sistemas operacionais diferentes do Windows, mas temos que parabenizar
 a VIVO por trabalhar em cima do problema que tinham e resolver assim
-como [prometeram em novembro do ano passado](http://www.vivoblog.com.br/sobre-a-compatibilidade-do-firefox.html "Promessa da VIVO") !
+como [prometeram em novembro do ano passado](http://www.vivoblog.com.br/sobre-a-compatibilidade-do-firefox.html "Promessa da VIVO")!
 
 Que a VIVO seja a primeira de muitas empresas a refatorar o seu site e
 sirva de exemplo para muitas empresas que estão aí na internet

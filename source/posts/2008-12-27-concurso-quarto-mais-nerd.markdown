@@ -5,27 +5,39 @@ tags: "geek"
 category: "geek / nerd"
 ---
 
-Æ!!
+Bem...Estava eu aproveitando as férias (tanto da faculdade como as
+férias coletivas do trabalho) para colocar as coisas em ordem,
+começando pelo meu quarto que é o lugar da casa que eu passo mais
+tempo e eu gosto de manter bem organizado, portanto já tratei de
+aproveitar meu tempo livre para deixar ele do jeito que eu queria.
 
-E ae galera esperta!
+Comprei uma pequena estante para colocar mais livros e outras coisas
+legais, encaixotei várias coisas que eu quase nunca vou usar, e joguei
+2 sacolas de papéis e outras coisas inúteis fora. Com isso tudo acabei
+até achando 2 adesivos legais (um do Quake III e outro do Unreal
+Tournament GotY) que eu tinha para colar no
 
-Bem...Estava eu aproveitando as férias ( tanto da faculdade como as férias coletivas do trabalho ) para colocar as coisas em ordem, começando pelo meu quarto que é o lugar da casa que eu passo mais tempo e eu gosto de manter bem organizado, portanto já tratei de aproveitar meu tempo livre para deixar ele do jeito que eu queria.
+[meu capacete](http://picasaweb.google.com/lh/photo/a-tiDhsHv5pIkSce68oH7w?feat=directlink "Adesivo do Unreal Tournament")
+e na [minha moto](http://picasaweb.google.com/lh/photo/tif9whzrOfu3PdnDx-DRfg?feat=directlink "Adesivo do Quake III"). :)
 
-Comprei uma pequena estante para colocar mais livros e outras coisas legais, encaixotei várias coisas que eu quase nunca vou usar, e joguei 2 sacolas de papéis e outras coisas inúteis fora. Com isso tudo acabei até achando 2 adesivos legais ( um do Quake III e outro do Unreal Tournament GotY ) que eu tinha para colar no [meu capacete](http://picasaweb.google.com/lh/photo/a-tiDhsHv5pIkSce68oH7w?feat=directlink "Adesivo do Unreal Tournament") e na [minha moto](http://picasaweb.google.com/lh/photo/tif9whzrOfu3PdnDx-DRfg?feat=directlink "Adesivo do Quake III"). :)
+No fim das contas finalmente consegui deixar o meu quarto como eu
+queria:
 
-No fim das contas finalmente consegui deixar o meu quarto como eu queria:
+[![NerdRoom1](/images/posts/quarto_nerd1.jpg "NerdRoom1")](http://picasaweb.google.com/Willian.molinari/QuartoNerd?feat=directlink "")
+[![NerdRoom2](/images/posts/quarto_nerd2.jpg "NerdRoom2")](http://picasaweb.google.com/Willian.molinari/QuartoNerd?feat=directlink "")
 
-[![NerdRoom1](http://pothix.com/blog/wp-content/uploads/2008/12/s7301124-300x225.jpg "NerdRoom1") ](http://picasaweb.google.com/Willian.molinari/QuartoNerd?feat=directlink "")[![NerdRoom2](http://pothix.com/blog/wp-content/uploads/2008/12/s7301132-300x225.jpg "NerdRoom2")
-](http://picasaweb.google.com/Willian.molinari/QuartoNerd?feat=directlink "")[mais fotos aqui](http://picasaweb.google.com/Willian.molinari/QuartoNerd?feat=directlink "NerdRoom")[](http://pothix.com/blog/wp-content/uploads/2008/12/s7301132.jpg "")
+[mais fotos aqui](http://picasaweb.google.com/Willian.molinari/QuartoNerd?feat=directlink "NerdRoom")[](http://pothix.com/blog/wp-content/uploads/2008/12/s7301132.jpg "")
 
 Acho que consegue me descrever bastante:
 
 Fora da mesa:
+
 * Violão e guitarra
 * Posters dos 3 filmes d"O Senhor dos Anéis"
 * Mochila preta
 
 Na mesa:
+
 * Vários porta cds com DVDs de arquivos e outras coisas mais
 * Um porta cd com alguns cds de musica como Metallica, Bach ( da coleção da folha se não me engano ) e outros.
 * Palm e teclado ao lado do monitor
@@ -34,10 +46,11 @@ Na mesa:
 * Livro de C++
 
 Na estante:
+
 * Peças e relógio de xadrez da Jaehrig
 * Tabuleiro de xadrez portátil
-* Mangás Sakura Card Captors ( curto esse esquema de cartas )
-* Pasta com muitas cartas de Magic - the Gathering ( Na parte de baixo da estante )
+* Mangás Sakura Card Captors (curto esse esquema de cartas)
+* Pasta com muitas cartas de Magic - the Gathering (na parte de baixo da estante)
 * PSP
 * Alguns livros: O senhor dos anéis - Edição completa, Universidade Hacker, Repensando a web com Rails, Servidores Unix....
 * Várias revistas: Linux Magazine, Revista Locaweb, Revista WWW
@@ -47,15 +60,20 @@ Na estante:
 * Notebook
 
 Em cima da estante:
-* Crachás dos eventos que eu participei ( faltando alguns que se perderam )
+
+* Crachás dos eventos que eu participei (faltando alguns que se perderam)
 
 E aí que vem a parte que eu queria chegar!:D
 
-Aqui é o maior concurso de todos os tempos, se você tem um quarto tão nerd como o meu tire umas fotos dele e post aqui para eu ver, e quem sabe você pode ganhar...humm.....adivinhe....SiiimmM!! Toda a honra e a glória de ter um quarto mais nerd que o meu...E o meu respeito tambem, que não vale tanta coisa assim, mas pelo menos vc vai se divertir! :)
+Aqui é o maior concurso de todos os tempos, se você tem um quarto tão
+nerd como o meu tire umas fotos dele e post aqui para eu ver, e quem
+sabe você pode ganhar... humm..... adivinhe.... SiiimmM!! Toda a honra e
+a glória de ter um quarto mais nerd que o meu... E o meu respeito
+tambem, que não vale tanta coisa assim, mas pelo menos vc vai se
+divertir! :)
 
-Coloquem as fotos no Picasa / Flickr / ImageShare / QualquerOutroQueVcConheça e poste os links aqui nos comentários.
-
-Há braços
+Coloquem as fotos no picasa/flickr/ImageShare/QualquerOutroQueVcConheça e poste os links
+aqui nos comentários.
 
 
 

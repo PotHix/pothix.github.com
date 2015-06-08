@@ -22,7 +22,7 @@ seja só para ler ).
 
 Depois de contar um pouco do drama, vamos ao refactoring! ;)
 
-## Listas de discussão
+### Listas de discussão
 
 Atualmente eu assino quase 15 listas de discussão, sendo que sou
 moderador na [gtd-br](http://br.groups.yahoo.com/group/gtdbr/)
@@ -39,7 +39,7 @@ organização da minha caixa de entrada e poupar bastante do meu tempo
 era sair de várias listas que eu participava mas nem acompanhava e
 colocar todas as que sobrarem como Digest, e foi isso que eu fiz! :D
 
-## Organizando as labels
+### Organizando as labels
 
 Tinha uma grande quantidade de labels que eu não estava usando, ou que
 criei para uma determinada finalidade e agora não estavam servindo
@@ -58,7 +58,7 @@ melhor visualização. Utilizei os seguintes prefixos:
 Utilizando esses prefixos nos meus labels eu consegui organizar minhas
 coisas por tema, assim vendo facilmente o que eu tenho de pendências.
 
-## Organizando os filtros
+### Organizando os filtros
 
 Agora com as minhas labels arrumadas, preciso gerenciar os e-mails que
 estão vindo, e para isso eu uso os filtros do Gmail, que encaminham
@@ -89,8 +89,6 @@ aberta o dia inteiro para enviar e-mails repentinos, sem que isso me
 tome tanto tempo.
 
 Se alguem tiver mais dicas poste nos comentários.
-
-Há braços
 
 
 

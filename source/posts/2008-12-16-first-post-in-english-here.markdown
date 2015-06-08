@@ -1,18 +1,18 @@
 ---
-title: "First post in english here"
+title: "First post in English here"
 date: "2008-12-16"
 tags: "personal"
-category: "english"
+category: "English"
 ---
 
-Æ!!
+Hi international friends! :)
 
-Hi International friends! :)
+I'm just posting to inform that I want to post some content in English
+too! I'll try to make a RSS Feed only for my English posts, so you
+don't need to view my portuguese posts on your feed reader. :)
 
-I'm just posting to inform that i want to post some content in english too! I'll try to make a RSS Feed only for my english posts, so you can't need to view my portuguese posts on your Reader. :)
+As everyone knows, my English is not so good, but I think you can
+understand me well! Any English errors (I'm sure it will have a lot of
+them) please tell me and I'll correct it asap.
 
-Everybody knows that my english is not so good, but i think that you can understand me! Any english errors ( i think that i'll have a lot of errors...:P ) please tell me and i'll correct the text.
-
-I'll update this post when i have the link to RSS to english posts! :D
-
-See you!
+Hope to have you following this blog! :)
