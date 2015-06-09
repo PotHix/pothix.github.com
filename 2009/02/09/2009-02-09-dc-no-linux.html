@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>PotHix blog - DC++ no Linux</title>
+
+    <!-- Prefetch DNS for external resources to speed up loading time -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
+    <!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts)" href="/feed.xml" />
+
+    <link rel="icon" type="image/png" href="/images/favico.png">
+    <link rel='stylesheet' href='/stylesheets/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='/stylesheets/stag-custom-styles.css' type='text/css' media='all' />
+
+    <link rel="stylesheet" href="/stylesheets/font-awesome-4.3.0/css/font-awesome.min.css">
+    <link rel='stylesheet' id='doctype-fonts-css'  href='http://fonts.googleapis.com/css?family=Rokkitt%3A700%7CLato%3A300%2C400%2C700%2C300italic&#038;subset=latin' type='text/css' media='all' />
+
+    <body class="blog sticky-nav chrome stagtools">
+      <div id="page" class="hfeed site">
+	<header id="masthead" class="site-header site-header--fixed" role="banner">
+          <div class="inside">
+	    <div id="navbar" class="navbar">
+  <nav id="site-navigation" class="navigation main-navigation" role="navigation">
+    <ul id="primary-menu" class="primary-menu">
+      <li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13">
+	<a href="/">Home</a>
+      </li>
+      <li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14">
+	<a href="#">Projects</a>
+      </li>
+      <li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53">
+	<a href="/about.html">About me</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+            <a class="site-branding" href="/" title="Doctype" rel="home">
+              <span class="logo-container">
+                <img data-at2x src="/images/logo.png" alt="Website's logo">
+              </span>
+            </a>
+          </div>
+	</header>
+
+
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-#{current_page.data.id}" class="post-#{current_page.data.id} post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
+
+         <header class="entry-header">
+      	   <h2 class="entry-title">
+	    DC++ no Linux
+          </h2>
+        </header>
+
+        <div class="entry-meta">
+          <span class="posted-on">
+	    Published at <a rel="bookmark" href="/2009/02/09/2009-02-09-dc-no-linux.html">2009/02/09</a><time class="updated" datetime="2009-02-09T00:00:00">Feb  9, 2009</time>
+          </span>
+          <span class="cat-links">
+            In Category <a rel="category tag" href="/categories/linux.html">linux</a>
+          </span>
+          <span class="tags-links">
+  	    Tags: <a rel="tag" href="/tags/tech.html">tech</a>,<a rel="tag" href="/tags/linux.html">linux</a>
+          </span>
+        </div>
+
+        <div class="entry-content">
+          <p>Hoje finalmente estou conseguindo escrever um post sobre o DC++! Desde
+a <a title="Campus Party" href="http://pothix.com/blog/events/campus-party-2009">Campus Party</a>
+eu quero escrever esse post mas nunca consigo tempo!</p>
+
+<p>Para quem não conhece, o
+<a title="DC++ Official page on SourceForge" href="http://dcplusplus.sourceforge.net/">DC++</a>
+é um software para compartilhamento de arquivos, muito interessante,
+onde você pode facilmente compartilhar arquivos pela rede local, e por
+isso mesmo que foi muito utilizado na Campus Party, onde os
+campuseiros compartilharam terabytes e mais terabytes de arquivos!</p>
+
+<p>Atualmente estou utilizando Ubuntu no meu notebook (não tenho mais PC
+nem em casa e nem no trampo, portanto o meu Slackware se foi&hellip;:() e
+vou mostrar aqui como instalar o seu DC++ nele!</p>
+
+<p>Primeiramente vamos instalar as dependencias:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>sudo apt-get install bzr scons build-essential libgtk2.0-dev libglade2-dev zlib1g-dev libbz2-dev libssl-dev
+</pre></td></tr></tbody></table>
+</div>
+
+<p>Como é possível notar acima, estamos instalando tambem o
+<a title="Bazaar version control" href="http://bazaar-vcs.org/">Bazaar</a>, que é o
+software de controle de versão que o DC++ utiliza, infelizmente ainda
+não tem os binarios para nenhuma distribuição por que ele ainda está
+em alpha, por isso temos que fazer o download direto pelo Bazaar!</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>bzr branch lp:linuxdcpp
+</pre></td></tr></tbody></table>
+</div>
+
+<p>Agora temos um branch local do DC++ no nosso computador, portanto é só
+entrar na pasta e instalar:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3</pre></td><td class="code"><pre>cd linuxdcpp
+scons release=1 PREFIX=/usr/local
+sudo scons install
+</pre></td></tr></tbody></table>
+</div>
+
+<p>Veja que criei um &ldquo;PREFIX&rdquo; para instalar em /usr/local. =)</p>
+
+<p>Agora seu DC++ já está instalado e você pode executar ele usando o
+comando:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>linuxdcpp
+</pre></td></tr></tbody></table>
+</div>
+
+<p>E pronto!</p>
+
+<p>Agora é só clicar no botão connect e conectar ao endereço de
+compartilhamento e já era! :)</p>
+
+<p>No <a title="How to install DC++ on Ubuntu" href="http://ubuntuforums.org/showthread.php?t=193984">site que tirei essas dicas</a>
+eles falam que é bom desabilitar o &ldquo;Assistive Technology Support&rdquo; por
+que deixa o DC++ muito lento. É só ir em: <strong>Sistema &gt; Preferencias &gt; ATS</strong></p>
+
+<p>Espero que seja útil para vocês assim como foi para mim no Campus
+Party!</p>
+
+<p><em>Old comments by: Jorge Pereira | Not available anymore. :(</em></p>
+
+	  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'pothixcom';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+        </div>
+      </article>
+    </main>
+  </div>
+</div>
+
+	<footer class="footer-widget-area">
+          <div class="inside">
+            <div class="grids">
+              <aside id="stag-dribbble-2" class="widget grid-4 stag-dribbble">
+		<div class='stag-dribbble-widget'>
+		  <h3 class="widget-title">
+		    <span>A Dribbble widget</span>
+		  </h3>
+		  <ul class="dribbbles">
+                    <li class="dribbble-shot">
+                      <a href="https://dribbble.com/shots/2049446-Higgs-A-portfolio-WordPress-theme" class="dribbble-link" title="Higgs - A portfolio WordPress theme" target="_blank"><img src="https://d13yacurqjgara.cloudfront.net/users/271608/screenshots/2049446/higgs.jpg" alt="Higgs - A portfolio WordPress theme"></a>
+		    </li>
+                  </ul>
+		</div>
+	      </aside>
+
+	      <aside id="recent-posts-2" class="widget grid-4 widget_recent_entries">
+		<h3 class="widget-title">
+		  <span>latest blog entries</span>
+		</h3>
+		
+		<ul>
+		    <li>
+		      <a href="/2015/05/25/2015-05-25-new-layout-of-pothix-blog.html">New layout of PotHix blog</a> <span class="post-date">May 25, 2015</span>
+		    </li>
+		    <li>
+		      <a href="/2014/02/14/2014-02-14-ruby-python-e-native-threads.html">Ruby, Python e native threads</a> <span class="post-date">Feb 14, 2014</span>
+		    </li>
+		    <li>
+		      <a href="/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html">Golang and 1.2 version performance improvement</a> <span class="post-date">Dec  3, 2013</span>
+		    </li>
+		    <li>
+		      <a href="/2013/09/17/2013-09-17-o-guru-sp-e-seus-5-anos-de-vida.html">O Guru-SP e seus 5 anos de vida</a> <span class="post-date">Sep 17, 2013</span>
+		    </li>
+                </ul>
+              </aside>
+
+	      <aside id="text-2" class="widget grid-4 widget_text">
+		<h3 class="widget-title">
+		  <span>More about me</span>
+		</h3>
+		<div class="textwidget">
+		  I'm a passionate programmer that likes to play with different things like games in the browser, networking, hypervisors and some financing in my spare time.
+		  <br/><br/>
+		  I've been playing with Python, Ruby, Javascript and a little bit of Golang and C in the past months, hope to spread good information here. ;)
+		</div>
+              </aside>
+            </div>
+          </div>
+	</footer>
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+          <div class="site-info">
+            <div class="grids">
+              <div class="grid-6">
+                © 2015 <a href="http://demo.codestag.com/doctype/">Doctype</a> WordPress Theme by <a href="//codestag.com">Codestag</a> modified by PotHix
+	      </div>
+            </div>
+          </div>
+	</footer>
+      </div>
+    </body>
+</html>
+

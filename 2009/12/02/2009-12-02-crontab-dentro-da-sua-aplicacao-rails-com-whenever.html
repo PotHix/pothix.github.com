@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>PotHix blog - Crontab dentro da sua aplicação rails com whenever</title>
+
+    <!-- Prefetch DNS for external resources to speed up loading time -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
+    <!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts)" href="/feed.xml" />
+
+    <link rel="icon" type="image/png" href="/images/favico.png">
+    <link rel='stylesheet' href='/stylesheets/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='/stylesheets/stag-custom-styles.css' type='text/css' media='all' />
+
+    <link rel="stylesheet" href="/stylesheets/font-awesome-4.3.0/css/font-awesome.min.css">
+    <link rel='stylesheet' id='doctype-fonts-css'  href='http://fonts.googleapis.com/css?family=Rokkitt%3A700%7CLato%3A300%2C400%2C700%2C300italic&#038;subset=latin' type='text/css' media='all' />
+
+    <body class="blog sticky-nav chrome stagtools">
+      <div id="page" class="hfeed site">
+	<header id="masthead" class="site-header site-header--fixed" role="banner">
+          <div class="inside">
+	    <div id="navbar" class="navbar">
+  <nav id="site-navigation" class="navigation main-navigation" role="navigation">
+    <ul id="primary-menu" class="primary-menu">
+      <li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13">
+	<a href="/">Home</a>
+      </li>
+      <li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14">
+	<a href="#">Projects</a>
+      </li>
+      <li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53">
+	<a href="/about.html">About me</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+            <a class="site-branding" href="/" title="Doctype" rel="home">
+              <span class="logo-container">
+                <img data-at2x src="/images/logo.png" alt="Website's logo">
+              </span>
+            </a>
+          </div>
+	</header>
+
+
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-#{current_page.data.id}" class="post-#{current_page.data.id} post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
+
+         <header class="entry-header">
+      	   <h2 class="entry-title">
+	    Crontab dentro da sua aplicação rails com whenever
+          </h2>
+        </header>
+
+        <div class="entry-meta">
+          <span class="posted-on">
+	    Published at <a rel="bookmark" href="/2009/12/02/2009-12-02-crontab-dentro-da-sua-aplicacao-rails-com-whenever.html">2009/12/02</a><time class="updated" datetime="2009-12-02T00:00:00">Dec  2, 2009</time>
+          </span>
+          <span class="cat-links">
+            In Category <a rel="category tag" href="/categories/dev.html">dev</a>
+          </span>
+          <span class="tags-links">
+  	    Tags: <a rel="tag" href="/tags/rails.html">rails</a>,<a rel="tag" href="/tags/ruby.html">ruby</a>,<a rel="tag" href="/tags/tech.html">tech</a>,<a rel="tag" href="/tags/dev.html">dev</a>
+          </span>
+        </div>
+
+        <div class="entry-content">
+          <p>Hoje estou aqui para falar de uma coisa que quando vi pela primeira vez
+ignorei por parecer uma coisa boba, mas olhando melhor eu percebi que é
+uma idéia bem interessante. O que a gem whenever faz é manter o seu
+crontab de uma forma mais Ruby, e melhor, dentro da sua aplicação!</p>
+
+<p>A principio parece estranho tentar manter o crontab dentro da sua
+aplicação, mas ganhamos muitas vantagens com isso:</p>
+
+<ul>
+<li>versionamento</li>
+<li>menos acesso ao servidor</li>
+<li>rapida atualização do crontab do servidor via capistrano</li>
+<li>forma mais legível de ver o crontab</li>
+</ul>
+
+<p>E tudo isso não influi no crontab que você já possui ( e que muitas
+vezes tem muita coisa que não é relacionada com a aplicação ), pois o
+whenever cria uma seção que ele atualiza mantendo a seção antiga onde
+está.</p>
+
+<p>Para instalar o whenever é a mesma facilidade de sempre:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>sudo gem install whenever
+</pre></td></tr></tbody></table>
+</div>
+
+<p><strong>OBS</strong>: Lembrando que a primeira linha só é necessária uma vez, se
+  você já tem o gemcutter no seu sources então ignore-a.</p>
+
+<p>Depois disso execute:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>wheneverize .
+</pre></td></tr></tbody></table>
+</div>
+
+<p>O comando acima vai gerar os arquivos necessários para a utilização do
+whenever ( básicamente o config/schedule.rb ).</p>
+
+<p>E a partir de agora você já pode atualizar o seu crontab com as suas
+configurações feitas no config/schedule.rb executando o comando:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>whenever --update-crontab suaaplicacao
+</pre></td></tr></tbody></table>
+</div>
+
+<p>Quando você passa como parametro a sua aplicação ele cria um bloco
+apenas para as configurações da sua aplicação no crontab.</p>
+
+<p>Mas é claro que você não vai precisar acessar o servidor e executar
+esse comando toda vez que você alterar o arquivo de schedule, para
+isso você provavelmente deve estar usando o capistrano para ser mais
+DRY. Se estiver usando inclua algumas linhas no seu deploy.rb:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8</pre></td><td class="code"><pre>after "deploy:symlink", "deploy:update_crontab"
+
+namespace :deploy do
+   desc "Update the crontab file"
+   task :update_crontab, :roles =&gt; :db do
+      run "cd #{release_path} &amp;&amp; whenever --update-crontab #{application}"
+   end
+end
+</pre></td></tr></tbody></table>
+</div>
+
+<p><strong>OBS</strong>: Se você tiver problemas no deploy com essa linha ( como se o
+comando whenever não existisse ), tente adicionar o path absoluto
+para o whenever.</p>
+
+<p>E com isso a cada vez que você fizer um cap server deploy seu crontab
+será atualizado com as configurações contidas no config/schedule.rb.</p>
+
+<p>Veja alguns exemplos do que pode ter no seu schedule.rb:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre>every 4.minutes do
+  rake "ts:in"
+end
+
+every 1.day, :at =&gt; '5:25 am' do
+  rake "bla_bla"
+end
+
+every [:monday, :thursday], :at =&gt; '11:59 am' do
+  command "sudo rm -rf /" # claro!
+end
+</pre></td></tr></tbody></table>
+</div>
+
+<p>Nada do que eu demonstrei aqui é uma grande novidade, você pode ver mais
+exemplos de como usar no <a href="http://www.railscasts.com">Railscasts</a> e na <a href="http://github.com/javan/whenever">própria página do plugin</a>.</p>
+
+<p>Espero que seja útil para mais alguem como está sendo para mim.</p>
+
+<p><em>Old comments by: Mateus, Vini, Fabiano P S, Luiz Cezer | Not available anymore. :(</em></p>
+
+	  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'pothixcom';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+        </div>
+      </article>
+    </main>
+  </div>
+</div>
+
+	<footer class="footer-widget-area">
+          <div class="inside">
+            <div class="grids">
+              <aside id="stag-dribbble-2" class="widget grid-4 stag-dribbble">
+		<div class='stag-dribbble-widget'>
+		  <h3 class="widget-title">
+		    <span>A Dribbble widget</span>
+		  </h3>
+		  <ul class="dribbbles">
+                    <li class="dribbble-shot">
+                      <a href="https://dribbble.com/shots/2049446-Higgs-A-portfolio-WordPress-theme" class="dribbble-link" title="Higgs - A portfolio WordPress theme" target="_blank"><img src="https://d13yacurqjgara.cloudfront.net/users/271608/screenshots/2049446/higgs.jpg" alt="Higgs - A portfolio WordPress theme"></a>
+		    </li>
+                  </ul>
+		</div>
+	      </aside>
+
+	      <aside id="recent-posts-2" class="widget grid-4 widget_recent_entries">
+		<h3 class="widget-title">
+		  <span>latest blog entries</span>
+		</h3>
+		
+		<ul>
+		    <li>
+		      <a href="/2015/05/25/2015-05-25-new-layout-of-pothix-blog.html">New layout of PotHix blog</a> <span class="post-date">May 25, 2015</span>
+		    </li>
+		    <li>
+		      <a href="/2014/02/14/2014-02-14-ruby-python-e-native-threads.html">Ruby, Python e native threads</a> <span class="post-date">Feb 14, 2014</span>
+		    </li>
+		    <li>
+		      <a href="/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html">Golang and 1.2 version performance improvement</a> <span class="post-date">Dec  3, 2013</span>
+		    </li>
+		    <li>
+		      <a href="/2013/09/17/2013-09-17-o-guru-sp-e-seus-5-anos-de-vida.html">O Guru-SP e seus 5 anos de vida</a> <span class="post-date">Sep 17, 2013</span>
+		    </li>
+                </ul>
+              </aside>
+
+	      <aside id="text-2" class="widget grid-4 widget_text">
+		<h3 class="widget-title">
+		  <span>More about me</span>
+		</h3>
+		<div class="textwidget">
+		  I'm a passionate programmer that likes to play with different things like games in the browser, networking, hypervisors and some financing in my spare time.
+		  <br/><br/>
+		  I've been playing with Python, Ruby, Javascript and a little bit of Golang and C in the past months, hope to spread good information here. ;)
+		</div>
+              </aside>
+            </div>
+          </div>
+	</footer>
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+          <div class="site-info">
+            <div class="grids">
+              <div class="grid-6">
+                © 2015 <a href="http://demo.codestag.com/doctype/">Doctype</a> WordPress Theme by <a href="//codestag.com">Codestag</a> modified by PotHix
+	      </div>
+            </div>
+          </div>
+	</footer>
+      </div>
+    </body>
+</html>
+
