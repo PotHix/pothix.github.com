@@ -1,7 +1,9 @@
-publish:
+build:
 	@bundle exec middleman build
+
+publish:
 	@git checkout master
-	@rm -rf 2* categories tags page stylesheets
+	@rm -rf 2* categories tags page stylesheets images
 	@mv build/* .
 	@rm -rf build
 	@git add -A .
