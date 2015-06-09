@@ -13,13 +13,13 @@
 
         <div class="entry-meta">
           <span class="posted-on">
-	    Published at <%= link_to current_page.date.strftime('%Y/%m/%d'), current_page, rel: "bookmark" %><time class="updated" datetime="<%= current_page.date.strftime("%Y-%m-%dT%H:%M:%S") %>"><%= current_page.date.strftime('%b %e, %Y') %></time>
+            Published at <%= link_to current_page.date.strftime('%Y/%m/%d'), current_page, rel: "bookmark" %><time class="updated" datetime="<%= current_page.date.strftime("%Y-%m-%dT%H:%M:%S") %>"><%= current_page.date.strftime('%b %e, %Y') %></time>
           </span>
           <span class="cat-links">
             In Category <%= link_to current_page.data.category, category_path(current_page.data.category), rel: "category tag" %>
           </span>
           <span class="tags-links">
-  	    Tags: <%= current_page.tags.map{|tag| link_to(tag, tag_path(tag), rel: "tag")}.join(",") %>
+            Tags: <%= current_page.tags.map{|tag| link_to(tag, tag_path(tag), rel: "tag")}.join(",") %>
           </span>
         </div>
 
