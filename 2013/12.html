@@ -34,7 +34,7 @@
 	<a href="/">Home</a>
       </li>
       <li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14">
-	<a href="#">Portfolio</a>
+	<a href="#">Projects</a>
       </li>
       <li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53">
 	<a href="#">About me</a>
@@ -55,14 +55,46 @@
 <div id="content" class="site-content">
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
-      <h1>Archive for
-    Dec 2013
-</h1>
+      <header class="page-header">
+  <h1 class='blog-title'>
+    Archive for
+      Dec 2013
+  </h1>
+  <p class='blog-subtitle'>Articles by date</p>
+</header>
 
+  <article id="post-#{article.id}" class="post-#{article.id} post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
 
-<ul>
-    <li><a href="/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html">Golang and 1.2 version performance improvement</a> <span>Dec  3</span></li>
-</ul>
+    <header class="entry-header">
+      <h2 class="entry-title">
+	<a rel="bookmark" href="/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html">Golang and 1.2 version performance improvement</a>
+      </h2>
+    </header>
+
+    <div class="entry-meta">
+      <span class="posted-on">
+	Published at <a rel="bookmark" href="/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html">2013/12/03</a><time class="updated" datetime="2013-12-03T00:00:00">Dec  3, 2013</time>
+      </span>
+      <span class="cat-links">
+	In Category <a rel="category tag" href="/categories/dev.html">dev</a>
+      </span>
+      <span class="tags-links">
+	Tags: <a rel="tag" href="/tags/golang.html">golang</a>,<a rel="tag" href="/tags/english.html">english</a>,<a rel="tag" href="/tags/dev.html">dev</a>,<a rel="tag" href="/tags/tech.html">tech</a>
+      </span>
+    </div>
+
+    <div class="entry-content">
+      <p>I’ve started using Go last month and I really liked to work with the language.
+
+The project I’m working on is dead simple and just retrieves metrics and save on
+a redis server (the data will be analyzed by a different project that I’m
+working on). So I have 15 goroutines retrieving data constantly and I’m using
+just two native threads.
+
+I did some CPU profiling on the code using my current machine...</p>
+    </div>
+  </article>
+
 
 
     </main>

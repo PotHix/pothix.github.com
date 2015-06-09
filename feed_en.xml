@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://pothix.com/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html"/>
     <id>http://pothix.com/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html</id>
     <published>2013-12-02T22:00:00-02:00</published>
-    <updated>2015-06-08T16:47:55-03:00</updated>
+    <updated>2015-06-09T11:14:24-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -128,7 +128,7 @@ Looks like it is a good idea of language for some of my projects, welcome Golang
     <link rel="alternate" href="http://pothix.com/2013/07/15/2013-07-15-game-network-programming.html"/>
     <id>http://pothix.com/2013/07/15/2013-07-15-game-network-programming.html</id>
     <published>2013-07-14T21:00:00-03:00</published>
-    <updated>2015-06-08T16:47:55-03:00</updated>
+    <updated>2015-06-09T11:14:24-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -175,7 +175,7 @@ também! Se tiverem dúvidas postem aí nos comentários. :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/09/10/2012-09-10-a-lifestyle.html"/>
     <id>http://pothix.com/2012/09/10/2012-09-10-a-lifestyle.html</id>
     <published>2012-09-09T21:00:00-03:00</published>
-    <updated>2015-06-08T16:47:55-03:00</updated>
+    <updated>2015-06-09T11:14:24-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -257,7 +257,7 @@ We don’t care what everyone else believes.
     <link rel="alternate" href="http://pothix.com/2012/09/02/2012-09-02-javascript-and-gamedev-discussion.html"/>
     <id>http://pothix.com/2012/09/02/2012-09-02-javascript-and-gamedev-discussion.html</id>
     <published>2012-09-01T21:00:00-03:00</published>
-    <updated>2015-06-08T16:47:55-03:00</updated>
+    <updated>2015-06-09T11:14:24-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -313,7 +313,7 @@ well, you just need to decide which one is better for your business.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/07/23/2012-07-23-kernel-compiling.html"/>
     <id>http://pothix.com/2012/07/23/2012-07-23-kernel-compiling.html</id>
     <published>2012-07-22T21:00:00-03:00</published>
-    <updated>2015-06-08T16:47:55-03:00</updated>
+    <updated>2015-06-09T11:14:24-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -487,7 +487,7 @@ process I think that I learned a lot, so it is worth it.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/07/17/2012-07-17-simlinks-for-ruby-on-debian-squeeze.html"/>
     <id>http://pothix.com/2012/07/17/2012-07-17-simlinks-for-ruby-on-debian-squeeze.html</id>
     <published>2012-07-16T21:00:00-03:00</published>
-    <updated>2015-06-08T16:47:55-03:00</updated>
+    <updated>2015-06-09T11:14:24-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -518,7 +518,7 @@ ln -s /usr/bin/gem1.9.1 /usr/bin/gem
     <link rel="alternate" href="http://pothix.com/2009/04/10/2009-04-10-translated-rubylearning-presentation.html"/>
     <id>http://pothix.com/2009/04/10/2009-04-10-translated-rubylearning-presentation.html</id>
     <published>2009-04-09T21:00:00-03:00</published>
-    <updated>2015-06-08T16:47:55-03:00</updated>
+    <updated>2015-06-09T11:14:24-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -816,7 +816,7 @@ with paypal.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/01/07/2009-01-07-deploying-a-simple-merb-application-on-locaweb.html"/>
     <id>http://pothix.com/2009/01/07/2009-01-07-deploying-a-simple-merb-application-on-locaweb.html</id>
     <published>2009-01-06T22:00:00-02:00</published>
-    <updated>2015-06-08T16:47:55-03:00</updated>
+    <updated>2015-06-09T11:14:24-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -902,7 +902,7 @@ pointed by apache with Phusion Passenger.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/12/31/2008-12-31-new-year-is-coming.html"/>
     <id>http://pothix.com/2008/12/31/2008-12-31-new-year-is-coming.html</id>
     <published>2008-12-30T22:00:00-02:00</published>
-    <updated>2015-06-08T16:47:55-03:00</updated>
+    <updated>2015-06-09T11:14:24-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -942,7 +942,7 @@ nos veremos em 2009!&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/12/16/2008-12-16-first-post-in-english-here.html"/>
     <id>http://pothix.com/2008/12/16/2008-12-16-first-post-in-english-here.html</id>
     <published>2008-12-15T22:00:00-02:00</published>
-    <updated>2015-06-08T16:47:55-03:00</updated>
+    <updated>2015-06-09T11:14:24-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
