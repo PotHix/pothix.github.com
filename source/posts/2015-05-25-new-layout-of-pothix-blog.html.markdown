@@ -14,8 +14,8 @@ instead of keeping the wordpress "infrastructure".
 
 I've divided into 3 feeds:
 
-* Only english posts: http://feeds.feedburner.com/EnglishPotHix
-* All posts: http://feeds.feedburner.com/PotHix
-* Posts related to programming or technology in genenal: http://feeds.feedburner.com/PotHixTech
+* Only english posts: <http://feeds.feedburner.com/EnglishPotHix>
+* All posts: <http://feeds.feedburner.com/PotHix>
+* Posts related to programming or technology in genenal: <http://feeds.feedburner.com/PotHixTech>
 
 So, that's it! Hope you enjoy the new layout (now responsive!) and get in touch! :)
