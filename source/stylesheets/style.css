@@ -1083,6 +1083,11 @@ img.alignnone {
     font-size: inherit;
     color: white;
     margin: 0 0 15px 0; }
+  .portfolio-items p {
+    font-size: inherit;
+    text-transform: none;
+    color: white;
+    margin: 0 0 15px 0; }
   .portfolio-items .button {
     font-size: 15px;
     line-height: 1;
