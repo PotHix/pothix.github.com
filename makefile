@@ -3,6 +3,7 @@ build:
 
 publish:
 	@git checkout master
+	@git pull
 	@rm -rf 2* categories tags page stylesheets images
 	@mv build/* .
 	@rm -rf build
