@@ -2,10 +2,14 @@
 # Blog settings
 ###
 
+require "yaml"
+
 Time.zone = "UTC"
 
 set :markdown_engine, :redcarpet
 set :markdown, :fenced_code_blocks => true, :smartypants => true
+
+activate :syntax, :line_numbers => true
 
 activate :blog do |blog|
   blog.permalink = "{year}/{month}/{day}/{title}.html"
@@ -35,22 +39,10 @@ page "/feed.xml",      layout: false
 page "/feed_en.xml",   layout: false
 page "/feed_tech.xml", layout: false
 
-###
-# Compass
-###
-
-# Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
-
-###
-# Helpers
-###
-
-activate :syntax, :line_numbers => true
-
 helpers do
+  def mywork
+    YAML.load_file(File.expand_path("../source/mywork.yml", __FILE__))
+  end
 end
 
 set :css_dir, 'stylesheets'

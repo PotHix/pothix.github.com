@@ -11,30 +11,20 @@
 
 <section id="portfolio-filter" class="grids portfolio-items">
 
-  <article id="portfolio-27" class="grid-4 post-27 portfolio type-portfolio status-publish has-post-thumbnail skill-ui-design ui-design mix project">
+  <% mywork.each do |work| %>
+  <article class="grid-4 portfolio type-portfolio status-publish has-post-thumbnail skill-ui-design ui-design mix <%= work["type"] %>">
     <figure>
       <a href="javascript:void(0);" rel="bookmark">
-	    <img width="366" height="366" src="/images/mywork/project1.jpg" class="attachment-portfolio-thumbnail wp-post-image" />
+        <img width="366" height="366" src="images/mywork/<%= work["image"] %>" class="attachment-portfolio-thumbnail wp-post-image" />
       </a>
       <figcaption>
-        <h4>Skeleton Jigsaw</h4>
-        <p>My demo game made with HTML5 and Javascript using impactJS engine.</p>
-        <a href="http://plaev.github.io/" rel="bookmark" class="button">Visit</a>
+        <h4><%= work["title"] %></h4>
+        <p><%= work["description"] %></p>
+        <a href="<%= work["link"] %>" rel="bookmark" class="button"><%= work["text"] %></a>
       </figcaption>
     </figure>
   </article>
 
-  <article id="portfolio-88" class="grid-4 post-88 portfolio type-portfolio status-publish has-post-thumbnail skill-illustration skill-icon-design skill-ui-design ui-design mix presentation">
-    <figure>
-      <a href="javascript:void(0);" rel="bookmark">
-	    <img width="366" height="366" src="/images/mywork/presentation1.jpg" class="attachment-portfolio-thumbnail wp-post-image" alt="portfolio4" />
-      </a>
-      <figcaption>
-        <h4>Rubyconf 2013</h4>
-        <p>The title for my talk was <strong>How we used Ruby to build Locaweb's cloud</strong>. I speak about the process of making the cloud provisioning application of Locaweb.</p>
-        <a href="https://www.eventials.com/locaweb/como-usamos-ruby-para-construir-o-cloud-da-locaweb/" rel="bookmark" class="button">Video</a>
-        <a href="http://pothix.com/rubyconf-presentation" rel="bookmark" class="button">Slides</a>
-      </figcaption>
-    </figure>
-  </article>
+  <% end %>
+
 </section>
