@@ -14,7 +14,9 @@
 	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
 
-    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed (all posts)" %>
+    <%= feed_tag :atom, "http://feeds.feedburner.com/PotHix", title: "Atom Feed (all posts)" %>
+    <%= feed_tag :atom, "http://feeds.feedburner.com/EnglishPotHix", title: "Atom Feed (all posts in English)" %>
+    <%= feed_tag :atom, "http://feeds.feedburner.com/PotHixTech", title: "Atom Feed (all posts related to technology)" %>
 
     <link rel="icon" type="image/png" href="images/favico.png">
     <link rel="stylesheet" href="stylesheets/style.css" type="text/css" media="all" />
