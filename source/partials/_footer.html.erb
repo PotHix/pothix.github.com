@@ -5,9 +5,9 @@
 		<div>
 		  <!-- the code on this div was autogen by flickrbadge.com -->
 		  <h3 class="widget-title">
-		    <span>Some of my photos</span>
+		    <span>Photography, a hobby</span>
 		  </h3>
-		  <style type="text/css"> 
+		  <style type="text/css">
 		    .flickrimg {border: 1px solid #666666 !important; padding:1px; margin:2px;}
 		    #flickr_badge_wrapper {width:366px;text-align:left}
 		  </style>
@@ -19,11 +19,11 @@
 
 	      <aside id="recent-posts-2" class="widget grid-4 widget_recent_entries">
 		<h3 class="widget-title">
-		  <span>latest blog entries</span>
+		  <span>Latest blog entries</span>
 		</h3>
-		
+
 		<ul>
-		  <% blog.articles[0...4].each do |article| %>
+		  <% blog.articles.first(4).each do |article| %>
 		    <li>
 		      <%= link_to article.title, article %> <span class="post-date"><%= article.date.strftime('%b %e, %Y') %></span>
 		    </li>
