@@ -1,0 +1,26 @@
+[
+  {
+    "type": "presentation",
+    "title": "Rubyconf 2013",
+    "description": "The title for my talk was How we used Ruby to build Locaweb's cloud. I speak about the process of making the cloud provisioning application of Locaweb.",
+    "buttons": [
+      {
+        "text": "Video",
+        "link": "https://www.eventials.com/locaweb/como-usamos-ruby-para-construir-o-cloud-da-locaweb/"
+      }, {
+        "text": "Slides",
+        "link": "http://pothix.com/presentation-rubyconf2013/"
+      }
+    ]
+  },{
+    "type": "project",
+    "title": "Skeleton Jigsaw",
+    "description": "My demo game made with HTML5 and Javascript using impactJS engine.",
+    "buttons": [
+      {
+        "text": "Visit",
+        "link": "http://plaev.github.io/"
+      }
+    ]
+  }
+]
