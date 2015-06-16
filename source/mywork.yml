@@ -1,12 +1,40 @@
 - type: "presentation"
-  title: "Rubyconf 2013"
+  title: "Rubyconf - 2013"
   image: "rubyconf2013.jpg"
   description: "The title for my talk was How we used Ruby to build Locaweb's cloud. I speak about the process of making the cloud provisioning application of Locaweb."
   buttons:
     - text: "Video"
-      link:       "https://www.eventials.com/locaweb/como-usamos-ruby-para-construir-o-cloud-da-locaweb/"
+      link:  "https://www.eventials.com/locaweb/como-usamos-ruby-para-construir-o-cloud-da-locaweb/"
     - text: "Slides"
       link: "http://pothix.com/presentation-rubyconf2013"
+
+- type: "presentation"
+  title: "What is and how does Rubylearning.org works - GURUSP 2009"
+  image: "rubyreal2009.jpg"
+  description: "A presentation made on 'Ruby e Rails no mundo real' at Sao Paulo, Brazil."
+  buttons:
+    - text: "Transcript"
+      link: "http://pothix.com/2009/04/10/2009-04-10-translated-rubylearning-presentation.html"
+    - text: "Slides"
+      link: "http://www.slideshare.net/PotHix/what-is-and-how-does-work-rubylearningorg-1257258"
+
+- type: "presentation"
+  title: "Porque Vim? - GURUSP 2010"
+  image: "porquevim.jpg"
+  description: "A presentation about Vim. Why Vim is a good editor? This is good for me? What can Vim do for me?"
+  buttons:
+    - text: "Video"
+      link: "https://www.youtube.com/watch?v=uhYqwZh61yQ"
+    - text: "Slides"
+      link: "http://www.slideshare.net/PotHix/vim-3581559"
+
+- type: "presentation"
+  title: "Desenvolvimento de Jogos com Js e HTML5? - TDC 2011"
+  image: "jogoshtml5_tdc2011.jpg"
+  description: "Presentation on game development using HTML5 and Javascript. I'm speaking on the tools available for game development at the time and their maturity status"
+  buttons:
+    - text: "Slides"
+      link: "http://www.slideshare.net/PotHix/desenvolvimento-de-jogos-com-javascript-e-html5-tdc2011"
 
 - type: "project"
   title: "Skeleton Jigsaw"
@@ -15,3 +43,4 @@
   buttons:
     - text: "Visit"
       link: "http://plaev.github.io"
+
