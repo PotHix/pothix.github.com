@@ -113,4 +113,26 @@
   buttons:
     - text: "Visit"
       link: "http://plaev.github.io"
+    - text: "Source"
+      link: "https://github.com/Plaev/skeleton-jigsaw"
+
+- type: "project"
+  title: "Reconquest"
+  image: "reconquest.jpg"
+  description: "Simple game made for Global Game Jam 2011"
+  buttons:
+    - text: "Visit"
+      link: "http://pothix.com/RECONQUEST/"
+    - text: "Source"
+      link: "https://github.com/PotHix/RECONQUEST"
+
+- type: "project"
+  title: "Jogando e aprendendo"
+  image: "jogandoeaprendendo.jpg"
+  description: "Demo game made with HTML5 and Javascript using Akihabara engine. Made for children to improve the learning process."
+  buttons:
+    - text: "Visit"
+      link: "http://jogandoeaprendendo.com.br"
+    - text: "Source"
+      link: "https://github.com/PotHix/jogando_e_aprendendo"
 
