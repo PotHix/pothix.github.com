@@ -36,6 +36,76 @@
     - text: "Slides"
       link: "http://www.slideshare.net/PotHix/desenvolvimento-de-jogos-com-javascript-e-html5-tdc2011"
 
+- type: "presentation"
+  title: "Implementações paralelas - Guru-SP/Locaweb Techtalks 2012"
+  image: "implementacoes_paralelas_gurusp.jpg"
+  description: "Presentation on Parallel Implementations made on Locaweb Tech-talks and Guru-SP"
+  buttons:
+    - text: "Slides"
+      link: "http://www.slideshare.net/PotHix/implementaes-paralelas"
+
+- type: "presentation"
+  title: "Simplestack - Locaweb Tech-talks 2013"
+  image: "simplestack.jpg"
+  description: "Presentation on Simplestack project http://github.com/locaweb/simplestack"
+  buttons:
+    - text: "Slides"
+      link: "http://www.slideshare.net/PotHix/simplestack"
+
+- type: "presentation"
+  title: "Locasberos - Locaweb Tech-talks 2013"
+  image: "locasberos_techtalk.jpg"
+  description: "Presentation on Locasberos project http://github.com/dgvncsz0f/locasberos"
+  buttons:
+    - text: "Slides"
+      link: "http://www.slideshare.net/PotHix/locasberos"
+
+- type: "presentation"
+  title: "Game network programming - Guru-SP 2013"
+  image: "gamenetprogramming_gurusp.jpg"
+  description: "Presentation on our (me and dgvncsz0f) studies on how the network works for gaming"
+  buttons:
+    - text: "Slides"
+      link: "http://www.slideshare.net/PotHix/game-network-programming"
+
+- type: "presentation"
+  title: "Ruby e XMPP - Guru-SP 2013"
+  image: "ruby_e_xmpp_gurusp.jpg"
+  description: "How we used ruby and XMPP together in Locaweb"
+  buttons:
+    - text: "Slides"
+      link: "http://www.slideshare.net/PotHix/ruby-e-xmpp"
+    - text: "Video"
+      link: "https://www.youtube.com/watch?v=HDsxF0bCInI"
+
+- type: "presentation"
+  title: "HTML, gamedev e o Skeleton Jigsaw - Guru-SP 2013"
+  image: "gamedev_skeleton_gurusp.jpg"
+  description: "How we built Skeleton Jigsaw from scratch using HTML5 and Javascript. From level design to programming."
+  buttons:
+    - text: "Slides"
+      link: "http://www.slideshare.net/PotHix/html5-gamedev-e-o-skeleton-jigsaw"
+    - text: "Video"
+      link: "https://www.youtube.com/watch?v=J2yDMOHCYak"
+
+- type: "presentation"
+  title: "Javascript e os jogos no navegador - 7 Masters"
+  image: "gamedev_html5_7masters.jpg"
+  description: "A lightning talks (8 minutes) on how to build games with HTML5 and Javascript"
+  buttons:
+    - text: "Slides"
+      link: "http://www.slideshare.net/PotHix/javascript-e-os-jogos-no-browser-1"
+    - text: "Video"
+      link: "http://setemasters.imasters.com.br/conversas/javascript-e-os-jogos-no-browser/"
+
+- type: "presentation"
+  title: "Desenvolvimento de jogos com Javascript e HTML5 - AlagoasDevDay"
+  image: "jogos_html5_alagoasdevday.jpg"
+  description: "Presentation on which tools do we have for building a game with HTML5 and Javascript and how difficult is to create a game with it"
+  buttons:
+    - text: "Slides"
+      link: "http://www.slideshare.net/PotHix/alagoas-devday-desenvolvimento-de-jogos-com-javascript"
+
 - type: "project"
   title: "Skeleton Jigsaw"
   image: "skeleton.jpg"
