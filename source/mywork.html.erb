@@ -20,7 +20,9 @@
       <figcaption>
         <h4><%= work["title"] %></h4>
         <p><%= work["description"] %></p>
-        <a href="<%= work["link"] %>" rel="bookmark" class="button"><%= work["text"] %></a>
+        <% work["buttons"].each do |button| %>
+        <a href="<%= button["link"] %>" rel="bookmark" class="button"><%= button["text"] %></a>
+        <% end %>
       </figcaption>
     </figure>
   </article>
