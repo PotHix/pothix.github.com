@@ -144,3 +144,28 @@
     - text: "Source"
       link: "https://github.com/PotHix/jogando_e_aprendendo"
 
+- type: "project"
+  title: "Robotz Warehouse"
+  image: "robotzwarehouse.jpg"
+  description: "Made with C++ and Allegro library. It was made for Itau Cultural Game Jam, we got the second place."
+  buttons:
+    - text: "Source"
+      link: "https://github.com/PotHix/RobotzWarehouse"
+
+- type: "project"
+  title: "Simplestack"
+  image: "simplestack_project.jpg"
+  description: "A project to be the layer between the provisioner application and the multiple hypervisors."
+  buttons:
+    - text: "Source"
+      link: "https://github.com/Locaweb/simplestack"
+
+- type: "project"
+  title: "Wlm Instalacoes"
+  image: "wlminstalacoes.jpg"
+  description: "Website made for Wilson Molinari in order to improve their service on the web. Changed the way they work."
+  buttons:
+    - text: "Source"
+      link: "https://github.com/PotHix/wlminstalacoes.com.br"
+    - text: "Visit"
+      link: "http://wlminstalacoes.com.br"
