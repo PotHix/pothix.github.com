@@ -106,6 +106,14 @@
     - text: "Slides"
       link: "http://www.slideshare.net/PotHix/alagoas-devday-desenvolvimento-de-jogos-com-javascript"
 
+- type: "presentation"
+  title: "As escolhas do desenvolvedor - Encontro Locaweb"
+  image: "escolhas_desenvolvedor_elwsp.jpg"
+  description: "Presentation made for Encontro Locaweb. I spoke at 6 different cities in Brazil: Belo Horizonte, Recife, Curitiba, Porto Alegre, Rio de Janeiro and Sao Paulo"
+  buttons:
+    - text: "Slides"
+      link: "http://goo.gl/V5BT5J"
+
 - type: "project"
   title: "Skeleton Jigsaw"
   image: "skeleton.jpg"
