@@ -5,16 +5,57 @@
   <id>http://pothix.com/</id>
   <link href="http://pothix.com/"/>
   <link href="http://pothix.com/feed.xml" rel="self"/>
-  <updated>2015-05-24T21:00:00-03:00</updated>
+  <updated>2015-06-29T21:00:00-03:00</updated>
   <author>
     <name>Willian Molinari (a.k.a PotHix)</name>
   </author>
+  <entry>
+    <title>As escolhas do desenvolvedor</title>
+    <link rel="alternate" href="http://pothix.com/2015/06/30/2015-06-30-as-escolhas-do-desenvolvedor.html"/>
+    <id>http://pothix.com/2015/06/30/2015-06-30-as-escolhas-do-desenvolvedor.html</id>
+    <published>2015-06-29T21:00:00-03:00</published>
+    <updated>2015-06-30T17:07:53-03:00</updated>
+    <author>
+      <name>Willian Molinari (a.k.a PotHix)</name>
+    </author>
+    <content type="html">&lt;p&gt;Esse ano fui chamado para palestrar em todas as edições do Encontro Locaweb que
+acontecem por várias cidades do Brasil! Palestrei em 6 cidades de estados
+diferentes, e aconteceram na seguinte ordem:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://www.flickr.com/photos/locaweb/sets/72157650885375530"&gt;Belo Horizonte&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.flickr.com/photos/locaweb/sets/72157651709980410"&gt;Curitiba&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.flickr.com/photos/locaweb/sets/72157649789309524"&gt;Recife&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.flickr.com/photos/locaweb/sets/72157652339858570"&gt;Porto Alegre&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.flickr.com/photos/locaweb/sets/72157652754664218"&gt;Rio de Janeiro&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.flickr.com/photos/locaweb/sets/72157654905073816"&gt;São Paulo&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Adicionei os links para as fotos dos eventos na listagem acima. :)&lt;/p&gt;
+
+&lt;p&gt;Minha palestra se chama &amp;ldquo;As escolhas do desenvolvedor&amp;rdquo; e fala sobre as escolhas
+que fazemos durante nossa carreira de desenvolvedor, escolhas com linguagens,
+configurações de servidores, deploy, equipe, testes e etc. A ideia dessa
+palestra é mostrar as opções que temos para cada uma dessas etapas.&lt;/p&gt;
+
+&lt;p&gt;Esses são os slides da palestra:&lt;/p&gt;
+
+&lt;iframe src="http://www.slideshare.net/PotHix/slideshelf" width="490px" height="470px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen webkitallowfullscreen mozallowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;O Encontro Locaweb de São Paulo foi gravado e várias palestras foram
+transmitidas ao vivo. Infelizmente a minha não foi, mas foi gravada e assim que
+eu tiver acesso ao conteúdo eu vou atualizar esse post com o vídeo. :)&lt;/p&gt;
+
+&lt;p&gt;Obrigado a todos que prestigiaram o evento e espero ter contribuído com alguma
+coisa legal com a palestra.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>New layout of PotHix blog</title>
     <link rel="alternate" href="http://pothix.com/2015/05/25/2015-05-25-new-layout-of-pothix-blog.html"/>
     <id>http://pothix.com/2015/05/25/2015-05-25-new-layout-of-pothix-blog.html</id>
     <published>2015-05-24T21:00:00-03:00</published>
-    <updated>2015-06-19T15:24:07-03:00</updated>
+    <updated>2015-06-30T16:24:08-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -41,7 +82,7 @@ instead of keeping the wordpress &amp;ldquo;infrastructure&amp;rdquo;.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2014/02/14/2014-02-14-ruby-python-e-native-threads.html"/>
     <id>http://pothix.com/2014/02/14/2014-02-14-ruby-python-e-native-threads.html</id>
     <published>2014-02-13T22:00:00-02:00</published>
-    <updated>2015-06-19T15:24:07-03:00</updated>
+    <updated>2015-06-30T16:24:08-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -597,7 +638,7 @@ descobrir coisas novas. :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html"/>
     <id>http://pothix.com/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html</id>
     <published>2013-12-02T22:00:00-02:00</published>
-    <updated>2015-06-19T15:24:07-03:00</updated>
+    <updated>2015-06-30T16:24:08-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -711,7 +752,7 @@ Looks like it is a good idea of language for some of my projects, welcome Golang
     <link rel="alternate" href="http://pothix.com/2013/09/17/2013-09-17-o-guru-sp-e-seus-5-anos-de-vida.html"/>
     <id>http://pothix.com/2013/09/17/2013-09-17-o-guru-sp-e-seus-5-anos-de-vida.html</id>
     <published>2013-09-16T21:00:00-03:00</published>
-    <updated>2015-06-19T15:24:07-03:00</updated>
+    <updated>2015-06-30T16:24:08-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -796,7 +837,7 @@ Brasil, e mais do que isso um lugar legal para troca de conhecimentos.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2013/07/29/2013-07-29-vendo-dragstar-2008.html"/>
     <id>http://pothix.com/2013/07/29/2013-07-29-vendo-dragstar-2008.html</id>
     <published>2013-07-28T21:00:00-03:00</published>
-    <updated>2015-06-19T15:24:07-03:00</updated>
+    <updated>2015-06-30T16:24:08-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -836,42 +877,11 @@ conversamos. :)&lt;/p&gt;
 </content>
   </entry>
   <entry>
-    <title>Vendendo minhas coisas</title>
-    <link rel="alternate" href="http://pothix.com/2013/07/29/2013-07-29-vendendo-minhas-coisas.html"/>
-    <id>http://pothix.com/2013/07/29/2013-07-29-vendendo-minhas-coisas.html</id>
-    <published>2013-07-28T21:00:00-03:00</published>
-    <updated>2015-06-19T15:24:07-03:00</updated>
-    <author>
-      <name>Willian Molinari (a.k.a PotHix)</name>
-    </author>
-    <content type="html">&lt;p&gt;Esse ano aconteceram algumas coisas zuadas para mim e resolvi capitalizar o
-dinheiro das coisas que eu tenho e começar denovo no ano que vem.&lt;/p&gt;
-
-&lt;p&gt;Procurei preços justos para tudo que estou vendendo (os links das minhas
-pesquisas estão nas descrições dos produtos), mas caso alguém ache que alguma
-das coisas está com um preço não-justo e estiver interessado é só entrar em
-contato que negociamos.&lt;/p&gt;
-
-&lt;p&gt;Estou aproveitando para testar a plataforma do loja integrada, mas os
-pagamentos eu prefiro que sejam por depósito mesmo, e se possível marcamos a
-entrega pessoalmente.&lt;/p&gt;
-
-&lt;p&gt;Dá para acessar a loja pelo link &lt;a href="http://loja.pothix.com"&gt;http://loja.pothix.com&lt;/a&gt;
-(redireciona para a &lt;a href="http://pothix.lojaintegrada.com.br"&gt;lojaintegrada&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;Espero conseguir vender essas paradas o quanto antes. :)&lt;/p&gt;
-
-&lt;p&gt;Quem puder me ajudar a divulgar eu agradeço muito.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Amadeus Folego | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
     <title>Vendo intruder 125 customizada e com guidão seca suvaco</title>
     <link rel="alternate" href="http://pothix.com/2013/07/29/2013-07-29-vendo-intruder-125-customizada-e-com-guidao-seca-suvaco.html"/>
     <id>http://pothix.com/2013/07/29/2013-07-29-vendo-intruder-125-customizada-e-com-guidao-seca-suvaco.html</id>
     <published>2013-07-28T21:00:00-03:00</published>
-    <updated>2015-06-19T15:24:07-03:00</updated>
+    <updated>2015-06-30T16:24:08-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -908,11 +918,42 @@ comentários mesmo.&lt;/p&gt;
 </content>
   </entry>
   <entry>
+    <title>Vendendo minhas coisas</title>
+    <link rel="alternate" href="http://pothix.com/2013/07/29/2013-07-29-vendendo-minhas-coisas.html"/>
+    <id>http://pothix.com/2013/07/29/2013-07-29-vendendo-minhas-coisas.html</id>
+    <published>2013-07-28T21:00:00-03:00</published>
+    <updated>2015-06-30T16:24:08-03:00</updated>
+    <author>
+      <name>Willian Molinari (a.k.a PotHix)</name>
+    </author>
+    <content type="html">&lt;p&gt;Esse ano aconteceram algumas coisas zuadas para mim e resolvi capitalizar o
+dinheiro das coisas que eu tenho e começar denovo no ano que vem.&lt;/p&gt;
+
+&lt;p&gt;Procurei preços justos para tudo que estou vendendo (os links das minhas
+pesquisas estão nas descrições dos produtos), mas caso alguém ache que alguma
+das coisas está com um preço não-justo e estiver interessado é só entrar em
+contato que negociamos.&lt;/p&gt;
+
+&lt;p&gt;Estou aproveitando para testar a plataforma do loja integrada, mas os
+pagamentos eu prefiro que sejam por depósito mesmo, e se possível marcamos a
+entrega pessoalmente.&lt;/p&gt;
+
+&lt;p&gt;Dá para acessar a loja pelo link &lt;a href="http://loja.pothix.com"&gt;http://loja.pothix.com&lt;/a&gt;
+(redireciona para a &lt;a href="http://pothix.lojaintegrada.com.br"&gt;lojaintegrada&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Espero conseguir vender essas paradas o quanto antes. :)&lt;/p&gt;
+
+&lt;p&gt;Quem puder me ajudar a divulgar eu agradeço muito.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Amadeus Folego | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Game Network Programming</title>
     <link rel="alternate" href="http://pothix.com/2013/07/15/2013-07-15-game-network-programming.html"/>
     <id>http://pothix.com/2013/07/15/2013-07-15-game-network-programming.html</id>
     <published>2013-07-14T21:00:00-03:00</published>
-    <updated>2015-06-19T15:24:07-03:00</updated>
+    <updated>2015-06-30T16:24:08-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -959,7 +1000,7 @@ também! Se tiverem dúvidas postem aí nos comentários. :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/12/04/2012-12-04-plaev-html5-e-skeleton-jigsaw.html"/>
     <id>http://pothix.com/2012/12/04/2012-12-04-plaev-html5-e-skeleton-jigsaw.html</id>
     <published>2012-12-03T22:00:00-02:00</published>
-    <updated>2015-06-19T15:24:07-03:00</updated>
+    <updated>2015-06-30T16:24:08-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1011,7 +1052,7 @@ do vídeo, mas se tiverem dúvidas coloquem nos comentários.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/10/31/2012-10-31-saudades-do-poker.html"/>
     <id>http://pothix.com/2012/10/31/2012-10-31-saudades-do-poker.html</id>
     <published>2012-10-30T22:00:00-02:00</published>
-    <updated>2015-06-19T15:24:07-03:00</updated>
+    <updated>2015-06-30T16:24:08-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1047,88 +1088,6 @@ dinheiro se perdendo. :P&lt;/p&gt;
 &lt;p&gt;Se alguém aí costuma se juntar para jogar, não esqueçam de me incluir! :)&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Old comments by: Letícia F. | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>A lifestyle</title>
-    <link rel="alternate" href="http://pothix.com/2012/09/10/2012-09-10-a-lifestyle.html"/>
-    <id>http://pothix.com/2012/09/10/2012-09-10-a-lifestyle.html</id>
-    <published>2012-09-09T21:00:00-03:00</published>
-    <updated>2015-06-19T15:24:07-03:00</updated>
-    <author>
-      <name>Willian Molinari (a.k.a PotHix)</name>
-    </author>
-    <content type="html">&lt;p&gt;Just a transcript from &lt;a href="http://www.youtube.com/watch?v=vlZ4ONTb9i0&amp;amp;feature=youtu.be"&gt;here&lt;/a&gt;, 
-but it reflects my way of life at this stage of my life:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;We believe in going our own way,no matter which way the rest of the world is going.
-
-We believe in bucking the system that’s built to smash individuals as bugs on a windshield.
-
-Some of us believe in the man upstairs.All of us believe in sticking in to the man down here.
-
-We believe in the sky and we don’t believe in the sunroof.
-
-We believe in freedom.
-
-We believe in dust,tumbleweeds,buffalo,mountain ranges and riding off into the sunset.
-
-We believe in saddle bags and we believe that cowboys had it right.
-
-We believe in refusing to knuckle under to anyone.
-
-We believe in wearing black,because it doesn’t show any dirt or weakness.
-
-We believe the world is going soft and we’re not going along with it.
-
-We believe in motorcycle rallies that last a week.
-
-We believe in road side attractions,gas station,hot dogs and finding what’s over the next.
-
-We believe in rumbling engines,pistons the size of garbage cans,fuel tanks designed in 1936, freight-train size headlights,chrome and custom paint.
-
-We believe in flames and skulls.
-
-We believe life is what you make it,and we make it one hell of a ride.
-
-We believe the machine you sit on can tell the world exactly where you stand.
-
-We don’t care what everyone else believes.
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;;)&lt;/p&gt;
 </content>
   </entry>
 </feed>
