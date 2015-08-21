@@ -5,49 +5,378 @@
   <id>http://pothix.com/</id>
   <link href="http://pothix.com/"/>
   <link href="http://pothix.com/feed.xml" rel="self"/>
-  <updated>2015-06-29T21:00:00-03:00</updated>
+  <updated>2015-07-26T21:00:00-03:00</updated>
   <author>
     <name>Willian Molinari (a.k.a PotHix)</name>
   </author>
   <entry>
-    <title>As escolhas do desenvolvedor</title>
-    <link rel="alternate" href="http://pothix.com/2015/06/30/2015-06-30-as-escolhas-do-desenvolvedor.html"/>
-    <id>http://pothix.com/2015/06/30/2015-06-30-as-escolhas-do-desenvolvedor.html</id>
-    <published>2015-06-29T21:00:00-03:00</published>
-    <updated>2015-06-30T17:07:53-03:00</updated>
+    <title>OSCON 2015</title>
+    <link rel="alternate" href="http://pothix.com/2015/07/27/2015-07-27-oscon.html"/>
+    <id>http://pothix.com/2015/07/27/2015-07-27-oscon.html</id>
+    <published>2015-07-26T21:00:00-03:00</published>
+    <updated>2015-08-21T07:29:26-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
-    <content type="html">&lt;p&gt;Esse ano fui chamado para palestrar em todas as edições do Encontro Locaweb que
-acontecem por várias cidades do Brasil! Palestrei em 6 cidades de estados
-diferentes, e aconteceram na seguinte ordem:&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; I&amp;rsquo;ve been at OSCON this year (thanks to
+&lt;a href="http://locaweb.com.br"&gt;Locaweb&lt;/a&gt;) and this post will summarize my
+impressions about the conference. I spoke at Locaweb Tech-Talks about it and
+&lt;a href="https://docs.google.com/presentation/d/1yR7aEIVJdznAASNvaNW0AjUDmgA5qvOstOHhSP1JLDM/pub?start=false&amp;amp;loop=false&amp;amp;delayms=3000"&gt;you can find my slides
+here&lt;/a&gt;
+(in portuguese).&lt;/p&gt;
 
-&lt;ol&gt;
-&lt;li&gt;&lt;a href="https://www.flickr.com/photos/locaweb/sets/72157650885375530"&gt;Belo Horizonte&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.flickr.com/photos/locaweb/sets/72157651709980410"&gt;Curitiba&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.flickr.com/photos/locaweb/sets/72157649789309524"&gt;Recife&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.flickr.com/photos/locaweb/sets/72157652339858570"&gt;Porto Alegre&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.flickr.com/photos/locaweb/sets/72157652754664218"&gt;Rio de Janeiro&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.flickr.com/photos/locaweb/sets/72157654905073816"&gt;São Paulo&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;&lt;a href="http://oscon.com"&gt;OSCON (Open Source Conference)&lt;/a&gt; is one of the most
+important open source conferences of our time and happened in Portland
+this year as usual.  Portland is a great city, the one I liked the
+most until now, it doesn&amp;rsquo;t have high car traffic, MAX (the train) took
+us for most of the places we wanted to know, nice people all over the
+place, great convention center and a lot of other benefits.&lt;/p&gt;
 
-&lt;p&gt;Adicionei os links para as fotos dos eventos na listagem acima. :)&lt;/p&gt;
+&lt;h3&gt;July, 20&lt;/h3&gt;
 
-&lt;p&gt;Minha palestra se chama &amp;ldquo;As escolhas do desenvolvedor&amp;rdquo; e fala sobre as escolhas
-que fazemos durante nossa carreira de desenvolvedor, escolhas com linguagens,
-configurações de servidores, deploy, equipe, testes e etc. A ideia dessa
-palestra é mostrar as opções que temos para cada uma dessas etapas.&lt;/p&gt;
+&lt;p&gt;The conference started at 9:00 am of July 20, 2015 with the first day of
+tutorials. In the first day I followed the &lt;strong&gt;Kubernetes tutorial&lt;/strong&gt; and it was cool.
+I had the chance to talk with Google guys about it and try Google
+Computing Engine, which was very nice.&lt;/p&gt;
 
-&lt;p&gt;Esses são os slides da palestra:&lt;/p&gt;
+&lt;h3&gt;July, 21&lt;/h3&gt;
 
-&lt;iframe src="http://www.slideshare.net/PotHix/slideshelf" width="490px" height="470px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen webkitallowfullscreen mozallowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;The second day was filled with more tutorials and I chose RUST and Cassandra.&lt;/p&gt;
 
-&lt;p&gt;O Encontro Locaweb de São Paulo foi gravado e várias palestras foram
-transmitidas ao vivo. Infelizmente a minha não foi, mas foi gravada e assim que
-eu tiver acesso ao conteúdo eu vou atualizar esse post com o vídeo. :)&lt;/p&gt;
+&lt;h4&gt;RUST&lt;/h4&gt;
 
-&lt;p&gt;Obrigado a todos que prestigiaram o evento e espero ter contribuído com alguma
-coisa legal com a palestra.&lt;/p&gt;
+&lt;p&gt;Was a good tutorial with a lot of exercises and good tips of the
+language. I really liked it and I&amp;rsquo;ll probably give
+&lt;a href="http://rust-lang.org/"&gt;Rust&lt;/a&gt; a try on the next months.&lt;/p&gt;
+
+&lt;h4&gt;Cassandra&lt;/h4&gt;
+
+&lt;p&gt;I was expecting a different thing from this one. It was based on how
+to use &lt;a href="http://cassandra.apache.org/"&gt;cassandra&lt;/a&gt;, create tables and so
+on and I was expecting tips on how to create and scale it and maybe a
+little bit about the caveats we may found on the way. But it wasn&amp;rsquo;t
+bad at all, I&amp;rsquo;ve learned a little bit on how to use it and as a gift I
+tried a little bit of spark as well.&lt;/p&gt;
+
+&lt;p&gt;At the end of this day the Expo hall opened for everyone, cool things there
+(including some T-shirts&amp;hellip; T-shirts everywhere).&lt;/p&gt;
+
+&lt;h3&gt;July, 22&lt;/h3&gt;
+
+&lt;p&gt;Let the conference begin! :)&lt;/p&gt;
+
+&lt;p&gt;It started with the keynotes at 9:00 and I would like to highlight one of them.
+All keynotes &lt;a href="https://www.youtube.com/playlist?list=PL055Epbe6d5YhDchEvY3O4nIuSLYyrx7K"&gt;are avaiable on
+youtube&lt;/a&gt;
+btw. :)&lt;/p&gt;
+
+&lt;h4&gt;Facebook open source at scale (Keynote)&lt;/h4&gt;
+
+&lt;p&gt;I like to understand the open source culture behind these big
+companies. It is really interesting to know that there are only &lt;em&gt;2&lt;/em&gt;
+people to handle all the facebook open source process shocked me a
+litte bit. They have a great open source review and publishing process
+and all the softwares they release are running in their production
+environment. So, why do they do open source software? Because it&amp;rsquo;s
+good for the company, helps them to make better software and bring
+smart people to work with them.&lt;/p&gt;
+
+&lt;p&gt;And then the multiple sessions started, a lot of great subjects in the agenda
+and you have to choose one (!!!).&lt;/p&gt;
+
+&lt;h4&gt;Roller Coaster Tycoon with genetic algorithms and Go&lt;/h4&gt;
+
+&lt;p&gt;The speaker
+&lt;a href="https://kev.inburke.com/kevin/roller-coaster-tycoon-genetic-algorithms/"&gt;Kevin Burke&lt;/a&gt;
+spoke about his hobbie of playing with
+&lt;a href="https://en.wikipedia.org/wiki/RollerCoaster_Tycoon"&gt;roller coaster tycoon&lt;/a&gt;
+game maps with Go and Genetic Algorithms in order to create de best
+roller coaster ever! It is not there already but the presention was
+really cool to follow.&lt;/p&gt;
+
+&lt;h4&gt;You type &amp;ldquo;google.com&amp;rdquo; into your browser bar and press enter: What happens next?&amp;ldquo;&lt;/h4&gt;
+
+&lt;p&gt;The speaker for this talk is
+&lt;a href="https://twitter.com/mathie"&gt;Graeme Mathieson&lt;/a&gt;. I was planning to
+spoke about it before de last edition of
+&lt;a href="http://devinsampa.com.br/"&gt;DevInSampa&lt;/a&gt; (2012? Btw, it could happen
+again&amp;hellip;) but didn&amp;rsquo;t had the guts to make it yet and there it is,
+someone made it before me. The pace of the presentation was not good
+but the content was cool (it was his first presentation). At least it
+made me think more about this topic and &lt;em&gt;maybe&lt;/em&gt; I&amp;rsquo;ll try to speak
+about it soon.&lt;/p&gt;
+
+&lt;p&gt;After the lunch I tried to attend to &lt;strong&gt;Evolution of information
+security threats&lt;/strong&gt; presentation but the room was full, so decided to
+go to &lt;a href="http://matrix.org/"&gt;Matrix&lt;/a&gt; guys presentation.&lt;/p&gt;
+
+&lt;h4&gt;Fixing the fragmentation problem for real-time communications&lt;/h4&gt;
+
+&lt;p&gt;Matrix&amp;rsquo;s is really interesting, the main idea is to make a
+protocol for messages, just like the email protocols do for our
+email, we may use our client and store our own email but it is not
+possible with today&amp;rsquo;s messaging like hangouts, whatsapp, telegram,
+skype and so on. They had a live demo piloting a quadricopter via
+chat, it was really cool.&lt;/p&gt;
+
+&lt;h4&gt;High adventures in sniffing my own metadata&lt;/h4&gt;
+
+&lt;p&gt;The speaker is &lt;a href="http://matrix.org/"&gt;Josh Deprez&lt;/a&gt; from Google
+Australia. He described his work using a Go program (home made) to
+analize his own internet traffic and which information he got on
+it. The presentation itself was cool to follow but the discoveries
+wasn&amp;rsquo;t so much interesting. :P&lt;/p&gt;
+
+&lt;h4&gt;Building the $9 computer, or how I learned to stop worrying and love embedded Linux&lt;/h4&gt;
+
+&lt;p&gt;This is the
+&lt;a href="https://www.kickstarter.com/projects/1598272670/chip-the-worlds-first-9-computer"&gt;C.H.I.P project&lt;/a&gt;
+owner &lt;strong&gt;Dave Rauchwerk&lt;/strong&gt; speaking about the story behind the
+project. This guy is hilarious and a real hacker, he made a gif camera
+just for the lulz and tried a product with it!  Unfortunately it was
+too expensive, to be viable for selling, so he decided to create
+C.H.I.P to make the camera cheaper and C.H.I.P became the product by
+itself.&lt;/p&gt;
+
+&lt;h4&gt;Continuous delivery and large microservice architectures: Reflections on Ioncannon&lt;/h4&gt;
+
+&lt;p&gt;This last one was really interesting &lt;strong&gt;Kevin Scaldeferri&lt;/strong&gt; from
+&lt;a href="http://newrelic.com"&gt;New Relic&lt;/a&gt; spoke about how they grown from a big
+and monolythic Rails application to 250 microservices. In short, it
+was a mess in the beginning, a lot of techlologies and deploy tools
+until they organized and found a standard for the language and deploy
+tools, it is really better now, but the old Rails app is still there.&lt;/p&gt;
+
+&lt;h3&gt;July, 23&lt;/h3&gt;
+
+&lt;p&gt;A new day with an typical American breakfast at Denny&amp;rsquo;s and starting
+with keynotes at 9:00 AM again.&lt;/p&gt;
+
+&lt;h4&gt;Making architecture matter (Keynote)&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href="http://www.martinfowler.com/"&gt;Martin Fowler&lt;/a&gt; spoke about architecture
+in general, there was some good quotes. One of the arguments that
+really make sense is that the today&amp;rsquo;s &amp;quot;Architect&amp;rdquo; is that guy that
+don&amp;rsquo;t write code (!?). How can a professional that doesn&amp;rsquo;t write code
+talk about how to write code? Another good point was about the user
+perspective about architecture it can&amp;rsquo;t see it anywhere but still need
+to pay for it! We need to argue using economic principles in order to
+be able to create a good architecture for our softwares because
+economics always win.&lt;/p&gt;
+
+&lt;p&gt;We have a lot of examples of products that were the market leader for their
+segment and it could not evolve anymore to the point that it was swallowed by
+another competitor. This is a sign of bad architecture.&lt;/p&gt;
+
+&lt;h4&gt;You code like a sysadm&lt;/h4&gt;
+
+&lt;p&gt;hm&amp;hellip; This talk was not so good but it left a message for everyone:
+&amp;ldquo;Bad code is still better than no code at all&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;And obviously: Good code is better than bad code.&lt;/p&gt;
+
+&lt;p&gt;So, instead of not doing something because you think your code is not good
+enough, do it and improve as soon as possible.&lt;/p&gt;
+
+&lt;h4&gt;When Performance Counts: C++ in the 21st Century&lt;/h4&gt;
+
+&lt;p&gt;The speaker threw some good arguments that haven&amp;rsquo;t came to my mind until this
+day: &amp;ldquo;Why is C++ getting more attention these days?&amp;rdquo;, we have C++11 being
+created and more people talking about it. In his words, the world was not in
+need for performance anymore, we had big computers and most of time the other
+languages (java, in his examples) are doing a good job to create what is needed
+without the need to manage memory by hand. But today we have some other
+hardwares that need this performance back, like tablets, mobile devices, cloud
+applications that pays based on cpu time and so on. Good catch man! :)&lt;/p&gt;
+
+&lt;h4&gt;Creating an open source office: Lessons from Twitter&lt;/h4&gt;
+
+&lt;p&gt;I made a bad choice based on the presentation title and changed rooms as fast as
+I could to follow this one.&lt;/p&gt;
+
+&lt;p&gt;Some notes on the presentation:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ensure projects have owners or give it to the community: this is the
+twitter example of
+&lt;a href="http://getbootstrap.com/2.3.2/"&gt;Twitter bootstrap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Always say Thank you for your project collaborators&lt;/li&gt;
+&lt;li&gt;Lessons from &lt;a href="http://mesos.apache.org/"&gt;mesos&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Apple uses mesos for Siri&lt;/li&gt;
+&lt;li&gt;Open source foundations force good pactices on you (incubated aurora)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Lessons for &lt;a href="https://github.com/twitter/twemcache"&gt;twencache&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Keep track with the upstream if you fork something&lt;/li&gt;
+&lt;li&gt;Share your code with some peers to gauge interest&lt;/li&gt;
+&lt;li&gt;open source project with collaborators is better&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A good lesson that I got from this presentation is that community
+doesn&amp;rsquo;t come for free. Companies like Twitter have their own community
+managers, conference speakers, conference organizers, documentation
+writers and their developers to make everyone engaged with the
+project. Throw something on github and expect collaboration is not the
+best idea for OSS.&lt;/p&gt;
+
+&lt;p&gt;Your employess may become open source celebrities sometimes, and if they became
+popular they may leave the company. It is not so good for the company but the
+same popular projects may attact new talents as well. :)&lt;/p&gt;
+
+&lt;p&gt;Troll&amp;rsquo;s are everywhere and youy will always hear that your project is stupid and
+useless. The best way to deal with it is to take it as a compliment because
+people care enough to say it.&lt;/p&gt;
+
+&lt;h4&gt;Mesos the OS for your datacenter&lt;/h4&gt;
+
+&lt;p&gt;David Greenberg from &lt;a href="http://www.twosigma.com/"&gt;Two sigma&lt;/a&gt; spoke about how they
+built their own &lt;a href="http://mesos.apache.org/"&gt;mesos&lt;/a&gt; framework.&lt;/p&gt;
+
+&lt;p&gt;Mesos has a high level API to do things and you don&amp;rsquo;t need to care about the
+resources. It provide an algorith called
+&lt;a href="https://www.cs.berkeley.edu/~alig/papers/drf.pdf"&gt;DRF&lt;/a&gt; for a fair allocation of
+resources.&lt;/p&gt;
+
+&lt;p&gt;There are several built frameworks for mesos like Marathon, Aurora, Jenkins and
+some more. It&amp;rsquo;s easy to build your own framework (netflix, twitter, apple and
+two sigma have it). A good reason to build your own is to deal with some exotic
+workload, this default frameworks are built for small tasks.&lt;/p&gt;
+
+&lt;p&gt;For me, mesos is the future and I&amp;rsquo;ll definitely be looking for it.&lt;/p&gt;
+
+&lt;h3&gt;July, 24&lt;/h3&gt;
+
+&lt;p&gt;This was the last day of the conference and it started with 3 keynotes. After the
+keynotes there was two sessions more and the conference ending at the main ballroom.&lt;/p&gt;
+
+&lt;h4&gt;Hacking Conway&amp;rsquo;s Lay (Keynote)&lt;/h4&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;organizations which design systems &amp;hellip; are constrained to produce designs which are copies of the communication structures of these organizations
+—M. Conway[2]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;When rebuilding a system it&amp;rsquo;s really important to think about your team because
+it will be part of its architecture like conway&amp;rsquo;s law says. So when a decision
+is made to build a new system without changing the way people work you will face
+the same problems the other system had but with a different code.&lt;/p&gt;
+
+&lt;p&gt;Doesn&amp;rsquo;t matter if you&amp;rsquo;re using microservices but your team is still monolithic.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;To solve technical problems, you often have to go outside the technical domain.
+Raffi Krikorian&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Good points that ended the presentation:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s not all about the code!&lt;/li&gt;
+&lt;li&gt;Small teams can do big things.&lt;/li&gt;
+&lt;li&gt;Full stack teams keeps your architecture flexible.&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t fight Conway&amp;rsquo;s Law, work with it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A lot of good lessons learnt from this one. :)&lt;/p&gt;
+
+&lt;h4&gt;Build a botnet?&lt;/h4&gt;
+
+&lt;p&gt;The speaker (&lt;a href="http://fossetcon.org"&gt;Bryan Smith&lt;/a&gt;) did a great (and funny :P)
+presentation around the topic. And some things are really scary when speaking
+about botnets. The most scary thing for me was its price, you can use a botnet
+for an hour spending only $5&amp;hellip; it is really low and probably will get a service
+out of business for that time. There are some softwares avalable if you want to
+build your own botnet these days (accorting to Bryan, if you want to build a
+botnet you&amp;rsquo;re probably a scumbag&amp;hellip; LOL), here are some of them:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;citadel&lt;/li&gt;
+&lt;li&gt;kreios C2&lt;/li&gt;
+&lt;li&gt;Andromeda V2.6 - leaked&lt;/li&gt;
+&lt;li&gt;Kaiten IRC bot&lt;/li&gt;
+&lt;li&gt;SDBot - GPL&lt;/li&gt;
+&lt;li&gt;DSNX Bots&lt;/li&gt;
+&lt;li&gt;Q8 Bots&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I&amp;rsquo;ll not post links here but you can google them if you really want it. :P&lt;/p&gt;
+
+&lt;p&gt;The most funny part of the presentation was its end when the speaker laptop got
+rebooted when trying to bring the botnet up. LOL&lt;/p&gt;
+
+&lt;h4&gt;Freedom and responsibility @Netflix: Centralized team in a decentralized world&lt;/h4&gt;
+
+&lt;p&gt;One of the best presentations of the
+conference. &lt;a href="http://www.mikemcgarr.com/about.html"&gt;Mike McGarr&lt;/a&gt; spoke
+about his team (tools team) role at
+&lt;a href="http://techblog.netflix.com/"&gt;Netflix&lt;/a&gt; and the hacker culture there.&lt;/p&gt;
+
+&lt;p&gt;One of the team roles is to increase the rate of innovation and reduce
+the impact of change by providing good tools for the other teams. Their clients
+are the other teams engineers, it&amp;rsquo;s not a simple internal system it&amp;rsquo;s a product!&lt;/p&gt;
+
+&lt;p&gt;Netflix has a
+&lt;a href="http://www.slideshare.net/reed2001/culture-1798664"&gt;great culture&lt;/a&gt; and each
+team as a subset of this culture.&lt;/p&gt;
+
+&lt;p&gt;Netflix has a lot of good tools but the engineers may choose to not use it and
+build their own in case it doesn&amp;rsquo;t fix their problems. For this reason there are
+4 deploy tools running on Netflix actually.&lt;/p&gt;
+
+&lt;p&gt;They have no Ops team, you build it, you support it! And in order to remove part
+of the constant interruptions, the team uses a &amp;ldquo;responder rotation&amp;rdquo; when each
+time (day, week, month?) a new engineer will be in charge of solving problems
+and helping the other teams.&lt;/p&gt;
+
+&lt;p&gt;They (like many of us) don&amp;rsquo;t like ticket systems, but they use it anyway (like
+many of us?). For this case the tip is: Make creating a ticket easy, minimize
+fraction by making it as easy and fast as possible.&lt;/p&gt;
+
+&lt;p&gt;Hackatons are made between the team in order to keep the innovation process
+flowing and making space for innovation. Another good thing to think about is to
+always hire beyond your needs, it makes more space for innovation (not all
+people working on day to day tasks) and it will be really helpful when the
+project is on fire and the team needs more intensity on it.&lt;/p&gt;
+
+&lt;p&gt;Communication is really important for the teams and they do not set a limitation
+for important communications like framework versions and DC migrations. For this
+task they use hipchat, email, banners and everything that may call the
+engineers&amp;#39; attention.&lt;/p&gt;
+
+&lt;h4&gt;Situation normal, everything must change&lt;/h4&gt;
+
+&lt;p&gt;This was the last keynote and maybe the best one, and I highly recommend you to
+&lt;a href="https://www.youtube.com/watch?v=Ty6pOVEc3bA"&gt;watch it&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Simon Wardley used the fact that OSCON is moving to speak about situation
+awareness and what could happen when you&amp;rsquo;re not prepared for a new thing.&lt;/p&gt;
+
+&lt;p&gt;His arguments are that we&amp;rsquo;re using the wrong maps to try to understand our
+problems. In business we use &lt;a href="https://en.wikipedia.org/wiki/SWOT_analysis"&gt;SWOT&lt;/a&gt;
+for example, which is really bad to understand to understand the whole picture,
+it was really funny to see his comparisons with
+&lt;a href="https://en.wikipedia.org/wiki/Battle_of_Thermopylae"&gt;the battle of the 300&lt;/a&gt;
+using a SWAT map instead of land map. LOL&lt;/p&gt;
+
+&lt;p&gt;The speaker shows some maps he uses for his business, and it looks really better
+than just a SWOT. :)&lt;/p&gt;
+
+&lt;p&gt;Again, I really recommend you
+&lt;a href="https://www.youtube.com/watch?v=Ty6pOVEc3bA"&gt;watch this talk&lt;/a&gt;. I liked it. :)&lt;/p&gt;
+
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;The best conference I ever attended. Everything was great: hotel, Portland
+Conference Center, the city in general, the food, the conference content and so
+on. It definitely worth the 14 hours plane travel to be there.&lt;/p&gt;
+
+&lt;p&gt;I would live in a city like Portland, it is one of the best cities I ever
+visited. I&amp;rsquo;m sad to know that the next OSCON will happen in Austin instead of
+Portland. :(&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -55,7 +384,7 @@ coisa legal com a palestra.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2015/05/25/2015-05-25-new-layout-of-pothix-blog.html"/>
     <id>http://pothix.com/2015/05/25/2015-05-25-new-layout-of-pothix-blog.html</id>
     <published>2015-05-24T21:00:00-03:00</published>
-    <updated>2015-06-30T16:24:08-03:00</updated>
+    <updated>2015-07-01T14:20:34-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -82,7 +411,7 @@ instead of keeping the wordpress &amp;ldquo;infrastructure&amp;rdquo;.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2014/02/14/2014-02-14-ruby-python-e-native-threads.html"/>
     <id>http://pothix.com/2014/02/14/2014-02-14-ruby-python-e-native-threads.html</id>
     <published>2014-02-13T22:00:00-02:00</published>
-    <updated>2015-06-30T16:24:08-03:00</updated>
+    <updated>2015-07-01T14:20:34-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -638,7 +967,7 @@ descobrir coisas novas. :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html"/>
     <id>http://pothix.com/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html</id>
     <published>2013-12-02T22:00:00-02:00</published>
-    <updated>2015-06-30T16:24:08-03:00</updated>
+    <updated>2015-07-01T14:20:34-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -752,7 +1081,7 @@ Looks like it is a good idea of language for some of my projects, welcome Golang
     <link rel="alternate" href="http://pothix.com/2013/09/17/2013-09-17-o-guru-sp-e-seus-5-anos-de-vida.html"/>
     <id>http://pothix.com/2013/09/17/2013-09-17-o-guru-sp-e-seus-5-anos-de-vida.html</id>
     <published>2013-09-16T21:00:00-03:00</published>
-    <updated>2015-06-30T16:24:08-03:00</updated>
+    <updated>2015-07-01T14:20:34-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -837,7 +1166,7 @@ Brasil, e mais do que isso um lugar legal para troca de conhecimentos.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2013/07/29/2013-07-29-vendo-dragstar-2008.html"/>
     <id>http://pothix.com/2013/07/29/2013-07-29-vendo-dragstar-2008.html</id>
     <published>2013-07-28T21:00:00-03:00</published>
-    <updated>2015-06-30T16:24:08-03:00</updated>
+    <updated>2015-07-01T14:20:34-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -881,7 +1210,7 @@ conversamos. :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2013/07/29/2013-07-29-vendo-intruder-125-customizada-e-com-guidao-seca-suvaco.html"/>
     <id>http://pothix.com/2013/07/29/2013-07-29-vendo-intruder-125-customizada-e-com-guidao-seca-suvaco.html</id>
     <published>2013-07-28T21:00:00-03:00</published>
-    <updated>2015-06-30T16:24:08-03:00</updated>
+    <updated>2015-07-01T14:20:34-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -922,7 +1251,7 @@ comentários mesmo.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2013/07/29/2013-07-29-vendendo-minhas-coisas.html"/>
     <id>http://pothix.com/2013/07/29/2013-07-29-vendendo-minhas-coisas.html</id>
     <published>2013-07-28T21:00:00-03:00</published>
-    <updated>2015-06-30T16:24:08-03:00</updated>
+    <updated>2015-07-01T14:20:34-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -953,7 +1282,7 @@ entrega pessoalmente.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2013/07/15/2013-07-15-game-network-programming.html"/>
     <id>http://pothix.com/2013/07/15/2013-07-15-game-network-programming.html</id>
     <published>2013-07-14T21:00:00-03:00</published>
-    <updated>2015-06-30T16:24:08-03:00</updated>
+    <updated>2015-07-01T14:20:34-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1000,7 +1329,7 @@ também! Se tiverem dúvidas postem aí nos comentários. :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/12/04/2012-12-04-plaev-html5-e-skeleton-jigsaw.html"/>
     <id>http://pothix.com/2012/12/04/2012-12-04-plaev-html5-e-skeleton-jigsaw.html</id>
     <published>2012-12-03T22:00:00-02:00</published>
-    <updated>2015-06-30T16:24:08-03:00</updated>
+    <updated>2015-07-01T14:20:34-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1052,7 +1381,7 @@ do vídeo, mas se tiverem dúvidas coloquem nos comentários.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/10/31/2012-10-31-saudades-do-poker.html"/>
     <id>http://pothix.com/2012/10/31/2012-10-31-saudades-do-poker.html</id>
     <published>2012-10-30T22:00:00-02:00</published>
-    <updated>2015-06-30T16:24:08-03:00</updated>
+    <updated>2015-07-01T14:20:34-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
