@@ -13,7 +13,7 @@ publish:
 	@git log --oneline | head -n1 | sed -r 's/^[a-zA-Z0-9]+ //g' > build/last_commit
 	@git checkout master
 	@git pull
-	@rm -rf 2* categories tags page stylesheets images javascripts
+	@rm -rf 2* categories tags page stylesheets images javascripts drafts
 	@mv build/* .
 	@git add -A .
 	@git commit -m "Last commit from source branch: '`cat last_commit`'"
