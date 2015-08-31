@@ -1,6 +1,6 @@
 ---
 title: As escolhas do desenvolvedor
-date: 2015-06-30
+date: 2015-08-31
 tags: events,speaking
 category: events
 ---
@@ -27,9 +27,14 @@ Esses são os slides da palestra:
 
 <iframe src="http://www.slideshare.net/PotHix/slideshelf" width="490px" height="470px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
 
-O Encontro Locaweb de São Paulo foi gravado e várias palestras foram
-transmitidas ao vivo. Infelizmente a minha não foi, mas foi gravada e assim que
-eu tiver acesso ao conteúdo eu vou atualizar esse post com o vídeo. :)
+Demorei para publicar esse post porque o encontro Locaweb de São Paulo
+foi gravado e eu estava esperando liberarem os vídeos para eu poder
+publicar junto com o post.
+
+Para assistir é só se increver no
+[grupo do encontro Locaweb na eventials](https://www.eventials.com/locaweb/groups/17o-encontro-locaweb-de-profissionais-de-internet/)
+e assistir
+[nesse link](https://www.eventials.com/locaweb/as-escolhas-do-desenvolvedor-com-willian-molinari-a-k-a-pothix/).
 
 Obrigado a todos que prestigiaram o evento e espero ter contribuído com alguma
 coisa legal com a palestra.
