@@ -5,16 +5,62 @@
   <id>http://pothix.com/</id>
   <link href="http://pothix.com/"/>
   <link href="http://pothix.com/feed.xml" rel="self"/>
-  <updated>2015-07-26T21:00:00-03:00</updated>
+  <updated>2015-08-30T21:00:00-03:00</updated>
   <author>
     <name>Willian Molinari (a.k.a PotHix)</name>
   </author>
+  <entry>
+    <title>As escolhas do desenvolvedor</title>
+    <link rel="alternate" href="http://pothix.com/2015/08/31/2015-08-31-as-escolhas-do-desenvolvedor.html"/>
+    <id>http://pothix.com/2015/08/31/2015-08-31-as-escolhas-do-desenvolvedor.html</id>
+    <published>2015-08-30T21:00:00-03:00</published>
+    <updated>2015-08-31T07:49:11-03:00</updated>
+    <author>
+      <name>Willian Molinari (a.k.a PotHix)</name>
+    </author>
+    <content type="html">&lt;p&gt;Esse ano fui chamado para palestrar em todas as edições do Encontro Locaweb que
+acontecem por várias cidades do Brasil! Palestrei em 6 cidades de estados
+diferentes, e aconteceram na seguinte ordem:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://www.flickr.com/photos/locaweb/sets/72157650885375530"&gt;Belo Horizonte&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.flickr.com/photos/locaweb/sets/72157651709980410"&gt;Curitiba&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.flickr.com/photos/locaweb/sets/72157649789309524"&gt;Recife&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.flickr.com/photos/locaweb/sets/72157652339858570"&gt;Porto Alegre&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.flickr.com/photos/locaweb/sets/72157652754664218"&gt;Rio de Janeiro&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.flickr.com/photos/locaweb/sets/72157654905073816"&gt;São Paulo&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Adicionei os links para as fotos dos eventos na listagem acima. :)&lt;/p&gt;
+
+&lt;p&gt;Minha palestra se chama &amp;ldquo;As escolhas do desenvolvedor&amp;rdquo; e fala sobre as escolhas
+que fazemos durante nossa carreira de desenvolvedor, escolhas com linguagens,
+configurações de servidores, deploy, equipe, testes e etc. A ideia dessa
+palestra é mostrar as opções que temos para cada uma dessas etapas.&lt;/p&gt;
+
+&lt;p&gt;Esses são os slides da palestra:&lt;/p&gt;
+
+&lt;iframe src="http://www.slideshare.net/PotHix/slideshelf" width="490px" height="470px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen webkitallowfullscreen mozallowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Demorei para publicar esse post porque o encontro Locaweb de São Paulo
+foi gravado e eu estava esperando liberarem os vídeos para eu poder
+publicar junto com o post.&lt;/p&gt;
+
+&lt;p&gt;Para assistir é só se increver no
+&lt;a href="https://www.eventials.com/locaweb/groups/17o-encontro-locaweb-de-profissionais-de-internet/"&gt;grupo do encontro Locaweb na eventials&lt;/a&gt;
+e assistir
+&lt;a href="https://www.eventials.com/locaweb/as-escolhas-do-desenvolvedor-com-willian-molinari-a-k-a-pothix/"&gt;nesse link&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Obrigado a todos que prestigiaram o evento e espero ter contribuído com alguma
+coisa legal com a palestra.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>OSCON 2015</title>
     <link rel="alternate" href="http://pothix.com/2015/07/27/2015-07-27-oscon.html"/>
     <id>http://pothix.com/2015/07/27/2015-07-27-oscon.html</id>
     <published>2015-07-26T21:00:00-03:00</published>
-    <updated>2015-08-22T18:20:38-03:00</updated>
+    <updated>2015-08-21T07:30:21-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -384,7 +430,7 @@ Portland. :(&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2015/05/25/2015-05-25-new-layout-of-pothix-blog.html"/>
     <id>http://pothix.com/2015/05/25/2015-05-25-new-layout-of-pothix-blog.html</id>
     <published>2015-05-24T21:00:00-03:00</published>
-    <updated>2015-08-22T18:20:38-03:00</updated>
+    <updated>2015-08-21T07:30:21-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -411,7 +457,7 @@ instead of keeping the wordpress &amp;ldquo;infrastructure&amp;rdquo;.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2014/02/14/2014-02-14-ruby-python-e-native-threads.html"/>
     <id>http://pothix.com/2014/02/14/2014-02-14-ruby-python-e-native-threads.html</id>
     <published>2014-02-13T22:00:00-02:00</published>
-    <updated>2015-08-22T18:20:38-03:00</updated>
+    <updated>2015-08-21T07:30:21-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -967,7 +1013,7 @@ descobrir coisas novas. :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html"/>
     <id>http://pothix.com/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html</id>
     <published>2013-12-02T22:00:00-02:00</published>
-    <updated>2015-08-22T18:20:38-03:00</updated>
+    <updated>2015-08-21T07:30:21-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1081,7 +1127,7 @@ Looks like it is a good idea of language for some of my projects, welcome Golang
     <link rel="alternate" href="http://pothix.com/2013/09/17/2013-09-17-o-guru-sp-e-seus-5-anos-de-vida.html"/>
     <id>http://pothix.com/2013/09/17/2013-09-17-o-guru-sp-e-seus-5-anos-de-vida.html</id>
     <published>2013-09-16T21:00:00-03:00</published>
-    <updated>2015-08-22T18:20:38-03:00</updated>
+    <updated>2015-08-21T07:30:21-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1166,7 +1212,7 @@ Brasil, e mais do que isso um lugar legal para troca de conhecimentos.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2013/07/29/2013-07-29-vendo-dragstar-2008.html"/>
     <id>http://pothix.com/2013/07/29/2013-07-29-vendo-dragstar-2008.html</id>
     <published>2013-07-28T21:00:00-03:00</published>
-    <updated>2015-08-22T18:20:38-03:00</updated>
+    <updated>2015-08-21T07:30:21-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1198,7 +1244,7 @@ Dragstar 2008.&lt;/p&gt;
 &lt;li&gt;Plataformas traseiras&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href="/images/posts/dragstar-6a5aee71.jpg"&gt;&lt;img title="Dragstar 2008" alt="Foto da minha dragstar 2008" src="/images/posts/dragstar-6a5aee71.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="/images/posts/dragstar-6a5aee71.jpg"&gt;&lt;img title="Dragstar 2008" alt="Foto da minha dragstar 2008" src="/images/images/posts/dragstar.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Quase 2k de acessórios. Se estiver interessado em comprar sem os
 acessórios o preço diminui também, mas entre em contato e
@@ -1210,7 +1256,7 @@ conversamos. :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2013/07/29/2013-07-29-vendendo-minhas-coisas.html"/>
     <id>http://pothix.com/2013/07/29/2013-07-29-vendendo-minhas-coisas.html</id>
     <published>2013-07-28T21:00:00-03:00</published>
-    <updated>2015-08-22T18:20:38-03:00</updated>
+    <updated>2015-08-21T07:30:21-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1241,7 +1287,7 @@ entrega pessoalmente.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2013/07/29/2013-07-29-vendo-intruder-125-customizada-e-com-guidao-seca-suvaco.html"/>
     <id>http://pothix.com/2013/07/29/2013-07-29-vendo-intruder-125-customizada-e-com-guidao-seca-suvaco.html</id>
     <published>2013-07-28T21:00:00-03:00</published>
-    <updated>2015-08-22T18:20:38-03:00</updated>
+    <updated>2015-08-21T07:30:21-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1282,7 +1328,7 @@ comentários mesmo.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2013/07/15/2013-07-15-game-network-programming.html"/>
     <id>http://pothix.com/2013/07/15/2013-07-15-game-network-programming.html</id>
     <published>2013-07-14T21:00:00-03:00</published>
-    <updated>2015-08-22T18:20:38-03:00</updated>
+    <updated>2015-08-21T07:30:21-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1329,7 +1375,7 @@ também! Se tiverem dúvidas postem aí nos comentários. :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/12/04/2012-12-04-plaev-html5-e-skeleton-jigsaw.html"/>
     <id>http://pothix.com/2012/12/04/2012-12-04-plaev-html5-e-skeleton-jigsaw.html</id>
     <published>2012-12-03T22:00:00-02:00</published>
-    <updated>2015-08-22T18:20:38-03:00</updated>
+    <updated>2015-08-21T07:30:21-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1374,49 +1420,6 @@ jogo demo para não ficar com o portfolio em branco. :)&lt;/p&gt;
 do vídeo, mas se tiverem dúvidas coloquem nos comentários.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Old comments by: Alexandre Araujo, David Paniz | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Saudades do Poker</title>
-    <link rel="alternate" href="http://pothix.com/2012/10/31/2012-10-31-saudades-do-poker.html"/>
-    <id>http://pothix.com/2012/10/31/2012-10-31-saudades-do-poker.html</id>
-    <published>2012-10-30T22:00:00-02:00</published>
-    <updated>2015-08-22T18:20:38-03:00</updated>
-    <author>
-      <name>Willian Molinari (a.k.a PotHix)</name>
-    </author>
-    <content type="html">&lt;p&gt;Apesar de eu não ser bom o suficiente eu curto bastante jogar poker, mas as
-poucas vezes que me juntei com os amigos pessoalmente para jogar foi na época
-da faculdade, que marcavamos as &amp;ldquo;poker nights&amp;rdquo; e jogavamos apostando pequenas
-quantias.&lt;/p&gt;
-
-&lt;p&gt;Depois de sair da faculdade eu sempre penso em tentar juntar aquele
-pessoal novamente, ou até mesmo juntar outras pessoas para poder jogar,
-mas eu acho difícil conseguir contato com o aquele pessoal novamente e a galera
-que eu tenho contato hoje geralmente não sabem jogar e tampouco se importam em
-aprender, ainda mais quando sabem que o jogo só tem graça quando está valendo
-dinheiro.&lt;/p&gt;
-
-&lt;p&gt;Há pouco tempo atrás eu estava assistindo um jogo de poker pela internet e
-resolvi procurar mais informações, sobre quando aconteciam os jogos
-(transmitidos pela internet) e até cheguei a ver alguns documentários e
-reportagens de pessoas que vivem de poker e passam o dia jogando pela internet,
-o que lhes traz uma quantia considerável por mês.&lt;/p&gt;
-
-&lt;p&gt;Resolvi começar a jogar pela internet novamente nas horas vagas e escolhi o
-&lt;a href="http://pt.partypoker.com/"&gt;partypoker&lt;/a&gt; para brincar. Ao entrar no site descobri
-que o instalador era para Windows, mas como eu já estava acostumado a ver sites
-de poker com instalador para windows eu decidi usar a interface web deles que
-funciona com um applet java e rolou tranquilo.&lt;/p&gt;
-
-&lt;p&gt;Jogar poker pela internet é bem divertido, e também necessário para quem quer levar
-o jogo a sério, mas eu ainda sinto falta de juntar os amigos pessoalmente e passar
-uma boa parte do tempo tentando adivinhar a poker face da galera para não ver meu
-dinheiro se perdendo. :P&lt;/p&gt;
-
-&lt;p&gt;Se alguém aí costuma se juntar para jogar, não esqueçam de me incluir! :)&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Letícia F. | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>
