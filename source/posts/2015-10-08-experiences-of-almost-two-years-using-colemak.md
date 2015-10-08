@@ -1,7 +1,7 @@
 ---
 title: Experiences of almost two years using colemak
 date: 2015-10-08
-tags:  english
+tags:  english, tech
 category: keyboard
 ---
 
