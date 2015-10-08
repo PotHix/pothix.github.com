@@ -5,16 +5,82 @@
   <id>http://pothix.com/</id>
   <link href="http://pothix.com/"/>
   <link href="http://pothix.com/feed_en.xml" rel="self"/>
-  <updated>2015-08-30T21:00:00-03:00</updated>
+  <updated>2015-10-07T21:00:00-03:00</updated>
   <author>
     <name>Willian Molinari (a.k.a PotHix)</name>
   </author>
+  <entry>
+    <title>Experiences of almost two years using colemak</title>
+    <link rel="alternate" href="http://pothix.com/2015/10/08/2015-10-08-experiences-of-almost-two-years-using-colemak.html"/>
+    <id>http://pothix.com/2015/10/08/2015-10-08-experiences-of-almost-two-years-using-colemak.html</id>
+    <published>2015-10-07T21:00:00-03:00</published>
+    <updated>2015-10-08T10:03:50-03:00</updated>
+    <author>
+      <name>Willian Molinari (a.k.a PotHix)</name>
+    </author>
+    <content type="html">&lt;p&gt;TL;DR: I like colemak, and it is a &lt;em&gt;very good&lt;/em&gt; layout. I found some equivalent
+pros and cons, so I can&amp;rsquo;t recommend it to anyone without a little bit of
+philosophy. :)&lt;/p&gt;
+
+&lt;p&gt;For those who don&amp;rsquo;t know &lt;a href="http://colemak.com/"&gt;Colemak&lt;/a&gt;, it is a keyboard layout
+created to make the most used keys stay in the home row as well as make you
+swipe between your right and left hand.&lt;/p&gt;
+
+&lt;p&gt;Here is a
+&lt;a href="http://www.patrick-wied.at/projects/heatmap-keyboard/"&gt;keyboard layouts heatmap&lt;/a&gt;
+for you to understand the benefits of using a keyboard layout that was designed
+to help you to be confortable and fast when typing instead of one that
+&lt;a href="https://en.wikipedia.org/wiki/QWERTY"&gt;helping the operator to not jam the typewriter&lt;/a&gt;.
+I tried some code (python), English and Portuguese texts and it looks almost the
+same on the heatmap.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m using Colemak since Dec, 25 of 2013 and here are come pros and cons that I
+found:&lt;/p&gt;
+
+&lt;p&gt;The first con is that I don&amp;rsquo;t know how to type fast on qwerty anymore, now I&amp;rsquo;m
+typing as I never saw a qwerty layout before. The problem is that everyone uses
+this crappy layout and sometimes you need to use it to write and it makes you
+look like a granpa. The good part is that I almots don&amp;rsquo;t need to use qwerty, all
+devices that belog to me I&amp;rsquo;ve changed to colemak (computers, cellphones and so
+on), so I just need to use qwerty when I&amp;rsquo;m typing on other peoples devices.&lt;/p&gt;
+
+&lt;p&gt;A pro is that my typing speed grew from an average of 75 WPM to almost 100
+WPM. I need to consider that I also bought a Kinesis Advantage Pro;&lt;/p&gt;
+
+&lt;p&gt;&lt;img title="Kinesis Advantage" alt="Kinesis advantage photo" src="/images/posts/almost-two-years-using-colemak-kinesis-df04aec3.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Without this keyboard I&amp;rsquo;m not that fast. Just tried
+&lt;a href="http://10fastfingers.com/user/504663/"&gt;10fastfingers now and got 92 WPM&lt;/a&gt; using
+my laptop&amp;rsquo;s keyboard.&lt;/p&gt;
+
+&lt;p&gt;Another pro is that I really feel confortable using Colemak, you the same way as
+being an experienced Vim user, looks like you don&amp;rsquo;t need to type so much. :)&lt;/p&gt;
+
+&lt;p&gt;Now, talking about Vim&amp;hellip; I&amp;rsquo;m an experienced Vim user, but Vim is totally
+coupled with qwerty layout. I tried to remap some keys (like hjkl for example)
+in order to keep using the home row to navigate but it was not very good. Totay
+I&amp;rsquo;m just using plain colemak layout on Vim and it is not so good as it was on
+qwerty. For this reason I decided to try a new editor and I&amp;rsquo;m using Emacs
+now. :)&lt;/p&gt;
+
+&lt;p&gt;It took me at least a month to get back to my old typing speed, I was training
+everyday on 10fastfinges to get used to the layout. In the beginning you may
+feed some headaches because of the mind remapping. It&amp;rsquo;s not so easy to change
+something that you thought was the only way of getting things done. It was a
+great challenge for me and it just seems right, I don&amp;rsquo;t wanna use a keyboard
+layout that was made to avoid jams on a typewriter, Jesus, we&amp;rsquo;re in 2015 and
+there is not typewriters anymore.&lt;/p&gt;
+
+&lt;p&gt;Hope this post helps a lot of colemak newcommers and the only thing I could say
+about my journey is that &lt;strong&gt;I would do it again if I could&lt;/strong&gt;. :)&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>New layout of PotHix blog</title>
     <link rel="alternate" href="http://pothix.com/2015/05/25/2015-05-25-new-layout-of-pothix-blog.html"/>
     <id>http://pothix.com/2015/05/25/2015-05-25-new-layout-of-pothix-blog.html</id>
     <published>2015-05-24T21:00:00-03:00</published>
-    <updated>2015-08-21T07:30:21-03:00</updated>
+    <updated>2015-08-22T18:22:16-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -40,8 +106,8 @@ instead of keeping the wordpress &amp;ldquo;infrastructure&amp;rdquo;.&lt;/p&gt;
     <title>Golang and 1.2 version performance improvement</title>
     <link rel="alternate" href="http://pothix.com/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html"/>
     <id>http://pothix.com/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html</id>
-    <published>2013-12-02T22:00:00-02:00</published>
-    <updated>2015-08-21T07:30:21-03:00</updated>
+    <published>2013-12-02T21:00:00-03:00</published>
+    <updated>2015-08-22T18:22:16-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -155,7 +221,7 @@ Looks like it is a good idea of language for some of my projects, welcome Golang
     <link rel="alternate" href="http://pothix.com/2013/07/15/2013-07-15-game-network-programming.html"/>
     <id>http://pothix.com/2013/07/15/2013-07-15-game-network-programming.html</id>
     <published>2013-07-14T21:00:00-03:00</published>
-    <updated>2015-08-21T07:30:21-03:00</updated>
+    <updated>2015-08-22T18:22:16-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -202,7 +268,7 @@ também! Se tiverem dúvidas postem aí nos comentários. :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/09/10/2012-09-10-a-lifestyle.html"/>
     <id>http://pothix.com/2012/09/10/2012-09-10-a-lifestyle.html</id>
     <published>2012-09-09T21:00:00-03:00</published>
-    <updated>2015-08-21T07:30:21-03:00</updated>
+    <updated>2015-08-22T18:22:16-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -284,7 +350,7 @@ We don’t care what everyone else believes.
     <link rel="alternate" href="http://pothix.com/2012/09/02/2012-09-02-javascript-and-gamedev-discussion.html"/>
     <id>http://pothix.com/2012/09/02/2012-09-02-javascript-and-gamedev-discussion.html</id>
     <published>2012-09-01T21:00:00-03:00</published>
-    <updated>2015-08-21T07:30:21-03:00</updated>
+    <updated>2015-08-22T18:22:16-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -340,7 +406,7 @@ well, you just need to decide which one is better for your business.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/07/23/2012-07-23-kernel-compiling.html"/>
     <id>http://pothix.com/2012/07/23/2012-07-23-kernel-compiling.html</id>
     <published>2012-07-22T21:00:00-03:00</published>
-    <updated>2015-08-21T07:30:21-03:00</updated>
+    <updated>2015-08-22T18:22:16-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -514,7 +580,7 @@ process I think that I learned a lot, so it is worth it.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/07/17/2012-07-17-simlinks-for-ruby-on-debian-squeeze.html"/>
     <id>http://pothix.com/2012/07/17/2012-07-17-simlinks-for-ruby-on-debian-squeeze.html</id>
     <published>2012-07-16T21:00:00-03:00</published>
-    <updated>2015-08-21T07:30:21-03:00</updated>
+    <updated>2015-08-22T18:22:16-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -545,7 +611,7 @@ ln -s /usr/bin/gem1.9.1 /usr/bin/gem
     <link rel="alternate" href="http://pothix.com/2009/04/10/2009-04-10-translated-rubylearning-presentation.html"/>
     <id>http://pothix.com/2009/04/10/2009-04-10-translated-rubylearning-presentation.html</id>
     <published>2009-04-09T21:00:00-03:00</published>
-    <updated>2015-08-21T07:30:21-03:00</updated>
+    <updated>2015-08-22T18:22:16-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -842,8 +908,8 @@ with paypal.&lt;/p&gt;
     <title>Deploying a simple Merb application on Locaweb</title>
     <link rel="alternate" href="http://pothix.com/2009/01/07/2009-01-07-deploying-a-simple-merb-application-on-locaweb.html"/>
     <id>http://pothix.com/2009/01/07/2009-01-07-deploying-a-simple-merb-application-on-locaweb.html</id>
-    <published>2009-01-06T22:00:00-02:00</published>
-    <updated>2015-08-21T07:30:20-03:00</updated>
+    <published>2009-01-06T21:00:00-03:00</published>
+    <updated>2015-08-22T18:22:16-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -928,8 +994,8 @@ pointed by apache with Phusion Passenger.&lt;/p&gt;
     <title>New year is coming</title>
     <link rel="alternate" href="http://pothix.com/2008/12/31/2008-12-31-new-year-is-coming.html"/>
     <id>http://pothix.com/2008/12/31/2008-12-31-new-year-is-coming.html</id>
-    <published>2008-12-30T22:00:00-02:00</published>
-    <updated>2015-08-21T07:30:20-03:00</updated>
+    <published>2008-12-30T21:00:00-03:00</published>
+    <updated>2015-08-22T18:22:16-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -968,8 +1034,8 @@ nos veremos em 2009!&lt;/p&gt;
     <title>First post in English here</title>
     <link rel="alternate" href="http://pothix.com/2008/12/16/2008-12-16-first-post-in-english-here.html"/>
     <id>http://pothix.com/2008/12/16/2008-12-16-first-post-in-english-here.html</id>
-    <published>2008-12-15T22:00:00-02:00</published>
-    <updated>2015-08-21T07:30:20-03:00</updated>
+    <published>2008-12-15T21:00:00-03:00</published>
+    <updated>2015-08-22T18:22:16-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
