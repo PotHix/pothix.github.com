@@ -10,11 +10,77 @@
     <name>Willian Molinari (a.k.a PotHix)</name>
   </author>
   <entry>
+    <title>Experiences of almost two years using colemak</title>
+    <link rel="alternate" href="http://pothix.com/2015/10/08/2015-10-08-experiences-of-almost-two-years-using-colemak.html"/>
+    <id>http://pothix.com/2015/10/08/2015-10-08-experiences-of-almost-two-years-using-colemak.html</id>
+    <published>2015-10-07T21:00:00-03:00</published>
+    <updated>2015-10-08T10:28:21-03:00</updated>
+    <author>
+      <name>Willian Molinari (a.k.a PotHix)</name>
+    </author>
+    <content type="html">&lt;p&gt;TL;DR: I like colemak, and it is a &lt;em&gt;very good&lt;/em&gt; layout. I found some equivalent
+pros and cons, so I can&amp;rsquo;t recommend it to anyone without a little bit of
+philosophy. :)&lt;/p&gt;
+
+&lt;p&gt;For those who don&amp;rsquo;t know &lt;a href="http://colemak.com/"&gt;Colemak&lt;/a&gt;, it is a keyboard layout
+created to make the most used keys stay in the home row as well as make you
+swipe between your right and left hand.&lt;/p&gt;
+
+&lt;p&gt;Here is a
+&lt;a href="http://www.patrick-wied.at/projects/heatmap-keyboard/"&gt;keyboard layouts heatmap&lt;/a&gt;
+for you to understand the benefits of using a keyboard layout that was designed
+to help you to be confortable and fast when typing instead of one that
+&lt;a href="https://en.wikipedia.org/wiki/QWERTY"&gt;helping the operator to not jam the typewriter&lt;/a&gt;.
+I tried some code (python), English and Portuguese texts and it looks almost the
+same on the heatmap.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m using Colemak since Dec, 25 of 2013 and here are come pros and cons that I
+found:&lt;/p&gt;
+
+&lt;p&gt;The first con is that I don&amp;rsquo;t know how to type fast on qwerty anymore, now I&amp;rsquo;m
+typing as I never saw a qwerty layout before. The problem is that everyone uses
+this crappy layout and sometimes you need to use it to write and it makes you
+look like a granpa. The good part is that I almots don&amp;rsquo;t need to use qwerty, all
+devices that belog to me I&amp;rsquo;ve changed to colemak (computers, cellphones and so
+on), so I just need to use qwerty when I&amp;rsquo;m typing on other peoples devices.&lt;/p&gt;
+
+&lt;p&gt;A pro is that my typing speed grew from an average of 75 WPM to almost 100
+WPM. I need to consider that I also bought a Kinesis Advantage Pro;&lt;/p&gt;
+
+&lt;p&gt;&lt;img title="Kinesis Advantage" alt="Kinesis advantage photo" src="/images/posts/almost-two-years-using-colemak-kinesis-df04aec3.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Without this keyboard I&amp;rsquo;m not that fast. Just tried
+&lt;a href="http://10fastfingers.com/user/504663/"&gt;10fastfingers now and got 92 WPM&lt;/a&gt; using
+my laptop&amp;rsquo;s keyboard.&lt;/p&gt;
+
+&lt;p&gt;Another pro is that I really feel confortable using Colemak, you the same way as
+being an experienced Vim user, looks like you don&amp;rsquo;t need to type so much. :)&lt;/p&gt;
+
+&lt;p&gt;Now, talking about Vim&amp;hellip; I&amp;rsquo;m an experienced Vim user, but Vim is totally
+coupled with qwerty layout. I tried to remap some keys (like hjkl for example)
+in order to keep using the home row to navigate but it was not very good. Totay
+I&amp;rsquo;m just using plain colemak layout on Vim and it is not so good as it was on
+qwerty. For this reason I decided to try a new editor and I&amp;rsquo;m using Emacs
+now. :)&lt;/p&gt;
+
+&lt;p&gt;It took me at least a month to get back to my old typing speed, I was training
+everyday on 10fastfinges to get used to the layout. In the beginning you may
+feed some headaches because of the mind remapping. It&amp;rsquo;s not so easy to change
+something that you thought was the only way of getting things done. It was a
+great challenge for me and it just seems right, I don&amp;rsquo;t wanna use a keyboard
+layout that was made to avoid jams on a typewriter, Jesus, we&amp;rsquo;re in 2015 and
+there is not typewriters anymore.&lt;/p&gt;
+
+&lt;p&gt;Hope this post helps a lot of colemak newcommers and the only thing I could say
+about my journey is that &lt;strong&gt;I would do it again if I could&lt;/strong&gt;. :)&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Ruby, Python e native threads</title>
     <link rel="alternate" href="http://pothix.com/2014/02/14/2014-02-14-ruby-python-e-native-threads.html"/>
     <id>http://pothix.com/2014/02/14/2014-02-14-ruby-python-e-native-threads.html</id>
     <published>2014-02-13T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -570,7 +636,7 @@ descobrir coisas novas. :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html"/>
     <id>http://pothix.com/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html</id>
     <published>2013-12-02T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -684,7 +750,7 @@ Looks like it is a good idea of language for some of my projects, welcome Golang
     <link rel="alternate" href="http://pothix.com/2012/12/04/2012-12-04-plaev-html5-e-skeleton-jigsaw.html"/>
     <id>http://pothix.com/2012/12/04/2012-12-04-plaev-html5-e-skeleton-jigsaw.html</id>
     <published>2012-12-03T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -736,7 +802,7 @@ do vídeo, mas se tiverem dúvidas coloquem nos comentários.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/09/02/2012-09-02-javascript-and-gamedev-discussion.html"/>
     <id>http://pothix.com/2012/09/02/2012-09-02-javascript-and-gamedev-discussion.html</id>
     <published>2012-09-01T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -792,7 +858,7 @@ well, you just need to decide which one is better for your business.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/07/23/2012-07-23-kernel-compiling.html"/>
     <id>http://pothix.com/2012/07/23/2012-07-23-kernel-compiling.html</id>
     <published>2012-07-22T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -966,7 +1032,7 @@ process I think that I learned a lot, so it is worth it.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/07/19/2012-07-19-menos-mac-e-mais-linux.html"/>
     <id>http://pothix.com/2012/07/19/2012-07-19-menos-mac-e-mais-linux.html</id>
     <published>2012-07-18T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1103,7 +1169,7 @@ de frutinha. :P&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/07/18/2012-07-18-aprendendo-com-o-codigo-do-quake.html"/>
     <id>http://pothix.com/2012/07/18/2012-07-18-aprendendo-com-o-codigo-do-quake.html</id>
     <published>2012-07-17T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1165,7 +1231,7 @@ programação &lt;strong&gt;RECOMENDO&lt;/strong&gt; fortemente tirar algumas ho
     <link rel="alternate" href="http://pothix.com/2012/07/16/2012-07-16-palestra-sobre-implementacoes-paralelas.html"/>
     <id>http://pothix.com/2012/07/16/2012-07-16-palestra-sobre-implementacoes-paralelas.html</id>
     <published>2012-07-15T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1195,7 +1261,7 @@ de manter. Espero que seja útil para mais alguém. ;)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/07/10/2012-07-10-xmpp-e-ruby.html"/>
     <id>http://pothix.com/2012/07/10/2012-07-10-xmpp-e-ruby.html</id>
     <published>2012-07-09T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1222,7 +1288,7 @@ projeto.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2011/01/24/2011-01-24-organizando-os-feeds-do-blog.html"/>
     <id>http://pothix.com/2011/01/24/2011-01-24-organizando-os-feeds-do-blog.html</id>
     <published>2011-01-23T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1256,7 +1322,7 @@ colocar, é só ignorar isso tudo :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2010/12/29/2010-12-29-meu-ambiente-de-desenvolvimento.html"/>
     <id>http://pothix.com/2010/12/29/2010-12-29-meu-ambiente-de-desenvolvimento.html</id>
     <published>2010-12-28T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1391,7 +1457,7 @@ exemplo) mas acho que isso ae já é uma visão geral :D&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2010/10/31/2010-10-31-semana-de-eventos-rubyconfbr-adl-e-gddbr.html"/>
     <id>http://pothix.com/2010/10/31/2010-10-31-semana-de-eventos-rubyconfbr-adl-e-gddbr.html</id>
     <published>2010-10-30T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1515,7 +1581,7 @@ trabalho, e descansei no final da semana! Portanto&amp;hellip; Vitória! :D&lt;/
     <link rel="alternate" href="http://pothix.com/2010/10/21/2010-10-21-conto-da-migracao-para-rails-3.html"/>
     <id>http://pothix.com/2010/10/21/2010-10-21-conto-da-migracao-para-rails-3.html</id>
     <published>2010-10-20T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1673,7 +1739,7 @@ sua aplicação. :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2010/09/08/2010-09-08-motorola-milestone-e-android.html"/>
     <id>http://pothix.com/2010/09/08/2010-09-08-motorola-milestone-e-android.html</id>
     <published>2010-09-07T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1748,7 +1814,7 @@ que eu estou mantendo com uns amigos.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2010/08/01/2010-08-01-fisl11.html"/>
     <id>http://pothix.com/2010/08/01/2010-08-01-fisl11.html</id>
     <published>2010-07-31T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1910,7 +1976,7 @@ picasa&lt;/a&gt;. ;)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2010/03/29/2010-03-29-yahoo-open-hack-2010.html"/>
     <id>http://pothix.com/2010/03/29/2010-03-29-yahoo-open-hack-2010.html</id>
     <published>2010-03-28T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -2011,7 +2077,7 @@ Picasa&lt;/a&gt;.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2010/03/29/2010-03-29-palestra-sobre-vim.html"/>
     <id>http://pothix.com/2010/03/29/2010-03-29-palestra-sobre-vim.html</id>
     <published>2010-03-28T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -2054,7 +2120,7 @@ Hugo!), e portanto temos o vídeo tambem:&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2010/03/29/2010-03-29-linux-vim-screen-e-pair-programming.html"/>
     <id>http://pothix.com/2010/03/29/2010-03-29-linux-vim-screen-e-pair-programming.html</id>
     <published>2010-03-28T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -2202,7 +2268,7 @@ que trabalhamos) mas você obviamente perde um pouco de espaço.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2010/02/02/2010-02-02-campus-party-2010.html"/>
     <id>http://pothix.com/2010/02/02/2010-02-02-campus-party-2010.html</id>
     <published>2010-02-01T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -2318,7 +2384,7 @@ precisa &amp;ldquo;entrar na brincadeira&amp;rdquo; e aproveitar. ;)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/12/02/2009-12-02-dev-in-sampa.html"/>
     <id>http://pothix.com/2009/12/02/2009-12-02-dev-in-sampa.html</id>
     <published>2009-12-01T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -2513,7 +2579,7 @@ novamente na próxima edição! :D&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/12/02/2009-12-02-crontab-dentro-da-sua-aplicacao-rails-com-whenever.html"/>
     <id>http://pothix.com/2009/12/02/2009-12-02-crontab-dentro-da-sua-aplicacao-rails-com-whenever.html</id>
     <published>2009-12-01T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -2629,7 +2695,7 @@ exemplos de como usar no &lt;a href="http://www.railscasts.com"&gt;Railscasts&lt
     <link rel="alternate" href="http://pothix.com/2009/10/19/2009-10-19-rails-summit-2009.html"/>
     <id>http://pothix.com/2009/10/19/2009-10-19-rails-summit-2009.html</id>
     <published>2009-10-18T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -2883,7 +2949,7 @@ picasaweb&lt;/a&gt;.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/09/10/2009-09-10-instalando-e-configurando-o-monit.html"/>
     <id>http://pothix.com/2009/09/10/2009-09-10-instalando-e-configurando-o-monit.html</id>
     <published>2009-09-09T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -2965,7 +3031,7 @@ monitoração e gostou do monit. :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/08/14/2009-08-14-um-pouco-sobre-o-vim.html"/>
     <id>http://pothix.com/2009/08/14/2009-08-14-um-pouco-sobre-o-vim.html</id>
     <published>2009-08-13T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -3075,7 +3141,7 @@ ferramentas.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/08/12/2009-08-12-instalando-o-allegro-4-2-2-no-linux-x86.html"/>
     <id>http://pothix.com/2009/08/12/2009-08-12-instalando-o-allegro-4-2-2-no-linux-x86.html</id>
     <published>2009-08-11T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -3159,7 +3225,7 @@ rodar o meu jogo normalmente. :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/08/12/2009-08-12-gamejam.html"/>
     <id>http://pothix.com/2009/08/12/2009-08-12-gamejam.html</id>
     <published>2009-08-11T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -3340,7 +3406,7 @@ que foi um contest de 48 horas&amp;hellip;hehe):&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/07/30/2009-07-30-bookreview-high-performance-websites.html"/>
     <id>http://pothix.com/2009/07/30/2009-07-30-bookreview-high-performance-websites.html</id>
     <published>2009-07-29T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -3511,7 +3577,7 @@ bons argumentos para lhe dizer por que isso seria uma boa escolha.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/07/28/2009-07-28-instalando-gems-do-github-manualmente.html"/>
     <id>http://pothix.com/2009/07/28/2009-07-28-instalando-gems-do-github-manualmente.html</id>
     <published>2009-07-27T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -3564,7 +3630,7 @@ suas gems. :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/07/21/2009-07-21-encontro-de-numero-5-do-guru-sp.html"/>
     <id>http://pothix.com/2009/07/21/2009-07-21-encontro-de-numero-5-do-guru-sp.html</id>
     <published>2009-07-20T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -3668,7 +3734,7 @@ amizades e conhecimentos!&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/07/19/2009-07-19-bookreview-pragmatic-version-control-using-git.html"/>
     <id>http://pothix.com/2009/07/19/2009-07-19-bookreview-pragmatic-version-control-using-git.html</id>
     <published>2009-07-18T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -3755,7 +3821,7 @@ legais.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/07/09/2009-07-09-como-desabilitar-o-beep-no-ubuntu.html"/>
     <id>http://pothix.com/2009/07/09/2009-07-09-como-desabilitar-o-beep-no-ubuntu.html</id>
     <published>2009-07-08T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -3799,7 +3865,7 @@ emitindo beeps supostamente benéficos para vc! :P&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/06/13/2009-06-13-instalando-modem-3g-claro-usb-e226-no-ubuntu.html"/>
     <id>http://pothix.com/2009/06/13/2009-06-13-instalando-modem-3g-claro-usb-e226-no-ubuntu.html</id>
     <published>2009-06-12T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -3846,7 +3912,7 @@ para &lt;strong&gt;208.67.222.222, 208.67.220.220&lt;/strong&gt;.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/06/12/2009-06-12-servicos-interessantes.html"/>
     <id>http://pothix.com/2009/06/12/2009-06-12-servicos-interessantes.html</id>
     <published>2009-06-11T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -3912,7 +3978,7 @@ de compartilhar, espero que seja útil para os leitores do blog.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/05/20/2009-05-20-organizando-seu-gmail-para-manter-inbox-zero.html"/>
     <id>http://pothix.com/2009/05/20/2009-05-20-organizando-seu-gmail-para-manter-inbox-zero.html</id>
     <published>2009-05-19T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -4011,7 +4077,7 @@ tome tanto tempo.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/05/11/2009-05-11-usando-git-em-projetos-do-google-code.html"/>
     <id>http://pothix.com/2009/05/11/2009-05-11-usando-git-em-projetos-do-google-code.html</id>
     <published>2009-05-10T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -4102,7 +4168,7 @@ utilizando Git. :D&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/05/09/2009-05-09-configurando-seu-gtalk-do-google-apps-no-pidgin.html"/>
     <id>http://pothix.com/2009/05/09/2009-05-09-configurando-seu-gtalk-do-google-apps-no-pidgin.html</id>
     <published>2009-05-08T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -4157,7 +4223,7 @@ Google Apps! :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/05/06/2009-05-06-ubuntu-904.html"/>
     <id>http://pothix.com/2009/05/06/2009-05-06-ubuntu-904.html</id>
     <published>2009-05-05T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -4246,7 +4312,7 @@ gracinhas! :P&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/04/26/2009-04-26-encontro-de-design-e-tecnologia-digital.html"/>
     <id>http://pothix.com/2009/04/26/2009-04-26-encontro-de-design-e-tecnologia-digital.html</id>
     <published>2009-04-25T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -4400,7 +4466,7 @@ perdeu! :D&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/04/13/2009-04-13-comecando-a-falar-de-ruby.html"/>
     <id>http://pothix.com/2009/04/13/2009-04-13-comecando-a-falar-de-ruby.html</id>
     <published>2009-04-12T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -4595,7 +4661,7 @@ se divertir com ele! :D&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/04/11/2009-04-11-plugin-para-wordpress-anti-ie6-army.html"/>
     <id>http://pothix.com/2009/04/11/2009-04-11-plugin-para-wordpress-anti-ie6-army.html</id>
     <published>2009-04-10T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -4646,7 +4712,7 @@ plugin. ;)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/04/10/2009-04-10-translated-rubylearning-presentation.html"/>
     <id>http://pothix.com/2009/04/10/2009-04-10-translated-rubylearning-presentation.html</id>
     <published>2009-04-09T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -4944,7 +5010,7 @@ with paypal.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/04/08/2009-04-08-rails-x-django.html"/>
     <id>http://pothix.com/2009/04/08/2009-04-08-rails-x-django.html</id>
     <published>2009-04-07T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -4992,7 +5058,7 @@ projeto que você for usar. ;)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/04/07/2009-04-07-ruby-e-rails-no-mundo-real-overview.html"/>
     <id>http://pothix.com/2009/04/07/2009-04-07-ruby-e-rails-no-mundo-real-overview.html</id>
     <published>2009-04-06T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -5041,7 +5107,7 @@ assim que estiverem disponíveis ) é só acessar!&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/04/03/2009-04-03-projeto-de-fevereiro.html"/>
     <id>http://pothix.com/2009/04/03/2009-04-03-projeto-de-fevereiro.html</id>
     <published>2009-04-02T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -5128,7 +5194,7 @@ comemoração, quando terminavamos nossas features:&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/03/31/2009-03-31-ruby-inside-brasil.html"/>
     <id>http://pothix.com/2009/03/31/2009-03-31-ruby-inside-brasil.html</id>
     <published>2009-03-30T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -5160,7 +5226,7 @@ patrocinar o projeto entre em contato com os responsáveis pela
     <link rel="alternate" href="http://pothix.com/2009/03/25/2009-03-25-colocando-sua-aplicacao-rails-na-dreamhost.html"/>
     <id>http://pothix.com/2009/03/25/2009-03-25-colocando-sua-aplicacao-rails-na-dreamhost.html</id>
     <published>2009-03-24T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -5249,7 +5315,7 @@ já terei minha aplicação alterada lá! :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/02/20/2009-02-20-curso-de-verao-da-usp.html"/>
     <id>http://pothix.com/2009/02/20/2009-02-20-curso-de-verao-da-usp.html</id>
     <published>2009-02-19T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -5397,7 +5463,7 @@ que vem e vá fazer um curso de verão! ;)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/02/09/2009-02-09-dc-no-linux.html"/>
     <id>http://pothix.com/2009/02/09/2009-02-09-dc-no-linux.html</id>
     <published>2009-02-08T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -5468,7 +5534,7 @@ Party!&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/02/06/2009-02-06-ruby-e-rails-no-mundo-real.html"/>
     <id>http://pothix.com/2009/02/06/2009-02-06-ruby-e-rails-no-mundo-real.html</id>
     <published>2009-02-05T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -5525,7 +5591,7 @@ com as novidades do evento.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/01/30/2009-01-30-vivo-online-agora-funciona-no-firefox-safari.html"/>
     <id>http://pothix.com/2009/01/30/2009-01-30-vivo-online-agora-funciona-no-firefox-safari.html</id>
     <published>2009-01-29T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -5556,7 +5622,7 @@ prestando maus serviços.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/01/26/2009-01-26-campus-party-2009.html"/>
     <id>http://pothix.com/2009/01/26/2009-01-26-campus-party-2009.html</id>
     <published>2009-01-25T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -5854,7 +5920,7 @@ evento para mim foi muito bom!&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/01/13/2009-01-13-usuarios-resolvem-os-problemas-da-vivo.html"/>
     <id>http://pothix.com/2009/01/13/2009-01-13-usuarios-resolvem-os-problemas-da-vivo.html</id>
     <published>2009-01-12T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -5905,7 +5971,7 @@ e a parabenização ao &lt;a title="Site do Diogo" href="http://diogosantos.com/
     <link rel="alternate" href="http://pothix.com/2009/01/07/2009-01-07-deploying-a-simple-merb-application-on-locaweb.html"/>
     <id>http://pothix.com/2009/01/07/2009-01-07-deploying-a-simple-merb-application-on-locaweb.html</id>
     <published>2009-01-06T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -5991,7 +6057,7 @@ pointed by apache with Phusion Passenger.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/12/21/2008-12-21-iniciando-seu-primeiro-projeto-no-github.html"/>
     <id>http://pothix.com/2008/12/21/2008-12-21-iniciando-seu-primeiro-projeto-no-github.html</id>
     <published>2008-12-20T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -6085,7 +6151,7 @@ quando lhe falarem de GitHub.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/12/21/2008-12-21-configurando-seu-git-para-comecar-a-usar.html"/>
     <id>http://pothix.com/2008/12/21/2008-12-21-configurando-seu-git-para-comecar-a-usar.html</id>
     <published>2008-12-20T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -6151,7 +6217,7 @@ legal para começar.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/12/11/2008-12-11-ir-alem-do-basico-tambem-e-gratis.html"/>
     <id>http://pothix.com/2008/12/11/2008-12-11-ir-alem-do-basico-tambem-e-gratis.html</id>
     <published>2008-12-10T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -6235,7 +6301,7 @@ recadinhos com as peguetes&amp;rdquo;&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/11/29/2008-11-29-como-sao-os-primeiros-passos-de-um-linuxer.html"/>
     <id>http://pothix.com/2008/11/29/2008-11-29-como-sao-os-primeiros-passos-de-um-linuxer.html</id>
     <published>2008-11-28T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -6376,7 +6442,7 @@ quantidade de coisas legais que você pode ter nesse sistema.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/11/29/2008-11-29-montando-imagens-do-nero-nrg-no-linux.html"/>
     <id>http://pothix.com/2008/11/29/2008-11-29-montando-imagens-do-nero-nrg-no-linux.html</id>
     <published>2008-11-28T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -6425,7 +6491,7 @@ montar nossa imagem normalmente em alguma pasta, como por exemplo
     <link rel="alternate" href="http://pothix.com/2008/11/29/2008-11-29-a-facilidade-do-ubuntu.html"/>
     <id>http://pothix.com/2008/11/29/2008-11-29-a-facilidade-do-ubuntu.html</id>
     <published>2008-11-28T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -6645,7 +6711,7 @@ possível para responder.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/11/29/2008-11-29-utilizando-o-sshfs.html"/>
     <id>http://pothix.com/2008/11/29/2008-11-29-utilizando-o-sshfs.html</id>
     <published>2008-11-28T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -6707,7 +6773,7 @@ montado localmente para cópia de arquivos.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/11/27/2008-11-27-deixando-seu-ssh-mais-facil-de-trabalhar.html"/>
     <id>http://pothix.com/2008/11/27/2008-11-27-deixando-seu-ssh-mais-facil-de-trabalhar.html</id>
     <published>2008-11-26T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -6803,7 +6869,7 @@ tambem. ;)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/11/13/2008-11-13-ativando-numlock-na-inicializacao-do-fluxbox-no-slackware.html"/>
     <id>http://pothix.com/2008/11/13/2008-11-13-ativando-numlock-na-inicializacao-do-fluxbox-no-slackware.html</id>
     <published>2008-11-12T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -6854,7 +6920,7 @@ automágicamente! :P&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/11/11/2008-11-11-facilitando-a-instalacao-de-pacotes-no-slackware.html"/>
     <id>http://pothix.com/2008/11/11/2008-11-11-facilitando-a-instalacao-de-pacotes-no-slackware.html</id>
     <published>2008-11-10T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -6962,7 +7028,7 @@ instalações do Slackware mais rápidas.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/11/07/2008-11-07-aprenda-ruby-no-rubylearning.html"/>
     <id>http://pothix.com/2008/11/07/2008-11-07-aprenda-ruby-no-rubylearning.html</id>
     <published>2008-11-06T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -7026,7 +7092,7 @@ para conhecer mais sobre o Ruby, e se gostar pode pensar nos pagos.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/10/22/2008-10-22-rails-summit-latin-amerira-day-2.html"/>
     <id>http://pothix.com/2008/10/22/2008-10-22-rails-summit-latin-amerira-day-2.html</id>
     <published>2008-10-21T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -7184,7 +7250,7 @@ para esse projeto!&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/10/21/2008-10-21-rails-summit-latin-america.html"/>
     <id>http://pothix.com/2008/10/21/2008-10-21-rails-summit-latin-america.html</id>
     <published>2008-10-20T21:00:00-03:00</published>
-    <updated>2015-08-22T18:22:16-03:00</updated>
+    <updated>2015-10-08T10:06:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
