@@ -13,7 +13,7 @@ For those who don't know [Colemak](http://colemak.com/), it is a keyboard layout
 created to make the most used keys stay in the home row as well as make you
 swipe between your right and left hand.
 
-Here is a
+There is a
 [keyboard layouts heatmap](http://www.patrick-wied.at/projects/heatmap-keyboard/)
 for you to understand the benefits of using a keyboard layout that was designed
 to help you to be confortable and fast when typing instead of one that
