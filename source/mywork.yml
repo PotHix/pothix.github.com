@@ -185,3 +185,13 @@
   buttons:
     - text: "Slides"
       link: "http://goo.gl/V5BT5J"
+
+- type: "presentation"
+  title: "Devinsantos 2015"
+  image: "desconstruindoaweb_devinsantos.jpg"
+  description: "'Desconstruindo a web'. This presentation tries to explain everything that web people must know about a web request."
+  buttons:
+    - text: "Slides"
+      link: "http://goo.gl/V5BT5J"
+    - text: "Video"
+      link: "https://www.youtube.com/watch?v=9ERJRChQ-fU"
