@@ -35,28 +35,26 @@ Resolvi então começar uma _quest_ para ler mais livros. Para isso eu
 precisava de um processo simples e justo de ouvir, portanto testei
 várias apps. Vou descrever abaixo os meus testes:
 
-+ [Audible](https://audible.com): É de longe o melhor serviço que
-  tem para audiobooks. Tem uma biblioteca bem extensa para livros,
-  possui aceleração de audio, a compra e download de audiobooks é bem
-  simples e o site é bem fácil de usar. Um dos problemas é que a
-  grande maioria do livros estão em inglês. Há alguns livros em
-  português, mas somente os livros muito clássicos como "Dom casmurro"
-  por exemplo. No audible, para que você consiga **1** audiobook por
-  mês você paga **\$15**, o que dá quase R\$70 para nós no brasil, o
-  que é um valor meio salgado IMO.
-+ [Scribd](https://scribd.com): Está entrando agora na área de
-  audiobooks. A compra de livros e download do audio foi bem fácil e o
-  serviço possui tanto livros como audiobooks. O _player_ ainda não
-  possui a funcionalidade de acelerar o audio, o que para mim o torna
-  quase inutilizável. O serviço não tem uma biblioteca tão vasta como
-  a do Audible, mas possui vários livros legais. O valor é quase
-  metade do valor do Audible e pode ser uma alternativa assim que
++ [Audible](https://audible.com) -- É de longe o melhor serviço que tem para
+  audiobooks. Tem uma biblioteca bem extensa para livros, possui aceleração de
+  audio, a compra e download de audiobooks é bem simples e o site é bem fácil de
+  usar. Um dos problemas é que a grande maioria do livros estão em inglês. Há
+  alguns livros em português, mas somente os livros muito clássicos como "Dom
+  casmurro" por exemplo. No audible, para que você consiga **1** audiobook por
+  mês você paga **\$15**, o que dá quase R\$70 para nós no brasil, o que é um
+  valor meio salgado IMO.
++ [Scribd](https://scribd.com) -- Está entrando agora na área de audiobooks. A
+  compra de livros e download do audio foi bem fácil e o serviço possui tanto
+  livros como audiobooks. O _player_ ainda não possui a funcionalidade de
+  acelerar o audio, o que para mim o torna quase inutilizável. O serviço não tem
+  uma biblioteca tão vasta como a do Audible, mas possui vários livros legais. O
+  valor é quase metade do valor do Audible e pode ser uma alternativa assim que
   implementarem a aceleração de audio.
-+ [Tocalivros](http://tocalivros.com.br): É a alternativa brasileira
-  de distribuição e criação de audiobooks. O player deles melhorou muito nos
++ [Tocalivros](http://tocalivros.com.br) -- É a alternativa brasileira de
+  distribuição e criação de audiobooks. O player deles melhorou muito nos
   últimos meses e está quase chegando lá. Infelizmente a quantidade de títulos
   bons ainda é bem baixa e nem se compara com serviços gringos ainda.
-+ [Ubook](http://www.ubook.com/): Esse eu não cheguei a testar para formar uma
++ [Ubook](http://www.ubook.com/) -- Esse eu não cheguei a testar para formar uma
   opinião, mas resolvi colocar aqui como mais um site brasileiro de
   audiobooks. A quantidade de títulos também é bem precária, no mesmo esquema do
   tocalivros.
@@ -73,15 +71,14 @@ alguém narrando para eles todo o conteúdo e fazem a maquina narrar.
 O que eu uso para narração sintetizada:
 
 + [@Voice](https://play.google.com/store/apps/details?id=com.hyperionics.avar)
-  de todos que eu testei esse foi o que eu mais gostei. O esquema de voz é
+  -- De todos que eu testei esse foi o que eu mais gostei. O esquema de voz é
   aceitável e é fácil de ajustar a velocidade. Ele também integra com o
-  [Pocket](https://getpocket.com) caso você queira ouvir os seus
-  artigos.
-+
-  [Lev Saraiva](https://play.google.com/store/apps/details?id=br.com.livrariasaraiva.ereader.andr2&hl=pt-br):
-  O Lev é o leitor da Saraiva e suporta narração sintetizada. A parte boa dele é
-  que você pode comprar os livros direto na Saraiva e integrar com ele. Na
-  teoria é uma ótima ideia mas na prática não funcionou muito bem para mim.
+  [Pocket](https://getpocket.com) caso você queira ouvir os seus artigos.
++ [Lev Saraiva](https://play.google.com/store/apps/details?id=br.com.livrariasaraiva.ereader.andr2&hl=pt-br)
+  -- O Lev é o leitor da Saraiva e suporta narração sintetizada. A parte boa
+  dele é que você pode comprar os livros direto na Saraiva e integrar com
+  ele. Na teoria é uma ótima ideia mas na prática não funcionou muito bem para
+  mim.
 
 A [fundação Dorina nowill](http://www.fundacaodorina.org.br/) para cegos tem
 vários audiobooks narrados, mas só tem acesso os deficientes visuais que fizerem
@@ -101,7 +98,7 @@ Não é todo livro que é legal de se ouvir, alguns são densos demais para que 
 consiga compreender bem apenas ouvindo continuamente, mas a grande maioria das
 ficções é bem agradável de ouvir. Eu tinha colocado uma meta de 10 livros para
 esse ano, e [meu goodreads](https://www.goodreads.com/user/show/38970458-pothix)
-nesse momento está mostrando que eu já li 22!
+nesse momento está mostrando que eu já li **22**!
 
 Fica aí a dica para quem, como eu, ficava reclamando que não conseguia ler os
 livros que queria! :)
