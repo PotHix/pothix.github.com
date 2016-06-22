@@ -5,16 +5,16 @@
   <id>http://pothix.com/</id>
   <link href="http://pothix.com/"/>
   <link href="http://pothix.com/feed_en.xml" rel="self"/>
-  <updated>2015-10-07T21:00:00-03:00</updated>
+  <updated>2016-06-21T21:00:00-03:00</updated>
   <author>
     <name>Willian Molinari (a.k.a PotHix)</name>
   </author>
   <entry>
     <title>Experiences of almost two years using colemak</title>
-    <link rel="alternate" href="http://pothix.com/2015/10/08/experiences-of-almost-two-years-using-colemak.html"/>
-    <id>http://pothix.com/2015/10/08/experiences-of-almost-two-years-using-colemak.html</id>
+    <link rel="alternate" href="http://pothix.com/2015/10/08/2015-10-08-experiences-of-almost-two-years-using-colemak.html"/>
+    <id>http://pothix.com/2015/10/08/2015-10-08-experiences-of-almost-two-years-using-colemak.html</id>
     <published>2015-10-07T21:00:00-03:00</published>
-    <updated>2016-01-26T10:37:31-02:00</updated>
+    <updated>2016-06-22T18:10:19-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -77,10 +77,10 @@ about my journey is that &lt;strong&gt;I would do it again if I could&lt;/strong
   </entry>
   <entry>
     <title>New layout of PotHix blog</title>
-    <link rel="alternate" href="http://pothix.com/2015/05/25/new-layout-of-pothix-blog.html"/>
-    <id>http://pothix.com/2015/05/25/new-layout-of-pothix-blog.html</id>
+    <link rel="alternate" href="http://pothix.com/2015/05/25/2015-05-25-new-layout-of-pothix-blog.html"/>
+    <id>http://pothix.com/2015/05/25/2015-05-25-new-layout-of-pothix-blog.html</id>
     <published>2015-05-24T21:00:00-03:00</published>
-    <updated>2015-10-08T15:57:49-03:00</updated>
+    <updated>2016-06-22T18:10:19-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -104,10 +104,10 @@ instead of keeping the wordpress &amp;ldquo;infrastructure&amp;rdquo;.&lt;/p&gt;
   </entry>
   <entry>
     <title>Golang and 1.2 version performance improvement</title>
-    <link rel="alternate" href="http://pothix.com/2013/12/03/golang-and-1-2-version-performance-improvement.html"/>
-    <id>http://pothix.com/2013/12/03/golang-and-1-2-version-performance-improvement.html</id>
+    <link rel="alternate" href="http://pothix.com/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html"/>
+    <id>http://pothix.com/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html</id>
     <published>2013-12-02T22:00:00-02:00</published>
-    <updated>2015-10-08T15:57:49-03:00</updated>
+    <updated>2016-06-22T18:10:19-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -218,10 +218,10 @@ Looks like it is a good idea of language for some of my projects, welcome Golang
   </entry>
   <entry>
     <title>Game Network Programming</title>
-    <link rel="alternate" href="http://pothix.com/2013/07/15/game-network-programming.html"/>
-    <id>http://pothix.com/2013/07/15/game-network-programming.html</id>
+    <link rel="alternate" href="http://pothix.com/2013/07/15/2013-07-15-game-network-programming.html"/>
+    <id>http://pothix.com/2013/07/15/2013-07-15-game-network-programming.html</id>
     <published>2013-07-14T21:00:00-03:00</published>
-    <updated>2015-10-08T15:57:49-03:00</updated>
+    <updated>2016-06-22T18:10:19-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -265,10 +265,10 @@ também! Se tiverem dúvidas postem aí nos comentários. :)&lt;/p&gt;
   </entry>
   <entry>
     <title>A lifestyle</title>
-    <link rel="alternate" href="http://pothix.com/2012/09/10/a-lifestyle.html"/>
-    <id>http://pothix.com/2012/09/10/a-lifestyle.html</id>
+    <link rel="alternate" href="http://pothix.com/2012/09/10/2012-09-10-a-lifestyle.html"/>
+    <id>http://pothix.com/2012/09/10/2012-09-10-a-lifestyle.html</id>
     <published>2012-09-09T21:00:00-03:00</published>
-    <updated>2015-10-08T15:57:49-03:00</updated>
+    <updated>2016-06-22T18:10:19-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -347,10 +347,10 @@ We don’t care what everyone else believes.
   </entry>
   <entry>
     <title>Javascript and Gamedev discussion</title>
-    <link rel="alternate" href="http://pothix.com/2012/09/02/javascript-and-gamedev-discussion.html"/>
-    <id>http://pothix.com/2012/09/02/javascript-and-gamedev-discussion.html</id>
+    <link rel="alternate" href="http://pothix.com/2012/09/02/2012-09-02-javascript-and-gamedev-discussion.html"/>
+    <id>http://pothix.com/2012/09/02/2012-09-02-javascript-and-gamedev-discussion.html</id>
     <published>2012-09-01T21:00:00-03:00</published>
-    <updated>2015-10-08T15:57:49-03:00</updated>
+    <updated>2016-06-22T18:10:19-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -403,10 +403,10 @@ well, you just need to decide which one is better for your business.&lt;/p&gt;
   </entry>
   <entry>
     <title>Kernel compiling</title>
-    <link rel="alternate" href="http://pothix.com/2012/07/23/kernel-compiling.html"/>
-    <id>http://pothix.com/2012/07/23/kernel-compiling.html</id>
+    <link rel="alternate" href="http://pothix.com/2012/07/23/2012-07-23-kernel-compiling.html"/>
+    <id>http://pothix.com/2012/07/23/2012-07-23-kernel-compiling.html</id>
     <published>2012-07-22T21:00:00-03:00</published>
-    <updated>2015-10-08T15:57:49-03:00</updated>
+    <updated>2016-06-22T18:10:19-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -577,10 +577,10 @@ process I think that I learned a lot, so it is worth it.&lt;/p&gt;
   </entry>
   <entry>
     <title>Simlinks for ruby on Debian Squeeze</title>
-    <link rel="alternate" href="http://pothix.com/2012/07/17/simlinks-for-ruby-on-debian-squeeze.html"/>
-    <id>http://pothix.com/2012/07/17/simlinks-for-ruby-on-debian-squeeze.html</id>
+    <link rel="alternate" href="http://pothix.com/2012/07/17/2012-07-17-simlinks-for-ruby-on-debian-squeeze.html"/>
+    <id>http://pothix.com/2012/07/17/2012-07-17-simlinks-for-ruby-on-debian-squeeze.html</id>
     <published>2012-07-16T21:00:00-03:00</published>
-    <updated>2015-10-08T15:57:49-03:00</updated>
+    <updated>2016-06-22T18:10:19-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -608,10 +608,10 @@ ln -s /usr/bin/gem1.9.1 /usr/bin/gem
   </entry>
   <entry>
     <title>Translated Rubylearning presentation</title>
-    <link rel="alternate" href="http://pothix.com/2009/04/10/translated-rubylearning-presentation.html"/>
-    <id>http://pothix.com/2009/04/10/translated-rubylearning-presentation.html</id>
+    <link rel="alternate" href="http://pothix.com/2009/04/10/2009-04-10-translated-rubylearning-presentation.html"/>
+    <id>http://pothix.com/2009/04/10/2009-04-10-translated-rubylearning-presentation.html</id>
     <published>2009-04-09T21:00:00-03:00</published>
-    <updated>2015-10-08T15:57:49-03:00</updated>
+    <updated>2016-06-22T18:10:19-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -906,10 +906,10 @@ with paypal.&lt;/p&gt;
   </entry>
   <entry>
     <title>Deploying a simple Merb application on Locaweb</title>
-    <link rel="alternate" href="http://pothix.com/2009/01/07/deploying-a-simple-merb-application-on-locaweb.html"/>
-    <id>http://pothix.com/2009/01/07/deploying-a-simple-merb-application-on-locaweb.html</id>
+    <link rel="alternate" href="http://pothix.com/2009/01/07/2009-01-07-deploying-a-simple-merb-application-on-locaweb.html"/>
+    <id>http://pothix.com/2009/01/07/2009-01-07-deploying-a-simple-merb-application-on-locaweb.html</id>
     <published>2009-01-06T22:00:00-02:00</published>
-    <updated>2015-10-08T15:57:49-03:00</updated>
+    <updated>2016-06-22T18:10:19-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -992,10 +992,10 @@ pointed by apache with Phusion Passenger.&lt;/p&gt;
   </entry>
   <entry>
     <title>New year is coming</title>
-    <link rel="alternate" href="http://pothix.com/2008/12/31/new-year-is-coming.html"/>
-    <id>http://pothix.com/2008/12/31/new-year-is-coming.html</id>
+    <link rel="alternate" href="http://pothix.com/2008/12/31/2008-12-31-new-year-is-coming.html"/>
+    <id>http://pothix.com/2008/12/31/2008-12-31-new-year-is-coming.html</id>
     <published>2008-12-30T22:00:00-02:00</published>
-    <updated>2015-10-08T15:57:49-03:00</updated>
+    <updated>2016-06-22T18:10:19-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1032,10 +1032,10 @@ nos veremos em 2009!&lt;/p&gt;
   </entry>
   <entry>
     <title>First post in English here</title>
-    <link rel="alternate" href="http://pothix.com/2008/12/16/first-post-in-english-here.html"/>
-    <id>http://pothix.com/2008/12/16/first-post-in-english-here.html</id>
+    <link rel="alternate" href="http://pothix.com/2008/12/16/2008-12-16-first-post-in-english-here.html"/>
+    <id>http://pothix.com/2008/12/16/2008-12-16-first-post-in-english-here.html</id>
     <published>2008-12-15T22:00:00-02:00</published>
-    <updated>2015-10-08T15:57:49-03:00</updated>
+    <updated>2016-06-22T18:10:19-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>

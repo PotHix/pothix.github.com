@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>PotHix blog - Golang and 1.2 version performance improvement</title>
+
+    <!-- Prefetch DNS for external resources to speed up loading time -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
+    <!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts)" href="http://feeds.feedburner.com/PotHix" />
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts in English)" href="http://feeds.feedburner.com/EnglishPotHix" />
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts related to technology)" href="http://feeds.feedburner.com/PotHixTech" />
+
+    <link rel="icon" type="image/png" href="/images/favico-cb03d7b2.png">
+    <link rel="stylesheet" href="/stylesheets/style-f80dcd6a.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/stylesheets/stag-custom-styles-2eb881f0.css" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="/stylesheets/font-awesome-4.3.0/css/font-awesome.min-3c43a9b6.css">
+    <link rel="stylesheet" id="doctype-fonts-css"  href="http://fonts.googleapis.com/css?family=Rokkitt%3A700%7CLato%3A300%2C400%2C700%2C300italic&#038;subset=latin" type="text/css" media="all" />
+
+    <body class="blog sticky-nav chrome stagtools">
+      <div id="page" class="hfeed site">
+	<header id="masthead" class="site-header site-header--fixed" role="banner">
+          <div class="inside">
+	    <div id="navbar" class="navbar">
+  <nav id="site-navigation" class="navigation main-navigation" role="navigation">
+    <ul id="primary-menu" class="primary-menu">
+      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13">
+        <a href="/">Home</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14">
+        <a href="/mywork.html">My work</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53">
+        <a href="/about.html">About me</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+            <a class="site-branding" href="/" title="Doctype" rel="home">
+              <span class="logo-container">
+                <img data-at2x src="/images/logo-f663baff.png" alt="Website's logo">
+              </span>
+            </a>
+          </div>
+	</header>
+
+
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-#{current_page.data.id}" class="post-#{current_page.data.id} post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
+
+         <header class="entry-header">
+      	   <h2 class="entry-title">
+	    Golang and 1.2 version performance improvement
+          </h2>
+        </header>
+
+         <div class="entry-meta">
+          <span class="posted-on">
+            Published at <a rel="bookmark" href="/2013/12/03/2013-12-03-golang-and-1-2-version-performance-improvement.html">2013/12/03</a><time class="updated" datetime="2013-12-03T00:00:00">Dec  3, 2013</time>
+          </span>
+          <span class="cat-links">
+            In Category <a rel="category tag" href="/categories/dev.html">dev</a>
+          </span>
+          <span class="tags-links">
+            Tags: <a rel="tag" href="/tags/golang.html">golang</a>,<a rel="tag" href="/tags/english.html">english</a>,<a rel="tag" href="/tags/dev.html">dev</a>,<a rel="tag" href="/tags/tech.html">tech</a>
+          </span>
+        </div>
+
+        <div class="entry-content">
+          <p>I&rsquo;ve started using Go last month and I really liked to work with the language.</p>
+
+<p>The project I&rsquo;m working on is dead simple and just retrieves metrics and save on
+a redis server (the data will be analyzed by a different project that I&rsquo;m
+working on). So I have 15 goroutines retrieving data constantly and I&rsquo;m using
+just two native threads.</p>
+
+<p>I did some CPU profiling on the code using my current machine for Golang 1.1.2
+and 1.2 and the results can be seen below.</p>
+
+<p>Golang 1.1.2:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20</pre></td><td class="code"><pre>    (pprof) top10
+    Total: 188701 samples
+    137454  72.8%   72.8%   137454  72.8% crypto/des.permuteBlock
+    44032   23.3%   96.2%   169187  89.7% crypto/des.feistel
+    3750    2.0%    98.2%   184544  97.8% crypto/des.cryptBlock
+    823     0.4%    98.6%   185650  98.4% crypto/cipher.(*cbcDecrypter).CryptBlocks
+    290     0.2%    98.8%      290   0.2% encoding/binary.bigEndian.PutUint64
+    232     0.1%    98.9%      232   0.1% encoding/binary.bigEndian.Uint64
+    227     0.1%    99.0%      227   0.1% crypto/sha1.block
+    215     0.1%    99.1%      267   0.1% encoding/json.state1
+    207     0.1%    99.2%      430   0.2% encoding/json.checkValid
+    178     0.1%    99.3%      398   0.2% encoding/json.nextValue
+
+    # top command result
+    PID USER      PR  NI  VIRT    RES      SHR S  %CPU %MEM    TIME+  COMMAND
+    18115 pothix    20   0  871800  67888   3932 S 188.8  1.7  12:40.08 crebain
+
+    # A snapshot of the processors
+    %Cpu0  :100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+    %Cpu1  : 95.0 us,  3.0 sy,  0.0 ni,  2.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+</pre></td></tr></tbody></table>
+</div>
+
+<p>Golang 1.2:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19</pre></td><td class="code"><pre>    (pprof) top10
+    Total: 6894 samples
+    1686    24.5%   24.5%   1686    24.5%   crypto/aes.decryptBlockGo
+    1299    18.8%   43.3%   3093    44.9%   crypto/cipher.(*cbcDecrypter).CryptBlocks
+    471     6.8%    50.1%   1062    15.4%   encoding/json.checkValid
+    420     6.1%    56.2%   541     7.8%    encoding/json.state1
+    359     5.2%    61.4%   359     5.2%    crypto/sha1.block
+    305     4.4%    65.9%   838     12.2%   encoding/json.nextValue
+    245     3.6%    69.4%   274     4.0%    syscall.Syscall
+    230     3.3%    72.7%   230     3.3%    encoding/json.stateBeginValue
+    186     2.7%    75.4%   225     3.3%    encoding/json.stateEndValue
+    156     2.3%    77.7%   156     2.3%    runtime.memmove
+
+    top command result
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+    20534 pothix    20   0  598428  51584   3532 S  12.9  1.3   0:03.76 crebain
+
+    %Cpu0  : 12.1 us,  5.1 sy,  5.1 ni, 72.7 id,  5.1 wa,  0.0 hi,  0.0 si,  0.0 st
+    %Cpu1  : 20.0 us,  4.0 sy,  0.0 ni, 75.0 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+</pre></td></tr></tbody></table>
+</div>
+
+<p>What an improvement! :)</p>
+
+<p>I know that this application may not be the best example to compare Go with a
+different language because it depends of a third application (that is my
+bottleneck BTW) and Ruby perform as good as the new version but I really liked
+to give Go a try.</p>
+
+<p>Go language has a lot of interesting ideas and it is growing fast.
+Looks like it is a good idea of language for some of my projects, welcome Golang!</p>
+
+	  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'pothixcom';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+        </div>
+      </article>
+    </main>
+  </div>
+</div>
+
+      <footer class="footer-widget-area">
+        <div class="inside">
+          <div class="grids">
+            <aside id="stag-dribbble-2" class="widget grid-4 stag-dribbble">
+	      <div>
+	        <!-- the code on this div was autogen by flickrbadge.com -->
+	        <h3 class="widget-title">
+		  <span>Photography, a hobby</span>
+	        </h3>
+	        <style type="text/css">
+		  .flickrimg {border: 1px solid #666666 !important; padding:1px; margin:2px;}
+		  #flickr_badge_wrapper {width:366px;text-align:left}
+	        </style>
+	        <div id="flickr_badge_wrapper">
+		  <script type="text/javascript" src="http://www.flickr.com/badge_code.gne?count=12&display=random&size=square&nsid=11054795@N06&raw=1"></script>
+	        </div>
+	      </div>
+	    </aside>
+            
+	    <aside id="recent-posts-2" class="widget grid-4 widget_recent_entries">
+	      <h3 class="widget-title">
+	        <span>Latest blog entries</span>
+	      </h3>
+              
+	      <ul>
+	        <li>
+		  <a href="/2016/06/22/2016-06-22-audiobooks.html">Ouvir livros (audiobooks), o futuro da leitura</a> <span class="post-date">Jun 22, 2016</span>
+	        </li>
+	        <li>
+		  <a href="/2015/10/08/2015-10-08-experiences-of-almost-two-years-using-colemak.html">Experiences of almost two years using colemak</a> <span class="post-date">Oct  8, 2015</span>
+	        </li>
+	        <li>
+		  <a href="/2015/08/31/2015-08-31-as-escolhas-do-desenvolvedor.html">As escolhas do desenvolvedor</a> <span class="post-date">Aug 31, 2015</span>
+	        </li>
+	        <li>
+		  <a href="/2015/07/27/2015-07-27-oscon.html">OSCON 2015</a> <span class="post-date">Jul 27, 2015</span>
+	        </li>
+              </ul>
+            </aside>
+            
+	    <aside id="text-2" class="widget grid-4 widget_text">
+	      <h3 class="widget-title">
+	        <span>Follow this blog</span>
+	      </h3>
+	      <div class="textwidget">
+                I've added three different RSS feeds here based on categories. The idea was to help you the tech guy that don't want to see what kind of motorcycle I have, or the english speaker that don't want to see portuguese posts on his feed reader.
+                <br /><br />
+                So, I have a feed for <a href="http://feeds.feedburner.com/PotHix">all my posts</a>, for the <a href="http://feeds.feedburner.com/EnglishPotHix">English posts</a> and <a href="http://feeds.feedburner.com/PotHixTech">Tech related posts</a>. Choose one and be happy! :)
+	      </div>
+            </aside>
+          </div>
+        </div>
+      </footer>
+      
+      <footer id="colophon" class="site-footer" role="contentinfo">
+        <div class="site-info">
+          <div class="grids">
+            <div class="grid-6">
+              © 2015 <a href="http://demo.codestag.com/doctype/">Doctype</a> WordPress Theme by <a href="//codestag.com">Codestag</a> modified by PotHix.
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type='text/javascript' src='/javascripts/jquery-a496bea1.js'></script>
+    <script type='text/javascript' src='/javascripts/widget.min-f27763d3.js'></script>
+    <script type='text/javascript' src='/javascripts/tabs.min-8e301092.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery.custom-e7d9d1cd.js'></script>
+    <script type='text/javascript' src='/javascripts/plugins-a7b8cac2.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery.mixitup.min-1b6d6b02.js'></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', 'UA-2852094-2', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>
+
