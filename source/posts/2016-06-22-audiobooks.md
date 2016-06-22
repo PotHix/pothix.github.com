@@ -1,6 +1,6 @@
 ---
 title: Ouvir livros (audiobooks), o futuro da leitura
-date: 2016-04-07
+date: 2016-06-22
 tags: reading
 category: reading
 ---
