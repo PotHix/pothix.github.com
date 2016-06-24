@@ -41,7 +41,7 @@ várias apps. Vou descrever abaixo os meus testes:
   usar. Um dos problemas é que a grande maioria do livros estão em inglês. Há
   alguns livros em português, mas somente os livros muito clássicos como "Dom
   casmurro" por exemplo. No audible, para que você consiga **1** audiobook por
-  mês você paga **\$15**, o que dá quase R\$70 para nós no brasil, o que é um
+  mês você paga **$15**, o que dá quase R$70 para nós no brasil, o que é um
   valor meio salgado IMO.
 + [Scribd](https://scribd.com) -- Está entrando agora na área de audiobooks. A
   compra de livros e download do audio foi bem fácil e o serviço possui tanto
