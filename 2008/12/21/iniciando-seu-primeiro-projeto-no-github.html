@@ -93,15 +93,15 @@ aparecer os campos para inserir a mesma.</p>
 
 <p>Você pode encontrar a sua public key no diretório <code>~/.ssh</code> com o
 comando:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>cat id_rsa.pub
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>cat id_rsa.pub
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Caso ele não exista basta acessar sua home (~) e cria-lo com:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>ssh-keygen -t rsa
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>ssh-keygen -t rsa
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p><strong>OBS</strong>: Eu tenho <a href="http://pothix.com/blog/slackware/deixando-seu-ssh-mais-facil-de-trabalhar">um post</a>
 com mais informações sobre chave e SSH.</p>
 
@@ -114,42 +114,42 @@ GitHub" href="http://github.com/repositories/new">por aqui</a>:</p>
 código, que por sinal ainda não existe, portanto&hellip;.Vamos criá-lo! :)</p>
 
 <p>Primeiramente crie um diretório qualquer:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>mkdir codes
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>mkdir codes
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Acesse o diretório:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>cd codes
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>cd codes
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>E vamos iniciar o git nesse repositório:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>git init
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>git init
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Coloque aqui seu arquivo de código (não necessáriamente código, mas
 nesse caso vamos usar código ;)) e vamos adicioná-lo ao git:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>git add mycode.rb (obs: Ruby o/)
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>git add mycode.rb (obs: Ruby o/)
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Agora vamos dar um commit do que fizemos usando &ldquo;-m&rdquo; para deixar uma
 mensagem do motivo do commit:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>git commit -m "Meu primeiro commit"
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>git commit -m "Meu primeiro commit"
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Agora vamos adicionar como origem o nosso projeto criado no GitHub:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>git remote add origin git@github.com:seu-usuario-no-GitHub/nome-do-repositorio-criado.git
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>git remote add origin git@github.com:seu-usuario-no-GitHub/nome-do-repositorio-criado.git
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>E depois é só dar um:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>git push origin master
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>git push origin master
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>E lá está o seu código no GitHub! :)</p>
 
 <p>Tudo que eu falei aqui está no tutorial do GitHub quando você cria um
@@ -247,11 +247,11 @@ quando lhe falarem de GitHub.</p>
       </footer>
     </div>
 
-    <script type='text/javascript' src='/javascripts/jquery-a496bea1.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery-62bd068a.js'></script>
     <script type='text/javascript' src='/javascripts/widget.min-f27763d3.js'></script>
     <script type='text/javascript' src='/javascripts/tabs.min-8e301092.js'></script>
-    <script type='text/javascript' src='/javascripts/jquery.custom-e7d9d1cd.js'></script>
-    <script type='text/javascript' src='/javascripts/plugins-a7b8cac2.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery.custom-80280c65.js'></script>
+    <script type='text/javascript' src='/javascripts/plugins-16fe8613.js'></script>
     <script type='text/javascript' src='/javascripts/jquery.mixitup.min-1b6d6b02.js'></script>
 
     <script>

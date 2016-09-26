@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://pothix.com/2015/10/08/experiences-of-almost-two-years-using-colemak.html"/>
     <id>http://pothix.com/2015/10/08/experiences-of-almost-two-years-using-colemak.html</id>
     <published>2015-10-07T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -80,7 +80,7 @@ about my journey is that &lt;strong&gt;I would do it again if I could&lt;/strong
     <link rel="alternate" href="http://pothix.com/2014/02/14/ruby-python-e-native-threads.html"/>
     <id>http://pothix.com/2014/02/14/ruby-python-e-native-threads.html</id>
     <published>2014-02-13T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -92,33 +92,33 @@ rodar um strace para ver elas rolando e postar sobre isso.&lt;/p&gt;
 &lt;p&gt;Fiz dois scripts simples:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Python&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
 2
 3
 4
-5&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;import threading
+5
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;import threading
 import time
 for i in range(5):
     t = threading.Thread(target=time.sleep, args=(1,))
     t.start()
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;strong&gt;Ruby&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
 2
 3
 4
-5&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;require 'thread'
+5
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;require 'thread'
 5.times do
   Thread.new {sleep 10}
 end
 sleep 1
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Rodando o script python com o comando &lt;code&gt;strace -f -e clone,fork python thread.py&lt;/code&gt; retorna pouca coisa:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
 2
 3
 4
@@ -133,7 +133,8 @@ sleep 1
 13
 14
 15
-16&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;clone(Process 13920 attached
+16
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;clone(Process 13920 attached
 child_stack=0x7f8570b67ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f8570b689d0, tls=0x7f8570b68700, child_tidptr=0x7f8570b689d0) = 13920
 [pid 13919] clone(Process 13921 attached
 child_stack=0x7f856bffeff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f856bfff9d0, tls=0x7f856bfff700, child_tidptr=0x7f856bfff9d0) = 13921
@@ -150,12 +151,11 @@ child_stack=0x7f856a7fbff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CL
 [pid 13923] +++ exited with 0 +++
 +++ exited with 0 +++
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Conseguimos ver claramente as 5 threads do SO aí em cima. :)&lt;/p&gt;
 
 &lt;p&gt;Já no ruby, rodando com o mesmo esquema (&lt;code&gt;strace -f -e clone,fork ruby thread.rb&lt;/code&gt;) retorna bem mais coisas:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
 2
 3
 4
@@ -386,7 +386,8 @@ child_stack=0x7f856a7fbff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CL
 229
 230
 231
-232&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14588
+232
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14588
 Process 14588 attached
 [pid 14588] clone(Process 14589 attached
 child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14589
@@ -619,8 +620,7 @@ child_stack=0x7fa6a1fb5ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CL
 [pid 14613] +++ exited with 0 +++
 +++ exited with 0 +++
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Alí no final dá para ver as 5 threads que eu pedi no script sendo abertas no
 SO. Inclusive, se analizar todo esse retorno aí dá para ver que o Ruby criou 6
 threads, uma delas o ruby cria mesmo se vc fizer só um &lt;code&gt;puts&lt;/code&gt; num script. :)&lt;/p&gt;
@@ -636,7 +636,7 @@ descobrir coisas novas. :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2013/12/03/golang-and-1-2-version-performance-improvement.html"/>
     <id>http://pothix.com/2013/12/03/golang-and-1-2-version-performance-improvement.html</id>
     <published>2013-12-02T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -651,7 +651,7 @@ just two native threads.&lt;/p&gt;
 and 1.2 and the results can be seen below.&lt;/p&gt;
 
 &lt;p&gt;Golang 1.1.2:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
 2
 3
 4
@@ -670,7 +670,8 @@ and 1.2 and the results can be seen below.&lt;/p&gt;
 17
 18
 19
-20&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;    (pprof) top10
+20
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;    (pprof) top10
     Total: 188701 samples
     137454  72.8%   72.8%   137454  72.8% crypto/des.permuteBlock
     44032   23.3%   96.2%   169187  89.7% crypto/des.feistel
@@ -691,10 +692,9 @@ and 1.2 and the results can be seen below.&lt;/p&gt;
     %Cpu0  :100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
     %Cpu1  : 95.0 us,  3.0 sy,  0.0 ni,  2.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Golang 1.2:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
 2
 3
 4
@@ -712,7 +712,8 @@ and 1.2 and the results can be seen below.&lt;/p&gt;
 16
 17
 18
-19&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;    (pprof) top10
+19
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;    (pprof) top10
     Total: 6894 samples
     1686    24.5%   24.5%   1686    24.5%   crypto/aes.decryptBlockGo
     1299    18.8%   43.3%   3093    44.9%   crypto/cipher.(*cbcDecrypter).CryptBlocks
@@ -732,8 +733,7 @@ and 1.2 and the results can be seen below.&lt;/p&gt;
     %Cpu0  : 12.1 us,  5.1 sy,  5.1 ni, 72.7 id,  5.1 wa,  0.0 hi,  0.0 si,  0.0 st
     %Cpu1  : 20.0 us,  4.0 sy,  0.0 ni, 75.0 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;What an improvement! :)&lt;/p&gt;
 
 &lt;p&gt;I know that this application may not be the best example to compare Go with a
@@ -750,7 +750,7 @@ Looks like it is a good idea of language for some of my projects, welcome Golang
     <link rel="alternate" href="http://pothix.com/2012/12/04/plaev-html5-e-skeleton-jigsaw.html"/>
     <id>http://pothix.com/2012/12/04/plaev-html5-e-skeleton-jigsaw.html</id>
     <published>2012-12-03T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -802,7 +802,7 @@ do vídeo, mas se tiverem dúvidas coloquem nos comentários.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/09/02/javascript-and-gamedev-discussion.html"/>
     <id>http://pothix.com/2012/09/02/javascript-and-gamedev-discussion.html</id>
     <published>2012-09-01T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -858,7 +858,7 @@ well, you just need to decide which one is better for your business.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/07/23/kernel-compiling.html"/>
     <id>http://pothix.com/2012/07/23/kernel-compiling.html</id>
     <published>2012-07-22T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -878,25 +878,25 @@ As Judas Priest sings on Painkiller song: “I’m living on the eeeeeedge”. L
 Linux box:&lt;/p&gt;
 
 &lt;p&gt;Clone the kernel repository with git, I made it using the Github url:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;git clone git://github.com/torvalds/linux.git
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;git clone git://github.com/torvalds/linux.git
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Copy your .config file to the linux folder. If your distro have the
 &amp;ldquo;Enable config.gz&amp;rdquo; flag enabled (most distros have it) you can use the
 generated config as a base for your new compiled version:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;zcat /proc/config.gz &amp;gt; linux/.config
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;zcat /proc/config.gz &amp;gt; linux/.config
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Now that you have a functional config file (it was running on the
 stock kernel right? ￼ ), just cd do the kernel folder and run make:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;cd linux
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;cd linux
 make
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;This process take about 40 minutes to finish on my i7, with 4GB of RAM
 and SSD, running with -j4, to use all the 4 cores. Obviously the time
 to finish will depend on what it will need to compile (defined on the
@@ -906,33 +906,33 @@ improve this compiling time but I’ll talk more about it later.&lt;/p&gt;
 &lt;p&gt;You can use the compiling time to prepare the mkinitcpio file for the
 installation. On my archlinux box I have created a file named
 git.preset on /etc/mkinitcpio.d/ directory with the following content:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
 2
 3
 4
 5
-6&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;ALL_config="/etc/mkinitcpio.conf"
+6
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;ALL_config="/etc/mkinitcpio.conf"
 ALL_kver="/boot/vmlinuz-git"
 
 PRESETS=('default')
 
 default_image="/boot/initramfs-git.img"
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;After that you’ll need to change your bootloader conf a bit. I’m using
 grub (not grub2 yet) which makes the setup really easy! Just change
 your /boot/grub/menu.lst and add something like this:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
 2
 3
-4&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;title  Git Kernel
+4
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;title  Git Kernel
 root   (hd0,0)
 kernel /vmlinuz-git root=/dev/sda2 ro quiet acpi_backlight=vendor init=/bin/systemd
 initrd /initramfs-git.img
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;strong&gt;PS&lt;/strong&gt;: I’m using systemd to init and I need to define the
 acpi_backlight to make my hardware to work properly, but probably
 you’ll not need these parameters. If you’re using grub, you may find
@@ -941,23 +941,23 @@ what needs to me changed (title and initrd).&lt;/p&gt;
 
 &lt;p&gt;When the compilation ends and your mkinitcpio file is ready you can
 continue the process by generating the modules for your kernel:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;sudo make modules_install
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;sudo make modules_install
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;This command will create a folder with the compiled modules on
 /lib/modules. After that, just copy the generated image file to the
 boot directory:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;sudo cp arch/x86_64/boot/bzImage /boot/vmlinuz-git
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;sudo cp arch/x86_64/boot/bzImage /boot/vmlinuz-git
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;And create the initial randisk environment for your preset using
 mkinitcpio:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;sudo mkinitcpio -p git
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;sudo mkinitcpio -p git
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;DONE! Your kernel is compiled and ready to boot! Just restart you
 computer and choose the new item on the boot menu! ￼&lt;/p&gt;
 
@@ -974,10 +974,10 @@ and you’ll not receive so much benefit from it, but it will be
 fun. I promise.&lt;/p&gt;
 
 &lt;p&gt;So, let’s get started! Go to the linux kernel directory and run:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;make menuconfig
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;make menuconfig
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The fun part starts here because you’ll be seeing an awesome curses
 screen with a lot of menus and submenus about a lot of things that you
 never heard about, but no despair! Some things you already know, like
@@ -1032,7 +1032,7 @@ process I think that I learned a lot, so it is worth it.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/07/19/menos-mac-e-mais-linux.html"/>
     <id>http://pothix.com/2012/07/19/menos-mac-e-mais-linux.html</id>
     <published>2012-07-18T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1169,7 +1169,7 @@ de frutinha. :P&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/07/18/aprendendo-com-o-codigo-do-quake.html"/>
     <id>http://pothix.com/2012/07/18/aprendendo-com-o-codigo-do-quake.html</id>
     <published>2012-07-17T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1231,7 +1231,7 @@ programação &lt;strong&gt;RECOMENDO&lt;/strong&gt; fortemente tirar algumas ho
     <link rel="alternate" href="http://pothix.com/2012/07/16/palestra-sobre-implementacoes-paralelas.html"/>
     <id>http://pothix.com/2012/07/16/palestra-sobre-implementacoes-paralelas.html</id>
     <published>2012-07-15T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1261,7 +1261,7 @@ de manter. Espero que seja útil para mais alguém. ;)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/07/10/xmpp-e-ruby.html"/>
     <id>http://pothix.com/2012/07/10/xmpp-e-ruby.html</id>
     <published>2012-07-09T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1288,7 +1288,7 @@ projeto.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2011/01/24/organizando-os-feeds-do-blog.html"/>
     <id>http://pothix.com/2011/01/24/organizando-os-feeds-do-blog.html</id>
     <published>2011-01-23T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1322,7 +1322,7 @@ colocar, é só ignorar isso tudo :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2010/12/29/meu-ambiente-de-desenvolvimento.html"/>
     <id>http://pothix.com/2010/12/29/meu-ambiente-de-desenvolvimento.html</id>
     <published>2010-12-28T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1457,7 +1457,7 @@ exemplo) mas acho que isso ae já é uma visão geral :D&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2010/10/31/semana-de-eventos-rubyconfbr-adl-e-gddbr.html"/>
     <id>http://pothix.com/2010/10/31/semana-de-eventos-rubyconfbr-adl-e-gddbr.html</id>
     <published>2010-10-30T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1581,7 +1581,7 @@ trabalho, e descansei no final da semana! Portanto&amp;hellip; Vitória! :D&lt;/
     <link rel="alternate" href="http://pothix.com/2010/10/21/conto-da-migracao-para-rails-3.html"/>
     <id>http://pothix.com/2010/10/21/conto-da-migracao-para-rails-3.html</id>
     <published>2010-10-20T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1664,15 +1664,15 @@ de locale.  Levando esse cenário óbvio em conta lembre-se de que você
 não precisa dar raw em toda mensagem que possui HTML por que Rails já
 faz isso para você quando você adiciona o sufixo _html na sua chave de
 locale. Exemplo:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;not_yet: "**Ainda não**"
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;not_yet: "**Ainda não**"
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Ficaria:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;not_yet_html: "**Ainda não**"
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;not_yet_html: "**Ainda não**"
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;E assim ele não vai escapar automaticamente o HTML dessa chave.&lt;/p&gt;
 
 &lt;h5&gt;Vá lidando aos poucos com DEPRECATION WARNING&lt;/h5&gt;
@@ -1739,7 +1739,7 @@ sua aplicação. :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2010/09/08/motorola-milestone-e-android.html"/>
     <id>http://pothix.com/2010/09/08/motorola-milestone-e-android.html</id>
     <published>2010-09-07T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1814,7 +1814,7 @@ que eu estou mantendo com uns amigos.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2010/08/01/fisl11.html"/>
     <id>http://pothix.com/2010/08/01/fisl11.html</id>
     <published>2010-07-31T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1972,11 +1972,112 @@ picasa&lt;/a&gt;. ;)&lt;/p&gt;
 </content>
   </entry>
   <entry>
+    <title>Yahoo Open Hack 2010</title>
+    <link rel="alternate" href="http://pothix.com/2010/03/29/yahoo-open-hack-2010.html"/>
+    <id>http://pothix.com/2010/03/29/yahoo-open-hack-2010.html</id>
+    <published>2010-03-28T21:00:00-03:00</published>
+    <updated>2016-09-25T19:24:29-03:00</updated>
+    <author>
+      <name>Willian Molinari (a.k.a PotHix)</name>
+    </author>
+    <content type="html">&lt;p&gt;Para quem ainda não soube, no final de semana passado rolou o Yahoo
+Open Hack Day 2010! O intuito do evento é juntar uma grande quantidade
+de Hackers para criar serviços úteis utilizando informações públicas e
+de preferência utilizar as API&amp;rsquo;s do Yahoo (havia premios para alguns
+hacks com elas).&lt;/p&gt;
+
+&lt;p&gt;Uma das coisas legais do evento é que nada é proibido com relação aos
+Hacks, ou seja, você pode fazer um Hack com as ferramentas do Google
+(não vai concorrer aos premios, mas poderá apresentar lá e tudo mais),
+todas as linguagens de programação estão permitidas, não somente hacks
+web eram permitidos, o que deixou a criatividade ir longe. :D&lt;/p&gt;
+
+&lt;h4&gt;Equipe e idéia&lt;/h4&gt;
+
+&lt;p&gt;Participei do evento juntamente com uma equipe que formamos no
+&lt;a href="www.ikwa.com.br"&gt;Ikwa&lt;/a&gt;, e chamamos a equipe de SleepyProgrammers.&lt;/p&gt;
+
+&lt;p&gt;Nossa idéia era fazer um site para marcar rolês fotográficos, e
+utilizaríamos para isso as API&amp;rsquo;s do Flickr, Meme, Weather e Maps.&lt;/p&gt;
+
+&lt;p&gt;Ao chegar no evento e ver a palestra sobre YQL nós já percebemos que
+não seria necessário aprender a usar essas várias API&amp;rsquo;s e apenas
+precisávamos aprender a usar o YQL e saber quais informações
+poderíamos retornar de qual serviço. :)&lt;/p&gt;
+
+&lt;h4&gt;Metodologia e projeto&lt;/h4&gt;
+
+&lt;p&gt;&lt;a title="Equipe do openhack" href="/images/posts/openhack-4fc9b975.jpg"&gt;&lt;img title="Equipe do Openhack" alt="Foto da equipe do Openhack" src="/images/posts/openhack-4fc9b975.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Como já estamos acostumados a utilizar Scrum no
+&lt;a href="www.ikwa.com.br"&gt;Ikwa&lt;/a&gt; nós resolvemos fazer o mesmo para o nosso
+projetinho. Começamos com uma planning meeting logo na primeira hora
+para poder dar uma estimada no que pretendíamos fazer, e logo depois
+dividir as tarefas entre os membros da equipe.  Mais ou menos de 2 em
+2 horas (ou um pouco mais) fazíamos umas stand-up meetings para manter
+todos atualizados. A noite percebemos que isso não estava sendo muito
+necessário por que estávamos em constante comunicação, mas mesmo assim
+resolvemos seguir o costume, afinal demorava apenas uns 4 minutos. :)&lt;/p&gt;
+
+&lt;p&gt;O projeto seguia bem, com layout legal e algumas buscas supostamente
+funcionando até mais ou menos as 9 da noite.&lt;/p&gt;
+
+&lt;h4&gt;Os problemas&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Já percebemos que a nossa busca não estava retornando exatamente o que gostaríamos de receber, mas deixamos para dar uma refinada nisso no final do tempo, para não ficar muito tempo presos nisso.&lt;/li&gt;
+&lt;li&gt;Tivemos um programador a menos (&lt;a href="http://twitter.com/_bojak"&gt;@_bojak&lt;/a&gt;) que infelizmente estava usando Windows (acreditem se quiser) por que o netbook que ele comprou (exatamente para evitar ter que usar windows no notebook velho que ele tinha) não chegou a tempo do evento. Muitas das coisas que são simples de se instalar/fazer em um &amp;ldquo;Unix like&amp;rdquo; são uma grande dor de cabeça para se fazer no Windows, portanto o @_bojak teve tantos problemas que chegou uma hora que desistiu de colocar a mão em código.&lt;/li&gt;
+&lt;li&gt;Algum descuidado da equipe criou a pasta &amp;ldquo;Views&amp;rdquo; no famigerado Textmate (escrevi uma gracinha aqui e apaguei para não gerar flame de textmate), e assim bugou a aplicação na minha maquina Linux, e me deixou um tempinho procurando qual era o problema. #fail&lt;/li&gt;
+&lt;li&gt;O Heroku não colaborou para funcionar utilizando o bundler, e depois de muito tempo tentando nós abandonamos o bundler e utilizamos oldstyle mesmo.&lt;/li&gt;
+&lt;li&gt;O nosso outro programador (&lt;a href="http://twitter.com/jorge_silveira"&gt;@jorge_silveira&lt;/a&gt;) saiu (já tinha avisado que sairia) dizendo que voltaria e simplesmente deixou a equipe na mão (tem seus argumentos, mas essa é minha opinião&amp;hellip;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;O fail do projeto&lt;/h4&gt;
+
+&lt;p&gt;Depois desse monte de problemas eu já estava desmotivado com o projeto
+e comecei a ficar com bastante sono, portanto tirei umas 3 horas para
+dormir (fora o tempo que dormi na mesa), enquanto só o
+&lt;a href="http://twitter.com/_bojak"&gt;@_bojak&lt;/a&gt; ficou trabalhando motivadão
+(usando o computador do &lt;a href="http://twitter.com/rafaeltimbo"&gt;@rafaeltimbo&lt;/a&gt;
+que tambem estava dormindo :P).&lt;/p&gt;
+
+&lt;p&gt;Logo pela manhã sabendo que um programador tinha arregado
+(&lt;a href="http://twitter.com/jorge_silveira"&gt;@jorge_silveira&lt;/a&gt;), um estava
+impossibilitado de trabalhar com seu próprio computador
+(&lt;a href="http://twitter.com/_bojak"&gt;@_bojak&lt;/a&gt;) e nossa busca não estava
+retornando coisas legais para continuar, nós decidimos que esse
+projeto ficaria para depois do Open Hack Day.&lt;/p&gt;
+
+&lt;p&gt;No fim das contas fizemos uma retrospectiva bem legal, onde vimos
+grande parte dos problemas que tivemos e boa parte das soluções
+tambem, foi bem legal! :)&lt;/p&gt;
+
+&lt;h4&gt;O evento&lt;/h4&gt;
+
+&lt;p&gt;Ok, nosso projeto não vingou mesmo, mas o evento valeu muito para mim!
+Aprendi coisas novas, revi amigos, conheci pessoas novas, conheci as
+API&amp;rsquo;s do Yahoo, comi e bebi de graça, descobri que não devo acreditar
+nas palavras de alguns, descobri que algumas pessoas com certeza
+estarão na minha equipe novamente se quiserem&amp;hellip;. E mais várias outras
+coisas!&lt;/p&gt;
+
+&lt;p&gt;No fim das contas eu tenho uma coisa para recomendar para quem não
+foi&amp;hellip; Quando tiver o próximo, não perca a oportunidade! O evento vale
+muito a pena! :)&lt;/p&gt;
+
+&lt;p&gt;Para quem quiser ver as fotos que eu tirei no evento pode dar uma
+olhada no meu &lt;a href="http://picasaweb.google.com/Willian.molinari/Openhack?feat=directlink"&gt;album do
+Picasa&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Rafael Souza, Rafael O. Marques, Phoenix | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Palestra sobre Vim</title>
     <link rel="alternate" href="http://pothix.com/2010/03/29/palestra-sobre-vim.html"/>
     <id>http://pothix.com/2010/03/29/palestra-sobre-vim.html</id>
     <published>2010-03-28T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -2019,7 +2120,7 @@ Hugo!), e portanto temos o vídeo tambem:&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2010/03/29/linux-vim-screen-e-pair-programming.html"/>
     <id>http://pothix.com/2010/03/29/linux-vim-screen-e-pair-programming.html</id>
     <published>2010-03-28T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -2039,12 +2140,12 @@ pair programming, e que eu gostei:&lt;/p&gt;
 &lt;p&gt;Primeiramente vamos começar com umas dicas do post do caike:&lt;/p&gt;
 
 &lt;p&gt;Para mim foi necessário alterar as permissões do Screen:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;sudo chmod +s /usr/bin/screen
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;sudo chmod +s /usr/bin/screen
 sudo chmod 775 /var/run/screen
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Agora é só seguir a velha receita dos dois posts:&lt;/p&gt;
 
 &lt;p&gt;Primeiro usuário:&lt;/p&gt;
@@ -2163,112 +2264,11 @@ que trabalhamos) mas você obviamente perde um pouco de espaço.&lt;/p&gt;
 </content>
   </entry>
   <entry>
-    <title>Yahoo Open Hack 2010</title>
-    <link rel="alternate" href="http://pothix.com/2010/03/29/yahoo-open-hack-2010.html"/>
-    <id>http://pothix.com/2010/03/29/yahoo-open-hack-2010.html</id>
-    <published>2010-03-28T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
-    <author>
-      <name>Willian Molinari (a.k.a PotHix)</name>
-    </author>
-    <content type="html">&lt;p&gt;Para quem ainda não soube, no final de semana passado rolou o Yahoo
-Open Hack Day 2010! O intuito do evento é juntar uma grande quantidade
-de Hackers para criar serviços úteis utilizando informações públicas e
-de preferência utilizar as API&amp;rsquo;s do Yahoo (havia premios para alguns
-hacks com elas).&lt;/p&gt;
-
-&lt;p&gt;Uma das coisas legais do evento é que nada é proibido com relação aos
-Hacks, ou seja, você pode fazer um Hack com as ferramentas do Google
-(não vai concorrer aos premios, mas poderá apresentar lá e tudo mais),
-todas as linguagens de programação estão permitidas, não somente hacks
-web eram permitidos, o que deixou a criatividade ir longe. :D&lt;/p&gt;
-
-&lt;h4&gt;Equipe e idéia&lt;/h4&gt;
-
-&lt;p&gt;Participei do evento juntamente com uma equipe que formamos no
-&lt;a href="www.ikwa.com.br"&gt;Ikwa&lt;/a&gt;, e chamamos a equipe de SleepyProgrammers.&lt;/p&gt;
-
-&lt;p&gt;Nossa idéia era fazer um site para marcar rolês fotográficos, e
-utilizaríamos para isso as API&amp;rsquo;s do Flickr, Meme, Weather e Maps.&lt;/p&gt;
-
-&lt;p&gt;Ao chegar no evento e ver a palestra sobre YQL nós já percebemos que
-não seria necessário aprender a usar essas várias API&amp;rsquo;s e apenas
-precisávamos aprender a usar o YQL e saber quais informações
-poderíamos retornar de qual serviço. :)&lt;/p&gt;
-
-&lt;h4&gt;Metodologia e projeto&lt;/h4&gt;
-
-&lt;p&gt;&lt;a title="Equipe do openhack" href="/images/posts/openhack-4fc9b975.jpg"&gt;&lt;img title="Equipe do Openhack" alt="Foto da equipe do Openhack" src="/images/posts/openhack-4fc9b975.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Como já estamos acostumados a utilizar Scrum no
-&lt;a href="www.ikwa.com.br"&gt;Ikwa&lt;/a&gt; nós resolvemos fazer o mesmo para o nosso
-projetinho. Começamos com uma planning meeting logo na primeira hora
-para poder dar uma estimada no que pretendíamos fazer, e logo depois
-dividir as tarefas entre os membros da equipe.  Mais ou menos de 2 em
-2 horas (ou um pouco mais) fazíamos umas stand-up meetings para manter
-todos atualizados. A noite percebemos que isso não estava sendo muito
-necessário por que estávamos em constante comunicação, mas mesmo assim
-resolvemos seguir o costume, afinal demorava apenas uns 4 minutos. :)&lt;/p&gt;
-
-&lt;p&gt;O projeto seguia bem, com layout legal e algumas buscas supostamente
-funcionando até mais ou menos as 9 da noite.&lt;/p&gt;
-
-&lt;h4&gt;Os problemas&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Já percebemos que a nossa busca não estava retornando exatamente o que gostaríamos de receber, mas deixamos para dar uma refinada nisso no final do tempo, para não ficar muito tempo presos nisso.&lt;/li&gt;
-&lt;li&gt;Tivemos um programador a menos (&lt;a href="http://twitter.com/_bojak"&gt;@_bojak&lt;/a&gt;) que infelizmente estava usando Windows (acreditem se quiser) por que o netbook que ele comprou (exatamente para evitar ter que usar windows no notebook velho que ele tinha) não chegou a tempo do evento. Muitas das coisas que são simples de se instalar/fazer em um &amp;ldquo;Unix like&amp;rdquo; são uma grande dor de cabeça para se fazer no Windows, portanto o @_bojak teve tantos problemas que chegou uma hora que desistiu de colocar a mão em código.&lt;/li&gt;
-&lt;li&gt;Algum descuidado da equipe criou a pasta &amp;ldquo;Views&amp;rdquo; no famigerado Textmate (escrevi uma gracinha aqui e apaguei para não gerar flame de textmate), e assim bugou a aplicação na minha maquina Linux, e me deixou um tempinho procurando qual era o problema. #fail&lt;/li&gt;
-&lt;li&gt;O Heroku não colaborou para funcionar utilizando o bundler, e depois de muito tempo tentando nós abandonamos o bundler e utilizamos oldstyle mesmo.&lt;/li&gt;
-&lt;li&gt;O nosso outro programador (&lt;a href="http://twitter.com/jorge_silveira"&gt;@jorge_silveira&lt;/a&gt;) saiu (já tinha avisado que sairia) dizendo que voltaria e simplesmente deixou a equipe na mão (tem seus argumentos, mas essa é minha opinião&amp;hellip;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4&gt;O fail do projeto&lt;/h4&gt;
-
-&lt;p&gt;Depois desse monte de problemas eu já estava desmotivado com o projeto
-e comecei a ficar com bastante sono, portanto tirei umas 3 horas para
-dormir (fora o tempo que dormi na mesa), enquanto só o
-&lt;a href="http://twitter.com/_bojak"&gt;@_bojak&lt;/a&gt; ficou trabalhando motivadão
-(usando o computador do &lt;a href="http://twitter.com/rafaeltimbo"&gt;@rafaeltimbo&lt;/a&gt;
-que tambem estava dormindo :P).&lt;/p&gt;
-
-&lt;p&gt;Logo pela manhã sabendo que um programador tinha arregado
-(&lt;a href="http://twitter.com/jorge_silveira"&gt;@jorge_silveira&lt;/a&gt;), um estava
-impossibilitado de trabalhar com seu próprio computador
-(&lt;a href="http://twitter.com/_bojak"&gt;@_bojak&lt;/a&gt;) e nossa busca não estava
-retornando coisas legais para continuar, nós decidimos que esse
-projeto ficaria para depois do Open Hack Day.&lt;/p&gt;
-
-&lt;p&gt;No fim das contas fizemos uma retrospectiva bem legal, onde vimos
-grande parte dos problemas que tivemos e boa parte das soluções
-tambem, foi bem legal! :)&lt;/p&gt;
-
-&lt;h4&gt;O evento&lt;/h4&gt;
-
-&lt;p&gt;Ok, nosso projeto não vingou mesmo, mas o evento valeu muito para mim!
-Aprendi coisas novas, revi amigos, conheci pessoas novas, conheci as
-API&amp;rsquo;s do Yahoo, comi e bebi de graça, descobri que não devo acreditar
-nas palavras de alguns, descobri que algumas pessoas com certeza
-estarão na minha equipe novamente se quiserem&amp;hellip;. E mais várias outras
-coisas!&lt;/p&gt;
-
-&lt;p&gt;No fim das contas eu tenho uma coisa para recomendar para quem não
-foi&amp;hellip; Quando tiver o próximo, não perca a oportunidade! O evento vale
-muito a pena! :)&lt;/p&gt;
-
-&lt;p&gt;Para quem quiser ver as fotos que eu tirei no evento pode dar uma
-olhada no meu &lt;a href="http://picasaweb.google.com/Willian.molinari/Openhack?feat=directlink"&gt;album do
-Picasa&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Rafael Souza, Rafael O. Marques, Phoenix | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
     <title>Campus Party 2010</title>
     <link rel="alternate" href="http://pothix.com/2010/02/02/campus-party-2010.html"/>
     <id>http://pothix.com/2010/02/02/campus-party-2010.html</id>
     <published>2010-02-01T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -2380,11 +2380,127 @@ precisa &amp;ldquo;entrar na brincadeira&amp;rdquo; e aproveitar. ;)&lt;/p&gt;
 </content>
   </entry>
   <entry>
+    <title>Crontab dentro da sua aplicação rails com whenever</title>
+    <link rel="alternate" href="http://pothix.com/2009/12/02/crontab-dentro-da-sua-aplicacao-rails-com-whenever.html"/>
+    <id>http://pothix.com/2009/12/02/crontab-dentro-da-sua-aplicacao-rails-com-whenever.html</id>
+    <published>2009-12-01T22:00:00-02:00</published>
+    <updated>2016-09-25T19:24:29-03:00</updated>
+    <author>
+      <name>Willian Molinari (a.k.a PotHix)</name>
+    </author>
+    <content type="html">&lt;p&gt;Hoje estou aqui para falar de uma coisa que quando vi pela primeira vez
+ignorei por parecer uma coisa boba, mas olhando melhor eu percebi que é
+uma idéia bem interessante. O que a gem whenever faz é manter o seu
+crontab de uma forma mais Ruby, e melhor, dentro da sua aplicação!&lt;/p&gt;
+
+&lt;p&gt;A principio parece estranho tentar manter o crontab dentro da sua
+aplicação, mas ganhamos muitas vantagens com isso:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;versionamento&lt;/li&gt;
+&lt;li&gt;menos acesso ao servidor&lt;/li&gt;
+&lt;li&gt;rapida atualização do crontab do servidor via capistrano&lt;/li&gt;
+&lt;li&gt;forma mais legível de ver o crontab&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;E tudo isso não influi no crontab que você já possui ( e que muitas
+vezes tem muita coisa que não é relacionada com a aplicação ), pois o
+whenever cria uma seção que ele atualiza mantendo a seção antiga onde
+está.&lt;/p&gt;
+
+&lt;p&gt;Para instalar o whenever é a mesma facilidade de sempre:&lt;/p&gt;
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;sudo gem install whenever
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;OBS&lt;/strong&gt;: Lembrando que a primeira linha só é necessária uma vez, se
+  você já tem o gemcutter no seu sources então ignore-a.&lt;/p&gt;
+
+&lt;p&gt;Depois disso execute:&lt;/p&gt;
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;wheneverize .
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;O comando acima vai gerar os arquivos necessários para a utilização do
+whenever ( básicamente o config/schedule.rb ).&lt;/p&gt;
+
+&lt;p&gt;E a partir de agora você já pode atualizar o seu crontab com as suas
+configurações feitas no config/schedule.rb executando o comando:&lt;/p&gt;
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;whenever --update-crontab suaaplicacao
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Quando você passa como parametro a sua aplicação ele cria um bloco
+apenas para as configurações da sua aplicação no crontab.&lt;/p&gt;
+
+&lt;p&gt;Mas é claro que você não vai precisar acessar o servidor e executar
+esse comando toda vez que você alterar o arquivo de schedule, para
+isso você provavelmente deve estar usando o capistrano para ser mais
+DRY. Se estiver usando inclua algumas linhas no seu deploy.rb:&lt;/p&gt;
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+2
+3
+4
+5
+6
+7
+8
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;after "deploy:symlink", "deploy:update_crontab"
+
+namespace :deploy do
+   desc "Update the crontab file"
+   task :update_crontab, :roles =&amp;gt; :db do
+      run "cd #{release_path} &amp;amp;&amp;amp; whenever --update-crontab #{application}"
+   end
+end
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;OBS&lt;/strong&gt;: Se você tiver problemas no deploy com essa linha ( como se o
+comando whenever não existisse ), tente adicionar o path absoluto
+para o whenever.&lt;/p&gt;
+
+&lt;p&gt;E com isso a cada vez que você fizer um cap server deploy seu crontab
+será atualizado com as configurações contidas no config/schedule.rb.&lt;/p&gt;
+
+&lt;p&gt;Veja alguns exemplos do que pode ter no seu schedule.rb:&lt;/p&gt;
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;every 4.minutes do
+  rake "ts:in"
+end
+
+every 1.day, :at =&amp;gt; '5:25 am' do
+  rake "bla_bla"
+end
+
+every [:monday, :thursday], :at =&amp;gt; '11:59 am' do
+  command "sudo rm -rf /" # claro!
+end
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Nada do que eu demonstrei aqui é uma grande novidade, você pode ver mais
+exemplos de como usar no &lt;a href="http://www.railscasts.com"&gt;Railscasts&lt;/a&gt; e na &lt;a href="http://github.com/javan/whenever"&gt;própria página do plugin&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Espero que seja útil para mais alguem como está sendo para mim.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Mateus, Vini, Fabiano P S, Luiz Cezer | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Dev In Sampa</title>
     <link rel="alternate" href="http://pothix.com/2009/12/02/dev-in-sampa.html"/>
     <id>http://pothix.com/2009/12/02/dev-in-sampa.html</id>
     <published>2009-12-01T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -2575,127 +2691,11 @@ novamente na próxima edição! :D&lt;/p&gt;
 </content>
   </entry>
   <entry>
-    <title>Crontab dentro da sua aplicação rails com whenever</title>
-    <link rel="alternate" href="http://pothix.com/2009/12/02/crontab-dentro-da-sua-aplicacao-rails-com-whenever.html"/>
-    <id>http://pothix.com/2009/12/02/crontab-dentro-da-sua-aplicacao-rails-com-whenever.html</id>
-    <published>2009-12-01T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
-    <author>
-      <name>Willian Molinari (a.k.a PotHix)</name>
-    </author>
-    <content type="html">&lt;p&gt;Hoje estou aqui para falar de uma coisa que quando vi pela primeira vez
-ignorei por parecer uma coisa boba, mas olhando melhor eu percebi que é
-uma idéia bem interessante. O que a gem whenever faz é manter o seu
-crontab de uma forma mais Ruby, e melhor, dentro da sua aplicação!&lt;/p&gt;
-
-&lt;p&gt;A principio parece estranho tentar manter o crontab dentro da sua
-aplicação, mas ganhamos muitas vantagens com isso:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;versionamento&lt;/li&gt;
-&lt;li&gt;menos acesso ao servidor&lt;/li&gt;
-&lt;li&gt;rapida atualização do crontab do servidor via capistrano&lt;/li&gt;
-&lt;li&gt;forma mais legível de ver o crontab&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;E tudo isso não influi no crontab que você já possui ( e que muitas
-vezes tem muita coisa que não é relacionada com a aplicação ), pois o
-whenever cria uma seção que ele atualiza mantendo a seção antiga onde
-está.&lt;/p&gt;
-
-&lt;p&gt;Para instalar o whenever é a mesma facilidade de sempre:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;sudo gem install whenever
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;OBS&lt;/strong&gt;: Lembrando que a primeira linha só é necessária uma vez, se
-  você já tem o gemcutter no seu sources então ignore-a.&lt;/p&gt;
-
-&lt;p&gt;Depois disso execute:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;wheneverize .
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;O comando acima vai gerar os arquivos necessários para a utilização do
-whenever ( básicamente o config/schedule.rb ).&lt;/p&gt;
-
-&lt;p&gt;E a partir de agora você já pode atualizar o seu crontab com as suas
-configurações feitas no config/schedule.rb executando o comando:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;whenever --update-crontab suaaplicacao
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Quando você passa como parametro a sua aplicação ele cria um bloco
-apenas para as configurações da sua aplicação no crontab.&lt;/p&gt;
-
-&lt;p&gt;Mas é claro que você não vai precisar acessar o servidor e executar
-esse comando toda vez que você alterar o arquivo de schedule, para
-isso você provavelmente deve estar usando o capistrano para ser mais
-DRY. Se estiver usando inclua algumas linhas no seu deploy.rb:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2
-3
-4
-5
-6
-7
-8&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;after "deploy:symlink", "deploy:update_crontab"
-
-namespace :deploy do
-   desc "Update the crontab file"
-   task :update_crontab, :roles =&amp;gt; :db do
-      run "cd #{release_path} &amp;amp;&amp;amp; whenever --update-crontab #{application}"
-   end
-end
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;OBS&lt;/strong&gt;: Se você tiver problemas no deploy com essa linha ( como se o
-comando whenever não existisse ), tente adicionar o path absoluto
-para o whenever.&lt;/p&gt;
-
-&lt;p&gt;E com isso a cada vez que você fizer um cap server deploy seu crontab
-será atualizado com as configurações contidas no config/schedule.rb.&lt;/p&gt;
-
-&lt;p&gt;Veja alguns exemplos do que pode ter no seu schedule.rb:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;every 4.minutes do
-  rake "ts:in"
-end
-
-every 1.day, :at =&amp;gt; '5:25 am' do
-  rake "bla_bla"
-end
-
-every [:monday, :thursday], :at =&amp;gt; '11:59 am' do
-  command "sudo rm -rf /" # claro!
-end
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Nada do que eu demonstrei aqui é uma grande novidade, você pode ver mais
-exemplos de como usar no &lt;a href="http://www.railscasts.com"&gt;Railscasts&lt;/a&gt; e na &lt;a href="http://github.com/javan/whenever"&gt;própria página do plugin&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Espero que seja útil para mais alguem como está sendo para mim.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Mateus, Vini, Fabiano P S, Luiz Cezer | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
     <title>Rails Summit 2009</title>
     <link rel="alternate" href="http://pothix.com/2009/10/19/rails-summit-2009.html"/>
     <id>http://pothix.com/2009/10/19/rails-summit-2009.html</id>
     <published>2009-10-18T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -2949,7 +2949,7 @@ picasaweb&lt;/a&gt;.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/09/10/instalando-e-configurando-o-monit.html"/>
     <id>http://pothix.com/2009/09/10/instalando-e-configurando-o-monit.html</id>
     <published>2009-09-09T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -2959,10 +2959,10 @@ decidi postar aqui para que seja útil para quem quer começar a
 utilizar o monit.&lt;/p&gt;
 
 &lt;p&gt;Se você usa Ubuntu, você pode fazer download do Monit por apt-get:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;sudo apt-get install monit
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;sudo apt-get install monit
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Se você não usa Ubuntu ou quer a ultima versão do Monit, então faça
 download do tar.gz http://mmonit.com/monit/download/ e compile.&lt;/p&gt;
 
@@ -2979,24 +2979,24 @@ download do tar.gz http://mmonit.com/monit/download/ e compile.&lt;/p&gt;
 
 &lt;p&gt;Agora é só partir para compilar os fontes! ( prefiro compilar dos
 fontes em certas ocasiões para pegar a ultima versão ):&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
 2
-3&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;./configure
+3
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;./configure
 make
 sudo make install
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;E pronto! Lá está o seu monit instalado! Agora é o momento da
 configuração. :D&lt;/p&gt;
 
 &lt;p&gt;O monit utiliza o arquivo chamado .monitrc para saber o que deve ser
 monitorado e com quais parâmetros, portanto crie um arquivo na sua
 $HOME com o nome de &lt;code&gt;.monitrc&lt;/code&gt;:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;vim $HOME/.monitrc
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;vim $HOME/.monitrc
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Claro que usarei o vim para isso (qual outro poderia ser né? haha).
 Agora você deve criar o seu próprio arquivo de configuração dizendo
 o que o monit deve monitorar e quais critérios deve usar.&lt;/p&gt;
@@ -3008,15 +3008,15 @@ e criar o seu baseado nele. A syntax desse arquivo é de fácil
 entendimento. :)&lt;/p&gt;
 
 &lt;p&gt;Para e-mails eu utilizei a minha conta do Google Apps com a seguinte configuração:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;set mailserver smtp.gmail.com port 587 username "pothix@pothix.com" password "abc123" using tlsv1, with timeout 15 seconds
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;set mailserver smtp.gmail.com port 587 username "pothix@pothix.com" password "abc123" using tlsv1, with timeout 15 seconds
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Com todas as configurações arrumadas o monit já pode ser iniciado:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;monit
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;monit
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;E agora você já tem vários comandos para utilizar, é só dar uma lida na
 &lt;a title="Comandos do monit" href="http://mmonit.com/monit/documentation/monit.html#general_operation"&gt;documentação do monit para ver o que é possível fazer&lt;/a&gt;.&lt;/p&gt;
 
@@ -3031,7 +3031,7 @@ monitoração e gostou do monit. :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/08/14/um-pouco-sobre-o-vim.html"/>
     <id>http://pothix.com/2009/08/14/um-pouco-sobre-o-vim.html</id>
     <published>2009-08-13T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -3088,10 +3088,10 @@ poderoso né? Bem, são coisas como essas:&lt;/p&gt;
 &lt;p&gt;E o modo de comandos é onde você tem uma segunda linguagem de
 programação alem da que você está usando pra programar, e lá você pode
 tanto usar comandos de loop como:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;for i in range(1,10) | put ='192.168.0.'.i | endfor
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;for i in range(1,10) | put ='192.168.0.'.i | endfor
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;strong&gt;OBS&lt;/strong&gt;: créditos ao Sergio &lt;a title="Post sobre loop no vim" href="http://vivaotux.blogspot.com/2009/02/gerando-listas-no-vim.html"&gt;nesse post&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Que imprime uma faixa de IPs de 192.168.0.1 até 192.168.0.10. &lt;/p&gt;
@@ -3137,95 +3137,11 @@ ferramentas.&lt;/p&gt;
 </content>
   </entry>
   <entry>
-    <title>Instalando o Allegro 4.2.2 no Linux x86</title>
-    <link rel="alternate" href="http://pothix.com/2009/08/12/instalando-o-allegro-4-2-2-no-linux-x86.html"/>
-    <id>http://pothix.com/2009/08/12/instalando-o-allegro-4-2-2-no-linux-x86.html</id>
-    <published>2009-08-11T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
-    <author>
-      <name>Willian Molinari (a.k.a PotHix)</name>
-    </author>
-    <content type="html">&lt;p&gt;Como mencionei no
-&lt;a title="Post sobre o GameJam" href="http://pothix.com/blog/development/gamejam"&gt;meu ultimo post&lt;/a&gt;
-eu parcicipei do GameJam do Itaú cultural e desenvolvi um jogo com
-Allegro. Agora com o jogo pronto estou criando arquivos executáveis
-para divulgar e tinha me esquecido da diferença de arquitetura no
-Linux, assim compilei apenas para meu Linux x64.&lt;/p&gt;
-
-&lt;p&gt;Quando me dei conta que não funcionou no computador do trabalho por
-que eu tinha um binário x64, eu tive que instalar o Allegro no
-computador de lá para poder fazer funcionar também em Linux
-x86. Pensei eu:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Vai ser moleza, assim como foi instalar o &lt;a title="Allegro 4.2.2 download" href="http://sourceforge.net/projects/alleg/files/allegro/4.2.2/allegro-4.2.2.tar.gz/download"&gt;Allegro
-4.2.2&lt;/a&gt; no notebook x64&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;E lá fui eu:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;./configure
-make
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Ué&amp;hellip;Deu um problema bizarro com o &lt;em&gt;FNSTSW&lt;/em&gt; no make, então não vai ser
-tão fácil assim&amp;hellip;E lá vamos nós procurar na internet. Procurando
-&lt;a title="Pergunta em uma lista de discussão" href="http://lists.alioth.debian.org/pipermail/pkg-allegro-maintainers/2009-May/000251.html"&gt;eu descobri&lt;/a&gt;
-que tem realmente um erro em uma parte Assembly do código do Allegro
-para x86 que está errada na versão 4.2.2 que provavelmente foi
-consertada nas versões futuras, mas nesse caso tive que arrumar na
-mão:&lt;/p&gt;
-
-&lt;p&gt;No arquivo &lt;code&gt;src/i386/icpus.s&lt;/code&gt; alterar a seguinte linha (tirar a que tem
-um menos e colocar a que tem um mais):&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2
-3
-4
-5
-6&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;fninit
-movl $0x5A5A, %eax
--   fnstsw %eax
-+   fnstsw %ax
-cmpl $0, %eax
-jne is_fpu_not_found
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;E assim eu consegui compilar certinho! :D&lt;/p&gt;
-
-&lt;p&gt;Quando tentei rodar meu binário me deparei com o seguinte erro: &amp;ldquo;error
-while loading shared libraries: liballeg.so.4.2: cannot open shared
-object file: No such file or directory&amp;rdquo; ¬¬&lt;/p&gt;
-
-&lt;p&gt;Pesquisando na internet novamente eu descobri que estava faltando eu
-adicionar o diretório &lt;code&gt;/usr/local/lib&lt;/code&gt; ao meu &lt;code&gt;LD_LIBRARY_PATH&lt;/code&gt;:&lt;/p&gt;
-
-&lt;p&gt;No meu .bashrc:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;OU&lt;/p&gt;
-
-&lt;p&gt;Editar o meu arquivo &lt;code&gt;/etc/ld.so.conf&lt;/code&gt; e incluir &lt;code&gt;/usr/local/lib&lt;/code&gt; no
-final do arquivo e depois rodar o comando &lt;code&gt;ldconfig&lt;/code&gt; como root ;)&lt;/p&gt;
-
-&lt;p&gt;Com isso eu consegui finalmente compilar ojogo e fazer o meu binário
-rodar o meu jogo normalmente. :)&lt;/p&gt;
-
-&lt;p&gt;Espero que seja útil para mais alguem.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Rafael Masoni, Victor, marcelo | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
     <title>GameJam</title>
     <link rel="alternate" href="http://pothix.com/2009/08/12/gamejam.html"/>
     <id>http://pothix.com/2009/08/12/gamejam.html</id>
     <published>2009-08-11T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -3402,11 +3318,95 @@ que foi um contest de 48 horas&amp;hellip;hehe):&lt;/p&gt;
 </content>
   </entry>
   <entry>
+    <title>Instalando o Allegro 4.2.2 no Linux x86</title>
+    <link rel="alternate" href="http://pothix.com/2009/08/12/instalando-o-allegro-4-2-2-no-linux-x86.html"/>
+    <id>http://pothix.com/2009/08/12/instalando-o-allegro-4-2-2-no-linux-x86.html</id>
+    <published>2009-08-11T21:00:00-03:00</published>
+    <updated>2016-09-25T19:24:29-03:00</updated>
+    <author>
+      <name>Willian Molinari (a.k.a PotHix)</name>
+    </author>
+    <content type="html">&lt;p&gt;Como mencionei no
+&lt;a title="Post sobre o GameJam" href="http://pothix.com/blog/development/gamejam"&gt;meu ultimo post&lt;/a&gt;
+eu parcicipei do GameJam do Itaú cultural e desenvolvi um jogo com
+Allegro. Agora com o jogo pronto estou criando arquivos executáveis
+para divulgar e tinha me esquecido da diferença de arquitetura no
+Linux, assim compilei apenas para meu Linux x64.&lt;/p&gt;
+
+&lt;p&gt;Quando me dei conta que não funcionou no computador do trabalho por
+que eu tinha um binário x64, eu tive que instalar o Allegro no
+computador de lá para poder fazer funcionar também em Linux
+x86. Pensei eu:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Vai ser moleza, assim como foi instalar o &lt;a title="Allegro 4.2.2 download" href="http://sourceforge.net/projects/alleg/files/allegro/4.2.2/allegro-4.2.2.tar.gz/download"&gt;Allegro
+4.2.2&lt;/a&gt; no notebook x64&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;E lá fui eu:&lt;/p&gt;
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;./configure
+make
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Ué&amp;hellip;Deu um problema bizarro com o &lt;em&gt;FNSTSW&lt;/em&gt; no make, então não vai ser
+tão fácil assim&amp;hellip;E lá vamos nós procurar na internet. Procurando
+&lt;a title="Pergunta em uma lista de discussão" href="http://lists.alioth.debian.org/pipermail/pkg-allegro-maintainers/2009-May/000251.html"&gt;eu descobri&lt;/a&gt;
+que tem realmente um erro em uma parte Assembly do código do Allegro
+para x86 que está errada na versão 4.2.2 que provavelmente foi
+consertada nas versões futuras, mas nesse caso tive que arrumar na
+mão:&lt;/p&gt;
+
+&lt;p&gt;No arquivo &lt;code&gt;src/i386/icpus.s&lt;/code&gt; alterar a seguinte linha (tirar a que tem
+um menos e colocar a que tem um mais):&lt;/p&gt;
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+2
+3
+4
+5
+6
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;fninit
+movl $0x5A5A, %eax
+-   fnstsw %eax
++   fnstsw %ax
+cmpl $0, %eax
+jne is_fpu_not_found
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;E assim eu consegui compilar certinho! :D&lt;/p&gt;
+
+&lt;p&gt;Quando tentei rodar meu binário me deparei com o seguinte erro: &amp;ldquo;error
+while loading shared libraries: liballeg.so.4.2: cannot open shared
+object file: No such file or directory&amp;rdquo; ¬¬&lt;/p&gt;
+
+&lt;p&gt;Pesquisando na internet novamente eu descobri que estava faltando eu
+adicionar o diretório &lt;code&gt;/usr/local/lib&lt;/code&gt; ao meu &lt;code&gt;LD_LIBRARY_PATH&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;No meu .bashrc:&lt;/p&gt;
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;OU&lt;/p&gt;
+
+&lt;p&gt;Editar o meu arquivo &lt;code&gt;/etc/ld.so.conf&lt;/code&gt; e incluir &lt;code&gt;/usr/local/lib&lt;/code&gt; no
+final do arquivo e depois rodar o comando &lt;code&gt;ldconfig&lt;/code&gt; como root ;)&lt;/p&gt;
+
+&lt;p&gt;Com isso eu consegui finalmente compilar ojogo e fazer o meu binário
+rodar o meu jogo normalmente. :)&lt;/p&gt;
+
+&lt;p&gt;Espero que seja útil para mais alguem.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Rafael Masoni, Victor, marcelo | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>BookReview: High Performance Websites</title>
     <link rel="alternate" href="http://pothix.com/2009/07/30/bookreview-high-performance-websites.html"/>
     <id>http://pothix.com/2009/07/30/bookreview-high-performance-websites.html</id>
     <published>2009-07-29T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -3577,7 +3577,7 @@ bons argumentos para lhe dizer por que isso seria uma boa escolha.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/07/28/instalando-gems-do-github-manualmente.html"/>
     <id>http://pothix.com/2009/07/28/instalando-gems-do-github-manualmente.html</id>
     <published>2009-07-27T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -3599,24 +3599,24 @@ instalar, que no caso é a
 &lt;a title="Kitabu" href="http://github.com/fnando/kitabu/tree/master"&gt;kitabu&lt;/a&gt; do
 &lt;a title="Nando Viera" href="http://github.com/fnando"&gt;fnando&lt;/a&gt;, pegar o link de
 clone e clonar:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;$ git clone git://github.com/fnando/kitabu.git
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;$ git clone git://github.com/fnando/kitabu.git
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Mas ae que está o lance que eu demorei para encontrar (noob), para
 uma gem ser instalada localmente ela precisa estar empacotada, e no
 GitHub você baixa direto o código fonte. Para empacotar:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;$ gem build kitabu.gemspec
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;$ gem build kitabu.gemspec
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Agora sim eu tenho o arquivo &lt;code&gt;kitabu-0.3.3.gem&lt;/code&gt; que eu posso utilizar
 para instalar localmente! Para instalar é só utilizar o gem install
 padrão informando o arquivo a ser instalado:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;$ gem install kitabu-0.3.3.gem
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;$ gem install kitabu-0.3.3.gem
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;E pronto! Lá está a minha gem instalada!&lt;/p&gt;
 
 &lt;p&gt;Espero que isso seja útil para mais alguem que precise empacotar as
@@ -3630,7 +3630,7 @@ suas gems. :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/07/21/encontro-de-numero-5-do-guru-sp.html"/>
     <id>http://pothix.com/2009/07/21/encontro-de-numero-5-do-guru-sp.html</id>
     <published>2009-07-20T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -3734,7 +3734,7 @@ amizades e conhecimentos!&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/07/19/bookreview-pragmatic-version-control-using-git.html"/>
     <id>http://pothix.com/2009/07/19/bookreview-pragmatic-version-control-using-git.html</id>
     <published>2009-07-18T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -3821,7 +3821,7 @@ legais.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/07/09/como-desabilitar-o-beep-no-ubuntu.html"/>
     <id>http://pothix.com/2009/07/09/como-desabilitar-o-beep-no-ubuntu.html</id>
     <published>2009-07-08T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -3865,7 +3865,7 @@ emitindo beeps supostamente benéficos para vc! :P&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/06/13/instalando-modem-3g-claro-usb-e226-no-ubuntu.html"/>
     <id>http://pothix.com/2009/06/13/instalando-modem-3g-claro-usb-e226-no-ubuntu.html</id>
     <published>2009-06-12T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -3912,7 +3912,7 @@ para &lt;strong&gt;208.67.222.222, 208.67.220.220&lt;/strong&gt;.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/06/12/servicos-interessantes.html"/>
     <id>http://pothix.com/2009/06/12/servicos-interessantes.html</id>
     <published>2009-06-11T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -3978,7 +3978,7 @@ de compartilhar, espero que seja útil para os leitores do blog.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/05/20/organizando-seu-gmail-para-manter-inbox-zero.html"/>
     <id>http://pothix.com/2009/05/20/organizando-seu-gmail-para-manter-inbox-zero.html</id>
     <published>2009-05-19T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -4077,7 +4077,7 @@ tome tanto tempo.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/05/11/usando-git-em-projetos-do-google-code.html"/>
     <id>http://pothix.com/2009/05/11/usando-git-em-projetos-do-google-code.html</id>
     <published>2009-05-10T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -4110,10 +4110,10 @@ grande serventia, mas depois ajudaram bastante! ;)&lt;/p&gt;
 &lt;p&gt;Bem, agora chega de papo-furado e vamos a parte que interessa&amp;hellip;Códigos e How To! :)&lt;/p&gt;
 
 &lt;p&gt;Primeiramente vamos baixar o código ( estou usando como exemplo o vimbook ):&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;git-svn clone https://vimbook.googlecode.com/svn/trunk/ vimbook --username seu.usuario.do.google
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;git-svn clone https://vimbook.googlecode.com/svn/trunk/ vimbook --username seu.usuario.do.google
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Ao digitar isso ele vai pedir uma senha que ele gera para a sua conta,
 e seus commits ficarão ligados a sua conta do Google. Para obter a sua
 senha é só acessar a página de
@@ -4128,35 +4128,35 @@ você pode trabalhar normalmente com ele, fazendo seus branchs e tudo
 mais! :D&lt;/p&gt;
 
 &lt;p&gt;Vamos ver como seria um fluxo simples para você fazer uma alteração usando branch e mandar de volta para o repositório:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;git checkout -b new_changes
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;git checkout -b new_changes
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Branch criado! Faça as suas alterações&amp;hellip;&lt;/p&gt;
 
 &lt;p&gt;Após as alteraçoes feitas faça os commits normalmente como se faz no
 Git e volte ao master para ver o que há de novo no repositório
 central:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;git checkout master
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;git checkout master
 git-svn rebase
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Com isso ele vai receber as novas alterações do repositório!&lt;/p&gt;
 
 &lt;p&gt;Agora é a hora de fazer um merge do seu branch com a ultima versão do
 master:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;git merge new_changes
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;git merge new_changes
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Se tiver algum conflito resolva-os normalmente e agora é hora de
 enviar as suas alterações novamente ao Google Code:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;git-svn dcommit
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;git-svn dcommit
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Pronto! Você está contribuindo para um projeto do Google Code
 utilizando Git. :D&lt;/p&gt;
 
@@ -4168,7 +4168,7 @@ utilizando Git. :D&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/05/09/configurando-seu-gtalk-do-google-apps-no-pidgin.html"/>
     <id>http://pothix.com/2009/05/09/configurando-seu-gtalk-do-google-apps-no-pidgin.html</id>
     <published>2009-05-08T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -4188,7 +4188,7 @@ do seu Google Apps, você geralmente cai
 onde está errado&amp;hellip;&lt;/p&gt;
 
 &lt;p&gt;As configurações corretas para se usar são as seguintes:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
 2
 3
 4
@@ -4198,7 +4198,8 @@ onde está errado&amp;hellip;&lt;/p&gt;
 8
 9
 10
-11&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;    Aba "Basic":
+11
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;    Aba "Basic":
     Protocol: XMPP
     Username: SeuUsuario
     Domain: sua_empresa.com.br
@@ -4210,8 +4211,7 @@ onde está errado&amp;hellip;&lt;/p&gt;
     Connect server: talk.google.com
     File transfer proxies: proxy.jabber.org
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;E com isso você já vai ter o seu Pidgin funcionando com a sua conta do
 Google Apps! :)&lt;/p&gt;
 
@@ -4223,7 +4223,7 @@ Google Apps! :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/05/06/ubuntu-904.html"/>
     <id>http://pothix.com/2009/05/06/ubuntu-904.html</id>
     <published>2009-05-05T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -4270,12 +4270,12 @@ até que foi simples (como de costume)! ;)&lt;/p&gt;
 na internet que esse plugin não é tão bom como o da Adobe (mas
 funcionava muito bem no 8.10 :P), portanto resolvi desinstalar e
 instalar da Adobe:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;sudo apt-get remove --purge swfdec-mozilla swfdec-gnome mozilla-plugin-gnash gnash
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;sudo apt-get remove --purge swfdec-mozilla swfdec-gnome mozilla-plugin-gnash gnash
 sudo apt-get install flashplugin-nonfree
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;E o flash já voltou a operar normalmente! :)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;OBS:&lt;/strong&gt; Se não conseguir resolver com o mesmo procedimento que eu
@@ -4312,7 +4312,7 @@ gracinhas! :P&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/04/26/encontro-de-design-e-tecnologia-digital.html"/>
     <id>http://pothix.com/2009/04/26/encontro-de-design-e-tecnologia-digital.html</id>
     <published>2009-04-25T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -4466,7 +4466,7 @@ perdeu! :D&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/04/13/comecando-a-falar-de-ruby.html"/>
     <id>http://pothix.com/2009/04/13/comecando-a-falar-de-ruby.html</id>
     <published>2009-04-12T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -4516,20 +4516,20 @@ linguagem Ruby para o tal. O Ruby tem bem mais coisas legais do que
 só o Rails. ;)&lt;/p&gt;
 
 &lt;p&gt;Como o Ruby é uma linguagem interpretada, podemos facilmente fazer um Hello World em Ruby:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;puts 'Hello World'
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;puts 'Hello World'
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Isso aí! Apenas uma linha! Uma linguagem totalmente orientada a objeto
 e você não precisa necessáriamente criar uma classe, um método (
 public static void main&amp;hellip; ) e escrever mil comandos Hierarquicamente
 para escrever algo! ;)&lt;/p&gt;
 
 &lt;p&gt;O interessante do Ruby é que tudo é um objeto, ou seja, se você escreve o numero 10 ele já é um objeto, tendo seus próprios métodos, como por exemplo:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;10.times { puts 'Vou estudar Ruby' }
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;10.times { puts 'Vou estudar Ruby' }
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;No caso acima usamos um dos métodos do 10 (que é da Classe Fixnum)
 que é o método times, que faz um loop 10 (ou qualquer outro numero
 Fixnum que estivesse aqui ) vezes fazendo o que está dentro do bloco,
@@ -4544,10 +4544,10 @@ muito legal!&lt;/p&gt;
 métodos facilitadores, inclusive com uso de &amp;ldquo;?&amp;rdquo; ( interrogação ) para
 alguns métodos, como por exemplo para descobrir se a variável está não
 retorna nada:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;variavel.nil?
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;variavel.nil?
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Aqui temos uma pergunta explícita, que você olhando isso
 intuitivamente lhe vem duas respostas: Sim ou não ( nem me venha com
 talvez :P ),o que mostra que você olha um código Ruby e facilmente
@@ -4611,10 +4611,10 @@ fazer usando essa linguagem.&lt;/p&gt;
 &lt;h3&gt;Puxa, gostei! Como usar?&lt;/h3&gt;
 
 &lt;p&gt;Moleza! Está no Linux né? Se estiver usando Ubuntu só dê os comandos mágicos:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;sudo apt-get install ruby irb rdoc
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;sudo apt-get install ruby irb rdoc
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Não está no Linux? Humm&amp;hellip;No Windows é fácil tambem, baixe o
 executável e instale. Não tive muito contato com um mac ainda para
 instalar coisas e tudo mais, mas me parece fácil.&lt;/p&gt;
@@ -4661,7 +4661,7 @@ se divertir com ele! :D&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/04/11/plugin-para-wordpress-anti-ie6-army.html"/>
     <id>http://pothix.com/2009/04/11/plugin-para-wordpress-anti-ie6-army.html</id>
     <published>2009-04-10T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -4712,7 +4712,7 @@ plugin. ;)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/04/10/translated-rubylearning-presentation.html"/>
     <id>http://pothix.com/2009/04/10/translated-rubylearning-presentation.html</id>
     <published>2009-04-09T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -5010,7 +5010,7 @@ with paypal.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/04/08/rails-x-django.html"/>
     <id>http://pothix.com/2009/04/08/rails-x-django.html</id>
     <published>2009-04-07T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -5058,7 +5058,7 @@ projeto que você for usar. ;)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/04/07/ruby-e-rails-no-mundo-real-overview.html"/>
     <id>http://pothix.com/2009/04/07/ruby-e-rails-no-mundo-real-overview.html</id>
     <published>2009-04-06T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -5107,7 +5107,7 @@ assim que estiverem disponíveis ) é só acessar!&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/04/03/projeto-de-fevereiro.html"/>
     <id>http://pothix.com/2009/04/03/projeto-de-fevereiro.html</id>
     <published>2009-04-02T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -5194,7 +5194,7 @@ comemoração, quando terminavamos nossas features:&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/03/31/ruby-inside-brasil.html"/>
     <id>http://pothix.com/2009/03/31/ruby-inside-brasil.html</id>
     <published>2009-03-30T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -5226,7 +5226,7 @@ patrocinar o projeto entre em contato com os responsáveis pela
     <link rel="alternate" href="http://pothix.com/2009/03/25/colocando-sua-aplicacao-rails-na-dreamhost.html"/>
     <id>http://pothix.com/2009/03/25/colocando-sua-aplicacao-rails-na-dreamhost.html</id>
     <published>2009-03-24T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -5251,18 +5251,18 @@ com esse usuário e senha. :)&lt;/p&gt;
 &lt;p&gt;Agora que temos acesso SSH a conta, vamos colocar nossa aplicação lá!
 Se ela estiver no GitHub você pode fazer um clone da sua aplicação
 facilmente:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;git@github.com:usuario/projeto-qualquer.git
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;git@github.com:usuario/projeto-qualquer.git
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Se não estiver no GitHub você pode fazer um pacote tar.gz e enviar
 facilmente por scp:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;tar cvf app.tar.gz aplicacao-quaquer/
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;tar cvf app.tar.gz aplicacao-quaquer/
 scp usuario@xxx.xxx.xxx.xxx:/home/local/da/applicacao app.tar.gz
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;*Sendo que o xxx é o endereço IP ou Nome da sua maquina na Dreamhost&lt;/p&gt;
 
 &lt;p&gt;Com nossa aplicaçào lá, vamos criar o nosso domínio ou sub-domínio no
@@ -5296,10 +5296,10 @@ usá-lo! ;)&lt;/p&gt;
 
 &lt;p&gt;Agora com tudo configurado, vamos rodas as nossas migrations para as
 configurações de produção:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;RAILS_ENV=production rake db:migrate
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;RAILS_ENV=production rake db:migrate
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Com isso você já terá seu projeto funcionando assim que o domínio se
 propagar!&lt;/p&gt;
 
@@ -5315,7 +5315,7 @@ já terei minha aplicação alterada lá! :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/02/20/curso-de-verao-da-usp.html"/>
     <id>http://pothix.com/2009/02/20/curso-de-verao-da-usp.html</id>
     <published>2009-02-19T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -5408,13 +5408,14 @@ indeterminada de palavras, sendo que elas seriam informadas uma por
 linha pela entrada padrão, e o programa deveria imprimir todas as
 palavras que eram anagramas umas das outras na mesma linha, e as que
 não eram anagramas na linha seguinte&amp;hellip; Algo como:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
 2
 3
 4
 5
 6
-7&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;teste
+7
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;teste
 marrocos
 futebol
 pothix
@@ -5422,19 +5423,18 @@ bolfute
 eetts
 socorram
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Ia retornar:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
 2
 3
-4&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;teste eetts
+4
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;teste eetts
 marrocos socorram
 pothix
 futebol bolfute
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;A princípio parece fácil, mas quando você começa a fazer percebe que
 não é tão simples assim. ;)&lt;/p&gt;
 
@@ -5463,7 +5463,7 @@ que vem e vá fazer um curso de verão! ;)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/02/09/dc-no-linux.html"/>
     <id>http://pothix.com/2009/02/09/dc-no-linux.html</id>
     <published>2009-02-08T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -5483,37 +5483,37 @@ nem em casa e nem no trampo, portanto o meu Slackware se foi&amp;hellip;:() e
 vou mostrar aqui como instalar o seu DC++ nele!&lt;/p&gt;
 
 &lt;p&gt;Primeiramente vamos instalar as dependencias:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;sudo apt-get install bzr scons build-essential libgtk2.0-dev libglade2-dev zlib1g-dev libbz2-dev libssl-dev
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;sudo apt-get install bzr scons build-essential libgtk2.0-dev libglade2-dev zlib1g-dev libbz2-dev libssl-dev
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Como é possível notar acima, estamos instalando tambem o
 &lt;a title="Bazaar version control" href="http://bazaar-vcs.org/"&gt;Bazaar&lt;/a&gt;, que é o
 software de controle de versão que o DC++ utiliza, infelizmente ainda
 não tem os binarios para nenhuma distribuição por que ele ainda está
 em alpha, por isso temos que fazer o download direto pelo Bazaar!&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;bzr branch lp:linuxdcpp
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;bzr branch lp:linuxdcpp
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Agora temos um branch local do DC++ no nosso computador, portanto é só
 entrar na pasta e instalar:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
 2
-3&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;cd linuxdcpp
+3
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;cd linuxdcpp
 scons release=1 PREFIX=/usr/local
 sudo scons install
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Veja que criei um &amp;ldquo;PREFIX&amp;rdquo; para instalar em /usr/local. =)&lt;/p&gt;
 
 &lt;p&gt;Agora seu DC++ já está instalado e você pode executar ele usando o
 comando:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;linuxdcpp
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;linuxdcpp
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;E pronto!&lt;/p&gt;
 
 &lt;p&gt;Agora é só clicar no botão connect e conectar ao endereço de
@@ -5534,7 +5534,7 @@ Party!&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/02/06/ruby-e-rails-no-mundo-real.html"/>
     <id>http://pothix.com/2009/02/06/ruby-e-rails-no-mundo-real.html</id>
     <published>2009-02-05T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -5591,7 +5591,7 @@ com as novidades do evento.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/01/30/vivo-online-agora-funciona-no-firefox-safari.html"/>
     <id>http://pothix.com/2009/01/30/vivo-online-agora-funciona-no-firefox-safari.html</id>
     <published>2009-01-29T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -5622,7 +5622,7 @@ prestando maus serviços.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/01/26/campus-party-2009.html"/>
     <id>http://pothix.com/2009/01/26/campus-party-2009.html</id>
     <published>2009-01-25T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -5920,7 +5920,7 @@ evento para mim foi muito bom!&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/01/13/usuarios-resolvem-os-problemas-da-vivo.html"/>
     <id>http://pothix.com/2009/01/13/usuarios-resolvem-os-problemas-da-vivo.html</id>
     <published>2009-01-12T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -5971,7 +5971,7 @@ e a parabenização ao &lt;a title="Site do Diogo" href="http://diogosantos.com/
     <link rel="alternate" href="http://pothix.com/2009/01/07/deploying-a-simple-merb-application-on-locaweb.html"/>
     <id>http://pothix.com/2009/01/07/deploying-a-simple-merb-application-on-locaweb.html</id>
     <published>2009-01-06T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -6002,17 +6002,17 @@ public_html of your account (this directory don&amp;rsquo;t need to exist).&lt;/
 &lt;p&gt;Transfer your application to this directory on your host. For this
 example, lets say that your application is called &amp;ldquo;sample&lt;em&gt;merb&amp;rdquo;, so,
 connect via SSH on your account and create the directory &amp;ldquo;rack&lt;/em&gt;app&amp;rdquo;:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;mkdir -p rack_app/sample_merb
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;mkdir -p rack_app/sample_merb
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;And move your application to there.&lt;/p&gt;
 
 &lt;p&gt;Your application must to have a file called &amp;ldquo;config.ru&amp;rdquo; to be executed
 by Phusion Passenger, so, you need to create this file on your
 application folder (rack&lt;em&gt;app/sample&lt;/em&gt;merb on this case) with this
 content:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
 2
 3
 4
@@ -6020,7 +6020,8 @@ content:&lt;/p&gt;
 6
 7
 8
-9&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;require 'rubygems'
+9
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;require 'rubygems'
 require 'merb-core'
 
 Merb::Config.setup(:merb_root   =&amp;gt; “.”, :environment =&amp;gt;; ENV['RACK_ENV'])
@@ -6030,23 +6031,22 @@ Merb.root = Merb::Config[:merb_root]
 Merb::BootLoader.run
 run Merb::Rack::Application.new
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Now you need to create a symbolic link on your public_html diretory,
 as you have configured on your Domain Manager (gerenciador de domínios)
 of Locaweb Panel.&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;ln -s ~/rack_app/sample_merb/public ~/public_html/sample_merb
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;ln -s ~/rack_app/sample_merb/public ~/public_html/sample_merb
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;By using this simple configuration you will have your application
 pointed by apache with Phusion Passenger.&lt;/p&gt;
 
 &lt;p&gt;Just to you know, you can see the merb gems that are installed with:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;gem list | grep merb
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;gem list | grep merb
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Hope this help you on how to make your simple application works on Locaweb. ;)&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Old comments by: website erstellen lassen, Vikki Guitreau | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
@@ -6057,7 +6057,7 @@ pointed by apache with Phusion Passenger.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/12/21/configurando-seu-git-para-comecar-a-usar.html"/>
     <id>http://pothix.com/2008/12/21/configurando-seu-git-para-comecar-a-usar.html</id>
     <published>2008-12-20T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -6080,32 +6080,32 @@ instalação referente ao seu sistema operacional.&lt;/p&gt;
 &lt;p&gt;Vamos as configurações:&lt;/p&gt;
 
 &lt;p&gt;Primeiramente precisamos de configurar o nosso nome e e-mail:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;git config --global user.name "PotHix"
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;git config --global user.name "PotHix"
 git config --global user.email "PotHix@pothix.com"
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Algora alguns Alias para facilitar:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
 2
 3
-4&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;git config --global alias.st status
+4
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;git config --global alias.st status
 git config --global alias.co checkout
 git config --global alias.ci commit
 git config --global alias.br branch
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Agora algumas cores para facilitar a leitura quando digitarmos os comandos:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
 2
-3&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;git config --global color.status auto
+3
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;git config --global color.status auto
 git config --global color.branch auto
 git config --global color.diff auto
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Podemos já criar um projeto simples e enviar para o
 &lt;a href="http://github.com"&gt;GitHub&lt;/a&gt; assim como eu fiz no
 &lt;a href="http://pothix.com/blog/git/iniciando-seu-primeiro-projeto-no-github"&gt;post anterior&lt;/a&gt;
@@ -6123,7 +6123,7 @@ legal para começar.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/12/21/iniciando-seu-primeiro-projeto-no-github.html"/>
     <id>http://pothix.com/2008/12/21/iniciando-seu-primeiro-projeto-no-github.html</id>
     <published>2008-12-20T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -6142,15 +6142,15 @@ aparecer os campos para inserir a mesma.&lt;/p&gt;
 
 &lt;p&gt;Você pode encontrar a sua public key no diretório &lt;code&gt;~/.ssh&lt;/code&gt; com o
 comando:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;cat id_rsa.pub
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;cat id_rsa.pub
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Caso ele não exista basta acessar sua home (~) e cria-lo com:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;ssh-keygen -t rsa
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;ssh-keygen -t rsa
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;strong&gt;OBS&lt;/strong&gt;: Eu tenho &lt;a href="http://pothix.com/blog/slackware/deixando-seu-ssh-mais-facil-de-trabalhar"&gt;um post&lt;/a&gt;
 com mais informações sobre chave e SSH.&lt;/p&gt;
 
@@ -6163,42 +6163,42 @@ GitHub" href="http://github.com/repositories/new"&gt;por aqui&lt;/a&gt;:&lt;/p&g
 código, que por sinal ainda não existe, portanto&amp;hellip;.Vamos criá-lo! :)&lt;/p&gt;
 
 &lt;p&gt;Primeiramente crie um diretório qualquer:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;mkdir codes
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;mkdir codes
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Acesse o diretório:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;cd codes
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;cd codes
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;E vamos iniciar o git nesse repositório:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;git init
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;git init
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Coloque aqui seu arquivo de código (não necessáriamente código, mas
 nesse caso vamos usar código ;)) e vamos adicioná-lo ao git:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;git add mycode.rb (obs: Ruby o/)
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;git add mycode.rb (obs: Ruby o/)
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Agora vamos dar um commit do que fizemos usando &amp;ldquo;-m&amp;rdquo; para deixar uma
 mensagem do motivo do commit:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;git commit -m "Meu primeiro commit"
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;git commit -m "Meu primeiro commit"
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Agora vamos adicionar como origem o nosso projeto criado no GitHub:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;git remote add origin git@github.com:seu-usuario-no-GitHub/nome-do-repositorio-criado.git
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;git remote add origin git@github.com:seu-usuario-no-GitHub/nome-do-repositorio-criado.git
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;E depois é só dar um:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;git push origin master
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;git push origin master
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;E lá está o seu código no GitHub! :)&lt;/p&gt;
 
 &lt;p&gt;Tudo que eu falei aqui está no tutorial do GitHub quando você cria um
@@ -6217,7 +6217,7 @@ quando lhe falarem de GitHub.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/12/11/ir-alem-do-basico-tambem-e-gratis.html"/>
     <id>http://pothix.com/2008/12/11/ir-alem-do-basico-tambem-e-gratis.html</id>
     <published>2008-12-10T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -6301,7 +6301,7 @@ recadinhos com as peguetes&amp;rdquo;&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/11/29/montando-imagens-do-nero-nrg-no-linux.html"/>
     <id>http://pothix.com/2008/11/29/montando-imagens-do-nero-nrg-no-linux.html</id>
     <published>2008-11-28T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -6314,238 +6314,35 @@ arquivos que você tinha pedido&amp;hellip; É um hack bem fácil!&lt;/p&gt;
 &lt;p&gt;Primeiro instale o nrg2iso&lt;/p&gt;
 
 &lt;h4&gt;No Ubuntu&lt;/h4&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;# apt-get install nrg2iso
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;# apt-get install nrg2iso
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h4&gt;No Slackware&lt;/h4&gt;
 
 &lt;p&gt;Baixando o &lt;a href="http://www.linuxpackages.net/pkg_details.php?id=12493"&gt;pacote no Linux Packages&lt;/a&gt;
 e instalando normalmente com:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;# installpkg nrg2iso-versao.tgz
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;# installpkg nrg2iso-versao.tgz
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h3&gt;Utilização&lt;/h3&gt;
 
 &lt;p&gt;Agora já podemos utilizar o nrg3iso para converter nossa imagem:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;$ nrg2iso imagem.nrg novaimagem.iso
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;$ nrg2iso imagem.nrg novaimagem.iso
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;E já temos nossa imagem convertida como novaimagem&lt;strong&gt;.iso&lt;/strong&gt; e podemos
 montar nossa imagem normalmente em alguma pasta, como por exemplo
 /mnt/dirImagemMontada&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;# mount -o loop -t iso9660 imagem.iso /mnt/dirImagemMontada
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;# mount -o loop -t iso9660 imagem.iso /mnt/dirImagemMontada
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;E pronto! Lá estarão seus arquivos para você brincar! ;)&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Old comments by: Anderson Kemper, crebin | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Como são os primeiros passos de um Linuxer</title>
-    <link rel="alternate" href="http://pothix.com/2008/11/29/como-sao-os-primeiros-passos-de-um-linuxer.html"/>
-    <id>http://pothix.com/2008/11/29/como-sao-os-primeiros-passos-de-um-linuxer.html</id>
-    <published>2008-11-28T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
-    <author>
-      <name>Willian Molinari (a.k.a PotHix)</name>
-    </author>
-    <content type="html">&lt;p&gt;Nesse post eu vou contar um pouco de como são os primeiros passos de
-alguem que quer mesmo brincar com Linux. No caso vou falar como &lt;strong&gt;eu&lt;/strong&gt;
-comecei com o Linux! Vamos lá! :)&lt;/p&gt;
-
-&lt;p&gt;Eu sempre ouvia falar de Linux quando eu lia Livros sobre segurança e
-tudo mais, portanto sempre tinha vontade de utilizar&amp;hellip; Meu primeiro
-contato direto com Linux foi em 2004, mas nessa época eu ainda era bem
-fanático por jogos de computador, o que me fez continuar no Windows
-por um tempo.&lt;/p&gt;
-
-&lt;p&gt;No meio de 2005 eu comecei a utilizar a minha primeira distro de Linux,
-que foi o &lt;a title="Kurumin" href="http://www.gdhpress.com.br/kurumin/"&gt;Kurumin&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;Ele seguia o mesmo caminho que o &lt;a href="http://www.ubuntu.com"&gt;Ubuntu&lt;/a&gt;
-segue hoje, que é facilitar o Linux para o usuário
-doméstico, ele era até bem legal, mas na época eu sofria muito por ter
-internet discada, e nos tempos com Linux é muito difícil,
-principalmente para um usuário inexperiente.&lt;/p&gt;
-
-&lt;p&gt;Na época eu não podia ter banda larga por vários motivos, portanto a
-única solução era a discada mesmo, então eu tentei várias formas para
-sobreviver com Linux assim, testei várias versões do Kurumin, peguei
-vários softmodens emprestados para saber qual funcionaria bem, comprei
-um hardmodem USRobotics para ver se conseguia fazer funcionar 100%,
-mas não adiantou muita coisa&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Mesmo com os meus problemas com internet discada, essa foi a época que
-eu aboli de vez o Windows e fiquei somente com o Kurumin na minha
-maquina, pois eu descobri que o Kurumin 4.2 funcionava com meu moden
-Intel537Ep.&lt;/p&gt;
-
-&lt;p&gt;Posteriormente quando comecei a fazer
-&lt;a href="http://www.centropaulasouza.sp.gov.br/Ete/Escolas/Metrop_Sao_Paulo/Diadema_ETEC_Diadema.html"&gt;ETE&lt;/a&gt;,
-e lá eu tinha matérias como C# e VB.net onde eu tinha que usar o
-&lt;a href="http://msdn.microsoft.com/en-us/vstudio/default.aspx"&gt;Visual Studio&lt;/a&gt;,
-portanto precisava do Windows instalado novamente, e
-ainda por cima consegui meu primeiro trabalho com programação (uhuu!)
-trabalhando com ASP e VB.NET (duuhhp) , portanto fui obrigado a
-voltar para o Windows, e mesmo com dual boot o Kurumin um pouco de
-lado.&lt;/p&gt;
-
-&lt;p&gt;Durante a ETE tive um trabalho sobre o Linux para fazer, onde tive que
-conhecer melhor o Kalango&amp;hellip; Instalei ele, dei uma brincada, mas
-realmente não gostei da distro&amp;hellip; Se fosse para utilizar o Kalango eu
-ficava no Kurumin mesmo.&lt;/p&gt;
-
-&lt;p&gt;Durante esse tempo eu tambem tentei brincar com o Slackware, mas
-devido a internet (novamente) eu não tive a menor chance contra
-ele&amp;hellip; Minha experiência era muito pouca para poder fazer funcionar um
-modem para acesso discado no Slack. :P&lt;/p&gt;
-
-&lt;p&gt;Quando finalmente consegui ter internet banda larga eu já resolvi
-extrapolar para aprender e usar o Slackware de vez! :)&lt;/p&gt;
-
-&lt;p&gt;Foi a época que eu penei bastante para aprender coisas simples que eu
-não tinha noção e que o Slackware deixa para vc se virar ao invés de
-tentar fazer com alguma fórmula mágica, e esse foi o principal motivo
-de eu usar Slackware, para saber onde e porque as coisas acontecem.&lt;/p&gt;
-
-&lt;p&gt;Agora com a internet banda larga (não tãão larga assim)
-funcionando ficou bem mais fácil de usar Slackware, afinal, se tinha
-alguma coisa que eu não sabia era só pesquisar sobre o assunto ou
-perguntar para o pessoal da comunidade, e assim eu conseguia resolver
-os pequenos probleminhas aos poucos.&lt;/p&gt;
-
-&lt;p&gt;Agora que já conhecia um pouco mais e minha experiência tinha
-aumentado um pouco eu resolvi testar outros Window Managers! Eu queria
-algo mais leve que o &lt;a title="KDE official page" href="http://www.kde.org/"&gt;KDE&lt;/a&gt;
-(que eu sempre utilizei), queria algo minimalista, algo simples, curto
-e grosso, e foi então que eu achei o &lt;a href="http://fluxbox.org/"&gt;Fluxbox&lt;/a&gt;
-e descobri que eu poderia ter um Window
-Manager totalmente configurável, leve, bonito (se você quiser
-deixá-lo assim) e funcional, portanto defini ele como meu WM
-principal e ainda uso só o Flux até hoje no Slackware.&lt;/p&gt;
-
-&lt;p&gt;Durante o final de 2006 e o meio do ano de 2007 eu utilizei pouco o
-Linux por 2 motivos:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Devido a ETE que pedia muito coisas de Windows e portanto eu não gostava de ter de ficar trocando de sistema operacional a todo momento.&lt;/li&gt;
-&lt;li&gt;Comprei um Palm T|X e na época eu estava começando a brincar com o bichinho e usar o Palm Desktop&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Nessa época tive um problema e formatei o computador por completo,
-portanto perdi meu Slackware que estava configuradinho e perdi meus
-arquivos do Windows, portanto tive que refazer todas as instalações,
-mas eu estava sem tempo para configurar o Slackware novamente para
-deixar como eu queria, portanto ele ficou de lado até que eu
-conseguisse tempo novamente.&lt;/p&gt;
-
-&lt;p&gt;Com o fim do meu curso na ETE em julho de 2007, meu tempo retornou e
-pude voltar a brincar com o Slackware novamente, mesmo trabalhando com
-tecnologia Microsoft, sempre que eu podia brincar com meu Linux eu
-brincava, e deixava o Windows para trabalhar e para video game.&lt;/p&gt;
-
-&lt;p&gt;Em 2008 eu iniciei meu curso de
-&lt;a href="http://www.fsa.br/conteudo/index.asp?c=2&amp;amp;amp;s=13&amp;amp;amp;ss=185"&gt;Sistemas de informação na Fundação Santo André&lt;/a&gt;,
-e nos primeiros dias me vem uma pequena decepção que eu não
-esperava&amp;hellip;As minhas aulas de programação são em VB.net novamente,
-portanto eu não tenho como fugir do windows por mais 1 ano&amp;hellip;E o pior
-de tudo, pensei que fosse encontrar bem mais pessoas com mente aberta
-para coisas diferentes, filosofias diferentes, mas não foi bem assim
-que as coisas de aconteceram&amp;hellip;Mas enfim, não é o assunto desse post
-;)&lt;/p&gt;
-
-&lt;p&gt;Durante esse ano que eu pensei que ia deixar o Linux de lado
-novamente, mas aconteceram muitas coisas legais, como por exemplo eu
-mudar de emprego (uhuu!) e agora trabalhar com
-&lt;a title="Ruby On Rails" href="http://www.rubyonrails.org/"&gt;tecnologia&lt;/a&gt;
-&lt;a title="Ruby" href="http://www.ruby-lang.org/en/"&gt;Open&lt;/a&gt;
-&lt;a title="PHP" href="http://www.php.net/"&gt;Source&lt;/a&gt; (uhuuu!)², e portanto eu tenho
-meu Slackware instalado no computador do trabalho, e comprei um
-notebook, onde instalei o Ubuntu linux, tanto para conhecer como
-também para facilitar algumas coisas, assim eu posso conhecer tanto o
-modo Slackware de fazer as coisas como o modo rápido, fácil e mágico
-do Ubuntu.&lt;/p&gt;
-
-&lt;p&gt;Hoje vivo feliz e contente brincando com meu Slackware e meu Ubuntu, e
-não preciso mais do Windows para nada além do que é pedido (Visual
-Studio&amp;hellip;) na Faculdade, e isso me deixa muito contente.&lt;/p&gt;
-
-&lt;p&gt;No fim das contas o que esse post vem dizer é o seguinte: Se você acha
-o Linux legal use, persista, conheça coisas diferentes, caso não seja
-possível nesse momento tudo bem, mas deixe na sua lista de coisas a
-fazer e assim que possível volte, que você vai descobrindo a
-quantidade de coisas legais que você pode ter nesse sistema.&lt;/p&gt;
-
-&lt;p&gt;Espero que isso tudo seja útil para alguem! ;)&lt;/p&gt;
-
-&lt;p&gt;Keep going in the good way!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Utilizando o sshfs</title>
-    <link rel="alternate" href="http://pothix.com/2008/11/29/utilizando-o-sshfs.html"/>
-    <id>http://pothix.com/2008/11/29/utilizando-o-sshfs.html</id>
-    <published>2008-11-28T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
-    <author>
-      <name>Willian Molinari (a.k.a PotHix)</name>
-    </author>
-    <content type="html">&lt;p&gt;Estou utilizando bastante o
-&lt;a title="sshfs" href="http://fuse.sourceforge.net/sshfs.html"&gt;sshfs&lt;/a&gt; para
-transferir alguns arquivos para o servidor, ao invés de utilizar o bom
-e velho scp, por questão de ficar mais prático e facil a cópia de
-vários arquivos para diretórios distintos.&lt;/p&gt;
-
-&lt;p&gt;O que facilita bastante é utilizar a sua chave privada ( explicado por
-mim &lt;a href="http://pothix.com/blog/slackware/deixando-seu-ssh-mais-facil-de-trabalhar"&gt;nesse tópico&lt;/a&gt;)
-para montar os seus diretórios sshfs, assim você terá o diretório do
-servidor montado facilmente em seu computador e poderá enviar arquivos
-para esse diretório e seus sub-diretórios como se estivesse copiando
-arquivos para outro diretório qualquer.&lt;/p&gt;
-
-&lt;h3&gt;Instalação&lt;/h3&gt;
-
-&lt;p&gt;Se você está no Ubuntu as coisas são fáceis e práticas, com o bom e velho apt-get:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;# apt-get install sshfs
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Agora se você utiliza Slackware temos alguns passos a mais, mas nada
-que lhe faça arrancar os cabelos ;)&lt;/p&gt;
-
-&lt;p&gt;Primeiramente instale o
-&lt;a href="http://slackbuilds.org/repository/12.0/system/fuse/"&gt;fuse&lt;/a&gt; no
-&lt;a title="Facilitando a instalação no Slackware" href="http://pothix.com/blog/slackware/facilitando-a-instalacao-no-slackware"&gt;velho esquema SlackBuilds&lt;/a&gt;
-(ou outro se preferir).&lt;/p&gt;
-
-&lt;p&gt;Depois instale o
-&lt;a href="http://www.linuxpackages.net/search_view.php?by=name&amp;amp;amp;name=sshfs&amp;amp;amp;ver=12.1"&gt;sshfs&lt;/a&gt;
-(dessa vez do Linux Packages para mudar um pouco)&lt;/p&gt;
-
-&lt;h3&gt;Utilização&lt;/h3&gt;
-
-&lt;p&gt;Primeiramente temos que subir o módulo do fuse:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;# modprobe fuse
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Essa tarefa pode ser automátizada posteriormente descomentando esse
-módulo no &lt;code&gt;/etc/rc.d/rc.modules&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;E com isso já podemos usar o nosso sshfs! :)&lt;/p&gt;
-
-&lt;p&gt;Eu costumo utilizar com os seguintes parâmetros:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;sshfs root@server:/local/da/pasta/no/server /local/da/minha/pasta/local -o reconnect,sshfs_sync
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;E agora é só correr para o abraço e ter o seu diretório do servidor
-montado localmente para cópia de arquivos.&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -6553,7 +6350,7 @@ montado localmente para cópia de arquivos.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/11/29/a-facilidade-do-ubuntu.html"/>
     <id>http://pothix.com/2008/11/29/a-facilidade-do-ubuntu.html</id>
     <published>2008-11-28T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -6605,10 +6402,10 @@ facilita muita coisa em diversas tarefas rapidamente.&lt;/p&gt;
 &lt;p&gt;Podemos instalar novos programas rapidamente pelo terminal com um
 simples comando! Digamos que queremos instalar o Inkscape para brincar
 de fazer uns desenhos vetoriais, é moleza:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;$ sudo apt-get install inkscape
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;$ sudo apt-get install inkscape
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Pronto! Ele vai te dar informações sobre o pacote e perguntar se você
 quer mesmo instalar o pacote que ele mostrou as informações ( caso
 tenha digitado errado não instalar um pacote qualquer ), e é só
@@ -6769,11 +6566,214 @@ possível para responder.&lt;/p&gt;
 </content>
   </entry>
   <entry>
+    <title>Utilizando o sshfs</title>
+    <link rel="alternate" href="http://pothix.com/2008/11/29/utilizando-o-sshfs.html"/>
+    <id>http://pothix.com/2008/11/29/utilizando-o-sshfs.html</id>
+    <published>2008-11-28T22:00:00-02:00</published>
+    <updated>2016-09-25T19:24:29-03:00</updated>
+    <author>
+      <name>Willian Molinari (a.k.a PotHix)</name>
+    </author>
+    <content type="html">&lt;p&gt;Estou utilizando bastante o
+&lt;a title="sshfs" href="http://fuse.sourceforge.net/sshfs.html"&gt;sshfs&lt;/a&gt; para
+transferir alguns arquivos para o servidor, ao invés de utilizar o bom
+e velho scp, por questão de ficar mais prático e facil a cópia de
+vários arquivos para diretórios distintos.&lt;/p&gt;
+
+&lt;p&gt;O que facilita bastante é utilizar a sua chave privada ( explicado por
+mim &lt;a href="http://pothix.com/blog/slackware/deixando-seu-ssh-mais-facil-de-trabalhar"&gt;nesse tópico&lt;/a&gt;)
+para montar os seus diretórios sshfs, assim você terá o diretório do
+servidor montado facilmente em seu computador e poderá enviar arquivos
+para esse diretório e seus sub-diretórios como se estivesse copiando
+arquivos para outro diretório qualquer.&lt;/p&gt;
+
+&lt;h3&gt;Instalação&lt;/h3&gt;
+
+&lt;p&gt;Se você está no Ubuntu as coisas são fáceis e práticas, com o bom e velho apt-get:&lt;/p&gt;
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;# apt-get install sshfs
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Agora se você utiliza Slackware temos alguns passos a mais, mas nada
+que lhe faça arrancar os cabelos ;)&lt;/p&gt;
+
+&lt;p&gt;Primeiramente instale o
+&lt;a href="http://slackbuilds.org/repository/12.0/system/fuse/"&gt;fuse&lt;/a&gt; no
+&lt;a title="Facilitando a instalação no Slackware" href="http://pothix.com/blog/slackware/facilitando-a-instalacao-no-slackware"&gt;velho esquema SlackBuilds&lt;/a&gt;
+(ou outro se preferir).&lt;/p&gt;
+
+&lt;p&gt;Depois instale o
+&lt;a href="http://www.linuxpackages.net/search_view.php?by=name&amp;amp;amp;name=sshfs&amp;amp;amp;ver=12.1"&gt;sshfs&lt;/a&gt;
+(dessa vez do Linux Packages para mudar um pouco)&lt;/p&gt;
+
+&lt;h3&gt;Utilização&lt;/h3&gt;
+
+&lt;p&gt;Primeiramente temos que subir o módulo do fuse:&lt;/p&gt;
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;# modprobe fuse
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Essa tarefa pode ser automátizada posteriormente descomentando esse
+módulo no &lt;code&gt;/etc/rc.d/rc.modules&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;E com isso já podemos usar o nosso sshfs! :)&lt;/p&gt;
+
+&lt;p&gt;Eu costumo utilizar com os seguintes parâmetros:&lt;/p&gt;
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;sshfs root@server:/local/da/pasta/no/server /local/da/minha/pasta/local -o reconnect,sshfs_sync
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;E agora é só correr para o abraço e ter o seu diretório do servidor
+montado localmente para cópia de arquivos.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Como são os primeiros passos de um Linuxer</title>
+    <link rel="alternate" href="http://pothix.com/2008/11/29/como-sao-os-primeiros-passos-de-um-linuxer.html"/>
+    <id>http://pothix.com/2008/11/29/como-sao-os-primeiros-passos-de-um-linuxer.html</id>
+    <published>2008-11-28T22:00:00-02:00</published>
+    <updated>2016-09-25T19:24:29-03:00</updated>
+    <author>
+      <name>Willian Molinari (a.k.a PotHix)</name>
+    </author>
+    <content type="html">&lt;p&gt;Nesse post eu vou contar um pouco de como são os primeiros passos de
+alguem que quer mesmo brincar com Linux. No caso vou falar como &lt;strong&gt;eu&lt;/strong&gt;
+comecei com o Linux! Vamos lá! :)&lt;/p&gt;
+
+&lt;p&gt;Eu sempre ouvia falar de Linux quando eu lia Livros sobre segurança e
+tudo mais, portanto sempre tinha vontade de utilizar&amp;hellip; Meu primeiro
+contato direto com Linux foi em 2004, mas nessa época eu ainda era bem
+fanático por jogos de computador, o que me fez continuar no Windows
+por um tempo.&lt;/p&gt;
+
+&lt;p&gt;No meio de 2005 eu comecei a utilizar a minha primeira distro de Linux,
+que foi o &lt;a title="Kurumin" href="http://www.gdhpress.com.br/kurumin/"&gt;Kurumin&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;Ele seguia o mesmo caminho que o &lt;a href="http://www.ubuntu.com"&gt;Ubuntu&lt;/a&gt;
+segue hoje, que é facilitar o Linux para o usuário
+doméstico, ele era até bem legal, mas na época eu sofria muito por ter
+internet discada, e nos tempos com Linux é muito difícil,
+principalmente para um usuário inexperiente.&lt;/p&gt;
+
+&lt;p&gt;Na época eu não podia ter banda larga por vários motivos, portanto a
+única solução era a discada mesmo, então eu tentei várias formas para
+sobreviver com Linux assim, testei várias versões do Kurumin, peguei
+vários softmodens emprestados para saber qual funcionaria bem, comprei
+um hardmodem USRobotics para ver se conseguia fazer funcionar 100%,
+mas não adiantou muita coisa&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Mesmo com os meus problemas com internet discada, essa foi a época que
+eu aboli de vez o Windows e fiquei somente com o Kurumin na minha
+maquina, pois eu descobri que o Kurumin 4.2 funcionava com meu moden
+Intel537Ep.&lt;/p&gt;
+
+&lt;p&gt;Posteriormente quando comecei a fazer
+&lt;a href="http://www.centropaulasouza.sp.gov.br/Ete/Escolas/Metrop_Sao_Paulo/Diadema_ETEC_Diadema.html"&gt;ETE&lt;/a&gt;,
+e lá eu tinha matérias como C# e VB.net onde eu tinha que usar o
+&lt;a href="http://msdn.microsoft.com/en-us/vstudio/default.aspx"&gt;Visual Studio&lt;/a&gt;,
+portanto precisava do Windows instalado novamente, e
+ainda por cima consegui meu primeiro trabalho com programação (uhuu!)
+trabalhando com ASP e VB.NET (duuhhp) , portanto fui obrigado a
+voltar para o Windows, e mesmo com dual boot o Kurumin um pouco de
+lado.&lt;/p&gt;
+
+&lt;p&gt;Durante a ETE tive um trabalho sobre o Linux para fazer, onde tive que
+conhecer melhor o Kalango&amp;hellip; Instalei ele, dei uma brincada, mas
+realmente não gostei da distro&amp;hellip; Se fosse para utilizar o Kalango eu
+ficava no Kurumin mesmo.&lt;/p&gt;
+
+&lt;p&gt;Durante esse tempo eu tambem tentei brincar com o Slackware, mas
+devido a internet (novamente) eu não tive a menor chance contra
+ele&amp;hellip; Minha experiência era muito pouca para poder fazer funcionar um
+modem para acesso discado no Slack. :P&lt;/p&gt;
+
+&lt;p&gt;Quando finalmente consegui ter internet banda larga eu já resolvi
+extrapolar para aprender e usar o Slackware de vez! :)&lt;/p&gt;
+
+&lt;p&gt;Foi a época que eu penei bastante para aprender coisas simples que eu
+não tinha noção e que o Slackware deixa para vc se virar ao invés de
+tentar fazer com alguma fórmula mágica, e esse foi o principal motivo
+de eu usar Slackware, para saber onde e porque as coisas acontecem.&lt;/p&gt;
+
+&lt;p&gt;Agora com a internet banda larga (não tãão larga assim)
+funcionando ficou bem mais fácil de usar Slackware, afinal, se tinha
+alguma coisa que eu não sabia era só pesquisar sobre o assunto ou
+perguntar para o pessoal da comunidade, e assim eu conseguia resolver
+os pequenos probleminhas aos poucos.&lt;/p&gt;
+
+&lt;p&gt;Agora que já conhecia um pouco mais e minha experiência tinha
+aumentado um pouco eu resolvi testar outros Window Managers! Eu queria
+algo mais leve que o &lt;a title="KDE official page" href="http://www.kde.org/"&gt;KDE&lt;/a&gt;
+(que eu sempre utilizei), queria algo minimalista, algo simples, curto
+e grosso, e foi então que eu achei o &lt;a href="http://fluxbox.org/"&gt;Fluxbox&lt;/a&gt;
+e descobri que eu poderia ter um Window
+Manager totalmente configurável, leve, bonito (se você quiser
+deixá-lo assim) e funcional, portanto defini ele como meu WM
+principal e ainda uso só o Flux até hoje no Slackware.&lt;/p&gt;
+
+&lt;p&gt;Durante o final de 2006 e o meio do ano de 2007 eu utilizei pouco o
+Linux por 2 motivos:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Devido a ETE que pedia muito coisas de Windows e portanto eu não gostava de ter de ficar trocando de sistema operacional a todo momento.&lt;/li&gt;
+&lt;li&gt;Comprei um Palm T|X e na época eu estava começando a brincar com o bichinho e usar o Palm Desktop&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Nessa época tive um problema e formatei o computador por completo,
+portanto perdi meu Slackware que estava configuradinho e perdi meus
+arquivos do Windows, portanto tive que refazer todas as instalações,
+mas eu estava sem tempo para configurar o Slackware novamente para
+deixar como eu queria, portanto ele ficou de lado até que eu
+conseguisse tempo novamente.&lt;/p&gt;
+
+&lt;p&gt;Com o fim do meu curso na ETE em julho de 2007, meu tempo retornou e
+pude voltar a brincar com o Slackware novamente, mesmo trabalhando com
+tecnologia Microsoft, sempre que eu podia brincar com meu Linux eu
+brincava, e deixava o Windows para trabalhar e para video game.&lt;/p&gt;
+
+&lt;p&gt;Em 2008 eu iniciei meu curso de
+&lt;a href="http://www.fsa.br/conteudo/index.asp?c=2&amp;amp;amp;s=13&amp;amp;amp;ss=185"&gt;Sistemas de informação na Fundação Santo André&lt;/a&gt;,
+e nos primeiros dias me vem uma pequena decepção que eu não
+esperava&amp;hellip;As minhas aulas de programação são em VB.net novamente,
+portanto eu não tenho como fugir do windows por mais 1 ano&amp;hellip;E o pior
+de tudo, pensei que fosse encontrar bem mais pessoas com mente aberta
+para coisas diferentes, filosofias diferentes, mas não foi bem assim
+que as coisas de aconteceram&amp;hellip;Mas enfim, não é o assunto desse post
+;)&lt;/p&gt;
+
+&lt;p&gt;Durante esse ano que eu pensei que ia deixar o Linux de lado
+novamente, mas aconteceram muitas coisas legais, como por exemplo eu
+mudar de emprego (uhuu!) e agora trabalhar com
+&lt;a title="Ruby On Rails" href="http://www.rubyonrails.org/"&gt;tecnologia&lt;/a&gt;
+&lt;a title="Ruby" href="http://www.ruby-lang.org/en/"&gt;Open&lt;/a&gt;
+&lt;a title="PHP" href="http://www.php.net/"&gt;Source&lt;/a&gt; (uhuuu!)², e portanto eu tenho
+meu Slackware instalado no computador do trabalho, e comprei um
+notebook, onde instalei o Ubuntu linux, tanto para conhecer como
+também para facilitar algumas coisas, assim eu posso conhecer tanto o
+modo Slackware de fazer as coisas como o modo rápido, fácil e mágico
+do Ubuntu.&lt;/p&gt;
+
+&lt;p&gt;Hoje vivo feliz e contente brincando com meu Slackware e meu Ubuntu, e
+não preciso mais do Windows para nada além do que é pedido (Visual
+Studio&amp;hellip;) na Faculdade, e isso me deixa muito contente.&lt;/p&gt;
+
+&lt;p&gt;No fim das contas o que esse post vem dizer é o seguinte: Se você acha
+o Linux legal use, persista, conheça coisas diferentes, caso não seja
+possível nesse momento tudo bem, mas deixe na sua lista de coisas a
+fazer e assim que possível volte, que você vai descobrindo a
+quantidade de coisas legais que você pode ter nesse sistema.&lt;/p&gt;
+
+&lt;p&gt;Espero que isso tudo seja útil para alguem! ;)&lt;/p&gt;
+
+&lt;p&gt;Keep going in the good way!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Deixando seu ssh mais facil de trabalhar</title>
     <link rel="alternate" href="http://pothix.com/2008/11/27/deixando-seu-ssh-mais-facil-de-trabalhar.html"/>
     <id>http://pothix.com/2008/11/27/deixando-seu-ssh-mais-facil-de-trabalhar.html</id>
     <published>2008-11-26T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -6785,16 +6785,16 @@ screen para se manter conectado, mas eu como conecto de vez em quando
 para ver algo em algum dos servidores prefiro configurar desse modo.&lt;/p&gt;
 
 &lt;p&gt;A primeira coisa a se fazer é configurar o seu &lt;code&gt;.ssh/config&lt;/code&gt;&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
 2
 3
-4&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;Host server
+4
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;Host server
 Hostname 192.168.1.2
 User pothix
 ForwardAgent yes
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Sendo que Host é o que você vai usar quando for chamar por ssh (por
 exemplo &amp;ldquo;ssh server&amp;rdquo;), Hostname é o IP do server, User é o usuário no
 servidor e ForwardAgent para usar o nosso ssh-agent.&lt;/p&gt;
@@ -6808,19 +6808,19 @@ autenticação que gerencia as nossas conexões ssh na sua seção de
 terminal.&lt;/p&gt;
 
 &lt;p&gt;Primeiramente você deve iniciar o seu ssh-agent:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;$ eval -s `ssh-agent -s`
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;$ eval -s `ssh-agent -s`
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Isso via iniciar o seu &lt;code&gt;ssh-agent&lt;/code&gt; e já definir as variáveis de ambiente que ele precisa para funcionar na sua instancia atual do terminal.&lt;/p&gt;
 
 &lt;p&gt;Agora que já temos o nosso ssh-agent funcionando, vamos criar a nossa chave privada para utilizar:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;$ cd ~/.ssh
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;$ cd ~/.ssh
 $ ssh-keygen -t rsa -f minha-chave
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Com isso ele pedirá a a senha para sua chave e depois de você digitar
 e confirmar ele criará dois arquivos de chave:&lt;/p&gt;
 
@@ -6835,19 +6835,19 @@ identificação da sua chave, falaremos mais disso depois.&lt;/p&gt;
 
 &lt;p&gt;Agora com nossa chave em mãos já podemos acrescentar ela no nosso
 ssh-agent, utiliando o &lt;code&gt;ssh-add&lt;/code&gt;:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;$ ssh-add ~/.ssh/minha-chave
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;$ ssh-add ~/.ssh/minha-chave
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Ele vai pedir a senha da sua chave e depois vai adicionar ela no
 ssh-agent e agora é só alegria! :)&lt;/p&gt;
 
 &lt;p&gt;Agora vamos acessar o servidor que cadastramos no nosso
 &lt;code&gt;~/.ssh/config&lt;/code&gt;&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;$ ssh server
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;$ ssh server
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Lembra dele, que fizemos lá em cima? Pois é agora vamos acessar ele
 sem precisar ficar digitando a senha toda vez, apenas usando a nossa
 chave! :D&lt;/p&gt;
@@ -6869,7 +6869,7 @@ tambem. ;)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/11/13/ativando-numlock-na-inicializacao-do-fluxbox-no-slackware.html"/>
     <id>http://pothix.com/2008/11/13/ativando-numlock-na-inicializacao-do-fluxbox-no-slackware.html</id>
     <published>2008-11-12T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -6889,28 +6889,28 @@ que eu uso muito!&lt;/p&gt;
 
 &lt;p&gt;Após baixar o &lt;code&gt;numlockx.tar.gz&lt;/code&gt; e o numlockx-.version.tar.gz`
 vamos seguir os procedimentos do SlackBuilds:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
 2
 3
-4&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;$ tar xvf numlockx.tar.gz
+4
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;$ tar xvf numlockx.tar.gz
 $ mv numlockx-version.tar.gz numlockx
 $ cd numlockx
 # ./numlockx.SlackBuilds
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Pronto! Seu pacote já está no seu &lt;code&gt;/tmp&lt;/code&gt;! :)&lt;/p&gt;
 
 &lt;p&gt;Agora só instalar com o pkgtool:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;#installpkg numlockx.tgz
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;#installpkg numlockx.tgz
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Agora é só inserir a seguinte linha no seu &lt;code&gt;~/.xinitrc&lt;/code&gt;:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;exec numlockx &amp;amp;amp;&amp;lt;/code&amp;gt;
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;exec numlockx &amp;amp;amp;&amp;lt;/code&amp;gt;
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;E da próxima vez que inicar o seu Slack seu num vai acender
 automágicamente! :P&lt;/p&gt;
 </content>
@@ -6920,7 +6920,7 @@ automágicamente! :P&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/11/11/facilitando-a-instalacao-de-pacotes-no-slackware.html"/>
     <id>http://pothix.com/2008/11/11/facilitando-a-instalacao-de-pacotes-no-slackware.html</id>
     <published>2008-11-10T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -7006,17 +7006,17 @@ seu gerenciador de pacotes e tambem para que da próxima vez seja mais
 fácil instalá-lo.&lt;/p&gt;
 
 &lt;p&gt;A instalação segue padrão até o momento final:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;$ ./configure
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;$ ./configure
 $ make
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;E agora ao invés do nosso # make install usaremos:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;# checkinstall -S
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;# checkinstall -S
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;E assim ele vai criar um pacote Slackware no diretório e instalar. :)&lt;/p&gt;
 
 &lt;p&gt;Bem isso é só para dar uma idéia do que se pode fazer para deixar suas
@@ -7028,7 +7028,7 @@ instalações do Slackware mais rápidas.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/11/07/aprenda-ruby-no-rubylearning.html"/>
     <id>http://pothix.com/2008/11/07/aprenda-ruby-no-rubylearning.html</id>
     <published>2008-11-06T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -7092,7 +7092,7 @@ para conhecer mais sobre o Ruby, e se gostar pode pensar nos pagos.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/10/22/rails-summit-latin-amerira-day-2.html"/>
     <id>http://pothix.com/2008/10/22/rails-summit-latin-amerira-day-2.html</id>
     <published>2008-10-21T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -7250,7 +7250,7 @@ para esse projeto!&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/10/21/rails-summit-latin-america.html"/>
     <id>http://pothix.com/2008/10/21/rails-summit-latin-america.html</id>
     <published>2008-10-20T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>

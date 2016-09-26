@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://pothix.com/2015/10/08/experiences-of-almost-two-years-using-colemak.html"/>
     <id>http://pothix.com/2015/10/08/experiences-of-almost-two-years-using-colemak.html</id>
     <published>2015-10-07T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -80,7 +80,7 @@ about my journey is that &lt;strong&gt;I would do it again if I could&lt;/strong
     <link rel="alternate" href="http://pothix.com/2015/05/25/new-layout-of-pothix-blog.html"/>
     <id>http://pothix.com/2015/05/25/new-layout-of-pothix-blog.html</id>
     <published>2015-05-24T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -107,7 +107,7 @@ instead of keeping the wordpress &amp;ldquo;infrastructure&amp;rdquo;.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2013/12/03/golang-and-1-2-version-performance-improvement.html"/>
     <id>http://pothix.com/2013/12/03/golang-and-1-2-version-performance-improvement.html</id>
     <published>2013-12-02T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -122,7 +122,7 @@ just two native threads.&lt;/p&gt;
 and 1.2 and the results can be seen below.&lt;/p&gt;
 
 &lt;p&gt;Golang 1.1.2:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
 2
 3
 4
@@ -141,7 +141,8 @@ and 1.2 and the results can be seen below.&lt;/p&gt;
 17
 18
 19
-20&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;    (pprof) top10
+20
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;    (pprof) top10
     Total: 188701 samples
     137454  72.8%   72.8%   137454  72.8% crypto/des.permuteBlock
     44032   23.3%   96.2%   169187  89.7% crypto/des.feistel
@@ -162,10 +163,9 @@ and 1.2 and the results can be seen below.&lt;/p&gt;
     %Cpu0  :100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
     %Cpu1  : 95.0 us,  3.0 sy,  0.0 ni,  2.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Golang 1.2:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
 2
 3
 4
@@ -183,7 +183,8 @@ and 1.2 and the results can be seen below.&lt;/p&gt;
 16
 17
 18
-19&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;    (pprof) top10
+19
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;    (pprof) top10
     Total: 6894 samples
     1686    24.5%   24.5%   1686    24.5%   crypto/aes.decryptBlockGo
     1299    18.8%   43.3%   3093    44.9%   crypto/cipher.(*cbcDecrypter).CryptBlocks
@@ -203,8 +204,7 @@ and 1.2 and the results can be seen below.&lt;/p&gt;
     %Cpu0  : 12.1 us,  5.1 sy,  5.1 ni, 72.7 id,  5.1 wa,  0.0 hi,  0.0 si,  0.0 st
     %Cpu1  : 20.0 us,  4.0 sy,  0.0 ni, 75.0 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;What an improvement! :)&lt;/p&gt;
 
 &lt;p&gt;I know that this application may not be the best example to compare Go with a
@@ -221,7 +221,7 @@ Looks like it is a good idea of language for some of my projects, welcome Golang
     <link rel="alternate" href="http://pothix.com/2013/07/15/game-network-programming.html"/>
     <id>http://pothix.com/2013/07/15/game-network-programming.html</id>
     <published>2013-07-14T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -268,13 +268,13 @@ também! Se tiverem dúvidas postem aí nos comentários. :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/09/10/a-lifestyle.html"/>
     <id>http://pothix.com/2012/09/10/a-lifestyle.html</id>
     <published>2012-09-09T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
     <content type="html">&lt;p&gt;Just a transcript from &lt;a href="http://www.youtube.com/watch?v=vlZ4ONTb9i0&amp;amp;feature=youtu.be"&gt;here&lt;/a&gt;, 
 but it reflects my way of life at this stage of my life:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
 2
 3
 4
@@ -306,7 +306,8 @@ but it reflects my way of life at this stage of my life:&lt;/p&gt;
 30
 31
 32
-33&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;We believe in going our own way,no matter which way the rest of the world is going.
+33
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;We believe in going our own way,no matter which way the rest of the world is going.
 
 We believe in bucking the system that’s built to smash individuals as bugs on a windshield.
 
@@ -340,8 +341,7 @@ We believe the machine you sit on can tell the world exactly where you stand.
 
 We don’t care what everyone else believes.
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;;)&lt;/p&gt;
 </content>
   </entry>
@@ -350,7 +350,7 @@ We don’t care what everyone else believes.
     <link rel="alternate" href="http://pothix.com/2012/09/02/javascript-and-gamedev-discussion.html"/>
     <id>http://pothix.com/2012/09/02/javascript-and-gamedev-discussion.html</id>
     <published>2012-09-01T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -406,7 +406,7 @@ well, you just need to decide which one is better for your business.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/07/23/kernel-compiling.html"/>
     <id>http://pothix.com/2012/07/23/kernel-compiling.html</id>
     <published>2012-07-22T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -426,25 +426,25 @@ As Judas Priest sings on Painkiller song: “I’m living on the eeeeeedge”. L
 Linux box:&lt;/p&gt;
 
 &lt;p&gt;Clone the kernel repository with git, I made it using the Github url:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;git clone git://github.com/torvalds/linux.git
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;git clone git://github.com/torvalds/linux.git
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Copy your .config file to the linux folder. If your distro have the
 &amp;ldquo;Enable config.gz&amp;rdquo; flag enabled (most distros have it) you can use the
 generated config as a base for your new compiled version:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;zcat /proc/config.gz &amp;gt; linux/.config
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;zcat /proc/config.gz &amp;gt; linux/.config
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Now that you have a functional config file (it was running on the
 stock kernel right? ￼ ), just cd do the kernel folder and run make:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;cd linux
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;cd linux
 make
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;This process take about 40 minutes to finish on my i7, with 4GB of RAM
 and SSD, running with -j4, to use all the 4 cores. Obviously the time
 to finish will depend on what it will need to compile (defined on the
@@ -454,33 +454,33 @@ improve this compiling time but I’ll talk more about it later.&lt;/p&gt;
 &lt;p&gt;You can use the compiling time to prepare the mkinitcpio file for the
 installation. On my archlinux box I have created a file named
 git.preset on /etc/mkinitcpio.d/ directory with the following content:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
 2
 3
 4
 5
-6&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;ALL_config="/etc/mkinitcpio.conf"
+6
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;ALL_config="/etc/mkinitcpio.conf"
 ALL_kver="/boot/vmlinuz-git"
 
 PRESETS=('default')
 
 default_image="/boot/initramfs-git.img"
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;After that you’ll need to change your bootloader conf a bit. I’m using
 grub (not grub2 yet) which makes the setup really easy! Just change
 your /boot/grub/menu.lst and add something like this:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
 2
 3
-4&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;title  Git Kernel
+4
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;title  Git Kernel
 root   (hd0,0)
 kernel /vmlinuz-git root=/dev/sda2 ro quiet acpi_backlight=vendor init=/bin/systemd
 initrd /initramfs-git.img
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;strong&gt;PS&lt;/strong&gt;: I’m using systemd to init and I need to define the
 acpi_backlight to make my hardware to work properly, but probably
 you’ll not need these parameters. If you’re using grub, you may find
@@ -489,23 +489,23 @@ what needs to me changed (title and initrd).&lt;/p&gt;
 
 &lt;p&gt;When the compilation ends and your mkinitcpio file is ready you can
 continue the process by generating the modules for your kernel:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;sudo make modules_install
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;sudo make modules_install
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;This command will create a folder with the compiled modules on
 /lib/modules. After that, just copy the generated image file to the
 boot directory:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;sudo cp arch/x86_64/boot/bzImage /boot/vmlinuz-git
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;sudo cp arch/x86_64/boot/bzImage /boot/vmlinuz-git
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;And create the initial randisk environment for your preset using
 mkinitcpio:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;sudo mkinitcpio -p git
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;sudo mkinitcpio -p git
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;DONE! Your kernel is compiled and ready to boot! Just restart you
 computer and choose the new item on the boot menu! ￼&lt;/p&gt;
 
@@ -522,10 +522,10 @@ and you’ll not receive so much benefit from it, but it will be
 fun. I promise.&lt;/p&gt;
 
 &lt;p&gt;So, let’s get started! Go to the linux kernel directory and run:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;make menuconfig
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;make menuconfig
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The fun part starts here because you’ll be seeing an awesome curses
 screen with a lot of menus and submenus about a lot of things that you
 never heard about, but no despair! Some things you already know, like
@@ -580,7 +580,7 @@ process I think that I learned a lot, so it is worth it.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/07/17/simlinks-for-ruby-on-debian-squeeze.html"/>
     <id>http://pothix.com/2012/07/17/simlinks-for-ruby-on-debian-squeeze.html</id>
     <published>2012-07-16T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -591,16 +591,16 @@ we need to fix some Ruby depedencies to make the application work as it should.&
 of ruby, but it needed to be that way in order to use our old build server.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ll keep it documented here:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
 2
 3
-4&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;ln -s /usr/lib/libruby-1.9.1.so.1.9.1 /usr/lib/libruby.so.1.9
+4
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;ln -s /usr/lib/libruby-1.9.1.so.1.9.1 /usr/lib/libruby.so.1.9
 ln -s /usr/bin/rake1.9.1 /usr/bin/rake
 ln -s /usr/bin/ruby1.9.1 /usr/bin/ruby
 ln -s /usr/bin/gem1.9.1 /usr/bin/gem
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;After that run &lt;code&gt;ldconfig&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;It should make the common ruby commands work again. :)&lt;/p&gt;
@@ -611,7 +611,7 @@ ln -s /usr/bin/gem1.9.1 /usr/bin/gem
     <link rel="alternate" href="http://pothix.com/2009/04/10/translated-rubylearning-presentation.html"/>
     <id>http://pothix.com/2009/04/10/translated-rubylearning-presentation.html</id>
     <published>2009-04-09T21:00:00-03:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -909,7 +909,7 @@ with paypal.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/01/07/deploying-a-simple-merb-application-on-locaweb.html"/>
     <id>http://pothix.com/2009/01/07/deploying-a-simple-merb-application-on-locaweb.html</id>
     <published>2009-01-06T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -940,17 +940,17 @@ public_html of your account (this directory don&amp;rsquo;t need to exist).&lt;/
 &lt;p&gt;Transfer your application to this directory on your host. For this
 example, lets say that your application is called &amp;ldquo;sample&lt;em&gt;merb&amp;rdquo;, so,
 connect via SSH on your account and create the directory &amp;ldquo;rack&lt;/em&gt;app&amp;rdquo;:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;mkdir -p rack_app/sample_merb
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;mkdir -p rack_app/sample_merb
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;And move your application to there.&lt;/p&gt;
 
 &lt;p&gt;Your application must to have a file called &amp;ldquo;config.ru&amp;rdquo; to be executed
 by Phusion Passenger, so, you need to create this file on your
 application folder (rack&lt;em&gt;app/sample&lt;/em&gt;merb on this case) with this
 content:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
 2
 3
 4
@@ -958,7 +958,8 @@ content:&lt;/p&gt;
 6
 7
 8
-9&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;require 'rubygems'
+9
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;require 'rubygems'
 require 'merb-core'
 
 Merb::Config.setup(:merb_root   =&amp;gt; “.”, :environment =&amp;gt;; ENV['RACK_ENV'])
@@ -968,23 +969,22 @@ Merb.root = Merb::Config[:merb_root]
 Merb::BootLoader.run
 run Merb::Rack::Application.new
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Now you need to create a symbolic link on your public_html diretory,
 as you have configured on your Domain Manager (gerenciador de domínios)
 of Locaweb Panel.&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;ln -s ~/rack_app/sample_merb/public ~/public_html/sample_merb
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;ln -s ~/rack_app/sample_merb/public ~/public_html/sample_merb
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;By using this simple configuration you will have your application
 pointed by apache with Phusion Passenger.&lt;/p&gt;
 
 &lt;p&gt;Just to you know, you can see the merb gems that are installed with:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;gem list | grep merb
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;gem list | grep merb
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Hope this help you on how to make your simple application works on Locaweb. ;)&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Old comments by: website erstellen lassen, Vikki Guitreau | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
@@ -995,7 +995,7 @@ pointed by apache with Phusion Passenger.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/12/31/new-year-is-coming.html"/>
     <id>http://pothix.com/2008/12/31/new-year-is-coming.html</id>
     <published>2008-12-30T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1035,7 +1035,7 @@ nos veremos em 2009!&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/12/16/first-post-in-english-here.html"/>
     <id>http://pothix.com/2008/12/16/first-post-in-english-here.html</id>
     <published>2008-12-15T22:00:00-02:00</published>
-    <updated>2016-06-23T14:37:43-03:00</updated>
+    <updated>2016-09-25T19:24:29-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>

@@ -86,33 +86,33 @@ rodar um strace para ver elas rolando e postar sobre isso.</p>
 <p>Fiz dois scripts simples:</p>
 
 <p><strong>Python</strong></p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
-5</pre></td><td class="code"><pre>import threading
+5
+</pre></td><td class="rouge-code"><pre>import threading
 import time
 for i in range(5):
     t = threading.Thread(target=time.sleep, args=(1,))
     t.start()
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p><strong>Ruby</strong></p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
-5</pre></td><td class="code"><pre>require 'thread'
+5
+</pre></td><td class="rouge-code"><pre>require 'thread'
 5.times do
   Thread.new {sleep 10}
 end
 sleep 1
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Rodando o script python com o comando <code>strace -f -e clone,fork python thread.py</code> retorna pouca coisa:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -127,7 +127,8 @@ sleep 1
 13
 14
 15
-16</pre></td><td class="code"><pre>clone(Process 13920 attached
+16
+</pre></td><td class="rouge-code"><pre>clone(Process 13920 attached
 child_stack=0x7f8570b67ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f8570b689d0, tls=0x7f8570b68700, child_tidptr=0x7f8570b689d0) = 13920
 [pid 13919] clone(Process 13921 attached
 child_stack=0x7f856bffeff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f856bfff9d0, tls=0x7f856bfff700, child_tidptr=0x7f856bfff9d0) = 13921
@@ -144,12 +145,11 @@ child_stack=0x7f856a7fbff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CL
 [pid 13923] +++ exited with 0 +++
 +++ exited with 0 +++
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Conseguimos ver claramente as 5 threads do SO aí em cima. :)</p>
 
 <p>Já no ruby, rodando com o mesmo esquema (<code>strace -f -e clone,fork ruby thread.rb</code>) retorna bem mais coisas:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -380,7 +380,8 @@ child_stack=0x7f856a7fbff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CL
 229
 230
 231
-232</pre></td><td class="code"><pre>clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14588
+232
+</pre></td><td class="rouge-code"><pre>clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14588
 Process 14588 attached
 [pid 14588] clone(Process 14589 attached
 child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14589
@@ -613,8 +614,7 @@ child_stack=0x7fa6a1fb5ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CL
 [pid 14613] +++ exited with 0 +++
 +++ exited with 0 +++
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Alí no final dá para ver as 5 threads que eu pedi no script sendo abertas no
 SO. Inclusive, se analizar todo esse retorno aí dá para ver que o Ruby criou 6
 threads, uma delas o ruby cria mesmo se vc fizer só um <code>puts</code> num script. :)</p>
@@ -709,11 +709,11 @@ descobrir coisas novas. :)</p>
       </footer>
     </div>
 
-    <script type='text/javascript' src='/javascripts/jquery-a496bea1.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery-62bd068a.js'></script>
     <script type='text/javascript' src='/javascripts/widget.min-f27763d3.js'></script>
     <script type='text/javascript' src='/javascripts/tabs.min-8e301092.js'></script>
-    <script type='text/javascript' src='/javascripts/jquery.custom-e7d9d1cd.js'></script>
-    <script type='text/javascript' src='/javascripts/plugins-a7b8cac2.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery.custom-80280c65.js'></script>
+    <script type='text/javascript' src='/javascripts/plugins-16fe8613.js'></script>
     <script type='text/javascript' src='/javascripts/jquery.mixitup.min-1b6d6b02.js'></script>
 
     <script>

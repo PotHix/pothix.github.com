@@ -86,16 +86,16 @@ screen para se manter conectado, mas eu como conecto de vez em quando
 para ver algo em algum dos servidores prefiro configurar desse modo.</p>
 
 <p>A primeira coisa a se fazer é configurar o seu <code>.ssh/config</code></p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
-4</pre></td><td class="code"><pre>Host server
+4
+</pre></td><td class="rouge-code"><pre>Host server
 Hostname 192.168.1.2
 User pothix
 ForwardAgent yes
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Sendo que Host é o que você vai usar quando for chamar por ssh (por
 exemplo &ldquo;ssh server&rdquo;), Hostname é o IP do server, User é o usuário no
 servidor e ForwardAgent para usar o nosso ssh-agent.</p>
@@ -109,19 +109,19 @@ autenticação que gerencia as nossas conexões ssh na sua seção de
 terminal.</p>
 
 <p>Primeiramente você deve iniciar o seu ssh-agent:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>$ eval -s `ssh-agent -s`
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>$ eval -s `ssh-agent -s`
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Isso via iniciar o seu <code>ssh-agent</code> e já definir as variáveis de ambiente que ele precisa para funcionar na sua instancia atual do terminal.</p>
 
 <p>Agora que já temos o nosso ssh-agent funcionando, vamos criar a nossa chave privada para utilizar:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
-2</pre></td><td class="code"><pre>$ cd ~/.ssh
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>$ cd ~/.ssh
 $ ssh-keygen -t rsa -f minha-chave
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Com isso ele pedirá a a senha para sua chave e depois de você digitar
 e confirmar ele criará dois arquivos de chave:</p>
 
@@ -136,19 +136,19 @@ identificação da sua chave, falaremos mais disso depois.</p>
 
 <p>Agora com nossa chave em mãos já podemos acrescentar ela no nosso
 ssh-agent, utiliando o <code>ssh-add</code>:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>$ ssh-add ~/.ssh/minha-chave
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>$ ssh-add ~/.ssh/minha-chave
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Ele vai pedir a senha da sua chave e depois vai adicionar ela no
 ssh-agent e agora é só alegria! :)</p>
 
 <p>Agora vamos acessar o servidor que cadastramos no nosso
 <code>~/.ssh/config</code></p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>$ ssh server
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>$ ssh server
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Lembra dele, que fizemos lá em cima? Pois é agora vamos acessar ele
 sem precisar ficar digitando a senha toda vez, apenas usando a nossa
 chave! :D</p>
@@ -249,11 +249,11 @@ tambem. ;)</p>
       </footer>
     </div>
 
-    <script type='text/javascript' src='/javascripts/jquery-a496bea1.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery-62bd068a.js'></script>
     <script type='text/javascript' src='/javascripts/widget.min-f27763d3.js'></script>
     <script type='text/javascript' src='/javascripts/tabs.min-8e301092.js'></script>
-    <script type='text/javascript' src='/javascripts/jquery.custom-e7d9d1cd.js'></script>
-    <script type='text/javascript' src='/javascripts/plugins-a7b8cac2.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery.custom-80280c65.js'></script>
+    <script type='text/javascript' src='/javascripts/plugins-16fe8613.js'></script>
     <script type='text/javascript' src='/javascripts/jquery.mixitup.min-1b6d6b02.js'></script>
 
     <script>

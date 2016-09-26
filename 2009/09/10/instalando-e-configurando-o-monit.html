@@ -84,10 +84,10 @@ decidi postar aqui para que seja útil para quem quer começar a
 utilizar o monit.</p>
 
 <p>Se você usa Ubuntu, você pode fazer download do Monit por apt-get:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>sudo apt-get install monit
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>sudo apt-get install monit
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Se você não usa Ubuntu ou quer a ultima versão do Monit, então faça
 download do tar.gz http://mmonit.com/monit/download/ e compile.</p>
 
@@ -104,24 +104,24 @@ download do tar.gz http://mmonit.com/monit/download/ e compile.</p>
 
 <p>Agora é só partir para compilar os fontes! ( prefiro compilar dos
 fontes em certas ocasiões para pegar a ultima versão ):</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
-3</pre></td><td class="code"><pre>./configure
+3
+</pre></td><td class="rouge-code"><pre>./configure
 make
 sudo make install
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>E pronto! Lá está o seu monit instalado! Agora é o momento da
 configuração. :D</p>
 
 <p>O monit utiliza o arquivo chamado .monitrc para saber o que deve ser
 monitorado e com quais parâmetros, portanto crie um arquivo na sua
 $HOME com o nome de <code>.monitrc</code>:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>vim $HOME/.monitrc
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>vim $HOME/.monitrc
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Claro que usarei o vim para isso (qual outro poderia ser né? haha).
 Agora você deve criar o seu próprio arquivo de configuração dizendo
 o que o monit deve monitorar e quais critérios deve usar.</p>
@@ -133,15 +133,15 @@ e criar o seu baseado nele. A syntax desse arquivo é de fácil
 entendimento. :)</p>
 
 <p>Para e-mails eu utilizei a minha conta do Google Apps com a seguinte configuração:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>set mailserver smtp.gmail.com port 587 username "pothix@pothix.com" password "abc123" using tlsv1, with timeout 15 seconds
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>set mailserver smtp.gmail.com port 587 username "pothix@pothix.com" password "abc123" using tlsv1, with timeout 15 seconds
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Com todas as configurações arrumadas o monit já pode ser iniciado:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>monit
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>monit
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>E agora você já tem vários comandos para utilizar, é só dar uma lida na
 <a title="Comandos do monit" href="http://mmonit.com/monit/documentation/monit.html#general_operation">documentação do monit para ver o que é possível fazer</a>.</p>
 
@@ -235,11 +235,11 @@ monitoração e gostou do monit. :)</p>
       </footer>
     </div>
 
-    <script type='text/javascript' src='/javascripts/jquery-a496bea1.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery-62bd068a.js'></script>
     <script type='text/javascript' src='/javascripts/widget.min-f27763d3.js'></script>
     <script type='text/javascript' src='/javascripts/tabs.min-8e301092.js'></script>
-    <script type='text/javascript' src='/javascripts/jquery.custom-e7d9d1cd.js'></script>
-    <script type='text/javascript' src='/javascripts/plugins-a7b8cac2.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery.custom-80280c65.js'></script>
+    <script type='text/javascript' src='/javascripts/plugins-16fe8613.js'></script>
     <script type='text/javascript' src='/javascripts/jquery.mixitup.min-1b6d6b02.js'></script>
 
     <script>

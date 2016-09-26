@@ -94,37 +94,37 @@ nem em casa e nem no trampo, portanto o meu Slackware se foi&hellip;:() e
 vou mostrar aqui como instalar o seu DC++ nele!</p>
 
 <p>Primeiramente vamos instalar as dependencias:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>sudo apt-get install bzr scons build-essential libgtk2.0-dev libglade2-dev zlib1g-dev libbz2-dev libssl-dev
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>sudo apt-get install bzr scons build-essential libgtk2.0-dev libglade2-dev zlib1g-dev libbz2-dev libssl-dev
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Como é possível notar acima, estamos instalando tambem o
 <a title="Bazaar version control" href="http://bazaar-vcs.org/">Bazaar</a>, que é o
 software de controle de versão que o DC++ utiliza, infelizmente ainda
 não tem os binarios para nenhuma distribuição por que ele ainda está
 em alpha, por isso temos que fazer o download direto pelo Bazaar!</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>bzr branch lp:linuxdcpp
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>bzr branch lp:linuxdcpp
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Agora temos um branch local do DC++ no nosso computador, portanto é só
 entrar na pasta e instalar:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
-3</pre></td><td class="code"><pre>cd linuxdcpp
+3
+</pre></td><td class="rouge-code"><pre>cd linuxdcpp
 scons release=1 PREFIX=/usr/local
 sudo scons install
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Veja que criei um &ldquo;PREFIX&rdquo; para instalar em /usr/local. =)</p>
 
 <p>Agora seu DC++ já está instalado e você pode executar ele usando o
 comando:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>linuxdcpp
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>linuxdcpp
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>E pronto!</p>
 
 <p>Agora é só clicar no botão connect e conectar ao endereço de
@@ -224,11 +224,11 @@ Party!</p>
       </footer>
     </div>
 
-    <script type='text/javascript' src='/javascripts/jquery-a496bea1.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery-62bd068a.js'></script>
     <script type='text/javascript' src='/javascripts/widget.min-f27763d3.js'></script>
     <script type='text/javascript' src='/javascripts/tabs.min-8e301092.js'></script>
-    <script type='text/javascript' src='/javascripts/jquery.custom-e7d9d1cd.js'></script>
-    <script type='text/javascript' src='/javascripts/plugins-a7b8cac2.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery.custom-80280c65.js'></script>
+    <script type='text/javascript' src='/javascripts/plugins-16fe8613.js'></script>
     <script type='text/javascript' src='/javascripts/jquery.mixitup.min-1b6d6b02.js'></script>
 
     <script>

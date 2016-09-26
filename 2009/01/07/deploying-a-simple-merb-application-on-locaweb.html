@@ -105,17 +105,17 @@ public_html of your account (this directory don&rsquo;t need to exist).</p>
 <p>Transfer your application to this directory on your host. For this
 example, lets say that your application is called &ldquo;sample<em>merb&rdquo;, so,
 connect via SSH on your account and create the directory &ldquo;rack</em>app&rdquo;:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>mkdir -p rack_app/sample_merb
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>mkdir -p rack_app/sample_merb
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>And move your application to there.</p>
 
 <p>Your application must to have a file called &ldquo;config.ru&rdquo; to be executed
 by Phusion Passenger, so, you need to create this file on your
 application folder (rack<em>app/sample</em>merb on this case) with this
 content:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -123,7 +123,8 @@ content:</p>
 6
 7
 8
-9</pre></td><td class="code"><pre>require 'rubygems'
+9
+</pre></td><td class="rouge-code"><pre>require 'rubygems'
 require 'merb-core'
 
 Merb::Config.setup(:merb_root   =&gt; “.”, :environment =&gt;; ENV['RACK_ENV'])
@@ -133,23 +134,22 @@ Merb.root = Merb::Config[:merb_root]
 Merb::BootLoader.run
 run Merb::Rack::Application.new
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Now you need to create a symbolic link on your public_html diretory,
 as you have configured on your Domain Manager (gerenciador de domínios)
 of Locaweb Panel.</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>ln -s ~/rack_app/sample_merb/public ~/public_html/sample_merb
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>ln -s ~/rack_app/sample_merb/public ~/public_html/sample_merb
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>By using this simple configuration you will have your application
 pointed by apache with Phusion Passenger.</p>
 
 <p>Just to you know, you can see the merb gems that are installed with:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>gem list | grep merb
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>gem list | grep merb
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Hope this help you on how to make your simple application works on Locaweb. ;)</p>
 
 <p><em>Old comments by: website erstellen lassen, Vikki Guitreau | Not available anymore. :(</em></p>
@@ -239,11 +239,11 @@ pointed by apache with Phusion Passenger.</p>
       </footer>
     </div>
 
-    <script type='text/javascript' src='/javascripts/jquery-a496bea1.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery-62bd068a.js'></script>
     <script type='text/javascript' src='/javascripts/widget.min-f27763d3.js'></script>
     <script type='text/javascript' src='/javascripts/tabs.min-8e301092.js'></script>
-    <script type='text/javascript' src='/javascripts/jquery.custom-e7d9d1cd.js'></script>
-    <script type='text/javascript' src='/javascripts/plugins-a7b8cac2.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery.custom-80280c65.js'></script>
+    <script type='text/javascript' src='/javascripts/plugins-16fe8613.js'></script>
     <script type='text/javascript' src='/javascripts/jquery.mixitup.min-1b6d6b02.js'></script>
 
     <script>

@@ -99,27 +99,27 @@ whenever cria uma seção que ele atualiza mantendo a seção antiga onde
 está.</p>
 
 <p>Para instalar o whenever é a mesma facilidade de sempre:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>sudo gem install whenever
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>sudo gem install whenever
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p><strong>OBS</strong>: Lembrando que a primeira linha só é necessária uma vez, se
   você já tem o gemcutter no seu sources então ignore-a.</p>
 
 <p>Depois disso execute:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>wheneverize .
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>wheneverize .
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>O comando acima vai gerar os arquivos necessários para a utilização do
 whenever ( básicamente o config/schedule.rb ).</p>
 
 <p>E a partir de agora você já pode atualizar o seu crontab com as suas
 configurações feitas no config/schedule.rb executando o comando:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>whenever --update-crontab suaaplicacao
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>whenever --update-crontab suaaplicacao
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Quando você passa como parametro a sua aplicação ele cria um bloco
 apenas para as configurações da sua aplicação no crontab.</p>
 
@@ -127,14 +127,15 @@ apenas para as configurações da sua aplicação no crontab.</p>
 esse comando toda vez que você alterar o arquivo de schedule, para
 isso você provavelmente deve estar usando o capistrano para ser mais
 DRY. Se estiver usando inclua algumas linhas no seu deploy.rb:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
 5
 6
 7
-8</pre></td><td class="code"><pre>after "deploy:symlink", "deploy:update_crontab"
+8
+</pre></td><td class="rouge-code"><pre>after "deploy:symlink", "deploy:update_crontab"
 
 namespace :deploy do
    desc "Update the crontab file"
@@ -143,8 +144,7 @@ namespace :deploy do
    end
 end
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p><strong>OBS</strong>: Se você tiver problemas no deploy com essa linha ( como se o
 comando whenever não existisse ), tente adicionar o path absoluto
 para o whenever.</p>
@@ -153,7 +153,7 @@ para o whenever.</p>
 será atualizado com as configurações contidas no config/schedule.rb.</p>
 
 <p>Veja alguns exemplos do que pode ter no seu schedule.rb:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -163,7 +163,8 @@ será atualizado com as configurações contidas no config/schedule.rb.</p>
 8
 9
 10
-11</pre></td><td class="code"><pre>every 4.minutes do
+11
+</pre></td><td class="rouge-code"><pre>every 4.minutes do
   rake "ts:in"
 end
 
@@ -175,8 +176,7 @@ every [:monday, :thursday], :at =&gt; '11:59 am' do
   command "sudo rm -rf /" # claro!
 end
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Nada do que eu demonstrei aqui é uma grande novidade, você pode ver mais
 exemplos de como usar no <a href="http://www.railscasts.com">Railscasts</a> e na <a href="http://github.com/javan/whenever">própria página do plugin</a>.</p>
 
@@ -269,11 +269,11 @@ exemplos de como usar no <a href="http://www.railscasts.com">Railscasts</a> e na
       </footer>
     </div>
 
-    <script type='text/javascript' src='/javascripts/jquery-a496bea1.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery-62bd068a.js'></script>
     <script type='text/javascript' src='/javascripts/widget.min-f27763d3.js'></script>
     <script type='text/javascript' src='/javascripts/tabs.min-8e301092.js'></script>
-    <script type='text/javascript' src='/javascripts/jquery.custom-e7d9d1cd.js'></script>
-    <script type='text/javascript' src='/javascripts/plugins-a7b8cac2.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery.custom-80280c65.js'></script>
+    <script type='text/javascript' src='/javascripts/plugins-16fe8613.js'></script>
     <script type='text/javascript' src='/javascripts/jquery.mixitup.min-1b6d6b02.js'></script>
 
     <script>

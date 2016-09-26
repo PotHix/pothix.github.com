@@ -107,10 +107,10 @@ grande serventia, mas depois ajudaram bastante! ;)</p>
 <p>Bem, agora chega de papo-furado e vamos a parte que interessa&hellip;Códigos e How To! :)</p>
 
 <p>Primeiramente vamos baixar o código ( estou usando como exemplo o vimbook ):</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>git-svn clone https://vimbook.googlecode.com/svn/trunk/ vimbook --username seu.usuario.do.google
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>git-svn clone https://vimbook.googlecode.com/svn/trunk/ vimbook --username seu.usuario.do.google
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Ao digitar isso ele vai pedir uma senha que ele gera para a sua conta,
 e seus commits ficarão ligados a sua conta do Google. Para obter a sua
 senha é só acessar a página de
@@ -125,35 +125,35 @@ você pode trabalhar normalmente com ele, fazendo seus branchs e tudo
 mais! :D</p>
 
 <p>Vamos ver como seria um fluxo simples para você fazer uma alteração usando branch e mandar de volta para o repositório:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>git checkout -b new_changes
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>git checkout -b new_changes
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Branch criado! Faça as suas alterações&hellip;</p>
 
 <p>Após as alteraçoes feitas faça os commits normalmente como se faz no
 Git e volte ao master para ver o que há de novo no repositório
 central:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
-2</pre></td><td class="code"><pre>git checkout master
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>git checkout master
 git-svn rebase
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Com isso ele vai receber as novas alterações do repositório!</p>
 
 <p>Agora é a hora de fazer um merge do seu branch com a ultima versão do
 master:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>git merge new_changes
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>git merge new_changes
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Se tiver algum conflito resolva-os normalmente e agora é hora de
 enviar as suas alterações novamente ao Google Code:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>git-svn dcommit
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>git-svn dcommit
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Pronto! Você está contribuindo para um projeto do Google Code
 utilizando Git. :D</p>
 
@@ -244,11 +244,11 @@ utilizando Git. :D</p>
       </footer>
     </div>
 
-    <script type='text/javascript' src='/javascripts/jquery-a496bea1.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery-62bd068a.js'></script>
     <script type='text/javascript' src='/javascripts/widget.min-f27763d3.js'></script>
     <script type='text/javascript' src='/javascripts/tabs.min-8e301092.js'></script>
-    <script type='text/javascript' src='/javascripts/jquery.custom-e7d9d1cd.js'></script>
-    <script type='text/javascript' src='/javascripts/plugins-a7b8cac2.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery.custom-80280c65.js'></script>
+    <script type='text/javascript' src='/javascripts/plugins-16fe8613.js'></script>
     <script type='text/javascript' src='/javascripts/jquery.mixitup.min-1b6d6b02.js'></script>
 
     <script>

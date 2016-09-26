@@ -96,12 +96,12 @@ x86. Pensei eu:</p>
 </blockquote>
 
 <p>E lá fui eu:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
-2</pre></td><td class="code"><pre>./configure
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>./configure
 make
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>Ué&hellip;Deu um problema bizarro com o <em>FNSTSW</em> no make, então não vai ser
 tão fácil assim&hellip;E lá vamos nós procurar na internet. Procurando
 <a title="Pergunta em uma lista de discussão" href="http://lists.alioth.debian.org/pipermail/pkg-allegro-maintainers/2009-May/000251.html">eu descobri</a>
@@ -112,20 +112,20 @@ mão:</p>
 
 <p>No arquivo <code>src/i386/icpus.s</code> alterar a seguinte linha (tirar a que tem
 um menos e colocar a que tem um mais):</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
 5
-6</pre></td><td class="code"><pre>fninit
+6
+</pre></td><td class="rouge-code"><pre>fninit
 movl $0x5A5A, %eax
 -   fnstsw %eax
 +   fnstsw %ax
 cmpl $0, %eax
 jne is_fpu_not_found
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>E assim eu consegui compilar certinho! :D</p>
 
 <p>Quando tentei rodar meu binário me deparei com o seguinte erro: &ldquo;error
@@ -136,10 +136,10 @@ object file: No such file or directory&rdquo; ¬¬</p>
 adicionar o diretório <code>/usr/local/lib</code> ao meu <code>LD_LIBRARY_PATH</code>:</p>
 
 <p>No meu .bashrc:</p>
-<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+<pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 </pre></td></tr></tbody></table>
-</div>
-
+</code></pre>
 <p>OU</p>
 
 <p>Editar o meu arquivo <code>/etc/ld.so.conf</code> e incluir <code>/usr/local/lib</code> no
@@ -237,11 +237,11 @@ rodar o meu jogo normalmente. :)</p>
       </footer>
     </div>
 
-    <script type='text/javascript' src='/javascripts/jquery-a496bea1.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery-62bd068a.js'></script>
     <script type='text/javascript' src='/javascripts/widget.min-f27763d3.js'></script>
     <script type='text/javascript' src='/javascripts/tabs.min-8e301092.js'></script>
-    <script type='text/javascript' src='/javascripts/jquery.custom-e7d9d1cd.js'></script>
-    <script type='text/javascript' src='/javascripts/plugins-a7b8cac2.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery.custom-80280c65.js'></script>
+    <script type='text/javascript' src='/javascripts/plugins-16fe8613.js'></script>
     <script type='text/javascript' src='/javascripts/jquery.mixitup.min-1b6d6b02.js'></script>
 
     <script>
