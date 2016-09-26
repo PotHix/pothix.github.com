@@ -1,6 +1,6 @@
 ---
 title: Rubyconf 2016
-date: 2016-09-29
+date: 2016-09-26
 tags: events
 category: events
 ---
