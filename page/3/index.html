@@ -66,6 +66,44 @@
 
     <header class="entry-header">
       <h2 class="entry-title">
+	<a rel="bookmark" href="/2012/07/17/simlinks-for-ruby-on-debian-squeeze.html">Simlinks for ruby on Debian Squeeze</a>
+      </h2>
+    </header>
+
+    <div class="entry-meta">
+      <span class="posted-on">
+	Published at <a rel="bookmark" href="/2012/07/17/simlinks-for-ruby-on-debian-squeeze.html">2012/07/17</a><time class="updated" datetime="2012-07-17T00:00:00">Jul 17, 2012</time>
+      </span>
+      <span class="cat-links">
+	In Category <a rel="category tag" href="/categories/dev.html">dev</a>
+      </span>
+      <span class="tags-links">
+	Tags: <a rel="tag" href="/tags/dev.html">dev</a>,<a rel="tag" href="/tags/linux.html">linux</a>,<a rel="tag" href="/tags/english.html">english</a>
+      </span>
+    </div>
+
+    <div class="entry-content">
+      <p>Every time we need to deploy a new Ruby application on top of Debian Squeeze
+we need to fix some Ruby depedencies to make the application work as it should.
+
+It happens because we’re building using rvm instead of the packaged version
+of ruby, but it needed to be that way in order to use our old build server.
+
+I’ll keep it documented here:
+
+1
+2
+3
+4
+
+ln -s /usr/lib/libruby-1.9.1.so.1.9.1 /usr/lib/libruby...
+</p>
+    </div>
+  </article>
+  <article id="post-#{article.id}" class="post-#{article.id} post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
+
+    <header class="entry-header">
+      <h2 class="entry-title">
 	<a rel="bookmark" href="/2012/07/16/palestra-sobre-implementacoes-paralelas.html">Palestra sobre implementacoes paralelas</a>
       </h2>
     </header>
@@ -346,39 +384,6 @@ também sobre os meus outros hobbies, como Motos, Shows e etc.  Alguns
 deles eu até já...</p>
     </div>
   </article>
-  <article id="post-#{article.id}" class="post-#{article.id} post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
-
-    <header class="entry-header">
-      <h2 class="entry-title">
-	<a rel="bookmark" href="/2010/12/29/meu-ambiente-de-desenvolvimento.html">Meu ambiente de desenvolvimento</a>
-      </h2>
-    </header>
-
-    <div class="entry-meta">
-      <span class="posted-on">
-	Published at <a rel="bookmark" href="/2010/12/29/meu-ambiente-de-desenvolvimento.html">2010/12/29</a><time class="updated" datetime="2010-12-29T00:00:00">Dec 29, 2010</time>
-      </span>
-      <span class="cat-links">
-	In Category <a rel="category tag" href="/categories/dev.html">dev</a>
-      </span>
-      <span class="tags-links">
-	Tags: <a rel="tag" href="/tags/dev.html">dev</a>,<a rel="tag" href="/tags/tech.html">tech</a>
-      </span>
-    </div>
-
-    <div class="entry-content">
-      <p>Fui convidado pelo @jtadeulopes e
-pelo @qmx para participar do meme sobre
-ambientes de desenvolvimento, então estou fazendo esse post para falar
-um pouco mais sobre o meu.
-
-Sistema Operacional
-
-Já usei Windows um bom tempo atrás, e agora tenho um pós-conceito para
-usar (preconceito é só quando vc não conhece), não vejo nenhuma
-vantagem para utilizar ele e acho que não vale o preço (tenho um Vista...</p>
-    </div>
-  </article>
 
   <nav role="navigation" id="nav-below" class="paging-navigation">
     <h1 class="screen-reader-text">Post navigation</h1>
@@ -426,6 +431,9 @@ vantagem para utilizar ele e acho que não vale o preço (tenho um Vista...</p>
               
 	      <ul>
 	        <li>
+		  <a href="/2016/09/26/rubyconf-2016.html">Rubyconf 2016</a> <span class="post-date">Sep 26, 2016</span>
+	        </li>
+	        <li>
 		  <a href="/2016/06/22/audiobooks.html">Ouvir livros (audiobooks), o futuro da leitura</a> <span class="post-date">Jun 22, 2016</span>
 	        </li>
 	        <li>
@@ -433,9 +441,6 @@ vantagem para utilizar ele e acho que não vale o preço (tenho um Vista...</p>
 	        </li>
 	        <li>
 		  <a href="/2015/08/31/as-escolhas-do-desenvolvedor.html">As escolhas do desenvolvedor</a> <span class="post-date">Aug 31, 2015</span>
-	        </li>
-	        <li>
-		  <a href="/2015/07/27/oscon.html">OSCON 2015</a> <span class="post-date">Jul 27, 2015</span>
 	        </li>
               </ul>
             </aside>

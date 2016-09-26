@@ -5,16 +5,91 @@
   <id>http://pothix.com/</id>
   <link href="http://pothix.com/"/>
   <link href="http://pothix.com/feed.xml" rel="self"/>
-  <updated>2016-06-21T21:00:00-03:00</updated>
+  <updated>2016-09-25T21:00:00-03:00</updated>
   <author>
     <name>Willian Molinari (a.k.a PotHix)</name>
   </author>
+  <entry>
+    <title>Rubyconf 2016</title>
+    <link rel="alternate" href="http://pothix.com/2016/09/26/rubyconf-2016.html"/>
+    <id>http://pothix.com/2016/09/26/rubyconf-2016.html</id>
+    <published>2016-09-25T21:00:00-03:00</published>
+    <updated>2016-09-26T12:01:30-03:00</updated>
+    <author>
+      <name>Willian Molinari (a.k.a PotHix)</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: A melhor Rubyconf que eu participei&lt;/p&gt;
+
+&lt;p&gt;Nos dias 24 e 25 de Setembro de 2016 aconteceu a Rubyconf Brasil.
+Assim como eu
+&lt;a href="http://pothix.com/2008/10/21/rails-summit-latin-america.html"&gt;fiz um post sobre o primeiro Rails Summit que o Akita participou da organização&lt;/a&gt;,
+resolvi também fazer um post sobre a última rubyconf que ele resolveu
+organizar.&lt;/p&gt;
+
+&lt;p&gt;Essa Rubyconf teve vários pontos especialmente importantes para mim. O
+&lt;strong&gt;primeiro deles&lt;/strong&gt; foi logo no início quando o Gilberto Mautner, que é um
+dos fundadores da Locaweb, mencionou os números do projeto que eu
+estou trabalhando por lá.&lt;/p&gt;
+
+&lt;p&gt;Atualmente estou trabalhando em um projeto para melhorar o tempo de
+entrega das equipes de desenvolvimento. Para que esse projeto seja bem
+sucedido, nós precisamos rever vários processos e arquitetura de
+aplicações. O fato dele ser mostrado na introdução da conferência por
+ser um projeto legal já diz muito sobre o nosso trabalho.&lt;/p&gt;
+
+&lt;p&gt;O &lt;strong&gt;segundo ponto foi a minha palestra&lt;/strong&gt;, que aconteceu no primeiro
+dia as 15:45 no andar aberto (os slides estão
+&lt;a href="http://cege.la/nzhl40"&gt;aqui&lt;/a&gt;). Para essa palestra eu estava mais
+nervoso do que normalmente fico, porque sabia que eu teria que falar
+bem rápido se quisesse passar todo o conteúdo no tempo que eu
+tinha. Além disso, essa não era uma palestra normal! Eu fiz o
+lançamento do
+&lt;a href="https://desconstruindoaweb.com.br/?source=pothix.com"&gt;meu livro&lt;/a&gt; no
+fim.&lt;/p&gt;
+
+&lt;p&gt;E esse foi o &lt;strong&gt;terceiro ponto&lt;/strong&gt; importante dessa conferência. O livro
+estava
+&lt;a href="https://www.casadocodigo.com.br/products/livro-desconstruindo-web"&gt;disponível no site da casa do código&lt;/a&gt;
+desde o começo do mês, mas eu estava aguardando essa oportunidade para
+divulgar. Foi um mês de expectativa para finalmente mostrar um
+trabalho que eu me orgulho muito.&lt;/p&gt;
+
+&lt;p&gt;O &lt;strong&gt;quarto&lt;/strong&gt; e último ponto que tornou essa conferência especial foi
+ser citado no fechamendo. Essa vai ser a última Rubyconf organizada
+pelo &lt;a href="https://twitter.com/akitaonrails"&gt;Fabio Akita&lt;/a&gt;. No fechamento da
+conferência ele mostrou um review dos últimos 10 anos de organização
+de eventos de Ruby e agradeceu as pessoas que estavam participando
+desde o começo. Pode parecer bobeira, mas ter seu nome (ou nickname)
+citado no final de uma conferência com 1200 pessoas é muito
+gratificante. Eu já sou totalmente a favor dos planos do Akita e já
+tinha comentado com ele sobre isso há algum tempo atrás. E ele
+realmente merece um auditório inteiro de pé aplaudindo seu trabalho
+durante esses 10 anos.&lt;/p&gt;
+
+&lt;p&gt;Tudo isso fora os velhos amigos que eu pude rever, pessoas novas que
+eu conheci e coisas que eu aprendi. Algumas pessoas eu conversei e não
+sabiam que eram as pessoas que eu falava pela internet há muito tempo,
+só vim perceber depois. Durante esses vários anos de Rubyconf, eu tive
+o prazer de conversar pessoalmente com 2 core commiters do Ruby, e
+isso não é uma coisa que temos a chance de fazer com frequência. :)&lt;/p&gt;
+
+&lt;p&gt;Esse é o espírito da Rubyconf, juntar desenvolvedores que gostam de
+programar para trocar ideias. Eu considero essa conferência como uma
+versão grande do que é o &lt;a href="https://gurusp.org"&gt;Guru-SP&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Não sei como vai ser o futuro de conferências como essa. A Locaweb
+&lt;a href="https://twitter.com/locaweb/status/779819447087403008"&gt;diz que a Rubyconf continua&lt;/a&gt;,
+mas ainda não temos ideia sobre as novidades. Independente do que está
+por vir, tenho certeza que esse espirito de camaradagem e busca
+contínua de conhecimento vai continuar. :)&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Ouvir livros (audiobooks), o futuro da leitura</title>
     <link rel="alternate" href="http://pothix.com/2016/06/22/audiobooks.html"/>
     <id>http://pothix.com/2016/06/22/audiobooks.html</id>
     <published>2016-06-21T21:00:00-03:00</published>
-    <updated>2016-09-25T19:24:29-03:00</updated>
+    <updated>2016-09-26T11:49:17-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -126,7 +201,7 @@ livros que queria! :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2015/10/08/experiences-of-almost-two-years-using-colemak.html"/>
     <id>http://pothix.com/2015/10/08/experiences-of-almost-two-years-using-colemak.html</id>
     <published>2015-10-07T21:00:00-03:00</published>
-    <updated>2016-09-25T19:24:29-03:00</updated>
+    <updated>2016-09-26T11:49:17-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -192,7 +267,7 @@ about my journey is that &lt;strong&gt;I would do it again if I could&lt;/strong
     <link rel="alternate" href="http://pothix.com/2015/08/31/as-escolhas-do-desenvolvedor.html"/>
     <id>http://pothix.com/2015/08/31/as-escolhas-do-desenvolvedor.html</id>
     <published>2015-08-30T21:00:00-03:00</published>
-    <updated>2016-09-25T19:24:29-03:00</updated>
+    <updated>2016-09-26T11:49:17-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -238,7 +313,7 @@ coisa legal com a palestra.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2015/07/27/oscon.html"/>
     <id>http://pothix.com/2015/07/27/oscon.html</id>
     <published>2015-07-26T21:00:00-03:00</published>
-    <updated>2016-09-25T19:24:29-03:00</updated>
+    <updated>2016-09-26T11:49:17-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -608,7 +683,7 @@ Portland. :(&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2015/05/25/new-layout-of-pothix-blog.html"/>
     <id>http://pothix.com/2015/05/25/new-layout-of-pothix-blog.html</id>
     <published>2015-05-24T21:00:00-03:00</published>
-    <updated>2016-09-25T19:24:29-03:00</updated>
+    <updated>2016-09-26T11:49:17-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -635,7 +710,7 @@ instead of keeping the wordpress &amp;ldquo;infrastructure&amp;rdquo;.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2014/02/14/ruby-python-e-native-threads.html"/>
     <id>http://pothix.com/2014/02/14/ruby-python-e-native-threads.html</id>
     <published>2014-02-13T22:00:00-02:00</published>
-    <updated>2016-09-25T19:24:29-03:00</updated>
+    <updated>2016-09-26T11:49:17-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1191,7 +1266,7 @@ descobrir coisas novas. :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2013/12/03/golang-and-1-2-version-performance-improvement.html"/>
     <id>http://pothix.com/2013/12/03/golang-and-1-2-version-performance-improvement.html</id>
     <published>2013-12-02T22:00:00-02:00</published>
-    <updated>2016-09-25T19:24:29-03:00</updated>
+    <updated>2016-09-26T11:49:17-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1305,7 +1380,7 @@ Looks like it is a good idea of language for some of my projects, welcome Golang
     <link rel="alternate" href="http://pothix.com/2013/09/17/o-guru-sp-e-seus-5-anos-de-vida.html"/>
     <id>http://pothix.com/2013/09/17/o-guru-sp-e-seus-5-anos-de-vida.html</id>
     <published>2013-09-16T21:00:00-03:00</published>
-    <updated>2016-09-25T19:24:29-03:00</updated>
+    <updated>2016-09-26T11:49:17-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1390,7 +1465,7 @@ Brasil, e mais do que isso um lugar legal para troca de conhecimentos.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2013/07/29/vendendo-minhas-coisas.html"/>
     <id>http://pothix.com/2013/07/29/vendendo-minhas-coisas.html</id>
     <published>2013-07-28T21:00:00-03:00</published>
-    <updated>2016-09-25T19:24:29-03:00</updated>
+    <updated>2016-09-26T11:49:17-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1421,7 +1496,7 @@ entrega pessoalmente.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2013/07/29/vendo-dragstar-2008.html"/>
     <id>http://pothix.com/2013/07/29/vendo-dragstar-2008.html</id>
     <published>2013-07-28T21:00:00-03:00</published>
-    <updated>2016-09-25T19:24:29-03:00</updated>
+    <updated>2016-09-26T11:49:17-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1458,47 +1533,6 @@ Dragstar 2008.&lt;/p&gt;
 &lt;p&gt;Quase 2k de acessórios. Se estiver interessado em comprar sem os
 acessórios o preço diminui também, mas entre em contato e
 conversamos. :)&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Vendo intruder 125 customizada e com guidão seca suvaco</title>
-    <link rel="alternate" href="http://pothix.com/2013/07/29/vendo-intruder-125-customizada-e-com-guidao-seca-suvaco.html"/>
-    <id>http://pothix.com/2013/07/29/vendo-intruder-125-customizada-e-com-guidao-seca-suvaco.html</id>
-    <published>2013-07-28T21:00:00-03:00</published>
-    <updated>2016-09-25T19:24:29-03:00</updated>
-    <author>
-      <name>Willian Molinari (a.k.a PotHix)</name>
-    </author>
-    <content type="html">&lt;p&gt;Depois de brincar de customização de motos por um tempo chegou a hora
-de vender minha intrudinha. Estou com ela desde 2008 e só me deu
-alegrias.&lt;/p&gt;
-
-&lt;p&gt;Algumas informações sobre ela:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Único dono&lt;/li&gt;
-&lt;li&gt;Toda a parafernalha que veio com ela quando eu comprei eu ainda tenho&lt;/li&gt;
-&lt;li&gt;IPVA pago&lt;/li&gt;
-&lt;li&gt;Pneu traseiro praticamente novo, não rodou nem 100km&lt;/li&gt;
-&lt;li&gt;Bateria nova, 1 mês de uso&lt;/li&gt;
-&lt;li&gt;Motor, protetor de corrente e paralamas frontal são preto fosco.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Acessórios (fora todos os itens originais que vão junto!)&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Guidão seca de 45cm que mandei fazer especialmente para ela&lt;/li&gt;
-&lt;li&gt;Sissy bar&lt;/li&gt;
-&lt;li&gt;Retrovisor pequeno&lt;/li&gt;
-&lt;li&gt;Escape aberto feito especialmente para ela&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img title="Intruder 2008 customizada" alt="Foto da minha intruder 2008 customizada" src="/images/posts/intruder-e7f1538d.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Quem estiver interessado é só entrar em contato por email, ou aqui nos
-comentários mesmo.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: thalita | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>
