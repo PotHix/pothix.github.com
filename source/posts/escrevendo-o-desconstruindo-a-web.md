@@ -5,9 +5,9 @@ tags: desconstruindo-a-web
 category: books
 ---
 
-**TL;DR**: [Escrevi um livro](https://desconstruindoaweb.com.br) em 315 horas,
-geralmente durante os fins de semana durante 2 ou 3 horas consecutivas. O
-processo completo durou 8 meses e foi lançado oficialmente na Rubyconfbr2016.
+**TL;DR**: Escrevi um livro em 315 horas, geralmente aos fins de semana durante
+2 ou 3 horas consecutivas. O processo completo durou 8 meses e foi lançado
+oficialmente na Rubyconfbr2016.
 
 Como muitos já sabem, eu lancei um livro chamado
 [Desconstruindo a web](https://desconstruindoaweb.com.br) pela
