@@ -1,6 +1,6 @@
 ---
 title: Escrevendo o Desconstruindo a web
-date: 2016-09-26
+date: 2016-10-03
 tags: desconstruindo-a-web
 category: books
 ---
