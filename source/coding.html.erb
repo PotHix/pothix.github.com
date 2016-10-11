@@ -1,0 +1,32 @@
+<header class="page-header page-header--portfolio">
+  <h1 class='blog-title'><span>Coding</span></h1>
+  <p class='blog-subtitle'>Projects I've worked on my career</p>
+</header>
+
+<ul class="portfolio-filter">
+  <li class="button filter" data-filter="all">All</li>
+  <li class="button filter" data-filter="game">Games</li>
+  <li class="button filter" data-filter="lib">Libraries</li>
+  <li class="button filter" data-filter="project">Project</li>
+</ul>
+
+<section id="portfolio-filter" class="grids portfolio-items">
+
+  <% coding.each do |work| %>
+  <article class="grid-4 portfolio type-portfolio status-publish has-post-thumbnail skill-ui-design ui-design mix <%= work["type"] %>">
+    <figure>
+      <a href="javascript:void(0);" rel="bookmark">
+        <img width="366" height="366" src="images/mywork/<%= work["image"] %>" class="attachment-portfolio-thumbnail wp-post-image" />
+      </a>
+      <figcaption>
+        <h4><%= work["title"] %></h4>
+        <p><%= work["description"] %></p>
+        <% work["buttons"].each do |button| %>
+        <a href="<%= button["link"] %>" rel="bookmark" class="button"><%= button["text"] %></a>
+        <% end %>
+      </figcaption>
+    </figure>
+  </article>
+  <% end %>
+
+</section>

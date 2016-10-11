@@ -1,17 +1,19 @@
 <header class="page-header page-header--portfolio">
-  <h1 class='blog-title'><span>My Work</span></h1>
-  <p class='blog-subtitle'>This page is dedicated to things I've done related to programming</p>
+  <h1 class='blog-title'><span>Speaking</span></h1>
+  <p class='blog-subtitle'>Some of my presentations</p>
 </header>
 
 <ul class="portfolio-filter">
   <li class="button filter" data-filter="all">All</li>
-  <li class="button filter" data-filter="project">Projects</li>
-  <li class="button filter" data-filter="presentation">Presentations</li>
+  <li class="button filter" data-filter="web">Web</li>
+  <li class="button filter" data-filter="games">Games</li>
+  <li class="button filter" data-filter="development">Development</li>
+  <li class="button filter" data-filter="ruby">Ruby</li>
+  <li class="button filter" data-filter="projects">Projects</li>
 </ul>
 
 <section id="portfolio-filter" class="grids portfolio-items">
-
-  <% mywork.each do |work| %>
+  <% speaking.each do |work| %>
   <article class="grid-4 portfolio type-portfolio status-publish has-post-thumbnail skill-ui-design ui-design mix <%= work["type"] %>">
     <figure>
       <a href="javascript:void(0);" rel="bookmark">
@@ -26,7 +28,5 @@
       </figcaption>
     </figure>
   </article>
-
   <% end %>
-
 </section>

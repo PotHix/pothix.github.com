@@ -39,9 +39,19 @@ page "/feed.xml",      layout: false
 page "/feed_en.xml",   layout: false
 page "/feed_tech.xml", layout: false
 
+redirect "mywork.html", to: "coding.html"
+
 helpers do
-  def mywork
-    YAML.load_file(File.expand_path("../source/mywork.yml", __FILE__))
+  def coding
+    YAML.load_file(File.expand_path("../source/coding.yml", __FILE__))
+  end
+
+  def writing
+    YAML.load_file(File.expand_path("../source/writing.yml", __FILE__))
+  end
+
+  def speaking
+    YAML.load_file(File.expand_path("../source/speaking.yml", __FILE__))
   end
 end
 

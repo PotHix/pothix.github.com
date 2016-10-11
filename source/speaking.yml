@@ -1,70 +1,4 @@
-- type: "project"
-  title: "Skeleton Jigsaw"
-  image: "skeleton.jpg"
-  description: "My demo game made with HTML5 and Javascript using impactJS engine."
-  buttons:
-    - text: "Visit"
-      link: "http://plaev.github.io"
-    - text: "Source"
-      link: "https://github.com/Plaev/skeleton-jigsaw"
-
-- type: "project"
-  title: "Simplestack ruby gem"
-  image: "simplestack_gem.jpg"
-  description: "Ruby gem to interface an application with simplestack."
-  buttons:
-    - text: "Source"
-      link: "https://github.com/Locaweb/ruby-simplestack-client"
-    - text: "Rubygems"
-      link: "https://rubygems.org/gems/simple_stack"
-
-- type: "project"
-  title: "Reconquest"
-  image: "reconquest.jpg"
-  description: "Simple game made for Global Game Jam 2011"
-  buttons:
-    - text: "Visit"
-      link: "http://pothix.com/RECONQUEST/"
-    - text: "Source"
-      link: "https://github.com/PotHix/RECONQUEST"
-
-- type: "project"
-  title: "Jogando e aprendendo"
-  image: "jogandoeaprendendo.jpg"
-  description: "Demo game made with HTML5 and Javascript using Akihabara engine. Made for children to improve the learning process."
-  buttons:
-    - text: "Visit"
-      link: "http://jogandoeaprendendo.com.br"
-    - text: "Source"
-      link: "https://github.com/PotHix/jogando_e_aprendendo"
-
-- type: "project"
-  title: "Simplestack"
-  image: "simplestack_project.jpg"
-  description: "A project to be the layer between the provisioner application and the multiple hypervisors."
-  buttons:
-    - text: "Source"
-      link: "https://github.com/Locaweb/simplestack"
-
-- type: "project"
-  title: "Robotz Warehouse"
-  image: "robotzwarehouse.jpg"
-  description: "Made with C++ and Allegro library. It was made for Itau Cultural Game Jam, we got the second place."
-  buttons:
-    - text: "Source"
-      link: "https://github.com/PotHix/RobotzWarehouse"
-
-- type: "project"
-  title: "Wlm Instalacoes"
-  image: "wlminstalacoes.jpg"
-  description: "Website made for Wilson Molinari in order to improve their service on the web. Changed the way they work."
-  buttons:
-    - text: "Source"
-      link: "https://github.com/PotHix/wlminstalacoes.com.br"
-    - text: "Visit"
-      link: "http://wlminstalacoes.com.br"
-
-- type: "presentation"
+- type: "ruby"
   title: "Rubyconf 2013"
   image: "rubyconf2013.jpg"
   description: "The title for my talk was 'How we used Ruby to build Locaweb's cloud'. I speak about the process of making the cloud provisioning application of Locaweb."
@@ -74,7 +8,7 @@
     - text: "Slides"
       link: "http://pothix.com/presentation-rubyconf2013"
 
-- type: "presentation"
+- type: "ruby"
   title: "Ruby no mundo real 2009"
   image: "rubyreal2009.jpg"
   description: "What is and how does Rubylearning.org work. A presentation made on 'Ruby e Rails no mundo real 2009' at Sao Paulo, Brazil."
@@ -84,7 +18,7 @@
     - text: "Slides"
       link: "http://www.slideshare.net/PotHix/what-is-and-how-does-work-rubylearningorg-1257258"
 
-- type: "presentation"
+- type: "vim"
   title: "Porque Vim? - GURUSP 2010"
   image: "porquevim.jpg"
   description: "A presentation about Vim. Why Vim is a good editor? This is good for me? What can Vim do for me?"
@@ -94,7 +28,7 @@
     - text: "Slides"
       link: "http://www.slideshare.net/PotHix/vim-3581559"
 
-- type: "presentation"
+- type: "games"
   title: "TDC 2011"
   image: "jogoshtml5_tdc2011.jpg"
   description: "The title was 'Desenvolvimento de jogos com Js e HTML5'. I spoke on the tools available for game development with HTML5 and Javascript at the time and their maturity status"
@@ -102,7 +36,7 @@
     - text: "Slides"
       link: "http://www.slideshare.net/PotHix/desenvolvimento-de-jogos-com-javascript-e-html5-tdc2011"
 
-- type: "presentation"
+- type: "development"
   title: "Guru-SP/Locaweb Techtalks 2012"
   image: "implementacoes_paralelas_gurusp.jpg"
   description: "Presentation on 'Parallel Implementations' made on Locaweb Tech-talks and Guru-SP"
@@ -110,7 +44,7 @@
     - text: "Slides"
       link: "http://www.slideshare.net/PotHix/implementaes-paralelas"
 
-- type: "presentation"
+- type: "projects"
   title: "Locaweb Tech-talks 2013"
   image: "simplestack.jpg"
   description: "Presentation on Simplestack project http://github.com/locaweb/simplestack"
@@ -120,7 +54,7 @@
     - text: "Project"
       link: "http://github.com/locaweb/simplestack"
 
-- type: "presentation"
+- type: "projects"
   title: "Locaweb Tech-talks 2013"
   image: "locasberos_techtalk.jpg"
   description: "Presentation on Locasberos project http://github.com/dgvncsz0f/locasberos"
@@ -130,7 +64,7 @@
     - text: "Project"
       link: "http://github.com/dgvncsz0f/locasberos"
 
-- type: "presentation"
+- type: "games"
   title: "Guru-SP 2013"
   image: "gamenetprogramming_gurusp.jpg"
   description: "Game Network Programming. Presentation on our (me and dgvncsz0f) studies on how the network works for gaming"
@@ -138,7 +72,7 @@
     - text: "Slides"
       link: "http://www.slideshare.net/PotHix/game-network-programming"
 
-- type: "presentation"
+- type: "ruby"
   title: "Ruby e XMPP - Guru-SP 2013"
   image: "ruby_e_xmpp_gurusp.jpg"
   description: "How we used ruby and XMPP together in Locaweb"
@@ -148,7 +82,7 @@
     - text: "Video"
       link: "https://www.youtube.com/watch?v=HDsxF0bCInI"
 
-- type: "presentation"
+- type: "games"
   title: "Guru-SP 2013"
   image: "gamedev_skeleton_gurusp.jpg"
   description: "HTML5, games and skeleton Jigsaw. How we built Skeleton Jigsaw from scratch using HTML5 and Javascript. From level design to programming."
@@ -158,7 +92,7 @@
     - text: "Video"
       link: "https://www.youtube.com/watch?v=J2yDMOHCYak"
 
-- type: "presentation"
+- type: "games"
   title: "7Masters 2013"
   image: "gamedev_html5_7masters.jpg"
   description: "'Javascript e os Jogos no navegador'. A lightning talks (8 minutes) on how to build games with HTML5 and Javascript"
@@ -168,7 +102,7 @@
     - text: "Video"
       link: "http://setemasters.imasters.com.br/conversas/javascript-e-os-jogos-no-browser/"
 
-- type: "presentation"
+- type: "games"
   title: "AlagoasDevDay 2014"
   image: "jogos_html5_alagoasdevday.jpg"
   description: "Presentation on which tools do we have for building a game with HTML5 and Javascript and how difficult is to create a game with it"
@@ -178,7 +112,7 @@
     - text: "Teaser"
       link: "https://www.youtube.com/watch?v=R75l24dXoDM"
 
-- type: "presentation"
+- type: "development"
   title: "Encontro Locaweb 2015"
   image: "escolhas_desenvolvedor_elwsp.jpg"
   description: "'As escolhas do desenvolvedor'. Presentation made for Encontro Locaweb. I spoke at 6 different cities in Brazil: Belo Horizonte, Recife, Curitiba, Porto Alegre, Rio de Janeiro and Sao Paulo"
@@ -186,7 +120,7 @@
     - text: "Slides"
       link: "http://goo.gl/V5BT5J"
 
-- type: "presentation"
+- type: "web"
   title: "Devinsantos 2015"
   image: "desconstruindoaweb_devinsantos.jpg"
   description: "'Desconstruindo a web'. This presentation tries to explain everything that web people must know about a web request."
