@@ -16,12 +16,12 @@ activate :blog do |blog|
   blog.taglink = "tags/{tag}.html"
   blog.layout = "post_layout"
   blog.summary_length = 400
-  blog.default_extension = ".markdown"
+  blog.default_extension = ".md"
 
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
 
-  blog.sources = "posts/:title.html"
+  blog.sources = "posts/:title"
 
   blog.paginate = true
   blog.per_page = 10
