@@ -1,7 +1,3 @@
-###
-# Blog settings
-###
-
 require "yaml"
 
 Time.zone = "UTC"
@@ -35,23 +31,23 @@ activate :blog do |blog|
   }
 end
 
-page "/feed.xml",      layout: false
-page "/feed_en.xml",   layout: false
-page "/feed_tech.xml", layout: false
+page "/feeds/feed.xml",      layout: false
+page "/feeds/feed_en.xml",   layout: false
+page "/feeds/feed_tech.xml", layout: false
 
 redirect "mywork.html", to: "coding.html"
 
 helpers do
   def coding
-    YAML.load_file(File.expand_path("../source/coding.yml", __FILE__))
+    YAML.load_file(File.expand_path("../source/content/coding.yml", __FILE__))
   end
 
   def writing
-    YAML.load_file(File.expand_path("../source/writing.yml", __FILE__))
+    YAML.load_file(File.expand_path("../source/content/writing.yml", __FILE__))
   end
 
   def speaking
-    YAML.load_file(File.expand_path("../source/speaking.yml", __FILE__))
+    YAML.load_file(File.expand_path("../source/content/speaking.yml", __FILE__))
   end
 end
 
