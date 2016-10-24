@@ -1,7 +1,6 @@
 - type: "book"
   title: "Desconstruindo a web"
   image: "desconstruindoaweb_book.jpg"
-  image: "desconstruindoaweb_devinsantos.jpg"
   description: "'Desconstruindo a web'. Wrote by me, this book tries to explain the path of a web request and its components."
   buttons:
     - text: "Book's website"
@@ -10,7 +9,6 @@
 - type: "techreview"
   title: "Ruby on Rails - coloque sua aplicação web nos trilhos"
   image: "rubyonrails_book.jpg"
-  image: "desconstruindoaweb_devinsantos.jpg"
   description: "I did the technical review of this pt-BR book about Ruby on Rails, written by Vinicius Baggio Fuentes"
   buttons:
     - text: "Buy online"
@@ -19,7 +17,6 @@
 - type: "techreview"
   title: "HTML5 Game Development HOTSHOT"
   image: "html5_book.jpg"
-  image: "desconstruindoaweb_devinsantos.jpg"
   description: "I did the technical review of this book on HTML5 game development using CreateJS. Written by Makzan"
   buttons:
     - text: "Buy online"
@@ -28,7 +25,6 @@
 - type: "article"
   title: "Gamedev Tutsplus - What is the Game loop"
   image: "gameloop_article.jpg"
-  image: "desconstruindoaweb_devinsantos.jpg"
   description: "Article that explains how the Game loop works in game development. Wrote for gamedev.tutsplus.com in Nov 2012."
   buttons:
     - text: "Read"
@@ -37,7 +33,6 @@
 - type: "article"
   title: "Gamedev Tutsplus - What is client side prediction"
   image: "clientsideprediction_article.jpg"
-  image: "desconstruindoaweb_devinsantos.jpg"
   description: "Article that explains how client side pretiction works in game development. Wrote for gamedev.tutsplus.com in Jan 2013."
   buttons:
     - text: "Read"

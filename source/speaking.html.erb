@@ -13,16 +13,16 @@
 </ul>
 
 <section id="portfolio-filter" class="grids portfolio-items">
-  <% speaking.each do |work| %>
-  <article class="grid-4 portfolio type-portfolio status-publish has-post-thumbnail skill-ui-design ui-design mix <%= work["type"] %>">
+  <% speaking.each do |speak| %>
+  <article class="grid-4 portfolio type-portfolio status-publish has-post-thumbnail skill-ui-design ui-design mix <%= speak["type"] %>">
     <figure>
       <a href="javascript:void(0);" rel="bookmark">
-        <img width="366" height="366" src="images/mywork/<%= work["image"] %>" class="attachment-portfolio-thumbnail wp-post-image" />
+        <img width="366" height="366" src="images/speaking/<%= speak["image"] %>" class="attachment-portfolio-thumbnail wp-post-image" />
       </a>
       <figcaption>
-        <h4><%= work["title"] %></h4>
-        <p><%= work["description"] %></p>
-        <% work["buttons"].each do |button| %>
+        <h4><%= speak["title"] %></h4>
+        <p><%= speak["description"] %></p>
+        <% speak["buttons"].each do |button| %>
         <a href="<%= button["link"] %>" rel="bookmark" class="button"><%= button["text"] %></a>
         <% end %>
       </figcaption>

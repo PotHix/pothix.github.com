@@ -1,6 +1,6 @@
 <header class="page-header page-header--portfolio">
   <h1 class='blog-title'><span>Writing</span></h1>
-  <p class='blog-subtitle'>This page is dedicated to things I've done related to programming</p>
+  <p class='blog-subtitle'>Things related to writing outside of this blog</p>
 </header>
 
 <ul class="portfolio-filter">
@@ -11,17 +11,17 @@
 </ul>
 
 <section id="portfolio-filter" class="grids portfolio-items">
-  <% writing.each do |work| %>
-  <article class="grid-4 portfolio type-portfolio status-publish has-post-thumbnail skill-ui-design ui-design mix <%= work["type"] %>">
+  <% writing.each do |text| %>
+  <article class="grid-4 portfolio type-portfolio status-publish has-post-thumbnail skill-ui-design ui-design mix <%= text["type"] %>">
     <figure>
       <a href="javascript:void(0);" rel="bookmark">
-        <img width="366" height="366" src="images/mywork/<%= work["image"] %>" class="attachment-portfolio-thumbnail wp-post-image" />
+        <img width="366" height="366" src="images/writing/<%= text["image"] %>" class="attachment-portfolio-thumbnail wp-post-image" />
       </a>
       <figcaption>
-        <h4><%= work["title"] %></h4>
-        <p><%= work["description"] %></p>
-        <% work["buttons"].each do |button| %>
-        <a href="<%= button["link"] %>" rel="bookmark" class="button"><%= button["text"] %></a>
+        <h4><%= text["title"] %></h4>
+        <p><%= text["description"] %></p>
+        <% text["buttons"].each do |button| %>
+          <a href="<%= button["link"] %>" rel="bookmark" class="button"><%= button["text"] %></a>
         <% end %>
       </figcaption>
     </figure>
