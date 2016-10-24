@@ -3,6 +3,9 @@ rebuild:
 	@rm -rf build
 	@make build
 
+run:
+	@bundle exec middleman server
+
 build:
 	@echo "Building"
 	@bundle exec middleman build
