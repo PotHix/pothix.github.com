@@ -1,0 +1,65 @@
+- type: "game"
+  title: "Skeleton Jigsaw"
+  image: "skeleton.jpg"
+  description: "My demo game made with HTML5 and Javascript using impactJS engine."
+  buttons:
+    - text: "Visit"
+      link: "http://plaev.github.io"
+    - text: "Source"
+      link: "https://github.com/Plaev/skeleton-jigsaw"
+
+- type: "lib"
+  title: "Simplestack ruby gem"
+  image: "simplestack_gem.jpg"
+  description: "Ruby gem to interface an application with simplestack."
+  buttons:
+    - text: "Source"
+      link: "https://github.com/Locaweb/ruby-simplestack-client"
+    - text: "Rubygems"
+      link: "https://rubygems.org/gems/simple_stack"
+
+- type: "game"
+  title: "Reconquest"
+  image: "reconquest.jpg"
+  description: "Simple game made for Global Game Jam 2011"
+  buttons:
+    - text: "Visit"
+      link: "http://pothix.com/RECONQUEST/"
+    - text: "Source"
+      link: "https://github.com/PotHix/RECONQUEST"
+
+- type: "game"
+  title: "Jogando e aprendendo"
+  image: "jogandoeaprendendo.jpg"
+  description: "Demo game made with HTML5 and Javascript using Akihabara engine. Made for children to improve the learning process."
+  buttons:
+    - text: "Visit"
+      link: "http://jogandoeaprendendo.com.br"
+    - text: "Source"
+      link: "https://github.com/PotHix/jogando_e_aprendendo"
+
+- type: "lib"
+  title: "Simplestack"
+  image: "simplestack_project.jpg"
+  description: "A project to be the layer between the provisioner application and the multiple hypervisors."
+  buttons:
+    - text: "Source"
+      link: "https://github.com/Locaweb/simplestack"
+
+- type: "game"
+  title: "Robotz Warehouse"
+  image: "robotzwarehouse.jpg"
+  description: "Made with C++ and Allegro library. It was made for Itau Cultural Game Jam, we got the second place."
+  buttons:
+    - text: "Source"
+      link: "https://github.com/PotHix/RobotzWarehouse"
+
+- type: "project"
+  title: "Wlm Instalacoes"
+  image: "wlminstalacoes.jpg"
+  description: "Website made for Wilson Molinari in order to improve their service on the web. Changed the way they work."
+  buttons:
+    - text: "Source"
+      link: "https://github.com/PotHix/wlminstalacoes.com.br"
+    - text: "Visit"
+      link: "http://wlminstalacoes.com.br"
