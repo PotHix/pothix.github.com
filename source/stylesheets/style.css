@@ -946,6 +946,10 @@ img.alignnone {
   text-transform: uppercase;
   color: #aeafaf; }
 
+.main-page-subtitle {
+  margin: 15px 0 0 0;
+  color: #aeafaf; }
+
 .updated {
   display: none; }
 
