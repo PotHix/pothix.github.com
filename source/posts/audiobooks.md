@@ -50,7 +50,7 @@ várias apps. Vou descrever abaixo os meus testes:
   uma biblioteca tão vasta como a do Audible, mas possui vários livros legais. O
   valor é quase metade do valor do Audible e pode ser uma alternativa assim que
   implementarem a aceleração de audio.
-+ [Tocalivros](http://tocalivros.com.br) -- É a alternativa brasileira de
++ [Tocalivros](http://tocalivros.com) -- É a alternativa brasileira de
   distribuição e criação de audiobooks. O player deles melhorou muito nos
   últimos meses e está quase chegando lá. Infelizmente a quantidade de títulos
   bons ainda é bem baixa e nem se compara com serviços gringos ainda.
