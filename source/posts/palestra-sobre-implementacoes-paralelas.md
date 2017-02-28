@@ -2,7 +2,7 @@
 title: "Palestra sobre implementacoes paralelas"
 date: "2012-07-16"
 tags: "dev,tech,speaking"
-category: "dev"
+category: "events"
 ---
 
 Esse post ficou como draft desde que eu palestrei sobre implementações

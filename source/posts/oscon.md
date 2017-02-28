@@ -1,8 +1,8 @@
 ---
-title: OSCON 2015
-date: 2015-07-27
-tags: events
-category: events
+title: "OSCON 2015"
+date: "2015-07-27"
+tags: "events, english"
+category: "events"
 ---
 
 **TL;DR** I've been at OSCON this year (thanks to
