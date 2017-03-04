@@ -21,7 +21,7 @@ the first one in a different language, so it's acceptable.
 
 They already published the video for my presentation, and it
 is [available here](https://video.fosdem.org/2017/K.4.401/) as
-*desktops_open_source_behind_web_request*.
+**desktops\_open\_source\_behind\_web\_request**.
 
 In case you want more information about the presentation, including the slides,
 you may want to check its page
