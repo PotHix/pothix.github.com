@@ -1,6 +1,6 @@
 ---
 title: "FOSDEM survival guide"
-date: "2017-03-03"
+date: "2017-03-07"
 tags: "events, english, tech"
 category: "events"
 ---
