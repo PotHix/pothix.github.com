@@ -8,6 +8,16 @@
     - text: "Slides"
       link: "http://pothix.com/presentation-rubyconf2013"
 
+- type: "web"
+  title: "FOSDEM 2017 - Belgium"
+  image: "opensourcewebrequest_fosdem.jpg"
+  description: "'Open source behind a web request'. This presentation goes through a web request using open source software to detail what is happening in each stage."
+  buttons:
+    - text: "Slides"
+      link: "https://goo.gl/iaEg5A"
+    - text: "Video"
+      link: "https://video.fosdem.org/2017/K.4.401/desktops_open_source_behind_web_request.mp4"
+
 - type: "ruby"
   title: "Ruby no mundo real 2009"
   image: "rubyreal2009.jpg"
@@ -128,4 +138,3 @@
     - text: "Slides"
       link: "http://goo.gl/V5BT5J"
     - text: "Video"
-      link: "https://www.youtube.com/watch?v=9ERJRChQ-fU"
