@@ -5,16 +5,176 @@
   <id>http://pothix.com/</id>
   <link href="http://pothix.com/"/>
   <link href="http://pothix.com/feeds/feed.xml" rel="self"/>
-  <updated>2016-10-02T21:00:00-03:00</updated>
+  <updated>2017-03-02T21:00:00-03:00</updated>
   <author>
     <name>Willian Molinari (a.k.a PotHix)</name>
   </author>
+  <entry>
+    <title>FOSDEM survival guide</title>
+    <link rel="alternate" href="http://pothix.com/2017/03/03/fosdem-survival-guide.html"/>
+    <id>http://pothix.com/2017/03/03/fosdem-survival-guide.html</id>
+    <published>2017-03-02T21:00:00-03:00</published>
+    <updated>2017-03-04T18:11:54-03:00</updated>
+    <author>
+      <name>Willian Molinari (a.k.a PotHix)</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: It was my first time at &lt;a href="http://fosdem.org"&gt;FOSDEM&lt;/a&gt; and it
+took some time to feel comfortable, this post may help newcomers.&lt;/p&gt;
+
+&lt;p&gt;As I mentioned in
+the &lt;a href="my-presentation-at-fosdem-2017.html"&gt;previous post&lt;/a&gt;, I spoke
+at &lt;a href="http://fosdem.org"&gt;FOSDEM&lt;/a&gt; this year. It was my first time there
+(in the whole Europe, btw!) and it took some time to get used to the
+way the event goes. This post will show some tips that may help FOSDEM
+newcomers and maybe some veterans as well.&lt;/p&gt;
+
+&lt;h3&gt;What is FOSDEM?&lt;/h3&gt;
+
+&lt;p&gt;FOSDEM is the &lt;em&gt;Free and Open Source Developers - European
+Meeting&lt;/em&gt;. Long story short, it&amp;rsquo;s a big self organized event that
+happens in Brussels every year since 2013.&lt;/p&gt;
+
+&lt;p&gt;The conference has many Devrooms, that are rooms with a set of
+presentations guided by a topic and organized by a volunteer. Aside of
+that are the main tracks, that are some unique presentations happening
+in some big rooms.&lt;/p&gt;
+
+&lt;p&gt;The whole event survives from donations and some sponsors, but it&amp;rsquo;s
+not organized by a company (like OSCON, for example). There are many
+volunteers that work hard to make it happen.&lt;/p&gt;
+
+&lt;h3&gt;How it works&lt;/h3&gt;
+
+&lt;p&gt;The conference happens at the Universeté libre de Bruxelles, using
+some buildings of the university. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/" alt="Photo of the map" /&gt;&lt;/p&gt;
+
+&lt;p&gt;All the traks are spread across those buildings. Depending on where
+you are, you have to reserve some time to reach the other building. It
+is not so far, but may take 10 or 15 minutes depending on your
+location.&lt;/p&gt;
+
+&lt;p&gt;Think about the time it will take on the transition in case you want
+to watch as many presentations as possible. Also, plan ahead your time
+to be at the room because it may be full when you get there&amp;hellip;&lt;/p&gt;
+
+&lt;h3&gt;FULL signs&lt;/h3&gt;
+
+&lt;p&gt;FOSDEM is chaotic. It&amp;rsquo;s is a good and a bad thing at the same time.&lt;/p&gt;
+
+&lt;p&gt;Conferences like these, organized by the community for the community,
+are the kinds of events I really like. They tend to be chaotic, but it
+is in the root of the whole thing IMO.&lt;/p&gt;
+
+&lt;p&gt;People are free to walk through the university and watch whatever they
+want. They publish a big schedule with information about all the
+presentations happening on all rooms and you may create your on
+schedule. I did it before going but did not consider the time between
+buildings and the &amp;ldquo;FULL&amp;rdquo; signs.&lt;/p&gt;
+
+&lt;p&gt;There are some limits that need to be respected, one of them is the
+number of people inside the room. When the room is fulfilled the add a
+sign with a &amp;ldquo;FULL&amp;rdquo; message at the door and nobody is authorized to
+enter. It make sense, but is really annoying for newcomers.&lt;/p&gt;
+
+&lt;p&gt;When planning your schedule, plan to get to the room at least 15
+minutes before it starts.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;tip&lt;/strong&gt;: instead of jump between many rooms, it&amp;rsquo;s a good idea to
+choose one or two and stay there for 2 or more presentations. It will
+guarantee a spot for you in the room.&lt;/p&gt;
+
+&lt;p&gt;My schedule did not consider the time walking between buildings and
+the full rooms, so&amp;hellip; could not enter in 4+ rooms.&lt;/p&gt;
+
+&lt;h3&gt;Lunch&lt;/h3&gt;
+
+&lt;p&gt;There are some food trucks there. They do not give you a receipt (in
+case your company is refunding your travel, you may need it), so be
+prepared for that.&lt;/p&gt;
+
+&lt;p&gt;It tend to be crowded at peak hours (noon, maybe?), try to get
+something to eat before or after. But be warned that it is almost
+&lt;em&gt;always&lt;/em&gt; crowded. :)&lt;/p&gt;
+
+&lt;p&gt;The conference don&amp;rsquo;t have any breaks, if you want to eat you will have
+to decide to not watch a presentation and use this time to eat
+something.&lt;/p&gt;
+
+&lt;h3&gt;Parties&lt;/h3&gt;
+
+&lt;p&gt;They have a pre-conference party at Delirium. The bar is closed for
+conference members only (they ask some tech questions to get you in
+:P). Delirium has not structure to have all conference members in, so
+it will be &lt;strong&gt;really&lt;/strong&gt; crowded and hot inside. Almost the same amount
+of people will be chatting and drinking outside of the bar as well.&lt;/p&gt;
+
+&lt;p&gt;After the first day of conference, there is a second party, usually in
+a hacker space in Brussels. I could not attend to that one. =/&lt;/p&gt;
+
+&lt;h3&gt;Presentations&lt;/h3&gt;
+
+&lt;p&gt;Always read the presentation description. Some of them have a chick
+bait title, sometimes not intended. I attended to one of them about a
+language development. I was expecting something about the day-to-day
+of the language development and what are planned for the
+future. Unfortunately, it was not what I (and many people in the room)
+were expecting. It was about the metrics and dashboards of the
+language contributors and features.&lt;/p&gt;
+
+&lt;p&gt;In this case, it was not probably not intentional, but almost 50% of
+the room left before the presentation ended.&lt;/p&gt;
+
+&lt;p&gt;Some talks had a good title, but the software is pretty
+experimental. It&amp;rsquo;s OK if you want this content, but read the whole
+summary before to have your expectations aligned with the presentation
+content.&lt;/p&gt;
+
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;FOSDEM is a great event, I really enjoyed it! I would like to have
+received these tips before, so I would have planned my day better.&lt;/p&gt;
+
+&lt;p&gt;Hope it helps the 2018 FOSDEM attendants. o/&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>My presentation at FOSDEM 2017</title>
+    <link rel="alternate" href="http://pothix.com/2017/03/02/my-presentation-at-fosdem-2017.html"/>
+    <id>http://pothix.com/2017/03/02/my-presentation-at-fosdem-2017.html</id>
+    <published>2017-03-01T21:00:00-03:00</published>
+    <updated>2017-03-04T18:11:54-03:00</updated>
+    <author>
+      <name>Willian Molinari (a.k.a PotHix)</name>
+    </author>
+    <content type="html">&lt;p&gt;This year my proposal to speak at &lt;a href="http://fosdem.org"&gt;FOSDEM&lt;/a&gt; was accepted and I
+spoke at the Desktop devroom! :)&lt;/p&gt;
+
+&lt;p&gt;It was my first talk in English, so I decided to do as many rehearsals as I
+could. I was 8 in total, but as expected, it was still ahead of time. :P&lt;/p&gt;
+
+&lt;p&gt;I had 30 minutes (including questions) to present and I did it in 26. I usually
+speak fast and this presentation &lt;strong&gt;was made to be fast&lt;/strong&gt; because I had a lot of
+content to show in 30 minutes. So, &lt;strong&gt;it was FAST&lt;/strong&gt; (even more than what I was
+expecting). LOL&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m OK with the final result. It&amp;rsquo;s far from being my best presentation but it&amp;rsquo;s
+the first one in a different language, so it&amp;rsquo;s acceptable. &lt;/p&gt;
+
+&lt;p&gt;They already published the video for my presentation, and it
+is &lt;a href="#"&gt;available here&lt;/a&gt;. 
+And &lt;a href="#"&gt;here is the link for the slides&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;FOSDEM was great, can&amp;rsquo;t wait for the next! :)&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Escrevendo o Desconstruindo a web</title>
     <link rel="alternate" href="http://pothix.com/2016/10/03/escrevendo-o-desconstruindo-a-web.html"/>
     <id>http://pothix.com/2016/10/03/escrevendo-o-desconstruindo-a-web.html</id>
     <published>2016-10-02T21:00:00-03:00</published>
-    <updated>2016-12-30T15:38:15-02:00</updated>
+    <updated>2017-01-29T16:48:29-02:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -274,7 +434,7 @@ próximos! :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2016/09/26/rubyconf-2016.html"/>
     <id>http://pothix.com/2016/09/26/rubyconf-2016.html</id>
     <published>2016-09-25T21:00:00-03:00</published>
-    <updated>2016-12-30T15:38:15-02:00</updated>
+    <updated>2017-02-28T16:10:59-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -349,7 +509,7 @@ contínua de conhecimento vai continuar. :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2016/06/22/audiobooks.html"/>
     <id>http://pothix.com/2016/06/22/audiobooks.html</id>
     <published>2016-06-21T21:00:00-03:00</published>
-    <updated>2017-01-29T16:26:24-02:00</updated>
+    <updated>2017-01-29T16:48:29-02:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -461,7 +621,7 @@ livros que queria! :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2015/10/08/experiences-of-almost-two-years-using-colemak.html"/>
     <id>http://pothix.com/2015/10/08/experiences-of-almost-two-years-using-colemak.html</id>
     <published>2015-10-07T21:00:00-03:00</published>
-    <updated>2016-12-30T15:38:15-02:00</updated>
+    <updated>2017-01-29T16:48:29-02:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -527,7 +687,7 @@ about my journey is that &lt;strong&gt;I would do it again if I could&lt;/strong
     <link rel="alternate" href="http://pothix.com/2015/08/31/as-escolhas-do-desenvolvedor.html"/>
     <id>http://pothix.com/2015/08/31/as-escolhas-do-desenvolvedor.html</id>
     <published>2015-08-30T21:00:00-03:00</published>
-    <updated>2016-12-30T15:38:15-02:00</updated>
+    <updated>2017-01-29T16:48:29-02:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -573,7 +733,7 @@ coisa legal com a palestra.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2015/07/27/oscon.html"/>
     <id>http://pothix.com/2015/07/27/oscon.html</id>
     <published>2015-07-26T21:00:00-03:00</published>
-    <updated>2016-12-30T15:38:15-02:00</updated>
+    <updated>2017-02-28T12:18:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -943,7 +1103,7 @@ Portland. :(&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2015/05/25/new-layout-of-pothix-blog.html"/>
     <id>http://pothix.com/2015/05/25/new-layout-of-pothix-blog.html</id>
     <published>2015-05-24T21:00:00-03:00</published>
-    <updated>2016-12-30T15:38:15-02:00</updated>
+    <updated>2017-01-29T16:48:29-02:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -970,7 +1130,7 @@ instead of keeping the wordpress &amp;ldquo;infrastructure&amp;rdquo;.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2014/02/14/ruby-python-e-native-threads.html"/>
     <id>http://pothix.com/2014/02/14/ruby-python-e-native-threads.html</id>
     <published>2014-02-13T22:00:00-02:00</published>
-    <updated>2016-12-30T15:38:15-02:00</updated>
+    <updated>2017-01-29T16:48:29-02:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1526,7 +1686,7 @@ descobrir coisas novas. :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2013/12/03/golang-and-1-2-version-performance-improvement.html"/>
     <id>http://pothix.com/2013/12/03/golang-and-1-2-version-performance-improvement.html</id>
     <published>2013-12-02T22:00:00-02:00</published>
-    <updated>2016-12-30T15:38:15-02:00</updated>
+    <updated>2017-01-29T16:48:29-02:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1633,132 +1793,6 @@ to give Go a try.&lt;/p&gt;
 
 &lt;p&gt;Go language has a lot of interesting ideas and it is growing fast.
 Looks like it is a good idea of language for some of my projects, welcome Golang!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>O Guru-SP e seus 5 anos de vida</title>
-    <link rel="alternate" href="http://pothix.com/2013/09/17/o-guru-sp-e-seus-5-anos-de-vida.html"/>
-    <id>http://pothix.com/2013/09/17/o-guru-sp-e-seus-5-anos-de-vida.html</id>
-    <published>2013-09-16T21:00:00-03:00</published>
-    <updated>2016-12-30T15:38:15-02:00</updated>
-    <author>
-      <name>Willian Molinari (a.k.a PotHix)</name>
-    </author>
-    <content type="html">&lt;p&gt;Há pouco tempo aconteceu o &lt;a href="http://gurusp.org/encontros/trigesimo-primeiro-encontro-do-guru-sp"&gt;encontro numero 31 do Guru-SP&lt;/a&gt;, e como sempre saímos
-(dessa vez estavamos &lt;a href="http://twitter.com/vinibaggio"&gt;@vinibaggio&lt;/a&gt;, &lt;a href="http://twitter.com/agaelebe"&gt;@agaelebe&lt;/a&gt;, &lt;a href="http://twitter.com/nuxlli"&gt;@nuxlli&lt;/a&gt; e &lt;a href="http://twitter.com/anderson_leite"&gt;@anderson_leite&lt;/a&gt;) para
-aquele velho momento de bate papo pós evento. Durante a conversa o @nuxlli perguntou sobre como o Guru-SP começou e nesse momento eu comecei a relembrar
-daquela velha tarde em 2008.&lt;/p&gt;
-
-&lt;p&gt;Mas peraí&amp;hellip; &lt;strong&gt;2008&lt;/strong&gt;!! O Guru-SP está próximo de fazer &lt;strong&gt;5 anos&lt;/strong&gt; de vida! :)&lt;/p&gt;
-
-&lt;p&gt;Em pensar que tudo começou após &lt;a href="https://groups.google.com/forum/#!topic/rails-br/HUnABlEfR7A"&gt;um post do @agaelebe na
-Rails-br&lt;/a&gt; falando
-sobre criar grupos locais para conversar mais sobre Ruby e fazer encontros com
-mais frequência, o que gerou interesse de várias pessoas de São Paulo, que
-decidiram levar esse &amp;ldquo;projeto&amp;rdquo; pra frente.&lt;/p&gt;
-
-&lt;p&gt;Logo em seguida o &lt;a href="http://twitter.com/mfcastellani"&gt;@mfcastellani&lt;/a&gt; já iniciou &lt;a href="https://groups.google.com/forum/#!topic/ruby-sp/2SEBkbofoFA"&gt;as primeiras
-discussões&lt;/a&gt; no
-&lt;a href="https://groups.google.com/forum/#!forum/ruby-sp"&gt;grupo do Guru-SP&lt;/a&gt; e
-aproveitamos para agendar o &lt;a href="http://gurusp.org/encontros/primeiro-encontro"&gt;primeiro
-encontro&lt;/a&gt; numa churrascaria
-qualquer no ABC que era mais próximo da casa do &lt;a href="http://twitter.com/mfcastellani"&gt;@mfcastellani&lt;/a&gt;, pois como ele nos
-contou depois: &amp;ldquo;Se não aparecer ninguém só comeria uma carne e voltaria para
-casa&amp;rdquo;. hahaha&lt;/p&gt;
-
-&lt;p&gt;E algumas pessoas compareceram, eramos 3 pessoas conversando sobre o que poderia
-ser o Guru-SP no futuro. Não conhecia o &lt;a href="http://twitter.com/mfcastellani"&gt;@mfcastellani&lt;/a&gt; nem o &lt;a href="http://twitter.com/agaelebe"&gt;@agaelebe&lt;/a&gt;, mas
-ficamos boa parte da tarde conversando sobre desenvolvimento no geral e
-planejando o que seria legal fazer no grupo (camisetas, eventos maiores,
-encontros mensais, e etc).&lt;/p&gt;
-
-&lt;p&gt;Logo conseguimos as camisetas do Guru-SP! Depois de cotar alguns fornecedores e
-fazer um desenho legal para representar o grupo rachamos as despesas e mandamos
-fazer camisetas para quem estivesse interessado. Com a entrega das camisetas
-consegui conhecer muita gente que não conhecia pessoalmente.&lt;/p&gt;
-
-&lt;p&gt;Aproveitamos que alguns de nós estariam na Campus Party e fizemos o segundo
-encontro por lá! Como sempre tinha uma quantidade enorme de pessoas: Eu, o
-&lt;a href="http://twitter.com/mfcastellani"&gt;@mfcastellani&lt;/a&gt; e o &lt;a href="http://twitter.com/akitaonrails"&gt;@akitaonrails&lt;/a&gt;. O &lt;a href="http://twitter.com/shadowmaru"&gt;@shadowmaru&lt;/a&gt; apareceu também, mas só me
-encontrou para pegar a camiseta.&lt;/p&gt;
-
-&lt;p&gt;Nesse meio tempo já estávamos planejando aquele &amp;ldquo;encontro maior&amp;rdquo; que conversamos
-no primeiro encontro, e poucos meses depois saiu o &lt;a href="http://gurusp.org/encontros/ruby-rails-no-mundo-real-primeira-edicao"&gt;Ruby + Rails no mundo
-real&lt;/a&gt; com
-o auxílio da Tempo Real eventos.&lt;/p&gt;
-
-&lt;p&gt;Apesar do quarto ter uma quantidade pequena de pessoas (apenas o &lt;a href="http://twitter.com/rafaelrosafu"&gt;@rafaelrosafu&lt;/a&gt; e
-o &lt;a href="http://twitter.com/agaelebe"&gt;@agaelebe&lt;/a&gt;), o quinto encontro me surpreendeu bastante. Ao chegar na Voice
-Technology (onde o &lt;a href="http://twitter.com/andre_pantaliao"&gt;@andre_pantaliao&lt;/a&gt; trabalhava na época e conseguiu o espaço
-para o encontro) eu encontrei uma sala com mais de 20 pessoas aguardando as
-palestras! O encontro foi bem proveitoso e mais do que nunca percebíamos o
-Guru-SP crescendo.&lt;/p&gt;
-
-&lt;p&gt;Eu considero que depois desse encontro o Guru-SP começou a andar sozinho,
-conseguimos empresas parceiras para nos ajudar, o grupo cresceu bastante,
-sempre tinhamos boas talks nos encontros e etc.&lt;/p&gt;
-
-&lt;p&gt;Hoje o Guru-SP tem mais de 1100 inscritos na lista, e já tivemos encontros
-comuns com mais de 100 pessoas, isso sem contar os eventos que organizamos e
-que tiveram mais de 200 pessoas. &lt;/p&gt;
-
-&lt;p&gt;Temos empresas que sempre nos ajudam, seja com espaço ou coffee break. Vale
-agradecer a Caelum que por muito tempo nos forneceu o auditório mensalmente, e
-ainda hoje sempre nor provê espaço quando precisamos. Não vou tentar citar
-todas as empresas que ajudam porque sempre vou deixar uma de fora, mas dá para
-ver cada um dos patrocínios &lt;a href="http://gurusp.org/encontros"&gt;na página de encontros do Guru-SP&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Atualmente o Guru-SP não é &lt;strong&gt;somente&lt;/strong&gt; focado em Ruby, mas aproveitamos muitos
-dos conhecimentos diversos de todos os participantes para trazer bom conteúdo
-em várias partes da área de desenvolvimento, o que faz com que cada vez mais
-tenhamos conteúdo legal e interação entre a galera.&lt;/p&gt;
-
-&lt;p&gt;Parabéns aos Guru-SP pelos 5 anos de vida e para todo mundo que ajudou (e/ou
-ainda ajuda) na organização para fazer um dos grupos de Ruby mais ativos do
-Brasil, e mais do que isso um lugar legal para troca de conhecimentos.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: nuxlli, Renato Elias, Marcelo Castellani, Reinaldo, Rafael Rosa, Vinicius Baggio Fuentes, Lucas Caton, Paulo Silveira, Nelson Haraguchi, lucas renan | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Vendo intruder 125 customizada e com guidão seca suvaco</title>
-    <link rel="alternate" href="http://pothix.com/2013/07/29/vendo-intruder-125-customizada-e-com-guidao-seca-suvaco.html"/>
-    <id>http://pothix.com/2013/07/29/vendo-intruder-125-customizada-e-com-guidao-seca-suvaco.html</id>
-    <published>2013-07-28T21:00:00-03:00</published>
-    <updated>2016-12-30T15:38:15-02:00</updated>
-    <author>
-      <name>Willian Molinari (a.k.a PotHix)</name>
-    </author>
-    <content type="html">&lt;p&gt;Depois de brincar de customização de motos por um tempo chegou a hora
-de vender minha intrudinha. Estou com ela desde 2008 e só me deu
-alegrias.&lt;/p&gt;
-
-&lt;p&gt;Algumas informações sobre ela:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Único dono&lt;/li&gt;
-&lt;li&gt;Toda a parafernalha que veio com ela quando eu comprei eu ainda tenho&lt;/li&gt;
-&lt;li&gt;IPVA pago&lt;/li&gt;
-&lt;li&gt;Pneu traseiro praticamente novo, não rodou nem 100km&lt;/li&gt;
-&lt;li&gt;Bateria nova, 1 mês de uso&lt;/li&gt;
-&lt;li&gt;Motor, protetor de corrente e paralamas frontal são preto fosco.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Acessórios (fora todos os itens originais que vão junto!)&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Guidão seca de 45cm que mandei fazer especialmente para ela&lt;/li&gt;
-&lt;li&gt;Sissy bar&lt;/li&gt;
-&lt;li&gt;Retrovisor pequeno&lt;/li&gt;
-&lt;li&gt;Escape aberto feito especialmente para ela&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src="/images/posts/intruder-e7f1538d.jpg" title="Intruder 2008 customizada" alt="Foto da minha intruder 2008 customizada" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Quem estiver interessado é só entrar em contato por email, ou aqui nos
-comentários mesmo.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: thalita | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>
