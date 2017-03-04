@@ -5,6 +5,7 @@ source 'http://rubygems.org'
 gem "middleman"
 gem "middleman-blog"
 gem "middleman-syntax"
+gem "middleman-livereload"
 
 # For feed.xml.builder
 gem "builder"

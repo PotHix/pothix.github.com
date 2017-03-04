@@ -19,7 +19,11 @@ GEM
     concurrent-ruby (1.0.4)
     contracts (0.13.0)
     dotenv (2.2.0)
+    em-websocket (0.5.1)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
+    eventmachine (1.2.3)
     execjs (2.7.0)
     fast_blank (1.0.0)
     fastimage (2.0.1)
@@ -30,6 +34,7 @@ GEM
     hamster (3.0.0)
       concurrent-ruby (~> 1.0)
     hashie (3.4.6)
+    http_parser.rb (0.6.0)
     i18n (0.7.0)
     kramdown (1.13.2)
     libv8 (3.16.14.17)
@@ -74,6 +79,10 @@ GEM
       servolux
       tilt (~> 2.0)
       uglifier (~> 3.0)
+    middleman-livereload (3.4.6)
+      em-websocket (~> 0.5.1)
+      middleman-core (>= 3.3)
+      rack-livereload (~> 0.3.15)
     middleman-syntax (3.0.0)
       middleman-core (>= 3.2)
       rouge (~> 2.0)
@@ -90,6 +99,8 @@ GEM
     parallel (1.10.0)
     public_suffix (2.0.5)
     rack (2.0.1)
+    rack-livereload (0.3.16)
+      rack
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)
@@ -116,6 +127,7 @@ DEPENDENCIES
   builder
   middleman
   middleman-blog
+  middleman-livereload
   middleman-syntax
   nokogiri
   redcarpet
