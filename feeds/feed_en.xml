@@ -5,16 +5,16 @@
   <id>http://pothix.com/</id>
   <link href="http://pothix.com/"/>
   <link href="http://pothix.com/feeds/feed_en.xml" rel="self"/>
-  <updated>2017-03-01T21:00:00-03:00</updated>
+  <updated>2017-03-03T21:00:00-03:00</updated>
   <author>
     <name>Willian Molinari (a.k.a PotHix)</name>
   </author>
   <entry>
     <title>My presentation at FOSDEM 2017</title>
-    <link rel="alternate" href="http://pothix.com/2017/03/02/my-presentation-at-fosdem-2017.html"/>
-    <id>http://pothix.com/2017/03/02/my-presentation-at-fosdem-2017.html</id>
-    <published>2017-03-01T21:00:00-03:00</published>
-    <updated>2017-03-04T18:19:42-03:00</updated>
+    <link rel="alternate" href="http://pothix.com/2017/03/04/my-presentation-at-fosdem-2017.html"/>
+    <id>http://pothix.com/2017/03/04/my-presentation-at-fosdem-2017.html</id>
+    <published>2017-03-03T21:00:00-03:00</published>
+    <updated>2017-03-04T18:21:19-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -22,19 +22,24 @@
 spoke at the Desktop devroom! :)&lt;/p&gt;
 
 &lt;p&gt;It was my first talk in English, so I decided to do as many rehearsals as I
-could. I was 8 in total, but as expected, it was still ahead of time. :P&lt;/p&gt;
+could. I was 8 in total, but as expected, it was still a little bit faster than
+expected. :P&lt;/p&gt;
 
-&lt;p&gt;I had 30 minutes (including questions) to present and I did it in 26. I usually
-speak fast and this presentation &lt;strong&gt;was made to be fast&lt;/strong&gt; because I had a lot of
-content to show in 30 minutes. So, &lt;strong&gt;it was FAST&lt;/strong&gt; (even more than what I was
-expecting). LOL&lt;/p&gt;
+&lt;p&gt;I had 30 minutes to present and I did it in 26. I usually speak fast and this
+presentation &lt;strong&gt;was made to be fast&lt;/strong&gt; because I had a lot of content to show in
+30 minutes. So, &lt;strong&gt;it was FAST&lt;/strong&gt; (even more than what I was expecting). LOL&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;m OK with the final result. It&amp;rsquo;s far from being my best presentation but it&amp;rsquo;s
 the first one in a different language, so it&amp;rsquo;s acceptable. &lt;/p&gt;
 
 &lt;p&gt;They already published the video for my presentation, and it
-is &lt;a href="#"&gt;available here&lt;/a&gt;. 
-And &lt;a href="#"&gt;here is the link for the slides&lt;/a&gt;.&lt;/p&gt;
+is &lt;a href="https://video.fosdem.org/2017/K.4.401/"&gt;available here&lt;/a&gt; as
+&lt;em&gt;desktops&lt;em&gt;open&lt;/em&gt;source&lt;em&gt;behind&lt;/em&gt;web_request&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;In case you want more information about the presentation, including the slides,
+you may want to check its page
+on
+&lt;a href="https://fosdem.org/2017/schedule/event/desktops_open_source_behind_web_request/"&gt;FOSDEM Schedule&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;FOSDEM was great, can&amp;rsquo;t wait for the next! :)&lt;/p&gt;
 </content>
@@ -44,7 +49,7 @@ And &lt;a href="#"&gt;here is the link for the slides&lt;/a&gt;.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2015/10/08/experiences-of-almost-two-years-using-colemak.html"/>
     <id>http://pothix.com/2015/10/08/experiences-of-almost-two-years-using-colemak.html</id>
     <published>2015-10-07T21:00:00-03:00</published>
-    <updated>2017-03-04T18:12:20-03:00</updated>
+    <updated>2017-03-04T18:20:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -110,7 +115,7 @@ about my journey is that &lt;strong&gt;I would do it again if I could&lt;/strong
     <link rel="alternate" href="http://pothix.com/2015/07/27/oscon.html"/>
     <id>http://pothix.com/2015/07/27/oscon.html</id>
     <published>2015-07-26T21:00:00-03:00</published>
-    <updated>2017-03-04T18:12:20-03:00</updated>
+    <updated>2017-03-04T18:20:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -480,7 +485,7 @@ Portland. :(&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2015/05/25/new-layout-of-pothix-blog.html"/>
     <id>http://pothix.com/2015/05/25/new-layout-of-pothix-blog.html</id>
     <published>2015-05-24T21:00:00-03:00</published>
-    <updated>2017-03-04T18:12:20-03:00</updated>
+    <updated>2017-03-04T18:20:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -507,7 +512,7 @@ instead of keeping the wordpress &amp;ldquo;infrastructure&amp;rdquo;.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2013/12/03/golang-and-1-2-version-performance-improvement.html"/>
     <id>http://pothix.com/2013/12/03/golang-and-1-2-version-performance-improvement.html</id>
     <published>2013-12-02T22:00:00-02:00</published>
-    <updated>2017-03-04T18:12:20-03:00</updated>
+    <updated>2017-03-04T18:20:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -621,7 +626,7 @@ Looks like it is a good idea of language for some of my projects, welcome Golang
     <link rel="alternate" href="http://pothix.com/2013/07/15/game-network-programming.html"/>
     <id>http://pothix.com/2013/07/15/game-network-programming.html</id>
     <published>2013-07-14T21:00:00-03:00</published>
-    <updated>2017-03-04T18:12:20-03:00</updated>
+    <updated>2017-03-04T18:20:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -668,7 +673,7 @@ também! Se tiverem dúvidas postem aí nos comentários. :)&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/09/10/a-lifestyle.html"/>
     <id>http://pothix.com/2012/09/10/a-lifestyle.html</id>
     <published>2012-09-09T21:00:00-03:00</published>
-    <updated>2017-03-04T18:12:20-03:00</updated>
+    <updated>2017-03-04T18:20:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -750,7 +755,7 @@ We don’t care what everyone else believes.
     <link rel="alternate" href="http://pothix.com/2012/09/02/javascript-and-gamedev-discussion.html"/>
     <id>http://pothix.com/2012/09/02/javascript-and-gamedev-discussion.html</id>
     <published>2012-09-01T21:00:00-03:00</published>
-    <updated>2017-03-04T18:12:20-03:00</updated>
+    <updated>2017-03-04T18:20:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -806,7 +811,7 @@ well, you just need to decide which one is better for your business.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/07/23/kernel-compiling.html"/>
     <id>http://pothix.com/2012/07/23/kernel-compiling.html</id>
     <published>2012-07-22T21:00:00-03:00</published>
-    <updated>2017-03-04T18:12:20-03:00</updated>
+    <updated>2017-03-04T18:20:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -980,7 +985,7 @@ process I think that I learned a lot, so it is worth it.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2012/07/17/simlinks-for-ruby-on-debian-squeeze.html"/>
     <id>http://pothix.com/2012/07/17/simlinks-for-ruby-on-debian-squeeze.html</id>
     <published>2012-07-16T21:00:00-03:00</published>
-    <updated>2017-03-04T18:12:20-03:00</updated>
+    <updated>2017-03-04T18:20:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1011,7 +1016,7 @@ ln -s /usr/bin/gem1.9.1 /usr/bin/gem
     <link rel="alternate" href="http://pothix.com/2009/04/10/translated-rubylearning-presentation.html"/>
     <id>http://pothix.com/2009/04/10/translated-rubylearning-presentation.html</id>
     <published>2009-04-09T21:00:00-03:00</published>
-    <updated>2017-03-04T18:12:20-03:00</updated>
+    <updated>2017-03-04T18:20:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1309,7 +1314,7 @@ with paypal.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2009/01/07/deploying-a-simple-merb-application-on-locaweb.html"/>
     <id>http://pothix.com/2009/01/07/deploying-a-simple-merb-application-on-locaweb.html</id>
     <published>2009-01-06T22:00:00-02:00</published>
-    <updated>2017-03-04T18:12:20-03:00</updated>
+    <updated>2017-03-04T18:20:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1395,7 +1400,7 @@ pointed by apache with Phusion Passenger.&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/12/31/new-year-is-coming.html"/>
     <id>http://pothix.com/2008/12/31/new-year-is-coming.html</id>
     <published>2008-12-30T22:00:00-02:00</published>
-    <updated>2017-03-04T18:12:20-03:00</updated>
+    <updated>2017-03-04T18:20:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
@@ -1435,7 +1440,7 @@ nos veremos em 2009!&lt;/p&gt;
     <link rel="alternate" href="http://pothix.com/2008/12/16/first-post-in-english-here.html"/>
     <id>http://pothix.com/2008/12/16/first-post-in-english-here.html</id>
     <published>2008-12-15T22:00:00-02:00</published>
-    <updated>2017-03-04T18:12:20-03:00</updated>
+    <updated>2017-03-04T18:20:10-03:00</updated>
     <author>
       <name>Willian Molinari (a.k.a PotHix)</name>
     </author>
