@@ -1,6 +1,7 @@
 +++
 title = "My current Archlinux setup"
 date = "2017-03-13"
+draft = true
 tags = ["english"," tech"]
 categories = "tech"
 +++
