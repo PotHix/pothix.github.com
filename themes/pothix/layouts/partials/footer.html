@@ -23,13 +23,11 @@
                         </h3>
 
                         <ul>
-                            {{ range $i, $val := sort .Paginator.Pages }}
-                                {{ if lt $i 4 }}
+                            {{ range first 4 .Data.Pages }}
                                 <li>
                                   <a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Draft }} ::Draft{{ end }}
                                   <span class="post-date">{{ .Date.Format "January 2, 2006" }}</span>
                                 </li>
-                                {{ end }}
                             {{ end }}
                         </ul>
                     </aside>
