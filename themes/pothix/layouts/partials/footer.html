@@ -23,11 +23,14 @@
                         </h3>
 
                         <ul>
-                            <% blog.articles.first(4).each do |article| %>
-                            <li>
-                                <%= link_to article.title, article %> <span class="post-date"><%= article.date.strftime('%b %e, %Y') %></span>
-                            </li>
-                            <% end %>
+                            {{ range $i, $val := sort .Paginator.Pages }}
+                                {{ if lt $i 4 }}
+                                <li>
+                                  <a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Draft }} ::Draft{{ end }}
+                                  <span class="post-date">{{ .Date.Format "January 2, 2006" }}</span>
+                                </li>
+                                {{ end }}
+                            {{ end }}
                         </ul>
                     </aside>
 

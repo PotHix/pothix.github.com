@@ -1,4 +1,4 @@
-{{ partial "header" }}
+{{ partial "header" . }}
 
 <div id="content" class="site-content">
     <div id="primary" class="content-area">
@@ -8,9 +8,10 @@
                 <p class='main-page-subtitle'>Looking for English posts only? Click <a href="/tags/english.html">here</a>! ;)</p>
             </header>
 
-            {{ partial "main" }}
+            {{ partial "main" . }}
+            {{ partial "pager" . }}
         </main>
     </div>
 </div>
 
-{{ partial "footer" }}
+{{ partial "footer" . }}

@@ -3,8 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
+        <meta content="{{ .Site.Params.Author }}" name="author">
+        <meta property="og:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
+        <meta property="og:url" content="{{ .Permalink }}">
+        <meta property="og:description" content="{{ .Site.Params.Description }}">
+        <meta property="og:type" content="website" />
 
-        <title>PotHix blog<%= ' - ' + current_article.title unless current_article.nil? %></title>
+        <!-- <title>PotHix blog<%= ' - ' + current_article.title unless current_article.nil? %></title> -->
+        <title>{{ .Title }}{{ if eq .IsHome false }} | {{ .Site.Title }}{{ end }}</title>
 
         <!-- Prefetch DNS for external resources to speed up loading time -->
         <link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -14,9 +20,10 @@
         <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
         <![endif]-->
 
-        <%= feed_tag :atom, "http://feeds.feedburner.com/PotHix", title: "Atom Feed (all posts)" %>
-        <%= feed_tag :atom, "http://feeds.feedburner.com/EnglishPotHix", title: "Atom Feed (all posts in English)" %>
-        <%= feed_tag :atom, "http://feeds.feedburner.com/PotHixTech", title: "Atom Feed (all posts related to technology)" %>
+
+        <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts)" href="http://feeds.feedburner.com/PotHix" />
+        <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts in English)" href="http://feeds.feedburner.com/EnglishPotHix" />
+        <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts related to technology)" href="http://feeds.feedburner.com/PotHixTech" />
 
         <link rel="icon" type="image/png" href="/images/favico.png">
         <link rel="stylesheet" href="/stylesheets/style.css" type="text/css" media="all" />
