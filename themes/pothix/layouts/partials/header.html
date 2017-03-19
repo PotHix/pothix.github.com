@@ -8,8 +8,8 @@
         <meta property="og:url" content="{{ .Permalink }}">
         <meta property="og:description" content="{{ .Site.Params.Description }}">
         <meta property="og:type" content="website" />
+        {{ .Hugo.Generator }}
 
-        <!-- <title>PotHix blog<%= ' - ' + current_article.title unless current_article.nil? %></title> -->
         <title>{{ .Title }}{{ if eq .IsHome false }} | {{ .Site.Title }}{{ end }}</title>
 
         <!-- Prefetch DNS for external resources to speed up loading time -->
