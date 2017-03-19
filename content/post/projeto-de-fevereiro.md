@@ -1,0 +1,88 @@
++++
+title = "Projeto de fevereiro"
+date = "2009-04-03"
+tags = ["dev","personal","tech"]
+categories = "dev"
++++
+
+No mês de fevereiro eu estive envolvido com um projeto bem
+interessante na [empresa que estou trabalhando] (ainda vamos
+trabalhar mais em nosso site 😛), que foi feito em Python / Django e
+deveria gerar páginas estáticas ( exigência do projeto ).
+
+Tivemos um prazo muito curto para tudo que deveria ser feito, o que
+gerou uma grande quantidade de trabalho fora do horário e dos dias
+comuns. Entre o começo e o fim do projeto, tínhamos o carnaval,
+portanto tivemos que deixar [nossos espíritos carnavalescos] guardados
+e partir para o trabalho árduo no feriado até horas indeterminadas.
+
+O ambiente de trabalho era bem legal, trabalhamos onde chamávamos de
+The Rubens, que tinha tudo o que precisávamos para nos sentir a
+vontade:
+
+[![Foto de uma Sitar no The Rubens](/images/posts/projeto_fevereiro_instrumento.jpg "Sitar")](http://picasaweb.google.com/lh/photo/jVW8dd3JY7WCrCz0hiV_UQ?feat=directlink "")
+[![Foto dos violões do Rubens](/images/posts/projeto_fevereiro_violao.jpg "Violões")](http://picasaweb.google.com/lh/photo/-vMfDbnPkfAvctXMJRjzWA?feat=directlink "")
+[![Foto dos livros da biblioteca do Rubens](/images/posts/projeto_fevereiro_biblioteca.jpg "Biblioteca")](http://picasaweb.google.com/lh/photo/NoofOiWk-FpJKbQaEJ0jHA?feat=directlink "")
+
+Obviamente nada melhor do que instrumentos (para uma leve descontraída
+antes de voltar ao trabalho árduo), pessoas motivadas, barrinhas de
+cereal, livros (vários nomes interessantíssimos nessa biblioteca!) e
+programação! A única coisa que não tínhamos era tempo o suficiente
+para fazer tudo tranquilamente, mas aproveitamos bastante o tempo.
+
+[![Foto do relógio marcando quase duas horas da manhã quando estava indo para casa](https://lh5.googleusercontent.com/bXWgXlrMJ55dk3wesmhpZx-n1iFNfLRJu_kD-wIF0YI=w720-h900-no "Olha o horário")](http://picasaweb.google.com/lh/photo/C9GP7QYcyrNlXOIvbH6B7Q?feat=directlink "")
+
+Trabalhamos todos os dias durante o carnaval, sábado, domingo, de
+madrugada, e em qualquer outro horário que fosse possivel ( hehe ).
+Nosso repositório Git já estava bem legal no gráfico de Network do
+GitHub, entre emaranhados coloridos!
+
+Durante o caminho tivemos que enfrentar alguns contratempos, como o
+calor infernal, a falta de energia elétrica, a quantidade de novidades
+para lidar, tanto com o Python / Django, como com o Git e outras coisas
+mais!
+
+[![PotHix usando a mascara do Darth Vader](https://lh6.googleusercontent.com/-WvzTz_kVWsQ/SdOp0dF8fcI/AAAAAAAABiU/KJl8daqu0uA/w720-h900-no/moto_0441.jpg "Darth Vader!")](http://picasaweb.google.com/lh/photo/WKEYkHv63No08HDzdQNmpw?feat=directlink "")
+
+Nenhum dos contratempos pode nos barrar muito! Com o calor vieram os
+ventiladores, com a falta de energia veio o nosso local de trabalho
+provisório (só durante aquele dia), e o prazo curto nós conseguimos
+vencer com muitas barrinhas de cereal e horas de trabalho.
+
+Ahhh! É claro que no meio de toda a correria tinhamos que ter tambem o
+nossos momentos de descontração, alem do nosso amigo Darth Vader que
+aparecia na hora dos conflitos do merge… hehehe
+
+Entre nossas descontrações (geralmente pouco antes de ir embora,
+22:00h) tinhamos sessão violão e Sitar, ou momento Guitar Hero, ou
+jogo de alvo + dardos, um pouco de tiro com o [Open Arena] entre
+outras coisinhas.
+
+Estavamos trabalhando com 2 Macs, 1 Windows e 1 Linux, portanto sempre
+tinha as boas e velhas conversas sobre o melhor sistema operacional, que
+é claro que o Linux é o melhor (haha, pelo menos aqui eu sou o root
+para dizer isso… hehehe).
+
+Enfim…Foi um projeto corrido, dormimos pouco, trabalhamos muito,
+consideramos feriados e finais de semana como dias normais de
+trabalho, mas…Como diria o [Rubens] (algo parecido com isso):
+
+> É dos projetos mais difíceis que ficam as suas ótimas recordações
+
+Portanto, na minha humilde opinião, se você tiver a oportunidade de
+entrar naquele projeto difícil com bons amigos, faça que vai valer a
+pena! :)
+
+**Update**: Bem lembrado pelo Nelson! Nós temos o nosso vídeo de
+comemoração, quando terminavamos nossas features:
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/5ELi4o4jAx0" frameborder="0" allowfullscreen></iframe>
+
+[Open Arena]: http://openarena.ws/ "Open Arena!"
+[Rubens]: http://www.linkedin.com/in/raltimari "Rubens Altimari"
+[empresa que estou trabalhando]: http://www.whitehat.com.br/ "Whitehat Software"
+[nossos espíritos carnavalescos]: http://picasaweb.google.com/lh/photo/mHmy-foJwpAQDav4MeKhpA?feat=directlink "Veja a alegria!"
+
+
+
+_Old comments by: The Rub(ens) | Not available anymore. :(_
