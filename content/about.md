@@ -1,11 +1,9 @@
 +++
-date = "2017-03-20T21:33:24-03:00"
-title = "about"
 type = "page"
 layout = "about"
 +++
 
-<center>_\<pt-BR\>Tem também a versão em português\</pt-BR\>_</center> 
+<center><i>\<pt-BR\>Tem também a [versão em português](/about_ptbr)\</pt-BR\></i></center>
 
 I'm Willian Molinari, also known as **PotHix**. I'm a software developer since 2006 and worked with a lot of different languages in my career like: ASP2, VB.NET, PHP, Python, Ruby, Golang, Javascript and a little bit of C. For more information on my career read my [Linkedin Profile](https://www.linkedin.com/in/willianmolinari).
 
