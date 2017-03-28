@@ -1,5 +1,6 @@
 +++
 title = "Dev In Sampa"
+aliases=["2009/12/02/dev-in-sampa.html"]
 date = "2009-12-02"
 tags = ["dev","events","tech"]
 categories = "events"

@@ -1,5 +1,6 @@
 +++
 title = "Organizando seu Gmail para manter Inbox zero"
+aliases=["2009/05/20/organizando-seu-gmail-para-manter-inbox-zero.html"]
 date = "2009-05-20"
 tags = ["gtd","tech","personal"]
 categories = "personal"

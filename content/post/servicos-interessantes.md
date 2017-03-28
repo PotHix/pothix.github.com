@@ -1,5 +1,6 @@
 +++
 title = "Serviços interessantes"
+aliases=["2009/06/12/servicos-interessantes.html"]
 date = "2009-06-12"
 tags = ["personal","tech","tips","review"]
 categories = "review"

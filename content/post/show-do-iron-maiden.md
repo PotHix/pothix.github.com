@@ -1,5 +1,6 @@
 +++
 title = "Show do Iron Maiden"
+aliases=["2009/03/17/show-do-iron-maiden.html"]
 date = "2009-03-17"
 tags = ["events","music"]
 categories = "events"

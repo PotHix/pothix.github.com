@@ -1,5 +1,6 @@
 +++
 title = "Rework"
+aliases=["2010/08/06/rework.html"]
 date = "2010-08-06"
 tags = ["books","review"]
 categories = "review"

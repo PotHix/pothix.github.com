@@ -1,5 +1,6 @@
 +++
 title = "Vendo intruder 125 customizada e com guidão seca suvaco"
+aliases=["2013/07/29/vendo-intruder-125-customizada-e-com-guidao-seca-suvaco.html"]
 date = "2013-07-29"
 tags = ["personal","motorcycle"]
 categories = "personal"

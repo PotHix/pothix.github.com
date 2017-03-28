@@ -1,5 +1,6 @@
 +++
 title = "Montando imagens do Nero (nrg) no Linux"
+aliases=["2008/11/29/montando-imagens-do-nero-nrg-no-linux.html"]
 date = "2008-11-29"
 tags = ["tech","linux"]
 categories = "linux"

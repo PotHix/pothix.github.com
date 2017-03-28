@@ -1,5 +1,6 @@
 +++
 title = "Como são os primeiros passos de um Linuxer"
+aliases=["2008/11/29/como-sao-os-primeiros-passos-de-um-linuxer.html"]
 date = "2008-11-29"
 tags = ["personal","tech","linux"]
 categories = "linux"

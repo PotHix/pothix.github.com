@@ -1,5 +1,6 @@
 +++
 title = "Ir além do básico tambem é gratis"
+aliases=["2008/12/11/ir-alem-do-basico-tambem-e-gratis.html"]
 date = "2008-12-11"
 tags = ["linux","programming","tech","tips"]
 categories = "tips"

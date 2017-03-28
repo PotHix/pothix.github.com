@@ -1,5 +1,6 @@
 +++
 title = "XMPP e Ruby"
+aliases=["2012/07/10/xmpp-e-ruby.html"]
 date = "2012-07-10"
 tags = ["ruby","dev","tech"]
 categories = "dev"

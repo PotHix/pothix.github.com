@@ -1,5 +1,6 @@
 +++
 title = "A facilidade do Ubuntu"
+aliases=["2008/11/29/a-facilidade-do-ubuntu.html"]
 date = "2008-11-29"
 tags = ["tech","ubuntu","linux"]
 categories = "linux"

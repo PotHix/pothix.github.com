@@ -1,5 +1,6 @@
 +++
 title = "Usuários resolvem os problemas da VIVO"
+aliases=["2009/01/13/usuarios-resolvem-os-problemas-da-vivo.html"]
 date = "2009-01-13"
 tags = ["tech","news","dev"]
 categories = "dev"

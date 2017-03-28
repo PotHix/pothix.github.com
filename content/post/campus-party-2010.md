@@ -1,5 +1,6 @@
 +++
 title = "Campus Party 2010"
+aliases=["2010/02/02/campus-party-2010.html"]
 date = "2010-02-02"
 tags = ["events","linux","tech"]
 categories = "events"

@@ -1,5 +1,6 @@
 +++
 title = "Crontab dentro da sua aplicação rails com whenever"
+aliases=["2009/12/02/crontab-dentro-da-sua-aplicacao-rails-com-whenever.html"]
 date = "2009-12-02"
 tags = ["rails","ruby","tech","dev"]
 categories = "dev"

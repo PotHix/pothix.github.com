@@ -1,5 +1,6 @@
 +++
 title = "Organizando os Feeds do Blog"
+aliases=["2011/01/24/organizando-os-feeds-do-blog.html"]
 date = "2011-01-24"
 tags = ["dev","personal","tech"]
 categories = "dev"

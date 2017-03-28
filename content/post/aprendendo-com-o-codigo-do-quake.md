@@ -1,5 +1,6 @@
 +++
 title = "Aprendendo com o código do Quake"
+aliases=["2012/07/18/aprendendo-com-o-codigo-do-quake.html"]
 date = "2012-07-18"
 tags = ["dev","tech"]
 categories = "dev"

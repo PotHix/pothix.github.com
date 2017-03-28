@@ -1,5 +1,6 @@
 +++
 title = "Motorola Milestone e Android"
+aliases=["2010/09/08/motorola-milestone-e-android.html"]
 date = "2010-09-08"
 tags = ["android","tech","personal"]
 categories = "personal"

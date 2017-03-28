@@ -1,5 +1,6 @@
 +++
 title = "Um pouco sobre o Vim"
+aliases=["2009/08/14/um-pouco-sobre-o-vim.html"]
 date = "2009-08-14"
 tags = ["dev","tech","vim"]
 categories = "dev"

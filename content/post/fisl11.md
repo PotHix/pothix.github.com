@@ -1,5 +1,6 @@
 +++
 title = "FISL11"
+aliases=["2010/08/01/fisl11.html"]
 date = "2010-08-01"
 tags = ["events","tech"]
 categories = "events"

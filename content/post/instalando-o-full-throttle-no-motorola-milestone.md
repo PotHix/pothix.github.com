@@ -1,5 +1,6 @@
 +++
 title = "Instalando o Full Throttle no Motorola Milestone"
+aliases=["2011/03/03/instalando-o-full-throttle-no-motorola-milestone.html"]
 date = "2011-03-03"
 tags = ["android","games","motorcycle"]
 categories = "android"

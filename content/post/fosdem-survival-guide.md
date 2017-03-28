@@ -1,5 +1,6 @@
 +++
 title = "FOSDEM survival guide"
+aliases=["2017/03/06/fosdem-survival-guide.html"]
 date = "2017-03-06"
 tags = ["events"," english"," tech"]
 categories = "events"

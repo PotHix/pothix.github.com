@@ -1,5 +1,6 @@
 +++
 title = "Serviços legais de Agosto"
+aliases=["2009/08/06/servicos-legais-de-agosto.html"]
 date = "2009-08-06"
 tags = ["tips","review"]
 categories = "review"

@@ -1,5 +1,6 @@
 +++
 title = "Experiences of almost two years using colemak"
+aliases=["2015/10/08/experiences-of-almost-two-years-using-colemak.html"]
 date = "2015-10-08"
 tags =  ["english", "tech"]
 categories = "keyboard"

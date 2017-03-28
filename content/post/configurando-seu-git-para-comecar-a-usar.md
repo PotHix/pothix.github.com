@@ -1,5 +1,6 @@
 +++
 title = "Configurando seu git para começar a usar"
+aliases=["2008/12/21/configurando-seu-git-para-comecar-a-usar.html"]
 date = "2008-12-21"
 tags = ["tech","linux","dev"]
 categories = "dev"

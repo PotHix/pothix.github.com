@@ -1,5 +1,6 @@
 +++
 title = "Viagem de moto para Eldorado na Argentina"
+aliases=["2012/04/09/viagem-de-moto-para-eldorado-na-argentina.html"]
 date = "2012-04-09"
 tags = ["motorcycle"]
 categories = "motorcycle"

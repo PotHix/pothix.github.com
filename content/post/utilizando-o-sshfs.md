@@ -1,5 +1,6 @@
 +++
 title = "Utilizando o sshfs"
+aliases=["2008/11/29/utilizando-o-sshfs.html"]
 date = "2008-11-29"
 tags = ["tech","linux"]
 categories = "linux"

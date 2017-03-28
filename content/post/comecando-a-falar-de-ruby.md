@@ -1,5 +1,6 @@
 +++
 title = "Começando a falar de Ruby"
+aliases=["2009/04/13/comecando-a-falar-de-ruby.html"]
 date = "2009-04-13"
 tags = ["rails","ruby","tech","dev"]
 categories = "dev"

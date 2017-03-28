@@ -1,5 +1,6 @@
 +++
 title = "Saudades do Poker"
+aliases=["2012/10/31/saudades-do-poker.html"]
 date = "2012-10-31"
 tags = ["games"]
 categories = "games"

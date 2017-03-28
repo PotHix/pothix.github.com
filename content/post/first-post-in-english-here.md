@@ -1,5 +1,6 @@
 +++
 title = "First post in English here"
+aliases=["2008/12/16/first-post-in-english-here.html"]
 date = "2008-12-16"
 tags = ["personal","english"]
 categories = "english"

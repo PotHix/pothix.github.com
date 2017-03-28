@@ -1,5 +1,6 @@
 +++
 title = "Rails Summit 2009"
+aliases=["2009/10/19/rails-summit-2009.html"]
 date = "2009-10-19"
 tags = ["events","rails","ruby","tech"]
 categories = "events"

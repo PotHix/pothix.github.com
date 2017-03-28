@@ -1,5 +1,6 @@
 +++
 title = "Opera Unite"
+aliases=["2009/06/16/opera-unite.html"]
 date = "2009-06-16"
 tags = ["opera","dev"]
 categories = "dev"

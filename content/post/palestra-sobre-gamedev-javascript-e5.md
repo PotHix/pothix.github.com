@@ -1,5 +1,6 @@
 +++
 title = "Palestra sobre Gamedev, Javascript e HTML5"
+aliases=["2011/05/23/palestra-sobre-gamedev-javascript-e5.html"]
 date = "2011-05-23"
 tags = ["gamedev","speaking"]
 categories = "games"

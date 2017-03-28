@@ -1,5 +1,6 @@
 +++
 title = "Conto da migração para Rails 3"
+aliases=["2010/10/21/conto-da-migracao-para-rails-3.html"]
 date = "2010-10-21"
 tags = ["rails","ruby","tech","dev"]
 categories = "dev"

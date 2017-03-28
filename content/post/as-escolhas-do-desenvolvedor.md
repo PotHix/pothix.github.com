@@ -1,5 +1,6 @@
 +++
 title = "As escolhas do desenvolvedor"
+aliases=["2015/08/31/as-escolhas-do-desenvolvedor.html"]
 date = "2015-08-31"
 tags = ["events","speaking"]
 categories = "events"

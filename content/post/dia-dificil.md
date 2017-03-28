@@ -1,5 +1,6 @@
 +++
 title = "Dia difícil"
+aliases=["2009/02/08/dia-dificil.html"]
 date = "2009-02-08"
 tags = ["personal"]
 categories = "personal"

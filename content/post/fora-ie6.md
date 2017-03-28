@@ -1,5 +1,6 @@
 +++
 title = "Fora IE6"
+aliases=["2009/01/12/fora-ie6.html"]
 date = "2009-01-12"
 tags = ["dev"]
 categories = "tips"

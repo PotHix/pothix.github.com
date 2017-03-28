@@ -1,5 +1,6 @@
 +++
 title = "Rubyconf 2016"
+aliases=["2016/09/26/rubyconf-2016.html"]
 date = "2016-09-26"
 tags = ["events"]
 categories = "events"

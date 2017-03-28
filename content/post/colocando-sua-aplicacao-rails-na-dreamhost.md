@@ -1,5 +1,6 @@
 +++
 title = "Colocando sua aplicação Rails na Dreamhost"
+aliases=["2009/03/25/colocando-sua-aplicacao-rails-na-dreamhost.html"]
 date = "2009-03-25"
 tags = ["rails","ruby","tech","dev"]
 categories = "dev"

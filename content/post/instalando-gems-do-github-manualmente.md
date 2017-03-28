@@ -1,5 +1,6 @@
 +++
 title = "Instalando gems do GitHub manualmente"
+aliases=["2009/07/28/instalando-gems-do-github-manualmente.html"]
 date = "2009-07-28"
 tags = ["dev","ruby","tech"]
 categories = "dev"

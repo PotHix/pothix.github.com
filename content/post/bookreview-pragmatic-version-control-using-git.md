@@ -1,5 +1,6 @@
 +++
 title = "BookReview: Pragmatic version control using Git"
+aliases=["2009/07/19/bookreview-pragmatic-version-control-using-git.html"]
 date = "2009-07-19"
 tags = ["books","dev","tech","review"]
 categories = "review"

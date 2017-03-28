@@ -1,5 +1,6 @@
 +++
 title = "Instalando o Allegro 4.2.2 no Linux x86"
+aliases=["2009/08/12/instalando-o-allegro-4-2-2-no-linux-x86.html"]
 date = "2009-08-12"
 tags = ["gamedev","tech","linux","dev"]
 categories = "dev"

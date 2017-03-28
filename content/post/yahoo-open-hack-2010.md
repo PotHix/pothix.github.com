@@ -1,5 +1,6 @@
 +++
 title = "Yahoo Open Hack 2010"
+aliases=["2010/03/29/yahoo-open-hack-2010.html"]
 date = "2010-03-29"
 tags = ["events","ruby","tech"]
 categories = "events"

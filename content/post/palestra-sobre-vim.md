@@ -1,5 +1,6 @@
 +++
 title = "Palestra sobre Vim"
+aliases=["2010/03/29/palestra-sobre-vim.html"]
 date = "2010-03-29"
 tags = ["linux","speaking","tech","vim"]
 categories = "events"

@@ -1,5 +1,6 @@
 +++
 title = "New year is coming"
+aliases=["2008/12/31/new-year-is-coming.html"]
 date = "2008-12-31"
 tags = ["personal","english"]
 categories = "english"

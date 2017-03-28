@@ -1,5 +1,6 @@
 +++
 title = "Vendendo minhas coisas"
+aliases=["2013/07/29/vendendo-minhas-coisas.html"]
 date = "2013-07-29"
 tags = ["personal"]
 categories = "personal"

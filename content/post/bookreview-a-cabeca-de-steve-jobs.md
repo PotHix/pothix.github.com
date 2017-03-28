@@ -1,5 +1,6 @@
 +++
 title = "BookReview: A cabeça de Steve Jobs"
+aliases=["2010/01/05/bookreview-a-cabeca-de-steve-jobs.html"]
 date = "2010-01-05"
 tags = ["review","books"]
 categories = "books"

@@ -1,5 +1,6 @@
 +++
 title = "Simlinks for ruby on Debian Squeeze"
+aliases=["2012/07/17/simlinks-for-ruby-on-debian-squeeze.html"]
 date = "2012-07-17"
 tags = ["dev","linux","english"]
 categories = "dev"

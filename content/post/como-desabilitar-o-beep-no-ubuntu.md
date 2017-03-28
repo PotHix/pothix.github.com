@@ -1,5 +1,6 @@
 +++
 title = "Como desabilitar o beep no Ubuntu"
+aliases=["2009/07/09/como-desabilitar-o-beep-no-ubuntu.html"]
 date = "2009-07-09"
 tags = ["tech","linux"]
 categories = "linux"

@@ -1,5 +1,6 @@
 +++
 title = "Escrevendo o Desconstruindo a web"
+aliases=["2016/10/03/escrevendo-o-desconstruindo-a-web.html"]
 date = "2016-10-03"
 tags = ["desconstruindo-a-web"]
 categories = "books"

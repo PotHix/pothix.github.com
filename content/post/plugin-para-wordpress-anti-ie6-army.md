@@ -1,5 +1,6 @@
 +++
 title = "Plugin para WordPress: Anti IE6 Army"
+aliases=["2009/04/11/plugin-para-wordpress-anti-ie6-army.html"]
 date = "2009-04-11"
 tags = ["dev","tech"]
 categories = "dev"

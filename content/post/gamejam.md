@@ -1,5 +1,6 @@
 +++
 title = "GameJam"
+aliases=["2009/08/12/gamejam.html"]
 date = "2009-08-12"
 tags = ["dev","gamedev","games","tech"]
 categories = "dev"

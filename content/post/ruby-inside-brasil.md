@@ -1,5 +1,6 @@
 +++
 title = "Ruby Inside Brasil"
+aliases=["2009/03/31/ruby-inside-brasil.html"]
 date = "2009-03-31"
 tags = ["tech","dev","ruby"]
 categories = "dev"

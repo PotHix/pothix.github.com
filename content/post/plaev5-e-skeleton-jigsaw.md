@@ -1,5 +1,6 @@
 +++
 title = "Plaev, HTML5 e Skeleton-jigsaw"
+aliases=["2012/12/04/plaev5-e-skeleton-jigsaw.html"]
 date = "2012-12-04"
 tags = ["gamedev","plaev","dev","tech","speaking"]
 categories = "dev"

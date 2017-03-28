@@ -1,5 +1,6 @@
 +++
 title = "Deploying a simple Merb application on Locaweb"
+aliases=["2009/01/07/deploying-a-simple-merb-application-on-locaweb.html"]
 date = "2009-01-07"
 tags = ["english","linux","ruby","tech"]
 categories = "dev"

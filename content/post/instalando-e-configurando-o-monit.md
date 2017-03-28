@@ -1,5 +1,6 @@
 +++
 title = "Instalando e configurando o monit"
+aliases=["2009/09/10/instalando-e-configurando-o-monit.html"]
 date = "2009-09-10"
 tags = ["monitoring","tech","dev"]
 categories = "dev"

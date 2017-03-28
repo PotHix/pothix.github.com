@@ -1,5 +1,6 @@
 +++
 title = "Javascript and Gamedev discussion"
+aliases=["2012/09/02/javascript-and-gamedev-discussion.html"]
 date = "2012-09-02"
 tags = ["gamedev","english","dev","tech"]
 categories = "dev"

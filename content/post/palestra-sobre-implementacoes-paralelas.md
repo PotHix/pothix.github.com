@@ -1,5 +1,6 @@
 +++
 title = "Palestra sobre implementacoes paralelas"
+aliases=["2012/07/16/palestra-sobre-implementacoes-paralelas.html"]
 date = "2012-07-16"
 tags = ["dev","tech","speaking"]
 categories = "events"

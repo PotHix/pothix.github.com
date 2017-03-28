@@ -1,5 +1,6 @@
 +++
 title = "Configurando seu Gtalk do Google Apps no Pidgin"
+aliases=["2009/05/09/configurando-seu-gtalk-do-google-apps-no-pidgin.html"]
 date = "2009-05-09"
 tags = ["tech","linux"]
 categories = "linux"

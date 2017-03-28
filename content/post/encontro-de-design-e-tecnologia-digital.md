@@ -1,5 +1,6 @@
 +++
 title = "Encontro de Design e Tecnologia Digital"
+aliases=["2009/04/26/encontro-de-design-e-tecnologia-digital.html"]
 date = "2009-04-26"
 tags = ["dev","events","tech"]
 categories = "events"

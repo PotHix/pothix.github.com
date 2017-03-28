@@ -1,5 +1,6 @@
 +++
 title = "Vendo Dragstar 2008"
+aliases=["2013/07/29/vendo-dragstar-2008.html"]
 date = "2013-07-29"
 tags = ["personal","motorcycle"]
 categories = "personal"

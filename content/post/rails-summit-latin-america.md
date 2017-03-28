@@ -1,5 +1,6 @@
 +++
 title = "Rails Summit Latin America"
+aliases=["2008/10/21/rails-summit-latin-america.html"]
 date = "2008-10-21"
 tags = ["rails","ruby","tech"]
 categories = "development"

@@ -1,5 +1,6 @@
 +++
 title = "Show do Metallica"
+aliases=["2010/02/02/show-do-metallica.html"]
 date = "2010-02-02"
 tags = ["events","music"]
 categories = "events"

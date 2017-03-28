@@ -1,5 +1,6 @@
 +++
 title = "Deixando seu ssh mais facil de trabalhar"
+aliases=["2008/11/27/deixando-seu-ssh-mais-facil-de-trabalhar.html"]
 date = "2008-11-27"
 tags = ["tech","linux"]
 categories = "linux"

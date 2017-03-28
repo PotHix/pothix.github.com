@@ -1,5 +1,6 @@
 +++
 title = "BookReview: Anjos e Demônios"
+aliases=["2009/12/28/bookreview-anjos-e-demonios.html"]
 date = "2009-12-28"
 tags = ["books","review"]
 categories = "review"
