@@ -22,4 +22,4 @@ publish:
 	@git commit -m "Last commit from source branch: '`cat last_commit`'"
 	@rm -rf public/* last_commit
 	@git push
-	@git checkout source
+	@git checkout -
