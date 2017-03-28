@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on PotHix</title>
+    <link>https://pothix.com/tags/ubuntu/index.xml</link>
+    <description>Recent content in Ubuntu on PotHix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
+    <atom:link href="https://pothix.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A facilidade do Ubuntu</title>
+      <link>https://pothix.com/post/a-facilidade-do-ubuntu/</link>
+      <pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/a-facilidade-do-ubuntu/</guid>
+      <description>
+
+&lt;p&gt;Deixa eu explicar aqui para quem estou destinando esse post. Esse post
+é destinado a algumas pessoas que costumam me perguntar se o Linux é
+difícil, se ele vai conseguir mexer nele se instalar, se Linux é
+melhor que Windows e outras perguntas derivadas disso, portanto se
+você já tem conhecimentos em Linux e já usa Linux esse post só vai
+servir para você passar para seus amigos que não usam, pois é bem
+básico.&lt;/p&gt;
+
+&lt;p&gt;Depois de comprar meu notebook e instalar o Ubuntu nele eu decidi
+fazer esse post para acabar com aquela idéia das pessoas de que Linux
+é difícil, que não faz nada, que nada funciona e etc.&lt;/p&gt;
+
+&lt;p&gt;Bem, eu &lt;a href=&#34;http://pothix.com/blog/win2linux/como-sao-os-primeiros-passos-de-um-linuxer&#34;&gt;sempre gostei de utilizar o Slackware&lt;/a&gt;
+(e ainda é minha distribuição principal) e realmente Slackware não é
+distribuição Linux para qualquer um&amp;hellip;Você não pode dar um Slackware
+na mão de um usuário final e falar para ele que é fácil, e talvez essa
+seja a visão que os usuários de Windows tem do Linux.&lt;/p&gt;
+
+&lt;p&gt;Estou usando o Ubuntu faz mais ou menos uns 2 ou 3 meses, e muitas
+vezes já me surpreendi com a facilidade de se fazer as coisas nele!
+Mesmo um usuário final faria as coisas com uma facilidade espantosa
+bastando apenas que ele queira conhecer coisas novas.&lt;/p&gt;
+
+&lt;h3 id=&#34;alguns-exemplos&#34;&gt;Alguns Exemplos&lt;/h3&gt;
+
+&lt;h4 id=&#34;instalando-impressora&#34;&gt;Instalando impressora&lt;/h4&gt;
+
+&lt;p&gt;Estava eu precisando imprimir um documento e já pensei&amp;hellip; Configurar a
+impressora vai ser Punk, mas vou tentar. Procurei nos menus do Gnome e
+vi um &amp;ldquo;Printers&amp;rdquo; em:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;System &amp;gt; Administration &amp;gt; Printers&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;E lá eu clico em &amp;ldquo;New&amp;rdquo; ele vai identificar todas as impressoras que
+você tem na rede e plugadas no seu computador e te mostrar uma lista
+de drivers para que você escolha qual utilizar.&lt;/p&gt;
+
+&lt;p&gt;Ou seja&amp;hellip;Não tem dificuldade nenhuma.&lt;/p&gt;
+
+&lt;h4 id=&#34;instalando-programas&#34;&gt;Instalando programas&lt;/h4&gt;
+
+&lt;p&gt;Muitos usuários tem medo do terminal, e alguns se atrevem a dizer que
+é regredir muitos anos (eles são criativos ;)), mas o terminal te
+facilita muita coisa em diversas tarefas rapidamente.&lt;/p&gt;
+
+&lt;p&gt;Podemos instalar novos programas rapidamente pelo terminal com um
+simples comando! Digamos que queremos instalar o Inkscape para brincar
+de fazer uns desenhos vetoriais, é moleza:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ sudo apt-get install inkscape
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Pronto! Ele vai te dar informações sobre o pacote e perguntar se você
+quer mesmo instalar o pacote que ele mostrou as informações ( caso
+tenha digitado errado não instalar um pacote qualquer ), e é só
+responder Y que ele vai instalar e deixar o programa prontinho para
+usar!&lt;/p&gt;
+
+&lt;h4 id=&#34;atualizando-a-distribuição&#34;&gt;Atualizando a distribuição&lt;/h4&gt;
+
+&lt;p&gt;Além das atualizações normais que ele faz diariamente (obviamente é
+facilmente configurável) tambem faz automáticamente as
+atualizações de distribuição!&lt;/p&gt;
+
+&lt;p&gt;Pouco tempo atrás foi lançado o Ubuntu 8.10, e eu como tinha o Ubuntu
+8.04, pensei em atulizar, e eis que surge uma atualização de
+distribuição automáticamente no meu gerenciador de pacotes,
+perguntando se eu gostaria de ir para a outra versão! :)&lt;/p&gt;
+
+&lt;p&gt;Obviamente é um processo demorado, pois são muitos pacotes para
+atualizar (no meu caso foram mais de 1300), portanto muitos MBs (no
+meu caso mais de 900) e muitos pacotes para instalar.&lt;/p&gt;
+
+&lt;p&gt;Tirando o tempo de download, pois depende muito da sua velocidade de
+banda, ele instalou todos os pacotes em 20 minutos! E foi só reiniciar
+(afinal foram mais de 1300 pacotes atualizados) para que eu tivesse
+as ultimas atualizações da distribuição funcionando no meu notebook.&lt;/p&gt;
+
+&lt;h4 id=&#34;interface&#34;&gt;Interface&lt;/h4&gt;
+
+&lt;p&gt;A interface do Ubuntu é bem facil de manipular, você pode arrastar
+atalhos para suas barras, usar alguns efeitos divertidos como deixar
+as janelas se motimentando como se fossem feitas de gelatina,
+configurar o que deve e o que não deve aparecer para você no seu menu
+e etc.&lt;/p&gt;
+
+&lt;p&gt;Não se familiarizou com a interface do Ubuntu? Ok, isso pode
+acontecer, então você pode não usar o Gnome (interface principal do
+Ubuntu) para usar o KDE (Interface principal do Kubuntu), é só você
+instalar o Kubuntu ao invés do Ubuntu para que você já tenha uma
+interface diferente para utilizar.&lt;/p&gt;
+
+&lt;h4 id=&#34;aplicativos-para-escritório&#34;&gt;Aplicativos para escritório&lt;/h4&gt;
+
+&lt;p&gt;O Ubuntu já vem com ferramentas para suas edições simples, como
+processador de texto (writter), Planilhas (calc) e criador de
+Slides para apresentação (presentation) para que você possa fazer
+suas ações simples de escritório facilmente. Ele tambem traz um
+aplicativo para você receber todos os seus e-mails no seu computador e
+poder lê-los offline após baixar (evolution).&lt;/p&gt;
+
+&lt;p&gt;O Ubuntu já traz por padrão um aplicativo de Lista de taferas (todo
+list) para que você possa gerenciar suas tarefas facilmente e se
+organizar melhor.&lt;/p&gt;
+
+&lt;p&gt;Lembrando que esses são apenas os aplicativos nativos, mas você pode
+instalar facilmente outros programar para Linux com um simples &lt;code&gt;sudo
+apt-get install&lt;/code&gt; ;)&lt;/p&gt;
+
+&lt;h4 id=&#34;vídeos-e-musicas&#34;&gt;Vídeos e musicas&lt;/h4&gt;
+
+&lt;p&gt;Você pode facilmente ouvir suas musicas e ver seus vídeos preferidos
+no Linux usando alguns programas a parte como o
+&lt;a href=&#34;http://amarok.kde.org/&#34; title=&#34;Amarok&#34;&gt;amarok&lt;/a&gt; e o
+&lt;a href=&#34;http://xinehq.de/index.php/releases&#34; title=&#34;Gxine&#34;&gt;gxine&lt;/a&gt; ou o
+&lt;a href=&#34;http://www.mplayerhq.hu/design7/news.html&#34; title=&#34;MPlayer&#34;&gt;mplayer&lt;/a&gt;, apenas
+usando o seu padrão &lt;code&gt;apt-get install&lt;/code&gt; para instalar, nada de sair
+procurando aplicativos, baixando e depois instalando. ;)&lt;/p&gt;
+
+&lt;p&gt;Você provavelmente vai precisar de uns plugins para assistir os seus
+vídeos dependendo do formato deles e isso depende do seu player e do
+tipo de vídeo, mas nada muito difícil de se conseguir! =)&lt;/p&gt;
+
+&lt;h4 id=&#34;internet&#34;&gt;Internet&lt;/h4&gt;
+
+&lt;p&gt;O que você usa está na internet? Você usa o internet explorer no seu
+sistema? Saia do lado negro pelo amor de Deus! :P&lt;/p&gt;
+
+&lt;p&gt;O Ubuntu já vem com o Firefox instalado e é tudo facinho para
+utilizar. Você pode acessar a grande maioria dos sites da internet
+normalmente, e se por um acaso você encontrar um site que você não
+consiga navegar com o FIrefox você pode usar a&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/59&#34;&gt;extensão User Agent
+Switcher&lt;/a&gt;
+do Firefox e ele vai renderizar a página como se
+fosse um internet explorer para que você possa navegar. Mas se isso
+realmente acontecer faça um favor para toda a internet e envie um
+e-mail para o criador desse site reclamando dos seus problemas, pois
+pelo visto ele não está nem pensando em muitas pessoas.&lt;/p&gt;
+
+&lt;p&gt;Precisa usar o MSN? Moleza! Só usar o &lt;a href=&#34;http://kopete.kde.org/&#34;&gt;Kopete&lt;/a&gt;,
+o &lt;a href=&#34;http://www.pidgin.im/&#34; title=&#34;Pidgin&#34;&gt;Pidgin&lt;/a&gt;, o
+&lt;a href=&#34;http://www.amsn-project.net/&#34; title=&#34;aMSN&#34;&gt;aMSN&lt;/a&gt; ou qualquer um dos outros
+vários que tem para esse serviço! Mas&amp;hellip;Quer uma dica? Use outros
+serviços bem mais interessantes como o do Gtalk (que pode ser
+configurado no Pidgin e no Kopete) ou até mesmo o
+&lt;a href=&#34;www.skype.com&#34; title=&#34;Skype&#34;&gt;Skype&lt;/a&gt; (que pode ser instalado com apt-get
+install :P )&lt;/p&gt;
+
+&lt;h4 id=&#34;fotos&#34;&gt;Fotos&lt;/h4&gt;
+
+&lt;p&gt;Quer manusear suas fotos, fazer modificações, disponibilizar elas na
+internet? Isso é tudo moleza no Ubuntu!&lt;/p&gt;
+
+&lt;p&gt;Se você gosta de ter um programa para gerenciar suas fotos, criar
+alguns, colocar tags, fazer upload para a internet e mais um monte de
+coisas, é só usar o &lt;a href=&#34;http://picasa.google.com/&#34; title=&#34;Picasa&#34;&gt;Picasa&lt;/a&gt;
+(adivinha como instalar ele? Sim! apt-get install) que é um das
+&lt;a href=&#34;http://pt.wikipedia.org/wiki/Lista_de_ferramentas_e_servi%C3%A7os_do_Google&#34;&gt;dezenas de serviços do Google&lt;/a&gt;
+e portanto fica vinculado com a sua conta do
+Google (Gmail, Orkut ou outros) e suas fotos ficam na internet &lt;strong&gt;se
+você quiser&lt;/strong&gt; , pois podem ficar apenas no seu computador tambem.&lt;/p&gt;
+
+&lt;p&gt;Tirou uma foto e ela não ficou legal? Basta dar uma pequena alterada
+usando o &lt;a href=&#34;http://www.gimp.org/&#34; title=&#34;GIMP&#34;&gt;GIMP&lt;/a&gt;, que é um manipulador de
+imagens bem interessante para se conhecer, e é claro que é gratuito e
+Open Souce. ( preciso dizer que é facil de instalar? )&lt;/p&gt;
+
+&lt;h4 id=&#34;jogos&#34;&gt;Jogos&lt;/h4&gt;
+
+&lt;p&gt;Esse tópico é um pouco contraditório com o que você deve estar
+esperando, pois você não vai encontrar o seu&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.rockstargames.com/sanandreas/&#34;&gt;GTA San
+Andreas&lt;/a&gt;,
+&lt;a href=&#34;http://thesims.ea.com/&#34; title=&#34;The Sims&#34;&gt;The Sims&lt;/a&gt;,
+&lt;a href=&#34;http://www.spore.com/ftl&#34; title=&#34;Spore&#34;&gt;Spore&lt;/a&gt; (ou seja lá o que for que
+você jogue em outro sistema operacional) em versão oficial para
+Linux. Até podem existir versões portadas dos seus jogos para Linux ou
+utilizando &lt;a href=&#34;http://www.winehq.org/&#34; title=&#34;Wine&#34;&gt;Wine&lt;/a&gt; (pode ser baixado
+por apt-get para variar um pouco) que roda programas de Windows no
+Linux, mas o Wine ainda não está perfeito e não vai ser qualquer jogo
+que vai rodar facilmente com ele&amp;hellip;:/&lt;/p&gt;
+
+&lt;p&gt;Em compensação o Linux tem
+&lt;a href=&#34;http://pt.wikipedia.org/wiki/Jogos_Linux&#34; title=&#34;Jogos para Linux&#34;&gt;alguns jogos nativos&lt;/a&gt;
+que são legais, obviamente não tanto quando outros jogos e não em
+maior quantidade, mas eles existem! :)&lt;/p&gt;
+
+&lt;p&gt;Tem um &lt;a href=&#34;http://www.techforce.com.br/index.php/news/linux_blog/jogos_no_linux&#34;&gt;post muito legal no Techforce&lt;/a&gt;
+que fala de alguns modos para rodar jogos no Linux, alguns jogos que
+tem versão para Linux e outras coisas bem interessantes.&lt;/p&gt;
+
+&lt;p&gt;Se você é um gamer que seu computador se tornou um vídeo game, agora
+&lt;strong&gt;ainda&lt;/strong&gt; não é seu momento com Linux, mas quem sabe ele virá! ;)&lt;/p&gt;
+
+&lt;p&gt;Bem&amp;hellip;Tentei mostrar acima muitas coisas simples que as pessoas
+utilizam e podem fazer normalmente (e facilmente) no Linux, apenas
+para mostrar que o Linux tem ferramentas para você fazer as coisas e
+tem coisas interessantes, mas ainda precisamos assumir essa mudança de
+paradigma e mudança de conceito para decidirmos aprender mais coisas e
+ver como é legal outras coisas que nem lhe passavam pela cabeça que
+existiam.&lt;/p&gt;
+
+&lt;p&gt;Se tiverem alguma dúvida é só postar nos comentários, que farei o
+possível para responder.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Junior, Andre | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ouvindo suas musicas no Amarok</title>
+      <link>https://pothix.com/post/ouvindo-suas-musicas-no-amarok/</link>
+      <pubDate>Thu, 13 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/ouvindo-suas-musicas-no-amarok/</guid>
+      <description>&lt;p&gt;Como sabem, instalei o Ubuntu no meu notebook Toshiba U405-S2854, e
+estou brincando um pouco com programas bunitinhos e mais pesados do
+que os que eu costumava usar no Slackware.&lt;/p&gt;
+
+&lt;p&gt;Resolvi começar o Amarok para tocar os meus mp3, e ele lembra bastante
+o Itunes (ta certo que usei pouco o Itunes, mas conheço algumas
+funções dele).&lt;/p&gt;
+
+&lt;p&gt;Tive um pequeno probleminha para configurar minhas teclas multimedia
+para funcionar no amarok, já que elas vem configuradas para chamar o
+player padrão do Ubuntu&amp;hellip; Mas nada muito problemático tambem&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Apenas precisei acessar:
+&lt;strong&gt;System &amp;gt; preferences &amp;gt; Keyboard shortcuts&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Colocar todos as teclas de atalho antigas para default.&lt;/p&gt;
+
+&lt;p&gt;Depois executei o amarok para acessar:
+&lt;strong&gt;Settings &amp;gt; configure global shortcuts&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;E configurar as teclas novamente que irá funcionou! :)&lt;/p&gt;
+
+&lt;p&gt;De vez em quando lembro do meu bom, velho e minimalista XMMS, que por
+sinal fazia tudo que eu precisava (tocar MP3! :P), mas o amarok é
+bem legal tambem!&lt;/p&gt;
+
+&lt;p&gt;Estou usando alguns recursos legais do Amarok agora, que são:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Feeds e download automático dos Podcasts que eu ouço&lt;/li&gt;
+&lt;li&gt;Organização de playlists&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ele tem várias outras funções para fazer gracinhas, como buscar letras
+das musicas, informações sobre a banda, e mais um monte de
+coisas&amp;hellip;Mas para quem vem do XMMS isso já é muita frescura&amp;hellip;hahaha&lt;/p&gt;
+
+&lt;p&gt;Fica aí a dica de um player bacana para o notebook com Ubuntu! :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mais de uma distro no Notebook!</title>
+      <link>https://pothix.com/post/mais-de-uma-distro-no-notebook/</link>
+      <pubDate>Mon, 13 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/mais-de-uma-distro-no-notebook/</guid>
+      <description>&lt;p&gt;Pouco tempo atrás comprei um notebook
+&lt;a href=&#34;http://explore.toshiba.com/laptops/satellite/U400/U405-S2854&#34;&gt;Toshiba U405-S2854&lt;/a&gt;
+e instalei o Slackware 12.0 (não tinha baixado o 12.1 ainda) com
+fluxbox nele e aproveitei para brincar de compilar o Kernel e conhecer
+outras coisas&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Percebi que meus conhecimentos não estavam bons o suficiente para eu
+fazer tudo o que eu queria com meu Slack em um curto espaço de tempo,
+infelizmente, e portanto resolvi instalar outro linux mais facil para
+eu usar enquanto meu slackware não fica do jeito que eu quero.&lt;/p&gt;
+
+&lt;p&gt;Resolvi instalar o Ubuntu (mantendo meu Slackware em outra particão)
+tanto para conhecer, pois eu ainda não tinha usado, quanto para
+facilitar uso do meu notebook enquanto eu posso brincar com Slackware
+livremente quanto eu tiver tempo para diversão&amp;hellip;hehe&lt;/p&gt;
+
+&lt;p&gt;Gostei bastante do Ubuntu, achei bonitinho com várias features dele,
+sendo a mais interessante a do zoom que eu já achava muito legal
+quando eu via no Mac.&lt;/p&gt;
+
+&lt;p&gt;Agora vou deixar meu ambiente de desenvolvimento OK novamente! =)&lt;/p&gt;
+
+&lt;p&gt;Vou começar a fazer alguns posts sobre Ubuntu tambem, tanto em
+multimedia como em desenvolvimento, e terão posts mesclados entre
+minhas 2 distros.&lt;/p&gt;
+
+&lt;p&gt;Aguardem! ;)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

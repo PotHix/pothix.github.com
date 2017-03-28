@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on PotHix</title>
+    <link>https://pothix.com/tags/programming/index.xml</link>
+    <description>Recent content in Programming on PotHix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
+    <atom:link href="https://pothix.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ir além do básico tambem é gratis</title>
+      <link>https://pothix.com/post/ir-alem-do-basico-tambem-e-gratis/</link>
+      <pubDate>Thu, 11 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/ir-alem-do-basico-tambem-e-gratis/</guid>
+      <description>&lt;p&gt;Faz um tempinho que eu estou querendo fazer um post seguindo os moldes
+da campanha do &lt;a href=&#34;http://marcogomes.com/blog/2008/campanha-programar-e-gratis&#34; title=&#34;Programar é Grátis&#34;&gt;Marco Gomes&lt;/a&gt;,
+que também gerou o
+&lt;a href=&#34;http://www.tableless.com.br/implementar-xhtmlcss-e-gratis&#34; title=&#34;Implementar XHTML / CSS é grátis&#34;&gt;post do Diego Eis&lt;/a&gt;,
+e finalmente consegui um tempinho para expressar também a minha opinião nesse assunto! :)&lt;/p&gt;
+
+&lt;p&gt;Conheço muitas pessoas que fazem faculdade relacionada a programação,
+mas não aplicam o que estão vendo por lá, acham que já estão fazendo
+demais em ir para a faculdade e ficar lá no tempo em que o professor
+está falando&amp;hellip;Ou seja, essas pessoas não estão indo a faculdade para
+aprender algo para colocar em prática, eles estão lá simplesmente para
+&amp;ldquo;passar de ano&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;As vezes não é nem tanto com faculdade também, tem pessoas que não
+fazem faculdade, querem ser programadores, mas tem aquele pensamento:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Ahh&amp;hellip;Eu preciso de uma oportunidade para aplicar os meus conhecimentos&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A internet está aí para isso! Você pode ter uma gama monstruosa de
+ferramentas para brincar se quiser, tantos livros gratuitos para
+aprender/melhorar sua programação, tantos projetos Open Source para
+contribuir, cursos on-line gratuitos para fazer, mas o sujeito quer
+&amp;ldquo;ganhar uma oportunidade&amp;rdquo; sem nem mesmo merecer ela.&lt;/p&gt;
+
+&lt;p&gt;Esse tipo de pessoa para mim &lt;strong&gt;não é programador&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;p&gt;O Marco Gomes costuma chamar esse tipo de pessoa de bunda mole, eu
+tenho meu termo favorito que é muito utilizado por mim atualmente:
+&lt;strong&gt;Marica!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Gostaria de aprender a fazer isso por que é muito foda, mas parece muito difícil, então vou fazer o XY que é mais zuadinho mas é fácil&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Apertar parafusos também é fácil&amp;hellip;Se as coisas fossem fáceis colocaríamos robôs para fazer&amp;hellip; Marica!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Estou trabalhando na empresa XY mas já estou cansado de lá&amp;hellip;Cansei de suporte técnico, eu quero é ir programar, mas sem experiência fica difícil&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Vá e consiga sua experiência sozinho, faça um site e mostre quando for
+na entrevista, como que o cara quer ter experiência sem fazer
+nada&amp;hellip;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Putz&amp;hellip;Não conheço nada de Linux esse sistema é uma merda&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Esse é um candidato perfeito a ser um ótimo programador não é?!
+Primeiro já caiu numa contradição, por que se ele não conhece nada,
+como sabe que é uma merda? E outras, não quer nem conhecer um sistema
+diferente onde ele terá suporte nativo a várias linguagens, e não só
+isso, só o fato de não querer aprender algo &lt;strong&gt;gratuito&lt;/strong&gt; e importante
+para a carreira já faz dele um marica!&lt;/p&gt;
+
+&lt;p&gt;Portanto, vamos a alguns pontos importantes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Invista tempo em aplicar o que você aprende na faculdade, ou caso não faça faculdade, corra atrás de coisas para estudar e aplique elas também.&lt;/li&gt;
+&lt;li&gt;Procure coisas diferente para saber, afinal, quanto maior a sua gama de conhecimentos mais difícil será você dizer para alguem: &amp;ldquo;Não sei nem o que é isso&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Desenvolva coisas úteis e mostre seus código na internet, isso ainda vai ser muito útil para você ( tanto para aprendizado quanto para apresentação pessoal ).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Para finalizar só quero frisar uma frase do post do Marco Gomes que é
+muito interesssante e resume muito a minha opinião:&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Você pode &lt;strong&gt;mudar sua vida&lt;/strong&gt;, e até &lt;strong&gt;mudar o mundo&lt;/strong&gt;, com o mesmo
+equipamento que usa pra ficar o dia inteiro no orkut trocando
+recadinhos com as peguetes&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Magnun, Marco Gomes, Tagliati, Cayo Medeiros aka. yogodoshi, Tony Fabeen, Lê, Herminio, Simone, Lucas | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

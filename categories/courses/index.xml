@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses on PotHix</title>
+    <link>https://pothix.com/categories/courses/index.xml</link>
+    <description>Recent content in Courses on PotHix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
+    <atom:link href="https://pothix.com/categories/courses/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Curso de verão da USP</title>
+      <link>https://pothix.com/post/curso-de-verao-da-usp/</link>
+      <pubDate>Fri, 20 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/curso-de-verao-da-usp/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://pothix.com/images/posts/curso_verao_ime.jpg&#34;&gt;&lt;img src=&#34;https://pothix.com/images/posts/curso_verao_ime.jpg&#34; alt=&#34;Foto da grama escrito IME-USP&#34; title=&#34;IME-USP&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Com o fim do curso de verão de 2009 da USP, resolvi postar minhas
+impressões sobre o mesmo!&lt;/p&gt;
+
+&lt;p&gt;O curso realmente foi muito bom e me ensinou muita coisa! Eu já tinha
+feito o curso no ano retrasado, mas não cheguei a terminar, por que o
+&lt;a href=&#34;http://www.ime.usp.br/~rbrito/&#34; title=&#34;Rogério Brito&#34;&gt;professor da época&lt;/a&gt;
+era muito foda e assumia que todos os alunos já sabiam do que ele
+estava falando, e para mim não significava tanto assim, portanto
+chegou um momento que eu simplesmente já não estava entendendo mais
+nada, e o professor já estava jogando matéria loucamente, portanto
+abandonei.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://pothix.com/images/posts/curso_verao_intruders.jpg&#34;&gt;&lt;img src=&#34;https://pothix.com/images/posts/curso_verao_intruders.jpg&#34; alt=&#34;Fotos das nossas duas motos em frente ao IME&#34; title=&#34;Nossas motos em frente ao IME&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Esse ano, assim como no ano retrasado, não fui sozinho. o Rodrigo foi
+comigo também, apenas de ele não cursar algo relacionado a programação
+(cursa redes), ele resolveu fazer o curso. Lá também encontrei a
+Suelen, que participou do curso no ano retrasado também! Tudo isso sem
+contar que ainda reencontrei outras pessoas que fizeram o curso junto
+comigo em 2006, e que resolveram aparecer agora. :D&lt;/p&gt;
+
+&lt;p&gt;Esse ano tivemos um professor muito gente fina chamado
+&lt;a href=&#34;http://www.ime.usp.br/~wander/&#34; title=&#34;Página do Wander&#34;&gt;Wanderley Guimarães&lt;/a&gt; que
+explicou a matéria muito bem durante todo o curso, ensinando até
+coisas que não faziam parte do curso para quem não entendia o
+suficiente, e indo além do que o curso previa para quem sabia muito
+mais do que o normal. O professor é realmente muito legal, e a aula
+realmente se tornava bem divertida de ser assistida, pois sempre
+tínhamos certeza que viria um conteúdo interessante além dele estar
+sempre disposto a conversar no final da aula.&lt;/p&gt;
+
+&lt;p&gt;O que foi abordado no curso:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Iteração, indução e recursão&lt;/li&gt;
+&lt;li&gt;Prova de invariantes&lt;/li&gt;
+&lt;li&gt;Análise de tempo de execução de algoritmo&lt;/li&gt;
+&lt;li&gt;Vetores&lt;/li&gt;
+&lt;li&gt;Listas encadeadas&lt;/li&gt;
+&lt;li&gt;Pilha e Fila&lt;/li&gt;
+&lt;li&gt;Buscas simples e busca binária&lt;/li&gt;
+&lt;li&gt;Ordenação&lt;/li&gt;
+&lt;li&gt;Insertion Sort&lt;/li&gt;
+&lt;li&gt;Selection Sort&lt;/li&gt;
+&lt;li&gt;Merge Sort&lt;/li&gt;
+&lt;li&gt;Heap Sort&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Quick Sort&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Árvore Binária&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Árvore Binária de Busca&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;No final do curso ainda tivemos uma introdução a Programação Dinâmica
+e a algoritmos de enumeração! :)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://pothix.com/images/posts/curso_verao_wanderley.jpg&#34;&gt;&lt;img src=&#34;https://pothix.com/images/posts/curso_verao_wanderley.jpg&#34; alt=&#34;Foto do professor Wanderley Guimarães dando aula&#34; title=&#34;Wanderley Guimarães&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A cada tópico passado tínhamos um estudo utilizando os outros tópicos
+já aprendidos. Exemplo: Vamos estudar o MergeSort, então provamos as
+invariantes / indução, fazemos ele tanto recursivo quanto iterativo,
+vemos a quantidade de tempo e memória que o algoritmo utiliza e outras
+coisas mais.&lt;/p&gt;
+
+&lt;p&gt;As aulas se tornaram bastante interativas pois o Wanderley sempre dava
+bastante liberdade para a classe intagir com o conteúdo, as vezes até
+propondo algoritmos interessantes &amp;ldquo;On the fly&amp;rdquo; na aula. :D&lt;/p&gt;
+
+&lt;p&gt;O curso é baseado em 2 provas e um EP (exercício programa) para
+avaliação. Eu não fui muito bem na primeira prova, e espero ter me
+saído razoável na segunda, e empenhei uma boa parte do meu tempo
+noturno no EP para ver se no fim das contas eu ainda consigo sair com
+o certificado. ;)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://pothix.com/images/posts/curso_verao_intruder.jpg&#34;&gt;&lt;img src=&#34;https://pothix.com/images/posts/curso_verao_intruder.jpg&#34; alt=&#34;Foto de uma intruder sozinha em frente ao IME&#34; title=&#34;Minha moto sozinha&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Como é de praxe, no final do curso tínhamos menos da metade da sala
+com participantes ativos, pois muitos não se adéquam ao curso ou acham
+muito difícil e desistem. Nesse momento do curso o Rodrigo já não
+estava indo mais (o que eu já tinha previsto, não sei por que, e aí
+está a foto com minha moto sozinha em frente ao prédio do IME), e eu
+permaneci aprendendo tudo o que eu podia antes do fim do curso, mesmo
+que minhas notas não estivessem como eu gostaria. :P&lt;/p&gt;
+
+&lt;p&gt;O EP desse ano foi bem interessante, deveríamos receber uma quantidade
+indeterminada de palavras, sendo que elas seriam informadas uma por
+linha pela entrada padrão, e o programa deveria imprimir todas as
+palavras que eram anagramas umas das outras na mesma linha, e as que
+não eram anagramas na linha seguinte&amp;hellip; Algo como:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;teste
+marrocos
+futebol
+pothix
+bolfute
+eetts
+socorram
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Ia retornar:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;teste eetts
+marrocos socorram
+pothix
+futebol bolfute
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A princípio parece fácil, mas quando você começa a fazer percebe que
+não é tão simples assim. ;)&lt;/p&gt;
+
+&lt;p&gt;Só uma dica&amp;hellip;Dá para fazer com lista encadeada. ^^&lt;/p&gt;
+
+&lt;p&gt;Espero sair com o certificado desse curso, pois me empenhei o máximo
+que pude, mesmo com todos os transtornos que aconteceram, e com a
+terrível falta de tempo. Mesmo querendo sair com o certificado, ele
+não é o mais importante do curso, o que mais importa é a quantidade de
+conhecimentos que eu consegui agregar, a quantidade de pessoas
+interessantes que eu conheci, e a quantidade de experiência que isso
+me trouxe. :D&lt;/p&gt;
+
+&lt;p&gt;Pretendo fazer vários posts sobre os conceitos que eu aprendi no curso
+por que eu acho que será bem interessante passar esse conhecimento
+para outras pessoas.&lt;/p&gt;
+
+&lt;p&gt;Eu tenho uma recomendação&amp;hellip;Aproveite suas férias de janeiro do ano
+que vem e vá fazer um curso de verão! ;)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Jack, Sam L., Débora | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

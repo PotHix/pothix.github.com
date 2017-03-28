@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tips on PotHix</title>
+    <link>https://pothix.com/tags/tips/index.xml</link>
+    <description>Recent content in Tips on PotHix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
+    <atom:link href="https://pothix.com/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Serviços legais de Março</title>
+      <link>https://pothix.com/post/servicos-legais-de-marco/</link>
+      <pubDate>Thu, 01 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/servicos-legais-de-marco/</guid>
+      <description>
+
+&lt;p&gt;Como vocês puderam perceber (ou não) eu não postei sobre os serviços
+legais de fevereiro e tenho um bom motivo para isso: Não achei nenhum
+serviço que valia a pena ser mencionado e não queria fazer um post
+enchendo linguiça! :P&lt;/p&gt;
+
+&lt;p&gt;O meu ultimo post foi sobre o Yahoo Open Hack 2009, e lá eu pude
+conhecer muita coisa legal, e ver outras nascendo de projetos lá
+mesmo! Por isso tenho informações legais para essa série novamente! ;)&lt;/p&gt;
+
+&lt;p&gt;Vamos lá:&lt;/p&gt;
+
+&lt;h4 id=&#34;yql&#34;&gt;YQL&lt;/h4&gt;
+
+&lt;p&gt;O &lt;a href=&#34;http://developer.yahoo.com/yql/&#34;&gt;YQL&lt;/a&gt;, é um serviço do yahoo que
+ajuda o desenvolvedor que quer trabalhar com dados de vários lugares a
+não sei preocupar em aprender cada uma das API&amp;rsquo;s.  O que o YQL faz é
+dar para o desenvolvedor uma linguagem muito parecida com SQL (um
+pouco mais limitada, mas lembra muito) para que o desenvolvedor possa
+fazer querys das informações que ele deseja de vários serviços.
+Grande parte dos serviços do Yahoo estão disponíveis utilizando YQL e
+você pode fazer vários testes utilizando o próprio &lt;a href=&#34;http://developer.yahoo.com/yql/console/&#34;&gt;console do
+YQL&lt;/a&gt;.  Uma coisa legal é a
+posibilidade de criar algumas tabelas baseadas em dados de outros
+serviços, ou baseadas em .csv e outras coisas.&lt;/p&gt;
+
+&lt;p&gt;Enfim, vale muito a pena dar uma olhada.&lt;/p&gt;
+
+&lt;h4 id=&#34;spaia-me&#34;&gt;Spaia.me&lt;/h4&gt;
+
+&lt;p&gt;O &lt;a href=&#34;http://spaia.me/&#34;&gt;spaia.me&lt;/a&gt; é um serviço bem legal para gerar
+widgets para seu site/blog. Ele faz buscas em serviços como o Twitter,
+Flickr, Del.icio.us e meme e traz os resultados referentes a sua
+palavra em um box &amp;ldquo;animado&amp;rdquo; por JQuery.&lt;/p&gt;
+
+&lt;p&gt;Esse gerador de widgets foi feito pelo &lt;a href=&#34;http://nuxlli.com.br/&#34;&gt;Nuxlli&lt;/a&gt;
+e pelo &lt;a href=&#34;http://blog.talleye.com/&#34;&gt;Cipriani&lt;/a&gt; no Open Hack day! :)&lt;/p&gt;
+
+&lt;h4 id=&#34;foursquare&#34;&gt;Foursquare&lt;/h4&gt;
+
+&lt;p&gt;O &lt;a href=&#34;http://foursquare.com/&#34;&gt;Foursquare&lt;/a&gt; é um serviço bem interessante
+para você postar sobre sua localização e fazer reviews dos lugares que
+você frequenta.  Resolvi comentar sobre ele justamente por que
+comentaram comigo sobre ele no #brhackday e eu fui dar uma olhada na
+API, e vi os hacks legais que dá para fazer com isso. :)&lt;/p&gt;
+
+&lt;h4 id=&#34;jsfiddle&#34;&gt;JSFiddle&lt;/h4&gt;
+
+&lt;p&gt;O &lt;a href=&#34;http://www.jsfiddle.net/JEYMm/&#34;&gt;JSFiddle&lt;/a&gt; é um lugar muito legal
+para testar Javascript. Ele te dá acesso a uma série de bibliotecas
+javascript (tais como JQuery, Prototype, Mootools e outras) para que
+você possa fazer testes e comparações de funcionalidade entre uma e
+outra utilizando o mesmo HTML / CSS.  Aconselho muito o uso dela,
+principalmente se você está estudando uma biblioteca específica ou
+apenas quer saber se determinada biblioteca tem funcionalidades
+melhores do que a sua biblioteca preferida.&lt;/p&gt;
+
+&lt;p&gt;É isso ae galera! Espero que esses serviços sejam úteis para vocês! :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Serviços legais de Janeiro</title>
+      <link>https://pothix.com/post/servicos-legais-de-janeiro/</link>
+      <pubDate>Tue, 26 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/servicos-legais-de-janeiro/</guid>
+      <description>
+
+&lt;p&gt;E ae galera! Vamos para mais um post sobre os serviços legais do mes.&lt;/p&gt;
+
+&lt;h4 id=&#34;opendns&#34;&gt;OpenDNS&lt;/h4&gt;
+
+&lt;p&gt;Estranho eu falar de &lt;a href=&#34;http://www.opendns.com/&#34;&gt;OpenDNS&lt;/a&gt; não? Já existe
+faz tanto tempo e muita gente já conhece/usa.  O que me fez colocar
+ele na lista de serviços legais foi justamente as opções que você tem
+na web do OpenDNS!&lt;/p&gt;
+
+&lt;p&gt;Se você se cadastrar no OpenDNS você pode configurar muitas coisas
+legais, como por exemplo a página de endereço não encontrado, ou a
+página de tentativa de fishing, entre outras. Além de configurar
+essas páginas você pode tambem definir atalhos, para quando você
+tentar acessar algo como: &amp;ldquo;&lt;a href=&#34;http://pothix&amp;quot;&#34;&gt;http://pothix&amp;quot;&lt;/a&gt; ele já redirecionar para
+&amp;ldquo;&lt;a href=&#34;http://pothix.com/blog&amp;quot;&#34;&gt;http://pothix.com/blog&amp;quot;&lt;/a&gt; por exemplo. :)&lt;/p&gt;
+
+&lt;h4 id=&#34;heroku&#34;&gt;Heroku&lt;/h4&gt;
+
+&lt;p&gt;O &lt;a href=&#34;http://heroku.com/&#34;&gt;Heroku&lt;/a&gt; é bem conhecido pela comunidade Ruby,
+pois é uma das maneiras mais fáceis de se fazer deploy de uma
+aplicação simples, bastando poucos comandos para que sua aplicação já
+fique disponível na web como um subdomínio do Heroku!&lt;/p&gt;
+
+&lt;p&gt;Só para dar uma idéia da simplicidade, o que você precisa fazer para
+mandar sua aplicação para o heroku (estou assumindo que vc usa Git):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo gem install heroku&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;heroku keys:add path/para/sua/key&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;heroku create nome_do_proj&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git push heroku master&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;E pronto! Sua aplicação já estará disponível em &lt;a href=&#34;http://nome_do_proj.heroku.com&#34;&gt;http://nome_do_proj.heroku.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;caliper&#34;&gt;Caliper&lt;/h4&gt;
+
+&lt;p&gt;O &lt;a href=&#34;http://getcaliper.com/caliper&#34;&gt;Caliper&lt;/a&gt; é um serviço web bem
+interessante para se obter métricas do seu código.&lt;/p&gt;
+
+&lt;p&gt;Uma das coisas que eu mais gostei no Caliper é que ele não exige
+cadastro para uso, você pode apenas colocar a URL do seu projeto Git e
+ele já gera os relatórios utilizando a gem &lt;strong&gt;metric_fu&lt;/strong&gt; e mantém um
+link para acesso dos mesmos.&lt;/p&gt;
+
+&lt;p&gt;Como de costume os meus posts sobre os serviços legais do mes são
+curtos, portanto, eu fico por aqui! Espero que sejam úteis! ;)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Serviços legais de dezembro</title>
+      <link>https://pothix.com/post/servicos-legais-de-dezembro/</link>
+      <pubDate>Wed, 02 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/servicos-legais-de-dezembro/</guid>
+      <description>
+
+&lt;p&gt;Infelizmente não consegui postar sobre os serviços legais do mes de
+novembro por que eu estava cheio de coisas para fazer ( devido as provas
+de fim de ano, e meu curso é anual ), portanto não consegui agregar nada
+para novembro, e muito menos tempo para postar. Mas agora estou eu aqui
+denovo para postar sobre o que eu achei de legal na internet nesse meio
+tempo! E lá vamos nós:&lt;/p&gt;
+
+&lt;h4 id=&#34;mocking-bird-wireframes-on-the-fly&#34;&gt;Mocking Bird - Wireframes on the fly&lt;/h4&gt;
+
+&lt;p&gt;O &lt;a href=&#34;http://gomockingbird.com/&#34;&gt;Mocking Bird&lt;/a&gt; é um site
+onde você pode montar wireframes para layouts de sites facilmente, como
+se você estivesse fazendo um desenho mas com elementos pré-determinados.
+Achei o serviço muito interessante, principalmente para mim que não
+manjo nada de fazer design, portanto eu posso dar uma olhada no que eu
+quero fazer usando os elementos pré determinados do Mocking Bird e quem
+sabe fazer um layout razoável para implementar, apenas revendo as cores
+com quem manja de verdade. :)&lt;/p&gt;
+
+&lt;h4 id=&#34;collecta&#34;&gt;Collecta&lt;/h4&gt;
+
+&lt;p&gt;O que eu achei interessante do &lt;a href=&#34;http://www.collecta.com&#34;&gt;Collecta&lt;/a&gt; é a
+quantidade de coisas diferentes que ele traz na busca, desde twitter
+até Github, e isso sem contar que é tudo em tempo real, e você pode
+ver realmente o que está acontecendo referente a um determinado
+assunto. O serviço parece ser interessante para cobrir eventos, por
+que da para ter uma visão geral do que está acontecendo em vários
+lugares ao mesmo tempo, ver fotos que postaram, comentários no
+twitter, vídeos no youtube e etc.&lt;/p&gt;
+
+&lt;h4 id=&#34;buzz-volume&#34;&gt;Buzz Volume&lt;/h4&gt;
+
+&lt;p&gt;O &lt;a href=&#34;http://buzzvolume.com/&#34;&gt;Buzz Volume&lt;/a&gt; foi criado por
+dois colegas meus ( o &lt;a href=&#34;http://twitter.com/dirs “Dirceu Pauka”&#34;&gt;@dirs&lt;/a&gt;
+e o &lt;a href=&#34;http://twitter.com/mauricio “Mauricio”&#34;&gt;@mauricio&lt;/a&gt; ), e eu achei
+a idéia bem interessante! O que o site faz é agregar links que estão
+sendo bem falados no twitter, assim mantendo o usuário por dentro do que
+está sendo mais comentado, ou seja, um bom agregador de coisas famosas.
+:) Espero que nesse serviço coloquem uma feature de excluir asssuntos :P
+Bem, é isso! Esse post foi simples mas eu compri os serviços legais
+desse mes. ;)&lt;/p&gt;
+
+&lt;p&gt;Até mes que vem.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Serviços legais de outubro</title>
+      <link>https://pothix.com/post/servicos-legais-de-outubro/</link>
+      <pubDate>Sun, 04 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/servicos-legais-de-outubro/</guid>
+      <description>
+
+&lt;p&gt;Já estava me esquecendo de postar sobre os serviçoes legais desse mes! :P&lt;/p&gt;
+
+&lt;p&gt;Estava com poucos quando lembrei, mas não demorou muito para que eu
+lembrasse de alguns muito bons. Vamos lá!&lt;/p&gt;
+
+&lt;h4 id=&#34;yuml&#34;&gt;yUML&amp;lt;&lt;/h4&gt;
+
+&lt;p&gt;O &lt;a href=&#34;http://yuml.me/diagram/scruffy/class/samples&#34; title=&#34;yUML&#34;&gt;yUML&lt;/a&gt; é um serviço para se criar &lt;a href=&#34;http://yuml.me/diagram/scruffy/class/samples&#34; title=&#34;UML na wikipedia&#34;&gt;UML&lt;/a&gt; facilmente utilizando apenas uma URL com determinadas marcações.
+O caike que me mostrou no ultimo post quando eu tinha mencionado sobre criação de&lt;a href=&#34;http://yuml.me/diagram/scruffy/class/samples&#34; title=&#34;UML na wikipedia&#34;&gt; UML&lt;/a&gt;. Valeu &lt;a href=&#34;http://www.caikesouza.com/blog/&#34; title=&#34;Blog do Caike&#34;&gt;Caike&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h4 id=&#34;gliffy&#34;&gt;Gliffy&lt;/h4&gt;
+
+&lt;p&gt;Continuando em diagramas e UML temos o
+&lt;a href=&#34;http://www.gliffy.com/examples/SWOT/&#34; title=&#34;Gliffy&#34;&gt;Gliffy&lt;/a&gt; que também faz
+uma grande quantidade de diagramas diferentes.&lt;/p&gt;
+
+&lt;p&gt;Esse quem me mostrou foi a &lt;a href=&#34;http://twitter.com/suelengc&#34; title=&#34;Suelen no Twitter&#34;&gt;Suelen&lt;/a&gt;! Valeu Suelen! =*&lt;/p&gt;
+
+&lt;h4 id=&#34;pivotal-tracker&#34;&gt;Pivotal Tracker&lt;/h4&gt;
+
+&lt;p&gt;Para quem não connhece, o
+&lt;a href=&#34;http://www.pivotaltracker.com/&#34; title=&#34;Pivotal Tracker&#34;&gt;PivotalTracker&lt;/a&gt; é
+uma ferramenta para gestão de projetos utilizando
+&lt;a href=&#34;http://en.wikipedia.org/wiki/Scrum_(development)&#34; title=&#34;Scrum na
+Wikipedia&#34;&gt;Scrum&lt;/a&gt;! Ele utiliza várias ferramentas que são muito úteis quando
+se tem uma equipe que está aplicando a metodologia Scrum, como gráfico
+burndown, média automática de pontos por semana, agendamento
+automático de tarefas de acordo com a quantidade de pontos por sprint
+da equipe e mais outras coisas bem interessantes! Já trabalhei
+utilizando o Pivotal e recomendo!&lt;/p&gt;
+
+&lt;h4 id=&#34;scrumy&#34;&gt;Scrumy&lt;/h4&gt;
+
+&lt;p&gt;O &lt;a href=&#34;http://scrumy.com&#34; title=&#34;Scrumy&#34;&gt;Scrumy&lt;/a&gt; é outra ferramenta muito
+interessante e bem simples para se trabalhar com Scrum, principalmente
+para equipes remotas. Ele cria um kanban board virtual, onde você pode
+arrastar os post-its para as próximas áreas ( todo, wip, verify, done
+), e ter uma visão mais ampla das atividades facilmente.&lt;/p&gt;
+
+&lt;p&gt;Esse mes é só isso! Espero que seja útil para alguém!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Serviços legais de setembro</title>
+      <link>https://pothix.com/post/servicos-legais-de-setembro/</link>
+      <pubDate>Thu, 10 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/servicos-legais-de-setembro/</guid>
+      <description>
+
+&lt;p&gt;E lá vamos nós novamente para mais um post sobre os serviços legais que eu encontrei esse mes.&lt;/p&gt;
+
+&lt;h4 id=&#34;creately&#34;&gt;Creately&lt;/h4&gt;
+
+&lt;p&gt;O &lt;a href=&#34;http://creately.com/&#34; title=&#34;Creately&#34;&gt;Creately&lt;/a&gt; é  um site para se fazer
+diagramas! Eu  estava procurando por  isso faz bastante tempo  e nunca
+tinha achado um satisfatório, mas esse parece ser muito bom!&lt;/p&gt;
+
+&lt;p&gt;Com ele é possível fazer uma grande quantidade coisas, como diagramas
+de classe, fluxograma, esqueletos de layout e mais um monte de coisas
+legais e depois exportar para alguns formatos.&lt;/p&gt;
+
+&lt;h4 id=&#34;groove-shark&#34;&gt;Groove Shark&lt;/h4&gt;
+
+&lt;p&gt;O &lt;a href=&#34;http://listen.grooveshark.com/&#34; title=&#34;Groove Shark&#34;&gt;Groove Shark&lt;/a&gt; é um
+site fantástico para se ouvir musicas! Sabe quando você está na
+faculdade na internet pesquisando sobre um trabalho e tem aquela saída
+para fone no computador e você pode ouvir musicas mas não tem um lugar
+legal? Acesse o GrooveShark faça uma pequena playlist e se divirta.&lt;/p&gt;
+
+&lt;p&gt;Gostei por que eles tem uma grande variedade de musicas lá e a
+interface é bem leve e bonita.&lt;/p&gt;
+
+&lt;h4 id=&#34;tutsplus&#34;&gt;TutsPlus&lt;/h4&gt;
+
+&lt;p&gt;O &lt;a href=&#34;http://tutsplus.com/&#34; title=&#34;TutsPlus&#34;&gt;TutsPlus&lt;/a&gt; é um site que possui uma
+grande quantidade de tutoriais de qualidade sobre vários tipos de
+assuntos. O que achei interessante é que os materiais são divididos em
+sites diferentes e todos os tutoriais são moderados, portanto quase
+todo o conteúdo que você vê por lá é de muito boa qualidade.&lt;/p&gt;
+
+&lt;p&gt;Eu acompanho as atualizações do
+&lt;a href=&#34;http://net.tutsplus.com/&#34; title=&#34;NetTuts+&#34;&gt;NetTuts&lt;/a&gt; por que sempre tem um
+conteúdo que me interessa referente a web, seja Javascrit, PHP, Rails
+ou várias outras coisas interessantes.&lt;/p&gt;
+
+&lt;p&gt;Bem, é isso! Espero que esses links sejam úteis para mais alguem além de mim! :D&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: CrociDB, caike | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Serviços legais de Agosto</title>
+      <link>https://pothix.com/post/servicos-legais-de-agosto/</link>
+      <pubDate>Thu, 06 Aug 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/servicos-legais-de-agosto/</guid>
+      <description>
+
+&lt;p&gt;E lá vamos nós com mais um post (que felizmente estou conseguindo
+manter mensal) sobre os serviços legais que eu vi no mês passado e
+estou usando esse mês.&lt;/p&gt;
+
+&lt;h4 id=&#34;typingweb&#34;&gt;TypingWeb&lt;/h4&gt;
+
+&lt;p&gt;O &lt;a href=&#34;http://pt.typingweb.com/&#34; title=&#34;TypingWeb&#34;&gt;TypingWeb&lt;/a&gt; é um serviço web
+que possui vários tutoriais para aprender a digitar corretamente. Eu
+estou treinando digitação já faz um tempo utilizando o
+&lt;a href=&#34;http://pothix.com/blog/development/servicos-legais-de-julho&#34; title=&#34;Meu post onde menciono o TypeRacer&#34;&gt;TypeRacing&lt;/a&gt;
+e um programinha para Linux chamado
+&lt;a href=&#34;http://www.gnu.org/software/gtypist/&#34; title=&#34;Gtypist GNU page&#34;&gt;gtypist&lt;/a&gt;
+que tambem é bem legal para treinar. Achei esse site
+fantástico, e o mais legal de tudo é que tem uma versão em português,
+então eu posso passar para outras pessoas (como a minha mãe por
+exemplo) que tambem querem aprender a digitar melhor mas não se dão
+bem com o inglês.&lt;/p&gt;
+
+&lt;h4 id=&#34;getclicky&#34;&gt;GetClicky&lt;/h4&gt;
+
+&lt;p&gt;O &lt;a href=&#34;http://getclicky.com/&#34; title=&#34;GetClicky website&#34;&gt;GetClicky&lt;/a&gt; é serviço de
+estatísticas assim como o Google Analytics, mas ele possui muitas
+ferramentas interessantes, como monitoramente de palavras chave no
+Twitter, estatísticas em tempo real e mais algumas coisas
+interessantes que faz valer a pena pelo menos testar o serviço! ;)&lt;/p&gt;
+
+&lt;h4 id=&#34;lastfm&#34;&gt;LastFm&lt;/h4&gt;
+
+&lt;p&gt;Sim, estou falando da
+&lt;a href=&#34;http://last.fm/user/PotHix&#34; title=&#34;Meu perfil no last.fm&#34;&gt;Last.fm&lt;/a&gt;
+que já está a tanto tempo aí, mas resolvi comentar por
+que eu estou lá há mais de 1 ano e só agora comecei a utilizar de
+verdade. Quando eu entrei pela primeira vez para saber como funcionava
+eu fui no site e tentei ouvir várias musicas. Umas eram cortadas, as
+playlist só podiam ser tocadas por usuários premium e não sei o
+que&amp;hellip;Ou seja, achei uma porcaria.  Nos ultimos dias eu conversei com
+um colega meu que me disse que deixava seu player dando tracking das
+musicas que ele ouvia e mandando para o last.fm, e finalmente eu
+descobri a finalidade do last.fm (noob), e realmente é bem legal ter
+um perfil numa rede social de musicas, onde seus amigos podem ver o
+que você anda ouvindo e comparar automáticamente o perfil musical.&lt;/p&gt;
+
+&lt;p&gt;Bem, esses são os 3 serviços que eu tenho para compartilhar esse mes!
+E espero que sejam úteis para vocês assim como são para mim. :)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: CrociDB | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Serviços legais de Julho</title>
+      <link>https://pothix.com/post/servicos-legais-de-julho/</link>
+      <pubDate>Sat, 04 Jul 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/servicos-legais-de-julho/</guid>
+      <description>
+
+&lt;p&gt;Esse mês eu estou conseguindo novamente fazer um post sobre os
+serviços legais que eu encontrei esse mês ( e alguns que eu já uso faz
+tempo )&lt;/p&gt;
+
+&lt;h4 id=&#34;wakoopa&#34;&gt;Wakoopa&lt;/h4&gt;
+
+&lt;p&gt;O &lt;a href=&#34;http://wakoopa.com/pothix&#34; title=&#34;Wakoopa&#34;&gt;Wakoopa&lt;/a&gt; é um software que
+você instala em seu computador e ele lhe dá estatísticas do que você
+mais usa, entre aplicações desktop e webapps! Mas isso não é o melhor
+disso tudo! O melhor é que ele se integra com uma conta que você tem
+no site do Wakoopa e se torna uma rede social onde você pode ver o que
+seus amigos estão usando, fazer reviews de softwares que você gosta,
+encontrar softwares novos e outras coisas bem legais! :)&lt;/p&gt;
+
+&lt;h4 id=&#34;crunch-base&#34;&gt;Crunch Base&lt;/h4&gt;
+
+&lt;p&gt;Resolvi mencionar o &lt;a href=&#34;http://www.crunchbase.com/&#34;&gt;Chunch Base&lt;/a&gt; após
+descobrir que ele é a base que o Wakoopa consulta para saber o que é e
+o que não é uma web application. A idéia do CrunchDB é que o conteúdo
+é colaborativo, mas é moderado, e assim muitas aplicações podem
+realmente confiar que a base deles é valida. Achei bem interessante o
+projeto e resolvi até adicionar a
+&lt;a href=&#34;http://www.crunchbase.com/company/ikwa-orientao-profissional&#34; title=&#34;Ikwa Orientação Profissional&#34;&gt;empresa que eu trabalho atualmente&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;type-racer&#34;&gt;Type Racer&lt;/h4&gt;
+
+&lt;p&gt;O &lt;a href=&#34;http://play.typeracer.com&#34; title=&#34;Type Racer&#34;&gt;Type Racer&lt;/a&gt; é uma web app
+para criar competições de digitação, e tem me ajudado bastante a
+melhorar a minha e aprender a digitar melhor e mais rápido do que eu
+digitava antes. Não precisa ser cadastrado para tentar, mas quando se
+é cadastrado você tem gráficos nos textos que vc já digitou para saber
+o quanto progrediu desde que começou a treinar, e ainda uma média de
+palavras por segundo. Eu realmente recomendo!&lt;/p&gt;
+
+&lt;h4 id=&#34;queen-alice&#34;&gt;Queen Alice&lt;/h4&gt;
+
+&lt;p&gt;O &lt;a href=&#34;http://queenalice.com&#34; title=&#34;Queen Alice&#34;&gt;Queen Alice&lt;/a&gt; é uma nova versão
+daquilo que chamavam de &amp;ldquo;Xadrez Postal&amp;rdquo;, que era quando duas pessoas
+montavam dois tabuleiros, cada um em sua casa, e sempre que um fazia
+uma jogada ele escrevia numa carta e enviava de volta para seu
+adversário, assim quando o mesmo recebia ele fazia sua jogada e o
+processo se repetia até o final do jogo. Um jogo poderia demorar anos!
+O Queen Alice faz uma coisa parecida mas usando e-mail, com tempos
+determinados, portanto você começa um jogo com um amigo já acordando o
+tempo (1, 3, ou 7 dias jogada) com várias opções legais, e sempre
+que seu adversário faz uma jogada lá você recebe um e-mail dizendo que
+é sua vez e vc tem um determinado tempo para jogar senão o adversário
+pode reivindicar a partida. Tem muitas opções legais e vale a pena
+para quem gosta de xadrez mas não tem muito tempo para treinar.&lt;/p&gt;
+
+&lt;p&gt;É isso ae! Quem sabe no mês que vem eu consiga trazer mais serviços
+web interessantes! ;)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Cammy, CrociDB, Bruno Grasselli | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Serviços interessantes</title>
+      <link>https://pothix.com/post/servicos-interessantes/</link>
+      <pubDate>Fri, 12 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/servicos-interessantes/</guid>
+      <description>
+
+&lt;p&gt;Depois de conhecer alguns serviços legais na internet resolvi postar sobre eles aqui.  Gostaria de fazer um post desse tipo mensalmente ( assim como o &lt;a href=&#34;http://logbr.reflectivesurface.com&#34; title=&#34;Blog do Ronaldo Ferraz&#34;&gt;Ronaldo Ferraz faz no seu blog&lt;/a&gt; sobre o balanço cultural, que eu acho bem legal ), mas pelo menos dessa vez quero postar algumas coisas legais, e se possível eu posto periódicamente o que eu tenho feito / encontrado de divertido. ;)&lt;/p&gt;
+
+&lt;h4 id=&#34;dropbox&#34;&gt;Dropbox&lt;/h4&gt;
+
+&lt;p&gt;Já começando com o &lt;a href=&#34;https://www.getdropbox.com&#34;&gt;DropBox&lt;/a&gt;, que é
+uma aplicação para sincronização de arquivos. Ele funciona da seguinte
+maneira:&lt;/p&gt;
+
+&lt;p&gt;Você instala o software do dropbox (que tem para várias plataformas!
+), e cria uma conta no site, com isso eles disponibilizam um
+armazenamento de 2GB gratuitamente para seus arquivos (e mais no
+máximo 3 GB se você recomendar alguem, portanto se for criar me peçam
+um convite please).&lt;/p&gt;
+
+&lt;p&gt;Com o Dropbox você pode criar pastas compartilhadas com seus amigos
+que tambem possuem dropbox, assim compartilhando arquivos facilmente,
+só colocar ele na pasta que o dropbox vai fazer o upload
+automáticamente e o dropbox do seu amigo vai receber automáticamente
+tambem.&lt;/p&gt;
+
+&lt;p&gt;Eu estou usando o Dropbox para compartilhar arquivos de estudos com
+uns amigos e tambem para sincronizar o meu arquivo do notecase entre o
+trabalho e minha casa ( assim não preciso ficar colocando pendrive
+toda vez que for usar o notecase ).&lt;/p&gt;
+
+&lt;h4 id=&#34;shelfari&#34;&gt;Shelfari&lt;/h4&gt;
+
+&lt;p&gt;O &lt;a href=&#34;http://www.shelfari.com/pothix&#34; title=&#34;Shelfari&#34;&gt;shelfari&lt;/a&gt; é uma rede
+social para leitores de livros! Lá você pode compartilhar suas
+leituras com os amigos, dizendo o que está lendo, o que planeja ler, o
+que já leu, fazer resenhas de livros, comentários e mais um monte de
+coisas legais.&lt;/p&gt;
+
+&lt;p&gt;Gostei bastante da forma que ele organiza os livros, e o layout de
+prateleiras é bem legal tambem. Descobri que eles tem um Widget que
+adiciona uma prateleira ( bonitinha! ) no seu blog / site e é
+totalmente customizável! Gostei! Vou colocar no aqui assim que eu der
+uma arrumada no layout do blog.&lt;/p&gt;
+
+&lt;h4 id=&#34;comunidade-software-livre&#34;&gt;Comunidade Software Livre&lt;/h4&gt;
+
+&lt;p&gt;Apesar de não gostar muito de redes sociais (para mim fica tudo como
+redes anti-sociais) eu achei legal a iniciativa de uma
+&lt;a href=&#34;http://softwarelivre.org/pothix&#34; title=&#34;Software Livre&#34;&gt;rede social para software livre&lt;/a&gt;!
+Seria legal se a grande massa da comunidade estivesse por lá!
+:)&lt;/p&gt;
+
+&lt;p&gt;Não tem muito o que comentar pois é uma rede social comum como todas
+as outras, mas essa tem um foco diferente, que é juntar o pessoal de
+software livre em um só lugar. ;)&lt;/p&gt;
+
+&lt;p&gt;É isso! Esses são os 3 serviços que eu achei interessante e gostaria
+de compartilhar, espero que seja útil para os leitores do blog.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: CrociDB, Bónus Poker | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ir além do básico tambem é gratis</title>
+      <link>https://pothix.com/post/ir-alem-do-basico-tambem-e-gratis/</link>
+      <pubDate>Thu, 11 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/ir-alem-do-basico-tambem-e-gratis/</guid>
+      <description>&lt;p&gt;Faz um tempinho que eu estou querendo fazer um post seguindo os moldes
+da campanha do &lt;a href=&#34;http://marcogomes.com/blog/2008/campanha-programar-e-gratis&#34; title=&#34;Programar é Grátis&#34;&gt;Marco Gomes&lt;/a&gt;,
+que também gerou o
+&lt;a href=&#34;http://www.tableless.com.br/implementar-xhtmlcss-e-gratis&#34; title=&#34;Implementar XHTML / CSS é grátis&#34;&gt;post do Diego Eis&lt;/a&gt;,
+e finalmente consegui um tempinho para expressar também a minha opinião nesse assunto! :)&lt;/p&gt;
+
+&lt;p&gt;Conheço muitas pessoas que fazem faculdade relacionada a programação,
+mas não aplicam o que estão vendo por lá, acham que já estão fazendo
+demais em ir para a faculdade e ficar lá no tempo em que o professor
+está falando&amp;hellip;Ou seja, essas pessoas não estão indo a faculdade para
+aprender algo para colocar em prática, eles estão lá simplesmente para
+&amp;ldquo;passar de ano&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;As vezes não é nem tanto com faculdade também, tem pessoas que não
+fazem faculdade, querem ser programadores, mas tem aquele pensamento:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Ahh&amp;hellip;Eu preciso de uma oportunidade para aplicar os meus conhecimentos&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A internet está aí para isso! Você pode ter uma gama monstruosa de
+ferramentas para brincar se quiser, tantos livros gratuitos para
+aprender/melhorar sua programação, tantos projetos Open Source para
+contribuir, cursos on-line gratuitos para fazer, mas o sujeito quer
+&amp;ldquo;ganhar uma oportunidade&amp;rdquo; sem nem mesmo merecer ela.&lt;/p&gt;
+
+&lt;p&gt;Esse tipo de pessoa para mim &lt;strong&gt;não é programador&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;p&gt;O Marco Gomes costuma chamar esse tipo de pessoa de bunda mole, eu
+tenho meu termo favorito que é muito utilizado por mim atualmente:
+&lt;strong&gt;Marica!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Gostaria de aprender a fazer isso por que é muito foda, mas parece muito difícil, então vou fazer o XY que é mais zuadinho mas é fácil&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Apertar parafusos também é fácil&amp;hellip;Se as coisas fossem fáceis colocaríamos robôs para fazer&amp;hellip; Marica!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Estou trabalhando na empresa XY mas já estou cansado de lá&amp;hellip;Cansei de suporte técnico, eu quero é ir programar, mas sem experiência fica difícil&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Vá e consiga sua experiência sozinho, faça um site e mostre quando for
+na entrevista, como que o cara quer ter experiência sem fazer
+nada&amp;hellip;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Putz&amp;hellip;Não conheço nada de Linux esse sistema é uma merda&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Esse é um candidato perfeito a ser um ótimo programador não é?!
+Primeiro já caiu numa contradição, por que se ele não conhece nada,
+como sabe que é uma merda? E outras, não quer nem conhecer um sistema
+diferente onde ele terá suporte nativo a várias linguagens, e não só
+isso, só o fato de não querer aprender algo &lt;strong&gt;gratuito&lt;/strong&gt; e importante
+para a carreira já faz dele um marica!&lt;/p&gt;
+
+&lt;p&gt;Portanto, vamos a alguns pontos importantes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Invista tempo em aplicar o que você aprende na faculdade, ou caso não faça faculdade, corra atrás de coisas para estudar e aplique elas também.&lt;/li&gt;
+&lt;li&gt;Procure coisas diferente para saber, afinal, quanto maior a sua gama de conhecimentos mais difícil será você dizer para alguem: &amp;ldquo;Não sei nem o que é isso&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Desenvolva coisas úteis e mostre seus código na internet, isso ainda vai ser muito útil para você ( tanto para aprendizado quanto para apresentação pessoal ).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Para finalizar só quero frisar uma frase do post do Marco Gomes que é
+muito interesssante e resume muito a minha opinião:&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Você pode &lt;strong&gt;mudar sua vida&lt;/strong&gt;, e até &lt;strong&gt;mudar o mundo&lt;/strong&gt;, com o mesmo
+equipamento que usa pra ficar o dia inteiro no orkut trocando
+recadinhos com as peguetes&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Magnun, Marco Gomes, Tagliati, Cayo Medeiros aka. yogodoshi, Tony Fabeen, Lê, Herminio, Simone, Lucas | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

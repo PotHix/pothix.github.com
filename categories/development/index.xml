@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on PotHix</title>
+    <link>https://pothix.com/categories/development/index.xml</link>
+    <description>Recent content in Development on PotHix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
+    <atom:link href="https://pothix.com/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Usando Git em projetos do Google Code</title>
+      <link>https://pothix.com/post/usando-git-em-projetos-do-google-code/</link>
+      <pubDate>Mon, 11 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/usando-git-em-projetos-do-google-code/</guid>
+      <description>&lt;p&gt;Resolvi escrever esse post depois de começar a contribuir para o
+projeto do
+&lt;a href=&#34;http://code.google.com/p/vimbook&#34; title=&#34;Projeto do VimmBook no Google Code&#34;&gt;vimbook&lt;/a&gt;,
+que está no Google Code.&lt;/p&gt;
+
+&lt;p&gt;Como o Google Code só usa &lt;a href=&#34;http://subversion.tigris.org/&#34; title=&#34;Subversion Main Page&#34;&gt;Subversion&lt;/a&gt;
+(infelizmente) e eu sou do mundo &lt;a href=&#34;http://git.or.cz/index.html&#34;&gt;Git&lt;/a&gt;,
+resolvi usar a ferramenta Git para lidar com SVN, o
+&lt;a href=&#34;http://www.kernel.org/pub/software/scm/git/docs/git-svn.html&#34;&gt;git-svn&lt;/a&gt;!
+Com ele você pode clonar um repositório SVN e utilizar como Git, e na
+hora de &amp;ldquo;commitar&amp;rdquo; ele retransforma em SVN.&lt;/p&gt;
+
+&lt;p&gt;Já havia tentado usar Git-svn no meu projeto de
+&lt;a href=&#34;http://wordpress.org/extend/plugins/anti-ie6-army/&#34;&gt;plugin para wordpress&lt;/a&gt;,
+mas nesse caso eu já tinha um repositório Git e fui tentar mandar para
+um repositório SVN vazio, o que só me deu dor de cabeça, e no fim das
+contas acabei jogando para um repositório SVN qualquer só para mandar
+para o Wordpress. No fim das contas, depois desse problema com o
+Wordpress eu só tinha abominado o git-svn, mas agora eu estou
+começando a descobrir o seu valor.&lt;/p&gt;
+
+&lt;p&gt;Meus agradecimentos ao &lt;a href=&#34;http://carlancalazans.com/&#34;&gt;Carlan Calazans&lt;/a&gt;
+que me deu umas dicas de Git-svn quando eu comecei a
+tentar usar no projeto do plugin, que naquele momento não me fora de
+grande serventia, mas depois ajudaram bastante! ;)&lt;/p&gt;
+
+&lt;p&gt;Bem, agora chega de papo-furado e vamos a parte que interessa&amp;hellip;Códigos e How To! :)&lt;/p&gt;
+
+&lt;p&gt;Primeiramente vamos baixar o código ( estou usando como exemplo o vimbook ):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git-svn clone https://vimbook.googlecode.com/svn/trunk/ vimbook --username seu.usuario.do.google
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Ao digitar isso ele vai pedir uma senha que ele gera para a sua conta,
+e seus commits ficarão ligados a sua conta do Google. Para obter a sua
+senha é só acessar a página de
+&lt;a href=&#34;http://code.google.com/hosting/settings&#34; title=&#34;Página de settings do Google Code&#34;&gt;settings do google code&lt;/a&gt; com a sua conta.&lt;/p&gt;
+
+&lt;p&gt;Após digitar a sua senha ele vai começar a receber todos os commits do
+SVN e converter para Git! O processo pode ser um pouco demorado,
+dependendo do tamanho do repositório SVN que você está importando.&lt;/p&gt;
+
+&lt;p&gt;Quando terminar você terá um repositório Git normal funcionando, e
+você pode trabalhar normalmente com ele, fazendo seus branchs e tudo
+mais! :D&lt;/p&gt;
+
+&lt;p&gt;Vamos ver como seria um fluxo simples para você fazer uma alteração usando branch e mandar de volta para o repositório:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git checkout -b new_changes
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Branch criado! Faça as suas alterações&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Após as alteraçoes feitas faça os commits normalmente como se faz no
+Git e volte ao master para ver o que há de novo no repositório
+central:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git checkout master
+git-svn rebase
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Com isso ele vai receber as novas alterações do repositório!&lt;/p&gt;
+
+&lt;p&gt;Agora é a hora de fazer um merge do seu branch com a ultima versão do
+master:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git merge new_changes
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Se tiver algum conflito resolva-os normalmente e agora é hora de
+enviar as suas alterações novamente ao Google Code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git-svn dcommit
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Pronto! Você está contribuindo para um projeto do Google Code
+utilizando Git. :D&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Carlan Calazans | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Aprenda Ruby no Rubylearning</title>
+      <link>https://pothix.com/post/aprenda-ruby-no-rubylearning/</link>
+      <pubDate>Fri, 07 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/aprenda-ruby-no-rubylearning/</guid>
+      <description>
+
+&lt;p&gt;Como muitos sabem, eu sou um dos professores assistentes do
+&lt;a href=&#34;http://rubylearning.org/class&#34;&gt;Rubylearning.org&lt;/a&gt; que oferece
+&lt;strong&gt;gratuitamente&lt;/strong&gt; cursos de ruby!&lt;/p&gt;
+
+&lt;p&gt;O &lt;a href=&#34;http://www.workingwithrails.com/person/6778-satish-talim&#34;&gt;Satish Talim&lt;/a&gt;
+anunciou que estão abertas as inscrições para o FORPC101-9C ( Free
+Online Ruby Programming Course 101 - Batch 9 Core) que é a série de
+cursos gratuitos sobre Ruby Core.&lt;/p&gt;
+
+&lt;p&gt;Aconselho todos que querem aprender Ruby a participarem! Não se
+preocupe muito com seu inglês, ele não precisa estar extremamente
+afiado para você participar, basta que você consiga entender bem para
+que você participe, e caso não consiga escrever bem o pessoal pode
+ajudar você a se expressar para conseguir ajuda nos Foruns!&lt;/p&gt;
+
+&lt;p&gt;Eu (&lt;a href=&#34;http://rubylearning.com/satishtalim/ruby_course_graduates.html&#34;&gt;assim como muitos&lt;/a&gt;)
+recomendo! E estarei por lá para dar uma força a quem precisar.&lt;/p&gt;
+
+&lt;p&gt;Para quem se interessar, o Rubylearning tambem oferece alguns cursos
+pagos (seguindo a mesma linha dos gratuitos):&lt;/p&gt;
+
+&lt;h3 id=&#34;poirpwdc101-1i-paid-online-intermediate-ruby-programming-with-database-course&#34;&gt;POIRPWDC101-1I: Paid Online Intermediate Ruby Programming With Database Course&lt;/h3&gt;
+
+&lt;p&gt;Como o nome mesmo diz, é um curso intermediário de Ruby voltado a
+banco de dados! É um curso pequeno tendo como conteúdo FXRuby, YAML e
+Active Record com MySql!&lt;/p&gt;
+
+&lt;h3 id=&#34;poirpwsc101-1i-paid-online-intermediate-ruby-programming-with-shoes-course&#34;&gt;POIRPWSC101-1I: Paid Online Intermediate Ruby Programming With Shoes Course&lt;/h3&gt;
+
+&lt;p&gt;Esse é um curso que terá como mentor o
+&lt;a href=&#34;http://www.twitter.com/ashbb&#34;&gt;Satoshi Asakawa&lt;/a&gt; e terá o como conteúdo uma
+introdução ao Shoes com exemplos e exercícios para fazer! O Satoshi
+está indo longe com o Shoes e foi até
+&lt;a href=&#34;http://newwws.shoooes.net/2008/09/27/the-ashbb-shoes-class.html&#34;&gt;citado pelo _why&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h3 id=&#34;poirpc101-paid-online-intermediate-ruby-programming-course&#34;&gt;POIRPC101: Paid Online Intermediate Ruby Programming Course&lt;/h3&gt;
+
+&lt;p&gt;Curso intermediário de Ruby, sendo o conteúdo: YAML, FXRuby, Unit Testing, Socket Programming  e Threads.&lt;/p&gt;
+
+&lt;h3 id=&#34;pojrpc101-paid-online-jruby-programming-course&#34;&gt;POJRPC101: Paid Online JRuby Programming Course&lt;/h3&gt;
+
+&lt;p&gt;Curso abordando um pouco sobre JRuby, mostrando como usar o Jruby em
+si, como usar as Classes Java, Programadores Java usando Classes Ruby
+e ActiveRecord com JDBC.&lt;/p&gt;
+
+&lt;p&gt;Não se preocupem com os preços dos cursos do Rubylearning, pois são
+valores simbólicos, geralmente o Satish cobra entre 5 a 10 dólares
+pelo PayPal, portanto vale a pena para se manter conectado com o
+pessoal que está aprendendo, tendo acesso a material, a fórum e etc.&lt;/p&gt;
+
+&lt;p&gt;Os cursos realmente valem a pena! Caso não queira fazer os cursos
+pagos então faça ao menos o gratuito sobre o Core que é muito útil
+para conhecer mais sobre o Ruby, e se gostar pode pensar nos pagos.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rails Summit Latin Amerira (Day 2)</title>
+      <link>https://pothix.com/post/rails-summit-latin-amerira-day-2/</link>
+      <pubDate>Wed, 22 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/rails-summit-latin-amerira-day-2/</guid>
+      <description>
+
+&lt;p&gt;Para quem não viu o meu post sobre o primeiro dia da Rails Summit,
+veja &lt;a href=&#34;http://pothix.com/blog/rails/rails-summit-latin-america&#34;&gt;aqui&lt;/a&gt;! ;)
+E agora vamos ao segundo post sobre a Rails Summit! :)&lt;/p&gt;
+
+&lt;p&gt;Começamos o segundo dia de Rails Summit as 8:00, e logo no começo do
+dia tivemos alguns probleminhas técnicos com energia elétrica que logo
+foi contornado com um gerador ( esse evento escala! ). Tivemos a
+abertura do dia com o &lt;a href=&#34;http://akitaonrails.com&#34;&gt;Fabio akita&lt;/a&gt;
+comentando sobre as palestras e dando recados gerais.&lt;/p&gt;
+
+&lt;p&gt;A primeira palestra foi dos caras da &lt;a href=&#34;http://phusion.nl&#34;&gt;Phusion&lt;/a&gt;,
+&lt;strong&gt;Hong Li Lai&lt;/strong&gt; e &lt;strong&gt;Ninh Bui&lt;/strong&gt;, que deram uma palestra muito engraçada
+e explicativa sobre o &lt;a href=&#34;http://www.modrails.com/&#34;&gt;Phusion Passenger&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Eles usaram animações, brincadeiras com a foto do Fabio Akita o que
+deixou a palestra muito divertida de ser acompanhada. Também
+comentaram sobre como é programar em Rails com várias brincadeiras com
+outras linguagens ( cofPHPcof ), comentaram sobre escalabilidade e
+outras coisas bem interessantes.&lt;/p&gt;
+
+&lt;p&gt;Tudo isso fora o
+&lt;a href=&#34;http://picasaweb.google.com/Willian.molinari/RailsSummit#5259262232498871314&#34;&gt;Ninh Bui vestido de Darth Vader&lt;/a&gt;. :D&lt;/p&gt;
+
+&lt;p&gt;Após isso tivemos a palestra por vídeo conferência do
+&lt;a href=&#34;http://blog.headius.com/&#34;&gt;Charles Nutter&lt;/a&gt; e do
+&lt;a href=&#34;http://www.bloglines.com/blog/ThomasEEnebo&#34;&gt;Thomas Enebo&lt;/a&gt; sobre Jruby.&lt;/p&gt;
+
+&lt;p&gt;Infelizmente tivemos alguns problemas técnicos de conexão o que deixou
+o nosso audio com um pouco de lag, e cortava um pouco a voz dependendo
+do momento, e isso fez com que minha atenção se dispersasse a todo
+momento, portanto não tenho muitos comentários para fazer sobre essa
+palestra. Mas foi bem interessante, com direito a um pequeno joguinho
+com OpenGl rodando.&lt;/p&gt;
+
+&lt;p&gt;A partir daqui começa o momento test no Rails Summit, pois a grande
+maioria das palestras são sobre tests, o que não é nada mal! :)&lt;/p&gt;
+
+&lt;p&gt;Primeiro temos a palestra do &lt;a href=&#34;http://blog.jayfields.com/&#34;&gt;Jay Fields&lt;/a&gt;
+sobre tests e selenium, onde ele fala bastante sobre a importancia
+dos tests para se proteger de antigos bugs que podem voltar ou novos
+bugs que podem aparecer quando se implementam novas features.  Ele
+comenta um pouco sobre selenium e outras coisas&amp;hellip;Eu recomendo o post do
+&lt;a href=&#34;http://mergulhao.info/2008/10/16/rails-summit-dia-16-jay-fields&#34;&gt;Sylvestre Mergulhão&lt;/a&gt;
+sobre essa palestra.&lt;/p&gt;
+
+&lt;p&gt;Agora temos duas palestras consecutivas do
+&lt;a href=&#34;http://blog.davidchelimsky.net/&#34;&gt;David Chelimsky&lt;/a&gt;
+(mantenedor do Rspec) no auditório principal enquanto na outra sala
+temos &lt;a href=&#34;http://blogblogs.com.br&#34;&gt;Manuel Lemos&lt;/a&gt; e
+&lt;a href=&#34;http://www.improveit.com.br/empresa/vinicius&#34;&gt;Vinucius Teles&lt;/a&gt; palestrando
+sobre &amp;ldquo;Os desafios de criar um caso de sucesso no Brasil&amp;rdquo; e
+&amp;ldquo;Empreendedorismo com RubyOnRails&amp;rdquo; respectivamente.  Tinha que
+escolher novamente e preferi escolher as palestrar sobre testes e
+assisti as 2 do Chelimsky&lt;/p&gt;
+
+&lt;p&gt;O Chelimsky tem uma namorada brasileira, portanto ele consegue falar
+um pouco de português, mas ele decidiu dar a palestra em inglês por
+não ter fluência.  Na primeira palestra tivemos o conceito de
+&lt;a href=&#34;http://en.wikipedia.org/wiki/Behavior_driven_development&#34;&gt;BDD&lt;/a&gt;,
+onde você escreve primeiramente os seus testes e eles vão &amp;ldquo;te
+lembrando&amp;rdquo; como continuar escrevendo o seu código. Os exemplos dados
+pelo Chelimsky foram bem didáticos e interessantes. Vimos User
+Stories, e uns exemplos na pratica utilizando Rspec.  Foi passado um
+&amp;ldquo;conceito&amp;rdquo; de como fazer testes: Escrever um teste que falha, fazer o
+teste passar, refatorar o código procurando pelos famosos &amp;ldquo;Maus
+cheiros&amp;rdquo;. Já na segunda palestra ele extendeu a primeira e agora
+começou a falar mais sobre o
+&lt;a href=&#34;http://blog.davidchelimsky.net/2008/9/22/cucumber&#34;&gt;cucumber&lt;/a&gt;, que
+parece muito interessante para usar!&lt;/p&gt;
+
+&lt;p&gt;Para mudar um pouco eu resolvi ir numa palestra sobre testes ( hehe )
+dessa vez foi a palestra do &lt;a href=&#34;www.dtsato.com/&#34;&gt;Danilo Sato&lt;/a&gt; sobre
+&amp;ldquo;testes automatizados -
+&lt;a href=&#34;http://en.wikipedia.org/wiki/Test-driven_development&#34;&gt;TDD&lt;/a&gt;&amp;rdquo;, onde
+ele mostrou algumas ferramentas e deu algumas dicas sobre como ele
+começou com testes, sobre dificuldades, vantagens de testar, alguns
+problemas que você pode se deparar e possíveis soluções para os
+mesmos, comentou sobre os &amp;ldquo;maus cheiros&amp;rdquo; dos testes, fez algumas
+recomendações bibliográficas interessante alem de comentar tambem
+sobre &lt;a href=&#34;http://en.wikipedia.org/wiki/Mock_Object&#34;&gt;MOCK&lt;/a&gt; e
+&lt;a href=&#34;http://synthesis.rubyforge.org/&#34;&gt;Synthesis&lt;/a&gt; tambem.&lt;/p&gt;
+
+&lt;p&gt;Agora tivemos a palestra do&lt;a href=&#34;http://rubyforge.org/projects/rubyinstaller/&#34;&gt; Luis Lavena que é o criador do
+One-click-installer para
+windows&lt;/a&gt;, que veio
+falar sobre produtividade trabalhando em rails com windows e outras
+questões tendo o windows como base.&lt;/p&gt;
+
+&lt;p&gt;Enquanto isso tínhamos uma palestra sobre Jruby com o
+&lt;a href=&#34;http://fabiokung.com/&#34;&gt;Fabio Kung&lt;/a&gt; na outra sala.&lt;/p&gt;
+
+&lt;p&gt;Nesse momento eu decidi não participar de nenhuma das duas e fiquei
+conversando com os Railers que estavam reunidos lá fora prontos para
+gravar um vídeo-cast que no fim das contas após mais de 30 minutos de
+&amp;ldquo;gravação&amp;rdquo; descobrimos que não estava gravando, portanto a única parte
+do vídeo que temos é a apresentação da galera. ¬¬ Mesmo com esse
+pequeno problema com a não gravação do vídeo, foi muito interessante
+interagir com os Railers e conhecer pessoalmente toda essa galera que
+eu só conhecia por nickname ou e-mail.&lt;/p&gt;
+
+&lt;p&gt;Tivemos agora uma propaganda da &lt;a href=&#34;http://br.sun.com/&#34;&gt;Sun&lt;/a&gt; (que é
+um dos patrocinadores do evento) sobre Open Souce comentando sobre a
+plataforma &lt;a href=&#34;http://java.com&#34;&gt;Java&lt;/a&gt;, &lt;a href=&#34;http://opensolaris.org/os/&#34;&gt;OpenSolaris&lt;/a&gt;
+e outras questões ligadas a Open Souce, que não deixou de ser
+interessante! :)&lt;/p&gt;
+
+&lt;p&gt;Chegamos ao momento da ultima palestra do evento, dada pelo
+&lt;a href=&#34;http://obiefernandez.com/&#34;&gt;Obie Fernandez&lt;/a&gt; (que lembra bastante o
+&lt;a href=&#34;https://pothix.com/images/posts/rails_summit_day2_jack_black.jpg&#34;&gt;Jack Black&lt;/a&gt; nas fotos),
+que foi &lt;strong&gt;muito interessante&lt;/strong&gt; !!&lt;/p&gt;
+
+&lt;p&gt;O Obie comentou sobre a &lt;a href=&#34;http://www.hashrocket.com/&#34;&gt;HashRocket&lt;/a&gt; e
+seus meios de trabalho. Explicou os métodos de desenvolvimento ágil
+que eles utilizam, como funcionam os seus meios de negócio, seus meios
+de contratação e suas diversões!&lt;/p&gt;
+
+&lt;p&gt;Achei muito interessante o meio que ele diz usar para contratar, que é
+chamar a pessoa para trabalhar na empresa por uma semana e assim
+descobrir se ela é boa mesmo para trabalhar lá ou não. Achei muito
+interessante e gostaria que coisas desse tipo tambem funcionasse aqui
+no Brasil, mas infelizmente as coisas são bem diferentes por aqui,
+tanto por questões contratuais como por outras questões tambem.&lt;/p&gt;
+
+&lt;p&gt;Outra coisa que ele comentou que eu achei muito interessante foi o
+enfoque em &lt;strong&gt;se divertir&lt;/strong&gt; apesar de estar no trabalho, estamos
+fazendo o que gostamos e temos que ter bons momentos! Achei legal as
+fotos das festas com todo mundo pulando na piscina e tal, acho que
+isso que realmente faz uma equipe motivada!&lt;/p&gt;
+
+&lt;p&gt;Realmente o Obie fechou com chave de ouro o Rails Summit 2008! :)&lt;/p&gt;
+
+&lt;h3 id=&#34;considerações-final-da-rails-summit&#34;&gt;Considerações final da Rails Summit&lt;/h3&gt;
+
+&lt;p&gt;O evento terminou rendendo um &lt;a href=&#34;http://github.com/railssummit/morena_opensource/tree/master&#34;&gt;projeto no
+GitHub&lt;/a&gt;
+que já tem várias contribuições! :P&lt;/p&gt;
+
+&lt;p&gt;Espero que seja o primeiro de muitos e que eu possa estar presente em
+todos os subsequentes!&lt;/p&gt;
+
+&lt;p&gt;Meus parabéns ao &lt;a href=&#34;http://akitaonrails.com&#34;&gt;Fabio akita&lt;/a&gt; que foi o
+organizador principal do evento e correu bastante para que tudo isso
+se tornasse realidade!
+E parabens a &lt;a href=&#34;http://www.locaweb.com.br&#34;&gt;Locaweb&lt;/a&gt; por contribuir
+para esse projeto!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Raul Souza Lima | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rails Summit Latin America</title>
+      <link>https://pothix.com/post/rails-summit-latin-america/</link>
+      <pubDate>Tue, 21 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/rails-summit-latin-america/</guid>
+      <description>
+
+&lt;p&gt;Como muitos sabem eu participei da Rails Summit Latin America e vou
+agora fazer uns comentários sobre o evento.&lt;/p&gt;
+
+&lt;p&gt;Vou dividir em 2 posts, um para cada dia, por que o assunto ficou
+bem extenso.&lt;/p&gt;
+
+&lt;p&gt;Minha intenção com a Rails Summit, alem de ver as ótimas palestras era
+de fazer um social network com a galera que eu só conhecia por
+nickname, e isso realmente foi difícil de fazer justamente por isso,
+reconhecer as pessoas pessoalmente sendo que só as conheço por
+nickname e avatar não é nada fácil.&lt;/p&gt;
+
+&lt;p&gt;Fazendo um pequeno resumo do pessoal que eu queria encontrar e encontrei:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://twitter.com/marcric&#34;&gt;Marcos Ricardo&lt;/a&gt;
+Que tambem é um dos professores assistentes do Rubylearning.org junto
+comigo, e só o conhecia pelos foruns do Rubylearning. Essa foi uma
+grande oportunidade de conhecê-lo pessoalmente, além de poder tirar
+fotos com ele e com o &lt;a href=&#34;www.akitaonrails.com&#34;&gt;Akita&lt;/a&gt; para enviar
+para o &lt;a href=&#34;http://rubylearning.org/class&#34;&gt;Satish Talim&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://twitter.com/dirs&#34;&gt;Dirs&lt;/a&gt; e &lt;a href=&#34;http://twitter.com/mauricio&#34;&gt;Mauricio&lt;/a&gt;
+Dois funcionários da Boo-box que eu conhecia por nome e trabalham aqui perto de mim ( teodoro sampaio ), que por sinal são muito gente boa! =)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.arthurgeek.net/&#34;&gt;Arthur Zaparolli (arthurgeek)&lt;/a&gt;
+Conhecia por nome, já troquei e-mail com ele e foi mais um dos contatos que passaram a existir fisicamente! =)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://rubyonrails.pro.br/&#34;&gt;Julio Monteiro&lt;/a&gt; (responsável pelo
+rubyonrails.pro.br), &lt;a href=&#34;http://daviscabral.com.br/&#34;&gt;Davis Cabral&lt;/a&gt; e
+&lt;a href=&#34;http://railsbox.org/&#34;&gt;Ozeias Santana&lt;/a&gt; (responsáveis pelo podcast
+Railsbox)
+Figuras do mundo Rails que só conhecia por nome e foi
+interessante conhecê-los pessoalmente! Galera bem divertida!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://eustaquiorangel.com/&#34;&gt;TaQ&lt;/a&gt;
+Um figurão que eu conversava pela internet já faz um tempo e tive a
+oportunidade de conversar com ele um pouco! Tenho um estilo bem
+parecido com o desse cara&amp;hellip;hahaha&amp;hellip;Será que eu vou ser como ele
+qunado crescer? hahahahaha&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://akitaonrails.com&#34;&gt;Fabio Akita&lt;/a&gt;
+Já tinha conversado com o Fabio no Google Developers Day e tive a
+oportunidade de conversar um pouco com ele na Rails Summit tambem,
+apesar de que ele estava bem apressado com a quantidade de coisas que
+tinha que se preocupar. :)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://nomedojogo.com&#34;&gt;Carlos Brando&lt;/a&gt;
+Conversei bem pouco, mas foi interessante conhecer mais um dos caras
+influentes no Brasil e responsável (junto com o Akita) pelo
+&lt;a href=&#34;http://podcast.rubyonrails.pro.br/&#34;&gt;Rails Podcast Brasil&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Pessoal do &lt;a href=&#34;http://groups.google.com/group/aprendendo-rails?hl=en&#34;&gt;Aprendendo Rails&lt;/a&gt;:
+&lt;a href=&#34;http://twitter.com/elomar&#34;&gt;Elomar França&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/raulsouzalima&#34;&gt;Raul Souza Lima (Nihil)&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/juarezpaf&#34;&gt;Juarez Filho&lt;/a&gt;, William Paixão, &lt;a href=&#34;http://twitter.com/freireag&#34;&gt;Thiago Freire&lt;/a&gt;
+Essa galera eu já tive contato pelo aprendendo-rails e estava querendo conhecê-los pessoalmente já faz um tempo.
+Elomar França realmente se revelou como um dos grandes palestrantes da Rails Summit, falando sobre Grupos de discussão e aprendizado, onde comentou sobre o aprendendo-rails, o +web e outros grupos no gênero. Com muito humor e irreverência conseguiu mostrar para a galera que grupos é uma ótima forma de aprender&amp;hellip; Parabéns Elomar!
+&lt;a href=&#34;http://twitter.com/raulsouzalima&#34;&gt;Raul&lt;/a&gt; tambem é de outro grupo que eu participo que é o &lt;a href=&#34;http://groups.google.com.br/group/ruby-sp&#34;&gt;ruby-sp&lt;/a&gt;, mas eu gostaria de ver mais gente do grupo por lá. **&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;OBS&lt;/strong&gt;: Só depois eu fiquei sabendo que o &lt;a href=&#34;http://agaelebe.com&#34;&gt;Hugo&lt;/a&gt; tambem estava lá! ¬¬
+Provavelmente eu esqueci alguem, mas com certeza eu não vou conseguir lembrar de todo mundo! ;)&lt;/p&gt;
+
+&lt;p&gt;Bem passando agora por essa parte de pessoal, vamos as palestras e
+reviews do evento em si:&lt;/p&gt;
+
+&lt;p&gt;Começamos com uma abertura do Fabio Akita e Gilberto Mautner (fundador
+da locaweb) comentando sobre o evento, as soluçoes da locaweb, como
+ela começou e tudo mais. Foi interessante para conhecer um pouco mais
+sobre a locaweb e viajar no tempo vendo o primeiro site deles&amp;hellip;hehe&lt;/p&gt;
+
+&lt;p&gt;Deveriamos começar com o &lt;a href=&#34;http://chadfowler.com/&#34;&gt;Chad Fowler&lt;/a&gt;, mas
+devido a alguns problemas de horários do
+&lt;a href=&#34;http://www.loudthinking.com/about.html&#34;&gt;David Heinemeier Hansoon&lt;/a&gt;,
+a conversa com ele por vídeo conferencia foi adiantada e começamos com
+ele antes.  Tivemos uma conversa com O DHH (pois não foi bem uma
+palestra), onde ele comentou sobre as novas features do Rails e ficou
+aberto a perguntas do pessoal, que eram traduzidas para o ingles se
+necessário pelo Fabio Akita.  Surgiram algumas perguntas quanto a
+thread safe nativo do Rails 2.2, como ficariam as questões de
+internacionalização quanto aos campos com &amp;ldquo;ç&amp;rdquo; e acentos, e todas foram
+bem respondidas pelo DHH. Foi interessante ter a oportunidade de
+conversar sobre o futuro do Rails.&lt;/p&gt;
+
+&lt;p&gt;Após isso tivemos a palestra do &lt;a href=&#34;http://chadfowler.com/&#34;&gt;Chad Fowler&lt;/a&gt; ( que por sinal está bem diferente da foto dele que colocaram na
+chamada do evento&amp;hellip;.hehe ), que foi muito interessante!&lt;/p&gt;
+
+&lt;p&gt;Ele falou sobre ser &amp;ldquo;remarkable&amp;rdquo;, fez várias comparações com a musica,
+o que trazia um bom dinâmismo a palestra.  Achei muito interessante a
+colocação dele quando mencionou os níveis de programadores: Iniciante,
+iniciante avançado, avançado e expert.  Ele disse que mais de 50% dos
+programadores ficam na parte de iniciante avançado e não buscam ir
+mais a fundo em sua área de desenvolvimento para realmente ter um
+conhecimento mais amplo e profundo sobre o que ele está lidando.  O
+Chad tambem comenta sobre projetos Open Source, dizendo para você ser
+crítico e reportar o que você vê de errado nos softwares, e melhor do
+que isso, como temos todo o código em mãos, podemos contribuir para o
+que não gostamos e tornar assim o software melhor.&lt;/p&gt;
+
+&lt;p&gt;Na próxima palestra &lt;a href=&#34;http://nutrun.com/&#34;&gt;George Malamidis&lt;/a&gt; e
+&lt;a href=&#34;http://www.dtsato.com/blog/&#34;&gt;Danilo Sato&lt;/a&gt; falariam sobre REST e
+após assistir o comecinho da palestra eu decidi ver a palestra do
+&lt;strong&gt;Fabio Akita&lt;/strong&gt;, que ia apresentar o Rails para iniciantes criando uma
+pequena aplicação e tudo mais. A palestra foi bem tranquila assim
+como todas as palestras de apresentação do Rails com criação de um
+pequeno blog e tudo mais, mas achei interessante que ele conseguiu
+demonstrar o uso de plugins, e nesse caso ele utilizou o
+active_scaffold, e foi bem interessante mostrar o que o Rails pode
+fazer rapidamente com plugins.&lt;/p&gt;
+
+&lt;p&gt;Terminando a palestra do Akita, enquanto entram na sala o pessoal da
+&lt;a href=&#34;http://surgeworks.com/&#34;&gt;SurgeWorks&lt;/a&gt;, que participariam da palestra
+do &lt;a href=&#34;http://nomedojogo.com&#34;&gt;Carlos Brando&lt;/a&gt; com o tema &amp;ldquo;Meu emprego
+foi para os EUA&amp;rdquo;, o &lt;a href=&#34;http://drnicwilliams.com/&#34;&gt;Dr. Nic Williams&lt;/a&gt;
+estava começando sua palestra no auditório principal&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Tinha uma escolha difícil de palestras para fazer, e no fim das contas
+decidi assistir a palestra do Carlos, que desde quando ele anunciou o
+assunto já me interessei.&lt;/p&gt;
+
+&lt;p&gt;A palestra foi bem interessante, e ele comentou por que o trabalho dos
+brasileiros é bem cotado lá fora, e como se tornar um bom profissional
+para ser contratado, não ser apenas generalista ou apenas
+especialista, e sim ser um pouco dos dois, se especializando em algo
+mas não deixando de lado outras coisas, criar seu blog e escrever
+sobre um determinado assunto para mostrar que você existe e está ali
+publicando bom conteúdo, e mostrar seu código para que ele possa ser
+avaliado pelas pessoas que possam querer quem sabe lhe contratar.&lt;/p&gt;
+
+&lt;p&gt;Além da palestra em si, tivemos um momento muito interessante, que foi
+a seção de perguntas e respostas com o pessoal da
+&lt;a href=&#34;http://surgeworks.com/&#34;&gt;SurgeWorks&lt;/a&gt;, onde toda a equipe poderia
+responder perguntas sobre como é trabalhar para uma empresa do
+exterior, e o Carl respondendo como empregador.&lt;/p&gt;
+
+&lt;p&gt;Surgiram perguntas muito interessantes que atormentavam muitas pessoas
+até hoje. As mais interessantes para mim foram essas:&lt;/p&gt;
+
+&lt;h3 id=&#34;como-receber&#34;&gt;Como receber&lt;/h3&gt;
+
+&lt;p&gt;Primeiramente é bem recomendável receber como pessoa jurídica, pois pessoa física paga muitos impostos.
+Funciona da seguinte maneira (se estiver errado comente que eu edito, estou fazendo baseado em algumas anotações minhas sobre a palestra):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A empresa passa para o banco do brasil de lá&lt;/li&gt;
+&lt;li&gt;O dinheiro é transferido para o banco do brasil daqui ainda em dólar&lt;/li&gt;
+&lt;li&gt;Eles entram em contato com o setor cambial do banco para fechar a negociação da taxa de conversão&lt;/li&gt;
+&lt;li&gt;Depois disso o dinheiro cai na sua conta&lt;/blockquote&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;faculdade-é-importante&#34;&gt;Faculdade é importante?&lt;/h3&gt;
+
+&lt;p&gt;Essa pergunta foi feita para o Carl e isso me serviu bastante pois tambem tenho essa dúvida.
+Carl respondeu que faculdade não é tudo, mas é um diferencial, pois muita coisa não dá para aprender se não tiver um professor ali te forçando a estudar, ou você nunca buscaria isso se realmente não fosse realmente necessário.
+Nessa pergunta surgiu uma frase que resume tudo e deixa lição para muitos alunos de faculdade:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Bons programadores se formam, mas faculdade não forma grandes programadores&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Agora é a hora do Keynote do &lt;a href=&#34;http://errtheblog.com/&#34;&gt;Chris Wanstrath&lt;/a&gt;, que pareceu um pouco nervoso, e eu não tenho muito o que comentar
+pois pode ser lido no &lt;a href=&#34;http://gist.github.com/6443&#34;&gt;keynote dele&lt;/a&gt;. (obrigado pelo link &lt;a href=&#34;http://dirceu.info/blog&#34;&gt;Dirceu&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Agora temos uma das partes mais divertidas do evento, que foi o
+momento desconferência, que foi nomeado &amp;ldquo;Birds of Feather&amp;rdquo;.
+Infelizmente não vou lembrar o nome de toda a galera que apresentou
+algo na parte de Birds of Feather, mas se você apresentou, ou souber
+quem apresentou, por favor comente! =)&lt;/p&gt;
+
+&lt;p&gt;Tivemos vários assuntos de todos os gostos: interessantes, curiosos,
+informativos, engraçados e etc&amp;hellip;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Um que achei bem interessante foi sobre um projeto de impressora fiscal feito em Ruby, que não era web e sim desktop utiliando GTK ( quase certeza ), mas achei bem legal o conceito.&lt;/li&gt;
+&lt;li&gt;Outro que achei curioso foi o projeto do &lt;a href=&#34;http://www.phusion.nl/about.html&#34;&gt;Ninh Bui (Phusion)&lt;/a&gt; que é um &amp;ldquo;compilador &lt;a href=&#34;http://en.wikipedia.org/wiki/Brainfuck&#34;&gt;Brainfuck&lt;/a&gt; &amp;gt; ruby&amp;rdquo; que pega um código brainfuck, transforma em ruby e executa&amp;hellip;.haha&lt;/li&gt;
+&lt;li&gt;Outro projeto interessante que foi apresentado pelo cara do &lt;a href=&#34;http://www.pagestacker.com/br/home&#34;&gt;pagestacker&lt;/a&gt; (desculpa não lembrar seu nome) foi o footnotes-debug que é utilizado para ajudar no debug de aplicações rails. Ele cria um pequeno footer na sua página com vários links úteis para o debug, como: mostrar cookies, abrir código (apenas para Mac com textmate) e outras coisas que não me lembro de momento.&lt;/li&gt;
+&lt;li&gt;Um projeto que me animou bastante foi o projeto apresentado pelo &lt;a href=&#34;http://www.demetriusnunes.com/&#34;&gt;demetrius nunes&lt;/a&gt; sobre &lt;a href=&#34;http://code.google.com/p/gosu/&#34;&gt;GOSU&lt;/a&gt; para programação de jogos em Ruby! Sempre tive vontade de desenvolver jogos, e já ouço falar de Python para isso faz um tempo, mas não conhecia nada até entao para brincar com Ruby, portanto me deixou bem animado.&lt;/li&gt;
+&lt;li&gt;O &lt;a href=&#34;http://mergulhao.info/&#34;&gt;Silvestre Mergulhao&lt;/a&gt; apresentou um projeto bem interessante de uso de bluetooth com Ruby e me atraiu bastante a atenção tambem pois bluetooth está na minha lista de coisas para brincar. ;)&lt;/li&gt;
+&lt;li&gt;E para fechar com chave de ouro meus comentários sobre o Birds of Feather, temos o &lt;a href=&#34;http://maisweb.org/blogdoelomar/&#34;&gt;Elomar França&lt;/a&gt; que falou sobre grupos de estudo. Com certeza o Elomar foi a grande revelaçao do Rails Summit, pois ele conseguiu apresentar de uma maneira bem divertida como os grupos de discussão podem ajudar no seu aprendizado, assim citando o +web que é o grupo que ele cordena na sua cidade, e o aprendendo-rails que é o grupo que ele participa cuja finalidade com ele mesmo diz &amp;ldquo;é bem fácil de se notar&amp;hellip;.aprender rails&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bem&amp;hellip;.E assim acaba o primeiro dia de Rails Summit! Estou terminando
+um post sobre o segundo dia e publicarei daqui a um ou dois dias. :)&lt;/p&gt;
+
+&lt;p&gt;Enquanto isso vocês podem ver os posts dos das pessoas que citei, pois
+quase todos eles postaram várias informações em seus blogs.  Destaque
+para o &lt;a href=&#34;http://mergulhao.info/&#34;&gt;Silvestre Mergulhao&lt;/a&gt; e o
+&lt;a href=&#34;http://akitaonrails.com/2008/10/20/rails-summit-sucesso-comunidade&#34;&gt;Fabio Akita&lt;/a&gt;
+que postaram muita coisa interessante.&lt;/p&gt;
+
+&lt;p&gt;Para quem quiser ver fotos eu coloquei todas as minhas no
+&lt;a href=&#34;http://picasaweb.google.com/Willian.molinari/RailsSummit&#34;&gt;meu Picasa&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Raul Souza Lima, TaQ, Dirceu Pereira Tiegs, Marcos Ricardo, Elomar França, Carlan Calazans, Letícia, Letícia | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

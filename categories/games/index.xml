@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Games on PotHix</title>
+    <link>https://pothix.com/categories/games/index.xml</link>
+    <description>Recent content in Games on PotHix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
+    <atom:link href="https://pothix.com/categories/games/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Saudades do Poker</title>
+      <link>https://pothix.com/post/saudades-do-poker/</link>
+      <pubDate>Wed, 31 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/saudades-do-poker/</guid>
+      <description>&lt;p&gt;Apesar de eu não ser bom o suficiente eu curto bastante jogar poker, mas as
+poucas vezes que me juntei com os amigos pessoalmente para jogar foi na época
+da faculdade, que marcavamos as &amp;ldquo;poker nights&amp;rdquo; e jogavamos apostando pequenas
+quantias.&lt;/p&gt;
+
+&lt;p&gt;Depois de sair da faculdade eu sempre penso em tentar juntar aquele
+pessoal novamente, ou até mesmo juntar outras pessoas para poder jogar,
+mas eu acho difícil conseguir contato com o aquele pessoal novamente e a galera
+que eu tenho contato hoje geralmente não sabem jogar e tampouco se importam em
+aprender, ainda mais quando sabem que o jogo só tem graça quando está valendo
+dinheiro.&lt;/p&gt;
+
+&lt;p&gt;Há pouco tempo atrás eu estava assistindo um jogo de poker pela internet e
+resolvi procurar mais informações, sobre quando aconteciam os jogos
+(transmitidos pela internet) e até cheguei a ver alguns documentários e
+reportagens de pessoas que vivem de poker e passam o dia jogando pela internet,
+o que lhes traz uma quantia considerável por mês.&lt;/p&gt;
+
+&lt;p&gt;Resolvi começar a jogar pela internet novamente nas horas vagas e escolhi o
+&lt;a href=&#34;http://pt.partypoker.com/&#34;&gt;partypoker&lt;/a&gt; para brincar. Ao entrar no site descobri
+que o instalador era para Windows, mas como eu já estava acostumado a ver sites
+de poker com instalador para windows eu decidi usar a interface web deles que
+funciona com um applet java e rolou tranquilo.&lt;/p&gt;
+
+&lt;p&gt;Jogar poker pela internet é bem divertido, e também necessário para quem quer levar
+o jogo a sério, mas eu ainda sinto falta de juntar os amigos pessoalmente e passar
+uma boa parte do tempo tentando adivinhar a poker face da galera para não ver meu
+dinheiro se perdendo. :P&lt;/p&gt;
+
+&lt;p&gt;Se alguém aí costuma se juntar para jogar, não esqueçam de me incluir! :)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Letícia F. | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Palestra sobre Gamedev, Javascript e HTML5</title>
+      <link>https://pothix.com/post/palestra-sobre-gamedev-javascript-e5/</link>
+      <pubDate>Mon, 23 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/palestra-sobre-gamedev-javascript-e5/</guid>
+      <description>&lt;p&gt;Esse fim de semana eu palestrei no FLISOL de São José dos Campos sobre
+desenvolvimento de jogos, Javascript e HTML5. Foi uma palestra simples
+e rápida, durou pouco mais de meia hora (preciso aprender a falar um
+pouco mais devagar :P) mas foi divertido.&lt;/p&gt;
+
+&lt;p&gt;A grande maioria das pessoas que estavam assistindo a palestra não
+eram desenvolvedores, e estavam começando a estudar agora, e acho que
+por isso não surgiram muitas perguntas sobre o assunto, mesmo eu
+evitando colocar código.&lt;/p&gt;
+
+&lt;p&gt;Os slides da palestra foram esses:&lt;/p&gt;
+
+&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/8069932&#34;
+width=&#34;425&#34; height=&#34;355&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34;
+marginheight=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Queria agradecer ao &lt;a href=&#34;http://kesiev.com&#34;&gt;Kesiev&lt;/a&gt; pelas dicas sobre o
+que falar do Akihabara e para os amigos da
+&lt;a href=&#34;http://plaevteam.com&#34;&gt;Plaev&lt;/a&gt; pelas fotos para o slide do
+&lt;a href=&#34;http://plaevteam.com/rott&#34;&gt;Rise of theTitans&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Um amigo que estava assistindo a palestra fez o favor de gravar para mim:&lt;/p&gt;
+
+&lt;iframe src=&#34;http://player.vimeo.com/video/24100947?title=0&amp;amp;byline=0&amp;amp;portrait=0&#34; width=&#34;400&#34; height=&#34;300&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Vou colocar mais exemplos e código para as próximas apresentações desse tema.
+Sugestões e críticas construtivas são bem vindas! ;)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Hugo Roque (a.k.a hugolnx), Berg Ginu, Berg Ginu | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Meme: Game design ao Extremo</title>
+      <link>https://pothix.com/post/meme-game-design-ao-extremo/</link>
+      <pubDate>Sat, 22 Aug 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/meme-game-design-ao-extremo/</guid>
+      <description>
+
+&lt;p&gt;Estou escrevendo esse post por que fui convocado para esse
+&lt;a href=&#34;http://crocidb.com/blog/2009/08/meme-game-design-ao-extremo/&#34; title=&#34;Meme de games no blog do CrociDB&#34;&gt;meme pelo Bruno Croci&lt;/a&gt;,
+que foi meu parceiro no desenvolvimento de um dos games
+&lt;a href=&#34;http://itaucultural.org.br/gameplay/?s=gamejamres&#34; title=&#34;Vencedores do GameJam do Itau Cultural&#34;&gt;vencedores do GameJam do itaú cultural&lt;/a&gt;,
+o &lt;a href=&#34;http://github.com/PotHix/RobotzWarehouse&#34; title=&#34;Robotz Warehouse&#34;&gt;Robotz Warehouse&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A idéia do post é mostrar alguns games interessantes e falar a sua
+opinião sobre eles. As regras são:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Liste quantos jogos em Flash quiser. Preferencialmente aqueles que, por algum motivo de design chamaram sua atenção.&lt;/li&gt;
+&lt;li&gt;Diga o que desses jogos te chamou a atenção, seja em quantas linhas quiser.&lt;/li&gt;
+&lt;li&gt;Repasse para outros blogs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Há algum tempo eu gostava muito de ficar jogando jogos de lógica em
+flash na internet, mas de um tempo para cá eu parei devido a correria,
+mas com esse post eu consegui reviver muitos jogos legais. São eles:&lt;/p&gt;
+
+&lt;h4 id=&#34;orbox&#34;&gt;Orbox&lt;/h4&gt;
+
+&lt;p&gt;O &lt;a href=&#34;http://www.funny-games.biz/orbox.html&#34; title=&#34;Orbox&#34;&gt;orbox&lt;/a&gt; é um jogo
+muito legal, e o que mais me impressionou nele é a forma que ele
+consegue prender o jogador por ser um jogo bonito, que parece ser
+muito fácil mas mostra que você precisa realmente usar a cabeça para
+poder chegar a terminar o jogo. Eu joguei por algumas madrugadas para
+poder chegar ao fim! =)&lt;/p&gt;
+
+&lt;h4 id=&#34;cowmaze&#34;&gt;Cowmaze&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://gprime.net/game.php/cowmaze&#34; title=&#34;Cowmaze&#34;&gt;Cowmaze&lt;/a&gt; é um jogo
+fantástico! Acho que tem uma idéia simples e interessante, que também
+explora a lógica como parte principal do game e isso sempre me
+atrai. O game é muito bem desenhado, apesar de ter um tema mais
+infantil, é muito bem feito e bonito de se olhar.&lt;/p&gt;
+
+&lt;p&gt;Esse game é bem completo, possui vários níveis de dificuldade, sendo
+que algo que parece ser simples de ser resolvido se torna totalmente
+complexo se você não escolher o caminho certo.&lt;/p&gt;
+
+&lt;p&gt;Uma coisa que esse game tem de vantagem em cima do Orbox? Passwords!
+Pude jogar esse jogo por muito tempo, por que ele sempre tinha um
+password para eu conseguir voltar de onde eu estava, enquanto o Orbox
+sempre me fazia recomeçar tudo novamente.&lt;/p&gt;
+
+&lt;h4 id=&#34;mystery-of-time-and-space-m-o-t-a-s&#34;&gt;Mystery of time and Space - M.O.T.A.S&lt;/h4&gt;
+
+&lt;p&gt;O que mais me chamou a atenção
+&lt;a href=&#34;http://server-admin.pwp.blueyonder.co.uk/motas/&#34; title=&#34;Mystery of time and Space&#34;&gt;nesse game&lt;/a&gt;
+(além de ser um jogo de investigação, é claro) foi a
+história e o ambiente ao qual o jogo introduz o jogador. Esse jogo
+consegue usar o fato de que você tem que explorar um cenário e coloca
+você realmente dentro do game entendendo que você está realmente
+confuso dentro do jogo.&lt;/p&gt;
+
+&lt;p&gt;Eu realmente recomendo jogar e tentar chegar até o final! ;)&lt;/p&gt;
+
+&lt;h4 id=&#34;chronotron&#34;&gt;Chronotron&lt;/h4&gt;
+
+&lt;p&gt;A idéia do
+&lt;a href=&#34;http://www.kongregate.com/games/Scarybug/chronotron&#34;&gt;chronotron&lt;/a&gt;
+é fantástica, e me foi recomendada por
+&lt;a href=&#34;http://www.linkedin.com/in/raltimari&#34; title=&#34;Rubens Altimari&#34;&gt;um físico&lt;/a&gt; que
+falou que a idéia dele é realmente legal e para quem realmente entende
+de física vai reparar muitas coisas legais.&lt;/p&gt;
+
+&lt;p&gt;O jogo é simples mas é muito divertido! Mais uma vez ele trabalha a
+parte lógica e faz com que você tente muitas vezes fazer as suas
+cópias trabalharem da maneira correta, o que por sua vez é muito
+desafiador e divertido :)&lt;/p&gt;
+
+&lt;h4 id=&#34;light-bot&#34;&gt;Light Bot&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://chat.kongregate.com/gamez/0002/2915/live/BillBotKong.swf&#34;&gt;Essegame&lt;/a&gt;
+mostra muito bem como é ser um programador. Você tem
+tipos de ação e você deve usá-las da melhor maneira possível para
+fazer com que o robô chegue a seu destino, e como sempre, as ações são
+limitadas e você precisa fazer uso de funções para utilizar as ações
+da manera correta, sempre reutilizando as ações dentro de funções.&lt;/p&gt;
+
+&lt;p&gt;Esse jogo é ótimo para programadores (seja
+&lt;a href=&#34;http://en.wikipedia.org/wiki/Don%27t_repeat_yourself&#34; title=&#34;Don&#39;t Repeat Yourself&#34;&gt;DRY&lt;/a&gt;)
+por fazer você pensar em como fazer as coisas corretas, e tambem para
+mostrar para as pessoas que não programam como é mais ou menos
+programar. É um game que realmente vale uma olhada, seja você
+programador ou não.&lt;/p&gt;
+
+&lt;p&gt;Esses foram os games que me prenderam por um longo tempo e realmente
+valem a pena de ser lembrados. Agora eu devo indicar mais pessoas para
+continuar esses posts, e os indicados são:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://infog.casoft.info/&#34; title=&#34;Blog do Infog&#34;&gt;Infog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://leticiando.tumblr.com/&#34; title=&#34;Blog da Letícia Figueira&#34;&gt;Leticiando&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://griebeler.com/&#34; title=&#34;blog da Bruna Griebeler&#34;&gt;Griebeler&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://rinaldi.coffeebreakers.org/blog/&#34; title=&#34;Blog do Mario Rinaldi&#34;&gt;Mario Rinaldi&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Espero que apareçam outros posts para dar sequencia e para eu conhecer
+jogos legais que estão perdidos por aí, além de analizar idéias legais
+para games.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Lê | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Voltando a ser um gamer</title>
+      <link>https://pothix.com/post/voltando-a-ser-um-gamer/</link>
+      <pubDate>Sun, 14 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/voltando-a-ser-um-gamer/</guid>
+      <description>&lt;p&gt;Esse aqui vai ser um post um pouco fora do escopo &amp;ldquo;programação&amp;rdquo;, mas
+ainda no escopo &amp;ldquo;nerd&amp;rdquo;! :)&lt;/p&gt;
+
+&lt;p&gt;Com esse post eu pretendo introduzir uma nova &lt;em&gt;série&lt;/em&gt; (não achei
+palavra melhor) posts sobre os games que eu estou jogando
+atualmente, postanto umas opiniões e tudo mais, e quem sabe até alguns
+jogos que eu pretendo instalar no Linux.&lt;/p&gt;
+
+&lt;p&gt;Vou contar um pouco do título &amp;ldquo;&lt;strong&gt;Voltando&lt;/strong&gt; a ser um gamer&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Eu sempre gostei de jogar vídeo games desde pequeno, a ponto da minha
+mãe dizer que eu só podia jogar 3 horas por dia&amp;hellip; hahaha&amp;hellip; Tive poucos
+vídeo games pois meus pais não tinham tanto dinheiro assim para ficar
+comprando novos, portanto se eu quisesse algo novo eu tinha que me
+virar e comprar.&lt;/p&gt;
+
+&lt;p&gt;Primeiramente tive o bom e velho &lt;a href=&#34;http://www.atarifun.com/atari%202600%20console%20and%20controllers.jpg&#34;&gt;Atari&lt;/a&gt; (era bem pequeno nessa época)&lt;/p&gt;
+
+&lt;p&gt;Mais pra frente ganhei um
+&lt;a href=&#34;http://upload.wikimedia.org/wikipedia/commons/2/24/Super_Nintendo_Entertainment_System-USA.jpg&#34;&gt;SuperNES&lt;/a&gt;,
+que me trouxe bons divertimentos com vários jogos clássicos como
+TopGear, Super Mario World, Road Rash, Samurai Spirit, International
+Super Star Soccer (eu ainda gostava de futebol nessa época), Street
+Fighter, Final Fight, Double Dragon e muitos outros!&lt;/p&gt;
+
+&lt;p&gt;Saí do SuperNes para ir para o Playstation (tive que me virar e rifar
+o meu SuperNes para comprar o PS), onde me diverti bastante com Ace
+Combat 2, Fighting force, Syphon Filter, Monster Rancher 2, Spider
+Man, Street Fighter Ex Plus, Metal Gear Solid, Soul Edge, Bload Roar e
+mais vários jogos legais.&lt;/p&gt;
+
+&lt;p&gt;Vendi meu Playstation, e aproveitei para comprar um &lt;a href=&#34;http://images.techtree.com/ttimages/story/75827_gbc.jpg&#34;&gt;GameBoy
+Color&lt;/a&gt;
+(sim&amp;hellip;Foi na época do Pokémon)&lt;/p&gt;
+
+&lt;p&gt;Um adendo na minha vida de Gamer! Eu sempre participava dos encontros
+do &lt;a href=&#34;http://www.classicgaming.com.br/canal3/&#34;&gt;canal3&lt;/a&gt; com meu primo
+&lt;a href=&#34;http://nietto.cjb.net/&#34; title=&#34;Marcelo Nietto&#34;&gt;Marcelo Nietto&lt;/a&gt; e era sempre
+&lt;a href=&#34;http://www.classicgaming.com.br/Images/Canal3/Eventos/18o_Encontro/encontro18_12.jpg&#34; title=&#34;Jogando!&#34;&gt;muito legal&lt;/a&gt;
+ver vídeo games antigos (e de vez em quando até uns OFF-TOPICs com vídeo games novos!),
+jogar o bom, velho e divertido campeonato de War Lords!&lt;/p&gt;
+
+&lt;p&gt;Felizmente nessa época eu comecei a trabalhar, não oficialmente mas já
+conseguia um dinheirinho, portanto comprei um
+&lt;a href=&#34;http://web-japan.org/kidsweb/archives/cool/98-10-12/dreamcast.jpg&#34;&gt;dreamcast&lt;/a&gt;,
+mesmo sabendo que a linhagem de jogos dele estava acabando e a
+SEGA estava desistindo de continuar a investir, mas achei que valia a
+pena, afinal, além dos meus amigos tinham, e eu tinha visto jogos bem
+legais, como SNK x CAPCOM, Marvel x CAPCOM 2, Crazy Taxy e etc. Me
+diverti muito com o Dreamcast tambem! Joguei bastante Shenmue (o
+melhor jogo de todos os tempos, que eu quero saber o resto da história
+até hoje), Record Of Lodoss War, Tony Hawks 2, Le Mans 24 Hours, Sega
+GT, Sonic Adventure 2 (era tanto vício nesse que quando saia levava o
+VMU com o Sonic para jogar heheeh), Soul Calibur, Sega Tennis, e
+vários outros bem legais!&lt;/p&gt;
+
+&lt;p&gt;Agora depois disso tudo começa a &amp;ldquo;decadência&amp;rdquo; da vida de gamer&amp;hellip;:P&lt;/p&gt;
+
+&lt;p&gt;Vendi meu GameBoy por que já nem estava jogando mais&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Finalmente comprei meu primeiro computador (com 16 anos de idade&amp;hellip; Só
+quando comecei a trabalhar de verdade ), com o seguinte pensamento:
+&amp;ldquo;Vou conseguir rodar uns jogos da hora!&amp;rdquo;, com uma GeForce4! (agora
+não é muita coisa, mas na época era foda!). Joguei bastante coisa
+legal, como Need For Speed Underground, Need For Speed Hot Pursuit 2,
+Diablo, Diablo 2, Halo, Gunbound, Metin 2, Unreal Tournament esse eu
+me matei de jogar! A ponto de ir na casa do meu primo com vários
+disquetes e voltar com os novos Skins que ele baixava! :D ) e mais
+vários outros!&lt;/p&gt;
+
+&lt;p&gt;Bem, mas voltando a decadência ( de gamer, obviamente )&amp;hellip;Nesse tempo
+eu comecei a conhecer mais o Linux e a programação! E meu espírito
+gamer se foi de vez! :P&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Encostei de vez o meu Dreamcast, mas não tive coragem de vender&lt;/li&gt;
+&lt;li&gt;Abandonei os jogos de computador, não que eu nao gostasse mais, mas eu tinha mais vontade de programar ou estudar coisas do gênero enquanto eu estava em frente ao computador, e tambem com o meu curso na ETE, sempre tinha alguma coisa para fazer.&lt;/li&gt;
+&lt;li&gt;Nesse tempo eu tambem comecei a trabalhar com programação, o que me animou mais a estudar para fazer outras coisas! :)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pois bem&amp;hellip; Tinha me livrado dos games e estava feliz como programador
+e jogador casual quando dava. Ficou assim até poucos meses atrás,
+quando eu fui para a faculdade e me aparece um colega meu com um
+aparelho portátil preto com logotipo da Sony que eu já tinha ouvido
+falar&amp;hellip;PSP! Isso mesmo! E ele me contou como se divertia com o
+bichinho, que dava para ver vídeos, ouvir musica, e jogar vários jogos
+bem legais e tal.&lt;/p&gt;
+
+&lt;p&gt;Tudo isso somado com meu novo colega de faculdade chamado Leonardo
+Foroni, que tem as mesmas características que eu tinha na minha época
+de gamer hardcore.&lt;/p&gt;
+
+&lt;p&gt;Adivinha no que deu? Sim! menos de 1 mês depois estou eu com o meu
+PSP! Demorei um pouco para começar a jogar no bichinho, mas aos poucos
+eu estou vontando a me tornar um gamer hardcore!&lt;/p&gt;
+
+&lt;p&gt;Inclusive criei junto com os meus primos ( os velhos amigos de games ) o
+&lt;a href=&#34;http://picasaweb.google.com/Willian.molinari/20081130NerdNightGames2#&#34;&gt;NerdNightGames&lt;/a&gt;,
+que é um evento interno na casa do
+&lt;a href=&#34;http://picasaweb.google.com/lh/photo/7IvEn9jLkK4AnS5zeMlhFw&#34; title=&#34;LeoStorm&#34;&gt;meu primo&lt;/a&gt;
+onde passamos uma madrugada (geralmente de sábado para
+domingo) só jogando em rede, tanto de PSPs como de computadores!&lt;/p&gt;
+
+&lt;p&gt;Então hoje mantenho Dreamcast guardadinho e meu PSP sempre com jogos
+legais, onde jogo sempre depois do almoço, e a noite antes de durmir!
+Como o PSP está sempre comigo (ouço meus Podcasts nele tambem)
+sempre que possível e seguro eu estou jogando!&lt;/p&gt;
+
+&lt;p&gt;Os jogos de PC estão instalados no windows Vista que veio no meu
+notebook (deixei numa partição minúscula), que por sinal eu só uso
+no Nerd Night Games, afinal, para que mais o Windows serve senão para
+usar como vídeo game. ;)&lt;/p&gt;
+
+&lt;p&gt;Confesso que agora que sou programador o velho sonho de criança de se
+desenvolver jogos (que eu destruí pensando que era um sonho
+impossível de criança, assim como aqueles que queriam ser jogadores de
+futebol) veio a tona, e eu ainda vou desenvolver algo, mesmo que seja
+pequeno. Com isso eu tambem me tornei uma pessoa mais crítica quanto a
+jogos, prestando mais atenção na inteligencia artificial dos inimigos,
+pequenos erros que acontecem e passam meio desapercebidos e outras
+coisinhas, o que me motiva mais ainda a escrever sobre os jogos que
+estou terminando!&lt;/p&gt;
+
+&lt;p&gt;Só para finalizar, outra coisa que está me motivando a voltar a jogar
+agora é o &lt;a href=&#34;http://www.nowloading.com.br/&#34;&gt;Podcast NowLoading&lt;/a&gt;
+que tem sempre informações muito legais e conteúdo bem
+divertido!&lt;/p&gt;
+
+&lt;p&gt;Como eu disse&amp;hellip; Esse post é para vocês entenderem por que eu vou
+começar a postar um pouco alguns jogos tambem. :)&lt;/p&gt;
+
+&lt;p&gt;No mais nada mais! :)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Lê, allan, CrazyHcgamer | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

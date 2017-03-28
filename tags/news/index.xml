@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on PotHix</title>
+    <link>https://pothix.com/tags/news/index.xml</link>
+    <description>Recent content in News on PotHix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
+    <atom:link href="https://pothix.com/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>New layout of PotHix blog</title>
+      <link>https://pothix.com/post/new-layout-of-pothix-blog/</link>
+      <pubDate>Mon, 25 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/new-layout-of-pothix-blog/</guid>
+      <description>&lt;p&gt;Welcome to the new blog layout of PotHix.com! :)&lt;/p&gt;
+
+&lt;p&gt;I decided that the time has came to change not just the layout but the blog
+engine as well. I&amp;rsquo;m now using middleman instead of wordpress. Just to be clear,
+I don&amp;rsquo;t think wordpress is not good at all, but I want to publish static files
+instead of keeping the wordpress &amp;ldquo;infrastructure&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve divided into 3 feeds:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Only english posts: &lt;a href=&#34;http://feeds.feedburner.com/EnglishPotHix&#34;&gt;http://feeds.feedburner.com/EnglishPotHix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;All posts: &lt;a href=&#34;http://feeds.feedburner.com/PotHix&#34;&gt;http://feeds.feedburner.com/PotHix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Posts related to programming or technology in genenal: &lt;a href=&#34;http://feeds.feedburner.com/PotHixTech&#34;&gt;http://feeds.feedburner.com/PotHixTech&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So, that&amp;rsquo;s it! Hope you enjoy the new layout (now responsive!) and get in touch! :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Usuários resolvem os problemas da VIVO</title>
+      <link>https://pothix.com/post/usuarios-resolvem-os-problemas-da-vivo/</link>
+      <pubDate>Tue, 13 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/usuarios-resolvem-os-problemas-da-vivo/</guid>
+      <description>&lt;p&gt;Primeiramente quero parabenizar o
+&lt;a href=&#34;http://blog.diogosantos.com/2009/01/acesse-o-vivo-online-com-avoi-um-complemento-para-firefox/&#34;&gt;Diogo Santos&lt;/a&gt;
+pelo seu &lt;a href=&#34;http://diogosantos.com/avoi/&#34; title=&#34;AVOI&#34;&gt;add-on para Firefox&lt;/a&gt;,
+que faz com que o botão &amp;ldquo;entrar&amp;rdquo; do site da Vivo funcione sem que você
+tenha que usar javascript para manipular pela barra de
+endereços. Parabéns Diogo, é uma ótima contribuição para a comunidade.&lt;/p&gt;
+
+&lt;p&gt;Agora vem a hora da crítica&amp;hellip; Como que os usuários tem que ficar
+desenvolvendo formas alternativas para acessar os serviços que
+deveriam funcionar para eles, mas por descaso e serviço mal feito não
+lhe são concedidos? Eu acho impressionante o descaso de tais
+operadoras por determinadas coisas.&lt;/p&gt;
+
+&lt;p&gt;O pior de tudo é que quando você entra em contato pelo suporte a
+resposta que te dão é a seguinte:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Não damos suporte a outro navegador que não seja o Internet Explorer&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ou seja&amp;hellip; Caso você esteja no Linux ou no MacOs o problema é
+seu&amp;hellip; Eles não estão nem aí se estão simplesmente excluindo essas
+pessoas.&lt;/p&gt;
+
+&lt;p&gt;A nossa sorte é que a comunidade é auto-suficiente, e temos pessoas
+que trabalham a favor da comunidade (e não a favor da VIVO), sempre
+ajudando para que os serviços mal feitos funcionem, e o Diogo é um
+ótimo exemplo disso.&lt;/p&gt;
+
+&lt;p&gt;Após acessar o site da Vivo com o plugin do Diogo, eu percebi que
+ainda tem vários serviços que ficam indisponíveis, mas quem sabe a
+comunidade dá um jeito nisso com o tempo, ou até mesmo a VIVO toma
+vergonha na cara e resolve prestar um serviço de internet de
+qualidade.&lt;/p&gt;
+
+&lt;p&gt;Fica aí a minha crítica a
+&lt;a href=&#34;http://www.vivo.com.br&#34; title=&#34;Site de má qualidade da VIVO&#34;&gt;VIVO&lt;/a&gt;
+e a parabenização ao &lt;a href=&#34;http://diogosantos.com/&#34; title=&#34;Site do Diogo&#34;&gt;Diogo&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Phoenix, Igor | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Primeiro post por aqui!</title>
+      <link>https://pothix.com/post/primeiro-post-por-aqui/</link>
+      <pubDate>Tue, 02 Sep 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/primeiro-post-por-aqui/</guid>
+      <description>&lt;p&gt;Bem, como primeiro post vou me apresentar e dizer qual o meu intuito
+com esse blog.&lt;/p&gt;
+
+&lt;p&gt;Lembro muito bem da época que associava blog com os &amp;ldquo;flogão&amp;rdquo; da vida e
+prometia para mim mesmo que eu nunca criaria um blog para mim. Com a
+mudança de rumo dos blogs a minha vontade de criar um para divulgar
+informação útil foi crescendo, mas eu me mantinha preso aquela velha
+promessa, até que mês passado eu consegui me livrar disso e decidi
+finalmente ingressar no ramo de blog, pois eu pesquiso e leio tanta
+coisa que provavelmente algum dos conhecimentos que tenho ou coisas
+que fiz serão úteis para mais alguem.&lt;/p&gt;
+
+&lt;p&gt;O foco desse blog é principalmente compartilhar informações úteis
+sobre desenvolvimento, Linux e eventos de tecnologia, mas de vez em
+quando postarei algumas coisas de Nerd para não perder o costume. ;)&lt;/p&gt;
+
+&lt;p&gt;Acho que já está bom para um primeiro post, não!?&lt;/p&gt;
+
+&lt;p&gt;Se quiser mais informações sobre mim procure na seção sobre do site.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Bruno | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

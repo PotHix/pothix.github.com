@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monitoring on PotHix</title>
+    <link>https://pothix.com/tags/monitoring/index.xml</link>
+    <description>Recent content in Monitoring on PotHix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
+    <atom:link href="https://pothix.com/tags/monitoring/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Instalando e configurando o monit</title>
+      <link>https://pothix.com/post/instalando-e-configurando-o-monit/</link>
+      <pubDate>Thu, 10 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/instalando-e-configurando-o-monit/</guid>
+      <description>&lt;p&gt;Esses dias eu peguei para instalar o monit no servidor da empresa que
+eu trabalho e sofri um pouquinho com algumas coisas básicas, portanto
+decidi postar aqui para que seja útil para quem quer começar a
+utilizar o monit.&lt;/p&gt;
+
+&lt;p&gt;Se você usa Ubuntu, você pode fazer download do Monit por apt-get:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get install monit
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Se você não usa Ubuntu ou quer a ultima versão do Monit, então faça
+download do tar.gz &lt;a href=&#34;http://mmonit.com/monit/download/&#34;&gt;http://mmonit.com/monit/download/&lt;/a&gt; e compile.&lt;/p&gt;
+
+&lt;p&gt;O Monit tem 2 dependencias:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;bison&lt;/li&gt;
+&lt;li&gt;flex&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Eu resolvi as 2 facilmente utilizando o próprio apt-get:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo apt-get install bison flex&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Agora é só partir para compilar os fontes! ( prefiro compilar dos
+fontes em certas ocasiões para pegar a ultima versão ):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;./configure
+make
+sudo make install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;E pronto! Lá está o seu monit instalado! Agora é o momento da
+configuração. :D&lt;/p&gt;
+
+&lt;p&gt;O monit utiliza o arquivo chamado .monitrc para saber o que deve ser
+monitorado e com quais parâmetros, portanto crie um arquivo na sua
+$HOME com o nome de &lt;code&gt;.monitrc&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;vim $HOME/.monitrc
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Claro que usarei o vim para isso (qual outro poderia ser né? haha).
+Agora você deve criar o seu próprio arquivo de configuração dizendo
+o que o monit deve monitorar e quais critérios deve usar.&lt;/p&gt;
+
+&lt;p&gt;Você pode pegar alguns exemplos de arquivos
+&lt;a href=&#34;http://mongrel.rubyforge.org/browser/trunk/examples/monitrc&#34; title=&#34;Arquivo do pessoal do mongrel&#34;&gt;como o do pessoal do mongrel&lt;/a&gt;,
+ou até mesmo &lt;a href=&#34;http://mmonit.com/monit/documentation/monit.html#how_to_monitor&#34; title=&#34;.monitrc exemplo na documentação oficial&#34;&gt;da documentação oficial do monit&lt;/a&gt;
+e criar o seu baseado nele. A syntax desse arquivo é de fácil
+entendimento. :)&lt;/p&gt;
+
+&lt;p&gt;Para e-mails eu utilizei a minha conta do Google Apps com a seguinte configuração:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;set mailserver smtp.gmail.com port 587 username &amp;quot;pothix@pothix.com&amp;quot; password &amp;quot;abc123&amp;quot; using tlsv1, with timeout 15 seconds
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Com todas as configurações arrumadas o monit já pode ser iniciado:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;monit
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;E agora você já tem vários comandos para utilizar, é só dar uma lida na
+&lt;a href=&#34;http://mmonit.com/monit/documentation/monit.html#general_operation&#34; title=&#34;Comandos do monit&#34;&gt;documentação do monit para ver o que é possível fazer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Espero que seja útil para quem ainda não usa nenhuma ferramente de
+monitoração e gostou do monit. :)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Roger Leite, Flávio Vinícius | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

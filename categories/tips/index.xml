@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tips on PotHix</title>
+    <link>https://pothix.com/categories/tips/index.xml</link>
+    <description>Recent content in Tips on PotHix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
+    <atom:link href="https://pothix.com/categories/tips/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Fora IE6</title>
+      <link>https://pothix.com/post/fora-ie6/</link>
+      <pubDate>Mon, 12 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/fora-ie6/</guid>
+      <description>&lt;p&gt;Já está mais do que na hora de eu fazer um post sobre isso, e acho que
+não há momento mais propício do que esse afinal, até o Google já está
+dando alertas&lt;a href=&#34;http://www.tgdaily.com/html_tmp/content-view-40785-140.html&#34; title=&#34;Google corta o suporte ao IE6 no Gmail&#34;&gt;sobre isso no Gmail&lt;/a&gt;.
+Sabemos que o Gmail é não é o serviço mais acessado do Google, mas
+isso já é uma grande ajuda para alertar os desavisados que esse
+navegador já passou da hora de deixar de existir, e quem sabe num
+futuro talvez distante ( espero que não tão distante assim ) o google
+resolva fazer algo parecido com o Orkut! :)&lt;/p&gt;
+
+&lt;p&gt;Há muito na internet sobre o quanto o IE6 é ruim, e minha opinião não
+difere muito da opinião dita em posts como o do
+&lt;a href=&#34;http://www.akitaonrails.com/2009/1/5/off-topic-abaixo-ie-6&#34; title=&#34;Abaixo o IE6&#34;&gt;Fabio Akita&lt;/a&gt;,
+ou do &lt;a href=&#34;http://digitalpaperweb.com.br/ezine/development/campanha-pare-o-ie6&#34; title=&#34;Campanha pare o IE6&#34;&gt;Canha&lt;/a&gt;
+por exemplo ( O logo ao lado foi tirado do blog do
+&lt;a href=&#34;http://akitaonrails.com&#34; title=&#34;AkitaOnRails&#34;&gt;Fabio Akita&lt;/a&gt; todos os
+créditos para ele! ).&lt;/p&gt;
+
+&lt;p&gt;Muita gente que me conhece pode dizer:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Ahhh&amp;hellip;.vc não gosta da Microsoft e fica fazendo propaganda de browsers Open Source&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Mas na verdade não é &lt;strong&gt;somente&lt;/strong&gt; por isso&amp;hellip;Mesmo que vc vá continuar
+com o IE (não recomendado, mas menos mal), pelo menos atualize para
+uma versão mais recente, pois usar o IE6 hoje em dia é completamente
+inaceitável!&lt;/p&gt;
+
+&lt;p&gt;Alguns ainda tem a audácia de me perguntar o por que de eu ser contra
+o IE6 e aqui vão alguns argumentos completamente lógicos para o fato:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;É um produto desatualizado que já tem uma versão mais nova lançada e outra no forno para sair sei lá quando&lt;/li&gt;
+&lt;li&gt;É um produto que foi lançado numa época em que ele precisava estar na &lt;a href=&#34;http://en.wikipedia.org/wiki/Browser_wars&#34; title=&#34;Veja a primeira guerra dos navegadores&#34;&gt;frente para bater outros navegadores&lt;/a&gt;, portanto não estava nem aí para padrões, bom desenvolvimento ou qualquer outra boa prática que pudesse existir.&lt;/li&gt;
+&lt;li&gt;Você que usa IE6 não sabe o mal que está fazendo para tantas pessoas que trabalham com internet e precisam perder preciosas horas do seu dia para ficar fazendo hacks para que seu site ( que segue os &lt;a href=&#34;http://pt.wikipedia.org/wiki/W3C&#34; title=&#34;Leia aqui na Wikipedia&#34;&gt;padrões de desenvolvimento para internet&lt;/a&gt;, bem documentados &lt;a href=&#34;http://www.w3.org/&#34; title=&#34;World Wide Web Consortium&#34;&gt;aqui&lt;/a&gt; ) funcione num produto desatualizado que deveria ter sumido já.&lt;/li&gt;
+&lt;li&gt;Ele dá um grande break na evolução das tecnologias, pois muitas das coisas legais que os desenvolvedores querem fazer ( transparencia por exemplo precisa colocar Hack bizarro para funcionar no IE6 ) devem ser pensadas e repensadas, pois pode não funcionar legal no IE6, e seu chefe com certeza não vai deixar você colocar no ar algo que não funcione legal no IE6, por que ainda tem uma grande massa que usa isso.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Já ouvi argumentos de pessoas que gostam do visual do IE6, que é
+totalmente aceitável, afinal, qualquer pessoa pode usar o que acha
+mais legal, bonito, fácil.,ou sei lá o que consideram, mas se for
+somente por isso você pode seguir a
+&lt;a href=&#34;http://digitalpaperweb.com.br/ezine/development/campanha-pare-o-ie6&#34; title=&#34;Tema do IE6 para o Firefox&#34;&gt;dica que o canha deu no post dele&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;No Firefox, inclusive há um &lt;a href=&#34;https://addons.mozilla.org/pt-BR/firefox/addon/7944&#34;&gt;tema que se parece com o IE6&lt;/a&gt; para você não se sentir perdido. E o melhor: todos estes navegadores possuem versão em português.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Eu estou fazendo a minha parte para começar o ano bem e estou
+instalando aqui no meu blog um plugin para alertar os usuários desse
+software antigo para atualizar para algo melhor.&lt;/p&gt;
+
+&lt;p&gt;Não sabe como fazer? Veja aqui os links para instalar um browser diferente:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://pt-br.www.mozilla.com/pt-BR/firefox/&#34; title=&#34;Download do FIrefox&#34;&gt;Firefox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.google.com/chrome&#34; title=&#34;Google Chrome&#34;&gt;Chrome&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.opera.com/&#34; title=&#34;Site oficial do Opera&#34;&gt;Opera&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.apple.com/safari/download/&#34; title=&#34;Página de download do Safari&#34;&gt;Safari&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.microsoft.com/brasil/windows/downloads/ie/getitnow.mspx&#34; title=&#34;Internet Explorer 7&#34;&gt;Internet Explorer 7&lt;/a&gt; (prefira os acima, mas se gostar mesmo do IE instala esse que é melhor)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Acho que consegui dar motivos o suficiente para você trocar de
+browser, se ainda tem alguma coisa que você usa não terá em outros
+browsers, me avise que farei o possível para encontrarmos uma boa
+solução para isso.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Sérgio Neves, Magnun, Aless Lopes, Magnun, Ulisses, Ulisses, Webier, Ulisses, Ulisses, Magnun, Bozo | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ir além do básico tambem é gratis</title>
+      <link>https://pothix.com/post/ir-alem-do-basico-tambem-e-gratis/</link>
+      <pubDate>Thu, 11 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/ir-alem-do-basico-tambem-e-gratis/</guid>
+      <description>&lt;p&gt;Faz um tempinho que eu estou querendo fazer um post seguindo os moldes
+da campanha do &lt;a href=&#34;http://marcogomes.com/blog/2008/campanha-programar-e-gratis&#34; title=&#34;Programar é Grátis&#34;&gt;Marco Gomes&lt;/a&gt;,
+que também gerou o
+&lt;a href=&#34;http://www.tableless.com.br/implementar-xhtmlcss-e-gratis&#34; title=&#34;Implementar XHTML / CSS é grátis&#34;&gt;post do Diego Eis&lt;/a&gt;,
+e finalmente consegui um tempinho para expressar também a minha opinião nesse assunto! :)&lt;/p&gt;
+
+&lt;p&gt;Conheço muitas pessoas que fazem faculdade relacionada a programação,
+mas não aplicam o que estão vendo por lá, acham que já estão fazendo
+demais em ir para a faculdade e ficar lá no tempo em que o professor
+está falando&amp;hellip;Ou seja, essas pessoas não estão indo a faculdade para
+aprender algo para colocar em prática, eles estão lá simplesmente para
+&amp;ldquo;passar de ano&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;As vezes não é nem tanto com faculdade também, tem pessoas que não
+fazem faculdade, querem ser programadores, mas tem aquele pensamento:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Ahh&amp;hellip;Eu preciso de uma oportunidade para aplicar os meus conhecimentos&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A internet está aí para isso! Você pode ter uma gama monstruosa de
+ferramentas para brincar se quiser, tantos livros gratuitos para
+aprender/melhorar sua programação, tantos projetos Open Source para
+contribuir, cursos on-line gratuitos para fazer, mas o sujeito quer
+&amp;ldquo;ganhar uma oportunidade&amp;rdquo; sem nem mesmo merecer ela.&lt;/p&gt;
+
+&lt;p&gt;Esse tipo de pessoa para mim &lt;strong&gt;não é programador&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;p&gt;O Marco Gomes costuma chamar esse tipo de pessoa de bunda mole, eu
+tenho meu termo favorito que é muito utilizado por mim atualmente:
+&lt;strong&gt;Marica!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Gostaria de aprender a fazer isso por que é muito foda, mas parece muito difícil, então vou fazer o XY que é mais zuadinho mas é fácil&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Apertar parafusos também é fácil&amp;hellip;Se as coisas fossem fáceis colocaríamos robôs para fazer&amp;hellip; Marica!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Estou trabalhando na empresa XY mas já estou cansado de lá&amp;hellip;Cansei de suporte técnico, eu quero é ir programar, mas sem experiência fica difícil&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Vá e consiga sua experiência sozinho, faça um site e mostre quando for
+na entrevista, como que o cara quer ter experiência sem fazer
+nada&amp;hellip;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Putz&amp;hellip;Não conheço nada de Linux esse sistema é uma merda&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Esse é um candidato perfeito a ser um ótimo programador não é?!
+Primeiro já caiu numa contradição, por que se ele não conhece nada,
+como sabe que é uma merda? E outras, não quer nem conhecer um sistema
+diferente onde ele terá suporte nativo a várias linguagens, e não só
+isso, só o fato de não querer aprender algo &lt;strong&gt;gratuito&lt;/strong&gt; e importante
+para a carreira já faz dele um marica!&lt;/p&gt;
+
+&lt;p&gt;Portanto, vamos a alguns pontos importantes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Invista tempo em aplicar o que você aprende na faculdade, ou caso não faça faculdade, corra atrás de coisas para estudar e aplique elas também.&lt;/li&gt;
+&lt;li&gt;Procure coisas diferente para saber, afinal, quanto maior a sua gama de conhecimentos mais difícil será você dizer para alguem: &amp;ldquo;Não sei nem o que é isso&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Desenvolva coisas úteis e mostre seus código na internet, isso ainda vai ser muito útil para você ( tanto para aprendizado quanto para apresentação pessoal ).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Para finalizar só quero frisar uma frase do post do Marco Gomes que é
+muito interesssante e resume muito a minha opinião:&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Você pode &lt;strong&gt;mudar sua vida&lt;/strong&gt;, e até &lt;strong&gt;mudar o mundo&lt;/strong&gt;, com o mesmo
+equipamento que usa pra ficar o dia inteiro no orkut trocando
+recadinhos com as peguetes&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Magnun, Marco Gomes, Tagliati, Cayo Medeiros aka. yogodoshi, Tony Fabeen, Lê, Herminio, Simone, Lucas | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

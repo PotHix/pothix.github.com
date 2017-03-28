@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta content="Willian Molinari a.k.a. PotHix" name="author">
+        <meta property="og:title" content="Facilitando a instalação de pacotes no Slackware - PotHix">
+        <meta property="og:url" content="https://pothix.com/post/facilitando-a-instalacao-de-pacotes-no-slackware/">
+        <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
+        <meta property="og:type" content="website" />
+        <meta name="generator" content="Hugo 0.19" />
+
+        <title>Facilitando a instalação de pacotes no Slackware | PotHix</title>
+
+        
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
+        
+
+
+        <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts)" href="http://feeds.feedburner.com/PotHix" />
+        <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts in English)" href="http://feeds.feedburner.com/EnglishPotHix" />
+        <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts related to technology)" href="http://feeds.feedburner.com/PotHixTech" />
+
+        <link rel="icon" type="image/png" href="/images/favico.png">
+        <link rel="stylesheet" href="/stylesheets/style.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="/stylesheets/stag-custom-styles.css" type="text/css" media="all" />
+
+        <link rel="stylesheet" href="/stylesheets/font-awesome-4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" id="doctype-fonts-css"  href="http://fonts.googleapis.com/css?family=Rokkitt%3A700%7CLato%3A300%2C400%2C700%2C300italic&#038;subset=latin" type="text/css" media="all" />
+
+        <body class="blog sticky-nav chrome stagtools">
+            <div id="page" class="hfeed site">
+                <header id="masthead" class="site-header site-header--fixed" role="banner">
+                    <div class="inside">
+                        <div id="navbar" class="navbar">
+  <nav id="site-navigation" class="navigation main-navigation" role="navigation">
+    <ul id="primary-menu" class="primary-menu">
+      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13">
+        <a href="/">Home</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14">
+        <a href="/coding">Coding</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14">
+        <a href="/speaking">Speaking</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14">
+        <a href="/writing">Writing</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53">
+        <a href="/about">About me</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+                        <a class="site-branding" href="/" title="Doctype" rel="home">
+                            <span class="logo-container">
+                                <img data-at2x src="/images/logo.png" alt="Website's logo">
+                            </span>
+                        </a>
+                    </div>
+                </header>
+
+
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-#{current_page.data.id}" class="post-#{current_page.data.id} post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
+
+         <header class="entry-header">
+      	   <h2 class="entry-title">Facilitando a instalação de pacotes no Slackware</h2>
+        </header>
+
+         <div class="entry-meta">
+          <span class="posted-on">
+            Published at November 11, 2008
+          </span>
+          <span class="tags-links">
+            
+            <a href="/tags/slackware">slackware</a>,
+            
+            <a href="/tags/linux">linux</a>,
+            
+            <a href="/tags/tech">tech</a>,
+            
+          </span>
+        </div>
+
+        <div class="entry-content">
+          
+
+<p>Estava escrevendo outro post e chegando em um ponto onde eu instalaria
+um pequeno Software utilizando o
+<a href="http://www.slackbuilds.org" title="Slack Builds">SlackBuilds</a> me fez
+escrever esse post sobre algumas facilitações de instalação para
+Slackware.</p>
+
+<p>Nesse post eu vou referenciar 4 facilitadores para instalação de
+pacotes no Slackware: SlackBuilds, LinuxPackages, Slackpkg, Slapt-get
+e Checkinstall.</p>
+
+<h3 id="slackbuilds">SlackBuilds</h3>
+
+<p>Primeiramente vou comentar sobre um dos que eu mais uso e que mudou a
+minha vida ( heheh ), que é o <a href="http://www.slackbuilds.org" title="Slack Builds">SlackBuilds</a>!</p>
+
+<p>SlackBuilds são scripts que facilitam a instalação de softwares
+diretamente pelo seu fonte, ao invés de usarmos o velho <code>./configure
+&amp;&amp; make &amp;&amp; make install</code>.</p>
+
+<p>Quando eu preciso instalar algo, o primeiro lugar que eu visito é o
+<a href="http://www.slackbuilds.org" title="Slack Builds">site do SlackBuilds</a> para
+procurar se tem o que eu estou procurando, depois procuro em outro
+lugar.</p>
+
+<p>Para usar o SlackBuilds é simples!</p>
+
+<ul>
+<li>Primeiro você encontra o seu pacote no site.</li>
+<li>Agora você faz o download do pacote do SlackBuilds, que geralmente está no formato <code>nomeDoPacote.tar.gz</code></li>
+<li>E faz o download do source do que você vai instalar, que geralmente está no formato: <code>nomeDoPacote-versao.tar.gz</code></li>
+<li>Agora você descompacta o seu pacote SlackBuilds da forma tradicional: <code>tar xvf nomeDoPacote.tar.gz</code></li>
+<li>Agora ele criou uma pasta do seu SlackBuilds com o nome de <code>nomeDoPacote</code>.</li>
+<li>copie os fontes para a pasta do seu SlackBuilds: <code>cp nomeDoPacote-versao.tar.gz nomeDoPacote</code></li>
+<li>Agora entre na pasta do seu SlackBuilds: <code>cd nomeDoPacote</code></li>
+<li>E como root execute o seu arquivo de SlackBuilds: <code>./nomeDoPacote.SlackBuilds</code></li>
+<li>Se tudo der certo nesse passo (pode ser que tenha alguma dependência, o que fará você tentar novamente o passo 1 para a dependência) ele vai compilar tudo para você e vai gerar um pacote .tgz do Slackware no seu <code>/tmp</code> ! :)</li>
+<li>Agora é só correr para o abraço! Acessar o seu <code>/tmp</code> e instalar o pacote com o bom e velho <code>installpkg</code></li>
+</ul>
+
+<h3 id="linux-packages">Linux Packages</h3>
+
+<p>Como segunda opção para facilitar a instalação no Slackware temos o
+<a href="http://linuxpackages.net" title="Linux Packages">Linux Packages</a> que tem
+muitos pacotes tgz para você baixar e instalar facilmente com o
+gerenciador de pacotes do Slackware.</p>
+
+<h3 id="slackpkg">Slackpkg</h3>
+
+<p>Para instalações mais automatizadas temos também o
+<a href="http://piterpunk.info02.com.br/artigos/tutorial-slackpkg.html">Slackpkg</a>
+que foi criado pelo <a href="http://piterpunk.info02.com.br/">Piter Punk</a>
+como um script para atualização de pacotes mais
+facilmente quando surgiam exploits ou bugs, e acabou se extendendo a
+instalação de pacotes e outras features interessantes.</p>
+
+<p>Eu utilizo o Slackpkg para atualizar pacotes e para instalar pacotes
+padrão da distro, e para isso é muito bom, mas não pense que ele vai
+instalar aquele pacote xyz que você estava procurando, pois ele não é
+um apt-get.</p>
+
+<h3 id="slapt-get">Slapt-get</h3>
+
+<p><a href="http://software.jaos.org/" title="Página Oficial do Linux Packages">Slapt-get</a>
+(pode-se fazer o download no <a href="http://www.linuxpackages.net/pkg_details.php?id=12307">Linux Packages</a>),
+esse sim tenta ser um apt-get! Ele faz quase as mesmas coisas que o
+apt-get faz, mas não resolve dependencias.</p>
+
+<p>Ele tambem tem um arquivo de mirrors que fica localizado em
+<code>/etc/slapt-get/slapt-getrc</code>. E em termos de comandos não muda muito
+do apt-get, e você pode usar o <code>slapt-get --install nomeDoPrograma</code> ou
+<code>slapt-get --update</code>.</p>
+
+<h3 id="checkinstall">Checkinstall</h3>
+
+<p>O <a href="http://asic-linux.com.mx/~izto/checkinstall/download.php">checkinstall</a>
+é utilizado para quando você estiver instalando um programa a partir
+do seu fonte você possa gerar um pacote da sua distribuição no final
+da instalação e instalar por ele, assim você terá mais controle pelo
+seu gerenciador de pacotes e tambem para que da próxima vez seja mais
+fácil instalá-lo.</p>
+
+<p>A instalação segue padrão até o momento final:</p>
+
+<pre><code>$ ./configure
+$ make
+</code></pre>
+
+<p>E agora ao invés do nosso # make install usaremos:</p>
+
+<pre><code># checkinstall -S
+</code></pre>
+
+<p>E assim ele vai criar um pacote Slackware no diretório e instalar. :)</p>
+
+<p>Bem isso é só para dar uma idéia do que se pode fazer para deixar suas
+instalações do Slackware mais rápidas.</p>
+
+          
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'pothixcom';
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+        </div>
+      </article>
+    </main>
+  </div>
+</div>
+
+        <footer class="footer-widget-area">
+            <div class="inside">
+                <div class="grids">
+                    <aside id="stag-dribbble-2" class="widget grid-4 stag-dribbble">
+                        <div>
+                            
+                            <h3 class="widget-title">
+                                <span>Photography, a hobby</span>
+                            </h3>
+                            <style type="text/css">
+                                .flickrimg {border: 1px solid #666666 !important; padding:1px; margin:2px;}
+                                #flickr_badge_wrapper {width:366px;text-align:left}
+                            </style>
+                            <div id="flickr_badge_wrapper">
+                                <script type="text/javascript" src="http://www.flickr.com/badge_code.gne?count=12&display=random&size=square&nsid=11054795@N06&raw=1"></script>
+                            </div>
+                        </div>
+                    </aside>
+
+                    <aside id="recent-posts-2" class="widget grid-4 widget_recent_entries">
+                        <h3 class="widget-title">
+                            <span>Books I'm reading</span>
+                        </h3>
+
+                        <ul>
+                            <style type="text/css" media="screen">
+                                .gr_grid_container {
+                                     
+                                }
+
+                                .gr_grid_book_container {
+                                     
+                                    float: left;
+                                    width: 98px;
+                                    height: 160px;
+                                    padding: 0px 0px;
+                                    overflow: hidden;
+                                }
+                            </style>
+
+                            <div id="gr_grid_widget_1490660444">
+                                
+                                <div class="gr_grid_container">
+                                    <div class="gr_grid_book_container"><a title="Elixir in Action" href="https://www.goodreads.com/book/show/20524444-elixir-in-action"><img alt="Elixir in Action" border="0" src="https://images.gr-assets.com/books/1389595057m/20524444.jpg" /></a></div>
+                                    <div class="gr_grid_book_container"><a title="Mindfulness in Plain English" href="https://www.goodreads.com/book/show/64369.Mindfulness_in_Plain_English"><img alt="Mindfulness in Plain English" border="0" src="https://images.gr-assets.com/books/1385189327m/64369.jpg" /></a></div>
+                                    <div class="gr_grid_book_container"><a title="The Art of The Lord of the Rings by J.R.R. Tolkien" href="https://www.goodreads.com/book/show/24886320-the-art-of-the-lord-of-the-rings-by-j-r-r-tolkien"><img alt="The Art of The Lord of the Rings by J.R.R. Tolkien" border="0" src="https://images.gr-assets.com/books/1442825644m/24886320.jpg" /></a></div>
+                                    <noscript><br/>Share <a href="/">book reviews</a> and ratings with Willian, and even join a <a href="/group">book club</a> on Goodreads.</noscript>
+                                </div>
+                            </div>
+                            <script src="https://www.goodreads.com/review/grid_widget/38970458.Willian's%20currently-reading%20book%20montage?cover_size=medium&hide_link=true&hide_title=true&num_books=6&order=a&shelf=currently-reading&sort=date_added&widget_id=1490660444" type="text/javascript" charset="utf-8"></script>
+                        </ul>
+                    </aside>
+
+                    <aside id="text-2" class="widget grid-4 widget_text">
+                        <h3 class="widget-title">
+                            <span>Follow this blog</span>
+                        </h3>
+                        <div class="textwidget">
+                            I've added three different RSS feeds here based on categories. The idea was to help you the tech guy that don't want to see what kind of motorcycle I have, or the english speaker that don't want to see portuguese posts on his feed reader.
+                            <br /><br />
+                            So, I have a feed for <a href="http://feeds.feedburner.com/PotHix">all my posts</a>, for the <a href="http://feeds.feedburner.com/EnglishPotHix">English posts</a> and <a href="http://feeds.feedburner.com/PotHixTech">Tech related posts</a>. Choose one and be happy! :)
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </footer>
+
+        <footer id="colophon" class="site-footer" role="contentinfo">
+            <div class="site-info">
+                <div class="grids">
+                    <div class="grid-6">
+                        © 2017 <a href="http://demo.codestag.com/doctype/">Doctype</a> WordPress Theme by <a href="//codestag.com">Codestag</a> modified by PotHix.
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script type='text/javascript' src='/javascripts/jquery.js'></script>
+    <script type='text/javascript' src='/javascripts/widget.min.js'></script>
+    <script type='text/javascript' src='/javascripts/tabs.min.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery.custom.js'></script>
+    <script type='text/javascript' src='/javascripts/plugins.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery.mixitup.min.js'></script>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-2852094-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+</html>
+

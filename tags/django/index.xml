@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Django on PotHix</title>
+    <link>https://pothix.com/tags/django/index.xml</link>
+    <description>Recent content in Django on PotHix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
+    <atom:link href="https://pothix.com/tags/django/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Rails X Django</title>
+      <link>https://pothix.com/post/rails-x-django/</link>
+      <pubDate>Wed, 08 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/rails-x-django/</guid>
+      <description>
+
+&lt;p&gt;Como todos sabem eu sou do mundo Ruby/Rails (Não sou xiita mas é o
+que mais gosto) e de vez em quando começo a brincar com coisas
+diferentes para poder formar a minha própria opinião sobre o assunto.
+No mes de fevereiro me surgiu
+&lt;a href=&#34;http://pothix.com/blog/development/projeto-de-fevereiro&#34; title=&#34;Projeto de fevereiro&#34;&gt;um projeto bem interessante para trabalhar&lt;/a&gt;,
+pessoas legais, oportunidade legal, bem interessante! O projeto seria
+feito em Python/Django, e achei bem interessante a idéia de poder
+comparar várias coisas do Rails com o Django.&lt;/p&gt;
+
+&lt;p&gt;Bem&amp;hellip;Vamos as minhas comparações:&lt;/p&gt;
+
+&lt;h3 id=&#34;pontos-fortes&#34;&gt;Pontos fortes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Como primeiro argumento, e incontestável para mim, tenho que dizer que o admin do Django é muito legal! Você consegue fazer coisas bonitinhas e funcionais com uma facilidade espantosa! Sei que no Rails podemos fazer um scaffold ( ou até usar o ActiveScaffold, mas não é tão bom ) e criar facilmente um CRUD para mexer nos dados, mas isso não é um admin pronto, é apenas uma forma fácil de se manipular os dados. Penso eu que com o Rails seja mais facil de se criar um admin personalizado, com Design próprio, mas gostei bastante da solução a curto prazo do Django.&lt;/li&gt;
+&lt;li&gt;Achei bem interessante como podemos fazer a divisão de trabalhos com o nosso HTML(er) / JavaScript(er), por que o Django dá pouquíssima liberdade para o template com relação a código, ou seja, você define na sua view as query&amp;rsquo;s que vão ser mandadas para o template e no template ele vai usar apenas o que você pode mandar, e não vai poder consultar ou fazer maiores alterações no conteúdo, portanto, quem deve cuidar de como o conteúdo vai chegar ao template são os programadores que vão enviar os dados para quem vai fazer a integração com o layout.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;pontos-fracos&#34;&gt;Pontos fracos&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Não encontrei uma padronização / centralização para os plugins do Django&amp;hellip;Você encontra vários modos de instalação para determinados plugins, alguns vem com setup.py, outros falam para você jogar na pasta do Python. Não tem algo centralizado como as gems do Rails ou os próprios plugins para jogar na pasta vendor/plugins, ou usar um script/plugin install &amp;hellip;&lt;/li&gt;
+&lt;li&gt;Não cria uma estrutura de pastas, deixando que você faça o que bem entender com a estrutura, ao invés de usar uma convenção sobre configuração.&lt;/li&gt;
+&lt;li&gt;Talvez seja a inexperiencia, mas eu não achei legal o que tivemos que fazer com o settings, pois cada um precisava colocar uma configuração diferente de diretórios de imagens, ou algumas configurações referentes aos plugins ( filebrowser no caso ), portanto cada um tinha que ter um settings.py diferente, informando o settings.py quando vamos executar alguma coisa.&lt;/li&gt;
+&lt;li&gt;Não me acostumei muito bem com o esquema de indentação do Python&amp;hellip;Não que seja ruim, mas como estavamos trabalhando em sistemas operacionais diferentes de vez em quando aparecia um indentation error por causa de conversões de tabs em espaços e tal. Sei que esse argumento vai ser facilmente contestado com um: &amp;ldquo;É só configurar o seu editor de texto&amp;rdquo; ou &amp;ldquo;usa um editor de texto multiplataforma&amp;rdquo;, mas mesmo assim&amp;hellip;A idéia da indentação é legal, mas ainda me atrapalha um pouco.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bem, é isso! Essas foram as minhas primeiras impressões do Django,
+como disse, não tinha experiência com o framework e muitas coisas
+poderiam ser evitadas mais facilmente, ou feitas de um modo bem
+melhor.&lt;/p&gt;
+
+&lt;p&gt;Continuo gostando bastante do Rails, mas achei muito legal várias
+idéias do Django, e acho que tem aplicações legais dependendo do
+projeto que você for usar. ;)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Thierris, InFog, Andre, MarioRinaldi | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

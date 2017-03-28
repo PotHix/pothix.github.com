@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plaev on PotHix</title>
+    <link>https://pothix.com/tags/plaev/index.xml</link>
+    <description>Recent content in Plaev on PotHix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
+    <atom:link href="https://pothix.com/tags/plaev/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Plaev, HTML5 e Skeleton-jigsaw</title>
+      <link>https://pothix.com/post/plaev5-e-skeleton-jigsaw/</link>
+      <pubDate>Tue, 04 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/plaev5-e-skeleton-jigsaw/</guid>
+      <description>&lt;p&gt;Depois de muito tempo desenvolvendo finalmente terminamos o Skeleton-Jigsaw em
+outubro! Demorei para postar sobre isso aqui no blog por falta de tempo, mas
+aqui está!&lt;/p&gt;
+
+&lt;p&gt;Eu e o Rafael Masoni trabalhamos nesse jogo durante quase 1 ano (começamos a
+falar dele no comecinho de janeiro) investindo nosso tempo livre para fazer
+todas as partes do jogo (audio, programação, arte, game design, level design e
+etc).&lt;/p&gt;
+
+&lt;p&gt;Vou descrever um pouco do que fizemos e como organizamos, mas vai ser apenas um
+resumo do que falamos na nossa palestra no Guru-SP:&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/J2yDMOHCYak&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/15490608&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt;
+
+&lt;p&gt;Obrigado pelo vídeo Agaelebe!&lt;/p&gt;
+
+&lt;p&gt;Começamos a trabalhar em janeiro do ano passado no que seria um protótipo da
+impact e aos poucos o jogo foi tomando forma e estavamos investindo cada vez
+mais esforço nele. A cada semana fazíamos uma Skype call para discutir no que
+trabalharíamos durante a semana e fazíamos o possível para entregar o que
+conversamos até a próxima call.&lt;/p&gt;
+
+&lt;p&gt;Foi bem legal trabalhar em todos os pontos do jogo, opinando em arte,
+trabalhando em trilha sonora, programando, discutindo level design, escrevendo
+uma prévia de história, otimizando assets, testando em vários navegadores,
+fazendo game design e tudo mais.&lt;/p&gt;
+
+&lt;p&gt;Todo esse trabalho trouxe muitas experiências legais de como é entregar um jogo
+funcional e completo para o seu escopo, e estou bem orgulhoso de conseguir
+entregar o jogo demo finalizado, e não deixar mais um trabalho incompleto
+perdido por aí.&lt;/p&gt;
+
+&lt;p&gt;Ainda não sabemos quais os planos para a Plæv, mas agora ela já tem seu primeiro
+jogo demo para não ficar com o portfolio em branco. :)&lt;/p&gt;
+
+&lt;p&gt;Não quis descrever muito aqui no post para não ficar somente repetindo conteúdo
+do vídeo, mas se tiverem dúvidas coloquem nos comentários.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Alexandre Araujo, David Paniz | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

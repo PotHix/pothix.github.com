@@ -1,0 +1,1450 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dev on PotHix</title>
+    <link>https://pothix.com/tags/dev/index.xml</link>
+    <description>Recent content in Dev on PotHix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
+    <atom:link href="https://pothix.com/tags/dev/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ruby, Python e native threads</title>
+      <link>https://pothix.com/post/ruby-python-e-native-threads/</link>
+      <pubDate>Fri, 14 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/ruby-python-e-native-threads/</guid>
+      <description>&lt;p&gt;Pode ser que eu seja meio burro (heheh) mas eu ainda achava que o Ruby e o
+Python usavam Green Threads, mas depois de conversar com uma galera me disseram
+que eram threads nativas. Pesquisando na internet eu vi que eram mesmo, mas decidi
+rodar um strace para ver elas rolando e postar sobre isso.&lt;/p&gt;
+
+&lt;p&gt;Fiz dois scripts simples:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Python&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;import threading
+import time
+for i in range(5):
+    t = threading.Thread(target=time.sleep, args=(1,))
+    t.start()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Ruby&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;require &#39;thread&#39;
+5.times do
+  Thread.new {sleep 10}
+end
+sleep 1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Rodando o script python com o comando &lt;code&gt;strace -f -e clone,fork python thread.py&lt;/code&gt; retorna pouca coisa:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;clone(Process 13920 attached
+child_stack=0x7f8570b67ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f8570b689d0, tls=0x7f8570b68700, child_tidptr=0x7f8570b689d0) = 13920
+[pid 13919] clone(Process 13921 attached
+child_stack=0x7f856bffeff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f856bfff9d0, tls=0x7f856bfff700, child_tidptr=0x7f856bfff9d0) = 13921
+[pid 13919] clone(Process 13922 attached
+child_stack=0x7f856b7fdff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f856b7fe9d0, tls=0x7f856b7fe700, child_tidptr=0x7f856b7fe9d0) = 13922
+[pid 13919] clone(Process 13923 attached
+child_stack=0x7f856affcff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f856affd9d0, tls=0x7f856affd700, child_tidptr=0x7f856affd9d0) = 13923
+[pid 13919] clone(Process 13924 attached
+child_stack=0x7f856a7fbff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f856a7fc9d0, tls=0x7f856a7fc700, child_tidptr=0x7f856a7fc9d0) = 13924
+[pid 13921] +++ exited with 0 +++
+[pid 13920] +++ exited with 0 +++
+[pid 13924] +++ exited with 0 +++
+[pid 13922] +++ exited with 0 +++
+[pid 13923] +++ exited with 0 +++
++++ exited with 0 +++
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Conseguimos ver claramente as 5 threads do SO aí em cima. :)&lt;/p&gt;
+
+&lt;p&gt;Já no ruby, rodando com o mesmo esquema (&lt;code&gt;strace -f -e clone,fork ruby thread.rb&lt;/code&gt;) retorna bem mais coisas:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14588
+Process 14588 attached
+[pid 14588] clone(Process 14589 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14589
+[pid 14588] clone(Process 14590 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14590
+[pid 14589] +++ exited with 1 +++
+[pid 14590] +++ exited with 0 +++
+[pid 14588] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14589, si_status=1, si_utime=0, si_stime=0} +++
+[pid 14588] +++ exited with 0 +++
++++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14588, si_status=0, si_utime=0, si_stime=0} +++
+clone(Process 14591 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14591
+[pid 14591] +++ exited with 0 +++
++++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14591, si_status=0, si_utime=0, si_stime=0} +++
+clone(Process 14592 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14592
+[pid 14592] clone(Process 14593 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14593
+[pid 14593] +++ exited with 0 +++
+[pid 14592] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14593, si_status=0, si_utime=0, si_stime=0} +++
+[pid 14592] clone(Process 14594 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14594
+[pid 14594] clone(Process 14595 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14595
+[pid 14595] +++ exited with 1 +++
+[pid 14594] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14595, si_status=1, si_utime=0, si_stime=0} +++
+[pid 14594] +++ exited with 0 +++
+[pid 14592] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14594, si_status=0, si_utime=0, si_stime=0} +++
+[pid 14592] +++ exited with 0 +++
++++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14592, si_status=0, si_utime=0, si_stime=0} +++
+clone(Process 14596 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14596
+[pid 14596] +++ exited with 0 +++
++++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14596, si_status=0, si_utime=0, si_stime=0} +++
+clone(Process 14597 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd34d4569d0) = 14597
+[pid 14597] clone(Process 14598 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f1df327b9d0) = 14598
+[pid 14598] +++ exited with 0 +++
+[pid 14597] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14598, si_status=0, si_utime=0, si_stime=0} +++
+[pid 14597] clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f1df327b9d0) = 14599
+Process 14599 attached
+[pid 14599] clone(Process 14600 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f1df327b9d0) = 14600
+[pid 14600] clone(Process 14601 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb4232139d0) = 14601
+[pid 14601] clone(Process 14602 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb4232139d0) = 14602
+[pid 14602] +++ exited with 0 +++
+[pid 14601] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14602, si_status=0, si_utime=0, si_stime=0} +++
+[pid 14601] +++ exited with 0 +++
+[pid 14600] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14601, si_status=0, si_utime=0, si_stime=0} +++
+[pid 14600] +++ exited with 0 +++
+[pid 14599] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14600, si_status=0, si_utime=0, si_stime=0} +++
+[pid 14599] +++ exited with 0 +++
+[pid 14597] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14599, si_status=0, si_utime=0, si_stime=0} +++
+[pid 14597] +++ exited with 0 +++
++++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14597, si_status=0, si_utime=0, si_stime=0} +++
+clone(Process 14603 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd34d4569d0) = 14603
+[pid 14603] clone(Process 14604 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb42e4469d0) = 14604
+[pid 14604] +++ exited with 0 +++
+[pid 14603] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14604, si_status=0, si_utime=0, si_stime=0} +++
+[pid 14603] clone(Process 14605 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb42e4469d0) = 14605
+[pid 14605] clone(Process 14606 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb27c11e9d0) = 14606
+[pid 14606] clone(Process 14607 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb27c11e9d0) = 14607
+[pid 14606] clone(Process 14608 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb27c11e9d0) = 14608
+[pid 14607] +++ exited with 1 +++
+[pid 14608] +++ exited with 0 +++
+[pid 14606] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14607, si_status=1, si_utime=0, si_stime=0} +++
+[pid 14606] +++ exited with 0 +++
+[pid 14605] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14606, si_status=0, si_utime=0, si_stime=0} +++
+[pid 14605] +++ exited with 0 +++
+[pid 14603] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14605, si_status=0, si_utime=0, si_stime=0} +++
+[pid 14603] +++ exited with 0 +++
++++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14603, si_status=0, si_utime=0, si_stime=0} +++
+clone(Process 14609 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd34d4569d0) = 14609
+[pid 14609] clone(Process 14610 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f2136e3e9d0) = 14610
+[pid 14610] clone(Process 14611 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f2136e3e9d0) = 14611
+[pid 14610] clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f2136e3e9d0) = 14612
+Process 14612 attached
+[pid 14611] +++ exited with 1 +++
+[pid 14612] +++ exited with 0 +++
+[pid 14610] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14611, si_status=1, si_utime=0, si_stime=0} +++
+[pid 14610] +++ exited with 0 +++
+[pid 14609] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14610, si_status=0, si_utime=0, si_stime=0} +++
+[pid 14609] +++ exited with 0 +++
++++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14609, si_status=0, si_utime=0, si_stime=0} +++
+clone(child_stack=0x7fa6a3eedff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa6a3eee9d0, tls=0x7fa6a3eee700, child_tidptr=0x7fa6a3eee9d0) = 14613
+Process 14613 attached
+[pid 14587] clone(Process 14614 attached
+child_stack=0x7fa6a27bdff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa6a27be9d0, tls=0x7fa6a27be700, child_tidptr=0x7fa6a27be9d0) = 14614
+[pid 14587] clone(Process 14615 attached
+child_stack=0x7fa6a25bbff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa6a25bc9d0, tls=0x7fa6a25bc700, child_tidptr=0x7fa6a25bc9d0) = 14615
+[pid 14587] clone(Process 14616 attached
+child_stack=0x7fa6a23b9ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa6a23ba9d0, tls=0x7fa6a23ba700, child_tidptr=0x7fa6a23ba9d0) = 14616
+[pid 14587] clone(Process 14617 attached
+child_stack=0x7fa6a21b7ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa6a21b89d0, tls=0x7fa6a21b8700, child_tidptr=0x7fa6a21b89d0) = 14617
+[pid 14587] clone(Process 14618 attached
+child_stack=0x7fa6a1fb5ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa6a1fb69d0, tls=0x7fa6a1fb6700, child_tidptr=0x7fa6a1fb69d0) = 14618
+[pid 14614] +++ exited with 0 +++
+[pid 14615] +++ exited with 0 +++
+[pid 14616] +++ exited with 0 +++
+[pid 14617] +++ exited with 0 +++
+[pid 14618] +++ exited with 0 +++
+[pid 14613] +++ exited with 0 +++
++++ exited with 0 +++
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14588
+Process 14588 attached
+[pid 14588] clone(Process 14589 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14589
+[pid 14588] clone(Process 14590 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14590
+[pid 14589] +++ exited with 1 +++
+[pid 14590] +++ exited with 0 +++
+[pid 14588] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14589, si_status=1, si_utime=0, si_stime=0} +++
+[pid 14588] +++ exited with 0 +++
++++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14588, si_status=0, si_utime=0, si_stime=0} +++
+clone(Process 14591 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14591
+[pid 14591] +++ exited with 0 +++
++++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14591, si_status=0, si_utime=0, si_stime=0} +++
+clone(Process 14592 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14592
+[pid 14592] clone(Process 14593 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14593
+[pid 14593] +++ exited with 0 +++
+[pid 14592] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14593, si_status=0, si_utime=0, si_stime=0} +++
+[pid 14592] clone(Process 14594 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14594
+[pid 14594] clone(Process 14595 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14595
+[pid 14595] +++ exited with 1 +++
+[pid 14594] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14595, si_status=1, si_utime=0, si_stime=0} +++
+[pid 14594] +++ exited with 0 +++
+[pid 14592] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14594, si_status=0, si_utime=0, si_stime=0} +++
+[pid 14592] +++ exited with 0 +++
++++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14592, si_status=0, si_utime=0, si_stime=0} +++
+clone(Process 14596 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14596
+[pid 14596] +++ exited with 0 +++
++++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14596, si_status=0, si_utime=0, si_stime=0} +++
+clone(Process 14597 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd34d4569d0) = 14597
+[pid 14597] clone(Process 14598 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f1df327b9d0) = 14598
+[pid 14598] +++ exited with 0 +++
+[pid 14597] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14598, si_status=0, si_utime=0, si_stime=0} +++
+[pid 14597] clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f1df327b9d0) = 14599
+Process 14599 attached
+[pid 14599] clone(Process 14600 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f1df327b9d0) = 14600
+[pid 14600] clone(Process 14601 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb4232139d0) = 14601
+[pid 14601] clone(Process 14602 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb4232139d0) = 14602
+[pid 14602] +++ exited with 0 +++
+[pid 14601] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14602, si_status=0, si_utime=0, si_stime=0} +++
+[pid 14601] +++ exited with 0 +++
+[pid 14600] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14601, si_status=0, si_utime=0, si_stime=0} +++
+[pid 14600] +++ exited with 0 +++
+[pid 14599] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14600, si_status=0, si_utime=0, si_stime=0} +++
+[pid 14599] +++ exited with 0 +++
+[pid 14597] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14599, si_status=0, si_utime=0, si_stime=0} +++
+[pid 14597] +++ exited with 0 +++
++++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14597, si_status=0, si_utime=0, si_stime=0} +++
+clone(Process 14603 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd34d4569d0) = 14603
+[pid 14603] clone(Process 14604 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb42e4469d0) = 14604
+[pid 14604] +++ exited with 0 +++
+[pid 14603] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14604, si_status=0, si_utime=0, si_stime=0} +++
+[pid 14603] clone(Process 14605 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb42e4469d0) = 14605
+[pid 14605] clone(Process 14606 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb27c11e9d0) = 14606
+[pid 14606] clone(Process 14607 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb27c11e9d0) = 14607
+[pid 14606] clone(Process 14608 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb27c11e9d0) = 14608
+[pid 14607] +++ exited with 1 +++
+[pid 14608] +++ exited with 0 +++
+[pid 14606] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14607, si_status=1, si_utime=0, si_stime=0} +++
+[pid 14606] +++ exited with 0 +++
+[pid 14605] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14606, si_status=0, si_utime=0, si_stime=0} +++
+[pid 14605] +++ exited with 0 +++
+[pid 14603] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14605, si_status=0, si_utime=0, si_stime=0} +++
+[pid 14603] +++ exited with 0 +++
++++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14603, si_status=0, si_utime=0, si_stime=0} +++
+clone(Process 14609 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd34d4569d0) = 14609
+[pid 14609] clone(Process 14610 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f2136e3e9d0) = 14610
+[pid 14610] clone(Process 14611 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f2136e3e9d0) = 14611
+[pid 14610] clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f2136e3e9d0) = 14612
+Process 14612 attached
+[pid 14611] +++ exited with 1 +++
+[pid 14612] +++ exited with 0 +++
+[pid 14610] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14611, si_status=1, si_utime=0, si_stime=0} +++
+[pid 14610] +++ exited with 0 +++
+[pid 14609] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14610, si_status=0, si_utime=0, si_stime=0} +++
+[pid 14609] +++ exited with 0 +++
++++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14609, si_status=0, si_utime=0, si_stime=0} +++
+clone(child_stack=0x7fa6a3eedff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa6a3eee9d0, tls=0x7fa6a3eee700, child_tidptr=0x7fa6a3eee9d0) = 14613
+Process 14613 attached
+[pid 14587] clone(Process 14614 attached
+child_stack=0x7fa6a27bdff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa6a27be9d0, tls=0x7fa6a27be700, child_tidptr=0x7fa6a27be9d0) = 14614
+[pid 14587] clone(Process 14615 attached
+child_stack=0x7fa6a25bbff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa6a25bc9d0, tls=0x7fa6a25bc700, child_tidptr=0x7fa6a25bc9d0) = 14615
+[pid 14587] clone(Process 14616 attached
+child_stack=0x7fa6a23b9ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa6a23ba9d0, tls=0x7fa6a23ba700, child_tidptr=0x7fa6a23ba9d0) = 14616
+[pid 14587] clone(Process 14617 attached
+child_stack=0x7fa6a21b7ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa6a21b89d0, tls=0x7fa6a21b8700, child_tidptr=0x7fa6a21b89d0) = 14617
+[pid 14587] clone(Process 14618 attached
+child_stack=0x7fa6a1fb5ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa6a1fb69d0, tls=0x7fa6a1fb6700, child_tidptr=0x7fa6a1fb69d0) = 14618
+[pid 14614] +++ exited with 0 +++
+[pid 14615] +++ exited with 0 +++
+[pid 14616] +++ exited with 0 +++
+[pid 14617] +++ exited with 0 +++
+[pid 14618] +++ exited with 0 +++
+[pid 14613] +++ exited with 0 +++
++++ exited with 0 +++
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Alí no final dá para ver as 5 threads que eu pedi no script sendo abertas no
+SO. Inclusive, se analizar todo esse retorno aí dá para ver que o Ruby criou 6
+threads, uma delas o ruby cria mesmo se vc fizer só um &lt;code&gt;puts&lt;/code&gt; num script. :)&lt;/p&gt;
+
+&lt;p&gt;Discutir sobre linguagens com os amigos sempre é legal para pesquisar e
+descobrir coisas novas. :)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Thiago FM | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Golang and 1.2 version performance improvement</title>
+      <link>https://pothix.com/post/golang-and-1-2-version-performance-improvement/</link>
+      <pubDate>Tue, 03 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/golang-and-1-2-version-performance-improvement/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve started using Go last month and I really liked to work with the language.&lt;/p&gt;
+
+&lt;p&gt;The project I&amp;rsquo;m working on is dead simple and just retrieves metrics and save on
+a redis server (the data will be analyzed by a different project that I&amp;rsquo;m
+working on). So I have 15 goroutines retrieving data constantly and I&amp;rsquo;m using
+just two native threads.&lt;/p&gt;
+
+&lt;p&gt;I did some CPU profiling on the code using my current machine for Golang 1.1.2
+and 1.2 and the results can be seen below.&lt;/p&gt;
+
+&lt;p&gt;Golang 1.1.2:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    (pprof) top10
+    Total: 188701 samples
+    137454  72.8%   72.8%   137454  72.8% crypto/des.permuteBlock
+    44032   23.3%   96.2%   169187  89.7% crypto/des.feistel
+    3750    2.0%    98.2%   184544  97.8% crypto/des.cryptBlock
+    823     0.4%    98.6%   185650  98.4% crypto/cipher.(*cbcDecrypter).CryptBlocks
+    290     0.2%    98.8%      290   0.2% encoding/binary.bigEndian.PutUint64
+    232     0.1%    98.9%      232   0.1% encoding/binary.bigEndian.Uint64
+    227     0.1%    99.0%      227   0.1% crypto/sha1.block
+    215     0.1%    99.1%      267   0.1% encoding/json.state1
+    207     0.1%    99.2%      430   0.2% encoding/json.checkValid
+    178     0.1%    99.3%      398   0.2% encoding/json.nextValue
+
+    # top command result
+    PID USER      PR  NI  VIRT    RES      SHR S  %CPU %MEM    TIME+  COMMAND
+    18115 pothix    20   0  871800  67888   3932 S 188.8  1.7  12:40.08 crebain
+
+    # A snapshot of the processors
+    %Cpu0  :100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+    %Cpu1  : 95.0 us,  3.0 sy,  0.0 ni,  2.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Golang 1.2:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    (pprof) top10
+    Total: 6894 samples
+    1686    24.5%   24.5%   1686    24.5%   crypto/aes.decryptBlockGo
+    1299    18.8%   43.3%   3093    44.9%   crypto/cipher.(*cbcDecrypter).CryptBlocks
+    471     6.8%    50.1%   1062    15.4%   encoding/json.checkValid
+    420     6.1%    56.2%   541     7.8%    encoding/json.state1
+    359     5.2%    61.4%   359     5.2%    crypto/sha1.block
+    305     4.4%    65.9%   838     12.2%   encoding/json.nextValue
+    245     3.6%    69.4%   274     4.0%    syscall.Syscall
+    230     3.3%    72.7%   230     3.3%    encoding/json.stateBeginValue
+    186     2.7%    75.4%   225     3.3%    encoding/json.stateEndValue
+    156     2.3%    77.7%   156     2.3%    runtime.memmove
+
+    top command result
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+    20534 pothix    20   0  598428  51584   3532 S  12.9  1.3   0:03.76 crebain
+
+    %Cpu0  : 12.1 us,  5.1 sy,  5.1 ni, 72.7 id,  5.1 wa,  0.0 hi,  0.0 si,  0.0 st
+    %Cpu1  : 20.0 us,  4.0 sy,  0.0 ni, 75.0 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What an improvement! :)&lt;/p&gt;
+
+&lt;p&gt;I know that this application may not be the best example to compare Go with a
+different language because it depends of a third application (that is my
+bottleneck BTW) and Ruby perform as good as the new version but I really liked
+to give Go a try.&lt;/p&gt;
+
+&lt;p&gt;Go language has a lot of interesting ideas and it is growing fast.
+Looks like it is a good idea of language for some of my projects, welcome Golang!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Game Network Programming</title>
+      <link>https://pothix.com/post/game-network-programming/</link>
+      <pubDate>Mon, 15 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/game-network-programming/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;English Abstract&lt;/strong&gt;: This post was about my presentation with Diego Souza
+(vulgo Marciano) about Game network programming. I was studying and reading
+Quake source just for fun and decided to learn more about game networking in
+general, so I decided to prepare this presentation to show other people what
+I’ve learned. You can see the full video (portuguese only, sorry) and the slides
+below.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Portuguese&lt;/strong&gt;: Eu e o Diego Souza (vulgo Marciano) fizemos uma palestra sobre
+  Game network programming tanto na Locaweb como no Guru-SP. A palestra que
+  fizemos no Guru-SP foi gravada pelo Agaelebe:&lt;/p&gt;
+
+&lt;p&gt;&lt;embed type=&#34;application/x-shockwave-flash&#34; src=&#34;http://a.blip.tv/api.swf#hOdBg5PuBQI&#34; style=&#34;display:none&#34;&gt;&lt;/embed&gt;&lt;/p&gt;
+
+&lt;p&gt;E aqui estão os slides:&lt;/p&gt;
+
+&lt;iframe src=&#34;http://blip.tv/play/hOdBg5PuBQI.html?p=1&#34; width=&#34;550&#34; height=&#34;443&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Como eu estava na vibe de jogos desde o começo do ano passado, eu estava lendo
+os posts sobre o código do Quake. Quem me conhece sabe que eu trabalho na equipe
+de IaaS da Locaweb e lá nós lidamos com bastante coisa de redes e eu curto o
+assunto.&lt;/p&gt;
+
+&lt;p&gt;Conversando com o Diego sobre os algoritmos de redes utilizados no Quake nós
+decidimos juntar as pesquisas dele sobre os protocolos TCP e UDP com o que eu li
+sobre a implementação dos algoritmos nos jogos para poder fazer uma palestra
+legal de game network programming, e assim saiu essa palestra.&lt;/p&gt;
+
+&lt;p&gt;Lá nós apresentamos os algoritmos de alguns jogos como o Quake, Age of Empires e
+outros não tão conhecidos, mostrando as soluções legais que eles chegaram e
+quais foram os maiores desafios que eles encontraram para resolver os problemas
+de latencia e necessidade de velocidade. O Diego focou mais na parte de
+otimização dos algoritmos e flags que podem ser alteradas para melhorar o
+comportamento da rede.&lt;/p&gt;
+
+&lt;p&gt;Essa foi uma palestra muito legal de fazer e aprendi bastante no processo
+também! Se tiverem dúvidas postem aí nos comentários. :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Plaev, HTML5 e Skeleton-jigsaw</title>
+      <link>https://pothix.com/post/plaev5-e-skeleton-jigsaw/</link>
+      <pubDate>Tue, 04 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/plaev5-e-skeleton-jigsaw/</guid>
+      <description>&lt;p&gt;Depois de muito tempo desenvolvendo finalmente terminamos o Skeleton-Jigsaw em
+outubro! Demorei para postar sobre isso aqui no blog por falta de tempo, mas
+aqui está!&lt;/p&gt;
+
+&lt;p&gt;Eu e o Rafael Masoni trabalhamos nesse jogo durante quase 1 ano (começamos a
+falar dele no comecinho de janeiro) investindo nosso tempo livre para fazer
+todas as partes do jogo (audio, programação, arte, game design, level design e
+etc).&lt;/p&gt;
+
+&lt;p&gt;Vou descrever um pouco do que fizemos e como organizamos, mas vai ser apenas um
+resumo do que falamos na nossa palestra no Guru-SP:&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/J2yDMOHCYak&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/15490608&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt;
+
+&lt;p&gt;Obrigado pelo vídeo Agaelebe!&lt;/p&gt;
+
+&lt;p&gt;Começamos a trabalhar em janeiro do ano passado no que seria um protótipo da
+impact e aos poucos o jogo foi tomando forma e estavamos investindo cada vez
+mais esforço nele. A cada semana fazíamos uma Skype call para discutir no que
+trabalharíamos durante a semana e fazíamos o possível para entregar o que
+conversamos até a próxima call.&lt;/p&gt;
+
+&lt;p&gt;Foi bem legal trabalhar em todos os pontos do jogo, opinando em arte,
+trabalhando em trilha sonora, programando, discutindo level design, escrevendo
+uma prévia de história, otimizando assets, testando em vários navegadores,
+fazendo game design e tudo mais.&lt;/p&gt;
+
+&lt;p&gt;Todo esse trabalho trouxe muitas experiências legais de como é entregar um jogo
+funcional e completo para o seu escopo, e estou bem orgulhoso de conseguir
+entregar o jogo demo finalizado, e não deixar mais um trabalho incompleto
+perdido por aí.&lt;/p&gt;
+
+&lt;p&gt;Ainda não sabemos quais os planos para a Plæv, mas agora ela já tem seu primeiro
+jogo demo para não ficar com o portfolio em branco. :)&lt;/p&gt;
+
+&lt;p&gt;Não quis descrever muito aqui no post para não ficar somente repetindo conteúdo
+do vídeo, mas se tiverem dúvidas coloquem nos comentários.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Alexandre Araujo, David Paniz | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Javascript and Gamedev discussion</title>
+      <link>https://pothix.com/post/javascript-and-gamedev-discussion/</link>
+      <pubDate>Sun, 02 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/javascript-and-gamedev-discussion/</guid>
+      <description>&lt;p&gt;I read the &lt;a href=&#34;http://www.phoboslab.org/log/2012/08/letter-to-john-carmack&#34;&gt;blog post&lt;/a&gt;
+from &lt;a href=&#34;http://impactjs.com&#34;&gt;Impact engine&lt;/a&gt; creator
+&lt;a href=&#34;http://www.phoboslab.org/&#34;&gt;Dominic&lt;/a&gt; where he shows an email he sent to
+&lt;a href=&#34;http://twitter.com/ID_AA_Carmack&#34;&gt;John Carmack&lt;/a&gt;
+about his opinions on Javascript expressed on
+&lt;a href=&#34;http://www.youtube.com/watch?v=wt-iVFxgFWk&#34;&gt;his keynote&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Dominic is trying to show that Javascript is not a good language
+to develop the next AAA game but it is awesome to make simple
+games and have it easily available to the world.&lt;/p&gt;
+
+&lt;p&gt;We have a lot of negative comments on the post (I really don&amp;rsquo;t
+know why) but some good ones too. One of the good comments was
+written by John Carmack himself!&lt;/p&gt;
+
+&lt;p&gt;He was just explaining his point of view about Javascript and game
+development, and said what we already know and is obvious (right?)
+that javascript is not so fast to perform some kind of tasks.&lt;/p&gt;
+
+&lt;p&gt;Some people are dreaming that Javascript is so fast as C in some
+cases but we know that it is not true for a whole game and the
+native version will always run faster. But you should say that the
+web (and the computers at all) are evolving each day, so the javascript
+performance, but the native version is evolving as well and javascript
+will always be some steps back.&lt;/p&gt;
+
+&lt;p&gt;John&amp;rsquo;s comment is really interesting because he knows that javascript
+has its benefits but he also knows that some of the real problems they
+are solving at &lt;a href=&#34;http://idsoftware.com&#34;&gt;Id Software&lt;/a&gt;
+will not be solved efficiently using Javascript (and a browser)
+as the platform.&lt;/p&gt;
+
+&lt;p&gt;The conclusion for the discussion is what I was expecting:&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Choose the right tool for the right job&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Are you doing a little 2D game? Try javascript,
+and define the platforms for it to run. But if your game really needs
+performance because you need to have the most impressive graphics,
+you need to go native.&lt;/p&gt;
+
+&lt;p&gt;Obviously you should choose a lot of different languages / platforms as
+well, you just need to decide which one is better for your business.&lt;/p&gt;
+
+&lt;p&gt;Use the right tool. That&amp;rsquo;s it, no silver bullet. :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Kernel compiling</title>
+      <link>https://pothix.com/post/kernel-compiling/</link>
+      <pubDate>Mon, 23 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/kernel-compiling/</guid>
+      <description>
+
+&lt;p&gt;Since I bought an Acer notebook to use Linux again (I sold my mac, I
+have a post about it but in portuguese) I started to compile my own
+kernel.&lt;/p&gt;
+
+&lt;p&gt;The reasons for the decision:&lt;/p&gt;
+
+&lt;p&gt;I have a hardware that works better with the newer kernels.
+I really want to understand the linux kernel better.
+As Judas Priest sings on Painkiller song: “I’m living on the eeeeeedge”. LOL&lt;/p&gt;
+
+&lt;h3 id=&#34;how-to-proceed&#34;&gt;How to proceed&lt;/h3&gt;
+
+&lt;p&gt;There are some steps to follow when compiling a new kernel for your
+Linux box:&lt;/p&gt;
+
+&lt;p&gt;Clone the kernel repository with git, I made it using the Github url:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone git://github.com/torvalds/linux.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Copy your .config file to the linux folder. If your distro have the
+&amp;ldquo;Enable config.gz&amp;rdquo; flag enabled (most distros have it) you can use the
+generated config as a base for your new compiled version:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;zcat /proc/config.gz &amp;gt; linux/.config
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now that you have a functional config file (it was running on the
+stock kernel right? ￼ ), just cd do the kernel folder and run make:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd linux
+make
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This process take about 40 minutes to finish on my i7, with 4GB of RAM
+and SSD, running with -j4, to use all the 4 cores. Obviously the time
+to finish will depend on what it will need to compile (defined on the
+.config file) and the processing power of your machine. You can
+improve this compiling time but I’ll talk more about it later.&lt;/p&gt;
+
+&lt;p&gt;You can use the compiling time to prepare the mkinitcpio file for the
+installation. On my archlinux box I have created a file named
+git.preset on /etc/mkinitcpio.d/ directory with the following content:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ALL_config=&amp;quot;/etc/mkinitcpio.conf&amp;quot;
+ALL_kver=&amp;quot;/boot/vmlinuz-git&amp;quot;
+
+PRESETS=(&#39;default&#39;)
+
+default_image=&amp;quot;/boot/initramfs-git.img&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After that you’ll need to change your bootloader conf a bit. I’m using
+grub (not grub2 yet) which makes the setup really easy! Just change
+your /boot/grub/menu.lst and add something like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;title  Git Kernel
+root   (hd0,0)
+kernel /vmlinuz-git root=/dev/sda2 ro quiet acpi_backlight=vendor init=/bin/systemd
+initrd /initramfs-git.img
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;PS&lt;/strong&gt;: I’m using systemd to init and I need to define the
+acpi_backlight to make my hardware to work properly, but probably
+you’ll not need these parameters. If you’re using grub, you may find
+useful to copy the other configuration of the same file and change
+what needs to me changed (title and initrd).&lt;/p&gt;
+
+&lt;p&gt;When the compilation ends and your mkinitcpio file is ready you can
+continue the process by generating the modules for your kernel:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo make modules_install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This command will create a folder with the compiled modules on
+/lib/modules. After that, just copy the generated image file to the
+boot directory:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo cp arch/x86_64/boot/bzImage /boot/vmlinuz-git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And create the initial randisk environment for your preset using
+mkinitcpio:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo mkinitcpio -p git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;DONE! Your kernel is compiled and ready to boot! Just restart you
+computer and choose the new item on the boot menu! ￼&lt;/p&gt;
+
+&lt;h3 id=&#34;config-tunning&#34;&gt;.config tunning&lt;/h3&gt;
+
+&lt;p&gt;So, your new kernel is running perfectly (I hope so…It’s a release
+candidate, we never know what may happen :P), but you’ll want to go
+deeply into the kernel options and improve the compiling time and the
+disk space for the kernel, so lets tune the .config file to be
+specific to our hardware!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;WARNING&lt;/strong&gt;: It will take a lot of time to get a good configuration
+and you’ll not receive so much benefit from it, but it will be
+fun. I promise.&lt;/p&gt;
+
+&lt;p&gt;So, let’s get started! Go to the linux kernel directory and run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;make menuconfig
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The fun part starts here because you’ll be seeing an awesome curses
+screen with a lot of menus and submenus about a lot of things that you
+never heard about, but no despair! Some things you already know, like
+your processor for example! If you have an Intel processor is safe to
+remove all the AMD related configurations from the .config file and
+probably add some intel ones as built in (and vice versa).&lt;/p&gt;
+
+&lt;p&gt;Some things you need to have in mind when starting to buil your own
+kernel configuration is that you really need to know what hardware
+you’re running on your machine. This is really interesting because we
+don’t care so much about some pieces of hardware nowadays, and you’ll
+need to care about it if you want to build your own configuration
+because you can’t remove these modules.&lt;/p&gt;
+
+&lt;p&gt;A good way to start is boot with the stock configuration, run lsmod
+and backup this into a file. These modules should not be removed
+because they are making your machine to work as it is working now, but
+some of them should be marked as builtin into the kernel. I saw some
+recommendations to not include the WIFI driver as builtin to avoid
+some pre-load problems, so I’m keeping my WIFI driver as a module.&lt;/p&gt;
+
+&lt;p&gt;Some cool (but not so useful) parts can be found on “General Setup”:&lt;/p&gt;
+
+&lt;p&gt;Default hostname – This configuration will be specific, so name your
+machine!  Local version – Append an string to the kernel release I
+can’t help you so much on this journey because each hardware has its
+own dependencies and corner cases, so you will need to compile and see
+how it’s going to fit your needs.&lt;/p&gt;
+
+&lt;h3 id=&#34;some-tips&#34;&gt;Some tips&lt;/h3&gt;
+
+&lt;p&gt;If you’re planning to customize your configuration file I really
+recommend to use a versioning control (like git) to keep tracking of
+your file because you’ll need to revert some changes sometimes
+(believe me) and git will help you to make this process less painful.&lt;/p&gt;
+
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;We are weird people (me for writting this and you to be interesting in
+doing the same thing) but this process will help you to understand
+some interesting things about your operating system and feel that
+there is no magic happening there, this is just code that you can
+change if you want. I was planning to end this article with “there is
+no advantage on making this at all” but after remembering all the
+process I think that I learned a lot, so it is worth it.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Darkside | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Menos mac e mais Linux</title>
+      <link>https://pothix.com/post/menos-mac-e-mais-linux/</link>
+      <pubDate>Thu, 19 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/menos-mac-e-mais-linux/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;TL; DR&lt;/strong&gt; Usei mac por mais de 6 meses e decidi voltar ao Linux. Na minha opinião
+mac não é ruim, mas Linux é melhor.&lt;/p&gt;
+
+&lt;p&gt;A idéia desse post não é fazer um flame war, muito menos justificar porque eu
+voltei para o Linux (afinal, eu não devo nada pra ninguém), e sim falar um
+pouco do que eu vi de vantagens e desvantagens no Mac e porque eu resolvi
+voltar a usar Linux.&lt;/p&gt;
+
+&lt;p&gt;Bem, como muitos sabem eu comprei um Mac no meio do ano passado, era um
+Macbook pro de 13 polegadas, i7, 4GB de RAM e etc. Como eu imaginava, era uma
+maquina boa e estável para trabalhar, fazer minhas pesquisas e levar na
+mochila (era muito mais leve e compacto que meu antigo Toshiba Satellite).&lt;/p&gt;
+
+&lt;p&gt;Antes de usar Mac eu estava usando o Toshiba Satellite que eu mencionei acima
+usando Ubuntu como sistema operacional, e tudo estava indo bem sem contar o
+peso que era levar o computador para a faculdade sempre.&lt;/p&gt;
+
+&lt;p&gt;Enfim, um colega foi para um evento fora do país e eu pedi para que comprasse
+um Macbook pro para mim, e assim foi feito, estava com um Mac. Refiz tudo que
+tinha do Linux para utilizar no estilo Mac, ou seja: Formatei todo o meu HD
+para usar o formato do Mac, comecei a utilizar time machine, alterei uma boa
+parte dos meus config files para aceitar Mac também e etc.&lt;/p&gt;
+
+&lt;p&gt;E lá começa meu uso do Mac, comecei a instalar as ferramentas que eu estava
+utilizando na época. Primeiro começando com as ferramentas de desenvolvimento,
+peguei um Xcode com um colega para não precisar baixar e a única coisa que ele
+fez foi bugar e não deixar nem instalar nem desinstalar (sim, procurei na internet
+tinham algumas soluções que supostamente resolviam mas não resolveram)&amp;hellip;.
+Enfim, foi a primeira coisa que eu instalalei, então foi só instalar o sistema denovo
+e boa! Baixei o Xcode (mais de 1GB!!!!1!!!um!!), para poder compilar tudo que eu precisava
+e tudo estava indo bem, só não parecia muito natural algumas coisas para quem
+está acostumado a usar Linux, mas tava indo bem.&lt;/p&gt;
+
+&lt;p&gt;Nessa época eu estava terminando o meu TCC, que eu estava escrevendo com LaTeX,
+portanto fui instalar um pacote do LaTeX no Mac, e lá se vão mais 1GB de pacotes&amp;hellip;
+Tudo bem, instalei e funcionou beleza.&lt;/p&gt;
+
+&lt;p&gt;Como já tinham dito, foi meio chatinho configurar o MySql mas funcionou de boas. O
+homebrew ajuda bastante na tarefa de instalar coisas, é um slackbuilds do futuro,
+tem várias receitas para resolver os casos de coisas que precisam ser instaladas,
+e funciona bem.&lt;/p&gt;
+
+&lt;p&gt;Depois do ambiente todo feito o uso era bem tranquilo, e eu sentia que era bem
+confortável para usar em coisas que não eram diretamente ligadas com programação.
+Assistir minhas séries era bem legal, tinha alguns softwares que facilitavam
+acompanhar algumas séries (TvShowsApp) e até baixar as legendas automaticamente
+(Subsmarine), o que era bem comodo.&lt;/p&gt;
+
+&lt;p&gt;Eu tenho trabalhado bastante com HTML5 ultimamente portanto eu mantinha umas 5
+versões de navegadores na maquina, e no Mac isso foi bem simples de fazer, apenas
+arrastando os navegadores para a pasta de Apps e já era.&lt;/p&gt;
+
+&lt;p&gt;A resolução do Mac no meu monitor externo era fantástica comparada com a que eu
+tinha antes no Toshiba, apesar de eu não usar muito o monitor externo. O som e
+vídeo funcionam muito bem, como era de se esperar e apresentações, skype calls
+e outras coisas eram bem simples e naturais de se fazer.&lt;/p&gt;
+
+&lt;p&gt;Algumas das aplicações que eu usava no Linux estavam disponíveis no Mac, como o
+Vim por exemplo, que apesar de ter que instalar o Macvim ele ficava disponível
+no terminal também. Tive que fazer algumas modificações para que o Vim funcionasse
+como eu esperava, mas no fim das contas ele estava funcionando normalmente.
+O GIMP no Mac é &lt;strong&gt;bem&lt;/strong&gt; ruim, e deixa bastante a desejar, até porque ele sobe o
+X para poder ser executado e foge completamente do padrão do Mac, o que já era
+esperado, afinal não portaram o GIMP para rodar, apenas emularam o X e rodaram
+sobre a plataforma do mac (não é só isso, mas o que eu quis dizer é que não é
+um GIMP feito para mac específicamente, só fizeram ele rodar lá), e isso é bem
+triste.&lt;/p&gt;
+
+&lt;p&gt;O tempo passou e eu tive a oportunidade de ir para San Francisco no OpenStack
+Summit, e eu pensei em trocar de computador, e por coincidência um colega estava
+perguntando se alguem estava vendendo um Macbook de 13&amp;rdquo; (!!), não perdi tempo,
+negociei e vendi por um preço muito bom (tendo em vista que comprei fora do país
+e vendi por aqui). E comecei a consultar valores de outros computadores para
+a substituição. Durante essa coleta de preços eu até cheguei a cogitar comprar o
+Macbook Air, mas eu estava certo de que mac para mim já deu o que tinha que dar,
+e agora era hora de voltar ao bom e velho Linux.&lt;/p&gt;
+
+&lt;p&gt;No fim das contas eu comprei o computador que possuía o melhor custo X benefício
+para o que eu precisava, que é o Acer S3-951-6432, que possui tela de 13&amp;rdquo;, SSD de
+256, 4GB de memória, processador i7, leitor de cartão da Realtek, placa wireless
+Atheros e uma placa de vídeo intel 3000.&lt;/p&gt;
+
+&lt;p&gt;Dessa vez eu queria usar Linux de verdade, conhecendo tudo o que eu estava utilizando
+no sistema, portanto resolvi começar a usar &lt;a href=&#34;http://www.archlinux.org/&#34;&gt;Arch Linux&lt;/a&gt;, e comecei a saga de instalar
+cada pacote, desde o sudo, passando pelo ifconfig, X, Awesome e por aí vai. A princípio
+decidi ficar sem Gnome e configurar o Awesome para funcionar como eu queria, mas no fim
+das contas eu acabei resolvendo instalar Gnome para facilitar as coisas de vez em quando.&lt;/p&gt;
+
+&lt;p&gt;Com o &lt;a href=&#34;http://www.archlinux.org/&#34;&gt;Arch Linux&lt;/a&gt; eu consigo ter controle de tudo que está rodando e fico sempre no bleeding
+edge de quase todos os softwares devido a filosofia de rolling updates dele. Aproveitei
+também para começar a compilar meu próprio kernel, removendo módulos desnecessários e
+adicionando outros que são necessários para meu hardware como builtin.&lt;/p&gt;
+
+&lt;p&gt;Não precisei ficar me preocupando com as ferramentas de desenvolvimento, tudo estava fácil
+de arrumar, e não tive problema algum, foi só instalar o gcc e mandar bala! Para o LaTeX,
+foi só instalar alguns poucos megas de TexLive e tudo estava funcionando. Pude voltar a usar
+o bom e velho GIMP, juntamente com o Inkscape e tudo parecia mais feliz.&lt;/p&gt;
+
+&lt;p&gt;Alguns podiam comentar que eu poderia ter usado o Photoshop no Mac, mas eu to de boas de
+pirataria, e o GIMP resolve todos os meus problemas&amp;hellip;Não quero ficar gastando dinheiro
+com software que não seja realmente necessário.&lt;/p&gt;
+
+&lt;h3 id=&#34;conclusão&#34;&gt;Conclusão&lt;/h3&gt;
+
+&lt;p&gt;O Mac não é um sistema ruim, é funcional e bem estável. O que eu constatei com isso
+tudo é que o Mac apenas não é um Sistema operacional para mim, eu gosto mesmo é de
+usar software livre, contribuir, customizar, conhecer coisas novas, tentar tunar meu
+hardware para funcionar melhor, usar Window manager esquisito, compilar o kernel e etc.&lt;/p&gt;
+
+&lt;p&gt;Outra barreira que caiu foi o Mac nunca travar, ele travou como qualquer outro SO que eu
+já usei, além de ser um SO muito mais lento do que eu esperava. Muitas pessoas me
+disseram que isso era coisa do Lion ou que era porque eu tinha só 4 GB de RAM, mas
+nenhum dos dois argumentos são válidos para mim, se o Lion é uma bosta o problema não é meu,
+é só mais um motivo para eu parar de usar porcarias, e se eu preciso de 8GB de RAM para poder
+ficar com um notebook usável, eu prefiro mil vezes usar Linux com 4 GB e ser feliz.&lt;/p&gt;
+
+&lt;p&gt;A minha opinião final foi que é totalmente possível trabalhar no Mac e programar todas as
+coisas que se programa no Linux, a diferença é que no Linux é tudo mais natural de fazer
+mas nada que compilar no mac ou usar o slackbuilds&amp;hellip;digo&amp;hellip;.homebrew&amp;hellip; para fazer isso
+não resolva, portanto ele ficou no mesmo patamar do Linux, cada um com suas vantagens e
+desvantagens, e as vantagens do Linux me atraem mais do que as do Mac.&lt;/p&gt;
+
+&lt;p&gt;Ah, e não me venha com historinha que &amp;ldquo;O legal do Mac é a experiencia&amp;rdquo; que é conversa
+de frutinha. :P&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Daniel Libanori, TaQ, David Paniz, Eduardo Resende, Letícia Figueira, Lucas Caton, Magnun | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Aprendendo com o código do Quake</title>
+      <link>https://pothix.com/post/aprendendo-com-o-codigo-do-quake/</link>
+      <pubDate>Wed, 18 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/aprendendo-com-o-codigo-do-quake/</guid>
+      <description>&lt;p&gt;Desde que eu terminei a faculdade eu venho lendo bastante coisa útil (foi muita
+coisa inútil durante 4 anos&amp;hellip;) e aprendendo bastante coisa. Nos ultimos meses
+eu li vários code reviews dos códigos do Quake e do Doom.&lt;/p&gt;
+
+&lt;p&gt;Os review foram feitos por Fabien Anglard e estão todos disponíveis no site dele
+&lt;a href=&#34;http://fabiensanglard.net&#34;&gt;http://fabiensanglard.net&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;O primeiro artigo que eu li foi sobre o
+&lt;a href=&#34;http://fabiensanglard.net/quake2/index.php&#34;&gt;code review do código do Quake 2 de 1997&lt;/a&gt;.
+Esse quake foi o ultimo que fez Software Rendering e o cara que analizou o código
+explica direitinho como foi feito, explicando todos os problemas que os
+desenvolvedores enfrentaram e porque eles chegaram aquela implementação. Para
+quem é programador e curte Quake é uma ótima leitura.&lt;/p&gt;
+
+&lt;p&gt;Uma coisa muito interessante que vi na leitura desse artigo foi que eu acabei
+estudando várias outras coisas para poder entender o artigo, como:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;BSP trees: &lt;a href=&#34;http://downloads.gamedev.net/pdf/gpbb/gpbb59.pdf&#34;&gt;http://downloads.gamedev.net/pdf/gpbb/gpbb59.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Octree: &lt;a href=&#34;http://en.wikipedia.org/wiki/Octree&#34;&gt;http://en.wikipedia.org/wiki/Octree&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Memory management: &lt;a href=&#34;http://www.ualberta.ca/CNS/RESEARCH/LinuxClusters/mem.html&#34;&gt;http://www.ualberta.ca/CNS/RESEARCH/LinuxClusters/mem.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Radiosity: &lt;a href=&#34;http://freespace.virgin.net/hugo.elias/radiosity/radiosity.htm&#34;&gt;http://freespace.virgin.net/hugo.elias/radiosity/radiosity.htm &lt;/a&gt; (esse artigo é animal)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;E outras coisas do mesmo genero.&lt;/p&gt;
+
+&lt;p&gt;Com o lançamento do código do DOOM 3 open source, mais um code review foi
+escrito: &lt;a href=&#34;http://fabiensanglard.net/doom3/&#34;&gt;http://fabiensanglard.net/doom3/&lt;/a&gt;,
+e nesse review ele explica como a parte de iluminação (que era a grande
+funcionalidade do Doom 3) foi feita e quais as técnicas foram utilizadas.
+Apesar de eu conhecer pouco de renderização e algoritmos de iluminação é
+possível entender uma boa parte desse review.&lt;/p&gt;
+
+&lt;p&gt;E por ultimo li o &lt;a href=&#34;http://fabiensanglard.net/quake3/index.php&#34;&gt;code review do código do Quake III&lt;/a&gt;,
+que mostra uma das coisas que eu estava curioso para ler, networking! Todos
+sabemos que a parte de redes (não somente ela, acho que tudo) precisa de
+velocidade, e eu queria entender o que os caras planejaram para essa camada, e
+isso é uma das coisas que o code review traz, inclusive linkando para a análise da antiga
+engine do Quake e explicando algumas decisões e as premissas simples que foram
+utilizadas para construir uma camada consistente e deixar o jogo o mais fluido possível.&lt;/p&gt;
+
+&lt;p&gt;Esse ultimo code review acaba muito legal, linkando para a IA do Quake III,
+que é muito boa por sinal, e por isso rendeu uma
+&lt;a href=&#34;http://dev.johnstevenson.co.uk/bots/20585341-The-Quake-III-Arena-Bot.pdf&#34;&gt;tese de mestrado do desenvolvedor&lt;/a&gt;
+que apesar de eu não ter lido inteira, eu recomendo a leitura para quem se interessa no assunto.&lt;/p&gt;
+
+&lt;p&gt;Enfim, todos sabem que o &lt;a href=&#34;http://twitter.com/ID_AA_Carmack/&#34;&gt;John Carmack&lt;/a&gt; é
+um dos programadores que eu mais admiro, e Quake é um dos jogos que eu mais
+curto, e o código é open source! Esse review era a oportunidade que faltava
+para conhecer o código melhor e aprender coisas novas. Se você curte jogos e
+programação &lt;strong&gt;RECOMENDO&lt;/strong&gt; fortemente tirar algumas horas e ler os reviews!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Simlinks for ruby on Debian Squeeze</title>
+      <link>https://pothix.com/post/simlinks-for-ruby-on-debian-squeeze/</link>
+      <pubDate>Tue, 17 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/simlinks-for-ruby-on-debian-squeeze/</guid>
+      <description>&lt;p&gt;Every time we need to deploy a new Ruby application on top of Debian Squeeze
+we need to fix some Ruby depedencies to make the application work as it should.&lt;/p&gt;
+
+&lt;p&gt;It happens because we&amp;rsquo;re building using rvm instead of the packaged version
+of ruby, but it needed to be that way in order to use our old build server.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ll keep it documented here:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ln -s /usr/lib/libruby-1.9.1.so.1.9.1 /usr/lib/libruby.so.1.9
+ln -s /usr/bin/rake1.9.1 /usr/bin/rake
+ln -s /usr/bin/ruby1.9.1 /usr/bin/ruby
+ln -s /usr/bin/gem1.9.1 /usr/bin/gem
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After that run &lt;code&gt;ldconfig&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;It should make the common ruby commands work again. :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Palestra sobre implementacoes paralelas</title>
+      <link>https://pothix.com/post/palestra-sobre-implementacoes-paralelas/</link>
+      <pubDate>Mon, 16 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/palestra-sobre-implementacoes-paralelas/</guid>
+      <description>&lt;p&gt;Esse post ficou como draft desde que eu palestrei sobre implementações
+paralelas, e agora que eu lembrei dele decidi publicar! :)&lt;/p&gt;
+
+&lt;p&gt;Bem, como eu disse, eu paletrei sobre implementacoes paralelas tanto
+na Locaweb como no Guru-SP. A idea da palestra vem de um post do John
+Carmack sobre implementações paralelas, e nesse post ele comenta sobre
+todos os tipos de implementação paralela que ele já utilizou e as que
+mais funcionaram para cada tipo de caso.&lt;/p&gt;
+
+&lt;p&gt;Na minha palestra eu comento sobre todos os tipos de implementacoes
+que eu ja utilizei e quais delas foram boas ou ruins para determinado
+caso.&lt;/p&gt;
+
+&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/11724894&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;iframe src=&#34;http://blip.tv/play/hOdBgu3uVQI.html?p=1&#34; width=&#34;596&#34; height=&#34;334&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Essas técnicas simples ajudaram a manter nosso código muito mais fácil
+de manter. Espero que seja útil para mais alguém. ;)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>XMPP e Ruby</title>
+      <link>https://pothix.com/post/xmpp-e-ruby/</link>
+      <pubDate>Tue, 10 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/xmpp-e-ruby/</guid>
+      <description>&lt;p&gt;Alguns (vários…) meses atrás eu fiz uma palestra pequena no Guru-SP(São Paulo
+Ruby Users Group) sobre Ruby e XMPP, os vídeos e slides estão disponíveis:&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/HDsxF0bCInI&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/15508823&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt;
+
+&lt;p&gt;Nessa talk eu mostrei como criar dois bots simples e como subir eles na sua
+conta do Gmail. A Gem blather tem uma DSL bem legal para trabalhar com XMPP em
+Ruby, mas nos meus testes funcionou muito melhor com ruby 1.9.3 do que com 1.9.2.&lt;/p&gt;
+
+&lt;p&gt;Para fazer a parte de daemon e gerar uma estrutura para o projeto eu utilizei
+uma gem chamada daemon-tools, que provê vários metodos úteis para esse tipo de
+projeto.&lt;/p&gt;
+
+&lt;p&gt;Se tiverem dúvidas postem aí nos comentários.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Organizando os Feeds do Blog</title>
+      <link>https://pothix.com/post/organizando-os-feeds-do-blog/</link>
+      <pubDate>Mon, 24 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/organizando-os-feeds-do-blog/</guid>
+      <description>&lt;p&gt;Como muitos sabem, eu sou meio doido por organização (heheh) e eu
+mesmo não gosto de ficar lendo coisas que não me interessam de outros
+blogs, ou seja, no blog de alguém que gosta bastante de Vim eu ter que
+ficar lendo sobre paraquedismo :P&lt;/p&gt;
+
+&lt;p&gt;Agora eu gostaria de além de escrever sobre coisas técnicas, escrever
+também sobre os meus outros hobbies, como Motos, Shows e etc.  Alguns
+deles eu até já escrevia um pouco antes, mas nem tanto, e isso já me
+incomodava um pouco, por que eu sei bem que várias pessoas que seguem
+o feed não gostam das mesmas coisas que eu.&lt;/p&gt;
+
+&lt;p&gt;Então minha idéia foi simples, criei um feed só para os posts técnicos
+(programação, Vim, eventos de tech, e coisas relacionadas), e o que eu
+achar que não é tech eu não coloco a tag.&lt;/p&gt;
+
+&lt;p&gt;Portanto, se você só quer ver os posts técnicos do meu blog, assine
+&lt;a href=&#34;http://feeds.feedburner.com/PotHixTech&#34;&gt;este feed&lt;/a&gt;, e o feed atual
+começa a ser o &amp;ldquo;FULL&amp;rdquo; onde terá todos os posts. :)&lt;/p&gt;
+
+&lt;p&gt;Se você não liga para só ler posts técnicos e quer ler tudo que eu
+colocar, é só ignorar isso tudo :)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Tino Gomes | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Meu ambiente de desenvolvimento</title>
+      <link>https://pothix.com/post/meu-ambiente-de-desenvolvimento/</link>
+      <pubDate>Wed, 29 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/meu-ambiente-de-desenvolvimento/</guid>
+      <description>
+
+&lt;p&gt;Fui convidado pelo &lt;a href=&#34;http://twitter.com/#!/jtadeulopes&#34;&gt;@jtadeulopes&lt;/a&gt; e
+pelo &lt;a href=&#34;http://twitter.com/#!/qmx&#34;&gt;@qmx&lt;/a&gt; para participar do meme sobre
+ambientes de desenvolvimento, então estou fazendo esse post para falar
+um pouco mais sobre o meu.&lt;/p&gt;
+
+&lt;h4 id=&#34;sistema-operacional&#34;&gt;Sistema Operacional&lt;/h4&gt;
+
+&lt;p&gt;Já usei Windows um bom tempo atrás, e agora tenho um pós-conceito para
+usar (preconceito é só quando vc não conhece), não vejo nenhuma
+vantagem para utilizar ele e acho que não vale o preço (tenho um Vista
+e um Win7 originais que ganhei na compra do notebook e na CampusParty
+e nem uso).&lt;/p&gt;
+
+&lt;p&gt;Já usei Slackware (e ainda tenho ele instalado no meu notebook para
+brincar de vez em quando) e atualmente estou utilizando só o Ubuntu,
+que me fornece um ótimo ambiente para desenvolvimento. Acho muito
+fácil instalar coisas novas para dev com o Ubuntu, e tudo se encaixa
+muito bem com esse SO.&lt;/p&gt;
+
+&lt;h4 id=&#34;controles-de-versão&#34;&gt;Controles de Versão&lt;/h4&gt;
+
+&lt;p&gt;Já utilizei um pouco de SVN, Mercurial e Bazaar, mas não o suficiente
+para falar bem ou mal de qualquer um deles, por que quando eu utilizei
+eles supriram a minha necessidade tão bem quanto o Git.  Atualmente
+utilizo muito o Git, que eu acho fantástico, e a cada hora que vou
+utilizando eu descubro coisas novas que me surpreeendem.  Não utilizo
+nada gráfico para o Git, apenas linha de comando, afinal, do que mais
+eu preciso!? :D&lt;/p&gt;
+
+&lt;h4 id=&#34;linguagens-de-programação&#34;&gt;Linguagens de Programação&lt;/h4&gt;
+
+&lt;p&gt;Gosto de brincar com várias linguagens e sempre estou mexendo um pouco
+com Python e Javascript. Já faz um tempo que eu não brinco com C++,
+mas é outra linguagem que eu gosto bastante também.&lt;/p&gt;
+
+&lt;p&gt;Algum tempo atrás brinquei um pouco com desenvolvimento de aplicações
+para Android e para isso tive que brincar um pouco com Java também :).
+Mas como todos sabem, a linguagem de programação que eu mais uso
+atualmente é Ruby, que uso no trabalho e para alguns projetinhos
+pessoais.&lt;/p&gt;
+
+&lt;h4 id=&#34;editor-de-texto-ide&#34;&gt;Editor de texto / IDE&lt;/h4&gt;
+
+&lt;p&gt;Eu uso o único editor de texto que uma pessoa em plena sanidade
+poderia usar, ou seja, o VIM! heheheh :D&lt;/p&gt;
+
+&lt;p&gt;Saindo da trollagem e voltando as vantagens, eu gosto do Vim por que
+ele é um editor rápido, customizável, e me faz pensar a todo
+momento. Para mim é estar resolvendo puzzles a cada minuto, acho
+divertido ficar pensando em como eu poderia estar editando aquele
+texto de uma forma mais divertida, e consequentemente, quanto mais eu
+aprendo a editar textos de uma maneira melhor mais rápido eu vou
+ficando para editá-los.&lt;/p&gt;
+
+&lt;p&gt;Claro que não é viável utilizar o Vim para tudo (apesar de eu estar
+escrevendo esse post por ele&amp;hellip;heheh), e para algumas coisas é mais
+viável utilizar uma IDE. Para desenvolvimento de apps para o Android
+por exemplo, é muito mais fácil desenvolver utilizando o Eclipse que
+já tem plugin que ajuda em algumas tarefas, e é Java&amp;hellip;Não preciso
+dizer mais nada.&lt;/p&gt;
+
+&lt;h4 id=&#34;musica&#34;&gt;Musica&lt;/h4&gt;
+
+&lt;p&gt;Sempre estou com meu player aberto ouvindo musica, e sempre estou ouvindo coisas diferentes, começo com um random na minha lib inteira e escolho uma banda nesse meio para ouvir.
+Eu tenho uma playlist das musicas que eu mais curto para ouvir nos dias que não estou afim de ficar ouvindo coisas aleatórias.
+Já testei diversos players no Linux (banshee, amarok e etc), e atualmente estou utilizando o Rhythmbox, que reconhece meu Ipod e posso ouvir sempre a mesma lib em casa e no trabalho.&lt;/p&gt;
+
+&lt;p&gt;Se quiser saber as musicas que eu ouço veja &lt;a href=&#34;http://last.fm/user/pothix&#34;&gt;meu last.fm&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;ims&#34;&gt;IMs&lt;/h4&gt;
+
+&lt;p&gt;Geralmente fico logado em mais de 6 contas de IM (2 Gtalks pessoais, 1
+Jabber da empresa, 2 contas de IRC, 1 conta de Skype e ainda tem o
+softphone).  Parece ser meio bizarro ficar logado em tudo isso todo o
+tempo, mas eu só consigo essa proeza por que as pessoas que eu tenho
+nos IMs são inteligentes o suficiente para olhar o meu status e não em
+encher quando não devem, caso não eu não possa falar apenas aviso e
+pronto.  Em casos que preciso de bastante concentração eu fecho quase
+todos, deixando apenas uma conta que tem só algumas pessoas
+adicionadas :)&lt;/p&gt;
+
+&lt;p&gt;Só para constar, se você usa MSN isso não funciona, por que se a
+pessoa usa MSN ela já não tem nenhuma noção.&lt;/p&gt;
+
+&lt;h4 id=&#34;terminal&#34;&gt;Terminal&lt;/h4&gt;
+
+&lt;p&gt;Aqui é onde eu passo 90% do meu tempo de trabalho, utilizando linha de
+comando, Vim (não uso interface gráfica para ele também&amp;hellip;Não faz
+sentido para mim), Git e scripts em geral.  Atualmente eu uso o
+gnome-terminal do Ubuntu, que não deixa a desejar. :)&lt;/p&gt;
+
+&lt;h4 id=&#34;organização&#34;&gt;Organização&lt;/h4&gt;
+
+&lt;p&gt;Eu sou meio bizarro quanto a organização, e no meu ambiente tudo tem
+que ficar em seu devido lugar, assim, cada atalho de teclado me leva
+onde eu sei que as coisas estão.  No trabalho tenho 2 monitores e 4
+areas de trabalho, sendo que fica organizado assim:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Um browser em cada monitor
+
+&lt;ul&gt;
+&lt;li&gt;Firefox com Vimperator na esquerda com 3 abas com páginas que eu uso no sistema que eu trabalho atualmente&lt;/li&gt;
+&lt;li&gt;Chrome no monitor da esquerda com 2 e-mails, todoist e pivotal tracker&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Todos os IMs e um terminal&lt;/li&gt;
+&lt;li&gt;Dois terminais, um em cada monitor com projetos auxiliares&lt;/li&gt;
+&lt;li&gt;Dois terminais, os dois abertos com o projeto que estou trabalhando
+
+&lt;ul&gt;
+&lt;li&gt;No terminal da direita deixo uma aba com Rails server, uma com Rails console e uma para o Vim&lt;/li&gt;
+&lt;li&gt;No terminal da esquerda rodo testes e outras coisas&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Tem várias outras coisas que uso (como o Notecase para tomar notas por
+exemplo) mas acho que isso ae já é uma visão geral :D&lt;/p&gt;
+
+&lt;p&gt;Agora eu passo a bola para o
+&lt;a href=&#34;http://twitter.com/#!/dlibanori&#34;&gt;@dlibanori&lt;/a&gt;,
+&lt;a href=&#34;http://twitter.com/#!/crocidb&#34;&gt;@crocidb&lt;/a&gt; e
+&lt;a href=&#34;http://twitter.com/#!/bbcoimbra&#34;&gt;@sceadugenga&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Mandrake | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Conto da migração para Rails 3</title>
+      <link>https://pothix.com/post/conto-da-migracao-para-rails-3/</link>
+      <pubDate>Thu, 21 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/conto-da-migracao-para-rails-3/</guid>
+      <description>
+
+&lt;p&gt;Nesse post eu vou falar um pouco de como foi atualizar a aplicação que
+eu trabalho atualmente para Rails3.&lt;/p&gt;
+
+&lt;p&gt;Em uma segunda feira eu tive a brilhante ideia de aproveitar que as
+tasks que eu estava fazendo estavam dependentes de algumas coisas que
+ainda não estavam feitas, e resolvi começar a atualizar a aplicação
+para Rails3 só para saber o trabalho que ia dar, e no final do dia eu
+já tinha feito todas as alterações necessárias para o boot da
+aplicação e para rodar a suite de testes (não fazer os testes passar,
+apenas rodar!).  Depois disso foi mais 1 dia para fazer todos os
+testes passar, e mais alguns outros testando a aplicação e resolvendo
+pequenos problemas de safe html e derivados.&lt;/p&gt;
+
+&lt;h4 id=&#34;dicas-para-fazer-a-conversão-do-código&#34;&gt;Dicas para fazer a conversão do código&lt;/h4&gt;
+
+&lt;h5 id=&#34;tenha-testes&#34;&gt;Tenha testes&lt;/h5&gt;
+
+&lt;p&gt;Se não tiver testes, esqueça essa idéia e pare de ler o post, a menos
+que você queira quebrar sua app em produção.&lt;/p&gt;
+
+&lt;h5 id=&#34;faça-sua-aplicação-e-suite-de-testes-funcionar&#34;&gt;Faça sua aplicação e suite de testes funcionar&lt;/h5&gt;
+
+&lt;p&gt;Primeiramente, se você ainda não conhece, vale a pena dar uma olhada
+no plugin chamado Rails Upgrade que te dá um guideline do que você
+precisa ir alterando para tornar sua aplicação compatível com Rails 3.
+Esse plugin faz algumas coisas como criar o application.rb baseado no
+seu environment, te dar alguns guias das configurações que mudaram e
+tenta converter suas rotas para o novo padrão (vide próximo tópico) O
+primeiro passo a se tomar é utilizar o plugin (ou não, pode fazer
+manualmente também) e trocar as coisas principais para que sua
+aplicação pelo menos passe pela etapa de boot.  Quando passar por esse
+passo vá para seus testes, e se for RSpec prepare-se para ter alguns
+problemas de conversão, por que algumas coisas mudaram do RSpec 1 para
+o RSpec 2, e você vai ter que lidar com os problemas de atualização
+dos seus testes tambem. A maioria das coisas que tive problemas foi
+com métodos que não existem mais como o have_tag por exemplo.&lt;/p&gt;
+
+&lt;h5 id=&#34;não-use-o-rails-upgrade-para-a-conversão-das-rotas&#34;&gt;Não use o Rails Upgrade para a conversão das rotas&lt;/h5&gt;
+
+&lt;p&gt;Como disse acima, esse plugin é um ótimo guia, mas tome cuidado com
+ele como solução final. Você pode dizer para ele converter suas rotas,
+mas tome cuidado, por que dependendo da forma que as suas rotas estão
+diagramadas o resultado que ele dá não é muito conciso. O que eu fiz
+foi utilizar a conversão dele apenas como estudo para saber como está
+a nova syntax e refiz o arquivo de rotas do zero.&lt;/p&gt;
+
+&lt;h5 id=&#34;pare-de-usar-remarkable&#34;&gt;Pare de usar remarkable&lt;/h5&gt;
+
+&lt;p&gt;Eu sempre gostei de usar Remarkable para testar relacionamentos,
+validações e etc, mas remarkable no Rails 3 é uma grande porcaria. Os
+desenvolvedores que começaram o projeto ficaram sem tempo para o mesmo
+e deixaram na mão de outros, que não tem a mesma qualidade ou
+preocupação com o projeto, portanto, a menos que você queira ser o
+novo mantenedor do projeto e fazer as alterações necessárias para que
+funcione bem no Rails 3, fuja dele agora.  O que eu fiz foi começar a
+usar o Shoulda para algumas coisas que me convinham, como por exemplo
+testes de relacionamento e validações. Para quem estiver interessado
+em fazer essa migração, eu fiz grande parte das trocas do que eu usava
+(validações e relacionamentos) facinho com grep e sed! Fiz &lt;a href=&#34;http://gist.github.com/640517&#34;&gt;um
+Gist&lt;/a&gt; disso.&lt;/p&gt;
+
+&lt;h5 id=&#34;evite-dependencias&#34;&gt;Evite dependencias&lt;/h5&gt;
+
+&lt;p&gt;Assim como o remarkable acima, cada outra gem/plugin que você está
+utilizando pode ter problemas com o Rails 3, portanto, antes de fazer
+a migração procure manter o menor número possível de dependencias no
+seu projeto, e as que você tiver veja se já possui uma versão
+funcional para Rails 3, e se não possuir você já pode se voluntariar
+para fazer ;).&lt;/p&gt;
+
+&lt;h5 id=&#34;use-o-sufixo-html-nos-locales-necessários&#34;&gt;Use o sufixo _html nos locales necessários&lt;/h5&gt;
+
+&lt;p&gt;Suponho que as aplicações Rails estão usando os formatos de
+internacionalização do Rails, portanto suas string não estão perdidas
+pelas Views, Controllers e Models e sim estão em seus devidos arquivos
+de locale.  Levando esse cenário óbvio em conta lembre-se de que você
+não precisa dar raw em toda mensagem que possui HTML por que Rails já
+faz isso para você quando você adiciona o sufixo _html na sua chave de
+locale. Exemplo:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;not_yet: &amp;quot;**Ainda não**&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Ficaria:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;not_yet_html: &amp;quot;**Ainda não**&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;E assim ele não vai escapar automaticamente o HTML dessa chave.&lt;/p&gt;
+
+&lt;h5 id=&#34;vá-lidando-aos-poucos-com-deprecation-warning&#34;&gt;Vá lidando aos poucos com DEPRECATION WARNING&lt;/h5&gt;
+
+&lt;p&gt;Quando você rodar sua suite de testes pela primeira vez já vai ser
+bombardeado por uma quantidade monstra de _DEPRECATION WARNING_s, mas
+não saia atacando eles de uma vez, primeiramente tenha em mente fazer
+sua aplicação funcionar e você vai corrigir esses probleminhas aos
+poucos enquanto estiver corrigindo os erros ou desenvolvendo coisas
+novas.  Felizmente a API do ActiveRecord não deixou de funcionar,
+portanto você ainda não vai precisar fazer grandes modificações para a
+nova syntax utilizando Arel por enquanto, o que vai tornar a migração
+menos dolorosa e você pode migrar aos poucos enquanto seu código já
+estiver rodando.&lt;/p&gt;
+
+&lt;h4 id=&#34;dicas-de-organização-para-a-migração&#34;&gt;Dicas de organização para a migração&lt;/h4&gt;
+
+&lt;h5 id=&#34;crie-um-branch-separado-e-altere-aos-poucos&#34;&gt;Crie um branch separado e altere aos poucos&lt;/h5&gt;
+
+&lt;p&gt;Sim! Todos queríamos que toda a equipe parasse por alguns dias e fosse
+alterar o projeto para funcionar com Rails 3, mas todos sabemos que
+isso não é possível na realidade de ninguém. Então uma coisa legal
+para se fazer (principalmente quando se está trabalhando com controle
+de versão distribuído, onde branches não são tão penosos) é criar um
+branch e manter uma pessoa trabalhando nele enquanto os outros vão
+tocando o projeto, sempre com muita comunicação para evitar que as
+pessoas criem cada vez mais código legado que precisará ser migrado,
+até que chegue uma hora que você possa voltar para o master e ficar
+sem deploy por alguns poucos dias para que a aquipe termine o trabalho
+e faça alguns testes.&lt;/p&gt;
+
+&lt;h5 id=&#34;ataque-um-problema-de-cada-vez&#34;&gt;Ataque um problema de cada vez&lt;/h5&gt;
+
+&lt;p&gt;Acho muito legal a combinação Rails + Ruby1.9, mas acho que as coisas
+ficam bem mais fáceis quando atacamos no estilo estripador (por
+partes), assim você tem um caminho a menos para analizar de onde vem o
+possível erro, e assim que terminar uma migração para Rails 3 já pode
+começar uma para Ruby 1.9 e ver o que vai quebrar apenas para essa
+implementação específica.&lt;/p&gt;
+
+&lt;h5 id=&#34;use-seu-ambiente-de-homologação&#34;&gt;Use seu ambiente de homologação&lt;/h5&gt;
+
+&lt;p&gt;Não sei como seu deploy funciona atualmente, mas talvez com a migração
+você precise alterar ele e é na hora que você for colocar no seu
+ambiente de homologação que você vai descobrir isso, portanto, use-o
+bem! :)&lt;/p&gt;
+
+&lt;h4 id=&#34;conclusão-e-saldo-final&#34;&gt;Conclusão e Saldo final&lt;/h4&gt;
+
+&lt;p&gt;Fazer a migração para o Rails 3 foi mais simples do que eu imaginei,
+mas mesmo assim tomou vários dias para a conclusão.  Nos meus calculos
+levou mais ou menos 2 dias só meus e uns 3 dias meus e de outro
+desenvolvedor, isso contando os problemas de merge e etc. Portanto
+acho que em 1 semana é possível migrar uma aplicação bem coberta por
+testes sem grandes problemas e sem precisar parar a sua equipe inteira
+por um grande período. Escolha aquela semana com um feriado e atualize
+sua aplicação. :)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Diego Carrion, Willian Fernandes | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Linux, Vim, Screen e Pair programming!</title>
+      <link>https://pothix.com/post/linux-vim-screen-e-pair-programming/</link>
+      <pubDate>Mon, 29 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/linux-vim-screen-e-pair-programming/</guid>
+      <description>
+
+&lt;p&gt;Aqui estou eu mais uma vez para falar mais uma das maluquices que eu
+fiz um bom tempo atrás mas não tive tempo de postar.&lt;/p&gt;
+
+&lt;p&gt;Primeiramente eu vou falar o que muita gente já falou muito bem, que é
+sobre screen e pair programming. Mas vou dizer como funcionou para mim.
+Alguns posts que eu li antes e depois de começar a brincar com screen e
+pair programming, e que eu gostei:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.caikesouza.com/blog/2009/05/remote-pair-programming-with-screen/&#34;&gt;Post do Caike sobre Pair programming remoto usando screen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://qmx.me/pair%20programming&#34;&gt;Post do Qmx sobre pair programming usando screen&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Primeiramente vamos começar com umas dicas do post do caike:&lt;/p&gt;
+
+&lt;p&gt;Para mim foi necessário alterar as permissões do Screen:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo chmod +s /usr/bin/screen
+sudo chmod 775 /var/run/screen
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Agora é só seguir a velha receita dos dois posts:&lt;/p&gt;
+
+&lt;p&gt;Primeiro usuário:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;O primeiro usuário acessa o computador host via ssh&lt;/li&gt;
+&lt;li&gt;executa o comando &lt;strong&gt;screen -S nomedoscreen&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Segundo usuário:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Acessa o servidor com o mesmo nome de usuário/senha do primeiro&lt;/li&gt;
+&lt;li&gt;executa screen -x&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pronto! As duas pessoas estão compartilhando a mesma tela agora e podem
+usar o Vim para programar (claro, qual outro editor seria, não!?).&lt;/p&gt;
+
+&lt;p&gt;Nunca consegui utilizar o screen multiusuário (como mencionado no post
+do caike) mas isso não é um grande problema. :)&lt;/p&gt;
+
+&lt;h4 id=&#34;como-eu-usei&#34;&gt;Como eu usei&lt;/h4&gt;
+
+&lt;p&gt;Primeiramente fiz um pair programming normal com o &lt;a href=&#34;http://twitter.com/mateuslinhares&#34;&gt;@mateuslinhares&lt;/a&gt;,
+onde nós dois ficavamos no mesmo screen conversando (estavamos há menos
+de 2 metros de distância), e cada um com seu teclado, podendo intervir a
+qualquer momento. Isso foi legal por que não precisávamos ficar
+dividindo espaço de um mesmo monitor ou de um mesmo teclado, e ainda
+driblava outros problemas que tínhamos na época.&lt;/p&gt;
+
+&lt;h4 id=&#34;uma-nova-idéia&#34;&gt;Uma nova idéia&lt;/h4&gt;
+
+&lt;p&gt;Na época desse pair programming estavamos com uma task grande e
+trabalhosa, mas podia ser feita individualmente, e provavelmente seria
+mais produtiva do que em pair programming, mas tinha uma particularidade
+muito interessante. Cada um de nós conhecia melhor uma parte do sistema,
+portanto, se mantivessemos contato contínuo isso ia acelerar o trabalho,
+pois precisávamos alterar/retirar algumas coisas que podiam ou não ser
+importantes para o sistema como um todo. Levando tudo isso em conta me
+surgiu uma idéia:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Por que não fazer tudo com um “semi pair programming”, onde cada um
+trabalhava no seu computador mas visualizando a tela do outro em um
+split.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Tanto eu como o @mateuslinhares estamos acostumados a separar o nosso
+vim em vários splits verticais e horizontais, ou seja, um split vertical
+do screen não seria o problema.&lt;/p&gt;
+
+&lt;h4 id=&#34;o-que-fizemos&#34;&gt;O que fizemos&lt;/h4&gt;
+
+&lt;p&gt;Decidimos então seguir o seguinte script:&lt;/p&gt;
+
+&lt;p&gt;Setup das duas maquinas:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Vim&lt;/li&gt;
+&lt;li&gt;Screen&lt;/li&gt;
+&lt;li&gt;Um usuário em comum&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&#34;pothix&#34;&gt;PotHix :&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;com o usuário compartilhado executa um &lt;strong&gt;screen -S pothix&lt;/strong&gt; na sua maquina&lt;/li&gt;
+&lt;li&gt;Abre um novo split no screen com o comando &lt;strong&gt;ctrl+a s&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Nesse novo split acessa a maquina do Mateus e executa &lt;strong&gt;screen -x&lt;/strong&gt; para acessar o screen que o @mateuslinhares criou na maquina dele&lt;/li&gt;
+&lt;li&gt;Volta para o split anterior e trabalha normalmente&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&#34;mateuslinhares&#34;&gt;@mateuslinhares&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;com o usuário compartilhado executa um &lt;strong&gt;screen -S mateuslinhares&lt;/strong&gt; na sua maquina&lt;/li&gt;
+&lt;li&gt;Abre um novo split no screen com o comando &lt;strong&gt;ctrl+a s&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Nesse novo split acessa a maquina do Mateus e executa &lt;strong&gt;screen -x&lt;/strong&gt; para acessar o screen que o PotHix criou na maquina dele&lt;/li&gt;
+&lt;li&gt;Volta para o split anterior e trabalha normalmente&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Seguindo esse script teremos os 2 utilizando um screen com um split,
+sendo que um split é para seu trabalho local e no outro você pode
+acompanhar e dar pitacos no trabalho do seu comparsa! :)&lt;/p&gt;
+
+&lt;h4 id=&#34;benefícios&#34;&gt;Benefícios&lt;/h4&gt;
+
+&lt;p&gt;No caso dessa nossa task isso resolveu muito o nosso problema, por que
+conseguimos trabalhar em locais distintos mas sempre em constante
+comunicação, o que sempre trazia alguns comentários como:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;PotHix&lt;/strong&gt;: Ow… Não tira isso aí não por que vai quebrar tal parada.&lt;/p&gt;
+
+&lt;p&gt;ou então:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mateuslinhares&lt;/strong&gt;: Cara… Olha isso aqui no screen, dá para fazer na sua
+parte tambem.&lt;/p&gt;
+
+&lt;h4 id=&#34;conclusão&#34;&gt;Conclusão&lt;/h4&gt;
+
+&lt;p&gt;Para mim foi muito bom e recomendo a todos para tentarem algo do tipo
+quando tiverem chance (a não ser que você use Textmate…nesse caso…boa
+sorte! :P)! A unica coisa que eu recomendo é utilizar 2 monitores, assim
+você pode deixar a tela do seu comparsa no outro monitor (divida os
+monitores verticalmente) e trabalhar com vários splits no seu monitor. :)&lt;/p&gt;
+
+&lt;p&gt;É totalmente possível trabalhar com 1 monitor apenas (foi assim
+que trabalhamos) mas você obviamente perde um pouco de espaço.&lt;/p&gt;
+
+&lt;p&gt;Espero que essas informações sejam úteis para mais alguém.&lt;/p&gt;
+
+&lt;p&gt;Qualquer dúvida ou sugestão deixe nos comentários. :)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Willian Fernandes, Luciano Sousa, caike | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

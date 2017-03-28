@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rubylearning on PotHix</title>
+    <link>https://pothix.com/tags/rubylearning/index.xml</link>
+    <description>Recent content in Rubylearning on PotHix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
+    <atom:link href="https://pothix.com/tags/rubylearning/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Translated Rubylearning presentation</title>
+      <link>https://pothix.com/post/translated-rubylearning-presentation/</link>
+      <pubDate>Fri, 10 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/translated-rubylearning-presentation/</guid>
+      <description>
+
+&lt;p&gt;As I promised, here goes my presentation! :)&lt;/p&gt;
+
+&lt;p&gt;Finally i finished to translate all the presentation! Watched the
+video a lot of times, pausing and playing to write all I said
+translating to english. :)&lt;/p&gt;
+
+&lt;p&gt;Fortunately I had a big help from my friend
+&lt;a href=&#34;http://vgoff.blogspot.com/&#34; title=&#34;The Red Gem of programming&#34;&gt;Victor Goff&lt;/a&gt;,
+that corrected all my grammar errors and typos.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m posting below all i have about the presentation, slides from
+&lt;a href=&#34;http://www.slideshare.net/PotHix/what-is-and-how-does-work-rubylearningorg-1257258&#34; title=&#34;Presentation at Slideshare&#34;&gt;Slideshare&lt;/a&gt;
+and a translation pasted here, but you can find the
+&lt;a href=&#34;http://docs.google.com/Doc?id=dgd96k6n_45fkh4q5g9&#34; title=&#34;Translated Speach at Google Docs&#34;&gt;translation at Google Docs&lt;/a&gt; too. &lt;strong&gt;Enjoy!&lt;/strong&gt; :D&lt;/p&gt;
+
+&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/ftgGS74G9EZF6F&#34; width=&#34;425&#34; height=&#34;355&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&#34;first-words&#34;&gt;&lt;strong&gt;First Words&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;My name is Willian Molinari as Marcelo said, I participated of 3rd
+Batch of Rubylearning at the beginning of the last year. Since the
+finish of the course I was an Assistant Teacher, and i&amp;rsquo;m a Mentor
+since the beginning of this year.  I attempt to show to you a bit of
+what Rubylearning is and how does it work, what is the course idea.
+It is a short presentation, you will see that I&amp;rsquo;ll &amp;ldquo;run&amp;rdquo; with the
+content, but the presentation idea is to show you a bit of what
+RubyLearning courses are.&lt;/p&gt;
+
+&lt;h3 id=&#34;slide1&#34;&gt;&lt;strong&gt;Slide1&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Fist, lets start with &amp;ldquo;What is Rubylearning?&amp;rdquo; The course itself is
+Rubylearning.org, and Rubylearning is divided into Blog, Website and
+courses.
+Blog is where Satish post some of his interviews with Ruby community
+guys like Matt of Merb project or Dr. Nic. And on blog have other cool
+posts too.
+On Website Satish maintain a Ruby tutorial, a Ruby Book and post other ruby
+contents.&lt;/p&gt;
+
+&lt;p&gt;And on Rubylearning.org the course happens.&lt;/p&gt;
+
+&lt;h3 id=&#34;slide2&#34;&gt;&lt;strong&gt;Slide2&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;To answer the question &amp;ldquo;What is Rubyleraning.org&amp;rdquo; I was helped by the other
+teachers of Rubylearning. One of the good answers was made by George
+Thompson, this guy that you see in the large photo. After telling a
+funny joke, saying that Rubylearning is for everything since it will &amp;ldquo;allow you to grow wings to fly&amp;rdquo; and will &amp;ldquo;help you in the bedroom&amp;rdquo;
+He gives these topics to speak about.
+The first thing is that Rubylearning is for everyone that has an interest in
+Ruby, if you are a experienced professional, or just learning now, Rubylearning is here to help you.
+It is a framework to your first steps with Ruby, so you will not depend just
+from Google or online tutorials, on Rubylearning you will have more people
+to help you to participate and discuss your answers and so on&amp;hellip;
+Rubylearning is not just for who are starting with Ruby. If you work with
+Ruby for a long time, you can participate to help the students that are
+starting, returning to the community what you received. And you can participate
+with other Rubylearning intermediate courses (Rubylearning doesn&amp;rsquo;t have just
+the Core course, we have other courses for those who already have
+knowledge of Ruby)
+And of course&amp;hellip;Rubylearning is a place to have fun! To code for fun, to
+know different people of other countries, or maybe of your country, and you
+didn&amp;rsquo;t know that this person was programming on this language.&lt;/p&gt;
+
+&lt;h3 id=&#34;slide3&#34;&gt;Slide3&lt;/h3&gt;
+
+&lt;p&gt;Rubyleraning is based on Moodle, as you can see, the image is strange
+here, but the first screenshot is the screen after you sign up, and you
+can see all the courses that you can subscribe to, and below you can see the
+screen inside the course, all the material is divided by blocks, the forums and so on.&lt;/p&gt;
+
+&lt;h3 id=&#34;slide4&#34;&gt;Slide4&lt;/h3&gt;
+
+&lt;p&gt;More interesting informations about Rubylearning:&lt;/p&gt;
+
+&lt;p&gt;We are the declared winner of shorty awards in education category.
+Unfortunately we couldn&amp;rsquo;t participate of ceremony in USA because only Satish
+can participate in the ceremony, and the price to travel from India (Satish is Indian) to USA could not cover the
+costs&amp;hellip;But anyway, we are the winners!&lt;/p&gt;
+
+&lt;p&gt;The number of participants get over 7200 mark, and maybe now we already pass
+the 7500 mark, because this information is from 1 month ago, more or less.&lt;/p&gt;
+
+&lt;p&gt;Another cool thing, more than 40% of Rubylearning participants are from
+Brazil, so you don&amp;rsquo;t have arguments to say: &amp;ldquo;I can&amp;rsquo;t participate, because
+the course have people that from other countries and i don&amp;rsquo;t speak english
+very well&amp;rdquo;, because always you will find a Brazillian to help you there.&lt;/p&gt;
+
+&lt;h3 id=&#34;slide5&#34;&gt;Slide5&lt;/h3&gt;
+
+&lt;p&gt;And who is the main teacher? Who is behind Rubylearning?&lt;/p&gt;
+
+&lt;h3 id=&#34;slide6&#34;&gt;Slide6&lt;/h3&gt;
+
+&lt;p&gt;Satish Talim, as I said, lives in India. He is a programmer, teacher,
+consultant, working on some companies at India and USA, is speaker and has
+more than 30 years of experience with I.T. He has these two domains:
+Rubylearning.org and rubylearning.com. On .org domain we have the course
+and on Rubylearning.com is his site. And he have a personal website domain, too.&lt;/p&gt;
+
+&lt;h3 id=&#34;slide7&#34;&gt;Slide7&lt;/h3&gt;
+
+&lt;p&gt;Ok, if Satish is behind Rubylearning, who are these guys that help on
+forums? So&amp;hellip; I asked to Satish by e-mail, because I didn&amp;rsquo;t know about how he divide us.
+The assistant teachers are people that come from the core course and
+enjoyed the course, so they are invited to help, and whomever accept comes as
+assistant teachers of the next core course to help on foruns, answering the
+students that are having doubts and helping on other things.&lt;/p&gt;
+
+&lt;p&gt;Mentors are experieced professionals that are working with I.T for a long
+time and more time on Rubylearning, too. They help not only on Core course,
+but on the other courses ( intermediate courses ) too.
+The Patrons, this guys are on Rubylearning since rubylearning is coming to
+be international, on the 2nd batch more or less, on the last months of
+2007, and they have more time on rubylearning, so the way that Satish has
+to classify teacher is time on rubylearning.&lt;/p&gt;
+
+&lt;h3 id=&#34;slide8&#34;&gt;Slide8&lt;/h3&gt;
+
+&lt;p&gt;For who is this course appropriate? Well&amp;hellip; Our focus is the people
+that already know something about programming, some other language and
+wants to know Ruby, and not those people that do not know how to
+program and want to learn on Rubylearning, This is not our focus. Our
+focus is to teach Ruby for who those have a notion about programming.&lt;/p&gt;
+
+&lt;h3 id=&#34;slide9&#34;&gt;Slide9&lt;/h3&gt;
+
+&lt;p&gt;How does Rubylearning work? Well&amp;hellip;The course is slotted into weekly study
+material blocks. Every Saturday, Satish posts different sudy material with
+important notes, so you can review quickly all you already read; Some
+exercises, 10 or 5 exercises depending on how extensive is the material,
+for you to solve and post on forums, to view the answers of teachers too.&lt;/p&gt;
+
+&lt;p&gt;For example, you have a method and you are using return to return the
+variable on the PHP style for example, but can be other language, so
+somebody replies to you saying that you don&amp;rsquo;t need to specify this
+return because the Ruby language returns the last statement by
+default, and so on&amp;hellip;  The Quiz, is for your own benefit, so you can
+see if you learn all the content.&lt;/p&gt;
+
+&lt;p&gt;And the Extras! The extras take to you some good material as links to good
+content, a screencast related to the weekly study material, and others!&lt;/p&gt;
+
+&lt;h3 id=&#34;slide10&#34;&gt;Slide10&lt;/h3&gt;
+
+&lt;p&gt;How do quizzes work? As i said, Quiz is for your own benefit. A lot of
+people are questioning me about the importance of quizzes on the course
+participation, &amp;ldquo;if we don&amp;rsquo;t answer the quiz, are we kicked out of the
+course&amp;rdquo; or we don&amp;rsquo;t receive the certificate. The quiz idea is auto-validation,
+so after you read all the content, you will know with the quiz if you really
+learn all you need to learn about that content, if you got a good result
+with the quiz, you probably really learned this weeks content.&lt;/p&gt;
+
+&lt;h3 id=&#34;slide11&#34;&gt;Slide11&lt;/h3&gt;
+
+&lt;p&gt;Is necessary be active on Foruns? Humm&amp;hellip;Yes! The main focus of
+Rubylearning is the participation of everybody, so, if you really want to
+get the best of the course you must to post your exercise answers, to
+receive from more experienced people feedback about your solution. If you
+don&amp;rsquo;t participate so much.. it&amp;rsquo;s okay too&amp;hellip;You just lost the chance to learn more and
+more.&lt;/p&gt;
+
+&lt;h3 id=&#34;slide12&#34;&gt;Slide12&lt;/h3&gt;
+
+&lt;p&gt;This is one of the things that everybody speaks about&amp;hellip;&amp;ldquo;Ohhh&amp;hellip;The course
+is in english, from India, i will talk nonsense words, i don&amp;rsquo;t speak
+english, my english is bad&amp;rdquo;&amp;hellip;Humm&amp;hellip;My personal English, i&amp;rsquo;m a assistant
+teacher, is not so good, but i can communicate with others! If you can
+communicate with other people is good enough! You will read and understand
+the content and post your code on forums, if you are not comfortable to
+write english, you can just post your code, somebody will reply to you, you
+will understand the reply and it is good enough to your learning. If you
+can talk is really better, because you can help on discussions, but the
+english is not a big barrier to participate of Rubylearning.&lt;/p&gt;
+
+&lt;h3 id=&#34;slide13&#34;&gt;Slide13&lt;/h3&gt;
+
+&lt;p&gt;How is the course pace? As i said, Satish does weekly content posts on
+forums&amp;hellip;Not forums&amp;hellip;the study materials. You don&amp;rsquo;t need to follow this
+weekly pace, if you decide to view all the course in the last week you can,
+but we recommend you to follow weekly because you can talk with other
+people that are studying the same lesson and you have more focus on your
+studies making it easy to learn different things.&lt;/p&gt;
+
+&lt;h3 id=&#34;slide14&#34;&gt;Slide14&lt;/h3&gt;
+
+&lt;p&gt;What topics the course cover? Well&amp;hellip;We cover all the Beginning with Ruby,
+from Ruby installation through&amp;hellip;&lt;/p&gt;
+
+&lt;h3 id=&#34;slide16&#34;&gt;Slide16&lt;/h3&gt;
+
+&lt;p&gt;basic classes like numbers, blocks, variable scopes, constants, methods,
+manipulation of text files, Regular Expressions, but only the basis of
+Regular Expressions, how to work with RE with Ruby, working with classes,
+inheritance, exceptions&amp;hellip; We can&amp;rsquo;t cover tests (the Ruby test/Unit class)
+on the core course just a bit of it, we want to create a course just to
+cover test/unit itself, so it is not a core part of Ruby in this course.&lt;/p&gt;
+
+&lt;h3 id=&#34;slide17&#34;&gt;Slide17&lt;/h3&gt;
+
+&lt;p&gt;Other questions that are often made to me when I recommend Rubylearning
+couse is: &amp;ldquo;I will receive a certificate?&amp;rdquo;. The important thing on the
+Rubylearning course is how much you can learn with the course, the
+certificate is not the course focus, but&amp;hellip;The answer is YES!&lt;/p&gt;
+
+&lt;h3 id=&#34;slide18&#34;&gt;Slide18&lt;/h3&gt;
+
+&lt;p&gt;This is my certificate from 3rd Batch that i participated, really
+beautiful, signed by Satish, you receive in PDF, is not received in paper,
+but you can print and store.&lt;/p&gt;
+
+&lt;h3 id=&#34;slide19&#34;&gt;Slide19&lt;/h3&gt;
+
+&lt;p&gt;As i said, Rubylearning is not made of only the Core course, we have a
+lot of other courses that we call the &amp;ldquo;Intermediate courses&amp;rdquo;, and is
+appropriate to who that already have a notion of what is Ruby core, if you
+know core, you can move on to these other courses.&lt;/p&gt;
+
+&lt;h3 id=&#34;slide20&#34;&gt;Slide20&lt;/h3&gt;
+
+&lt;p&gt;The merb course, now merb team are joining Rails team, maybe this course
+will be extinct, but this is one of our courses for now.
+Git / GitHub is a course of one week. Git is not directly connected with
+ruby, but all the Ruby community are using it, so we decided to prepare
+a course about it.
+Ruby with database, using MySql and sqlite, you learn on how to use
+activerecord to manipulate a database from a script Ruby.
+FXRuby as Marcelo said in another speech.
+Sinatra for web development, maybe will get the Merb course place, because
+Merb and Rails will be one.
+Shoes, as Marcelo said too, for Desktop development, very interesting.
+Ruby and Twitter, is a course that will be released now, i don&amp;rsquo;t know when
+it will start, maybe april 14th or 16th, for who those already have a ruby
+knowledge, will be very interesting. They will show how to play with
+&amp;ldquo;Twitter API&amp;rdquo; and make some interesting things with it.
+And Rails 3, Satish promised that when Rails 3 is comming out he will
+create a course about it to everybody.&lt;/p&gt;
+
+&lt;h3 id=&#34;slide21&#34;&gt;Slide21&lt;/h3&gt;
+
+&lt;p&gt;This is some screenshots of shoes course. The application of the screenshot
+on the Right was made by Satoshi, that was the main teacher of Rubylearning
+shoes course, and is is a clock that show all the assistant teachers and
+mentors timezone on the world, all teacher have a photo placed on with their
+timezone.
+I asked Satoshi to send a message to all of you, and he sent to me a
+message with a &amp;ldquo;Google translation&amp;rdquo; Phrase in portuguese saying &amp;ldquo;Oi todo
+mundo&amp;rdquo; that probably is &amp;ldquo;hello everybody&amp;rdquo;, and he says that you don&amp;rsquo;t need
+to care about your english because we can communicate with Ruby, and he
+wants to see you on Rubylearning Forums. Here you can see other screenshot
+of a little game that they do with shoes, each student have your own game,
+you can see a &amp;ldquo;questions and answers&amp;rdquo; game on the next screenshot. Very
+interesting and a lot of fun!&lt;/p&gt;
+
+&lt;h3 id=&#34;slide22&#34;&gt;Slide22&lt;/h3&gt;
+
+&lt;p&gt;Here you have a message from Satish Talim, i asked to him to send one, and
+he is saying thanks to all Brazilian friends, Locaweb and Fabio Akita,
+that are sponsors of the course, the locaweb is a Sponsor of the core
+course, and saying thanks to you that are helping to spreading ruby around
+the world.&lt;/p&gt;
+
+&lt;h3 id=&#34;slide23-questions&#34;&gt;Slide23 - Questions&lt;/h3&gt;
+
+&lt;p&gt;My presentation idea is to be very quick, just to show to you a bit of
+what is Rubylearning and how you can participate, what you will learn and
+so on&amp;hellip;
+Somebody have some question?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hugo:&lt;/strong&gt; This courses that you show, all of them are free? Or have some paid
+courses too?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Willian:&lt;/strong&gt; Yes, the core course is free. The other courses you need to pay to
+get in, but the cost is very low, something like 5 dollars, 3 or 5 dollars,
+just to maintain the website, Satish put a lot of his time on Rubylearning,
+so he need a way to maintain all of this, and he is making it with this
+paid courses and some sponsors, but is not high price, just 3 or 5 dollars
+with paypal.&lt;/p&gt;
+
+&lt;p&gt;Some other question? I trampled some content because I have little time.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Marcelo:&lt;/strong&gt; Lets thank Willian, no more questions now&amp;hellip;&lt;/p&gt;
+
+&lt;h3 id=&#34;slide23&#34;&gt;slide23&lt;/h3&gt;
+
+&lt;p&gt;Thanks! =)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Bruno Croci, Andres Pereira, CrociDB, Carlan Calazans, Elden Lickfelt | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Aprenda Ruby no Rubylearning</title>
+      <link>https://pothix.com/post/aprenda-ruby-no-rubylearning/</link>
+      <pubDate>Fri, 07 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/post/aprenda-ruby-no-rubylearning/</guid>
+      <description>
+
+&lt;p&gt;Como muitos sabem, eu sou um dos professores assistentes do
+&lt;a href=&#34;http://rubylearning.org/class&#34;&gt;Rubylearning.org&lt;/a&gt; que oferece
+&lt;strong&gt;gratuitamente&lt;/strong&gt; cursos de ruby!&lt;/p&gt;
+
+&lt;p&gt;O &lt;a href=&#34;http://www.workingwithrails.com/person/6778-satish-talim&#34;&gt;Satish Talim&lt;/a&gt;
+anunciou que estão abertas as inscrições para o FORPC101-9C ( Free
+Online Ruby Programming Course 101 - Batch 9 Core) que é a série de
+cursos gratuitos sobre Ruby Core.&lt;/p&gt;
+
+&lt;p&gt;Aconselho todos que querem aprender Ruby a participarem! Não se
+preocupe muito com seu inglês, ele não precisa estar extremamente
+afiado para você participar, basta que você consiga entender bem para
+que você participe, e caso não consiga escrever bem o pessoal pode
+ajudar você a se expressar para conseguir ajuda nos Foruns!&lt;/p&gt;
+
+&lt;p&gt;Eu (&lt;a href=&#34;http://rubylearning.com/satishtalim/ruby_course_graduates.html&#34;&gt;assim como muitos&lt;/a&gt;)
+recomendo! E estarei por lá para dar uma força a quem precisar.&lt;/p&gt;
+
+&lt;p&gt;Para quem se interessar, o Rubylearning tambem oferece alguns cursos
+pagos (seguindo a mesma linha dos gratuitos):&lt;/p&gt;
+
+&lt;h3 id=&#34;poirpwdc101-1i-paid-online-intermediate-ruby-programming-with-database-course&#34;&gt;POIRPWDC101-1I: Paid Online Intermediate Ruby Programming With Database Course&lt;/h3&gt;
+
+&lt;p&gt;Como o nome mesmo diz, é um curso intermediário de Ruby voltado a
+banco de dados! É um curso pequeno tendo como conteúdo FXRuby, YAML e
+Active Record com MySql!&lt;/p&gt;
+
+&lt;h3 id=&#34;poirpwsc101-1i-paid-online-intermediate-ruby-programming-with-shoes-course&#34;&gt;POIRPWSC101-1I: Paid Online Intermediate Ruby Programming With Shoes Course&lt;/h3&gt;
+
+&lt;p&gt;Esse é um curso que terá como mentor o
+&lt;a href=&#34;http://www.twitter.com/ashbb&#34;&gt;Satoshi Asakawa&lt;/a&gt; e terá o como conteúdo uma
+introdução ao Shoes com exemplos e exercícios para fazer! O Satoshi
+está indo longe com o Shoes e foi até
+&lt;a href=&#34;http://newwws.shoooes.net/2008/09/27/the-ashbb-shoes-class.html&#34;&gt;citado pelo _why&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h3 id=&#34;poirpc101-paid-online-intermediate-ruby-programming-course&#34;&gt;POIRPC101: Paid Online Intermediate Ruby Programming Course&lt;/h3&gt;
+
+&lt;p&gt;Curso intermediário de Ruby, sendo o conteúdo: YAML, FXRuby, Unit Testing, Socket Programming  e Threads.&lt;/p&gt;
+
+&lt;h3 id=&#34;pojrpc101-paid-online-jruby-programming-course&#34;&gt;POJRPC101: Paid Online JRuby Programming Course&lt;/h3&gt;
+
+&lt;p&gt;Curso abordando um pouco sobre JRuby, mostrando como usar o Jruby em
+si, como usar as Classes Java, Programadores Java usando Classes Ruby
+e ActiveRecord com JDBC.&lt;/p&gt;
+
+&lt;p&gt;Não se preocupem com os preços dos cursos do Rubylearning, pois são
+valores simbólicos, geralmente o Satish cobra entre 5 a 10 dólares
+pelo PayPal, portanto vale a pena para se manter conectado com o
+pessoal que está aprendendo, tendo acesso a material, a fórum e etc.&lt;/p&gt;
+
+&lt;p&gt;Os cursos realmente valem a pena! Caso não queira fazer os cursos
+pagos então faça ao menos o gratuito sobre o Core que é muito útil
+para conhecer mais sobre o Ruby, e se gostar pode pensar nos pagos.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
