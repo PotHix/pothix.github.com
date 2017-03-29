@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on PotHix</title>
-    <link>https://pothix.com/tags/git/index.xml</link>
+    <link>http://pothix.com/tags/git/index.xml</link>
     <description>Recent content in Git on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="https://pothix.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pothix.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Usando Git em projetos do Google Code</title>
-      <link>https://pothix.com/post/usando-git-em-projetos-do-google-code/</link>
+      <link>http://pothix.com/post/usando-git-em-projetos-do-google-code/</link>
       <pubDate>Mon, 11 May 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/usando-git-em-projetos-do-google-code/</guid>
+      <guid>http://pothix.com/post/usando-git-em-projetos-do-google-code/</guid>
       <description>&lt;p&gt;Resolvi escrever esse post depois de começar a contribuir para o
 projeto do
 &lt;a href=&#34;http://code.google.com/p/vimbook&#34; title=&#34;Projeto do VimmBook no Google Code&#34;&gt;vimbook&lt;/a&gt;,

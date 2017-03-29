@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rubylearning on PotHix</title>
-    <link>https://pothix.com/tags/rubylearning/index.xml</link>
+    <link>http://pothix.com/tags/rubylearning/index.xml</link>
     <description>Recent content in Rubylearning on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="https://pothix.com/tags/rubylearning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pothix.com/tags/rubylearning/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Translated Rubylearning presentation</title>
-      <link>https://pothix.com/post/translated-rubylearning-presentation/</link>
+      <link>http://pothix.com/post/translated-rubylearning-presentation/</link>
       <pubDate>Fri, 10 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/translated-rubylearning-presentation/</guid>
+      <guid>http://pothix.com/post/translated-rubylearning-presentation/</guid>
       <description>
 
 &lt;p&gt;As I promised, here goes my presentation! :)&lt;/p&gt;
@@ -309,10 +309,10 @@ with paypal.&lt;/p&gt;
     
     <item>
       <title>Aprenda Ruby no Rubylearning</title>
-      <link>https://pothix.com/post/aprenda-ruby-no-rubylearning/</link>
+      <link>http://pothix.com/post/aprenda-ruby-no-rubylearning/</link>
       <pubDate>Fri, 07 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/aprenda-ruby-no-rubylearning/</guid>
+      <guid>http://pothix.com/post/aprenda-ruby-no-rubylearning/</guid>
       <description>
 
 &lt;p&gt;Como muitos sabem, eu sou um dos professores assistentes do

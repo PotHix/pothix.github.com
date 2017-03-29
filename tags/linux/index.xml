@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on PotHix</title>
-    <link>https://pothix.com/tags/linux/index.xml</link>
+    <link>http://pothix.com/tags/linux/index.xml</link>
     <description>Recent content in Linux on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="https://pothix.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pothix.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Kernel compiling</title>
-      <link>https://pothix.com/post/kernel-compiling/</link>
+      <link>http://pothix.com/post/kernel-compiling/</link>
       <pubDate>Mon, 23 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/kernel-compiling/</guid>
+      <guid>http://pothix.com/post/kernel-compiling/</guid>
       <description>
 
 &lt;p&gt;Since I bought an Acer notebook to use Linux again (I sold my mac, I
@@ -176,10 +176,10 @@ process I think that I learned a lot, so it is worth it.&lt;/p&gt;
     
     <item>
       <title>Menos mac e mais Linux</title>
-      <link>https://pothix.com/post/menos-mac-e-mais-linux/</link>
+      <link>http://pothix.com/post/menos-mac-e-mais-linux/</link>
       <pubDate>Thu, 19 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/menos-mac-e-mais-linux/</guid>
+      <guid>http://pothix.com/post/menos-mac-e-mais-linux/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;TL; DR&lt;/strong&gt; Usei mac por mais de 6 meses e decidi voltar ao Linux. Na minha opinião
@@ -313,10 +313,10 @@ de frutinha. :P&lt;/p&gt;
     
     <item>
       <title>Simlinks for ruby on Debian Squeeze</title>
-      <link>https://pothix.com/post/simlinks-for-ruby-on-debian-squeeze/</link>
+      <link>http://pothix.com/post/simlinks-for-ruby-on-debian-squeeze/</link>
       <pubDate>Tue, 17 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/simlinks-for-ruby-on-debian-squeeze/</guid>
+      <guid>http://pothix.com/post/simlinks-for-ruby-on-debian-squeeze/</guid>
       <description>&lt;p&gt;Every time we need to deploy a new Ruby application on top of Debian Squeeze
 we need to fix some Ruby depedencies to make the application work as it should.&lt;/p&gt;
 
@@ -339,10 +339,10 @@ ln -s /usr/bin/gem1.9.1 /usr/bin/gem
     
     <item>
       <title>Linux, Vim, Screen e Pair programming!</title>
-      <link>https://pothix.com/post/linux-vim-screen-e-pair-programming/</link>
+      <link>http://pothix.com/post/linux-vim-screen-e-pair-programming/</link>
       <pubDate>Mon, 29 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/linux-vim-screen-e-pair-programming/</guid>
+      <guid>http://pothix.com/post/linux-vim-screen-e-pair-programming/</guid>
       <description>
 
 &lt;p&gt;Aqui estou eu mais uma vez para falar mais uma das maluquices que eu
@@ -486,10 +486,10 @@ que trabalhamos) mas você obviamente perde um pouco de espaço.&lt;/p&gt;
     
     <item>
       <title>Palestra sobre Vim</title>
-      <link>https://pothix.com/post/palestra-sobre-vim/</link>
+      <link>http://pothix.com/post/palestra-sobre-vim/</link>
       <pubDate>Mon, 29 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/palestra-sobre-vim/</guid>
+      <guid>http://pothix.com/post/palestra-sobre-vim/</guid>
       <description>&lt;p&gt;Esse vai ser um post curto, apenas para deixar registrado algumas
 informações sobre a palestra de Vim que teve no sétimo encontro do
 Guru-sp (sim, eu fui o palestrante :D).&lt;/p&gt;
@@ -527,10 +527,10 @@ Hugo!), e portanto temos o vídeo tambem:&lt;/p&gt;
     
     <item>
       <title>Campus Party 2010</title>
-      <link>https://pothix.com/post/campus-party-2010/</link>
+      <link>http://pothix.com/post/campus-party-2010/</link>
       <pubDate>Tue, 02 Feb 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/campus-party-2010/</guid>
+      <guid>http://pothix.com/post/campus-party-2010/</guid>
       <description>
 
 &lt;p&gt;Esse começo de ano eu estou aproveitando para participar de alguns
@@ -643,10 +643,10 @@ precisa &amp;ldquo;entrar na brincadeira&amp;rdquo; e aproveitar. ;)&lt;/p&gt;
     
     <item>
       <title>Instalando o Allegro 4.2.2 no Linux x86</title>
-      <link>https://pothix.com/post/instalando-o-allegro-4-2-2-no-linux-x86/</link>
+      <link>http://pothix.com/post/instalando-o-allegro-4-2-2-no-linux-x86/</link>
       <pubDate>Wed, 12 Aug 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/instalando-o-allegro-4-2-2-no-linux-x86/</guid>
+      <guid>http://pothix.com/post/instalando-o-allegro-4-2-2-no-linux-x86/</guid>
       <description>&lt;p&gt;Como mencionei no
 &lt;a href=&#34;http://pothix.com/blog/development/gamejam&#34; title=&#34;Post sobre o GameJam&#34;&gt;meu ultimo post&lt;/a&gt;
 eu parcicipei do GameJam do Itaú cultural e desenvolvi um jogo com
@@ -719,10 +719,10 @@ rodar o meu jogo normalmente. :)&lt;/p&gt;
     
     <item>
       <title>Como desabilitar o beep no Ubuntu</title>
-      <link>https://pothix.com/post/como-desabilitar-o-beep-no-ubuntu/</link>
+      <link>http://pothix.com/post/como-desabilitar-o-beep-no-ubuntu/</link>
       <pubDate>Thu, 09 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/como-desabilitar-o-beep-no-ubuntu/</guid>
+      <guid>http://pothix.com/post/como-desabilitar-o-beep-no-ubuntu/</guid>
       <description>&lt;p&gt;Resolvi postar sobre isso por que é uma coisa tão simples mas irrita
 muito quando você não sabe como desabilitar, e sempre que eu procurava
 eu caia em fóruns com vários comandos bizarros e colocar algo
@@ -761,10 +761,10 @@ emitindo beeps supostamente benéficos para vc! :P&lt;/p&gt;
     
     <item>
       <title>Instalando modem 3G Claro USB E226 no Ubuntu</title>
-      <link>https://pothix.com/post/instalando-modem-3g-claro-usb-e226-no-ubuntu/</link>
+      <link>http://pothix.com/post/instalando-modem-3g-claro-usb-e226-no-ubuntu/</link>
       <pubDate>Sat, 13 Jun 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/instalando-modem-3g-claro-usb-e226-no-ubuntu/</guid>
+      <guid>http://pothix.com/post/instalando-modem-3g-claro-usb-e226-no-ubuntu/</guid>
       <description>&lt;p&gt;Após receber um modem Claro da &lt;a href=&#34;http://www.ikwa.com.br&#34; title=&#34;Ikwa Orientação Profissional&#34;&gt;empresa que eu trabalho atualmente&lt;/a&gt;
 eu fui fazer o processo de instalação no Ubuntu. Já tinha recebido a
 informação de um &lt;a href=&#34;http://github.com/mateuslinhares&#34;&gt;colega de trabalho&lt;/a&gt;
@@ -806,10 +806,10 @@ para &lt;strong&gt;208.67.222.222, 208.67.220.220&lt;/strong&gt;.&lt;/p&gt;
     
     <item>
       <title>Configurando seu Gtalk do Google Apps no Pidgin</title>
-      <link>https://pothix.com/post/configurando-seu-gtalk-do-google-apps-no-pidgin/</link>
+      <link>http://pothix.com/post/configurando-seu-gtalk-do-google-apps-no-pidgin/</link>
       <pubDate>Sat, 09 May 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/configurando-seu-gtalk-do-google-apps-no-pidgin/</guid>
+      <guid>http://pothix.com/post/configurando-seu-gtalk-do-google-apps-no-pidgin/</guid>
       <description>&lt;p&gt;Resolvi postar sobre isso depois de passar por 3 empresas que usam o
 &lt;a href=&#34;http://www.google.com/apps/intl/en/business/index.html&#34; title=&#34;Google Apps&#34;&gt;Google Apps for your Domain&lt;/a&gt;
 e eu sempre esbarrar com o maldito probleminha ao se configurar o Pidgin.&lt;/p&gt;
@@ -849,10 +849,10 @@ Google Apps! :)&lt;/p&gt;
     
     <item>
       <title>Ubuntu 9.04</title>
-      <link>https://pothix.com/post/ubuntu-904/</link>
+      <link>http://pothix.com/post/ubuntu-904/</link>
       <pubDate>Wed, 06 May 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/ubuntu-904/</guid>
+      <guid>http://pothix.com/post/ubuntu-904/</guid>
       <description>
 
 &lt;p&gt;Hoje estou aqui para falar um pouco sobre o Ubuntu 9.04! :)&lt;/p&gt;
@@ -937,10 +937,10 @@ gracinhas! :P&lt;/p&gt;
     
     <item>
       <title>DC&#43;&#43; no Linux</title>
-      <link>https://pothix.com/post/dc-no-linux/</link>
+      <link>http://pothix.com/post/dc-no-linux/</link>
       <pubDate>Mon, 09 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/dc-no-linux/</guid>
+      <guid>http://pothix.com/post/dc-no-linux/</guid>
       <description>&lt;p&gt;Hoje finalmente estou conseguindo escrever um post sobre o DC++! Desde
 a &lt;a href=&#34;http://pothix.com/blog/events/campus-party-2009&#34; title=&#34;Campus Party&#34;&gt;Campus Party&lt;/a&gt;
 eu quero escrever esse post mas nunca consigo tempo!&lt;/p&gt;
@@ -1004,10 +1004,10 @@ Party!&lt;/p&gt;
     
     <item>
       <title>Deploying a simple Merb application on Locaweb</title>
-      <link>https://pothix.com/post/deploying-a-simple-merb-application-on-locaweb/</link>
+      <link>http://pothix.com/post/deploying-a-simple-merb-application-on-locaweb/</link>
       <pubDate>Wed, 07 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/deploying-a-simple-merb-application-on-locaweb/</guid>
+      <guid>http://pothix.com/post/deploying-a-simple-merb-application-on-locaweb/</guid>
       <description>&lt;p&gt;I writing this post to help my friends of
 &lt;a href=&#34;http://rubylearning.org/class/&#34; title=&#34;Rubylearning.org&#34;&gt;Rubylearning&lt;/a&gt; with
 a little &lt;a href=&#34;http://merbivore.com/&#34; title=&#34;Merb Official Home Page&#34;&gt;Merb&lt;/a&gt;
@@ -1080,10 +1080,10 @@ pointed by apache with Phusion Passenger.&lt;/p&gt;
     
     <item>
       <title>Configurando seu git para começar a usar</title>
-      <link>https://pothix.com/post/configurando-seu-git-para-comecar-a-usar/</link>
+      <link>http://pothix.com/post/configurando-seu-git-para-comecar-a-usar/</link>
       <pubDate>Sun, 21 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/configurando-seu-git-para-comecar-a-usar/</guid>
+      <guid>http://pothix.com/post/configurando-seu-git-para-comecar-a-usar/</guid>
       <description>&lt;p&gt;Meu ultimo post foi sobre como subir um projeto para o
 &lt;a href=&#34;http://github.com&#34;&gt;GitHub&lt;/a&gt;, mas me veio agora uma vontade
 repentina de falar como deixar seu git legalzinho para começar a criar
@@ -1138,10 +1138,10 @@ legal para começar.&lt;/p&gt;
     
     <item>
       <title>Ir além do básico tambem é gratis</title>
-      <link>https://pothix.com/post/ir-alem-do-basico-tambem-e-gratis/</link>
+      <link>http://pothix.com/post/ir-alem-do-basico-tambem-e-gratis/</link>
       <pubDate>Thu, 11 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/ir-alem-do-basico-tambem-e-gratis/</guid>
+      <guid>http://pothix.com/post/ir-alem-do-basico-tambem-e-gratis/</guid>
       <description>&lt;p&gt;Faz um tempinho que eu estou querendo fazer um post seguindo os moldes
 da campanha do &lt;a href=&#34;http://marcogomes.com/blog/2008/campanha-programar-e-gratis&#34; title=&#34;Programar é Grátis&#34;&gt;Marco Gomes&lt;/a&gt;,
 que também gerou o

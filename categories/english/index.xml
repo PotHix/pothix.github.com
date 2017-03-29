@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>English on PotHix</title>
-    <link>https://pothix.com/categories/english/index.xml</link>
+    <link>http://pothix.com/categories/english/index.xml</link>
     <description>Recent content in English on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="https://pothix.com/categories/english/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pothix.com/categories/english/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Translated Rubylearning presentation</title>
-      <link>https://pothix.com/post/translated-rubylearning-presentation/</link>
+      <link>http://pothix.com/post/translated-rubylearning-presentation/</link>
       <pubDate>Fri, 10 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/translated-rubylearning-presentation/</guid>
+      <guid>http://pothix.com/post/translated-rubylearning-presentation/</guid>
       <description>
 
 &lt;p&gt;As I promised, here goes my presentation! :)&lt;/p&gt;
@@ -309,10 +309,10 @@ with paypal.&lt;/p&gt;
     
     <item>
       <title>New year is coming</title>
-      <link>https://pothix.com/post/new-year-is-coming/</link>
+      <link>http://pothix.com/post/new-year-is-coming/</link>
       <pubDate>Wed, 31 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/new-year-is-coming/</guid>
+      <guid>http://pothix.com/post/new-year-is-coming/</guid>
       <description>&lt;p&gt;Estou apenas postando para dizer que nesse novo ano eu pretendo postar
 mais sobre programação! Essa é a primeira virada de ano desse blog,
 então resolvi postar meus &amp;ldquo;planos&amp;rdquo; para o próximo ano.&lt;/p&gt;
@@ -347,10 +347,10 @@ nos veremos em 2009!&lt;/p&gt;
     
     <item>
       <title>First post in English here</title>
-      <link>https://pothix.com/post/first-post-in-english-here/</link>
+      <link>http://pothix.com/post/first-post-in-english-here/</link>
       <pubDate>Tue, 16 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/first-post-in-english-here/</guid>
+      <guid>http://pothix.com/post/first-post-in-english-here/</guid>
       <description>&lt;p&gt;Hi international friends! :)&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;m just posting to inform that I want to post some content in English

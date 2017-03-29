@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Development on PotHix</title>
-    <link>https://pothix.com/categories/development/index.xml</link>
+    <link>http://pothix.com/categories/development/index.xml</link>
     <description>Recent content in Development on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="https://pothix.com/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pothix.com/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Usando Git em projetos do Google Code</title>
-      <link>https://pothix.com/post/usando-git-em-projetos-do-google-code/</link>
+      <link>http://pothix.com/post/usando-git-em-projetos-do-google-code/</link>
       <pubDate>Mon, 11 May 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/usando-git-em-projetos-do-google-code/</guid>
+      <guid>http://pothix.com/post/usando-git-em-projetos-do-google-code/</guid>
       <description>&lt;p&gt;Resolvi escrever esse post depois de começar a contribuir para o
 projeto do
 &lt;a href=&#34;http://code.google.com/p/vimbook&#34; title=&#34;Projeto do VimmBook no Google Code&#34;&gt;vimbook&lt;/a&gt;,
@@ -99,10 +99,10 @@ utilizando Git. :D&lt;/p&gt;
     
     <item>
       <title>Aprenda Ruby no Rubylearning</title>
-      <link>https://pothix.com/post/aprenda-ruby-no-rubylearning/</link>
+      <link>http://pothix.com/post/aprenda-ruby-no-rubylearning/</link>
       <pubDate>Fri, 07 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/aprenda-ruby-no-rubylearning/</guid>
+      <guid>http://pothix.com/post/aprenda-ruby-no-rubylearning/</guid>
       <description>
 
 &lt;p&gt;Como muitos sabem, eu sou um dos professores assistentes do
@@ -163,10 +163,10 @@ para conhecer mais sobre o Ruby, e se gostar pode pensar nos pagos.&lt;/p&gt;
     
     <item>
       <title>Rails Summit Latin Amerira (Day 2)</title>
-      <link>https://pothix.com/post/rails-summit-latin-amerira-day-2/</link>
+      <link>http://pothix.com/post/rails-summit-latin-amerira-day-2/</link>
       <pubDate>Wed, 22 Oct 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/rails-summit-latin-amerira-day-2/</guid>
+      <guid>http://pothix.com/post/rails-summit-latin-amerira-day-2/</guid>
       <description>
 
 &lt;p&gt;Para quem não viu o meu post sobre o primeiro dia da Rails Summit,
@@ -277,7 +277,7 @@ interessante! :)&lt;/p&gt;
 
 &lt;p&gt;Chegamos ao momento da ultima palestra do evento, dada pelo
 &lt;a href=&#34;http://obiefernandez.com/&#34;&gt;Obie Fernandez&lt;/a&gt; (que lembra bastante o
-&lt;a href=&#34;https://pothix.com/images/posts/rails_summit_day2_jack_black.jpg&#34;&gt;Jack Black&lt;/a&gt; nas fotos),
+&lt;a href=&#34;http://pothix.com/images/posts/rails_summit_day2_jack_black.jpg&#34;&gt;Jack Black&lt;/a&gt; nas fotos),
 que foi &lt;strong&gt;muito interessante&lt;/strong&gt; !!&lt;/p&gt;
 
 &lt;p&gt;O Obie comentou sobre a &lt;a href=&#34;http://www.hashrocket.com/&#34;&gt;HashRocket&lt;/a&gt; e
@@ -321,10 +321,10 @@ para esse projeto!&lt;/p&gt;
     
     <item>
       <title>Rails Summit Latin America</title>
-      <link>https://pothix.com/post/rails-summit-latin-america/</link>
+      <link>http://pothix.com/post/rails-summit-latin-america/</link>
       <pubDate>Tue, 21 Oct 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/rails-summit-latin-america/</guid>
+      <guid>http://pothix.com/post/rails-summit-latin-america/</guid>
       <description>
 
 &lt;p&gt;Como muitos sabem eu participei da Rails Summit Latin America e vou

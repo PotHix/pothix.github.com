@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>English on PotHix</title>
-    <link>https://pothix.com/tags/english/index.xml</link>
+    <link>http://pothix.com/tags/english/index.xml</link>
     <description>Recent content in English on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="https://pothix.com/tags/english/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pothix.com/tags/english/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Oxford for Tolkien fans</title>
-      <link>https://pothix.com/post/oxford-for-tolkien-fans/</link>
+      <link>http://pothix.com/post/oxford-for-tolkien-fans/</link>
       <pubDate>Fri, 10 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/oxford-for-tolkien-fans/</guid>
+      <guid>http://pothix.com/post/oxford-for-tolkien-fans/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: When traveling to Europe, I decided to take 2 or 3 days to visit
@@ -133,10 +133,10 @@ there.&lt;/p&gt;
     
     <item>
       <title>FOSDEM survival guide</title>
-      <link>https://pothix.com/post/fosdem-survival-guide/</link>
+      <link>http://pothix.com/post/fosdem-survival-guide/</link>
       <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/fosdem-survival-guide/</guid>
+      <guid>http://pothix.com/post/fosdem-survival-guide/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: It was my first time at &lt;a href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt; and it
@@ -168,7 +168,7 @@ volunteers that work hard to make it happen.&lt;/p&gt;
 &lt;p&gt;The conference happens at the Université libre de Bruxelles, using
 some buildings of the university.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pothix.com/images/posts/fosdem-survival-guide/map.png&#34; alt=&#34;Map of FOSDEM buildings&#34; title=&#34;FOSDEM map&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pothix.com/images/posts/fosdem-survival-guide/map.png&#34; alt=&#34;Map of FOSDEM buildings&#34; title=&#34;FOSDEM map&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;All the tracks are spread across these buildings. Depending on where
 you are, you have to reserve some time to reach the other building. It
@@ -193,7 +193,7 @@ presentations happening across all rooms and you may create your on
 schedule. I did it before going but forgot to consider the time
 between buildings and the &amp;ldquo;FULL&amp;rdquo; rooms.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pothix.com/images/posts/fosdem-survival-guide/full-room.jpg&#34; alt=&#34;The &amp;quot;FULL&amp;quot; sign&#34; title=&#34;Full rooms&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pothix.com/images/posts/fosdem-survival-guide/full-room.jpg&#34; alt=&#34;The &amp;quot;FULL&amp;quot; sign&#34; title=&#34;Full rooms&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;There are some limits that need to be respected, one of them is the
 number of people inside the room. When the room is fulfilled with
@@ -259,10 +259,10 @@ received these tips before, so I would have planned my day better.&lt;/p&gt;
     
     <item>
       <title>My presentation at FOSDEM 2017</title>
-      <link>https://pothix.com/post/my-presentation-at-fosdem-2017/</link>
+      <link>http://pothix.com/post/my-presentation-at-fosdem-2017/</link>
       <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/my-presentation-at-fosdem-2017/</guid>
+      <guid>http://pothix.com/post/my-presentation-at-fosdem-2017/</guid>
       <description>&lt;p&gt;This year my proposal to speak at &lt;a href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt; was accepted and I
 spoke at the Desktop devroom! :)&lt;/p&gt;
 
@@ -292,10 +292,10 @@ on
     
     <item>
       <title>Experiences of almost two years using colemak</title>
-      <link>https://pothix.com/post/experiences-of-almost-two-years-using-colemak/</link>
+      <link>http://pothix.com/post/experiences-of-almost-two-years-using-colemak/</link>
       <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/experiences-of-almost-two-years-using-colemak/</guid>
+      <guid>http://pothix.com/post/experiences-of-almost-two-years-using-colemak/</guid>
       <description>&lt;p&gt;TL;DR: I like colemak, and it is a &lt;em&gt;very good&lt;/em&gt; layout. I found some equivalent
 pros and cons, so I can&amp;rsquo;t recommend it to anyone without a little bit of
 philosophy. :)&lt;/p&gt;
@@ -325,7 +325,7 @@ on), so I just need to use qwerty when I&amp;rsquo;m typing on other peoples dev
 &lt;p&gt;A pro is that my typing speed grew from an average of 75 WPM to almost 100
 WPM. I need to consider that I also bought a Kinesis Advantage Pro;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pothix.com/images/posts/almost-two-years-using-colemak-kinesis.jpg&#34; alt=&#34;Kinesis advantage photo&#34; title=&#34;Kinesis Advantage&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pothix.com/images/posts/almost-two-years-using-colemak-kinesis.jpg&#34; alt=&#34;Kinesis advantage photo&#34; title=&#34;Kinesis Advantage&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Without this keyboard I&amp;rsquo;m not that fast. Just tried
 &lt;a href=&#34;http://10fastfingers.com/user/504663/&#34;&gt;10fastfingers now and got 92 WPM&lt;/a&gt; using
@@ -356,10 +356,10 @@ about my journey is that &lt;strong&gt;I would do it again if I could&lt;/strong
     
     <item>
       <title>OSCON 2015</title>
-      <link>https://pothix.com/post/oscon/</link>
+      <link>http://pothix.com/post/oscon/</link>
       <pubDate>Mon, 27 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/oscon/</guid>
+      <guid>http://pothix.com/post/oscon/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; I&amp;rsquo;ve been at OSCON this year (thanks to
@@ -726,10 +726,10 @@ Portland. :(&lt;/p&gt;
     
     <item>
       <title>New layout of PotHix blog</title>
-      <link>https://pothix.com/post/new-layout-of-pothix-blog/</link>
+      <link>http://pothix.com/post/new-layout-of-pothix-blog/</link>
       <pubDate>Mon, 25 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/new-layout-of-pothix-blog/</guid>
+      <guid>http://pothix.com/post/new-layout-of-pothix-blog/</guid>
       <description>&lt;p&gt;Welcome to the new blog layout of PotHix.com! :)&lt;/p&gt;
 
 &lt;p&gt;I decided that the time has came to change not just the layout but the blog
@@ -751,10 +751,10 @@ instead of keeping the wordpress &amp;ldquo;infrastructure&amp;rdquo;.&lt;/p&gt;
     
     <item>
       <title>Golang and 1.2 version performance improvement</title>
-      <link>https://pothix.com/post/golang-and-1-2-version-performance-improvement/</link>
+      <link>http://pothix.com/post/golang-and-1-2-version-performance-improvement/</link>
       <pubDate>Tue, 03 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/golang-and-1-2-version-performance-improvement/</guid>
+      <guid>http://pothix.com/post/golang-and-1-2-version-performance-improvement/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve started using Go last month and I really liked to work with the language.&lt;/p&gt;
 
 &lt;p&gt;The project I&amp;rsquo;m working on is dead simple and just retrieves metrics and save on
@@ -826,10 +826,10 @@ Looks like it is a good idea of language for some of my projects, welcome Golang
     
     <item>
       <title>Game Network Programming</title>
-      <link>https://pothix.com/post/game-network-programming/</link>
+      <link>http://pothix.com/post/game-network-programming/</link>
       <pubDate>Mon, 15 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/game-network-programming/</guid>
+      <guid>http://pothix.com/post/game-network-programming/</guid>
       <description>&lt;p&gt;&lt;strong&gt;English Abstract&lt;/strong&gt;: This post was about my presentation with Diego Souza
 (vulgo Marciano) about Game network programming. I was studying and reading
 Quake source just for fun and decided to learn more about game networking in
@@ -871,10 +871,10 @@ também! Se tiverem dúvidas postem aí nos comentários. :)&lt;/p&gt;
     
     <item>
       <title>A lifestyle</title>
-      <link>https://pothix.com/post/a-lifestyle/</link>
+      <link>http://pothix.com/post/a-lifestyle/</link>
       <pubDate>Mon, 10 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/a-lifestyle/</guid>
+      <guid>http://pothix.com/post/a-lifestyle/</guid>
       <description>&lt;p&gt;Just a transcript from &lt;a href=&#34;http://www.youtube.com/watch?v=vlZ4ONTb9i0&amp;amp;feature=youtu.be&#34;&gt;here&lt;/a&gt;,
 but it reflects my way of life at this stage of my life:&lt;/p&gt;
 
@@ -919,10 +919,10 @@ We don’t care what everyone else believes.
     
     <item>
       <title>Javascript and Gamedev discussion</title>
-      <link>https://pothix.com/post/javascript-and-gamedev-discussion/</link>
+      <link>http://pothix.com/post/javascript-and-gamedev-discussion/</link>
       <pubDate>Sun, 02 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/javascript-and-gamedev-discussion/</guid>
+      <guid>http://pothix.com/post/javascript-and-gamedev-discussion/</guid>
       <description>&lt;p&gt;I read the &lt;a href=&#34;http://www.phoboslab.org/log/2012/08/letter-to-john-carmack&#34;&gt;blog post&lt;/a&gt;
 from &lt;a href=&#34;http://impactjs.com&#34;&gt;Impact engine&lt;/a&gt; creator
 &lt;a href=&#34;http://www.phoboslab.org/&#34;&gt;Dominic&lt;/a&gt; where he shows an email he sent to
@@ -973,10 +973,10 @@ well, you just need to decide which one is better for your business.&lt;/p&gt;
     
     <item>
       <title>Kernel compiling</title>
-      <link>https://pothix.com/post/kernel-compiling/</link>
+      <link>http://pothix.com/post/kernel-compiling/</link>
       <pubDate>Mon, 23 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/kernel-compiling/</guid>
+      <guid>http://pothix.com/post/kernel-compiling/</guid>
       <description>
 
 &lt;p&gt;Since I bought an Acer notebook to use Linux again (I sold my mac, I
@@ -1138,10 +1138,10 @@ process I think that I learned a lot, so it is worth it.&lt;/p&gt;
     
     <item>
       <title>Simlinks for ruby on Debian Squeeze</title>
-      <link>https://pothix.com/post/simlinks-for-ruby-on-debian-squeeze/</link>
+      <link>http://pothix.com/post/simlinks-for-ruby-on-debian-squeeze/</link>
       <pubDate>Tue, 17 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/simlinks-for-ruby-on-debian-squeeze/</guid>
+      <guid>http://pothix.com/post/simlinks-for-ruby-on-debian-squeeze/</guid>
       <description>&lt;p&gt;Every time we need to deploy a new Ruby application on top of Debian Squeeze
 we need to fix some Ruby depedencies to make the application work as it should.&lt;/p&gt;
 
@@ -1164,10 +1164,10 @@ ln -s /usr/bin/gem1.9.1 /usr/bin/gem
     
     <item>
       <title>Translated Rubylearning presentation</title>
-      <link>https://pothix.com/post/translated-rubylearning-presentation/</link>
+      <link>http://pothix.com/post/translated-rubylearning-presentation/</link>
       <pubDate>Fri, 10 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/translated-rubylearning-presentation/</guid>
+      <guid>http://pothix.com/post/translated-rubylearning-presentation/</guid>
       <description>
 
 &lt;p&gt;As I promised, here goes my presentation! :)&lt;/p&gt;
@@ -1462,10 +1462,10 @@ with paypal.&lt;/p&gt;
     
     <item>
       <title>Deploying a simple Merb application on Locaweb</title>
-      <link>https://pothix.com/post/deploying-a-simple-merb-application-on-locaweb/</link>
+      <link>http://pothix.com/post/deploying-a-simple-merb-application-on-locaweb/</link>
       <pubDate>Wed, 07 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/deploying-a-simple-merb-application-on-locaweb/</guid>
+      <guid>http://pothix.com/post/deploying-a-simple-merb-application-on-locaweb/</guid>
       <description>&lt;p&gt;I writing this post to help my friends of
 &lt;a href=&#34;http://rubylearning.org/class/&#34; title=&#34;Rubylearning.org&#34;&gt;Rubylearning&lt;/a&gt; with
 a little &lt;a href=&#34;http://merbivore.com/&#34; title=&#34;Merb Official Home Page&#34;&gt;Merb&lt;/a&gt;
@@ -1538,10 +1538,10 @@ pointed by apache with Phusion Passenger.&lt;/p&gt;
     
     <item>
       <title>New year is coming</title>
-      <link>https://pothix.com/post/new-year-is-coming/</link>
+      <link>http://pothix.com/post/new-year-is-coming/</link>
       <pubDate>Wed, 31 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/new-year-is-coming/</guid>
+      <guid>http://pothix.com/post/new-year-is-coming/</guid>
       <description>&lt;p&gt;Estou apenas postando para dizer que nesse novo ano eu pretendo postar
 mais sobre programação! Essa é a primeira virada de ano desse blog,
 então resolvi postar meus &amp;ldquo;planos&amp;rdquo; para o próximo ano.&lt;/p&gt;

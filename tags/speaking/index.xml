@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Speaking on PotHix</title>
-    <link>https://pothix.com/tags/speaking/index.xml</link>
+    <link>http://pothix.com/tags/speaking/index.xml</link>
     <description>Recent content in Speaking on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="https://pothix.com/tags/speaking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pothix.com/tags/speaking/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>My presentation at FOSDEM 2017</title>
-      <link>https://pothix.com/post/my-presentation-at-fosdem-2017/</link>
+      <link>http://pothix.com/post/my-presentation-at-fosdem-2017/</link>
       <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/my-presentation-at-fosdem-2017/</guid>
+      <guid>http://pothix.com/post/my-presentation-at-fosdem-2017/</guid>
       <description>&lt;p&gt;This year my proposal to speak at &lt;a href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt; was accepted and I
 spoke at the Desktop devroom! :)&lt;/p&gt;
 
@@ -44,10 +44,10 @@ on
     
     <item>
       <title>As escolhas do desenvolvedor</title>
-      <link>https://pothix.com/post/as-escolhas-do-desenvolvedor/</link>
+      <link>http://pothix.com/post/as-escolhas-do-desenvolvedor/</link>
       <pubDate>Mon, 31 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/as-escolhas-do-desenvolvedor/</guid>
+      <guid>http://pothix.com/post/as-escolhas-do-desenvolvedor/</guid>
       <description>&lt;p&gt;Esse ano fui chamado para palestrar em todas as edições do Encontro Locaweb que
 acontecem por várias cidades do Brasil! Palestrei em 6 cidades de estados
 diferentes, e aconteceram na seguinte ordem:&lt;/p&gt;
@@ -88,10 +88,10 @@ coisa legal com a palestra.&lt;/p&gt;
     
     <item>
       <title>Game Network Programming</title>
-      <link>https://pothix.com/post/game-network-programming/</link>
+      <link>http://pothix.com/post/game-network-programming/</link>
       <pubDate>Mon, 15 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/game-network-programming/</guid>
+      <guid>http://pothix.com/post/game-network-programming/</guid>
       <description>&lt;p&gt;&lt;strong&gt;English Abstract&lt;/strong&gt;: This post was about my presentation with Diego Souza
 (vulgo Marciano) about Game network programming. I was studying and reading
 Quake source just for fun and decided to learn more about game networking in
@@ -133,10 +133,10 @@ também! Se tiverem dúvidas postem aí nos comentários. :)&lt;/p&gt;
     
     <item>
       <title>Plaev, HTML5 e Skeleton-jigsaw</title>
-      <link>https://pothix.com/post/plaev5-e-skeleton-jigsaw/</link>
+      <link>http://pothix.com/post/plaev5-e-skeleton-jigsaw/</link>
       <pubDate>Tue, 04 Dec 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/plaev5-e-skeleton-jigsaw/</guid>
+      <guid>http://pothix.com/post/plaev5-e-skeleton-jigsaw/</guid>
       <description>&lt;p&gt;Depois de muito tempo desenvolvendo finalmente terminamos o Skeleton-Jigsaw em
 outubro! Demorei para postar sobre isso aqui no blog por falta de tempo, mas
 aqui está!&lt;/p&gt;
@@ -183,10 +183,10 @@ do vídeo, mas se tiverem dúvidas coloquem nos comentários.&lt;/p&gt;
     
     <item>
       <title>Palestra sobre implementacoes paralelas</title>
-      <link>https://pothix.com/post/palestra-sobre-implementacoes-paralelas/</link>
+      <link>http://pothix.com/post/palestra-sobre-implementacoes-paralelas/</link>
       <pubDate>Mon, 16 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/palestra-sobre-implementacoes-paralelas/</guid>
+      <guid>http://pothix.com/post/palestra-sobre-implementacoes-paralelas/</guid>
       <description>&lt;p&gt;Esse post ficou como draft desde que eu palestrei sobre implementações
 paralelas, e agora que eu lembrei dele decidi publicar! :)&lt;/p&gt;
 
@@ -211,10 +211,10 @@ de manter. Espero que seja útil para mais alguém. ;)&lt;/p&gt;
     
     <item>
       <title>Palestra sobre Gamedev, Javascript e HTML5</title>
-      <link>https://pothix.com/post/palestra-sobre-gamedev-javascript-e5/</link>
+      <link>http://pothix.com/post/palestra-sobre-gamedev-javascript-e5/</link>
       <pubDate>Mon, 23 May 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/palestra-sobre-gamedev-javascript-e5/</guid>
+      <guid>http://pothix.com/post/palestra-sobre-gamedev-javascript-e5/</guid>
       <description>&lt;p&gt;Esse fim de semana eu palestrei no FLISOL de São José dos Campos sobre
 desenvolvimento de jogos, Javascript e HTML5. Foi uma palestra simples
 e rápida, durou pouco mais de meia hora (preciso aprender a falar um
@@ -249,10 +249,10 @@ Sugestões e críticas construtivas são bem vindas! ;)&lt;/p&gt;
     
     <item>
       <title>Palestra sobre Vim</title>
-      <link>https://pothix.com/post/palestra-sobre-vim/</link>
+      <link>http://pothix.com/post/palestra-sobre-vim/</link>
       <pubDate>Mon, 29 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/palestra-sobre-vim/</guid>
+      <guid>http://pothix.com/post/palestra-sobre-vim/</guid>
       <description>&lt;p&gt;Esse vai ser um post curto, apenas para deixar registrado algumas
 informações sobre a palestra de Vim que teve no sétimo encontro do
 Guru-sp (sim, eu fui o palestrante :D).&lt;/p&gt;

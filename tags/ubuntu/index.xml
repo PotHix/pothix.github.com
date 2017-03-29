@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ubuntu on PotHix</title>
-    <link>https://pothix.com/tags/ubuntu/index.xml</link>
+    <link>http://pothix.com/tags/ubuntu/index.xml</link>
     <description>Recent content in Ubuntu on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="https://pothix.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pothix.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>A facilidade do Ubuntu</title>
-      <link>https://pothix.com/post/a-facilidade-do-ubuntu/</link>
+      <link>http://pothix.com/post/a-facilidade-do-ubuntu/</link>
       <pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/a-facilidade-do-ubuntu/</guid>
+      <guid>http://pothix.com/post/a-facilidade-do-ubuntu/</guid>
       <description>
 
 &lt;p&gt;Deixa eu explicar aqui para quem estou destinando esse post. Esse post
@@ -231,10 +231,10 @@ possível para responder.&lt;/p&gt;
     
     <item>
       <title>Ouvindo suas musicas no Amarok</title>
-      <link>https://pothix.com/post/ouvindo-suas-musicas-no-amarok/</link>
+      <link>http://pothix.com/post/ouvindo-suas-musicas-no-amarok/</link>
       <pubDate>Thu, 13 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/ouvindo-suas-musicas-no-amarok/</guid>
+      <guid>http://pothix.com/post/ouvindo-suas-musicas-no-amarok/</guid>
       <description>&lt;p&gt;Como sabem, instalei o Ubuntu no meu notebook Toshiba U405-S2854, e
 estou brincando um pouco com programas bunitinhos e mais pesados do
 que os que eu costumava usar no Slackware.&lt;/p&gt;
@@ -278,10 +278,10 @@ coisas&amp;hellip;Mas para quem vem do XMMS isso já é muita frescura&amp;helli
     
     <item>
       <title>Mais de uma distro no Notebook!</title>
-      <link>https://pothix.com/post/mais-de-uma-distro-no-notebook/</link>
+      <link>http://pothix.com/post/mais-de-uma-distro-no-notebook/</link>
       <pubDate>Mon, 13 Oct 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/mais-de-uma-distro-no-notebook/</guid>
+      <guid>http://pothix.com/post/mais-de-uma-distro-no-notebook/</guid>
       <description>&lt;p&gt;Pouco tempo atrás comprei um notebook
 &lt;a href=&#34;http://explore.toshiba.com/laptops/satellite/U400/U405-S2854&#34;&gt;Toshiba U405-S2854&lt;/a&gt;
 e instalei o Slackware 12.0 (não tinha baixado o 12.1 ainda) com

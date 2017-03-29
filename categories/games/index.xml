@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Games on PotHix</title>
-    <link>https://pothix.com/categories/games/index.xml</link>
+    <link>http://pothix.com/categories/games/index.xml</link>
     <description>Recent content in Games on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="https://pothix.com/categories/games/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pothix.com/categories/games/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Saudades do Poker</title>
-      <link>https://pothix.com/post/saudades-do-poker/</link>
+      <link>http://pothix.com/post/saudades-do-poker/</link>
       <pubDate>Wed, 31 Oct 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/saudades-do-poker/</guid>
+      <guid>http://pothix.com/post/saudades-do-poker/</guid>
       <description>&lt;p&gt;Apesar de eu não ser bom o suficiente eu curto bastante jogar poker, mas as
 poucas vezes que me juntei com os amigos pessoalmente para jogar foi na época
 da faculdade, que marcavamos as &amp;ldquo;poker nights&amp;rdquo; e jogavamos apostando pequenas
@@ -52,10 +52,10 @@ dinheiro se perdendo. :P&lt;/p&gt;
     
     <item>
       <title>Palestra sobre Gamedev, Javascript e HTML5</title>
-      <link>https://pothix.com/post/palestra-sobre-gamedev-javascript-e5/</link>
+      <link>http://pothix.com/post/palestra-sobre-gamedev-javascript-e5/</link>
       <pubDate>Mon, 23 May 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/palestra-sobre-gamedev-javascript-e5/</guid>
+      <guid>http://pothix.com/post/palestra-sobre-gamedev-javascript-e5/</guid>
       <description>&lt;p&gt;Esse fim de semana eu palestrei no FLISOL de São José dos Campos sobre
 desenvolvimento de jogos, Javascript e HTML5. Foi uma palestra simples
 e rápida, durou pouco mais de meia hora (preciso aprender a falar um
@@ -90,10 +90,10 @@ Sugestões e críticas construtivas são bem vindas! ;)&lt;/p&gt;
     
     <item>
       <title>Meme: Game design ao Extremo</title>
-      <link>https://pothix.com/post/meme-game-design-ao-extremo/</link>
+      <link>http://pothix.com/post/meme-game-design-ao-extremo/</link>
       <pubDate>Sat, 22 Aug 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/meme-game-design-ao-extremo/</guid>
+      <guid>http://pothix.com/post/meme-game-design-ao-extremo/</guid>
       <description>
 
 &lt;p&gt;Estou escrevendo esse post por que fui convocado para esse
@@ -204,10 +204,10 @@ para games.&lt;/p&gt;
     
     <item>
       <title>Voltando a ser um gamer</title>
-      <link>https://pothix.com/post/voltando-a-ser-um-gamer/</link>
+      <link>http://pothix.com/post/voltando-a-ser-um-gamer/</link>
       <pubDate>Sun, 14 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/voltando-a-ser-um-gamer/</guid>
+      <guid>http://pothix.com/post/voltando-a-ser-um-gamer/</guid>
       <description>&lt;p&gt;Esse aqui vai ser um post um pouco fora do escopo &amp;ldquo;programação&amp;rdquo;, mas
 ainda no escopo &amp;ldquo;nerd&amp;rdquo;! :)&lt;/p&gt;
 

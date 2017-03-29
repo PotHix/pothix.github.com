@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ruby on PotHix</title>
-    <link>https://pothix.com/tags/ruby/index.xml</link>
+    <link>http://pothix.com/tags/ruby/index.xml</link>
     <description>Recent content in Ruby on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="https://pothix.com/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pothix.com/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Ruby, Python e native threads</title>
-      <link>https://pothix.com/post/ruby-python-e-native-threads/</link>
+      <link>http://pothix.com/post/ruby-python-e-native-threads/</link>
       <pubDate>Fri, 14 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/ruby-python-e-native-threads/</guid>
+      <guid>http://pothix.com/post/ruby-python-e-native-threads/</guid>
       <description>&lt;p&gt;Pode ser que eu seja meio burro (heheh) mas eu ainda achava que o Ruby e o
 Python usavam Green Threads, mas depois de conversar com uma galera me disseram
 que eram threads nativas. Pesquisando na internet eu vi que eram mesmo, mas decidi
@@ -311,10 +311,10 @@ descobrir coisas novas. :)&lt;/p&gt;
     
     <item>
       <title>O Guru-SP e seus 5 anos de vida</title>
-      <link>https://pothix.com/post/o-guru-sp-e-seus-5-anos-de-vida/</link>
+      <link>http://pothix.com/post/o-guru-sp-e-seus-5-anos-de-vida/</link>
       <pubDate>Tue, 17 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/o-guru-sp-e-seus-5-anos-de-vida/</guid>
+      <guid>http://pothix.com/post/o-guru-sp-e-seus-5-anos-de-vida/</guid>
       <description>&lt;p&gt;Há pouco tempo aconteceu o &lt;a href=&#34;http://gurusp.org/encontros/trigesimo-primeiro-encontro-do-guru-sp&#34;&gt;encontro numero 31 do Guru-SP&lt;/a&gt;, e como sempre saímos
 (dessa vez estavamos &lt;a href=&#34;http://twitter.com/vinibaggio&#34;&gt;@vinibaggio&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/agaelebe&#34;&gt;@agaelebe&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/nuxlli&#34;&gt;@nuxlli&lt;/a&gt; e &lt;a href=&#34;http://twitter.com/anderson_leite&#34;&gt;@anderson_leite&lt;/a&gt;) para
 aquele velho momento de bate papo pós evento. Durante a conversa o @nuxlli perguntou sobre como o Guru-SP começou e nesse momento eu comecei a relembrar
@@ -394,10 +394,10 @@ Brasil, e mais do que isso um lugar legal para troca de conhecimentos.&lt;/p&gt;
     
     <item>
       <title>XMPP e Ruby</title>
-      <link>https://pothix.com/post/xmpp-e-ruby/</link>
+      <link>http://pothix.com/post/xmpp-e-ruby/</link>
       <pubDate>Tue, 10 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/xmpp-e-ruby/</guid>
+      <guid>http://pothix.com/post/xmpp-e-ruby/</guid>
       <description>&lt;p&gt;Alguns (vários…) meses atrás eu fiz uma palestra pequena no Guru-SP(São Paulo
 Ruby Users Group) sobre Ruby e XMPP, os vídeos e slides estão disponíveis:&lt;/p&gt;
 
@@ -419,10 +419,10 @@ projeto.&lt;/p&gt;
     
     <item>
       <title>Semana de eventos (#rubyconfbr, #adl e #gddbr)</title>
-      <link>https://pothix.com/post/semana-de-eventos-rubyconfbr-adl-e-gddbr/</link>
+      <link>http://pothix.com/post/semana-de-eventos-rubyconfbr-adl-e-gddbr/</link>
       <pubDate>Sun, 31 Oct 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/semana-de-eventos-rubyconfbr-adl-e-gddbr/</guid>
+      <guid>http://pothix.com/post/semana-de-eventos-rubyconfbr-adl-e-gddbr/</guid>
       <description>
 
 &lt;p&gt;Na semana passada (semana do dia 24 ao dia 30 de outubro) foi uma
@@ -551,10 +551,10 @@ trabalho, e descansei no final da semana! Portanto&amp;hellip; Vitória! :D&lt;/
     
     <item>
       <title>Conto da migração para Rails 3</title>
-      <link>https://pothix.com/post/conto-da-migracao-para-rails-3/</link>
+      <link>http://pothix.com/post/conto-da-migracao-para-rails-3/</link>
       <pubDate>Thu, 21 Oct 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/conto-da-migracao-para-rails-3/</guid>
+      <guid>http://pothix.com/post/conto-da-migracao-para-rails-3/</guid>
       <description>
 
 &lt;p&gt;Nesse post eu vou falar um pouco de como foi atualizar a aplicação que
@@ -709,10 +709,10 @@ sua aplicação. :)&lt;/p&gt;
     
     <item>
       <title>Yahoo Open Hack 2010</title>
-      <link>https://pothix.com/post/yahoo-open-hack-2010/</link>
+      <link>http://pothix.com/post/yahoo-open-hack-2010/</link>
       <pubDate>Mon, 29 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/yahoo-open-hack-2010/</guid>
+      <guid>http://pothix.com/post/yahoo-open-hack-2010/</guid>
       <description>
 
 &lt;p&gt;Para quem ainda não soube, no final de semana passado rolou o Yahoo
@@ -742,7 +742,7 @@ poderíamos retornar de qual serviço. :)&lt;/p&gt;
 
 &lt;h4 id=&#34;metodologia-e-projeto&#34;&gt;Metodologia e projeto&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://pothix.com/images/posts/openhack.jpg&#34; title=&#34;Equipe do openhack&#34;&gt;&lt;img src=&#34;https://pothix.com/images/posts/openhack.jpg&#34; alt=&#34;Foto da equipe do Openhack&#34; title=&#34;Equipe do Openhack&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/openhack.jpg&#34; title=&#34;Equipe do openhack&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/openhack.jpg&#34; alt=&#34;Foto da equipe do Openhack&#34; title=&#34;Equipe do Openhack&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Como já estamos acostumados a utilizar Scrum no
 &lt;a href=&#34;www.ikwa.com.br&#34;&gt;Ikwa&lt;/a&gt; nós resolvemos fazer o mesmo para o nosso
@@ -810,10 +810,10 @@ Picasa&lt;/a&gt;.&lt;/p&gt;
     
     <item>
       <title>Crontab dentro da sua aplicação rails com whenever</title>
-      <link>https://pothix.com/post/crontab-dentro-da-sua-aplicacao-rails-com-whenever/</link>
+      <link>http://pothix.com/post/crontab-dentro-da-sua-aplicacao-rails-com-whenever/</link>
       <pubDate>Wed, 02 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/crontab-dentro-da-sua-aplicacao-rails-com-whenever/</guid>
+      <guid>http://pothix.com/post/crontab-dentro-da-sua-aplicacao-rails-com-whenever/</guid>
       <description>&lt;p&gt;Hoje estou aqui para falar de uma coisa que quando vi pela primeira vez
 ignorei por parecer uma coisa boba, mas olhando melhor eu percebi que é
 uma idéia bem interessante. O que a gem whenever faz é manter o seu
@@ -907,10 +907,10 @@ exemplos de como usar no &lt;a href=&#34;http://www.railscasts.com&#34;&gt;Rails
     
     <item>
       <title>Rails Summit 2009</title>
-      <link>https://pothix.com/post/rails-summit-2009/</link>
+      <link>http://pothix.com/post/rails-summit-2009/</link>
       <pubDate>Mon, 19 Oct 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/rails-summit-2009/</guid>
+      <guid>http://pothix.com/post/rails-summit-2009/</guid>
       <description>
 
 &lt;p&gt;Esse é um post para relatar como foi o Rails Summit Latin America desse
@@ -1161,10 +1161,10 @@ picasaweb&lt;/a&gt;.&lt;/p&gt;
     
     <item>
       <title>Instalando gems do GitHub manualmente</title>
-      <link>https://pothix.com/post/instalando-gems-do-github-manualmente/</link>
+      <link>http://pothix.com/post/instalando-gems-do-github-manualmente/</link>
       <pubDate>Tue, 28 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/instalando-gems-do-github-manualmente/</guid>
+      <guid>http://pothix.com/post/instalando-gems-do-github-manualmente/</guid>
       <description>&lt;p&gt;Esse vai ser um post rápido para relatar um problema que eu tive ( e
 ainda estou tendo ) para instalar gems do GitHub.&lt;/p&gt;
 
@@ -1212,13 +1212,13 @@ suas gems. :)&lt;/p&gt;
     
     <item>
       <title>Encontro de numero 5 do Guru-sp</title>
-      <link>https://pothix.com/post/encontro-de-numero-5-do-guru-sp/</link>
+      <link>http://pothix.com/post/encontro-de-numero-5-do-guru-sp/</link>
       <pubDate>Tue, 21 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/encontro-de-numero-5-do-guru-sp/</guid>
+      <guid>http://pothix.com/post/encontro-de-numero-5-do-guru-sp/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;https://pothix.com/images/posts/5_encontro_guru.jpg&#34;&gt;&lt;img src=&#34;https://pothix.com/images/posts/5_encontro_guru.jpg&#34; alt=&#34;Foto do pessoal reunido com seus notebooks no encontro&#34; title=&#34;Quinto encontro do Guru-sp&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/5_encontro_guru.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/5_encontro_guru.jpg&#34; alt=&#34;Foto do pessoal reunido com seus notebooks no encontro&#34; title=&#34;Quinto encontro do Guru-sp&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Nesse sábado aconteceu o
 &lt;a href=&#34;http://guru-sp.com/index.php/Quinto_Encontro&#34; title=&#34;Quinto encontro do Guru-sp&#34;&gt;quinto encontro do Guru-sp&lt;/a&gt;! :)&lt;/p&gt;
@@ -1284,7 +1284,7 @@ idéia legal para propor para o concurso.&lt;/p&gt;
 
 &lt;h4 id=&#34;coding-dojo&#34;&gt;Coding Dojo&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://pothix.com/images/posts/5_encontro_guru_vinibaggiojpg&#34;&gt;&lt;img src=&#34;https://pothix.com/images/posts/5_encontro_guru_vinibaggio.jpg&#34; alt=&#34;Foto do vinibaggio guiando o código com a galera&#34; title=&#34;Vinibaggio guiando o quinto encontro do Guru-sp&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/5_encontro_guru_vinibaggiojpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/5_encontro_guru_vinibaggio.jpg&#34; alt=&#34;Foto do vinibaggio guiando o código com a galera&#34; title=&#34;Vinibaggio guiando o quinto encontro do Guru-sp&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;E finalmente como ultima coisa do dia tivemos o nosso coding dojo, que
 era uma das coisas que eu mais estava esperando nesse econtro! O
@@ -1316,10 +1316,10 @@ amizades e conhecimentos!&lt;/p&gt;
     
     <item>
       <title>Começando a falar de Ruby</title>
-      <link>https://pothix.com/post/comecando-a-falar-de-ruby/</link>
+      <link>http://pothix.com/post/comecando-a-falar-de-ruby/</link>
       <pubDate>Mon, 13 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/comecando-a-falar-de-ruby/</guid>
+      <guid>http://pothix.com/post/comecando-a-falar-de-ruby/</guid>
       <description>
 
 &lt;p&gt;Se você já conhece Ruby, ignore esse post! A idéia do post é mostrar
@@ -1511,10 +1511,10 @@ se divertir com ele! :D&lt;/p&gt;
     
     <item>
       <title>Translated Rubylearning presentation</title>
-      <link>https://pothix.com/post/translated-rubylearning-presentation/</link>
+      <link>http://pothix.com/post/translated-rubylearning-presentation/</link>
       <pubDate>Fri, 10 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/translated-rubylearning-presentation/</guid>
+      <guid>http://pothix.com/post/translated-rubylearning-presentation/</guid>
       <description>
 
 &lt;p&gt;As I promised, here goes my presentation! :)&lt;/p&gt;
@@ -1809,10 +1809,10 @@ with paypal.&lt;/p&gt;
     
     <item>
       <title>Rails X Django</title>
-      <link>https://pothix.com/post/rails-x-django/</link>
+      <link>http://pothix.com/post/rails-x-django/</link>
       <pubDate>Wed, 08 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/rails-x-django/</guid>
+      <guid>http://pothix.com/post/rails-x-django/</guid>
       <description>
 
 &lt;p&gt;Como todos sabem eu sou do mundo Ruby/Rails (Não sou xiita mas é o
@@ -1857,10 +1857,10 @@ projeto que você for usar. ;)&lt;/p&gt;
     
     <item>
       <title>Ruby e Rails no mundo real</title>
-      <link>https://pothix.com/post/ruby-e-rails-no-mundo-real-overview/</link>
+      <link>http://pothix.com/post/ruby-e-rails-no-mundo-real-overview/</link>
       <pubDate>Tue, 07 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/ruby-e-rails-no-mundo-real-overview/</guid>
+      <guid>http://pothix.com/post/ruby-e-rails-no-mundo-real-overview/</guid>
       <description>&lt;p&gt;Como muitos leitores do Blog sabem, eu palestrei no Evento
 &amp;ldquo;&lt;a href=&#34;http://www.temporealeventos.com.br/?area=130&#34; title=&#34;Ruby e Rails no mundo real&#34;&gt;Ruby e Rails no mundo real&lt;/a&gt;&amp;rdquo;,
 e vou fazer um pequeno overview desse evento que eu
@@ -1904,10 +1904,10 @@ assim que estiverem disponíveis ) é só acessar!&lt;/p&gt;
     
     <item>
       <title>Ruby Inside Brasil</title>
-      <link>https://pothix.com/post/ruby-inside-brasil/</link>
+      <link>http://pothix.com/post/ruby-inside-brasil/</link>
       <pubDate>Tue, 31 Mar 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/ruby-inside-brasil/</guid>
+      <guid>http://pothix.com/post/ruby-inside-brasil/</guid>
       <description>&lt;p&gt;Há um tempo já que eu deveria ter postado sobre o &lt;a href=&#34;http://www.rubyinside.com.br/&#34; title=&#34;Ruby Inside Brasil&#34;&gt;Ruby Inside Brasil&lt;/a&gt;,
 mas estou esvaziando aos poucos o meu Todo List e estou aproveitando a
 &lt;a href=&#34;http://www.rubyinside.com.br/concorra-a-dois-workshops-mao-na-massa-ruby-e-rails-tempo-real-885&#34; title=&#34;Concorra a dois Workshops de Ruby&#34;&gt;promoção que eles fizeram&lt;/a&gt; para liberar esse post tambem. :)&lt;/p&gt;

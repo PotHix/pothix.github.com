@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on PotHix</title>
-    <link>https://pothix.com/tags/python/index.xml</link>
+    <link>http://pothix.com/tags/python/index.xml</link>
     <description>Recent content in Python on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="https://pothix.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pothix.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Ruby, Python e native threads</title>
-      <link>https://pothix.com/post/ruby-python-e-native-threads/</link>
+      <link>http://pothix.com/post/ruby-python-e-native-threads/</link>
       <pubDate>Fri, 14 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/ruby-python-e-native-threads/</guid>
+      <guid>http://pothix.com/post/ruby-python-e-native-threads/</guid>
       <description>&lt;p&gt;Pode ser que eu seja meio burro (heheh) mas eu ainda achava que o Ruby e o
 Python usavam Green Threads, mas depois de conversar com uma galera me disseram
 que eram threads nativas. Pesquisando na internet eu vi que eram mesmo, mas decidi
@@ -311,10 +311,10 @@ descobrir coisas novas. :)&lt;/p&gt;
     
     <item>
       <title>Rails X Django</title>
-      <link>https://pothix.com/post/rails-x-django/</link>
+      <link>http://pothix.com/post/rails-x-django/</link>
       <pubDate>Wed, 08 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/rails-x-django/</guid>
+      <guid>http://pothix.com/post/rails-x-django/</guid>
       <description>
 
 &lt;p&gt;Como todos sabem eu sou do mundo Ruby/Rails (Não sou xiita mas é o

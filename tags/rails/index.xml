@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rails on PotHix</title>
-    <link>https://pothix.com/tags/rails/index.xml</link>
+    <link>http://pothix.com/tags/rails/index.xml</link>
     <description>Recent content in Rails on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="https://pothix.com/tags/rails/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pothix.com/tags/rails/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Conto da migração para Rails 3</title>
-      <link>https://pothix.com/post/conto-da-migracao-para-rails-3/</link>
+      <link>http://pothix.com/post/conto-da-migracao-para-rails-3/</link>
       <pubDate>Thu, 21 Oct 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/conto-da-migracao-para-rails-3/</guid>
+      <guid>http://pothix.com/post/conto-da-migracao-para-rails-3/</guid>
       <description>
 
 &lt;p&gt;Nesse post eu vou falar um pouco de como foi atualizar a aplicação que
@@ -169,10 +169,10 @@ sua aplicação. :)&lt;/p&gt;
     
     <item>
       <title>Crontab dentro da sua aplicação rails com whenever</title>
-      <link>https://pothix.com/post/crontab-dentro-da-sua-aplicacao-rails-com-whenever/</link>
+      <link>http://pothix.com/post/crontab-dentro-da-sua-aplicacao-rails-com-whenever/</link>
       <pubDate>Wed, 02 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/crontab-dentro-da-sua-aplicacao-rails-com-whenever/</guid>
+      <guid>http://pothix.com/post/crontab-dentro-da-sua-aplicacao-rails-com-whenever/</guid>
       <description>&lt;p&gt;Hoje estou aqui para falar de uma coisa que quando vi pela primeira vez
 ignorei por parecer uma coisa boba, mas olhando melhor eu percebi que é
 uma idéia bem interessante. O que a gem whenever faz é manter o seu
@@ -266,10 +266,10 @@ exemplos de como usar no &lt;a href=&#34;http://www.railscasts.com&#34;&gt;Rails
     
     <item>
       <title>Rails Summit 2009</title>
-      <link>https://pothix.com/post/rails-summit-2009/</link>
+      <link>http://pothix.com/post/rails-summit-2009/</link>
       <pubDate>Mon, 19 Oct 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/rails-summit-2009/</guid>
+      <guid>http://pothix.com/post/rails-summit-2009/</guid>
       <description>
 
 &lt;p&gt;Esse é um post para relatar como foi o Rails Summit Latin America desse
@@ -520,13 +520,13 @@ picasaweb&lt;/a&gt;.&lt;/p&gt;
     
     <item>
       <title>Encontro de numero 5 do Guru-sp</title>
-      <link>https://pothix.com/post/encontro-de-numero-5-do-guru-sp/</link>
+      <link>http://pothix.com/post/encontro-de-numero-5-do-guru-sp/</link>
       <pubDate>Tue, 21 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/encontro-de-numero-5-do-guru-sp/</guid>
+      <guid>http://pothix.com/post/encontro-de-numero-5-do-guru-sp/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;https://pothix.com/images/posts/5_encontro_guru.jpg&#34;&gt;&lt;img src=&#34;https://pothix.com/images/posts/5_encontro_guru.jpg&#34; alt=&#34;Foto do pessoal reunido com seus notebooks no encontro&#34; title=&#34;Quinto encontro do Guru-sp&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/5_encontro_guru.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/5_encontro_guru.jpg&#34; alt=&#34;Foto do pessoal reunido com seus notebooks no encontro&#34; title=&#34;Quinto encontro do Guru-sp&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Nesse sábado aconteceu o
 &lt;a href=&#34;http://guru-sp.com/index.php/Quinto_Encontro&#34; title=&#34;Quinto encontro do Guru-sp&#34;&gt;quinto encontro do Guru-sp&lt;/a&gt;! :)&lt;/p&gt;
@@ -592,7 +592,7 @@ idéia legal para propor para o concurso.&lt;/p&gt;
 
 &lt;h4 id=&#34;coding-dojo&#34;&gt;Coding Dojo&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://pothix.com/images/posts/5_encontro_guru_vinibaggiojpg&#34;&gt;&lt;img src=&#34;https://pothix.com/images/posts/5_encontro_guru_vinibaggio.jpg&#34; alt=&#34;Foto do vinibaggio guiando o código com a galera&#34; title=&#34;Vinibaggio guiando o quinto encontro do Guru-sp&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/5_encontro_guru_vinibaggiojpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/5_encontro_guru_vinibaggio.jpg&#34; alt=&#34;Foto do vinibaggio guiando o código com a galera&#34; title=&#34;Vinibaggio guiando o quinto encontro do Guru-sp&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;E finalmente como ultima coisa do dia tivemos o nosso coding dojo, que
 era uma das coisas que eu mais estava esperando nesse econtro! O
@@ -624,10 +624,10 @@ amizades e conhecimentos!&lt;/p&gt;
     
     <item>
       <title>Começando a falar de Ruby</title>
-      <link>https://pothix.com/post/comecando-a-falar-de-ruby/</link>
+      <link>http://pothix.com/post/comecando-a-falar-de-ruby/</link>
       <pubDate>Mon, 13 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/comecando-a-falar-de-ruby/</guid>
+      <guid>http://pothix.com/post/comecando-a-falar-de-ruby/</guid>
       <description>
 
 &lt;p&gt;Se você já conhece Ruby, ignore esse post! A idéia do post é mostrar
@@ -819,10 +819,10 @@ se divertir com ele! :D&lt;/p&gt;
     
     <item>
       <title>Rails X Django</title>
-      <link>https://pothix.com/post/rails-x-django/</link>
+      <link>http://pothix.com/post/rails-x-django/</link>
       <pubDate>Wed, 08 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/rails-x-django/</guid>
+      <guid>http://pothix.com/post/rails-x-django/</guid>
       <description>
 
 &lt;p&gt;Como todos sabem eu sou do mundo Ruby/Rails (Não sou xiita mas é o
@@ -867,10 +867,10 @@ projeto que você for usar. ;)&lt;/p&gt;
     
     <item>
       <title>Ruby e Rails no mundo real</title>
-      <link>https://pothix.com/post/ruby-e-rails-no-mundo-real-overview/</link>
+      <link>http://pothix.com/post/ruby-e-rails-no-mundo-real-overview/</link>
       <pubDate>Tue, 07 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/ruby-e-rails-no-mundo-real-overview/</guid>
+      <guid>http://pothix.com/post/ruby-e-rails-no-mundo-real-overview/</guid>
       <description>&lt;p&gt;Como muitos leitores do Blog sabem, eu palestrei no Evento
 &amp;ldquo;&lt;a href=&#34;http://www.temporealeventos.com.br/?area=130&#34; title=&#34;Ruby e Rails no mundo real&#34;&gt;Ruby e Rails no mundo real&lt;/a&gt;&amp;rdquo;,
 e vou fazer um pequeno overview desse evento que eu
@@ -914,10 +914,10 @@ assim que estiverem disponíveis ) é só acessar!&lt;/p&gt;
     
     <item>
       <title>Colocando sua aplicação Rails na Dreamhost</title>
-      <link>https://pothix.com/post/colocando-sua-aplicacao-rails-na-dreamhost/</link>
+      <link>http://pothix.com/post/colocando-sua-aplicacao-rails-na-dreamhost/</link>
       <pubDate>Wed, 25 Mar 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/colocando-sua-aplicacao-rails-na-dreamhost/</guid>
+      <guid>http://pothix.com/post/colocando-sua-aplicacao-rails-na-dreamhost/</guid>
       <description>&lt;p&gt;Estou fazendo um pequeno site em Rails e como tinha que mostrar o
 andamento para um colega, aproveitei para testar como seria o Deploy
 desse projeto na DreamHost ( mesmo sabendo que o provedor final não
@@ -1000,10 +1000,10 @@ já terei minha aplicação alterada lá! :)&lt;/p&gt;
     
     <item>
       <title>Ruby e Rails no mundo real</title>
-      <link>https://pothix.com/post/ruby-e-rails-no-mundo-real/</link>
+      <link>http://pothix.com/post/ruby-e-rails-no-mundo-real/</link>
       <pubDate>Fri, 06 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/ruby-e-rails-no-mundo-real/</guid>
+      <guid>http://pothix.com/post/ruby-e-rails-no-mundo-real/</guid>
       <description>&lt;p&gt;Pessoal, hoje o meu post é para comentar sobre o evento do
 &lt;a href=&#34;http://www.guru-sp.org/&#34; title=&#34;Site do Guru-sp&#34;&gt;Guru-sp&lt;/a&gt; (Grupo de
 usuário Ruby de São Paulo), cujo fui um dos fundadores e participo
@@ -1055,10 +1055,10 @@ com as novidades do evento.&lt;/p&gt;
     
     <item>
       <title>Rails Summit Latin Amerira (Day 2)</title>
-      <link>https://pothix.com/post/rails-summit-latin-amerira-day-2/</link>
+      <link>http://pothix.com/post/rails-summit-latin-amerira-day-2/</link>
       <pubDate>Wed, 22 Oct 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/rails-summit-latin-amerira-day-2/</guid>
+      <guid>http://pothix.com/post/rails-summit-latin-amerira-day-2/</guid>
       <description>
 
 &lt;p&gt;Para quem não viu o meu post sobre o primeiro dia da Rails Summit,
@@ -1169,7 +1169,7 @@ interessante! :)&lt;/p&gt;
 
 &lt;p&gt;Chegamos ao momento da ultima palestra do evento, dada pelo
 &lt;a href=&#34;http://obiefernandez.com/&#34;&gt;Obie Fernandez&lt;/a&gt; (que lembra bastante o
-&lt;a href=&#34;https://pothix.com/images/posts/rails_summit_day2_jack_black.jpg&#34;&gt;Jack Black&lt;/a&gt; nas fotos),
+&lt;a href=&#34;http://pothix.com/images/posts/rails_summit_day2_jack_black.jpg&#34;&gt;Jack Black&lt;/a&gt; nas fotos),
 que foi &lt;strong&gt;muito interessante&lt;/strong&gt; !!&lt;/p&gt;
 
 &lt;p&gt;O Obie comentou sobre a &lt;a href=&#34;http://www.hashrocket.com/&#34;&gt;HashRocket&lt;/a&gt; e
@@ -1213,10 +1213,10 @@ para esse projeto!&lt;/p&gt;
     
     <item>
       <title>Rails Summit Latin America</title>
-      <link>https://pothix.com/post/rails-summit-latin-america/</link>
+      <link>http://pothix.com/post/rails-summit-latin-america/</link>
       <pubDate>Tue, 21 Oct 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/rails-summit-latin-america/</guid>
+      <guid>http://pothix.com/post/rails-summit-latin-america/</guid>
       <description>
 
 &lt;p&gt;Como muitos sabem eu participei da Rails Summit Latin America e vou

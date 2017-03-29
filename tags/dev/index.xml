@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dev on PotHix</title>
-    <link>https://pothix.com/tags/dev/index.xml</link>
+    <link>http://pothix.com/tags/dev/index.xml</link>
     <description>Recent content in Dev on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="https://pothix.com/tags/dev/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pothix.com/tags/dev/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Ruby, Python e native threads</title>
-      <link>https://pothix.com/post/ruby-python-e-native-threads/</link>
+      <link>http://pothix.com/post/ruby-python-e-native-threads/</link>
       <pubDate>Fri, 14 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/ruby-python-e-native-threads/</guid>
+      <guid>http://pothix.com/post/ruby-python-e-native-threads/</guid>
       <description>&lt;p&gt;Pode ser que eu seja meio burro (heheh) mas eu ainda achava que o Ruby e o
 Python usavam Green Threads, mas depois de conversar com uma galera me disseram
 que eram threads nativas. Pesquisando na internet eu vi que eram mesmo, mas decidi
@@ -311,10 +311,10 @@ descobrir coisas novas. :)&lt;/p&gt;
     
     <item>
       <title>Golang and 1.2 version performance improvement</title>
-      <link>https://pothix.com/post/golang-and-1-2-version-performance-improvement/</link>
+      <link>http://pothix.com/post/golang-and-1-2-version-performance-improvement/</link>
       <pubDate>Tue, 03 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/golang-and-1-2-version-performance-improvement/</guid>
+      <guid>http://pothix.com/post/golang-and-1-2-version-performance-improvement/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve started using Go last month and I really liked to work with the language.&lt;/p&gt;
 
 &lt;p&gt;The project I&amp;rsquo;m working on is dead simple and just retrieves metrics and save on
@@ -386,10 +386,10 @@ Looks like it is a good idea of language for some of my projects, welcome Golang
     
     <item>
       <title>Game Network Programming</title>
-      <link>https://pothix.com/post/game-network-programming/</link>
+      <link>http://pothix.com/post/game-network-programming/</link>
       <pubDate>Mon, 15 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/game-network-programming/</guid>
+      <guid>http://pothix.com/post/game-network-programming/</guid>
       <description>&lt;p&gt;&lt;strong&gt;English Abstract&lt;/strong&gt;: This post was about my presentation with Diego Souza
 (vulgo Marciano) about Game network programming. I was studying and reading
 Quake source just for fun and decided to learn more about game networking in
@@ -431,10 +431,10 @@ também! Se tiverem dúvidas postem aí nos comentários. :)&lt;/p&gt;
     
     <item>
       <title>Plaev, HTML5 e Skeleton-jigsaw</title>
-      <link>https://pothix.com/post/plaev5-e-skeleton-jigsaw/</link>
+      <link>http://pothix.com/post/plaev5-e-skeleton-jigsaw/</link>
       <pubDate>Tue, 04 Dec 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/plaev5-e-skeleton-jigsaw/</guid>
+      <guid>http://pothix.com/post/plaev5-e-skeleton-jigsaw/</guid>
       <description>&lt;p&gt;Depois de muito tempo desenvolvendo finalmente terminamos o Skeleton-Jigsaw em
 outubro! Demorei para postar sobre isso aqui no blog por falta de tempo, mas
 aqui está!&lt;/p&gt;
@@ -481,10 +481,10 @@ do vídeo, mas se tiverem dúvidas coloquem nos comentários.&lt;/p&gt;
     
     <item>
       <title>Javascript and Gamedev discussion</title>
-      <link>https://pothix.com/post/javascript-and-gamedev-discussion/</link>
+      <link>http://pothix.com/post/javascript-and-gamedev-discussion/</link>
       <pubDate>Sun, 02 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/javascript-and-gamedev-discussion/</guid>
+      <guid>http://pothix.com/post/javascript-and-gamedev-discussion/</guid>
       <description>&lt;p&gt;I read the &lt;a href=&#34;http://www.phoboslab.org/log/2012/08/letter-to-john-carmack&#34;&gt;blog post&lt;/a&gt;
 from &lt;a href=&#34;http://impactjs.com&#34;&gt;Impact engine&lt;/a&gt; creator
 &lt;a href=&#34;http://www.phoboslab.org/&#34;&gt;Dominic&lt;/a&gt; where he shows an email he sent to
@@ -535,10 +535,10 @@ well, you just need to decide which one is better for your business.&lt;/p&gt;
     
     <item>
       <title>Kernel compiling</title>
-      <link>https://pothix.com/post/kernel-compiling/</link>
+      <link>http://pothix.com/post/kernel-compiling/</link>
       <pubDate>Mon, 23 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/kernel-compiling/</guid>
+      <guid>http://pothix.com/post/kernel-compiling/</guid>
       <description>
 
 &lt;p&gt;Since I bought an Acer notebook to use Linux again (I sold my mac, I
@@ -700,10 +700,10 @@ process I think that I learned a lot, so it is worth it.&lt;/p&gt;
     
     <item>
       <title>Menos mac e mais Linux</title>
-      <link>https://pothix.com/post/menos-mac-e-mais-linux/</link>
+      <link>http://pothix.com/post/menos-mac-e-mais-linux/</link>
       <pubDate>Thu, 19 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/menos-mac-e-mais-linux/</guid>
+      <guid>http://pothix.com/post/menos-mac-e-mais-linux/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;TL; DR&lt;/strong&gt; Usei mac por mais de 6 meses e decidi voltar ao Linux. Na minha opinião
@@ -837,10 +837,10 @@ de frutinha. :P&lt;/p&gt;
     
     <item>
       <title>Aprendendo com o código do Quake</title>
-      <link>https://pothix.com/post/aprendendo-com-o-codigo-do-quake/</link>
+      <link>http://pothix.com/post/aprendendo-com-o-codigo-do-quake/</link>
       <pubDate>Wed, 18 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/aprendendo-com-o-codigo-do-quake/</guid>
+      <guid>http://pothix.com/post/aprendendo-com-o-codigo-do-quake/</guid>
       <description>&lt;p&gt;Desde que eu terminei a faculdade eu venho lendo bastante coisa útil (foi muita
 coisa inútil durante 4 anos&amp;hellip;) e aprendendo bastante coisa. Nos ultimos meses
 eu li vários code reviews dos códigos do Quake e do Doom.&lt;/p&gt;
@@ -897,10 +897,10 @@ programação &lt;strong&gt;RECOMENDO&lt;/strong&gt; fortemente tirar algumas ho
     
     <item>
       <title>Simlinks for ruby on Debian Squeeze</title>
-      <link>https://pothix.com/post/simlinks-for-ruby-on-debian-squeeze/</link>
+      <link>http://pothix.com/post/simlinks-for-ruby-on-debian-squeeze/</link>
       <pubDate>Tue, 17 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/simlinks-for-ruby-on-debian-squeeze/</guid>
+      <guid>http://pothix.com/post/simlinks-for-ruby-on-debian-squeeze/</guid>
       <description>&lt;p&gt;Every time we need to deploy a new Ruby application on top of Debian Squeeze
 we need to fix some Ruby depedencies to make the application work as it should.&lt;/p&gt;
 
@@ -923,10 +923,10 @@ ln -s /usr/bin/gem1.9.1 /usr/bin/gem
     
     <item>
       <title>Palestra sobre implementacoes paralelas</title>
-      <link>https://pothix.com/post/palestra-sobre-implementacoes-paralelas/</link>
+      <link>http://pothix.com/post/palestra-sobre-implementacoes-paralelas/</link>
       <pubDate>Mon, 16 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/palestra-sobre-implementacoes-paralelas/</guid>
+      <guid>http://pothix.com/post/palestra-sobre-implementacoes-paralelas/</guid>
       <description>&lt;p&gt;Esse post ficou como draft desde que eu palestrei sobre implementações
 paralelas, e agora que eu lembrei dele decidi publicar! :)&lt;/p&gt;
 
@@ -951,10 +951,10 @@ de manter. Espero que seja útil para mais alguém. ;)&lt;/p&gt;
     
     <item>
       <title>XMPP e Ruby</title>
-      <link>https://pothix.com/post/xmpp-e-ruby/</link>
+      <link>http://pothix.com/post/xmpp-e-ruby/</link>
       <pubDate>Tue, 10 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/xmpp-e-ruby/</guid>
+      <guid>http://pothix.com/post/xmpp-e-ruby/</guid>
       <description>&lt;p&gt;Alguns (vários…) meses atrás eu fiz uma palestra pequena no Guru-SP(São Paulo
 Ruby Users Group) sobre Ruby e XMPP, os vídeos e slides estão disponíveis:&lt;/p&gt;
 
@@ -976,10 +976,10 @@ projeto.&lt;/p&gt;
     
     <item>
       <title>Organizando os Feeds do Blog</title>
-      <link>https://pothix.com/post/organizando-os-feeds-do-blog/</link>
+      <link>http://pothix.com/post/organizando-os-feeds-do-blog/</link>
       <pubDate>Mon, 24 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/organizando-os-feeds-do-blog/</guid>
+      <guid>http://pothix.com/post/organizando-os-feeds-do-blog/</guid>
       <description>&lt;p&gt;Como muitos sabem, eu sou meio doido por organização (heheh) e eu
 mesmo não gosto de ficar lendo coisas que não me interessam de outros
 blogs, ou seja, no blog de alguém que gosta bastante de Vim eu ter que
@@ -1008,10 +1008,10 @@ colocar, é só ignorar isso tudo :)&lt;/p&gt;
     
     <item>
       <title>Meu ambiente de desenvolvimento</title>
-      <link>https://pothix.com/post/meu-ambiente-de-desenvolvimento/</link>
+      <link>http://pothix.com/post/meu-ambiente-de-desenvolvimento/</link>
       <pubDate>Wed, 29 Dec 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/meu-ambiente-de-desenvolvimento/</guid>
+      <guid>http://pothix.com/post/meu-ambiente-de-desenvolvimento/</guid>
       <description>
 
 &lt;p&gt;Fui convidado pelo &lt;a href=&#34;http://twitter.com/#!/jtadeulopes&#34;&gt;@jtadeulopes&lt;/a&gt; e
@@ -1143,10 +1143,10 @@ exemplo) mas acho que isso ae já é uma visão geral :D&lt;/p&gt;
     
     <item>
       <title>Conto da migração para Rails 3</title>
-      <link>https://pothix.com/post/conto-da-migracao-para-rails-3/</link>
+      <link>http://pothix.com/post/conto-da-migracao-para-rails-3/</link>
       <pubDate>Thu, 21 Oct 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/conto-da-migracao-para-rails-3/</guid>
+      <guid>http://pothix.com/post/conto-da-migracao-para-rails-3/</guid>
       <description>
 
 &lt;p&gt;Nesse post eu vou falar um pouco de como foi atualizar a aplicação que
@@ -1301,10 +1301,10 @@ sua aplicação. :)&lt;/p&gt;
     
     <item>
       <title>Linux, Vim, Screen e Pair programming!</title>
-      <link>https://pothix.com/post/linux-vim-screen-e-pair-programming/</link>
+      <link>http://pothix.com/post/linux-vim-screen-e-pair-programming/</link>
       <pubDate>Mon, 29 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/linux-vim-screen-e-pair-programming/</guid>
+      <guid>http://pothix.com/post/linux-vim-screen-e-pair-programming/</guid>
       <description>
 
 &lt;p&gt;Aqui estou eu mais uma vez para falar mais uma das maluquices que eu

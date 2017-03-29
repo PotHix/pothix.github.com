@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech on PotHix</title>
-    <link>https://pothix.com/tags/tech/index.xml</link>
+    <link>http://pothix.com/tags/tech/index.xml</link>
     <description>Recent content in Tech on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="https://pothix.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pothix.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>FOSDEM survival guide</title>
-      <link>https://pothix.com/post/fosdem-survival-guide/</link>
+      <link>http://pothix.com/post/fosdem-survival-guide/</link>
       <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/fosdem-survival-guide/</guid>
+      <guid>http://pothix.com/post/fosdem-survival-guide/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: It was my first time at &lt;a href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt; and it
@@ -46,7 +46,7 @@ volunteers that work hard to make it happen.&lt;/p&gt;
 &lt;p&gt;The conference happens at the Université libre de Bruxelles, using
 some buildings of the university.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pothix.com/images/posts/fosdem-survival-guide/map.png&#34; alt=&#34;Map of FOSDEM buildings&#34; title=&#34;FOSDEM map&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pothix.com/images/posts/fosdem-survival-guide/map.png&#34; alt=&#34;Map of FOSDEM buildings&#34; title=&#34;FOSDEM map&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;All the tracks are spread across these buildings. Depending on where
 you are, you have to reserve some time to reach the other building. It
@@ -71,7 +71,7 @@ presentations happening across all rooms and you may create your on
 schedule. I did it before going but forgot to consider the time
 between buildings and the &amp;ldquo;FULL&amp;rdquo; rooms.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pothix.com/images/posts/fosdem-survival-guide/full-room.jpg&#34; alt=&#34;The &amp;quot;FULL&amp;quot; sign&#34; title=&#34;Full rooms&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pothix.com/images/posts/fosdem-survival-guide/full-room.jpg&#34; alt=&#34;The &amp;quot;FULL&amp;quot; sign&#34; title=&#34;Full rooms&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;There are some limits that need to be respected, one of them is the
 number of people inside the room. When the room is fulfilled with
@@ -137,10 +137,10 @@ received these tips before, so I would have planned my day better.&lt;/p&gt;
     
     <item>
       <title>My presentation at FOSDEM 2017</title>
-      <link>https://pothix.com/post/my-presentation-at-fosdem-2017/</link>
+      <link>http://pothix.com/post/my-presentation-at-fosdem-2017/</link>
       <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/my-presentation-at-fosdem-2017/</guid>
+      <guid>http://pothix.com/post/my-presentation-at-fosdem-2017/</guid>
       <description>&lt;p&gt;This year my proposal to speak at &lt;a href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt; was accepted and I
 spoke at the Desktop devroom! :)&lt;/p&gt;
 
@@ -170,10 +170,10 @@ on
     
     <item>
       <title>Experiences of almost two years using colemak</title>
-      <link>https://pothix.com/post/experiences-of-almost-two-years-using-colemak/</link>
+      <link>http://pothix.com/post/experiences-of-almost-two-years-using-colemak/</link>
       <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/experiences-of-almost-two-years-using-colemak/</guid>
+      <guid>http://pothix.com/post/experiences-of-almost-two-years-using-colemak/</guid>
       <description>&lt;p&gt;TL;DR: I like colemak, and it is a &lt;em&gt;very good&lt;/em&gt; layout. I found some equivalent
 pros and cons, so I can&amp;rsquo;t recommend it to anyone without a little bit of
 philosophy. :)&lt;/p&gt;
@@ -203,7 +203,7 @@ on), so I just need to use qwerty when I&amp;rsquo;m typing on other peoples dev
 &lt;p&gt;A pro is that my typing speed grew from an average of 75 WPM to almost 100
 WPM. I need to consider that I also bought a Kinesis Advantage Pro;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pothix.com/images/posts/almost-two-years-using-colemak-kinesis.jpg&#34; alt=&#34;Kinesis advantage photo&#34; title=&#34;Kinesis Advantage&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pothix.com/images/posts/almost-two-years-using-colemak-kinesis.jpg&#34; alt=&#34;Kinesis advantage photo&#34; title=&#34;Kinesis Advantage&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Without this keyboard I&amp;rsquo;m not that fast. Just tried
 &lt;a href=&#34;http://10fastfingers.com/user/504663/&#34;&gt;10fastfingers now and got 92 WPM&lt;/a&gt; using
@@ -234,10 +234,10 @@ about my journey is that &lt;strong&gt;I would do it again if I could&lt;/strong
     
     <item>
       <title>Ruby, Python e native threads</title>
-      <link>https://pothix.com/post/ruby-python-e-native-threads/</link>
+      <link>http://pothix.com/post/ruby-python-e-native-threads/</link>
       <pubDate>Fri, 14 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/ruby-python-e-native-threads/</guid>
+      <guid>http://pothix.com/post/ruby-python-e-native-threads/</guid>
       <description>&lt;p&gt;Pode ser que eu seja meio burro (heheh) mas eu ainda achava que o Ruby e o
 Python usavam Green Threads, mas depois de conversar com uma galera me disseram
 que eram threads nativas. Pesquisando na internet eu vi que eram mesmo, mas decidi
@@ -534,10 +534,10 @@ descobrir coisas novas. :)&lt;/p&gt;
     
     <item>
       <title>Golang and 1.2 version performance improvement</title>
-      <link>https://pothix.com/post/golang-and-1-2-version-performance-improvement/</link>
+      <link>http://pothix.com/post/golang-and-1-2-version-performance-improvement/</link>
       <pubDate>Tue, 03 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/golang-and-1-2-version-performance-improvement/</guid>
+      <guid>http://pothix.com/post/golang-and-1-2-version-performance-improvement/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve started using Go last month and I really liked to work with the language.&lt;/p&gt;
 
 &lt;p&gt;The project I&amp;rsquo;m working on is dead simple and just retrieves metrics and save on
@@ -609,10 +609,10 @@ Looks like it is a good idea of language for some of my projects, welcome Golang
     
     <item>
       <title>Plaev, HTML5 e Skeleton-jigsaw</title>
-      <link>https://pothix.com/post/plaev5-e-skeleton-jigsaw/</link>
+      <link>http://pothix.com/post/plaev5-e-skeleton-jigsaw/</link>
       <pubDate>Tue, 04 Dec 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/plaev5-e-skeleton-jigsaw/</guid>
+      <guid>http://pothix.com/post/plaev5-e-skeleton-jigsaw/</guid>
       <description>&lt;p&gt;Depois de muito tempo desenvolvendo finalmente terminamos o Skeleton-Jigsaw em
 outubro! Demorei para postar sobre isso aqui no blog por falta de tempo, mas
 aqui está!&lt;/p&gt;
@@ -659,10 +659,10 @@ do vídeo, mas se tiverem dúvidas coloquem nos comentários.&lt;/p&gt;
     
     <item>
       <title>Javascript and Gamedev discussion</title>
-      <link>https://pothix.com/post/javascript-and-gamedev-discussion/</link>
+      <link>http://pothix.com/post/javascript-and-gamedev-discussion/</link>
       <pubDate>Sun, 02 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/javascript-and-gamedev-discussion/</guid>
+      <guid>http://pothix.com/post/javascript-and-gamedev-discussion/</guid>
       <description>&lt;p&gt;I read the &lt;a href=&#34;http://www.phoboslab.org/log/2012/08/letter-to-john-carmack&#34;&gt;blog post&lt;/a&gt;
 from &lt;a href=&#34;http://impactjs.com&#34;&gt;Impact engine&lt;/a&gt; creator
 &lt;a href=&#34;http://www.phoboslab.org/&#34;&gt;Dominic&lt;/a&gt; where he shows an email he sent to
@@ -713,10 +713,10 @@ well, you just need to decide which one is better for your business.&lt;/p&gt;
     
     <item>
       <title>Kernel compiling</title>
-      <link>https://pothix.com/post/kernel-compiling/</link>
+      <link>http://pothix.com/post/kernel-compiling/</link>
       <pubDate>Mon, 23 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/kernel-compiling/</guid>
+      <guid>http://pothix.com/post/kernel-compiling/</guid>
       <description>
 
 &lt;p&gt;Since I bought an Acer notebook to use Linux again (I sold my mac, I
@@ -878,10 +878,10 @@ process I think that I learned a lot, so it is worth it.&lt;/p&gt;
     
     <item>
       <title>Menos mac e mais Linux</title>
-      <link>https://pothix.com/post/menos-mac-e-mais-linux/</link>
+      <link>http://pothix.com/post/menos-mac-e-mais-linux/</link>
       <pubDate>Thu, 19 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/menos-mac-e-mais-linux/</guid>
+      <guid>http://pothix.com/post/menos-mac-e-mais-linux/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;TL; DR&lt;/strong&gt; Usei mac por mais de 6 meses e decidi voltar ao Linux. Na minha opinião
@@ -1015,10 +1015,10 @@ de frutinha. :P&lt;/p&gt;
     
     <item>
       <title>Aprendendo com o código do Quake</title>
-      <link>https://pothix.com/post/aprendendo-com-o-codigo-do-quake/</link>
+      <link>http://pothix.com/post/aprendendo-com-o-codigo-do-quake/</link>
       <pubDate>Wed, 18 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/aprendendo-com-o-codigo-do-quake/</guid>
+      <guid>http://pothix.com/post/aprendendo-com-o-codigo-do-quake/</guid>
       <description>&lt;p&gt;Desde que eu terminei a faculdade eu venho lendo bastante coisa útil (foi muita
 coisa inútil durante 4 anos&amp;hellip;) e aprendendo bastante coisa. Nos ultimos meses
 eu li vários code reviews dos códigos do Quake e do Doom.&lt;/p&gt;
@@ -1075,10 +1075,10 @@ programação &lt;strong&gt;RECOMENDO&lt;/strong&gt; fortemente tirar algumas ho
     
     <item>
       <title>Palestra sobre implementacoes paralelas</title>
-      <link>https://pothix.com/post/palestra-sobre-implementacoes-paralelas/</link>
+      <link>http://pothix.com/post/palestra-sobre-implementacoes-paralelas/</link>
       <pubDate>Mon, 16 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/palestra-sobre-implementacoes-paralelas/</guid>
+      <guid>http://pothix.com/post/palestra-sobre-implementacoes-paralelas/</guid>
       <description>&lt;p&gt;Esse post ficou como draft desde que eu palestrei sobre implementações
 paralelas, e agora que eu lembrei dele decidi publicar! :)&lt;/p&gt;
 
@@ -1103,10 +1103,10 @@ de manter. Espero que seja útil para mais alguém. ;)&lt;/p&gt;
     
     <item>
       <title>XMPP e Ruby</title>
-      <link>https://pothix.com/post/xmpp-e-ruby/</link>
+      <link>http://pothix.com/post/xmpp-e-ruby/</link>
       <pubDate>Tue, 10 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/xmpp-e-ruby/</guid>
+      <guid>http://pothix.com/post/xmpp-e-ruby/</guid>
       <description>&lt;p&gt;Alguns (vários…) meses atrás eu fiz uma palestra pequena no Guru-SP(São Paulo
 Ruby Users Group) sobre Ruby e XMPP, os vídeos e slides estão disponíveis:&lt;/p&gt;
 
@@ -1128,10 +1128,10 @@ projeto.&lt;/p&gt;
     
     <item>
       <title>Organizando os Feeds do Blog</title>
-      <link>https://pothix.com/post/organizando-os-feeds-do-blog/</link>
+      <link>http://pothix.com/post/organizando-os-feeds-do-blog/</link>
       <pubDate>Mon, 24 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/organizando-os-feeds-do-blog/</guid>
+      <guid>http://pothix.com/post/organizando-os-feeds-do-blog/</guid>
       <description>&lt;p&gt;Como muitos sabem, eu sou meio doido por organização (heheh) e eu
 mesmo não gosto de ficar lendo coisas que não me interessam de outros
 blogs, ou seja, no blog de alguém que gosta bastante de Vim eu ter que
@@ -1160,10 +1160,10 @@ colocar, é só ignorar isso tudo :)&lt;/p&gt;
     
     <item>
       <title>Meu ambiente de desenvolvimento</title>
-      <link>https://pothix.com/post/meu-ambiente-de-desenvolvimento/</link>
+      <link>http://pothix.com/post/meu-ambiente-de-desenvolvimento/</link>
       <pubDate>Wed, 29 Dec 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/meu-ambiente-de-desenvolvimento/</guid>
+      <guid>http://pothix.com/post/meu-ambiente-de-desenvolvimento/</guid>
       <description>
 
 &lt;p&gt;Fui convidado pelo &lt;a href=&#34;http://twitter.com/#!/jtadeulopes&#34;&gt;@jtadeulopes&lt;/a&gt; e
@@ -1295,10 +1295,10 @@ exemplo) mas acho que isso ae já é uma visão geral :D&lt;/p&gt;
     
     <item>
       <title>Semana de eventos (#rubyconfbr, #adl e #gddbr)</title>
-      <link>https://pothix.com/post/semana-de-eventos-rubyconfbr-adl-e-gddbr/</link>
+      <link>http://pothix.com/post/semana-de-eventos-rubyconfbr-adl-e-gddbr/</link>
       <pubDate>Sun, 31 Oct 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/semana-de-eventos-rubyconfbr-adl-e-gddbr/</guid>
+      <guid>http://pothix.com/post/semana-de-eventos-rubyconfbr-adl-e-gddbr/</guid>
       <description>
 
 &lt;p&gt;Na semana passada (semana do dia 24 ao dia 30 de outubro) foi uma

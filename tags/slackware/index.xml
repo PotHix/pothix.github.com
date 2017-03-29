@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Slackware on PotHix</title>
-    <link>https://pothix.com/tags/slackware/index.xml</link>
+    <link>http://pothix.com/tags/slackware/index.xml</link>
     <description>Recent content in Slackware on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="https://pothix.com/tags/slackware/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pothix.com/tags/slackware/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Ativando numlock na Inicialização do Fluxbox no Slackware</title>
-      <link>https://pothix.com/post/ativando-numlock-na-inicializacao-do-fluxbox-no-slackware/</link>
+      <link>http://pothix.com/post/ativando-numlock-na-inicializacao-do-fluxbox-no-slackware/</link>
       <pubDate>Thu, 13 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/ativando-numlock-na-inicializacao-do-fluxbox-no-slackware/</guid>
+      <guid>http://pothix.com/post/ativando-numlock-na-inicializacao-do-fluxbox-no-slackware/</guid>
       <description>&lt;p&gt;Estava eu pesquisando na internet como conseguir fazer o meu
 numlock já iniciar ativado quando meu fluxbox inicia e encontrei
 várias dicas, sendo umas para XFCE e outros sistemas não sendo
@@ -57,10 +57,10 @@ automágicamente! :P&lt;/p&gt;
     
     <item>
       <title>Facilitando a instalação de pacotes no Slackware</title>
-      <link>https://pothix.com/post/facilitando-a-instalacao-de-pacotes-no-slackware/</link>
+      <link>http://pothix.com/post/facilitando-a-instalacao-de-pacotes-no-slackware/</link>
       <pubDate>Tue, 11 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/facilitando-a-instalacao-de-pacotes-no-slackware/</guid>
+      <guid>http://pothix.com/post/facilitando-a-instalacao-de-pacotes-no-slackware/</guid>
       <description>
 
 &lt;p&gt;Estava escrevendo outro post e chegando em um ponto onde eu instalaria

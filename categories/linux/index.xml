@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on PotHix</title>
-    <link>https://pothix.com/categories/linux/index.xml</link>
+    <link>http://pothix.com/categories/linux/index.xml</link>
     <description>Recent content in Linux on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="https://pothix.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pothix.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Como desabilitar o beep no Ubuntu</title>
-      <link>https://pothix.com/post/como-desabilitar-o-beep-no-ubuntu/</link>
+      <link>http://pothix.com/post/como-desabilitar-o-beep-no-ubuntu/</link>
       <pubDate>Thu, 09 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/como-desabilitar-o-beep-no-ubuntu/</guid>
+      <guid>http://pothix.com/post/como-desabilitar-o-beep-no-ubuntu/</guid>
       <description>&lt;p&gt;Resolvi postar sobre isso por que é uma coisa tão simples mas irrita
 muito quando você não sabe como desabilitar, e sempre que eu procurava
 eu caia em fóruns com vários comandos bizarros e colocar algo
@@ -53,10 +53,10 @@ emitindo beeps supostamente benéficos para vc! :P&lt;/p&gt;
     
     <item>
       <title>Instalando modem 3G Claro USB E226 no Ubuntu</title>
-      <link>https://pothix.com/post/instalando-modem-3g-claro-usb-e226-no-ubuntu/</link>
+      <link>http://pothix.com/post/instalando-modem-3g-claro-usb-e226-no-ubuntu/</link>
       <pubDate>Sat, 13 Jun 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/instalando-modem-3g-claro-usb-e226-no-ubuntu/</guid>
+      <guid>http://pothix.com/post/instalando-modem-3g-claro-usb-e226-no-ubuntu/</guid>
       <description>&lt;p&gt;Após receber um modem Claro da &lt;a href=&#34;http://www.ikwa.com.br&#34; title=&#34;Ikwa Orientação Profissional&#34;&gt;empresa que eu trabalho atualmente&lt;/a&gt;
 eu fui fazer o processo de instalação no Ubuntu. Já tinha recebido a
 informação de um &lt;a href=&#34;http://github.com/mateuslinhares&#34;&gt;colega de trabalho&lt;/a&gt;
@@ -98,10 +98,10 @@ para &lt;strong&gt;208.67.222.222, 208.67.220.220&lt;/strong&gt;.&lt;/p&gt;
     
     <item>
       <title>Configurando seu Gtalk do Google Apps no Pidgin</title>
-      <link>https://pothix.com/post/configurando-seu-gtalk-do-google-apps-no-pidgin/</link>
+      <link>http://pothix.com/post/configurando-seu-gtalk-do-google-apps-no-pidgin/</link>
       <pubDate>Sat, 09 May 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/configurando-seu-gtalk-do-google-apps-no-pidgin/</guid>
+      <guid>http://pothix.com/post/configurando-seu-gtalk-do-google-apps-no-pidgin/</guid>
       <description>&lt;p&gt;Resolvi postar sobre isso depois de passar por 3 empresas que usam o
 &lt;a href=&#34;http://www.google.com/apps/intl/en/business/index.html&#34; title=&#34;Google Apps&#34;&gt;Google Apps for your Domain&lt;/a&gt;
 e eu sempre esbarrar com o maldito probleminha ao se configurar o Pidgin.&lt;/p&gt;
@@ -141,10 +141,10 @@ Google Apps! :)&lt;/p&gt;
     
     <item>
       <title>Ubuntu 9.04</title>
-      <link>https://pothix.com/post/ubuntu-904/</link>
+      <link>http://pothix.com/post/ubuntu-904/</link>
       <pubDate>Wed, 06 May 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/ubuntu-904/</guid>
+      <guid>http://pothix.com/post/ubuntu-904/</guid>
       <description>
 
 &lt;p&gt;Hoje estou aqui para falar um pouco sobre o Ubuntu 9.04! :)&lt;/p&gt;
@@ -229,10 +229,10 @@ gracinhas! :P&lt;/p&gt;
     
     <item>
       <title>DC&#43;&#43; no Linux</title>
-      <link>https://pothix.com/post/dc-no-linux/</link>
+      <link>http://pothix.com/post/dc-no-linux/</link>
       <pubDate>Mon, 09 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/dc-no-linux/</guid>
+      <guid>http://pothix.com/post/dc-no-linux/</guid>
       <description>&lt;p&gt;Hoje finalmente estou conseguindo escrever um post sobre o DC++! Desde
 a &lt;a href=&#34;http://pothix.com/blog/events/campus-party-2009&#34; title=&#34;Campus Party&#34;&gt;Campus Party&lt;/a&gt;
 eu quero escrever esse post mas nunca consigo tempo!&lt;/p&gt;
@@ -296,10 +296,10 @@ Party!&lt;/p&gt;
     
     <item>
       <title>A facilidade do Ubuntu</title>
-      <link>https://pothix.com/post/a-facilidade-do-ubuntu/</link>
+      <link>http://pothix.com/post/a-facilidade-do-ubuntu/</link>
       <pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/a-facilidade-do-ubuntu/</guid>
+      <guid>http://pothix.com/post/a-facilidade-do-ubuntu/</guid>
       <description>
 
 &lt;p&gt;Deixa eu explicar aqui para quem estou destinando esse post. Esse post
@@ -516,10 +516,10 @@ possível para responder.&lt;/p&gt;
     
     <item>
       <title>Como são os primeiros passos de um Linuxer</title>
-      <link>https://pothix.com/post/como-sao-os-primeiros-passos-de-um-linuxer/</link>
+      <link>http://pothix.com/post/como-sao-os-primeiros-passos-de-um-linuxer/</link>
       <pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/como-sao-os-primeiros-passos-de-um-linuxer/</guid>
+      <guid>http://pothix.com/post/como-sao-os-primeiros-passos-de-um-linuxer/</guid>
       <description>&lt;p&gt;Nesse post eu vou contar um pouco de como são os primeiros passos de
 alguem que quer mesmo brincar com Linux. No caso vou falar como &lt;strong&gt;eu&lt;/strong&gt;
 comecei com o Linux! Vamos lá! :)&lt;/p&gt;
@@ -655,10 +655,10 @@ quantidade de coisas legais que você pode ter nesse sistema.&lt;/p&gt;
     
     <item>
       <title>Montando imagens do Nero (nrg) no Linux</title>
-      <link>https://pothix.com/post/montando-imagens-do-nero-nrg-no-linux/</link>
+      <link>http://pothix.com/post/montando-imagens-do-nero-nrg-no-linux/</link>
       <pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/montando-imagens-do-nero-nrg-no-linux/</guid>
+      <guid>http://pothix.com/post/montando-imagens-do-nero-nrg-no-linux/</guid>
       <description>
 
 &lt;p&gt;Vou comentar agora sobre como montar aquela imagem chata do Nero (.nrg
@@ -704,10 +704,10 @@ montar nossa imagem normalmente em alguma pasta, como por exemplo
     
     <item>
       <title>Utilizando o sshfs</title>
-      <link>https://pothix.com/post/utilizando-o-sshfs/</link>
+      <link>http://pothix.com/post/utilizando-o-sshfs/</link>
       <pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/utilizando-o-sshfs/</guid>
+      <guid>http://pothix.com/post/utilizando-o-sshfs/</guid>
       <description>
 
 &lt;p&gt;Estou utilizando bastante o
@@ -766,10 +766,10 @@ montado localmente para cópia de arquivos.&lt;/p&gt;
     
     <item>
       <title>Deixando seu ssh mais facil de trabalhar</title>
-      <link>https://pothix.com/post/deixando-seu-ssh-mais-facil-de-trabalhar/</link>
+      <link>http://pothix.com/post/deixando-seu-ssh-mais-facil-de-trabalhar/</link>
       <pubDate>Thu, 27 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/deixando-seu-ssh-mais-facil-de-trabalhar/</guid>
+      <guid>http://pothix.com/post/deixando-seu-ssh-mais-facil-de-trabalhar/</guid>
       <description>&lt;p&gt;Se você usa bastante &lt;a href=&#34;http://en.wikipedia.org/wiki/Ssh&#34;&gt;SSH&lt;/a&gt; vou
 mostrar um método para facilitar um pouco a sua vida. Sei que existem
 métodos melhores para trabalhar com vários SSH ao mesmo tempo,
@@ -856,10 +856,10 @@ tambem. ;)&lt;/p&gt;
     
     <item>
       <title>Ativando numlock na Inicialização do Fluxbox no Slackware</title>
-      <link>https://pothix.com/post/ativando-numlock-na-inicializacao-do-fluxbox-no-slackware/</link>
+      <link>http://pothix.com/post/ativando-numlock-na-inicializacao-do-fluxbox-no-slackware/</link>
       <pubDate>Thu, 13 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/ativando-numlock-na-inicializacao-do-fluxbox-no-slackware/</guid>
+      <guid>http://pothix.com/post/ativando-numlock-na-inicializacao-do-fluxbox-no-slackware/</guid>
       <description>&lt;p&gt;Estava eu pesquisando na internet como conseguir fazer o meu
 numlock já iniciar ativado quando meu fluxbox inicia e encontrei
 várias dicas, sendo umas para XFCE e outros sistemas não sendo
@@ -902,10 +902,10 @@ automágicamente! :P&lt;/p&gt;
     
     <item>
       <title>Ouvindo suas musicas no Amarok</title>
-      <link>https://pothix.com/post/ouvindo-suas-musicas-no-amarok/</link>
+      <link>http://pothix.com/post/ouvindo-suas-musicas-no-amarok/</link>
       <pubDate>Thu, 13 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/ouvindo-suas-musicas-no-amarok/</guid>
+      <guid>http://pothix.com/post/ouvindo-suas-musicas-no-amarok/</guid>
       <description>&lt;p&gt;Como sabem, instalei o Ubuntu no meu notebook Toshiba U405-S2854, e
 estou brincando um pouco com programas bunitinhos e mais pesados do
 que os que eu costumava usar no Slackware.&lt;/p&gt;
@@ -949,10 +949,10 @@ coisas&amp;hellip;Mas para quem vem do XMMS isso já é muita frescura&amp;helli
     
     <item>
       <title>Facilitando a instalação de pacotes no Slackware</title>
-      <link>https://pothix.com/post/facilitando-a-instalacao-de-pacotes-no-slackware/</link>
+      <link>http://pothix.com/post/facilitando-a-instalacao-de-pacotes-no-slackware/</link>
       <pubDate>Tue, 11 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/facilitando-a-instalacao-de-pacotes-no-slackware/</guid>
+      <guid>http://pothix.com/post/facilitando-a-instalacao-de-pacotes-no-slackware/</guid>
       <description>
 
 &lt;p&gt;Estava escrevendo outro post e chegando em um ponto onde eu instalaria
@@ -1056,10 +1056,10 @@ instalações do Slackware mais rápidas.&lt;/p&gt;
     
     <item>
       <title>Mais de uma distro no Notebook!</title>
-      <link>https://pothix.com/post/mais-de-uma-distro-no-notebook/</link>
+      <link>http://pothix.com/post/mais-de-uma-distro-no-notebook/</link>
       <pubDate>Mon, 13 Oct 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/mais-de-uma-distro-no-notebook/</guid>
+      <guid>http://pothix.com/post/mais-de-uma-distro-no-notebook/</guid>
       <description>&lt;p&gt;Pouco tempo atrás comprei um notebook
 &lt;a href=&#34;http://explore.toshiba.com/laptops/satellite/U400/U405-S2854&#34;&gt;Toshiba U405-S2854&lt;/a&gt;
 e instalei o Slackware 12.0 (não tinha baixado o 12.1 ainda) com

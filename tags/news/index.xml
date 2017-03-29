@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on PotHix</title>
-    <link>https://pothix.com/tags/news/index.xml</link>
+    <link>http://pothix.com/tags/news/index.xml</link>
     <description>Recent content in News on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="https://pothix.com/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pothix.com/tags/news/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>New layout of PotHix blog</title>
-      <link>https://pothix.com/post/new-layout-of-pothix-blog/</link>
+      <link>http://pothix.com/post/new-layout-of-pothix-blog/</link>
       <pubDate>Mon, 25 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/new-layout-of-pothix-blog/</guid>
+      <guid>http://pothix.com/post/new-layout-of-pothix-blog/</guid>
       <description>&lt;p&gt;Welcome to the new blog layout of PotHix.com! :)&lt;/p&gt;
 
 &lt;p&gt;I decided that the time has came to change not just the layout but the blog
@@ -36,10 +36,10 @@ instead of keeping the wordpress &amp;ldquo;infrastructure&amp;rdquo;.&lt;/p&gt;
     
     <item>
       <title>Usuários resolvem os problemas da VIVO</title>
-      <link>https://pothix.com/post/usuarios-resolvem-os-problemas-da-vivo/</link>
+      <link>http://pothix.com/post/usuarios-resolvem-os-problemas-da-vivo/</link>
       <pubDate>Tue, 13 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/usuarios-resolvem-os-problemas-da-vivo/</guid>
+      <guid>http://pothix.com/post/usuarios-resolvem-os-problemas-da-vivo/</guid>
       <description>&lt;p&gt;Primeiramente quero parabenizar o
 &lt;a href=&#34;http://blog.diogosantos.com/2009/01/acesse-o-vivo-online-com-avoi-um-complemento-para-firefox/&#34;&gt;Diogo Santos&lt;/a&gt;
 pelo seu &lt;a href=&#34;http://diogosantos.com/avoi/&#34; title=&#34;AVOI&#34;&gt;add-on para Firefox&lt;/a&gt;,
@@ -85,10 +85,10 @@ e a parabenização ao &lt;a href=&#34;http://diogosantos.com/&#34; title=&#34;S
     
     <item>
       <title>Primeiro post por aqui!</title>
-      <link>https://pothix.com/post/primeiro-post-por-aqui/</link>
+      <link>http://pothix.com/post/primeiro-post-por-aqui/</link>
       <pubDate>Tue, 02 Sep 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/primeiro-post-por-aqui/</guid>
+      <guid>http://pothix.com/post/primeiro-post-por-aqui/</guid>
       <description>&lt;p&gt;Bem, como primeiro post vou me apresentar e dizer qual o meu intuito
 com esse blog.&lt;/p&gt;
 

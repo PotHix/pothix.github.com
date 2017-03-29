@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Events on PotHix</title>
-    <link>https://pothix.com/tags/events/index.xml</link>
+    <link>http://pothix.com/tags/events/index.xml</link>
     <description>Recent content in Events on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="https://pothix.com/tags/events/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pothix.com/tags/events/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>FOSDEM survival guide</title>
-      <link>https://pothix.com/post/fosdem-survival-guide/</link>
+      <link>http://pothix.com/post/fosdem-survival-guide/</link>
       <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/fosdem-survival-guide/</guid>
+      <guid>http://pothix.com/post/fosdem-survival-guide/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: It was my first time at &lt;a href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt; and it
@@ -46,7 +46,7 @@ volunteers that work hard to make it happen.&lt;/p&gt;
 &lt;p&gt;The conference happens at the Université libre de Bruxelles, using
 some buildings of the university.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pothix.com/images/posts/fosdem-survival-guide/map.png&#34; alt=&#34;Map of FOSDEM buildings&#34; title=&#34;FOSDEM map&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pothix.com/images/posts/fosdem-survival-guide/map.png&#34; alt=&#34;Map of FOSDEM buildings&#34; title=&#34;FOSDEM map&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;All the tracks are spread across these buildings. Depending on where
 you are, you have to reserve some time to reach the other building. It
@@ -71,7 +71,7 @@ presentations happening across all rooms and you may create your on
 schedule. I did it before going but forgot to consider the time
 between buildings and the &amp;ldquo;FULL&amp;rdquo; rooms.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pothix.com/images/posts/fosdem-survival-guide/full-room.jpg&#34; alt=&#34;The &amp;quot;FULL&amp;quot; sign&#34; title=&#34;Full rooms&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pothix.com/images/posts/fosdem-survival-guide/full-room.jpg&#34; alt=&#34;The &amp;quot;FULL&amp;quot; sign&#34; title=&#34;Full rooms&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;There are some limits that need to be respected, one of them is the
 number of people inside the room. When the room is fulfilled with
@@ -137,10 +137,10 @@ received these tips before, so I would have planned my day better.&lt;/p&gt;
     
     <item>
       <title>My presentation at FOSDEM 2017</title>
-      <link>https://pothix.com/post/my-presentation-at-fosdem-2017/</link>
+      <link>http://pothix.com/post/my-presentation-at-fosdem-2017/</link>
       <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/my-presentation-at-fosdem-2017/</guid>
+      <guid>http://pothix.com/post/my-presentation-at-fosdem-2017/</guid>
       <description>&lt;p&gt;This year my proposal to speak at &lt;a href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt; was accepted and I
 spoke at the Desktop devroom! :)&lt;/p&gt;
 
@@ -170,10 +170,10 @@ on
     
     <item>
       <title>Rubyconf 2016</title>
-      <link>https://pothix.com/post/rubyconf-2016/</link>
+      <link>http://pothix.com/post/rubyconf-2016/</link>
       <pubDate>Mon, 26 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/rubyconf-2016/</guid>
+      <guid>http://pothix.com/post/rubyconf-2016/</guid>
       <description>&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: A melhor Rubyconf que eu participei&lt;/p&gt;
 
 &lt;p&gt;Nos dias 24 e 25 de Setembro de 2016 aconteceu a Rubyconf Brasil.
@@ -243,10 +243,10 @@ contínua de conhecimento vai continuar. :)&lt;/p&gt;
     
     <item>
       <title>As escolhas do desenvolvedor</title>
-      <link>https://pothix.com/post/as-escolhas-do-desenvolvedor/</link>
+      <link>http://pothix.com/post/as-escolhas-do-desenvolvedor/</link>
       <pubDate>Mon, 31 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/as-escolhas-do-desenvolvedor/</guid>
+      <guid>http://pothix.com/post/as-escolhas-do-desenvolvedor/</guid>
       <description>&lt;p&gt;Esse ano fui chamado para palestrar em todas as edições do Encontro Locaweb que
 acontecem por várias cidades do Brasil! Palestrei em 6 cidades de estados
 diferentes, e aconteceram na seguinte ordem:&lt;/p&gt;
@@ -287,10 +287,10 @@ coisa legal com a palestra.&lt;/p&gt;
     
     <item>
       <title>OSCON 2015</title>
-      <link>https://pothix.com/post/oscon/</link>
+      <link>http://pothix.com/post/oscon/</link>
       <pubDate>Mon, 27 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/oscon/</guid>
+      <guid>http://pothix.com/post/oscon/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; I&amp;rsquo;ve been at OSCON this year (thanks to
@@ -657,10 +657,10 @@ Portland. :(&lt;/p&gt;
     
     <item>
       <title>O Guru-SP e seus 5 anos de vida</title>
-      <link>https://pothix.com/post/o-guru-sp-e-seus-5-anos-de-vida/</link>
+      <link>http://pothix.com/post/o-guru-sp-e-seus-5-anos-de-vida/</link>
       <pubDate>Tue, 17 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/o-guru-sp-e-seus-5-anos-de-vida/</guid>
+      <guid>http://pothix.com/post/o-guru-sp-e-seus-5-anos-de-vida/</guid>
       <description>&lt;p&gt;Há pouco tempo aconteceu o &lt;a href=&#34;http://gurusp.org/encontros/trigesimo-primeiro-encontro-do-guru-sp&#34;&gt;encontro numero 31 do Guru-SP&lt;/a&gt;, e como sempre saímos
 (dessa vez estavamos &lt;a href=&#34;http://twitter.com/vinibaggio&#34;&gt;@vinibaggio&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/agaelebe&#34;&gt;@agaelebe&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/nuxlli&#34;&gt;@nuxlli&lt;/a&gt; e &lt;a href=&#34;http://twitter.com/anderson_leite&#34;&gt;@anderson_leite&lt;/a&gt;) para
 aquele velho momento de bate papo pós evento. Durante a conversa o @nuxlli perguntou sobre como o Guru-SP começou e nesse momento eu comecei a relembrar
@@ -740,10 +740,10 @@ Brasil, e mais do que isso um lugar legal para troca de conhecimentos.&lt;/p&gt;
     
     <item>
       <title>Semana de eventos (#rubyconfbr, #adl e #gddbr)</title>
-      <link>https://pothix.com/post/semana-de-eventos-rubyconfbr-adl-e-gddbr/</link>
+      <link>http://pothix.com/post/semana-de-eventos-rubyconfbr-adl-e-gddbr/</link>
       <pubDate>Sun, 31 Oct 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/semana-de-eventos-rubyconfbr-adl-e-gddbr/</guid>
+      <guid>http://pothix.com/post/semana-de-eventos-rubyconfbr-adl-e-gddbr/</guid>
       <description>
 
 &lt;p&gt;Na semana passada (semana do dia 24 ao dia 30 de outubro) foi uma
@@ -872,10 +872,10 @@ trabalho, e descansei no final da semana! Portanto&amp;hellip; Vitória! :D&lt;/
     
     <item>
       <title>FISL11</title>
-      <link>https://pothix.com/post/fisl11/</link>
+      <link>http://pothix.com/post/fisl11/</link>
       <pubDate>Sun, 01 Aug 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/fisl11/</guid>
+      <guid>http://pothix.com/post/fisl11/</guid>
       <description>
 
 &lt;p&gt;Finalmente depois de 4 anos planejando eu consegui ir para o FISL! :)&lt;/p&gt;
@@ -1034,10 +1034,10 @@ picasa&lt;/a&gt;. ;)&lt;/p&gt;
     
     <item>
       <title>Yahoo Open Hack 2010</title>
-      <link>https://pothix.com/post/yahoo-open-hack-2010/</link>
+      <link>http://pothix.com/post/yahoo-open-hack-2010/</link>
       <pubDate>Mon, 29 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/yahoo-open-hack-2010/</guid>
+      <guid>http://pothix.com/post/yahoo-open-hack-2010/</guid>
       <description>
 
 &lt;p&gt;Para quem ainda não soube, no final de semana passado rolou o Yahoo
@@ -1067,7 +1067,7 @@ poderíamos retornar de qual serviço. :)&lt;/p&gt;
 
 &lt;h4 id=&#34;metodologia-e-projeto&#34;&gt;Metodologia e projeto&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://pothix.com/images/posts/openhack.jpg&#34; title=&#34;Equipe do openhack&#34;&gt;&lt;img src=&#34;https://pothix.com/images/posts/openhack.jpg&#34; alt=&#34;Foto da equipe do Openhack&#34; title=&#34;Equipe do Openhack&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/openhack.jpg&#34; title=&#34;Equipe do openhack&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/openhack.jpg&#34; alt=&#34;Foto da equipe do Openhack&#34; title=&#34;Equipe do Openhack&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Como já estamos acostumados a utilizar Scrum no
 &lt;a href=&#34;www.ikwa.com.br&#34;&gt;Ikwa&lt;/a&gt; nós resolvemos fazer o mesmo para o nosso
@@ -1135,10 +1135,10 @@ Picasa&lt;/a&gt;.&lt;/p&gt;
     
     <item>
       <title>Campus Party 2010</title>
-      <link>https://pothix.com/post/campus-party-2010/</link>
+      <link>http://pothix.com/post/campus-party-2010/</link>
       <pubDate>Tue, 02 Feb 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/campus-party-2010/</guid>
+      <guid>http://pothix.com/post/campus-party-2010/</guid>
       <description>
 
 &lt;p&gt;Esse começo de ano eu estou aproveitando para participar de alguns
@@ -1251,10 +1251,10 @@ precisa &amp;ldquo;entrar na brincadeira&amp;rdquo; e aproveitar. ;)&lt;/p&gt;
     
     <item>
       <title>Show do Metallica</title>
-      <link>https://pothix.com/post/show-do-metallica/</link>
+      <link>http://pothix.com/post/show-do-metallica/</link>
       <pubDate>Tue, 02 Feb 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/show-do-metallica/</guid>
+      <guid>http://pothix.com/post/show-do-metallica/</guid>
       <description>
 
 &lt;p&gt;E vou para um assunto meio OFF no meu blog (ou não), que é falar de
@@ -1362,13 +1362,13 @@ Se tiver a chance de ir&amp;hellip;Vá! :D&lt;/p&gt;
     
     <item>
       <title>Dev In Sampa</title>
-      <link>https://pothix.com/post/dev-in-sampa/</link>
+      <link>http://pothix.com/post/dev-in-sampa/</link>
       <pubDate>Wed, 02 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/dev-in-sampa/</guid>
+      <guid>http://pothix.com/post/dev-in-sampa/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;https://pothix.com/images/posts/dev_in_sampa.jpg&#34;&gt;&lt;img src=&#34;https://pothix.com/images/posts/dev_in_sampa.jpg&#34; alt=&#34;Imagem com o logo do DevInSampa&#34; title=&#34;Logo do DevInSampa&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/dev_in_sampa.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/dev_in_sampa.jpg&#34; alt=&#34;Imagem com o logo do DevInSampa&#34; title=&#34;Logo do DevInSampa&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Nesse sábado, dia 28/11/2009 aconteceu aqui em São Paulo (obviamente!
 :P ) o Dev In Sampa! Um evento para desenvolvedores em geral, sem foco
@@ -1557,10 +1557,10 @@ novamente na próxima edição! :D&lt;/p&gt;
     
     <item>
       <title>Show do ACDC</title>
-      <link>https://pothix.com/post/show-do-acdc/</link>
+      <link>http://pothix.com/post/show-do-acdc/</link>
       <pubDate>Tue, 01 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/show-do-acdc/</guid>
+      <guid>http://pothix.com/post/show-do-acdc/</guid>
       <description>
 
 &lt;p&gt;Como muitos sabem eu tive o prazer de estar no show do ACDC aqui no
@@ -1575,14 +1575,14 @@ deles:&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;O show foi no estádio do Morumbi:
-&lt;a href=&#34;https://pothix.com/images/posts/show_acdc_morumbi.jpg&#34;&gt;&lt;img src=&#34;https://pothix.com/images/posts/show_acdc_morumbi.jpg&#34; alt=&#34;Foto do estadio do morumbi visto de fora&#34; title=&#34;Estadio do Morumbi&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://pothix.com/images/posts/show_acdc_morumbi.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/show_acdc_morumbi.jpg&#34; alt=&#34;Foto do estadio do morumbi visto de fora&#34; title=&#34;Estadio do Morumbi&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Por sorte consegui chegar relativamente cedo ( 17:00 ) e peguei um
 &lt;em&gt;estacionamento&lt;/em&gt; razoável ( na casa de alguem que fatura
 com isso ) e um lugar razoável na arquibancada (infelizmente nesse
 show eu não fui de pista):&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://pothix.com/images/posts/show_acdc_pista.jpg&#34;&gt;&lt;img src=&#34;https://pothix.com/images/posts/show_acdc_pista.jpg&#34; alt=&#34;Foto da pista do estádio do Morumbi visto da arquibancada&#34; title=&#34;Pista do estadio do Morumbi&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/show_acdc_pista.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/show_acdc_pista.jpg&#34; alt=&#34;Foto da pista do estádio do Morumbi visto da arquibancada&#34; title=&#34;Pista do estadio do Morumbi&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;O tempo castigou e tivemos a oportunidade de cantar bastante
 Thunderstruck ( a cada relampago começava um: &amp;ldquo;Thuuuuun der!!&amp;rdquo;
@@ -1591,7 +1591,7 @@ outra enquanto esperávamos o show de abertura. Nesse meio tempo eu vi
 uma ligeira vantagem de ter ido de moto, por que eu estava com a minha
 capa de chuva na mochila e utilizei-a. :D&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://pothix.com/images/posts/show_acdc_clima.jpg&#34;&gt;&lt;img src=&#34;https://pothix.com/images/posts/show_acdc_clima.jpg&#34; alt=&#34;Foto do céu com o sol passando entre as nuvens&#34; title=&#34;Clima durante o show&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/show_acdc_clima.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/show_acdc_clima.jpg&#34; alt=&#34;Foto do céu com o sol passando entre as nuvens&#34; title=&#34;Clima durante o show&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Enfim! Agora vamos ao show. (infelizmente as únicas fotos que eu
 tirei que ficaram razoáveis foram antes do show, as outras não dá para
@@ -1667,10 +1667,10 @@ de meu agrado, todas que eu gosto ).&lt;/p&gt;
     
     <item>
       <title>Rails Summit 2009</title>
-      <link>https://pothix.com/post/rails-summit-2009/</link>
+      <link>http://pothix.com/post/rails-summit-2009/</link>
       <pubDate>Mon, 19 Oct 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/rails-summit-2009/</guid>
+      <guid>http://pothix.com/post/rails-summit-2009/</guid>
       <description>
 
 &lt;p&gt;Esse é um post para relatar como foi o Rails Summit Latin America desse
@@ -1921,13 +1921,13 @@ picasaweb&lt;/a&gt;.&lt;/p&gt;
     
     <item>
       <title>Encontro de numero 5 do Guru-sp</title>
-      <link>https://pothix.com/post/encontro-de-numero-5-do-guru-sp/</link>
+      <link>http://pothix.com/post/encontro-de-numero-5-do-guru-sp/</link>
       <pubDate>Tue, 21 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/encontro-de-numero-5-do-guru-sp/</guid>
+      <guid>http://pothix.com/post/encontro-de-numero-5-do-guru-sp/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;https://pothix.com/images/posts/5_encontro_guru.jpg&#34;&gt;&lt;img src=&#34;https://pothix.com/images/posts/5_encontro_guru.jpg&#34; alt=&#34;Foto do pessoal reunido com seus notebooks no encontro&#34; title=&#34;Quinto encontro do Guru-sp&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/5_encontro_guru.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/5_encontro_guru.jpg&#34; alt=&#34;Foto do pessoal reunido com seus notebooks no encontro&#34; title=&#34;Quinto encontro do Guru-sp&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Nesse sábado aconteceu o
 &lt;a href=&#34;http://guru-sp.com/index.php/Quinto_Encontro&#34; title=&#34;Quinto encontro do Guru-sp&#34;&gt;quinto encontro do Guru-sp&lt;/a&gt;! :)&lt;/p&gt;
@@ -1993,7 +1993,7 @@ idéia legal para propor para o concurso.&lt;/p&gt;
 
 &lt;h4 id=&#34;coding-dojo&#34;&gt;Coding Dojo&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://pothix.com/images/posts/5_encontro_guru_vinibaggiojpg&#34;&gt;&lt;img src=&#34;https://pothix.com/images/posts/5_encontro_guru_vinibaggio.jpg&#34; alt=&#34;Foto do vinibaggio guiando o código com a galera&#34; title=&#34;Vinibaggio guiando o quinto encontro do Guru-sp&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/5_encontro_guru_vinibaggiojpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/5_encontro_guru_vinibaggio.jpg&#34; alt=&#34;Foto do vinibaggio guiando o código com a galera&#34; title=&#34;Vinibaggio guiando o quinto encontro do Guru-sp&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;E finalmente como ultima coisa do dia tivemos o nosso coding dojo, que
 era uma das coisas que eu mais estava esperando nesse econtro! O

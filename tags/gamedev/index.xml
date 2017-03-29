@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gamedev on PotHix</title>
-    <link>https://pothix.com/tags/gamedev/index.xml</link>
+    <link>http://pothix.com/tags/gamedev/index.xml</link>
     <description>Recent content in Gamedev on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="https://pothix.com/tags/gamedev/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pothix.com/tags/gamedev/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Game Network Programming</title>
-      <link>https://pothix.com/post/game-network-programming/</link>
+      <link>http://pothix.com/post/game-network-programming/</link>
       <pubDate>Mon, 15 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/game-network-programming/</guid>
+      <guid>http://pothix.com/post/game-network-programming/</guid>
       <description>&lt;p&gt;&lt;strong&gt;English Abstract&lt;/strong&gt;: This post was about my presentation with Diego Souza
 (vulgo Marciano) about Game network programming. I was studying and reading
 Quake source just for fun and decided to learn more about game networking in
@@ -56,10 +56,10 @@ também! Se tiverem dúvidas postem aí nos comentários. :)&lt;/p&gt;
     
     <item>
       <title>Plaev, HTML5 e Skeleton-jigsaw</title>
-      <link>https://pothix.com/post/plaev5-e-skeleton-jigsaw/</link>
+      <link>http://pothix.com/post/plaev5-e-skeleton-jigsaw/</link>
       <pubDate>Tue, 04 Dec 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/plaev5-e-skeleton-jigsaw/</guid>
+      <guid>http://pothix.com/post/plaev5-e-skeleton-jigsaw/</guid>
       <description>&lt;p&gt;Depois de muito tempo desenvolvendo finalmente terminamos o Skeleton-Jigsaw em
 outubro! Demorei para postar sobre isso aqui no blog por falta de tempo, mas
 aqui está!&lt;/p&gt;
@@ -106,10 +106,10 @@ do vídeo, mas se tiverem dúvidas coloquem nos comentários.&lt;/p&gt;
     
     <item>
       <title>Javascript and Gamedev discussion</title>
-      <link>https://pothix.com/post/javascript-and-gamedev-discussion/</link>
+      <link>http://pothix.com/post/javascript-and-gamedev-discussion/</link>
       <pubDate>Sun, 02 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/javascript-and-gamedev-discussion/</guid>
+      <guid>http://pothix.com/post/javascript-and-gamedev-discussion/</guid>
       <description>&lt;p&gt;I read the &lt;a href=&#34;http://www.phoboslab.org/log/2012/08/letter-to-john-carmack&#34;&gt;blog post&lt;/a&gt;
 from &lt;a href=&#34;http://impactjs.com&#34;&gt;Impact engine&lt;/a&gt; creator
 &lt;a href=&#34;http://www.phoboslab.org/&#34;&gt;Dominic&lt;/a&gt; where he shows an email he sent to
@@ -160,10 +160,10 @@ well, you just need to decide which one is better for your business.&lt;/p&gt;
     
     <item>
       <title>Palestra sobre Gamedev, Javascript e HTML5</title>
-      <link>https://pothix.com/post/palestra-sobre-gamedev-javascript-e5/</link>
+      <link>http://pothix.com/post/palestra-sobre-gamedev-javascript-e5/</link>
       <pubDate>Mon, 23 May 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/palestra-sobre-gamedev-javascript-e5/</guid>
+      <guid>http://pothix.com/post/palestra-sobre-gamedev-javascript-e5/</guid>
       <description>&lt;p&gt;Esse fim de semana eu palestrei no FLISOL de São José dos Campos sobre
 desenvolvimento de jogos, Javascript e HTML5. Foi uma palestra simples
 e rápida, durou pouco mais de meia hora (preciso aprender a falar um
@@ -198,13 +198,13 @@ Sugestões e críticas construtivas são bem vindas! ;)&lt;/p&gt;
     
     <item>
       <title>GameJam</title>
-      <link>https://pothix.com/post/gamejam/</link>
+      <link>http://pothix.com/post/gamejam/</link>
       <pubDate>Wed, 12 Aug 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/gamejam/</guid>
+      <guid>http://pothix.com/post/gamejam/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;https://pothix.com/images/posts/gamejam_espaco.jpg&#34;&gt;&lt;img src=&#34;https://pothix.com/images/posts/gamejam_espaco.jpg&#34; alt=&#34;Foto que mostra o pothix programando&#34; title=&#34;Espaço do Gamejam&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/gamejam_espaco.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/gamejam_espaco.jpg&#34; alt=&#34;Foto que mostra o pothix programando&#34; title=&#34;Espaço do Gamejam&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Como alguns sabem no final de semana passado ( dias 7, 8 e 9 ) eu participei do
 &lt;a href=&#34;http://itaucultural.org.br/gameplay/?s=gamejam&#34; title=&#34;Site do GameJam&#34;&gt;GameJam do Itaú cultural&lt;/a&gt;.&lt;/p&gt;
@@ -296,7 +296,7 @@ apenas o pessoal que já se conhecia ou que era da faculdade.&lt;/p&gt;
 
 &lt;h4 id=&#34;momento-hard-work&#34;&gt;Momento Hard work&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://pothix.com/images/posts/gamejam_hard_work.jpg&#34;&gt;&lt;img src=&#34;https://pothix.com/images/posts/gamejam_hard_work.jpg&#34; alt=&#34;Foto do pothix programando, e nosso roteador do lado&#34; title=&#34;PotHix programando&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/gamejam_hard_work.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/gamejam_hard_work.jpg&#34; alt=&#34;Foto do pothix programando, e nosso roteador do lado&#34; title=&#34;PotHix programando&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Voltei no sábado as 19:30 para a programação e o
 &lt;a href=&#34;http://crocidb.com/blog/&#34; title=&#34;CrociDB Blog&#34;&gt;CrociDB&lt;/a&gt; já estava por lá
@@ -363,9 +363,9 @@ plataformas.&lt;/p&gt;
 GitHub (o código não está um dos melhores, mas leve em consideração
 que foi um contest de 48 horas&amp;hellip;hehe):&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://pothix.com/images/posts/gamejam_robotz_warehouse.jpg&#34;&gt;&lt;img src=&#34;https://pothix.com/images/posts/gamejam_robotz_warehouse.jpg&#34; alt=&#34;Imagem de um robô e o nome Robotz Warehouse em cima&#34; title=&#34;Tittle screen robotz warehouse&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/gamejam_robotz_warehouse.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/gamejam_robotz_warehouse.jpg&#34; alt=&#34;Imagem de um robô e o nome Robotz Warehouse em cima&#34; title=&#34;Tittle screen robotz warehouse&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://pothix.com/images/posts/gamejam_robotz_warehouse_gameplay.jpg&#34;&gt;&lt;img src=&#34;https://pothix.com/images/posts/gamejam_robotz_warehouse_gameplay.jpg&#34; alt=&#34;Imagem com várias pequenas caixas coloridas e uma garra indo em direção a elas&#34; title=&#34;Gameplay robotz warehouse&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/gamejam_robotz_warehouse_gameplay.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/gamejam_robotz_warehouse_gameplay.jpg&#34; alt=&#34;Imagem com várias pequenas caixas coloridas e uma garra indo em direção a elas&#34; title=&#34;Gameplay robotz warehouse&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://github.com/PotHix/RobotzWarehouse/tree/master&#34; title=&#34;Página principal do jogo no GitHub&#34;&gt;Código fonte&lt;/a&gt;
 &lt;a href=&#34;http://www.itaucultural.org.br/gameplay/games/robotzwarehouse.zip&#34; title=&#34;Arquivo para download&#34;&gt;Download do pacote&lt;/a&gt;&lt;/p&gt;
@@ -380,10 +380,10 @@ que foi um contest de 48 horas&amp;hellip;hehe):&lt;/p&gt;
     
     <item>
       <title>Instalando o Allegro 4.2.2 no Linux x86</title>
-      <link>https://pothix.com/post/instalando-o-allegro-4-2-2-no-linux-x86/</link>
+      <link>http://pothix.com/post/instalando-o-allegro-4-2-2-no-linux-x86/</link>
       <pubDate>Wed, 12 Aug 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/instalando-o-allegro-4-2-2-no-linux-x86/</guid>
+      <guid>http://pothix.com/post/instalando-o-allegro-4-2-2-no-linux-x86/</guid>
       <description>&lt;p&gt;Como mencionei no
 &lt;a href=&#34;http://pothix.com/blog/development/gamejam&#34; title=&#34;Post sobre o GameJam&#34;&gt;meu ultimo post&lt;/a&gt;
 eu parcicipei do GameJam do Itaú cultural e desenvolvi um jogo com
@@ -456,10 +456,10 @@ rodar o meu jogo normalmente. :)&lt;/p&gt;
     
     <item>
       <title>Voltando a ser um gamer</title>
-      <link>https://pothix.com/post/voltando-a-ser-um-gamer/</link>
+      <link>http://pothix.com/post/voltando-a-ser-um-gamer/</link>
       <pubDate>Sun, 14 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/voltando-a-ser-um-gamer/</guid>
+      <guid>http://pothix.com/post/voltando-a-ser-um-gamer/</guid>
       <description>&lt;p&gt;Esse aqui vai ser um post um pouco fora do escopo &amp;ldquo;programação&amp;rdquo;, mas
 ainda no escopo &amp;ldquo;nerd&amp;rdquo;! :)&lt;/p&gt;
 

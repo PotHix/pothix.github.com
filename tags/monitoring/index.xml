@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Monitoring on PotHix</title>
-    <link>https://pothix.com/tags/monitoring/index.xml</link>
+    <link>http://pothix.com/tags/monitoring/index.xml</link>
     <description>Recent content in Monitoring on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="https://pothix.com/tags/monitoring/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pothix.com/tags/monitoring/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Instalando e configurando o monit</title>
-      <link>https://pothix.com/post/instalando-e-configurando-o-monit/</link>
+      <link>http://pothix.com/post/instalando-e-configurando-o-monit/</link>
       <pubDate>Thu, 10 Sep 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/instalando-e-configurando-o-monit/</guid>
+      <guid>http://pothix.com/post/instalando-e-configurando-o-monit/</guid>
       <description>&lt;p&gt;Esses dias eu peguei para instalar o monit no servidor da empresa que
 eu trabalho e sofri um pouquinho com algumas coisas básicas, portanto
 decidi postar aqui para que seja útil para quem quer começar a

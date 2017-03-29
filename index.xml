@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PotHix</title>
-    <link>https://pothix.com/index.xml</link>
+    <link>http://pothix.com/index.xml</link>
     <description>Recent content on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
     <lastBuildDate>Fri, 10 Mar 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://pothix.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pothix.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Oxford for Tolkien fans</title>
-      <link>https://pothix.com/post/oxford-for-tolkien-fans/</link>
+      <link>http://pothix.com/post/oxford-for-tolkien-fans/</link>
       <pubDate>Fri, 10 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/oxford-for-tolkien-fans/</guid>
+      <guid>http://pothix.com/post/oxford-for-tolkien-fans/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: When traveling to Europe, I decided to take 2 or 3 days to visit
@@ -134,10 +134,10 @@ there.&lt;/p&gt;
     
     <item>
       <title>FOSDEM survival guide</title>
-      <link>https://pothix.com/post/fosdem-survival-guide/</link>
+      <link>http://pothix.com/post/fosdem-survival-guide/</link>
       <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/fosdem-survival-guide/</guid>
+      <guid>http://pothix.com/post/fosdem-survival-guide/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: It was my first time at &lt;a href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt; and it
@@ -169,7 +169,7 @@ volunteers that work hard to make it happen.&lt;/p&gt;
 &lt;p&gt;The conference happens at the Université libre de Bruxelles, using
 some buildings of the university.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pothix.com/images/posts/fosdem-survival-guide/map.png&#34; alt=&#34;Map of FOSDEM buildings&#34; title=&#34;FOSDEM map&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pothix.com/images/posts/fosdem-survival-guide/map.png&#34; alt=&#34;Map of FOSDEM buildings&#34; title=&#34;FOSDEM map&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;All the tracks are spread across these buildings. Depending on where
 you are, you have to reserve some time to reach the other building. It
@@ -194,7 +194,7 @@ presentations happening across all rooms and you may create your on
 schedule. I did it before going but forgot to consider the time
 between buildings and the &amp;ldquo;FULL&amp;rdquo; rooms.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pothix.com/images/posts/fosdem-survival-guide/full-room.jpg&#34; alt=&#34;The &amp;quot;FULL&amp;quot; sign&#34; title=&#34;Full rooms&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pothix.com/images/posts/fosdem-survival-guide/full-room.jpg&#34; alt=&#34;The &amp;quot;FULL&amp;quot; sign&#34; title=&#34;Full rooms&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;There are some limits that need to be respected, one of them is the
 number of people inside the room. When the room is fulfilled with
@@ -260,10 +260,10 @@ received these tips before, so I would have planned my day better.&lt;/p&gt;
     
     <item>
       <title>My presentation at FOSDEM 2017</title>
-      <link>https://pothix.com/post/my-presentation-at-fosdem-2017/</link>
+      <link>http://pothix.com/post/my-presentation-at-fosdem-2017/</link>
       <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/my-presentation-at-fosdem-2017/</guid>
+      <guid>http://pothix.com/post/my-presentation-at-fosdem-2017/</guid>
       <description>&lt;p&gt;This year my proposal to speak at &lt;a href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt; was accepted and I
 spoke at the Desktop devroom! :)&lt;/p&gt;
 
@@ -293,10 +293,10 @@ on
     
     <item>
       <title>Escrevendo o Desconstruindo a web</title>
-      <link>https://pothix.com/post/escrevendo-o-desconstruindo-a-web/</link>
+      <link>http://pothix.com/post/escrevendo-o-desconstruindo-a-web/</link>
       <pubDate>Mon, 03 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/escrevendo-o-desconstruindo-a-web/</guid>
+      <guid>http://pothix.com/post/escrevendo-o-desconstruindo-a-web/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: Escrevi um livro em 315 horas, geralmente aos fins de semana durante
@@ -387,7 +387,7 @@ trabalhando.&lt;/p&gt;
 &lt;p&gt;A planilha era uma forma bem simples de eu guardar um log do que eu
 estava fazendo. Simples assim:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pothix.com/images/posts/escrevendo-o-desconstruindo-a-web/planilha.png&#34; alt=&#34;Planilha simples de controle de horas&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pothix.com/images/posts/escrevendo-o-desconstruindo-a-web/planilha.png&#34; alt=&#34;Planilha simples de controle de horas&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;O último dia de trabalho registrado na planilha é &lt;strong&gt;14 de Agosto de 2016&lt;/strong&gt;, que
 é o dia que eu considero terminados todos os trabalhos relacionados ao livro.&lt;/p&gt;
@@ -398,7 +398,7 @@ processo de escrita.&lt;/p&gt;
 
 &lt;h4 id=&#34;dias-trabalhados&#34;&gt;Dias trabalhados&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pothix.com/images/posts/escrevendo-o-desconstruindo-a-web/quando-trabalhei-mais.png&#34; alt=&#34;Quando trabalhei mais&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pothix.com/images/posts/escrevendo-o-desconstruindo-a-web/quando-trabalhei-mais.png&#34; alt=&#34;Quando trabalhei mais&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;A maior parte do tempo que eu escrevi foi nos finais de semana, que
 somam 50% do trabalho no livro. Minha ideia era trabalhar cerca de 3
@@ -423,7 +423,7 @@ para me isolar do ambiente.&lt;/p&gt;
 
 &lt;h4 id=&#34;horários-que-eu-trabalhava&#34;&gt;Horários que eu trabalhava&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pothix.com/images/posts/escrevendo-o-desconstruindo-a-web/horario-de-trabalho.png&#34; alt=&#34;Horário de trabalho&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pothix.com/images/posts/escrevendo-o-desconstruindo-a-web/horario-de-trabalho.png&#34; alt=&#34;Horário de trabalho&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;O horário que eu mais iniciei foi as 18 horas. Geralmente aos domingos, era o
 momento que eu já tinha aproveitado uma boa parte do dia com a minha esposa e
@@ -433,7 +433,7 @@ trabalhava até começar o episódio de Game of Thrones na HBO. :D&lt;/p&gt;
 
 &lt;h4 id=&#34;horas-por-dia&#34;&gt;Horas por dia&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pothix.com/images/posts/escrevendo-o-desconstruindo-a-web/horas-por-dia.png&#34; alt=&#34;Horas por dia&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pothix.com/images/posts/escrevendo-o-desconstruindo-a-web/horas-por-dia.png&#34; alt=&#34;Horas por dia&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Esse gráfico foi um pouco assustador para mim. Durante o feriado de Corpus
 Christi, que aconteceu no dia 26 de Maio, eu estava sozinho em casa e aproveitei
@@ -448,7 +448,7 @@ casado, porque senão eu seria mais maluco que o normal.&lt;/p&gt;
 
 &lt;h4 id=&#34;horas-por-mês&#34;&gt;Horas por mês&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pothix.com/images/posts/escrevendo-o-desconstruindo-a-web/horas-por-mes.png&#34; alt=&#34;Horas por mês&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pothix.com/images/posts/escrevendo-o-desconstruindo-a-web/horas-por-mes.png&#34; alt=&#34;Horas por mês&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Eu estava bem curioso para saber como foi a distribuição de horas durante os
 meses. Como eu esperava, o mês de Julho tem uma grande quantidade de horas. Isso
@@ -473,7 +473,7 @@ meu tempo.&lt;/p&gt;
 &lt;p&gt;Eu sempre tive curiosidade da quantidade de tempo que um escritor gasta nas
 atividades de escrever um livro e me usei como cobaia para entender um pouco.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pothix.com/images/posts/escrevendo-o-desconstruindo-a-web/atividades.png&#34; alt=&#34;Atividades&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pothix.com/images/posts/escrevendo-o-desconstruindo-a-web/atividades.png&#34; alt=&#34;Atividades&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Escrever é só uma das atividades de um escritor, assim como digitar é só uma das
 atividades de um programador. Apenas &lt;strong&gt;42%&lt;/strong&gt; do tempo foi gasto organizando as
@@ -553,10 +553,10 @@ próximos! :)&lt;/p&gt;
     
     <item>
       <title>Rubyconf 2016</title>
-      <link>https://pothix.com/post/rubyconf-2016/</link>
+      <link>http://pothix.com/post/rubyconf-2016/</link>
       <pubDate>Mon, 26 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/rubyconf-2016/</guid>
+      <guid>http://pothix.com/post/rubyconf-2016/</guid>
       <description>&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: A melhor Rubyconf que eu participei&lt;/p&gt;
 
 &lt;p&gt;Nos dias 24 e 25 de Setembro de 2016 aconteceu a Rubyconf Brasil.
@@ -626,10 +626,10 @@ contínua de conhecimento vai continuar. :)&lt;/p&gt;
     
     <item>
       <title>Ouvir livros (audiobooks), o futuro da leitura</title>
-      <link>https://pothix.com/post/audiobooks/</link>
+      <link>http://pothix.com/post/audiobooks/</link>
       <pubDate>Wed, 22 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/audiobooks/</guid>
+      <guid>http://pothix.com/post/audiobooks/</guid>
       <description>&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: Ouvir livros é o futuro.&lt;/p&gt;
 
 &lt;p&gt;Quem me conhece sabe que há muito tempo eu ouço podcasts sempre que eu
@@ -736,10 +736,10 @@ livros que queria! :)&lt;/p&gt;
     
     <item>
       <title>Experiences of almost two years using colemak</title>
-      <link>https://pothix.com/post/experiences-of-almost-two-years-using-colemak/</link>
+      <link>http://pothix.com/post/experiences-of-almost-two-years-using-colemak/</link>
       <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/experiences-of-almost-two-years-using-colemak/</guid>
+      <guid>http://pothix.com/post/experiences-of-almost-two-years-using-colemak/</guid>
       <description>&lt;p&gt;TL;DR: I like colemak, and it is a &lt;em&gt;very good&lt;/em&gt; layout. I found some equivalent
 pros and cons, so I can&amp;rsquo;t recommend it to anyone without a little bit of
 philosophy. :)&lt;/p&gt;
@@ -769,7 +769,7 @@ on), so I just need to use qwerty when I&amp;rsquo;m typing on other peoples dev
 &lt;p&gt;A pro is that my typing speed grew from an average of 75 WPM to almost 100
 WPM. I need to consider that I also bought a Kinesis Advantage Pro;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pothix.com/images/posts/almost-two-years-using-colemak-kinesis.jpg&#34; alt=&#34;Kinesis advantage photo&#34; title=&#34;Kinesis Advantage&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pothix.com/images/posts/almost-two-years-using-colemak-kinesis.jpg&#34; alt=&#34;Kinesis advantage photo&#34; title=&#34;Kinesis Advantage&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Without this keyboard I&amp;rsquo;m not that fast. Just tried
 &lt;a href=&#34;http://10fastfingers.com/user/504663/&#34;&gt;10fastfingers now and got 92 WPM&lt;/a&gt; using
@@ -800,10 +800,10 @@ about my journey is that &lt;strong&gt;I would do it again if I could&lt;/strong
     
     <item>
       <title>As escolhas do desenvolvedor</title>
-      <link>https://pothix.com/post/as-escolhas-do-desenvolvedor/</link>
+      <link>http://pothix.com/post/as-escolhas-do-desenvolvedor/</link>
       <pubDate>Mon, 31 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/as-escolhas-do-desenvolvedor/</guid>
+      <guid>http://pothix.com/post/as-escolhas-do-desenvolvedor/</guid>
       <description>&lt;p&gt;Esse ano fui chamado para palestrar em todas as edições do Encontro Locaweb que
 acontecem por várias cidades do Brasil! Palestrei em 6 cidades de estados
 diferentes, e aconteceram na seguinte ordem:&lt;/p&gt;
@@ -844,10 +844,10 @@ coisa legal com a palestra.&lt;/p&gt;
     
     <item>
       <title>OSCON 2015</title>
-      <link>https://pothix.com/post/oscon/</link>
+      <link>http://pothix.com/post/oscon/</link>
       <pubDate>Mon, 27 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/oscon/</guid>
+      <guid>http://pothix.com/post/oscon/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; I&amp;rsquo;ve been at OSCON this year (thanks to
@@ -1214,10 +1214,10 @@ Portland. :(&lt;/p&gt;
     
     <item>
       <title>New layout of PotHix blog</title>
-      <link>https://pothix.com/post/new-layout-of-pothix-blog/</link>
+      <link>http://pothix.com/post/new-layout-of-pothix-blog/</link>
       <pubDate>Mon, 25 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/new-layout-of-pothix-blog/</guid>
+      <guid>http://pothix.com/post/new-layout-of-pothix-blog/</guid>
       <description>&lt;p&gt;Welcome to the new blog layout of PotHix.com! :)&lt;/p&gt;
 
 &lt;p&gt;I decided that the time has came to change not just the layout but the blog
@@ -1239,10 +1239,10 @@ instead of keeping the wordpress &amp;ldquo;infrastructure&amp;rdquo;.&lt;/p&gt;
     
     <item>
       <title>Ruby, Python e native threads</title>
-      <link>https://pothix.com/post/ruby-python-e-native-threads/</link>
+      <link>http://pothix.com/post/ruby-python-e-native-threads/</link>
       <pubDate>Fri, 14 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/ruby-python-e-native-threads/</guid>
+      <guid>http://pothix.com/post/ruby-python-e-native-threads/</guid>
       <description>&lt;p&gt;Pode ser que eu seja meio burro (heheh) mas eu ainda achava que o Ruby e o
 Python usavam Green Threads, mas depois de conversar com uma galera me disseram
 que eram threads nativas. Pesquisando na internet eu vi que eram mesmo, mas decidi
@@ -1539,10 +1539,10 @@ descobrir coisas novas. :)&lt;/p&gt;
     
     <item>
       <title>Golang and 1.2 version performance improvement</title>
-      <link>https://pothix.com/post/golang-and-1-2-version-performance-improvement/</link>
+      <link>http://pothix.com/post/golang-and-1-2-version-performance-improvement/</link>
       <pubDate>Tue, 03 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/golang-and-1-2-version-performance-improvement/</guid>
+      <guid>http://pothix.com/post/golang-and-1-2-version-performance-improvement/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve started using Go last month and I really liked to work with the language.&lt;/p&gt;
 
 &lt;p&gt;The project I&amp;rsquo;m working on is dead simple and just retrieves metrics and save on
@@ -1614,10 +1614,10 @@ Looks like it is a good idea of language for some of my projects, welcome Golang
     
     <item>
       <title>O Guru-SP e seus 5 anos de vida</title>
-      <link>https://pothix.com/post/o-guru-sp-e-seus-5-anos-de-vida/</link>
+      <link>http://pothix.com/post/o-guru-sp-e-seus-5-anos-de-vida/</link>
       <pubDate>Tue, 17 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/o-guru-sp-e-seus-5-anos-de-vida/</guid>
+      <guid>http://pothix.com/post/o-guru-sp-e-seus-5-anos-de-vida/</guid>
       <description>&lt;p&gt;Há pouco tempo aconteceu o &lt;a href=&#34;http://gurusp.org/encontros/trigesimo-primeiro-encontro-do-guru-sp&#34;&gt;encontro numero 31 do Guru-SP&lt;/a&gt;, e como sempre saímos
 (dessa vez estavamos &lt;a href=&#34;http://twitter.com/vinibaggio&#34;&gt;@vinibaggio&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/agaelebe&#34;&gt;@agaelebe&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/nuxlli&#34;&gt;@nuxlli&lt;/a&gt; e &lt;a href=&#34;http://twitter.com/anderson_leite&#34;&gt;@anderson_leite&lt;/a&gt;) para
 aquele velho momento de bate papo pós evento. Durante a conversa o @nuxlli perguntou sobre como o Guru-SP começou e nesse momento eu comecei a relembrar
@@ -1697,10 +1697,10 @@ Brasil, e mais do que isso um lugar legal para troca de conhecimentos.&lt;/p&gt;
     
     <item>
       <title>Vendendo minhas coisas</title>
-      <link>https://pothix.com/post/vendendo-minhas-coisas/</link>
+      <link>http://pothix.com/post/vendendo-minhas-coisas/</link>
       <pubDate>Mon, 29 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/vendendo-minhas-coisas/</guid>
+      <guid>http://pothix.com/post/vendendo-minhas-coisas/</guid>
       <description>&lt;p&gt;Esse ano aconteceram algumas coisas zuadas para mim e resolvi capitalizar o
 dinheiro das coisas que eu tenho e começar denovo no ano que vem.&lt;/p&gt;
 
@@ -1726,10 +1726,10 @@ entrega pessoalmente.&lt;/p&gt;
     
     <item>
       <title>Vendo Dragstar 2008</title>
-      <link>https://pothix.com/post/vendo-dragstar-2008/</link>
+      <link>http://pothix.com/post/vendo-dragstar-2008/</link>
       <pubDate>Mon, 29 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/vendo-dragstar-2008/</guid>
+      <guid>http://pothix.com/post/vendo-dragstar-2008/</guid>
       <description>&lt;p&gt;Chegou a hora de pendurar o colete por um tempo, obviamente estarei de
 volta num futuro não tão distante, mas pelo menos por enquanto vou
 ficar um tempo sem motos. Por esse motivo estou vendendo minha
@@ -1758,7 +1758,7 @@ Dragstar 2008.&lt;/p&gt;
 &lt;li&gt;Plataformas traseiras&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://pothix.com/images/posts/dragstar.jpg&#34;&gt;&lt;img src=&#34;images/posts/dragstar.jpg&#34; alt=&#34;Foto da minha dragstar 2008&#34; title=&#34;Dragstar 2008&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/dragstar.jpg&#34;&gt;&lt;img src=&#34;images/posts/dragstar.jpg&#34; alt=&#34;Foto da minha dragstar 2008&#34; title=&#34;Dragstar 2008&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Quase 2k de acessórios. Se estiver interessado em comprar sem os
 acessórios o preço diminui também, mas entre em contato e

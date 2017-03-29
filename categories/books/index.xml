@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Books on PotHix</title>
-    <link>https://pothix.com/categories/books/index.xml</link>
+    <link>http://pothix.com/categories/books/index.xml</link>
     <description>Recent content in Books on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="https://pothix.com/categories/books/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pothix.com/categories/books/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Escrevendo o Desconstruindo a web</title>
-      <link>https://pothix.com/post/escrevendo-o-desconstruindo-a-web/</link>
+      <link>http://pothix.com/post/escrevendo-o-desconstruindo-a-web/</link>
       <pubDate>Mon, 03 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/escrevendo-o-desconstruindo-a-web/</guid>
+      <guid>http://pothix.com/post/escrevendo-o-desconstruindo-a-web/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: Escrevi um livro em 315 horas, geralmente aos fins de semana durante
@@ -105,7 +105,7 @@ trabalhando.&lt;/p&gt;
 &lt;p&gt;A planilha era uma forma bem simples de eu guardar um log do que eu
 estava fazendo. Simples assim:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pothix.com/images/posts/escrevendo-o-desconstruindo-a-web/planilha.png&#34; alt=&#34;Planilha simples de controle de horas&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pothix.com/images/posts/escrevendo-o-desconstruindo-a-web/planilha.png&#34; alt=&#34;Planilha simples de controle de horas&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;O último dia de trabalho registrado na planilha é &lt;strong&gt;14 de Agosto de 2016&lt;/strong&gt;, que
 é o dia que eu considero terminados todos os trabalhos relacionados ao livro.&lt;/p&gt;
@@ -116,7 +116,7 @@ processo de escrita.&lt;/p&gt;
 
 &lt;h4 id=&#34;dias-trabalhados&#34;&gt;Dias trabalhados&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pothix.com/images/posts/escrevendo-o-desconstruindo-a-web/quando-trabalhei-mais.png&#34; alt=&#34;Quando trabalhei mais&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pothix.com/images/posts/escrevendo-o-desconstruindo-a-web/quando-trabalhei-mais.png&#34; alt=&#34;Quando trabalhei mais&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;A maior parte do tempo que eu escrevi foi nos finais de semana, que
 somam 50% do trabalho no livro. Minha ideia era trabalhar cerca de 3
@@ -141,7 +141,7 @@ para me isolar do ambiente.&lt;/p&gt;
 
 &lt;h4 id=&#34;horários-que-eu-trabalhava&#34;&gt;Horários que eu trabalhava&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pothix.com/images/posts/escrevendo-o-desconstruindo-a-web/horario-de-trabalho.png&#34; alt=&#34;Horário de trabalho&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pothix.com/images/posts/escrevendo-o-desconstruindo-a-web/horario-de-trabalho.png&#34; alt=&#34;Horário de trabalho&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;O horário que eu mais iniciei foi as 18 horas. Geralmente aos domingos, era o
 momento que eu já tinha aproveitado uma boa parte do dia com a minha esposa e
@@ -151,7 +151,7 @@ trabalhava até começar o episódio de Game of Thrones na HBO. :D&lt;/p&gt;
 
 &lt;h4 id=&#34;horas-por-dia&#34;&gt;Horas por dia&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pothix.com/images/posts/escrevendo-o-desconstruindo-a-web/horas-por-dia.png&#34; alt=&#34;Horas por dia&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pothix.com/images/posts/escrevendo-o-desconstruindo-a-web/horas-por-dia.png&#34; alt=&#34;Horas por dia&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Esse gráfico foi um pouco assustador para mim. Durante o feriado de Corpus
 Christi, que aconteceu no dia 26 de Maio, eu estava sozinho em casa e aproveitei
@@ -166,7 +166,7 @@ casado, porque senão eu seria mais maluco que o normal.&lt;/p&gt;
 
 &lt;h4 id=&#34;horas-por-mês&#34;&gt;Horas por mês&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pothix.com/images/posts/escrevendo-o-desconstruindo-a-web/horas-por-mes.png&#34; alt=&#34;Horas por mês&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pothix.com/images/posts/escrevendo-o-desconstruindo-a-web/horas-por-mes.png&#34; alt=&#34;Horas por mês&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Eu estava bem curioso para saber como foi a distribuição de horas durante os
 meses. Como eu esperava, o mês de Julho tem uma grande quantidade de horas. Isso
@@ -191,7 +191,7 @@ meu tempo.&lt;/p&gt;
 &lt;p&gt;Eu sempre tive curiosidade da quantidade de tempo que um escritor gasta nas
 atividades de escrever um livro e me usei como cobaia para entender um pouco.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pothix.com/images/posts/escrevendo-o-desconstruindo-a-web/atividades.png&#34; alt=&#34;Atividades&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pothix.com/images/posts/escrevendo-o-desconstruindo-a-web/atividades.png&#34; alt=&#34;Atividades&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Escrever é só uma das atividades de um escritor, assim como digitar é só uma das
 atividades de um programador. Apenas &lt;strong&gt;42%&lt;/strong&gt; do tempo foi gasto organizando as
@@ -271,10 +271,10 @@ próximos! :)&lt;/p&gt;
     
     <item>
       <title>BookReview: A cabeça de Steve Jobs</title>
-      <link>https://pothix.com/post/bookreview-a-cabeca-de-steve-jobs/</link>
+      <link>http://pothix.com/post/bookreview-a-cabeca-de-steve-jobs/</link>
       <pubDate>Tue, 05 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/bookreview-a-cabeca-de-steve-jobs/</guid>
+      <guid>http://pothix.com/post/bookreview-a-cabeca-de-steve-jobs/</guid>
       <description>
 
 &lt;p&gt;Aqui estou eu novamente para falar de um livro que eu li nas férias!

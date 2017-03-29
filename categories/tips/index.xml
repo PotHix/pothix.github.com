@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tips on PotHix</title>
-    <link>https://pothix.com/categories/tips/index.xml</link>
+    <link>http://pothix.com/categories/tips/index.xml</link>
     <description>Recent content in Tips on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="https://pothix.com/categories/tips/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pothix.com/categories/tips/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Fora IE6</title>
-      <link>https://pothix.com/post/fora-ie6/</link>
+      <link>http://pothix.com/post/fora-ie6/</link>
       <pubDate>Mon, 12 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/fora-ie6/</guid>
+      <guid>http://pothix.com/post/fora-ie6/</guid>
       <description>&lt;p&gt;Já está mais do que na hora de eu fazer um post sobre isso, e acho que
 não há momento mais propício do que esse afinal, até o Google já está
 dando alertas&lt;a href=&#34;http://www.tgdaily.com/html_tmp/content-view-40785-140.html&#34; title=&#34;Google corta o suporte ao IE6 no Gmail&#34;&gt;sobre isso no Gmail&lt;/a&gt;.
@@ -88,10 +88,10 @@ solução para isso.&lt;/p&gt;
     
     <item>
       <title>Ir além do básico tambem é gratis</title>
-      <link>https://pothix.com/post/ir-alem-do-basico-tambem-e-gratis/</link>
+      <link>http://pothix.com/post/ir-alem-do-basico-tambem-e-gratis/</link>
       <pubDate>Thu, 11 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/ir-alem-do-basico-tambem-e-gratis/</guid>
+      <guid>http://pothix.com/post/ir-alem-do-basico-tambem-e-gratis/</guid>
       <description>&lt;p&gt;Faz um tempinho que eu estou querendo fazer um post seguindo os moldes
 da campanha do &lt;a href=&#34;http://marcogomes.com/blog/2008/campanha-programar-e-gratis&#34; title=&#34;Programar é Grátis&#34;&gt;Marco Gomes&lt;/a&gt;,
 que também gerou o

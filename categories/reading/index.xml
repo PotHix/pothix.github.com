@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reading on PotHix</title>
-    <link>https://pothix.com/categories/reading/index.xml</link>
+    <link>http://pothix.com/categories/reading/index.xml</link>
     <description>Recent content in Reading on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="https://pothix.com/categories/reading/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pothix.com/categories/reading/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Ouvir livros (audiobooks), o futuro da leitura</title>
-      <link>https://pothix.com/post/audiobooks/</link>
+      <link>http://pothix.com/post/audiobooks/</link>
       <pubDate>Wed, 22 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/audiobooks/</guid>
+      <guid>http://pothix.com/post/audiobooks/</guid>
       <description>&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: Ouvir livros é o futuro.&lt;/p&gt;
 
 &lt;p&gt;Quem me conhece sabe que há muito tempo eu ouço podcasts sempre que eu
