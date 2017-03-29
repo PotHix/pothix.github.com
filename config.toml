@@ -1,4 +1,4 @@
-baseurl = "https://pothix.com"
+baseurl = "http://pothix.com"
 languageCode = "en"
 title = "PotHix"
 theme = "pothix"
