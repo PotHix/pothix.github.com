@@ -1,6 +1,9 @@
 +++
 title = "Aprenda Ruby no Rubylearning"
-aliases=["2008/11/07/aprenda-ruby-no-rubylearning.html"]
+aliases=[
+  "2008/11/07/aprenda-ruby-no-rubylearning.html",
+  "blog/development/aprenda-ruby-no-rubylearning"
+]
 date = "2008-11-07"
 tags = ["ruby","rubylearning","tech"]
 categories = "development"

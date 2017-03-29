@@ -1,6 +1,9 @@
 +++
 title = "Saldo final das férias de julho"
-aliases=["2009/08/17/saldo-final-das-ferias-de-julho.html"]
+aliases=[
+  "2009/08/17/saldo-final-das-ferias-de-julho.html",
+  "blog/personal/saldo-final-das-ferias-de-julho"
+]
 date = "2009-08-17"
 tags = ["personal"]
 categories = "personal"

@@ -1,6 +1,9 @@
 +++
 title = "Mais de uma distro no Notebook!"
-aliases=["2008/10/13/mais-de-uma-distro-no-notebook.html"]
+aliases=[
+  "2008/10/13/mais-de-uma-distro-no-notebook.html",
+  "blog/ubuntu/mais-de-uma-distro-no-notebook"
+]
 date = "2008-10-13"
 tags = ["personal","ubuntu","linux"]
 categories = "linux"

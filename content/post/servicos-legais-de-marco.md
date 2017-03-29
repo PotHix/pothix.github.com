@@ -1,6 +1,9 @@
 +++
 title = "Serviços legais de Março"
-aliases=["2010/04/01/servicos-legais-de-marco.html"]
+aliases=[
+  "2010/04/01/servicos-legais-de-marco.html",
+  "blog/coolservices/servicos-legais-de-marco"
+]
 date = "2010-04-01"
 tags = ["review","tips"]
 categories = "review"

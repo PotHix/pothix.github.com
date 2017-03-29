@@ -1,6 +1,9 @@
 +++
 title = "Game Network Programming"
-aliases=["2013/07/15/game-network-programming.html"]
+aliases=[
+  "2013/07/15/game-network-programming.html",
+  "blog/development/game-network-programming"
+]
 date = "2013-07-15"
 tags = ["gamedev","speaking","english","dev"]
 categories = "dev"

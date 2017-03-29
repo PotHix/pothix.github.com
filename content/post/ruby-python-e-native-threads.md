@@ -1,6 +1,9 @@
 +++
 title = "Ruby, Python e native threads"
-aliases=["2014/02/14/ruby-python-e-native-threads.html"]
+aliases=[
+  "2014/02/14/ruby-python-e-native-threads.html",
+  "blog/development/ruby-python-e-native-threads"
+]
 date = "2014-02-14"
 tags = ["ruby","python","dev","tech"]
 categories = "dev"

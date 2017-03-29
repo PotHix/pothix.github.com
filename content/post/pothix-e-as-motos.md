@@ -1,6 +1,9 @@
 +++
 title = "PotHix e as motos"
-aliases=["2011/01/25/pothix-e-as-motos.html"]
+aliases=[
+  "2011/01/25/pothix-e-as-motos.html",
+  "blog/motorcycle/pothix-e-as-motos"
+]
 date = "2011-01-25"
 tags = ["motorcycle"]
 categories = "motorcycle"
