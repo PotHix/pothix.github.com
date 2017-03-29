@@ -739,6 +739,167 @@ Brasil, e mais do que isso um lugar legal para troca de conhecimentos.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Game Network Programming</title>
+      <link>http://pothix.com/post/game-network-programming/</link>
+      <pubDate>Mon, 15 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/game-network-programming/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;English Abstract&lt;/strong&gt;: This post was about my presentation with Diego Souza
+(vulgo Marciano) about Game network programming. I was studying and reading
+Quake source just for fun and decided to learn more about game networking in
+general, so I decided to prepare this presentation to show other people what
+I’ve learned. You can see the full video (portuguese only, sorry) and the slides
+below.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Portuguese&lt;/strong&gt;: Eu e o Diego Souza (vulgo Marciano) fizemos uma palestra sobre
+  Game network programming tanto na Locaweb como no Guru-SP. A palestra que
+  fizemos no Guru-SP foi gravada pelo Agaelebe:&lt;/p&gt;
+
+&lt;p&gt;&lt;embed type=&#34;application/x-shockwave-flash&#34; src=&#34;http://a.blip.tv/api.swf#hOdBg5PuBQI&#34; style=&#34;display:none&#34;&gt;&lt;/embed&gt;&lt;/p&gt;
+
+&lt;p&gt;E aqui estão os slides:&lt;/p&gt;
+
+&lt;iframe src=&#34;http://blip.tv/play/hOdBg5PuBQI.html?p=1&#34; width=&#34;550&#34; height=&#34;443&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Como eu estava na vibe de jogos desde o começo do ano passado, eu estava lendo
+os posts sobre o código do Quake. Quem me conhece sabe que eu trabalho na equipe
+de IaaS da Locaweb e lá nós lidamos com bastante coisa de redes e eu curto o
+assunto.&lt;/p&gt;
+
+&lt;p&gt;Conversando com o Diego sobre os algoritmos de redes utilizados no Quake nós
+decidimos juntar as pesquisas dele sobre os protocolos TCP e UDP com o que eu li
+sobre a implementação dos algoritmos nos jogos para poder fazer uma palestra
+legal de game network programming, e assim saiu essa palestra.&lt;/p&gt;
+
+&lt;p&gt;Lá nós apresentamos os algoritmos de alguns jogos como o Quake, Age of Empires e
+outros não tão conhecidos, mostrando as soluções legais que eles chegaram e
+quais foram os maiores desafios que eles encontraram para resolver os problemas
+de latencia e necessidade de velocidade. O Diego focou mais na parte de
+otimização dos algoritmos e flags que podem ser alteradas para melhorar o
+comportamento da rede.&lt;/p&gt;
+
+&lt;p&gt;Essa foi uma palestra muito legal de fazer e aprendi bastante no processo
+também! Se tiverem dúvidas postem aí nos comentários. :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Plaev, HTML5 e Skeleton-jigsaw</title>
+      <link>http://pothix.com/post/plaev5-e-skeleton-jigsaw/</link>
+      <pubDate>Tue, 04 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/plaev5-e-skeleton-jigsaw/</guid>
+      <description>&lt;p&gt;Depois de muito tempo desenvolvendo finalmente terminamos o Skeleton-Jigsaw em
+outubro! Demorei para postar sobre isso aqui no blog por falta de tempo, mas
+aqui está!&lt;/p&gt;
+
+&lt;p&gt;Eu e o Rafael Masoni trabalhamos nesse jogo durante quase 1 ano (começamos a
+falar dele no comecinho de janeiro) investindo nosso tempo livre para fazer
+todas as partes do jogo (audio, programação, arte, game design, level design e
+etc).&lt;/p&gt;
+
+&lt;p&gt;Vou descrever um pouco do que fizemos e como organizamos, mas vai ser apenas um
+resumo do que falamos na nossa palestra no Guru-SP:&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/J2yDMOHCYak&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/15490608&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt;
+
+&lt;p&gt;Obrigado pelo vídeo Agaelebe!&lt;/p&gt;
+
+&lt;p&gt;Começamos a trabalhar em janeiro do ano passado no que seria um protótipo da
+impact e aos poucos o jogo foi tomando forma e estavamos investindo cada vez
+mais esforço nele. A cada semana fazíamos uma Skype call para discutir no que
+trabalharíamos durante a semana e fazíamos o possível para entregar o que
+conversamos até a próxima call.&lt;/p&gt;
+
+&lt;p&gt;Foi bem legal trabalhar em todos os pontos do jogo, opinando em arte,
+trabalhando em trilha sonora, programando, discutindo level design, escrevendo
+uma prévia de história, otimizando assets, testando em vários navegadores,
+fazendo game design e tudo mais.&lt;/p&gt;
+
+&lt;p&gt;Todo esse trabalho trouxe muitas experiências legais de como é entregar um jogo
+funcional e completo para o seu escopo, e estou bem orgulhoso de conseguir
+entregar o jogo demo finalizado, e não deixar mais um trabalho incompleto
+perdido por aí.&lt;/p&gt;
+
+&lt;p&gt;Ainda não sabemos quais os planos para a Plæv, mas agora ela já tem seu primeiro
+jogo demo para não ficar com o portfolio em branco. :)&lt;/p&gt;
+
+&lt;p&gt;Não quis descrever muito aqui no post para não ficar somente repetindo conteúdo
+do vídeo, mas se tiverem dúvidas coloquem nos comentários.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Alexandre Araujo, David Paniz | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Palestra sobre implementacoes paralelas</title>
+      <link>http://pothix.com/post/palestra-sobre-implementacoes-paralelas/</link>
+      <pubDate>Mon, 16 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/palestra-sobre-implementacoes-paralelas/</guid>
+      <description>&lt;p&gt;Esse post ficou como draft desde que eu palestrei sobre implementações
+paralelas, e agora que eu lembrei dele decidi publicar! :)&lt;/p&gt;
+
+&lt;p&gt;Bem, como eu disse, eu paletrei sobre implementacoes paralelas tanto
+na Locaweb como no Guru-SP. A idea da palestra vem de um post do John
+Carmack sobre implementações paralelas, e nesse post ele comenta sobre
+todos os tipos de implementação paralela que ele já utilizou e as que
+mais funcionaram para cada tipo de caso.&lt;/p&gt;
+
+&lt;p&gt;Na minha palestra eu comento sobre todos os tipos de implementacoes
+que eu ja utilizei e quais delas foram boas ou ruins para determinado
+caso.&lt;/p&gt;
+
+&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/11724894&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;iframe src=&#34;http://blip.tv/play/hOdBgu3uVQI.html?p=1&#34; width=&#34;596&#34; height=&#34;334&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Essas técnicas simples ajudaram a manter nosso código muito mais fácil
+de manter. Espero que seja útil para mais alguém. ;)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Palestra sobre Gamedev, Javascript e HTML5</title>
+      <link>http://pothix.com/post/palestra-sobre-gamedev-javascript-e5/</link>
+      <pubDate>Mon, 23 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/palestra-sobre-gamedev-javascript-e5/</guid>
+      <description>&lt;p&gt;Esse fim de semana eu palestrei no FLISOL de São José dos Campos sobre
+desenvolvimento de jogos, Javascript e HTML5. Foi uma palestra simples
+e rápida, durou pouco mais de meia hora (preciso aprender a falar um
+pouco mais devagar :P) mas foi divertido.&lt;/p&gt;
+
+&lt;p&gt;A grande maioria das pessoas que estavam assistindo a palestra não
+eram desenvolvedores, e estavam começando a estudar agora, e acho que
+por isso não surgiram muitas perguntas sobre o assunto, mesmo eu
+evitando colocar código.&lt;/p&gt;
+
+&lt;p&gt;Os slides da palestra foram esses:&lt;/p&gt;
+
+&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/8069932&#34;
+width=&#34;425&#34; height=&#34;355&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34;
+marginheight=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Queria agradecer ao &lt;a href=&#34;http://kesiev.com&#34;&gt;Kesiev&lt;/a&gt; pelas dicas sobre o
+que falar do Akihabara e para os amigos da
+&lt;a href=&#34;http://plaevteam.com&#34;&gt;Plaev&lt;/a&gt; pelas fotos para o slide do
+&lt;a href=&#34;http://plaevteam.com/rott&#34;&gt;Rise of theTitans&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Um amigo que estava assistindo a palestra fez o favor de gravar para mim:&lt;/p&gt;
+
+&lt;iframe src=&#34;http://player.vimeo.com/video/24100947?title=0&amp;amp;byline=0&amp;amp;portrait=0&#34; width=&#34;400&#34; height=&#34;300&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Vou colocar mais exemplos e código para as próximas apresentações desse tema.
+Sugestões e críticas construtivas são bem vindas! ;)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Hugo Roque (a.k.a hugolnx), Berg Ginu, Berg Ginu | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Semana de eventos (#rubyconfbr, #adl e #gddbr)</title>
       <link>http://pothix.com/post/semana-de-eventos-rubyconfbr-adl-e-gddbr/</link>
       <pubDate>Sun, 31 Oct 2010 00:00:00 +0000</pubDate>
@@ -1033,6 +1194,47 @@ picasa&lt;/a&gt;. ;)&lt;/p&gt;
     </item>
     
     <item>
+      <title>Palestra sobre Vim</title>
+      <link>http://pothix.com/post/palestra-sobre-vim/</link>
+      <pubDate>Mon, 29 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/palestra-sobre-vim/</guid>
+      <description>&lt;p&gt;Esse vai ser um post curto, apenas para deixar registrado algumas
+informações sobre a palestra de Vim que teve no sétimo encontro do
+Guru-sp (sim, eu fui o palestrante :D).&lt;/p&gt;
+
+&lt;p&gt;Primeiramente, já começo com uma desculpa, por que já faz mais de 2
+semanas que palestrei e só agora estou fazendo esse post. :(&lt;/p&gt;
+
+&lt;p&gt;Foi bem legal palestrar para uma galera que já conhecia ao menos um
+pouco do editor. Quando eu estava planejando o que eu ia falar eu
+fiquei com uma grande dúvida de qual seria a minha linha de
+apresentação, por que eu não sabia quantos já conheciam o editor,
+portanto eu poderia chegar falando de coisas avançadas e ninguem
+entenderia nada, ou pelo contrário, se muitos conhecessem e eu
+chegasse falando de coisas básicas demais a palestra seria um saco.  A
+minha solução para isso foi preparar os slides de uma forma que eu
+conseguisse falar mais ou menos de determinados assuntos baseado no
+conhecimento do pessoal. Os slides que saíram foram esses:&lt;/p&gt;
+
+&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/bCel8ASrPtnGEv&#34; width=&#34;425&#34; height=&#34;355&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Quando perguntei para o pessoal quem já utilizava, quem nunca abriu
+(ou não conseguiu sair&amp;hellip;heheh) e que usa como editor principal, eu
+descobri que estava equilibrado. Portanto segui uma linha mais comum.&lt;/p&gt;
+
+&lt;p&gt;Tive a sorte do &lt;a href=&#34;http://www.agaelebe.com.br&#34;&gt;agaelebe&lt;/a&gt; gravar (valeu
+Hugo!), e portanto temos o vídeo tambem:&lt;/p&gt;
+
+&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/uhYqwZh61yQ&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Qualquer dúvida, comentário ou sugestão é só postar aqui! :)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Sérgio Luiz Araújo Silva, Vinicius B. Fuentes, Bruno Croci, otubo | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Yahoo Open Hack 2010</title>
       <link>http://pothix.com/post/yahoo-open-hack-2010/</link>
       <pubDate>Mon, 29 Mar 2010 00:00:00 +0000</pubDate>
@@ -1246,780 +1448,6 @@ verdade, mas eu iria mesmo assim!&lt;/strong&gt;&lt;/p&gt;
 precisa &amp;ldquo;entrar na brincadeira&amp;rdquo; e aproveitar. ;)&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Old comments by: Bruna Griebeler, Pedro Menezes, Phoenix | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Show do Metallica</title>
-      <link>http://pothix.com/post/show-do-metallica/</link>
-      <pubDate>Tue, 02 Feb 2010 00:00:00 +0000</pubDate>
-      
-      <guid>http://pothix.com/post/show-do-metallica/</guid>
-      <description>
-
-&lt;p&gt;E vou para um assunto meio OFF no meu blog (ou não), que é falar de
-shows que vou, nesse caso o do Metallica!&lt;/p&gt;
-
-&lt;p&gt;Há muito tempo queria que o Metallica viesse para o Brasil, e no ano
-passado que tiveram vários shows bons (ACDC, Motorhead, Megadeth, Iron
-Maiden e etc) fiquei sabendo que eles viriam ao Brasil e já antecipei
-a compra do ingresso com a ajuda do meu amigo &lt;a href=&#34;http://blog.brunoassis.org/&#34;&gt;Bruno
-Assis&lt;/a&gt; que é cliente do CityBank.&lt;/p&gt;
-
-&lt;p&gt;Em semana de Campus Party já me preparei para ir para o show, mas o
-cabeção aqui esqueceu a carteirinha de estudante em casa na carteira
-(levo só o essencial para o show, mas esqueci a carteririnha :P) em
-casa, portanto tive que apelar para o meu pai me encontrar em algum
-lugar com a minha carteira, o que gerou grandes problemas entre me
-perder pelos lados do morumbi de moto e outras coisas.  Relevando
-todos esses imprevistos, consegui chegar novamente ao estádio e
-entrar. Combinei com um amigo da faculdade que encontraria ele lá
-dentro, mas chegando na pista e vendo aquela multidão de pessoas já
-tinha me conformado qeu ele nunca ia me encontrar por lá. Por incrível
-que pareça, quando o show do Sepultura estava começando lá estava o
-meu colega me encontrando.&lt;/p&gt;
-
-&lt;h4 id=&#34;show-do-sepultura&#34;&gt;Show do Sepultura&lt;/h4&gt;
-
-&lt;p&gt;Uma coisa muito legal desse show é que o Sepultura ia abrir o show, ou
-seja, alem de ver Metallica ainda ia ver Sepultura antes e ter a
-chance de participar de umas rodas pesadas por lá! :P Infelizmente
-conheço pouco de Sepultura, até gosto das musicas, mas não conheço as
-letras das musicas e tal, portanto ainda fiquei viajando um pouco ate
-tocar Territory! :D&lt;/p&gt;
-
-&lt;p&gt;O Show foi muito legal, apesar do som estar meio baixo e tal.&lt;/p&gt;
-
-&lt;h4 id=&#34;show-do-metallica&#34;&gt;Show do Metallica&lt;/h4&gt;
-
-&lt;p&gt;Depois do show do Sepultura teve um tempo de uns 40 minutos e o
-Metallica finalmente abriu o show com Creeping Death! Que realmente é
-coisa linda de se ouvir ao vivo! :D&lt;/p&gt;
-
-&lt;p&gt;O show teve um monte de musicas que eu sempre quis ouvir ao vivo e
-felizmente eu estava lá, gritando, pulando, me batendo&amp;hellip;Enfim, me
-divertindo em momentos memoráveis. :) As musicas que do set list
-foram:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Creeping Death&lt;/li&gt;
-&lt;li&gt;For Whom The Bell Tolls&lt;/li&gt;
-&lt;li&gt;The Four Horsemen&lt;/li&gt;
-&lt;li&gt;Harvester Of Sorrow&lt;/li&gt;
-&lt;li&gt;Fade To Black&lt;/li&gt;
-&lt;li&gt;That Was Just Your Life&lt;/li&gt;
-&lt;li&gt;The End Of The Line&lt;/li&gt;
-&lt;li&gt;The Day That Never Comes&lt;/li&gt;
-&lt;li&gt;Sad But True&lt;/li&gt;
-&lt;li&gt;Broken, Beat and Scarred&lt;/li&gt;
-&lt;li&gt;One&lt;/li&gt;
-&lt;li&gt;Master Of Puppets&lt;/li&gt;
-&lt;li&gt;Blackened&lt;/li&gt;
-&lt;li&gt;Nothing Else Matters&lt;/li&gt;
-&lt;li&gt;Enter Sandman&lt;/li&gt;
-&lt;li&gt;Stone Cold Crazy&lt;/li&gt;
-&lt;li&gt;Motorbreath&lt;/li&gt;
-&lt;li&gt;Seek and Destroy&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Como você pode ver, só musicão! Valeu meu ingresso, apesar de eu ter
-olhado o set list do segundo show e ter achado melhor que o primeiro
-ainda! :D&lt;/p&gt;
-
-&lt;p&gt;Se quiser ver as poucas fotos que eu tirei (4 ou 5 sem graça nenhuma,
-só pela muvuca mesmo) veja &lt;a href=&#34;http://picasaweb.google.com/Willian.molinari/20090130Metallica?feat=directlink&#34;&gt;no meu
-picasa&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h4 id=&#34;organização-e-saída&#34;&gt;Organização e Saída&lt;/h4&gt;
-
-&lt;p&gt;Ao contrário do show do Iron esse show foi muito bem organizado (shows
-em estádios são sempre melhores) e consegui entrar e sair do estádio
-facilmente. Não tenho nada a reclamar do evento.&lt;/p&gt;
-
-&lt;p&gt;A minha experiência em shows no Morumbi (ACDC e Metallica) dizem que
-se tiver show por lá você pode ir tranquilo sabendo que provavelmente
-vai encontrar uma boa organização e maneiras fáceis de entrar e sair.&lt;/p&gt;
-
-&lt;h4 id=&#34;conclusão&#34;&gt;Conclusão&lt;/h4&gt;
-
-&lt;p&gt;É claro que para ir em um show desse tamanho você precisa ignorar por
-algumas horas todos os sentidos:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Visão&lt;/strong&gt; - Vai ser destruída pelas luzes do estádio&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Audição&lt;/strong&gt; - Só vai voltar ao normal no outro dia :P&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Olfato&lt;/strong&gt; - Cerveja, maconha, suor, cigarro&amp;hellip;Você precisa ignorar tudo isso que está ao seu redor (fazer o que&amp;hellip;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Tato&lt;/strong&gt; - Muita gente sem camisa suado passando do seu lado, e fora o calor&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Paladar&lt;/strong&gt; - A sede mata qualquer um, e eu morro de sede mas não compro um copinho de água por 5 reais.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Mas no fim das contas eu só tenho uma coisa a dizer:
-Se tiver a chance de ir&amp;hellip;Vá! :D&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Letícia | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Dev In Sampa</title>
-      <link>http://pothix.com/post/dev-in-sampa/</link>
-      <pubDate>Wed, 02 Dec 2009 00:00:00 +0000</pubDate>
-      
-      <guid>http://pothix.com/post/dev-in-sampa/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/dev_in_sampa.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/dev_in_sampa.jpg&#34; alt=&#34;Imagem com o logo do DevInSampa&#34; title=&#34;Logo do DevInSampa&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Nesse sábado, dia 28/11/2009 aconteceu aqui em São Paulo (obviamente!
-:P ) o Dev In Sampa! Um evento para desenvolvedores em geral, sem foco
-em uma determinada linguagem de programação, ou seja, um evento bem
-legal e pragmatico! :D&lt;/p&gt;
-
-&lt;p&gt;Perdi um pouco a hora, portanto não assisti o começo da palestra do
-José Valim, que por sinal é um assunto que muito me interessa,
-portanto recorri aos vídeos do
-&lt;a href=&#34;http://twitter.com/agaelebe&#34; title=&#34;Hugo Borges&#34;&gt;@agaelebe&lt;/a&gt; para assistir o
-comecinho. Para quem quiser ver os vídeos confira no
-&lt;a href=&#34;http://agaelebe.blip.tv/&#34; title=&#34;Blip Tv do agaelebe&#34;&gt;blip.tv do agaelebe&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Agora vamos para  a programação e meus comentários:&lt;/p&gt;
-
-&lt;h4 id=&#34;josé-valim-tópicos-de-machine-learning-classificação-de-textos&#34;&gt;José Valim - Tópicos de machine learning: classificação de textos&lt;/h4&gt;
-
-&lt;p&gt;Como disse no começo do post, eu &lt;span&gt;perd&lt;/span&gt;i o começo da
-palestra do Jose Valim por que eu me atrasei
-(&lt;a href=&#34;http://pothix.com/blog/music/show-do-acdc&#34; title=&#34;Show do ACDC&#34;&gt;foi por um bom motivo&lt;/a&gt;), mas compensei depois assistindo o vídeo.  A palestra
-foi muito boa, e abordou um dos tipos de tema que eu gosto, machine
-learning é bem interessante! Essa é uma das coisas que eu pretendo
-estudar só por diversão, por que parece ser bem legal.  O
-&lt;a href=&#34;http://twitter.com/josevalim&#34; title=&#34;José Valim&#34;&gt;@josevalim&lt;/a&gt; fez sua tese
-sobre classificação de textos, portanto conhece bem do assunto e foi
-muito interessante ver as pesquisas dele consolidadas e simplificadas
-em uma apresentação. :)&lt;/p&gt;
-
-&lt;h4 id=&#34;rodrigo-yoshima-design-de-software-as-técnicas-esquecidas&#34;&gt;Rodrigo Yoshima - Design de Software: As técnicas esquecidas&amp;hellip;&lt;/h4&gt;
-
-&lt;p&gt;O &lt;a href=&#34;http://twitter.com/rodrigoy&#34; title=&#34;Rodrigo Yoshima&#34;&gt;@rodrigoy&lt;/a&gt; fez uma palestra bem legal comentando sobre várias técnicas esquecidas sobre design de software, e muitos programadores que assistiram essa palestra devem ter se visto em várias situações por ele citadas ( eu fui um deles em alguns pontos ). Algumas das coisas citadas foram:&lt;/p&gt;
-
-&lt;h5 id=&#34;design-incremental&#34;&gt;Design incremental&lt;/h5&gt;
-
-&lt;p&gt;Nunca pense naquela história de &amp;ldquo;Preciso do pedido para poder fazer a
-tela de cadastro&amp;rdquo; sempre comece por aquilo que agrega mais valor.
-Faça as coisas sempre usando um pensamento incremental, criando testes
-para que quando você resolva um bug não crie mais outros por não saber
-as consequências de suas modificações.  Sempre tomar cuidado com o
-design incremental para que ele não se torne um problema pelo mal
-crescimento da sua aplicação.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Tomar cuidado com arquiteturas monolíticas / egípcias - Arquiteturas difíceis de refatorar, que usam componentes pesados, quem ninguém sabe como foi feita e etc.&lt;/li&gt;
-&lt;li&gt;Separar a função de cada unidade, não deixando que o produto tenha que saber sobre vendas, por exemplo.&lt;/li&gt;
-&lt;li&gt;É melhor um design ruim com testes do que um design bom sem testes por que com testes você pode refatorar, agora sem testes a situação já muda bastante.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Entre outras coisas muito interessantes que eu não vou mencionar por
-que senão meu post vai ficar enorme, mas assista o vídeo e veja as
-dicas interessantes que ele dá.&lt;/p&gt;
-
-&lt;p&gt;Primeiro &lt;strong&gt;Coffee break&lt;/strong&gt; para encontrar os amigos e bater papo! Tinha
-bastante gente do Guru-sp por lá (
-&lt;a href=&#34;http://twitter.com/almeidaricardo&#34; title=&#34;Ricardo
-Almeida&#34;&gt;@almeidaricardo&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/shadow11&#34; title=&#34;Ricardo Yasuda&#34;&gt;@shadow&lt;/a&gt;,
-&lt;a href=&#34;http://twitter.com/rafaelrosafu&#34; title=&#34;Rafael Rosa&#34;&gt;@rafaelrosafu&lt;/a&gt;,
-&lt;a href=&#34;http://twitter.com/scalone&#34; title=&#34;Thiago Scalone&#34;&gt;@scalone&lt;/a&gt;,
-&lt;a href=&#34;http://twitter.com/bbcoimbra&#34; title=&#34;bbcoimbra é o caramba! Esse
-é o sceadugenga&#34;&gt;@bbcoimbra&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/nelsonmhjr&#34; title=&#34;Nelson&#34;&gt;@nelsonmhjr&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/_bojak&#34; title=&#34;Altair&#34;&gt;@_bojak&lt;/a&gt;,
-&lt;a href=&#34;http://twitter.com/cassiomarques&#34; title=&#34;Cassio Marques&#34;&gt;@cassiomarques&lt;/a&gt;,
-&lt;a href=&#34;http://twitter.com/dcreq&#34; title=&#34;Diego Carrion&#34;&gt;@dcreq&lt;/a&gt; e mais um monte de
-gente! ), foi legal para bater um papo com os conhecidos. :D&lt;/p&gt;
-
-&lt;p&gt;Só para constar, o Ronaldp Ferraz
-(&lt;a href=&#34;http://twitter.com/rferraz&#34; title=&#34;Ronaldo Ferraz&#34;&gt;@rferraz&lt;/a&gt;) veio falar
-comigo sem crachá e sem cavanhaque, e eu obviamente não conheci, tinha
-que se apresentar formalmente ( ou seja, com cavanhaque! O
-&lt;a href=&#34;http://twitter.com/tinogomes&#34;&gt;@tinogomes&lt;/a&gt; já aprendeu! haha ). :P&lt;/p&gt;
-
-&lt;h4 id=&#34;ronaldo-ferraz-criando-sua-própria-linguagem-de-programação&#34;&gt;Ronaldo Ferraz - Criando sua própria linguagem de programação&lt;/h4&gt;
-
-&lt;p&gt;Palestra muito boa do &lt;a href=&#34;http://twitter.com/rferraz&#34; title=&#34;Ronaldo Ferraz&#34;&gt;@rferraz&lt;/a&gt;! :D&lt;/p&gt;
-
-&lt;p&gt;O assunto foi bem denso, mas bem interessante, ele mostrou alguns
-conceitos e informações interessantes sobre como criar e brincar com a
-sua própria linguagem de programação de uma maneira não tão difícil
-usando Treetop e Ruby.  Como muitos já sabem o Ronaldo tem
-conhecimento infinito em linguagens de programação, portanto a
-palestra foi bem legal com vários exemplos em várias linguagens.&lt;/p&gt;
-
-&lt;h4 id=&#34;joão-s-o-bueno-desenvolvimento-de-jogos-com-python&#34;&gt;João S. O. Bueno - Desenvolvimento de jogos com Python&lt;/h4&gt;
-
-&lt;p&gt;Puxa vida&amp;hellip;Essa palestra foi um grande &lt;strong&gt;417&lt;/strong&gt; ( Código de retorno do
-HTTP para &lt;strong&gt;Expectation Failed&lt;/strong&gt; ), por que como muitos sabem eu adoro
-desenvolvimento de jogos, e fiquei muito feliz por ver uma palestra
-desse segmento nesse evento. Outra coisa que me entusiasmou bastante
-foi o fato de ser com Python, que assim como Ruby é uma linguagem que
-eu gosto bastante, mas em outra palestra que eu tinha visto ( no**
-CONISLI 2008** ) o palestrante não foi muito feliz com o
-conteúdo. Enfim, e fui com muita vontade de ver essa palestra.&lt;/p&gt;
-
-&lt;p&gt;No início da palestra quando falaram o nome do palestrante e eu o vi,
-percebi que parecia familiar, e por incrível que pareça&amp;hellip;Era o mesmo
-do CONISLI 2008&amp;hellip; Mas até aí tudo bem, agora o nível do pessoal é
-diferente e já se passou mais de 1 ano desde a ultima palestra, ou
-seja, essa prometia ser bem melhor.&lt;/p&gt;
-
-&lt;p&gt;Como puderam ver pelo começo do post, foi um grande engano meu, apesar
-de o palestrante falar que ia focar mais em jogos já que o pessoal já
-conhecia Python, ele ficou muito em Python e no finalzinho mostrou
-alguns joguinhos feitos em PyGame, como se a idéia da palestra fosse
-mostrar que Python é legal (que nós já sabemos! :D ) e dá para fazer
-jogos tambem.  Enfim&amp;hellip;Me decepcionou&amp;hellip; :(&lt;/p&gt;
-
-&lt;h4 id=&#34;intervalo-para-almoço&#34;&gt;Intervalo para almoço&lt;/h4&gt;
-
-&lt;p&gt;O Almoço foi meio corrido por que o evento estava meio atrasado, mas
-mesmo assim deu para conversar bastante com a galera do Guru-sp no
-shopping ( não me pergunte qual ).&lt;/p&gt;
-
-&lt;h4 id=&#34;guilherme-silveira-e-adriano-almeida-do-rest-ao-restful&#34;&gt;Guilherme Silveira e Adriano Almeida - Do REST ao RESTFul&lt;/h4&gt;
-
-&lt;p&gt;Na volta do almoço tivemos uma palestra teórica sobre REST e RESTful,
-que por sinal abriu muito a mente sobre o assunto. Mesmo o assunto
-sendo teórico o Guilherme Silveira e o Adriano passaram muito bem a
-idéia e souberam conduzir bem a palestra para manter o conteúdo bem
-dinâmico.&lt;/p&gt;
-
-&lt;p&gt;Nando Vieira - Escrevendo testes no JavaScript&lt;/p&gt;
-
-&lt;p&gt;Aqui um assunto que vem me interessando cada vez mais, testes! E como
-eu sempre gostei de Javascript, a palestra foi bem relevante.
-Infelizmente o Nando Vieira não conseguiu mostrar todos os exemplos
-que ele tinha planejado, mas foi bem interessante ver o live coding, e
-as amostras de testes para determinadas coisas.  Gostei bastante da
-syntax do JSpec, não sei como fica a integração dele com o prototype (
-que é o que eu estou usando atualmente no trabalho, mesmo preferindo
-JQuery ), mas pretendo dar uma chance para ele assim que possível.&lt;/p&gt;
-
-&lt;h4 id=&#34;luis-cipriani-web-em-tempo-real-com-ruby-e-xmpp&#34;&gt;Luis Cipriani - Web em tempo real com Ruby e XMPP&lt;/h4&gt;
-
-&lt;p&gt;Bem legal o case que o Cipriani mostrou sobre a sua aplicação da
-maratona de basquete, achei muito interessante as ferramentas que ele
-usou, e vi que ele soube passar bem as informações sobre o XMPP que
-foram necessárias.&lt;/p&gt;
-
-&lt;h4 id=&#34;coffee-break&#34;&gt;Coffee-break&lt;/h4&gt;
-
-&lt;p&gt;Agora sim um coffee break que deu um tempinho para conversar com uma
-outra galerinha como o &lt;a href=&#34;http://twitter.com/rferraz&#34; title=&#34;Ronaldo
-Ferraz&#34;&gt;@rferraz&lt;/a&gt;, a &lt;a href=&#34;http://twitter.com/narwen&#34; title=&#34;Thais Camilo&#34;&gt;@narwen&lt;/a&gt;, o
-&lt;a href=&#34;http://twitter.com/fabiokung&#34; title=&#34;Fabio Kung&#34;&gt;@fabiokung&lt;/a&gt; e mais outra
-galera.&lt;/p&gt;
-
-&lt;h4 id=&#34;ricardo-almeida-buscas-poderosas-com-solr&#34;&gt;Ricardo Almeida - Buscas poderosas com Solr&lt;/h4&gt;
-
-&lt;p&gt;Estava curioso desde o ultimo post do &lt;a href=&#34;http://twitter.com/dcreq&#34; title=&#34;Diego Carrion&#34;&gt;@dcrec&lt;/a&gt; sobre o Solr, e a palestra do Ricardo foi o ponto para tirar as minhas dúvidas.
-Vi muitas vantagens do Solr sobre o Sphinx e nenhuma do Sphinx sobre o Solr, acho que vale a pena tentar uma migração num futuro não tão distante.&lt;/p&gt;
-
-&lt;h4 id=&#34;radamés-ajna-arduino-computação-física&#34;&gt;Radamés Ajna - Arduino - Computação Física&lt;/h4&gt;
-
-&lt;p&gt;A palestra do Radamés foi demais! Além do Arduino ser fantástico, o
-Radamés soube apresentar muito bem, mesmo com alguns problemas nos
-slides ele mostrou muito bem algumas coisas legais que dá para fazer
-com o Arduino, sempre com exemplos muito interessantes de coisas que
-já fizeram ou que ele pretende fazer.  A interface para mexer com
-arduino realmente não parece ser tão complexa, e eu gostaria mesmo de
-ter algum conhecimento em eletronica nesses momentos, mas quem sabe
-algum dia eu tiro um tempinho para dar uma brincada. :D&lt;/p&gt;
-
-&lt;h4 id=&#34;fabio-kung-cloud-computing-e-eu-com-isso&#34;&gt;Fabio Kung - Cloud Computing. E eu com isso?&lt;/h4&gt;
-
-&lt;p&gt;Para fechar o evento tivemos uma palestra muito legal do Kung
-mostrando o que &amp;ldquo;ele acha&amp;rdquo; que é cloud computing, e os tipos de cloud
-computing que são oferecidos ( IaaS, PaaS e SaaS ).  Ele mostrou como
-funciona e por que são usados os cloud computings atualmente, e como
-estão as experiencias dele com cluod computing atualmente. Achei a
-palestra bem legal, e é interessante ver as opiniões e experiências de
-alguem que realmente está vivendo essa parte de cloud computing.&lt;/p&gt;
-
-&lt;h4 id=&#34;conclusão&#34;&gt;Conclusão&lt;/h4&gt;
-
-&lt;p&gt;O evento terminou bem atrasado ( mais de 20:00 ), mas valeu muito a
-pena ter ido. Há tempos estava sentindo falta de um evento que não
-levasse em consideração apenas uma linguagem de programação, algo que
-fosse mais pragmático mas que fosse totalmente voltado a
-desenvolvimento.&lt;/p&gt;
-
-&lt;p&gt;Parabens a todos os organizadores do evento e espero ver vocês
-novamente na próxima edição! :D&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Bruno Croci, Rodrigo Yoshima | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Show do ACDC</title>
-      <link>http://pothix.com/post/show-do-acdc/</link>
-      <pubDate>Tue, 01 Dec 2009 00:00:00 +0000</pubDate>
-      
-      <guid>http://pothix.com/post/show-do-acdc/</guid>
-      <description>
-
-&lt;p&gt;Como muitos sabem eu tive o prazer de estar no show do ACDC aqui no
-Brasil, que aconteceu no dia 27 de novembro de 2009.&lt;/p&gt;
-
-&lt;p&gt;Eu não queria perder esse show por nada, por vários motivos, sendo 2
-deles:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Eu curto pra caramba ACDC&lt;/li&gt;
-&lt;li&gt;Os caras já estão bem velhinhos! Assim como o Ozzy que eu fui e já pensava que podia ser a ultima vez :P&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;O show foi no estádio do Morumbi:
-&lt;a href=&#34;http://pothix.com/images/posts/show_acdc_morumbi.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/show_acdc_morumbi.jpg&#34; alt=&#34;Foto do estadio do morumbi visto de fora&#34; title=&#34;Estadio do Morumbi&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Por sorte consegui chegar relativamente cedo ( 17:00 ) e peguei um
-&lt;em&gt;estacionamento&lt;/em&gt; razoável ( na casa de alguem que fatura
-com isso ) e um lugar razoável na arquibancada (infelizmente nesse
-show eu não fui de pista):&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/show_acdc_pista.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/show_acdc_pista.jpg&#34; alt=&#34;Foto da pista do estádio do Morumbi visto da arquibancada&#34; title=&#34;Pista do estadio do Morumbi&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;O tempo castigou e tivemos a oportunidade de cantar bastante
-Thunderstruck ( a cada relampago começava um: &amp;ldquo;Thuuuuun der!!&amp;rdquo;
-). Recebi uma bela de uma chuva enquanto estava na fila para entrar e
-outra enquanto esperávamos o show de abertura. Nesse meio tempo eu vi
-uma ligeira vantagem de ter ido de moto, por que eu estava com a minha
-capa de chuva na mochila e utilizei-a. :D&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/show_acdc_clima.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/show_acdc_clima.jpg&#34; alt=&#34;Foto do céu com o sol passando entre as nuvens&#34; title=&#34;Clima durante o show&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Enfim! Agora vamos ao show. (infelizmente as únicas fotos que eu
-tirei que ficaram razoáveis foram antes do show, as outras não dá para
-ver nada :P)&lt;/p&gt;
-
-&lt;h3 id=&#34;abertura&#34;&gt;Abertura&lt;/h3&gt;
-
-&lt;p&gt;Como muitos sabem, quem abriu o show do ACDC foi o Nazi ( não me
-perguntem por que&amp;hellip;Não tenho idéia por que ele foi o escolhido ), que
-eu não esperava que fosse legalzinho como foi. Tocou umas musicas meio
-clássicas como Raul Seixas, Ira ( não tenho certeza, mas suponho que
-era ) e Iggy Pop.&lt;/p&gt;
-
-&lt;p&gt;O Show foi bem curto ( cerca de 20 minutos ), mas teve a presença do
-Andreas Kisser e a apresentação foi rápida, legal e indolor.&lt;/p&gt;
-
-&lt;h3 id=&#34;show-do-acdc&#34;&gt;Show do ACDC&lt;/h3&gt;
-
-&lt;p&gt;Depois de esperar ansiosamente pela abertura do show, eis que as luzes
-se apagam e começa um vídeo no telão, onde mostra todos os integrantes
-da banda ( ou era só o vocal e o Angus? Não lembro ) dentro de um trem
-com algumas mulheres, e o Angus só alimentando a fornalha do trem para
-que ela fique no máximo. Duas mulheres amarram o Angus e tentam parar
-o trem, quando não conseguem elas pulam fora, e o Angus com o trem a
-todo vapor apenas pega sua Guitarra e o trem se colide com o fim da
-linha.&lt;/p&gt;
-
-&lt;p&gt;Na hora da colisão do trem no vídeo o palco todo se acende e o ACDC
-inicia o show tocando Rock N&amp;rsquo; Roll Train! Uma musica muito legal para
-se iniciar! Nesse momento o cenário já está enfeitado com uma grande
-locomotiva que fica soltando fumaça enquanto eles tocam.&lt;/p&gt;
-
-&lt;p&gt;Abaixo vai o set list que foi tocado durante o show com os meus devidos comentários:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Hell Ain&amp;rsquo;t A Bad Place To Be&lt;/strong&gt; - Musica que eu gosto bastante!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Back In Black&lt;/strong&gt; - Obviamente eles não podiam deixar de tocar essa musica que é um grande clássico do ACDC! Tive até que ligar para o meu primo para ele ouvir um pedaço! Essa musica é boa demais!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Big Jack&lt;/strong&gt; - Essa como outras musicas que são relacionadas a mulheres tem uma coisa muito legal, que é mostrar várias mulheres do show! :P&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Dirty Deeds Done Dirt Cheap&lt;/strong&gt; - Nada como gritar Done Dirt Cheap! Depois de um grande Dirty Deeeeeeeeedsss! :P&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Thunderstruck&lt;/strong&gt; - Outra das musicas muito esperadas do ACDC, que já começa com um solinho bem legal do Angus. Uma das coisas que eu gostei pra caramba nessa musica é o aparecimento perfeito do relâmpago no telão quando todos gritavam &amp;ldquo;Thunnder&amp;rdquo;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Black Ice&lt;/strong&gt; - Uma musica que eu ouvia já faz um tempo e gosto bastante!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;The Jack&lt;/strong&gt; - She&amp;rsquo;s got the Jack! Outra musica que mostra mulheres no telão, e nessa teve até um meio strip tease do Angus ( ele é doentão&amp;hellip;hehehe )&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Hells Bells&lt;/strong&gt; - Outra integração fantástica com o cenário! Antes de começar a musica desce um grande sino no palco, e o vocalista corre pelo grande palco que foi montado pelo meio da galera e se pendura no sino, dando o primeiro toque do sino da musica. Coisa Linda! :D&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;War Machine&lt;/strong&gt; - War Machiiiiiine! ( Só quem conhece as musicas do ACDC que entende essas falas que eu coloco antes de comentar sobre a musica, por que as musicas do ACDC sempre tem uma fala que a galera se junta para falar como um eco depois do vocalista ). Essa é uma das musicas que eu mais gosto do Black Ice, juntamente com Skies on Fire ( que não está no set list do show ).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Dog Eat Dog&lt;/strong&gt; - Essa foi uma surpresa! Gosto pra caramba dessa msuica, mas achei que eles não fossem tocar, e tocaram! :D&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Anything Goes&lt;/strong&gt; - Musica legal e eu ouço bastante, mas não é uma das minhas preferidas.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;You Shook Me All Night Long&lt;/strong&gt; - Musica de mulheres novamente, e não me lembro se foi nessa mas teve uma mina que lembrou a essência dos bons e velhos shows do ACDC que as mulheres levantavam a camiseta! :D:D:D&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;TNT&lt;/strong&gt; - Hey! Hey! Hey! T&amp;hellip;.N&amp;hellip;.T! Obviamente, mais uma das clássicas do ACDC que não podia faltar num show de qualidade como esse!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Whole Lotta Rosie&lt;/strong&gt; - E lá vamos a mais uma parte muito foda do cenário! Surge uma boneca gigante da Rosie no cenário ( com os peitos gigantes por sinal ), e fazendo um movimento de bater o pé que ficou muito legal.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Let There Be Rock&lt;/strong&gt; - Boa e velha essência do Rock N&amp;rsquo; Roll! Me de as luzes&amp;hellip;Me de o som&amp;hellip;Me de a bateria&amp;hellip;Me de a guitarra&amp;hellip;Que se faça o Rock n&amp;rsquo; Roll!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Highway To Hell&lt;/strong&gt; - Clássica e muito foda! Não tem o que dizer!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;For Those About To Rock&lt;/strong&gt; - Essa para mim foi a melhor musica do show! A musica é muito boa, a interação com o cenário ficou perfeita, e foi a musica final para fechar. Foi muito legal ver isso: For those about to rock&amp;hellip;. Fire ( um canhão que fica atrás do palco dispara! ) Weeeee saluuuuute yoooou!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;E a cada vez que tinha um &amp;ldquo;Fire!&amp;ldquo;ou um &amp;ldquo;Shoot!&amp;rdquo; um dos canhões
-disparava, até que no ultimo &amp;ldquo;Fire!&amp;rdquo; os 6 canhões disparam para fechar
-o show! Fantástico!&lt;/p&gt;
-
-&lt;p&gt;Obviamente em algum lugar do show teve um solo gigante do Angus com
-direito a plataforma móvel para ele solar mais alto. :D&lt;/p&gt;
-
-&lt;h4 id=&#34;conclusões&#34;&gt;Conclusões&lt;/h4&gt;
-
-&lt;p&gt;Foi um dos melhores shows que eu já fui ( senão o melhor ) e quem
-perdeu a chance de ir não sei se terá outra, e perdeu um show
-fascinante para quem curte. Eles tocaram as musicas que eu mais gosto(
-Eu gosto de uma infinidade de outras, mas as que tocaram foram todas
-de meu agrado, todas que eu gosto ).&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Lê | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Rails Summit 2009</title>
-      <link>http://pothix.com/post/rails-summit-2009/</link>
-      <pubDate>Mon, 19 Oct 2009 00:00:00 +0000</pubDate>
-      
-      <guid>http://pothix.com/post/rails-summit-2009/</guid>
-      <description>
-
-&lt;p&gt;Esse é um post para relatar como foi o Rails Summit Latin America desse
-ano! 😀 Já começo o post com um grande #win para a organização do
-#railssummit, por que eles tem tomadas para todos e wi-fi liberado para
-todos os participantes, o que ajuda para que pessoas como eu possam
-ficar postando no blog durante o evento, :) Vamos ao evento!&lt;/p&gt;
-
-&lt;h4 id=&#34;rails-insurgency-chad-fowler&#34;&gt;Rails Insurgency – Chad Fowler&lt;/h4&gt;
-
-&lt;p&gt;A palestra foi muito interessante e o Chad Fowler falou sobre como é a
-dificuldade de implantar uma aplicação Rails em uma grande empresa
-quando você tem grandes gerentes que te enchem de perguntas do tipo:
-“Rails faz X?, “Rails faz Y” até que voc6e responda um não para que ele
-possa dizer: “Aháá! Então não podemos usar”. O Chad Fowler já foi um
-desses gerentes e decidiu passar a experiencia de um desses gerentes e
-por que eles pensam dessa maneira.&lt;/p&gt;
-
-&lt;p&gt;Uma outra coisa bem legal que o Chad comentou foi sobre fazer um modelo
-junto com o seu cliente na hora do planejamento, até por que você
-consegue fazer isso facilmente com o Rails e até mostrar uma pequena
-funcionalidade com um Scaffold sem muito transtorno, e seu cliente pode
-facilmente ver se é isso mesmo que ele está pensando.&lt;/p&gt;
-
-&lt;h4 id=&#34;gregg-pollack-na-vanguarda-da-performance-em-rails&#34;&gt;Gregg Pollack – Na vanguarda da performance em Rails&lt;/h4&gt;
-
-&lt;p&gt;O Greg Pollack falou sobre page scaling Rails, comentando sobre uma
-grande quantidade de plugins para medir e ajudar a corrigir alguns
-problemas de escalabilidade que são detectados. Foi apresentado
-ferramentas para melhorar performance de banco de dados, para verificar
-quais &lt;span&gt;queries&lt;/span&gt; que podem ser melhoradas, onde podem ser
-incluídos índices e outras coisas bem interessantes.&lt;/p&gt;
-
-&lt;p&gt;No fim da palestra ele falou sobre o &lt;a href=&#34;http://madmimi.com/&#34;&gt;madmimi&lt;/a&gt;
-que ajuda a lidar com um dos grandes gargalos de aplicações, que é
-quando se tem que trabalhar com grandes listas de e-mails.&lt;/p&gt;
-
-&lt;p&gt;Para saber os outros assuntos que o Greg falou é só ver no blog do
-EnvyLabs: &lt;a href=&#34;http://blog.envylabs.com/summit&#34;&gt;http://blog.envylabs.com/summit&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;carlos-brando-como-o-rails-funciona-por-dentro&#34;&gt;Carlos Brando – Como o Rails funciona por dentro&lt;/h4&gt;
-
-&lt;p&gt;Agora começa o problema por que temos que escolher uma palestra e eu
-fiquei em dúvida entre a palestra do Ilya Grigorick e a do &lt;a href=&#34;http://twitter.com/carlosbrando&#34; title=&#34;Carlos Brando&#34;&gt;Carlos
-Brando&lt;/a&gt;, mas no fim das contas resolvi
-assistir a do Carlos.&lt;/p&gt;
-
-&lt;p&gt;O Carlos Brando falou sobre como o Rails funciona por dentro, usando a
-sua experiência na criação de um framework (que ele está fazendo na
-nova empresa que está trabalhando), ele falou um pouco sobre como o
-Rails trata as requisições, como utilizar as coisas certas de Rails
-quando se está fazendo um framework, e comentou um pouco sobre o
-framework que ele está criando como exemplo.&lt;/p&gt;
-
-&lt;p&gt;Achei a palestra muito superficial…Achei que o Carlos fosse pegar pesado
-mostrando bastante coisa do Rails, mas ele decidiu mostrar algo mais
-simples pois ao mostrar para algumas pessoas percebeu que elas estavam
-achando meio massante. Enfim, como ele mesmo disse, não dá para agradar
-a todos, mas na minha opinião a palestra foi fraca :(&lt;/p&gt;
-
-&lt;h4 id=&#34;josé-valim-aprenda-a-customizar-os-geradores-do-rails-3-0&#34;&gt;José Valim – Aprenda a customizar os geradores do Rails 3.0&lt;/h4&gt;
-
-&lt;p&gt;A palestra do José Valim foi bem legal! Ele falou sobre o Thor e sobre
-os geradores do Rails 3, como você poderá facilmente customiza-los e
-como o thor pode te ajudar em suas aplicações.&lt;/p&gt;
-
-&lt;p&gt;Ele mostrou um pouco do motivo de se trocar utilizar o thor, e por que
-os antigos geradores são ruins do jeito que estão. Um exemplo legal foi
-mostrar como um plugin tem que fazer para gerar coisas, tomando como
-exemplo o RSpec, que com um spec_model vai ter que gerar migrations
-tambem, sendo que não é do escopo do RSpec ter que se preocupar com
-migrations, mas do jeito que está atualmente ele apenas pode trocar o
-&lt;code&gt;script/generate model&lt;/code&gt; pelo &lt;code&gt;script/generate rspec_model&lt;/code&gt;. Utilizando
-o exemplo anterior como base foi mostrado como os novos geradores vão
-ajudar nas tarefas dos plugins a partir de agora.&lt;/p&gt;
-
-&lt;p&gt;Gostei da palestra e acho que o José Valim conseguiu passar bem o que
-ele queria. :)&lt;/p&gt;
-
-&lt;h4 id=&#34;david-chelimsky-rspec-e-cucumber-alem-do-básico&#34;&gt;David Chelimsky – RSpec e Cucumber alem do básico&lt;/h4&gt;
-
-&lt;p&gt;A palestra do chelimsky foi sobre o uso do &lt;a href=&#34;http://rspec.info/&#34;&gt;RSpec&lt;/a&gt;
-e do &lt;a href=&#34;http://cukes.info/&#34;&gt;Cucumber&lt;/a&gt;, que na minha opinião foi bem
-similar a palestra do ano passado, mas mesmo assim mostrou algumas
-boas práticas sobre RSpec que foram interessantes.&lt;/p&gt;
-
-&lt;p&gt;Eu ainda tive a chance de conversar com o Chelimsky no final da palestra
-para fazer umas perguntas sobre o Spork e como melhorar o tempo de
-execução dos meus testes que demoram muito para serem executados,
-tornando o desenvolvimento com o autospec não tão bom quando poderia
-ser.&lt;/p&gt;
-
-&lt;h4 id=&#34;fabio-akita-agile-além-do-caos&#34;&gt;Fabio Akita – Agile, além do caos&lt;/h4&gt;
-
-&lt;p&gt;A palestra do Akita foi uma grande viagem de pensamentos aleatórios dele
-sobre a teoria do caos baseado nos estudos que ele tem feito nos últimos
-tempos. Eu achei que foi muita informação para um curto período de tempo
-para as pessoas, mas quem conseguiu abstrair muita coisa e entender qual
-foi a finalidade da palestra deve ter gostado bastante, por que a idéia
-central é bem interessante. :)&lt;/p&gt;
-
-&lt;h4 id=&#34;matt-aimonetti-o-futuro-do-ruby-rails&#34;&gt;Matt Aimonetti – O Futuro do Ruby &amp;amp; Rails&lt;/h4&gt;
-
-&lt;p&gt;O Matt falou sobre as novidades que virão no Rails 3, sobre o que poderá
-ser incorporado do merb e o quanto “plugável” o Rails 3 será. Ele não
-falou apenas de Rails, mas falou tambem um pouco de Ruby e quais são as
-novidades em termos de velocidade.&lt;/p&gt;
-
-&lt;h4 id=&#34;desconferência&#34;&gt;Desconferência&lt;/h4&gt;
-
-&lt;p&gt;E chegou a hora que muitos estavam esperando, a desconferência! 😀&lt;/p&gt;
-
-&lt;p&gt;Na ultima desconferência o Elomar deu show falando um pouco sobre
-grupos de estudo, e muita gente estava esperando coisas legais para
-esse ano.&lt;/p&gt;
-
-&lt;p&gt;Teve muita coisa interessante, mas infelizmente não pude ficar até o
-final por causa da minha faculdade, mas o que pude ver foi:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Pessoal do Guru-sp apresentando o grupo e falando sobre o crescimento e futuras atividades (eu fui o primeiro a falar! 😀)&lt;/li&gt;
-&lt;li&gt;George Guimarães falando do Devise&lt;/li&gt;
-&lt;li&gt;Aldo França contando sua história para aprender Rails e fazendo um blog em 15 minutos ( com 11 anos de idade )&lt;/li&gt;
-&lt;li&gt;Guilherme Chapiewsky e Henrique Bastos falando sobre os eventos e grupos que eles participam no Rio&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Sei que teve muito mais coisas legais alem disso, mas essas foram as
-unias que eu pude ver e achei todas bem legais! 😀&lt;/p&gt;
-
-&lt;p&gt;Acho muito interessante essa idéia de desconferência, pois serve tanto
-para integrar o pessoal e dar risada quanto para apresentar projetos
-interessantes e muito úteis para alguns.&lt;/p&gt;
-
-&lt;p&gt;Sem contar que eu ganhei um Ipod nano da
-&lt;a href=&#34;http://www.thoughtworks.com/&#34;&gt;ThoughtWorks&lt;/a&gt; em um sorteio pouco antes
-da desconferência. 😀&lt;/p&gt;
-
-&lt;h4 id=&#34;manhã-do-primeiro-dia&#34;&gt;Manhã do primeiro dia&lt;/h4&gt;
-
-&lt;p&gt;Agora vem a parte triste…Não pude estar no evento no segundo dia de
-manhã.  :(&lt;/p&gt;
-
-&lt;p&gt;O &lt;a href=&#34;http://ikwa.com.br&#34;&gt;ikwa&lt;/a&gt; não liberou todos os programadores para ficar
-lá em tempo integral, portanto fizemos um revezamento, e para mim
-ficou o segundo dia de manhã.&lt;/p&gt;
-
-&lt;p&gt;Perdi duas palestras que eu gostaria muito de assistir. A primeira é do
-&lt;a href=&#34;http://twitter.com/cv&#34;&gt;Carlos Vilela&lt;/a&gt; que falou sobre o uso do Ruby na ThoughtWorks e a
-segunda é do &lt;a href=&#34;http://simplesideias.com.br/&#34; title=&#34;Simples Ideias - Por Nando Vieira&#34;&gt;Nando Vieira&lt;/a&gt; que estava falando do Ruby 1.9.&lt;/p&gt;
-
-&lt;p&gt;Uma coisa que me animou um pouco foi saber que as palestras eram
-simultâneas, portanto eu ia perder uma de qualquer jeito.&lt;/p&gt;
-
-&lt;h4 id=&#34;marcos-tapajós-couchdb-no-rails&#34;&gt;Marcos Tapajós – CouchDB no Rails&lt;/h4&gt;
-
-&lt;p&gt;Como não pude estar no evento no segundo dia de manhã eu já cheguei
-direto para a palestra do &lt;a href=&#34;http://improveit.com.br/empresa/tapajos&#34; title=&#34;Tapajós na improve-it&#34;&gt;Tapajós&lt;/a&gt; sobre CouchDB, que por sinal foi bem
-interessante! O Tapajós mostrou um pouco de como é trabalhar com CouchDB
-e como deve ser a mudança de paradigma da saída de um banco relacional
-para ir para um banco orientado a documentos.&lt;/p&gt;
-
-&lt;p&gt;Como o próprio Tapajós disse, a idéia da palestra dele era dar um
-Overview do couchDB e depois abrir para perguntas para tirar as dúvidas
-do pessoal, e na minha opinião ficou muito bom! 😀&lt;/p&gt;
-
-&lt;h4 id=&#34;bruno-miranda-rails-não-escala&#34;&gt;Bruno Miranda – Rails não escala&lt;/h4&gt;
-
-&lt;p&gt;O &lt;a href=&#34;http://twitter.com/brupm&#34; title=&#34;Twitter do Bruno Miranda&#34;&gt;Bruno Miranda&lt;/a&gt; apresentou “juntamente” com o Jason Seifer
-(infelizmente o &lt;a href=&#34;http://jasonseifer.com/&#34; title=&#34;Jason Seifer&#34;&gt;Jason Seifer&lt;/a&gt; não pode estar no railssummit por
-problemas com a viagem, portanto apenas enviou vídeos da parte que ele
-ia falar) sobre “Rails não escala”, falando sobre a aplicação que está
-em baixo do canal de audio do MSN e como eles conseguem manter uma infra
-escalável usando Rails.&lt;/p&gt;
-
-&lt;h4 id=&#34;vinicius-teles-do-serviço-ao-produto&#34;&gt;Vinicius Teles – Do serviço ao produto&lt;/h4&gt;
-
-&lt;p&gt;Uma das melhores palestras do Rails Summit ( as palestras não técnicas
-são sempre as mais marcantes, por melhor que sejam as técnicas… ), onde
-o Vinícius contou sua história passando por bons e maus momentos com a
-sua empresa, começando com serviços e terminando em produto.&lt;/p&gt;
-
-&lt;p&gt;Coisas interessantes da palestra do Vinícius foi o grande enfoque em
-“reserva”, ou seja, sempre tenha uma reserva em caixa para segurar a sua
-empresa nos piores momentos ou ajudar quando vem aquela grande
-oportunidade. Apenas investir em passivo ( como carros por exemplo )
-quando isso não for um grande empecilho, por que no começo um carro (por
-exemplo) só vai te trazer prejuízo com desvalorização e manutenção.&lt;/p&gt;
-
-&lt;p&gt;O Vinícius deu ótimas dicas para quem quer começar uma empresa, várias
-dicas de experiencias que ele passou, e me animou muito a preparar as
-coisas par a empresa que eu vou abrir no futuro. Acho que já posso
-começar a me preparar. 😛&lt;/p&gt;
-
-&lt;h4 id=&#34;obie-fernandez-dominando-a-arte-do-desenvolvimento-de-aplicações&#34;&gt;Obie Fernandez – Dominando a arte do desenvolvimento de aplicações&lt;/h4&gt;
-
-&lt;p&gt;Outra palestra no mesmo nível da palestra do Vinícius ( também não
-técnica ), portanto muito boa! 😀&lt;/p&gt;
-
-&lt;p&gt;O Obie Fernandez falou sobre como dominar o desenvolvimento de
-aplicações, e achei muito interessante os exemplos que ele passou sobre
-musica, comentando da quantidade de esforço de um grupo de músicos em
-termos de horas e o que isso implicava em seu nível. Ainda sobre o tempo
-de estudo, não é “apenas estudo” por que pratica não leva a perfeição,
-“prática perfeita leva a perfeição”. Programação é como musica, é sempre
-bom pegar musicas dos outros para estudar, por que assim você pode
-aprender sutilezas para fazer a sua.&lt;/p&gt;
-
-&lt;p&gt;A palestra do Obie assim como a do Vinícius teve frases chave como:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Se eu estiver trabalhando e um dia descobrir que eu não estou feliz
-eu simplesmente saio&lt;/li&gt;
-&lt;li&gt;Fuck the enterprize ( muito boa! haha )&lt;/li&gt;
-&lt;li&gt;Pratica não leva a perfeição, pratica perfeita leva a perfeição&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Gostei bastante da palestra, e bateu certinho com algumas coisas que
-estou pensando para os meus estudos para os próximos tempos.&lt;/p&gt;
-
-&lt;h4 id=&#34;horaextra&#34;&gt;#horaextra&lt;/h4&gt;
-
-&lt;p&gt;O #horaextra foi muito legal! Tivemos um problema com o primeiro bar
-que fomos por que não podiam entrar menores e nem com short, portanto o
-Mergulhão e o Aldo ficariam de fora, então o pessoal foi para outro bar,
-que ficava do lado desse e lotamos o lugar 😛&lt;/p&gt;
-
-&lt;p&gt;Como o bar era pequeno para a quantidade de pessoas, as coisas demoravam
-um pouco para chegar, mas nada que uma boa conversa não pudesse ajudar
-você a relevar isso. A mesa era gigante, mas as pessoas que a voz
-alcançava eram: &lt;a href=&#34;http://twitter.com/carlosbrando&#34; title=&#34;Carlos Brando&#34;&gt;Carlos Brando&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/r4f4e1&#34; title=&#34;Rafael&#34;&gt;r4f4e1&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/vinibaggio&#34; title=&#34;Vinicius Baggio&#34;&gt;Vinícius Baggio&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/shadow11&#34; title=&#34;Ricardo Yasuda&#34;&gt;Shadow&lt;/a&gt; e
-&lt;a href=&#34;http://twitter.com/agaelebe&#34; title=&#34;Hugo Borges&#34;&gt;Agaelebe&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Batemos papo por um bom tempo, com participação de mais uma galera (
-&lt;a href=&#34;http://akitaonrails.com&#34;&gt;Akita&lt;/a&gt;, &lt;a href=&#34;http://rafaelrosafu.com/&#34; title=&#34;Rafael Rosa Fu&#34;&gt;Rafael Rosa&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/scalone&#34; title=&#34;Thiago Scalone&#34;&gt;Thiago Scalone&lt;/a&gt; …. ), e acabei saindo de lá
-mais de 00:00.&lt;/p&gt;
-
-&lt;p&gt;Aqui chega o fim do evento e o que fica são os bons momentos passados
-por lá, o conhecimento adquirido e a vontade de participar novamente no
-ano que vem! Parabens aos organizadores ( e patrocinadores! ) do evento,
-por que ficou ótimo!&lt;/p&gt;
-
-&lt;p&gt;Se quiser ver as fotos que eu tirei no evento veja &lt;a href=&#34;http://picasaweb.google.com/Willian.molinari/20091013RailsSummit?feat=directlink&#34; title=&#34;Album do Rails Summit no Picasa&#34;&gt;o album no meu
-picasaweb&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: @diegorv | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Encontro de numero 5 do Guru-sp</title>
-      <link>http://pothix.com/post/encontro-de-numero-5-do-guru-sp/</link>
-      <pubDate>Tue, 21 Jul 2009 00:00:00 +0000</pubDate>
-      
-      <guid>http://pothix.com/post/encontro-de-numero-5-do-guru-sp/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/5_encontro_guru.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/5_encontro_guru.jpg&#34; alt=&#34;Foto do pessoal reunido com seus notebooks no encontro&#34; title=&#34;Quinto encontro do Guru-sp&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Nesse sábado aconteceu o
-&lt;a href=&#34;http://guru-sp.com/index.php/Quinto_Encontro&#34; title=&#34;Quinto encontro do Guru-sp&#34;&gt;quinto encontro do Guru-sp&lt;/a&gt;! :)&lt;/p&gt;
-
-&lt;p&gt;O encontro estava marcado para as 10 da manhã com uma seção para
-iniciantes e começou as 10:30 ( sempre atrasa um pouquinho né? hehe ),
-já com um bate papo legal coordenado pelo
-&lt;a href=&#34;http://www.rafaelrosafu.com&#34; title=&#34;Rafael Rosa&#34;&gt;@rafaelrosafu&lt;/a&gt; após uma
-breve apresentação de todos os participantes.&lt;/p&gt;
-
-&lt;h4 id=&#34;rails-para-iniciantes&#34;&gt;Rails para iniciantes&lt;/h4&gt;
-
-&lt;p&gt;Nessa primeira seção tiveram muitas conversas interessantes sobre
-algumas filosofias Rails, como:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Don%27t_repeat_yourself&#34; title=&#34;Don&#39;t Repeat Yourself&#34;&gt;DRY&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://pt.wikipedia.org/wiki/REST&#34; title=&#34;REST&#34;&gt;REST&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Test-driven_development&#34; title=&#34;TDD&#34;&gt;TDD&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Test all the Fucking Time&lt;/li&gt;
-&lt;li&gt;Skynny Controllers and Fat Models&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;e mais algumas outras coisas bem interessantes que fomentaram uma
-ótima discussão sobre quais os melhores padrões para se seguir quando
-se constrói uma aplicação Rails (sim, falamos tomando como base uma
-aplicação Rails), como utilizar plugins como o
-&lt;a href=&#34;http://github.com/giraffesoft/resource_controller/tree/master&#34; title=&#34;ResourceController on GitHub&#34;&gt;ResourceController&lt;/a&gt;
-(que tem seus prós e contras), manter seus scripts num lugar diferente
-da pasta scripts, que é a pasta padrão para scripts &amp;ldquo;internos&amp;rdquo; do
-Rails e tentar centralizar em uma pasta dentro de lib, além de usar
-Rake sempre que possível para essas tarefas ficarem organizadas e de
-fácil acesso.&lt;/p&gt;
-
-&lt;p&gt;Uma parada rápida para o almoço no Shopping e lá se vão mais de 20
-programadores para comer a bater papo! :)&lt;/p&gt;
-
-&lt;h4 id=&#34;datamapper&#34;&gt;DataMapper&lt;/h4&gt;
-
-&lt;p&gt;Após o almoço tivemos a palestra sobre
-&lt;a href=&#34;http://datamapper.org/doku.php&#34; title=&#34;DataMapper&#34;&gt;DataMapper&lt;/a&gt; do
-&lt;a href=&#34;http://www.rafaelrosafu.com&#34; title=&#34;Rafael Rosa&#34;&gt;@rafaelrosafu&lt;/a&gt; (olha ele
-aí novamente!) que explicou muito bem dando várias referências sobre
-o seu blog pessoal e como ele fez para utilizar o DataMapper ao invés
-do Active Record. O Rails é mais difícil de se sair do padrão, mas
-ficará mais simples de se escolher um ORM quando chegarmos ao Rails
-3. Aproveitando o gancho de DataMapper eu falei um pouco de Sinatra
-dando alguns pitacos na condução do Rafael.&lt;/p&gt;
-
-&lt;h4 id=&#34;git&#34;&gt;Git&lt;/h4&gt;
-
-&lt;p&gt;Após a palestra de DataMapper passamos para uma palestra de Git com o
-Douglas (qmx), que foi muito interessante e participativa! Pegamos
-uma galera do grupo para fazer um scaffold e commitar no projeto para
-começar a ver coisas diferentes, como merges, rebases, mudanças de
-commit, e algumas outras coisas legais, como usar tags, procurar por
-um código em meio aos commits e outras coisas interessantes! =)&lt;/p&gt;
-
-&lt;p&gt;Levantamos a idéia de participar do Rails Rumble, aproveitando que o
-Diego Carrion estava conosco e comentou que a GoNow estava
-patrocinando 3 equipes para o evento, mas não conseguimos ter uma
-idéia legal para propor para o concurso.&lt;/p&gt;
-
-&lt;h4 id=&#34;coding-dojo&#34;&gt;Coding Dojo&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/5_encontro_guru_vinibaggiojpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/5_encontro_guru_vinibaggio.jpg&#34; alt=&#34;Foto do vinibaggio guiando o código com a galera&#34; title=&#34;Vinibaggio guiando o quinto encontro do Guru-sp&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;E finalmente como ultima coisa do dia tivemos o nosso coding dojo, que
-era uma das coisas que eu mais estava esperando nesse econtro! O
-Vinicius Baggio &amp;ldquo;se ofereceu&amp;rdquo; (com um empurrãozinho meu&amp;hellip;hahah)
-para ficar com o notebook ligado no datashow e conduzir o código. O
-dojo foi muito divertido com participação de todos da sala, o que
-sempre trazia novas idéias para fazer um código melhor e agregava
-conhecimento para todos. Fizemos TDD para construir umas classes
-simples de usuário. :)&lt;/p&gt;
-
-&lt;h4 id=&#34;conclusão&#34;&gt;Conclusão&lt;/h4&gt;
-
-&lt;p&gt;Gostaria de agradecer ao André e o pessoal da Voice Technology por
-todo o apoio ao evento e ao grupo, com local, organização, fotos e
-mais várias outras coisas! Guys you Rock! :D&lt;/p&gt;
-
-&lt;p&gt;Infelizmente algumas pessoas não puderam aparecer, e outras apareceram
-por pouco tempo (o Marcelo Castellani), por motivos pessoais, mas
-espero que estejam presentes no próximo! :)&lt;/p&gt;
-
-&lt;p&gt;O evento realmente valeu a pena e aprendi muita coisa por lá, alem de
-conhecer muita gente interessante tambem! Agora é marcar os próximos e
-esperar que o grupo cada vez cresça mais e podemos fortalecer as
-amizades e conhecimentos!&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Diego Carrion, Lê, ismair | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     

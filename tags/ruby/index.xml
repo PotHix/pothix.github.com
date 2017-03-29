@@ -708,107 +708,6 @@ sua aplicação. :)&lt;/p&gt;
     </item>
     
     <item>
-      <title>Yahoo Open Hack 2010</title>
-      <link>http://pothix.com/post/yahoo-open-hack-2010/</link>
-      <pubDate>Mon, 29 Mar 2010 00:00:00 +0000</pubDate>
-      
-      <guid>http://pothix.com/post/yahoo-open-hack-2010/</guid>
-      <description>
-
-&lt;p&gt;Para quem ainda não soube, no final de semana passado rolou o Yahoo
-Open Hack Day 2010! O intuito do evento é juntar uma grande quantidade
-de Hackers para criar serviços úteis utilizando informações públicas e
-de preferência utilizar as API&amp;rsquo;s do Yahoo (havia premios para alguns
-hacks com elas).&lt;/p&gt;
-
-&lt;p&gt;Uma das coisas legais do evento é que nada é proibido com relação aos
-Hacks, ou seja, você pode fazer um Hack com as ferramentas do Google
-(não vai concorrer aos premios, mas poderá apresentar lá e tudo mais),
-todas as linguagens de programação estão permitidas, não somente hacks
-web eram permitidos, o que deixou a criatividade ir longe. :D&lt;/p&gt;
-
-&lt;h4 id=&#34;equipe-e-idéia&#34;&gt;Equipe e idéia&lt;/h4&gt;
-
-&lt;p&gt;Participei do evento juntamente com uma equipe que formamos no
-&lt;a href=&#34;www.ikwa.com.br&#34;&gt;Ikwa&lt;/a&gt;, e chamamos a equipe de SleepyProgrammers.&lt;/p&gt;
-
-&lt;p&gt;Nossa idéia era fazer um site para marcar rolês fotográficos, e
-utilizaríamos para isso as API&amp;rsquo;s do Flickr, Meme, Weather e Maps.&lt;/p&gt;
-
-&lt;p&gt;Ao chegar no evento e ver a palestra sobre YQL nós já percebemos que
-não seria necessário aprender a usar essas várias API&amp;rsquo;s e apenas
-precisávamos aprender a usar o YQL e saber quais informações
-poderíamos retornar de qual serviço. :)&lt;/p&gt;
-
-&lt;h4 id=&#34;metodologia-e-projeto&#34;&gt;Metodologia e projeto&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/openhack.jpg&#34; title=&#34;Equipe do openhack&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/openhack.jpg&#34; alt=&#34;Foto da equipe do Openhack&#34; title=&#34;Equipe do Openhack&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Como já estamos acostumados a utilizar Scrum no
-&lt;a href=&#34;www.ikwa.com.br&#34;&gt;Ikwa&lt;/a&gt; nós resolvemos fazer o mesmo para o nosso
-projetinho. Começamos com uma planning meeting logo na primeira hora
-para poder dar uma estimada no que pretendíamos fazer, e logo depois
-dividir as tarefas entre os membros da equipe.  Mais ou menos de 2 em
-2 horas (ou um pouco mais) fazíamos umas stand-up meetings para manter
-todos atualizados. A noite percebemos que isso não estava sendo muito
-necessário por que estávamos em constante comunicação, mas mesmo assim
-resolvemos seguir o costume, afinal demorava apenas uns 4 minutos. :)&lt;/p&gt;
-
-&lt;p&gt;O projeto seguia bem, com layout legal e algumas buscas supostamente
-funcionando até mais ou menos as 9 da noite.&lt;/p&gt;
-
-&lt;h4 id=&#34;os-problemas&#34;&gt;Os problemas&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Já percebemos que a nossa busca não estava retornando exatamente o que gostaríamos de receber, mas deixamos para dar uma refinada nisso no final do tempo, para não ficar muito tempo presos nisso.&lt;/li&gt;
-&lt;li&gt;Tivemos um programador a menos (&lt;a href=&#34;http://twitter.com/_bojak&#34;&gt;@_bojak&lt;/a&gt;) que infelizmente estava usando Windows (acreditem se quiser) por que o netbook que ele comprou (exatamente para evitar ter que usar windows no notebook velho que ele tinha) não chegou a tempo do evento. Muitas das coisas que são simples de se instalar/fazer em um &amp;ldquo;Unix like&amp;rdquo; são uma grande dor de cabeça para se fazer no Windows, portanto o @_bojak teve tantos problemas que chegou uma hora que desistiu de colocar a mão em código.&lt;/li&gt;
-&lt;li&gt;Algum descuidado da equipe criou a pasta &amp;ldquo;Views&amp;rdquo; no famigerado Textmate (escrevi uma gracinha aqui e apaguei para não gerar flame de textmate), e assim bugou a aplicação na minha maquina Linux, e me deixou um tempinho procurando qual era o problema. #fail&lt;/li&gt;
-&lt;li&gt;O Heroku não colaborou para funcionar utilizando o bundler, e depois de muito tempo tentando nós abandonamos o bundler e utilizamos oldstyle mesmo.&lt;/li&gt;
-&lt;li&gt;O nosso outro programador (&lt;a href=&#34;http://twitter.com/jorge_silveira&#34;&gt;@jorge_silveira&lt;/a&gt;) saiu (já tinha avisado que sairia) dizendo que voltaria e simplesmente deixou a equipe na mão (tem seus argumentos, mas essa é minha opinião&amp;hellip;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;o-fail-do-projeto&#34;&gt;O fail do projeto&lt;/h4&gt;
-
-&lt;p&gt;Depois desse monte de problemas eu já estava desmotivado com o projeto
-e comecei a ficar com bastante sono, portanto tirei umas 3 horas para
-dormir (fora o tempo que dormi na mesa), enquanto só o
-&lt;a href=&#34;http://twitter.com/_bojak&#34;&gt;@_bojak&lt;/a&gt; ficou trabalhando motivadão
-(usando o computador do &lt;a href=&#34;http://twitter.com/rafaeltimbo&#34;&gt;@rafaeltimbo&lt;/a&gt;
-que tambem estava dormindo :P).&lt;/p&gt;
-
-&lt;p&gt;Logo pela manhã sabendo que um programador tinha arregado
-(&lt;a href=&#34;http://twitter.com/jorge_silveira&#34;&gt;@jorge_silveira&lt;/a&gt;), um estava
-impossibilitado de trabalhar com seu próprio computador
-(&lt;a href=&#34;http://twitter.com/_bojak&#34;&gt;@_bojak&lt;/a&gt;) e nossa busca não estava
-retornando coisas legais para continuar, nós decidimos que esse
-projeto ficaria para depois do Open Hack Day.&lt;/p&gt;
-
-&lt;p&gt;No fim das contas fizemos uma retrospectiva bem legal, onde vimos
-grande parte dos problemas que tivemos e boa parte das soluções
-tambem, foi bem legal! :)&lt;/p&gt;
-
-&lt;h4 id=&#34;o-evento&#34;&gt;O evento&lt;/h4&gt;
-
-&lt;p&gt;Ok, nosso projeto não vingou mesmo, mas o evento valeu muito para mim!
-Aprendi coisas novas, revi amigos, conheci pessoas novas, conheci as
-API&amp;rsquo;s do Yahoo, comi e bebi de graça, descobri que não devo acreditar
-nas palavras de alguns, descobri que algumas pessoas com certeza
-estarão na minha equipe novamente se quiserem&amp;hellip;. E mais várias outras
-coisas!&lt;/p&gt;
-
-&lt;p&gt;No fim das contas eu tenho uma coisa para recomendar para quem não
-foi&amp;hellip; Quando tiver o próximo, não perca a oportunidade! O evento vale
-muito a pena! :)&lt;/p&gt;
-
-&lt;p&gt;Para quem quiser ver as fotos que eu tirei no evento pode dar uma
-olhada no meu &lt;a href=&#34;http://picasaweb.google.com/Willian.molinari/Openhack?feat=directlink&#34;&gt;album do
-Picasa&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Rafael Souza, Rafael O. Marques, Phoenix | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Crontab dentro da sua aplicação rails com whenever</title>
       <link>http://pothix.com/post/crontab-dentro-da-sua-aplicacao-rails-com-whenever/</link>
       <pubDate>Wed, 02 Dec 2009 00:00:00 +0000</pubDate>
@@ -1929,6 +1828,92 @@ patrocinar o projeto entre em contato com os responsáveis pela
 &lt;a href=&#34;http://www.rubyinside.com.br/contato&#34; title=&#34;Contato&#34;&gt;página de contato&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Parabéns a todos envolvidos no projeto. 😉&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Colocando sua aplicação Rails na Dreamhost</title>
+      <link>http://pothix.com/post/colocando-sua-aplicacao-rails-na-dreamhost/</link>
+      <pubDate>Wed, 25 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/colocando-sua-aplicacao-rails-na-dreamhost/</guid>
+      <description>&lt;p&gt;Estou fazendo um pequeno site em Rails e como tinha que mostrar o
+andamento para um colega, aproveitei para testar como seria o Deploy
+desse projeto na DreamHost ( mesmo sabendo que o provedor final não
+será lá ), e achei muito fácil de se fazer, portanto resolvi escrever
+um pouco sobre o processo. :D&lt;/p&gt;
+
+&lt;p&gt;Primeiramente, você precisa ter acesso SSH na sua conta. Se você ainda
+não tiver esse acesso apenas faça o seguinte procedimento:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Acesse o menu &lt;strong&gt;Users &amp;gt; Manage Users&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Clique em &lt;strong&gt;Edit&lt;/strong&gt; no user que você vai usar para o acesso SSH&lt;/li&gt;
+&lt;li&gt;Marque a opção &lt;strong&gt;Shell account - allows SFTP/FTP plus ssh access.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A partir daí você pode acessar por SSH assim como acessava por FTP,
+com esse usuário e senha. :)&lt;/p&gt;
+
+&lt;p&gt;Agora que temos acesso SSH a conta, vamos colocar nossa aplicação lá!
+Se ela estiver no GitHub você pode fazer um clone da sua aplicação
+facilmente:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git@github.com:usuario/projeto-qualquer.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Se não estiver no GitHub você pode fazer um pacote tar.gz e enviar
+facilmente por scp:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;tar cvf app.tar.gz aplicacao-quaquer/
+scp usuario@xxx.xxx.xxx.xxx:/home/local/da/applicacao app.tar.gz
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;*Sendo que o xxx é o endereço IP ou Nome da sua maquina na Dreamhost&lt;/p&gt;
+
+&lt;p&gt;Com nossa aplicaçào lá, vamos criar o nosso domínio ou sub-domínio no
+&lt;a href=&#34;https://panel.dreamhost.com/&#34; title=&#34;Painel de controle da Dreamhost&#34;&gt;painel de controle da DreamHost&lt;/a&gt;,
+pelo menu &lt;strong&gt;domains &amp;gt; manage domains&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Geralmente seu domínio demora um pouco para começar a funcionar, mas
+você não precisa esperar que ele esteja totalmente funcional para que
+você continue o processo ;)&lt;/p&gt;
+
+&lt;p&gt;O que você precisa fazer é:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ativar o &lt;strong&gt;Ruby on Rails Passenger (mod_rails)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Apontar o &lt;strong&gt;Specify your web directory&lt;/strong&gt; para o diretório public da sua aplicação&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Agora que temos o nosso domínio criado e validando ( lembre-se que não
+é instantâneo ), podemos configurar o nosso banco de dados!&lt;/p&gt;
+
+&lt;p&gt;Acesse o &lt;a href=&#34;https://panel.dreamhost.com/index.cgi?tree=goodies.mysql&amp;amp;amp;&#34; title=&#34;Manage Mysql&#34;&gt;Manage Mysql&lt;/a&gt;
+pelo menu &lt;strong&gt;Goodies &amp;gt; Manage Mysql&lt;/strong&gt; e preencha o formulário que
+está logo abaixo dos bancos de dados já existente ( se houver ) para
+criar um novo banco.&lt;/p&gt;
+
+&lt;p&gt;Com o novo banco de dados criado, vamos adaptar nossa aplicação para
+usá-lo! ;)&lt;/p&gt;
+
+&lt;p&gt;Vá no arquivo &lt;code&gt;config/database.yml&lt;/code&gt; e altere as informações da seção
+&lt;em&gt;production&lt;/em&gt; para o que foi configurado no painel..&lt;/p&gt;
+
+&lt;p&gt;Agora com tudo configurado, vamos rodas as nossas migrations para as
+configurações de produção:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;RAILS_ENV=production rake db:migrate
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Com isso você já terá seu projeto funcionando assim que o domínio se
+propagar!&lt;/p&gt;
+
+&lt;p&gt;Foi bem mais simples do que eu pensava, como eu deixei o repositório
+com Git lá, basta eu fazer as alterações localmente e dar um push que
+já terei minha aplicação alterada lá! :)&lt;/p&gt;
+
+&lt;p&gt;É isso aí, espero que seja útil para vocês.&lt;/p&gt;
 </description>
     </item>
     

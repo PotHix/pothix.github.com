@@ -526,118 +526,80 @@ Hugo!), e portanto temos o vídeo tambem:&lt;/p&gt;
     </item>
     
     <item>
-      <title>Campus Party 2010</title>
-      <link>http://pothix.com/post/campus-party-2010/</link>
-      <pubDate>Tue, 02 Feb 2010 00:00:00 +0000</pubDate>
+      <title>Instalando e configurando o monit</title>
+      <link>http://pothix.com/post/instalando-e-configurando-o-monit/</link>
+      <pubDate>Thu, 10 Sep 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/campus-party-2010/</guid>
-      <description>
+      <guid>http://pothix.com/post/instalando-e-configurando-o-monit/</guid>
+      <description>&lt;p&gt;Esses dias eu peguei para instalar o monit no servidor da empresa que
+eu trabalho e sofri um pouquinho com algumas coisas básicas, portanto
+decidi postar aqui para que seja útil para quem quer começar a
+utilizar o monit.&lt;/p&gt;
 
-&lt;p&gt;Esse começo de ano eu estou aproveitando para participar de alguns
-eventos, e a Campus Party é um dos principais deles.  Assim que eu
-entrei na empresa que eu estou trabalhando atualmente eu já informei
-que em janeiro tinha um evento que eu gostaria muito de participar
-(entrei na empresa em abril :P) e deixei combinado que eu estaria
-liberado para o tal, portanto agora consegui uma semana de férias para
-aproveitar a campus party! :)&lt;/p&gt;
+&lt;p&gt;Se você usa Ubuntu, você pode fazer download do Monit por apt-get:&lt;/p&gt;
 
-&lt;h4 id=&#34;entrada&#34;&gt;Entrada&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;sudo apt-get install monit
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Começando pela entrada no evento na segunda feira. Entrar em um evento
-onde se está esperando 6000 pessoas que vão receber barracas para
-acampar e tem que ter seus notebooks cadastrados e etiquetados nunca é
-fácil, e não foi dessa vez que as coisas foram mais rápidas.  Na
-segunda feira tínhamos uma fila monumental para cada coisa que tinha
-que fazer, desde a entrada, passando pelo cadastramento e pelo local
-onde retiramos as mochilas e barracas.  Mas não estava mal organizado
-a princípio, o problema era a quantidade de gente mesmo. :)&lt;/p&gt;
+&lt;p&gt;Se você não usa Ubuntu ou quer a ultima versão do Monit, então faça
+download do tar.gz &lt;a href=&#34;http://mmonit.com/monit/download/&#34;&gt;http://mmonit.com/monit/download/&lt;/a&gt; e compile.&lt;/p&gt;
 
-&lt;h4 id=&#34;camping&#34;&gt;Camping&lt;/h4&gt;
-
-&lt;p&gt;A área de camping estava organizada como sempre, mas dessa vez todas
-as barracas estavam montadas (da ultima vez nós tivemos que montar as
-nossas) e eles estavam apenas distribuindo os numeros delas.  Levei um
-coxão inflável dessa vez por que o coxão do ano passado era quase um
-lençol&amp;hellip;hehehe&amp;hellip;Era como se eu estivesse dormindo no chão.  Para
-dormir por lá é sempre barulhento pois a Campus Party não para um
-segundo, sempre tem pessoas gritando sem motivo independente da hora,
-mas isso não atrapalha (muito) a diversão.&lt;/p&gt;
-
-&lt;h4 id=&#34;palestras&#34;&gt;Palestras&lt;/h4&gt;
-
-&lt;p&gt;Achei que fosse assistir bem mais palestras esse ano, mas quando
-estava por lá eu fiquei com preguiça de assistir algumas. :P Uma das
-coisas que foi mais legal na Campus Party esse ano na minha opinião
-foi a transmissão ao vivo das palestras! Eu mesmo assisti mais de uma
-palestra pela internet, tanto quando eu estava em casa como quando eu
-estava no evento, por que eu achava o audio bem melhor do que ter que
-ouvir no meio de todo o ruído que os campuseiros produzem.&lt;/p&gt;
-
-&lt;p&gt;Gostaria de destacar algumas palestras que eu assisti e gostei muito:&lt;/p&gt;
+&lt;p&gt;O Monit tem 2 dependencias:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Matemática para não matemáticos&lt;/li&gt;
-&lt;li&gt;Matemática orientada a Computação gráfica&lt;/li&gt;
-&lt;li&gt;Criando e lançando um site em 42 minutos com Sinatra&lt;/li&gt;
-&lt;li&gt;Segurança e RubyOnRails&lt;/li&gt;
-&lt;li&gt;Introdução ao Blender&lt;/li&gt;
-&lt;li&gt;Desenvolvimento de games para IPhone&lt;/li&gt;
+&lt;li&gt;bison&lt;/li&gt;
+&lt;li&gt;flex&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Cada uma teve suas particularidades, mas foram bem legais de se
-assistir e cada uma agregou um pouco a meu conhecimento.&lt;/p&gt;
+&lt;p&gt;Eu resolvi as 2 facilmente utilizando o próprio apt-get:&lt;/p&gt;
 
-&lt;h4 id=&#34;internet&#34;&gt;Internet&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;sudo apt-get install bison flex&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;A internet do Evento não deixou a desejar, e como muitos sabem, o
-forte de compartilhamento da Campus Party não é a internet, e sim os
-programas de P2P que usamos internamente (no caso o dc++).&lt;/p&gt;
+&lt;p&gt;Agora é só partir para compilar os fontes! ( prefiro compilar dos
+fontes em certas ocasiões para pegar a ultima versão ):&lt;/p&gt;
 
-&lt;p&gt;Alguns pontos de rede não estavam funcionando, mas esse não foi um
-grande empecilho, sendo que a grande maioria estava e você podia
-simplesmente sentar, plugar o seu notebook e compartilhar arquivos a
-mais de 1MB por segundo (consegui 9MB no começo do evento).  A
-internet para download externo também não deixou na mão,
-possibilitando downloads a 1MB por segundo dependendo do servidor que
-está fornecendo o download,&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;./configure
+make
+sudo make install
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h4 id=&#34;inovação&#34;&gt;Inovação&lt;/h4&gt;
+&lt;p&gt;E pronto! Lá está o seu monit instalado! Agora é o momento da
+configuração. :D&lt;/p&gt;
 
-&lt;p&gt;Um foco bem legal da Campus Party é trazer inovação, mostrar projetos
-inovadores, incentivar jovens a inovarem criando novas tecnologias e
-novos negócios.  Na área expo tinha muitas coisas interessantes, como
-por exemplo, um jogo que utiliza o controle do Wii e simula um spray
-que deixa você &amp;ldquo;pixar&amp;rdquo; uma tela virtual e fazer vários tipos de
-desenhos.&lt;/p&gt;
+&lt;p&gt;O monit utiliza o arquivo chamado .monitrc para saber o que deve ser
+monitorado e com quais parâmetros, portanto crie um arquivo na sua
+$HOME com o nome de &lt;code&gt;.monitrc&lt;/code&gt;:&lt;/p&gt;
 
-&lt;h4 id=&#34;networking&#34;&gt;Networking&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;vim $HOME/.monitrc
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Essa é a parte que mais me motiva a ir para a Campus Party! Muito mais
-do que arquivos, internet, palestras ou outras coisas, eu vou para a
-Campus Party para ver os amigos e bater um papo sobre coisas
-interessantes/ Até amigos de outros estados vem para a Campus Party e
-eu tenho a chance de vê-los, né &lt;a href=&#34;http://griebeler.com/&#34;&gt;Griebeler&lt;/a&gt;! :)&lt;/p&gt;
+&lt;p&gt;Claro que usarei o vim para isso (qual outro poderia ser né? haha).
+Agora você deve criar o seu próprio arquivo de configuração dizendo
+o que o monit deve monitorar e quais critérios deve usar.&lt;/p&gt;
 
-&lt;p&gt;E tudo isso sem contar os amigos novos que eu faço por lá e o pessoal
-que eu só conhecia pela internet e conheci pessoalmente! Entre eles
-estão Ricardo, Pedro, Lucas, Rencka, João, oTubo e mais uma galera! :)&lt;/p&gt;
+&lt;p&gt;Você pode pegar alguns exemplos de arquivos
+&lt;a href=&#34;http://mongrel.rubyforge.org/browser/trunk/examples/monitrc&#34; title=&#34;Arquivo do pessoal do mongrel&#34;&gt;como o do pessoal do mongrel&lt;/a&gt;,
+ou até mesmo &lt;a href=&#34;http://mmonit.com/monit/documentation/monit.html#how_to_monitor&#34; title=&#34;.monitrc exemplo na documentação oficial&#34;&gt;da documentação oficial do monit&lt;/a&gt;
+e criar o seu baseado nele. A syntax desse arquivo é de fácil
+entendimento. :)&lt;/p&gt;
 
-&lt;h4 id=&#34;conclusão&#34;&gt;Conclusão&lt;/h4&gt;
+&lt;p&gt;Para e-mails eu utilizei a minha conta do Google Apps com a seguinte configuração:&lt;/p&gt;
 
-&lt;p&gt;Eu recomendo participar da Campus Party pelo menos algum dia se você
-tiver a chance. :)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;set mailserver smtp.gmail.com port 587 username &amp;quot;pothix@pothix.com&amp;quot; password &amp;quot;abc123&amp;quot; using tlsv1, with timeout 15 seconds
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Você já deve ter ouvido falar que a Campus Party é mó zona, fica um
-monte de gente gritando sem motivo, pessoas fazendo brincadeiras que
-não tem graça nenhuma, as palestras são difíceis de ouvir tanto pela
-zona como por que há várias palestras simultâneas e os palcos são
-próximos e etc&amp;hellip;  Eu só tenho uma coisa a te dizer: &lt;strong&gt;Isso é tudo
-verdade, mas eu iria mesmo assim!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Com todas as configurações arrumadas o monit já pode ser iniciado:&lt;/p&gt;
 
-&lt;p&gt;Nada disso atrapalha a sua diversão, e o seu benefício, você apenas
-precisa &amp;ldquo;entrar na brincadeira&amp;rdquo; e aproveitar. ;)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;monit
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;em&gt;Old comments by: Bruna Griebeler, Pedro Menezes, Phoenix | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;E agora você já tem vários comandos para utilizar, é só dar uma lida na
+&lt;a href=&#34;http://mmonit.com/monit/documentation/monit.html#general_operation&#34; title=&#34;Comandos do monit&#34;&gt;documentação do monit para ver o que é possível fazer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Espero que seja útil para quem ainda não usa nenhuma ferramente de
+monitoração e gostou do monit. :)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Roger Leite, Flávio Vinícius | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -1137,84 +1099,222 @@ legal para começar.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Ir além do básico tambem é gratis</title>
-      <link>http://pothix.com/post/ir-alem-do-basico-tambem-e-gratis/</link>
-      <pubDate>Thu, 11 Dec 2008 00:00:00 +0000</pubDate>
+      <title>A facilidade do Ubuntu</title>
+      <link>http://pothix.com/post/a-facilidade-do-ubuntu/</link>
+      <pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/ir-alem-do-basico-tambem-e-gratis/</guid>
-      <description>&lt;p&gt;Faz um tempinho que eu estou querendo fazer um post seguindo os moldes
-da campanha do &lt;a href=&#34;http://marcogomes.com/blog/2008/campanha-programar-e-gratis&#34; title=&#34;Programar é Grátis&#34;&gt;Marco Gomes&lt;/a&gt;,
-que também gerou o
-&lt;a href=&#34;http://www.tableless.com.br/implementar-xhtmlcss-e-gratis&#34; title=&#34;Implementar XHTML / CSS é grátis&#34;&gt;post do Diego Eis&lt;/a&gt;,
-e finalmente consegui um tempinho para expressar também a minha opinião nesse assunto! :)&lt;/p&gt;
+      <guid>http://pothix.com/post/a-facilidade-do-ubuntu/</guid>
+      <description>
 
-&lt;p&gt;Conheço muitas pessoas que fazem faculdade relacionada a programação,
-mas não aplicam o que estão vendo por lá, acham que já estão fazendo
-demais em ir para a faculdade e ficar lá no tempo em que o professor
-está falando&amp;hellip;Ou seja, essas pessoas não estão indo a faculdade para
-aprender algo para colocar em prática, eles estão lá simplesmente para
-&amp;ldquo;passar de ano&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Deixa eu explicar aqui para quem estou destinando esse post. Esse post
+é destinado a algumas pessoas que costumam me perguntar se o Linux é
+difícil, se ele vai conseguir mexer nele se instalar, se Linux é
+melhor que Windows e outras perguntas derivadas disso, portanto se
+você já tem conhecimentos em Linux e já usa Linux esse post só vai
+servir para você passar para seus amigos que não usam, pois é bem
+básico.&lt;/p&gt;
 
-&lt;p&gt;As vezes não é nem tanto com faculdade também, tem pessoas que não
-fazem faculdade, querem ser programadores, mas tem aquele pensamento:&lt;/p&gt;
+&lt;p&gt;Depois de comprar meu notebook e instalar o Ubuntu nele eu decidi
+fazer esse post para acabar com aquela idéia das pessoas de que Linux
+é difícil, que não faz nada, que nada funciona e etc.&lt;/p&gt;
 
-&lt;blockquote&gt;
-&lt;p&gt;Ahh&amp;hellip;Eu preciso de uma oportunidade para aplicar os meus conhecimentos&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Bem, eu &lt;a href=&#34;http://pothix.com/blog/win2linux/como-sao-os-primeiros-passos-de-um-linuxer&#34;&gt;sempre gostei de utilizar o Slackware&lt;/a&gt;
+(e ainda é minha distribuição principal) e realmente Slackware não é
+distribuição Linux para qualquer um&amp;hellip;Você não pode dar um Slackware
+na mão de um usuário final e falar para ele que é fácil, e talvez essa
+seja a visão que os usuários de Windows tem do Linux.&lt;/p&gt;
 
-&lt;p&gt;A internet está aí para isso! Você pode ter uma gama monstruosa de
-ferramentas para brincar se quiser, tantos livros gratuitos para
-aprender/melhorar sua programação, tantos projetos Open Source para
-contribuir, cursos on-line gratuitos para fazer, mas o sujeito quer
-&amp;ldquo;ganhar uma oportunidade&amp;rdquo; sem nem mesmo merecer ela.&lt;/p&gt;
+&lt;p&gt;Estou usando o Ubuntu faz mais ou menos uns 2 ou 3 meses, e muitas
+vezes já me surpreendi com a facilidade de se fazer as coisas nele!
+Mesmo um usuário final faria as coisas com uma facilidade espantosa
+bastando apenas que ele queira conhecer coisas novas.&lt;/p&gt;
 
-&lt;p&gt;Esse tipo de pessoa para mim &lt;strong&gt;não é programador&lt;/strong&gt;!&lt;/p&gt;
+&lt;h3 id=&#34;alguns-exemplos&#34;&gt;Alguns Exemplos&lt;/h3&gt;
 
-&lt;p&gt;O Marco Gomes costuma chamar esse tipo de pessoa de bunda mole, eu
-tenho meu termo favorito que é muito utilizado por mim atualmente:
-&lt;strong&gt;Marica!&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;instalando-impressora&#34;&gt;Instalando impressora&lt;/h4&gt;
 
-&lt;blockquote&gt;
-&lt;p&gt;Gostaria de aprender a fazer isso por que é muito foda, mas parece muito difícil, então vou fazer o XY que é mais zuadinho mas é fácil&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Estava eu precisando imprimir um documento e já pensei&amp;hellip; Configurar a
+impressora vai ser Punk, mas vou tentar. Procurei nos menus do Gnome e
+vi um &amp;ldquo;Printers&amp;rdquo; em:&lt;/p&gt;
 
-&lt;p&gt;Apertar parafusos também é fácil&amp;hellip;Se as coisas fossem fáceis colocaríamos robôs para fazer&amp;hellip; Marica!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;System &amp;gt; Administration &amp;gt; Printers&lt;/strong&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-&lt;p&gt;Estou trabalhando na empresa XY mas já estou cansado de lá&amp;hellip;Cansei de suporte técnico, eu quero é ir programar, mas sem experiência fica difícil&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;E lá eu clico em &amp;ldquo;New&amp;rdquo; ele vai identificar todas as impressoras que
+você tem na rede e plugadas no seu computador e te mostrar uma lista
+de drivers para que você escolha qual utilizar.&lt;/p&gt;
 
-&lt;p&gt;Vá e consiga sua experiência sozinho, faça um site e mostre quando for
-na entrevista, como que o cara quer ter experiência sem fazer
-nada&amp;hellip;.&lt;/p&gt;
+&lt;p&gt;Ou seja&amp;hellip;Não tem dificuldade nenhuma.&lt;/p&gt;
 
-&lt;blockquote&gt;
-&lt;p&gt;Putz&amp;hellip;Não conheço nada de Linux esse sistema é uma merda&amp;hellip;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h4 id=&#34;instalando-programas&#34;&gt;Instalando programas&lt;/h4&gt;
 
-&lt;p&gt;Esse é um candidato perfeito a ser um ótimo programador não é?!
-Primeiro já caiu numa contradição, por que se ele não conhece nada,
-como sabe que é uma merda? E outras, não quer nem conhecer um sistema
-diferente onde ele terá suporte nativo a várias linguagens, e não só
-isso, só o fato de não querer aprender algo &lt;strong&gt;gratuito&lt;/strong&gt; e importante
-para a carreira já faz dele um marica!&lt;/p&gt;
+&lt;p&gt;Muitos usuários tem medo do terminal, e alguns se atrevem a dizer que
+é regredir muitos anos (eles são criativos ;)), mas o terminal te
+facilita muita coisa em diversas tarefas rapidamente.&lt;/p&gt;
 
-&lt;p&gt;Portanto, vamos a alguns pontos importantes:&lt;/p&gt;
+&lt;p&gt;Podemos instalar novos programas rapidamente pelo terminal com um
+simples comando! Digamos que queremos instalar o Inkscape para brincar
+de fazer uns desenhos vetoriais, é moleza:&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;Invista tempo em aplicar o que você aprende na faculdade, ou caso não faça faculdade, corra atrás de coisas para estudar e aplique elas também.&lt;/li&gt;
-&lt;li&gt;Procure coisas diferente para saber, afinal, quanto maior a sua gama de conhecimentos mais difícil será você dizer para alguem: &amp;ldquo;Não sei nem o que é isso&amp;rdquo;.&lt;/li&gt;
-&lt;li&gt;Desenvolva coisas úteis e mostre seus código na internet, isso ainda vai ser muito útil para você ( tanto para aprendizado quanto para apresentação pessoal ).&lt;/li&gt;
-&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo apt-get install inkscape
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Para finalizar só quero frisar uma frase do post do Marco Gomes que é
-muito interesssante e resume muito a minha opinião:&lt;/p&gt;
+&lt;p&gt;Pronto! Ele vai te dar informações sobre o pacote e perguntar se você
+quer mesmo instalar o pacote que ele mostrou as informações ( caso
+tenha digitado errado não instalar um pacote qualquer ), e é só
+responder Y que ele vai instalar e deixar o programa prontinho para
+usar!&lt;/p&gt;
 
-&lt;p&gt;&amp;ldquo;Você pode &lt;strong&gt;mudar sua vida&lt;/strong&gt;, e até &lt;strong&gt;mudar o mundo&lt;/strong&gt;, com o mesmo
-equipamento que usa pra ficar o dia inteiro no orkut trocando
-recadinhos com as peguetes&amp;rdquo;&lt;/p&gt;
+&lt;h4 id=&#34;atualizando-a-distribuição&#34;&gt;Atualizando a distribuição&lt;/h4&gt;
 
-&lt;p&gt;&lt;em&gt;Old comments by: Magnun, Marco Gomes, Tagliati, Cayo Medeiros aka. yogodoshi, Tony Fabeen, Lê, Herminio, Simone, Lucas | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Além das atualizações normais que ele faz diariamente (obviamente é
+facilmente configurável) tambem faz automáticamente as
+atualizações de distribuição!&lt;/p&gt;
+
+&lt;p&gt;Pouco tempo atrás foi lançado o Ubuntu 8.10, e eu como tinha o Ubuntu
+8.04, pensei em atulizar, e eis que surge uma atualização de
+distribuição automáticamente no meu gerenciador de pacotes,
+perguntando se eu gostaria de ir para a outra versão! :)&lt;/p&gt;
+
+&lt;p&gt;Obviamente é um processo demorado, pois são muitos pacotes para
+atualizar (no meu caso foram mais de 1300), portanto muitos MBs (no
+meu caso mais de 900) e muitos pacotes para instalar.&lt;/p&gt;
+
+&lt;p&gt;Tirando o tempo de download, pois depende muito da sua velocidade de
+banda, ele instalou todos os pacotes em 20 minutos! E foi só reiniciar
+(afinal foram mais de 1300 pacotes atualizados) para que eu tivesse
+as ultimas atualizações da distribuição funcionando no meu notebook.&lt;/p&gt;
+
+&lt;h4 id=&#34;interface&#34;&gt;Interface&lt;/h4&gt;
+
+&lt;p&gt;A interface do Ubuntu é bem facil de manipular, você pode arrastar
+atalhos para suas barras, usar alguns efeitos divertidos como deixar
+as janelas se motimentando como se fossem feitas de gelatina,
+configurar o que deve e o que não deve aparecer para você no seu menu
+e etc.&lt;/p&gt;
+
+&lt;p&gt;Não se familiarizou com a interface do Ubuntu? Ok, isso pode
+acontecer, então você pode não usar o Gnome (interface principal do
+Ubuntu) para usar o KDE (Interface principal do Kubuntu), é só você
+instalar o Kubuntu ao invés do Ubuntu para que você já tenha uma
+interface diferente para utilizar.&lt;/p&gt;
+
+&lt;h4 id=&#34;aplicativos-para-escritório&#34;&gt;Aplicativos para escritório&lt;/h4&gt;
+
+&lt;p&gt;O Ubuntu já vem com ferramentas para suas edições simples, como
+processador de texto (writter), Planilhas (calc) e criador de
+Slides para apresentação (presentation) para que você possa fazer
+suas ações simples de escritório facilmente. Ele tambem traz um
+aplicativo para você receber todos os seus e-mails no seu computador e
+poder lê-los offline após baixar (evolution).&lt;/p&gt;
+
+&lt;p&gt;O Ubuntu já traz por padrão um aplicativo de Lista de taferas (todo
+list) para que você possa gerenciar suas tarefas facilmente e se
+organizar melhor.&lt;/p&gt;
+
+&lt;p&gt;Lembrando que esses são apenas os aplicativos nativos, mas você pode
+instalar facilmente outros programar para Linux com um simples &lt;code&gt;sudo
+apt-get install&lt;/code&gt; ;)&lt;/p&gt;
+
+&lt;h4 id=&#34;vídeos-e-musicas&#34;&gt;Vídeos e musicas&lt;/h4&gt;
+
+&lt;p&gt;Você pode facilmente ouvir suas musicas e ver seus vídeos preferidos
+no Linux usando alguns programas a parte como o
+&lt;a href=&#34;http://amarok.kde.org/&#34; title=&#34;Amarok&#34;&gt;amarok&lt;/a&gt; e o
+&lt;a href=&#34;http://xinehq.de/index.php/releases&#34; title=&#34;Gxine&#34;&gt;gxine&lt;/a&gt; ou o
+&lt;a href=&#34;http://www.mplayerhq.hu/design7/news.html&#34; title=&#34;MPlayer&#34;&gt;mplayer&lt;/a&gt;, apenas
+usando o seu padrão &lt;code&gt;apt-get install&lt;/code&gt; para instalar, nada de sair
+procurando aplicativos, baixando e depois instalando. ;)&lt;/p&gt;
+
+&lt;p&gt;Você provavelmente vai precisar de uns plugins para assistir os seus
+vídeos dependendo do formato deles e isso depende do seu player e do
+tipo de vídeo, mas nada muito difícil de se conseguir! =)&lt;/p&gt;
+
+&lt;h4 id=&#34;internet&#34;&gt;Internet&lt;/h4&gt;
+
+&lt;p&gt;O que você usa está na internet? Você usa o internet explorer no seu
+sistema? Saia do lado negro pelo amor de Deus! :P&lt;/p&gt;
+
+&lt;p&gt;O Ubuntu já vem com o Firefox instalado e é tudo facinho para
+utilizar. Você pode acessar a grande maioria dos sites da internet
+normalmente, e se por um acaso você encontrar um site que você não
+consiga navegar com o FIrefox você pode usar a&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/59&#34;&gt;extensão User Agent
+Switcher&lt;/a&gt;
+do Firefox e ele vai renderizar a página como se
+fosse um internet explorer para que você possa navegar. Mas se isso
+realmente acontecer faça um favor para toda a internet e envie um
+e-mail para o criador desse site reclamando dos seus problemas, pois
+pelo visto ele não está nem pensando em muitas pessoas.&lt;/p&gt;
+
+&lt;p&gt;Precisa usar o MSN? Moleza! Só usar o &lt;a href=&#34;http://kopete.kde.org/&#34;&gt;Kopete&lt;/a&gt;,
+o &lt;a href=&#34;http://www.pidgin.im/&#34; title=&#34;Pidgin&#34;&gt;Pidgin&lt;/a&gt;, o
+&lt;a href=&#34;http://www.amsn-project.net/&#34; title=&#34;aMSN&#34;&gt;aMSN&lt;/a&gt; ou qualquer um dos outros
+vários que tem para esse serviço! Mas&amp;hellip;Quer uma dica? Use outros
+serviços bem mais interessantes como o do Gtalk (que pode ser
+configurado no Pidgin e no Kopete) ou até mesmo o
+&lt;a href=&#34;www.skype.com&#34; title=&#34;Skype&#34;&gt;Skype&lt;/a&gt; (que pode ser instalado com apt-get
+install :P )&lt;/p&gt;
+
+&lt;h4 id=&#34;fotos&#34;&gt;Fotos&lt;/h4&gt;
+
+&lt;p&gt;Quer manusear suas fotos, fazer modificações, disponibilizar elas na
+internet? Isso é tudo moleza no Ubuntu!&lt;/p&gt;
+
+&lt;p&gt;Se você gosta de ter um programa para gerenciar suas fotos, criar
+alguns, colocar tags, fazer upload para a internet e mais um monte de
+coisas, é só usar o &lt;a href=&#34;http://picasa.google.com/&#34; title=&#34;Picasa&#34;&gt;Picasa&lt;/a&gt;
+(adivinha como instalar ele? Sim! apt-get install) que é um das
+&lt;a href=&#34;http://pt.wikipedia.org/wiki/Lista_de_ferramentas_e_servi%C3%A7os_do_Google&#34;&gt;dezenas de serviços do Google&lt;/a&gt;
+e portanto fica vinculado com a sua conta do
+Google (Gmail, Orkut ou outros) e suas fotos ficam na internet &lt;strong&gt;se
+você quiser&lt;/strong&gt; , pois podem ficar apenas no seu computador tambem.&lt;/p&gt;
+
+&lt;p&gt;Tirou uma foto e ela não ficou legal? Basta dar uma pequena alterada
+usando o &lt;a href=&#34;http://www.gimp.org/&#34; title=&#34;GIMP&#34;&gt;GIMP&lt;/a&gt;, que é um manipulador de
+imagens bem interessante para se conhecer, e é claro que é gratuito e
+Open Souce. ( preciso dizer que é facil de instalar? )&lt;/p&gt;
+
+&lt;h4 id=&#34;jogos&#34;&gt;Jogos&lt;/h4&gt;
+
+&lt;p&gt;Esse tópico é um pouco contraditório com o que você deve estar
+esperando, pois você não vai encontrar o seu&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.rockstargames.com/sanandreas/&#34;&gt;GTA San
+Andreas&lt;/a&gt;,
+&lt;a href=&#34;http://thesims.ea.com/&#34; title=&#34;The Sims&#34;&gt;The Sims&lt;/a&gt;,
+&lt;a href=&#34;http://www.spore.com/ftl&#34; title=&#34;Spore&#34;&gt;Spore&lt;/a&gt; (ou seja lá o que for que
+você jogue em outro sistema operacional) em versão oficial para
+Linux. Até podem existir versões portadas dos seus jogos para Linux ou
+utilizando &lt;a href=&#34;http://www.winehq.org/&#34; title=&#34;Wine&#34;&gt;Wine&lt;/a&gt; (pode ser baixado
+por apt-get para variar um pouco) que roda programas de Windows no
+Linux, mas o Wine ainda não está perfeito e não vai ser qualquer jogo
+que vai rodar facilmente com ele&amp;hellip;:/&lt;/p&gt;
+
+&lt;p&gt;Em compensação o Linux tem
+&lt;a href=&#34;http://pt.wikipedia.org/wiki/Jogos_Linux&#34; title=&#34;Jogos para Linux&#34;&gt;alguns jogos nativos&lt;/a&gt;
+que são legais, obviamente não tanto quando outros jogos e não em
+maior quantidade, mas eles existem! :)&lt;/p&gt;
+
+&lt;p&gt;Tem um &lt;a href=&#34;http://www.techforce.com.br/index.php/news/linux_blog/jogos_no_linux&#34;&gt;post muito legal no Techforce&lt;/a&gt;
+que fala de alguns modos para rodar jogos no Linux, alguns jogos que
+tem versão para Linux e outras coisas bem interessantes.&lt;/p&gt;
+
+&lt;p&gt;Se você é um gamer que seu computador se tornou um vídeo game, agora
+&lt;strong&gt;ainda&lt;/strong&gt; não é seu momento com Linux, mas quem sabe ele virá! ;)&lt;/p&gt;
+
+&lt;p&gt;Bem&amp;hellip;Tentei mostrar acima muitas coisas simples que as pessoas
+utilizam e podem fazer normalmente (e facilmente) no Linux, apenas
+para mostrar que o Linux tem ferramentas para você fazer as coisas e
+tem coisas interessantes, mas ainda precisamos assumir essa mudança de
+paradigma e mudança de conceito para decidirmos aprender mais coisas e
+ver como é legal outras coisas que nem lhe passavam pela cabeça que
+existiam.&lt;/p&gt;
+
+&lt;p&gt;Se tiverem alguma dúvida é só postar nos comentários, que farei o
+possível para responder.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Old comments by: Junior, Andre | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     

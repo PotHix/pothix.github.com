@@ -159,6 +159,66 @@ well, you just need to decide which one is better for your business.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Aprendendo com o código do Quake</title>
+      <link>http://pothix.com/post/aprendendo-com-o-codigo-do-quake/</link>
+      <pubDate>Wed, 18 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/aprendendo-com-o-codigo-do-quake/</guid>
+      <description>&lt;p&gt;Desde que eu terminei a faculdade eu venho lendo bastante coisa útil (foi muita
+coisa inútil durante 4 anos&amp;hellip;) e aprendendo bastante coisa. Nos ultimos meses
+eu li vários code reviews dos códigos do Quake e do Doom.&lt;/p&gt;
+
+&lt;p&gt;Os review foram feitos por Fabien Anglard e estão todos disponíveis no site dele
+&lt;a href=&#34;http://fabiensanglard.net&#34;&gt;http://fabiensanglard.net&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;O primeiro artigo que eu li foi sobre o
+&lt;a href=&#34;http://fabiensanglard.net/quake2/index.php&#34;&gt;code review do código do Quake 2 de 1997&lt;/a&gt;.
+Esse quake foi o ultimo que fez Software Rendering e o cara que analizou o código
+explica direitinho como foi feito, explicando todos os problemas que os
+desenvolvedores enfrentaram e porque eles chegaram aquela implementação. Para
+quem é programador e curte Quake é uma ótima leitura.&lt;/p&gt;
+
+&lt;p&gt;Uma coisa muito interessante que vi na leitura desse artigo foi que eu acabei
+estudando várias outras coisas para poder entender o artigo, como:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;BSP trees: &lt;a href=&#34;http://downloads.gamedev.net/pdf/gpbb/gpbb59.pdf&#34;&gt;http://downloads.gamedev.net/pdf/gpbb/gpbb59.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Octree: &lt;a href=&#34;http://en.wikipedia.org/wiki/Octree&#34;&gt;http://en.wikipedia.org/wiki/Octree&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Memory management: &lt;a href=&#34;http://www.ualberta.ca/CNS/RESEARCH/LinuxClusters/mem.html&#34;&gt;http://www.ualberta.ca/CNS/RESEARCH/LinuxClusters/mem.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Radiosity: &lt;a href=&#34;http://freespace.virgin.net/hugo.elias/radiosity/radiosity.htm&#34;&gt;http://freespace.virgin.net/hugo.elias/radiosity/radiosity.htm &lt;/a&gt; (esse artigo é animal)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;E outras coisas do mesmo genero.&lt;/p&gt;
+
+&lt;p&gt;Com o lançamento do código do DOOM 3 open source, mais um code review foi
+escrito: &lt;a href=&#34;http://fabiensanglard.net/doom3/&#34;&gt;http://fabiensanglard.net/doom3/&lt;/a&gt;,
+e nesse review ele explica como a parte de iluminação (que era a grande
+funcionalidade do Doom 3) foi feita e quais as técnicas foram utilizadas.
+Apesar de eu conhecer pouco de renderização e algoritmos de iluminação é
+possível entender uma boa parte desse review.&lt;/p&gt;
+
+&lt;p&gt;E por ultimo li o &lt;a href=&#34;http://fabiensanglard.net/quake3/index.php&#34;&gt;code review do código do Quake III&lt;/a&gt;,
+que mostra uma das coisas que eu estava curioso para ler, networking! Todos
+sabemos que a parte de redes (não somente ela, acho que tudo) precisa de
+velocidade, e eu queria entender o que os caras planejaram para essa camada, e
+isso é uma das coisas que o code review traz, inclusive linkando para a análise da antiga
+engine do Quake e explicando algumas decisões e as premissas simples que foram
+utilizadas para construir uma camada consistente e deixar o jogo o mais fluido possível.&lt;/p&gt;
+
+&lt;p&gt;Esse ultimo code review acaba muito legal, linkando para a IA do Quake III,
+que é muito boa por sinal, e por isso rendeu uma
+&lt;a href=&#34;http://dev.johnstevenson.co.uk/bots/20585341-The-Quake-III-Arena-Bot.pdf&#34;&gt;tese de mestrado do desenvolvedor&lt;/a&gt;
+que apesar de eu não ter lido inteira, eu recomendo a leitura para quem se interessa no assunto.&lt;/p&gt;
+
+&lt;p&gt;Enfim, todos sabem que o &lt;a href=&#34;http://twitter.com/ID_AA_Carmack/&#34;&gt;John Carmack&lt;/a&gt; é
+um dos programadores que eu mais admiro, e Quake é um dos jogos que eu mais
+curto, e o código é open source! Esse review era a oportunidade que faltava
+para conhecer o código melhor e aprender coisas novas. Se você curte jogos e
+programação &lt;strong&gt;RECOMENDO&lt;/strong&gt; fortemente tirar algumas horas e ler os reviews!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Palestra sobre Gamedev, Javascript e HTML5</title>
       <link>http://pothix.com/post/palestra-sobre-gamedev-javascript-e5/</link>
       <pubDate>Mon, 23 May 2011 00:00:00 +0000</pubDate>
