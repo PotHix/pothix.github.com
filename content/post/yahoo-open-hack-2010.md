@@ -1,6 +1,9 @@
 +++
 title = "Yahoo Open Hack 2010"
-aliases=["2010/03/29/yahoo-open-hack-2010.html"]
+aliases=[
+  "2010/03/29/yahoo-open-hack-2010.html",
+  "blog/events/yahoo-open-hack-2010"
+]
 date = "2010-03-29"
 tags = ["events","ruby","tech"]
 categories = "events"

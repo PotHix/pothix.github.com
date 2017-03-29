@@ -1,6 +1,9 @@
 +++
 title = "A facilidade do Ubuntu"
-aliases=["2008/11/29/a-facilidade-do-ubuntu.html"]
+aliases=[
+  "2008/11/29/a-facilidade-do-ubuntu.html",
+  "blog/win2linux/a-facilidade-do-ubuntu"
+]
 date = "2008-11-29"
 tags = ["tech","ubuntu","linux"]
 categories = "linux"

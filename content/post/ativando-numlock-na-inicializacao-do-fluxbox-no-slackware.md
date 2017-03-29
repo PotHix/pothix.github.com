@@ -1,6 +1,9 @@
 +++
 title = "Ativando numlock na Inicialização do Fluxbox no Slackware"
-aliases=["2008/11/13/ativando-numlock-na-inicializacao-do-fluxbox-no-slackware.html"]
+aliases=[
+  "2008/11/13/ativando-numlock-na-inicializacao-do-fluxbox-no-slackware.html",
+  "blog/slackware/ativando-numlock-na-inicializacao-do-fluxbox-no-slackware"
+]
 date = "2008-11-13"
 tags = ["slackware","tech","linux"]
 categories = "linux"

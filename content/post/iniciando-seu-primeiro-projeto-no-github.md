@@ -1,6 +1,9 @@
 +++
 title = "Iniciando seu primeiro projeto no GitHub"
-aliases=["2008/12/21/iniciando-seu-primeiro-projeto-no-github.html"]
+aliases=[
+  "2008/12/21/iniciando-seu-primeiro-projeto-no-github.html",
+  "blog/development/iniciando-seu-primeiro-projeto-no-github"
+]
 date = "2008-12-21"
 tags = ["tech","dev"]
 categories = "dev"

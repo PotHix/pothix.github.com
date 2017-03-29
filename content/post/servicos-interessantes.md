@@ -1,6 +1,9 @@
 +++
 title = "Serviços interessantes"
-aliases=["2009/06/12/servicos-interessantes.html"]
+aliases=[
+  "2009/06/12/servicos-interessantes.html",
+  "blog/coolservices/servicos-interessantes"
+]
 date = "2009-06-12"
 tags = ["personal","tech","tips","review"]
 categories = "review"

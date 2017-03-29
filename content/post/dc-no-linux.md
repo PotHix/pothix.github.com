@@ -1,6 +1,9 @@
 +++
 title = "DC++ no Linux"
-aliases=["2009/02/09/dc-no-linux.html"]
+aliases=[
+  "2009/02/09/dc-no-linux.html",
+  "blog/ubuntu/dc-no-linux"
+]
 date = "2009-02-09"
 tags = ["tech","linux"]
 categories = "linux"

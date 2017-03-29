@@ -1,6 +1,9 @@
 +++
 title = "Golang and 1.2 version performance improvement"
-aliases=["2013/12/03/golang-and-1-2-version-performance-improvement.html"]
+aliases=[
+  "2013/12/03/golang-and-1-2-version-performance-improvement.html",
+  "blog/development/golang-and-1-2-version-performance-improvement"
+]
 date = "2013-12-03"
 tags = ["golang","english","dev","tech"]
 categories = "dev"

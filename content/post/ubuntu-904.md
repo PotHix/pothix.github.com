@@ -1,6 +1,9 @@
 +++
 title = "Ubuntu 9.04"
-aliases=["2009/05/06/ubuntu-904.html"]
+aliases=[
+  "2009/05/06/ubuntu-904.html",
+  "blog/ubuntu/ubuntu-904"
+]
 date = "2009-05-06"
 tags = ["linux","tech"]
 categories = "linux"

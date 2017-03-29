@@ -1,6 +1,9 @@
 +++
 title = "Sempre aprender coisas diferentes"
-aliases=["2011/04/27/sempre-aprender-coisas-diferentes.html"]
+aliases=[
+  "2011/04/27/sempre-aprender-coisas-diferentes.html",
+  "blog/personal/sempre-aprender-coisas-diferentes"
+]
 date = "2011-04-27"
 tags = ["people","personal"]
 categories = "personal"

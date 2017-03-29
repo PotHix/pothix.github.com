@@ -1,6 +1,9 @@
 +++
 title = "Menos mac e mais Linux"
-aliases=["2012/07/19/menos-mac-e-mais-linux.html"]
+aliases=[
+  "2012/07/19/menos-mac-e-mais-linux.html",
+  "blog/development/menos-mac-e-mais-linux"
+]
 date = "2012-07-19"
 tags = ["dev","linux","tech"]
 categories = "dev"

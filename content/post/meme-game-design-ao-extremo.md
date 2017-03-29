@@ -1,6 +1,9 @@
 +++
 title = "Meme: Game design ao Extremo"
-aliases=["2009/08/22/meme-game-design-ao-extremo.html"]
+aliases=[
+  "2009/08/22/meme-game-design-ao-extremo.html",
+  "blog/games/meme-game-design-ao-extremo"
+]
 date = "2009-08-22"
 tags = ["games"]
 categories = "games"

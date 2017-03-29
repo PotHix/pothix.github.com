@@ -1,6 +1,9 @@
 +++
 title = "Show do Iron Maiden"
-aliases=["2009/03/17/show-do-iron-maiden.html"]
+aliases=[
+  "2009/03/17/show-do-iron-maiden.html",
+  "blog/events/show-do-iron-maiden"
+]
 date = "2009-03-17"
 tags = ["events","music"]
 categories = "events"

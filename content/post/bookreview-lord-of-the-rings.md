@@ -1,6 +1,9 @@
 +++
 title = "BookReview: Lord of the Rings"
-aliases=["2009/07/25/bookreview-lord-of-the-rings.html"]
+aliases=[
+  "2009/07/25/bookreview-lord-of-the-rings.html",
+  "blog/books/bookreview-lord-of-the-rings"
+]
 date = "2009-07-25"
 tags = ["books","review"]
 categories = "review"

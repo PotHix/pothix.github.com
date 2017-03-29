@@ -1,6 +1,9 @@
 +++
 title = "Fora IE6"
-aliases=["2009/01/12/fora-ie6.html"]
+aliases=[
+  "2009/01/12/fora-ie6.html",
+  "blog/development/fora-ie6"
+]
 date = "2009-01-12"
 tags = ["dev"]
 categories = "tips"

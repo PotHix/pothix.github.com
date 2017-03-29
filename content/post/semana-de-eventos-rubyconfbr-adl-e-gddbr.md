@@ -1,6 +1,9 @@
 +++
 title = "Semana de eventos (#rubyconfbr, #adl e #gddbr)"
-aliases=["2010/10/31/semana-de-eventos-rubyconfbr-adl-e-gddbr.html"]
+aliases=[
+  "2010/10/31/semana-de-eventos-rubyconfbr-adl-e-gddbr.html",
+  "blog/events/semana-de-eventos-rubyconfbr-adl-e-gddbr"
+]
 date = "2010-10-31"
 tags = ["android","events","ruby","tech"]
 categories = "events"

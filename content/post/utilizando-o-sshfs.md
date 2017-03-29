@@ -1,6 +1,9 @@
 +++
 title = "Utilizando o sshfs"
-aliases=["2008/11/29/utilizando-o-sshfs.html"]
+aliases=[
+  "2008/11/29/utilizando-o-sshfs.html",
+  "blog/slackware/utilizando-o-sshfs"
+]
 date = "2008-11-29"
 tags = ["tech","linux"]
 categories = "linux"

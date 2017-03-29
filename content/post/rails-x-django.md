@@ -1,6 +1,9 @@
 +++
 title = "Rails X Django"
-aliases=["2009/04/08/rails-x-django.html"]
+aliases=[
+  "2009/04/08/rails-x-django.html",
+  "blog/development/rails-x-django"
+]
 date = "2009-04-08"
 tags = ["django","python","rails","ruby","tech","dev"]
 categories = "dev"

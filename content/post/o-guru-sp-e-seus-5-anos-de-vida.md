@@ -1,6 +1,9 @@
 +++
 title = "O Guru-SP e seus 5 anos de vida"
-aliases=["2013/09/17/o-guru-sp-e-seus-5-anos-de-vida.html"]
+aliases=[
+  "2013/09/17/o-guru-sp-e-seus-5-anos-de-vida.html",
+  "blog/events/o-guru-sp-e-seus-5-anos-de-vida"
+]
 date = "2013-09-17"
 tags = ["events","ruby"]
 categories = "events"

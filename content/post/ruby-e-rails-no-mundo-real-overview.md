@@ -1,6 +1,9 @@
 +++
 title = "Ruby e Rails no mundo real"
-aliases=["2009/04/07/ruby-e-rails-no-mundo-real-overview.html"]
+aliases=[
+  "2009/04/07/ruby-e-rails-no-mundo-real-overview.html",
+  "blog/events/ruby-e-rails-no-mundo-real-overview"
+]
 date = "2009-04-07"
 tags = ["events","tech","ruby","rails"]
 categories = "events"

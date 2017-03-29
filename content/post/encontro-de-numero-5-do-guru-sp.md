@@ -1,6 +1,9 @@
 +++
 title = "Encontro de numero 5 do Guru-sp"
-aliases=["2009/07/21/encontro-de-numero-5-do-guru-sp.html"]
+aliases=[
+  "2009/07/21/encontro-de-numero-5-do-guru-sp.html",
+  "blog/events/encontro-de-numero-5-do-guru-sp"
+]
 date = "2009-07-21"
 tags = ["dev","events","rails","ruby","tech"]
 categories = "events"

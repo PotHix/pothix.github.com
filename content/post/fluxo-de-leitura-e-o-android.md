@@ -1,6 +1,9 @@
 +++
 title = "Fluxo de leitura e o Android"
-aliases=["2010/09/08/fluxo-de-leitura-e-o-android.html"]
+aliases=[
+  "2010/09/08/fluxo-de-leitura-e-o-android.html",
+  "blog/android/fluxo-de-leitura-e-o-android"
+]
 date = "2010-09-08"
 tags = ["android","books","personal"]
 categories = "android"

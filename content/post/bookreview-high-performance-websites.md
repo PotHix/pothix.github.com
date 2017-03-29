@@ -1,6 +1,9 @@
 +++
 title = "BookReview: High Performance Websites"
-aliases=["2009/07/30/bookreview-high-performance-websites.html"]
+aliases=[
+  "2009/07/30/bookreview-high-performance-websites.html",
+  "blog/books/bookreview-high-performance-websites"
+]
 date = "2009-07-30"
 tags = ["books","review","dev","tech"]
 categories = "review"

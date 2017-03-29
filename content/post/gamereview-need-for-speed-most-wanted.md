@@ -1,6 +1,9 @@
 +++
 title = "GameReview: Need For Speed - Most Wanted"
-aliases=["2008/12/14/gamereview-need-for-speed-most-wanted.html"]
+aliases=[
+  "2008/12/14/gamereview-need-for-speed-most-wanted.html",
+  "blog/games/gamereview-need-for-speed-most-wanted"
+]
 date = "2008-12-14"
 tags = ["gamereview","games"]
 categories = "review"

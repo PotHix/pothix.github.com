@@ -1,6 +1,9 @@
 +++
 title = "Viajar de moto com um grupo de motociclistas"
-aliases=["2011/01/25/viajar-de-moto-com-um-grupo-de-motociclistas.html"]
+aliases=[
+  "2011/01/25/viajar-de-moto-com-um-grupo-de-motociclistas.html",
+  "blog/motorcycle/viajar-de-moto-com-um-grupo-de-motociclistas"
+]
 date = "2011-01-25"
 tags = ["motorcycle"]
 categories = "motorcycle"

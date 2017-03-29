@@ -1,6 +1,9 @@
 +++
 title = "Linux, Vim, Screen e Pair programming!"
-aliases=["2010/03/29/linux-vim-screen-e-pair-programming.html"]
+aliases=[
+  "2010/03/29/linux-vim-screen-e-pair-programming.html",
+  "blog/development/linux-vim-screen-e-pair-programming"
+]
 date = "2010-03-29"
 tags = ["linux","tech","dev"]
 categories = "dev"

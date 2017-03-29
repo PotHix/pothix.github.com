@@ -1,6 +1,9 @@
 +++
 title = "Usando Git em projetos do Google Code"
-aliases=["2009/05/11/usando-git-em-projetos-do-google-code.html"]
+aliases=[
+  "2009/05/11/usando-git-em-projetos-do-google-code.html",
+  "blog/development/usando-git-em-projetos-do-google-code"
+]
 date = "2009-05-11"
 tags = ["git","tech"]
 categories = "development"

@@ -1,6 +1,9 @@
 +++
 title = "Colocando sua aplicação Rails na Dreamhost"
-aliases=["2009/03/25/colocando-sua-aplicacao-rails-na-dreamhost.html"]
+aliases=[
+  "2009/03/25/colocando-sua-aplicacao-rails-na-dreamhost.html",
+  "blog/development/colocando-sua-aplicacao-rails-na-dreamhost"
+]
 date = "2009-03-25"
 tags = ["rails","ruby","tech","dev"]
 categories = "dev"

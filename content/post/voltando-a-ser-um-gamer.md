@@ -1,6 +1,9 @@
 +++
 title = "Voltando a ser um gamer"
-aliases=["2008/12/14/voltando-a-ser-um-gamer.html"]
+aliases=[
+  "2008/12/14/voltando-a-ser-um-gamer.html",
+  "blog/games/voltando-a-ser-um-gamer"
+]
 date = "2008-12-14"
 tags = ["gamedev","games"]
 categories = "games"

@@ -1,6 +1,9 @@
 +++
 title = "Show do ACDC"
-aliases=["2009/12/01/show-do-acdc.html"]
+aliases=[
+  "2009/12/01/show-do-acdc.html",
+  "blog/music/show-do-acdc"
+]
 date = "2009-12-01"
 tags = ["events","music"]
 categories = "events"

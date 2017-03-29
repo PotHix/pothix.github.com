@@ -1,6 +1,9 @@
 +++
 title = "Projeto de fevereiro"
-aliases=["2009/04/03/projeto-de-fevereiro.html"]
+aliases=[
+  "2009/04/03/projeto-de-fevereiro.html",
+  "blog/development/projeto-de-fevereiro"
+]
 date = "2009-04-03"
 tags = ["dev","personal","tech"]
 categories = "dev"

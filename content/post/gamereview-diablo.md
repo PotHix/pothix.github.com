@@ -1,6 +1,9 @@
 +++
 title = "GameReview: Diablo"
-aliases=["2009/07/20/gamereview-diablo.html"]
+aliases=[
+  "2009/07/20/gamereview-diablo.html",
+  "blog/games/gamereview-diablo"
+]
 date = "2009-07-20"
 tags = ["games","gamereview","review"]
 categories = "review"

@@ -1,6 +1,9 @@
 +++
 title = "Deixando seu ssh mais facil de trabalhar"
-aliases=["2008/11/27/deixando-seu-ssh-mais-facil-de-trabalhar.html"]
+aliases=[
+  "2008/11/27/deixando-seu-ssh-mais-facil-de-trabalhar.html",
+  "blog/slackware/deixando-seu-ssh-mais-facil-de-trabalhar"
+]
 date = "2008-11-27"
 tags = ["tech","linux"]
 categories = "linux"

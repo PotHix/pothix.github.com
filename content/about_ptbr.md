@@ -1,6 +1,7 @@
 +++
 type = "page"
 layout = "about_ptbr"
+aliases = ["about_ptbr.html"]
 +++
 
 <center><i>\<pt-BR\>There is also an [English version](/about)\</pt-BR\></i></center>

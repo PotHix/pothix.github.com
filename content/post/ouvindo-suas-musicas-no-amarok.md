@@ -1,6 +1,9 @@
 +++
 title = "Ouvindo suas musicas no Amarok"
-aliases=["2008/11/13/ouvindo-suas-musicas-no-amarok.html"]
+aliases=[
+  "2008/11/13/ouvindo-suas-musicas-no-amarok.html",
+  "blog/ubuntu/ouvindo-suas-musicas-no-amarok"
+]
 date = "2008-11-13"
 tags = ["desktop","ubuntu","linux"]
 categories = "linux"

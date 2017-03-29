@@ -1,6 +1,9 @@
 +++
 title = "GameReview: SpiderMan - Friend or Foe"
-aliases=["2009/07/22/gamereview-spiderman-friend-or-foe.html"]
+aliases=[
+  "2009/07/22/gamereview-spiderman-friend-or-foe.html",
+  "blog/games/gamereview-spiderman-friend-or-foe"
+]
 date = "2009-07-22"
 tags = ["gamereview","games","review"]
 categories = "review"

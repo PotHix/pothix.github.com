@@ -1,6 +1,9 @@
 +++
 title = "Translated Rubylearning presentation"
-aliases=["2009/04/10/translated-rubylearning-presentation.html"]
+aliases=[
+  "2009/04/10/translated-rubylearning-presentation.html",
+  "blog/english/translated-rubylearning-presentation"
+]
 date = "2009-04-10"
 tags = ["events","ruby","rubylearning","tech","english"]
 categories = "english"

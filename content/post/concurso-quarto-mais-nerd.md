@@ -1,6 +1,9 @@
 +++
 title = "Concurso Quarto mais Nerd"
-aliases=["2008/12/27/concurso-quarto-mais-nerd.html"]
+aliases=[
+  "2008/12/27/concurso-quarto-mais-nerd.html",
+  "blog/geek-nerd/concurso-quarto-mais-nerd"
+]
 date = "2008-12-27"
 tags = ["personal"]
 categories = "geek"

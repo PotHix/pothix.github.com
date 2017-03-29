@@ -1,6 +1,12 @@
 +++
 type = "page"
 layout = "about"
+aliases = [
+  "about.html",
+  "blog",
+  "blog/anti-ie6-army",
+  "blog/about"
+]
 +++
 
 <center><i>\<pt-BR\>Tem também a [versão em português](/about_ptbr)\</pt-BR\></i></center>

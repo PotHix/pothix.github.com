@@ -1,6 +1,9 @@
 +++
 title = "Facilitando a instalação de pacotes no Slackware"
-aliases=["2008/11/11/facilitando-a-instalacao-de-pacotes-no-slackware.html"]
+aliases=[
+  "2008/11/11/facilitando-a-instalacao-de-pacotes-no-slackware.html",
+  "blog/slackware/facilitando-a-instalacao-de-pacotes-no-slackware"
+]
 date = "2008-11-11"
 tags = ["slackware","linux","tech"]
 categories = "linux"

@@ -1,6 +1,9 @@
 +++
 title = "Instalando modem 3G Claro USB E226 no Ubuntu"
-aliases=["2009/06/13/instalando-modem-3g-claro-usb-e226-no-ubuntu.html"]
+aliases=[
+  "2009/06/13/instalando-modem-3g-claro-usb-e226-no-ubuntu.html",
+  "blog/ubuntu/instalando-modem-3g-claro-usb-e226-no-ubuntu"
+]
 date = "2009-06-13"
 tags = ["tech","linux"]
 categories = "linux"

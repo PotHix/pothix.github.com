@@ -1,6 +1,9 @@
 +++
 title = "GameJam"
-aliases=["2009/08/12/gamejam.html"]
+aliases=[
+  "2009/08/12/gamejam.html",
+  "blog/development/gamejam"
+]
 date = "2009-08-12"
 tags = ["dev","gamedev","games","tech"]
 categories = "dev"

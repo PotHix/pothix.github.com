@@ -1,6 +1,9 @@
 +++
 title = "Curso de verão da USP"
-aliases=["2009/02/20/curso-de-verao-da-usp.html"]
+aliases=[
+  "2009/02/20/curso-de-verao-da-usp.html",
+  "blog/development/curso-de-verao-da-usp"
+]
 date = "2009-02-20"
 tags = ["courses","tech"]
 categories = "courses"

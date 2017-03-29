@@ -1,6 +1,9 @@
 +++
 title = "Meu ambiente de desenvolvimento"
-aliases=["2010/12/29/meu-ambiente-de-desenvolvimento.html"]
+aliases=[
+  "2010/12/29/meu-ambiente-de-desenvolvimento.html",
+  "blog/development/meu-ambiente-de-desenvolvimento"
+]
 date = "2010-12-29"
 tags = ["dev","tech"]
 categories = "dev"

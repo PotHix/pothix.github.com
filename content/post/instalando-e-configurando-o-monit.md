@@ -1,6 +1,9 @@
 +++
 title = "Instalando e configurando o monit"
-aliases=["2009/09/10/instalando-e-configurando-o-monit.html"]
+aliases=[
+  "2009/09/10/instalando-e-configurando-o-monit.html",
+  "blog/ubuntu/instalando-e-configurando-o-monit"
+]
 date = "2009-09-10"
 tags = ["monitoring","tech","dev"]
 categories = "dev"

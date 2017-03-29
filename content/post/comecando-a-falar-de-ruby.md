@@ -1,6 +1,9 @@
 +++
 title = "Começando a falar de Ruby"
-aliases=["2009/04/13/comecando-a-falar-de-ruby.html"]
+aliases=[
+  "2009/04/13/comecando-a-falar-de-ruby.html",
+  "blog/development/comecando-a-falar-de-ruby"
+]
 date = "2009-04-13"
 tags = ["rails","ruby","tech","dev"]
 categories = "dev"

@@ -1,6 +1,9 @@
 +++
 title = "Rework"
-aliases=["2010/08/06/rework.html"]
+aliases=[
+  "2010/08/06/rework.html",
+  "blog/books/rework"
+]
 date = "2010-08-06"
 tags = ["books","review"]
 categories = "review"

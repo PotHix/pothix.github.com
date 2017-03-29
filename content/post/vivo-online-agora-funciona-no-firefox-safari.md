@@ -1,6 +1,9 @@
 +++
 title = "VIVO online agora funciona no Firefox / Safari"
-aliases=["2009/01/30/vivo-online-agora-funciona-no-firefox-safari.html"]
+aliases=[
+  "2009/01/30/vivo-online-agora-funciona-no-firefox-safari.html",
+  "blog/development/vivo-online-agora-funciona-no-firefox-safari"
+]
 date = "2009-01-30"
 tags = ["dev","tech"]
 categories = "dev"
