@@ -5,7 +5,7 @@ aliases=[
   "blog/development/linux-vim-screen-e-pair-programming"
 ]
 date = "2010-03-29"
-tags = ["linux","tech","dev"]
+tags = ["linux","tech"]
 categories = "dev"
 +++
 

@@ -2,7 +2,7 @@
 title = "My presentation at FOSDEM 2017"
 aliases=["2017/03/04/my-presentation-at-fosdem-2017.html"]
 date = "2017-03-04"
-tags = ["events"," speaking"," english"," tech"]
+tags = ["events","speaking","english","tech"]
 categories = "events"
 +++
 

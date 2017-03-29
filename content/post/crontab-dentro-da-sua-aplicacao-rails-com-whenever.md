@@ -5,7 +5,7 @@ aliases=[
   "blog/development/crontab-dentro-da-sua-aplicacao-rails-com-whenever"
 ]
 date = "2009-12-02"
-tags = ["rails","ruby","tech","dev"]
+tags = ["ruby","tech"]
 categories = "dev"
 +++
 

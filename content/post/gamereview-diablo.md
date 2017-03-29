@@ -5,7 +5,7 @@ aliases=[
   "blog/games/gamereview-diablo"
 ]
 date = "2009-07-20"
-tags = ["games","gamereview","review"]
+tags = ["games"]
 categories = "review"
 +++
 

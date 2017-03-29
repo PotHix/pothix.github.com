@@ -5,7 +5,7 @@ aliases=[
   "blog/personal/sempre-aprender-coisas-diferentes"
 ]
 date = "2011-04-27"
-tags = ["people","personal"]
+tags = ["tech"]
 categories = "personal"
 +++
 

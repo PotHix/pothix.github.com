@@ -2,7 +2,7 @@
 title = "Rails Summit Latin Amerira (Day 2)"
 aliases=["2008/10/22/rails-summit-latin-amerira-day-2.html"]
 date = "2008-10-22"
-tags = ["events","rails","ruby","tech"]
+tags = ["events","ruby","tech"]
 categories = "development"
 +++
 

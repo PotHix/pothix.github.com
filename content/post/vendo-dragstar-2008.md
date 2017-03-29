@@ -5,7 +5,7 @@ aliases=[
   "blog/personal/vendo-dragstar-2008"
 ]
 date = "2013-07-29"
-tags = ["personal","motorcycle"]
+tags = ["motorcycle"]
 categories = "personal"
 +++
 

@@ -2,7 +2,7 @@
 title = "Oxford for Tolkien fans"
 aliases = ["2017/03/08/oxford-for-tolkien-fans.html"]
 date = "2017-03-10"
-tags = ["travel","english"]
+tags = ["personal","english"]
 categories = "travel"
 +++
 

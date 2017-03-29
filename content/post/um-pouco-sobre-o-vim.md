@@ -5,7 +5,7 @@ aliases=[
   "blog/development/um-pouco-sobre-o-vim"
 ]
 date = "2009-08-14"
-tags = ["dev","tech","vim"]
+tags = ["tech","vim"]
 categories = "dev"
 +++
 

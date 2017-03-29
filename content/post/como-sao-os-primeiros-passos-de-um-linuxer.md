@@ -5,7 +5,7 @@ aliases=[
   "blog/win2linux/como-sao-os-primeiros-passos-de-um-linuxer"
 ]
 date = "2008-11-29"
-tags = ["personal","tech","linux"]
+tags = ["tech","linux"]
 categories = "linux"
 +++
 

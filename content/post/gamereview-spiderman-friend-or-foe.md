@@ -5,7 +5,7 @@ aliases=[
   "blog/games/gamereview-spiderman-friend-or-foe"
 ]
 date = "2009-07-22"
-tags = ["gamereview","games","review"]
+tags = ["games"]
 categories = "review"
 +++
 

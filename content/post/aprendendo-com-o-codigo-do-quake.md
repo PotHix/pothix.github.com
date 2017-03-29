@@ -5,7 +5,7 @@ aliases=[
   "blog/development/aprendendo-com-o-codigo-do-quake"
 ]
 date = "2012-07-18"
-tags = ["dev","tech"]
+tags = ["gamedev","tech"]
 categories = "dev"
 +++
 

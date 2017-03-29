@@ -5,7 +5,7 @@ aliases=[
   "blog/games/gamereview-need-for-speed-most-wanted"
 ]
 date = "2008-12-14"
-tags = ["gamereview","games"]
+tags = ["games"]
 categories = "review"
 +++
 

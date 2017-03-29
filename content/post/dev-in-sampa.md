@@ -5,7 +5,7 @@ aliases=[
   "blog/events/dev-in-sampa"
 ]
 date = "2009-12-02"
-tags = ["dev","events","tech"]
+tags = ["events","tech"]
 categories = "events"
 +++
 

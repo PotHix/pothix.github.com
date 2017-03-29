@@ -5,7 +5,7 @@ aliases=[
   "blog/development/usuarios-resolvem-os-problemas-da-vivo"
 ]
 date = "2009-01-13"
-tags = ["tech","news","dev"]
+tags = ["tech"]
 categories = "dev"
 +++
 

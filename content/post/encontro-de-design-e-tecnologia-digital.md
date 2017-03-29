@@ -5,7 +5,7 @@ aliases=[
   "blog/events/encontro-de-design-e-tecnologia-digital"
 ]
 date = "2009-04-26"
-tags = ["dev","events","tech"]
+tags = ["events","tech"]
 categories = "events"
 +++
 

@@ -5,7 +5,7 @@ aliases=[
   "blog/development/fora-ie6"
 ]
 date = "2009-01-12"
-tags = ["dev"]
+tags = ["tech"]
 categories = "tips"
 +++
 

@@ -5,7 +5,7 @@ aliases=[
   "blog/development/plaev-html5-e-skeleton-jigsaw"
 ]
 date = "2012-12-04"
-tags = ["gamedev","plaev","dev","tech","speaking"]
+tags = ["gamedev","tech","speaking","events"]
 categories = "dev"
 +++
 

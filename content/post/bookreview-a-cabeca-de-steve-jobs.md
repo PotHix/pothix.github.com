@@ -5,7 +5,7 @@ aliases=[
   "blog/books/bookreview-a-cabeca-de-steve-jobs"
 ]
 date = "2010-01-05"
-tags = ["review","books"]
+tags = ["books"]
 categories = "books"
 +++
 

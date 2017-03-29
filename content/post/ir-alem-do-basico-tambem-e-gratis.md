@@ -5,7 +5,7 @@ aliases=[
   "blog/advice/ir-alem-do-basico-tambem-e-gratis"
 ]
 date = "2008-12-11"
-tags = ["linux","programming","tech","tips"]
+tags = ["tech"]
 categories = "tips"
 +++
 

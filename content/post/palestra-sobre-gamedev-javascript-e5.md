@@ -5,7 +5,7 @@ aliases=[
   "blog/games/palestra-sobre-gamedev-javascript-e-html5"
 ]
 date = "2011-05-23"
-tags = ["gamedev","speaking"]
+tags = ["gamedev","speaking","events"]
 categories = "games"
 +++
 

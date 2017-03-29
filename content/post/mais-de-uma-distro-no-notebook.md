@@ -5,7 +5,7 @@ aliases=[
   "blog/ubuntu/mais-de-uma-distro-no-notebook"
 ]
 date = "2008-10-13"
-tags = ["personal","ubuntu","linux"]
+tags = ["linux"]
 categories = "linux"
 +++
 

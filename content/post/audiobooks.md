@@ -2,7 +2,7 @@
 title = "Ouvir livros (audiobooks), o futuro da leitura"
 aliases=["2016/06/22/audiobooks.html"]
 date = "2016-06-22"
-tags = ["reading"]
+tags = ["books"]
 categories = "reading"
 +++
 

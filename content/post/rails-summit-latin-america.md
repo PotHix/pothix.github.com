@@ -5,7 +5,7 @@ aliases=[
   "blog/events/rails-summit-latin-america"
 ]
 date = "2008-10-21"
-tags = ["rails","ruby","tech"]
+tags = ["ruby","tech"]
 categories = "development"
 +++
 

@@ -6,7 +6,7 @@ aliases=[
   "blog/uncategorized/configurando-seu-git-para-comecar-a-usar"
 ]
 date = "2008-12-21"
-tags = ["tech","linux","dev"]
+tags = ["tech","linux"]
 categories = "dev"
 +++
 

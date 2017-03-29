@@ -5,7 +5,7 @@ aliases=[
   "blog/ubuntu/instalando-e-configurando-o-monit"
 ]
 date = "2009-09-10"
-tags = ["monitoring","tech","dev"]
+tags = ["linux","tech"]
 categories = "dev"
 +++
 

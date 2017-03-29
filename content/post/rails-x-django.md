@@ -5,7 +5,7 @@ aliases=[
   "blog/development/rails-x-django"
 ]
 date = "2009-04-08"
-tags = ["django","python","rails","ruby","tech","dev"]
+tags = ["python","ruby","tech"]
 categories = "dev"
 +++
 

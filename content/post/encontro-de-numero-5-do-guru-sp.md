@@ -5,7 +5,7 @@ aliases=[
   "blog/events/encontro-de-numero-5-do-guru-sp"
 ]
 date = "2009-07-21"
-tags = ["dev","events","rails","ruby","tech"]
+tags = ["events","ruby","tech"]
 categories = "events"
 +++
 

@@ -5,7 +5,7 @@ aliases=[
   "blog/android/motorola-milestone-e-android"
 ]
 date = "2010-09-08"
-tags = ["android","tech","personal"]
+tags = ["android","tech"]
 categories = "personal"
 +++
 

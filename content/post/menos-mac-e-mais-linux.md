@@ -5,7 +5,7 @@ aliases=[
   "blog/development/menos-mac-e-mais-linux"
 ]
 date = "2012-07-19"
-tags = ["dev","linux","tech"]
+tags = ["linux","tech"]
 categories = "dev"
 +++
 

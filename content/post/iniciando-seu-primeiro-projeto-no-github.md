@@ -5,7 +5,7 @@ aliases=[
   "blog/development/iniciando-seu-primeiro-projeto-no-github"
 ]
 date = "2008-12-21"
-tags = ["tech","dev"]
+tags = ["tech"]
 categories = "dev"
 +++
 

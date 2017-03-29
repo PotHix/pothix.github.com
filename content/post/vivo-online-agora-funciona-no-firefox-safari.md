@@ -5,7 +5,7 @@ aliases=[
   "blog/development/vivo-online-agora-funciona-no-firefox-safari"
 ]
 date = "2009-01-30"
-tags = ["dev","tech"]
+tags = ["tech"]
 categories = "dev"
 +++
 

@@ -5,7 +5,7 @@ aliases=[
   "blog/slackware/ativando-numlock-na-inicializacao-do-fluxbox-no-slackware"
 ]
 date = "2008-11-13"
-tags = ["slackware","tech","linux"]
+tags = ["tech","linux"]
 categories = "linux"
 +++
 

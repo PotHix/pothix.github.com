@@ -5,7 +5,7 @@ aliases=[
   "blog/development/projeto-de-fevereiro"
 ]
 date = "2009-04-03"
-tags = ["dev","personal","tech"]
+tags = ["personal","tech"]
 categories = "dev"
 +++
 

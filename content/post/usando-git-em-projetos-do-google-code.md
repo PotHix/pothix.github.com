@@ -5,7 +5,7 @@ aliases=[
   "blog/development/usando-git-em-projetos-do-google-code"
 ]
 date = "2009-05-11"
-tags = ["git","tech"]
+tags = ["tech"]
 categories = "development"
 +++
 

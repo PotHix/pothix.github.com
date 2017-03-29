@@ -5,7 +5,7 @@ aliases=[
   "blog/music/show-do-acdc"
 ]
 date = "2009-12-01"
-tags = ["events","music"]
+tags = ["events"]
 categories = "events"
 +++
 

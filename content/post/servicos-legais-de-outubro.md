@@ -5,7 +5,7 @@ aliases=[
   "blog/coolservices/servicos-legais-de-outubro"
 ]
 date = "2009-10-04"
-tags = ["tips","review"]
+tags = ["tech","services"]
 categories = "review"
 +++
 

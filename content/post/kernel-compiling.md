@@ -2,7 +2,7 @@
 title = "Kernel compiling"
 aliases=["2012/07/23/kernel-compiling.html"]
 date = "2012-07-23"
-tags = ["dev","linux","english","tech"]
+tags = ["linux","english","tech"]
 categories = "dev"
 +++
 

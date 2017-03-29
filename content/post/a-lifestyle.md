@@ -2,7 +2,7 @@
 title = "A lifestyle"
 aliases=["2012/09/10/a-lifestyle.html"]
 date = "2012-09-10"
-tags = ["motorcycle","english"]
+tags = ["english"]
 categories = "motorcycle"
 +++
 

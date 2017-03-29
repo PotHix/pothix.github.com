@@ -5,7 +5,7 @@ aliases=[
   "blog/books/bookreview-high-performance-websites"
 ]
 date = "2009-07-30"
-tags = ["books","review","dev","tech"]
+tags = ["books","tech"]
 categories = "review"
 +++
 

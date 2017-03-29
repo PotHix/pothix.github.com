@@ -5,7 +5,7 @@ aliases=[
   "blog/ubuntu/ouvindo-suas-musicas-no-amarok"
 ]
 date = "2008-11-13"
-tags = ["desktop","ubuntu","linux"]
+tags = ["linux"]
 categories = "linux"
 +++
 

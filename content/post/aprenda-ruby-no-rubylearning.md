@@ -5,7 +5,7 @@ aliases=[
   "blog/development/aprenda-ruby-no-rubylearning"
 ]
 date = "2008-11-07"
-tags = ["ruby","rubylearning","tech"]
+tags = ["ruby","tech"]
 categories = "development"
 +++
 

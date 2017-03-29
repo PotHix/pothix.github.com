@@ -5,7 +5,7 @@ aliases=[
   "blog/events/ruby-e-rails-no-mundo-real-overview"
 ]
 date = "2009-04-07"
-tags = ["events","tech","ruby","rails"]
+tags = ["events","tech","ruby"]
 categories = "events"
 +++
 

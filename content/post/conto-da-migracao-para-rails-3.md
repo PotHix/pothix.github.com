@@ -5,7 +5,7 @@ aliases=[
   "blog/development/conto-da-migracao-para-rails-3"
 ]
 date = "2010-10-21"
-tags = ["rails","ruby","tech","dev"]
+tags = ["ruby","tech"]
 categories = "dev"
 +++
 

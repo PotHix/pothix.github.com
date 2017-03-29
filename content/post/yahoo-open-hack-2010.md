@@ -5,7 +5,7 @@ aliases=[
   "blog/events/yahoo-open-hack-2010"
 ]
 date = "2010-03-29"
-tags = ["events","ruby","tech"]
+tags = ["events","tech"]
 categories = "events"
 +++
 

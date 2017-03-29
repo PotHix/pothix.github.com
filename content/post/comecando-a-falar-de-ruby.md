@@ -5,7 +5,7 @@ aliases=[
   "blog/development/comecando-a-falar-de-ruby"
 ]
 date = "2009-04-13"
-tags = ["rails","ruby","tech","dev"]
+tags = ["ruby","tech"]
 categories = "dev"
 +++
 

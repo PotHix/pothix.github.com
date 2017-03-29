@@ -5,7 +5,7 @@ aliases=[
   "blog/books/bookreview-pragmatic-version-control-using-git"
 ]
 date = "2009-07-19"
-tags = ["books","dev","tech","review"]
+tags = ["books","tech"]
 categories = "review"
 +++
 

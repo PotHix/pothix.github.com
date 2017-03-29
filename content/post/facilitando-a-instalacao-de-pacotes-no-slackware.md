@@ -5,7 +5,7 @@ aliases=[
   "blog/slackware/facilitando-a-instalacao-de-pacotes-no-slackware"
 ]
 date = "2008-11-11"
-tags = ["slackware","linux","tech"]
+tags = ["linux","tech"]
 categories = "linux"
 +++
 

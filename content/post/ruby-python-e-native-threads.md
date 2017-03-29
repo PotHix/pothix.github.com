@@ -5,7 +5,7 @@ aliases=[
   "blog/development/ruby-python-e-native-threads"
 ]
 date = "2014-02-14"
-tags = ["ruby","python","dev","tech"]
+tags = ["ruby","python","tech"]
 categories = "dev"
 +++
 

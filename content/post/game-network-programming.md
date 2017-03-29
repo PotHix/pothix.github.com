@@ -5,7 +5,7 @@ aliases=[
   "blog/development/game-network-programming"
 ]
 date = "2013-07-15"
-tags = ["gamedev","speaking","english","dev"]
+tags = ["gamedev","speaking","english","events"]
 categories = "dev"
 +++
 

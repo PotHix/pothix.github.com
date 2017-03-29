@@ -5,7 +5,7 @@ aliases=[
   "blog/books/bookreview-anjos-e-demonios"
 ]
 date = "2009-12-28"
-tags = ["books","review"]
+tags = ["books"]
 categories = "review"
 +++
 

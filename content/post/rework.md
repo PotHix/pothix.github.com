@@ -5,7 +5,7 @@ aliases=[
   "blog/books/rework"
 ]
 date = "2010-08-06"
-tags = ["books","review"]
+tags = ["books"]
 categories = "review"
 +++
 

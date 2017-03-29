@@ -5,7 +5,7 @@ aliases=[
   "blog/development/instalando-o-allegro-4-2-2-no-linux-x86"
 ]
 date = "2009-08-12"
-tags = ["gamedev","tech","linux","dev"]
+tags = ["gamedev","tech","linux"]
 categories = "dev"
 +++
 

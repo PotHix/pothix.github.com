@@ -5,7 +5,7 @@ aliases=[
   "blog/development/golang-and-1-2-version-performance-improvement"
 ]
 date = "2013-12-03"
-tags = ["golang","english","dev","tech"]
+tags = ["golang","english","tech"]
 categories = "dev"
 +++
 

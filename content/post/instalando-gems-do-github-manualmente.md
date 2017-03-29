@@ -5,7 +5,7 @@ aliases=[
   "blog/development/instalando-gems-do-github-manualmente"
 ]
 date = "2009-07-28"
-tags = ["dev","ruby","tech"]
+tags = ["ruby","tech"]
 categories = "dev"
 +++
 

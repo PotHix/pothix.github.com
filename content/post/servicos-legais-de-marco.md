@@ -5,7 +5,7 @@ aliases=[
   "blog/coolservices/servicos-legais-de-marco"
 ]
 date = "2010-04-01"
-tags = ["review","tips"]
+tags = ["tech","services"]
 categories = "review"
 +++
 

@@ -5,7 +5,7 @@ aliases=[
   "blog/win2linux/a-facilidade-do-ubuntu"
 ]
 date = "2008-11-29"
-tags = ["tech","ubuntu","linux"]
+tags = ["tech","linux"]
 categories = "linux"
 +++
 

@@ -5,7 +5,7 @@ aliases=[
   "blog/events/rails-summit-2009"
 ]
 date = "2009-10-19"
-tags = ["events","rails","ruby","tech"]
+tags = ["events","ruby","tech"]
 categories = "events"
 +++
 

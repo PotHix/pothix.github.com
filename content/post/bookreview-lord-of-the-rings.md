@@ -5,7 +5,7 @@ aliases=[
   "blog/books/bookreview-lord-of-the-rings"
 ]
 date = "2009-07-25"
-tags = ["books","review"]
+tags = ["books"]
 categories = "review"
 +++
 

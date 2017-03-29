@@ -5,7 +5,7 @@ aliases=[
   "blog/personal/organizando-seu-gmail-para-manter-inbox-zero"
 ]
 date = "2009-05-20"
-tags = ["gtd","tech","personal"]
+tags = ["tech"]
 categories = "personal"
 +++
 

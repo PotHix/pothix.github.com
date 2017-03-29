@@ -5,7 +5,7 @@ aliases=[
   "/blog/personal/vendo-intruder-125-customizada-e-com-guidao-seca-suvaco"
 ]
 date = "2013-07-29"
-tags = ["personal","motorcycle"]
+tags = ["motorcycle"]
 categories = "personal"
 +++
 

@@ -5,7 +5,7 @@ aliases=[
   "blog/presentation/palestra-sobre-vim"
 ]
 date = "2010-03-29"
-tags = ["linux","speaking","tech","vim"]
+tags = ["events","linux","speaking","tech","vim"]
 categories = "events"
 +++
 

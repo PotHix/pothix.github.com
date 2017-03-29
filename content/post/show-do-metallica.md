@@ -5,7 +5,7 @@ aliases=[
   "blog/music/show-do-metallica"
 ]
 date = "2010-02-02"
-tags = ["events","music"]
+tags = ["events"]
 categories = "events"
 +++
 

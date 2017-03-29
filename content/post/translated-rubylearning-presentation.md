@@ -5,7 +5,7 @@ aliases=[
   "blog/english/translated-rubylearning-presentation"
 ]
 date = "2009-04-10"
-tags = ["events","ruby","rubylearning","tech","english"]
+tags = ["events","ruby","tech","english"]
 categories = "english"
 +++
 

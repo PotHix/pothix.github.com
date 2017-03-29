@@ -5,7 +5,7 @@ aliases=[
   "blog/development/meu-ambiente-de-desenvolvimento"
 ]
 date = "2010-12-29"
-tags = ["dev","tech"]
+tags = ["tech"]
 categories = "dev"
 +++
 

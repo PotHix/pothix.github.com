@@ -5,7 +5,7 @@ aliases=[
   "blog/events/show-do-iron-maiden"
 ]
 date = "2009-03-17"
-tags = ["events","music"]
+tags = ["events"]
 categories = "events"
 +++
 

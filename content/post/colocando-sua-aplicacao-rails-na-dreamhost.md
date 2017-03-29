@@ -5,7 +5,7 @@ aliases=[
   "blog/development/colocando-sua-aplicacao-rails-na-dreamhost"
 ]
 date = "2009-03-25"
-tags = ["rails","ruby","tech","dev"]
+tags = ["ruby","tech"]
 categories = "dev"
 +++
 

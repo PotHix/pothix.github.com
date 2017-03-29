@@ -5,7 +5,7 @@ aliases=[
   "blog/development/curso-de-verao-da-usp"
 ]
 date = "2009-02-20"
-tags = ["courses","tech"]
+tags = ["tech"]
 categories = "courses"
 +++
 

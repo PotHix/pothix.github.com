@@ -6,7 +6,7 @@ aliases=[
   "blog/personal/servicos-interessantes"
 ]
 date = "2009-06-12"
-tags = ["personal","tech","tips","review"]
+tags = ["tech","services"]
 categories = "review"
 +++
 

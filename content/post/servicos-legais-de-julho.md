@@ -5,7 +5,7 @@ aliases=[
   "blog/coolservices/servicos-legais-de-julho"
 ]
 date = "2009-07-04"
-tags = ["tips","review"]
+tags = ["tips","services"]
 categories = "review"
 +++
 

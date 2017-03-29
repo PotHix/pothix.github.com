@@ -5,7 +5,7 @@ aliases=[
   "blog/development/plugin-para-wordpress-anti-ie6-army"
 ]
 date = "2009-04-11"
-tags = ["dev","tech"]
+tags = ["tech"]
 categories = "dev"
 +++
 
