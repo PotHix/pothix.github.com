@@ -1,0 +1,25 @@
+{{ partial "header" . }}
+
+<div id="content" class="site-content">
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
+            <header class="page-header page-header--portfolio">
+                <h1 class='blog-title'><span>Coding</span></h1>
+                <p class='blog-subtitle'>projects i've worked on in my career</p>
+            </header>
+
+            <ul class="portfolio-filter">
+                <li class="button filter" data-filter="all">All</li>
+                <li class="button filter" data-filter="game">Games</li>
+                <li class="button filter" data-filter="lib">Libraries</li>
+                <li class="button filter" data-filter="project">Project</li>
+            </ul>
+
+            <section id="portfolio-filter" class="grids portfolio-items">
+                {{ .Content }}
+            </section>
+        </main>
+    </div>
+</div>
+
+{{ partial "footer" . }}

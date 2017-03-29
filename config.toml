@@ -1,0 +1,45 @@
+baseurl = "http://pothix.com"
+languageCode = "en"
+title = "PotHix"
+theme = "pothix"
+copyright = "&copy; 2017 | Follow on <a href=\"https://twitter.com/mgjohansen\" target=\"_blank\">Twitter</a> | <a href=\"https://github.com/mgjohansen/hucore.git\" target=\"_blank\">Hucore theme</a> & <a href=\"http://gohugo.io\" target=\"_blank\">Hugo</a> ♥"
+disqusShortname = "pothixcom"
+googleAnalytics = "trackingcode"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+[params]
+description = "The personal website for Willian Molinari, also known as PotHix"
+keywords = ["Programming", "Linux", "Desconstruindo a web", "Ruby", "Elixir", "Golang", "Guru-SP"]
+author = "Willian Molinari a.k.a. PotHix"
+sharingicons = true
+
+[params.highlight]
+style = "github"
+languages = ["go", "dockerfile", "ruby", "elixir", "shell"]
+
+[[params.social]]
+url = "https://github.com/PotHix"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "https://gitlab.com/pothix"
+fa_icon = "fa-gitlab"
+
+[[params.social]]
+url = "https://twitter.com/PotHix"
+fa_icon = "fa-twitter"
+
+[[params.social]]
+url = "https://linkedin.com/in/willian.molinari"
+fa_icon = "fa-linkedin-square"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
+
+[[params.socialshare]]
+url = "https://linkedin.com/in/mgjohansen"
+fa_icon = "fa-linkedin-square"

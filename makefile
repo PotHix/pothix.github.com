@@ -1,25 +1,25 @@
 rebuild:
 	@echo "Cleaning up"
-	@rm -rf build
+	@rm -rf public/*
 	@make build
 
 run:
-	@bundle exec middleman server
+	@hugo server
 
 build:
 	@echo "Building"
-	@bundle exec middleman build
+	@hugo -t pothix
 
 publish:
 	@make build
 	@echo "Publishing"
-	@git log --oneline | head -n1 | sed -r 's/^[a-zA-Z0-9]+ //g' > build/last_commit
+	@git log --oneline | head -n1 | sed -r 's/^[a-zA-Z0-9]+ //g' > public/last_commit
 	@git checkout master
 	@git pull
-	@rm -rf 2* categories tags page stylesheets images javascripts drafts feeds
-	@mv build/* .
+	@rm -rf *.html *.xml 2* about* post categories coding speaking writing tags page stylesheets images javascripts
+	@mv public/* .
 	@git add -A .
 	@git commit -m "Last commit from source branch: '`cat last_commit`'"
-	@rm -rf build last_commit mywork.yml
+	@rm -rf public last_commit
 	@git push
-	@git checkout source
+	@git checkout -
