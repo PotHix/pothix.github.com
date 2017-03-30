@@ -606,22 +606,6 @@
   </url>
   
   <url>
-    <loc>http://pothix.com/about_ptbr/</loc>
-  </url>
-  
-  <url>
-    <loc>http://pothix.com/coding/</loc>
-  </url>
-  
-  <url>
-    <loc>http://pothix.com/speaking/</loc>
-  </url>
-  
-  <url>
-    <loc>http://pothix.com/writing/</loc>
-  </url>
-  
-  <url>
     <loc>http://pothix.com/categories/android/</loc>
     <lastmod>2011-03-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -648,6 +632,10 @@
   <url>
     <loc>http://pothix.com/categories/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pothix.com/coding/</loc>
   </url>
   
   <url>
@@ -819,9 +807,17 @@
   </url>
   
   <url>
+    <loc>http://pothix.com/about_ptbr/</loc>
+  </url>
+  
+  <url>
     <loc>http://pothix.com/tags/speaking/</loc>
     <lastmod>2017-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pothix.com/speaking/</loc>
   </url>
   
   <url>
@@ -857,6 +853,10 @@
     <loc>http://pothix.com/tags/vim/</loc>
     <lastmod>2010-03-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pothix.com/writing/</loc>
   </url>
   
 </urlset>
