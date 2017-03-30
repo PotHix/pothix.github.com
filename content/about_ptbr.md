@@ -12,7 +12,8 @@ Eu sou o Willian Molinari, (bem) mais conhecido como **PotHix** e sou desenvolve
 
 Quer entrar em contato? Você pode me encontrar em alguns lugares:
 
-+ [@PotHix no twitter](https://twitter.com/PotHix)
++ [@PotHix no Telegram](https://t.me/PotHix)
++ [@PotHix no Twitter](https://twitter.com/PotHix)
 + [PotHix no Github](https://github.com/PotHix)
 + [Willian Molinari no Linkedin](https://www.linkedin.com/in/willianmolinari)
 + [PotHix no Flickr](https://flickr.com/photos/PotHix)
