@@ -9,12 +9,12 @@
 
     <div class="entry-meta">
       <span class="posted-on">
-	Published at {{ .Date.Format "January 2, 2006" }}
+        Published at {{ .Date.Format "January 2, 2006" }}
       </span>
 
       <span class="tags-links">
       {{ range .Params.tags }}
-          <a href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>,
+        <a href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>,
       {{ end }}
       </span>
     </div>

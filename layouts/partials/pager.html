@@ -1,12 +1,6 @@
 <nav role="navigation" id="nav-below" class="paging-navigation">
   <h1 class="screen-reader-text">Post navigation</h1>
 
-  <div class="nav-previous">
-    <a href="http://demo.codestag.com/doctype/blog-entries/page/2/" >
-      <span class="fa fa-chevron-left"></span>
-    </a>
-  </div>
-
   <div class='pages'>
     {{ if .Paginator.HasPrev }}
       <a class="page-numbers" href="{{ .Paginator.Prev.URL }}"><</a>
