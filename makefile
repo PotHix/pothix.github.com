@@ -8,7 +8,7 @@ run:
 
 build:
 	@echo "Building"
-	@hugo -t pothix
+	@hugo
 
 publish:
 	@make build
