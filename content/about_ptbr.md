@@ -1,7 +1,9 @@
 +++
 type = "page"
-layout = "about_ptbr"
+layout = "title_subtitle"
 aliases = ["about_ptbr.html"]
+title = "Sobre mim"
+subtitle = "Tentando entender algo ou quer entrar em contato?"
 +++
 
 <center><i>\<pt-BR\>There is also an [English version](/about)\</pt-BR\></i></center>

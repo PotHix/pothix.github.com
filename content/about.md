@@ -1,12 +1,14 @@
 +++
 type = "page"
-layout = "about"
+layout = "title_subtitle"
 aliases = [
   "about.html",
   "blog",
   "blog/anti-ie6-army",
   "blog/about"
 ]
+title = "About me"
+subtitle = "Need to understand something or get in touch?"
 +++
 
 <center><i>\<pt-BR\>Tem também a [versão em português](/about_ptbr)\</pt-BR\></i></center>
