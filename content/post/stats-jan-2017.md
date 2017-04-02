@@ -44,7 +44,22 @@ Here is the controversial fact. My text editors:
 
 [![Editors used during this month on Wakatime](/images/stats/2017/jan/wakatime-editors.png "Editors used during this month on Wakatime")](https://wakatime.com/@PotHix "")
 
-Forget about Chrome, I was testing a feature from Wakatime. But yes, I'm using both Vim and Emacs. :P
+Forget about Chrome, I was testing a feature from Wakatime. But yes,
+I'm using both Vim and Emacs. :P
+
+### Speaking
+
+I spoke three times this month, here is the list and descriptions:
+
++ [Campus Code](https://campuscode.com.br/), it was opening the _Quero
+  ser dev_ program. I was talking about the chooses we made as
+  developers during our careers.
++ [Impacta](http://www.impacta.com.br), speaking about what what
+  happens behind a web request. This is the presentation that
+  inspired [my book](https://desconstruindoaweb.com.br).
++ [Campus Code](https://campuscode.com.br/), after 6+ rehearsals I was
+  trying my talk "Open source behind a web request" for an actual
+  audience. It was my first talk in English.
 
 ### Podcasts
 
