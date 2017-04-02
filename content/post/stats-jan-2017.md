@@ -102,6 +102,16 @@ And I'm also tracking my weight, which is improving! :)
 
 [![My weight for this month](/images/stats/2017/jan/physical-activity-weight.png "My weight for this month")](/images/stats/2017/jan/physical-activity-weight.png "")
 
+By using miband, I can also track the amount of sleep for this month:
+
+[![Amount of sleep for this month](/images/stats/2017/jan/sleep.jpg "Amount of sleep for this month")](/images/stats/2017/jan/sleep.jpg "")
+
+Unfortunately this app does not know how to deal with sleep time when
+you sleep after midnight. This is the main reason why it says I'm
+going to sleep at 07:20 and I'm waking up 07:18 (???). I will try to
+workaround this bug by avoiding to sleep after midnight, as I'm waking up
+around 6. :P
+
 ### TV Shows
 
 I don't watch so much TV but it's a hobby of mine (and my wife) to
