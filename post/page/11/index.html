@@ -48,6 +48,9 @@
         <a href="/writing">Writing</a>
       </li>
       <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/stats">Stats</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
         <a href="/about">About me</a>
       </li>
     </ul>
@@ -67,6 +70,35 @@
     <div id="primary" class="content-area">
         <main id="main" class="site-main" role="main">
             
+  <article id="post-#{article.id}" class="post-#{article.id} post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
+
+    <header class="entry-header">
+      <h2 class="entry-title">
+        <a href="http://pothix.com/post/new-year-is-coming/">New year is coming</a>
+      </h2>
+    </header>
+
+    <div class="entry-meta">
+      <span class="posted-on">
+        Published at December 31, 2008
+      </span>
+
+      <span class="tags-links">
+      
+        <a href="/tags/personal">personal</a>,
+      
+        <a href="/tags/english">english</a>,
+      
+      </span>
+    </div>
+
+    <div class="entry-content">
+      Estou apenas postando para dizer que nesse novo ano eu pretendo postar mais sobre programação! Essa é a primeira virada de ano desse blog, então resolvi postar meus &ldquo;planos&rdquo; para o próximo ano.
+Como o blog é novo eu comecei a escrever faz pouco tempo e estou pegando experiência aos poucos, e talvez agora nesse novo ano a qualidade dos posts aumente! (ou não&hellip;heheh).
+Não sei bem qual rumo minha vida vai seguir nesse novo ano, o que eu vou ter que aprender e estudar, talvez eu tenha que aprender coisas que eu não tinha planejado e isso pode tomar uma boa parte do meu tempo, mas eu pretendo postar todos os meus estudos aqui, portanto terei algum material interessante aqui.
+    </div>
+  </article>
+
   <article id="post-#{article.id}" class="post-#{article.id} post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
 
     <header class="entry-header">
@@ -315,36 +347,6 @@ Eu sempre ouvia falar de Linux quando eu lia Livros sobre segurança e tudo mais
     </div>
   </article>
 
-  <article id="post-#{article.id}" class="post-#{article.id} post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
-
-    <header class="entry-header">
-      <h2 class="entry-title">
-        <a href="http://pothix.com/post/montando-imagens-do-nero-nrg-no-linux/">Montando imagens do Nero (nrg) no Linux</a>
-      </h2>
-    </header>
-
-    <div class="entry-meta">
-      <span class="posted-on">
-        Published at November 29, 2008
-      </span>
-
-      <span class="tags-links">
-      
-        <a href="/tags/tech">tech</a>,
-      
-        <a href="/tags/linux">linux</a>,
-      
-      </span>
-    </div>
-
-    <div class="entry-content">
-      Vou comentar agora sobre como montar aquela imagem chata do Nero (.nrg ) que seu amigo que gosta de janelas lhe enviou com aqueles vários arquivos que você tinha pedido&hellip; É um hack bem fácil!
-Instalações Primeiro instale o nrg2iso
-No Ubuntu # apt-get install nrg2iso  No Slackware Baixando o pacote no Linux Packages e instalando normalmente com:
-# installpkg nrg2iso-versao.tgz  Utilização Agora já podemos utilizar o nrg3iso para converter nossa imagem:
-    </div>
-  </article>
-
 
             <nav role="navigation" id="nav-below" class="paging-navigation">
   <h1 class="screen-reader-text">Post navigation</h1>
@@ -391,11 +393,11 @@ No Ubuntu # apt-get install nrg2iso  No Slackware Baixando o pacote no Linux Pac
                         <ul>
                             <style type="text/css" media="screen">
                                 .gr_grid_container {
-                                     
+                                 
+                                    height:150px;
                                 }
 
                                 .gr_grid_book_container {
-                                     
                                     float: left;
                                     width: 98px;
                                     height: 160px;

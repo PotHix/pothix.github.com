@@ -7,8 +7,166 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <lastBuildDate>Fri, 10 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Apr 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://pothix.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Stats for January, 2017</title>
+      <link>http://pothix.com/post/stats-jan-2017/</link>
+      <pubDate>Sun, 02 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/stats-jan-2017/</guid>
+      <description>
+
+&lt;p&gt;This is the first post of a series that will show all the data I&amp;rsquo;ve been collecting during the month. One of my goals this year is to track everything possible. These posts will help me to analyze all the data and may extract something for me.&lt;/p&gt;
+
+&lt;p&gt;This is not a new idea, I&amp;rsquo;m inspired
+by
+&lt;a href=&#34;https://www.truevalhalla.com/blog/online-income-report-057-january-2017&#34;&gt;posts like this&lt;/a&gt; from
+&lt;a href=&#34;https://www.truevalhalla.com/about&#34;&gt;Matthew of truevalhalla.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;books&#34;&gt;Books&lt;/h3&gt;
+
+&lt;p&gt;My goal is to &lt;strong&gt;read 30 books this year&lt;/strong&gt;, so I must have an average
+of 2.5 books per month. I read two this month:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.goodreads.com/pothix&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/jan/goodreads.png&#34; alt=&#34;List of books read this month&#34; title=&#34;List of books read this month&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Both books were &amp;ldquo;read&amp;rdquo; by using audiobooks from &lt;a href=&#34;https://audible.com&#34;&gt;Audible&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;coding&#34;&gt;Coding&lt;/h3&gt;
+
+&lt;p&gt;To track my time coding I&amp;rsquo;m
+using &lt;a href=&#34;https://wakatime.com/i/PotHix&#34;&gt;Wakatime&lt;/a&gt; (this link is a
+referral, use it in case you want to try it out).&lt;/p&gt;
+
+&lt;p&gt;By using it I can see the amount of hours I spent programming:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://wakatime.com/@PotHix&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/jan/wakatime-coding.png&#34; alt=&#34;Hours of coding on Wakatime this month&#34; title=&#34;Hours of coding on Wakatime this month&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Don&amp;rsquo;t worry about the colors in this chart, each project has it&amp;rsquo;s own color but it&amp;rsquo;s not relevant for this case. My best best day was Jan 19th, almost 12h coding.&lt;/p&gt;
+
+&lt;p&gt;Now we can check the languages I&amp;rsquo;m using:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://wakatime.com/@PotHix&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/jan/wakatime-languages.png&#34; alt=&#34;Languages used during this month on Wakatime&#34; title=&#34;Languages used during this month on Wakatime&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I have no idea what this &amp;ldquo;Other&amp;rdquo; means. The purple one
+is &lt;a href=&#34;http://elixir-lang.org/&#34;&gt;Elixir&lt;/a&gt;. I&amp;rsquo;m playing with it and it&amp;rsquo;s
+really great.&lt;/p&gt;
+
+&lt;p&gt;Here is the controversial fact. My text editors:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://wakatime.com/@PotHix&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/jan/wakatime-editors.png&#34; alt=&#34;Editors used during this month on Wakatime&#34; title=&#34;Editors used during this month on Wakatime&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Forget about Chrome, I was testing a feature from Wakatime. But yes,
+I&amp;rsquo;m using both Vim and Emacs. :P&lt;/p&gt;
+
+&lt;h3 id=&#34;speaking&#34;&gt;Speaking&lt;/h3&gt;
+
+&lt;p&gt;I spoke three times this month, here is the list and descriptions:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://campuscode.com.br/&#34;&gt;Campus Code&lt;/a&gt;, it was opening the &lt;em&gt;Quero
+ser dev&lt;/em&gt; program. I was talking about the chooses we made as
+developers during our careers.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.impacta.com.br&#34;&gt;Impacta&lt;/a&gt;, speaking about what what
+happens behind a web request. This is the presentation that
+inspired &lt;a href=&#34;https://desconstruindoaweb.com.br&#34;&gt;my book&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://campuscode.com.br/&#34;&gt;Campus Code&lt;/a&gt;, after 6+ rehearsals I was
+trying my talk &amp;ldquo;Open source behind a web request&amp;rdquo; for an actual
+audience. It was my first talk in English.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;podcasts&#34;&gt;Podcasts&lt;/h3&gt;
+
+&lt;p&gt;I&amp;rsquo;m a big fan of audio programs. I have many audiobooks and podcasts in my collection and I listen to them whenever possible.&lt;/p&gt;
+
+&lt;p&gt;This is my stats for this month, thanks to &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict&amp;amp;hl=en&#34;&gt;Podcast Addict&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/stats/2017/jan/podcasts.png&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/jan/podcasts.png&#34; alt=&#34;Amount of time spent listening to Podcasts this month&#34; title=&#34;Amount of time spent listening to Podcasts this month&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The big numbers is my total time, but look at the &amp;ldquo;January 2017&amp;rdquo; time.&lt;/p&gt;
+
+&lt;h3 id=&#34;hours-working&#34;&gt;Hours working&lt;/h3&gt;
+
+&lt;p&gt;I&amp;rsquo;m testing &lt;a href=&#34;https://toggl.com&#34;&gt;Toggl&lt;/a&gt; to track my working hours. This
+is the first month and here are the results:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/stats/2017/jan/toggl-time-working.png&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/jan/toggl-time-working.png&#34; alt=&#34;Hours working using Toggl&#34; title=&#34;Hours working using Toggl&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m also using &lt;a href=&#34;https://www.rescuetime.com/ref/1403570&#34;&gt;RescueTime&lt;/a&gt; to
+track my apps on my cellphone and personal computer. It still needs
+some tuning but here are my goal of 3 productive hours per day:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/stats/2017/jan/rescuetime-productivetime.png&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/jan/rescuetime-productivetime.png&#34; alt=&#34;Goal of productive hours on RescueTime&#34; title=&#34;Goal of productive hours on RescueTime&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I will work on that.&lt;/p&gt;
+
+&lt;h3 id=&#34;physical-activity&#34;&gt;Physical activity&lt;/h3&gt;
+
+&lt;p&gt;I try to keep a regular physical activity. After buying a simple and cheap &lt;a href=&#34;http://www.mi.com/en/miband/&#34;&gt;Mi band&lt;/a&gt; I can track it better. It&amp;rsquo;s integrated with &lt;a href=&#34;https://fit.google.com&#34;&gt;Google Fit&lt;/a&gt;, so I can extract all those nice charts.&lt;/p&gt;
+
+&lt;p&gt;This is the amount of steps this month:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/stats/2017/jan/physical-activity-steps.png&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/jan/physical-activity-steps.png&#34; alt=&#34;Amount of steps for this month&#34; title=&#34;Amount of steps for this month&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Distance by day:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/stats/2017/jan/physical-activity-distance.png&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/jan/physical-activity-distance.png&#34; alt=&#34;Travelled distance this month&#34; title=&#34;Travelled distance this month&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And I&amp;rsquo;m also tracking my weight, which is improving! :)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/stats/2017/jan/physical-activity-weight.png&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/jan/physical-activity-weight.png&#34; alt=&#34;My weight for this month&#34; title=&#34;My weight for this month&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;By using miband, I can also track the amount of sleep for this month:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/stats/2017/jan/sleep.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/jan/sleep.jpg&#34; alt=&#34;Amount of sleep for this month&#34; title=&#34;Amount of sleep for this month&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Unfortunately this app does not know how to deal with sleep time when
+you sleep after midnight. This is the main reason why it says I&amp;rsquo;m
+going to sleep at 07:20 and I&amp;rsquo;m waking up 07:18 (???). I will try to
+workaround this bug by avoiding to sleep after midnight, as I&amp;rsquo;m waking up
+around 6. :P&lt;/p&gt;
+
+&lt;h3 id=&#34;tv-shows&#34;&gt;TV Shows&lt;/h3&gt;
+
+&lt;p&gt;I don&amp;rsquo;t watch so much TV but it&amp;rsquo;s a hobby of mine (and my wife) to
+watch TV Shows on Netflix and Game of thrones on HBO when available.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m using &lt;a href=&#34;https://www.tvshowtime.com&#34;&gt;tvshowtime&lt;/a&gt; to track it and here is my stats for this month:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/stats/2017/jan/tvshows.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/jan/tvshows.jpg&#34; alt=&#34;TV shows watched this month according to tvshowtime&#34; title=&#34;TV shows watched this month according to tvshowtime&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;expenses&#34;&gt;Expenses&lt;/h3&gt;
+
+&lt;p&gt;This is something I&amp;rsquo;m planning to do for a long time now but never got
+the chance. I always keep track of my expenses and now I decided to
+publish here as well. It will not have values (because it don&amp;rsquo;t need
+to), but here is the chart for my expenses by category:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/stats/2017/jan/expenses.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/jan/expenses.jpg&#34; alt=&#34;Expenses by category this month&#34; title=&#34;Expenses by category this month&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Yeah, I know, all categories in pt-BR. This chart is generated by a
+Brazilian app called &lt;a href=&#34;https://www.guiabolso.com.br/&#34;&gt;GuiaBolso&lt;/a&gt; and
+it&amp;rsquo;s the best I have for the moment. As you may expect, it takes a lot
+of time to collect all these data, so I will keep it as is for a
+while.&lt;/p&gt;
+
+&lt;p&gt;Most part of my expenses was covering the travel expenses for my
+Eurotrip next of February.&lt;/p&gt;
+
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;This is the first post, so there are many details missing. The idea is
+to start &amp;ldquo;simple&amp;rdquo; and keep improving in the next months. As it&amp;rsquo;s not
+so easy to write posts like these, I&amp;rsquo;m trying to create some
+&amp;ldquo;templates&amp;rdquo; for it.&lt;/p&gt;
+
+&lt;p&gt;It was a pretty good experience to see all that data together. :)&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s see how it goes in the next months.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Oxford for Tolkien fans</title>
@@ -1723,48 +1881,6 @@ entrega pessoalmente.&lt;/p&gt;
 &lt;p&gt;Quem puder me ajudar a divulgar eu agradeço muito.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Old comments by: Amadeus Folego | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Vendo Dragstar 2008</title>
-      <link>http://pothix.com/post/vendo-dragstar-2008/</link>
-      <pubDate>Mon, 29 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>http://pothix.com/post/vendo-dragstar-2008/</guid>
-      <description>&lt;p&gt;Chegou a hora de pendurar o colete por um tempo, obviamente estarei de
-volta num futuro não tão distante, mas pelo menos por enquanto vou
-ficar um tempo sem motos. Por esse motivo estou vendendo minha
-Dragstar 2008.&lt;/p&gt;
-
-&lt;p&gt;Informações sobre ela:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Segundo dono&lt;/li&gt;
-&lt;li&gt;Licenciada 2013&lt;/li&gt;
-&lt;li&gt;31000 km de boas estradas!&lt;/li&gt;
-&lt;li&gt;Pneu dianteiro e traseiro trocados há menos de 1000km (duraram mais ou menos 29k)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Acessórios que vão com ela (além de todas as peças originais):&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Escapamento esportivo Halley 2.5&amp;rdquo; (não ta instalado, e tem uns ralados, mas vai junto)&lt;/li&gt;
-&lt;li&gt;Protetor de motor / apoio de pé&lt;/li&gt;
-&lt;li&gt;Raisers maiores&lt;/li&gt;
-&lt;li&gt;Banco bipartido do pedrinho&lt;/li&gt;
-&lt;li&gt;Alforge traseiro&lt;/li&gt;
-&lt;li&gt;Protetor de carter&lt;/li&gt;
-&lt;li&gt;Comando avançado&lt;/li&gt;
-&lt;li&gt;Plataformas dianteiras&lt;/li&gt;
-&lt;li&gt;Plataformas traseiras&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/dragstar.jpg&#34;&gt;&lt;img src=&#34;images/posts/dragstar.jpg&#34; alt=&#34;Foto da minha dragstar 2008&#34; title=&#34;Dragstar 2008&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Quase 2k de acessórios. Se estiver interessado em comprar sem os
-acessórios o preço diminui também, mas entre em contato e
-conversamos. :)&lt;/p&gt;
 </description>
     </item>
     

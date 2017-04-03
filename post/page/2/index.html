@@ -48,6 +48,9 @@
         <a href="/writing">Writing</a>
       </li>
       <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/stats">Stats</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
         <a href="/about">About me</a>
       </li>
     </ul>
@@ -67,6 +70,34 @@
     <div id="primary" class="content-area">
         <main id="main" class="site-main" role="main">
             
+  <article id="post-#{article.id}" class="post-#{article.id} post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
+
+    <header class="entry-header">
+      <h2 class="entry-title">
+        <a href="http://pothix.com/post/new-layout-of-pothix-blog/">New layout of PotHix blog</a>
+      </h2>
+    </header>
+
+    <div class="entry-meta">
+      <span class="posted-on">
+        Published at May 25, 2015
+      </span>
+
+      <span class="tags-links">
+      
+        <a href="/tags/english">english</a>,
+      
+      </span>
+    </div>
+
+    <div class="entry-content">
+      Welcome to the new blog layout of PotHix.com! :)
+I decided that the time has came to change not just the layout but the blog engine as well. I&rsquo;m now using middleman instead of wordpress. Just to be clear, I don&rsquo;t think wordpress is not good at all, but I want to publish static files instead of keeping the wordpress &ldquo;infrastructure&rdquo;.
+I&rsquo;ve divided into 3 feeds:
+ Only english posts: http://feeds.
+    </div>
+  </article>
+
   <article id="post-#{article.id}" class="post-#{article.id} post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
 
     <header class="entry-header">
@@ -331,32 +362,6 @@ Depois de sair da faculdade eu sempre penso em tentar juntar aquele pessoal nova
     </div>
   </article>
 
-  <article id="post-#{article.id}" class="post-#{article.id} post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
-
-    <header class="entry-header">
-      <h2 class="entry-title">
-        <a href="http://pothix.com/post/a-lifestyle/">A lifestyle</a>
-      </h2>
-    </header>
-
-    <div class="entry-meta">
-      <span class="posted-on">
-        Published at September 10, 2012
-      </span>
-
-      <span class="tags-links">
-      
-        <a href="/tags/english">english</a>,
-      
-      </span>
-    </div>
-
-    <div class="entry-content">
-      Just a transcript from here, but it reflects my way of life at this stage of my life:
-We believe in going our own way,no matter which way the rest of the world is going. We believe in bucking the system that’s built to smash individuals as bugs on a windshield. Some of us believe in the man upstairs.All of us believe in sticking in to the man down here. We believe in the sky and we don’t believe in the sunroof.
-    </div>
-  </article>
-
 
             <nav role="navigation" id="nav-below" class="paging-navigation">
   <h1 class="screen-reader-text">Post navigation</h1>
@@ -403,11 +408,11 @@ We believe in going our own way,no matter which way the rest of the world is goi
                         <ul>
                             <style type="text/css" media="screen">
                                 .gr_grid_container {
-                                     
+                                 
+                                    height:150px;
                                 }
 
                                 .gr_grid_book_container {
-                                     
                                     float: left;
                                     width: 98px;
                                     height: 160px;
