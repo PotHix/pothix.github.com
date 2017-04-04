@@ -2,7 +2,6 @@
 title = "Stats for March, 2017"
 date = "2017-04-04"
 tags = ["stats","personal"]
-draft = true
 +++
 
 Back to work this month. :)
@@ -31,7 +30,7 @@ var uls=document.body.getElementsByTagName("ul");
 for(var i=0; i<uls.length; i++) {
     console.log(uls[i].children.length)
 }
- 
+
 760
 570
 ```
@@ -61,7 +60,7 @@ I'm shifting from Vim to Emacs, but I still use Vim a lot:
 ### Speaking
 
 Presentations for this month:
-    
+
 + Tech-talk at [Locaweb](https://locaweb.com.br). It was a Tech-talk about [FOSDEM](https://fosdem.org). Every time I go to a conference I schedule a talk to explore the content I saw there. I consider that a good practice with my coworkers.
 + [Gaveteiro](https://www.gaveteiro.com.br) it was the same presentation that inspired [my book](https://desconstruindoaweb.com.br) but with a small audience. It took **1h 52min** and was pretty cool (at least for me). :)
 
