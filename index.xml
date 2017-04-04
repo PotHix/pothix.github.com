@@ -7,8 +7,154 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <lastBuildDate>Mon, 03 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Apr 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://pothix.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Stats for March, 2017</title>
+      <link>http://pothix.com/post/stats-mar-2017/</link>
+      <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/stats-mar-2017/</guid>
+      <description>
+
+&lt;p&gt;Back to work this month. :)&lt;/p&gt;
+
+&lt;p&gt;After one month vacation, I got back to my routine and got some good results this month.&lt;/p&gt;
+
+&lt;h3 id=&#34;books&#34;&gt;Books&lt;/h3&gt;
+
+&lt;p&gt;Added three more books to the list:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.goodreads.com/pothix&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/mar/goodreads.png&#34; alt=&#34;List of books read this month&#34; title=&#34;List of books read this month&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;All of them were &amp;ldquo;read&amp;rdquo; using audiobooks
+from &lt;a href=&#34;https://audible.com&#34;&gt;Audible&lt;/a&gt;. I have to note here
+that
+&lt;a href=&#34;https://www.goodreads.com/review/show/1642811841&#34;&gt;Mastery is one of the best books I ever read&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;articles&#34;&gt;Articles&lt;/h3&gt;
+
+&lt;p&gt;I&amp;rsquo;m still trying to find a way to track the articles I read. In the past months I&amp;rsquo;ve being adding all of them to Pocket and reading there. Unfortunately I could not find anything to build information from my pocket reading data (suggestions welcome).&lt;/p&gt;
+
+&lt;p&gt;For now I&amp;rsquo;m just &lt;a href=&#34;https://getpocket.com/export&#34;&gt;exporting my content in HTML format&lt;/a&gt; and using a simple Javascript to count it:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var uls=document.body.getElementsByTagName(&amp;quot;ul&amp;quot;);
+for(var i=0; i&amp;lt;uls.length; i++) {
+    console.log(uls[i].children.length)
+}
+
+760
+570
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It means I have &lt;strong&gt;760 articles Unread&lt;/strong&gt; and &lt;strong&gt;570 articles
+Read&lt;/strong&gt;. Let&amp;rsquo;s see how it will be next month. ;)&lt;/p&gt;
+
+&lt;h3 id=&#34;coding&#34;&gt;Coding&lt;/h3&gt;
+
+&lt;p&gt;I&amp;rsquo;ve changed the charts from &lt;a href=&#34;https://wakatime.com/i/PotHix&#34;&gt;Wakatime&lt;/a&gt; since the last post. Let&amp;rsquo;s check the new ones:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://wakatime.com/@PotHix&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/mar/wakatime-coding.png&#34; alt=&#34;Hours of coding on Wakatime this month&#34; title=&#34;Hours of coding on Wakatime this month&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There is no colors or day numbers anymore but it looks better to
+understand how many hours I&amp;rsquo;ve been working through the month. It&amp;rsquo;s still less than what I was expecting, but that&amp;rsquo;s the main idea, time to improve!&lt;/p&gt;
+
+&lt;p&gt;Ruby and Go are the most used languages for this month:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://wakatime.com/@PotHix&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/mar/wakatime-languages.png&#34; alt=&#34;Languages used during this month on Wakatime&#34; title=&#34;Languages used during this month on Wakatime&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Markdown is just my posts here. LOL&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m shifting from Vim to Emacs, but I still use Vim a lot:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://wakatime.com/@PotHix&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/mar/wakatime-editors.png&#34; alt=&#34;Editors used during this month on Wakatime&#34; title=&#34;Editors used during this month on Wakatime&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;speaking&#34;&gt;Speaking&lt;/h3&gt;
+
+&lt;p&gt;Presentations for this month:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Tech-talk at &lt;a href=&#34;https://locaweb.com.br&#34;&gt;Locaweb&lt;/a&gt;. It was a Tech-talk about &lt;a href=&#34;https://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt;. Every time I go to a conference I schedule a talk to explore the content I saw there. I consider that a good practice with my coworkers.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gaveteiro.com.br&#34;&gt;Gaveteiro&lt;/a&gt; it was the same presentation that inspired &lt;a href=&#34;https://desconstruindoaweb.com.br&#34;&gt;my book&lt;/a&gt; but with a small audience. It took &lt;strong&gt;1h 52min&lt;/strong&gt; and was pretty cool (at least for me). :)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;podcasts&#34;&gt;Podcasts&lt;/h3&gt;
+
+&lt;p&gt;Back to Podcasts again! This time I decided to try a different Podcast
+player after many years using
+&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict&amp;amp;hl=en&#34;&gt;Podcast Addict&lt;/a&gt;. I bought &lt;a href=&#34;https://play.pocketcasts.com/&#34;&gt;Pocketcasts&lt;/a&gt; and I used it for the whole month.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/stats/2017/mar/podcasts.png&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/mar/podcasts.png&#34; alt=&#34;Amount of time spent listening to Podcasts this month&#34; title=&#34;Amount of time spent listening to Podcasts this month&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Don&amp;rsquo;t worry about the &lt;em&gt;&amp;ldquo;Since 29th of January&amp;rdquo;&lt;/em&gt; because I did not used
+any podcast player in February. ;)&lt;/p&gt;
+
+&lt;p&gt;I really don&amp;rsquo;t know what these numbers mean. But 1 day of podcast
+listening make sense for me. I usually listen podcasts 3x faster, this
+is what causes the confusion. :P&lt;/p&gt;
+
+&lt;p&gt;I will probably get back to Podcast Addict in April, because it&amp;rsquo;s
+superior in many features. Maybe I will write about it soon.&lt;/p&gt;
+
+&lt;h3 id=&#34;hours-working&#34;&gt;Hours working&lt;/h3&gt;
+
+&lt;p&gt;My time tracking with &lt;a href=&#34;https://toggl.com&#34;&gt;Toggl&lt;/a&gt; is more mature now.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/stats/2017/mar/toggl-time-working.png&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/mar/toggl-time-working.png&#34; alt=&#34;Hours working using Toggl&#34; title=&#34;Hours working using Toggl&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Besides the &lt;strong&gt;206h30min&lt;/strong&gt; I have &lt;strong&gt;6h30min&lt;/strong&gt; working on my personal
+projects.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.rescuetime.com/ref/1403570&#34;&gt;RescueTime&lt;/a&gt; says I reached my goal for the month:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/stats/2017/mar/rescuetime-productivetime.png&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/mar/rescuetime-productivetime.png&#34; alt=&#34;Goal of productive hours on RescueTime&#34; title=&#34;Goal of productive hours on RescueTime&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s great. :)&lt;/p&gt;
+
+&lt;h3 id=&#34;physical-activity&#34;&gt;Physical activity&lt;/h3&gt;
+
+&lt;p&gt;Back to the old rhythm, around &lt;strong&gt;10k steps&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/stats/2017/mar/physical-activity-steps.png&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/mar/physical-activity-steps.png&#34; alt=&#34;Amount of steps for this month&#34; title=&#34;Amount of steps for this month&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;My max distance was &lt;strong&gt;11.5km&lt;/strong&gt; walking:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/stats/2017/mar/physical-activity-distance.png&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/mar/physical-activity-distance.png&#34; alt=&#34;Travelled distance this month&#34; title=&#34;Travelled distance this month&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;My weight is not there yet, but I&amp;rsquo;m still tracking:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/stats/2017/mar/physical-activity-weight.png&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/mar/physical-activity-weight.png&#34; alt=&#34;My weight for this month&#34; title=&#34;My weight for this month&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I slept more this month but with less deep sleeping:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/stats/2017/mar/sleep.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/mar/sleep.jpg&#34; alt=&#34;Amount of sleep for this month&#34; title=&#34;Amount of sleep for this month&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;tv-shows&#34;&gt;TV Shows&lt;/h3&gt;
+
+&lt;p&gt;According to &lt;a href=&#34;https://www.tvshowtime.com&#34;&gt;tvshowtime&lt;/a&gt; I watched 29 episodes this month.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/stats/2017/mar/tvshows.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/mar/tvshows.jpg&#34; alt=&#34;TV shows watched this month according to tvshowtime&#34; title=&#34;TV shows watched this month according to tvshowtime&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s probably a combination
+of &lt;a href=&#34;https://www.tvshowtime.com/en/show/260449&#34;&gt;Vikings&lt;/a&gt;, &lt;a href=&#34;https://www.tvshowtime.com/pt_BR/show/304219&#34;&gt;Luke Cage&lt;/a&gt;
+and &lt;a href=&#34;https://www.tvshowtime.com/en/show/317953&#34;&gt;Iron Fist&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;expenses&#34;&gt;Expenses&lt;/h3&gt;
+
+&lt;p&gt;Phew&amp;hellip; finally my expenses are getting back to normal, no more &lt;em&gt;travel&lt;/em&gt; taking 50%+ of it. But it&amp;rsquo;s still taking 25%+. :P&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/stats/2017/mar/expenses.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/stats/2017/mar/expenses.jpg&#34; alt=&#34;Expenses by category this month&#34; title=&#34;Expenses by category this month&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This chart of expenses &lt;strong&gt;represent 46% of net income&lt;/strong&gt;, the rest is being invested.&lt;/p&gt;
+
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;It&amp;rsquo;s good to be back and see my productivity data growing. I still
+want to improve my expenses because it&amp;rsquo;s not as I expect it to
+be. Maybe next month. :)&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Stats for February, 2017</title>
@@ -1863,89 +2009,6 @@ to give Go a try.&lt;/p&gt;
 
 &lt;p&gt;Go language has a lot of interesting ideas and it is growing fast.
 Looks like it is a good idea of language for some of my projects, welcome Golang!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>O Guru-SP e seus 5 anos de vida</title>
-      <link>http://pothix.com/post/o-guru-sp-e-seus-5-anos-de-vida/</link>
-      <pubDate>Tue, 17 Sep 2013 00:00:00 +0000</pubDate>
-      
-      <guid>http://pothix.com/post/o-guru-sp-e-seus-5-anos-de-vida/</guid>
-      <description>&lt;p&gt;Há pouco tempo aconteceu o &lt;a href=&#34;http://gurusp.org/encontros/trigesimo-primeiro-encontro-do-guru-sp&#34;&gt;encontro numero 31 do Guru-SP&lt;/a&gt;, e como sempre saímos
-(dessa vez estavamos &lt;a href=&#34;http://twitter.com/vinibaggio&#34;&gt;@vinibaggio&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/agaelebe&#34;&gt;@agaelebe&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/nuxlli&#34;&gt;@nuxlli&lt;/a&gt; e &lt;a href=&#34;http://twitter.com/anderson_leite&#34;&gt;@anderson_leite&lt;/a&gt;) para
-aquele velho momento de bate papo pós evento. Durante a conversa o @nuxlli perguntou sobre como o Guru-SP começou e nesse momento eu comecei a relembrar
-daquela velha tarde em 2008.&lt;/p&gt;
-
-&lt;p&gt;Mas peraí&amp;hellip; &lt;strong&gt;2008&lt;/strong&gt;!! O Guru-SP está próximo de fazer &lt;strong&gt;5 anos&lt;/strong&gt; de vida! :)&lt;/p&gt;
-
-&lt;p&gt;Em pensar que tudo começou após &lt;a href=&#34;https://groups.google.com/forum/#!topic/rails-br/HUnABlEfR7A&#34;&gt;um post do @agaelebe na
-Rails-br&lt;/a&gt; falando
-sobre criar grupos locais para conversar mais sobre Ruby e fazer encontros com
-mais frequência, o que gerou interesse de várias pessoas de São Paulo, que
-decidiram levar esse &amp;ldquo;projeto&amp;rdquo; pra frente.&lt;/p&gt;
-
-&lt;p&gt;Logo em seguida o &lt;a href=&#34;http://twitter.com/mfcastellani&#34;&gt;@mfcastellani&lt;/a&gt; já iniciou &lt;a href=&#34;https://groups.google.com/forum/#!topic/ruby-sp/2SEBkbofoFA&#34;&gt;as primeiras
-discussões&lt;/a&gt; no
-&lt;a href=&#34;https://groups.google.com/forum/#!forum/ruby-sp&#34;&gt;grupo do Guru-SP&lt;/a&gt; e
-aproveitamos para agendar o &lt;a href=&#34;http://gurusp.org/encontros/primeiro-encontro&#34;&gt;primeiro
-encontro&lt;/a&gt; numa churrascaria
-qualquer no ABC que era mais próximo da casa do &lt;a href=&#34;http://twitter.com/mfcastellani&#34;&gt;@mfcastellani&lt;/a&gt;, pois como ele nos
-contou depois: &amp;ldquo;Se não aparecer ninguém só comeria uma carne e voltaria para
-casa&amp;rdquo;. hahaha&lt;/p&gt;
-
-&lt;p&gt;E algumas pessoas compareceram, eramos 3 pessoas conversando sobre o que poderia
-ser o Guru-SP no futuro. Não conhecia o &lt;a href=&#34;http://twitter.com/mfcastellani&#34;&gt;@mfcastellani&lt;/a&gt; nem o &lt;a href=&#34;http://twitter.com/agaelebe&#34;&gt;@agaelebe&lt;/a&gt;, mas
-ficamos boa parte da tarde conversando sobre desenvolvimento no geral e
-planejando o que seria legal fazer no grupo (camisetas, eventos maiores,
-encontros mensais, e etc).&lt;/p&gt;
-
-&lt;p&gt;Logo conseguimos as camisetas do Guru-SP! Depois de cotar alguns fornecedores e
-fazer um desenho legal para representar o grupo rachamos as despesas e mandamos
-fazer camisetas para quem estivesse interessado. Com a entrega das camisetas
-consegui conhecer muita gente que não conhecia pessoalmente.&lt;/p&gt;
-
-&lt;p&gt;Aproveitamos que alguns de nós estariam na Campus Party e fizemos o segundo
-encontro por lá! Como sempre tinha uma quantidade enorme de pessoas: Eu, o
-&lt;a href=&#34;http://twitter.com/mfcastellani&#34;&gt;@mfcastellani&lt;/a&gt; e o &lt;a href=&#34;http://twitter.com/akitaonrails&#34;&gt;@akitaonrails&lt;/a&gt;. O &lt;a href=&#34;http://twitter.com/shadowmaru&#34;&gt;@shadowmaru&lt;/a&gt; apareceu também, mas só me
-encontrou para pegar a camiseta.&lt;/p&gt;
-
-&lt;p&gt;Nesse meio tempo já estávamos planejando aquele &amp;ldquo;encontro maior&amp;rdquo; que conversamos
-no primeiro encontro, e poucos meses depois saiu o &lt;a href=&#34;http://gurusp.org/encontros/ruby-rails-no-mundo-real-primeira-edicao&#34;&gt;Ruby + Rails no mundo
-real&lt;/a&gt; com
-o auxílio da Tempo Real eventos.&lt;/p&gt;
-
-&lt;p&gt;Apesar do quarto ter uma quantidade pequena de pessoas (apenas o &lt;a href=&#34;http://twitter.com/rafaelrosafu&#34;&gt;@rafaelrosafu&lt;/a&gt; e
-o &lt;a href=&#34;http://twitter.com/agaelebe&#34;&gt;@agaelebe&lt;/a&gt;), o quinto encontro me surpreendeu bastante. Ao chegar na Voice
-Technology (onde o &lt;a href=&#34;http://twitter.com/andre_pantaliao&#34;&gt;@andre_pantaliao&lt;/a&gt; trabalhava na época e conseguiu o espaço
-para o encontro) eu encontrei uma sala com mais de 20 pessoas aguardando as
-palestras! O encontro foi bem proveitoso e mais do que nunca percebíamos o
-Guru-SP crescendo.&lt;/p&gt;
-
-&lt;p&gt;Eu considero que depois desse encontro o Guru-SP começou a andar sozinho,
-conseguimos empresas parceiras para nos ajudar, o grupo cresceu bastante,
-sempre tinhamos boas talks nos encontros e etc.&lt;/p&gt;
-
-&lt;p&gt;Hoje o Guru-SP tem mais de 1100 inscritos na lista, e já tivemos encontros
-comuns com mais de 100 pessoas, isso sem contar os eventos que organizamos e
-que tiveram mais de 200 pessoas.&lt;/p&gt;
-
-&lt;p&gt;Temos empresas que sempre nos ajudam, seja com espaço ou coffee break. Vale
-agradecer a Caelum que por muito tempo nos forneceu o auditório mensalmente, e
-ainda hoje sempre nor provê espaço quando precisamos. Não vou tentar citar
-todas as empresas que ajudam porque sempre vou deixar uma de fora, mas dá para
-ver cada um dos patrocínios &lt;a href=&#34;http://gurusp.org/encontros&#34;&gt;na página de encontros do Guru-SP&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Atualmente o Guru-SP não é &lt;strong&gt;somente&lt;/strong&gt; focado em Ruby, mas aproveitamos muitos
-dos conhecimentos diversos de todos os participantes para trazer bom conteúdo
-em várias partes da área de desenvolvimento, o que faz com que cada vez mais
-tenhamos conteúdo legal e interação entre a galera.&lt;/p&gt;
-
-&lt;p&gt;Parabéns aos Guru-SP pelos 5 anos de vida e para todo mundo que ajudou (e/ou
-ainda ajuda) na organização para fazer um dos grupos de Ruby mais ativos do
-Brasil, e mais do que isso um lugar legal para troca de conhecimentos.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: nuxlli, Renato Elias, Marcelo Castellani, Reinaldo, Rafael Rosa, Vinicius Baggio Fuentes, Lucas Caton, Paulo Silveira, Nelson Haraguchi, lucas renan | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     

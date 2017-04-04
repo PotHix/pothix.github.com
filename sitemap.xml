@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://pothix.com/post/stats-mar-2017/</loc>
+    <lastmod>2017-04-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://pothix.com/post/stats-feb-2017/</loc>
     <lastmod>2017-04-03T00:00:00+00:00</lastmod>
   </url>
@@ -768,7 +773,7 @@
   
   <url>
     <loc>http://pothix.com/tags/personal/</loc>
-    <lastmod>2017-04-03T00:00:00+00:00</lastmod>
+    <lastmod>2017-04-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -780,13 +785,13 @@
   
   <url>
     <loc>http://pothix.com/post/</loc>
-    <lastmod>2017-04-03T00:00:00+00:00</lastmod>
+    <lastmod>2017-04-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://pothix.com/</loc>
-    <lastmod>2017-04-03T00:00:00+00:00</lastmod>
+    <lastmod>2017-04-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -836,7 +841,7 @@
   
   <url>
     <loc>http://pothix.com/tags/stats/</loc>
-    <lastmod>2017-04-03T00:00:00+00:00</lastmod>
+    <lastmod>2017-04-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
