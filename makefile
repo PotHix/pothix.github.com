@@ -16,7 +16,7 @@ publish:
 	@git log --oneline | head -n1 | sed -r 's/^[a-zA-Z0-9]+ //g' > public/last_commit
 	@git checkout master
 	@git pull
-	@rm -rf *.html *.xml 2* about* blog stats now post categories coding speaking writing tags page stylesheets images javascripts
+	@rm -rf *.html *.xml 2* about* blog stats now post categories coding speaking writing tags page stylesheets images avatar javascripts
 	@mv public/* .
 	@git add -A .
 	@git commit -m "Last commit from source branch: '`cat last_commit`'"
