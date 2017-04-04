@@ -2,7 +2,6 @@
 title = "Stats for February, 2017"
 date = "2017-04-03"
 tags = ["stats","personal"]
-draft = true
 +++
 
 February was an atypical month because I was on vacation. :)
@@ -81,7 +80,7 @@ of net income** for this month because of the month salary and
 February was a different month, I cannot compare it with the other ones, but it was pretty great. There are some posts about the events of this month in case you want to read
 it:
 
-+ [Oxford for Tolkien fans](http://pothix.com/post/oxford-for-tolkien-fans/) 
++ [Oxford for Tolkien fans](http://pothix.com/post/oxford-for-tolkien-fans/)
 + [FOSDEM Survival Guide](http://pothix.com/post/fosdem-survival-guide/)
 + [My presentation at FOSDEM 2017](http://pothix.com/post/my-presentation-at-fosdem-2017/)
 
