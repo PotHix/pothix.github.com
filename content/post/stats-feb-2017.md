@@ -61,6 +61,35 @@ By using miband, I can also track the amount of sleep for this month:
 
 I was waking up pretty early during the trip. :)
 
+### Locations
+
+I'm using [Google Timeline](https://www.google.com.br/maps/timeline)
+to track the places I'm visiting.
+
+This month I received the first email with a summary of the new places
+I visited during the month. If you have an Android phone and you don't
+like this tracking, just disable it in Google location tracking.
+
+This month was interesting to share because of my vacation travel. I
+visited some new countries:
+
+[![Countries visited this month](/images/stats/2017/feb/location-countries.png "Countries visited this month")](/images/stats/2017/feb/location-countries.png "")
+
+Some cities in those countries:
+
+[![Cities visited this month](/images/stats/2017/feb/location-cities.png "Cities visited this month")](/images/stats/2017/feb/location-cities.png "")
+
+And many places in those cities:
+
+[![Places visited this month](/images/stats/2017/feb/location-places.png "Places visited this month")](/images/stats/2017/feb/location-places.png "")
+
+In general, I visited many places since it started tracking my
+location:
+
+[![General view of my locations data](/images/stats/2017/feb/location-general.png "General view of my locations data")](/images/stats/2017/feb/location-general.png "")
+
+I will not always share all those images, but at least big picture will be here as a benchmark :)
+
 ### Expenses
 
 This is something I'm planning to do for a long time now but never got

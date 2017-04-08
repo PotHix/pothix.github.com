@@ -125,6 +125,16 @@ It's probably a combination
 of [Vikings](https://www.tvshowtime.com/en/show/260449), [Luke Cage](https://www.tvshowtime.com/pt_BR/show/304219)
 and [Iron Fist](https://www.tvshowtime.com/en/show/317953).
 
+### Locations
+
+This month was not so exciting like the last one, but I worked on
+my [Google Timeline](https://www.google.com.br/maps/timeline) data to
+make it more accurate. Some cities were removed but I have identified
+more places I visited:
+
+[![General view of my locations data](/images/stats/2017/mar/location-general.png "General view of my locations data")](/images/stats/2017/mar/location-general.png "")
+
+
 ### Expenses
 
 Phew... finally my expenses are getting back to normal, no more _travel_ taking 50%+ of it. But it's still taking 25%+. :P
