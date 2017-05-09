@@ -1,7 +1,6 @@
 +++
 title = "Stats for April, 2017"
-date = "2017-05-01"
-draft = false
+date = "2017-05-08"
 tags = ["stats","personal"]
 +++
 
@@ -169,15 +168,20 @@ Here are my common mistakes:
 
 ### Expenses
 
-Phew... finally my expenses are getting back to normal, no more _travel_ taking 50%+ of it. But it's still taking 25%+. :P
+My expenses for this month are balanced again:
 
 [![Expenses by category this month](/images/stats/2017/apr/expenses.jpg "Expenses by category this month")](/images/stats/2017/apr/expenses.jpg "")
 
-This chart of expenses **represent 46% of net income**, the rest is being invested.
+This chart **represent only 15% of net income**, the rest is being
+invested. This month was atypical because I received the money related
+to my freelance work on January and March. I also received the yearly
+bonus from my full time job.
+
+This month increased my total savings by **9%**! Pretty good! :)
 
 ### Conclusion
 
 It was not so nice to be sick, as expected. My productivity dropped a
 little bit and I have to go to the doctor this month and look for it.
 
-Hope to be better next month.
+Hope to be in a good health next month. :)
