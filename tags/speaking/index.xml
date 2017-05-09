@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Speaking on PotHix</title>
-    <link>http://pothix.com/tags/speaking/index.xml</link>
+    <link>http://pothix.com/tags/speaking/</link>
     <description>Recent content in Speaking on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="http://pothix.com/tags/speaking/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Mar 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://pothix.com/tags/speaking/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>My presentation at FOSDEM 2017</title>
@@ -15,31 +18,9 @@
       <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/my-presentation-at-fosdem-2017/</guid>
-      <description>&lt;p&gt;This year my proposal to speak at &lt;a href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt; was accepted and I
-spoke at the Desktop devroom! :)&lt;/p&gt;
-
-&lt;p&gt;It was my first talk in English, so I decided to do as many rehearsals as I
-could. I was 8 in total, but as expected, it was still a little bit faster than
-expected. :P&lt;/p&gt;
-
-&lt;p&gt;I had 30 minutes to present and I did it in 26. I usually speak fast and this
-presentation &lt;strong&gt;was made to be fast&lt;/strong&gt; because I had a lot of content to show in
-30 minutes. So, &lt;strong&gt;it was FAST&lt;/strong&gt; (even more than what I was expecting). LOL&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m OK with the final result. It&amp;rsquo;s far from being my best presentation but it&amp;rsquo;s
-the first one in a different language, so it&amp;rsquo;s acceptable.&lt;/p&gt;
-
-&lt;p&gt;They already published the video for my presentation, and it
-is &lt;a href=&#34;https://video.fosdem.org/2017/K.4.401/&#34;&gt;available here&lt;/a&gt; as
-&lt;strong&gt;desktops_open_source_behind_web_request&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;In case you want more information about the presentation, including the slides,
-you may want to check its page
-on
-&lt;a href=&#34;https://fosdem.org/2017/schedule/event/desktops_open_source_behind_web_request/&#34;&gt;FOSDEM Schedule&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;FOSDEM was great, can&amp;rsquo;t wait for the next! :)&lt;/p&gt;
-</description>
+      <description>This year my proposal to speak at FOSDEM was accepted and I spoke at the Desktop devroom! :)
+It was my first talk in English, so I decided to do as many rehearsals as I could. I was 8 in total, but as expected, it was still a little bit faster than expected. :P
+I had 30 minutes to present and I did it in 26. I usually speak fast and this presentation was made to be fast because I had a lot of content to show in 30 minutes.</description>
     </item>
     
     <item>
@@ -48,42 +29,9 @@ on
       <pubDate>Mon, 31 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/as-escolhas-do-desenvolvedor/</guid>
-      <description>&lt;p&gt;Esse ano fui chamado para palestrar em todas as edições do Encontro Locaweb que
-acontecem por várias cidades do Brasil! Palestrei em 6 cidades de estados
-diferentes, e aconteceram na seguinte ordem:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.flickr.com/photos/locaweb/sets/72157650885375530&#34;&gt;Belo Horizonte&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.flickr.com/photos/locaweb/sets/72157651709980410&#34;&gt;Curitiba&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.flickr.com/photos/locaweb/sets/72157649789309524&#34;&gt;Recife&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.flickr.com/photos/locaweb/sets/72157652339858570&#34;&gt;Porto Alegre&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.flickr.com/photos/locaweb/sets/72157652754664218&#34;&gt;Rio de Janeiro&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.flickr.com/photos/locaweb/sets/72157654905073816&#34;&gt;São Paulo&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Adicionei os links para as fotos dos eventos na listagem acima. :)&lt;/p&gt;
-
-&lt;p&gt;Minha palestra se chama &amp;ldquo;As escolhas do desenvolvedor&amp;rdquo; e fala sobre as escolhas
-que fazemos durante nossa carreira de desenvolvedor, escolhas com linguagens,
-configurações de servidores, deploy, equipe, testes e etc. A ideia dessa
-palestra é mostrar as opções que temos para cada uma dessas etapas.&lt;/p&gt;
-
-&lt;p&gt;Esses são os slides da palestra:&lt;/p&gt;
-
-&lt;iframe src=&#34;http://www.slideshare.net/PotHix/slideshelf&#34; width=&#34;490px&#34; height=&#34;470px&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:none;&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Demorei para publicar esse post porque o encontro Locaweb de São Paulo
-foi gravado e eu estava esperando liberarem os vídeos para eu poder
-publicar junto com o post.&lt;/p&gt;
-
-&lt;p&gt;Para assistir é só se increver no
-&lt;a href=&#34;https://www.eventials.com/locaweb/groups/17o-encontro-locaweb-de-profissionais-de-internet/&#34;&gt;grupo do encontro Locaweb na eventials&lt;/a&gt;
-e assistir
-&lt;a href=&#34;https://www.eventials.com/locaweb/as-escolhas-do-desenvolvedor-com-willian-molinari-a-k-a-pothix/&#34;&gt;nesse link&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Obrigado a todos que prestigiaram o evento e espero ter contribuído com alguma
-coisa legal com a palestra.&lt;/p&gt;
-</description>
+      <description>Esse ano fui chamado para palestrar em todas as edições do Encontro Locaweb que acontecem por várias cidades do Brasil! Palestrei em 6 cidades de estados diferentes, e aconteceram na seguinte ordem:
+ Belo Horizonte Curitiba Recife Porto Alegre Rio de Janeiro São Paulo  Adicionei os links para as fotos dos eventos na listagem acima. :)
+Minha palestra se chama &amp;ldquo;As escolhas do desenvolvedor&amp;rdquo; e fala sobre as escolhas que fazemos durante nossa carreira de desenvolvedor, escolhas com linguagens, configurações de servidores, deploy, equipe, testes e etc.</description>
     </item>
     
     <item>
@@ -92,43 +40,8 @@ coisa legal com a palestra.&lt;/p&gt;
       <pubDate>Mon, 15 Jul 2013 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/game-network-programming/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;English Abstract&lt;/strong&gt;: This post was about my presentation with Diego Souza
-(vulgo Marciano) about Game network programming. I was studying and reading
-Quake source just for fun and decided to learn more about game networking in
-general, so I decided to prepare this presentation to show other people what
-I’ve learned. You can see the full video (portuguese only, sorry) and the slides
-below.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Portuguese&lt;/strong&gt;: Eu e o Diego Souza (vulgo Marciano) fizemos uma palestra sobre
-  Game network programming tanto na Locaweb como no Guru-SP. A palestra que
-  fizemos no Guru-SP foi gravada pelo Agaelebe:&lt;/p&gt;
-
-&lt;p&gt;&lt;embed type=&#34;application/x-shockwave-flash&#34; src=&#34;http://a.blip.tv/api.swf#hOdBg5PuBQI&#34; style=&#34;display:none&#34;&gt;&lt;/embed&gt;&lt;/p&gt;
-
-&lt;p&gt;E aqui estão os slides:&lt;/p&gt;
-
-&lt;iframe src=&#34;http://blip.tv/play/hOdBg5PuBQI.html?p=1&#34; width=&#34;550&#34; height=&#34;443&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Como eu estava na vibe de jogos desde o começo do ano passado, eu estava lendo
-os posts sobre o código do Quake. Quem me conhece sabe que eu trabalho na equipe
-de IaaS da Locaweb e lá nós lidamos com bastante coisa de redes e eu curto o
-assunto.&lt;/p&gt;
-
-&lt;p&gt;Conversando com o Diego sobre os algoritmos de redes utilizados no Quake nós
-decidimos juntar as pesquisas dele sobre os protocolos TCP e UDP com o que eu li
-sobre a implementação dos algoritmos nos jogos para poder fazer uma palestra
-legal de game network programming, e assim saiu essa palestra.&lt;/p&gt;
-
-&lt;p&gt;Lá nós apresentamos os algoritmos de alguns jogos como o Quake, Age of Empires e
-outros não tão conhecidos, mostrando as soluções legais que eles chegaram e
-quais foram os maiores desafios que eles encontraram para resolver os problemas
-de latencia e necessidade de velocidade. O Diego focou mais na parte de
-otimização dos algoritmos e flags que podem ser alteradas para melhorar o
-comportamento da rede.&lt;/p&gt;
-
-&lt;p&gt;Essa foi uma palestra muito legal de fazer e aprendi bastante no processo
-também! Se tiverem dúvidas postem aí nos comentários. :)&lt;/p&gt;
-</description>
+      <description>English Abstract: This post was about my presentation with Diego Souza (vulgo Marciano) about Game network programming. I was studying and reading Quake source just for fun and decided to learn more about game networking in general, so I decided to prepare this presentation to show other people what I’ve learned. You can see the full video (portuguese only, sorry) and the slides below.
+Portuguese: Eu e o Diego Souza (vulgo Marciano) fizemos uma palestra sobre Game network programming tanto na Locaweb como no Guru-SP.</description>
     </item>
     
     <item>
@@ -137,48 +50,9 @@ também! Se tiverem dúvidas postem aí nos comentários. :)&lt;/p&gt;
       <pubDate>Tue, 04 Dec 2012 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/plaev5-e-skeleton-jigsaw/</guid>
-      <description>&lt;p&gt;Depois de muito tempo desenvolvendo finalmente terminamos o Skeleton-Jigsaw em
-outubro! Demorei para postar sobre isso aqui no blog por falta de tempo, mas
-aqui está!&lt;/p&gt;
-
-&lt;p&gt;Eu e o Rafael Masoni trabalhamos nesse jogo durante quase 1 ano (começamos a
-falar dele no comecinho de janeiro) investindo nosso tempo livre para fazer
-todas as partes do jogo (audio, programação, arte, game design, level design e
-etc).&lt;/p&gt;
-
-&lt;p&gt;Vou descrever um pouco do que fizemos e como organizamos, mas vai ser apenas um
-resumo do que falamos na nossa palestra no Guru-SP:&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/J2yDMOHCYak&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/15490608&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt;
-
-&lt;p&gt;Obrigado pelo vídeo Agaelebe!&lt;/p&gt;
-
-&lt;p&gt;Começamos a trabalhar em janeiro do ano passado no que seria um protótipo da
-impact e aos poucos o jogo foi tomando forma e estavamos investindo cada vez
-mais esforço nele. A cada semana fazíamos uma Skype call para discutir no que
-trabalharíamos durante a semana e fazíamos o possível para entregar o que
-conversamos até a próxima call.&lt;/p&gt;
-
-&lt;p&gt;Foi bem legal trabalhar em todos os pontos do jogo, opinando em arte,
-trabalhando em trilha sonora, programando, discutindo level design, escrevendo
-uma prévia de história, otimizando assets, testando em vários navegadores,
-fazendo game design e tudo mais.&lt;/p&gt;
-
-&lt;p&gt;Todo esse trabalho trouxe muitas experiências legais de como é entregar um jogo
-funcional e completo para o seu escopo, e estou bem orgulhoso de conseguir
-entregar o jogo demo finalizado, e não deixar mais um trabalho incompleto
-perdido por aí.&lt;/p&gt;
-
-&lt;p&gt;Ainda não sabemos quais os planos para a Plæv, mas agora ela já tem seu primeiro
-jogo demo para não ficar com o portfolio em branco. :)&lt;/p&gt;
-
-&lt;p&gt;Não quis descrever muito aqui no post para não ficar somente repetindo conteúdo
-do vídeo, mas se tiverem dúvidas coloquem nos comentários.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Alexandre Araujo, David Paniz | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Depois de muito tempo desenvolvendo finalmente terminamos o Skeleton-Jigsaw em outubro! Demorei para postar sobre isso aqui no blog por falta de tempo, mas aqui está!
+Eu e o Rafael Masoni trabalhamos nesse jogo durante quase 1 ano (começamos a falar dele no comecinho de janeiro) investindo nosso tempo livre para fazer todas as partes do jogo (audio, programação, arte, game design, level design e etc).
+Vou descrever um pouco do que fizemos e como organizamos, mas vai ser apenas um resumo do que falamos na nossa palestra no Guru-SP:</description>
     </item>
     
     <item>
@@ -187,26 +61,8 @@ do vídeo, mas se tiverem dúvidas coloquem nos comentários.&lt;/p&gt;
       <pubDate>Mon, 16 Jul 2012 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/palestra-sobre-implementacoes-paralelas/</guid>
-      <description>&lt;p&gt;Esse post ficou como draft desde que eu palestrei sobre implementações
-paralelas, e agora que eu lembrei dele decidi publicar! :)&lt;/p&gt;
-
-&lt;p&gt;Bem, como eu disse, eu paletrei sobre implementacoes paralelas tanto
-na Locaweb como no Guru-SP. A idea da palestra vem de um post do John
-Carmack sobre implementações paralelas, e nesse post ele comenta sobre
-todos os tipos de implementação paralela que ele já utilizou e as que
-mais funcionaram para cada tipo de caso.&lt;/p&gt;
-
-&lt;p&gt;Na minha palestra eu comento sobre todos os tipos de implementacoes
-que eu ja utilizei e quais delas foram boas ou ruins para determinado
-caso.&lt;/p&gt;
-
-&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/11724894&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;iframe src=&#34;http://blip.tv/play/hOdBgu3uVQI.html?p=1&#34; width=&#34;596&#34; height=&#34;334&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Essas técnicas simples ajudaram a manter nosso código muito mais fácil
-de manter. Espero que seja útil para mais alguém. ;)&lt;/p&gt;
-</description>
+      <description>Esse post ficou como draft desde que eu palestrei sobre implementações paralelas, e agora que eu lembrei dele decidi publicar! :)
+Bem, como eu disse, eu paletrei sobre implementacoes paralelas tanto na Locaweb como no Guru-SP. A idea da palestra vem de um post do John Carmack sobre implementações paralelas, e nesse post ele comenta sobre todos os tipos de implementação paralela que ele já utilizou e as que mais funcionaram para cada tipo de caso.</description>
     </item>
     
     <item>
@@ -215,36 +71,8 @@ de manter. Espero que seja útil para mais alguém. ;)&lt;/p&gt;
       <pubDate>Mon, 23 May 2011 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/palestra-sobre-gamedev-javascript-e5/</guid>
-      <description>&lt;p&gt;Esse fim de semana eu palestrei no FLISOL de São José dos Campos sobre
-desenvolvimento de jogos, Javascript e HTML5. Foi uma palestra simples
-e rápida, durou pouco mais de meia hora (preciso aprender a falar um
-pouco mais devagar :P) mas foi divertido.&lt;/p&gt;
-
-&lt;p&gt;A grande maioria das pessoas que estavam assistindo a palestra não
-eram desenvolvedores, e estavam começando a estudar agora, e acho que
-por isso não surgiram muitas perguntas sobre o assunto, mesmo eu
-evitando colocar código.&lt;/p&gt;
-
-&lt;p&gt;Os slides da palestra foram esses:&lt;/p&gt;
-
-&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/8069932&#34;
-width=&#34;425&#34; height=&#34;355&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34;
-marginheight=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Queria agradecer ao &lt;a href=&#34;http://kesiev.com&#34;&gt;Kesiev&lt;/a&gt; pelas dicas sobre o
-que falar do Akihabara e para os amigos da
-&lt;a href=&#34;http://plaevteam.com&#34;&gt;Plaev&lt;/a&gt; pelas fotos para o slide do
-&lt;a href=&#34;http://plaevteam.com/rott&#34;&gt;Rise of theTitans&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Um amigo que estava assistindo a palestra fez o favor de gravar para mim:&lt;/p&gt;
-
-&lt;iframe src=&#34;http://player.vimeo.com/video/24100947?title=0&amp;amp;byline=0&amp;amp;portrait=0&#34; width=&#34;400&#34; height=&#34;300&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Vou colocar mais exemplos e código para as próximas apresentações desse tema.
-Sugestões e críticas construtivas são bem vindas! ;)&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Hugo Roque (a.k.a hugolnx), Berg Ginu, Berg Ginu | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Esse fim de semana eu palestrei no FLISOL de São José dos Campos sobre desenvolvimento de jogos, Javascript e HTML5. Foi uma palestra simples e rápida, durou pouco mais de meia hora (preciso aprender a falar um pouco mais devagar :P) mas foi divertido.
+A grande maioria das pessoas que estavam assistindo a palestra não eram desenvolvedores, e estavam começando a estudar agora, e acho que por isso não surgiram muitas perguntas sobre o assunto, mesmo eu evitando colocar código.</description>
     </item>
     
     <item>
@@ -253,39 +81,9 @@ Sugestões e críticas construtivas são bem vindas! ;)&lt;/p&gt;
       <pubDate>Mon, 29 Mar 2010 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/palestra-sobre-vim/</guid>
-      <description>&lt;p&gt;Esse vai ser um post curto, apenas para deixar registrado algumas
-informações sobre a palestra de Vim que teve no sétimo encontro do
-Guru-sp (sim, eu fui o palestrante :D).&lt;/p&gt;
-
-&lt;p&gt;Primeiramente, já começo com uma desculpa, por que já faz mais de 2
-semanas que palestrei e só agora estou fazendo esse post. :(&lt;/p&gt;
-
-&lt;p&gt;Foi bem legal palestrar para uma galera que já conhecia ao menos um
-pouco do editor. Quando eu estava planejando o que eu ia falar eu
-fiquei com uma grande dúvida de qual seria a minha linha de
-apresentação, por que eu não sabia quantos já conheciam o editor,
-portanto eu poderia chegar falando de coisas avançadas e ninguem
-entenderia nada, ou pelo contrário, se muitos conhecessem e eu
-chegasse falando de coisas básicas demais a palestra seria um saco.  A
-minha solução para isso foi preparar os slides de uma forma que eu
-conseguisse falar mais ou menos de determinados assuntos baseado no
-conhecimento do pessoal. Os slides que saíram foram esses:&lt;/p&gt;
-
-&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/bCel8ASrPtnGEv&#34; width=&#34;425&#34; height=&#34;355&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Quando perguntei para o pessoal quem já utilizava, quem nunca abriu
-(ou não conseguiu sair&amp;hellip;heheh) e que usa como editor principal, eu
-descobri que estava equilibrado. Portanto segui uma linha mais comum.&lt;/p&gt;
-
-&lt;p&gt;Tive a sorte do &lt;a href=&#34;http://www.agaelebe.com.br&#34;&gt;agaelebe&lt;/a&gt; gravar (valeu
-Hugo!), e portanto temos o vídeo tambem:&lt;/p&gt;
-
-&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/uhYqwZh61yQ&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Qualquer dúvida, comentário ou sugestão é só postar aqui! :)&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Sérgio Luiz Araújo Silva, Vinicius B. Fuentes, Bruno Croci, otubo | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Esse vai ser um post curto, apenas para deixar registrado algumas informações sobre a palestra de Vim que teve no sétimo encontro do Guru-sp (sim, eu fui o palestrante :D).
+Primeiramente, já começo com uma desculpa, por que já faz mais de 2 semanas que palestrei e só agora estou fazendo esse post. :(
+Foi bem legal palestrar para uma galera que já conhecia ao menos um pouco do editor. Quando eu estava planejando o que eu ia falar eu fiquei com uma grande dúvida de qual seria a minha linha de apresentação, por que eu não sabia quantos já conheciam o editor, portanto eu poderia chegar falando de coisas avançadas e ninguem entenderia nada, ou pelo contrário, se muitos conhecessem e eu chegasse falando de coisas básicas demais a palestra seria um saco.</description>
     </item>
     
   </channel>

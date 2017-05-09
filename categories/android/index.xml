@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Android on PotHix</title>
-    <link>http://pothix.com/categories/android/index.xml</link>
+    <link>http://pothix.com/categories/android/</link>
     <description>Recent content in Android on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="http://pothix.com/categories/android/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Mar 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://pothix.com/categories/android/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Instalando o Full Throttle no Motorola Milestone</title>
@@ -15,43 +18,9 @@
       <pubDate>Thu, 03 Mar 2011 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/instalando-o-full-throttle-no-motorola-milestone/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/full_throtle_pothix.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/full_throtle_pothix.jpg&#34; alt=&#34;Foto do full throtle rodando no meu notebook toshiba&#34; title=&#34;Full throtle rodando no meu toshiba&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Logo depois que eu comprei a minha
-&lt;a href=&#34;https://picasaweb.google.com/lh/photo/HIT3xHsxwbk29ZWpW4x0wA?feat=directlink&#34;&gt;Dragstar 650&lt;/a&gt;,
-me deu uma grande vontade de voltar a jogar full throttle (por que será, né?), e
-eu comecei a procurar uma forma de fazer isso.&lt;/p&gt;
-
-&lt;p&gt;Eu tenho o jogo (o CD-ROM mesmo) ripado no meu computador, e agora só faltava emular ele.&lt;/p&gt;
-
-&lt;p&gt;Procurando na internet eu achei o &lt;a href=&#34;http://www.scummvm.org/&#34;&gt;scummvm&lt;/a&gt; que emula
-os games da &lt;a href=&#34;http://www.lucasarts.com/&#34;&gt;LucasArts&lt;/a&gt; em várias plataformas! Baixei
-o .deb e comecei a jogar no Ubuntu. Rodou bonitinho e estava gostando pra caramba!&lt;/p&gt;
-
-&lt;p&gt;Depois de jogar um pouco eu me toquei que eu não tenho tanto tempo para parar na
-frente do computador e ficar jogando, e não é nada prático ficar levando meu
-notebook para lá e para cá, portanto eu precisava de uma maneira mais portátil
-de jogar o game, e consequentemente isso me levou a pensar em como fazer o game
-funcionar no meu Android (um motorola milestone).&lt;/p&gt;
-
-&lt;p&gt;Procurando no &lt;a href=&#34;http://www.scummvm.org/downloads/&#34;&gt;site do scummvm eu encontrei um build para Android
-(um .apk, bonitinho)&lt;/a&gt;, mas ao tentar instalar no
-Milestone ele não funcionou, devido as modificações na versão do NDK, pois a
-versão oficial do build que está no site é um pouco antiga. :(&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://forums.scummvm.org/viewtopic.php?t=8137&amp;amp;amp;postdays=0&amp;amp;amp;postorder=asc&amp;amp;amp;start=30&#34;&gt;Procurando nos fóruns por ae&lt;/a&gt;
-eu &lt;a href=&#34;http://anddev.at.ua/load/scummvm_svn55436/1-1-0-7&#34;&gt;encontrei uma versão feita em cima de um commit mais recente&lt;/a&gt;
-do antigo svn (agora eles estão usando Git e o projeto está no
-&lt;a href=&#34;http://github.com&#34;&gt;GitHub&lt;/a&gt; \o/) do scummvm.&lt;/p&gt;
-
-&lt;p&gt;Baixei o .apk e instalei no Android. Após algumas configurações do SDL tudo
-funcionou beleza e o scummvm abriu bonitinho! Agora é só colocar o meu full
-throttle ripado no SD e falar para o scummvm dar o load.&lt;/p&gt;
-
-&lt;p&gt;Seja bem vindo ao mundo dos polecats novamente! :D&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Tino Gomes | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Logo depois que eu comprei a minha Dragstar 650, me deu uma grande vontade de voltar a jogar full throttle (por que será, né?), e eu comecei a procurar uma forma de fazer isso.
+Eu tenho o jogo (o CD-ROM mesmo) ripado no meu computador, e agora só faltava emular ele.
+Procurando na internet eu achei o scummvm que emula os games da LucasArts em várias plataformas! Baixei o .</description>
     </item>
     
     <item>
@@ -60,96 +29,8 @@ throttle ripado no SD e falar para o scummvm dar o load.&lt;/p&gt;
       <pubDate>Wed, 08 Sep 2010 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/fluxo-de-leitura-e-o-android/</guid>
-      <description>
-
-&lt;p&gt;Quem me conhece sabe como eu sou meio doido quanto a ler coisas
-aleatórias (Google reader e artigos interessantes que eu acho perdidos
-por aí), e como eu tenho um tempo um pouco limitado, devido ao
-trabalho e a faculdade eu sempre tenho alguns esquemas diferentes para
-ler. :P&lt;/p&gt;
-
-&lt;h4 id=&#34;fluxo-de-leitura&#34;&gt;Fluxo de leitura&lt;/h4&gt;
-
-&lt;p&gt;Depois que eu comprei um Android o meu fluxo de leitura se modificou
-um pouco. E está da seguinte maneira:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Aproveito o café da manhã para dar uma revisada no meu Google Reader pelo celular, colocando estrela nos artigos que me interessam&lt;/li&gt;
-&lt;li&gt;Termino de separar os artigos e colocar estrela nos que me interessam e marcar como lido os que não interessam&lt;/li&gt;
-&lt;li&gt;Leio os artigos pequenos que estão com estrela e os artigos maiores vão para o Android&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;E com isso eu consigo pegar meus &amp;ldquo;tempos livres&amp;rdquo; para ler um pouco
-desses artigos aos poucos.&lt;/p&gt;
-
-&lt;h4 id=&#34;aplicações-para-android&#34;&gt;Aplicações para Android&lt;/h4&gt;
-
-&lt;p&gt;Quando comprei o celular já estava pensando em conseguir aplicações
-legais para leitura justamente para ajudar a resolver esse meu
-&amp;ldquo;problema&amp;rdquo;, portanto fui atrás logo cedo.  Minha primeira idéia era
-simplesmente colocar um .pdf no Android e ler em qualquer leitor de
-PDF normal, como o quickoffice ou até mesmo o adobereader para
-Android.&lt;/p&gt;
-
-&lt;p&gt;Seguindo o caminho PDF eu descobri que é um pouco desconfortável ficar
-lendo PDFs em uma tela pequena, e vc precisa ficar fazendo scroll com
-frequencia, dar zoom e etc, e isso deixa a leitura meio enfadonha
-(sempre quis usar essa palavra :P).  Então decidi seguir outro rumo
-não muito comum, vou transformar esses artigos em .epub e ler em um
-leitor de epubs para Android.  Os dois leitores legais que eu
-encontrei foram:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.appbrain.com/app/com.reader.books.laputa.ui&#34;&gt;Laputa&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.appbrain.com/app/com.aldiko.android&#34;&gt;Aldiko&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Primeiramente tentei algo com o &lt;strong&gt;Laputa&lt;/strong&gt; que parecia um iBooks para
-Android. Todo cheio de frescuras de desenhar quando você está virando
-a página para parecer um livro e tal, mas eu prefiro as coisas mais
-simples :).&lt;/p&gt;
-
-&lt;p&gt;Ao mesmo tempo já estava testando o &lt;strong&gt;Aldiko&lt;/strong&gt; tambem e comparando
-funcionalidades. O Aldiko tinha as mesmas funcionalidades só que com
-menos frescuras e algumas coisas a mais que realmente fazem a
-diferença, como o ajuste de brilho tocando o lado esquerdo da tela,
-por exemplo.&lt;/p&gt;
-
-&lt;p&gt;E no fim das contas acabei decidindo usar o &lt;strong&gt;Aldiko&lt;/strong&gt; como meu leitor
-padrão, por ter boas funcionalidades e não ter frescuras. Mas depois
-disso ainda tinha um problema para resolver&amp;hellip;Tinha que transformar em
-.epub e colocar no Android toda vez que eu quisesse ler um texto nele,
-e isso provavelmente ia ser uma tarefa muito chata&amp;hellip;Se não fosse o
-&lt;strong&gt;Calibre&lt;/strong&gt;! :D&lt;/p&gt;
-
-&lt;h4 id=&#34;calibre&#34;&gt;Calibre&lt;/h4&gt;
-
-&lt;p&gt;O &lt;strong&gt;Calibre&lt;/strong&gt; é uma aplicação para organização de ebooks que provê uma
-maneira fácil para editar metatags e exportar para diversos formatos.&lt;/p&gt;
-
-&lt;p&gt;A ultima versão (se vc usa Ubuntu, não instale por apt-get que a
-versão é antiga, &lt;a href=&#34;http://calibre-ebook.com/download_linux&#34;&gt;instale diretamente do
-site&lt;/a&gt;) reconhece
-perfeitamente o meu Milestone e envia para a pasta eBooks/import, que
-é a pasta que o Aldiko usa para importar ebooks! :D&lt;/p&gt;
-
-&lt;p&gt;Portanto, utilizando essas ferramentas ficou muito fácil de seguir o
-meu fluxo de leitura:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ler um artigo com estrela&lt;/li&gt;
-&lt;li&gt;Se for grande imprimir em pdf (geralmente uso um plugin do Chrome chamado iReader, que formata muito bem para leitura/impressão)&lt;/li&gt;
-&lt;li&gt;converter o .pdf para .epub no calibre e já enviar direto para o Android&lt;/li&gt;
-&lt;li&gt;no Aldiko importar os novos livros&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;E pronto! Agora tenho os artigos que eu quero ler em boa fonte, como
-se fosse um ebook comum! :)&lt;/p&gt;
-
-&lt;p&gt;Espero que seja útil para mais alguem.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Bruna Griebeler, Bruno Croci, Emerson Vinicius | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Quem me conhece sabe como eu sou meio doido quanto a ler coisas aleatórias (Google reader e artigos interessantes que eu acho perdidos por aí), e como eu tenho um tempo um pouco limitado, devido ao trabalho e a faculdade eu sempre tenho alguns esquemas diferentes para ler. :P
+Fluxo de leitura Depois que eu comprei um Android o meu fluxo de leitura se modificou um pouco. E está da seguinte maneira:</description>
     </item>
     
   </channel>

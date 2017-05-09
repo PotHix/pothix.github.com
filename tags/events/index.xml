@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Events on PotHix</title>
-    <link>http://pothix.com/tags/events/index.xml</link>
+    <link>http://pothix.com/tags/events/</link>
     <description>Recent content in Events on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="http://pothix.com/tags/events/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Mar 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://pothix.com/tags/events/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>FOSDEM survival guide</title>
@@ -15,124 +18,8 @@
       <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/fosdem-survival-guide/</guid>
-      <description>
-
-&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: It was my first time at &lt;a href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt; and it
-took some time to feel comfortable, this post may help newcomers.&lt;/p&gt;
-
-&lt;p&gt;As I mentioned in my previous post, I spoke
-at &lt;a href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt; this year. It was my first time there
-(in the whole Europe, btw!) and it took some time to get used to the
-way the event goes. This post will show some tips that may help FOSDEM
-newcomers and maybe some veterans as well.&lt;/p&gt;
-
-&lt;h3 id=&#34;what-is-fosdem&#34;&gt;What is FOSDEM?&lt;/h3&gt;
-
-&lt;p&gt;FOSDEM is the &lt;em&gt;Free and Open Source Developers - European
-Meeting&lt;/em&gt;. Long story short, it&amp;rsquo;s a big self organized event that
-happens in Brussels every year since 2013.&lt;/p&gt;
-
-&lt;p&gt;The conference has many Devrooms organized by volunteers with a
-predefined schedule guided by topic. Aside of that are the main
-tracks, that are some unique presentations happening in some big
-rooms.&lt;/p&gt;
-
-&lt;p&gt;The whole event survives from donations and some sponsors, but it&amp;rsquo;s
-not organized by a company (like OSCON, for example). There are many
-volunteers that work hard to make it happen.&lt;/p&gt;
-
-&lt;h3 id=&#34;how-it-works&#34;&gt;How it works&lt;/h3&gt;
-
-&lt;p&gt;The conference happens at the Université libre de Bruxelles, using
-some buildings of the university.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://pothix.com/images/posts/fosdem-survival-guide/map.png&#34; alt=&#34;Map of FOSDEM buildings&#34; title=&#34;FOSDEM map&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;All the tracks are spread across these buildings. Depending on where
-you are, you have to reserve some time to reach the other building. It
-is not so far, but may take 10 or 15 minutes depending on your
-location.&lt;/p&gt;
-
-&lt;p&gt;Think about the time it will take on the transition in case you want
-to watch as many presentations as possible. Also, plan ahead your time
-to be at the room because it may be full when you get there&amp;hellip;&lt;/p&gt;
-
-&lt;h3 id=&#34;full-rooms&#34;&gt;FULL rooms&lt;/h3&gt;
-
-&lt;p&gt;FOSDEM is chaotic. It&amp;rsquo;s is a good and a bad thing at the same time.&lt;/p&gt;
-
-&lt;p&gt;Conferences like these, organized by the community for the community,
-are the kinds of events I really like. They tend to be chaotic, but it
-means people are free to do whatever they want.&lt;/p&gt;
-
-&lt;p&gt;They can walk through the university and watch whatever they
-want. FOSDEM publishes a big schedule with information about all the
-presentations happening across all rooms and you may create your on
-schedule. I did it before going but forgot to consider the time
-between buildings and the &amp;ldquo;FULL&amp;rdquo; rooms.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://pothix.com/images/posts/fosdem-survival-guide/full-room.jpg&#34; alt=&#34;The &amp;quot;FULL&amp;quot; sign&#34; title=&#34;Full rooms&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;There are some limits that need to be respected, one of them is the
-number of people inside the room. When the room is fulfilled with
-people they add a &amp;ldquo;FULL&amp;rdquo; sign at the door and nobody is authorized to
-enter. It make sense, but is really annoying for newcomers.&lt;/p&gt;
-
-&lt;p&gt;When planning your schedule, plan to get to the room at least 15
-minutes before it starts.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;TIP&lt;/strong&gt;: instead of jump between many rooms, it&amp;rsquo;s a good idea to
-choose one or two and stay there for 2 or more presentations. It will
-guarantee a spot for you in the room.&lt;/p&gt;
-
-&lt;p&gt;My schedule did not consider the time walking between buildings and
-the full rooms, so&amp;hellip; could not enter in 4+ rooms I wanted to be in.&lt;/p&gt;
-
-&lt;h3 id=&#34;lunch&#34;&gt;Lunch&lt;/h3&gt;
-
-&lt;p&gt;There are some food trucks there. They do not give you a receipt (in
-case your company is refunding your travel, you may need it), so be
-prepared for that.&lt;/p&gt;
-
-&lt;p&gt;It tend to be crowded at peak hours (noon, maybe?), try to get
-something to eat before or after. But be warned that it is almost
-&lt;em&gt;always&lt;/em&gt; crowded. :)&lt;/p&gt;
-
-&lt;p&gt;The conference don&amp;rsquo;t have any breaks, if you want to eat something,
-you will have to decide to not watch a presentation and use the time
-for it.&lt;/p&gt;
-
-&lt;h3 id=&#34;parties&#34;&gt;Parties&lt;/h3&gt;
-
-&lt;p&gt;They have a pre-conference party at Delirium. The bar is closed for
-conference members only (they ask some tech questions to get you in
-:P). It is not a huge place to have everyone in, so it will be
-&lt;strong&gt;really&lt;/strong&gt; crowded and hot there. Almost the same amount of people
-will be chatting and drinking outside of the bar as well.&lt;/p&gt;
-
-&lt;p&gt;After the first day of conference, there is a second party, usually in
-a hacker space in Brussels.&lt;/p&gt;
-
-&lt;h3 id=&#34;presentations&#34;&gt;Presentations&lt;/h3&gt;
-
-&lt;p&gt;Always read the presentation description. Some of them has &amp;ldquo;click
-bait&amp;rdquo; (attend bait in this case?) title, sometimes not intended. I
-attended to one of them about a language development. I was expecting
-something about the day-to-day of the language development and what
-features are planned for the future. Unfortunately, it was not what I
-(and many people in the room) were expecting. It was about the metrics
-and dashboards of the language contributors and features.&lt;/p&gt;
-
-&lt;p&gt;In this case, it was not probably not intentional, but almost 50% of
-the room left before the presentation ended.&lt;/p&gt;
-
-&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;FOSDEM is a great event, I really enjoyed it! I would like to have
-received these tips before, so I would have planned my day better.&lt;/p&gt;
-
-&lt;p&gt;Hope it helps the 2018 FOSDEM attendants. o/&lt;/p&gt;
-</description>
+      <description>TL;DR: It was my first time at FOSDEM and it took some time to feel comfortable, this post may help newcomers.
+As I mentioned in my previous post, I spoke at FOSDEM this year. It was my first time there (in the whole Europe, btw!) and it took some time to get used to the way the event goes. This post will show some tips that may help FOSDEM newcomers and maybe some veterans as well.</description>
     </item>
     
     <item>
@@ -141,31 +28,9 @@ received these tips before, so I would have planned my day better.&lt;/p&gt;
       <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/my-presentation-at-fosdem-2017/</guid>
-      <description>&lt;p&gt;This year my proposal to speak at &lt;a href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt; was accepted and I
-spoke at the Desktop devroom! :)&lt;/p&gt;
-
-&lt;p&gt;It was my first talk in English, so I decided to do as many rehearsals as I
-could. I was 8 in total, but as expected, it was still a little bit faster than
-expected. :P&lt;/p&gt;
-
-&lt;p&gt;I had 30 minutes to present and I did it in 26. I usually speak fast and this
-presentation &lt;strong&gt;was made to be fast&lt;/strong&gt; because I had a lot of content to show in
-30 minutes. So, &lt;strong&gt;it was FAST&lt;/strong&gt; (even more than what I was expecting). LOL&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m OK with the final result. It&amp;rsquo;s far from being my best presentation but it&amp;rsquo;s
-the first one in a different language, so it&amp;rsquo;s acceptable.&lt;/p&gt;
-
-&lt;p&gt;They already published the video for my presentation, and it
-is &lt;a href=&#34;https://video.fosdem.org/2017/K.4.401/&#34;&gt;available here&lt;/a&gt; as
-&lt;strong&gt;desktops_open_source_behind_web_request&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;In case you want more information about the presentation, including the slides,
-you may want to check its page
-on
-&lt;a href=&#34;https://fosdem.org/2017/schedule/event/desktops_open_source_behind_web_request/&#34;&gt;FOSDEM Schedule&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;FOSDEM was great, can&amp;rsquo;t wait for the next! :)&lt;/p&gt;
-</description>
+      <description>This year my proposal to speak at FOSDEM was accepted and I spoke at the Desktop devroom! :)
+It was my first talk in English, so I decided to do as many rehearsals as I could. I was 8 in total, but as expected, it was still a little bit faster than expected. :P
+I had 30 minutes to present and I did it in 26. I usually speak fast and this presentation was made to be fast because I had a lot of content to show in 30 minutes.</description>
     </item>
     
     <item>
@@ -174,71 +39,9 @@ on
       <pubDate>Mon, 26 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/rubyconf-2016/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: A melhor Rubyconf que eu participei&lt;/p&gt;
-
-&lt;p&gt;Nos dias 24 e 25 de Setembro de 2016 aconteceu a Rubyconf Brasil.
-Assim como eu
-&lt;a href=&#34;http://pothix.com/2008/10/21/rails-summit-latin-america.html&#34;&gt;fiz um post sobre o primeiro Rails Summit que o Akita participou da organização&lt;/a&gt;,
-resolvi também fazer um post sobre a última rubyconf que ele resolveu
-organizar.&lt;/p&gt;
-
-&lt;p&gt;Essa Rubyconf teve vários pontos especialmente importantes para mim. O
-&lt;strong&gt;primeiro deles&lt;/strong&gt; foi logo no início quando o Gilberto Mautner, que é um
-dos fundadores da Locaweb, mencionou os números do projeto que eu
-estou trabalhando por lá.&lt;/p&gt;
-
-&lt;p&gt;Atualmente estou trabalhando em um projeto para melhorar o tempo de
-entrega das equipes de desenvolvimento. Para que esse projeto seja bem
-sucedido, nós precisamos rever vários processos e arquitetura de
-aplicações. O fato dele ser mostrado na introdução da conferência por
-ser um projeto legal já diz muito sobre o nosso trabalho.&lt;/p&gt;
-
-&lt;p&gt;O &lt;strong&gt;segundo ponto foi a minha palestra&lt;/strong&gt;, que aconteceu no primeiro
-dia as 15:45 no andar aberto (os slides estão
-&lt;a href=&#34;http://cege.la/nzhl40&#34;&gt;aqui&lt;/a&gt;). Para essa palestra eu estava mais
-nervoso do que normalmente fico, porque sabia que eu teria que falar
-bem rápido se quisesse passar todo o conteúdo no tempo que eu
-tinha. Além disso, essa não era uma palestra normal! Eu fiz o
-lançamento do
-&lt;a href=&#34;https://desconstruindoaweb.com.br/?source=pothix.com&#34;&gt;meu livro&lt;/a&gt; no
-fim.&lt;/p&gt;
-
-&lt;p&gt;E esse foi o &lt;strong&gt;terceiro ponto&lt;/strong&gt; importante dessa conferência. O livro
-estava
-&lt;a href=&#34;https://www.casadocodigo.com.br/products/livro-desconstruindo-web&#34;&gt;disponível no site da casa do código&lt;/a&gt;
-desde o começo do mês, mas eu estava aguardando essa oportunidade para
-divulgar. Foi um mês de expectativa para finalmente mostrar um
-trabalho que eu me orgulho muito.&lt;/p&gt;
-
-&lt;p&gt;O &lt;strong&gt;quarto&lt;/strong&gt; e último ponto que tornou essa conferência especial foi
-ser citado no fechamendo. Essa vai ser a última Rubyconf organizada
-pelo &lt;a href=&#34;https://twitter.com/akitaonrails&#34;&gt;Fabio Akita&lt;/a&gt;. No fechamento da
-conferência ele mostrou um review dos últimos 10 anos de organização
-de eventos de Ruby e agradeceu as pessoas que estavam participando
-desde o começo. Pode parecer bobeira, mas ter seu nome (ou nickname)
-citado no final de uma conferência com 1200 pessoas é muito
-gratificante. Eu já sou totalmente a favor dos planos do Akita e já
-tinha comentado com ele sobre isso há algum tempo atrás. E ele
-realmente merece um auditório inteiro de pé aplaudindo seu trabalho
-durante esses 10 anos.&lt;/p&gt;
-
-&lt;p&gt;Tudo isso fora os velhos amigos que eu pude rever, pessoas novas que
-eu conheci e coisas que eu aprendi. Algumas pessoas eu conversei e não
-sabiam que eram as pessoas que eu falava pela internet há muito tempo,
-só vim perceber depois. Durante esses vários anos de Rubyconf, eu tive
-o prazer de conversar pessoalmente com 2 core commiters do Ruby, e
-isso não é uma coisa que temos a chance de fazer com frequência. :)&lt;/p&gt;
-
-&lt;p&gt;Esse é o espírito da Rubyconf, juntar desenvolvedores que gostam de
-programar para trocar ideias. Eu considero essa conferência como uma
-versão grande do que é o &lt;a href=&#34;https://gurusp.org&#34;&gt;Guru-SP&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Não sei como vai ser o futuro de conferências como essa. A Locaweb
-&lt;a href=&#34;https://twitter.com/locaweb/status/779819447087403008&#34;&gt;diz que a Rubyconf continua&lt;/a&gt;,
-mas ainda não temos ideia sobre as novidades. Independente do que está
-por vir, tenho certeza que esse espirito de camaradagem e busca
-contínua de conhecimento vai continuar. :)&lt;/p&gt;
-</description>
+      <description>TL;DR: A melhor Rubyconf que eu participei
+Nos dias 24 e 25 de Setembro de 2016 aconteceu a Rubyconf Brasil. Assim como eu fiz um post sobre o primeiro Rails Summit que o Akita participou da organização, resolvi também fazer um post sobre a última rubyconf que ele resolveu organizar.
+Essa Rubyconf teve vários pontos especialmente importantes para mim. O primeiro deles foi logo no início quando o Gilberto Mautner, que é um dos fundadores da Locaweb, mencionou os números do projeto que eu estou trabalhando por lá.</description>
     </item>
     
     <item>
@@ -247,42 +50,9 @@ contínua de conhecimento vai continuar. :)&lt;/p&gt;
       <pubDate>Mon, 31 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/as-escolhas-do-desenvolvedor/</guid>
-      <description>&lt;p&gt;Esse ano fui chamado para palestrar em todas as edições do Encontro Locaweb que
-acontecem por várias cidades do Brasil! Palestrei em 6 cidades de estados
-diferentes, e aconteceram na seguinte ordem:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.flickr.com/photos/locaweb/sets/72157650885375530&#34;&gt;Belo Horizonte&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.flickr.com/photos/locaweb/sets/72157651709980410&#34;&gt;Curitiba&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.flickr.com/photos/locaweb/sets/72157649789309524&#34;&gt;Recife&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.flickr.com/photos/locaweb/sets/72157652339858570&#34;&gt;Porto Alegre&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.flickr.com/photos/locaweb/sets/72157652754664218&#34;&gt;Rio de Janeiro&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.flickr.com/photos/locaweb/sets/72157654905073816&#34;&gt;São Paulo&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Adicionei os links para as fotos dos eventos na listagem acima. :)&lt;/p&gt;
-
-&lt;p&gt;Minha palestra se chama &amp;ldquo;As escolhas do desenvolvedor&amp;rdquo; e fala sobre as escolhas
-que fazemos durante nossa carreira de desenvolvedor, escolhas com linguagens,
-configurações de servidores, deploy, equipe, testes e etc. A ideia dessa
-palestra é mostrar as opções que temos para cada uma dessas etapas.&lt;/p&gt;
-
-&lt;p&gt;Esses são os slides da palestra:&lt;/p&gt;
-
-&lt;iframe src=&#34;http://www.slideshare.net/PotHix/slideshelf&#34; width=&#34;490px&#34; height=&#34;470px&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:none;&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Demorei para publicar esse post porque o encontro Locaweb de São Paulo
-foi gravado e eu estava esperando liberarem os vídeos para eu poder
-publicar junto com o post.&lt;/p&gt;
-
-&lt;p&gt;Para assistir é só se increver no
-&lt;a href=&#34;https://www.eventials.com/locaweb/groups/17o-encontro-locaweb-de-profissionais-de-internet/&#34;&gt;grupo do encontro Locaweb na eventials&lt;/a&gt;
-e assistir
-&lt;a href=&#34;https://www.eventials.com/locaweb/as-escolhas-do-desenvolvedor-com-willian-molinari-a-k-a-pothix/&#34;&gt;nesse link&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Obrigado a todos que prestigiaram o evento e espero ter contribuído com alguma
-coisa legal com a palestra.&lt;/p&gt;
-</description>
+      <description>Esse ano fui chamado para palestrar em todas as edições do Encontro Locaweb que acontecem por várias cidades do Brasil! Palestrei em 6 cidades de estados diferentes, e aconteceram na seguinte ordem:
+ Belo Horizonte Curitiba Recife Porto Alegre Rio de Janeiro São Paulo  Adicionei os links para as fotos dos eventos na listagem acima. :)
+Minha palestra se chama &amp;ldquo;As escolhas do desenvolvedor&amp;rdquo; e fala sobre as escolhas que fazemos durante nossa carreira de desenvolvedor, escolhas com linguagens, configurações de servidores, deploy, equipe, testes e etc.</description>
     </item>
     
     <item>
@@ -291,368 +61,8 @@ coisa legal com a palestra.&lt;/p&gt;
       <pubDate>Mon, 27 Jul 2015 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/oscon/</guid>
-      <description>
-
-&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; I&amp;rsquo;ve been at OSCON this year (thanks to
-&lt;a href=&#34;http://locaweb.com.br&#34;&gt;Locaweb&lt;/a&gt;) and this post will summarize my
-impressions about the conference. I spoke at Locaweb Tech-Talks about it and
-&lt;a href=&#34;https://docs.google.com/presentation/d/1yR7aEIVJdznAASNvaNW0AjUDmgA5qvOstOHhSP1JLDM/pub?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34;&gt;you can find my slides
-here&lt;/a&gt;
-(in portuguese).&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://oscon.com&#34;&gt;OSCON (Open Source Conference)&lt;/a&gt; is one of the most
-important open source conferences of our time and happened in Portland
-this year as usual.  Portland is a great city, the one I liked the
-most until now, it doesn&amp;rsquo;t have high car traffic, MAX (the train) took
-us for most of the places we wanted to know, nice people all over the
-place, great convention center and a lot of other benefits.&lt;/p&gt;
-
-&lt;h3 id=&#34;july-20&#34;&gt;July, 20&lt;/h3&gt;
-
-&lt;p&gt;The conference started at 9:00 am of July 20, 2015 with the first day of
-tutorials. In the first day I followed the &lt;strong&gt;Kubernetes tutorial&lt;/strong&gt; and it was cool.
-I had the chance to talk with Google guys about it and try Google
-Computing Engine, which was very nice.&lt;/p&gt;
-
-&lt;h3 id=&#34;july-21&#34;&gt;July, 21&lt;/h3&gt;
-
-&lt;p&gt;The second day was filled with more tutorials and I chose RUST and Cassandra.&lt;/p&gt;
-
-&lt;h4 id=&#34;rust&#34;&gt;RUST&lt;/h4&gt;
-
-&lt;p&gt;Was a good tutorial with a lot of exercises and good tips of the
-language. I really liked it and I&amp;rsquo;ll probably give
-&lt;a href=&#34;http://rust-lang.org/&#34;&gt;Rust&lt;/a&gt; a try on the next months.&lt;/p&gt;
-
-&lt;h4 id=&#34;cassandra&#34;&gt;Cassandra&lt;/h4&gt;
-
-&lt;p&gt;I was expecting a different thing from this one. It was based on how
-to use &lt;a href=&#34;http://cassandra.apache.org/&#34;&gt;cassandra&lt;/a&gt;, create tables and so
-on and I was expecting tips on how to create and scale it and maybe a
-little bit about the caveats we may found on the way. But it wasn&amp;rsquo;t
-bad at all, I&amp;rsquo;ve learned a little bit on how to use it and as a gift I
-tried a little bit of spark as well.&lt;/p&gt;
-
-&lt;p&gt;At the end of this day the Expo hall opened for everyone, cool things there
-(including some T-shirts&amp;hellip; T-shirts everywhere).&lt;/p&gt;
-
-&lt;h3 id=&#34;july-22&#34;&gt;July, 22&lt;/h3&gt;
-
-&lt;p&gt;Let the conference begin! :)&lt;/p&gt;
-
-&lt;p&gt;It started with the keynotes at 9:00 and I would like to highlight one of them.
-All keynotes &lt;a href=&#34;https://www.youtube.com/playlist?list=PL055Epbe6d5YhDchEvY3O4nIuSLYyrx7K&#34;&gt;are avaiable on
-youtube&lt;/a&gt;
-btw. :)&lt;/p&gt;
-
-&lt;h4 id=&#34;facebook-open-source-at-scale-keynote&#34;&gt;Facebook open source at scale (Keynote)&lt;/h4&gt;
-
-&lt;p&gt;I like to understand the open source culture behind these big
-companies. It is really interesting to know that there are only &lt;em&gt;2&lt;/em&gt;
-people to handle all the facebook open source process shocked me a
-litte bit. They have a great open source review and publishing process
-and all the softwares they release are running in their production
-environment. So, why do they do open source software? Because it&amp;rsquo;s
-good for the company, helps them to make better software and bring
-smart people to work with them.&lt;/p&gt;
-
-&lt;p&gt;And then the multiple sessions started, a lot of great subjects in the agenda
-and you have to choose one (!!!).&lt;/p&gt;
-
-&lt;h4 id=&#34;roller-coaster-tycoon-with-genetic-algorithms-and-go&#34;&gt;Roller Coaster Tycoon with genetic algorithms and Go&lt;/h4&gt;
-
-&lt;p&gt;The speaker
-&lt;a href=&#34;https://kev.inburke.com/kevin/roller-coaster-tycoon-genetic-algorithms/&#34;&gt;Kevin Burke&lt;/a&gt;
-spoke about his hobbie of playing with
-&lt;a href=&#34;https://en.wikipedia.org/wiki/RollerCoaster_Tycoon&#34;&gt;roller coaster tycoon&lt;/a&gt;
-game maps with Go and Genetic Algorithms in order to create de best
-roller coaster ever! It is not there already but the presention was
-really cool to follow.&lt;/p&gt;
-
-&lt;h4 id=&#34;you-type-google-com-into-your-browser-bar-and-press-enter-what-happens-next&#34;&gt;You type &amp;ldquo;google.com&amp;rdquo; into your browser bar and press enter: What happens next?&amp;rdquo;&lt;/h4&gt;
-
-&lt;p&gt;The speaker for this talk is
-&lt;a href=&#34;https://twitter.com/mathie&#34;&gt;Graeme Mathieson&lt;/a&gt;. I was planning to
-spoke about it before de last edition of
-&lt;a href=&#34;http://devinsampa.com.br/&#34;&gt;DevInSampa&lt;/a&gt; (2012? Btw, it could happen
-again&amp;hellip;) but didn&amp;rsquo;t had the guts to make it yet and there it is,
-someone made it before me. The pace of the presentation was not good
-but the content was cool (it was his first presentation). At least it
-made me think more about this topic and &lt;em&gt;maybe&lt;/em&gt; I&amp;rsquo;ll try to speak
-about it soon.&lt;/p&gt;
-
-&lt;p&gt;After the lunch I tried to attend to &lt;strong&gt;Evolution of information
-security threats&lt;/strong&gt; presentation but the room was full, so decided to
-go to &lt;a href=&#34;http://matrix.org/&#34;&gt;Matrix&lt;/a&gt; guys presentation.&lt;/p&gt;
-
-&lt;h4 id=&#34;fixing-the-fragmentation-problem-for-real-time-communications&#34;&gt;Fixing the fragmentation problem for real-time communications&lt;/h4&gt;
-
-&lt;p&gt;Matrix&amp;rsquo;s is really interesting, the main idea is to make a
-protocol for messages, just like the email protocols do for our
-email, we may use our client and store our own email but it is not
-possible with today&amp;rsquo;s messaging like hangouts, whatsapp, telegram,
-skype and so on. They had a live demo piloting a quadricopter via
-chat, it was really cool.&lt;/p&gt;
-
-&lt;h4 id=&#34;high-adventures-in-sniffing-my-own-metadata&#34;&gt;High adventures in sniffing my own metadata&lt;/h4&gt;
-
-&lt;p&gt;The speaker is &lt;a href=&#34;http://matrix.org/&#34;&gt;Josh Deprez&lt;/a&gt; from Google
-Australia. He described his work using a Go program (home made) to
-analize his own internet traffic and which information he got on
-it. The presentation itself was cool to follow but the discoveries
-wasn&amp;rsquo;t so much interesting. :P&lt;/p&gt;
-
-&lt;h4 id=&#34;building-the-9-computer-or-how-i-learned-to-stop-worrying-and-love-embedded-linux&#34;&gt;Building the $9 computer, or how I learned to stop worrying and love embedded Linux&lt;/h4&gt;
-
-&lt;p&gt;This is the
-&lt;a href=&#34;https://www.kickstarter.com/projects/1598272670/chip-the-worlds-first-9-computer&#34;&gt;C.H.I.P project&lt;/a&gt;
-owner &lt;strong&gt;Dave Rauchwerk&lt;/strong&gt; speaking about the story behind the
-project. This guy is hilarious and a real hacker, he made a gif camera
-just for the lulz and tried a product with it!  Unfortunately it was
-too expensive, to be viable for selling, so he decided to create
-C.H.I.P to make the camera cheaper and C.H.I.P became the product by
-itself.&lt;/p&gt;
-
-&lt;h4 id=&#34;continuous-delivery-and-large-microservice-architectures-reflections-on-ioncannon&#34;&gt;Continuous delivery and large microservice architectures: Reflections on Ioncannon&lt;/h4&gt;
-
-&lt;p&gt;This last one was really interesting &lt;strong&gt;Kevin Scaldeferri&lt;/strong&gt; from
-&lt;a href=&#34;http://newrelic.com&#34;&gt;New Relic&lt;/a&gt; spoke about how they grown from a big
-and monolythic Rails application to 250 microservices. In short, it
-was a mess in the beginning, a lot of techlologies and deploy tools
-until they organized and found a standard for the language and deploy
-tools, it is really better now, but the old Rails app is still there.&lt;/p&gt;
-
-&lt;h3 id=&#34;july-23&#34;&gt;July, 23&lt;/h3&gt;
-
-&lt;p&gt;A new day with an typical American breakfast at Denny&amp;rsquo;s and starting
-with keynotes at 9:00 AM again.&lt;/p&gt;
-
-&lt;h4 id=&#34;making-architecture-matter-keynote&#34;&gt;Making architecture matter (Keynote)&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.martinfowler.com/&#34;&gt;Martin Fowler&lt;/a&gt; spoke about architecture
-in general, there was some good quotes. One of the arguments that
-really make sense is that the today&amp;rsquo;s &amp;ldquo;Architect&amp;rdquo; is that guy that
-don&amp;rsquo;t write code (!?). How can a professional that doesn&amp;rsquo;t write code
-talk about how to write code? Another good point was about the user
-perspective about architecture it can&amp;rsquo;t see it anywhere but still need
-to pay for it! We need to argue using economic principles in order to
-be able to create a good architecture for our softwares because
-economics always win.&lt;/p&gt;
-
-&lt;p&gt;We have a lot of examples of products that were the market leader for their
-segment and it could not evolve anymore to the point that it was swallowed by
-another competitor. This is a sign of bad architecture.&lt;/p&gt;
-
-&lt;h4 id=&#34;you-code-like-a-sysadm&#34;&gt;You code like a sysadm&lt;/h4&gt;
-
-&lt;p&gt;hm&amp;hellip; This talk was not so good but it left a message for everyone:
-&amp;ldquo;Bad code is still better than no code at all&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;And obviously: Good code is better than bad code.&lt;/p&gt;
-
-&lt;p&gt;So, instead of not doing something because you think your code is not good
-enough, do it and improve as soon as possible.&lt;/p&gt;
-
-&lt;h4 id=&#34;when-performance-counts-c-in-the-21st-century&#34;&gt;When Performance Counts: C++ in the 21st Century&lt;/h4&gt;
-
-&lt;p&gt;The speaker threw some good arguments that haven&amp;rsquo;t came to my mind until this
-day: &amp;ldquo;Why is C++ getting more attention these days?&amp;rdquo;, we have C++11 being
-created and more people talking about it. In his words, the world was not in
-need for performance anymore, we had big computers and most of time the other
-languages (java, in his examples) are doing a good job to create what is needed
-without the need to manage memory by hand. But today we have some other
-hardwares that need this performance back, like tablets, mobile devices, cloud
-applications that pays based on cpu time and so on. Good catch man! :)&lt;/p&gt;
-
-&lt;h4 id=&#34;creating-an-open-source-office-lessons-from-twitter&#34;&gt;Creating an open source office: Lessons from Twitter&lt;/h4&gt;
-
-&lt;p&gt;I made a bad choice based on the presentation title and changed rooms as fast as
-I could to follow this one.&lt;/p&gt;
-
-&lt;p&gt;Some notes on the presentation:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ensure projects have owners or give it to the community: this is the
-twitter example of
-&lt;a href=&#34;http://getbootstrap.com/2.3.2/&#34;&gt;Twitter bootstrap&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Always say Thank you for your project collaborators&lt;/li&gt;
-&lt;li&gt;Lessons from &lt;a href=&#34;http://mesos.apache.org/&#34;&gt;mesos&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Apple uses mesos for Siri&lt;/li&gt;
-&lt;li&gt;Open source foundations force good pactices on you (incubated aurora)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Lessons for &lt;a href=&#34;https://github.com/twitter/twemcache&#34;&gt;twencache&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Keep track with the upstream if you fork something&lt;/li&gt;
-&lt;li&gt;Share your code with some peers to gauge interest&lt;/li&gt;
-&lt;li&gt;open source project with collaborators is better&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A good lesson that I got from this presentation is that community
-doesn&amp;rsquo;t come for free. Companies like Twitter have their own community
-managers, conference speakers, conference organizers, documentation
-writers and their developers to make everyone engaged with the
-project. Throw something on github and expect collaboration is not the
-best idea for OSS.&lt;/p&gt;
-
-&lt;p&gt;Your employess may become open source celebrities sometimes, and if they became
-popular they may leave the company. It is not so good for the company but the
-same popular projects may attact new talents as well. :)&lt;/p&gt;
-
-&lt;p&gt;Troll&amp;rsquo;s are everywhere and youy will always hear that your project is stupid and
-useless. The best way to deal with it is to take it as a compliment because
-people care enough to say it.&lt;/p&gt;
-
-&lt;h4 id=&#34;mesos-the-os-for-your-datacenter&#34;&gt;Mesos the OS for your datacenter&lt;/h4&gt;
-
-&lt;p&gt;David Greenberg from &lt;a href=&#34;http://www.twosigma.com/&#34;&gt;Two sigma&lt;/a&gt; spoke about how they
-built their own &lt;a href=&#34;http://mesos.apache.org/&#34;&gt;mesos&lt;/a&gt; framework.&lt;/p&gt;
-
-&lt;p&gt;Mesos has a high level API to do things and you don&amp;rsquo;t need to care about the
-resources. It provide an algorith called
-&lt;a href=&#34;https://www.cs.berkeley.edu/~alig/papers/drf.pdf&#34;&gt;DRF&lt;/a&gt; for a fair allocation of
-resources.&lt;/p&gt;
-
-&lt;p&gt;There are several built frameworks for mesos like Marathon, Aurora, Jenkins and
-some more. It&amp;rsquo;s easy to build your own framework (netflix, twitter, apple and
-two sigma have it). A good reason to build your own is to deal with some exotic
-workload, this default frameworks are built for small tasks.&lt;/p&gt;
-
-&lt;p&gt;For me, mesos is the future and I&amp;rsquo;ll definitely be looking for it.&lt;/p&gt;
-
-&lt;h3 id=&#34;july-24&#34;&gt;July, 24&lt;/h3&gt;
-
-&lt;p&gt;This was the last day of the conference and it started with 3 keynotes. After the
-keynotes there was two sessions more and the conference ending at the main ballroom.&lt;/p&gt;
-
-&lt;h4 id=&#34;hacking-conway-s-lay-keynote&#34;&gt;Hacking Conway&amp;rsquo;s Lay (Keynote)&lt;/h4&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;organizations which design systems &amp;hellip; are constrained to produce designs which are copies of the communication structures of these organizations
-—M. Conway[2]&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;When rebuilding a system it&amp;rsquo;s really important to think about your team because
-it will be part of its architecture like conway&amp;rsquo;s law says. So when a decision
-is made to build a new system without changing the way people work you will face
-the same problems the other system had but with a different code.&lt;/p&gt;
-
-&lt;p&gt;Doesn&amp;rsquo;t matter if you&amp;rsquo;re using microservices but your team is still monolithic.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;To solve technical problems, you often have to go outside the technical domain.
-Raffi Krikorian&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Good points that ended the presentation:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;It&amp;rsquo;s not all about the code!&lt;/li&gt;
-&lt;li&gt;Small teams can do big things.&lt;/li&gt;
-&lt;li&gt;Full stack teams keeps your architecture flexible.&lt;/li&gt;
-&lt;li&gt;Don&amp;rsquo;t fight Conway&amp;rsquo;s Law, work with it.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A lot of good lessons learnt from this one. :)&lt;/p&gt;
-
-&lt;h4 id=&#34;build-a-botnet&#34;&gt;Build a botnet?&lt;/h4&gt;
-
-&lt;p&gt;The speaker (&lt;a href=&#34;http://fossetcon.org&#34;&gt;Bryan Smith&lt;/a&gt;) did a great (and funny :P)
-presentation around the topic. And some things are really scary when speaking
-about botnets. The most scary thing for me was its price, you can use a botnet
-for an hour spending only $5&amp;hellip; it is really low and probably will get a service
-out of business for that time. There are some softwares avalable if you want to
-build your own botnet these days (accorting to Bryan, if you want to build a
-botnet you&amp;rsquo;re probably a scumbag&amp;hellip; LOL), here are some of them:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;citadel&lt;/li&gt;
-&lt;li&gt;kreios C2&lt;/li&gt;
-&lt;li&gt;Andromeda V2.6 - leaked&lt;/li&gt;
-&lt;li&gt;Kaiten IRC bot&lt;/li&gt;
-&lt;li&gt;SDBot - GPL&lt;/li&gt;
-&lt;li&gt;DSNX Bots&lt;/li&gt;
-&lt;li&gt;Q8 Bots&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I&amp;rsquo;ll not post links here but you can google them if you really want it. :P&lt;/p&gt;
-
-&lt;p&gt;The most funny part of the presentation was its end when the speaker laptop got
-rebooted when trying to bring the botnet up. LOL&lt;/p&gt;
-
-&lt;h4 id=&#34;freedom-and-responsibility-netflix-centralized-team-in-a-decentralized-world&#34;&gt;Freedom and responsibility @Netflix: Centralized team in a decentralized world&lt;/h4&gt;
-
-&lt;p&gt;One of the best presentations of the
-conference. &lt;a href=&#34;http://www.mikemcgarr.com/about.html&#34;&gt;Mike McGarr&lt;/a&gt; spoke
-about his team (tools team) role at
-&lt;a href=&#34;http://techblog.netflix.com/&#34;&gt;Netflix&lt;/a&gt; and the hacker culture there.&lt;/p&gt;
-
-&lt;p&gt;One of the team roles is to increase the rate of innovation and reduce
-the impact of change by providing good tools for the other teams. Their clients
-are the other teams engineers, it&amp;rsquo;s not a simple internal system it&amp;rsquo;s a product!&lt;/p&gt;
-
-&lt;p&gt;Netflix has a
-&lt;a href=&#34;http://www.slideshare.net/reed2001/culture-1798664&#34;&gt;great culture&lt;/a&gt; and each
-team as a subset of this culture.&lt;/p&gt;
-
-&lt;p&gt;Netflix has a lot of good tools but the engineers may choose to not use it and
-build their own in case it doesn&amp;rsquo;t fix their problems. For this reason there are
-4 deploy tools running on Netflix actually.&lt;/p&gt;
-
-&lt;p&gt;They have no Ops team, you build it, you support it! And in order to remove part
-of the constant interruptions, the team uses a &amp;ldquo;responder rotation&amp;rdquo; when each
-time (day, week, month?) a new engineer will be in charge of solving problems
-and helping the other teams.&lt;/p&gt;
-
-&lt;p&gt;They (like many of us) don&amp;rsquo;t like ticket systems, but they use it anyway (like
-many of us?). For this case the tip is: Make creating a ticket easy, minimize
-fraction by making it as easy and fast as possible.&lt;/p&gt;
-
-&lt;p&gt;Hackatons are made between the team in order to keep the innovation process
-flowing and making space for innovation. Another good thing to think about is to
-always hire beyond your needs, it makes more space for innovation (not all
-people working on day to day tasks) and it will be really helpful when the
-project is on fire and the team needs more intensity on it.&lt;/p&gt;
-
-&lt;p&gt;Communication is really important for the teams and they do not set a limitation
-for important communications like framework versions and DC migrations. For this
-task they use hipchat, email, banners and everything that may call the
-engineers&amp;rsquo; attention.&lt;/p&gt;
-
-&lt;h4 id=&#34;situation-normal-everything-must-change&#34;&gt;Situation normal, everything must change&lt;/h4&gt;
-
-&lt;p&gt;This was the last keynote and maybe the best one, and I highly recommend you to
-&lt;a href=&#34;https://www.youtube.com/watch?v=Ty6pOVEc3bA&#34;&gt;watch it&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Simon Wardley used the fact that OSCON is moving to speak about situation
-awareness and what could happen when you&amp;rsquo;re not prepared for a new thing.&lt;/p&gt;
-
-&lt;p&gt;His arguments are that we&amp;rsquo;re using the wrong maps to try to understand our
-problems. In business we use &lt;a href=&#34;https://en.wikipedia.org/wiki/SWOT_analysis&#34;&gt;SWOT&lt;/a&gt;
-for example, which is really bad to understand to understand the whole picture,
-it was really funny to see his comparisons with
-&lt;a href=&#34;https://en.wikipedia.org/wiki/Battle_of_Thermopylae&#34;&gt;the battle of the 300&lt;/a&gt;
-using a SWAT map instead of land map. LOL&lt;/p&gt;
-
-&lt;p&gt;The speaker shows some maps he uses for his business, and it looks really better
-than just a SWOT. :)&lt;/p&gt;
-
-&lt;p&gt;Again, I really recommend you
-&lt;a href=&#34;https://www.youtube.com/watch?v=Ty6pOVEc3bA&#34;&gt;watch this talk&lt;/a&gt;. I liked it. :)&lt;/p&gt;
-
-&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;The best conference I ever attended. Everything was great: hotel, Portland
-Conference Center, the city in general, the food, the conference content and so
-on. It definitely worth the 14 hours plane travel to be there.&lt;/p&gt;
-
-&lt;p&gt;I would live in a city like Portland, it is one of the best cities I ever
-visited. I&amp;rsquo;m sad to know that the next OSCON will happen in Austin instead of
-Portland. :(&lt;/p&gt;
-</description>
+      <description>TL;DR I&amp;rsquo;ve been at OSCON this year (thanks to Locaweb) and this post will summarize my impressions about the conference. I spoke at Locaweb Tech-Talks about it and you can find my slides here (in portuguese).
+OSCON (Open Source Conference) is one of the most important open source conferences of our time and happened in Portland this year as usual. Portland is a great city, the one I liked the most until now, it doesn&amp;rsquo;t have high car traffic, MAX (the train) took us for most of the places we wanted to know, nice people all over the place, great convention center and a lot of other benefits.</description>
     </item>
     
     <item>
@@ -661,81 +71,9 @@ Portland. :(&lt;/p&gt;
       <pubDate>Tue, 17 Sep 2013 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/o-guru-sp-e-seus-5-anos-de-vida/</guid>
-      <description>&lt;p&gt;Há pouco tempo aconteceu o &lt;a href=&#34;http://gurusp.org/encontros/trigesimo-primeiro-encontro-do-guru-sp&#34;&gt;encontro numero 31 do Guru-SP&lt;/a&gt;, e como sempre saímos
-(dessa vez estavamos &lt;a href=&#34;http://twitter.com/vinibaggio&#34;&gt;@vinibaggio&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/agaelebe&#34;&gt;@agaelebe&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/nuxlli&#34;&gt;@nuxlli&lt;/a&gt; e &lt;a href=&#34;http://twitter.com/anderson_leite&#34;&gt;@anderson_leite&lt;/a&gt;) para
-aquele velho momento de bate papo pós evento. Durante a conversa o @nuxlli perguntou sobre como o Guru-SP começou e nesse momento eu comecei a relembrar
-daquela velha tarde em 2008.&lt;/p&gt;
-
-&lt;p&gt;Mas peraí&amp;hellip; &lt;strong&gt;2008&lt;/strong&gt;!! O Guru-SP está próximo de fazer &lt;strong&gt;5 anos&lt;/strong&gt; de vida! :)&lt;/p&gt;
-
-&lt;p&gt;Em pensar que tudo começou após &lt;a href=&#34;https://groups.google.com/forum/#!topic/rails-br/HUnABlEfR7A&#34;&gt;um post do @agaelebe na
-Rails-br&lt;/a&gt; falando
-sobre criar grupos locais para conversar mais sobre Ruby e fazer encontros com
-mais frequência, o que gerou interesse de várias pessoas de São Paulo, que
-decidiram levar esse &amp;ldquo;projeto&amp;rdquo; pra frente.&lt;/p&gt;
-
-&lt;p&gt;Logo em seguida o &lt;a href=&#34;http://twitter.com/mfcastellani&#34;&gt;@mfcastellani&lt;/a&gt; já iniciou &lt;a href=&#34;https://groups.google.com/forum/#!topic/ruby-sp/2SEBkbofoFA&#34;&gt;as primeiras
-discussões&lt;/a&gt; no
-&lt;a href=&#34;https://groups.google.com/forum/#!forum/ruby-sp&#34;&gt;grupo do Guru-SP&lt;/a&gt; e
-aproveitamos para agendar o &lt;a href=&#34;http://gurusp.org/encontros/primeiro-encontro&#34;&gt;primeiro
-encontro&lt;/a&gt; numa churrascaria
-qualquer no ABC que era mais próximo da casa do &lt;a href=&#34;http://twitter.com/mfcastellani&#34;&gt;@mfcastellani&lt;/a&gt;, pois como ele nos
-contou depois: &amp;ldquo;Se não aparecer ninguém só comeria uma carne e voltaria para
-casa&amp;rdquo;. hahaha&lt;/p&gt;
-
-&lt;p&gt;E algumas pessoas compareceram, eramos 3 pessoas conversando sobre o que poderia
-ser o Guru-SP no futuro. Não conhecia o &lt;a href=&#34;http://twitter.com/mfcastellani&#34;&gt;@mfcastellani&lt;/a&gt; nem o &lt;a href=&#34;http://twitter.com/agaelebe&#34;&gt;@agaelebe&lt;/a&gt;, mas
-ficamos boa parte da tarde conversando sobre desenvolvimento no geral e
-planejando o que seria legal fazer no grupo (camisetas, eventos maiores,
-encontros mensais, e etc).&lt;/p&gt;
-
-&lt;p&gt;Logo conseguimos as camisetas do Guru-SP! Depois de cotar alguns fornecedores e
-fazer um desenho legal para representar o grupo rachamos as despesas e mandamos
-fazer camisetas para quem estivesse interessado. Com a entrega das camisetas
-consegui conhecer muita gente que não conhecia pessoalmente.&lt;/p&gt;
-
-&lt;p&gt;Aproveitamos que alguns de nós estariam na Campus Party e fizemos o segundo
-encontro por lá! Como sempre tinha uma quantidade enorme de pessoas: Eu, o
-&lt;a href=&#34;http://twitter.com/mfcastellani&#34;&gt;@mfcastellani&lt;/a&gt; e o &lt;a href=&#34;http://twitter.com/akitaonrails&#34;&gt;@akitaonrails&lt;/a&gt;. O &lt;a href=&#34;http://twitter.com/shadowmaru&#34;&gt;@shadowmaru&lt;/a&gt; apareceu também, mas só me
-encontrou para pegar a camiseta.&lt;/p&gt;
-
-&lt;p&gt;Nesse meio tempo já estávamos planejando aquele &amp;ldquo;encontro maior&amp;rdquo; que conversamos
-no primeiro encontro, e poucos meses depois saiu o &lt;a href=&#34;http://gurusp.org/encontros/ruby-rails-no-mundo-real-primeira-edicao&#34;&gt;Ruby + Rails no mundo
-real&lt;/a&gt; com
-o auxílio da Tempo Real eventos.&lt;/p&gt;
-
-&lt;p&gt;Apesar do quarto ter uma quantidade pequena de pessoas (apenas o &lt;a href=&#34;http://twitter.com/rafaelrosafu&#34;&gt;@rafaelrosafu&lt;/a&gt; e
-o &lt;a href=&#34;http://twitter.com/agaelebe&#34;&gt;@agaelebe&lt;/a&gt;), o quinto encontro me surpreendeu bastante. Ao chegar na Voice
-Technology (onde o &lt;a href=&#34;http://twitter.com/andre_pantaliao&#34;&gt;@andre_pantaliao&lt;/a&gt; trabalhava na época e conseguiu o espaço
-para o encontro) eu encontrei uma sala com mais de 20 pessoas aguardando as
-palestras! O encontro foi bem proveitoso e mais do que nunca percebíamos o
-Guru-SP crescendo.&lt;/p&gt;
-
-&lt;p&gt;Eu considero que depois desse encontro o Guru-SP começou a andar sozinho,
-conseguimos empresas parceiras para nos ajudar, o grupo cresceu bastante,
-sempre tinhamos boas talks nos encontros e etc.&lt;/p&gt;
-
-&lt;p&gt;Hoje o Guru-SP tem mais de 1100 inscritos na lista, e já tivemos encontros
-comuns com mais de 100 pessoas, isso sem contar os eventos que organizamos e
-que tiveram mais de 200 pessoas.&lt;/p&gt;
-
-&lt;p&gt;Temos empresas que sempre nos ajudam, seja com espaço ou coffee break. Vale
-agradecer a Caelum que por muito tempo nos forneceu o auditório mensalmente, e
-ainda hoje sempre nor provê espaço quando precisamos. Não vou tentar citar
-todas as empresas que ajudam porque sempre vou deixar uma de fora, mas dá para
-ver cada um dos patrocínios &lt;a href=&#34;http://gurusp.org/encontros&#34;&gt;na página de encontros do Guru-SP&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Atualmente o Guru-SP não é &lt;strong&gt;somente&lt;/strong&gt; focado em Ruby, mas aproveitamos muitos
-dos conhecimentos diversos de todos os participantes para trazer bom conteúdo
-em várias partes da área de desenvolvimento, o que faz com que cada vez mais
-tenhamos conteúdo legal e interação entre a galera.&lt;/p&gt;
-
-&lt;p&gt;Parabéns aos Guru-SP pelos 5 anos de vida e para todo mundo que ajudou (e/ou
-ainda ajuda) na organização para fazer um dos grupos de Ruby mais ativos do
-Brasil, e mais do que isso um lugar legal para troca de conhecimentos.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: nuxlli, Renato Elias, Marcelo Castellani, Reinaldo, Rafael Rosa, Vinicius Baggio Fuentes, Lucas Caton, Paulo Silveira, Nelson Haraguchi, lucas renan | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Há pouco tempo aconteceu o encontro numero 31 do Guru-SP, e como sempre saímos (dessa vez estavamos @vinibaggio, @agaelebe, @nuxlli e @anderson_leite) para aquele velho momento de bate papo pós evento. Durante a conversa o @nuxlli perguntou sobre como o Guru-SP começou e nesse momento eu comecei a relembrar daquela velha tarde em 2008.
+Mas peraí&amp;hellip; 2008!! O Guru-SP está próximo de fazer 5 anos de vida! :)
+Em pensar que tudo começou após um post do @agaelebe na Rails-br falando sobre criar grupos locais para conversar mais sobre Ruby e fazer encontros com mais frequência, o que gerou interesse de várias pessoas de São Paulo, que decidiram levar esse &amp;ldquo;projeto&amp;rdquo; pra frente.</description>
     </item>
     
     <item>
@@ -744,43 +82,8 @@ Brasil, e mais do que isso um lugar legal para troca de conhecimentos.&lt;/p&gt;
       <pubDate>Mon, 15 Jul 2013 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/game-network-programming/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;English Abstract&lt;/strong&gt;: This post was about my presentation with Diego Souza
-(vulgo Marciano) about Game network programming. I was studying and reading
-Quake source just for fun and decided to learn more about game networking in
-general, so I decided to prepare this presentation to show other people what
-I’ve learned. You can see the full video (portuguese only, sorry) and the slides
-below.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Portuguese&lt;/strong&gt;: Eu e o Diego Souza (vulgo Marciano) fizemos uma palestra sobre
-  Game network programming tanto na Locaweb como no Guru-SP. A palestra que
-  fizemos no Guru-SP foi gravada pelo Agaelebe:&lt;/p&gt;
-
-&lt;p&gt;&lt;embed type=&#34;application/x-shockwave-flash&#34; src=&#34;http://a.blip.tv/api.swf#hOdBg5PuBQI&#34; style=&#34;display:none&#34;&gt;&lt;/embed&gt;&lt;/p&gt;
-
-&lt;p&gt;E aqui estão os slides:&lt;/p&gt;
-
-&lt;iframe src=&#34;http://blip.tv/play/hOdBg5PuBQI.html?p=1&#34; width=&#34;550&#34; height=&#34;443&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Como eu estava na vibe de jogos desde o começo do ano passado, eu estava lendo
-os posts sobre o código do Quake. Quem me conhece sabe que eu trabalho na equipe
-de IaaS da Locaweb e lá nós lidamos com bastante coisa de redes e eu curto o
-assunto.&lt;/p&gt;
-
-&lt;p&gt;Conversando com o Diego sobre os algoritmos de redes utilizados no Quake nós
-decidimos juntar as pesquisas dele sobre os protocolos TCP e UDP com o que eu li
-sobre a implementação dos algoritmos nos jogos para poder fazer uma palestra
-legal de game network programming, e assim saiu essa palestra.&lt;/p&gt;
-
-&lt;p&gt;Lá nós apresentamos os algoritmos de alguns jogos como o Quake, Age of Empires e
-outros não tão conhecidos, mostrando as soluções legais que eles chegaram e
-quais foram os maiores desafios que eles encontraram para resolver os problemas
-de latencia e necessidade de velocidade. O Diego focou mais na parte de
-otimização dos algoritmos e flags que podem ser alteradas para melhorar o
-comportamento da rede.&lt;/p&gt;
-
-&lt;p&gt;Essa foi uma palestra muito legal de fazer e aprendi bastante no processo
-também! Se tiverem dúvidas postem aí nos comentários. :)&lt;/p&gt;
-</description>
+      <description>English Abstract: This post was about my presentation with Diego Souza (vulgo Marciano) about Game network programming. I was studying and reading Quake source just for fun and decided to learn more about game networking in general, so I decided to prepare this presentation to show other people what I’ve learned. You can see the full video (portuguese only, sorry) and the slides below.
+Portuguese: Eu e o Diego Souza (vulgo Marciano) fizemos uma palestra sobre Game network programming tanto na Locaweb como no Guru-SP.</description>
     </item>
     
     <item>
@@ -789,48 +92,9 @@ também! Se tiverem dúvidas postem aí nos comentários. :)&lt;/p&gt;
       <pubDate>Tue, 04 Dec 2012 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/plaev5-e-skeleton-jigsaw/</guid>
-      <description>&lt;p&gt;Depois de muito tempo desenvolvendo finalmente terminamos o Skeleton-Jigsaw em
-outubro! Demorei para postar sobre isso aqui no blog por falta de tempo, mas
-aqui está!&lt;/p&gt;
-
-&lt;p&gt;Eu e o Rafael Masoni trabalhamos nesse jogo durante quase 1 ano (começamos a
-falar dele no comecinho de janeiro) investindo nosso tempo livre para fazer
-todas as partes do jogo (audio, programação, arte, game design, level design e
-etc).&lt;/p&gt;
-
-&lt;p&gt;Vou descrever um pouco do que fizemos e como organizamos, mas vai ser apenas um
-resumo do que falamos na nossa palestra no Guru-SP:&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/J2yDMOHCYak&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/15490608&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt;
-
-&lt;p&gt;Obrigado pelo vídeo Agaelebe!&lt;/p&gt;
-
-&lt;p&gt;Começamos a trabalhar em janeiro do ano passado no que seria um protótipo da
-impact e aos poucos o jogo foi tomando forma e estavamos investindo cada vez
-mais esforço nele. A cada semana fazíamos uma Skype call para discutir no que
-trabalharíamos durante a semana e fazíamos o possível para entregar o que
-conversamos até a próxima call.&lt;/p&gt;
-
-&lt;p&gt;Foi bem legal trabalhar em todos os pontos do jogo, opinando em arte,
-trabalhando em trilha sonora, programando, discutindo level design, escrevendo
-uma prévia de história, otimizando assets, testando em vários navegadores,
-fazendo game design e tudo mais.&lt;/p&gt;
-
-&lt;p&gt;Todo esse trabalho trouxe muitas experiências legais de como é entregar um jogo
-funcional e completo para o seu escopo, e estou bem orgulhoso de conseguir
-entregar o jogo demo finalizado, e não deixar mais um trabalho incompleto
-perdido por aí.&lt;/p&gt;
-
-&lt;p&gt;Ainda não sabemos quais os planos para a Plæv, mas agora ela já tem seu primeiro
-jogo demo para não ficar com o portfolio em branco. :)&lt;/p&gt;
-
-&lt;p&gt;Não quis descrever muito aqui no post para não ficar somente repetindo conteúdo
-do vídeo, mas se tiverem dúvidas coloquem nos comentários.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Alexandre Araujo, David Paniz | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Depois de muito tempo desenvolvendo finalmente terminamos o Skeleton-Jigsaw em outubro! Demorei para postar sobre isso aqui no blog por falta de tempo, mas aqui está!
+Eu e o Rafael Masoni trabalhamos nesse jogo durante quase 1 ano (começamos a falar dele no comecinho de janeiro) investindo nosso tempo livre para fazer todas as partes do jogo (audio, programação, arte, game design, level design e etc).
+Vou descrever um pouco do que fizemos e como organizamos, mas vai ser apenas um resumo do que falamos na nossa palestra no Guru-SP:</description>
     </item>
     
     <item>
@@ -839,26 +103,8 @@ do vídeo, mas se tiverem dúvidas coloquem nos comentários.&lt;/p&gt;
       <pubDate>Mon, 16 Jul 2012 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/palestra-sobre-implementacoes-paralelas/</guid>
-      <description>&lt;p&gt;Esse post ficou como draft desde que eu palestrei sobre implementações
-paralelas, e agora que eu lembrei dele decidi publicar! :)&lt;/p&gt;
-
-&lt;p&gt;Bem, como eu disse, eu paletrei sobre implementacoes paralelas tanto
-na Locaweb como no Guru-SP. A idea da palestra vem de um post do John
-Carmack sobre implementações paralelas, e nesse post ele comenta sobre
-todos os tipos de implementação paralela que ele já utilizou e as que
-mais funcionaram para cada tipo de caso.&lt;/p&gt;
-
-&lt;p&gt;Na minha palestra eu comento sobre todos os tipos de implementacoes
-que eu ja utilizei e quais delas foram boas ou ruins para determinado
-caso.&lt;/p&gt;
-
-&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/11724894&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;iframe src=&#34;http://blip.tv/play/hOdBgu3uVQI.html?p=1&#34; width=&#34;596&#34; height=&#34;334&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Essas técnicas simples ajudaram a manter nosso código muito mais fácil
-de manter. Espero que seja útil para mais alguém. ;)&lt;/p&gt;
-</description>
+      <description>Esse post ficou como draft desde que eu palestrei sobre implementações paralelas, e agora que eu lembrei dele decidi publicar! :)
+Bem, como eu disse, eu paletrei sobre implementacoes paralelas tanto na Locaweb como no Guru-SP. A idea da palestra vem de um post do John Carmack sobre implementações paralelas, e nesse post ele comenta sobre todos os tipos de implementação paralela que ele já utilizou e as que mais funcionaram para cada tipo de caso.</description>
     </item>
     
     <item>
@@ -867,36 +113,8 @@ de manter. Espero que seja útil para mais alguém. ;)&lt;/p&gt;
       <pubDate>Mon, 23 May 2011 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/palestra-sobre-gamedev-javascript-e5/</guid>
-      <description>&lt;p&gt;Esse fim de semana eu palestrei no FLISOL de São José dos Campos sobre
-desenvolvimento de jogos, Javascript e HTML5. Foi uma palestra simples
-e rápida, durou pouco mais de meia hora (preciso aprender a falar um
-pouco mais devagar :P) mas foi divertido.&lt;/p&gt;
-
-&lt;p&gt;A grande maioria das pessoas que estavam assistindo a palestra não
-eram desenvolvedores, e estavam começando a estudar agora, e acho que
-por isso não surgiram muitas perguntas sobre o assunto, mesmo eu
-evitando colocar código.&lt;/p&gt;
-
-&lt;p&gt;Os slides da palestra foram esses:&lt;/p&gt;
-
-&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/8069932&#34;
-width=&#34;425&#34; height=&#34;355&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34;
-marginheight=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Queria agradecer ao &lt;a href=&#34;http://kesiev.com&#34;&gt;Kesiev&lt;/a&gt; pelas dicas sobre o
-que falar do Akihabara e para os amigos da
-&lt;a href=&#34;http://plaevteam.com&#34;&gt;Plaev&lt;/a&gt; pelas fotos para o slide do
-&lt;a href=&#34;http://plaevteam.com/rott&#34;&gt;Rise of theTitans&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Um amigo que estava assistindo a palestra fez o favor de gravar para mim:&lt;/p&gt;
-
-&lt;iframe src=&#34;http://player.vimeo.com/video/24100947?title=0&amp;amp;byline=0&amp;amp;portrait=0&#34; width=&#34;400&#34; height=&#34;300&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Vou colocar mais exemplos e código para as próximas apresentações desse tema.
-Sugestões e críticas construtivas são bem vindas! ;)&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Hugo Roque (a.k.a hugolnx), Berg Ginu, Berg Ginu | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Esse fim de semana eu palestrei no FLISOL de São José dos Campos sobre desenvolvimento de jogos, Javascript e HTML5. Foi uma palestra simples e rápida, durou pouco mais de meia hora (preciso aprender a falar um pouco mais devagar :P) mas foi divertido.
+A grande maioria das pessoas que estavam assistindo a palestra não eram desenvolvedores, e estavam começando a estudar agora, e acho que por isso não surgiram muitas perguntas sobre o assunto, mesmo eu evitando colocar código.</description>
     </item>
     
     <item>
@@ -905,130 +123,8 @@ Sugestões e críticas construtivas são bem vindas! ;)&lt;/p&gt;
       <pubDate>Sun, 31 Oct 2010 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/semana-de-eventos-rubyconfbr-adl-e-gddbr/</guid>
-      <description>
-
-&lt;p&gt;Na semana passada (semana do dia 24 ao dia 30 de outubro) foi uma
-semana de grandes eventos, que eu tive o prazer de participar de
-todos! :)&lt;/p&gt;
-
-&lt;h4 id=&#34;rubyconf-brasil&#34;&gt;Rubyconf Brasil&lt;/h4&gt;
-
-&lt;p&gt;A &lt;a href=&#34;www.rubyconf.com.br&#34;&gt;Rubyconf Brasil&lt;/a&gt; é o Antigo Rails Summit Latin
-America, que acontecia no centro de convenções do Anhembi, e agora
-mudou sua localização para o centro de convenções Frei Caneca, para
-diminuir os custos e prover um local mais acessível para os
-participantes (próximo ao metrô e a avenida paulista).&lt;/p&gt;
-
-&lt;p&gt;O evento foi muito bom, contando com mais de 20 palestras com um
-número bem equilibrado de palestrantes nacionais e internacionais, que
-ministraram muitas palestras com ótimo conteúdo técnico.  Infelizmente
-o evento teve problemas com WIFI, e os participantes mal conseguiram
-acessar a internet utilizando a infra do evento.&lt;/p&gt;
-
-&lt;p&gt;Algumas palestras:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;A palestra do &lt;strong&gt;Jim Weiric&lt;/strong&gt; sobre SOLID Ruby foi fantástica! Além dele ser um ótimo orador, muito divertido, mostrou conceitos bem interessante e algumas comparações com outras linguagens. Uma das melhores palestras do evento.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;O &lt;a href=&#34;http://github.com/tenderlove&#34;&gt;tenderlove&lt;/a&gt; mandou muito bem na sua palestra sobre Fibers e ruby 1.9. Além das corriqueiras brincadeiras com fotos sobre a suposta criação da palestra, ele mostrou um conteúdo muito interessante, com muitos exemplos préviamente contruídos para demonstrar o conceito de Fibers. Uma palestra densa mas muito boa! :)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;O &lt;a href=&#34;http://github.com/josevalim&#34;&gt;José Valim&lt;/a&gt; palestrou sobre Rails 3 e mostrou algumas das novas funcionalidades e também o que estar por vir, e como sempre deixou a dica para a galera contribuir, &amp;ldquo;as próximas features depende de vocês&amp;rdquo; :)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;O &lt;a href=&#34;http://github.com/wycats&#34;&gt;Yehuda Katz&lt;/a&gt; fez uma palestra bem interessante sobre como melhorar a performance da sua aplicação movendo muito de sua lógica para o cliente, e apresentou um projeto que ele está trabalhando atualmente. Gostei do conceito, mesmo pensando que não é um conceito para aplicar para qualquer aplicação web, mas para um aplicação com muitos acessos faz muitos sentido e o modelo parece bom. :)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;O pessoal da Caelum &lt;a href=&#34;http://github.com/andersonleite&#34;&gt;Anderson Leite&lt;/a&gt; e &lt;a href=&#34;http://github.com/guilhermesilveira&#34;&gt;Guilherme Silveira&lt;/a&gt; apresentaram sobre como utilizar uma Ruby funcionalmente, e a palestra foi muito boa, apesar de ser bem densa e os dois falarem rápido&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Tiveram outras ótimas palestras, sobre encoding do Ruby (que é bizarro
-assim como qualquer outra implementação de encoding), integração de
-redes sociais, redis e resque e etc. Não vou falar de todas aqui para
-o post não ficar muito grande, mas aconselho a ficar de olho nas
-notícias pois a &lt;a href=&#34;www.locaweb.com.br&#34;&gt;Locaweb&lt;/a&gt; filmou o evento e
-provavelmente vão liberar os vídeos das palestras, e quando isso
-acontecer, aconselho você a assistir! :)&lt;/p&gt;
-
-&lt;p&gt;E é claro que nesse evento também teve um espaço para a
-desconferência, onde apareceram algumas outras apresentações legais
-(cômicas ou não), sobre assuntos derivados, como: node.js, deploy
-continuo, programando algo parecido com Ruby para Java, e etc! Foi bem
-divertido também!&lt;/p&gt;
-
-&lt;p&gt;Além de tudo isso ainda temos que contar o networking com a galera que
-foi fantástico, rever velhos amigos que quase nunca vemos (a galera da
-&lt;a href=&#34;http://www.fande.com.br&#34;&gt;Fande&lt;/a&gt; e do Ikwa
-(&lt;a href=&#34;http://twitter.com/mateuslinhares&#34;&gt;@mateuslinhares&lt;/a&gt;,
-&lt;a href=&#34;http://twitter.com/danielaltman&#34;&gt;@danielaltman&lt;/a&gt;,
-&lt;a href=&#34;http://twitter.com/jorge_silveira&#34;&gt;@jorge_silveira&lt;/a&gt;,
-&lt;a href=&#34;http://twitter.com/willian&#34;&gt;@willian&lt;/a&gt;,
-&lt;a href=&#34;http://twitter.com/_bojak&#34;&gt;@_bojak&lt;/a&gt;,
-&lt;a href=&#34;http://twitter.com/rafaeltimbo&#34;&gt;@rafaeltimbo&lt;/a&gt; e
-&lt;a href=&#34;http://twitter.com/vitormateus&#34;&gt;@vitormateus&lt;/a&gt;) por exemplo),
-reencontrar o pessoal do &lt;a href=&#34;http://www.guru-sp.org&#34;&gt;Guru-SP&lt;/a&gt; que apesar
-de encontrar sempre é legal reunir toda a galera e foi mais um
-encontro :), e ainda tem mais um monte de gente que encontrei por lá,
-e isso fora as pessoas que conheci! Enfim&amp;hellip;Networking #FTW! :).&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/Willian.molinari/20101026Rubyconf?feat=directlink&#34;&gt;Minhas fotos do evento&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;android-dev-lab&#34;&gt;Android Dev Lab&lt;/h4&gt;
-
-&lt;p&gt;Eu sinceramente esperava que o Google fosse dar um Nexus One para a
-galera assim como eles fizeram na OSCon lá fora, mas obviamente me
-enganei :P.  No fim das contas o evento foi razoável, apesar dos
-problemas com WIFI (que já é corriqueiro&amp;hellip;), foi interessante para
-conhecer um pouco do SDK, principalmente para quem não ia no Google
-Developers Day no dia seguinte (o que não foi o meu caso), e para
-ganhar uma camiseta bonitinha do Android :P&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Resumo&lt;/strong&gt;: Foi legal mas eu esperava mais.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/Willian.molinari/20101028AndroidDevLab?feat=directlink&#34;&gt;Minhas fotos do evento&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;google-developers-day&#34;&gt;Google Developers Day&lt;/h4&gt;
-
-&lt;p&gt;Para compensar o Android Dev Lab o GDD foi um evento fantástico! Muito
-mais gente (como era de se esperar) poucos lugares nas palestras
-principais, mas um ótimo conteúdo de palestras (se você souber
-escolher bem :D).&lt;/p&gt;
-
-&lt;p&gt;Algumas palestras:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Para mim foi quase um Tim Bray Developers Day, por que eu assisti 3 palestras do Tim Bray, todas sobre Android, direta ou indiretamente. Gostei de todas, o Tim falou muito bem sobre os temas que escolheu. Deu uma boa visão sobre design de aplicações, sobre o Android em si (algumas coisas eu já tinha visto no dia anterior&amp;hellip;), e mostrou por que eles seguem algumas filosofias.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Uma frase que ele falou que eu ia mencionar no twitter na hora mas não ia caber, e resolvi deixar para (trollar aqui n)o post:&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&amp;ldquo;O Android Market não precisa de moderação por que sabemos que as pessoas são inteligentes e caso uma aplicação não seja boa ou pareça maliciosa, eles simplesmente não instalam e não usam&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;A palestra sobre Desenvolvimento de extensões para o Chrome foi bem legal e mostrou como é simples desenvolver uma extensão e como ele consegue acesso fácil ao chrome apenas utilizando Javascript. E o mais engraçado é que o desenvolvedor do Chromed Bird fez uma pequena apresentação mostrando a extensão dele e ele tinha uma direct message com um link para um twit meu. Vai saber :P&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Achei que a palestra sobre HTML5 seria a mesmice de sempre, mas aprendi muita coisa interessante com ela! Não sabia que agora existem buscas no estilo jQuery nativamente no Javascript. Algo como .search(&amp;lsquo;#id&amp;rsquo;) (não é esse método, mas existe), fora as dicas que ele deu e os exemplos que ele mostrou que valeram a pena. Vou procurar a apresentação dele na internet depois para dar uma olhada novamente, e se eu encontrar atualizo o post.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Novamente, teve outras palestras legais, mas essas são as que eu
-lembro, e aproveitei! :)&lt;/p&gt;
-
-&lt;p&gt;Nesse evento também encontrei velhos amigos como o &lt;a href=&#34;http://twitter.com/dalembertian&#34;&gt;Rubens
-Altimari&lt;/a&gt; da
-&lt;a href=&#34;http://www.whitehat.com.br&#34;&gt;Whitehat&lt;/a&gt; empresa que eu já tive o prazer
-de trabalhar, e meu amigo &lt;a href=&#34;http://www.twitter.com/brunoassis&#34;&gt;Bruno
-Assis&lt;/a&gt; que sempre marcamos de
-conversar e nunca nos encontramos :P.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/Willian.molinari/20101029GoogleDevelopersDay2010?feat=directlink&#34;&gt;Minhas fotos do evento&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;resumo&#34;&gt;Resumo&lt;/h4&gt;
-
-&lt;p&gt;Foi uma semana &lt;strong&gt;Muito&lt;/strong&gt; cansativa, fazia tempo que eu não ficava tão
-cansado assim. Entre um evento e outro teve as minhas seções de
-fisioterapia (para curar umas dores nas costas devido a uma queda), e
-também trabalhei bastante para compensar os eventos (e o mais legal é
-que foi uma parte divertida do trabalho para fazer!).&lt;/p&gt;
-
-&lt;p&gt;No fim das contas, tudo isso valeu muito a pena, aprendi bastante,
-conheci pessoas, revi outras pessoas, consegui manter o fluxo do meu
-trabalho, e descansei no final da semana! Portanto&amp;hellip; Vitória! :D&lt;/p&gt;
-</description>
+      <description>Na semana passada (semana do dia 24 ao dia 30 de outubro) foi uma semana de grandes eventos, que eu tive o prazer de participar de todos! :)
+Rubyconf Brasil A Rubyconf Brasil é o Antigo Rails Summit Latin America, que acontecia no centro de convenções do Anhembi, e agora mudou sua localização para o centro de convenções Frei Caneca, para diminuir os custos e prover um local mais acessível para os participantes (próximo ao metrô e a avenida paulista).</description>
     </item>
     
     <item>
@@ -1037,160 +133,9 @@ trabalho, e descansei no final da semana! Portanto&amp;hellip; Vitória! :D&lt;/
       <pubDate>Sun, 01 Aug 2010 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/fisl11/</guid>
-      <description>
-
-&lt;p&gt;Finalmente depois de 4 anos planejando eu consegui ir para o FISL! :)&lt;/p&gt;
-
-&lt;p&gt;Para quem ainda não sabe, eu estou trabalhando na &lt;a href=&#34;www.locaweb.com.br&#34;&gt;Locaweb&lt;/a&gt; desde o
-começo deste mês e consegui ir com a equipe deles para o FISL.&lt;/p&gt;
-
-&lt;p&gt;Esperava um conteúdo técnico melhor no FISL, e algumas palestras (ou a
-falta de boas palestras) me decepcionou um pouco, mas pelo que eu fiquei
-sabendo foi decisão do público os temas, então ficou meio incontrolável.
-Mas como eu sempre digo, a melhor coisa dos eventos não são apenas as
-palestras, mas também as pessoas que você conhece e os papos que rolam
-entre uma palestra e outra, e isso foi bem legal! :)&lt;/p&gt;
-
-&lt;p&gt;Algumas palestras que eu assisti:&lt;/p&gt;
-
-&lt;h4 id=&#34;xen-ferramenta-de-administração-da-conab&#34;&gt;Xen Ferramenta de administração da Conab&lt;/h4&gt;
-
-&lt;p&gt;Foi um case interessante do pessoal da Conab que criou uma ferramenta
-para administrar as maquinas Xen que eles tem internamente. E é uma
-aplicação Django Open Source. :)&lt;/p&gt;
-
-&lt;h4 id=&#34;an-introduction-to-qt-the-toolkit-that-can-take-you-anywhere&#34;&gt;An Introduction to Qt: The toolkit that can take you anywhere&lt;/h4&gt;
-
-&lt;p&gt;Quem me segue no Twitter há algum tempo deve lembrar de alguns posts que
-eu fiz falando de Qt, pois eu resolvi estudar Qt e GTK Just for fun, e
-no fim das contas eu gostei bastante de Qt (e quase nada de GTK :P).
-Nessa palestra vi algumas coisas introdutórias de Qt e descobri uma IDE
-para Qt (no estilo .NET mesmo de ficar arrastando coisas), que é a
-QTCreator e uma biblioteca de teste para coisas Qt, que é a QTestLib.&lt;/p&gt;
-
-&lt;h4 id=&#34;libvirt-a-biblioteca-de-virtualização&#34;&gt;Libvirt: A biblioteca de virtualização&lt;/h4&gt;
-
-&lt;p&gt;Palestra do meu amigo &lt;a href=&#34;http://picasaweb.google.com/Willian.molinari/FISL11#5498175193882024498&#34;&gt;Eduardo Otubo&lt;/a&gt;, mas foi bem curtinha e eu só
-peguei o finalzinho. Como diria ele: “Não tem muito o que falar de
-LibVirt também”.&lt;/p&gt;
-
-&lt;h4 id=&#34;crash-course-on-git&#34;&gt;Crash course on Git&lt;/h4&gt;
-
-&lt;p&gt;Palestra com o Scott Schacon do &lt;a href=&#34;http://www.github.com&#34;&gt;Github&lt;/a&gt;, que mostrou algumas coisas
-simples de Git, mas foi interessante assistir mesmo assim. Nos outros
-dias teve outras dele falando sobre branchs e como trabalhar com eles,
-que foi um pouco mais interessante, mas nada além do que eu já estava
-acostumado.&lt;/p&gt;
-
-&lt;h4 id=&#34;deltacloud-many-cloud-one-api&#34;&gt;DeltaCloud: Many cloud one API&lt;/h4&gt;
-
-&lt;p&gt;Outra palestra do Eduardo Otubo, que desta vez até fez uma citação para
-a &lt;a href=&#34;www.locaweb.com.br&#34;&gt;Locaweb&lt;/a&gt; que talvez usará algo com DeltaCloud. Essa tecnologia é bem
-legal por centralizar várias APIs em um ponto único. :)&lt;/p&gt;
-
-&lt;h4 id=&#34;segurança-e-desafios-em-cloud-computing&#34;&gt;Segurança e desafios em cloud computing&lt;/h4&gt;
-
-&lt;p&gt;Achei que essa palestra fosse mais sobre “como fazer cloud computing”
-mas nesse caso era mais “como usar cloud computing de maneira segura”,
-portanto não aproveitei muito a palestra.&lt;/p&gt;
-
-&lt;h4 id=&#34;curso-de-ruby-e-rails&#34;&gt;Curso de Ruby e Rails&lt;/h4&gt;
-
-&lt;p&gt;Durante o FISL teve 3 aulas do Daniel Lopes sobre Ruby/Rails. A primeira
-foi somente sobre Ruby puro e eu gostei bastante de ver ele passando o
-básico para a galera! Sinto falta de pessoas ensinando Ruby e não
-ensinando Rails…Por isso gostei bastante e acho que ele se saiu muito
-bem. Nos outros 2 dias foi algo mais Rails básico, portanto assisti
-pouca coisa. Mas valeu a pena para quem não conhecia, ou conhecia bem
-pouco a linguagem e o framework.&lt;/p&gt;
-
-&lt;h4 id=&#34;analise-de-tráfego-em-redesw-tcp-ip-com-tcpdump&#34;&gt;Analise de tráfego em redesw TCP/IP com tcpdump&lt;/h4&gt;
-
-&lt;p&gt;Gostei muito dessa palestra! Foi bem conceitual sobre os pacotes e
-protocolos, mas teve algumas amostragem do que estava acontecendo usando
-tcpdump, e foi uma maravilhosa aula de redes em 1 hora. :)&lt;/p&gt;
-
-&lt;h4 id=&#34;lapidando-ruby-estudo-de-boas-práticas&#34;&gt;Lapidando Ruby – Estudo de boas práticas&lt;/h4&gt;
-
-&lt;p&gt;Eu já conhecia o palestrante (&lt;a href=&#34;http://mauricioszabo.wordpress.com/&#34;&gt;Maurício Szabo&lt;/a&gt;) de nome pelo Guru-SP e
-por outros lugares que eu já tinha visto esse nome (não me lembro bem
-onde). A palestra foi bem interessante, e o assunto se direcionou sobre
-umas opiniões do palestrante sobre determinadas coisas, como padrões,
-refactoring, testes e outras coisas. Concordo com muita coisa que ele
-disse e discordo de outras, mas esse era mesmo o intuito dele com a
-palestra, levantar questões sobre as coisas que ele considera boas
-práticas e ver as opiniões da galera. Gostei bastante da palestra.&lt;/p&gt;
-
-&lt;h4 id=&#34;introdução-a-go&#34;&gt;Introdução a Go&lt;/h4&gt;
-
-&lt;p&gt;Essa palestra me decepcionou bastante, assim como a linguagem em si. Não
-vi vantagens pelas quais eu poderia apostar na linguagem Go. :(&lt;/p&gt;
-
-&lt;h4 id=&#34;ext4-a-nova-geração-dos-filesystems&#34;&gt;Ext4 – A nova geração dos Filesystems&lt;/h4&gt;
-
-&lt;p&gt;Está entre uma das melhores palestras do FISL na minha opinião. Foi bem
-técnica e mostrou quais são as vantagens do EXT4 sobre os outros
-FILESYSTEMS focando bastante no EXT3. As vantagens do EXT4 são bem
-legais, entre elas o melhor tratamento sobre arquivos grandes, e algumas
-soluções de problemas com datas e etc. Gostei de entender a diferença
-dos dois.&lt;/p&gt;
-
-&lt;h4 id=&#34;disponibilidade-gt-99-999&#34;&gt;Disponibilidade &amp;gt;= 99.999%&lt;/h4&gt;
-
-&lt;p&gt;Uma palestra bem para Sysadmin, mostrando como eles fazem para sempre
-manter a disponibilidade das aplicações dele na empresa que ele trabalha
-atualmente. Gostei das práticas que eles usam de sempre fazer um
-snapshot da maquina de produção para poder fazer a homologação em uma
-maquina “espelho”, mas achei meio estranho o modo de gerenciar as
-configurações por pacotes, sendo que usar um configuration manager faria
-bem mais sentido.&lt;/p&gt;
-
-&lt;h4 id=&#34;criando-soluções-inteligentes-com-shellscript&#34;&gt;Criando soluções inteligentes com Shellscript&lt;/h4&gt;
-
-&lt;p&gt;Esperava bem mais dessa palestra e nem terminei de assistir inteira.
-Esperava que o palestrante mostrasse várias técnicas de Shellscript, mas
-na verdade ele estava mostrando um pequeno conjunto de scripts que
-faziam configurações e resolvi um problema que ele tinha. Mas para mim
-não era nada interessante a palestra.&lt;/p&gt;
-
-&lt;h4 id=&#34;ovirt-ambiente-minimalista-de-virtualização-para-servidores&#34;&gt;oVirt – Ambiente minimalista de virtualização para servidores&lt;/h4&gt;
-
-&lt;p&gt;A ultima palestra do FISL para mim. Fui mesmo para conhecer o &lt;a href=&#34;https://fedorahosted.org/ovirt/&#34;&gt;oVirt&lt;/a&gt; e
-saber “qual é a dele”, mas o projeto não me impressionou muito.&lt;/p&gt;
-
-&lt;p&gt;No fim de cada dia do evento eu sai com uma galera diferente para bater
-papo, um dia com o próprio pessoal da &lt;a href=&#34;www.locaweb.com.br&#34;&gt;Locaweb&lt;/a&gt;, outro com a galera do
-&lt;a href=&#34;http://www.slackwarebrasil.org/&#34;&gt;GUS-BR&lt;/a&gt;, e outras pessoas também!&lt;/p&gt;
-
-&lt;h4 id=&#34;conclusão&#34;&gt;Conclusão&lt;/h4&gt;
-
-&lt;p&gt;O evento foi muito legal, conheci muita gente legal, assisti palestras
-boas, cresci bastante e estou pronto para o próximo.&lt;/p&gt;
-
-&lt;p&gt;Encontrei &lt;a href=&#34;http://picasaweb.google.com/Willian.molinari/FISL11#5498179634054435602&#34;&gt;vários Rubyistas&lt;/a&gt; por lá (faltou apenas o Carlos Eduardo da
-&lt;a href=&#34;http://www.egenialsas.com.br/&#34;&gt;e-Genial&lt;/a&gt; que tambem estava por lá mas não saiu na foto), inclusive a
-galera do Guru-RS que eu só conhecia por e-mail. Galera gente fina!&lt;/p&gt;
-
-&lt;p&gt;Encontrei a &lt;a href=&#34;http://twitter.com/_leticia&#34;&gt;Letícia Figueira&lt;/a&gt; que eu já conheço há mais de 3 anos pela
-internet (via &lt;a href=&#34;http://rubylearning.org/class&#34;&gt;Rubylearning.org&lt;/a&gt;), pois ela também era uma Assist.
-Teacher quando eu participava mais ativamente, e nunca tinha conversado
-pessoalmente. Foi bem divertido. :)&lt;/p&gt;
-
-&lt;p&gt;E via Letícia eu acabei conhecendo a &lt;a href=&#34;que é [uma
-empresa] que atualmente trabalha com Ruby/Rails no RS&#34;&gt;galera da Fande&lt;/a&gt;, que são todos
-gente fina!&lt;/p&gt;
-
-&lt;p&gt;Fora outros amigos que encontrei aleatóriamente, como o &lt;a href=&#34;https://twitter.com/clauber_halic&#34;&gt;Clauber Halic&lt;/a&gt;
-da &lt;a href=&#34;http://www.mozillabrasil.org/&#34;&gt;MozBr&lt;/a&gt;, a &lt;a href=&#34;http://www.griebeler.com/&#34;&gt;Bruna Griebeler&lt;/a&gt;, o &lt;a href=&#34;http://www.guanabara.info&#34;&gt;Gustavo Guanabara&lt;/a&gt;, &lt;a href=&#34;http://www.akitaonrails.com&#34;&gt;Fabio Akita&lt;/a&gt; e
-outros.&lt;/p&gt;
-
-&lt;p&gt;Para quem quiser ver as &lt;a href=&#34;http://picasaweb.google.com/Willian.molinari/FISL11#&#34;&gt;fotos que eu tirei por lá é só ver no meu
-picasa&lt;/a&gt;. ;)&lt;/p&gt;
-
-&lt;p&gt;Obrigado &lt;a href=&#34;www.locaweb.com.br&#34;&gt;Locaweb&lt;/a&gt; por ter me levado lá! You Rock!&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Thiago Paixão, Sérgio Neves, Lê, Rafael Farias | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Finalmente depois de 4 anos planejando eu consegui ir para o FISL! :)
+Para quem ainda não sabe, eu estou trabalhando na Locaweb desde o começo deste mês e consegui ir com a equipe deles para o FISL.
+Esperava um conteúdo técnico melhor no FISL, e algumas palestras (ou a falta de boas palestras) me decepcionou um pouco, mas pelo que eu fiquei sabendo foi decisão do público os temas, então ficou meio incontrolável.</description>
     </item>
     
     <item>
@@ -1199,39 +144,9 @@ picasa&lt;/a&gt;. ;)&lt;/p&gt;
       <pubDate>Mon, 29 Mar 2010 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/palestra-sobre-vim/</guid>
-      <description>&lt;p&gt;Esse vai ser um post curto, apenas para deixar registrado algumas
-informações sobre a palestra de Vim que teve no sétimo encontro do
-Guru-sp (sim, eu fui o palestrante :D).&lt;/p&gt;
-
-&lt;p&gt;Primeiramente, já começo com uma desculpa, por que já faz mais de 2
-semanas que palestrei e só agora estou fazendo esse post. :(&lt;/p&gt;
-
-&lt;p&gt;Foi bem legal palestrar para uma galera que já conhecia ao menos um
-pouco do editor. Quando eu estava planejando o que eu ia falar eu
-fiquei com uma grande dúvida de qual seria a minha linha de
-apresentação, por que eu não sabia quantos já conheciam o editor,
-portanto eu poderia chegar falando de coisas avançadas e ninguem
-entenderia nada, ou pelo contrário, se muitos conhecessem e eu
-chegasse falando de coisas básicas demais a palestra seria um saco.  A
-minha solução para isso foi preparar os slides de uma forma que eu
-conseguisse falar mais ou menos de determinados assuntos baseado no
-conhecimento do pessoal. Os slides que saíram foram esses:&lt;/p&gt;
-
-&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/bCel8ASrPtnGEv&#34; width=&#34;425&#34; height=&#34;355&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Quando perguntei para o pessoal quem já utilizava, quem nunca abriu
-(ou não conseguiu sair&amp;hellip;heheh) e que usa como editor principal, eu
-descobri que estava equilibrado. Portanto segui uma linha mais comum.&lt;/p&gt;
-
-&lt;p&gt;Tive a sorte do &lt;a href=&#34;http://www.agaelebe.com.br&#34;&gt;agaelebe&lt;/a&gt; gravar (valeu
-Hugo!), e portanto temos o vídeo tambem:&lt;/p&gt;
-
-&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/uhYqwZh61yQ&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Qualquer dúvida, comentário ou sugestão é só postar aqui! :)&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Sérgio Luiz Araújo Silva, Vinicius B. Fuentes, Bruno Croci, otubo | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Esse vai ser um post curto, apenas para deixar registrado algumas informações sobre a palestra de Vim que teve no sétimo encontro do Guru-sp (sim, eu fui o palestrante :D).
+Primeiramente, já começo com uma desculpa, por que já faz mais de 2 semanas que palestrei e só agora estou fazendo esse post. :(
+Foi bem legal palestrar para uma galera que já conhecia ao menos um pouco do editor. Quando eu estava planejando o que eu ia falar eu fiquei com uma grande dúvida de qual seria a minha linha de apresentação, por que eu não sabia quantos já conheciam o editor, portanto eu poderia chegar falando de coisas avançadas e ninguem entenderia nada, ou pelo contrário, se muitos conhecessem e eu chegasse falando de coisas básicas demais a palestra seria um saco.</description>
     </item>
     
     <item>
@@ -1240,99 +155,8 @@ Hugo!), e portanto temos o vídeo tambem:&lt;/p&gt;
       <pubDate>Mon, 29 Mar 2010 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/yahoo-open-hack-2010/</guid>
-      <description>
-
-&lt;p&gt;Para quem ainda não soube, no final de semana passado rolou o Yahoo
-Open Hack Day 2010! O intuito do evento é juntar uma grande quantidade
-de Hackers para criar serviços úteis utilizando informações públicas e
-de preferência utilizar as API&amp;rsquo;s do Yahoo (havia premios para alguns
-hacks com elas).&lt;/p&gt;
-
-&lt;p&gt;Uma das coisas legais do evento é que nada é proibido com relação aos
-Hacks, ou seja, você pode fazer um Hack com as ferramentas do Google
-(não vai concorrer aos premios, mas poderá apresentar lá e tudo mais),
-todas as linguagens de programação estão permitidas, não somente hacks
-web eram permitidos, o que deixou a criatividade ir longe. :D&lt;/p&gt;
-
-&lt;h4 id=&#34;equipe-e-idéia&#34;&gt;Equipe e idéia&lt;/h4&gt;
-
-&lt;p&gt;Participei do evento juntamente com uma equipe que formamos no
-&lt;a href=&#34;www.ikwa.com.br&#34;&gt;Ikwa&lt;/a&gt;, e chamamos a equipe de SleepyProgrammers.&lt;/p&gt;
-
-&lt;p&gt;Nossa idéia era fazer um site para marcar rolês fotográficos, e
-utilizaríamos para isso as API&amp;rsquo;s do Flickr, Meme, Weather e Maps.&lt;/p&gt;
-
-&lt;p&gt;Ao chegar no evento e ver a palestra sobre YQL nós já percebemos que
-não seria necessário aprender a usar essas várias API&amp;rsquo;s e apenas
-precisávamos aprender a usar o YQL e saber quais informações
-poderíamos retornar de qual serviço. :)&lt;/p&gt;
-
-&lt;h4 id=&#34;metodologia-e-projeto&#34;&gt;Metodologia e projeto&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/openhack.jpg&#34; title=&#34;Equipe do openhack&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/openhack.jpg&#34; alt=&#34;Foto da equipe do Openhack&#34; title=&#34;Equipe do Openhack&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Como já estamos acostumados a utilizar Scrum no
-&lt;a href=&#34;www.ikwa.com.br&#34;&gt;Ikwa&lt;/a&gt; nós resolvemos fazer o mesmo para o nosso
-projetinho. Começamos com uma planning meeting logo na primeira hora
-para poder dar uma estimada no que pretendíamos fazer, e logo depois
-dividir as tarefas entre os membros da equipe.  Mais ou menos de 2 em
-2 horas (ou um pouco mais) fazíamos umas stand-up meetings para manter
-todos atualizados. A noite percebemos que isso não estava sendo muito
-necessário por que estávamos em constante comunicação, mas mesmo assim
-resolvemos seguir o costume, afinal demorava apenas uns 4 minutos. :)&lt;/p&gt;
-
-&lt;p&gt;O projeto seguia bem, com layout legal e algumas buscas supostamente
-funcionando até mais ou menos as 9 da noite.&lt;/p&gt;
-
-&lt;h4 id=&#34;os-problemas&#34;&gt;Os problemas&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Já percebemos que a nossa busca não estava retornando exatamente o que gostaríamos de receber, mas deixamos para dar uma refinada nisso no final do tempo, para não ficar muito tempo presos nisso.&lt;/li&gt;
-&lt;li&gt;Tivemos um programador a menos (&lt;a href=&#34;http://twitter.com/_bojak&#34;&gt;@_bojak&lt;/a&gt;) que infelizmente estava usando Windows (acreditem se quiser) por que o netbook que ele comprou (exatamente para evitar ter que usar windows no notebook velho que ele tinha) não chegou a tempo do evento. Muitas das coisas que são simples de se instalar/fazer em um &amp;ldquo;Unix like&amp;rdquo; são uma grande dor de cabeça para se fazer no Windows, portanto o @_bojak teve tantos problemas que chegou uma hora que desistiu de colocar a mão em código.&lt;/li&gt;
-&lt;li&gt;Algum descuidado da equipe criou a pasta &amp;ldquo;Views&amp;rdquo; no famigerado Textmate (escrevi uma gracinha aqui e apaguei para não gerar flame de textmate), e assim bugou a aplicação na minha maquina Linux, e me deixou um tempinho procurando qual era o problema. #fail&lt;/li&gt;
-&lt;li&gt;O Heroku não colaborou para funcionar utilizando o bundler, e depois de muito tempo tentando nós abandonamos o bundler e utilizamos oldstyle mesmo.&lt;/li&gt;
-&lt;li&gt;O nosso outro programador (&lt;a href=&#34;http://twitter.com/jorge_silveira&#34;&gt;@jorge_silveira&lt;/a&gt;) saiu (já tinha avisado que sairia) dizendo que voltaria e simplesmente deixou a equipe na mão (tem seus argumentos, mas essa é minha opinião&amp;hellip;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;o-fail-do-projeto&#34;&gt;O fail do projeto&lt;/h4&gt;
-
-&lt;p&gt;Depois desse monte de problemas eu já estava desmotivado com o projeto
-e comecei a ficar com bastante sono, portanto tirei umas 3 horas para
-dormir (fora o tempo que dormi na mesa), enquanto só o
-&lt;a href=&#34;http://twitter.com/_bojak&#34;&gt;@_bojak&lt;/a&gt; ficou trabalhando motivadão
-(usando o computador do &lt;a href=&#34;http://twitter.com/rafaeltimbo&#34;&gt;@rafaeltimbo&lt;/a&gt;
-que tambem estava dormindo :P).&lt;/p&gt;
-
-&lt;p&gt;Logo pela manhã sabendo que um programador tinha arregado
-(&lt;a href=&#34;http://twitter.com/jorge_silveira&#34;&gt;@jorge_silveira&lt;/a&gt;), um estava
-impossibilitado de trabalhar com seu próprio computador
-(&lt;a href=&#34;http://twitter.com/_bojak&#34;&gt;@_bojak&lt;/a&gt;) e nossa busca não estava
-retornando coisas legais para continuar, nós decidimos que esse
-projeto ficaria para depois do Open Hack Day.&lt;/p&gt;
-
-&lt;p&gt;No fim das contas fizemos uma retrospectiva bem legal, onde vimos
-grande parte dos problemas que tivemos e boa parte das soluções
-tambem, foi bem legal! :)&lt;/p&gt;
-
-&lt;h4 id=&#34;o-evento&#34;&gt;O evento&lt;/h4&gt;
-
-&lt;p&gt;Ok, nosso projeto não vingou mesmo, mas o evento valeu muito para mim!
-Aprendi coisas novas, revi amigos, conheci pessoas novas, conheci as
-API&amp;rsquo;s do Yahoo, comi e bebi de graça, descobri que não devo acreditar
-nas palavras de alguns, descobri que algumas pessoas com certeza
-estarão na minha equipe novamente se quiserem&amp;hellip;. E mais várias outras
-coisas!&lt;/p&gt;
-
-&lt;p&gt;No fim das contas eu tenho uma coisa para recomendar para quem não
-foi&amp;hellip; Quando tiver o próximo, não perca a oportunidade! O evento vale
-muito a pena! :)&lt;/p&gt;
-
-&lt;p&gt;Para quem quiser ver as fotos que eu tirei no evento pode dar uma
-olhada no meu &lt;a href=&#34;http://picasaweb.google.com/Willian.molinari/Openhack?feat=directlink&#34;&gt;album do
-Picasa&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Rafael Souza, Rafael O. Marques, Phoenix | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Para quem ainda não soube, no final de semana passado rolou o Yahoo Open Hack Day 2010! O intuito do evento é juntar uma grande quantidade de Hackers para criar serviços úteis utilizando informações públicas e de preferência utilizar as API&amp;rsquo;s do Yahoo (havia premios para alguns hacks com elas).
+Uma das coisas legais do evento é que nada é proibido com relação aos Hacks, ou seja, você pode fazer um Hack com as ferramentas do Google (não vai concorrer aos premios, mas poderá apresentar lá e tudo mais), todas as linguagens de programação estão permitidas, não somente hacks web eram permitidos, o que deixou a criatividade ir longe.</description>
     </item>
     
     <item>
@@ -1341,114 +165,137 @@ Picasa&lt;/a&gt;.&lt;/p&gt;
       <pubDate>Tue, 02 Feb 2010 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/campus-party-2010/</guid>
-      <description>
-
-&lt;p&gt;Esse começo de ano eu estou aproveitando para participar de alguns
-eventos, e a Campus Party é um dos principais deles.  Assim que eu
-entrei na empresa que eu estou trabalhando atualmente eu já informei
-que em janeiro tinha um evento que eu gostaria muito de participar
-(entrei na empresa em abril :P) e deixei combinado que eu estaria
-liberado para o tal, portanto agora consegui uma semana de férias para
-aproveitar a campus party! :)&lt;/p&gt;
-
-&lt;h4 id=&#34;entrada&#34;&gt;Entrada&lt;/h4&gt;
-
-&lt;p&gt;Começando pela entrada no evento na segunda feira. Entrar em um evento
-onde se está esperando 6000 pessoas que vão receber barracas para
-acampar e tem que ter seus notebooks cadastrados e etiquetados nunca é
-fácil, e não foi dessa vez que as coisas foram mais rápidas.  Na
-segunda feira tínhamos uma fila monumental para cada coisa que tinha
-que fazer, desde a entrada, passando pelo cadastramento e pelo local
-onde retiramos as mochilas e barracas.  Mas não estava mal organizado
-a princípio, o problema era a quantidade de gente mesmo. :)&lt;/p&gt;
-
-&lt;h4 id=&#34;camping&#34;&gt;Camping&lt;/h4&gt;
-
-&lt;p&gt;A área de camping estava organizada como sempre, mas dessa vez todas
-as barracas estavam montadas (da ultima vez nós tivemos que montar as
-nossas) e eles estavam apenas distribuindo os numeros delas.  Levei um
-coxão inflável dessa vez por que o coxão do ano passado era quase um
-lençol&amp;hellip;hehehe&amp;hellip;Era como se eu estivesse dormindo no chão.  Para
-dormir por lá é sempre barulhento pois a Campus Party não para um
-segundo, sempre tem pessoas gritando sem motivo independente da hora,
-mas isso não atrapalha (muito) a diversão.&lt;/p&gt;
-
-&lt;h4 id=&#34;palestras&#34;&gt;Palestras&lt;/h4&gt;
-
-&lt;p&gt;Achei que fosse assistir bem mais palestras esse ano, mas quando
-estava por lá eu fiquei com preguiça de assistir algumas. :P Uma das
-coisas que foi mais legal na Campus Party esse ano na minha opinião
-foi a transmissão ao vivo das palestras! Eu mesmo assisti mais de uma
-palestra pela internet, tanto quando eu estava em casa como quando eu
-estava no evento, por que eu achava o audio bem melhor do que ter que
-ouvir no meio de todo o ruído que os campuseiros produzem.&lt;/p&gt;
-
-&lt;p&gt;Gostaria de destacar algumas palestras que eu assisti e gostei muito:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Matemática para não matemáticos&lt;/li&gt;
-&lt;li&gt;Matemática orientada a Computação gráfica&lt;/li&gt;
-&lt;li&gt;Criando e lançando um site em 42 minutos com Sinatra&lt;/li&gt;
-&lt;li&gt;Segurança e RubyOnRails&lt;/li&gt;
-&lt;li&gt;Introdução ao Blender&lt;/li&gt;
-&lt;li&gt;Desenvolvimento de games para IPhone&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Cada uma teve suas particularidades, mas foram bem legais de se
-assistir e cada uma agregou um pouco a meu conhecimento.&lt;/p&gt;
-
-&lt;h4 id=&#34;internet&#34;&gt;Internet&lt;/h4&gt;
-
-&lt;p&gt;A internet do Evento não deixou a desejar, e como muitos sabem, o
-forte de compartilhamento da Campus Party não é a internet, e sim os
-programas de P2P que usamos internamente (no caso o dc++).&lt;/p&gt;
-
-&lt;p&gt;Alguns pontos de rede não estavam funcionando, mas esse não foi um
-grande empecilho, sendo que a grande maioria estava e você podia
-simplesmente sentar, plugar o seu notebook e compartilhar arquivos a
-mais de 1MB por segundo (consegui 9MB no começo do evento).  A
-internet para download externo também não deixou na mão,
-possibilitando downloads a 1MB por segundo dependendo do servidor que
-está fornecendo o download,&lt;/p&gt;
-
-&lt;h4 id=&#34;inovação&#34;&gt;Inovação&lt;/h4&gt;
-
-&lt;p&gt;Um foco bem legal da Campus Party é trazer inovação, mostrar projetos
-inovadores, incentivar jovens a inovarem criando novas tecnologias e
-novos negócios.  Na área expo tinha muitas coisas interessantes, como
-por exemplo, um jogo que utiliza o controle do Wii e simula um spray
-que deixa você &amp;ldquo;pixar&amp;rdquo; uma tela virtual e fazer vários tipos de
-desenhos.&lt;/p&gt;
-
-&lt;h4 id=&#34;networking&#34;&gt;Networking&lt;/h4&gt;
-
-&lt;p&gt;Essa é a parte que mais me motiva a ir para a Campus Party! Muito mais
-do que arquivos, internet, palestras ou outras coisas, eu vou para a
-Campus Party para ver os amigos e bater um papo sobre coisas
-interessantes/ Até amigos de outros estados vem para a Campus Party e
-eu tenho a chance de vê-los, né &lt;a href=&#34;http://griebeler.com/&#34;&gt;Griebeler&lt;/a&gt;! :)&lt;/p&gt;
-
-&lt;p&gt;E tudo isso sem contar os amigos novos que eu faço por lá e o pessoal
-que eu só conhecia pela internet e conheci pessoalmente! Entre eles
-estão Ricardo, Pedro, Lucas, Rencka, João, oTubo e mais uma galera! :)&lt;/p&gt;
-
-&lt;h4 id=&#34;conclusão&#34;&gt;Conclusão&lt;/h4&gt;
-
-&lt;p&gt;Eu recomendo participar da Campus Party pelo menos algum dia se você
-tiver a chance. :)&lt;/p&gt;
-
-&lt;p&gt;Você já deve ter ouvido falar que a Campus Party é mó zona, fica um
-monte de gente gritando sem motivo, pessoas fazendo brincadeiras que
-não tem graça nenhuma, as palestras são difíceis de ouvir tanto pela
-zona como por que há várias palestras simultâneas e os palcos são
-próximos e etc&amp;hellip;  Eu só tenho uma coisa a te dizer: &lt;strong&gt;Isso é tudo
-verdade, mas eu iria mesmo assim!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Nada disso atrapalha a sua diversão, e o seu benefício, você apenas
-precisa &amp;ldquo;entrar na brincadeira&amp;rdquo; e aproveitar. ;)&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Bruna Griebeler, Pedro Menezes, Phoenix | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Esse começo de ano eu estou aproveitando para participar de alguns eventos, e a Campus Party é um dos principais deles. Assim que eu entrei na empresa que eu estou trabalhando atualmente eu já informei que em janeiro tinha um evento que eu gostaria muito de participar (entrei na empresa em abril :P) e deixei combinado que eu estaria liberado para o tal, portanto agora consegui uma semana de férias para aproveitar a campus party!</description>
+    </item>
+    
+    <item>
+      <title>Show do Metallica</title>
+      <link>http://pothix.com/post/show-do-metallica/</link>
+      <pubDate>Tue, 02 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/show-do-metallica/</guid>
+      <description>E vou para um assunto meio OFF no meu blog (ou não), que é falar de shows que vou, nesse caso o do Metallica!
+Há muito tempo queria que o Metallica viesse para o Brasil, e no ano passado que tiveram vários shows bons (ACDC, Motorhead, Megadeth, Iron Maiden e etc) fiquei sabendo que eles viriam ao Brasil e já antecipei a compra do ingresso com a ajuda do meu amigo Bruno Assis que é cliente do CityBank.</description>
+    </item>
+    
+    <item>
+      <title>Dev In Sampa</title>
+      <link>http://pothix.com/post/dev-in-sampa/</link>
+      <pubDate>Wed, 02 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/dev-in-sampa/</guid>
+      <description>Nesse sábado, dia 28/11/2009 aconteceu aqui em São Paulo (obviamente! :P ) o Dev In Sampa! Um evento para desenvolvedores em geral, sem foco em uma determinada linguagem de programação, ou seja, um evento bem legal e pragmatico! :D
+Perdi um pouco a hora, portanto não assisti o começo da palestra do José Valim, que por sinal é um assunto que muito me interessa, portanto recorri aos vídeos do @agaelebe para assistir o comecinho.</description>
+    </item>
+    
+    <item>
+      <title>Show do ACDC</title>
+      <link>http://pothix.com/post/show-do-acdc/</link>
+      <pubDate>Tue, 01 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/show-do-acdc/</guid>
+      <description>Como muitos sabem eu tive o prazer de estar no show do ACDC aqui no Brasil, que aconteceu no dia 27 de novembro de 2009.
+Eu não queria perder esse show por nada, por vários motivos, sendo 2 deles:
+ Eu curto pra caramba ACDC Os caras já estão bem velhinhos! Assim como o Ozzy que eu fui e já pensava que podia ser a ultima vez :P  O show foi no estádio do Morumbi:</description>
+    </item>
+    
+    <item>
+      <title>Rails Summit 2009</title>
+      <link>http://pothix.com/post/rails-summit-2009/</link>
+      <pubDate>Mon, 19 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/rails-summit-2009/</guid>
+      <description>Esse é um post para relatar como foi o Rails Summit Latin America desse ano! 😀 Já começo o post com um grande #win para a organização do #railssummit, por que eles tem tomadas para todos e wi-fi liberado para todos os participantes, o que ajuda para que pessoas como eu possam ficar postando no blog durante o evento, :) Vamos ao evento!
+Rails Insurgency – Chad Fowler A palestra foi muito interessante e o Chad Fowler falou sobre como é a dificuldade de implantar uma aplicação Rails em uma grande empresa quando você tem grandes gerentes que te enchem de perguntas do tipo: “Rails faz X?</description>
+    </item>
+    
+    <item>
+      <title>Encontro de numero 5 do Guru-sp</title>
+      <link>http://pothix.com/post/encontro-de-numero-5-do-guru-sp/</link>
+      <pubDate>Tue, 21 Jul 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/encontro-de-numero-5-do-guru-sp/</guid>
+      <description>Nesse sábado aconteceu o quinto encontro do Guru-sp! :)
+O encontro estava marcado para as 10 da manhã com uma seção para iniciantes e começou as 10:30 ( sempre atrasa um pouquinho né? hehe ), já com um bate papo legal coordenado pelo @rafaelrosafu após uma breve apresentação de todos os participantes.
+Rails para iniciantes Nessa primeira seção tiveram muitas conversas interessantes sobre algumas filosofias Rails, como:
+ DRY REST TDD Test all the Fucking Time Skynny Controllers and Fat Models  e mais algumas outras coisas bem interessantes que fomentaram uma ótima discussão sobre quais os melhores padrões para se seguir quando se constrói uma aplicação Rails (sim, falamos tomando como base uma aplicação Rails), como utilizar plugins como o ResourceController (que tem seus prós e contras), manter seus scripts num lugar diferente da pasta scripts, que é a pasta padrão para scripts &amp;ldquo;internos&amp;rdquo; do Rails e tentar centralizar em uma pasta dentro de lib, além de usar Rake sempre que possível para essas tarefas ficarem organizadas e de fácil acesso.</description>
+    </item>
+    
+    <item>
+      <title>Encontro de Design e Tecnologia Digital</title>
+      <link>http://pothix.com/post/encontro-de-design-e-tecnologia-digital/</link>
+      <pubDate>Sun, 26 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/encontro-de-design-e-tecnologia-digital/</guid>
+      <description>Participei nesse sábado do EDTED (Encontro de Design e Tecnologia Digital), e vou postar as minhas impressões sobre o evento, focando as palestras que assisti:
+CMS’s livres: não reinventado a roda no desenvolvimento web A palestra foi conduzida por Paulino Michelazzo da Fábrica Livre, e foi uma palestra interessante!
+O palestrante soube levar bem a palestra, com momentos engraçados ( várias brincadeiras com Java e Windows, que obviamente não devem ser levadas a sério ), e apresentando como é fácil criar uma loja virtual utilizando o Joomla.</description>
+    </item>
+    
+    <item>
+      <title>Translated Rubylearning presentation</title>
+      <link>http://pothix.com/post/translated-rubylearning-presentation/</link>
+      <pubDate>Fri, 10 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/translated-rubylearning-presentation/</guid>
+      <description>As I promised, here goes my presentation! :)
+Finally i finished to translate all the presentation! Watched the video a lot of times, pausing and playing to write all I said translating to english. :)
+Fortunately I had a big help from my friend Victor Goff, that corrected all my grammar errors and typos.
+I&amp;rsquo;m posting below all i have about the presentation, slides from Slideshare and a translation pasted here, but you can find the translation at Google Docs too.</description>
+    </item>
+    
+    <item>
+      <title>Ruby e Rails no mundo real</title>
+      <link>http://pothix.com/post/ruby-e-rails-no-mundo-real-overview/</link>
+      <pubDate>Tue, 07 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/ruby-e-rails-no-mundo-real-overview/</guid>
+      <description>Como muitos leitores do Blog sabem, eu palestrei no Evento &amp;ldquo;Ruby e Rails no mundo real&amp;rdquo;, e vou fazer um pequeno overview desse evento que eu havia divulgado aqui no blog:
+O evento foi bem interessante, bem alem do que nós havíamos planejado nas primeiras conversas do primeiro encontro do GURU-SP, e atendeu bastante as nossas expectativas por ser o primeiro. Obviamente cometemos alguns erros que vamos melhorar no próximo, como garantir que tenha Wi-Fi por exemplo!</description>
+    </item>
+    
+    <item>
+      <title>Show do Iron Maiden</title>
+      <link>http://pothix.com/post/show-do-iron-maiden/</link>
+      <pubDate>Tue, 17 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/show-do-iron-maiden/</guid>
+      <description>Fui ao show do Iron maiden nesse domingo dia 15&amp;frasl;03 e resolvi postar as minhas considerações.
+O show do Iron Maiden em si foi muito legal! Tocaram muitos clássicos como:
+ Fear of the dark ( der&amp;hellip; ) Wasted Years Aces High The rime of ancient mariner Phanton of the Opera Hallowed be the name 666 the number of the beast The trooper  entre outras!
+A abertura com o discurso de Winston Churchill e já entrando com Aces High foi muito legal!</description>
+    </item>
+    
+    <item>
+      <title>Ruby e Rails no mundo real</title>
+      <link>http://pothix.com/post/ruby-e-rails-no-mundo-real/</link>
+      <pubDate>Fri, 06 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/ruby-e-rails-no-mundo-real/</guid>
+      <description>Pessoal, hoje o meu post é para comentar sobre o evento do Guru-sp (Grupo de usuário Ruby de São Paulo), cujo fui um dos fundadores e participo até hoje (quem vê pensa que faz bastante tempo&amp;hellip; Apenas uns 4 meses haha).
+O evento já tem site oficial e está com as inscrições abertas!
+Pelo que estamos fazendo o evento tende a ser grande, com auditório para cerca de 200 pessoas, com direito a crachá, apostila, Coffee break e etc.</description>
+    </item>
+    
+    <item>
+      <title>Campus Party 2009</title>
+      <link>http://pothix.com/post/campus-party-2009/</link>
+      <pubDate>Mon, 26 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/campus-party-2009/</guid>
+      <description>Como sabem eu estive na Campus Party nessa ultima semana, e consegui aproveitar bastante do evento, apesar do monte de coisas que estão acontecendo na minha vida e a correria toda de trabalho, curso e outras coisas.
+Segue um pequeno resumo do que pude ver por lá:
+Segunda-feira dia 19/01/2009 Cheguei no evento mais ou menos as 15:00 e consegui entrar rapidinho&amp;hellip; Já armei a minha barraca (vide fotos) e deixei algumas coisas por lá para não ficar carregando, e fui conectar na internet que ainda estava bem precária que só funcionava em algumas mesas.</description>
+    </item>
+    
+    <item>
+      <title>Rails Summit Latin Amerira (Day 2)</title>
+      <link>http://pothix.com/post/rails-summit-latin-amerira-day-2/</link>
+      <pubDate>Wed, 22 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/rails-summit-latin-amerira-day-2/</guid>
+      <description>Para quem não viu o meu post sobre o primeiro dia da Rails Summit, veja aqui! ;) E agora vamos ao segundo post sobre a Rails Summit! :)
+Começamos o segundo dia de Rails Summit as 8:00, e logo no começo do dia tivemos alguns probleminhas técnicos com energia elétrica que logo foi contornado com um gerador ( esse evento escala! ). Tivemos a abertura do dia com o Fabio akita comentando sobre as palestras e dando recados gerais.</description>
     </item>
     
   </channel>

@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Games on PotHix</title>
-    <link>http://pothix.com/tags/games/index.xml</link>
+    <link>http://pothix.com/tags/games/</link>
     <description>Recent content in Games on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="http://pothix.com/tags/games/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Oct 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://pothix.com/tags/games/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Saudades do Poker</title>
@@ -15,39 +18,8 @@
       <pubDate>Wed, 31 Oct 2012 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/saudades-do-poker/</guid>
-      <description>&lt;p&gt;Apesar de eu não ser bom o suficiente eu curto bastante jogar poker, mas as
-poucas vezes que me juntei com os amigos pessoalmente para jogar foi na época
-da faculdade, que marcavamos as &amp;ldquo;poker nights&amp;rdquo; e jogavamos apostando pequenas
-quantias.&lt;/p&gt;
-
-&lt;p&gt;Depois de sair da faculdade eu sempre penso em tentar juntar aquele
-pessoal novamente, ou até mesmo juntar outras pessoas para poder jogar,
-mas eu acho difícil conseguir contato com o aquele pessoal novamente e a galera
-que eu tenho contato hoje geralmente não sabem jogar e tampouco se importam em
-aprender, ainda mais quando sabem que o jogo só tem graça quando está valendo
-dinheiro.&lt;/p&gt;
-
-&lt;p&gt;Há pouco tempo atrás eu estava assistindo um jogo de poker pela internet e
-resolvi procurar mais informações, sobre quando aconteciam os jogos
-(transmitidos pela internet) e até cheguei a ver alguns documentários e
-reportagens de pessoas que vivem de poker e passam o dia jogando pela internet,
-o que lhes traz uma quantia considerável por mês.&lt;/p&gt;
-
-&lt;p&gt;Resolvi começar a jogar pela internet novamente nas horas vagas e escolhi o
-&lt;a href=&#34;http://pt.partypoker.com/&#34;&gt;partypoker&lt;/a&gt; para brincar. Ao entrar no site descobri
-que o instalador era para Windows, mas como eu já estava acostumado a ver sites
-de poker com instalador para windows eu decidi usar a interface web deles que
-funciona com um applet java e rolou tranquilo.&lt;/p&gt;
-
-&lt;p&gt;Jogar poker pela internet é bem divertido, e também necessário para quem quer levar
-o jogo a sério, mas eu ainda sinto falta de juntar os amigos pessoalmente e passar
-uma boa parte do tempo tentando adivinhar a poker face da galera para não ver meu
-dinheiro se perdendo. :P&lt;/p&gt;
-
-&lt;p&gt;Se alguém aí costuma se juntar para jogar, não esqueçam de me incluir! :)&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Letícia F. | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Apesar de eu não ser bom o suficiente eu curto bastante jogar poker, mas as poucas vezes que me juntei com os amigos pessoalmente para jogar foi na época da faculdade, que marcavamos as &amp;ldquo;poker nights&amp;rdquo; e jogavamos apostando pequenas quantias.
+Depois de sair da faculdade eu sempre penso em tentar juntar aquele pessoal novamente, ou até mesmo juntar outras pessoas para poder jogar, mas eu acho difícil conseguir contato com o aquele pessoal novamente e a galera que eu tenho contato hoje geralmente não sabem jogar e tampouco se importam em aprender, ainda mais quando sabem que o jogo só tem graça quando está valendo dinheiro.</description>
     </item>
     
     <item>
@@ -56,43 +28,9 @@ dinheiro se perdendo. :P&lt;/p&gt;
       <pubDate>Thu, 03 Mar 2011 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/instalando-o-full-throttle-no-motorola-milestone/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/full_throtle_pothix.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/full_throtle_pothix.jpg&#34; alt=&#34;Foto do full throtle rodando no meu notebook toshiba&#34; title=&#34;Full throtle rodando no meu toshiba&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Logo depois que eu comprei a minha
-&lt;a href=&#34;https://picasaweb.google.com/lh/photo/HIT3xHsxwbk29ZWpW4x0wA?feat=directlink&#34;&gt;Dragstar 650&lt;/a&gt;,
-me deu uma grande vontade de voltar a jogar full throttle (por que será, né?), e
-eu comecei a procurar uma forma de fazer isso.&lt;/p&gt;
-
-&lt;p&gt;Eu tenho o jogo (o CD-ROM mesmo) ripado no meu computador, e agora só faltava emular ele.&lt;/p&gt;
-
-&lt;p&gt;Procurando na internet eu achei o &lt;a href=&#34;http://www.scummvm.org/&#34;&gt;scummvm&lt;/a&gt; que emula
-os games da &lt;a href=&#34;http://www.lucasarts.com/&#34;&gt;LucasArts&lt;/a&gt; em várias plataformas! Baixei
-o .deb e comecei a jogar no Ubuntu. Rodou bonitinho e estava gostando pra caramba!&lt;/p&gt;
-
-&lt;p&gt;Depois de jogar um pouco eu me toquei que eu não tenho tanto tempo para parar na
-frente do computador e ficar jogando, e não é nada prático ficar levando meu
-notebook para lá e para cá, portanto eu precisava de uma maneira mais portátil
-de jogar o game, e consequentemente isso me levou a pensar em como fazer o game
-funcionar no meu Android (um motorola milestone).&lt;/p&gt;
-
-&lt;p&gt;Procurando no &lt;a href=&#34;http://www.scummvm.org/downloads/&#34;&gt;site do scummvm eu encontrei um build para Android
-(um .apk, bonitinho)&lt;/a&gt;, mas ao tentar instalar no
-Milestone ele não funcionou, devido as modificações na versão do NDK, pois a
-versão oficial do build que está no site é um pouco antiga. :(&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://forums.scummvm.org/viewtopic.php?t=8137&amp;amp;amp;postdays=0&amp;amp;amp;postorder=asc&amp;amp;amp;start=30&#34;&gt;Procurando nos fóruns por ae&lt;/a&gt;
-eu &lt;a href=&#34;http://anddev.at.ua/load/scummvm_svn55436/1-1-0-7&#34;&gt;encontrei uma versão feita em cima de um commit mais recente&lt;/a&gt;
-do antigo svn (agora eles estão usando Git e o projeto está no
-&lt;a href=&#34;http://github.com&#34;&gt;GitHub&lt;/a&gt; \o/) do scummvm.&lt;/p&gt;
-
-&lt;p&gt;Baixei o .apk e instalei no Android. Após algumas configurações do SDL tudo
-funcionou beleza e o scummvm abriu bonitinho! Agora é só colocar o meu full
-throttle ripado no SD e falar para o scummvm dar o load.&lt;/p&gt;
-
-&lt;p&gt;Seja bem vindo ao mundo dos polecats novamente! :D&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Tino Gomes | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Logo depois que eu comprei a minha Dragstar 650, me deu uma grande vontade de voltar a jogar full throttle (por que será, né?), e eu comecei a procurar uma forma de fazer isso.
+Eu tenho o jogo (o CD-ROM mesmo) ripado no meu computador, e agora só faltava emular ele.
+Procurando na internet eu achei o scummvm que emula os games da LucasArts em várias plataformas! Baixei o .</description>
     </item>
     
     <item>
@@ -101,112 +39,9 @@ throttle ripado no SD e falar para o scummvm dar o load.&lt;/p&gt;
       <pubDate>Sat, 22 Aug 2009 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/meme-game-design-ao-extremo/</guid>
-      <description>
-
-&lt;p&gt;Estou escrevendo esse post por que fui convocado para esse
-&lt;a href=&#34;http://crocidb.com/blog/2009/08/meme-game-design-ao-extremo/&#34; title=&#34;Meme de games no blog do CrociDB&#34;&gt;meme pelo Bruno Croci&lt;/a&gt;,
-que foi meu parceiro no desenvolvimento de um dos games
-&lt;a href=&#34;http://itaucultural.org.br/gameplay/?s=gamejamres&#34; title=&#34;Vencedores do GameJam do Itau Cultural&#34;&gt;vencedores do GameJam do itaú cultural&lt;/a&gt;,
-o &lt;a href=&#34;http://github.com/PotHix/RobotzWarehouse&#34; title=&#34;Robotz Warehouse&#34;&gt;Robotz Warehouse&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A idéia do post é mostrar alguns games interessantes e falar a sua
-opinião sobre eles. As regras são:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Liste quantos jogos em Flash quiser. Preferencialmente aqueles que, por algum motivo de design chamaram sua atenção.&lt;/li&gt;
-&lt;li&gt;Diga o que desses jogos te chamou a atenção, seja em quantas linhas quiser.&lt;/li&gt;
-&lt;li&gt;Repasse para outros blogs.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Há algum tempo eu gostava muito de ficar jogando jogos de lógica em
-flash na internet, mas de um tempo para cá eu parei devido a correria,
-mas com esse post eu consegui reviver muitos jogos legais. São eles:&lt;/p&gt;
-
-&lt;h4 id=&#34;orbox&#34;&gt;Orbox&lt;/h4&gt;
-
-&lt;p&gt;O &lt;a href=&#34;http://www.funny-games.biz/orbox.html&#34; title=&#34;Orbox&#34;&gt;orbox&lt;/a&gt; é um jogo
-muito legal, e o que mais me impressionou nele é a forma que ele
-consegue prender o jogador por ser um jogo bonito, que parece ser
-muito fácil mas mostra que você precisa realmente usar a cabeça para
-poder chegar a terminar o jogo. Eu joguei por algumas madrugadas para
-poder chegar ao fim! =)&lt;/p&gt;
-
-&lt;h4 id=&#34;cowmaze&#34;&gt;Cowmaze&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://gprime.net/game.php/cowmaze&#34; title=&#34;Cowmaze&#34;&gt;Cowmaze&lt;/a&gt; é um jogo
-fantástico! Acho que tem uma idéia simples e interessante, que também
-explora a lógica como parte principal do game e isso sempre me
-atrai. O game é muito bem desenhado, apesar de ter um tema mais
-infantil, é muito bem feito e bonito de se olhar.&lt;/p&gt;
-
-&lt;p&gt;Esse game é bem completo, possui vários níveis de dificuldade, sendo
-que algo que parece ser simples de ser resolvido se torna totalmente
-complexo se você não escolher o caminho certo.&lt;/p&gt;
-
-&lt;p&gt;Uma coisa que esse game tem de vantagem em cima do Orbox? Passwords!
-Pude jogar esse jogo por muito tempo, por que ele sempre tinha um
-password para eu conseguir voltar de onde eu estava, enquanto o Orbox
-sempre me fazia recomeçar tudo novamente.&lt;/p&gt;
-
-&lt;h4 id=&#34;mystery-of-time-and-space-m-o-t-a-s&#34;&gt;Mystery of time and Space - M.O.T.A.S&lt;/h4&gt;
-
-&lt;p&gt;O que mais me chamou a atenção
-&lt;a href=&#34;http://server-admin.pwp.blueyonder.co.uk/motas/&#34; title=&#34;Mystery of time and Space&#34;&gt;nesse game&lt;/a&gt;
-(além de ser um jogo de investigação, é claro) foi a
-história e o ambiente ao qual o jogo introduz o jogador. Esse jogo
-consegue usar o fato de que você tem que explorar um cenário e coloca
-você realmente dentro do game entendendo que você está realmente
-confuso dentro do jogo.&lt;/p&gt;
-
-&lt;p&gt;Eu realmente recomendo jogar e tentar chegar até o final! ;)&lt;/p&gt;
-
-&lt;h4 id=&#34;chronotron&#34;&gt;Chronotron&lt;/h4&gt;
-
-&lt;p&gt;A idéia do
-&lt;a href=&#34;http://www.kongregate.com/games/Scarybug/chronotron&#34;&gt;chronotron&lt;/a&gt;
-é fantástica, e me foi recomendada por
-&lt;a href=&#34;http://www.linkedin.com/in/raltimari&#34; title=&#34;Rubens Altimari&#34;&gt;um físico&lt;/a&gt; que
-falou que a idéia dele é realmente legal e para quem realmente entende
-de física vai reparar muitas coisas legais.&lt;/p&gt;
-
-&lt;p&gt;O jogo é simples mas é muito divertido! Mais uma vez ele trabalha a
-parte lógica e faz com que você tente muitas vezes fazer as suas
-cópias trabalharem da maneira correta, o que por sua vez é muito
-desafiador e divertido :)&lt;/p&gt;
-
-&lt;h4 id=&#34;light-bot&#34;&gt;Light Bot&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://chat.kongregate.com/gamez/0002/2915/live/BillBotKong.swf&#34;&gt;Essegame&lt;/a&gt;
-mostra muito bem como é ser um programador. Você tem
-tipos de ação e você deve usá-las da melhor maneira possível para
-fazer com que o robô chegue a seu destino, e como sempre, as ações são
-limitadas e você precisa fazer uso de funções para utilizar as ações
-da manera correta, sempre reutilizando as ações dentro de funções.&lt;/p&gt;
-
-&lt;p&gt;Esse jogo é ótimo para programadores (seja
-&lt;a href=&#34;http://en.wikipedia.org/wiki/Don%27t_repeat_yourself&#34; title=&#34;Don&#39;t Repeat Yourself&#34;&gt;DRY&lt;/a&gt;)
-por fazer você pensar em como fazer as coisas corretas, e tambem para
-mostrar para as pessoas que não programam como é mais ou menos
-programar. É um game que realmente vale uma olhada, seja você
-programador ou não.&lt;/p&gt;
-
-&lt;p&gt;Esses foram os games que me prenderam por um longo tempo e realmente
-valem a pena de ser lembrados. Agora eu devo indicar mais pessoas para
-continuar esses posts, e os indicados são:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://infog.casoft.info/&#34; title=&#34;Blog do Infog&#34;&gt;Infog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://leticiando.tumblr.com/&#34; title=&#34;Blog da Letícia Figueira&#34;&gt;Leticiando&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://griebeler.com/&#34; title=&#34;blog da Bruna Griebeler&#34;&gt;Griebeler&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://rinaldi.coffeebreakers.org/blog/&#34; title=&#34;Blog do Mario Rinaldi&#34;&gt;Mario Rinaldi&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Espero que apareçam outros posts para dar sequencia e para eu conhecer
-jogos legais que estão perdidos por aí, além de analizar idéias legais
-para games.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Lê | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Estou escrevendo esse post por que fui convocado para esse meme pelo Bruno Croci, que foi meu parceiro no desenvolvimento de um dos games vencedores do GameJam do itaú cultural, o Robotz Warehouse.
+A idéia do post é mostrar alguns games interessantes e falar a sua opinião sobre eles. As regras são:
+ Liste quantos jogos em Flash quiser. Preferencialmente aqueles que, por algum motivo de design chamaram sua atenção.</description>
     </item>
     
     <item>
@@ -215,79 +50,8 @@ para games.&lt;/p&gt;
       <pubDate>Wed, 22 Jul 2009 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/gamereview-spiderman-friend-or-foe/</guid>
-      <description>
-
-&lt;p&gt;Aqui estou eu com mais um GameReview de um jogo que eu tenho jogado
-ultimamente no PSP e finalmente no sábado as 02:15
-&lt;a href=&#34;http://pothix.com/blog/wp-content/uploads/2009/07/moto_0690.jpg&#34; title=&#34;Tela de créditos do Jogo&#34;&gt;eu consegui terminar&lt;/a&gt;,
-o Spiderman - Friend or foe!&lt;/p&gt;
-
-&lt;p&gt;Como quem já me conhece sabe, eu sou um fã de homem aranha! Não aquele
-fã que tem todos os quadrinhos ou que fica comprando um monte de
-coisas, mas eu sempre gostei das histórias do aranha e sempre que
-possível comprava ou pegava emprestado algumas séries de quadrinhos
-para ler, ou jogos para jogar, ou desenhos/filmes para assistir,
-enfim&amp;hellip; Homem Aranha FTW! :D&lt;/p&gt;
-
-&lt;p&gt;Agora vamos ao game:&lt;/p&gt;
-
-&lt;h4 id=&#34;história&#34;&gt;História&lt;/h4&gt;
-
-&lt;p&gt;A história do jogo é bem legal e foi uma das coisas que mais me
-motivou a jogar. Você é convocado por ninguém mais ninguém menos que
-Nick Fury ( da S.H.I.E.L.D,
-&lt;a href=&#34;http://pothix.com/blog/wp-content/uploads/2009/07/moto_0692.jpg&#34; title=&#34;Nick Fury no menu do SpiderMan - Friend or Foe&#34;&gt;veja ele no menu do jogo&lt;/a&gt;)
-para descobrir e eliminar uma espécie alienígena de simbionte parecido
-com o que é o Venom. Até aí tudo bem, pois seria apenas mais um enredo
-do Aranha com simbiotes, mas o mais legal disso é que os simbiotes se
-apossam dos inimigos do aranha, fazendo com que você tenha que
-enfrentar seus velhos inimigos que estão possuídos por um &amp;ldquo;amuleto
-místico&amp;rdquo; alienígena e libertá-los do controle requisitando a ajuda
-deles para acabar com os simbiotes que os possuíram.&lt;/p&gt;
-
-&lt;h4 id=&#34;jogabilidade&#34;&gt;Jogabilidade&lt;/h4&gt;
-
-&lt;p&gt;A jogabilidade não é tão boa quanto eu pensava, e dá a impressão que o
-jogo não foi tão bem programado quanto deveria.&lt;/p&gt;
-
-&lt;p&gt;Durante o jogo você encontra alguns barris para quebrar e conseguir
-Tokens para comprar novos golpes e tal, mas você só pode quebrar um
-por vez com socos ( a não ser que você use um Stomp, que só o do Venom
-é legal&amp;hellip; ), e os socos são estranhos para acertar&amp;hellip;Sem contar que
-os combos não são muito claros para sair também, tem horas que vale
-mais a pena você ficar alternando entre dois botões do que tentar um
-combo específico.&lt;/p&gt;
-
-&lt;h4 id=&#34;dificuldade&#34;&gt;Dificuldade&lt;/h4&gt;
-
-&lt;p&gt;Achei o jogo muito fácil. Você tem dois personagens para controlar e não há limites de vidas, você pode morrer infinitas vezes desde que haja um personagem vivo no tempo que o outro está morto, e isso torna as coisas muito fáceis por que você pode simplesmente ficar correndo ou usando os &amp;ldquo;especiais&amp;rdquo; de defesa enquanto o outro personagem não retorna. Me lembro de ter perdido os 2 personagens apenas uma vez no jogo por bobeira minha.&lt;/p&gt;
-
-&lt;h4 id=&#34;pontos-fortes&#34;&gt;Pontos Fortes&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Eu gostei bastante da história e dos vídeos tanto explicativos para a missão como os vídeos pós-missão também. Os vídeos são engraçados e explicam bastante sobre a missão, e tem bem a cara do homem aranha mesmo, olhando para o Misterio e perguntando se ele tem um peixe na cabeça, ou falando que não quer que o Venom ajude&amp;hellip;hehehe&lt;/li&gt;
-&lt;li&gt;Os mini-games são legais&lt;/li&gt;
-&lt;li&gt;A espectativa de qual será o próximo personagem que você vai liberar para jogar&lt;/li&gt;
-&lt;li&gt;Suposto final alternativo que eu ainda não vi e acho que vou ter que terminar denovo para saber&amp;hellip;hehe&lt;/li&gt;
-&lt;li&gt;Vários extras diferentes para liberar&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;pontos-fracos&#34;&gt;Pontos Fracos&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Definitivamente não gosto de jogos que tem paredes invisíveis no cenário, acho que quando não tem nada para aquele lado não deve haver um espaço para se andar&lt;/li&gt;
-&lt;li&gt;Alguns problemas de colisão chatos acontecem de vez em quando, como você ficar em frente a porta quando ela vai abrir e ela te atravessar&lt;/li&gt;
-&lt;li&gt;Toda vez que você vai encontrar inimigos tem uma cena que mostra os inimigos aparecendo e tal, mas se você estivesse quebrando um barril do outro lado do cenário e os inimigos aparecerem você será &amp;ldquo;tele-transportado&amp;rdquo; para um local padrão no cenário para esperar os inimigos.&lt;/li&gt;
-&lt;li&gt;As missões se tornam um pouco cansativas por ser sempre do mesmo jeito, você encontra sempre os mesmos inimigos, alterando pouca coisa nas cores e alguns golpes e sempre as mesmas quantidades com a mesma intro.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Concluindo, para quem realmente gosta das histórias do Aranha ( assim
-como eu ) provavelmente vai gostar do jogo, mas se você nem gosta
-muito do aranha acho que você vai achar o jogo cansativo e não vai
-conseguir ir até o final.&lt;/p&gt;
-
-&lt;p&gt;No fim das contas&amp;hellip;.Eu gostei! :)&lt;/p&gt;
-</description>
+      <description>Aqui estou eu com mais um GameReview de um jogo que eu tenho jogado ultimamente no PSP e finalmente no sábado as 02:15 eu consegui terminar, o Spiderman - Friend or foe!
+Como quem já me conhece sabe, eu sou um fã de homem aranha! Não aquele fã que tem todos os quadrinhos ou que fica comprando um monte de coisas, mas eu sempre gostei das histórias do aranha e sempre que possível comprava ou pegava emprestado algumas séries de quadrinhos para ler, ou jogos para jogar, ou desenhos/filmes para assistir, enfim&amp;hellip; Homem Aranha FTW!</description>
     </item>
     
     <item>
@@ -296,103 +60,8 @@ conseguir ir até o final.&lt;/p&gt;
       <pubDate>Mon, 20 Jul 2009 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/gamereview-diablo/</guid>
-      <description>&lt;p&gt;Pois é&amp;hellip; Sei que muitos de vocês devem estar pensando se esse era um
-review de algum demo do Diablo III que sabe se lá como eu teria
-conseguido por que ainda nem lançou, mas não, esse é um review do
-Diablo I! Estranho como um jogo lançado a tantos anos atrás tenha
-ganhado um review meu agora, não? :P&lt;/p&gt;
-
-&lt;p&gt;Quando o Diablo I foi lançado eu mal sabia o que era ter um
-computador, e a única coisa que eu podia fazer era ver um colega meu
-com o jogo original jogando enquanto eu ficava
-babando&amp;hellip;.hahaha&amp;hellip;Pois é, e os tempos passaram, eu comprei meu
-Playstation e comecei a jogar Diablo ( um port da Brasoft para o
-Diablo do computador, que ficou bem razoável diga-se de passagem ),
-mas ocupava muitos blocos do Memory card se salvar o progresso no jogo
-e salvar só o personagem e ir passando toda a história toda vez era
-muito chato, então não joguei muito apesar de achar muito legal.&lt;/p&gt;
-
-&lt;p&gt;Quando já tinha meu computador comecei a jogar Diablo II que por sinal
-é muito legal, mas não é o tema desse review, e talvez algum dia tenha
-o seu, mas eu não cheguei a terminá-lo. O mais interessante é que eu
-não conhecia o suficiente da história do Diablo para entender algumas
-coisas.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/diablo_start.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/diablo_start.jpg&#34; alt=&#34;Foto de um PSP com a tela de abertura do Diablo&#34; title=&#34;Diablo no PSP&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Pois bem, agora com o PSP, recebo a notícia do meu colega que ele
-estava conseguindo rodar aquele diablo do Playstation no PSP, e foi só
-o que faltava para despertar a minha vontade de voltar a jogar esse
-jogo! :)&lt;/p&gt;
-
-&lt;p&gt;Dessa vez resolvi adentrar realmente na história do jogo, portanto
-comecei a ler toda a história em alguns sites e entender toda a trama
-do jogo (o que por sua vez me fez entender toda a trama do segundo
-tambem :D).&lt;/p&gt;
-
-&lt;p&gt;Tinha escrito um resumo da história do jogo, mas resolvi não deixar
-aqui para que vocês vejam a história completa, por que eu não vou
-conseguir dar todos os maravilhosos detalhes da trama aqui. Veja a
-&lt;a href=&#34;http://us.battle.net/d3/pt/forum/topic/3280530454&#34; title=&#34;História do Diablo&#34;&gt;história do Diablo aqui&lt;/a&gt; (realmente vale a pena).&lt;/p&gt;
-
-&lt;p&gt;O jogo em si é muito legal para quem gosta do bom e velho RPG. :)&lt;/p&gt;
-
-&lt;p&gt;Você pode escolher entre 3 personagens: O guerreiro tem mais força
-inicialmente e pode brandir machados e espadas mais facilmente, a
-&amp;ldquo;Arqueira&amp;rdquo; (não sei como chamá-la) tem mais abilidade com armas de
-longa distancia, e o mago vem com um nível de magia maior para você
-utilizar mais cajado e magias.&lt;/p&gt;
-
-&lt;p&gt;A diferença nos personagens é apenas inicial, você pode muito bem
-pegar um mago e aumentar apenas a força dele para que ele possa
-brandir armas maiores, só vai demorar um pouco mais, assim como o
-guerreiro pode muito bem aprender magias.&lt;/p&gt;
-
-&lt;p&gt;O jogo é grandioso para a época, e se passa num cenário fechado
-dividido por 16 ou 17 níveis, onde você desce por catacumbas
-enfrentando criaturas infernais e personagens que tem história
-própria, que só quando você conhece a história do jogo você percebe
-como a trama foi bem criada.&lt;/p&gt;
-
-&lt;p&gt;O objetivo do jogo é claro, você tem que matar o Diablo que se soltou
-da velha pedra que o aprisionava e agora se apossou do corpo do filho
-do rei Leoric. Ele se encontra no ultimo andar das catacumbas, e para
-chegar lá você se encontra com muitos passos da história e vai
-encontrando vários livros que vão lhe mostrando partes interessantes
-sobre a sua missão.&lt;/p&gt;
-
-&lt;p&gt;O jogo no PSP (que é o mesmo do Playstation) não é tão rico quanto o
-do computador que tem muitas coisas bem legais, mas é bem jogável e a
-jogabilidade ficou bem legal levando em consideração as limitações que
-eles tiveram que encontrar para migrar um jogo de PC que era
-controlado por um mouse e tinha diversas teclas para facilitar para um
-controle com pouquísimos botões.&lt;/p&gt;
-
-&lt;p&gt;Não encontrei bugs (sei que existe um &amp;ldquo;truquezinho&amp;rdquo; para duplicar
-items e ouro, mas isso não é beeeem um bug :P), e apenas me deparei
-com alguns momentos de slow down no PSP quando a quantidade de
-inimigos é muito grande, mas nada que vá atralhar muito a
-jogabilidade.&lt;/p&gt;
-
-&lt;p&gt;Concluindo, se você está em 2009 (assim como eu estou agora quando
-estou escrevendo esse post) e ainda não jogou Diablo I aproveite e
-jogue! Leia a história do jogo e comece a jogar que você vai entender
-cada parte do jogo e vai ver como a história é bem ligada, e os
-personagens que já participaram ainda tem seu papel no meio do jogo,
-ele lhe dará uma boa introdução para que você se prepare para o Diablo
-III que vai ser lançado em breve pela Blizzard! o/&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/diablo_end.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/diablo_end.jpg&#34; alt=&#34;Foto de um PSP com a tela de final do Diablo&#34; title=&#34;Fim do diablo no PSP&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;E para finalizar esse post com chave de ouro deixo o meu momento de
-triunfo ao terminar o jogo, onde ele fala que por enquanto o Diablo
-está contido, mas você não sabe até quanto poderá conter toda essa
-maldade com você&amp;hellip;.&lt;/p&gt;
-
-&lt;p&gt;E agora&amp;hellip;.Diablo II mostra sua nova aventura! ;)&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: caike, Fantinati, Rafael Masoni | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Pois é&amp;hellip; Sei que muitos de vocês devem estar pensando se esse era um review de algum demo do Diablo III que sabe se lá como eu teria conseguido por que ainda nem lançou, mas não, esse é um review do Diablo I! Estranho como um jogo lançado a tantos anos atrás tenha ganhado um review meu agora, não? :P
+Quando o Diablo I foi lançado eu mal sabia o que era ter um computador, e a única coisa que eu podia fazer era ver um colega meu com o jogo original jogando enquanto eu ficava babando&amp;hellip;.</description>
     </item>
     
     <item>
@@ -401,133 +70,8 @@ maldade com você&amp;hellip;.&lt;/p&gt;
       <pubDate>Sun, 14 Dec 2008 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/gamereview-need-for-speed-most-wanted/</guid>
-      <description>
-
-&lt;p&gt;Como eu disse no &lt;a href=&#34;http://pothix.com/blog/games/voltando-a-ser-um-gamer&#34;&gt;ultimo post&lt;/a&gt;
-agora eu vou fazer uns pomsts sobre uns jogos que eu estou voltando a
-jogar no PSP, dizendo o que eu achei, como foi jogar ele, defeitos,
-qualidades, gosto pessoal e tudo mais!&lt;/p&gt;
-
-&lt;p&gt;Primeiramente vou falar sobre o gosto pessoal. Eu nunca fui muito fã
-de jogos de corrida, foram poucos que realmente me fizeram jogar até o
-final, e &lt;strong&gt;esse realmente foi um deles&lt;/strong&gt;! Outros que eu realmente
-recomendo são: Speed Devils (dreamcastd), Crash Team Racing (
-playstation), Le Mans 24 Hours (dreamcast) e Demolition Racer (
-dreamcast).&lt;/p&gt;
-
-&lt;p&gt;Bem, agora começando a falar sobre o que diz o o título desse post:
-&lt;a href=&#34;http://www.gamespot.com/psp/driving/needforspeedmostwanted/index.html&#34;&gt;Need For Speed - Most Wanted&lt;/a&gt;!
-Esse jogo segue a mesma linha dos velhos
-&lt;a href=&#34;http://www.gamespot.com/pc/driving/needforspeedhotpursuit2/index.html&#34;&gt;Need for Speed Hot Pursuit&lt;/a&gt;,
-mas agora misturando com a linha
-&lt;a href=&#34;http://www.gamespot.com/pc/driving/nfsunderground/review.html&#34;&gt;Need For Speed Underground&lt;/a&gt;!&lt;/p&gt;
-
-&lt;h3 id=&#34;a-história&#34;&gt;A história&lt;/h3&gt;
-
-&lt;p&gt;Se baseia em você ser o Mais procurado (qualquer um que saiba um pouco
-de inglês já teria pensado em algo parecido né? :P) entre uma lista de
-Tuners (sei lá como traduzir isso&amp;hellip; Modificadores de carros), sendo
-que você inicia na 15 posição da lista e vai passando por várias
-corridas até chegar ao dono da posição que você quer conquistar, e
-vencendo ele você passa ele para trás e toma sua posição, assim
-podendo disputar a posição acima.&lt;/p&gt;
-
-&lt;h3 id=&#34;a-evolução-no-jogo&#34;&gt;A evolução no jogo&lt;/h3&gt;
-
-&lt;p&gt;Se baseia em &lt;em&gt;respect&lt;/em&gt; (respeito), portanto quanto mais respeito você
-tem mais você pode avançar, então não necessariamente você precisa
-ganhar do cara que está na sua posição atual para poder disputar
-corridas da outra posição, desde que você consiga respeito o
-suficiente para passar para o próximo nível sem vencê-lo. Você
-consegue respeito tanto nas corridas como em propostas que lhe são
-feitas após terminar uma corrida. As propostas são desafios do tipo:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Despista os policiais e recebe mais respeito ou fica sem nada&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;E se você aceitar, você deve se distanciar dos policiais o suficiente
-para despista-los antes que eles se distanciem de você e lhe façam
-barreiras para furar seus pneus ou consigam te bloquear e prender.&lt;/p&gt;
-
-&lt;h3 id=&#34;multiplayer&#34;&gt;Multiplayer&lt;/h3&gt;
-
-&lt;p&gt;Não cheguei jogar em modo multiplayer por falta de oportunidade, pois
-não tenho amigos jogando PSP sempre por perto, e meus primos do
-NerdNightGames ainda não estão jogando esse jogo.&lt;/p&gt;
-
-&lt;p&gt;O modo infrastructure só funciona com internet que está configurada
-como WEP (não sei por que&amp;hellip;), portanto como a minha está
-configuradinha como WPA eu não consigo usar&amp;hellip;No trabalho é a mesma
-coisa, portanto o modo infrastructure não mudou nada para mim. :(&lt;/p&gt;
-
-&lt;h3 id=&#34;o-modo-carrer&#34;&gt;O modo carrer&lt;/h3&gt;
-
-&lt;p&gt;É bem interessante, apesar de não me empolgar com esse tipo de modo,
-eu achei legal ter que conseguir carros novos para modificar, e sempre
-esperando que seja liberada uma nova atualização de performance para
-que eu possa vencer determinada corrida e tal. Tem uma hora que o jogo
-realmente te força bastante por que seu carro não é bom o suficiente
-para vencer e você não pode errar nenhuma vez para conseguir ganhar,
-alem de ser uma pista cheia de curvas e tráfego, ou seja, é o ápice do
-jogo! Depois disso você consegue carros mais legais e dá para terminar
-o jogo tranquilo.&lt;/p&gt;
-
-&lt;p&gt;Após você passar um adversário e ganhar seu nível você ganha tambem um
-evento bônus para conseguir upgrades visuais bônus tambem! :)&lt;/p&gt;
-
-&lt;h3 id=&#34;a-polícia&#34;&gt;A polícia&lt;/h3&gt;
-
-&lt;p&gt;É muito chata e te atrapalha bastante nas corridas, não que isso seja
-um erro, afinal o trabalho da polícia lá é esse mesmo, e uma coisa que
-eu achei legal é ela tambem atrapalhar os adversários! Já aconteceu da
-polícia estar tão &amp;ldquo;Sangue nos olhos&amp;rdquo; que todos os meus adversários
-estavam presos e eu tinha 3 viaturas me cercando até o final da
-corrida! Fora as várias vezes que eu tenho uma grande vantagem e a
-polícia me alcança ( não importa se você tem uma lamborghini gallardo
-que anda a 210 mph, ela vai te pegar ) e vira meu carro para a direção
-contrária.&lt;/p&gt;
-
-&lt;h3 id=&#34;momentos-wtf&#34;&gt;Momentos WTF&lt;/h3&gt;
-
-&lt;p&gt;Algumas das inteligencias artificiais estava meio bizarras&amp;hellip; Aconteceu
-de eu ganhar a corrida por que ao chegar perto da linha de chegada o
-meu adversário deu uma leve freiada não se sabe por que&amp;hellip; não tinha
-adversário nem policia na frente dele. (???)&lt;/p&gt;
-
-&lt;p&gt;A fisica de batida dos carros tambem é meio bizarra&amp;hellip; Quando você vem
-a toda velocidade numa rua e bate de frente com o carro muitas das
-vezes você continuava andando e o carro que você bateu saia voando em
-parafuso e ficava uns 10 segundos capotando (???)&lt;/p&gt;
-
-&lt;p&gt;Eu cheguei a ver um carro coadjuvante desaparecer do nada após eu
-fazer uma curva :P&lt;/p&gt;
-
-&lt;h3 id=&#34;soundtrack&#34;&gt;Soundtrack&lt;/h3&gt;
-
-&lt;p&gt;Dou muito valor a soudtrack dos jogos, e desse jogo até que ficou
-legal! Como sempre bem baseada em black ( não curto muito ), mas tinha
-um ou dois metalzinhos tambem e um outro estilinho, combina bastante
-com o jogo! :)&lt;/p&gt;
-
-&lt;h3 id=&#34;end-of-the-road-for-me&#34;&gt;End of the road for me&lt;/h3&gt;
-
-&lt;p&gt;Essa semana eu terminei o game com todos os carros e todos os upgrades
-do modo carrer! Para fechar o jogo 100% só faltou pegar todos os
-carros de policia num modo fora do modo carrer, mas esse modo é meio
-chatinho e eu não estou com muito saco de jogar ele, portanto as
-minhas brincadeiras com o Most Wanted terminam aqui.&lt;/p&gt;
-
-&lt;p&gt;Aqui fica tambem o motivo de eu não curtir muito jogo de
-corrida&amp;hellip; Agora eu cheguei no topo, e sou o mais procurado&amp;hellip; E aí?
-Não veio nem um vídeo legal, nem alguma coisa divertida, nem um
-congratulations, simplesmente terminou, ganhou tudo e acabou, posso
-ficar correndo ainda em qualquer pista, acho meio vago isso.&lt;/p&gt;
-
-&lt;p&gt;Aí ficam as minhas considerações sobre o jogo! ;)&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: valdiney, ronald | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Como eu disse no ultimo post agora eu vou fazer uns pomsts sobre uns jogos que eu estou voltando a jogar no PSP, dizendo o que eu achei, como foi jogar ele, defeitos, qualidades, gosto pessoal e tudo mais!
+Primeiramente vou falar sobre o gosto pessoal. Eu nunca fui muito fã de jogos de corrida, foram poucos que realmente me fizeram jogar até o final, e esse realmente foi um deles!</description>
     </item>
     
     <item>
@@ -536,141 +80,10 @@ ficar correndo ainda em qualquer pista, acho meio vago isso.&lt;/p&gt;
       <pubDate>Sun, 14 Dec 2008 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/voltando-a-ser-um-gamer/</guid>
-      <description>&lt;p&gt;Esse aqui vai ser um post um pouco fora do escopo &amp;ldquo;programação&amp;rdquo;, mas
-ainda no escopo &amp;ldquo;nerd&amp;rdquo;! :)&lt;/p&gt;
-
-&lt;p&gt;Com esse post eu pretendo introduzir uma nova &lt;em&gt;série&lt;/em&gt; (não achei
-palavra melhor) posts sobre os games que eu estou jogando
-atualmente, postanto umas opiniões e tudo mais, e quem sabe até alguns
-jogos que eu pretendo instalar no Linux.&lt;/p&gt;
-
-&lt;p&gt;Vou contar um pouco do título &amp;ldquo;&lt;strong&gt;Voltando&lt;/strong&gt; a ser um gamer&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;Eu sempre gostei de jogar vídeo games desde pequeno, a ponto da minha
-mãe dizer que eu só podia jogar 3 horas por dia&amp;hellip; hahaha&amp;hellip; Tive poucos
-vídeo games pois meus pais não tinham tanto dinheiro assim para ficar
-comprando novos, portanto se eu quisesse algo novo eu tinha que me
-virar e comprar.&lt;/p&gt;
-
-&lt;p&gt;Primeiramente tive o bom e velho &lt;a href=&#34;http://www.atarifun.com/atari%202600%20console%20and%20controllers.jpg&#34;&gt;Atari&lt;/a&gt; (era bem pequeno nessa época)&lt;/p&gt;
-
-&lt;p&gt;Mais pra frente ganhei um
-&lt;a href=&#34;http://upload.wikimedia.org/wikipedia/commons/2/24/Super_Nintendo_Entertainment_System-USA.jpg&#34;&gt;SuperNES&lt;/a&gt;,
-que me trouxe bons divertimentos com vários jogos clássicos como
-TopGear, Super Mario World, Road Rash, Samurai Spirit, International
-Super Star Soccer (eu ainda gostava de futebol nessa época), Street
-Fighter, Final Fight, Double Dragon e muitos outros!&lt;/p&gt;
-
-&lt;p&gt;Saí do SuperNes para ir para o Playstation (tive que me virar e rifar
-o meu SuperNes para comprar o PS), onde me diverti bastante com Ace
-Combat 2, Fighting force, Syphon Filter, Monster Rancher 2, Spider
-Man, Street Fighter Ex Plus, Metal Gear Solid, Soul Edge, Bload Roar e
-mais vários jogos legais.&lt;/p&gt;
-
-&lt;p&gt;Vendi meu Playstation, e aproveitei para comprar um &lt;a href=&#34;http://images.techtree.com/ttimages/story/75827_gbc.jpg&#34;&gt;GameBoy
-Color&lt;/a&gt;
-(sim&amp;hellip;Foi na época do Pokémon)&lt;/p&gt;
-
-&lt;p&gt;Um adendo na minha vida de Gamer! Eu sempre participava dos encontros
-do &lt;a href=&#34;http://www.classicgaming.com.br/canal3/&#34;&gt;canal3&lt;/a&gt; com meu primo
-&lt;a href=&#34;http://nietto.cjb.net/&#34; title=&#34;Marcelo Nietto&#34;&gt;Marcelo Nietto&lt;/a&gt; e era sempre
-&lt;a href=&#34;http://www.classicgaming.com.br/Images/Canal3/Eventos/18o_Encontro/encontro18_12.jpg&#34; title=&#34;Jogando!&#34;&gt;muito legal&lt;/a&gt;
-ver vídeo games antigos (e de vez em quando até uns OFF-TOPICs com vídeo games novos!),
-jogar o bom, velho e divertido campeonato de War Lords!&lt;/p&gt;
-
-&lt;p&gt;Felizmente nessa época eu comecei a trabalhar, não oficialmente mas já
-conseguia um dinheirinho, portanto comprei um
-&lt;a href=&#34;http://web-japan.org/kidsweb/archives/cool/98-10-12/dreamcast.jpg&#34;&gt;dreamcast&lt;/a&gt;,
-mesmo sabendo que a linhagem de jogos dele estava acabando e a
-SEGA estava desistindo de continuar a investir, mas achei que valia a
-pena, afinal, além dos meus amigos tinham, e eu tinha visto jogos bem
-legais, como SNK x CAPCOM, Marvel x CAPCOM 2, Crazy Taxy e etc. Me
-diverti muito com o Dreamcast tambem! Joguei bastante Shenmue (o
-melhor jogo de todos os tempos, que eu quero saber o resto da história
-até hoje), Record Of Lodoss War, Tony Hawks 2, Le Mans 24 Hours, Sega
-GT, Sonic Adventure 2 (era tanto vício nesse que quando saia levava o
-VMU com o Sonic para jogar heheeh), Soul Calibur, Sega Tennis, e
-vários outros bem legais!&lt;/p&gt;
-
-&lt;p&gt;Agora depois disso tudo começa a &amp;ldquo;decadência&amp;rdquo; da vida de gamer&amp;hellip;:P&lt;/p&gt;
-
-&lt;p&gt;Vendi meu GameBoy por que já nem estava jogando mais&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Finalmente comprei meu primeiro computador (com 16 anos de idade&amp;hellip; Só
-quando comecei a trabalhar de verdade ), com o seguinte pensamento:
-&amp;ldquo;Vou conseguir rodar uns jogos da hora!&amp;rdquo;, com uma GeForce4! (agora
-não é muita coisa, mas na época era foda!). Joguei bastante coisa
-legal, como Need For Speed Underground, Need For Speed Hot Pursuit 2,
-Diablo, Diablo 2, Halo, Gunbound, Metin 2, Unreal Tournament esse eu
-me matei de jogar! A ponto de ir na casa do meu primo com vários
-disquetes e voltar com os novos Skins que ele baixava! :D ) e mais
-vários outros!&lt;/p&gt;
-
-&lt;p&gt;Bem, mas voltando a decadência ( de gamer, obviamente )&amp;hellip;Nesse tempo
-eu comecei a conhecer mais o Linux e a programação! E meu espírito
-gamer se foi de vez! :P&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Encostei de vez o meu Dreamcast, mas não tive coragem de vender&lt;/li&gt;
-&lt;li&gt;Abandonei os jogos de computador, não que eu nao gostasse mais, mas eu tinha mais vontade de programar ou estudar coisas do gênero enquanto eu estava em frente ao computador, e tambem com o meu curso na ETE, sempre tinha alguma coisa para fazer.&lt;/li&gt;
-&lt;li&gt;Nesse tempo eu tambem comecei a trabalhar com programação, o que me animou mais a estudar para fazer outras coisas! :)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Pois bem&amp;hellip; Tinha me livrado dos games e estava feliz como programador
-e jogador casual quando dava. Ficou assim até poucos meses atrás,
-quando eu fui para a faculdade e me aparece um colega meu com um
-aparelho portátil preto com logotipo da Sony que eu já tinha ouvido
-falar&amp;hellip;PSP! Isso mesmo! E ele me contou como se divertia com o
-bichinho, que dava para ver vídeos, ouvir musica, e jogar vários jogos
-bem legais e tal.&lt;/p&gt;
-
-&lt;p&gt;Tudo isso somado com meu novo colega de faculdade chamado Leonardo
-Foroni, que tem as mesmas características que eu tinha na minha época
-de gamer hardcore.&lt;/p&gt;
-
-&lt;p&gt;Adivinha no que deu? Sim! menos de 1 mês depois estou eu com o meu
-PSP! Demorei um pouco para começar a jogar no bichinho, mas aos poucos
-eu estou vontando a me tornar um gamer hardcore!&lt;/p&gt;
-
-&lt;p&gt;Inclusive criei junto com os meus primos ( os velhos amigos de games ) o
-&lt;a href=&#34;http://picasaweb.google.com/Willian.molinari/20081130NerdNightGames2#&#34;&gt;NerdNightGames&lt;/a&gt;,
-que é um evento interno na casa do
-&lt;a href=&#34;http://picasaweb.google.com/lh/photo/7IvEn9jLkK4AnS5zeMlhFw&#34; title=&#34;LeoStorm&#34;&gt;meu primo&lt;/a&gt;
-onde passamos uma madrugada (geralmente de sábado para
-domingo) só jogando em rede, tanto de PSPs como de computadores!&lt;/p&gt;
-
-&lt;p&gt;Então hoje mantenho Dreamcast guardadinho e meu PSP sempre com jogos
-legais, onde jogo sempre depois do almoço, e a noite antes de durmir!
-Como o PSP está sempre comigo (ouço meus Podcasts nele tambem)
-sempre que possível e seguro eu estou jogando!&lt;/p&gt;
-
-&lt;p&gt;Os jogos de PC estão instalados no windows Vista que veio no meu
-notebook (deixei numa partição minúscula), que por sinal eu só uso
-no Nerd Night Games, afinal, para que mais o Windows serve senão para
-usar como vídeo game. ;)&lt;/p&gt;
-
-&lt;p&gt;Confesso que agora que sou programador o velho sonho de criança de se
-desenvolver jogos (que eu destruí pensando que era um sonho
-impossível de criança, assim como aqueles que queriam ser jogadores de
-futebol) veio a tona, e eu ainda vou desenvolver algo, mesmo que seja
-pequeno. Com isso eu tambem me tornei uma pessoa mais crítica quanto a
-jogos, prestando mais atenção na inteligencia artificial dos inimigos,
-pequenos erros que acontecem e passam meio desapercebidos e outras
-coisinhas, o que me motiva mais ainda a escrever sobre os jogos que
-estou terminando!&lt;/p&gt;
-
-&lt;p&gt;Só para finalizar, outra coisa que está me motivando a voltar a jogar
-agora é o &lt;a href=&#34;http://www.nowloading.com.br/&#34;&gt;Podcast NowLoading&lt;/a&gt;
-que tem sempre informações muito legais e conteúdo bem
-divertido!&lt;/p&gt;
-
-&lt;p&gt;Como eu disse&amp;hellip; Esse post é para vocês entenderem por que eu vou
-começar a postar um pouco alguns jogos tambem. :)&lt;/p&gt;
-
-&lt;p&gt;No mais nada mais! :)&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Lê, allan, CrazyHcgamer | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Esse aqui vai ser um post um pouco fora do escopo &amp;ldquo;programação&amp;rdquo;, mas ainda no escopo &amp;ldquo;nerd&amp;rdquo;! :)
+Com esse post eu pretendo introduzir uma nova série (não achei palavra melhor) posts sobre os games que eu estou jogando atualmente, postanto umas opiniões e tudo mais, e quem sabe até alguns jogos que eu pretendo instalar no Linux.
+Vou contar um pouco do título &amp;ldquo;Voltando a ser um gamer&amp;rdquo;.
+Eu sempre gostei de jogar vídeo games desde pequeno, a ponto da minha mãe dizer que eu só podia jogar 3 horas por dia&amp;hellip; hahaha&amp;hellip; Tive poucos vídeo games pois meus pais não tinham tanto dinheiro assim para ficar comprando novos, portanto se eu quisesse algo novo eu tinha que me virar e comprar.</description>
     </item>
     
   </channel>

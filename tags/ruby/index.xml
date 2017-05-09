@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ruby on PotHix</title>
-    <link>http://pothix.com/tags/ruby/index.xml</link>
+    <link>http://pothix.com/tags/ruby/</link>
     <description>Recent content in Ruby on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="http://pothix.com/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Feb 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://pothix.com/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Ruby, Python e native threads</title>
@@ -15,298 +18,10 @@
       <pubDate>Fri, 14 Feb 2014 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/ruby-python-e-native-threads/</guid>
-      <description>&lt;p&gt;Pode ser que eu seja meio burro (heheh) mas eu ainda achava que o Ruby e o
-Python usavam Green Threads, mas depois de conversar com uma galera me disseram
-que eram threads nativas. Pesquisando na internet eu vi que eram mesmo, mas decidi
-rodar um strace para ver elas rolando e postar sobre isso.&lt;/p&gt;
-
-&lt;p&gt;Fiz dois scripts simples:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Python&lt;/strong&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;import threading
-import time
-for i in range(5):
-    t = threading.Thread(target=time.sleep, args=(1,))
-    t.start()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;strong&gt;Ruby&lt;/strong&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;require &#39;thread&#39;
-5.times do
-  Thread.new {sleep 10}
-end
-sleep 1
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Rodando o script python com o comando &lt;code&gt;strace -f -e clone,fork python thread.py&lt;/code&gt; retorna pouca coisa:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;clone(Process 13920 attached
-child_stack=0x7f8570b67ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f8570b689d0, tls=0x7f8570b68700, child_tidptr=0x7f8570b689d0) = 13920
-[pid 13919] clone(Process 13921 attached
-child_stack=0x7f856bffeff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f856bfff9d0, tls=0x7f856bfff700, child_tidptr=0x7f856bfff9d0) = 13921
-[pid 13919] clone(Process 13922 attached
-child_stack=0x7f856b7fdff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f856b7fe9d0, tls=0x7f856b7fe700, child_tidptr=0x7f856b7fe9d0) = 13922
-[pid 13919] clone(Process 13923 attached
-child_stack=0x7f856affcff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f856affd9d0, tls=0x7f856affd700, child_tidptr=0x7f856affd9d0) = 13923
-[pid 13919] clone(Process 13924 attached
-child_stack=0x7f856a7fbff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f856a7fc9d0, tls=0x7f856a7fc700, child_tidptr=0x7f856a7fc9d0) = 13924
-[pid 13921] +++ exited with 0 +++
-[pid 13920] +++ exited with 0 +++
-[pid 13924] +++ exited with 0 +++
-[pid 13922] +++ exited with 0 +++
-[pid 13923] +++ exited with 0 +++
-+++ exited with 0 +++
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Conseguimos ver claramente as 5 threads do SO aí em cima. :)&lt;/p&gt;
-
-&lt;p&gt;Já no ruby, rodando com o mesmo esquema (&lt;code&gt;strace -f -e clone,fork ruby thread.rb&lt;/code&gt;) retorna bem mais coisas:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14588
-Process 14588 attached
-[pid 14588] clone(Process 14589 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14589
-[pid 14588] clone(Process 14590 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14590
-[pid 14589] +++ exited with 1 +++
-[pid 14590] +++ exited with 0 +++
-[pid 14588] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14589, si_status=1, si_utime=0, si_stime=0} +++
-[pid 14588] +++ exited with 0 +++
-+++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14588, si_status=0, si_utime=0, si_stime=0} +++
-clone(Process 14591 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14591
-[pid 14591] +++ exited with 0 +++
-+++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14591, si_status=0, si_utime=0, si_stime=0} +++
-clone(Process 14592 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14592
-[pid 14592] clone(Process 14593 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14593
-[pid 14593] +++ exited with 0 +++
-[pid 14592] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14593, si_status=0, si_utime=0, si_stime=0} +++
-[pid 14592] clone(Process 14594 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14594
-[pid 14594] clone(Process 14595 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14595
-[pid 14595] +++ exited with 1 +++
-[pid 14594] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14595, si_status=1, si_utime=0, si_stime=0} +++
-[pid 14594] +++ exited with 0 +++
-[pid 14592] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14594, si_status=0, si_utime=0, si_stime=0} +++
-[pid 14592] +++ exited with 0 +++
-+++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14592, si_status=0, si_utime=0, si_stime=0} +++
-clone(Process 14596 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14596
-[pid 14596] +++ exited with 0 +++
-+++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14596, si_status=0, si_utime=0, si_stime=0} +++
-clone(Process 14597 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd34d4569d0) = 14597
-[pid 14597] clone(Process 14598 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f1df327b9d0) = 14598
-[pid 14598] +++ exited with 0 +++
-[pid 14597] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14598, si_status=0, si_utime=0, si_stime=0} +++
-[pid 14597] clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f1df327b9d0) = 14599
-Process 14599 attached
-[pid 14599] clone(Process 14600 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f1df327b9d0) = 14600
-[pid 14600] clone(Process 14601 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb4232139d0) = 14601
-[pid 14601] clone(Process 14602 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb4232139d0) = 14602
-[pid 14602] +++ exited with 0 +++
-[pid 14601] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14602, si_status=0, si_utime=0, si_stime=0} +++
-[pid 14601] +++ exited with 0 +++
-[pid 14600] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14601, si_status=0, si_utime=0, si_stime=0} +++
-[pid 14600] +++ exited with 0 +++
-[pid 14599] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14600, si_status=0, si_utime=0, si_stime=0} +++
-[pid 14599] +++ exited with 0 +++
-[pid 14597] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14599, si_status=0, si_utime=0, si_stime=0} +++
-[pid 14597] +++ exited with 0 +++
-+++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14597, si_status=0, si_utime=0, si_stime=0} +++
-clone(Process 14603 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd34d4569d0) = 14603
-[pid 14603] clone(Process 14604 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb42e4469d0) = 14604
-[pid 14604] +++ exited with 0 +++
-[pid 14603] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14604, si_status=0, si_utime=0, si_stime=0} +++
-[pid 14603] clone(Process 14605 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb42e4469d0) = 14605
-[pid 14605] clone(Process 14606 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb27c11e9d0) = 14606
-[pid 14606] clone(Process 14607 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb27c11e9d0) = 14607
-[pid 14606] clone(Process 14608 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb27c11e9d0) = 14608
-[pid 14607] +++ exited with 1 +++
-[pid 14608] +++ exited with 0 +++
-[pid 14606] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14607, si_status=1, si_utime=0, si_stime=0} +++
-[pid 14606] +++ exited with 0 +++
-[pid 14605] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14606, si_status=0, si_utime=0, si_stime=0} +++
-[pid 14605] +++ exited with 0 +++
-[pid 14603] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14605, si_status=0, si_utime=0, si_stime=0} +++
-[pid 14603] +++ exited with 0 +++
-+++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14603, si_status=0, si_utime=0, si_stime=0} +++
-clone(Process 14609 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd34d4569d0) = 14609
-[pid 14609] clone(Process 14610 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f2136e3e9d0) = 14610
-[pid 14610] clone(Process 14611 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f2136e3e9d0) = 14611
-[pid 14610] clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f2136e3e9d0) = 14612
-Process 14612 attached
-[pid 14611] +++ exited with 1 +++
-[pid 14612] +++ exited with 0 +++
-[pid 14610] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14611, si_status=1, si_utime=0, si_stime=0} +++
-[pid 14610] +++ exited with 0 +++
-[pid 14609] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14610, si_status=0, si_utime=0, si_stime=0} +++
-[pid 14609] +++ exited with 0 +++
-+++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14609, si_status=0, si_utime=0, si_stime=0} +++
-clone(child_stack=0x7fa6a3eedff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa6a3eee9d0, tls=0x7fa6a3eee700, child_tidptr=0x7fa6a3eee9d0) = 14613
-Process 14613 attached
-[pid 14587] clone(Process 14614 attached
-child_stack=0x7fa6a27bdff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa6a27be9d0, tls=0x7fa6a27be700, child_tidptr=0x7fa6a27be9d0) = 14614
-[pid 14587] clone(Process 14615 attached
-child_stack=0x7fa6a25bbff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa6a25bc9d0, tls=0x7fa6a25bc700, child_tidptr=0x7fa6a25bc9d0) = 14615
-[pid 14587] clone(Process 14616 attached
-child_stack=0x7fa6a23b9ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa6a23ba9d0, tls=0x7fa6a23ba700, child_tidptr=0x7fa6a23ba9d0) = 14616
-[pid 14587] clone(Process 14617 attached
-child_stack=0x7fa6a21b7ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa6a21b89d0, tls=0x7fa6a21b8700, child_tidptr=0x7fa6a21b89d0) = 14617
-[pid 14587] clone(Process 14618 attached
-child_stack=0x7fa6a1fb5ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa6a1fb69d0, tls=0x7fa6a1fb6700, child_tidptr=0x7fa6a1fb69d0) = 14618
-[pid 14614] +++ exited with 0 +++
-[pid 14615] +++ exited with 0 +++
-[pid 14616] +++ exited with 0 +++
-[pid 14617] +++ exited with 0 +++
-[pid 14618] +++ exited with 0 +++
-[pid 14613] +++ exited with 0 +++
-+++ exited with 0 +++
-clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14588
-Process 14588 attached
-[pid 14588] clone(Process 14589 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14589
-[pid 14588] clone(Process 14590 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14590
-[pid 14589] +++ exited with 1 +++
-[pid 14590] +++ exited with 0 +++
-[pid 14588] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14589, si_status=1, si_utime=0, si_stime=0} +++
-[pid 14588] +++ exited with 0 +++
-+++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14588, si_status=0, si_utime=0, si_stime=0} +++
-clone(Process 14591 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14591
-[pid 14591] +++ exited with 0 +++
-+++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14591, si_status=0, si_utime=0, si_stime=0} +++
-clone(Process 14592 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14592
-[pid 14592] clone(Process 14593 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14593
-[pid 14593] +++ exited with 0 +++
-[pid 14592] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14593, si_status=0, si_utime=0, si_stime=0} +++
-[pid 14592] clone(Process 14594 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14594
-[pid 14594] clone(Process 14595 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14595
-[pid 14595] +++ exited with 1 +++
-[pid 14594] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14595, si_status=1, si_utime=0, si_stime=0} +++
-[pid 14594] +++ exited with 0 +++
-[pid 14592] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14594, si_status=0, si_utime=0, si_stime=0} +++
-[pid 14592] +++ exited with 0 +++
-+++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14592, si_status=0, si_utime=0, si_stime=0} +++
-clone(Process 14596 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14596
-[pid 14596] +++ exited with 0 +++
-+++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14596, si_status=0, si_utime=0, si_stime=0} +++
-clone(Process 14597 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd34d4569d0) = 14597
-[pid 14597] clone(Process 14598 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f1df327b9d0) = 14598
-[pid 14598] +++ exited with 0 +++
-[pid 14597] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14598, si_status=0, si_utime=0, si_stime=0} +++
-[pid 14597] clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f1df327b9d0) = 14599
-Process 14599 attached
-[pid 14599] clone(Process 14600 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f1df327b9d0) = 14600
-[pid 14600] clone(Process 14601 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb4232139d0) = 14601
-[pid 14601] clone(Process 14602 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb4232139d0) = 14602
-[pid 14602] +++ exited with 0 +++
-[pid 14601] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14602, si_status=0, si_utime=0, si_stime=0} +++
-[pid 14601] +++ exited with 0 +++
-[pid 14600] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14601, si_status=0, si_utime=0, si_stime=0} +++
-[pid 14600] +++ exited with 0 +++
-[pid 14599] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14600, si_status=0, si_utime=0, si_stime=0} +++
-[pid 14599] +++ exited with 0 +++
-[pid 14597] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14599, si_status=0, si_utime=0, si_stime=0} +++
-[pid 14597] +++ exited with 0 +++
-+++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14597, si_status=0, si_utime=0, si_stime=0} +++
-clone(Process 14603 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd34d4569d0) = 14603
-[pid 14603] clone(Process 14604 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb42e4469d0) = 14604
-[pid 14604] +++ exited with 0 +++
-[pid 14603] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14604, si_status=0, si_utime=0, si_stime=0} +++
-[pid 14603] clone(Process 14605 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb42e4469d0) = 14605
-[pid 14605] clone(Process 14606 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb27c11e9d0) = 14606
-[pid 14606] clone(Process 14607 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb27c11e9d0) = 14607
-[pid 14606] clone(Process 14608 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb27c11e9d0) = 14608
-[pid 14607] +++ exited with 1 +++
-[pid 14608] +++ exited with 0 +++
-[pid 14606] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14607, si_status=1, si_utime=0, si_stime=0} +++
-[pid 14606] +++ exited with 0 +++
-[pid 14605] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14606, si_status=0, si_utime=0, si_stime=0} +++
-[pid 14605] +++ exited with 0 +++
-[pid 14603] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14605, si_status=0, si_utime=0, si_stime=0} +++
-[pid 14603] +++ exited with 0 +++
-+++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14603, si_status=0, si_utime=0, si_stime=0} +++
-clone(Process 14609 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd34d4569d0) = 14609
-[pid 14609] clone(Process 14610 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f2136e3e9d0) = 14610
-[pid 14610] clone(Process 14611 attached
-child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f2136e3e9d0) = 14611
-[pid 14610] clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f2136e3e9d0) = 14612
-Process 14612 attached
-[pid 14611] +++ exited with 1 +++
-[pid 14612] +++ exited with 0 +++
-[pid 14610] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14611, si_status=1, si_utime=0, si_stime=0} +++
-[pid 14610] +++ exited with 0 +++
-[pid 14609] +++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14610, si_status=0, si_utime=0, si_stime=0} +++
-[pid 14609] +++ exited with 0 +++
-+++ SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14609, si_status=0, si_utime=0, si_stime=0} +++
-clone(child_stack=0x7fa6a3eedff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa6a3eee9d0, tls=0x7fa6a3eee700, child_tidptr=0x7fa6a3eee9d0) = 14613
-Process 14613 attached
-[pid 14587] clone(Process 14614 attached
-child_stack=0x7fa6a27bdff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa6a27be9d0, tls=0x7fa6a27be700, child_tidptr=0x7fa6a27be9d0) = 14614
-[pid 14587] clone(Process 14615 attached
-child_stack=0x7fa6a25bbff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa6a25bc9d0, tls=0x7fa6a25bc700, child_tidptr=0x7fa6a25bc9d0) = 14615
-[pid 14587] clone(Process 14616 attached
-child_stack=0x7fa6a23b9ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa6a23ba9d0, tls=0x7fa6a23ba700, child_tidptr=0x7fa6a23ba9d0) = 14616
-[pid 14587] clone(Process 14617 attached
-child_stack=0x7fa6a21b7ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa6a21b89d0, tls=0x7fa6a21b8700, child_tidptr=0x7fa6a21b89d0) = 14617
-[pid 14587] clone(Process 14618 attached
-child_stack=0x7fa6a1fb5ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa6a1fb69d0, tls=0x7fa6a1fb6700, child_tidptr=0x7fa6a1fb69d0) = 14618
-[pid 14614] +++ exited with 0 +++
-[pid 14615] +++ exited with 0 +++
-[pid 14616] +++ exited with 0 +++
-[pid 14617] +++ exited with 0 +++
-[pid 14618] +++ exited with 0 +++
-[pid 14613] +++ exited with 0 +++
-+++ exited with 0 +++
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Alí no final dá para ver as 5 threads que eu pedi no script sendo abertas no
-SO. Inclusive, se analizar todo esse retorno aí dá para ver que o Ruby criou 6
-threads, uma delas o ruby cria mesmo se vc fizer só um &lt;code&gt;puts&lt;/code&gt; num script. :)&lt;/p&gt;
-
-&lt;p&gt;Discutir sobre linguagens com os amigos sempre é legal para pesquisar e
-descobrir coisas novas. :)&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Thiago FM | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Pode ser que eu seja meio burro (heheh) mas eu ainda achava que o Ruby e o Python usavam Green Threads, mas depois de conversar com uma galera me disseram que eram threads nativas. Pesquisando na internet eu vi que eram mesmo, mas decidi rodar um strace para ver elas rolando e postar sobre isso.
+Fiz dois scripts simples:
+Python
+import threading import time for i in range(5): t = threading.</description>
     </item>
     
     <item>
@@ -315,81 +30,9 @@ descobrir coisas novas. :)&lt;/p&gt;
       <pubDate>Tue, 17 Sep 2013 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/o-guru-sp-e-seus-5-anos-de-vida/</guid>
-      <description>&lt;p&gt;Há pouco tempo aconteceu o &lt;a href=&#34;http://gurusp.org/encontros/trigesimo-primeiro-encontro-do-guru-sp&#34;&gt;encontro numero 31 do Guru-SP&lt;/a&gt;, e como sempre saímos
-(dessa vez estavamos &lt;a href=&#34;http://twitter.com/vinibaggio&#34;&gt;@vinibaggio&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/agaelebe&#34;&gt;@agaelebe&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/nuxlli&#34;&gt;@nuxlli&lt;/a&gt; e &lt;a href=&#34;http://twitter.com/anderson_leite&#34;&gt;@anderson_leite&lt;/a&gt;) para
-aquele velho momento de bate papo pós evento. Durante a conversa o @nuxlli perguntou sobre como o Guru-SP começou e nesse momento eu comecei a relembrar
-daquela velha tarde em 2008.&lt;/p&gt;
-
-&lt;p&gt;Mas peraí&amp;hellip; &lt;strong&gt;2008&lt;/strong&gt;!! O Guru-SP está próximo de fazer &lt;strong&gt;5 anos&lt;/strong&gt; de vida! :)&lt;/p&gt;
-
-&lt;p&gt;Em pensar que tudo começou após &lt;a href=&#34;https://groups.google.com/forum/#!topic/rails-br/HUnABlEfR7A&#34;&gt;um post do @agaelebe na
-Rails-br&lt;/a&gt; falando
-sobre criar grupos locais para conversar mais sobre Ruby e fazer encontros com
-mais frequência, o que gerou interesse de várias pessoas de São Paulo, que
-decidiram levar esse &amp;ldquo;projeto&amp;rdquo; pra frente.&lt;/p&gt;
-
-&lt;p&gt;Logo em seguida o &lt;a href=&#34;http://twitter.com/mfcastellani&#34;&gt;@mfcastellani&lt;/a&gt; já iniciou &lt;a href=&#34;https://groups.google.com/forum/#!topic/ruby-sp/2SEBkbofoFA&#34;&gt;as primeiras
-discussões&lt;/a&gt; no
-&lt;a href=&#34;https://groups.google.com/forum/#!forum/ruby-sp&#34;&gt;grupo do Guru-SP&lt;/a&gt; e
-aproveitamos para agendar o &lt;a href=&#34;http://gurusp.org/encontros/primeiro-encontro&#34;&gt;primeiro
-encontro&lt;/a&gt; numa churrascaria
-qualquer no ABC que era mais próximo da casa do &lt;a href=&#34;http://twitter.com/mfcastellani&#34;&gt;@mfcastellani&lt;/a&gt;, pois como ele nos
-contou depois: &amp;ldquo;Se não aparecer ninguém só comeria uma carne e voltaria para
-casa&amp;rdquo;. hahaha&lt;/p&gt;
-
-&lt;p&gt;E algumas pessoas compareceram, eramos 3 pessoas conversando sobre o que poderia
-ser o Guru-SP no futuro. Não conhecia o &lt;a href=&#34;http://twitter.com/mfcastellani&#34;&gt;@mfcastellani&lt;/a&gt; nem o &lt;a href=&#34;http://twitter.com/agaelebe&#34;&gt;@agaelebe&lt;/a&gt;, mas
-ficamos boa parte da tarde conversando sobre desenvolvimento no geral e
-planejando o que seria legal fazer no grupo (camisetas, eventos maiores,
-encontros mensais, e etc).&lt;/p&gt;
-
-&lt;p&gt;Logo conseguimos as camisetas do Guru-SP! Depois de cotar alguns fornecedores e
-fazer um desenho legal para representar o grupo rachamos as despesas e mandamos
-fazer camisetas para quem estivesse interessado. Com a entrega das camisetas
-consegui conhecer muita gente que não conhecia pessoalmente.&lt;/p&gt;
-
-&lt;p&gt;Aproveitamos que alguns de nós estariam na Campus Party e fizemos o segundo
-encontro por lá! Como sempre tinha uma quantidade enorme de pessoas: Eu, o
-&lt;a href=&#34;http://twitter.com/mfcastellani&#34;&gt;@mfcastellani&lt;/a&gt; e o &lt;a href=&#34;http://twitter.com/akitaonrails&#34;&gt;@akitaonrails&lt;/a&gt;. O &lt;a href=&#34;http://twitter.com/shadowmaru&#34;&gt;@shadowmaru&lt;/a&gt; apareceu também, mas só me
-encontrou para pegar a camiseta.&lt;/p&gt;
-
-&lt;p&gt;Nesse meio tempo já estávamos planejando aquele &amp;ldquo;encontro maior&amp;rdquo; que conversamos
-no primeiro encontro, e poucos meses depois saiu o &lt;a href=&#34;http://gurusp.org/encontros/ruby-rails-no-mundo-real-primeira-edicao&#34;&gt;Ruby + Rails no mundo
-real&lt;/a&gt; com
-o auxílio da Tempo Real eventos.&lt;/p&gt;
-
-&lt;p&gt;Apesar do quarto ter uma quantidade pequena de pessoas (apenas o &lt;a href=&#34;http://twitter.com/rafaelrosafu&#34;&gt;@rafaelrosafu&lt;/a&gt; e
-o &lt;a href=&#34;http://twitter.com/agaelebe&#34;&gt;@agaelebe&lt;/a&gt;), o quinto encontro me surpreendeu bastante. Ao chegar na Voice
-Technology (onde o &lt;a href=&#34;http://twitter.com/andre_pantaliao&#34;&gt;@andre_pantaliao&lt;/a&gt; trabalhava na época e conseguiu o espaço
-para o encontro) eu encontrei uma sala com mais de 20 pessoas aguardando as
-palestras! O encontro foi bem proveitoso e mais do que nunca percebíamos o
-Guru-SP crescendo.&lt;/p&gt;
-
-&lt;p&gt;Eu considero que depois desse encontro o Guru-SP começou a andar sozinho,
-conseguimos empresas parceiras para nos ajudar, o grupo cresceu bastante,
-sempre tinhamos boas talks nos encontros e etc.&lt;/p&gt;
-
-&lt;p&gt;Hoje o Guru-SP tem mais de 1100 inscritos na lista, e já tivemos encontros
-comuns com mais de 100 pessoas, isso sem contar os eventos que organizamos e
-que tiveram mais de 200 pessoas.&lt;/p&gt;
-
-&lt;p&gt;Temos empresas que sempre nos ajudam, seja com espaço ou coffee break. Vale
-agradecer a Caelum que por muito tempo nos forneceu o auditório mensalmente, e
-ainda hoje sempre nor provê espaço quando precisamos. Não vou tentar citar
-todas as empresas que ajudam porque sempre vou deixar uma de fora, mas dá para
-ver cada um dos patrocínios &lt;a href=&#34;http://gurusp.org/encontros&#34;&gt;na página de encontros do Guru-SP&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Atualmente o Guru-SP não é &lt;strong&gt;somente&lt;/strong&gt; focado em Ruby, mas aproveitamos muitos
-dos conhecimentos diversos de todos os participantes para trazer bom conteúdo
-em várias partes da área de desenvolvimento, o que faz com que cada vez mais
-tenhamos conteúdo legal e interação entre a galera.&lt;/p&gt;
-
-&lt;p&gt;Parabéns aos Guru-SP pelos 5 anos de vida e para todo mundo que ajudou (e/ou
-ainda ajuda) na organização para fazer um dos grupos de Ruby mais ativos do
-Brasil, e mais do que isso um lugar legal para troca de conhecimentos.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: nuxlli, Renato Elias, Marcelo Castellani, Reinaldo, Rafael Rosa, Vinicius Baggio Fuentes, Lucas Caton, Paulo Silveira, Nelson Haraguchi, lucas renan | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Há pouco tempo aconteceu o encontro numero 31 do Guru-SP, e como sempre saímos (dessa vez estavamos @vinibaggio, @agaelebe, @nuxlli e @anderson_leite) para aquele velho momento de bate papo pós evento. Durante a conversa o @nuxlli perguntou sobre como o Guru-SP começou e nesse momento eu comecei a relembrar daquela velha tarde em 2008.
+Mas peraí&amp;hellip; 2008!! O Guru-SP está próximo de fazer 5 anos de vida! :)
+Em pensar que tudo começou após um post do @agaelebe na Rails-br falando sobre criar grupos locais para conversar mais sobre Ruby e fazer encontros com mais frequência, o que gerou interesse de várias pessoas de São Paulo, que decidiram levar esse &amp;ldquo;projeto&amp;rdquo; pra frente.</description>
     </item>
     
     <item>
@@ -398,23 +41,8 @@ Brasil, e mais do que isso um lugar legal para troca de conhecimentos.&lt;/p&gt;
       <pubDate>Tue, 10 Jul 2012 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/xmpp-e-ruby/</guid>
-      <description>&lt;p&gt;Alguns (vários…) meses atrás eu fiz uma palestra pequena no Guru-SP(São Paulo
-Ruby Users Group) sobre Ruby e XMPP, os vídeos e slides estão disponíveis:&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/HDsxF0bCInI&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/15508823&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt;
-
-&lt;p&gt;Nessa talk eu mostrei como criar dois bots simples e como subir eles na sua
-conta do Gmail. A Gem blather tem uma DSL bem legal para trabalhar com XMPP em
-Ruby, mas nos meus testes funcionou muito melhor com ruby 1.9.3 do que com 1.9.2.&lt;/p&gt;
-
-&lt;p&gt;Para fazer a parte de daemon e gerar uma estrutura para o projeto eu utilizei
-uma gem chamada daemon-tools, que provê vários metodos úteis para esse tipo de
-projeto.&lt;/p&gt;
-
-&lt;p&gt;Se tiverem dúvidas postem aí nos comentários.&lt;/p&gt;
-</description>
+      <description>Alguns (vários…) meses atrás eu fiz uma palestra pequena no Guru-SP(São Paulo Ruby Users Group) sobre Ruby e XMPP, os vídeos e slides estão disponíveis:
+  Nessa talk eu mostrei como criar dois bots simples e como subir eles na sua conta do Gmail. A Gem blather tem uma DSL bem legal para trabalhar com XMPP em Ruby, mas nos meus testes funcionou muito melhor com ruby 1.9.3 do que com 1.</description>
     </item>
     
     <item>
@@ -423,130 +51,8 @@ projeto.&lt;/p&gt;
       <pubDate>Sun, 31 Oct 2010 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/semana-de-eventos-rubyconfbr-adl-e-gddbr/</guid>
-      <description>
-
-&lt;p&gt;Na semana passada (semana do dia 24 ao dia 30 de outubro) foi uma
-semana de grandes eventos, que eu tive o prazer de participar de
-todos! :)&lt;/p&gt;
-
-&lt;h4 id=&#34;rubyconf-brasil&#34;&gt;Rubyconf Brasil&lt;/h4&gt;
-
-&lt;p&gt;A &lt;a href=&#34;www.rubyconf.com.br&#34;&gt;Rubyconf Brasil&lt;/a&gt; é o Antigo Rails Summit Latin
-America, que acontecia no centro de convenções do Anhembi, e agora
-mudou sua localização para o centro de convenções Frei Caneca, para
-diminuir os custos e prover um local mais acessível para os
-participantes (próximo ao metrô e a avenida paulista).&lt;/p&gt;
-
-&lt;p&gt;O evento foi muito bom, contando com mais de 20 palestras com um
-número bem equilibrado de palestrantes nacionais e internacionais, que
-ministraram muitas palestras com ótimo conteúdo técnico.  Infelizmente
-o evento teve problemas com WIFI, e os participantes mal conseguiram
-acessar a internet utilizando a infra do evento.&lt;/p&gt;
-
-&lt;p&gt;Algumas palestras:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;A palestra do &lt;strong&gt;Jim Weiric&lt;/strong&gt; sobre SOLID Ruby foi fantástica! Além dele ser um ótimo orador, muito divertido, mostrou conceitos bem interessante e algumas comparações com outras linguagens. Uma das melhores palestras do evento.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;O &lt;a href=&#34;http://github.com/tenderlove&#34;&gt;tenderlove&lt;/a&gt; mandou muito bem na sua palestra sobre Fibers e ruby 1.9. Além das corriqueiras brincadeiras com fotos sobre a suposta criação da palestra, ele mostrou um conteúdo muito interessante, com muitos exemplos préviamente contruídos para demonstrar o conceito de Fibers. Uma palestra densa mas muito boa! :)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;O &lt;a href=&#34;http://github.com/josevalim&#34;&gt;José Valim&lt;/a&gt; palestrou sobre Rails 3 e mostrou algumas das novas funcionalidades e também o que estar por vir, e como sempre deixou a dica para a galera contribuir, &amp;ldquo;as próximas features depende de vocês&amp;rdquo; :)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;O &lt;a href=&#34;http://github.com/wycats&#34;&gt;Yehuda Katz&lt;/a&gt; fez uma palestra bem interessante sobre como melhorar a performance da sua aplicação movendo muito de sua lógica para o cliente, e apresentou um projeto que ele está trabalhando atualmente. Gostei do conceito, mesmo pensando que não é um conceito para aplicar para qualquer aplicação web, mas para um aplicação com muitos acessos faz muitos sentido e o modelo parece bom. :)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;O pessoal da Caelum &lt;a href=&#34;http://github.com/andersonleite&#34;&gt;Anderson Leite&lt;/a&gt; e &lt;a href=&#34;http://github.com/guilhermesilveira&#34;&gt;Guilherme Silveira&lt;/a&gt; apresentaram sobre como utilizar uma Ruby funcionalmente, e a palestra foi muito boa, apesar de ser bem densa e os dois falarem rápido&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Tiveram outras ótimas palestras, sobre encoding do Ruby (que é bizarro
-assim como qualquer outra implementação de encoding), integração de
-redes sociais, redis e resque e etc. Não vou falar de todas aqui para
-o post não ficar muito grande, mas aconselho a ficar de olho nas
-notícias pois a &lt;a href=&#34;www.locaweb.com.br&#34;&gt;Locaweb&lt;/a&gt; filmou o evento e
-provavelmente vão liberar os vídeos das palestras, e quando isso
-acontecer, aconselho você a assistir! :)&lt;/p&gt;
-
-&lt;p&gt;E é claro que nesse evento também teve um espaço para a
-desconferência, onde apareceram algumas outras apresentações legais
-(cômicas ou não), sobre assuntos derivados, como: node.js, deploy
-continuo, programando algo parecido com Ruby para Java, e etc! Foi bem
-divertido também!&lt;/p&gt;
-
-&lt;p&gt;Além de tudo isso ainda temos que contar o networking com a galera que
-foi fantástico, rever velhos amigos que quase nunca vemos (a galera da
-&lt;a href=&#34;http://www.fande.com.br&#34;&gt;Fande&lt;/a&gt; e do Ikwa
-(&lt;a href=&#34;http://twitter.com/mateuslinhares&#34;&gt;@mateuslinhares&lt;/a&gt;,
-&lt;a href=&#34;http://twitter.com/danielaltman&#34;&gt;@danielaltman&lt;/a&gt;,
-&lt;a href=&#34;http://twitter.com/jorge_silveira&#34;&gt;@jorge_silveira&lt;/a&gt;,
-&lt;a href=&#34;http://twitter.com/willian&#34;&gt;@willian&lt;/a&gt;,
-&lt;a href=&#34;http://twitter.com/_bojak&#34;&gt;@_bojak&lt;/a&gt;,
-&lt;a href=&#34;http://twitter.com/rafaeltimbo&#34;&gt;@rafaeltimbo&lt;/a&gt; e
-&lt;a href=&#34;http://twitter.com/vitormateus&#34;&gt;@vitormateus&lt;/a&gt;) por exemplo),
-reencontrar o pessoal do &lt;a href=&#34;http://www.guru-sp.org&#34;&gt;Guru-SP&lt;/a&gt; que apesar
-de encontrar sempre é legal reunir toda a galera e foi mais um
-encontro :), e ainda tem mais um monte de gente que encontrei por lá,
-e isso fora as pessoas que conheci! Enfim&amp;hellip;Networking #FTW! :).&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/Willian.molinari/20101026Rubyconf?feat=directlink&#34;&gt;Minhas fotos do evento&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;android-dev-lab&#34;&gt;Android Dev Lab&lt;/h4&gt;
-
-&lt;p&gt;Eu sinceramente esperava que o Google fosse dar um Nexus One para a
-galera assim como eles fizeram na OSCon lá fora, mas obviamente me
-enganei :P.  No fim das contas o evento foi razoável, apesar dos
-problemas com WIFI (que já é corriqueiro&amp;hellip;), foi interessante para
-conhecer um pouco do SDK, principalmente para quem não ia no Google
-Developers Day no dia seguinte (o que não foi o meu caso), e para
-ganhar uma camiseta bonitinha do Android :P&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Resumo&lt;/strong&gt;: Foi legal mas eu esperava mais.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/Willian.molinari/20101028AndroidDevLab?feat=directlink&#34;&gt;Minhas fotos do evento&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;google-developers-day&#34;&gt;Google Developers Day&lt;/h4&gt;
-
-&lt;p&gt;Para compensar o Android Dev Lab o GDD foi um evento fantástico! Muito
-mais gente (como era de se esperar) poucos lugares nas palestras
-principais, mas um ótimo conteúdo de palestras (se você souber
-escolher bem :D).&lt;/p&gt;
-
-&lt;p&gt;Algumas palestras:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Para mim foi quase um Tim Bray Developers Day, por que eu assisti 3 palestras do Tim Bray, todas sobre Android, direta ou indiretamente. Gostei de todas, o Tim falou muito bem sobre os temas que escolheu. Deu uma boa visão sobre design de aplicações, sobre o Android em si (algumas coisas eu já tinha visto no dia anterior&amp;hellip;), e mostrou por que eles seguem algumas filosofias.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Uma frase que ele falou que eu ia mencionar no twitter na hora mas não ia caber, e resolvi deixar para (trollar aqui n)o post:&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&amp;ldquo;O Android Market não precisa de moderação por que sabemos que as pessoas são inteligentes e caso uma aplicação não seja boa ou pareça maliciosa, eles simplesmente não instalam e não usam&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;A palestra sobre Desenvolvimento de extensões para o Chrome foi bem legal e mostrou como é simples desenvolver uma extensão e como ele consegue acesso fácil ao chrome apenas utilizando Javascript. E o mais engraçado é que o desenvolvedor do Chromed Bird fez uma pequena apresentação mostrando a extensão dele e ele tinha uma direct message com um link para um twit meu. Vai saber :P&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Achei que a palestra sobre HTML5 seria a mesmice de sempre, mas aprendi muita coisa interessante com ela! Não sabia que agora existem buscas no estilo jQuery nativamente no Javascript. Algo como .search(&amp;lsquo;#id&amp;rsquo;) (não é esse método, mas existe), fora as dicas que ele deu e os exemplos que ele mostrou que valeram a pena. Vou procurar a apresentação dele na internet depois para dar uma olhada novamente, e se eu encontrar atualizo o post.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Novamente, teve outras palestras legais, mas essas são as que eu
-lembro, e aproveitei! :)&lt;/p&gt;
-
-&lt;p&gt;Nesse evento também encontrei velhos amigos como o &lt;a href=&#34;http://twitter.com/dalembertian&#34;&gt;Rubens
-Altimari&lt;/a&gt; da
-&lt;a href=&#34;http://www.whitehat.com.br&#34;&gt;Whitehat&lt;/a&gt; empresa que eu já tive o prazer
-de trabalhar, e meu amigo &lt;a href=&#34;http://www.twitter.com/brunoassis&#34;&gt;Bruno
-Assis&lt;/a&gt; que sempre marcamos de
-conversar e nunca nos encontramos :P.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/Willian.molinari/20101029GoogleDevelopersDay2010?feat=directlink&#34;&gt;Minhas fotos do evento&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;resumo&#34;&gt;Resumo&lt;/h4&gt;
-
-&lt;p&gt;Foi uma semana &lt;strong&gt;Muito&lt;/strong&gt; cansativa, fazia tempo que eu não ficava tão
-cansado assim. Entre um evento e outro teve as minhas seções de
-fisioterapia (para curar umas dores nas costas devido a uma queda), e
-também trabalhei bastante para compensar os eventos (e o mais legal é
-que foi uma parte divertida do trabalho para fazer!).&lt;/p&gt;
-
-&lt;p&gt;No fim das contas, tudo isso valeu muito a pena, aprendi bastante,
-conheci pessoas, revi outras pessoas, consegui manter o fluxo do meu
-trabalho, e descansei no final da semana! Portanto&amp;hellip; Vitória! :D&lt;/p&gt;
-</description>
+      <description>Na semana passada (semana do dia 24 ao dia 30 de outubro) foi uma semana de grandes eventos, que eu tive o prazer de participar de todos! :)
+Rubyconf Brasil A Rubyconf Brasil é o Antigo Rails Summit Latin America, que acontecia no centro de convenções do Anhembi, e agora mudou sua localização para o centro de convenções Frei Caneca, para diminuir os custos e prover um local mais acessível para os participantes (próximo ao metrô e a avenida paulista).</description>
     </item>
     
     <item>
@@ -555,156 +61,8 @@ trabalho, e descansei no final da semana! Portanto&amp;hellip; Vitória! :D&lt;/
       <pubDate>Thu, 21 Oct 2010 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/conto-da-migracao-para-rails-3/</guid>
-      <description>
-
-&lt;p&gt;Nesse post eu vou falar um pouco de como foi atualizar a aplicação que
-eu trabalho atualmente para Rails3.&lt;/p&gt;
-
-&lt;p&gt;Em uma segunda feira eu tive a brilhante ideia de aproveitar que as
-tasks que eu estava fazendo estavam dependentes de algumas coisas que
-ainda não estavam feitas, e resolvi começar a atualizar a aplicação
-para Rails3 só para saber o trabalho que ia dar, e no final do dia eu
-já tinha feito todas as alterações necessárias para o boot da
-aplicação e para rodar a suite de testes (não fazer os testes passar,
-apenas rodar!).  Depois disso foi mais 1 dia para fazer todos os
-testes passar, e mais alguns outros testando a aplicação e resolvendo
-pequenos problemas de safe html e derivados.&lt;/p&gt;
-
-&lt;h4 id=&#34;dicas-para-fazer-a-conversão-do-código&#34;&gt;Dicas para fazer a conversão do código&lt;/h4&gt;
-
-&lt;h5 id=&#34;tenha-testes&#34;&gt;Tenha testes&lt;/h5&gt;
-
-&lt;p&gt;Se não tiver testes, esqueça essa idéia e pare de ler o post, a menos
-que você queira quebrar sua app em produção.&lt;/p&gt;
-
-&lt;h5 id=&#34;faça-sua-aplicação-e-suite-de-testes-funcionar&#34;&gt;Faça sua aplicação e suite de testes funcionar&lt;/h5&gt;
-
-&lt;p&gt;Primeiramente, se você ainda não conhece, vale a pena dar uma olhada
-no plugin chamado Rails Upgrade que te dá um guideline do que você
-precisa ir alterando para tornar sua aplicação compatível com Rails 3.
-Esse plugin faz algumas coisas como criar o application.rb baseado no
-seu environment, te dar alguns guias das configurações que mudaram e
-tenta converter suas rotas para o novo padrão (vide próximo tópico) O
-primeiro passo a se tomar é utilizar o plugin (ou não, pode fazer
-manualmente também) e trocar as coisas principais para que sua
-aplicação pelo menos passe pela etapa de boot.  Quando passar por esse
-passo vá para seus testes, e se for RSpec prepare-se para ter alguns
-problemas de conversão, por que algumas coisas mudaram do RSpec 1 para
-o RSpec 2, e você vai ter que lidar com os problemas de atualização
-dos seus testes tambem. A maioria das coisas que tive problemas foi
-com métodos que não existem mais como o have_tag por exemplo.&lt;/p&gt;
-
-&lt;h5 id=&#34;não-use-o-rails-upgrade-para-a-conversão-das-rotas&#34;&gt;Não use o Rails Upgrade para a conversão das rotas&lt;/h5&gt;
-
-&lt;p&gt;Como disse acima, esse plugin é um ótimo guia, mas tome cuidado com
-ele como solução final. Você pode dizer para ele converter suas rotas,
-mas tome cuidado, por que dependendo da forma que as suas rotas estão
-diagramadas o resultado que ele dá não é muito conciso. O que eu fiz
-foi utilizar a conversão dele apenas como estudo para saber como está
-a nova syntax e refiz o arquivo de rotas do zero.&lt;/p&gt;
-
-&lt;h5 id=&#34;pare-de-usar-remarkable&#34;&gt;Pare de usar remarkable&lt;/h5&gt;
-
-&lt;p&gt;Eu sempre gostei de usar Remarkable para testar relacionamentos,
-validações e etc, mas remarkable no Rails 3 é uma grande porcaria. Os
-desenvolvedores que começaram o projeto ficaram sem tempo para o mesmo
-e deixaram na mão de outros, que não tem a mesma qualidade ou
-preocupação com o projeto, portanto, a menos que você queira ser o
-novo mantenedor do projeto e fazer as alterações necessárias para que
-funcione bem no Rails 3, fuja dele agora.  O que eu fiz foi começar a
-usar o Shoulda para algumas coisas que me convinham, como por exemplo
-testes de relacionamento e validações. Para quem estiver interessado
-em fazer essa migração, eu fiz grande parte das trocas do que eu usava
-(validações e relacionamentos) facinho com grep e sed! Fiz &lt;a href=&#34;http://gist.github.com/640517&#34;&gt;um
-Gist&lt;/a&gt; disso.&lt;/p&gt;
-
-&lt;h5 id=&#34;evite-dependencias&#34;&gt;Evite dependencias&lt;/h5&gt;
-
-&lt;p&gt;Assim como o remarkable acima, cada outra gem/plugin que você está
-utilizando pode ter problemas com o Rails 3, portanto, antes de fazer
-a migração procure manter o menor número possível de dependencias no
-seu projeto, e as que você tiver veja se já possui uma versão
-funcional para Rails 3, e se não possuir você já pode se voluntariar
-para fazer ;).&lt;/p&gt;
-
-&lt;h5 id=&#34;use-o-sufixo-html-nos-locales-necessários&#34;&gt;Use o sufixo _html nos locales necessários&lt;/h5&gt;
-
-&lt;p&gt;Suponho que as aplicações Rails estão usando os formatos de
-internacionalização do Rails, portanto suas string não estão perdidas
-pelas Views, Controllers e Models e sim estão em seus devidos arquivos
-de locale.  Levando esse cenário óbvio em conta lembre-se de que você
-não precisa dar raw em toda mensagem que possui HTML por que Rails já
-faz isso para você quando você adiciona o sufixo _html na sua chave de
-locale. Exemplo:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;not_yet: &amp;quot;**Ainda não**&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Ficaria:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;not_yet_html: &amp;quot;**Ainda não**&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;E assim ele não vai escapar automaticamente o HTML dessa chave.&lt;/p&gt;
-
-&lt;h5 id=&#34;vá-lidando-aos-poucos-com-deprecation-warning&#34;&gt;Vá lidando aos poucos com DEPRECATION WARNING&lt;/h5&gt;
-
-&lt;p&gt;Quando você rodar sua suite de testes pela primeira vez já vai ser
-bombardeado por uma quantidade monstra de _DEPRECATION WARNING_s, mas
-não saia atacando eles de uma vez, primeiramente tenha em mente fazer
-sua aplicação funcionar e você vai corrigir esses probleminhas aos
-poucos enquanto estiver corrigindo os erros ou desenvolvendo coisas
-novas.  Felizmente a API do ActiveRecord não deixou de funcionar,
-portanto você ainda não vai precisar fazer grandes modificações para a
-nova syntax utilizando Arel por enquanto, o que vai tornar a migração
-menos dolorosa e você pode migrar aos poucos enquanto seu código já
-estiver rodando.&lt;/p&gt;
-
-&lt;h4 id=&#34;dicas-de-organização-para-a-migração&#34;&gt;Dicas de organização para a migração&lt;/h4&gt;
-
-&lt;h5 id=&#34;crie-um-branch-separado-e-altere-aos-poucos&#34;&gt;Crie um branch separado e altere aos poucos&lt;/h5&gt;
-
-&lt;p&gt;Sim! Todos queríamos que toda a equipe parasse por alguns dias e fosse
-alterar o projeto para funcionar com Rails 3, mas todos sabemos que
-isso não é possível na realidade de ninguém. Então uma coisa legal
-para se fazer (principalmente quando se está trabalhando com controle
-de versão distribuído, onde branches não são tão penosos) é criar um
-branch e manter uma pessoa trabalhando nele enquanto os outros vão
-tocando o projeto, sempre com muita comunicação para evitar que as
-pessoas criem cada vez mais código legado que precisará ser migrado,
-até que chegue uma hora que você possa voltar para o master e ficar
-sem deploy por alguns poucos dias para que a aquipe termine o trabalho
-e faça alguns testes.&lt;/p&gt;
-
-&lt;h5 id=&#34;ataque-um-problema-de-cada-vez&#34;&gt;Ataque um problema de cada vez&lt;/h5&gt;
-
-&lt;p&gt;Acho muito legal a combinação Rails + Ruby1.9, mas acho que as coisas
-ficam bem mais fáceis quando atacamos no estilo estripador (por
-partes), assim você tem um caminho a menos para analizar de onde vem o
-possível erro, e assim que terminar uma migração para Rails 3 já pode
-começar uma para Ruby 1.9 e ver o que vai quebrar apenas para essa
-implementação específica.&lt;/p&gt;
-
-&lt;h5 id=&#34;use-seu-ambiente-de-homologação&#34;&gt;Use seu ambiente de homologação&lt;/h5&gt;
-
-&lt;p&gt;Não sei como seu deploy funciona atualmente, mas talvez com a migração
-você precise alterar ele e é na hora que você for colocar no seu
-ambiente de homologação que você vai descobrir isso, portanto, use-o
-bem! :)&lt;/p&gt;
-
-&lt;h4 id=&#34;conclusão-e-saldo-final&#34;&gt;Conclusão e Saldo final&lt;/h4&gt;
-
-&lt;p&gt;Fazer a migração para o Rails 3 foi mais simples do que eu imaginei,
-mas mesmo assim tomou vários dias para a conclusão.  Nos meus calculos
-levou mais ou menos 2 dias só meus e uns 3 dias meus e de outro
-desenvolvedor, isso contando os problemas de merge e etc. Portanto
-acho que em 1 semana é possível migrar uma aplicação bem coberta por
-testes sem grandes problemas e sem precisar parar a sua equipe inteira
-por um grande período. Escolha aquela semana com um feriado e atualize
-sua aplicação. :)&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Diego Carrion, Willian Fernandes | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Nesse post eu vou falar um pouco de como foi atualizar a aplicação que eu trabalho atualmente para Rails3.
+Em uma segunda feira eu tive a brilhante ideia de aproveitar que as tasks que eu estava fazendo estavam dependentes de algumas coisas que ainda não estavam feitas, e resolvi começar a atualizar a aplicação para Rails3 só para saber o trabalho que ia dar, e no final do dia eu já tinha feito todas as alterações necessárias para o boot da aplicação e para rodar a suite de testes (não fazer os testes passar, apenas rodar!</description>
     </item>
     
     <item>
@@ -713,95 +71,8 @@ sua aplicação. :)&lt;/p&gt;
       <pubDate>Wed, 02 Dec 2009 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/crontab-dentro-da-sua-aplicacao-rails-com-whenever/</guid>
-      <description>&lt;p&gt;Hoje estou aqui para falar de uma coisa que quando vi pela primeira vez
-ignorei por parecer uma coisa boba, mas olhando melhor eu percebi que é
-uma idéia bem interessante. O que a gem whenever faz é manter o seu
-crontab de uma forma mais Ruby, e melhor, dentro da sua aplicação!&lt;/p&gt;
-
-&lt;p&gt;A principio parece estranho tentar manter o crontab dentro da sua
-aplicação, mas ganhamos muitas vantagens com isso:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;versionamento&lt;/li&gt;
-&lt;li&gt;menos acesso ao servidor&lt;/li&gt;
-&lt;li&gt;rapida atualização do crontab do servidor via capistrano&lt;/li&gt;
-&lt;li&gt;forma mais legível de ver o crontab&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;E tudo isso não influi no crontab que você já possui ( e que muitas
-vezes tem muita coisa que não é relacionada com a aplicação ), pois o
-whenever cria uma seção que ele atualiza mantendo a seção antiga onde
-está.&lt;/p&gt;
-
-&lt;p&gt;Para instalar o whenever é a mesma facilidade de sempre:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo gem install whenever
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;strong&gt;OBS&lt;/strong&gt;: Lembrando que a primeira linha só é necessária uma vez, se
-  você já tem o gemcutter no seu sources então ignore-a.&lt;/p&gt;
-
-&lt;p&gt;Depois disso execute:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;wheneverize .
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;O comando acima vai gerar os arquivos necessários para a utilização do
-whenever ( básicamente o config/schedule.rb ).&lt;/p&gt;
-
-&lt;p&gt;E a partir de agora você já pode atualizar o seu crontab com as suas
-configurações feitas no config/schedule.rb executando o comando:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;whenever --update-crontab suaaplicacao
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Quando você passa como parametro a sua aplicação ele cria um bloco
-apenas para as configurações da sua aplicação no crontab.&lt;/p&gt;
-
-&lt;p&gt;Mas é claro que você não vai precisar acessar o servidor e executar
-esse comando toda vez que você alterar o arquivo de schedule, para
-isso você provavelmente deve estar usando o capistrano para ser mais
-DRY. Se estiver usando inclua algumas linhas no seu deploy.rb:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;after &amp;quot;deploy:symlink&amp;quot;, &amp;quot;deploy:update_crontab&amp;quot;
-
-namespace :deploy do
-   desc &amp;quot;Update the crontab file&amp;quot;
-   task :update_crontab, :roles =&amp;gt; :db do
-      run &amp;quot;cd #{release_path} &amp;amp;&amp;amp; whenever --update-crontab #{application}&amp;quot;
-   end
-end
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;strong&gt;OBS&lt;/strong&gt;: Se você tiver problemas no deploy com essa linha ( como se o
-comando whenever não existisse ), tente adicionar o path absoluto
-para o whenever.&lt;/p&gt;
-
-&lt;p&gt;E com isso a cada vez que você fizer um cap server deploy seu crontab
-será atualizado com as configurações contidas no config/schedule.rb.&lt;/p&gt;
-
-&lt;p&gt;Veja alguns exemplos do que pode ter no seu schedule.rb:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;every 4.minutes do
-  rake &amp;quot;ts:in&amp;quot;
-end
-
-every 1.day, :at =&amp;gt; &#39;5:25 am&#39; do
-  rake &amp;quot;bla_bla&amp;quot;
-end
-
-every [:monday, :thursday], :at =&amp;gt; &#39;11:59 am&#39; do
-  command &amp;quot;sudo rm -rf /&amp;quot; # claro!
-end
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Nada do que eu demonstrei aqui é uma grande novidade, você pode ver mais
-exemplos de como usar no &lt;a href=&#34;http://www.railscasts.com&#34;&gt;Railscasts&lt;/a&gt; e na &lt;a href=&#34;http://github.com/javan/whenever&#34;&gt;própria página do plugin&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Espero que seja útil para mais alguem como está sendo para mim.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Mateus, Vini, Fabiano P S, Luiz Cezer | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Hoje estou aqui para falar de uma coisa que quando vi pela primeira vez ignorei por parecer uma coisa boba, mas olhando melhor eu percebi que é uma idéia bem interessante. O que a gem whenever faz é manter o seu crontab de uma forma mais Ruby, e melhor, dentro da sua aplicação!
+A principio parece estranho tentar manter o crontab dentro da sua aplicação, mas ganhamos muitas vantagens com isso:</description>
     </item>
     
     <item>
@@ -810,252 +81,8 @@ exemplos de como usar no &lt;a href=&#34;http://www.railscasts.com&#34;&gt;Rails
       <pubDate>Mon, 19 Oct 2009 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/rails-summit-2009/</guid>
-      <description>
-
-&lt;p&gt;Esse é um post para relatar como foi o Rails Summit Latin America desse
-ano! 😀 Já começo o post com um grande #win para a organização do
-#railssummit, por que eles tem tomadas para todos e wi-fi liberado para
-todos os participantes, o que ajuda para que pessoas como eu possam
-ficar postando no blog durante o evento, :) Vamos ao evento!&lt;/p&gt;
-
-&lt;h4 id=&#34;rails-insurgency-chad-fowler&#34;&gt;Rails Insurgency – Chad Fowler&lt;/h4&gt;
-
-&lt;p&gt;A palestra foi muito interessante e o Chad Fowler falou sobre como é a
-dificuldade de implantar uma aplicação Rails em uma grande empresa
-quando você tem grandes gerentes que te enchem de perguntas do tipo:
-“Rails faz X?, “Rails faz Y” até que voc6e responda um não para que ele
-possa dizer: “Aháá! Então não podemos usar”. O Chad Fowler já foi um
-desses gerentes e decidiu passar a experiencia de um desses gerentes e
-por que eles pensam dessa maneira.&lt;/p&gt;
-
-&lt;p&gt;Uma outra coisa bem legal que o Chad comentou foi sobre fazer um modelo
-junto com o seu cliente na hora do planejamento, até por que você
-consegue fazer isso facilmente com o Rails e até mostrar uma pequena
-funcionalidade com um Scaffold sem muito transtorno, e seu cliente pode
-facilmente ver se é isso mesmo que ele está pensando.&lt;/p&gt;
-
-&lt;h4 id=&#34;gregg-pollack-na-vanguarda-da-performance-em-rails&#34;&gt;Gregg Pollack – Na vanguarda da performance em Rails&lt;/h4&gt;
-
-&lt;p&gt;O Greg Pollack falou sobre page scaling Rails, comentando sobre uma
-grande quantidade de plugins para medir e ajudar a corrigir alguns
-problemas de escalabilidade que são detectados. Foi apresentado
-ferramentas para melhorar performance de banco de dados, para verificar
-quais &lt;span&gt;queries&lt;/span&gt; que podem ser melhoradas, onde podem ser
-incluídos índices e outras coisas bem interessantes.&lt;/p&gt;
-
-&lt;p&gt;No fim da palestra ele falou sobre o &lt;a href=&#34;http://madmimi.com/&#34;&gt;madmimi&lt;/a&gt;
-que ajuda a lidar com um dos grandes gargalos de aplicações, que é
-quando se tem que trabalhar com grandes listas de e-mails.&lt;/p&gt;
-
-&lt;p&gt;Para saber os outros assuntos que o Greg falou é só ver no blog do
-EnvyLabs: &lt;a href=&#34;http://blog.envylabs.com/summit&#34;&gt;http://blog.envylabs.com/summit&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;carlos-brando-como-o-rails-funciona-por-dentro&#34;&gt;Carlos Brando – Como o Rails funciona por dentro&lt;/h4&gt;
-
-&lt;p&gt;Agora começa o problema por que temos que escolher uma palestra e eu
-fiquei em dúvida entre a palestra do Ilya Grigorick e a do &lt;a href=&#34;http://twitter.com/carlosbrando&#34; title=&#34;Carlos Brando&#34;&gt;Carlos
-Brando&lt;/a&gt;, mas no fim das contas resolvi
-assistir a do Carlos.&lt;/p&gt;
-
-&lt;p&gt;O Carlos Brando falou sobre como o Rails funciona por dentro, usando a
-sua experiência na criação de um framework (que ele está fazendo na
-nova empresa que está trabalhando), ele falou um pouco sobre como o
-Rails trata as requisições, como utilizar as coisas certas de Rails
-quando se está fazendo um framework, e comentou um pouco sobre o
-framework que ele está criando como exemplo.&lt;/p&gt;
-
-&lt;p&gt;Achei a palestra muito superficial…Achei que o Carlos fosse pegar pesado
-mostrando bastante coisa do Rails, mas ele decidiu mostrar algo mais
-simples pois ao mostrar para algumas pessoas percebeu que elas estavam
-achando meio massante. Enfim, como ele mesmo disse, não dá para agradar
-a todos, mas na minha opinião a palestra foi fraca :(&lt;/p&gt;
-
-&lt;h4 id=&#34;josé-valim-aprenda-a-customizar-os-geradores-do-rails-3-0&#34;&gt;José Valim – Aprenda a customizar os geradores do Rails 3.0&lt;/h4&gt;
-
-&lt;p&gt;A palestra do José Valim foi bem legal! Ele falou sobre o Thor e sobre
-os geradores do Rails 3, como você poderá facilmente customiza-los e
-como o thor pode te ajudar em suas aplicações.&lt;/p&gt;
-
-&lt;p&gt;Ele mostrou um pouco do motivo de se trocar utilizar o thor, e por que
-os antigos geradores são ruins do jeito que estão. Um exemplo legal foi
-mostrar como um plugin tem que fazer para gerar coisas, tomando como
-exemplo o RSpec, que com um spec_model vai ter que gerar migrations
-tambem, sendo que não é do escopo do RSpec ter que se preocupar com
-migrations, mas do jeito que está atualmente ele apenas pode trocar o
-&lt;code&gt;script/generate model&lt;/code&gt; pelo &lt;code&gt;script/generate rspec_model&lt;/code&gt;. Utilizando
-o exemplo anterior como base foi mostrado como os novos geradores vão
-ajudar nas tarefas dos plugins a partir de agora.&lt;/p&gt;
-
-&lt;p&gt;Gostei da palestra e acho que o José Valim conseguiu passar bem o que
-ele queria. :)&lt;/p&gt;
-
-&lt;h4 id=&#34;david-chelimsky-rspec-e-cucumber-alem-do-básico&#34;&gt;David Chelimsky – RSpec e Cucumber alem do básico&lt;/h4&gt;
-
-&lt;p&gt;A palestra do chelimsky foi sobre o uso do &lt;a href=&#34;http://rspec.info/&#34;&gt;RSpec&lt;/a&gt;
-e do &lt;a href=&#34;http://cukes.info/&#34;&gt;Cucumber&lt;/a&gt;, que na minha opinião foi bem
-similar a palestra do ano passado, mas mesmo assim mostrou algumas
-boas práticas sobre RSpec que foram interessantes.&lt;/p&gt;
-
-&lt;p&gt;Eu ainda tive a chance de conversar com o Chelimsky no final da palestra
-para fazer umas perguntas sobre o Spork e como melhorar o tempo de
-execução dos meus testes que demoram muito para serem executados,
-tornando o desenvolvimento com o autospec não tão bom quando poderia
-ser.&lt;/p&gt;
-
-&lt;h4 id=&#34;fabio-akita-agile-além-do-caos&#34;&gt;Fabio Akita – Agile, além do caos&lt;/h4&gt;
-
-&lt;p&gt;A palestra do Akita foi uma grande viagem de pensamentos aleatórios dele
-sobre a teoria do caos baseado nos estudos que ele tem feito nos últimos
-tempos. Eu achei que foi muita informação para um curto período de tempo
-para as pessoas, mas quem conseguiu abstrair muita coisa e entender qual
-foi a finalidade da palestra deve ter gostado bastante, por que a idéia
-central é bem interessante. :)&lt;/p&gt;
-
-&lt;h4 id=&#34;matt-aimonetti-o-futuro-do-ruby-rails&#34;&gt;Matt Aimonetti – O Futuro do Ruby &amp;amp; Rails&lt;/h4&gt;
-
-&lt;p&gt;O Matt falou sobre as novidades que virão no Rails 3, sobre o que poderá
-ser incorporado do merb e o quanto “plugável” o Rails 3 será. Ele não
-falou apenas de Rails, mas falou tambem um pouco de Ruby e quais são as
-novidades em termos de velocidade.&lt;/p&gt;
-
-&lt;h4 id=&#34;desconferência&#34;&gt;Desconferência&lt;/h4&gt;
-
-&lt;p&gt;E chegou a hora que muitos estavam esperando, a desconferência! 😀&lt;/p&gt;
-
-&lt;p&gt;Na ultima desconferência o Elomar deu show falando um pouco sobre
-grupos de estudo, e muita gente estava esperando coisas legais para
-esse ano.&lt;/p&gt;
-
-&lt;p&gt;Teve muita coisa interessante, mas infelizmente não pude ficar até o
-final por causa da minha faculdade, mas o que pude ver foi:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Pessoal do Guru-sp apresentando o grupo e falando sobre o crescimento e futuras atividades (eu fui o primeiro a falar! 😀)&lt;/li&gt;
-&lt;li&gt;George Guimarães falando do Devise&lt;/li&gt;
-&lt;li&gt;Aldo França contando sua história para aprender Rails e fazendo um blog em 15 minutos ( com 11 anos de idade )&lt;/li&gt;
-&lt;li&gt;Guilherme Chapiewsky e Henrique Bastos falando sobre os eventos e grupos que eles participam no Rio&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Sei que teve muito mais coisas legais alem disso, mas essas foram as
-unias que eu pude ver e achei todas bem legais! 😀&lt;/p&gt;
-
-&lt;p&gt;Acho muito interessante essa idéia de desconferência, pois serve tanto
-para integrar o pessoal e dar risada quanto para apresentar projetos
-interessantes e muito úteis para alguns.&lt;/p&gt;
-
-&lt;p&gt;Sem contar que eu ganhei um Ipod nano da
-&lt;a href=&#34;http://www.thoughtworks.com/&#34;&gt;ThoughtWorks&lt;/a&gt; em um sorteio pouco antes
-da desconferência. 😀&lt;/p&gt;
-
-&lt;h4 id=&#34;manhã-do-primeiro-dia&#34;&gt;Manhã do primeiro dia&lt;/h4&gt;
-
-&lt;p&gt;Agora vem a parte triste…Não pude estar no evento no segundo dia de
-manhã.  :(&lt;/p&gt;
-
-&lt;p&gt;O &lt;a href=&#34;http://ikwa.com.br&#34;&gt;ikwa&lt;/a&gt; não liberou todos os programadores para ficar
-lá em tempo integral, portanto fizemos um revezamento, e para mim
-ficou o segundo dia de manhã.&lt;/p&gt;
-
-&lt;p&gt;Perdi duas palestras que eu gostaria muito de assistir. A primeira é do
-&lt;a href=&#34;http://twitter.com/cv&#34;&gt;Carlos Vilela&lt;/a&gt; que falou sobre o uso do Ruby na ThoughtWorks e a
-segunda é do &lt;a href=&#34;http://simplesideias.com.br/&#34; title=&#34;Simples Ideias - Por Nando Vieira&#34;&gt;Nando Vieira&lt;/a&gt; que estava falando do Ruby 1.9.&lt;/p&gt;
-
-&lt;p&gt;Uma coisa que me animou um pouco foi saber que as palestras eram
-simultâneas, portanto eu ia perder uma de qualquer jeito.&lt;/p&gt;
-
-&lt;h4 id=&#34;marcos-tapajós-couchdb-no-rails&#34;&gt;Marcos Tapajós – CouchDB no Rails&lt;/h4&gt;
-
-&lt;p&gt;Como não pude estar no evento no segundo dia de manhã eu já cheguei
-direto para a palestra do &lt;a href=&#34;http://improveit.com.br/empresa/tapajos&#34; title=&#34;Tapajós na improve-it&#34;&gt;Tapajós&lt;/a&gt; sobre CouchDB, que por sinal foi bem
-interessante! O Tapajós mostrou um pouco de como é trabalhar com CouchDB
-e como deve ser a mudança de paradigma da saída de um banco relacional
-para ir para um banco orientado a documentos.&lt;/p&gt;
-
-&lt;p&gt;Como o próprio Tapajós disse, a idéia da palestra dele era dar um
-Overview do couchDB e depois abrir para perguntas para tirar as dúvidas
-do pessoal, e na minha opinião ficou muito bom! 😀&lt;/p&gt;
-
-&lt;h4 id=&#34;bruno-miranda-rails-não-escala&#34;&gt;Bruno Miranda – Rails não escala&lt;/h4&gt;
-
-&lt;p&gt;O &lt;a href=&#34;http://twitter.com/brupm&#34; title=&#34;Twitter do Bruno Miranda&#34;&gt;Bruno Miranda&lt;/a&gt; apresentou “juntamente” com o Jason Seifer
-(infelizmente o &lt;a href=&#34;http://jasonseifer.com/&#34; title=&#34;Jason Seifer&#34;&gt;Jason Seifer&lt;/a&gt; não pode estar no railssummit por
-problemas com a viagem, portanto apenas enviou vídeos da parte que ele
-ia falar) sobre “Rails não escala”, falando sobre a aplicação que está
-em baixo do canal de audio do MSN e como eles conseguem manter uma infra
-escalável usando Rails.&lt;/p&gt;
-
-&lt;h4 id=&#34;vinicius-teles-do-serviço-ao-produto&#34;&gt;Vinicius Teles – Do serviço ao produto&lt;/h4&gt;
-
-&lt;p&gt;Uma das melhores palestras do Rails Summit ( as palestras não técnicas
-são sempre as mais marcantes, por melhor que sejam as técnicas… ), onde
-o Vinícius contou sua história passando por bons e maus momentos com a
-sua empresa, começando com serviços e terminando em produto.&lt;/p&gt;
-
-&lt;p&gt;Coisas interessantes da palestra do Vinícius foi o grande enfoque em
-“reserva”, ou seja, sempre tenha uma reserva em caixa para segurar a sua
-empresa nos piores momentos ou ajudar quando vem aquela grande
-oportunidade. Apenas investir em passivo ( como carros por exemplo )
-quando isso não for um grande empecilho, por que no começo um carro (por
-exemplo) só vai te trazer prejuízo com desvalorização e manutenção.&lt;/p&gt;
-
-&lt;p&gt;O Vinícius deu ótimas dicas para quem quer começar uma empresa, várias
-dicas de experiencias que ele passou, e me animou muito a preparar as
-coisas par a empresa que eu vou abrir no futuro. Acho que já posso
-começar a me preparar. 😛&lt;/p&gt;
-
-&lt;h4 id=&#34;obie-fernandez-dominando-a-arte-do-desenvolvimento-de-aplicações&#34;&gt;Obie Fernandez – Dominando a arte do desenvolvimento de aplicações&lt;/h4&gt;
-
-&lt;p&gt;Outra palestra no mesmo nível da palestra do Vinícius ( também não
-técnica ), portanto muito boa! 😀&lt;/p&gt;
-
-&lt;p&gt;O Obie Fernandez falou sobre como dominar o desenvolvimento de
-aplicações, e achei muito interessante os exemplos que ele passou sobre
-musica, comentando da quantidade de esforço de um grupo de músicos em
-termos de horas e o que isso implicava em seu nível. Ainda sobre o tempo
-de estudo, não é “apenas estudo” por que pratica não leva a perfeição,
-“prática perfeita leva a perfeição”. Programação é como musica, é sempre
-bom pegar musicas dos outros para estudar, por que assim você pode
-aprender sutilezas para fazer a sua.&lt;/p&gt;
-
-&lt;p&gt;A palestra do Obie assim como a do Vinícius teve frases chave como:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Se eu estiver trabalhando e um dia descobrir que eu não estou feliz
-eu simplesmente saio&lt;/li&gt;
-&lt;li&gt;Fuck the enterprize ( muito boa! haha )&lt;/li&gt;
-&lt;li&gt;Pratica não leva a perfeição, pratica perfeita leva a perfeição&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Gostei bastante da palestra, e bateu certinho com algumas coisas que
-estou pensando para os meus estudos para os próximos tempos.&lt;/p&gt;
-
-&lt;h4 id=&#34;horaextra&#34;&gt;#horaextra&lt;/h4&gt;
-
-&lt;p&gt;O #horaextra foi muito legal! Tivemos um problema com o primeiro bar
-que fomos por que não podiam entrar menores e nem com short, portanto o
-Mergulhão e o Aldo ficariam de fora, então o pessoal foi para outro bar,
-que ficava do lado desse e lotamos o lugar 😛&lt;/p&gt;
-
-&lt;p&gt;Como o bar era pequeno para a quantidade de pessoas, as coisas demoravam
-um pouco para chegar, mas nada que uma boa conversa não pudesse ajudar
-você a relevar isso. A mesa era gigante, mas as pessoas que a voz
-alcançava eram: &lt;a href=&#34;http://twitter.com/carlosbrando&#34; title=&#34;Carlos Brando&#34;&gt;Carlos Brando&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/r4f4e1&#34; title=&#34;Rafael&#34;&gt;r4f4e1&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/vinibaggio&#34; title=&#34;Vinicius Baggio&#34;&gt;Vinícius Baggio&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/shadow11&#34; title=&#34;Ricardo Yasuda&#34;&gt;Shadow&lt;/a&gt; e
-&lt;a href=&#34;http://twitter.com/agaelebe&#34; title=&#34;Hugo Borges&#34;&gt;Agaelebe&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Batemos papo por um bom tempo, com participação de mais uma galera (
-&lt;a href=&#34;http://akitaonrails.com&#34;&gt;Akita&lt;/a&gt;, &lt;a href=&#34;http://rafaelrosafu.com/&#34; title=&#34;Rafael Rosa Fu&#34;&gt;Rafael Rosa&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/scalone&#34; title=&#34;Thiago Scalone&#34;&gt;Thiago Scalone&lt;/a&gt; …. ), e acabei saindo de lá
-mais de 00:00.&lt;/p&gt;
-
-&lt;p&gt;Aqui chega o fim do evento e o que fica são os bons momentos passados
-por lá, o conhecimento adquirido e a vontade de participar novamente no
-ano que vem! Parabens aos organizadores ( e patrocinadores! ) do evento,
-por que ficou ótimo!&lt;/p&gt;
-
-&lt;p&gt;Se quiser ver as fotos que eu tirei no evento veja &lt;a href=&#34;http://picasaweb.google.com/Willian.molinari/20091013RailsSummit?feat=directlink&#34; title=&#34;Album do Rails Summit no Picasa&#34;&gt;o album no meu
-picasaweb&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: @diegorv | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Esse é um post para relatar como foi o Rails Summit Latin America desse ano! 😀 Já começo o post com um grande #win para a organização do #railssummit, por que eles tem tomadas para todos e wi-fi liberado para todos os participantes, o que ajuda para que pessoas como eu possam ficar postando no blog durante o evento, :) Vamos ao evento!
+Rails Insurgency – Chad Fowler A palestra foi muito interessante e o Chad Fowler falou sobre como é a dificuldade de implantar uma aplicação Rails em uma grande empresa quando você tem grandes gerentes que te enchem de perguntas do tipo: “Rails faz X?</description>
     </item>
     
     <item>
@@ -1064,49 +91,8 @@ picasaweb&lt;/a&gt;.&lt;/p&gt;
       <pubDate>Tue, 28 Jul 2009 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/instalando-gems-do-github-manualmente/</guid>
-      <description>&lt;p&gt;Esse vai ser um post rápido para relatar um problema que eu tive ( e
-ainda estou tendo ) para instalar gems do GitHub.&lt;/p&gt;
-
-&lt;p&gt;Por algum motivo bizarro (nem tanto assim, parece ser dns, mas já
-tentei opendns e nada) a página &lt;a href=&#34;http://gems.github.com&#34;&gt;http://gems.github.com&lt;/a&gt; não abre de
-maneira nenhuma, enquanto a navegação continua normal sem nenhum
-problema&amp;hellip; A consequência disso é que eu não consigo colocar o source
-do github nas minhas configurações do Rubygems. :(&lt;/p&gt;
-
-&lt;p&gt;Tendo em vista que eu não conseguiria utilizar gem install para
-nenhuma gem que vinha do GitHub tive que dar um jeito de instalar
-manualmente. :)&lt;/p&gt;
-
-&lt;p&gt;O que fiz foi acessar a página do GitHub referente a gem que eu queria
-instalar, que no caso é a
-&lt;a href=&#34;http://github.com/fnando/kitabu/tree/master&#34; title=&#34;Kitabu&#34;&gt;kitabu&lt;/a&gt; do
-&lt;a href=&#34;http://github.com/fnando&#34; title=&#34;Nando Viera&#34;&gt;fnando&lt;/a&gt;, pegar o link de
-clone e clonar:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ git clone git://github.com/fnando/kitabu.git
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Mas ae que está o lance que eu demorei para encontrar (noob), para
-uma gem ser instalada localmente ela precisa estar empacotada, e no
-GitHub você baixa direto o código fonte. Para empacotar:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ gem build kitabu.gemspec
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Agora sim eu tenho o arquivo &lt;code&gt;kitabu-0.3.3.gem&lt;/code&gt; que eu posso utilizar
-para instalar localmente! Para instalar é só utilizar o gem install
-padrão informando o arquivo a ser instalado:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ gem install kitabu-0.3.3.gem
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;E pronto! Lá está a minha gem instalada!&lt;/p&gt;
-
-&lt;p&gt;Espero que isso seja útil para mais alguem que precise empacotar as
-suas gems. :)&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Cairo Noleto | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Esse vai ser um post rápido para relatar um problema que eu tive ( e ainda estou tendo ) para instalar gems do GitHub.
+Por algum motivo bizarro (nem tanto assim, parece ser dns, mas já tentei opendns e nada) a página http://gems.github.com não abre de maneira nenhuma, enquanto a navegação continua normal sem nenhum problema&amp;hellip; A consequência disso é que eu não consigo colocar o source do github nas minhas configurações do Rubygems.</description>
     </item>
     
     <item>
@@ -1115,102 +101,10 @@ suas gems. :)&lt;/p&gt;
       <pubDate>Tue, 21 Jul 2009 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/encontro-de-numero-5-do-guru-sp/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/5_encontro_guru.jpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/5_encontro_guru.jpg&#34; alt=&#34;Foto do pessoal reunido com seus notebooks no encontro&#34; title=&#34;Quinto encontro do Guru-sp&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Nesse sábado aconteceu o
-&lt;a href=&#34;http://guru-sp.com/index.php/Quinto_Encontro&#34; title=&#34;Quinto encontro do Guru-sp&#34;&gt;quinto encontro do Guru-sp&lt;/a&gt;! :)&lt;/p&gt;
-
-&lt;p&gt;O encontro estava marcado para as 10 da manhã com uma seção para
-iniciantes e começou as 10:30 ( sempre atrasa um pouquinho né? hehe ),
-já com um bate papo legal coordenado pelo
-&lt;a href=&#34;http://www.rafaelrosafu.com&#34; title=&#34;Rafael Rosa&#34;&gt;@rafaelrosafu&lt;/a&gt; após uma
-breve apresentação de todos os participantes.&lt;/p&gt;
-
-&lt;h4 id=&#34;rails-para-iniciantes&#34;&gt;Rails para iniciantes&lt;/h4&gt;
-
-&lt;p&gt;Nessa primeira seção tiveram muitas conversas interessantes sobre
-algumas filosofias Rails, como:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Don%27t_repeat_yourself&#34; title=&#34;Don&#39;t Repeat Yourself&#34;&gt;DRY&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://pt.wikipedia.org/wiki/REST&#34; title=&#34;REST&#34;&gt;REST&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Test-driven_development&#34; title=&#34;TDD&#34;&gt;TDD&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Test all the Fucking Time&lt;/li&gt;
-&lt;li&gt;Skynny Controllers and Fat Models&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;e mais algumas outras coisas bem interessantes que fomentaram uma
-ótima discussão sobre quais os melhores padrões para se seguir quando
-se constrói uma aplicação Rails (sim, falamos tomando como base uma
-aplicação Rails), como utilizar plugins como o
-&lt;a href=&#34;http://github.com/giraffesoft/resource_controller/tree/master&#34; title=&#34;ResourceController on GitHub&#34;&gt;ResourceController&lt;/a&gt;
-(que tem seus prós e contras), manter seus scripts num lugar diferente
-da pasta scripts, que é a pasta padrão para scripts &amp;ldquo;internos&amp;rdquo; do
-Rails e tentar centralizar em uma pasta dentro de lib, além de usar
-Rake sempre que possível para essas tarefas ficarem organizadas e de
-fácil acesso.&lt;/p&gt;
-
-&lt;p&gt;Uma parada rápida para o almoço no Shopping e lá se vão mais de 20
-programadores para comer a bater papo! :)&lt;/p&gt;
-
-&lt;h4 id=&#34;datamapper&#34;&gt;DataMapper&lt;/h4&gt;
-
-&lt;p&gt;Após o almoço tivemos a palestra sobre
-&lt;a href=&#34;http://datamapper.org/doku.php&#34; title=&#34;DataMapper&#34;&gt;DataMapper&lt;/a&gt; do
-&lt;a href=&#34;http://www.rafaelrosafu.com&#34; title=&#34;Rafael Rosa&#34;&gt;@rafaelrosafu&lt;/a&gt; (olha ele
-aí novamente!) que explicou muito bem dando várias referências sobre
-o seu blog pessoal e como ele fez para utilizar o DataMapper ao invés
-do Active Record. O Rails é mais difícil de se sair do padrão, mas
-ficará mais simples de se escolher um ORM quando chegarmos ao Rails
-3. Aproveitando o gancho de DataMapper eu falei um pouco de Sinatra
-dando alguns pitacos na condução do Rafael.&lt;/p&gt;
-
-&lt;h4 id=&#34;git&#34;&gt;Git&lt;/h4&gt;
-
-&lt;p&gt;Após a palestra de DataMapper passamos para uma palestra de Git com o
-Douglas (qmx), que foi muito interessante e participativa! Pegamos
-uma galera do grupo para fazer um scaffold e commitar no projeto para
-começar a ver coisas diferentes, como merges, rebases, mudanças de
-commit, e algumas outras coisas legais, como usar tags, procurar por
-um código em meio aos commits e outras coisas interessantes! =)&lt;/p&gt;
-
-&lt;p&gt;Levantamos a idéia de participar do Rails Rumble, aproveitando que o
-Diego Carrion estava conosco e comentou que a GoNow estava
-patrocinando 3 equipes para o evento, mas não conseguimos ter uma
-idéia legal para propor para o concurso.&lt;/p&gt;
-
-&lt;h4 id=&#34;coding-dojo&#34;&gt;Coding Dojo&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://pothix.com/images/posts/5_encontro_guru_vinibaggiojpg&#34;&gt;&lt;img src=&#34;http://pothix.com/images/posts/5_encontro_guru_vinibaggio.jpg&#34; alt=&#34;Foto do vinibaggio guiando o código com a galera&#34; title=&#34;Vinibaggio guiando o quinto encontro do Guru-sp&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;E finalmente como ultima coisa do dia tivemos o nosso coding dojo, que
-era uma das coisas que eu mais estava esperando nesse econtro! O
-Vinicius Baggio &amp;ldquo;se ofereceu&amp;rdquo; (com um empurrãozinho meu&amp;hellip;hahah)
-para ficar com o notebook ligado no datashow e conduzir o código. O
-dojo foi muito divertido com participação de todos da sala, o que
-sempre trazia novas idéias para fazer um código melhor e agregava
-conhecimento para todos. Fizemos TDD para construir umas classes
-simples de usuário. :)&lt;/p&gt;
-
-&lt;h4 id=&#34;conclusão&#34;&gt;Conclusão&lt;/h4&gt;
-
-&lt;p&gt;Gostaria de agradecer ao André e o pessoal da Voice Technology por
-todo o apoio ao evento e ao grupo, com local, organização, fotos e
-mais várias outras coisas! Guys you Rock! :D&lt;/p&gt;
-
-&lt;p&gt;Infelizmente algumas pessoas não puderam aparecer, e outras apareceram
-por pouco tempo (o Marcelo Castellani), por motivos pessoais, mas
-espero que estejam presentes no próximo! :)&lt;/p&gt;
-
-&lt;p&gt;O evento realmente valeu a pena e aprendi muita coisa por lá, alem de
-conhecer muita gente interessante tambem! Agora é marcar os próximos e
-esperar que o grupo cada vez cresça mais e podemos fortalecer as
-amizades e conhecimentos!&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Diego Carrion, Lê, ismair | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Nesse sábado aconteceu o quinto encontro do Guru-sp! :)
+O encontro estava marcado para as 10 da manhã com uma seção para iniciantes e começou as 10:30 ( sempre atrasa um pouquinho né? hehe ), já com um bate papo legal coordenado pelo @rafaelrosafu após uma breve apresentação de todos os participantes.
+Rails para iniciantes Nessa primeira seção tiveram muitas conversas interessantes sobre algumas filosofias Rails, como:
+ DRY REST TDD Test all the Fucking Time Skynny Controllers and Fat Models  e mais algumas outras coisas bem interessantes que fomentaram uma ótima discussão sobre quais os melhores padrões para se seguir quando se constrói uma aplicação Rails (sim, falamos tomando como base uma aplicação Rails), como utilizar plugins como o ResourceController (que tem seus prós e contras), manter seus scripts num lugar diferente da pasta scripts, que é a pasta padrão para scripts &amp;ldquo;internos&amp;rdquo; do Rails e tentar centralizar em uma pasta dentro de lib, além de usar Rake sempre que possível para essas tarefas ficarem organizadas e de fácil acesso.</description>
     </item>
     
     <item>
@@ -1219,193 +113,10 @@ amizades e conhecimentos!&lt;/p&gt;
       <pubDate>Mon, 13 Apr 2009 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/comecando-a-falar-de-ruby/</guid>
-      <description>
-
-&lt;p&gt;Se você já conhece Ruby, ignore esse post! A idéia do post é mostrar
-um pouco da linauagem Ruby para pessoas que não conhecem nada sobre
-ela.&lt;/p&gt;
-
-&lt;p&gt;Eu, claro, acho muito interessante que muita gente por aí ainda não
-conhece Ruby, mesmo com a grande popularização do Rails, e eu chego a
-ouvir coisas assim:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Não é você que programa naquela linguagem esquisita?&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Cheguei a ouvir do meu &amp;ldquo;professor de algoritmo&amp;rdquo; (perdeu meu respeito):&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Gostei desse algoritmo que você fez nessa linguagem esquisita aqui&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Há muitas pessoas que já ouviram falar em algo relacionado a Ruby
-apenas quando leram alguma coisa na Info falando de
-RubyOnRails. Portanto, resolvi escrever alguns posts sobre a linguagem
-para passar para esse pessoal que ainda não conhece nada. Pretendo que
-esse seja o post introdutório de vários capítulos passando por partes
-interessantes da linguagem. :)&lt;/p&gt;
-
-&lt;h3 id=&#34;então-vamos-falar-de-ruby&#34;&gt;Então&amp;hellip;Vamos falar de Ruby! :)&lt;/h3&gt;
-
-&lt;p&gt;Ruby é uma linguagem interpretada, criada pelo japonês
-&lt;a href=&#34;http://www.rubyist.net/%7Ematz/&#34;&gt;Yukihiro “matz” Matsumoto&lt;/a&gt; e
-liberada publicamente em 1995. Desde lá o Ruby vem aparecendo bastante
-no mundo de tecnologia, sendo que a partir de 2006 teve um grande boom
-de comentários, ainda mais com o maior aparecimento do
-&lt;a href=&#34;http://rubyonrails.org/&#34; title=&#34;RubyOnRails&#34;&gt;Rails&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Uma coisa que me irrita bastante é as pessoas associarem diretamente
-Ruby com Rails, portanto preciso deixar isso claro&amp;hellip;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Rails não é Ruby!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Rails é um framework para desenvolvimento web que &lt;strong&gt;utiliza&lt;/strong&gt; a
-linguagem Ruby para o tal. O Ruby tem bem mais coisas legais do que
-só o Rails. ;)&lt;/p&gt;
-
-&lt;p&gt;Como o Ruby é uma linguagem interpretada, podemos facilmente fazer um Hello World em Ruby:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;puts &#39;Hello World&#39;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Isso aí! Apenas uma linha! Uma linguagem totalmente orientada a objeto
-e você não precisa necessáriamente criar uma classe, um método (
-public static void main&amp;hellip; ) e escrever mil comandos Hierarquicamente
-para escrever algo! ;)&lt;/p&gt;
-
-&lt;p&gt;O interessante do Ruby é que tudo é um objeto, ou seja, se você escreve o numero 10 ele já é um objeto, tendo seus próprios métodos, como por exemplo:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;10.times { puts &#39;Vou estudar Ruby&#39; }
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;No caso acima usamos um dos métodos do 10 (que é da Classe Fixnum)
-que é o método times, que faz um loop 10 (ou qualquer outro numero
-Fixnum que estivesse aqui ) vezes fazendo o que está dentro do bloco,
-no caso, imprimir &amp;ldquo;vou estudar Ruby&amp;rdquo;. :)&lt;/p&gt;
-
-&lt;p&gt;No Ruby você consegue modificar métodos em tempo de execução! Uma
-classe que não possuía nenhum método pode possuir 10 em tempo de
-execução bastando que seu código os inclua lá, e isso é uma coisa
-muito legal!&lt;/p&gt;
-
-&lt;p&gt;A sintaxe da linguagem foi feita para ser simples, você tem vários
-métodos facilitadores, inclusive com uso de &amp;ldquo;?&amp;rdquo; ( interrogação ) para
-alguns métodos, como por exemplo para descobrir se a variável está não
-retorna nada:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;variavel.nil?
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Aqui temos uma pergunta explícita, que você olhando isso
-intuitivamente lhe vem duas respostas: Sim ou não ( nem me venha com
-talvez :P ),o que mostra que você olha um código Ruby e facilmente
-distingue muita coisa.&lt;/p&gt;
-
-&lt;p&gt;E tem bem mais &lt;a href=&#34;http://www.ruby-lang.org/pt/sobre-o-ruby/&#34;&gt;coisas&lt;/a&gt;
-&lt;a href=&#34;http://pt.wikipedia.org/wiki/Ruby_(linguagem_de_programa%C3%A7%C3%A3o)&#34; title=&#34;Artigo sobre Ruby na Wikipedia&#34;&gt;interessantes&lt;/a&gt;!&lt;/p&gt;
-
-&lt;h3 id=&#34;tá-e-por-que-diabos-eu-deveria-usar-ruby&#34;&gt;Tá&amp;hellip;E por que diabos eu deveria usar Ruby&lt;/h3&gt;
-
-&lt;p&gt;Aí que está! É aí que entram as coisas legais, como:&lt;/p&gt;
-
-&lt;h4 id=&#34;rails&#34;&gt;Rails&lt;/h4&gt;
-
-&lt;p&gt;Agora sim você pode usar esse cara aí em cima para desenvolver
-aplicações bem legais usando todas as facilidades que o Ruby pode te
-oferecer&lt;/p&gt;
-
-&lt;h4 id=&#34;shoes&#34;&gt;Shoes&lt;/h4&gt;
-
-&lt;p&gt;Uma biblioteca bem interessante para desenvolvimento desktop
-multiplataforma, onde você consegue fazer muita coisa legal.&lt;/p&gt;
-
-&lt;h4 id=&#34;jruby&#34;&gt;JRuby&lt;/h4&gt;
-
-&lt;p&gt;Olha que legal, se você gosta bastante do Java, você pode rodar
-programas Ruby em cima da maquina virtual Java, o que é bem legal, até
-por que, a velocidade do JRuby, já passou a do MRI ( Matz Ruby
-Interpreter, ou a versão core oficial do Ruby, feita pelo Matz ).&lt;/p&gt;
-
-&lt;p&gt;Inclusive você pode importar várias bibliotecas do Java e tudo
-mais. ;)&lt;/p&gt;
-
-&lt;h4 id=&#34;iron-ruby&#34;&gt;Iron Ruby&lt;/h4&gt;
-
-&lt;p&gt;Você usa a plataforma .NET da Microsoft? Então procure por esse cara!
-Eu não tenho muito a comentar por que não uso .NET.&lt;/p&gt;
-
-&lt;p&gt;É claro que não existem só esses aí em cima, apenas estou citando
-algumas coisas legais, mas se você procura por desenvolvimento web
-você pode escolher &lt;a href=&#34;http://www.sinatrarb.com/&#34; title=&#34;Sinatra&#34;&gt;Sinatra&lt;/a&gt;,
-&lt;a href=&#34;http://merbivore.com/&#34; title=&#34;Merb Official Home Page&#34;&gt;Merb&lt;/a&gt; (ainda não se
-fundiu com o Rails, mas isso vai acontecer na versão 3 do Rails), ou
-outros.&lt;/p&gt;
-
-&lt;p&gt;E se você apenas pensa em desenvolver para Desktop, alem do Shoes,
-você pode escolher, o &lt;a href=&#34;http://www.rubyist.net/~slagell/gtk/&#34;&gt;RubyGTK&lt;/a&gt;,
-o &lt;a href=&#34;http://www.macruby.org/&#34; title=&#34;MacRuby&#34;&gt;MacRuby&lt;/a&gt; (para
-usuários MAC) ou até o
-&lt;a href=&#34;http://www.fxruby.org/&#34; title=&#34;FXRuby Official Page&#34;&gt;FXRuby&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;Se você não é programador, e trabalha com administração de sistemas,
-por que não utilizar Ruby para automatizar as tarefas? É fácil, tem
-manutenção simples, vem padrão em várias distribuições Linux&amp;hellip;Não tem
-desculpa! :P&lt;/p&gt;
-
-&lt;p&gt;Meu foco nesse post não é abordar a fundo nenhuma das ferramentas que
-eu citei acima, e sim apenas dar um overview de tudo que você pode
-fazer usando essa linguagem.&lt;/p&gt;
-
-&lt;h3 id=&#34;puxa-gostei-como-usar&#34;&gt;Puxa, gostei! Como usar?&lt;/h3&gt;
-
-&lt;p&gt;Moleza! Está no Linux né? Se estiver usando Ubuntu só dê os comandos mágicos:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo apt-get install ruby irb rdoc
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Não está no Linux? Humm&amp;hellip;No Windows é fácil tambem, baixe o
-executável e instale. Não tive muito contato com um mac ainda para
-instalar coisas e tudo mais, mas me parece fácil.&lt;/p&gt;
-
-&lt;p&gt;Basta clicar &lt;a href=&#34;http://www.ruby-lang.org/pt/downloads/&#34;&gt;aqui&lt;/a&gt; e pegar os
-arquivos necessários para a instalação! :D&lt;/p&gt;
-
-&lt;h3 id=&#34;vixe-instalei-e-agora&#34;&gt;Vixe&amp;hellip;Instalei, e agora?&lt;/h3&gt;
-
-&lt;p&gt;Agora é hora de brincar um pouco com a linguagem para saber como ela
-funciona! Eu recomendo você a entrar no
-&lt;a href=&#34;http://en.wikipedia.org/wiki/Interactive_Ruby_Shell&#34; title=&#34;Interactive
-Ruby Shell at Wikipedia&#34;&gt;IRB&lt;/a&gt; (&lt;strong&gt;I&lt;/strong&gt;nteractive &lt;strong&gt;R&lt;/strong&gt;u&lt;strong&gt;b&lt;/strong&gt;y Shell) e
-começar a brincar!&lt;/p&gt;
-
-&lt;p&gt;Para acessar o irb é aquela moleza de sempre, apenas entre no terminal
-e chame por irb ( acho que funciona assim no Windows tambem )! :D&lt;/p&gt;
-
-&lt;p&gt;Lá você pode tentar executar uns códigos, inclusive os poucos exemplos
-que eu postei aqui, é muito legal para você conhecer a linguagem,
-descobrir uns métodos e tudo mais.&lt;/p&gt;
-
-&lt;h3 id=&#34;já-estou-no-irb-mas-eu-não-sei-fazer-nada&#34;&gt;Já estou no IRB, mas eu não sei fazer nada&amp;hellip;&lt;/h3&gt;
-
-&lt;p&gt;Bem, agora é partir para as cabeças! :D&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Eu recomendo você a começar lendo o &lt;a href=&#34;http://eustaquiorangel.com/downloads/tutorialruby.pdf&#34; title=&#34;Tutorial de Ruby do TaQ&#34;&gt;tutorial de Ruby do TaQ&lt;/a&gt; que é um material bem legal para começar.&lt;/li&gt;
-&lt;li&gt;Se seu ingles é bom (não precisa ser fluente, mas você precisa saber ler e enteder) eu aconselho firmemente você a participar de algum curso Core do &lt;a href=&#34;http://rubylearning.org/class/&#34; title=&#34;Rubylearning.org&#34;&gt;Rubylearning.org&lt;/a&gt;, e lá você vai aprender bastante coisa, alem de se divertir bastante.&lt;/li&gt;
-&lt;li&gt;Leia alguns dos livros gratuitos que estão disponíveis na web gratuitamente e em português! Eu recomendo o &lt;a href=&#34;http://aprendaaprogramar.rubyonrails.pro.br/&#34; title=&#34;Aprenda a programar traduzido pela comunidade&#34;&gt;Aprenda a Programar&lt;/a&gt; e o &lt;a href=&#34;http://why.nomedojogo.com/ &amp;quot;O (comovente&#34;&gt;(comovente) guia de Ruby do Why&lt;/a&gt; guia de Ruby do Why traduzido pela comunidade&amp;rdquo;). ( obrigado pela dica &lt;a href=&#34;http://blog.abrcoelho.net/&#34; title=&#34;Blog do Abraão&#34;&gt;Abraão&lt;/a&gt; )&lt;/li&gt;
-&lt;li&gt;Participe de Grupos de usuários para aumentar seus conhecimentos e conhecer pessoas que tambem estão interessadas na linguagem e sempre estudando! Se você está em São Paulo eu recomento fortemente você a participar do &lt;a href=&#34;http://guru-sp.org&#34; title=&#34;Grupo de usuários Ruby de São Paulo&#34;&gt;GURU-SP&lt;/a&gt;! :)&lt;/li&gt;
-&lt;li&gt;Fique de olho aqui no blog que eu pretendo começar a postar umas coisas básicas, mas não espere somente por mim e já inicie seus estudos! ;)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Bem, com isso você já tem uma pequena base do que é o Ruby ( e sabe
-que o Rails é apenas um framework feito em Ruby ) e já pode começar a
-se divertir com ele! :D&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Piteco, Jotae, Lê, Abraão Coelho, CrociDB, André &amp;ldquo;aCidcOde&amp;rdquo; Gomes | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Se você já conhece Ruby, ignore esse post! A idéia do post é mostrar um pouco da linauagem Ruby para pessoas que não conhecem nada sobre ela.
+Eu, claro, acho muito interessante que muita gente por aí ainda não conhece Ruby, mesmo com a grande popularização do Rails, e eu chego a ouvir coisas assim:
+ &amp;ldquo;Não é você que programa naquela linguagem esquisita?&amp;rdquo;
+ Cheguei a ouvir do meu &amp;ldquo;professor de algoritmo&amp;rdquo; (perdeu meu respeito):</description>
     </item>
     
     <item>
@@ -1414,296 +125,10 @@ se divertir com ele! :D&lt;/p&gt;
       <pubDate>Fri, 10 Apr 2009 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/translated-rubylearning-presentation/</guid>
-      <description>
-
-&lt;p&gt;As I promised, here goes my presentation! :)&lt;/p&gt;
-
-&lt;p&gt;Finally i finished to translate all the presentation! Watched the
-video a lot of times, pausing and playing to write all I said
-translating to english. :)&lt;/p&gt;
-
-&lt;p&gt;Fortunately I had a big help from my friend
-&lt;a href=&#34;http://vgoff.blogspot.com/&#34; title=&#34;The Red Gem of programming&#34;&gt;Victor Goff&lt;/a&gt;,
-that corrected all my grammar errors and typos.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m posting below all i have about the presentation, slides from
-&lt;a href=&#34;http://www.slideshare.net/PotHix/what-is-and-how-does-work-rubylearningorg-1257258&#34; title=&#34;Presentation at Slideshare&#34;&gt;Slideshare&lt;/a&gt;
-and a translation pasted here, but you can find the
-&lt;a href=&#34;http://docs.google.com/Doc?id=dgd96k6n_45fkh4q5g9&#34; title=&#34;Translated Speach at Google Docs&#34;&gt;translation at Google Docs&lt;/a&gt; too. &lt;strong&gt;Enjoy!&lt;/strong&gt; :D&lt;/p&gt;
-
-&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/ftgGS74G9EZF6F&#34; width=&#34;425&#34; height=&#34;355&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&#34;first-words&#34;&gt;&lt;strong&gt;First Words&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;My name is Willian Molinari as Marcelo said, I participated of 3rd
-Batch of Rubylearning at the beginning of the last year. Since the
-finish of the course I was an Assistant Teacher, and i&amp;rsquo;m a Mentor
-since the beginning of this year.  I attempt to show to you a bit of
-what Rubylearning is and how does it work, what is the course idea.
-It is a short presentation, you will see that I&amp;rsquo;ll &amp;ldquo;run&amp;rdquo; with the
-content, but the presentation idea is to show you a bit of what
-RubyLearning courses are.&lt;/p&gt;
-
-&lt;h3 id=&#34;slide1&#34;&gt;&lt;strong&gt;Slide1&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;Fist, lets start with &amp;ldquo;What is Rubylearning?&amp;rdquo; The course itself is
-Rubylearning.org, and Rubylearning is divided into Blog, Website and
-courses.
-Blog is where Satish post some of his interviews with Ruby community
-guys like Matt of Merb project or Dr. Nic. And on blog have other cool
-posts too.
-On Website Satish maintain a Ruby tutorial, a Ruby Book and post other ruby
-contents.&lt;/p&gt;
-
-&lt;p&gt;And on Rubylearning.org the course happens.&lt;/p&gt;
-
-&lt;h3 id=&#34;slide2&#34;&gt;&lt;strong&gt;Slide2&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;To answer the question &amp;ldquo;What is Rubyleraning.org&amp;rdquo; I was helped by the other
-teachers of Rubylearning. One of the good answers was made by George
-Thompson, this guy that you see in the large photo. After telling a
-funny joke, saying that Rubylearning is for everything since it will &amp;ldquo;allow you to grow wings to fly&amp;rdquo; and will &amp;ldquo;help you in the bedroom&amp;rdquo;
-He gives these topics to speak about.
-The first thing is that Rubylearning is for everyone that has an interest in
-Ruby, if you are a experienced professional, or just learning now, Rubylearning is here to help you.
-It is a framework to your first steps with Ruby, so you will not depend just
-from Google or online tutorials, on Rubylearning you will have more people
-to help you to participate and discuss your answers and so on&amp;hellip;
-Rubylearning is not just for who are starting with Ruby. If you work with
-Ruby for a long time, you can participate to help the students that are
-starting, returning to the community what you received. And you can participate
-with other Rubylearning intermediate courses (Rubylearning doesn&amp;rsquo;t have just
-the Core course, we have other courses for those who already have
-knowledge of Ruby)
-And of course&amp;hellip;Rubylearning is a place to have fun! To code for fun, to
-know different people of other countries, or maybe of your country, and you
-didn&amp;rsquo;t know that this person was programming on this language.&lt;/p&gt;
-
-&lt;h3 id=&#34;slide3&#34;&gt;Slide3&lt;/h3&gt;
-
-&lt;p&gt;Rubyleraning is based on Moodle, as you can see, the image is strange
-here, but the first screenshot is the screen after you sign up, and you
-can see all the courses that you can subscribe to, and below you can see the
-screen inside the course, all the material is divided by blocks, the forums and so on.&lt;/p&gt;
-
-&lt;h3 id=&#34;slide4&#34;&gt;Slide4&lt;/h3&gt;
-
-&lt;p&gt;More interesting informations about Rubylearning:&lt;/p&gt;
-
-&lt;p&gt;We are the declared winner of shorty awards in education category.
-Unfortunately we couldn&amp;rsquo;t participate of ceremony in USA because only Satish
-can participate in the ceremony, and the price to travel from India (Satish is Indian) to USA could not cover the
-costs&amp;hellip;But anyway, we are the winners!&lt;/p&gt;
-
-&lt;p&gt;The number of participants get over 7200 mark, and maybe now we already pass
-the 7500 mark, because this information is from 1 month ago, more or less.&lt;/p&gt;
-
-&lt;p&gt;Another cool thing, more than 40% of Rubylearning participants are from
-Brazil, so you don&amp;rsquo;t have arguments to say: &amp;ldquo;I can&amp;rsquo;t participate, because
-the course have people that from other countries and i don&amp;rsquo;t speak english
-very well&amp;rdquo;, because always you will find a Brazillian to help you there.&lt;/p&gt;
-
-&lt;h3 id=&#34;slide5&#34;&gt;Slide5&lt;/h3&gt;
-
-&lt;p&gt;And who is the main teacher? Who is behind Rubylearning?&lt;/p&gt;
-
-&lt;h3 id=&#34;slide6&#34;&gt;Slide6&lt;/h3&gt;
-
-&lt;p&gt;Satish Talim, as I said, lives in India. He is a programmer, teacher,
-consultant, working on some companies at India and USA, is speaker and has
-more than 30 years of experience with I.T. He has these two domains:
-Rubylearning.org and rubylearning.com. On .org domain we have the course
-and on Rubylearning.com is his site. And he have a personal website domain, too.&lt;/p&gt;
-
-&lt;h3 id=&#34;slide7&#34;&gt;Slide7&lt;/h3&gt;
-
-&lt;p&gt;Ok, if Satish is behind Rubylearning, who are these guys that help on
-forums? So&amp;hellip; I asked to Satish by e-mail, because I didn&amp;rsquo;t know about how he divide us.
-The assistant teachers are people that come from the core course and
-enjoyed the course, so they are invited to help, and whomever accept comes as
-assistant teachers of the next core course to help on foruns, answering the
-students that are having doubts and helping on other things.&lt;/p&gt;
-
-&lt;p&gt;Mentors are experieced professionals that are working with I.T for a long
-time and more time on Rubylearning, too. They help not only on Core course,
-but on the other courses ( intermediate courses ) too.
-The Patrons, this guys are on Rubylearning since rubylearning is coming to
-be international, on the 2nd batch more or less, on the last months of
-2007, and they have more time on rubylearning, so the way that Satish has
-to classify teacher is time on rubylearning.&lt;/p&gt;
-
-&lt;h3 id=&#34;slide8&#34;&gt;Slide8&lt;/h3&gt;
-
-&lt;p&gt;For who is this course appropriate? Well&amp;hellip; Our focus is the people
-that already know something about programming, some other language and
-wants to know Ruby, and not those people that do not know how to
-program and want to learn on Rubylearning, This is not our focus. Our
-focus is to teach Ruby for who those have a notion about programming.&lt;/p&gt;
-
-&lt;h3 id=&#34;slide9&#34;&gt;Slide9&lt;/h3&gt;
-
-&lt;p&gt;How does Rubylearning work? Well&amp;hellip;The course is slotted into weekly study
-material blocks. Every Saturday, Satish posts different sudy material with
-important notes, so you can review quickly all you already read; Some
-exercises, 10 or 5 exercises depending on how extensive is the material,
-for you to solve and post on forums, to view the answers of teachers too.&lt;/p&gt;
-
-&lt;p&gt;For example, you have a method and you are using return to return the
-variable on the PHP style for example, but can be other language, so
-somebody replies to you saying that you don&amp;rsquo;t need to specify this
-return because the Ruby language returns the last statement by
-default, and so on&amp;hellip;  The Quiz, is for your own benefit, so you can
-see if you learn all the content.&lt;/p&gt;
-
-&lt;p&gt;And the Extras! The extras take to you some good material as links to good
-content, a screencast related to the weekly study material, and others!&lt;/p&gt;
-
-&lt;h3 id=&#34;slide10&#34;&gt;Slide10&lt;/h3&gt;
-
-&lt;p&gt;How do quizzes work? As i said, Quiz is for your own benefit. A lot of
-people are questioning me about the importance of quizzes on the course
-participation, &amp;ldquo;if we don&amp;rsquo;t answer the quiz, are we kicked out of the
-course&amp;rdquo; or we don&amp;rsquo;t receive the certificate. The quiz idea is auto-validation,
-so after you read all the content, you will know with the quiz if you really
-learn all you need to learn about that content, if you got a good result
-with the quiz, you probably really learned this weeks content.&lt;/p&gt;
-
-&lt;h3 id=&#34;slide11&#34;&gt;Slide11&lt;/h3&gt;
-
-&lt;p&gt;Is necessary be active on Foruns? Humm&amp;hellip;Yes! The main focus of
-Rubylearning is the participation of everybody, so, if you really want to
-get the best of the course you must to post your exercise answers, to
-receive from more experienced people feedback about your solution. If you
-don&amp;rsquo;t participate so much.. it&amp;rsquo;s okay too&amp;hellip;You just lost the chance to learn more and
-more.&lt;/p&gt;
-
-&lt;h3 id=&#34;slide12&#34;&gt;Slide12&lt;/h3&gt;
-
-&lt;p&gt;This is one of the things that everybody speaks about&amp;hellip;&amp;ldquo;Ohhh&amp;hellip;The course
-is in english, from India, i will talk nonsense words, i don&amp;rsquo;t speak
-english, my english is bad&amp;rdquo;&amp;hellip;Humm&amp;hellip;My personal English, i&amp;rsquo;m a assistant
-teacher, is not so good, but i can communicate with others! If you can
-communicate with other people is good enough! You will read and understand
-the content and post your code on forums, if you are not comfortable to
-write english, you can just post your code, somebody will reply to you, you
-will understand the reply and it is good enough to your learning. If you
-can talk is really better, because you can help on discussions, but the
-english is not a big barrier to participate of Rubylearning.&lt;/p&gt;
-
-&lt;h3 id=&#34;slide13&#34;&gt;Slide13&lt;/h3&gt;
-
-&lt;p&gt;How is the course pace? As i said, Satish does weekly content posts on
-forums&amp;hellip;Not forums&amp;hellip;the study materials. You don&amp;rsquo;t need to follow this
-weekly pace, if you decide to view all the course in the last week you can,
-but we recommend you to follow weekly because you can talk with other
-people that are studying the same lesson and you have more focus on your
-studies making it easy to learn different things.&lt;/p&gt;
-
-&lt;h3 id=&#34;slide14&#34;&gt;Slide14&lt;/h3&gt;
-
-&lt;p&gt;What topics the course cover? Well&amp;hellip;We cover all the Beginning with Ruby,
-from Ruby installation through&amp;hellip;&lt;/p&gt;
-
-&lt;h3 id=&#34;slide16&#34;&gt;Slide16&lt;/h3&gt;
-
-&lt;p&gt;basic classes like numbers, blocks, variable scopes, constants, methods,
-manipulation of text files, Regular Expressions, but only the basis of
-Regular Expressions, how to work with RE with Ruby, working with classes,
-inheritance, exceptions&amp;hellip; We can&amp;rsquo;t cover tests (the Ruby test/Unit class)
-on the core course just a bit of it, we want to create a course just to
-cover test/unit itself, so it is not a core part of Ruby in this course.&lt;/p&gt;
-
-&lt;h3 id=&#34;slide17&#34;&gt;Slide17&lt;/h3&gt;
-
-&lt;p&gt;Other questions that are often made to me when I recommend Rubylearning
-couse is: &amp;ldquo;I will receive a certificate?&amp;rdquo;. The important thing on the
-Rubylearning course is how much you can learn with the course, the
-certificate is not the course focus, but&amp;hellip;The answer is YES!&lt;/p&gt;
-
-&lt;h3 id=&#34;slide18&#34;&gt;Slide18&lt;/h3&gt;
-
-&lt;p&gt;This is my certificate from 3rd Batch that i participated, really
-beautiful, signed by Satish, you receive in PDF, is not received in paper,
-but you can print and store.&lt;/p&gt;
-
-&lt;h3 id=&#34;slide19&#34;&gt;Slide19&lt;/h3&gt;
-
-&lt;p&gt;As i said, Rubylearning is not made of only the Core course, we have a
-lot of other courses that we call the &amp;ldquo;Intermediate courses&amp;rdquo;, and is
-appropriate to who that already have a notion of what is Ruby core, if you
-know core, you can move on to these other courses.&lt;/p&gt;
-
-&lt;h3 id=&#34;slide20&#34;&gt;Slide20&lt;/h3&gt;
-
-&lt;p&gt;The merb course, now merb team are joining Rails team, maybe this course
-will be extinct, but this is one of our courses for now.
-Git / GitHub is a course of one week. Git is not directly connected with
-ruby, but all the Ruby community are using it, so we decided to prepare
-a course about it.
-Ruby with database, using MySql and sqlite, you learn on how to use
-activerecord to manipulate a database from a script Ruby.
-FXRuby as Marcelo said in another speech.
-Sinatra for web development, maybe will get the Merb course place, because
-Merb and Rails will be one.
-Shoes, as Marcelo said too, for Desktop development, very interesting.
-Ruby and Twitter, is a course that will be released now, i don&amp;rsquo;t know when
-it will start, maybe april 14th or 16th, for who those already have a ruby
-knowledge, will be very interesting. They will show how to play with
-&amp;ldquo;Twitter API&amp;rdquo; and make some interesting things with it.
-And Rails 3, Satish promised that when Rails 3 is comming out he will
-create a course about it to everybody.&lt;/p&gt;
-
-&lt;h3 id=&#34;slide21&#34;&gt;Slide21&lt;/h3&gt;
-
-&lt;p&gt;This is some screenshots of shoes course. The application of the screenshot
-on the Right was made by Satoshi, that was the main teacher of Rubylearning
-shoes course, and is is a clock that show all the assistant teachers and
-mentors timezone on the world, all teacher have a photo placed on with their
-timezone.
-I asked Satoshi to send a message to all of you, and he sent to me a
-message with a &amp;ldquo;Google translation&amp;rdquo; Phrase in portuguese saying &amp;ldquo;Oi todo
-mundo&amp;rdquo; that probably is &amp;ldquo;hello everybody&amp;rdquo;, and he says that you don&amp;rsquo;t need
-to care about your english because we can communicate with Ruby, and he
-wants to see you on Rubylearning Forums. Here you can see other screenshot
-of a little game that they do with shoes, each student have your own game,
-you can see a &amp;ldquo;questions and answers&amp;rdquo; game on the next screenshot. Very
-interesting and a lot of fun!&lt;/p&gt;
-
-&lt;h3 id=&#34;slide22&#34;&gt;Slide22&lt;/h3&gt;
-
-&lt;p&gt;Here you have a message from Satish Talim, i asked to him to send one, and
-he is saying thanks to all Brazilian friends, Locaweb and Fabio Akita,
-that are sponsors of the course, the locaweb is a Sponsor of the core
-course, and saying thanks to you that are helping to spreading ruby around
-the world.&lt;/p&gt;
-
-&lt;h3 id=&#34;slide23-questions&#34;&gt;Slide23 - Questions&lt;/h3&gt;
-
-&lt;p&gt;My presentation idea is to be very quick, just to show to you a bit of
-what is Rubylearning and how you can participate, what you will learn and
-so on&amp;hellip;
-Somebody have some question?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hugo:&lt;/strong&gt; This courses that you show, all of them are free? Or have some paid
-courses too?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Willian:&lt;/strong&gt; Yes, the core course is free. The other courses you need to pay to
-get in, but the cost is very low, something like 5 dollars, 3 or 5 dollars,
-just to maintain the website, Satish put a lot of his time on Rubylearning,
-so he need a way to maintain all of this, and he is making it with this
-paid courses and some sponsors, but is not high price, just 3 or 5 dollars
-with paypal.&lt;/p&gt;
-
-&lt;p&gt;Some other question? I trampled some content because I have little time.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Marcelo:&lt;/strong&gt; Lets thank Willian, no more questions now&amp;hellip;&lt;/p&gt;
-
-&lt;h3 id=&#34;slide23&#34;&gt;slide23&lt;/h3&gt;
-
-&lt;p&gt;Thanks! =)&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Bruno Croci, Andres Pereira, CrociDB, Carlan Calazans, Elden Lickfelt | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>As I promised, here goes my presentation! :)
+Finally i finished to translate all the presentation! Watched the video a lot of times, pausing and playing to write all I said translating to english. :)
+Fortunately I had a big help from my friend Victor Goff, that corrected all my grammar errors and typos.
+I&amp;rsquo;m posting below all i have about the presentation, slides from Slideshare and a translation pasted here, but you can find the translation at Google Docs too.</description>
     </item>
     
     <item>
@@ -1712,46 +137,7 @@ with paypal.&lt;/p&gt;
       <pubDate>Wed, 08 Apr 2009 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/rails-x-django/</guid>
-      <description>
-
-&lt;p&gt;Como todos sabem eu sou do mundo Ruby/Rails (Não sou xiita mas é o
-que mais gosto) e de vez em quando começo a brincar com coisas
-diferentes para poder formar a minha própria opinião sobre o assunto.
-No mes de fevereiro me surgiu
-&lt;a href=&#34;http://pothix.com/blog/development/projeto-de-fevereiro&#34; title=&#34;Projeto de fevereiro&#34;&gt;um projeto bem interessante para trabalhar&lt;/a&gt;,
-pessoas legais, oportunidade legal, bem interessante! O projeto seria
-feito em Python/Django, e achei bem interessante a idéia de poder
-comparar várias coisas do Rails com o Django.&lt;/p&gt;
-
-&lt;p&gt;Bem&amp;hellip;Vamos as minhas comparações:&lt;/p&gt;
-
-&lt;h3 id=&#34;pontos-fortes&#34;&gt;Pontos fortes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Como primeiro argumento, e incontestável para mim, tenho que dizer que o admin do Django é muito legal! Você consegue fazer coisas bonitinhas e funcionais com uma facilidade espantosa! Sei que no Rails podemos fazer um scaffold ( ou até usar o ActiveScaffold, mas não é tão bom ) e criar facilmente um CRUD para mexer nos dados, mas isso não é um admin pronto, é apenas uma forma fácil de se manipular os dados. Penso eu que com o Rails seja mais facil de se criar um admin personalizado, com Design próprio, mas gostei bastante da solução a curto prazo do Django.&lt;/li&gt;
-&lt;li&gt;Achei bem interessante como podemos fazer a divisão de trabalhos com o nosso HTML(er) / JavaScript(er), por que o Django dá pouquíssima liberdade para o template com relação a código, ou seja, você define na sua view as query&amp;rsquo;s que vão ser mandadas para o template e no template ele vai usar apenas o que você pode mandar, e não vai poder consultar ou fazer maiores alterações no conteúdo, portanto, quem deve cuidar de como o conteúdo vai chegar ao template são os programadores que vão enviar os dados para quem vai fazer a integração com o layout.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;pontos-fracos&#34;&gt;Pontos fracos&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Não encontrei uma padronização / centralização para os plugins do Django&amp;hellip;Você encontra vários modos de instalação para determinados plugins, alguns vem com setup.py, outros falam para você jogar na pasta do Python. Não tem algo centralizado como as gems do Rails ou os próprios plugins para jogar na pasta vendor/plugins, ou usar um script/plugin install &amp;hellip;&lt;/li&gt;
-&lt;li&gt;Não cria uma estrutura de pastas, deixando que você faça o que bem entender com a estrutura, ao invés de usar uma convenção sobre configuração.&lt;/li&gt;
-&lt;li&gt;Talvez seja a inexperiencia, mas eu não achei legal o que tivemos que fazer com o settings, pois cada um precisava colocar uma configuração diferente de diretórios de imagens, ou algumas configurações referentes aos plugins ( filebrowser no caso ), portanto cada um tinha que ter um settings.py diferente, informando o settings.py quando vamos executar alguma coisa.&lt;/li&gt;
-&lt;li&gt;Não me acostumei muito bem com o esquema de indentação do Python&amp;hellip;Não que seja ruim, mas como estavamos trabalhando em sistemas operacionais diferentes de vez em quando aparecia um indentation error por causa de conversões de tabs em espaços e tal. Sei que esse argumento vai ser facilmente contestado com um: &amp;ldquo;É só configurar o seu editor de texto&amp;rdquo; ou &amp;ldquo;usa um editor de texto multiplataforma&amp;rdquo;, mas mesmo assim&amp;hellip;A idéia da indentação é legal, mas ainda me atrapalha um pouco.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Bem, é isso! Essas foram as minhas primeiras impressões do Django,
-como disse, não tinha experiência com o framework e muitas coisas
-poderiam ser evitadas mais facilmente, ou feitas de um modo bem
-melhor.&lt;/p&gt;
-
-&lt;p&gt;Continuo gostando bastante do Rails, mas achei muito legal várias
-idéias do Django, e acho que tem aplicações legais dependendo do
-projeto que você for usar. ;)&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Thierris, InFog, Andre, MarioRinaldi | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Como todos sabem eu sou do mundo Ruby/Rails (Não sou xiita mas é o que mais gosto) e de vez em quando começo a brincar com coisas diferentes para poder formar a minha própria opinião sobre o assunto. No mes de fevereiro me surgiu um projeto bem interessante para trabalhar, pessoas legais, oportunidade legal, bem interessante! O projeto seria feito em Python/Django, e achei bem interessante a idéia de poder comparar várias coisas do Rails com o Django.</description>
     </item>
     
     <item>
@@ -1760,45 +146,8 @@ projeto que você for usar. ;)&lt;/p&gt;
       <pubDate>Tue, 07 Apr 2009 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/ruby-e-rails-no-mundo-real-overview/</guid>
-      <description>&lt;p&gt;Como muitos leitores do Blog sabem, eu palestrei no Evento
-&amp;ldquo;&lt;a href=&#34;http://www.temporealeventos.com.br/?area=130&#34; title=&#34;Ruby e Rails no mundo real&#34;&gt;Ruby e Rails no mundo real&lt;/a&gt;&amp;rdquo;,
-e vou fazer um pequeno overview desse evento que eu
-&lt;a href=&#34;http://pothix.com/blog/events/ruby-e-rails-no-mundo-real&#34; title=&#34;Ruby e Rails no mundo real&#34;&gt;havia divulgado aqui no blog&lt;/a&gt;:&lt;/p&gt;
-
-&lt;p&gt;O evento foi bem interessante, bem alem do que nós havíamos planejado
-nas primeiras conversas do
-&lt;a href=&#34;http://guru-sp.com/index.php/Eventos_da_Comunidade&#34; title=&#34;Primeiro encontro do GURU-SP&#34;&gt;primeiro encontro do GURU-SP&lt;/a&gt;,
-e atendeu bastante as nossas expectativas por ser o
-primeiro. Obviamente cometemos alguns erros que vamos melhorar no
-próximo, como garantir que tenha Wi-Fi por exemplo! :)&lt;/p&gt;
-
-&lt;p&gt;Quanto as palestras, tivemos palestras interessantes, sendo a maioria
-delas de um grau não tão técnico como alguns estavam esperando, mas
-quem sabe no próximo planejamos algo mais hard para mostrar. ;)&lt;/p&gt;
-
-&lt;p&gt;Eu palestrei sobre o Rubylearning e acho que me saí bem, não foi a
-melhor palestra do evento (nem de longe&amp;hellip;heheh) mas acho que
-consegui passar o que eu gostaria para a galera, espero ver mais
-pessoas lá no &lt;a href=&#34;http://rubylearning.org/class/&#34; title=&#34;Rubylearning.org&#34;&gt;Rubylearning&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;Para quem estiver afim de ver como foram os Slides pode dar uma olhada
-na versão em inglês que eu postei para mostrar para o pessoal do
-Rubylearning no
-&lt;a href=&#34;http://www.slideshare.net/PotHix/what-is-and-how-does-work-rubylearningorg-1257258&#34; title=&#34;Slides no Slideshare em inglês&#34;&gt;Slideshare&lt;/a&gt;,
-e se alguem que não recebeu a apostila com os Slides quer ver a verão
-em português é só pedir que eu posto tambem. :)&lt;/p&gt;
-
-&lt;p&gt;O &lt;a href=&#34;http://www.agaelebe.com.br/&#34; title=&#34;Site do agaelebe&#34;&gt;agaelebe&lt;/a&gt; gravou
-todas as palestras e assim que possível vai disponibilizar para os que
-não foram (e para os que foram e querem revisar algo).&lt;/p&gt;
-
-&lt;p&gt;Criamos uma &lt;a href=&#34;http://guru-sp.com/index.php/Ruby_e_Rails_no_mundo_real_-_primeira_edi%C3%A7%C3%A3o&#34; title=&#34;Primeira edição do evento do GURU-SP&#34;&gt;página no GURU-SP.org&lt;/a&gt;
-para divulgar todas as informações sobre o evento, portanto se quiser
-saber qual foi a grade de palestras, ver as fotos e ver os vídeos (
-assim que estiverem disponíveis ) é só acessar!&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Old comments by: Satish Talim, ashbb, Bruno Croci, Magnun, Leandro Silva | Not available anymore. :(&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Como muitos leitores do Blog sabem, eu palestrei no Evento &amp;ldquo;Ruby e Rails no mundo real&amp;rdquo;, e vou fazer um pequeno overview desse evento que eu havia divulgado aqui no blog:
+O evento foi bem interessante, bem alem do que nós havíamos planejado nas primeiras conversas do primeiro encontro do GURU-SP, e atendeu bastante as nossas expectativas por ser o primeiro. Obviamente cometemos alguns erros que vamos melhorar no próximo, como garantir que tenha Wi-Fi por exemplo!</description>
     </item>
     
     <item>
@@ -1807,28 +156,9 @@ assim que estiverem disponíveis ) é só acessar!&lt;/p&gt;
       <pubDate>Tue, 31 Mar 2009 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/ruby-inside-brasil/</guid>
-      <description>&lt;p&gt;Há um tempo já que eu deveria ter postado sobre o &lt;a href=&#34;http://www.rubyinside.com.br/&#34; title=&#34;Ruby Inside Brasil&#34;&gt;Ruby Inside Brasil&lt;/a&gt;,
-mas estou esvaziando aos poucos o meu Todo List e estou aproveitando a
-&lt;a href=&#34;http://www.rubyinside.com.br/concorra-a-dois-workshops-mao-na-massa-ruby-e-rails-tempo-real-885&#34; title=&#34;Concorra a dois Workshops de Ruby&#34;&gt;promoção que eles fizeram&lt;/a&gt; para liberar esse post tambem. :)&lt;/p&gt;
-
-&lt;p&gt;O Ruby Inside Brasil é a edição autorizada do  &lt;a href=&#34;http://www.rubyinside.com/&#34; title=&#34;Ruby Inside&#34;&gt;Ruby Inside&lt;/a&gt; mantido
-pelo &lt;a href=&#34;http://www.workingwithrails.com/person/5159-peter-cooper&#34; title=&#34;Peter Cooper&#34;&gt;Peter Cooper&lt;/a&gt;. Uma ótima iniciativa para postar bom conteúdo em
-português.&lt;/p&gt;
-
-&lt;p&gt;A idéia inicial do projeto foi do &lt;a href=&#34;http://nomedojogo.com&#34; title=&#34;Nome do Jogo&#34;&gt;Carlos Brando&lt;/a&gt;, que junto com
-&lt;a href=&#34;http://www.rubyinside.com.br/sobre-nos&#34; title=&#34;Colaboradores do projeto&#34;&gt;vários outros colaboradores&lt;/a&gt; está contruindo o nome do Ruby Inside
-Brasil, e tem como idéia não apenas postar traduções dos conteúdos do
-Ruby Inside em inglês, mas tambem postar conteúdo próprio escritos por
-desenvolvedores brasileiros, cobrindo tudo que acontece relacionado a
-Rails e Ruby aqui Brasil!&lt;/p&gt;
-
-&lt;p&gt;Ajude a divulgar o projeto no Twitter, postando em seu blog, falando
-para os amigos e tudo mais. Se você possui uma empresa e quer
-patrocinar o projeto entre em contato com os responsáveis pela
-&lt;a href=&#34;http://www.rubyinside.com.br/contato&#34; title=&#34;Contato&#34;&gt;página de contato&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Parabéns a todos envolvidos no projeto. 😉&lt;/p&gt;
-</description>
+      <description>Há um tempo já que eu deveria ter postado sobre o Ruby Inside Brasil, mas estou esvaziando aos poucos o meu Todo List e estou aproveitando a promoção que eles fizeram para liberar esse post tambem. :)
+O Ruby Inside Brasil é a edição autorizada do Ruby Inside mantido pelo Peter Cooper. Uma ótima iniciativa para postar bom conteúdo em português.
+A idéia inicial do projeto foi do Carlos Brando, que junto com vários outros colaboradores está contruindo o nome do Ruby Inside Brasil, e tem como idéia não apenas postar traduções dos conteúdos do Ruby Inside em inglês, mas tambem postar conteúdo próprio escritos por desenvolvedores brasileiros, cobrindo tudo que acontece relacionado a Rails e Ruby aqui Brasil!</description>
     </item>
     
     <item>
@@ -1837,84 +167,63 @@ patrocinar o projeto entre em contato com os responsáveis pela
       <pubDate>Wed, 25 Mar 2009 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/colocando-sua-aplicacao-rails-na-dreamhost/</guid>
-      <description>&lt;p&gt;Estou fazendo um pequeno site em Rails e como tinha que mostrar o
-andamento para um colega, aproveitei para testar como seria o Deploy
-desse projeto na DreamHost ( mesmo sabendo que o provedor final não
-será lá ), e achei muito fácil de se fazer, portanto resolvi escrever
-um pouco sobre o processo. :D&lt;/p&gt;
-
-&lt;p&gt;Primeiramente, você precisa ter acesso SSH na sua conta. Se você ainda
-não tiver esse acesso apenas faça o seguinte procedimento:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Acesse o menu &lt;strong&gt;Users &amp;gt; Manage Users&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Clique em &lt;strong&gt;Edit&lt;/strong&gt; no user que você vai usar para o acesso SSH&lt;/li&gt;
-&lt;li&gt;Marque a opção &lt;strong&gt;Shell account - allows SFTP/FTP plus ssh access.&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A partir daí você pode acessar por SSH assim como acessava por FTP,
-com esse usuário e senha. :)&lt;/p&gt;
-
-&lt;p&gt;Agora que temos acesso SSH a conta, vamos colocar nossa aplicação lá!
-Se ela estiver no GitHub você pode fazer um clone da sua aplicação
-facilmente:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git@github.com:usuario/projeto-qualquer.git
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Se não estiver no GitHub você pode fazer um pacote tar.gz e enviar
-facilmente por scp:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;tar cvf app.tar.gz aplicacao-quaquer/
-scp usuario@xxx.xxx.xxx.xxx:/home/local/da/applicacao app.tar.gz
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;*Sendo que o xxx é o endereço IP ou Nome da sua maquina na Dreamhost&lt;/p&gt;
-
-&lt;p&gt;Com nossa aplicaçào lá, vamos criar o nosso domínio ou sub-domínio no
-&lt;a href=&#34;https://panel.dreamhost.com/&#34; title=&#34;Painel de controle da Dreamhost&#34;&gt;painel de controle da DreamHost&lt;/a&gt;,
-pelo menu &lt;strong&gt;domains &amp;gt; manage domains&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Geralmente seu domínio demora um pouco para começar a funcionar, mas
-você não precisa esperar que ele esteja totalmente funcional para que
-você continue o processo ;)&lt;/p&gt;
-
-&lt;p&gt;O que você precisa fazer é:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ativar o &lt;strong&gt;Ruby on Rails Passenger (mod_rails)&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Apontar o &lt;strong&gt;Specify your web directory&lt;/strong&gt; para o diretório public da sua aplicação&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Agora que temos o nosso domínio criado e validando ( lembre-se que não
-é instantâneo ), podemos configurar o nosso banco de dados!&lt;/p&gt;
-
-&lt;p&gt;Acesse o &lt;a href=&#34;https://panel.dreamhost.com/index.cgi?tree=goodies.mysql&amp;amp;amp;&#34; title=&#34;Manage Mysql&#34;&gt;Manage Mysql&lt;/a&gt;
-pelo menu &lt;strong&gt;Goodies &amp;gt; Manage Mysql&lt;/strong&gt; e preencha o formulário que
-está logo abaixo dos bancos de dados já existente ( se houver ) para
-criar um novo banco.&lt;/p&gt;
-
-&lt;p&gt;Com o novo banco de dados criado, vamos adaptar nossa aplicação para
-usá-lo! ;)&lt;/p&gt;
-
-&lt;p&gt;Vá no arquivo &lt;code&gt;config/database.yml&lt;/code&gt; e altere as informações da seção
-&lt;em&gt;production&lt;/em&gt; para o que foi configurado no painel..&lt;/p&gt;
-
-&lt;p&gt;Agora com tudo configurado, vamos rodas as nossas migrations para as
-configurações de produção:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;RAILS_ENV=production rake db:migrate
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Com isso você já terá seu projeto funcionando assim que o domínio se
-propagar!&lt;/p&gt;
-
-&lt;p&gt;Foi bem mais simples do que eu pensava, como eu deixei o repositório
-com Git lá, basta eu fazer as alterações localmente e dar um push que
-já terei minha aplicação alterada lá! :)&lt;/p&gt;
-
-&lt;p&gt;É isso aí, espero que seja útil para vocês.&lt;/p&gt;
-</description>
+      <description>Estou fazendo um pequeno site em Rails e como tinha que mostrar o andamento para um colega, aproveitei para testar como seria o Deploy desse projeto na DreamHost ( mesmo sabendo que o provedor final não será lá ), e achei muito fácil de se fazer, portanto resolvi escrever um pouco sobre o processo. :D
+Primeiramente, você precisa ter acesso SSH na sua conta. Se você ainda não tiver esse acesso apenas faça o seguinte procedimento:</description>
+    </item>
+    
+    <item>
+      <title>Ruby e Rails no mundo real</title>
+      <link>http://pothix.com/post/ruby-e-rails-no-mundo-real/</link>
+      <pubDate>Fri, 06 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/ruby-e-rails-no-mundo-real/</guid>
+      <description>Pessoal, hoje o meu post é para comentar sobre o evento do Guru-sp (Grupo de usuário Ruby de São Paulo), cujo fui um dos fundadores e participo até hoje (quem vê pensa que faz bastante tempo&amp;hellip; Apenas uns 4 meses haha).
+O evento já tem site oficial e está com as inscrições abertas!
+Pelo que estamos fazendo o evento tende a ser grande, com auditório para cerca de 200 pessoas, com direito a crachá, apostila, Coffee break e etc.</description>
+    </item>
+    
+    <item>
+      <title>Deploying a simple Merb application on Locaweb</title>
+      <link>http://pothix.com/post/deploying-a-simple-merb-application-on-locaweb/</link>
+      <pubDate>Wed, 07 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/deploying-a-simple-merb-application-on-locaweb/</guid>
+      <description>I writing this post to help my friends of Rubylearning with a little Merb application deployment on Locaweb. I&amp;rsquo;m just translating some informations that you can find here&amp;rdquo;) in portuguese.
+Lets get started! :D
+First open the
+Domain Manager (gerenciador de domínios) on Locaweb Panel (painel da Locaweb) and configure the pointer of your main site to other directory on public_html of your account (this directory don&amp;rsquo;t need to exist).</description>
+    </item>
+    
+    <item>
+      <title>Aprenda Ruby no Rubylearning</title>
+      <link>http://pothix.com/post/aprenda-ruby-no-rubylearning/</link>
+      <pubDate>Fri, 07 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/aprenda-ruby-no-rubylearning/</guid>
+      <description>Como muitos sabem, eu sou um dos professores assistentes do Rubylearning.org que oferece gratuitamente cursos de ruby!
+O Satish Talim anunciou que estão abertas as inscrições para o FORPC101-9C ( Free Online Ruby Programming Course 101 - Batch 9 Core) que é a série de cursos gratuitos sobre Ruby Core.
+Aconselho todos que querem aprender Ruby a participarem! Não se preocupe muito com seu inglês, ele não precisa estar extremamente afiado para você participar, basta que você consiga entender bem para que você participe, e caso não consiga escrever bem o pessoal pode ajudar você a se expressar para conseguir ajuda nos Foruns!</description>
+    </item>
+    
+    <item>
+      <title>Rails Summit Latin Amerira (Day 2)</title>
+      <link>http://pothix.com/post/rails-summit-latin-amerira-day-2/</link>
+      <pubDate>Wed, 22 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/rails-summit-latin-amerira-day-2/</guid>
+      <description>Para quem não viu o meu post sobre o primeiro dia da Rails Summit, veja aqui! ;) E agora vamos ao segundo post sobre a Rails Summit! :)
+Começamos o segundo dia de Rails Summit as 8:00, e logo no começo do dia tivemos alguns probleminhas técnicos com energia elétrica que logo foi contornado com um gerador ( esse evento escala! ). Tivemos a abertura do dia com o Fabio akita comentando sobre as palestras e dando recados gerais.</description>
+    </item>
+    
+    <item>
+      <title>Rails Summit Latin America</title>
+      <link>http://pothix.com/post/rails-summit-latin-america/</link>
+      <pubDate>Tue, 21 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/rails-summit-latin-america/</guid>
+      <description>Como muitos sabem eu participei da Rails Summit Latin America e vou agora fazer uns comentários sobre o evento.
+Vou dividir em 2 posts, um para cada dia, por que o assunto ficou bem extenso.
+Minha intenção com a Rails Summit, alem de ver as ótimas palestras era de fazer um social network com a galera que eu só conhecia por nickname, e isso realmente foi difícil de fazer justamente por isso, reconhecer as pessoas pessoalmente sendo que só as conheço por nickname e avatar não é nada fácil.</description>
     </item>
     
   </channel>
