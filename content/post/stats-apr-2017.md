@@ -107,7 +107,7 @@ But I was expecting something like that already =/
 
 ### Physical activity
 
-As expected my avarage of steps a day dropped. Currently it's around **6k steps**.
+As expected my average of steps a day dropped. Currently it's around **6k steps**.
 
 [![Amount of steps for this month](/images/stats/2017/apr/physical-activity-steps.png "Amount of steps for this month")](/images/stats/2017/apr/physical-activity-steps.png "")
 
@@ -148,11 +148,14 @@ This month I visited 13 more places (the last month were **325 places**):
 ### Words written and errors
 
 I'm using [Grammarly](https://grammarly.com) to improve my English and
-track the amount of words and errors when I'm writting. Unfortunately, they only send weekly emails, I don't know if I will keep these metrics because it take some time to build it. 
-
-Anyways, here are my stats for this month:
+track the amount of words and errors when I'm writting. Unfortunately,
+they only send weekly emails, so I don't know if I will keep these
+metrics because it take some time to build it. Here is an example of
+the data sent via email:
 
 [![Example data of grammarly weekly](/images/stats/2017/apr/grammarly.png "Example data of grammarly weekly")](/images/stats/2017/apr/grammarly.png "")
+
+Anyways, here are my stats for this month:
 
 + **37844** words written
 + **168** corrections made
