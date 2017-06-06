@@ -8,16 +8,15 @@ Here we go again for my stats for the last month. :)
 
 ### Books
 
-Books for this month:
-
 [![List of books read this month](/images/stats/2017/may/goodreads.png "List of books read this month")](https://www.goodreads.com/pothix "")
 
-I will start a in a new company this month, so I decided to re-read
-**Deep Work** this month. This book is just great for everyone who
-wants to focus and do the hard work. I has everything to do with my
-new work schedule. The book about Elon Musk was a good reading as
-well, he has really great ideas. Both books were "read" using
-audiobooks by [Audible](https://audible.com).
+I will start a in a new company this month, so I decided to
+re-read [Deep Work](http://amzn.to/2sNBJQs) (I really recommend this
+one). This book is just great for everyone who wants to focus and do
+the hard work. It has everything to do with my new work
+schedule. The [book about Elon Musk](http://amzn.to/2r1nCG0) was a
+good reading as well, this guy has some great ideas. Both books were
+"read" using audiobooks by [Audible](https://audible.com).
 
 ### Articles
 
@@ -35,7 +34,7 @@ for(var i=0; i<uls.length; i++) {
 It means I have **861 articles Unread** and **662 articles
 Read**. Comparing with my results from the last month, I got almost
 **5% more unread articles**, but this time I got almost **10% more
-read articles** (the double of the last month amount). It happened
+read articles** (double of the last month's). It happened
 because I took some hours to read the some articles of my Pocket
 account.
 
@@ -149,12 +148,6 @@ met your mother** marathon. The other episodes are a combination of **Better cal
 
 I spent almost 1 day of my life watching TV Series this month.
 
-### Locations
-
-This month I visited 13 more places (the last month were **325 places**):
-
-[![General view of my locations data](/images/stats/2017/may/location-general.png "General view of my locations data")](/images/stats/2017/may/location-general.png "")
-
 ### Words written and errors
 
 I'm using [Grammarly](https://grammarly.com) to improve my English and
@@ -167,7 +160,13 @@ Anyways, here are my stats for this month:
 + **11478** unique words
 
 I decided to remove my "common mistakes" from this report because the
-data was not reliable.
+data seems to be not reliable.
+
+### Locations
+
+This month I visited 18 new places (the last month were **338 places**) and 1 new city:
+
+[![General view of my locations data](/images/stats/2017/may/location-general.png "General view of my locations data")](/images/stats/2017/may/location-general.png "")
 
 ### Expenses
 
@@ -176,9 +175,9 @@ My expenses for this month:
 [![Expenses by category this month](/images/stats/2017/may/expenses.jpg "Expenses by category this month")](/images/stats/2017/may/expenses.jpg "")
 
 This chart **represent only 47% of net income**, the rest is being
-invested. Just like last month, this was atypical as well. I received
-the money related to my freelance work on January and March and this
-month I had to pay the taxes related to it.
+invested. Just like last month, this was atypical as well. Last month
+I received the money related to my freelance work on January and March
+and now I had to pay the taxes related to it.
 
 This month increased my total savings by **1%**.
 I have **68.83%** of my goal.
@@ -188,15 +187,20 @@ I have **68.83%** of my goal.
 Some people are asking me about how much time it take to collect all
 the data and write the blog post, so I decided to add this metric.
 
-I'm spending no to collect the data, most part of it is automatic. The
-services that require manual interaction are already part of my
-day-to-day life, so I'm not tracking it.
+I'm spending almost no time to collect the data, most part of it is
+automatic. The services that require manual interaction are already
+part of my day-to-day life, so I'm not tracking it.
 
-**It took 2 hours and 11 minutes to write it**
+**It took 2 hours and 30 minutes to write this post**
 
 ### Conclusion
 
-It was not so nice to be sick, as expected. My productivity dropped a
-little bit and I have to go to the doctor this month and look for it.
+This month was better than the last one. It was not so good as I
+expected because I had to do some exams to be sure I'm OK and I was
+also changing jobs. I was working for the same company for the last 7
+years and decide to try something else, but this is a subject for a
+different post. ;)
 
-Hope to be in a good health next month. :)
+I got two weeks to "relax" (cof... work on some personal
+projects... cof), so I don't know exactly how the next month will
+be. Let's wait for the next post! :)
