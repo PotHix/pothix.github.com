@@ -23,3 +23,6 @@ publish:
 	@rm -rf public last_commit
 	@git push
 	@git checkout -
+
+drafts:
+	@grep "draft = true" * -rl | grep "\.md"
