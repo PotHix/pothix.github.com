@@ -14,10 +14,11 @@ Added three more books to the list:
 
 [![List of books read this month](/images/stats/2017/mar/goodreads.png "List of books read this month")](https://www.goodreads.com/pothix "")
 
-All of them were "read" using audiobooks
-from [Audible](https://audible.com). I have to note here
-that
-[Mastery is one of the best books I ever read](https://www.goodreads.com/review/show/1642811841).
+I have to note here that
+[Mastery](http://amzn.to/2rdNYFy) [is one of the best books I ever read](https://www.goodreads.com/review/show/1642811841).
+Both [Mindfulness in plain English](http://amzn.to/2s60AzW)
+and [The Urban Monk](http://amzn.to/2so5lYE) are about meditation and
+how to live a minimalist life.
 
 ### Articles
 

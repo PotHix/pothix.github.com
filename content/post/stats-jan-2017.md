@@ -18,7 +18,10 @@ of 2.5 books per month. I read two this month:
 
 [![List of books read this month](/images/stats/2017/jan/goodreads.png "List of books read this month")](https://www.goodreads.com/pothix "")
 
-Both books were "read" by using audiobooks from [Audible](https://audible.com).
+[Outliers](http://amzn.to/2swOiTZ) is a great book, I really recommend
+it. It talks about the 10.000 hours role to master
+something. The [Memory Illusion](http://amzn.to/2sjkxoT) is about how
+your mind trick you creating false memories.
 
 ### Coding
 

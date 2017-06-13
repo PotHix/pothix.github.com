@@ -17,9 +17,15 @@ Books for this month:
 [![List of books read this month](/images/stats/2017/apr/goodreads.png "List of books read this month")](https://www.goodreads.com/pothix "")
 
 "Einstein no Brasil" (Einstein in Brazil) is a physical book I
-borrowed from a friend and The Art of The Lord of the Rings I have in
-my shelf (as a good LotR fan). The other two are audiobooks
-by [Audible](https://audible.com).
+borrowed from a friend
+and [The Art of The Lord of the Rings](http://amzn.to/2rW9stD) I have
+in my shelf (as a good LotR
+fan). [The power of broke](http://amzn.to/2sx3a4v) is an audiobook
+from the guy of the Shark Tank TV show
+and [Spaceman](http://amzn.to/2rqMXt8) is a **great** book
+from
+[Mike Massimino](https://en.wikipedia.org/wiki/Michael_J._Massimino),
+the astronaut.
 
 ### Articles
 

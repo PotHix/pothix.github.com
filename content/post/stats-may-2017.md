@@ -15,8 +15,7 @@ re-read [Deep Work](http://amzn.to/2sNBJQs) (I really recommend this
 one). This book is just great for everyone who wants to focus and do
 the hard work. It has everything to do with my new work
 schedule. The [book about Elon Musk](http://amzn.to/2r1nCG0) was a
-good reading as well, this guy has some great ideas. Both books were
-"read" using audiobooks by [Audible](https://audible.com).
+good reading as well, this guy has some great ideas.
 
 ### Articles
 

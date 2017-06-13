@@ -15,10 +15,11 @@ Continuing my goal to **read 30 books this year**, I read two books this month:
 [![List of books read this month](/images/stats/2017/feb/goodreads.png "List of books read this month")](https://www.goodreads.com/pothix "")
 
 I had plans to visit Amsterdam and Oxford during my travel. Because of
-that I decided to read the story of Kullervo, which mention a lot
-about J.R.R Tolkien past (it was one of his first stories), and The
-Diary of a Young Girl, because I had plans to visit Anne Frank's house
-in Amsterdam.
+that I decided to read
+the [story of Kullervo](http://amzn.to/2s6lQ8S), which mention a lot
+about J.R.R Tolkien past (it was one of his first stories),
+and [The Diary of a Young Girl](http://amzn.to/2sx2w7o), because I had
+plans to visit Anne Frank's house in Amsterdam.
 
 ### Coding
 
