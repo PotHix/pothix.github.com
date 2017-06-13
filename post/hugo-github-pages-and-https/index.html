@@ -4,13 +4,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <meta content="Willian Molinari a.k.a. PotHix" name="author">
-        <meta property="og:title" content="PotHix">
-        <meta property="og:url" content="http://pothix.com/">
+        <meta property="og:title" content="Wordpress to Middleman, to Hugo, github-pages and HTTPS - PotHix">
+        <meta property="og:url" content="http://pothix.com/post/hugo-github-pages-and-https/">
         <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
         <meta property="og:type" content="website" />
         <meta name="generator" content="Hugo 0.20.7" />
 
-        <title>PotHix</title>
+        <title>Wordpress to Middleman, to Hugo, github-pages and HTTPS | PotHix</title>
 
         
         <link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -67,54 +67,161 @@
 
 
 <div id="content" class="site-content">
-    <div id="primary" class="content-area">
-        <main id="main" class="site-main" role="main">
-            <header class="page-header">
-                <h1 class='blog-title'>Blog Posts</h1>
-                <p class='main-page-subtitle'>Looking for English posts only? Click <a href="/tags/english">here</a>! ;)</p>
-            </header>
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article class="post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
+         <header class="entry-header">
+      	   <h2 class="entry-title">Wordpress to Middleman, to Hugo, github-pages and HTTPS</h2>
+         </header>
 
+         <div class="entry-meta">
+          <span class="posted-on">
+            Published at June 13, 2017
+          </span>
+          <span class="tags-links">
             
-  <article id="post-#{article.id}" class="post-#{article.id} post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
+          </span>
+        </div>
 
-    <header class="entry-header">
-      <h2 class="entry-title">
-        <a href="http://pothix.com/writing/">Writing</a>
-      </h2>
-    </header>
+        <div class="entry-content">
+          
 
-    <div class="entry-meta">
-      <span class="posted-on">
-        Published at January 1, 0001
-      </span>
+<p>Yes, it was a journey. I decided to chance my blog engine again.</p>
 
-      <span class="tags-links">
-      
-      </span>
-    </div>
+<p>But this time I decided to post about the whole transition, since I started my
+blog, <a href="https://pothix.com/post/primeiro-post-por-aqui/">back in 2008</a>.</p>
 
-    <div class="entry-content">
-      Desconstruindo a web 'Desconstruindo a web'. Wrote by me, this book shows the path of a web request and its components.
-Book's website       Ruby on Rails - coloque sua aplicação web nos trilhos I did the technical review of this pt-BR book about Ruby on Rails, written by Vinicius Baggio Fuentes
-Buy online       HTML5 Game Development HOTSHOT I did the technical review of this book on HTML5 game development using CreateJS.
-    </div>
-  </article>
+<p>I needed a blog at the time but could not spend time creating something, I just
+wanted to &ldquo;buy a blog&rdquo; and write. Dreamhost was an awesome service for that. In
+one hour I bought a domain, installed a Wordpress via one click install and set
+up my own email via Google apps (at the time it was free).</p>
+
+<p>Wordpress is a good blog engine, it just works. You have to keep it updated
+because of security risks, but it works. I wrote some plugins and customized
+themes during the years I used it and it worked just fine. Please, don&rsquo;t say bad
+things about Wordpress, it solved more problems and is great for so many
+people. :)</p>
+
+<p>After some years I decided it was time to cancel my Dreamhost account. I had
+just some small websites there and all of them could become static pages. That&rsquo;s
+what I did.</p>
+
+<p>All my website were converted to static web pages and migrated to Github pages,
+including this blog. But let&rsquo;s focus on this blog for a while.</p>
+
+<h2 id="migrating-from-wordpress-to-middleman">Migrating from Wordpress to Middleman</h2>
+
+<p>I was already using markdown for my blog posts because I was posting from Vim
+using <a href="https://github.com/pothix/vimpress">Vimpress</a>. So I had to convert all
+other posts from HTML to Markdown.</p>
+
+<p>My old layout was not good anymore. I was looking for something responsive and
+used the migration to get the courage to change the layout as well. I bought a
+Wordpress layout and converted it to <code>.erb</code> for Middleman.</p>
+
+<p>I was using Wordpress comment system and I decided to not migrate to
+Disqus. Today I know that I could do that, but at the time I decided to just
+abandon the old comments. But I wanted to keep the names of everyone that wrote
+a comment in the article.</p>
+
+<p>Most of the migration was done
+by <a href="https://gist.github.com/PotHix/e78c75281d4f1c508e89">a Ruby script</a> that I
+created. These are the steps needed:</p>
+
+<ul>
+<li>Download an <code>.xml</code> backup of your Wordpress posts with comments</li>
+<li>Change the script to use the correct file name and blacklist comments</li>
+<li>Run the script</li>
+</ul>
+
+<p>The script will convert all posts from HTML to Markdown and create individual
+files for every post, following the middleman style.</p>
+
+<p>You just have to check every post and fix images.</p>
+
+<p>In my case, it was harder than that because I was creating a blog from scratch
+but using the same content. But at the end, it worth the work.</p>
+
+<h2 id="migrating-from-middleman-to-hugo">Migrating from Middleman to Hugo</h2>
+
+<p>For some reason, I decided to not post about my blog engine change this year. I
+was using <a href="https://middlemanapp.com">middleman</a>
+since <a href="https://pothix.com/post/new-layout-of-pothix-blog/">May 2015</a>, but
+decided to change to <a href="https://gohugo.io/">Hugo</a>.</p>
+
+<p>I promised myself that I would not change my blog engine to Hugo just because it
+looks cool. And then Middleman started to work weird, sometimes the <code>middleman
+serve</code> serves my content as plain text instead of HTML. It was hard to try it
+locally before publishing.</p>
+
+<p>It was everything I needed to try a new blog engine (haha). This migration was
+simpler. I just had to understand how Hugo works and how the template
+language works.</p>
+
+<p>To convert middleman format to Hugo I used a big <code>sed</code> command that I can&rsquo;t
+reproduce anymore. haha</p>
+
+<p>As usual, I used the migration as an excuse to do more things. Since 2008 I
+change my URLs layout many times. So, I used Google Analytics to get these old
+URLs and added them as <a href="https://gohugo.io/extras/aliases/">aliases</a> in Hugo. The
+old URLs now work with the current blog.</p>
+
+<p>Some advantages of Hugo:</p>
+
+<ul>
+<li>It&rsquo;s just a binary, I don&rsquo;t have to install anything beyond that. (<code>aura -S hugo-bin</code> :D)</li>
+<li>It builds *<em>really</em> fast, it&rsquo;s not fair to compare with middleman (Go X Ruby)</li>
+<li>There are some great features, like aliases</li>
+<li>I really like the live-reloading by default</li>
+</ul>
+
+<h2 id="https">HTTPS</h2>
+
+<p>I was missing the HTTPS feature, but it was not possible to use it when using
+Github-pages, at least not for custom domains.</p>
+
+<p>After reading <a href="https://www.sergioaugrod.com.br/offtopic/2017/05/14/migrando-do-ghost-para-o-github-pages.html">this post (pt-BR)</a>
+I found that it would be possible to use HTTPS, even in Github-pages, and <strong>for free</strong>.</p>
+
+<p>The solution: <a href="https://www.cloudflare.com">Cloudflare</a>!</p>
+
+<p>Cloudflare has a free plan that is sufficient for many blogs out there. You just
+have to create your account and point your <code>ns</code> entries to their servers. By
+doing that you can even use HSTS! :D</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>I&rsquo;m really happy with the current setting.</p>
+
+<ul>
+<li>Hugo is a great platform</li>
+<li>Github is fast, simple and free</li>
+<li>My new layout has the features I need</li>
+<li>It&rsquo;s easy to change</li>
+</ul>
+
+<p>Static pages are the future&hellip; again&hellip; haha</p>
+
+          
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'pothixcom';
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
 
-            <nav role="navigation" id="nav-below" class="paging-navigation">
-  <h1 class="screen-reader-text">Post navigation</h1>
-
-  <div class='pages'>
-    
-      <a class="page-numbers" href="/page/13/">&lt;</a>
-    
-
-    
+        </div>
+      </article>
+    </main>
   </div>
-</nav>
-
-        </main>
-    </div>
 </div>
 
         <footer class="footer-widget-area">
