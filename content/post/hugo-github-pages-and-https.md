@@ -1,6 +1,5 @@
 +++
 date = "2017-06-13T13:54:49-03:00"
-draft = true
 title = "Wordpress to Middleman, to Hugo, github-pages and HTTPS"
 +++
 
