@@ -44,7 +44,7 @@ manter a infraestrutura/aplicação de cloud, nós tinhamos outras
 responsabilidades. Nessa equipe nós também mantinhamos as aplicações de
 servidores dedicados, load balancer, backup e o painel unificado para todas
 essas funcionalidades. Nessa época estavamos mais juntos com a equipe que estava
-fazendo melhorias e automatização na infraestrutura. Partipei do projeto
+fazendo melhorias e automatização na infraestrutura. Partipei do
 projeto [Openstack](https://www.openstack.org/) enquanto desenvolviamos algumas
 funcionalidades no Quantum
 (agora [Neutron](https://github.com/openstack/neutron)) e cheguei a participar
@@ -60,7 +60,7 @@ quinta-feira sem muito suporte.
 
 Usei bastante **Ruby** e **Python** nessa época. Das pessoas que trabalharam
 nessa equipe, 3 estão trabalhando para fora do país de alguma forma. Duas delas
-se mudaram para outro país e uma trababalha remotamente para uma empresa de
+se mudaram para outro país e uma trabalha remotamente para uma empresa de
 fora.
 
 Também nessa época eu desenvolvi um projeto que em menos de 1 ano economizou
@@ -92,7 +92,7 @@ internamente e cuidavamos de alguns sistemas responsáveis por catálogo e
 instalação de maquinas.
 
 Nessa época eu tive a oportunidade de participar
-da [OSCON](https://conferences.oreilly.com/oscon) em Portlang, OR. Foi uma
+da [OSCON](https://conferences.oreilly.com/oscon) em Portland, OR. Foi uma
 experiência fantástica, com certeza uma das melhores conferências que eu já fui.
 
 Nessa equipe tive contato com várias linguagens de programação. Mexi com
