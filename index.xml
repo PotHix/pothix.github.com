@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <lastBuildDate>Tue, 13 Jun 2017 13:54:49 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jun 2017 11:26:10 -0300</lastBuildDate>
     
 	<atom:link href="http://pothix.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>7 anos de Locaweb e a saida</title>
+      <link>http://pothix.com/post/7-anos-de-locaweb-e-a-saida/</link>
+      <pubDate>Wed, 14 Jun 2017 11:26:10 -0300</pubDate>
+      
+      <guid>http://pothix.com/post/7-anos-de-locaweb-e-a-saida/</guid>
+      <description>TL;DR: Esse mês eu completaria 7 anos trabalhando para a Locaweb, mas decidi sair no dia 2 de junho. Nada demais, só procurando coisas diferentes
+Eu entrei na Locaweb em Junho de 2010. Na época o Fabio Kung entrou em contato comigo perguntando se eu queria me juntar a equipe de Cloud Computing.
+A equipe de Cloud Depois de uma conversa com ele e com outro gestor, eu descobri que era exatamente o que eu queria fazer, trabalhar com Ruby e infraestrutura, duas coisas que eu gostava muito.</description>
+    </item>
     
     <item>
       <title>Wordpress to Middleman, to Hugo, github-pages and HTTPS</title>
@@ -21,17 +32,6 @@
       <description>Yes, it was a journey. I decided to chance my blog engine again.
 But this time I decided to post about the whole transition, since I started my blog, back in 2008.
 I needed a blog at the time but could not spend time creating something, I just wanted to &amp;ldquo;buy a blog&amp;rdquo; and write. Dreamhost was an awesome service for that. In one hour I bought a domain, installed a Wordpress via one click install and set up my own email via Google apps (at the time it was free).</description>
-    </item>
-    
-    <item>
-      <title>7 anos de Locaweb e a saida</title>
-      <link>http://pothix.com/post/7-anos-de-locaweb-e-a-saida/</link>
-      <pubDate>Tue, 13 Jun 2017 11:26:10 -0300</pubDate>
-      
-      <guid>http://pothix.com/post/7-anos-de-locaweb-e-a-saida/</guid>
-      <description>TL;DR: Esse mês eu completaria 7 anos trabalhando para a Locaweb, mas decidi sair no dia 2 de junho. Nada demais, só procurando coisas diferentes
-Eu entrei na Locaweb em Junho de 2010. Na época o Fabio Kung entrou em contato comigo perguntando se eu queria me juntar a equipe de Cloud Computing.
-A equipe de Cloud Depois de uma conversa com ele e com outro gestor, eu descobri que era exatamente o que eu queria fazer, trabalhar com Ruby e infraestrutura, duas coisas que eu gostava muito.</description>
     </item>
     
     <item>
