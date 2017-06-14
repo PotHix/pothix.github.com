@@ -1,5 +1,5 @@
 +++
-date = "2017-06-13T11:26:10-03:00"
+date = "2017-06-14T11:26:10-03:00"
 title = "7 anos de Locaweb e a saida"
 tags = ["career"]
 +++
