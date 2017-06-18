@@ -8,6 +8,8 @@ categories = "reading"
 
 **TL;DR**: Ouvir livros é o futuro.
 
+**Atualização de 18/06/2016**: Adicionando o [audiobooks.com](https://www.audiobooks.com/).
+
 Quem me conhece sabe que há muito tempo eu ouço podcasts sempre que eu
 posso, principalmente no caminho entre a minha casa e o trabalho. No
 fim do ano de 2015 eu vi a quantidade de livros que o
@@ -44,6 +46,11 @@ várias apps. Vou descrever abaixo os meus testes:
   casmurro" por exemplo. No audible, para que você consiga **1** audiobook por
   mês você paga **$15**, o que dá quase R$70 para nós no brasil, o que é um
   valor meio salgado IMO.
++ [audiobooks.com](https://www.audiobooks.com/) -- Uma tentativa de
+  concorrer com o Audible, mas com o mesmo preço e uma qualidade de
+  aplicativo bem inferior. A parte boa é que você pode fazer o trial
+  de 30 dias e ouvir um livro de graça, em último caso, caso você não
+  goste, pelo menos ouviu um livro.
 + [Scribd](https://scribd.com) -- Está entrando agora na área de audiobooks. A
   compra de livros e download do audio foi bem fácil e o serviço possui tanto
   livros como audiobooks. O _player_ ainda não possui a funcionalidade de
