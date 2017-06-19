@@ -1,7 +1,7 @@
 +++
 title = "Stats for April, 2017"
 date = "2017-05-08"
-tags = ["stats","personal"]
+tags = ["stats","personal","english"]
 +++
 
 This was not a good month. I spent most of the time sick, recovering

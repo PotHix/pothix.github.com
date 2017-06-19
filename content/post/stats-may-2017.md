@@ -1,7 +1,7 @@
 +++
 title = "Stats for May, 2017"
 date = "2017-06-07"
-tags = ["stats","personal"]
+tags = ["stats","personal","english"]
 +++
 
 Here we go again for my stats for the last month. :)

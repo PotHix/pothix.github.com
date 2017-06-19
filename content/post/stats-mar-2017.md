@@ -1,7 +1,7 @@
 +++
 title = "Stats for March, 2017"
 date = "2017-04-04"
-tags = ["stats","personal"]
+tags = ["stats","personal","english"]
 +++
 
 Back to work this month. :)

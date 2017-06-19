@@ -1,7 +1,7 @@
 +++
 title = "Stats for January, 2017"
 date = "2017-04-02"
-tags = ["stats","personal"]
+tags = ["stats","personal","english"]
 +++
 
 This is the first post of a series that will show all the data I've been collecting during the month. One of my goals this year is to track everything possible. These posts will help me to analyze all the data and may extract something for me.

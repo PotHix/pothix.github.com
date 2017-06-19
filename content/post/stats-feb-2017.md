@@ -1,7 +1,7 @@
 +++
 title = "Stats for February, 2017"
 date = "2017-04-03"
-tags = ["stats","personal"]
+tags = ["stats","personal","english"]
 +++
 
 February was an atypical month because I was on vacation. :)
