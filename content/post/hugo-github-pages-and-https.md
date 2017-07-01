@@ -1,6 +1,6 @@
 +++
 date = "2017-06-13T13:54:49-03:00"
-title = "Wordpress to Middleman, to Hugo, github-pages and HTTPS"
+title = "Wordpress to Middleman, to Hugo using github-pages and HTTPS"
 tags = ["tech","english"]
 +++
 
