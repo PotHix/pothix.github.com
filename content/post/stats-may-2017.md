@@ -78,7 +78,7 @@ my
 
 [![Amount of time spent listening to Podcasts this month](/images/stats/2017/may/podcasts.jpg "Amount of time spent listening to Podcasts this month")](/images/stats/2017/may/podcasts.jpg)
 
-I was the equivalent to **3 days and 9 hours** of podcast time (I tend
+It was the equivalent to **3 days and 9 hours** of podcast time (I tend
 to speed up all my podcasts, so I don't know how much time it took for
 real). It's **almost 15 hours more** than April.
 
