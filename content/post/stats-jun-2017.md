@@ -5,27 +5,41 @@ tags = ["stats","personal","english"]
 draft = true
 +++
 
-Here we go again for my stats for the last month. :)
+I'm ready to review my stats for June and share them with you! Are
+you? Hope so! :D
 
 ### Books
 
 [![List of books read this month](/images/stats/2017/jun/goodreads.png "List of books read this month")](https://www.goodreads.com/pothix "")
 
-[The score takes care of itself](http://amzn.to/2ubyLXo)
-[Start with Why](http://amzn.to/2syNucX)
-[The secrets of story](http://amzn.to/2sz4oIx)
-[Louder than words](http://amzn.to/2tBTV42)
 
-I will start a in a new company this month, so I decided to
-re-read [Deep Work](http://amzn.to/2sNBJQs) (I really recommend this
-one). This book is just great for everyone who wants to focus and do
-the hard work. It has everything to do with my new work
-schedule. The [book about Elon Musk](http://amzn.to/2r1nCG0) was a
-good reading as well, this guy has some great ideas.
+Last month I read [Deep Work](http://amzn.to/2sNBJQs) again because I
+was preparing to work for a new company. The new company
+is [Doist](https://doist.com), but this is a topic for a new post. It
+proved to be a great asset, as they also recommend reading it. From
+their reading list I also
+took [The score takes care of itself](http://amzn.to/2ubyLXo)
+and [Start with Why](http://amzn.to/2syNucX). Both are great books on
+how to think your products and leadership, highly recommended!
+
+Before joining I read [The secrets of story](http://amzn.to/2sz4oIx),
+a great book on how to write novels and keep your reader turning
+pages. There are many great tips here, I really recommend if you want
+to write something someday.
+
+The other one is [Louder than words](http://amzn.to/2tBTV42). It's all
+about how we deal with meaning. It was interesting to think about
+meaning as a concept beyond words, for computer scientists, think
+about words as being pointers to a meaning. :)
+
+That's it, 4 books in a month, I'm proud of myself :P
+
 
 ### Articles
 
-I'm using the same export file from [Pocket](https://getpocket.com) and the same script to calculate the amount of articles I read:
+As usual, I'm using that same export file
+from [Pocket](https://getpocket.com) and the same script to calculate
+the amount of articles I read:
 
 ```
 var uls=document.body.getElementsByTagName("ul");
@@ -34,18 +48,15 @@ for(var i=0; i<uls.length; i++) {
 }
 968
 708
-
---> old values
-861
-662
 ```
 
 It means I have **968 articles Unread** and **708 articles
-Read**. Comparing with my results from the last month (861 unread and 662 read), I got almost
-**5% more unread articles**, but this time I got almost **10% more
-read articles** (double of the last month's). It happened
-because I took some hours to read the some articles of my Pocket
-account.
+Read**. Comparing with my results from the last month (861 unread and
+662 read), I got around **11% more unread articles** and only **6.5%
+more read articles**. 
+
+It was a lot more unread articles and not so much read ones. I will
+have to work on it again.
 
 ### Coding
 
@@ -54,31 +65,29 @@ since the last post.
 
 [![Hours of coding on Wakatime this month](/images/stats/2017/jun/wakatime-coding.png "Hours of coding on Wakatime this month")](https://wakatime.com/@PotHix "")
 
-The chart for this month is really better than last month's but still
-less than what I was expecting.
+Looks like my coding productivity is back to normal. Hope to improve
+my deep working this month.
 
-Back to Ruby this month, there were some old Rails projects to work. But most of my time was spent on the Terminal, for a change.
+Much of what I did was related to improve static pages and
+documentation projects, so I have a lot of `bash` and `Markdown` as
+most used languages.
 
 [![Languages used during this month on Wakatime](/images/stats/2017/jun/wakatime-languages.png "Languages used during this month on Wakatime")](https://wakatime.com/@PotHix "")
 
-Emacs is my main editor and there was almost no Vim this
-month. But [Bash](https://github.com/irondoge/bash-wakatime) is taking
-more than 40% of my time.
+Editors are pretty much the same as last month's.
 
 [![Editors used during this month on Wakatime](/images/stats/2017/jun/wakatime-editors.png "Editors used during this month on Wakatime")](https://wakatime.com/@PotHix "")
 
 ### Speaking
 
-+ [Apache Mesos as a tool](https://www.eventials.com/Globalcode/quarta-a-tarde-tdconline-floripa-2017-stadium/) at [TDC Florianópolis](http://www.thedevelopersconference.com.br/tdc/2017/florianopolis/trilhas).
-+ [A ruby application end to end](https://www.eventials.com/Globalcode/sabado-a-tarde-tdconline-floripa-2017-stadium/) at [TDC Florianópolis](http://www.thedevelopersconference.com.br/tdc/2017/florianopolis/trilhas).
-+ Tech-talk at [Locaweb](https://locaweb.com.br). It was a Tech-talk about [TDC Florianópolis](http://www.thedevelopersconference.com.br/tdc/2017/florianopolis/trilhas). As usual, every time I go to a conference I schedule a talk to explore the content I saw there. This was no different. :)
-+ [Deconstructing the web](http://cege.la/OSc9Yb) at BioRitmo tech-talks.
++ [HTML5 Game development](https://www.eventials.com/Globalcode/quarta-a-tarde-tdconline-floripa-2017-stadium) at [Impacta Tecnologia](www.impacta.com.br).
++ [Guru-SP representation on a panel discussing communities](https://pbs.twimg.com/media/DDarqhkW0AAuuJT.jpg:large) at [19o Encontro Locaweb](http://eventos.locaweb.com.br/eventos-anteriores/19o-encontro-locaweb-sao-paulo/).
 
 Here is my current status of presentations this month:
 
 [![Burn down chart for my presentations](/images/stats/2017/jun/presentations.png "Burn down chart for my presentations")](/images/stats/2017/jun/presentations.png "")
 
-I'm on-track again! :)
+A good progress this month and I have three more scheduled for next month. Go go go!
 
 ### Podcasts
 
@@ -88,33 +97,43 @@ my
 
 [![Amount of time spent listening to Podcasts this month](/images/stats/2017/jun/podcasts.jpg "Amount of time spent listening to Podcasts this month")](/images/stats/2017/jun/podcasts.jpg)
 
-I was the equivalent to **3 days and 9 hours** of podcast time (I tend
-to speed up all my podcasts, so I don't know how much time it took for
-real). It's **almost 15 hours more** than April.
+It was the equivalent to **1 day and 23 hours** of podcast time. It's
+a lot less than last month, but that's common, I listened to many
+audiobooks instead.
 
 I decided to keep a list of the Podcasts and their times as well.
 
 [![Amount of time spent listening to Podcasts, ordered by title](/images/stats/2017/jun/podcast_titles.jpg "Amount of time spent listening to Podcasts, ordered by title")](/images/stats/2017/jun/podcast_titles.jpg)
 
-Just for the record, this is an "all time list". :)
+Just for the record, this is an "all time list" and I'm tracking time
+instead of episode which makes short podcasts to not appear as "most
+listened" ones. I listen
+to
+[CBN podcasts](http://cbn.globoradio.globo.com/servicos/podcast/PODCAST.htm) almost
+every day, but they are just some minutes long.
 
 ### Hours working
 
-Here are my data from my time tracking
+Here are the data from my time tracking
 software, [Toggl](https://toggl.com):
 
 [![Hours working using Toggl](/images/stats/2017/jun/toggl-time-working.png "Hours working using Toggl")](/images/stats/2017/jun/toggl-time-working.png "")
 
-The above chart is just for my freelance and full-time job. There is
-another chart for my personal projects:
+The above chart is just for my freelance and full-time job. It's less
+than what I'm used to see but it's OK since I left my previous job and
+took some days "off" (not exactly off, but that's it).
+
+There is another chart for my personal projects:
 
 [![Hours working on personal projects using Toggl](/images/stats/2017/jun/toggl-time-personal-projects.png "Hours working on personal projects using Toggl")](/images/stats/2017/jun/toggl-time-working.png "")
 
-My data from [RescueTime](https://www.rescuetime.com/ref/1403570) is better than last month but not good enough yet:
+Almost **4x more than April**. :D
+
+Here is my data from [RescueTime](https://www.rescuetime.com/ref/1403570):
 
 [![Goal of productive hours on RescueTime](/images/stats/2017/jun/rescuetime-productivetime.png "Goal of productive hours on RescueTime")](/images/stats/2017/jun/rescuetime-productivetime.png "")
 
-Maybe next month I will reach the target.
+For the first time (I think...) I reached my goal! New job + deep work FTW.
 
 ### Physical activity
 
@@ -123,19 +142,17 @@ I'm using my Mi band data to calculate my average steps:
 [![Activity data for this month by Mi-Fit app](/images/stats/2017/jun/activity.jpg "Activity data for this month by Mi-Fit app")](/images/stats/2017/jun/activity.jpg "")
 
 According to this data, I can conclude that I had a daily average of
-**8.3k** steps (260/31).
+**10.6k** steps (318/30), more than next month (8.3k) \o/.
 
 And these are my steps each day:
 
 [![Amount of steps for this month](/images/stats/2017/jun/physical-activity-steps.png "Amount of steps for this month")](/images/stats/2017/jun/physical-activity-steps.png "")
 
-The peak was in a nice Sunday when I met some friends to chit-chat in a local park. It was just 3 of us talking and walking around the park.
-
-My max distance was **12.7km** walking in that same Sunday:
+My max distance was **11.7km**:
 
 [![Travelled distance this month](/images/stats/2017/jun/physical-activity-distance.png "Travelled distance this month")](/images/stats/2017/jun/physical-activity-distance.png "")
 
-I lost some kg this month. This is a good sign, I think.
+My weight is almost the same:
 
 [![My weight for this month](/images/stats/2017/jun/physical-activity-weight.png "My weight for this month")](/images/stats/2017/jun/physical-activity-weight.png "")
 
@@ -143,19 +160,21 @@ This month I slept less but with more deep sleep:
 
 [![Amount of sleep for this month](/images/stats/2017/jun/sleep.jpg "Amount of sleep for this month")](/images/stats/2017/jun/sleep.jpg "")
 
-I think this is a good sign as well. I want to sleep better, not sleep
-more.
+Less average sleeping and less deep sleeping for this month. It's not
+so much (around 10min avg for both), but I should keep an eye on it.
 
 ### TV Shows
 
-According to [tvshowtime](https://www.tvshowtime.com) I watched 39 episodes this month.
+According to [tvshowtime](https://www.tvshowtime.com) I watched 35 episodes this month.
 
 [![TV shows watched this month according to tvshowtime](/images/stats/2017/jun/tvshows.jpg "TV shows watched this month according to tvshowtime")](/images/stats/2017/jun/tvshows.jpg "")
 
-More than 18 of them is still part of our (my wife and me) **How I
-met your mother** marathon. The other episodes are a combination of **Better call saul**, **13 reasons why**, and **Sense 8**.
+It's a combination of **Better call saul**, two seasons of **Sense
+8**, and **Mr. Robot** (finally! :D).
 
-I spent almost 1 day of my life watching TV Series this month.
+It's a bit confusing to calculate how many days I spent on TV shows
+this month, but I now reached the mark of 1 month of time spend
+watching TV. =/
 
 ### Words written and errors
 
