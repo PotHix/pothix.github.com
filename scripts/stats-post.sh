@@ -18,3 +18,5 @@ fi
 
 cp -R static/images/stats/$YEAR/$MONTH_BEFORE static/images/stats/$YEAR/$MONTH_AFTER
 cp content/post/stats-$MONTH_BEFORE-$YEAR.md content/post/stats-$MONTH_AFTER-$YEAR.md
+
+sed -i 's@/'$MONTH_BEFORE'/@/'$MONTH_AFTER'/@g' content/post/stats-$MONTH_AFTER-$YEAR.md
