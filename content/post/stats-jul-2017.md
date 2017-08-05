@@ -2,6 +2,7 @@
 title = "Stats for Jul, 2017"
 date = "2017-08-05"
 tags = ["stats","personal","english"]
+draft = true
 +++
 
 Okay, here we go for the first full month working in my new job. :)
@@ -85,13 +86,31 @@ Editors are pretty much the same as last month's.
 + [Your ruby app end to end](https://pt.slideshare.net/CibeleFerreira8/tdc2017sp-trilha-ruby-sua-aplicacao-ruby-end-to-end) at [The Developers Conference](http://www.thedevelopersconference.com.br/tdc/2017/saopaulo/trilha-ruby)
 + **Deconstructing the web** as a Guest speaker at [ELO7 Tech-talks](http://carreira.elo7.com.br/engenharia/)
 
-And that was a huge step towards my goal:
+Six presentations in one month. Three of them were in the same day. This month
+is a personal record for me. 🎉
+
+It was also a huge step towards my goal:
 
 [![Burn down chart for my presentations](/images/stats/2017/jul/presentations.png "Burn down chart for my presentations")](/images/stats/2017/jul/presentations.png "")
 
 Hm... I kinda finished the yearly challenge in July. 😬
 
 Let's how far I can go! :D
+
+### Completed tasks
+
+I want to add the amount of tasks completed on my current task
+manager [Todoist](https://todoist.com)
+
+[![Amount of tasks completed this month](/images/stats/2017/jul/tasks-completed.png "Amount of tasks completed this month")](/images/stats/2017/jul/tasks-completed.png)
+
+**554 tasks** completed this month. :D
+
+I also included my streaks but I think I will have to improve my daily goals,
+they are too small for me.
+
+I have plans to create a better way to extract data from my Todoist account, but
+I will need some time to work on in.
 
 ### Podcasts
 
@@ -121,12 +140,14 @@ Here are the data from my time tracking software, [Toggl](https://toggl.com):
 [![Hours working using Toggl](/images/stats/2017/jul/toggl-time-working.png "Hours working using Toggl")](/images/stats/2017/jul/toggl-time-working.png "")
 
 The above chart is just for my freelance and full-time job. My full-time job is
-taking all my energy currently and there is not so much time spent as a
-freelancer this month.
+taking all my energy currently and there is not so much time spent working as a
+freelancer this month. The good part is that I'm working a lot less
+than [the previous months](/post/stats-may-2017/#working-hours) but I'm
+exhausted in the same way.
 
 There is another chart for my personal projects:
 
-[![Hours working on personal projects using Toggl](/images/stats/2017/jul/toggl-time-personal-projects.png "Hours working on personal projects using Toggl")](/images/stats/2017/jul/toggl-time-working.png "")
+[![Hours working on personal projects using Toggl](/images/stats/2017/jul/toggl-time-personal-projects.png "Hours working on personal projects using Toggl")](/images/stats/2017/jul/toggl-time-personal-projects.png "")
 
 It was really hard to work on personal projects this month. This 11 hours was my
 presentations. I did not consider the whole day speaking at TDC though. :)
@@ -148,13 +169,13 @@ I'm using my Mi band data to calculate my average steps:
 [![Activity data for this month by Mi-Fit app](/images/stats/2017/jul/activity.jpg "Activity data for this month by Mi-Fit app")](/images/stats/2017/jul/activity.jpg "")
 
 According to this data, I can conclude that I had a daily average of
-**10.6k** steps (318/30), a lot more than next month (it was **8.3k**) \o/.
+**8k** steps (249/31), it came back to my previous average.
 
 And these are my steps each day:
 
 [![Amount of steps for this month](/images/stats/2017/jul/physical-activity-steps.png "Amount of steps for this month")](/images/stats/2017/jul/physical-activity-steps.png "")
 
-My max distance was **11.7km**:
+My max distance was **8.3km**:
 
 [![Travelled distance this month](/images/stats/2017/jul/physical-activity-distance.png "Travelled distance this month")](/images/stats/2017/jul/physical-activity-distance.png "")
 
@@ -167,25 +188,28 @@ data for this month:
 
 [![Amount of sleep for this month](/images/stats/2017/jul/sleep.jpg "Amount of sleep for this month")](/images/stats/2017/jul/sleep.jpg "")
 
+A bit more average sleeping (**7h29m** for the last month) [and **a lot** more
+deep sleeping for this month \o/ (last month was **1h04**).
+
+I bought the Mi band 2, it may have some better monitoring. Let's see how it
+goes for the next month. :)
+
 There's a new feature comparing my stats to the user base:
 
 [![Stats about my sleep data](/images/stats/2017/jul/sleep_stats.jpg "Stats about my sleep data")](/images/stats/2017/jul/sleep_stats.jpg "")
 
-Less average sleeping and less deep sleeping for this month. It's not
-so much (around 10min avg for both), but I should keep an eye on it.
+I liked it. :)
 
 ### TV Shows
 
-According to [tvshowtime](https://www.tvshowtime.com) I watched 35 episodes this month.
+According to [tvshowtime](https://www.tvshowtime.com) I watched 24 episodes this month.
 
 [![TV shows watched this month according to tvshowtime](/images/stats/2017/jul/tvshows.jpg "TV shows watched this month according to tvshowtime")](/images/stats/2017/jul/tvshows.jpg "")
 
-It's a combination of **Better call saul**, two seasons of **Sense
-8**, and **Mr. Robot** (finally! :D).
+It's a combination of the two seasons of **Mr. Robot** (really recommended for
+programmers, BTW), **American Gods**, and **Game of Thrones**.
 
-It's a bit confusing to calculate how many days I spent on TV shows
-this month, but I now reached the mark of 1 month of time spent (or
-wasted, pick your side) watching TV. =/
+I spent **20 hours** watching TV this month.
 
 ### Words written and errors
 
@@ -200,16 +224,15 @@ Here are my stats for this month:
 + **1272** corrections made (**634** last month)
 + **10485** unique words (**10332** last month)
 
-More than 8k words written compared to last month but also almost 3x more corrections made :(.
-Unique words are less than next month but not so much.
+Since all my work conversations are in English, I have a lot more data here.
+Less unique words than last month (🤔) but almost 1/3 more words. The bad part
+is the corrections made, **2x more** than last month. =/
 
 ### Locations
 
-For some reason 1 country and 1 city is gone from my timeline, maybe I
-did some cleanup but didn't remember. In the other hand, the amount of
-places I visited increased by **55**! I'm not sure why that happened,
-since I did not traveled this month. It was probably some cleanup made
-by Google Maps folks.
+Again, for some reason 1 city is gone from my timeline, that's weird. In the
+other hand, the amount of places I visited increased by **14**. I'm not sure if
+I can trust on this data from Google Maps.
 
 [![General view of my locations data](/images/stats/2017/jul/location-general.png "General view of my locations data")](/images/stats/2017/jul/location-general.png "")
 
@@ -217,9 +240,16 @@ I also decided to add the amount of time spent in a vehicle this month:
 
 [![Location time and distance](/images/stats/2017/jul/location-time-distance.png "Location time and distance")](/images/stats/2017/jul/location-time-distance.png "")
 
-9 hours in the whole month! In contrast, I walked 111km, which is
-probably part of my daily dog walking / Gym routine. **Remote work
-FTW**!
+My presentations increased the time spent on transport, I think. I don't know if
+I can trust on the distance walking.
+
+But still, 16 hours in transport for the whole month! **Remote work FTW**!
+
+Here is a funny metric:
+
+[![Kms to the moon](/images/stats/2017/jul/location-moon.png "Kms to the moon")](/images/stats/2017/jul/location-moon.png "")
+
+The time I have to walk to "get to the moon", LOL.
 
 ### Expenses
 
@@ -227,15 +257,18 @@ My expenses for this month:
 
 [![Expenses by category this month](/images/stats/2017/jul/expenses.jpg "Expenses by category this month")](/images/stats/2017/jul/expenses.jpg "")
 
-This chart **represents all my income for this month**. As predicted in the last
-month, I did not receive anything because I was still waiting for the whole
-process to open a new company to be finished. It took almost two months to be
-completed but I think it's done and I can finally generate new invoices to
-receive my payment.
+This chart **represents all my income for this
+month**. [As predicted last month](/post/stats-jun-2017/), I did not receive
+anything because I was still waiting for the whole process to get my company
+ready to generate invoices. It took almost two months to complete but I think
+it's done and I can finally generate new invoices to receive my payment.
+
+Most part of my expenses goes to "Despesas do trabalho" (work expenses), since I
+had to pay a lot of taxes to get my own company ready.
 
 It was amazing to find that I still increased my total savings by **0.5%** (not
 so much compared to **5.2%** of the last month, but it's positive!) and reached
-**72.83%** of my goal. It happened thanks to my wife supporting our expenses. <3
+**72.83%** of my goal. It happened thanks to my wife supporting our expenses. ❤️
 
 
 ### Time to write this blog post
@@ -243,19 +276,19 @@ so much compared to **5.2%** of the last month, but it's positive!) and reached
 Some people are asking me about how much time it take to collect all
 the data and write the blog post, so I decided to add this metric.
 
-**It took 4 hours and 03 minutes to write this post**
+**It took 3 hours to write this post**
 
-Almost the double comparing to last month. As I had to change a lot of
-things on my investment portfolio, it took some time to organize
-everything again.
+1 hour less than last month but I will still work to improve this time.
 
 
 ### Conclusion
 
-I feel great this month. :)
+My new job is taking a lot of my energies. There is a lot of work to do and new
+stuff to learn. I'm doing my best to make the software I love since 2007 become
+a great platform to developers build their stuff on top of it.
 
-The new job is amazing and I can focus on my deep working routine to
-actually do real stuff. I'm still getting used to the new workflow and
-software I have to support, but it's being an awesome experience.
+I was not expecting to be so tired at the end of the day, I had to put some
+personal projects aside for some months.
 
-Hope to have more good news next month.
+Aside of that, the company and my co-workers are great, I'm really enjoying the
+experience of building a great product.
