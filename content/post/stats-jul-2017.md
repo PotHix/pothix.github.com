@@ -1,6 +1,6 @@
 +++
 title = "Stats for Jul, 2017"
-date = "2017-08-05"
+date = "2017-08-07"
 tags = ["stats","personal","english"]
 draft = true
 +++
