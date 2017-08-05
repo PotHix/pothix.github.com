@@ -103,7 +103,7 @@ tracking, [Toggl](https://toggl.com):
 The above chart is just for my freelance and full-time job. There is
 another chart for my personal projects:
 
-[![Hours working on personal projects using Toggl](/images/stats/2017/apr/toggl-time-personal-projects.png "Hours working on personal projects using Toggl")](/images/stats/2017/apr/toggl-time-working.png "")
+[![Hours working on personal projects using Toggl](/images/stats/2017/apr/toggl-time-personal-projects.png "Hours working on personal projects using Toggl")](/images/stats/2017/apr/toggl-time-personal-projects.png "")
 
 My data from [RescueTime](https://www.rescuetime.com/ref/1403570) is not so good for this month:
 

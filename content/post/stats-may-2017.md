@@ -98,7 +98,7 @@ software, [Toggl](https://toggl.com):
 The above chart is just for my freelance and full-time job. There is
 another chart for my personal projects:
 
-[![Hours working on personal projects using Toggl](/images/stats/2017/may/toggl-time-personal-projects.png "Hours working on personal projects using Toggl")](/images/stats/2017/may/toggl-time-working.png "")
+[![Hours working on personal projects using Toggl](/images/stats/2017/may/toggl-time-personal-projects.png "Hours working on personal projects using Toggl")](/images/stats/2017/may/toggl-time-personal-projects.png "")
 
 My data from [RescueTime](https://www.rescuetime.com/ref/1403570) is better than last month but not good enough yet:
 

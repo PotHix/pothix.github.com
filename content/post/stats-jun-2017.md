@@ -119,7 +119,7 @@ took some days "off" (not exactly off, but that's it).
 
 There is another chart for my personal projects:
 
-[![Hours working on personal projects using Toggl](/images/stats/2017/jun/toggl-time-personal-projects.png "Hours working on personal projects using Toggl")](/images/stats/2017/jun/toggl-time-working.png "")
+[![Hours working on personal projects using Toggl](/images/stats/2017/jun/toggl-time-personal-projects.png "Hours working on personal projects using Toggl")](/images/stats/2017/jun/toggl-time-personal-projects.png "")
 
 Almost **4x more than April**. :D
 
