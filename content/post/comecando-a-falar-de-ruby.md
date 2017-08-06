@@ -10,7 +10,7 @@ categories = "dev"
 +++
 
 Se você já conhece Ruby, ignore esse post! A idéia do post é mostrar
-um pouco da linauagem Ruby para pessoas que não conhecem nada sobre
+um pouco da linguagem Ruby para pessoas que não conhecem nada sobre
 ela.
 
 Eu, claro, acho muito interessante que muita gente por aí ainda não
