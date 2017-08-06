@@ -1,6 +1,9 @@
 +++
-title = "Rails Summit Latin Amerira (Day 2)"
-aliases=["2008/10/22/rails-summit-latin-amerira-day-2.html"]
+title = "Rails Summit Latin America (Day 2)"
+aliases=[
+  "2008/10/22/rails-summit-latin-amerira-day-2.html"
+  "post/rails-summit-latin-amerira-day-2"
+]
 date = "2008-10-22"
 tags = ["events","ruby","tech"]
 categories = "development"
