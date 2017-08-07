@@ -2,7 +2,6 @@
 title = "Stats for Jul, 2017"
 date = "2017-08-07"
 tags = ["stats","personal","english"]
-draft = true
 +++
 
 Okay, here we go for the first full month working in my new job. :)
@@ -179,12 +178,12 @@ My max distance was **8.3km**:
 
 [![Travelled distance this month](/images/stats/2017/jul/physical-activity-distance.png "Travelled distance this month")](/images/stats/2017/jul/physical-activity-distance.png "")
 
-My weight is almost the same:
+Some more weight but not so much:
 
 [![My weight for this month](/images/stats/2017/jul/physical-activity-weight.png "My weight for this month")](/images/stats/2017/jul/physical-activity-weight.png "")
 
-The MiFit app interface for the sleep data changed a little bit but here is my
-data for this month:
+MiFit app interface for sleep data changed a little bit but here is my data for
+this month:
 
 [![Amount of sleep for this month](/images/stats/2017/jul/sleep.jpg "Amount of sleep for this month")](/images/stats/2017/jul/sleep.jpg "")
 
