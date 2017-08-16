@@ -51,7 +51,7 @@ for(var i=0; i<uls.length; i++) {
 It means I have **1044 articles Unread** and **777 articles
 Read**. Comparing with my results from the last month (968 unread and
 708 read), I got around **8% more unread articles** and **9%
-more read articles**. 
+more read articles**.
 
 It improved a little bit compared to last month but the unread count is still
 growing which means I will probably never read many of those articles. =/
@@ -94,12 +94,11 @@ It was also a huge step towards my goal:
 
 Hm... I kinda finished the yearly challenge in July. 😬
 
-Let's how far I can go! :D
+Let's see how far I can go! :D
 
 ### Completed tasks
 
-I want to add the amount of tasks completed on my current task
-manager [Todoist](https://todoist.com)
+I want to add the amount of tasks completed on [Todoist](https://todoist.com).
 
 [![Amount of tasks completed this month](/images/stats/2017/jul/tasks-completed.png "Amount of tasks completed this month")](/images/stats/2017/jul/tasks-completed.png)
 
@@ -109,7 +108,7 @@ I also included my streaks but I think I will have to improve my daily goals,
 they are too small for me.
 
 I have plans to create a better way to extract data from my Todoist account, but
-I will need some time to work on in.
+I will need some time to work on it.
 
 ### Podcasts
 
@@ -187,7 +186,7 @@ this month:
 
 [![Amount of sleep for this month](/images/stats/2017/jul/sleep.jpg "Amount of sleep for this month")](/images/stats/2017/jul/sleep.jpg "")
 
-A bit more average sleeping (**7h29m** for the last month) [and **a lot** more
+A bit more average sleeping (**7h29m** for the last month) and **a lot** more
 deep sleeping for this month \o/ (last month was **1h04**).
 
 I bought the Mi band 2, it may have some better monitoring. Let's see how it
