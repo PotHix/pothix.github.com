@@ -143,6 +143,13 @@ freelancer this month. The good part is that I'm working a lot less
 than [the previous months](/post/stats-may-2017/#working-hours) but I'm
 exhausted in the same way.
 
+I've changed the way I'm tracking my projects and now I can see the difference
+between Deep Work and Shallow work in a better way:
+
+[![Deep vs Shallow work](/images/stats/2017/jul/toggl-time-working-deep-shallow.png "Deep vs Shallow work")](/images/stats/2017/jul/toggl-time-working-deep-shallow.png "")
+
+It's nice to see that I'm spending 1/3 of my time in Deep Work state. :)
+
 There is another chart for my personal projects:
 
 [![Hours working on personal projects using Toggl](/images/stats/2017/jul/toggl-time-personal-projects.png "Hours working on personal projects using Toggl")](/images/stats/2017/jul/toggl-time-personal-projects.png "")
