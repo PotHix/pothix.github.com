@@ -6,6 +6,7 @@ draft: true
 
 Data       | Palestra                                                     | Evento
 ---------- | ------------------------------------------------------------ | -----------------------------
+2017-08-31 | Uma requisição web do começo ao fim                          | Tech-hour Catho
 2017-08-19 | Desconstruindo a web: Entendendo uma requisição              | Interdevops
 2017-07-27 | Desconstruindo a web                                         | Tech-talks ELO7
 2017-07-22 | Sua aplicação Ruby end-to-end                                | Ruby track - TDC
