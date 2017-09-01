@@ -27,6 +27,7 @@ Data do evento | Palestra                                                     | 
 2017-01-14     | Desconstruindo a web                                         | São Paulo, Brasil | Impacta tecnologia
 2017-01-09     | [As escolhas do desenvolvedor](https://pbs.twimg.com/media/C1vn7x1XcAQKbxk.jpg:large) | São Paulo, Brasil | "Quero ser dev", Campus code
 2016-11-10     | GopherConBR 2016                                             | São Paulo, Brasil | Tech-talks Locaweb
+2016-09-24     | Desconstruindo a web                                         | São Paulo, Brasil | Rubyconf Brasil
 2016-03-24     | Mesos e Docker é-du-ARDA (ft. @rhruiz)                       | São Paulo, Brasil | Tech-talks Locaweb
 2016-01-30     | Apache Mesos - Abstraindo seus recursos                      | São Paulo, Brasil | Guru-SP
 2015-12-10     | Desconstruindo a web                                         | São Paulo, Brasil | Tech-talks Locaweb
@@ -41,6 +42,7 @@ Data do evento | Palestra                                                     | 
 2015-03-18     | [As escolhas do dosenvolvedor](https://www.flickr.com/photos/locaweb/17030159317/in/album-72157649789309524/) | Recife, Brasil | 17o Encontro Locaweb Recife
 2015-03-06     | As escolhas do dosenvolvedor                                 | Belo Horizonte, Brasil | Encontro Locaweb - Belo Horizonte
 2015-01-08     | Saruman e a alocação sábia de recursos                       | São Paulo, Brasil | Tech-talks Locaweb
+2013-08-30     | [How we used Ruby to build Locaweb's cloud](http://blog.locaweb.com.br/wp-content/uploads/2013/09/9661272889_efdc32ca3e_b.jpg) | São Paulo, Brasil | Rubyconf Brasil
 2013-08-22     | How we used Ruby to build Locaweb's cloud                    | São Paulo, Brasil | Tech-talks Locaweb
 2013-06-27     | HTML5, Desenvolvimento de jogos e o Skeleton-jigsaw          | São Paulo, Brasil | Tech-talks Locaweb
 2013-04-04     | Gitlab na Locaweb (ft. Diego Souza)                          | São Paulo, Brasil | Tech-talks Locaweb
