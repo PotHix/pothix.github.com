@@ -32,8 +32,14 @@ Data       | Palestra                                                     | Even
 2015-12-10 | Desconstruindo a web                                         | Tech-talks Locaweb
 2015-09-03 | As escolhas do desenvolvedor                                 | MacMobile Mackenzie
 2015-07-30 | OSCON 2015 (ft. Diego Souza)                                 | Tech-talks Locaweb
+2015-06-18 | [As escolhas do dosenvolvedor](https://en.eventials.com/locaweb/as-escolhas-do-desenvolvedor-com-willian-molinari-a-k-a-pothix/) | Encontro Locaweb - São Paulo
 2015-06-02 | As escolhas do dosenvolvedor                                 | Tech-talks Netshoes
 2015-05-21 | HTML5, Desenvolvimento de jogos e o Skeleton-jigsaw          | Semana acadêmica, FUNEC, Santa Fé do Sul
+2015-05-19 | [As escolhas do dosenvolvedor](https://www.flickr.com/photos/locaweb/17899298832/in/album-72157652754664218/) | Encontro Locaweb - Rio de Janeiro
+2015-05-07 | [As escolhas do dosenvolvedor](https://www.flickr.com/photos/locaweb/16984105713/in/album-72157652339858570/) | Encontro Locaweb - Porto Alegre
+2015-04-11 | [As escolhas do dosenvolvedor](https://www.flickr.com/photos/locaweb/17049929540/in/album-72157651709980410/) | Encontro Locaweb - Curitiba
+2015-03-18 | [As escolhas do dosenvolvedor](https://www.flickr.com/photos/locaweb/17030159317/in/album-72157649789309524/) | Encontro Locaweb - Recife
+2015-03-06 | As escolhas do dosenvolvedor                                 | Encontro Locaweb - Belo Horizonte
 2015-01-08 | Saruman e a alocação sábia de recursos                       | Tech-talks Locaweb
 2013-08-22 | How we used Ruby to build Locaweb's cloud                    | Tech-talks Locaweb
 2013-06-27 | HTML5, Desenvolvimento de jogos e o Skeleton-jigsaw          | Tech-talks Locaweb
