@@ -4,54 +4,54 @@ date: 2017-08-21T23:27:52-03:00
 draft: true
 ---
 
-Data       | Palestra                                                     | Evento
----------- | ------------------------------------------------------------ | -----------------------------
-2017-08-31 | Uma requisição web do começo ao fim                          | Tech-hour Catho
-2017-08-19 | Desconstruindo a web: Entendendo uma requisição              | Interdevops
-2017-07-27 | Desconstruindo a web                                         | Tech-talks ELO7
-2017-07-22 | Sua aplicação Ruby end-to-end                                | Ruby track - TDC
-2017-07-22 | Criando um snake game com um navegador e um editor apenas    | Trilha de Games - TDC
-2017-07-22 | Command line interfaces with Go                              | Go track - TDC
-2017-07-15 | [Criando um snake game com Ruby usando Gosu](https://www.youtube.com/watch?v=bcQaQVJkVbw) | Guru-SP
-2017-07-02 | Uma requisição web do começo ao fim                          | Virada Tecnológica
-2017-07-02 | [Painel sobre comunidades](https://pbs.twimg.com/media/DDarqhkW0AAuuJT.jpg:large) | [19o Encontro Locaweb](http://eventos.locaweb.com.br/eventos-anteriores/19o-encontro-locaweb-sao-paulo/)
-2017-06-24 | Desenvolvimento de jogos com HTML5                           | Impacta Tecnologia
-2017-05-19 | [Desconstruindo a web](http://cege.la/OSc9Yb)                | BioRitmo tech-talks.
-2017-05-11 | Como foi o [TDC Florianópolis](http://www.thedevelopersconference.com.br/tdc/2017/florianopolis/trilhas) | Tech-talks Locaweb
-2017-05-06 | [Uma aplicação Ruby end-to-end](https://www.eventials.com/Globalcode/sabado-a-tarde-tdconline-floripa-2017-stadium/) | [TDC Florianópolis](http://www.thedevelopersconference.com.br/tdc/2017/florianopolis/trilhas)
-2017-05-03 | [Mesos como ferramenta](https://www.eventials.com/Globalcode/quarta-a-tarde-tdconline-floripa-2017-stadium/) | [TDC Florianópolis](http://www.thedevelopersconference.com.br/tdc/2017/florianopolis/trilhas)
-2017-03-23 | Desconstruindo a web                                         | Tech-talks gaveteiros
-2017-03-17 | Como foi a FOSDEM 2017                                       | Tech-talks Locaweb
-2017-02-05 | [Open source behind a web request](https://fosdem.org/2017/schedule/event/desktops_open_source_behind_web_request/) | FOSDEM 2017
-2017-01-20 | Open source behind a web request                             | Tech-talks Campus code
-2017-01-14 | Desconstruindo a web                                         | Impacta tecnologia
-2017-01-09 | [As escolhas do desenvolvedor](https://pbs.twimg.com/media/C1vn7x1XcAQKbxk.jpg:large) | "Quero ser dev", Campus code
-2016-11-10 | GopherConBR 2016                                             | Tech-talks Locaweb
-2016-03-24 | Mesos e Docker é-du-ARDA (ft. @rhruiz)                       | Tech-talks Locaweb
-2016-01-30 | Apache Mesos - Abstraindo seus recursos                      | Guru-SP
-2015-12-10 | Desconstruindo a web                                         | Tech-talks Locaweb
-2015-09-03 | As escolhas do desenvolvedor                                 | MacMobile Mackenzie
-2015-07-30 | OSCON 2015 (ft. Diego Souza)                                 | Tech-talks Locaweb
-2015-06-18 | [As escolhas do dosenvolvedor](https://en.eventials.com/locaweb/as-escolhas-do-desenvolvedor-com-willian-molinari-a-k-a-pothix/) | Encontro Locaweb - São Paulo
-2015-06-02 | As escolhas do dosenvolvedor                                 | Tech-talks Netshoes
-2015-05-21 | HTML5, Desenvolvimento de jogos e o Skeleton-jigsaw          | Semana acadêmica, FUNEC, Santa Fé do Sul
-2015-05-19 | [As escolhas do dosenvolvedor](https://www.flickr.com/photos/locaweb/17899298832/in/album-72157652754664218/) | Encontro Locaweb - Rio de Janeiro
-2015-05-07 | [As escolhas do dosenvolvedor](https://www.flickr.com/photos/locaweb/16984105713/in/album-72157652339858570/) | Encontro Locaweb - Porto Alegre
-2015-04-11 | [As escolhas do dosenvolvedor](https://www.flickr.com/photos/locaweb/17049929540/in/album-72157651709980410/) | Encontro Locaweb - Curitiba
-2015-03-18 | [As escolhas do dosenvolvedor](https://www.flickr.com/photos/locaweb/17030159317/in/album-72157649789309524/) | Encontro Locaweb - Recife
-2015-03-06 | As escolhas do dosenvolvedor                                 | Encontro Locaweb - Belo Horizonte
-2015-01-08 | Saruman e a alocação sábia de recursos                       | Tech-talks Locaweb
-2013-08-22 | How we used Ruby to build Locaweb's cloud                    | Tech-talks Locaweb
-2013-06-27 | HTML5, Desenvolvimento de jogos e o Skeleton-jigsaw          | Tech-talks Locaweb
-2013-04-04 | Gitlab na Locaweb (ft. Diego Souza)                          | Tech-talks Locaweb
-2012-11-10 | Gamedev com HTML5 e o Skeleton Jigsaw (ft. Rafael Masoni)    | Guru-SP
-2012-11-10 | Game network programming (ft. Diego Souza)                   | Guru-SP
-2012-11-08 | Game network programming (ft. Diego Souza)                   | Tech-talks Locaweb
-2012-09-22 | [Ruby e XMPP](https://www.youtube.com/watch?v=HDsxF0bCInI)   | Guru-SP
-2012-09-20 | Simplestack - Simplesmente vários hypervisors (ft. @morellon)| Tech-talks Locaweb
-2012-08-12 | Locasberos - Apache CAS module (ft. Diego Souza)             | Tech-talks Locaweb
-2012-05-31 | OpenStack Summit - Melhores momentos                         | Tech-talks Locaweb
-2012-02-25 | Implementações paralelas                                     | Guru-SP
-2012-02-23 | Implementações paralelas                                     | Tech-talks Locaweb
-2010-03-13 | Porque Vim?                                                  | Guru-SP
-2009-04-04 | Rubylearning                                                 | Ruby + Rails no mundo real
+Data do evento | Palestra                                                     | Local             | Evento
+-------------- | ------------------------------------------------------------ | ----------------- | ------------------------
+2017-08-31     | Uma requisição web do começo ao fim                          | São Paulo, Brasil | Tech-hour Catho
+2017-08-19     | Desconstruindo a web: Entendendo uma requisição              | Bebedouro, Brasil | Interdevops
+2017-07-27     | Desconstruindo a web                                         | São Paulo, Brasil | Tech-talks ELO7
+2017-07-22     | Sua aplicação Ruby end-to-end                                | São Paulo, Brasil | Trilha de Ruby - TDC
+2017-07-22     | Criando um snake game com um navegador e um editor apenas    | São Paulo, Brasil | Trilha de Games - TDC
+2017-07-22     | Command line interfaces with Go                              | São Paulo, Brasil | Trilha de Go - TDC
+2017-07-15     | [Criando um snake game com Ruby usando Gosu](https://www.youtube.com/watch?v=bcQaQVJkVbw) | São Paulo, Brasil | Guru-SP
+2017-07-02     | Uma requisição web do começo ao fim                          | São Paulo, Brasil | Virada Tecnológica
+2017-07-02     | [Painel sobre comunidades](https://pbs.twimg.com/media/DDarqhkW0AAuuJT.jpg:large) | São Paulo, Brasil | [19o Encontro Locaweb](http://eventos.locaweb.com.br/eventos-anteriores/19o-encontro-locaweb-sao-paulo/)
+2017-06-24     | Desenvolvimento de jogos com HTML5                           | São Paulo, Brasil | Impacta Tecnologia
+2017-05-19     | [Desconstruindo a web](http://cege.la/OSc9Yb)                | São Paulo, Brasil | BioRitmo tech-talks.
+2017-05-11     | Como foi o [TDC Florianópolis](http://www.thedevelopersconference.com.br/tdc/2017/florianopolis/trilhas) | São Paulo, Brasil | Tech-talks Locaweb
+2017-05-06     | [Uma aplicação Ruby end-to-end](https://www.eventials.com/Globalcode/sabado-a-tarde-tdconline-floripa-2017-stadium/) | Florianópolis, Brasil | [TDC Florianópolis](http://www.thedevelopersconference.com.br/tdc/2017/florianopolis/trilhas)
+2017-05-03     | [Mesos como ferramenta](https://www.eventials.com/Globalcode/quarta-a-tarde-tdconline-floripa-2017-stadium/) | Florianópolis, Brasil | [TDC Florianópolis](http://www.thedevelopersconference.com.br/tdc/2017/florianopolis/trilhas)
+2017-03-23     | Desconstruindo a web                                         | São Paulo, Brasil | Tech-talks gaveteiros
+2017-03-17     | Como foi a FOSDEM 2017                                       | São Paulo, Brasil | Tech-talks Locaweb
+2017-02-05     | [Open source behind a web request](https://fosdem.org/2017/schedule/event/desktops_open_source_behind_web_request/) | Bruxelas, Belgica | FOSDEM 2017
+2017-01-20     | Open source behind a web request                             | São Paulo, Brasil | Tech-talks Campus code
+2017-01-14     | Desconstruindo a web                                         | São Paulo, Brasil | Impacta tecnologia
+2017-01-09     | [As escolhas do desenvolvedor](https://pbs.twimg.com/media/C1vn7x1XcAQKbxk.jpg:large) | São Paulo, Brasil | "Quero ser dev", Campus code
+2016-11-10     | GopherConBR 2016                                             | São Paulo, Brasil | Tech-talks Locaweb
+2016-03-24     | Mesos e Docker é-du-ARDA (ft. @rhruiz)                       | São Paulo, Brasil | Tech-talks Locaweb
+2016-01-30     | Apache Mesos - Abstraindo seus recursos                      | São Paulo, Brasil | Guru-SP
+2015-12-10     | Desconstruindo a web                                         | São Paulo, Brasil | Tech-talks Locaweb
+2015-09-03     | As escolhas do desenvolvedor                                 | São Paulo, Brasil | MacMobile Mackenzie
+2015-07-30     | OSCON 2015 (ft. Diego Souza)                                 | São Paulo, Brasil | Tech-talks Locaweb
+2015-06-18     | [As escolhas do dosenvolvedor](https://en.eventials.com/locaweb/as-escolhas-do-desenvolvedor-com-willian-molinari-a-k-a-pothix/) | São Paulo, Brasil | 17o Encontro Locaweb São Paulo
+2015-06-02     | As escolhas do dosenvolvedor                                 | São Paulo, Brasil | Tech-talks Netshoes
+2015-05-21     | HTML5, Desenvolvimento de jogos e o Skeleton-jigsaw          | Santa Fé do Sul, Brasil | Semana acadêmica, FUNEC
+2015-05-19     | [As escolhas do dosenvolvedor](https://www.flickr.com/photos/locaweb/17899298832/in/album-72157652754664218/) | Rio de Janeiro, Brasil | 17o Encontro Locaweb Rio de Janeiro
+2015-05-07     | [As escolhas do dosenvolvedor](https://www.flickr.com/photos/locaweb/16984105713/in/album-72157652339858570/) | Porto Alegre, Brasil | 17o Encontro Locaweb Porto Alegre
+2015-04-11     | [As escolhas do dosenvolvedor](https://www.flickr.com/photos/locaweb/17049929540/in/album-72157651709980410/) | Curitiba, Brasil | 17o Encontro Locaweb Curitiba
+2015-03-18     | [As escolhas do dosenvolvedor](https://www.flickr.com/photos/locaweb/17030159317/in/album-72157649789309524/) | Recife, Brasil | 17o Encontro Locaweb Recife
+2015-03-06     | As escolhas do dosenvolvedor                                 | Belo Horizonte, Brasil | Encontro Locaweb - Belo Horizonte
+2015-01-08     | Saruman e a alocação sábia de recursos                       | São Paulo, Brasil | Tech-talks Locaweb
+2013-08-22     | How we used Ruby to build Locaweb's cloud                    | São Paulo, Brasil | Tech-talks Locaweb
+2013-06-27     | HTML5, Desenvolvimento de jogos e o Skeleton-jigsaw          | São Paulo, Brasil | Tech-talks Locaweb
+2013-04-04     | Gitlab na Locaweb (ft. Diego Souza)                          | São Paulo, Brasil | Tech-talks Locaweb
+2012-11-10     | Gamedev com HTML5 e o Skeleton Jigsaw (ft. Rafael Masoni)    | São Paulo, Brasil | Guru-SP
+2012-11-10     | Game network programming (ft. Diego Souza)                   | São Paulo, Brasil | Guru-SP
+2012-11-08     | Game network programming (ft. Diego Souza)                   | São Paulo, Brasil | Tech-talks Locaweb
+2012-09-22     | [Ruby e XMPP](https://www.youtube.com/watch?v=HDsxF0bCInI)   | São Paulo, Brasil | Guru-SP
+2012-09-20     | Simplestack - Simplesmente vários hypervisors (ft. @morellon)| São Paulo, Brasil | Tech-talks Locaweb
+2012-08-12     | Locasberos - Apache CAS module (ft. Diego Souza)             | São Paulo, Brasil | Tech-talks Locaweb
+2012-05-31     | OpenStack Summit - Melhores momentos                         | São Paulo, Brasil | Tech-talks Locaweb
+2012-02-25     | Implementações paralelas                                     | São Paulo, Brasil | Guru-SP
+2012-02-23     | Implementações paralelas                                     | São Paulo, Brasil | Tech-talks Locaweb
+2010-03-13     | Porque Vim?                                                  | São Paulo, Brasil | Guru-SP
+2009-04-04     | Rubylearning                                                 | São Paulo, Brasil | Ruby + Rails no mundo real
