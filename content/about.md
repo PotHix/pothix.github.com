@@ -49,7 +49,7 @@ With these requirements in mind I started to pick some letters:
 + **t** he
 + **H** eaven
 
-Nice! It was cool to me, I think nobory else will use PotH as a Nickname... until I found a guy with PotH as surname when playing Gunbound (with a 56kbs connection... LOL). So, let's go to the plan B:
+Nice! It was cool to me, I think nobody else will use PotH as a Nickname... until I found a guy with PotH as surname when playing Gunbound (with a 56kbs connection... LOL). So, let's go to the plan B:
 
 + **ix** - from the *.nix. Linux ftw. :)
 So I got PotHix!! Yay!!
