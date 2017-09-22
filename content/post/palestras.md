@@ -6,7 +6,9 @@ draft: true
 
 Data do evento | Palestra                                                     | Local             | Evento
 -------------- | ------------------------------------------------------------ | ----------------- | ------------------------
-2017-08-31     | Uma requisição web do começo ao fim                          | São Paulo, Brasil | Tech-hour Catho
+2017-09-20     | Fazendo um snake game com Python 3 e PyGame para se divertir | São Paulo, Brasil | GruPy-SP
+2017-09-16     | Lightning talk: Brincando com API's e jq                     | São Paulo, Brasil | Guru-SP
+2017-08-31     | Uma requisição web do começo ao fim                          | Barueri, Brasil   | Tech-hour Catho
 2017-08-19     | Desconstruindo a web: Entendendo uma requisição              | Bebedouro, Brasil | Interdevops
 2017-07-27     | Desconstruindo a web                                         | São Paulo, Brasil | Tech-talks ELO7
 2017-07-22     | Sua aplicação Ruby end-to-end                                | São Paulo, Brasil | Trilha de Ruby - TDC
