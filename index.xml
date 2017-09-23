@@ -1442,6 +1442,15 @@ Here is a list of my current priorities:
     </item>
     
     <item>
+      <title>Presentations</title>
+      <link>http://pothix.com/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/talks/</guid>
+      <description>Date of the event Original presentation title City and country Event name / organizer     2017-09-20 Fazendo um snake game com Python 3 e PyGame para se divertir São Paulo, Brasil GruPy-SP   2017-09-16 Lightning talk: Brincando com API&amp;rsquo;s e jq São Paulo, Brasil Guru-SP   2017-08-31 Uma requisição web do começo ao fim Barueri, Brasil Tech-hour Catho   2017-08-19 Desconstruindo a web: Entendendo uma requisição Bebedouro, Brasil Interdevops   2017-07-27 Desconstruindo a web São Paulo, Brasil Tech-talks ELO7   2017-07-22 Sua aplicação Ruby end-to-end São Paulo, Brasil Trilha de Ruby - TDC   2017-07-22 Criando um snake game com um navegador e um editor apenas São Paulo, Brasil Trilha de Games - TDC   2017-07-22 Command line interfaces with Go São Paulo, Brasil Trilha de Go - TDC   2017-07-15 Criando um snake game com Ruby usando Gosu São Paulo, Brasil Guru-SP   2017-07-02 Uma requisição web do começo ao fim São Paulo, Brasil Virada Tecnológica   2017-07-02 Painel sobre comunidades São Paulo, Brasil 19o Encontro Locaweb   2017-06-24 Desenvolvimento de jogos com HTML5 São Paulo, Brasil Impacta Tecnologia   2017-05-19 Desconstruindo a web São Paulo, Brasil BioRitmo tech-talks.</description>
+    </item>
+    
+    <item>
       <title>Sobre mim</title>
       <link>http://pothix.com/about_ptbr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1458,9 +1467,8 @@ Meus contatos Quer entrar em contato? Você pode me encontrar em alguns lugares:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/speaking/</guid>
-      <description>Rubyconf 2013 The title for my talk was &#39;How we used Ruby to build Locaweb&#39;s cloud&#39;. I speak about the process of making the cloud provisioning application of Locaweb.&#34;
-Video Slides       FOSDEM 2017 - Belgium &#39;Open source behind a web request&#39;. This presentation goes through a web request using open source software to detail what is happening in each stage.
-Slides Video       Ruby no mundo real 2009 What is and how does Rubylearning.</description>
+      <description>Cloud + Ruby The title for my talk was &#39;How we used Ruby to build Locaweb&#39;s cloud&#39;. I spoke about it on Rubyconf 2013. It&#39;s about the cloud provisioning application we built at Locaweb.&#34;
+Video Slides       Open source of a web request &#39;Open source behind a web request&#39;. Presented at FOSDEM (Belgium), it goes through a web request using open source software to detail what is happening in each stage.</description>
     </item>
     
     <item>
@@ -1469,9 +1477,9 @@ Slides Video       Ruby no mundo real 2009 What is and how does Rubylearning.</d
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/writing/</guid>
-      <description>Desconstruindo a web &#39;Desconstruindo a web&#39;. Wrote by me, this book shows the path of a web request and its components.
-Book&#39;s website       Ruby on Rails - coloque sua aplicação web nos trilhos I did the technical review of this pt-BR book about Ruby on Rails, written by Vinicius Baggio Fuentes
-Buy online       HTML5 Game Development HOTSHOT I did the technical review of this book on HTML5 game development using CreateJS.</description>
+      <description>Desconstruindo a web Wrote by me, this book shows the path of a web request and its components.
+Book&#39;s website       Web semantica I was one of the reviewers for this book, written by Diego Eis
+Casa do codigo       Ruby on Rails - coloque sua aplicação web nos trilhos I did the technical review of this pt-BR book about Ruby on Rails, written by Vinicius Baggio Fuentes</description>
     </item>
     
   </channel>
