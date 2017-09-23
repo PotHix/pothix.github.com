@@ -20,12 +20,12 @@ Here is a list of my current priorities:
 
 + Improving [Doist](https://developer.todoist.com) [APIs](https://developer.twistapp.com)
 + Studying the basics of motorcycle mechanics in a hands-on course in my city
-+ Speaking whenever I have the time. My goal is to speak 19 times this year to
-  surpass the 18 [Milhouse](http://milhouseonsoftware.com/) talks last year
++ Speaking whenever I have the time. My goal for this year was to
+  speak 19 times to surpass the
+  18 [Milhouse](http://milhouseonsoftware.com/) talks last
+  year. Already did it and now I'm trying to have more than 25 talks.
 + Reviewing a book about [Rust](https://www.rust-lang.org/)
-+ Translating [my book](https://desconstruindoaweb.com.br) to English
-+ Write posts to this blog
-+ Learning more about [Elixir language](http://elixir-lang.org/) whenever possible
++ Trying to translate [my book](https://desconstruindoaweb.com.br) to English (in my spare time, rare nowadays)
 + Improving my Python skills
 + Collecting data about me to be able to [post about it monthly](/tags/stats)
 
