@@ -4,8 +4,8 @@
     <div id="primary" class="content-area">
         <main id="main" class="site-main" role="main">
             <header class="page-header page-header--portfolio">
-                <h1 class='blog-title'><span>{{ .Params.title }}</span></h1>
-                <p class='blog-subtitle'>{{ .Params.subtitle }}</p>
+                <h1 class="blog-title"><span>{{ .Params.title }}</span></h1>
+                <p class="blog-subtitle">{{ .Params.subtitle }}</p>
             </header>
 
             <ul class="portfolio-filter">
@@ -13,6 +13,8 @@
                 <li class="button filter" data-filter="{{ $cat }}">{{ $cat }}</li>
                 {{ end }}
             </ul>
+
+            <center><p>{{ .Params.intro_text }} <a href="{{ .Params.intro_link }}">{{ .Params.intro_link_text }}</a></p></center>
 
             <section id="portfolio-filter" class="grids portfolio-items">
                 {{ .Content }}

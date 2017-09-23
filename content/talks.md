@@ -1,10 +1,11 @@
----
-title: "Palestras"
-date: 2017-08-21T23:27:52-03:00
-draft: true
----
++++
+type = "page"
+layout = "title_subtitle"
+title = "Presentations"
+subtitle = "A list of all my talks by date"
++++
 
-Data do evento | Palestra                                                     | Local             | Evento
+Date of the event  | Original presentation title                                  | City and country  | Event name / organizer
 -------------- | ------------------------------------------------------------ | ----------------- | ------------------------
 2017-09-20     | Fazendo um snake game com Python 3 e PyGame para se divertir | São Paulo, Brasil | GruPy-SP
 2017-09-16     | Lightning talk: Brincando com API's e jq                     | São Paulo, Brasil | Guru-SP
