@@ -53,8 +53,8 @@ Date of the event  | Original presentation title                                
 2012-11-10     | Game network programming (ft. Diego Souza)                   | São Paulo, Brasil | Guru-SP
 2012-11-08     | Game network programming (ft. Diego Souza)                   | São Paulo, Brasil | Tech-talks Locaweb
 2012-09-22     | [Ruby e XMPP](https://www.youtube.com/watch?v=HDsxF0bCInI)   | São Paulo, Brasil | Guru-SP
-2012-09-20     | Simplestack - Simplesmente vários hypervisors (ft. @morellon)| São Paulo, Brasil | Tech-talks Locaweb
-2012-08-12     | Locasberos - Apache CAS module (ft. Diego Souza)             | São Paulo, Brasil | Tech-talks Locaweb
+2012-09-20     | [Simplestack - Simplesmente vários hypervisors (ft. @morellon)](/images/speaking/simplestack.jpg) | São Paulo, Brasil | Tech-talks Locaweb
+2012-08-12     | [Locasberos - Apache CAS module (ft. Diego Souza)](http://www.slideshare.net/PotHix/locasberos) | São Paulo, Brasil | Tech-talks Locaweb
 2012-05-31     | OpenStack Summit - Melhores momentos                         | São Paulo, Brasil | Tech-talks Locaweb
 2012-02-25     | Implementações paralelas                                     | São Paulo, Brasil | Guru-SP
 2012-02-23     | Implementações paralelas                                     | São Paulo, Brasil | Tech-talks Locaweb
