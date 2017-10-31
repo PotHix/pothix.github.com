@@ -5,8 +5,10 @@ title = "Presentations"
 subtitle = "A list of all my talks by date"
 +++
 
-Date of the event  | Original presentation title                                  | City and country  | Event name / organizer
+Date of the event  | Original presentation title                              | City and country  | Event name / organizer
 -------------- | ------------------------------------------------------------ | ----------------- | ------------------------
+2017-11-01     | Desconstruindo a web                                         | São Paulo, Brasil | Tech-talks, Codus
+2017-10-09     | Snake game using Python and PyGame                           | Porto, Portugal   | Porto Python
 2017-09-20     | Fazendo um snake game com Python 3 e PyGame para se divertir | São Paulo, Brasil | GruPy-SP
 2017-09-16     | Lightning talk: Brincando com API's e jq                     | São Paulo, Brasil | Guru-SP
 2017-08-31     | Uma requisição web do começo ao fim                          | Barueri, Brasil   | Tech-hour Catho
