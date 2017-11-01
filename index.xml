@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <lastBuildDate>Mon, 30 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://pothix.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Stats for sep, 2017</title>
+      <link>http://pothix.com/post/stats-sep-2017/</link>
+      <pubDate>Tue, 31 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/stats-sep-2017/</guid>
+      <description>It&amp;rsquo;s already the end of October and I could not manage to post my stats from September but I have a good reason for that (which you will read about in the next month 😉).
+Books 
+What Doesn’t Kill Us: How Freezing Water, Extreme Altitude and Environmental Conditioning Will Renew Our Lost Evolutionary Strength is a book that describes what the human body can do if trained for it.</description>
+    </item>
     
     <item>
       <title>PotHix ❤ Doist</title>
@@ -1458,7 +1469,7 @@ Here is a list of my current priorities:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/talks/</guid>
-      <description>Date of the event Original presentation title City and country Event name / organizer     2017-09-20 Fazendo um snake game com Python 3 e PyGame para se divertir São Paulo, Brasil GruPy-SP   2017-09-16 Lightning talk: Brincando com API&amp;rsquo;s e jq São Paulo, Brasil Guru-SP   2017-08-31 Uma requisição web do começo ao fim Barueri, Brasil Tech-hour Catho   2017-08-19 Desconstruindo a web: Entendendo uma requisição Bebedouro, Brasil Interdevops   2017-07-27 Desconstruindo a web São Paulo, Brasil Tech-talks ELO7   2017-07-22 Sua aplicação Ruby end-to-end São Paulo, Brasil Trilha de Ruby - TDC   2017-07-22 Criando um snake game com um navegador e um editor apenas São Paulo, Brasil Trilha de Games - TDC   2017-07-22 Command line interfaces with Go São Paulo, Brasil Trilha de Go - TDC   2017-07-15 Criando um snake game com Ruby usando Gosu São Paulo, Brasil Guru-SP   2017-07-02 Uma requisição web do começo ao fim São Paulo, Brasil Virada Tecnológica   2017-07-02 Painel sobre comunidades São Paulo, Brasil 19o Encontro Locaweb   2017-06-24 Desenvolvimento de jogos com HTML5 São Paulo, Brasil Impacta Tecnologia   2017-05-19 Desconstruindo a web São Paulo, Brasil BioRitmo tech-talks.</description>
+      <description>Date of the event Original presentation title City and country Event name / organizer     2017-11-01 Desconstruindo a web São Paulo, Brasil Tech-talks, Codus   2017-10-09 Snake game using Python and PyGame Porto, Portugal Porto Python   2017-09-20 Fazendo um snake game com Python 3 e PyGame para se divertir São Paulo, Brasil GruPy-SP   2017-09-16 Lightning talk: Brincando com API&amp;rsquo;s e jq São Paulo, Brasil Guru-SP   2017-08-31 Uma requisição web do começo ao fim Barueri, Brasil Tech-hour Catho   2017-08-19 Desconstruindo a web: Entendendo uma requisição Bebedouro, Brasil Interdevops   2017-07-27 Desconstruindo a web São Paulo, Brasil Tech-talks ELO7   2017-07-22 Sua aplicação Ruby end-to-end São Paulo, Brasil Trilha de Ruby - TDC   2017-07-22 Criando um snake game com um navegador e um editor apenas São Paulo, Brasil Trilha de Games - TDC   2017-07-22 Command line interfaces with Go São Paulo, Brasil Trilha de Go - TDC   2017-07-15 Criando um snake game com Ruby usando Gosu São Paulo, Brasil Guru-SP   2017-07-02 Uma requisição web do começo ao fim São Paulo, Brasil Virada Tecnológica   2017-07-02 Painel sobre comunidades São Paulo, Brasil 19o Encontro Locaweb   2017-06-24 Desenvolvimento de jogos com HTML5 São Paulo, Brasil Impacta Tecnologia   2017-05-19 Desconstruindo a web São Paulo, Brasil BioRitmo tech-talks.</description>
     </item>
     
     <item>
