@@ -1,11 +1,10 @@
 +++
 title = "Stats for sep, 2017"
-date = "2017-09-07"
+date = "2017-10-31"
 tags = ["stats","personal","english"]
-draft = true
 +++
 
-It's almost the end of October and I could not manage to post my stats
+It's already the end of October and I could not manage to post my stats
 from September but I have a good reason for that (which you will read
 about in the next month 😉).
 
@@ -48,8 +47,9 @@ I did not take so much time for articles reading this month, so the numbers
 increased less than they use to. It was also affected by the time it took to
 generate the numbers last month.
 
-Another correlation with this one may be related to the fact that I'm only
-reading my Feedly once a week instead of every day. :)
+Another correlation with this one may be related to the fact that I'm
+only reading my Feedly once a week instead of every day, that helps a
+lot to not add many articles to Pocket. :)
 
 ### Coding
 
@@ -71,8 +71,8 @@ Nothing new to editors. I still use Vim, but Emacs is the leader by far.
 
 ### Speaking
 
-+ [Desconstruindo a web: Entendendo uma requisição](https://www.flickr.com/photos/136449291@N08/36751193061/in/album-72157684637490782/) at [Interdevops](https://interdevops.com.br)
-+ **Uma requisição web do começo ao fim** at **Tech-hour Catho**.
++ [Fazendo um snake game com Python 3 e PyGame para se divertir](https://www.meetup.com/Grupy-SP/events/243214891/) at [GruPy-SP](https://www.meetup.com/Grupy-SP/)
++ [Lightning talk: Brincando com API's e jq](https://youtu.be/EXwT8gM-YfU?t=12823) at [Guru-SP](https://gurusp.org)
 
 This was an ordinary month regarding presentations, but still following what I
 had defined for my goal:
@@ -80,7 +80,7 @@ had defined for my goal:
 [![Burn down chart for my presentations](/images/stats/2017/sep/presentations.png "Burn down chart for my presentations")](/images/stats/2017/sep/presentations.png "")
 
 The goal was reached this month! I will try to keep the same rhythm and maybe
-speak in different countries. :)
+speak in different countries in October. :)
 
 ### Completed tasks
 
@@ -88,10 +88,7 @@ This is the amount of tasks completed on [Todoist](https://todoist.com).
 
 [![Amount of tasks completed this month](/images/stats/2017/sep/tasks-completed.png "Amount of tasks completed this month")](/images/stats/2017/sep/tasks-completed.png)
 
-**534 tasks** completed this month (**20 less** than last month).
-
-I still have plans to create a better way to extract data from my Todoist
-account, just need some spare time. Not so easy these days.
+**365 tasks** completed this month (**169 less** than last month 😞).
 
 ### Podcasts
 
@@ -100,9 +97,9 @@ Here is my
 
 [![Amount of time spent listening to Podcasts this month](/images/stats/2017/sep/podcasts.jpg "Amount of time spent listening to Podcasts this month")](/images/stats/2017/sep/podcasts.jpg)
 
-**1 day and 16 hours** of podcast time, almost 1 day less than last month. This
-is a trend I've been following, when I read (or listen to) more books I consume
-less podcasts. :)
+**1 day and 16 hours** of podcast time, almost 1 day more than last month. As I
+said in the previous month, when I listen to less audiobooks I usually have more
+time spent on podcasts. 😄
 
 I decided to keep a list of the Podcasts and their times as well.
 
@@ -120,41 +117,34 @@ Here are the data from my time tracking software, [Toggl](https://toggl.com):
 
 [![Hours working using Toggl](/images/stats/2017/sep/toggl-time-working.png "Hours working using Toggl")](/images/stats/2017/sep/toggl-time-working.png "")
 
-The above chart is just for my freelance and full-time job. It's really hard to
-work as a freelancer now, my full-time job is taking all my energy, so most part
-of it is dedicated to it.
+The above chart is just for my freelance and full-time job. Currently it's just
+my full-time job, because there are some stuff preventing me to work on my
+freelance.
 
 Here is the difference between shallow and deep work regarding my full-time job:
 
 [![Deep vs Shallow work](/images/stats/2017/sep/toggl-time-working-deep-shallow.png "Deep vs Shallow work")](/images/stats/2017/sep/toggl-time-working-deep-shallow.png "")
 
-It was less deep work than last month (13 hours less) but it's good to know I'm
+It was less deep work than last month (10 hours less) but it's good to know I'm
 still spending around 1/3 of my time in Deep Work state. I'm also tracking time
-in meetings, it was almost one day in meetings this month. I did not track every
-single meeting because it would be too much work, but it was basically related
-to:
-
-+ 1-1 meeting
-+ Weekly status (30 min each)
-+ Meeting with other members of the team
-+ Useful meetings with other teams and thirty parties
-
-I hate useless meetings but all of these were useful and needed. :)
+in meetings and it was half of the time spend last month. 😁
 
 There is another chart for my personal projects:
 
 [![Hours working on personal projects using Toggl](/images/stats/2017/sep/toggl-time-personal-projects.png "Hours working on personal projects using Toggl")](/images/stats/2017/sep/toggl-time-personal-projects.png "")
 
-Even less than last month, it makes me sad :(.
+A little bit more personal projects but they are all related to my
+presentations. :)
 
 Here is my data from [RescueTime](https://www.rescuetime.com/ref/1403570):
 
 [![Goal of productive hours on RescueTime](/images/stats/2017/sep/rescuetime-productivetime.png "Goal of productive hours on RescueTime")](/images/stats/2017/sep/rescuetime-productivetime.png "")
 
-Unfortunately I had a problem with Rescue time this month and my data
-is not being collected properly. 😢 But there is not just bad news for
-this case! I now have a partnership with rescuetime and have access to
-a premium account. Thanks rescuetime team! 😁
+Unfortunately I had a problem with Rescue time this month (and probably next
+month too, we're debugging it) and my data is not being collected properly. 😢
+
+But there is not just bad news for this case! I now have a partnership with
+rescuetime and have access to a premium account. Thanks rescuetime team! 😁
 
 ### Physical activity
 
@@ -162,9 +152,8 @@ I'm using my Mi band data to calculate my average steps:
 
 [![Activity data for this month by Mi-Fit app](/images/stats/2017/sep/activity.jpg "Activity data for this month by Mi-Fit app")](/images/stats/2017/sep/activity.jpg "")
 
-According to this data, I can conclude that I had a daily average of **6.6k**
-steps (207/31). It was almost 50k less steps than last month. I was not feeling
-good some days so I had to skip the gym, maybe this is the cause of that.
+According to this data, I can conclude that I had a daily average of **8.6k**
+steps (258/30). It was almost 50k more steps than last month, which is really good.
 
 And these are my steps each day:
 
@@ -174,44 +163,25 @@ My max distance was **9.2km**:
 
 [![Travelled distance this month](/images/stats/2017/sep/physical-activity-distance.png "Travelled distance this month")](/images/stats/2017/sep/physical-activity-distance.png "")
 
-My weight is stable:
-
-[![My weight for this month](/images/stats/2017/sep/physical-activity-weight.png "My weight for this month")](/images/stats/2017/sep/physical-activity-weight.png "")
-
-And here is some data on my current weight:
-
-[![Data on my weight for this month](/images/stats/2017/sep/physical-activity-weight-data.jpg "Data on my weight for this month")](/images/stats/2017/sep/physical-activity-weight-data.jpg "")
-
-MiFit app interface for sleep data changed a little bit but here is my data for
-this month:
+Here is my sleep data for this month:
 
 [![Amount of sleep for this month](/images/stats/2017/sep/sleep.jpg "Amount of sleep for this month")](/images/stats/2017/sep/sleep.jpg "")
 
-A bit more average sleeping (**7h32m** for the last month) and more deep
-sleeping for this month \o/ (last month was **1h32**). It's probably not related
-(at least not in particular) to the change of bands (Mi band -> Mi band 2),
-because I'm using it for two months now and my deep sleeping improved for the
-second month.
-
-Here is my stats comparing to the whole Mi band user base:
-
-[![Stats about my sleep data](/images/stats/2017/sep/sleep_stats.jpg "Stats about my sleep data")](/images/stats/2017/sep/sleep_stats.jpg "")
-
-Not so good, I think. 😅
-
+Less average sleeping (**7h49m** for the last month) and also less deep
+sleeping for this month (last month was **1h48**).
 
 ### TV Shows
 
-According to [tvshowtime](https://www.tvshowtime.com) I watched 24 episodes this month.
+According to [tvshowtime](https://www.tvshowtime.com) I watched 50 episodes this
+month! It's a personal record but I'm not sure if this is good or bad.
 
 [![TV shows watched this month according to tvshowtime](/images/stats/2017/sep/tvshows.jpg "TV shows watched this month according to tvshowtime")](/images/stats/2017/sep/tvshows.jpg "")
 
-It's a combination of **Westworld** (recommended, BTW), **The defenders**, **The
-crown**, and **Game of Thrones**.
+It's a combination of **The defenders**, **Marvel agents of shield (season 4)**
+and **Orphan Black (seasons 1-3)**.
 
-Note that I had some delay to get this screenshot and there are some numbers from
-September already (blue arrow). With that said, I think I spent around **24
-hours** watching TV this month.
+Unfortunately I got the results too late and I can't calculate how many hours I
+spent watching TV this month. 😢
 
 ### Words written and errors
 
@@ -222,19 +192,20 @@ while.
 
 Here are my stats for this month:
 
-+ **69493** words written (**51018** last month)
-+ **1881** corrections made (**1272** last month)
-+ **13925** unique words (**10332** last month)
++ **73969** words written (**69493** last month)
++ **1826** corrections made (**1881** last month)
++ **17139** unique words (**13925** last month)
 
-The numbers keep rising because all of my work conversations are in English,
-that's nice. I had **more than 20% more words written** , around **30% more unique
-words**, but also **more than 34% more corrections made**.
+The numbers keep rising because all of my work conversations are in English and
+that's nice. I had **more than 6% more words written** , around **19% more
+unique words** and **3% less corrections made** (!!).
+
+It was great to see less corrections made this month, it seems I'm improving! 😄
 
 ### Locations
 
-This time I have one additional city in the list because I traveled to bebedouro
-to speak at [interdevops](https://interdevops.com.br). It also helped to
-increase the list of places visited by **9**.
+For some reason, there is 1 city less than next month. I really don't know how
+Google calculates that. 😞 But visited 11 places this month.
 
 [![General view of my locations data](/images/stats/2017/sep/location-general.png "General view of my locations data")](/images/stats/2017/sep/location-general.png "")
 
@@ -242,9 +213,7 @@ Here is the time spend in vehicles:
 
 [![Location time and distance](/images/stats/2017/sep/location-time-distance.png "Location time and distance")](/images/stats/2017/sep/location-time-distance.png "")
 
-I know I spent 9 hours traveling to speak at interdevops and 3 hours to speak at Catho, so 12 from these 14 hours are related to my presentations. Pretty good. Just want to say it again: **Remote work FTW**!
-
-And as always, the funny metric:
+Just 10 hours spent in transport, that's great. :)
 
 [![Kms to the moon](/images/stats/2017/sep/location-moon.png "Kms to the moon")](/images/stats/2017/sep/location-moon.png "")
 
@@ -257,19 +226,18 @@ My expenses for this month:
 [![Expenses by category this month](/images/stats/2017/sep/expenses.jpg "Expenses by category this month")](/images/stats/2017/sep/expenses.jpg "")
 
 This chart **represents all my income for this month**. The number is not wrong,
-I did not receive any money this
-month. [The problem I described last month](/post/stats-jul-2017) and
-the [month before it](/post/stats-jun-2017/) is not solved yet, for this reason,
-there's no money coming yet. :(
+I did not receive any money this month. The problem I described in
+the
+[last](/post/stats-jul-2017) [three](/post/stats-jun-2017/) [months](/post/stats-aug-2017) still
+persists, for this reason, there's no money coming yet. :(
 
-My expenses are normal again but I'm not paying anything, my wife is paying all
-of our bills until my situation gets back to normal. I'm kinda stressed with
-this situation but it's great to have someone to rely on when things like these
-happen. ❤️
+So... the situation is the same... My wife is paying all of our bills until my
+situation gets back to normal. I'm stressed with this situation but it's great
+to have someone to rely on when things like these happen. ❤️
 
-Well, thanks to the volatile economy in Brazil, my total savings increased by
-**1.9%** and I did not add any money to it (because I'm not receiving
-anything...). Now I reached **74.23%** of my goal.
+Unfortunately I did not checked all my finances in the beginning of the month,
+so I can't tell how it was. I will keep the same value as the last month, so I
+still reached **74.23%** of my goal.
 
 
 ### Time to write this blog post
@@ -277,19 +245,16 @@ anything...). Now I reached **74.23%** of my goal.
 Some people are asking me about how much time it take to collect all
 the data and write the blog post, so I decided to add this metric.
 
-**It took 3 hours and 52 minutes to write this post**
+**It took 3 hours and 16 minutes to write this post**
 
-1 hour more than last month, I need to improve it for next month.
+I wrote part of it during an airplane travel so its approximate.
 
 
 ### Conclusion
 
-Excluding the fact of not being able to receive my payment because of
-bureaucracy that has nothing to do with what I do, this month was good. I'm
-integrated to the team and getting used to the code and the team way of work.
+Again... excluding the fact of not being able to receive my payment because of
+bureaucracy that has nothing to do with what I do, this month was good. I had to
+rush to get everything setup for my travel in the next month but it was cool.
 
-It's really nice to work on products you love and also see people using it and
-giving nice feedback. I was missing that for a long time. :)
-
-The next step is try to improve my productivity for the next month. Let's see
-how it goes.
+I'm already aware that the next month will be really different because I will
+take 1 week off and will work from different locations. Let's see how it goes.
