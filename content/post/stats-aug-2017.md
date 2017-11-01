@@ -1,6 +1,6 @@
 +++
 title = "Stats for Aug, 2017"
-date = "2017-08-07"
+date = "2017-09-07"
 tags = ["stats","personal","english"]
 +++
 
