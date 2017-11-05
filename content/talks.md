@@ -8,7 +8,7 @@ subtitle = "A list of all my talks by date"
 Date of the event  | Original presentation title                              | City and country  | Event name / organizer
 -------------- | ------------------------------------------------------------ | ----------------- | ------------------------
 2017-11-01     | Desconstruindo a web                                         | São Paulo, Brasil | Tech-talks, Codus
-2017-10-09     | Snake game using Python and PyGame                           | Porto, Portugal   | Porto Python
+2017-10-09     | Snake game using Python and PyGame                           | Porto, Portugal   | [Porto Python](https://www.meetup.com/pyporto/events/243824670/)
 2017-09-20     | Fazendo um snake game com Python 3 e PyGame para se divertir | São Paulo, Brasil | GruPy-SP
 2017-09-16     | Lightning talk: Brincando com API's e jq                     | São Paulo, Brasil | Guru-SP
 2017-08-31     | Uma requisição web do começo ao fim                          | Barueri, Brasil   | Tech-hour Catho
@@ -19,7 +19,7 @@ Date of the event  | Original presentation title                              | 
 2017-07-22     | Command line interfaces with Go                              | São Paulo, Brasil | Trilha de Go - TDC
 2017-07-15     | [Criando um snake game com Ruby usando Gosu](https://www.youtube.com/watch?v=bcQaQVJkVbw) | São Paulo, Brasil | Guru-SP
 2017-07-02     | Uma requisição web do começo ao fim                          | São Paulo, Brasil | Virada Tecnológica
-2017-07-02     | [Painel sobre comunidades](https://pbs.twimg.com/media/DDarqhkW0AAuuJT.jpg:large) | São Paulo, Brasil | [19o Encontro Locaweb](http://eventos.locaweb.com.br/eventos-anteriores/19o-encontro-locaweb-sao-paulo/)
+2017-06-28     | [Painel sobre comunidades](https://pbs.twimg.com/media/DDarqhkW0AAuuJT.jpg:large) | São Paulo, Brasil | [19o Encontro Locaweb](http://eventos.locaweb.com.br/eventos-anteriores/19o-encontro-locaweb-sao-paulo/)
 2017-06-24     | Desenvolvimento de jogos com HTML5                           | São Paulo, Brasil | Impacta Tecnologia
 2017-05-19     | [Desconstruindo a web](http://cege.la/OSc9Yb)                | São Paulo, Brasil | BioRitmo tech-talks.
 2017-05-11     | Como foi o [TDC Florianópolis](http://www.thedevelopersconference.com.br/tdc/2017/florianopolis/trilhas) | São Paulo, Brasil | Tech-talks Locaweb
