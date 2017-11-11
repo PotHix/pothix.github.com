@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/pothix
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://pothix.com
+  * I am pothix (https://keybase.io/pothix) on keybase.
+  * I have a public key ASDS2rmVcEksSd9MvZipGYftVdtOrxH6g0EiNrMxNRmFIQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d2dab99570492c49df4cbd98a91987ed55db4eaf11fa83412236b331351985210a",
+      "host": "keybase.io",
+      "kid": "0120d2dab99570492c49df4cbd98a91987ed55db4eaf11fa83412236b331351985210a",
+      "uid": "06415c9d573fee52efd9b879cf0b8619",
+      "username": "pothix"
+    },
+    "merkle_root": {
+      "ctime": 1510430627,
+      "hash": "62ca1d6a60cc93cec8a1ab2fcd93ff36e9f6f292e74b95921def590cf01e508e58c59104974b18f301bf1abd0fbd8cb11b662e6d976ae87ae2a350c9a22814a8",
+      "hash_meta": "8fb86b5cd6cc1877d9d5222c128d3e133b010d081e5bf230e575ff25c6ee3cb1",
+      "seqno": 1694536
+    },
+    "service": {
+      "hostname": "pothix.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.35"
+  },
+  "ctime": 1510430688,
+  "expire_in": 504576000,
+  "prev": "3360a84c1e7ef1d7978ca3f32095ae80e5fb1096f79671b059d2b08ec00e69b2",
+  "seqno": 23,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg0tq5lXBJLEnfTL2YqRmH7VXbTq8R+oNBIjazMTUZhSEKp3BheWxvYWTFA0F7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZDJkYWI5OTU3MDQ5MmM0OWRmNGNiZDk4YTkxOTg3ZWQ1NWRiNGVhZjExZmE4MzQxMjIzNmIzMzEzNTE5ODUyMTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZDJkYWI5OTU3MDQ5MmM0OWRmNGNiZDk4YTkxOTg3ZWQ1NWRiNGVhZjExZmE4MzQxMjIzNmIzMzEzNTE5ODUyMTBhIiwidWlkIjoiMDY0MTVjOWQ1NzNmZWU1MmVmZDliODc5Y2YwYjg2MTkiLCJ1c2VybmFtZSI6InBvdGhpeCJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUxMDQzMDYyNywiaGFzaCI6IjYyY2ExZDZhNjBjYzkzY2VjOGExYWIyZmNkOTNmZjM2ZTlmNmYyOTJlNzRiOTU5MjFkZWY1OTBjZjAxZTUwOGU1OGM1OTEwNDk3NGIxOGYzMDFiZjFhYmQwZmJkOGNiMTFiNjYyZTZkOTc2YWU4N2FlMmEzNTBjOWEyMjgxNGE4IiwiaGFzaF9tZXRhIjoiOGZiODZiNWNkNmNjMTg3N2Q5ZDUyMjJjMTI4ZDNlMTMzYjAxMGQwODFlNWJmMjMwZTU3NWZmMjVjNmVlM2NiMSIsInNlcW5vIjoxNjk0NTM2fSwic2VydmljZSI6eyJob3N0bmFtZSI6InBvdGhpeC5jb20iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zNSJ9LCJjdGltZSI6MTUxMDQzMDY4OCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiIzMzYwYTg0YzFlN2VmMWQ3OTc4Y2EzZjMyMDk1YWU4MGU1ZmIxMDk2Zjc5NjcxYjA1OWQyYjA4ZWMwMGU2OWIyIiwic2Vxbm8iOjIzLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQLc778n6/gRzwqvy4WjL4/yPeIOm6Iy1bfFP6OZLJr68wrUj/KGdmPQnFboh7LUD1J8Hv2r6eJOQycfPTvznFQWoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBjt6QZBLoVemkKVFIProEgCd34YcU36zChF+Zvn5c8PqN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pothix
+
+==================================================================
