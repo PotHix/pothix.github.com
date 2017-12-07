@@ -2,6 +2,7 @@
 title = "Stats for Nov, 2017"
 date = "2017-12-05"
 tags = ["stats","personal","english"]
+draft = true
 +++
 
 Came back from a travel last month and just packed my stuff to travel
@@ -277,7 +278,7 @@ It was a great month. I forgot about the whole problem of not being able to
 receive any money and took the whole month to meet new people and places. 😄
 
 It was really nice to meet 12 people (from 8 different countries) of the team in
-person and also represent the company at [hackUPC](https://hackupc.com/). 
+person and also represent the company at [hackUPC](https://hackupc.com/).
 
 During this trip I decided to say in hostels most of the time to talk to people
 from different cultures (and also because I had to pay for it... 😄). I talked
