@@ -28,7 +28,7 @@ Date of the event  | Original presentation title                              | 
 2017-05-03     | [Mesos como ferramenta](https://www.eventials.com/Globalcode/quarta-a-tarde-tdconline-floripa-2017-stadium/) | Florianópolis, Brasil | [TDC Florianópolis](http://www.thedevelopersconference.com.br/tdc/2017/florianopolis/trilhas)
 2017-03-23     | Desconstruindo a web                                         | São Paulo, Brasil | Tech-talks gaveteiros
 2017-03-17     | Como foi a FOSDEM 2017                                       | São Paulo, Brasil | Tech-talks Locaweb
-2017-02-05     | [Open source behind a web request](https://fosdem.org/2017/schedule/event/desktops_open_source_behind_web_request/) | Bruxelas, Belgica | FOSDEM 2017
+2017-02-05     | [Open source behind a web request](https://fosdem.org/2017/schedule/event/desktops_open_source_behind_web_request/) | Brussels, Belgica | FOSDEM 2017
 2017-01-20     | Open source behind a web request                             | São Paulo, Brasil | Tech-talks Campus code
 2017-01-14     | Desconstruindo a web                                         | São Paulo, Brasil | Impacta tecnologia
 2017-01-09     | [As escolhas do desenvolvedor](https://pbs.twimg.com/media/C1vn7x1XcAQKbxk.jpg:large) | São Paulo, Brasil | "Quero ser dev", Campus code
