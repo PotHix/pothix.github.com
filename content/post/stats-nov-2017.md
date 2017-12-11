@@ -52,20 +52,20 @@ more read articles**.
 
 Almost the same growth of the last month. For me, it means that it was
 a good thing to check my Feedly once a week but that doesn't change
-the amount of articles I read and it's probably be the new delicious.
+the number of articles I read and it's probably the new delicious.
 
 ### Coding
 
-Here goes the charts from [Wakatime](https://wakatime.com/i/PotHix)
+Here are the charts from [Wakatime](https://wakatime.com/i/PotHix)
 since the last post.
 
 [![Hours of coding on Wakatime this month](/images/stats/2017/nov/wakatime-coding.png "Hours of coding on Wakatime this month")](https://wakatime.com/@PotHix "")
 
-The empty days are related to a holiday in Brazil and a huge amount of technical tickets and support for our APIs during that week. It was the price to day for focused work in the week before. :)
+The empty days are related to a holiday in Brazil and a huge amount of technical tickets and support for our APIs during that week. It was the price for the focused work in the week before. :)
 
 [![Languages used during this month on Wakatime](/images/stats/2017/nov/wakatime-languages.png "Languages used during this month on Wakatime")](https://wakatime.com/@PotHix "")
 
-`markdown` is usually the most used language because I write long texts in emacs before posting on [Twist](https://twistapp.com). I removed the `bash` plugin from my terminal in the middle of the month, so that 38% doesn't make much sense. And then... **Rust**! That is what I was playing with in the previous week to the big list of support tickets. It was a fun week.
+`markdown` is usually the most used language because I write long texts in emacs before posting on [Twist](https://twistapp.com). I removed the `bash` plugin from my terminal in the middle of the month so that 38% doesn't make much sense. And then... **Rust**! It was a fun week.
 
 [![Editors used during this month on Wakatime](/images/stats/2017/nov/wakatime-editors.png "Editors used during this month on Wakatime")](https://wakatime.com/@PotHix "")
 
@@ -88,13 +88,13 @@ and enjoy the last month of the year. :)
 
 ### Completed tasks
 
-This is the amount of tasks completed on [Todoist](https://todoist.com).
+This is the number of tasks completed on [Todoist](https://todoist.com).
 
 [![Amount of tasks completed this month](/images/stats/2017/nov/tasks-completed.png "Amount of tasks completed this month")](/images/stats/2017/nov/tasks-completed.png)
 
 **404 tasks** completed this month (**17 more** than last month).
 
-This time I have some other colors in the chart. It's related to
+This time I have some other colors on the chart. It's related to
 internal Todoist projects but most part of it is still personal (red)
 and work-related (blue).
 
@@ -111,8 +111,8 @@ As usual, here is the list of Podcasts and their times:
 
 [![Amount of time spent listening to Podcasts, ordered by title](/images/stats/2017/nov/podcast_titles.jpg "Amount of time spent listening to Podcasts, ordered by title")](/images/stats/2017/nov/podcast_titles.jpg)
 
-Just remember that this is an "all time list" and I'm tracking time
-instead of episode which makes short podcasts to not appear as "most
+Just remember that this is an "all-time list" and I'm tracking time
+instead of the episode which makes short podcasts to not appear as "most
 listened" ones. I listen to
 [CBN podcasts](http://cbn.globoradio.globo.com/servicos/podcast/PODCAST.htm) almost
 every day, but they are just some minutes long.
@@ -123,11 +123,11 @@ Here is the data from my time tracking software, [Toggl](https://toggl.com):
 
 [![Hours working using Toggl](/images/stats/2017/nov/toggl-time-working.png "Hours working using Toggl")](/images/stats/2017/nov/toggl-time-working.png "")
 
-The above chart is just for my freelance and full-time job. Not so much time as a freelancer, though. I decided to do a deep down about the time I spent working for my full time employee this month:
+The above chart is just for my freelance and the full-time job. Not so much time as a freelancer, though. I decided to do a deep down about the time I spent working for my full-time employee this month:
 
 [![Hours working for at Doist](/images/stats/2017/nov/toggl-time-working-doist.png "Hours working using Toggl")](/images/stats/2017/nov/toggl-time-working-doist.png "")
 
-We had 20 work days in Brazil this month and I worked for 189 hours, which mean that **I worked 30 hours more than I should**. According to this data, almost 5 of those hours were in the weekends/holidays. I should really improve that.
+We had 20 work days in Brazil this month and I worked for 189 hours, which mean that **I worked 30 hours more than I should**. According to this data, almost 5 of those hours were on the weekends/holidays. I should really improve that.
 
 [![Deep vs Shallow work](/images/stats/2017/nov/toggl-time-working-deep-shallow.png "Deep vs Shallow work")](/images/stats/2017/nov/toggl-time-working-deep-shallow.png "")
 
@@ -151,17 +151,17 @@ I changed my browser for [Firefox Quantum](https://www.mozilla.org/firefox/new/)
 but forgot to install the rescuetime extension, so I don't have enough detailed
 data. It will be the same (or worst) for the next month.
 
-Here are the big offensors:
+Here are the big offenders:
 
-[![Offesors of my goal of productive hours on RescueTime](/images/stats/2017/nov/rescuetime-productivetime-offensors.png "Offensors of my goal of productive hours on RescueTime")](/images/stats/2017/nov/rescuetime-productivetime-offensors.png "")
+[![Offesors of my goal of productive hours on RescueTime](/images/stats/2017/nov/rescuetime-productivetime-offensors.png "Offenders of my goal of productive hours on RescueTime")](/images/stats/2017/nov/rescuetime-productivetime-offensors.png "")
 
 I just changed Twist to `productive` instead of `distracting`. I'm not
-sure if Twist deserve to be distracting because we usually talk about
+sure if Twist deserves to be distracting because we usually talk about
 work there and it's not so distracting. With that said, Twist still
-takes a big portion of my time due to the need to communication. It's
+takes a big portion of my time due to the need for communication. It's
 the source of all conversations at Doist, but it's up to us to not
 make communication overwhelming. I'm still working to have the balance
-between comunication and "real work", let's see how it goes.
+between communication and "real work", let's see how it goes.
 
 
 ### Physical activity
@@ -170,8 +170,9 @@ I'm using my Mi band data to calculate my average steps:
 
 [![Activity data for this month by Mi-Fit app](/images/stats/2017/nov/activity.jpg "Activity data for this month by Mi-Fit app")](/images/stats/2017/nov/activity.jpg "")
 
-According to this data, I can conclude that I had a daily average of **6.3k**
-steps (190625/30). It was kinda disappointed, it's below my average. I will work on it for the next month. :)
+According to this data, I can conclude that I had a daily average of
+**6.3k** steps (190625/30). It was kinda disappointing as it's below my
+average. I will work on it for the next month. :)
 
 And these are my steps each day:
 
@@ -203,7 +204,7 @@ I spent **1 day and 3 hours** of my life watching TV shows this month.
 ### Words written and errors
 
 I'm using [Grammarly](https://grammarly.com) to improve my English and
-track the amount of words and errors when I'm writting. Unfortunately,
+track the number of words and errors when I'm writing. Unfortunately,
 they only send weekly emails, but I will try to keep this metric for a
 while.
 
@@ -213,11 +214,11 @@ Here are my stats for this month:
 + **1091** corrections made (in September it was **1826**)
 + **17429** unique words (in September it was **17139**)
 
-I'm comparing to September because October was not a typical month. I had less words written but I can see that I had less corrections made and more unique words! That makes me feel good. 😁
+I'm comparing to September because October was not a typical month. I had fewer words written but I can see that I had fewer corrections made and more unique words! That makes me feel good. 😁
 
 ### Locations
 
-At the end of the month I went to York (the old York, in England, not the New York, in the USA) to work from there for 1 month. So, a new country was added:
+At the end of the month, I went to York (the old York, in England, not the New York, in the USA) to work from there for 1 month. So, a new country was added:
 
 [![New countries](/images/stats/2017/nov/location-countries.png "New countries")](/images/stats/2017/nov/location-countries.png "")
 
@@ -231,7 +232,7 @@ So, in summary:
 
 One new city and 16 new places.
 
-Not so useful, but here is the time spend in vehicles:
+Not so useful, but here is the time spent on vehicles:
 
 [![Location time and distance](/images/stats/2017/nov/location-time-distance.png "Location time and distance")](/images/stats/2017/nov/location-time-distance.png "")
 
@@ -239,7 +240,7 @@ It's probably the time spent in the taxi to the airport and in the bus from Manc
 
 [![Kms to the moon](/images/stats/2017/nov/location-moon.png "Kms to the moon")](/images/stats/2017/nov/location-moon.png "")
 
-This trip removed 11k kms from my distance to the moon. 👍
+This trip removed 11k km from my distance to the moon. 👍
 
 ### Expenses
 
@@ -251,7 +252,7 @@ This chart **represents all my income for this month**. And again, the number is
 not wrong, I did not receive any money this month. The problem I described [in](/post/stats-jul-2017) [the](/post/stats-jun-2017/) [last](/post/stats-aug-2017) [five](/post/stats-sep-2017) [months](/post/stats-oct-2017) still
 persists, for this reason, there's no money coming yet. :(
 
-This month I finally had some good new and the process is almost done, just waiting for the final document. Hope to have something to show next month.
+This month I finally had some good news and the process is almost done, just waiting for the final document. Hope to have something to show next month.
 
 And again... If you're reading this every month, you already know that
 my wife is paying all of our bills until my situation gets back to
@@ -265,7 +266,7 @@ in a good shape. My total savings **increased by 0.6%** and now I have
 
 ### Time to write this blog post
 
-Some people are asking me about how much time it take to collect all
+Some people are asking me about how much time it takes to collect all
 the data and write the blog post, so I decided to add this metric
 
 **It took 3 hours and 30 minutes to write this post**
@@ -277,7 +278,7 @@ Just came back from a trip last month to prepare to travel again this
 month. I'm writing this post from the winter
 of [York](https://goo.gl/maps/zx1s3AeFo982), it's -1 Celsius but feels
 like -7. I worked a lot this month but it enabled me to keep my
-schedule in a good pace for the travel so I think it worth it.
+work on schedule for the travel so I think it worth it.
 
-I did not receive any money yet but everything is going in a good pace
+I did not receive any money yet but everything is moving forward
 now and I hope to have a nice December with everything set up. :)
