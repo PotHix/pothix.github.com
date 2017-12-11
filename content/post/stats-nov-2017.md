@@ -153,7 +153,7 @@ data. It will be the same (or worst) for the next month.
 
 Here are the big offensors:
 
-[![Offesors of my goal of productive hours on RescueTime](/images/stats/2017/aug/rescuetime-productivetime-offensors.png "Offensors of my goal of productive hours on RescueTime")](/images/stats/2017/aug/rescuetime-productivetime-offensors.png "")
+[![Offesors of my goal of productive hours on RescueTime](/images/stats/2017/nov/rescuetime-productivetime-offensors.png "Offensors of my goal of productive hours on RescueTime")](/images/stats/2017/nov/rescuetime-productivetime-offensors.png "")
 
 I just changed Twist to `productive` instead of `distracting`. I'm not
 sure if Twist deserve to be distracting because we usually talk about
