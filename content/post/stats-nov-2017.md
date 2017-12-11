@@ -2,7 +2,6 @@
 title = "Stats for Nov, 2017"
 date = "2017-12-05"
 tags = ["stats","personal","english"]
-draft = true
 +++
 
 Came back from a travel last month and just packed my stuff to travel
@@ -81,7 +80,11 @@ Here is the chart comparing to my goal for this year:
 
 [![Burn down chart for my presentations](/images/stats/2017/nov/presentations.png "Burn down chart for my presentations")](/images/stats/2017/nov/presentations.png "")
 
-Just reached my last goal for this year. **25 talks in one year** is more than I could have ever imagined. Now it's time to take a break and enjoy the last month of the year. :)
+My first goal was to speak 19 times with 1 international talk and I
+reached. After reaching the first goal I set a new goal: reach **25
+talks this year** and I just met it. Speak 25 times in one year is
+more than I could have ever imagined. Now it's time to take a break
+and enjoy the last month of the year. :)
 
 ### Completed tasks
 
@@ -91,7 +94,9 @@ This is the amount of tasks completed on [Todoist](https://todoist.com).
 
 **404 tasks** completed this month (**17 more** than last month).
 
-This time I have some other colors in the chart. It's related to internal Todoist projects but most part of it is still personal (red) and work-related (blue).
+This time I have some other colors in the chart. It's related to
+internal Todoist projects but most part of it is still personal (red)
+and work-related (blue).
 
 ### Podcasts
 
@@ -100,8 +105,7 @@ Here is my
 
 [![Amount of time spent listening to Podcasts this month](/images/stats/2017/nov/podcasts.jpg "Amount of time spent listening to Podcasts this month")](/images/stats/2017/nov/podcasts.jpg)
 
-**2 days and 17 hours** of podcast time, 1 day more than last month. It happened
-because I decided to catch up to the unheard episodes when I got home. 😄
+**2 days and 13 hours** of podcast time, just 4 hours more than last month. It means that I spent a lot of time listening to Podcasts again. 
 
 As usual, here is the list of Podcasts and their times:
 
@@ -115,28 +119,50 @@ every day, but they are just some minutes long.
 
 ### Hours working
 
-Here are the data from my time tracking software, [Toggl](https://toggl.com):
+Here is the data from my time tracking software, [Toggl](https://toggl.com):
 
 [![Hours working using Toggl](/images/stats/2017/nov/toggl-time-working.png "Hours working using Toggl")](/images/stats/2017/nov/toggl-time-working.png "")
 
-The above chart is just for my freelance and full-time job. As you can see, I
-took many days totally off. :)
+The above chart is just for my freelance and full-time job. Not so much time as a freelancer, though. I decided to do a deep down about the time I spent working for my full time employee this month:
+
+[![Hours working for at Doist](/images/stats/2017/nov/toggl-time-working-doist.png "Hours working using Toggl")](/images/stats/2017/nov/toggl-time-working-doist.png "")
+
+We had 20 work days in Brazil this month and I worked for 189 hours, which mean that **I worked 30 hours more than I should**. According to this data, almost 5 of those hours were in the weekends/holidays. I should really improve that.
 
 [![Deep vs Shallow work](/images/stats/2017/nov/toggl-time-working-deep-shallow.png "Deep vs Shallow work")](/images/stats/2017/nov/toggl-time-working-deep-shallow.png "")
 
-I tried to use Toggl when I was in the office just to compare with my
-productivity at home. It was almost the same as if I'm working from home, so
-kudos to the Porto office. :)
+What I can take from this chart:
+
+* Meetings are stable. I usually have around 4-5 hours of meetings a month. One useful weekly meeting of around 40 min and one 1-1 meeting. If necessary I have small meetings to fix certain problems.
+* Hiring is taking some time. Interviewing, looking for candidates and writing down my opinions take some time
+* Shallow work is still consuming around 65% of my tasks. I'm trying to describe the tasks better so I can understand what I'm considering shallow work. Maybe I will have something next month.
 
 There is another chart for my personal projects:
 
 [![Hours working on personal projects using Toggl](/images/stats/2017/nov/toggl-time-personal-projects.png "Hours working on personal projects using Toggl")](/images/stats/2017/nov/toggl-time-personal-projects.png "")
 
-As expected, just the time related to my talk at Porto Python.
+It is related to my two talks and my participation in the [hangout by Farol Digital](https://www.youtube.com/watch?v=dCXu-kJE_H4). I'm still not producing a lot of content but it's an improvement.
 
-I will not post my data related to **rescuetime** this month because I was
-working in the fix for my problem and their team fixed the problem. Rescuetime
-stats will be back next month. :)
+Here is my data from [RescueTime](https://www.rescuetime.com/ref/1403570):
+
+[![Goal of productive hours on RescueTime](/images/stats/2017/nov/rescuetime-productivetime.png "Goal of productive hours on RescueTime")](/images/stats/2017/nov/rescuetime-productivetime.png "")
+
+I changed my browser for [Firefox Quantum](https://www.mozilla.org/firefox/new/)
+but forgot to install the rescuetime extension, so I don't have enough detailed
+data. It will be the same (or worst) for the next month.
+
+Here are the big offensors:
+
+[![Offesors of my goal of productive hours on RescueTime](/images/stats/2017/aug/rescuetime-productivetime-offensors.png "Offensors of my goal of productive hours on RescueTime")](/images/stats/2017/aug/rescuetime-productivetime-offensors.png "")
+
+I just changed Twist to `productive` instead of `distracting`. I'm not
+sure if Twist deserve to be distracting because we usually talk about
+work there and it's not so distracting. With that said, Twist still
+takes a big portion of my time due to the need to communication. It's
+the source of all conversations at Doist, but it's up to us to not
+make communication overwhelming. I'm still working to have the balance
+between comunication and "real work", let's see how it goes.
+
 
 ### Physical activity
 
@@ -144,45 +170,35 @@ I'm using my Mi band data to calculate my average steps:
 
 [![Activity data for this month by Mi-Fit app](/images/stats/2017/nov/activity.jpg "Activity data for this month by Mi-Fit app")](/images/stats/2017/nov/activity.jpg "")
 
-According to this data, I can conclude that I had a daily average of **11.6k**
-steps (359/31). I think `mean` is not a good aggregation function for this data
-because when I was traveling I had days like this:
+According to this data, I can conclude that I had a daily average of **6.3k**
+steps (190625/30). It was kinda disappointed, it's below my average. I will work on it for the next month. :)
 
-[![Walking around Toledo](/images/stats/2017/nov/walking-toledo.jpg "Walking around Toledo")](/images/stats/2017/nov/walking-toledo.jpg "")
-
-Well... I really like to walk when I'm traveling. :)
-
-Unfortunately, my Google fit is missing some data, so I will not post all charts
-as usual.
+And these are my steps each day:
 
 [![Amount of steps for this month](/images/stats/2017/nov/physical-activity-steps.png "Amount of steps for this month")](/images/stats/2017/nov/physical-activity-steps.png "")
+
+My max distance was **8.4km** walking in one day:
+
+[![Travelled distance this month](/images/stats/2017/nov/physical-activity-distance.png "Travelled distance this month")](/images/stats/2017/nov/physical-activity-distance.png "")
 
 Here is my sleep data for this month:
 
 [![Amount of sleep for this month](/images/stats/2017/nov/sleep.jpg "Amount of sleep for this month")](/images/stats/2017/nov/sleep.jpg "")
 
-Almost the same as the last month but 10 minutes more for **avg sleep** and
-**avg deep sleep**. There are some comparisons with their database:
-
-[![Deep sleep comparison](/images/stats/2017/nov/sleep_deep_comparison.jpg "Deep sleep comparison")](/images/stats/2017/nov/sleep_deep_comparison.jpg "")
-
-I'm not so bad after all. :)
+Some more minutes of average sleeping (**7h31m** for the last month)
+but also less deep sleeping (last month was **1h58**) 😢
 
 ### TV Shows
 
-According to [tvshowtime](https://www.tvshowtime.com) I watched 15 episodes this
-month:
+According to [tvshowtime](https://www.tvshowtime.com) I watched 36
+episodes this month:
 
 [![TV shows watched this month according to tvshowtime](/images/stats/2017/nov/tvshows.jpg "TV shows watched this month according to tvshowtime")](/images/stats/2017/nov/tvshows.jpg "")
 
-When I got back, we decided to watch **Stranger Things (season 2)** and get back
-to **Orphan Black (season 3)**.
+This month we finished **Orphan Black (season 4 and 5)** and started **Billions**.
 
-It's still difficult to calculate how much time I spent watching TV this month
-(because I could not track last month in a good way) but I think I watched 17
-hours of TV. I used [tii.me](http://tii.me) to calculate the second season of
-stranger things and calculated 40 min for each of the 5 episodes of Orphan
-black.
+I spent **1 day and 3 hours** of my life watching TV shows this month.
+
 
 ### Words written and errors
 
@@ -193,50 +209,37 @@ while.
 
 Here are my stats for this month:
 
-+ **49657** words written (last month was **73969**), **26487** of them written
-  in the last week of October
-+ **1212** corrections made (last month was **1826**), **772** of them made in
-  the last week of October
-+ **12725** unique words (last month was **17139**), **5806** of them written in
-  the last week of October
++ **71062** words written (in September it was **73969**)
++ **1091** corrections made (in September it was **1826**)
++ **17429** unique words (in September it was **17139**)
 
-This month is really atypical and should not be compared with the previous month
-but it has its own interesting facts. The last week of October was really
-interesting. I had a lot of material to compile and write down for my team. For
-this reason there is a lot of words written.
+I'm comparing to September because October was not a typical month. I had less words written but I can see that I had less corrections made and more unique words! That makes me feel good. 😁
 
 ### Locations
 
-This section is really nice! 😁
-As I said, I visited two new countries:
+At the end of the month I went to York (the old York, in England, not the New York, in the USA) to work from there for 1 month. So, a new country was added:
 
 [![New countries](/images/stats/2017/nov/location-countries.png "New countries")](/images/stats/2017/nov/location-countries.png "")
 
-And 5 new cities:
+I think it was actually part of the list from when I visited London but it's worth posting. The city of York was also added:
 
 [![New cities](/images/stats/2017/nov/location-cities.png "New cities")](/images/stats/2017/nov/location-cities.png "")
-
-Unfortunately, the email sent by Google timeline was not so descriptive this
-time. But the other 2 cities are [Toledo](https://goo.gl/maps/GWf9vcDakNB2)
-and [Lisbon](https://goo.gl/maps/THiztuMChqs).
 
 So, in summary:
 
 [![General view of my locations data](/images/stats/2017/nov/location-general.png "General view of my locations data")](/images/stats/2017/nov/location-general.png "")
 
-It was almost 100 new places visited 😱.
+One new city and 16 new places.
 
-Here is the time spend in vehicles:
+Not so useful, but here is the time spend in vehicles:
 
 [![Location time and distance](/images/stats/2017/nov/location-time-distance.png "Location time and distance")](/images/stats/2017/nov/location-time-distance.png "")
 
-I was expecting more time than that, but it looks accurate in case it's not
-considering airplanes. I took a train from Lisbon to Porto (3.5 hours) and a
-train from Madrid to Toledo and back (1.5h maybe).
+It's probably the time spent in the taxi to the airport and in the bus from Manchester to Leeds and York.
 
 [![Kms to the moon](/images/stats/2017/nov/location-moon.png "Kms to the moon")](/images/stats/2017/nov/location-moon.png "")
 
-Hope to reach the moon some day.
+This trip removed 11k kms from my distance to the moon. 👍
 
 ### Expenses
 
@@ -245,23 +248,19 @@ My expenses for this month:
 [![Expenses by category this month](/images/stats/2017/nov/expenses.jpg "Expenses by category this month")](/images/stats/2017/nov/expenses.jpg "")
 
 This chart **represents all my income for this month**. And again, the number is
-not wrong, I did not receive any money this month. The problem I described in
-[the](/post/stats-jul-2017) [last](/post/stats-jun-2017/) [four](/post/stats-aug-2017) [months](/post/stats-sep-2017) still
+not wrong, I did not receive any money this month. The problem I described [in](/post/stats-jul-2017) [the](/post/stats-jun-2017/) [last](/post/stats-aug-2017) [five](/post/stats-sep-2017) [months](/post/stats-oct-2017) still
 persists, for this reason, there's no money coming yet. :(
 
-Part of the problem seems to be solved and now I'm back to the normal
-process. Hope to have everything set up this month.
+This month I finally had some good new and the process is almost done, just waiting for the final document. Hope to have something to show next month.
 
-If you're reading this every month, you already know that my wife is paying all
-of our bills until my situation gets back to normal and I'm really glad to have
-someone to rely on when things like these happen. ❤
+And again... If you're reading this every month, you already know that
+my wife is paying all of our bills until my situation gets back to
+normal and I'm really glad to have someone to rely on when things like
+these happen. ❤
 
-I traveled to Europe last month and part of the expenses were paid by me to
-receive the reimbursement for it later. As I'm not able to receive my payment
-for some time now, it caused a negative impact in my savings.
-
-My total savings **decreased by 1.31%**, which means that I have **73.26%** of my
-goal. 😢
+This month is back to normal and my wife helped to keep our expenses
+in a good shape. My total savings **increased by 0.6%** and now I have
+**73.70%** of my goal.
 
 
 ### Time to write this blog post
@@ -269,26 +268,16 @@ goal. 😢
 Some people are asking me about how much time it take to collect all
 the data and write the blog post, so I decided to add this metric
 
-**It took 4 hours and 10 minutes to write this post**
+**It took 3 hours and 30 minutes to write this post**
 
 
 ### Conclusion
 
-It was a great month. I forgot about the whole problem of not being able to
-receive any money and took the whole month to meet new people and places. 😄
+Just came back from a trip last month to prepare to travel again this
+month. I'm writing this post from the winter
+of [York](https://goo.gl/maps/zx1s3AeFo982), it's -1 Celsius but feels
+like -7. I worked a lot this month but it enabled me to keep my
+schedule in a good pace for the travel so I think it worth it.
 
-It was really nice to meet 12 people (from 8 different countries) of the team in
-person and also represent the company at [hackUPC](https://hackupc.com/).
-
-During this trip I decided to say in hostels most of the time to talk to people
-from different cultures (and also because I had to pay for it... 😄). I talked
-to people from Germany, Poland, Spain, Scotland, Colombia, Canada, Lithuania,
-Czech Republic, Japan, Brazil, Uruguay, Australia, Russia, Ireland, Portugal,
-India, Belgium, Bosnia, France, Argentina, and Netherlands. It was not just a
-"Hi, where are you from?", most of them were 30min+ conversations and some of
-them took more then 2 hours.
-
-I also bought a sword (a replica of Andúril), but that's a story for a different
-post. :D
-
-So...mission accomplished for this month. o/
+I did not receive any money yet but everything is going in a good pace
+now and I hope to have a nice December with everything set up. :)
