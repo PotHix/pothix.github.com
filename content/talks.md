@@ -17,7 +17,7 @@ Date of the event  | Original presentation title                              | 
 2017-07-27     | Desconstruindo a web                                         | São Paulo, Brasil | Tech-talks ELO7
 2017-07-22     | Sua aplicação Ruby end-to-end                                | São Paulo, Brasil | Trilha de Ruby - TDC
 2017-07-22     | Criando um snake game com um navegador e um editor apenas    | São Paulo, Brasil | Trilha de Games - TDC
-2017-07-22     | Command line interfaces with Go                              | São Paulo, Brasil | Trilha de Go - TDC
+2017-07-22     | [Command line interfaces with Go](http://cege.la/JBk1eg)     | São Paulo, Brasil | Trilha de Go - TDC
 2017-07-15     | [Criando um snake game com Ruby usando Gosu](https://www.youtube.com/watch?v=bcQaQVJkVbw) | São Paulo, Brasil | Guru-SP
 2017-07-02     | Uma requisição web do começo ao fim                          | São Paulo, Brasil | Virada Tecnológica
 2017-06-28     | [Painel sobre comunidades](https://pbs.twimg.com/media/DDarqhkW0AAuuJT.jpg:large) | São Paulo, Brasil | [19o Encontro Locaweb](http://eventos.locaweb.com.br/eventos-anteriores/19o-encontro-locaweb-sao-paulo/)
