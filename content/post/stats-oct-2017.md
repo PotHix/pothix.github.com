@@ -106,7 +106,7 @@ every day, but they are just some minutes long.
 
 ### Hours working
 
-Here are the data from my time tracking software, [Toggl](https://toggl.com):
+Here is the data from my time tracking software, [Toggl](https://toggl.com):
 
 [![Hours working using Toggl](/images/stats/2017/oct/toggl-time-working.png "Hours working using Toggl")](/images/stats/2017/oct/toggl-time-working.png "")
 
@@ -182,7 +182,7 @@ track the amount of words and errors when I'm writting. Unfortunately,
 they only send weekly emails, but I will try to keep this metric for a
 while.
 
-Here are my stats for this month:
+My stats for this month:
 
 + **49657** words written (last month was **73969**), **26487** of them written
   in the last week of October

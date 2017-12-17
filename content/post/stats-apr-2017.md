@@ -80,8 +80,7 @@ this (actually, a burn up [?]):
 As I said in my last stats post, I'm back
 to
 [Podcast Addict](https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict&hl=en). This
-time I decided to buy the application, the developer deserves it. Here
-are my stats:
+time I decided to buy the application, the developer deserves it. Here is the data:
 
 [![Amount of time spent listening to Podcasts this month](/images/stats/2017/apr/podcasts.jpg "Amount of time spent listening to Podcasts this month")](/images/stats/2017/apr/podcasts.jpg)
 
@@ -95,7 +94,7 @@ Podcasts and their times as well.
 
 ### Hours working
 
-Here are my data from my current time
+Here is the data from my current time
 tracking, [Toggl](https://toggl.com):
 
 [![Hours working using Toggl](/images/stats/2017/apr/toggl-time-working.png "Hours working using Toggl")](/images/stats/2017/apr/toggl-time-working.png "")
@@ -161,7 +160,7 @@ the data sent via email:
 
 [![Example data of grammarly weekly](/images/stats/2017/apr/grammarly.png "Example data of grammarly weekly")](/images/stats/2017/apr/grammarly.png "")
 
-Anyways, here are my stats for this month:
+Anyways, here is the data for this month:
 
 + **37844** words written
 + **168** corrections made

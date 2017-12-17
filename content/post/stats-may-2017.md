@@ -90,7 +90,7 @@ Just for the record, this is an "all time list". :)
 
 ### Hours working
 
-Here are my data from my time tracking
+Here is the data from my time tracking
 software, [Toggl](https://toggl.com):
 
 [![Hours working using Toggl](/images/stats/2017/may/toggl-time-working.png "Hours working using Toggl")](/images/stats/2017/may/toggl-time-working.png "")
@@ -152,7 +152,7 @@ I spent almost 1 day of my life watching TV Series this month.
 I'm using [Grammarly](https://grammarly.com) to improve my English and
 track the amount of words and errors when I'm writting. Unfortunately, they only send weekly emails, I don't know if I will keep these metrics because it take some time to build it.
 
-Anyways, here are my stats for this month:
+Anyways, here is the data for this month:
 
 + **26914** words written
 + **243** corrections made

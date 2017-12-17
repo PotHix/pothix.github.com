@@ -133,7 +133,7 @@ every day, but they are just some minutes long.
 
 ### Hours working
 
-Here are the data from my time tracking software, [Toggl](https://toggl.com):
+Here is the data from my time tracking software, [Toggl](https://toggl.com):
 
 [![Hours working using Toggl](/images/stats/2017/jul/toggl-time-working.png "Hours working using Toggl")](/images/stats/2017/jul/toggl-time-working.png "")
 
