@@ -35,7 +35,7 @@
             <div id="page" class="hfeed site">
                 <header id="masthead" class="site-header site-header--fixed" role="banner">
                     <div class="inside">
-                        {{ partial "menu" }}
+                        {{ partialCached "menu" . }}
                         <a class="site-branding" href="/" title="Doctype" rel="home">
                             <span class="logo-container">
                                 <img data-at2x src="/images/logo.png" alt="Website's logo">

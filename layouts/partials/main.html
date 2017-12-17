@@ -1,6 +1,6 @@
 {{ $paginator := .Paginate (where .Data.Pages "Section" "post") }}
 {{ range sort $paginator.Pages }}
-  <article id="post-#{article.id}" class="post-#{article.id} post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
+  <article class="post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
 
     <header class="entry-header">
       <h2 class="entry-title">

@@ -21,11 +21,11 @@
 
         <div class="entry-content">
           {{ .Content }}
-          {{ partial "disqus" . }}
+          {{ partialCached "disqus" . }}
         </div>
       </article>
     </main>
   </div>
 </div>
 
-{{ partial "footer" . }}
+{{ partialCached "footer" . }}
