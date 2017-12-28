@@ -4,7 +4,7 @@ rebuild:
 	@make build
 
 run:
-	@hugo server
+	@hugo server --buildDrafts --buildExpired --buildFuture --disableKinds=RSS --noTimes
 
 build:
 	@echo "Building"
