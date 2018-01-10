@@ -35,7 +35,7 @@ on), so I just need to use Qwerty when I'm typing on other peoples devices.
 A pro is that my typing speed grew from an average of 75 WPM to almost 100
 WPM. I need to consider that I also bought a Kinesis Advantage Pro;
 
-![Kinesis advantage photo](/images/posts/almost-two-years-using-Colemak-kinesis.jpg
+![Kinesis advantage photo](/images/posts/almost-two-years-using-colemak-kinesis.jpg
 "Kinesis Advantage")
 
 Without this keyboard, I'm not that fast. Just tried
