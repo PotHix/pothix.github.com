@@ -312,8 +312,9 @@ It looks more even now but I don't know if it's a good thing. I don't
 usually work as a freelancer but I work for 1 company for almost two
 years now and I really like the challenges they have there, so I would
 like to work for them again. To be able to do that, I have to
-stabilize my workday. From July to December I did almost no work for
-them:
+stabilize my workday.
+
+From July to December I did almost no freelance work for this company:
 
 [![Chart for time working in my freelance job](/images/stats/2017/yir/toggl-freelance.png "Chart for time working in my freelance job")](/images/stats/2017/yir/toggl-freelance.png "")
 
