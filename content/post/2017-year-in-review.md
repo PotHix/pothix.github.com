@@ -485,8 +485,14 @@ Netherlands, Scotland, England, Portugal, Spain, and visited many
 different cities. I'm planning some posts about those cities for a
 while now, maybe someday.
 
-With that said, I don't know if I can trust the data provided by
-Google Locations. Take your own conclusions:
+In one of those trips I had a goal to speak with people from other
+countries and had long conversations with people from Germany, Poland,
+Spain, Scotland, Colombia, Canada, Lithuania, Czech Republic, Japan,
+Brazil, Uruguay, Australia, Russia, Ireland, Portugal, India, Belgium,
+Bosnia, France, Argentina, and Netherlands. It was really great. 😀
+
+Now that you know about the trips, I don't know if I can trust the
+data provided by Google Locations. Take your own conclusions:
 
 Unfortunately, I don't have my data for January, the first record was
 in February (after visiting more than 13 cities in 4 countries):
