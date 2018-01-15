@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://pothix.com/post/2017-year-in-review/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://pothix.com/post/stats-dec-2017/</loc>
     <lastmod>2018-01-07T00:00:00+00:00</lastmod>
   </url>
@@ -757,7 +762,7 @@
   
   <url>
     <loc>http://pothix.com/tags/english/</loc>
-    <lastmod>2018-01-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -851,7 +856,7 @@
   
   <url>
     <loc>http://pothix.com/tags/personal/</loc>
-    <lastmod>2018-01-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -863,13 +868,13 @@
   
   <url>
     <loc>http://pothix.com/post/</loc>
-    <lastmod>2018-01-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://pothix.com/</loc>
-    <lastmod>2018-01-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -923,7 +928,7 @@
   
   <url>
     <loc>http://pothix.com/tags/stats/</loc>
-    <lastmod>2018-01-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

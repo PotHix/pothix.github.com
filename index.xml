@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <lastBuildDate>Sun, 07 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://pothix.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2017 Year in Review (with metrics!)</title>
+      <link>http://pothix.com/post/2017-year-in-review/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/2017-year-in-review/</guid>
+      <description>Brace yourselves, this post will be HUGE
+TL;DR: It was a great year and I&amp;rsquo;m really glad to see the metrics and notice everything I accomplished.
+I don&amp;rsquo;t remember the last time I posted my yearly review publicly but as I&amp;rsquo;m doing monthly posts of my stats, it makes sense to do an annual review as well.
+I do yearly reviews since around 2005 but I never post them publicly.</description>
+    </item>
     
     <item>
       <title>Stats for Dec, 2017</title>
@@ -1503,9 +1515,9 @@ Play Source       Jogando e aprendendo Demo game made with HTML5 and Javascript 
       
       <guid>http://pothix.com/now/</guid>
       <description>This is my now page, inspired by Derek Sievers.
-I&amp;rsquo;m currently living for one month in York, England. Working for Doist full-time and for Intervac as a freelancer whenever possible.
+I&amp;rsquo;m living in São Paulo, Brazil and working for Doist full-time and for Intervac as a freelancer whenever possible.
 Here is a list of my current priorities:
- Improving Doist APIs Speaking whenever I have the time. Already met my goals of 19 and 25 talks, not sure if I will speak again this year. Trying to translate my book to English (in my spare time, rare nowadays) Improving my Python skills Collecting data about me to be able to post about it monthly  I&amp;rsquo;m always trying to be more productive and write more code.</description>
+ Improving Doist APIs Trying to translate my book to English (in my spare time, rare nowadays) Improving my Python skills Playing with Rust Collecting data about me to be able to post about it monthly  I&amp;rsquo;m always trying to be more productive and write more code.</description>
     </item>
     
     <item>
