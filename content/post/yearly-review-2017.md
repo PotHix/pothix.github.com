@@ -1,8 +1,7 @@
 +++
 title = "2017 Yearly review (with metrics!)"
-date = "2018-01-01"
+date = "2018-01-15"
 tags = ["stats","personal","english"]
-draft = true
 +++
 
 **Brace yourselves, this post will be HUGE**
@@ -63,11 +62,31 @@ Fiction
 You can always look for my whole
 [list of books read this year on Goodreads](https://www.goodreads.com/review/list/38970458-willian-molinari?read_at=2017&sort=date_read).
 
-Here are some stats provided by Goodreads TODO:
+Here are some stats provided by Goodreads comparing all the books I
+have registered:
 
-[![List of books read this month](/images/stats/2017/yir/goodreads.png "List of books read this month")](https://www.goodreads.com/pothix
+[![List of books read by year](/images/stats/2017/yir/goodreads.png "List of books read by year")](https://www.goodreads.com/pothix
 "")
 
+I started [listening to audiobooks](/post/audiobooks/) in 2016 and it
+was a huge difference in my life, as you can see in the charts above.
+
+Let's compare the books I read this year with last year's:
+
+[![Comparison between 2016 and 2017](/images/stats/2017/yir/goodreads-details.png "Comparison between 2016 and 2017")](https://www.goodreads.com/pothix
+"")
+
+10 books less than last year but it was expected. What bothers me is
+that I **only gave 5 starts to 2 books** (comparing to 9 last year)
+and **the number of books with 3 start is higher than the last year**.
+
+The number of books in the "audible-deal" shelf is higher this year
+and most of the books in the 3-stars row are in this shelf... Maybe
+the deal is not worth the price after all.
+
+Even with the high number of books in the 3-star row I'm happy with my
+results for 2017 regarding books. [Mastery](http://amzn.to/2AZWD2q)
+was the shiny pearl of this year, I really like it.
 
 ### ✅ Articles
 
@@ -220,7 +239,7 @@ fun. I really recommend this motivation hacking. It's not just for
 speaking, you can use it for anything you want.
 
 
-### Completed tasks
+### ✅ Completed tasks
 
 In the last years, Todoist is providing a Year in review and this year
 is not different. If you're a Todoist user, you can check your
@@ -262,133 +281,289 @@ while commuting, walking the dog, washing the dishes, doing exercises,
 etc. It works **really well** for me and sometimes I change between
 Podcasts and audiobooks.
 
-### Hours working
+### ✅ Hours working, focusing and distractions
 
-TODO: Do a deep analysis in the following areas
-* Amount of deep work
-* Amount of meetings
-* Amount of work in personal projects
-* Number of productive hours according to rescuetime
-* Check if it is better or worst in the new job
+Let's review how was my year related to work. This time I have a lot
+of metrics to correlate. \o/
 
-### Physical activity
+If you're following my posts or social networks
+([Twitter](https://twitter.com/PotHix) is the only one I'm using) you
+know that I changed jobs in June. I expect that to have a huge impact
+on my metrics.
 
-I'm using my Mi band data to calculate my average steps:
+Let's start with time working, considering my full-time job only:
 
-[![Activity data for this month by Mi-Fit app](/images/stats/2017/yir/activity.jpg "Activity data for this month by Mi-Fit app")](/images/stats/2017/yir/activity.jpg "")
+[![Chart for time working in my full-time job](/images/stats/2017/yir/toggl-total-time.png "Chart for time working in my full-time job")](/images/stats/2017/yir/toggl-total-time.png "")
 
-According to this data, I can conclude that I had a daily average of
-**6.3k** steps (190625/30). It was kinda disappointing as it's below my
-average. I will work on it for the next month. :)
+It increased a lot from July to
+December. At [Doist](https://doist.com), they recommend to not work
+more than 8 hours a day and I'm clearly not doing that. 😞
 
-And these are my steps each day:
+Including my freelance job:
 
-[![Amount of steps for this month](/images/stats/2017/yir/physical-activity-steps.png "Amount of steps for this month")](/images/stats/2017/yir/physical-activity-steps.png "")
+[![Chart for time working in my full-time and freelance job](/images/stats/2017/yir/toggl-total-time-plus-freelance.png "Chart for time working in my full-time and freelance job")](/images/stats/2017/yir/toggl-total-time-plus-freelance.png "")
 
-My max distance was **8.4km** walking in one day:
+It looks more even now but I don't know if it's a good thing. I don't
+usually work as a freelancer but I work for 1 company for almost two
+years now and I really like the challenges we have there, so I would
+like to work for them again. To be able to do that, I have to
+stabilize my workday. From July to December I did almost no work for
+them:
 
-[![Travelled distance this month](/images/stats/2017/yir/physical-activity-distance.png "Travelled distance this month")](/images/stats/2017/yir/physical-activity-distance.png "")
+[![Chart for time working in my freelance job](/images/stats/2017/yir/toggl-freelance.png "Chart for time working in my freelance job")](/images/stats/2017/yir/toggl-freelance.png "")
 
-Here is my sleep data for this month:
+**A goal for the next year is to work smarter not harder**, so I will have
+more time to do other things not related to my full-time job. I really
+like my full-time job (more than ever!) but I like to do different
+projects without constraints, it can be this freelance job or other
+activities that also bring me joy.
 
-[![Amount of sleep for this month](/images/stats/2017/yir/sleep.jpg "Amount of sleep for this month")](/images/stats/2017/yir/sleep.jpg "")
+There's one metric that makes me feel great. I've been tracking the
+amount of Deep work I do at work since the beginning of the year. I
+consider something to be Deep work when I close all external
+interruptions (Telegram, Slack, Email, Twist, Cellphone, etc) and
+focus on the work I have to do. And for this year I have this:
 
-Some more minutes of average sleeping (**7h31m** for the last month)
-but also less deep sleeping (last month was **1h58**) 😢
+[![Chart for my time Deep working](/images/stats/2017/yir/toggl-deepwork.png "Chart for my time Deep working")](/images/stats/2017/yir/toggl-deepwork.png "")
+
+What an **AMAZING** thing to see. I really like when I'm on the flow
+state focusing on my task. That chart shows me that I was happier than
+before. 🙂
+
+As I found that it was possible to apply deep work in my previous job
+I was applying that on my freelance work. If I add to the chart all
+the freelance work I did for that company (features, bug busting,
+infrastructure) we have this:
+
+[![Chart for my time Deep working including my freelance](/images/stats/2017/yir/toggl-deepwork-plus-freelance.png "Chart for my time Deep working including my freelance")](/images/stats/2017/yir/toggl-deepwork-plus-freelance.png "")
+
+Which is not that bad. 🙂
+
+The good part is that I can apply Deep work to my full-time job
+instead of looking for a different place to use it. 🎉
+
+I would love to track the time I spent in meetings comparing the first
+semester and the second but I was not tracking it in the first
+semester. Now, giving that a second thought, even if I tracked, it
+would be more noise than signal. Sometimes you have productive
+meetings and other times you have "meeting that need to be done" where
+people keep talking about the unrelated stuff in the first 20 minutes
+of the meeting to speak about the productive stuff after
+that. So... `¯\_(ツ)_/¯`.
+
+I also have a metric for the **time I spent doing/planning my talks**
+this year:
+
+[![Chart for my time doing/planning presentations](/images/stats/2017/yir/toggl-presentation.png "Chart for my time doing/planning presentations")](/images/stats/2017/yir/toggl-presentation.png "")
+
+Sometimes I did not track it at all, specially in the beginning of the
+year, but it's worth mentioning as well. In April and June I was
+practicing for my live-coding session. 🙂
+
+I'm also using [rescuetime](https://www.rescuetime.com/ref/1403570) to
+track my productivity. I'm not sure if my configuration is good and I
+keep changing them, so these metrics may not be so accurate. A good
+example of that is my tracking time, I'm also tracking the time at
+night when I'm talking to friends via Telegram or in the weekend.
+
+Let's look at the productive and distracting hours for the entire
+year:
+
+[![Rescuetime metrics for productive and distracting hours](/images/stats/2017/yir/rescuetime-yir-productive-hours.png "Rescuetime metrics for productive and distracting hours")](/images/stats/2017/yir/rescuetime-yir-productive-hours.png "")
+[![Rescuetime metrics for the category that took most of my time](/images/stats/2017/yir/rescuetime-yir-by-category.png "Rescuetime metrics for the category that took most of my time")](/images/stats/2017/yir/rescuetime-yir-by-category.png "")
+
+A lot of distracting hours. As it consider my weekends and nights, I
+don't think it's accurate. It still bothers me that "communication &
+scheduling" is the most used category. I will change that this year.
+
+### Music
+
+I usually don't talk about music but [last.fm](https://last.fm) did a
+good "year in review" for me, so I will add some stats here.
+
+[![Songs scrobbled this year](/images/stats/2017/yir/lastfm-scrobbles.png "Songs scrobbled this year")](/images/stats/2017/yir/lastfm-scrobbles.png "")
+[![Listening stats for this year](/images/stats/2017/yir/lastfm-listening-stats.png "Listening stats for this year")](/images/stats/2017/yir/lastfm-listening-stats.png "")
+[![Listening percentiles compared to the user base](/images/stats/2017/yir/lastfm-percentiles.png "Listening percentiles compared to the user base")](/images/stats/2017/yir/lastfm-percentiles.png "")
+[![Artists, albums, and track discoveries for this year](/images/stats/2017/yir/lastfm-discovery.png "Artists, albums, and track discoveries for this year")](/images/stats/2017/yir/lastfm-discovery.png "")
+
+I started using the paid version
+of [Google Music](https://music.google.com) this year, that explains
+why my "Discovery" has an increase of "558%" this year. I also almost
+doubled the number of artists I listened this year.
+
+Some interesting statistics are related to the time I listened to more
+songs. It seems that I listen to more songs between 20:00 and
+21:00. It's usually when I want to do something different and need
+more energy. Wednesday is the day I listen to more music, I have no
+idea why it's so different than the rest. 🤔
+
+And the obvious part... I listen to metal most of the time. 😜
+
 
 ### TV Shows
 
-According to [tvshowtime](https://www.tvshowtime.com) I watched 36
-episodes this month:
+I will use my [tvshowtime](https://www.tvshowtime.com) stats to get
+some data about it. Here are my data for January and December:
 
-[![TV shows watched this month according to tvshowtime](/images/stats/2017/yir/tvshows.jpg "TV shows watched this month according to tvshowtime")](/images/stats/2017/yir/tvshows.jpg "")
+[![TV shows watched in January](/images/stats/2017/jan/tvshows.jpg "TV shows watched in January")](/images/stats/2017/jan/tvshows.jpg "")
+[![TV shows watched in December](/images/stats/2017/dec/tvshows.jpg "TV shows watched in December")](/images/stats/2017/dec/tvshows.jpg "")
 
-This month we finished **Orphan Black (season 4 and 5)** and started **Billions**.
+Based on that (and ignoring how much I watched in January) I can get
+to the conclusion that **I watched 241 episodes**, more than 4
+episodes a week.
 
-I spent **1 day and 3 hours** of my life watching TV shows this month.
+Let's imagine that tvshowtime uses 30 days for one month. In this
+case, **I spent 8 days and 5 hours of my year watching TV shows**.
+
+As I don't usually watch TV, I will consider that 1 week and half of
+my entire year was spend watching TV. It's 2% of all my time spent
+with TV, not sure if it's good enough.
 
 
-### Words written and errors
+### Physical activity
 
-I'm using [Grammarly](https://grammarly.com) to improve my English and
-track the number of words and errors when I'm writing. Unfortunately,
-they only send weekly emails, but I will try to keep this metric for a
-while.
+I was expecting to have an easy work on this one since I have some
+apps for metrics but turns out that it's not so easy to retrieve
+yearly information. 😞
 
-Here are my stats for this month:
+What I did to get the information I need was to look month by month
+and take screenshots in my cellphone. It was not so easy or pleasant
+but here is the data regarding my steps:
 
-+ **71062** words written (in September it was **73969**)
-+ **1091** corrections made (in September it was **1826**)
-+ **17429** unique words (in September it was **17139**)
+[![Number of steps from January to May](/images/stats/2017/yir/steps-jan.jpg "Number of steps from January to May")](/images/stats/2017/yir/steps-jan.jpg "")
+[![Number of steps from June to October](/images/stats/2017/yir/steps-jun.jpg "Number of steps from June to October")](/images/stats/2017/yir/steps-jun.jpg "")
 
-I'm comparing to September because October was not a typical month. I had fewer words written but I can see that I had fewer corrections made and more unique words! That makes me feel good. 😁
+Nothing so unusual. It was mostly stable and I had peaks in February
+and October, the two months I was traveling to Europe.
 
-### Locations
+Regarding my sleep:
+
+[![Amount of sleep from January to May](/images/stats/2017/yir/sleep-jan.jpg "Amount of sleep from January to May")](/images/stats/2017/yir/sleep-jan.jpg "")
+[![Amount of sleep from June to October](/images/stats/2017/yir/sleep-jun.jpg "Amount of sleep from January to October")](/images/stats/2017/yir/sleep-jun.jpg "")
+
+Looks like my deep sleeping (the dark purple) increased in the second
+semester. It's interesting because it correlates with the dates I
+started in my new job at Doist. In February, when I was not working, I
+had a good rate of deep sleeping as well, I will assume it was stress
+related to my previous job.
+
+In general, it looks good to me.
+
+### ✅ Words written and errors
+
+After consolidating all the data I collected from Grammarly this year
+I have the following:
+
+[![Grammarly data for this year](/images/stats/2017/yir/grammarly.png "Grammarly data for this year")](/images/stats/2017/yir/grammarly.png
+"")
+
+I just copied and pasted all the data from all posts into a Google
+Spreadsheets and generated a chart, no science here. January,
+February, and March have no data, unfortunately.
+
+The interesting metric I can get from this chart is that I'm writing a
+lot more and the *corrections made* are not increasing in the same
+pace. This is really great to see. 😃
+
+Unique words are stable since I started tracking my words. Looks like
+my vocabulary is not increasing but I think it's normal, we usually
+don't use difficult words in our day-to-day life.
+
+### ✅ Locations
 
 This year was amazing regarding traveling. I went to Belgium,
 Netherlands, Scotland, England, Portugal, Spain, and visited many
 different cities. I'm planning some posts about those cities for a
 while now, maybe someday.
 
-With that said, I don't know if I can trust the data provided by Google Locations. Take your own conclusions:
+With that said, I don't know if I can trust the data provided by
+Google Locations. Take your own conclusions:
 
-Unfortunately, I don't have my data for January, the first record was in February (after visiting more than 13 cities in 4 countries):
+Unfortunately, I don't have my data for January, the first record was
+in February (after visiting more than 13 cities in 4 countries):
 
 [![General data for February](/images/stats/2017/feb/location-general.png "General view of my locations data")](/images/stats/2017/feb/location-general.png "")
 
-Data for December:
+And this is the data for December:
 
-[![General data for December](/images/stats/2017/yir/location-general.png "General view of my locations data")](/images/stats/2017/yir/location-general.png "")
+[![General data for December](/images/stats/2017/dec/location-general.png "General view of my locations data")](/images/stats/2017/yir/location-general.png "")
 
-It doesn't look so different even with all those travels. The total
-places visited looks reasonable but the cities and countries doesn't
-behave well.
+It doesn't look so different even with all those travels. Considering
+that I visited Porto, Lisbon, and Barcelona in October, it doesn't
+make any sense. 😞
 
-I use Google maps and Google trips to find new places to go. I'm a [Google maps local guide](TODO) and I usually add reviews to the map. As a side-effect of that, I have stars in almost all places I go.
+I use Google maps and Google trips to find new places to go. I'm
+a [Google maps local guide](https://maps.google.com/localguides) and I
+usually add reviews to the map. As a side-effect of that, I have stars
+in almost all places I go.
 
-I'm really happy with the current state of my maps:
+[![My Google maps in Europe](/images/stats/2017/yir/maps-europe.png "My Google maps in South America")](/images/stats/2017/yir/maps-europe.png "")
+[![My Google maps in South America](/images/stats/2017/yir/maps-south-america.png "My Google maps in South America")](/images/stats/2017/yir/maps-south-america.png "")
 
-TODO: print screen of my Google maps
+I hope to have many other stars soon. :)
 
-To to have many other stars soon. :)
+According to
+[matadornetwork](https://matadornetwork.com/travel-map/22396bbf7ad1af6c0d8758cb54077e13-1515270907),
+I visited 8 countries so far:
 
-### Expenses
+[![My world map](/images/stats/2017/yir/maps-world.png "My world map")](/images/stats/2017/yir/maps-world.png "")
 
-My expenses for this month:
+### ✅ Expenses
 
-[![Expenses by category this month](/images/stats/2017/yir/expenses.jpg "Expenses by category this month")](/images/stats/2017/yir/expenses.jpg "")
+I would love to do a deep analysis on this topic but unfortunately,
+the apps I use do not provide an easy way of doing this. The only
+thing I got was this chart for the last 6 months:
 
-This chart **represents all my income for this month**. And again, the number is
-not wrong, I did not receive any money this month. The problem I described [in](/post/stats-jul-2017) [the](/post/stats-jun-2017/) [last](/post/stats-aug-2017) [five](/post/stats-sep-2017) [months](/post/stats-oct-2017) still
-persists, for this reason, there's no money coming yet. :(
+[![Expenses by category in the last 6 months](/images/stats/2017/yir/expenses.png "Expenses by category in the last 6 months")](/images/stats/2017/yir/expenses.jpg "")
 
-This month I finally had some good news and the process is almost done, just waiting for the final document. Hope to have something to show next month.
+The legend in the left is not so good because I had to remove the
+actual values in cash to keep the percentages only. 🙄
 
-And again... If you're reading this every month, you already know that
-my wife is paying all of our bills until my situation gets back to
-normal and I'm really glad to have someone to rely on when things like
-these happen. ❤
+Looking into this chart I can see that "Viagem" (travel) took almost
+35% of my expenses. I tend to live a frugal life, so it makes sense to
+have my travel expenses taking most part of my money spent. For me,
+traveling is an investment and I don't regret spending money on it.
 
-This month is back to normal and my wife helped to keep our expenses
-in a good shape. My total savings **increased by 0.6%** and now I have
-**73.70%** of my goal.
+It bothers me that "Compras" (general spending) is the second category
+in my expenses. I was expecting to have "Mercado" (groceries) here or
+maybe "Bares / Restaurantes" (eating out), but not "compras". I will
+look closely to it this year because it's an yellow flag to my
+expenses.
+
+Regarding my savings, it **increased by 16.83%** this year,
+considering the value I had in the end of April (I don't have data for
+Jan, Feb, and March). It's an **average of 2.10%** for each month, so
+if we apply that for January, February, March, and April, **we would
+have 25.25%**. In the end of the year I had 75.10% of my savings goal.
+
+Considering that I did not received any payment in the last 6 months,
+it's **really great**! I'm already expecting for a huge increase in my
+savings for January when I received the payment for the work in the
+last months. 😃
 
 
 ### Time to write this blog post
 
-Some people are asking me about how much time it takes to collect all
-the data and write the blog post, so I decided to add this metric
+Well, this one took some time. 😜
 
-**It took 3 hours and 30 minutes to write this post**
+I started it in the airplane, coming back from York. Unfortunately, I
+lost my tracking because of a software problem but I doubt I spent
+less than 2 hours on it, so let's consider 2 hours.
+
+After that I worked for 4h28min more, so we have **6h28min to write
+this blog post** and it worth it, for sure.
 
 
 ### Conclusion
 
-Just came back from a trip last month to prepare to travel again this
-month. I'm writing this post from the winter
-of [York](https://goo.gl/maps/zx1s3AeFo982), it's -1 Celsius but feels
-like -7. I worked a lot this month but it enabled me to keep my
-work on schedule for the travel so I think it worth it.
+What a great year! :)
 
-I did not receive any money yet but everything is moving forward
-now and I hope to have a nice December with everything set up. :)
+It is the first time I have that so much metrics to play with. I could
+get some interesting information about how was my year and how some
+changes influenced my behavior for good or bad.
+
+It took a lot more time than I was expecting but I hope to have an
+automated way to do that in the next year.
+
+I achieved almost all of my goals last year, so I don't have anything
+to complain. Hope that this year become even better than the last one.
