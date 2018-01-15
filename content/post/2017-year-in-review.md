@@ -433,8 +433,11 @@ apps for metrics but turns out that it's not so easy to retrieve
 yearly information. 😞
 
 What I did to get the information I need was to look month by month
-and take screenshots on my cell phone. It was not so easy or pleasant
-but here is the data regarding my steps:
+and take screenshots on my cell phone. I'm not including November and
+December because December is truncated in the monthly view for some
+reason and it would be too much work to include November alone. It was
+not so easy or pleasant to get that but here is the data regarding my
+steps:
 
 [![Number of steps from January to May](/images/stats/2017/yir/steps-jan.jpg "Number of steps from January to May")](/images/stats/2017/yir/steps-jan.jpg "")
 [![Number of steps from June to October](/images/stats/2017/yir/steps-jun.jpg "Number of steps from June to October")](/images/stats/2017/yir/steps-jun.jpg "")
