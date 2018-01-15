@@ -1,5 +1,5 @@
 +++
-title = "2017 Yearly review (with metrics!)"
+title = "2017 Year in Review (with metrics!)"
 date = "2018-01-15"
 tags = ["stats","personal","english"]
 +++
@@ -10,7 +10,7 @@ tags = ["stats","personal","english"]
 metrics and notice everything I accomplished.
 
 I don't remember the last time I posted my yearly review publicly but
-as I'm doing monthly posts of my stats, it makes sense to do an yearly
+as I'm doing monthly posts of my stats, it makes sense to do an annual
 review as well.
 
 I do yearly reviews since around 2005 but I never post them
@@ -20,7 +20,7 @@ ago). I write a lot of content but usually don't publish it because I
 try to keep this blog less personal. The stats posts are here because
 I really think it's great to have metrics about yourself, so you can
 evaluate and improve (remember: continuous improvement). These posts
-aim to show that in a practical way while help me to commit to write
+aim to show that in a practical way while helping me to commit to writing
 them monthly.
 
 I will try to follow a template like the one I use for
@@ -71,17 +71,17 @@ have registered:
 I started [listening to audiobooks](/post/audiobooks/) in 2016 and it
 was a huge difference in my life, as you can see in the charts above.
 
-Let's compare the books I read this year with last year's:
+Let's compare the books I read this year with last year:
 
 [![Comparison between 2016 and 2017](/images/stats/2017/yir/goodreads-details.png "Comparison between 2016 and 2017")](https://www.goodreads.com/pothix
 "")
 
 10 books less than last year but it was expected. What bothers me is
-that I **only gave 5 starts to 2 books** (comparing to 9 last year)
-and **the number of books with 3 start is higher than the last year**.
+that I **only gave 5 stars to 2 books** (comparing to 9 last year)
+and **the number of books with 3 starts is higher than the last year**.
 
 The number of books in the "audible-deal" shelf is higher this year
-and most of the books in the 3-stars row are in this shelf... Maybe
+and most of the books in the 3-stars row are on this shelf... Maybe
 the deal is not worth the price after all.
 
 Even with the high number of books in the 3-star row I'm happy with my
@@ -131,24 +131,30 @@ I confess that I was expecting much more than that. An average of 1h31
 per day looks really low for me.
 
 I felt better when checking the comparison with the user base. It
-shows that I have almost twice as much hours coding! :)
+shows that I have almost twice as many hours coding! :)
 
 The low number of hours is probably related to how Wakatime gets the
 stats.
 
 [![Total time coding by project this year](/images/stats/2017/yir/wakatime-projects-total.png "Total time coding by project this year")](https://wakatime.com/@PotHix "")
 
-This year I did a lot for this blog. Changed the entire layout,
-migrated it to [Hugo](https://gohugo.io), converted all posts to Hugo
-format, redirected old URLs to the new content, and wrote 19 posts (my
-goal was 10! 😃). It's expected to have my blog as the first in the
+This year I did a lot for this blog:
+
+* Changed the entire layout
+* migrated it to [Hugo](https://gohugo.io)
+* converted all posts to Hugo
+format
+* redirected old URLs to the new content,
+* wrote 19 posts (my goal was 10! 😃)
+
+It's expected to have my blog as the first in the
 list of projects for this year.
 
 It's really interesting to have my freelance project as the second one
 because I almost not work for them in the last 6 months! It says that
 I was working for them **a lot** in the beginning of the year.
 
-I'm really proud to have [Todoist](https://todoist.com) in my list of
+I'm really proud to have [Todoist](https://todoist.com) on my list of
 projects this year. I'm using/following Todoist since 2007 and it's
 amazing to have the chance to contribute to the app. 🙂
 
@@ -168,7 +174,7 @@ generated more noise than signal. 😞
 
 Markdown is the first one for many reasons:
 
-* I wrote many posts in my blog
+* I wrote many posts on my blog
 * I'm responsible for [Todoist](https://developer.todoist.com)
   and [Twist](https://developer.twistapp.com) documentation
 * I usually write long post in Emacs and then paste them to Twist
@@ -180,7 +186,7 @@ Elixir, both languages are really great. I don't think I will have
 enough ground to play with Elixir this year but maybe Rust will have
 his time in my schedule in 2018. 😃
 
-**Go** is in my top 5 list but I'm not totally comfortable as I would
+**Go** is on my top 5 list but I'm not totally comfortable as I would
 like to be, hope to improve it in 2018.
 
 Forget about "Other" it's related to Bash because of my plugin. 🙄
@@ -191,7 +197,7 @@ In general, these are great results IMO. 😃
 
 I have to say that I'm really proud of myself on this one. 😃
 
-Here is the burn down chart I created to follow up each month (nothing fancy, a simple Google spreadsheets):
+Here is the burndown chart I created to follow up each month (nothing fancy, a simple Google spreadsheets):
 
 [![Burn down chart for my presentations](/images/stats/2017/yir/presentations.png "Burn down chart for my presentations")](/images/stats/2017/yir/presentations.png "")
 
@@ -209,7 +215,7 @@ _hard to achieve this number. I asked him to post about it on his blog_
 _When I saw that, I started a competition with_
 _myself, my goal was **to speak in 2017 more than Milhouse did in 2016**_.
 
-It is like a time trial race in video games, when you have to defeat
+It looks like a time trial race in video games when you have to defeat
 your own "ghost" or the "ghost" of a friend. For those who played bike
 racer from [Top Free Games](http://www.topfreegames.com/), it's just
 like that.
@@ -224,11 +230,10 @@ Thanks to that "competition" I could motivate myself to:
 
 * Propose a talk to [FOSDEM](https://fosdem.org) and speak outside the
   country in a different language. Milhouse had 1 talk outside of
-  Brazil, so I had to beat that. For this reason I spoke in Belgium
-  and Portugal.
+  Brazil, so I had to beat that. For this reason, I spoke in Belgium and Portugal.
 * Speak 3 times in the same conference
   ([TDC](http://www.thedevelopersconference.com.br)) about 3 different
-  languages (Go, Ruby, Javascript) and 3 different fields (CLIs, Web,
+  languages (Go, Ruby, Javascript) and 3 different fields (CLI, Web,
   Games)
 * Do 5 talks with live-coding. 3 of them starting from scratch, with a
   blank text file and 40 minutes of time (For those who don't know,
@@ -242,7 +247,7 @@ speaking, you can use it for anything you want.
 ### ✅ Completed tasks
 
 In the last years, Todoist is providing a Year in review and this year
-is not different. If you're a Todoist user, you can check your
+is no different. If you're a Todoist user, you can check your
 data [here](https://todoist.com/review/2017/you).
 
 Let's check my Todoist tasks! 🙂
@@ -305,7 +310,7 @@ Including my freelance job:
 
 It looks more even now but I don't know if it's a good thing. I don't
 usually work as a freelancer but I work for 1 company for almost two
-years now and I really like the challenges we have there, so I would
+years now and I really like the challenges they have there, so I would
 like to work for them again. To be able to do that, I have to
 stabilize my workday. From July to December I did almost no work for
 them:
@@ -330,7 +335,7 @@ What an **AMAZING** thing to see. I really like when I'm on the flow
 state focusing on my task. That chart shows me that I was happier than
 before. 🙂
 
-As I found that it was possible to apply deep work in my previous job
+As I realized that it would not be possible to apply my deep work techniques in my previous job
 I was applying that on my freelance work. If I add to the chart all
 the freelance work I did for that company (features, bug busting,
 infrastructure) we have this:
@@ -340,7 +345,7 @@ infrastructure) we have this:
 Which is not that bad. 🙂
 
 The good part is that I can apply Deep work to my full-time job
-instead of looking for a different place to use it. 🎉
+instead of look for a different place to use it. 🎉
 
 I would love to track the time I spent in meetings comparing the first
 semester and the second but I was not tracking it in the first
@@ -356,15 +361,15 @@ this year:
 
 [![Chart for my time doing/planning presentations](/images/stats/2017/yir/toggl-presentation.png "Chart for my time doing/planning presentations")](/images/stats/2017/yir/toggl-presentation.png "")
 
-Sometimes I did not track it at all, specially in the beginning of the
-year, but it's worth mentioning as well. In April and June I was
+Sometimes I did not track it at all, especially in the beginning of the
+year, but it's worth mentioning as well. In April and June, I was
 practicing for my live-coding session. 🙂
 
 I'm also using [rescuetime](https://www.rescuetime.com/ref/1403570) to
 track my productivity. I'm not sure if my configuration is good and I
 keep changing them, so these metrics may not be so accurate. A good
 example of that is my tracking time, I'm also tracking the time at
-night when I'm talking to friends via Telegram or in the weekend.
+night when I'm talking to friends via Telegram or over the weekend.
 
 Let's look at the productive and distracting hours for the entire
 year:
@@ -372,7 +377,7 @@ year:
 [![Rescuetime metrics for productive and distracting hours](/images/stats/2017/yir/rescuetime-yir-productive-hours.png "Rescuetime metrics for productive and distracting hours")](/images/stats/2017/yir/rescuetime-yir-productive-hours.png "")
 [![Rescuetime metrics for the category that took most of my time](/images/stats/2017/yir/rescuetime-yir-by-category.png "Rescuetime metrics for the category that took most of my time")](/images/stats/2017/yir/rescuetime-yir-by-category.png "")
 
-A lot of distracting hours. As it consider my weekends and nights, I
+A lot of distracting hours. As it considers my weekends and nights, I
 don't think it's accurate. It still bothers me that "communication &
 scheduling" is the most used category. I will change that this year.
 
@@ -427,7 +432,7 @@ apps for metrics but turns out that it's not so easy to retrieve
 yearly information. 😞
 
 What I did to get the information I need was to look month by month
-and take screenshots in my cellphone. It was not so easy or pleasant
+and take screenshots on my cell phone. It was not so easy or pleasant
 but here is the data regarding my steps:
 
 [![Number of steps from January to May](/images/stats/2017/yir/steps-jan.jpg "Number of steps from January to May")](/images/stats/2017/yir/steps-jan.jpg "")
@@ -459,10 +464,10 @@ I have the following:
 
 I just copied and pasted all the data from all posts into a Google
 Spreadsheets and generated a chart, no science here. January,
-February, and March have no data, unfortunately.
+February and March have no data, unfortunately.
 
 The interesting metric I can get from this chart is that I'm writing a
-lot more and the *corrections made* are not increasing in the same
+lot more and the *corrections made* are not increasing at the same
 pace. This is really great to see. 😃
 
 Unique words are stable since I started tracking my words. Looks like
@@ -525,18 +530,18 @@ have my travel expenses taking most part of my money spent. For me,
 traveling is an investment and I don't regret spending money on it.
 
 It bothers me that "Compras" (general spending) is the second category
-in my expenses. I was expecting to have "Mercado" (groceries) here or
+of my expenses. I was expecting to have "Mercado" (groceries) here or
 maybe "Bares / Restaurantes" (eating out), but not "compras". I will
-look closely to it this year because it's an yellow flag to my
+look closely at it this year because it's an yellow flag for my
 expenses.
 
 Regarding my savings, it **increased by 16.83%** this year,
-considering the value I had in the end of April (I don't have data for
+considering the value I had at the end of April (I don't have data for
 Jan, Feb, and March). It's an **average of 2.10%** for each month, so
 if we apply that for January, February, March, and April, **we would
-have 25.25%**. In the end of the year I had 75.10% of my savings goal.
+have 25.25%**. In the end of the year, I had 75.10% of my savings goal.
 
-Considering that I did not received any payment in the last 6 months,
+Considering that I did not receive any payment in the last 6 months,
 it's **really great**! I'm already expecting for a huge increase in my
 savings for January when I received the payment for the work in the
 last months. 😃
@@ -546,11 +551,11 @@ last months. 😃
 
 Well, this one took some time. 😜
 
-I started it in the airplane, coming back from York. Unfortunately, I
+I started it on the airplane, coming back from York. Unfortunately, I
 lost my tracking because of a software problem but I doubt I spent
 less than 2 hours on it, so let's consider 2 hours.
 
-After that I worked for 4h28min more, so we have **6h28min to write
+After that I worked for 07h15min more, so we have **9h15min to write
 this blog post** and it worth it, for sure.
 
 
