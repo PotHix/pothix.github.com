@@ -1,6 +1,6 @@
 #!/bin/sh
 
-YEAR=2017
+YEAR=2018
 MONTH_BEFORE=$1
 MONTH_AFTER=$2
 
