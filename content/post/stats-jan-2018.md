@@ -4,7 +4,7 @@ date = "2018-02-07"
 tags = ["stats","personal","english"]
 +++
 
-I'm excited to write the post about my performance for the first month
+I'm excited to write this post about my performance for the first month
 of the year. I think I will have some great news at the end of this
 post, related to my expenses.
 
@@ -12,8 +12,7 @@ Let's get started! 😀
 
 ### Books
 
-I decided to listen to my podcasts this month, so I did not listened
-to that many audio books. The only book I read this month was a
+I decided to listen to my podcasts this month, so I did not hear that many audiobooks. The only book I read this month was a
 physical book:
 
 [![List of books read this month](/images/stats/2018/jan/goodreads.png "List of books read this month")](https://www.goodreads.com/pothix
@@ -21,13 +20,13 @@ physical book:
 
 [Hiding in unnatural happiness](http://amzn.to/2FcD6PU) is a book I
 received from a monk in York. It was the first time I heard about
-Krishna, Bhagavad Gita, and some other things. It was an interesting
-read but 3 stars is enough for it.
+Krishna, Bhagavad Gita, and some other things. It was an exciting
+read, but 3 stars are enough for it.
 
 ### Articles
 
 As usual, I'm using that same export file from
-[Pocket](https://getpocket.com) and that time I changed the script to
+[Pocket](https://getpocket.com) and this time I changed the script to
 calculate, it will save me some time in the next month:
 
 ```
@@ -44,12 +43,12 @@ console.log("var pocket = " + JSON.stringify(pocket))
 var pocket = {"unread":1352,"unread_pct":4.14,"read":1008,"read_pct":6.15}
 ```
 
-It means I have **1352 articles Unread** and **1008 articles
-Read**. Comparing with my results from the last month (**1296 unread**
+It means I have **1352 articles unread** and **1008 articles
+read**. Comparing with my results from the last month (**1296 unread**
 and **946 read**), I got around **4% more unread articles** and **6%
 more read articles**.
 
-A big increase this month but it's great to see the read percentage
+A significant increase this month but it's great to see the books read percentage
 higher than the read one.
 
 ### Coding
@@ -59,7 +58,7 @@ since the last post. I will start with editors this time:
 
 [![Editors used during this month on Wakatime](/images/stats/2018/jan/wakatime-editors.png "Editors used during this month on Wakatime")](https://wakatime.com/@PotHix "")
 
-Looks like my Vim configuration is not working, just fixed that but my
+It looks like my Vim configuration is not working, just fixed that but my
 metrics were not collected. 😞
 
 [![Hours of coding on Wakatime this month](/images/stats/2018/jan/wakatime-coding.png "Hours of coding on Wakatime this month")](https://wakatime.com/@PotHix "")
@@ -74,11 +73,11 @@ freelance coding.
 
 ### Speaking
 
-No presentations this month. I will not post a chart for that
-anymore. I don't have a goal related to presentations this year.
+No presentations were done this month. I will not post a chart for that
+anymore. I don't have a goal related to it this year.
 
-I submitted talks for two conferences this month, maybe I will have
-some good news next month. 👀
+I submitted talks for two conferences, maybe I will have some good
+news next month. 👀
 
 ### Completed tasks
 
@@ -99,15 +98,15 @@ Here is my
 [![Amount of time spent listening to Podcasts this month](/images/stats/2018/jan/podcasts.jpg "Amount of time spent listening to Podcasts this month")](/images/stats/2018/jan/podcasts.jpg)
 
 **6 days and 3 hours** of podcast time is a personal record for me. Of
-course I did not use 147 hours of my time to listen to Podcasts, I
+course, I did not use 147 hours of my time to listen to Podcasts, I
 usually speed-up them, so I would guess it was around 60-70 hours. 😀
 
 As usual, here is the list of Podcasts and their times:
 
 [![Amount of time spent listening to Podcasts, ordered by title](/images/stats/2018/jan/podcast_titles.jpg "Amount of time spent listening to Podcasts, ordered by title")](/images/stats/2018/jan/podcast_titles.jpg)
 
-Just remember that this is an "all-time list" and I'm tracking time
-instead of the episode which makes short podcasts to not appear as
+Just remember that this is an "all-time list", and I'm tracking time
+instead of the episode which makes short podcasts not to appear as
 "most listened" ones. I listen to [CBN
 podcasts](http://audioglobo.globo.com/cbn) almost every day, but they
 are just some minutes long.
@@ -116,8 +115,8 @@ I would also want to highlight that I **started listening to
 [Philosophize this podcast](https://philosophizethis.com)** and highly
 recommend you to try it. I decided to listen to 10 episodes in a row,
 starting from episode 1. I usually don't read about philosophy because
-the literature boring as hell, but this podcast explain all the good
-parts of it and makes it really enjoyable to listen to.
+the literature is boring as hell, but this podcast explains all the good
+parts of it and makes it enjoyable to listen.
 
 ### Hours working
 
@@ -130,27 +129,27 @@ month (second):
 
 I think I'm improving! I started to compute the number of hours I'm
 working in a day. Instead of working until I finish my tasks, I
-decided to set up 8 hours to work and I have to **work smarter** to be
-able to include all tasks in this time schedule. I really recommend
+decided to set up 8 hours to work, and I have to **work smarter** to be
+able to include all tasks in this schedule. I highly recommend
 this strategy if you want to focus on your work and avoid
 over-working.
 
-We had 21 work days this month and I worked for 181 hours, which mean
+We had 21 work days this month, and I worked for 181 hours, which mean
 that **I worked 13 hours more than I should**. It was the same number
-of hours of the last month but this time it looks more uniform in the
+of hours of the last month, but this time it looks more uniform in the
 chart.
 
 [![Deep vs Shallow work](/images/stats/2018/jan/toggl-time-working-deep-shallow.png "Deep vs Shallow work")](/images/stats/2018/jan/toggl-time-working-deep-shallow.png "")
 
 What I can take from this chart:
 
-* I had less meetings this month, this is definitely a good metric. 😀
-* Had some time invested in hiring but it's probably done already! 😀
-* Shallow work decreased from 60% to less than 50%, I'm really happy to see that
+* I had fewer meetings this month; this is definitely a good metric. 😀
+* Had some time invested in hiring, but it's probably done already! 😀
+* Shallow work decreased from 60% to less than 50%, I'm thrilled to see that
 
 "Read/Reply Twist" is still consuming a lot of time. I changed my
 workflow to process all [Twist](https://twistapp.com) threads quickly
-and add [Todoist](https://todoist.com) task for them. After that I can
+and add [Todoist](https://todoist.com) task for them. After that, I can
 close Twist and focus on my tasks when I feel comfortable to research
 what needs to be done and reply to them. This workflow is not showing
 its results yet, but maybe we will have something next month. 😉
@@ -176,8 +175,11 @@ Here is my data from [RescueTime](https://www.rescuetime.com/ref/1403570):
 
 I found out that something was not good with my reports. It was
 probably related to my change to Firefox quantum. I decided to get
-back to Chrome for a while and I will try Firefox quantum again as
+back to Chrome for a while, and I will try Firefox quantum again as
 soon as the third party plugins improve.
+
+You can see in the chart the difference when it started reporting the
+websites again instead of just showing "firefox" as neutral time in gray.
 
 ### Physical activity
 
@@ -190,7 +192,7 @@ I got back to the average of **6.5k** steps. Looking into the graph,
 it was almost the same as November (I was traveling in December, it
 should not count).
 
-I'm back to the gym this month and it's reflecting in my weight:
+I'm back to the gym this month, and it's reflecting in my weight:
 
 [![Weight this month](/images/stats/2018/jan/physical-activity-weight.png "Weight for this month")](/images/stats/2018/jan/physical-activity-weight.png "")
 
@@ -234,52 +236,55 @@ Here are my stats for this month:
 + **2039** corrections made (**1380** last month)
 + **12320** unique words (**11979** last month)
 
-I subscribe to Grammarly Premium, maybe this explains the increase in
+I subscribed to Grammarly Premium; maybe this explains the increase in
 my number of corrections made, let's wait for the next month to
 confirm.
 
 ### Locations
 
-New cities were added this month:
+Let's explore my locations. Last month first and **this month right after it**:
 
-[![New cities](/images/stats/2018/jan/location-cities.png "New cities")](/images/stats/2018/jan/location-cities.png "")
+[![General view of my locations data last month](/images/stats/2017/dec/location-general.png "General view of my locations data last month")](/images/stats/2017/dec/location-general.png "") .
+[![General view of my locations data this month](/images/stats/2018/jan/location-general.png "General view of my locations data this month")](/images/stats/2018/jan/location-general.png "")
 
-The missing city is Durham.
+Just visited some places more but no new cities or countries. 😞
 
-Here are the general data:
+[![Location time and distance last month](/images/stats/2017/dec/location-time-distance.png "Location time and distance last month")](/images/stats/2017/dec/location-time-distance.png "") .
+[![Location time and distance this month](/images/stats/2018/jan/location-time-distance.png "Location time and distance this month")](/images/stats/2018/jan/location-time-distance.png "")
 
-[![General view of my locations data](/images/stats/2018/jan/location-general.png "General view of my locations data")](/images/stats/2018/jan/location-general.png "")
-
-Not so useful, but here is the time spent on vehicles:
-
-[![Location time and distance](/images/stats/2018/jan/location-time-distance.png "Location time and distance")](/images/stats/2018/jan/location-time-distance.png "")
-
-It's probably the time spent in taxis from home to the airport and
-also related to the trip we made in North Yorkshire by van.
+I'm back to my normal life with just a few hours spent in vehicles. 😀
 
 [![Kms to the moon](/images/stats/2018/jan/location-moon.png "Kms to the moon")](/images/stats/2018/jan/location-moon.png "")
 
-This trip removed 12k km from my distance to the moon. 👍
-
 ### Expenses
 
-My expenses for this month:
+Here we go for what I was expecting! My expenses for this month! 😀 
 
 [![Expenses by category this month](/images/stats/2018/jan/expenses.jpg "Expenses by category this month")](/images/stats/2018/jan/expenses.jpg "")
 
-This chart **represents all my income for this month**. Yes! You read
-that right, I finally received some freaking money after six months! 🎉
+This chart **represents all my income for this month**. I was finally
+able to receive the money for my work! It was hard to work for many
+months without receiving any payment but finally I could manage to set
+up my company in the right way to receive the money. It is a long
+story and I should write about it in the future.
 
-This money is still not related to my current job but I already
-received my payment, just need to go through the bureaucracy to be
-able to pay the taxes and receive that in my personal account.
+I received the money for my full-time job, my freelance, and for a
+presentation I did in a private company. It was the first time I
+received money for a talk in my entire life, after 40+ talks. 😀
 
-I will definitely write about this whole process soon.
+Now looking at the pie chart, I can realize that I'm traveling a lot. I
+don't think it's a bad thing at all. I usually take care of my
+expenses when traveling so I can do frugal travels, but the airplane
+tickets are usually expensive. I also think the chart is like that
+because I don't spend that much money in my day-to-day life, so when I
+have expenses that are not common, it dominates the entire chart.
 
-This month is finally back to normal! My total savings **increased by
-1.9%** and now I have **75.10%** of my goal.
+I'm not considering the money in transit from my company to my
+personal account (waiting for money exchange, taxes payment and so
+on). So, without considering it, my total savings **increased by
+f*cking 13.46%!** Now I have **85.70%** of my goal.
 
-Next month will be **huge!**
+I'm feeling really good to see my savings growing again! 😀
 
 
 ### Time to write this blog post
@@ -287,14 +292,12 @@ Next month will be **huge!**
 Some people are asking me about how much time it takes to collect all
 the data and write the blog post, so I decided to add this metric
 
-**It took 3 hours and 02 minutes to write this post**
+**It took 4 hours and 02 minutes to write this post**
 
 
 ### Conclusion
 
-I'm back to Brazil after one full month working
-from [York](https://goo.gl/maps/zx1s3AeFo982). I have to say that it
-was really great to work from a different place for some time.
+Back to the old routine and now with a cash flow again. 🙂
 
-This was the last month of the year so expect a yearly review from me
-soon. 😀
+I'm finally engaging in the same optimized routine I had in the past,
+and I'm glad to see that happening again. 🚀
