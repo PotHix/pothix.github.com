@@ -23,9 +23,10 @@ Here is a list of my current priorities:
 + Improving my Python skills
 + Playing with [Rust](https://www.rust-lang.org/en-US/)
 + Collecting data about me to be able to [post about it monthly](/tags/stats)
++ Reading books and listening to many audiobooks on Audible. My reviews are available [here](https://goodreads.com/pothix)
 
 I'm always trying to be more productive and write more code. [I'm posting about
 my results monthly](/tags/stats), but here are my coding stats for the last
 **30 days**:
 
-(last updated on January 2018)
+(last updated on February 2018)
