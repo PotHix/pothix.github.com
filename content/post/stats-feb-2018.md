@@ -5,33 +5,41 @@ tags = ["stats","personal","english"]
 draft = true
 +++
 
-I'm excited to write this post about my performance for the first month
-of the year. I think I will have some great news at the end of this
-post, related to my expenses.
-
-Let's get started! 😀
+February time! Let's see what we can get from my metrics 😀
 
 ### Books
 
-I decided to listen to my podcasts this month, so I did not hear that many audiobooks. The only book I read this month was a
-physical book:
+**Note**: I write a review for each book I read. You can find them on [my Goodreads account](https://goodreads.com/pothix).
+
+I'm quite satisfied with my reading list for this month:
 
 [![List of books read this month](/images/stats/2018/feb/goodreads.png "List of books read this month")](https://www.goodreads.com/pothix
 "")
 
-[Hiding in unnatural happiness](http://amzn.to/2FcD6PU) is a book I
-received from a monk in York. It was the first time I heard about
-Krishna, Bhagavad Gita, and some other things. It was an exciting
-read, but 3 stars are enough for it.
+5 books read in a month and a **4.6 average rating**. That's what I call a good reading month.
+
+[The Art of Learning: A Journey in the Pursuit of Excellence](http://amzn.to/2F9ki3C). This was another great recommendation by [Amir](https://twitter.com/amix3k). The author was a chess prodigy as a kid and an international chess master in the age of 16. He also was high skilled in Martial arts. In this book he shows what he extracted from his process of learning during all those years in physical and mental arts. You can read [my review on Goodreads](https://www.goodreads.com/review/show/2269391156).
+
+[The Richest Man in Babylon](http://amzn.to/2tdJzYS). This book is a series of fiction stories using Babylon as the central topic. It's a good book but Rich Dad, Poor Dad ruined it for me. Reason below.
+
+[Rich Dad, Poor Dad](http://amzn.to/2CWDdwu). It's a great book. When I was reading it, I asked some friends why they did not recommended it before. There are some great ideas there (depending on you political opinions, you may not like it) and I saw many of them being applied in practice in my own life. It was almost a 5 stars review, but the ending was really boring. I felt he was trying to add more pages to the book.
+
+[The Art of Invisibility](http://amzn.to/2taeLbk). This is the book that makes you paranoid about security (if you care about it). I recommend you to read it if you feel secure using the internet.
+
+[Anything You Want](http://amzn.to/2tgAdM1). An amazing book. Short, straight to the point, and with killer hints on how to Derek Sivers dealt with his business. I really recommend this one.
+
+[Gather 'Round the Sound](http://amzn.to/2oF2kje). This was a free audiobook by Audible. It was nice to listen but nothing astonishing.
+
 
 ### Articles
 
 As usual, I'm using that same export file from
-[Pocket](https://getpocket.com) and this time I changed the script to
-calculate, it will save me some time in the next month:
+[Pocket](https://getpocket.com) and a script that look like the one I
+used last month. Here is the script with the actual data:
 
 ```
 var pocket = {"unread":1352,"unread_pct":4.14,"read":1008,"read_pct":6.15};
+
 var uls=document.body.getElementsByTagName("ul");
 unread = uls[0].children.length;
 pocket["unread_pct"] = +((1 - pocket["unread"] / unread) * 100).toFixed(2);
@@ -44,13 +52,14 @@ console.log("# Result: " + JSON.stringify(pocket))
 # Result: {"unread":1420,"unread_pct":4.79,"read":1020,"read_pct":1.18}
 ```
 
-It means I have **1352 articles unread** and **1008 articles
-read**. Comparing with my results from the last month (**1296 unread**
-and **946 read**), I got around **4% more unread articles** and **6%
+It means I have **1420 articles unread** and **1020 articles
+read**. Comparing with my results from the last month (**1352 unread**
+and **1008 read**), I got around **4.8% more unread articles** and **1%
 more read articles**.
 
-A significant increase this month but it's great to see the books read percentage
-higher than the read one.
+It seems that my unread articles list is increasing. My list of unread increased by just 1%. I'm still reading but not enough to take care of the unread list.
+
+I should probably consider not adding articles there anymore. I just have to consider if the feeling of adding articles "for future reading" is worth keeping the system. More on that in the next months.
 
 ### Coding
 
