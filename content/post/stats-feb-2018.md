@@ -83,11 +83,18 @@ freelance coding.
 
 ### Speaking
 
-No presentations were done this month. I will not post a chart for that
-anymore. I don't have a goal related to it this year.
+I had one presentation at Impacta tecnologia this month. The title was
+[Criando um snake game do zero com Ruby e
+Gosu](http://www.impacta.com.br/eventos/03-02-2018-De-um-arquivo-vazio-ate-um-snake-game-funcionando-usando-Ruby-e-Gosu). I
+built a simple game from scratch, teaching the simple flows of how to
+do that using Ruby. It was really nice for me, hope everyone enjoyed
+as much as I did.
 
-I submitted talks for two conferences, maybe I will have some good
-news next month. 👀
+You can always check my list of talks [here](/talks).
+
+I said that I submitted talks for two conferences last month and both
+were rejected. One of them was a great fit for the conference, IMO. I
+should probably improve my proposals and try again in the future. :)
 
 ### Completed tasks
 
