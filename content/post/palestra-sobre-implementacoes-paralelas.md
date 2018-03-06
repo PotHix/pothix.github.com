@@ -21,8 +21,7 @@ caso.
 
 <iframe src="http://www.slideshare.net/slideshow/embed_code/11724894" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0" allowfullscreen></iframe>
 
-<iframe src="http://blip.tv/play/hOdBgu3uVQI.html?p=1" width="596" height="334" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K6mcLPLhum4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Essas técnicas simples ajudaram a manter nosso código muito mais fácil
 de manter. Espero que seja útil para mais alguém. ;)
-
