@@ -57,9 +57,13 @@ read**. Comparing with my results from the last month (**1352 unread**
 and **1008 read**), I got around **4.8% more unread articles** and **1%
 more read articles**.
 
-It seems that my unread articles list is increasing. My list of unread increased by just 1%. I'm still reading but not enough to take care of the unread list.
+It seems that my unread articles list is increasing. My list of unread
+increased by just 1%. I'm still reading but not enough to take care of
+the unread list.
 
-I should probably consider not adding articles there anymore. I just have to consider if the feeling of adding articles "for future reading" is worth keeping the system. More on that in the next months.
+I should probably consider not adding articles there anymore. I just
+have to consider if the feeling of adding articles "for future
+reading" is worth keeping the system. More on that in the next months.
 
 ### Coding
 
@@ -68,18 +72,27 @@ since the last post. I will start with editors this time:
 
 [![Editors used during this month on Wakatime](/images/stats/2018/feb/wakatime-editors.png "Editors used during this month on Wakatime")](https://wakatime.com/@PotHix "")
 
-It looks like my Vim configuration is not working, just fixed that but my
-metrics were not collected. 😞
+My Vim configuration is fixed and it's back to 15%. :)
 
 [![Hours of coding on Wakatime this month](/images/stats/2018/feb/wakatime-coding.png "Hours of coding on Wakatime this month")](https://wakatime.com/@PotHix "")
 
-It doesn't look correct, unfortunately. Some hours are missing here. 😞
+Unfortunately, the screenshot is not that good and I'm just seeing
+that some days after taking it. I will keep it here.
+
+It's interesting to look at this chart. I had one week of vacation,
+that you can easily see in the middle of the chart, but after that, I
+had 3 days to catch up to a lot of non-coding work to do before going
+full-throttle again. I'm really interested to see if this is a pattern
+in the next holidays.
 
 [![Languages used during this month on Wakatime](/images/stats/2018/feb/wakatime-languages.png "Languages used during this month on Wakatime")](https://wakatime.com/@PotHix "")
 
-As usual, `markdown` and `Python` are present. I tried some `Rust` as
-well and did some `Ruby` coding because of my presentation and some
-freelance coding.
+Finally I have two programming languages in the top instead of `markdown`. :P
+
+I'm not writing on Emacs these days, this is the reason I don't have
+so much markdown. `Python` is my first language but I had some `Ruby`
+as well. I'm quite happy with the results. Hope to have more `Rust` or
+maybe `Elixir` in the next posts.
 
 ### Speaking
 
