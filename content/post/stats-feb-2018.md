@@ -72,7 +72,7 @@ since the last post. I will start with editors this time:
 
 [![Editors used during this month on Wakatime](/images/stats/2018/feb/wakatime-editors.png "Editors used during this month on Wakatime")](https://wakatime.com/@PotHix "")
 
-My Vim configuration is fixed and it's back to 15%. :)
+My Vim configuration is fixed and it's back to 15%. 🙂
 
 [![Hours of coding on Wakatime this month](/images/stats/2018/feb/wakatime-coding.png "Hours of coding on Wakatime this month")](https://wakatime.com/@PotHix "")
 
@@ -96,7 +96,7 @@ maybe `Elixir` in the next posts.
 
 ### Speaking
 
-I had one presentation at Impacta tecnologia this month. The title was
+I had one presentation at [Impacta tecnologia](http://www.impacta.com.br/) this month. The title was
 [Criando um snake game do zero com Ruby e
 Gosu](http://www.impacta.com.br/eventos/03-02-2018-De-um-arquivo-vazio-ate-um-snake-game-funcionando-usando-Ruby-e-Gosu). I
 built a simple game from scratch, teaching the simple flows of how to
@@ -107,7 +107,7 @@ You can always check my list of talks [here](/talks).
 
 I said that I submitted talks for two conferences last month and both
 were rejected. One of them was a great fit for the conference, IMO. I
-should probably improve my proposals and try again in the future. :)
+should probably improve my proposals and try again in the future. 🙂
 
 ### Completed tasks
 
@@ -118,7 +118,13 @@ tasks for this month (second). It was extracted from
 [![Amount of tasks completed last month](/images/stats/2018/jan/tasks-completed.png "Amount of tasks completed last month")](/images/stats/2018/jan/tasks-completed.png)
 [![Amount of tasks completed this month](/images/stats/2018/feb/tasks-completed.png "Amount of tasks completed this month")](/images/stats/2018/feb/tasks-completed.png)
 
-It looks stable again! 😀
+It's reflecting my vacation but I can see I completed much more tasks
+as soon as I got back. If we compare with the amount of coding I did,
+it tells me that I had many tasks to do but they were not related to
+coding. 🤔
+
+It's good to know that to feel better when there not so many
+commits. 👍
 
 ### Podcasts
 
@@ -127,9 +133,8 @@ Here is my
 
 [![Amount of time spent listening to Podcasts this month](/images/stats/2018/feb/podcasts.jpg "Amount of time spent listening to Podcasts this month")](/images/stats/2018/feb/podcasts.jpg)
 
-**6 days and 3 hours** of podcast time is a personal record for me. Of
-course, I did not use 147 hours of my time to listen to Podcasts, I
-usually speed-up them, so I would guess it was around 60-70 hours. 😀
+**2 days** of podcast time is the average for me. As usual, it is the
+opposite of the number of book I "read" (listened to).
 
 As usual, here is the list of Podcasts and their times:
 
@@ -141,13 +146,6 @@ instead of the episode which makes short podcasts not to appear as
 podcasts](http://audioglobo.globo.com/cbn) almost every day, but they
 are just some minutes long.
 
-I would also want to highlight that I **started listening to
-[Philosophize this podcast](https://philosophizethis.com)** and highly
-recommend you to try it. I decided to listen to 10 episodes in a row,
-starting from episode 1. I usually don't read about philosophy because
-the literature is boring as hell, but this podcast explains all the good
-parts of it and makes it enjoyable to listen.
-
 ### Hours working
 
 Here is the data from my time tracking software,
@@ -155,61 +153,70 @@ Here is the data from my time tracking software,
 month (second):
 
 [![Hours working using Toggl last month](/images/stats/2018/jan/toggl-time-working.png "Hours working using Toggl last month")](/images/stats/2018/jan/toggl-time-working.png "")
+
 [![Hours working using Toggl](/images/stats/2018/feb/toggl-time-working.png "Hours working using Toggl")](/images/stats/2018/feb/toggl-time-working.png "")
 
-I think I'm improving! I started to compute the number of hours I'm
-working in a day. Instead of working until I finish my tasks, I
-decided to set up 8 hours to work, and I have to **work smarter** to be
-able to include all tasks in this schedule. I highly recommend
-this strategy if you want to focus on your work and avoid
-over-working.
+There's an interesting pattern in this chart. Again, before and after
+my vacation I had long working hours (almost 10 hours).
 
-We had 21 work days this month, and I worked for 181 hours, which mean
-that **I worked 13 hours more than I should**. It was the same number
-of hours of the last month, but this time it looks more uniform in the
-chart.
+I had 16 working days this month, and I worked for 139 hours, which
+mean that **I worked 11 hours more than I should** (it was 13 in the
+last month 🎉).
+
+I should probably schedule to work for 7:30 so I would work 8 hours (Brazilian way). 🙄
+
+Let's check Deep work versus Shallow work:
 
 [![Deep vs Shallow work](/images/stats/2018/feb/toggl-time-working-deep-shallow.png "Deep vs Shallow work")](/images/stats/2018/feb/toggl-time-working-deep-shallow.png "")
 
+It's almost the same proportions I had [in January](/post/stats-jan-2018).
+
 What I can take from this chart:
 
-* I had fewer meetings this month; this is definitely a good metric. 😀
-* Had some time invested in hiring, but it's probably done already! 😀
-* Shallow work decreased from 60% to less than 50%, I'm thrilled to see that
+* I had more meetings this month; It's happening because I'm a mentor of the other member of my team and there is some onboarding tasks.
+* Shallow work is still 64%. I said it was less than 50% last month but I really don't know where did I get this metric. 🤔
 
 "Read/Reply Twist" is still consuming a lot of time. I changed my
 workflow to process all [Twist](https://twistapp.com) threads quickly
-and add [Todoist](https://todoist.com) task for them. After that, I can
-close Twist and focus on my tasks when I feel comfortable to research
-what needs to be done and reply to them. This workflow is not showing
-its results yet, but maybe we will have something next month. 😉
+and add [Todoist](https://todoist.com) task for them. I don't think
+it's working as expected yet because these threads always take my
+attention back to Twist, I have to take the control back. 🙂
 
-I will prepare a post about my workflow using **Todoist** and
-**Twist** soon.
+The good thing is that it's totally up to me to improve the way I deal with this problem. I will work on it. 👍
 
-Now, let's continue to my personal projects:
+Now, let's continue to my personal projects, last month first and this month last:
+
+[![Hours working on personal projects using Toggl](/images/stats/2018/jan/toggl-time-personal-projects.png "Hours working on personal projects using Toggl")](/images/stats/2018/jan/toggl-time-personal-projects.png "")
 
 [![Hours working on personal projects using Toggl](/images/stats/2018/feb/toggl-time-personal-projects.png "Hours working on personal projects using Toggl")](/images/stats/2018/feb/toggl-time-personal-projects.png "")
 
-That was a good improvement considering I did not have any time
-working on personal projects last month.
+It's definitely improving! I had a talk last month and also some
+freelance work to keep my Ruby/Rails skills up-to-date. 💪
 
-I decided to add my freelance to this chart so it will not interfere
-with my metrics from Doist. Here I have my freelance work and my
-talks.
+I'm really glad to see that I'm back on track to my personal projects. It took around 6 months to stabilize as I predicted.
 
 Here is my data from [RescueTime](https://www.rescuetime.com/ref/1403570):
 
 [![Goal of productive hours on RescueTime](/images/stats/2018/feb/rescuetime-productivetime.png "Goal of productive hours on RescueTime")](/images/stats/2018/feb/rescuetime-productivetime.png "")
 [![RescueTime pulse](/images/stats/2018/feb/rescuetime-pulse.png "RescueTime pulse")](/images/stats/2018/feb/rescuetime-pulse.png "")
 
-I found out that something was not good with my reports. It was
-probably related to my change to Firefox quantum. I decided to get
-back to Chrome for a while, and I will try Firefox quantum again as
-soon as the third party plugins improve.
+The report is finally working perfectly again. The culprit for my non-productive time is Telegram. I'm keeping it closed most part of the day but it's still my main communication app.
 
-You can see in the chart the difference when it started reporting the
-websites again instead of just showing "firefox" as neutral time in gray.
+It looks like I'm spending around 40-50 minutes using Telegram on average:
+
+[![Time spend on Telegram according to Rescuetime](/images/stats/2018/feb/rescuetime-telegram-time.png "Time spent on Telegram according to RescueTime")](/images/stats/2018/feb/rescuetime-telegram-time.png "")
+
+I'm not tracking my cellphone because I usually don't use it enough to
+interfere on my productivity and it was just generating noise to my
+data. This is why I have almost no activity during vacations.
+
+I was trying to understand if I have a particular moment where I use Telegram the most:
+
+[![Time of the day I used Telegram according to Rescuetime](/images/stats/2018/feb/rescuetime-telegram-time-by-hour.png "Time of the day I used Telegram according to RescueTime")](/images/stats/2018/feb/rescuetime-telegram-time-by-hour.png "")
+
+It seems that around 10:00 is the time I most use Telegram. It's not
+that good since it should be my peak time. I will have to improve my
+morning routine. 👍
 
 ### Physical activity
 
@@ -218,11 +225,9 @@ I'm using my Mi band data to calculate my average steps:
 [![Activity data for this month by Mi-Fit app](/images/stats/2018/feb/activity.jpg "Activity data for this month by Mi-Fit app")](/images/stats/2018/feb/activity.jpg "")
 [![Activity data comparison for this month by Mi-Fit app](/images/stats/2018/feb/activity_comparison.jpg "Activity data comparison for this month by Mi-Fit app")](/images/stats/2018/feb/activity-comparison.jpg "")
 
-I got back to the average of **6.5k** steps. Looking into the graph,
-it was almost the same as November (I was traveling in December, it
-should not count).
+The chart shows that it's almost the same as the last month (**6.5k** steps), which is not that bad.
 
-I'm back to the gym this month, and it's reflecting in my weight:
+I'm going to the gym almost every day. My goal is to improve my muscles and take care of my left arm after the Ban kart and Hill Sacks lesion. As I'm not doing cardio exercises, my weight is still good:
 
 [![Weight this month](/images/stats/2018/feb/physical-activity-weight.png "Weight for this month")](/images/stats/2018/feb/physical-activity-weight.png "")
 
@@ -230,28 +235,32 @@ Here is my sleep data for this month:
 
 [![Amount of sleep for this month](/images/stats/2018/feb/sleep.jpg "Amount of sleep for this month")](/images/stats/2018/feb/sleep.jpg "")
 
-As we can see in the chart, it's almost the same but a little bit more deep sleep. 👍
+As we can see in the chart, it's almost the same as the last month, and I'm happy with that. 👍
 
 Considering the whole user base from mi-band:
 
 [![Sleep comparison with the user base](/images/stats/2018/feb/sleep_deep_comparison.jpg "Sleep comparison with the user base")](/images/stats/2018/feb/sleep_deep_comparison.jpg "")
 
-My goal is to change this chart for the last month. I want to be
-**above average for the sleeping earlier chart** and hope to have
-**more deep sleep**.
+This chart only consider the last 7 days. My goal [last month](/post/stats-jan-2018) was to improve my "Fell asleep score" and it's really better now.
+
+My new routine consider sleeping at 22:30 and waking up between 6 and 6:30. As you can see, it's working really well. 😀
+
+We just have do ignore the deep sleep for the last 7 days. ✌️
 
 ### TV Shows
 
-According to [tvshowtime](https://www.tvshowtime.com) I watched 22
+According to [tvshowtime](https://www.tvshowtime.com) I watched 3
 episode this month:
 
 [![TV shows watched this month according to tvshowtime](/images/stats/2018/feb/tvshows.jpg "TV shows watched this month according to tvshowtime")](/images/stats/2018/feb/tvshows.jpg "")
 
-We finished the first season of **Billions**, finished the 4th season
-of **Vikings**, and started **Punisher**. 😀
+I forgot to add it to the app before it was too late. These 3 episodes are related to **Punisher**. 😀
 
-I spent **19 hours** of my life watching TV shows this month.
-
+I spent **3 hours** of my life watching TV shows this month... But I
+also watched some movies. I'm not tracking movies yet because I
+usually don't watch that much. Last year I watched less than 10
+movies. In case I decide to start watching more movies I will consider
+tracking them.
 
 ### Words written and errors
 
@@ -262,13 +271,11 @@ while.
 
 Here are my stats for this month:
 
-+ **71248** words written (**93129** last month)
-+ **2039** corrections made (**1380** last month)
-+ **12320** unique words (**11979** last month)
++ **72766** words written (**71248** last month)
++ **3451** corrections made (**2039** last month)
++ **14352** unique words (**12320** last month)
 
-I subscribed to Grammarly Premium; maybe this explains the increase in
-my number of corrections made, let's wait for the next month to
-confirm.
+The corrections made keep increasing, I'm sure this is happening because of Grammarly premium. It offers some "advanced" corrections.
 
 ### Locations
 
@@ -279,35 +286,22 @@ Let's explore my locations. Last month first and **this month right after it**:
 
 Just visited some places more but no new cities or countries. 😞
 
+Let's see the time commuting, last month first and this month second:
+
 [![Location time and distance last month](/images/stats/2018/jan/location-time-distance.png "Location time and distance last month")](/images/stats/2018/jan/location-time-distance.png "") .
 [![Location time and distance this month](/images/stats/2018/feb/location-time-distance.png "Location time and distance this month")](/images/stats/2018/feb/location-time-distance.png "")
 
-I'm back to my normal life with just a few hours spent in vehicles. 😀
+Long hours spend on vehicles this month. I decided to visit my parents and it requires at least 12 hours on a bus 😬. My time walking is almost the same.
 
 [![Kms to the moon](/images/stats/2018/feb/location-moon.png "Kms to the moon")](/images/stats/2018/feb/location-moon.png "")
 
 ### Expenses
 
-Here we go for what I was expecting! My expenses for this month! 😀
+It's time to check my expenses! 💸
 
 [![Expenses by category this month](/images/stats/2018/feb/expenses.jpg "Expenses by category this month")](/images/stats/2018/feb/expenses.jpg "")
 
-This chart **represents all my income for this month**. I was finally
-able to receive the money for my work! It was hard to work for many
-months without receiving any payment but finally I could manage to set
-up my company in the right way to receive the money. It is a long
-story and I should write about it in the future.
-
-I received the money for my full-time job, my freelance, and for a
-presentation I did in a private company. It was the first time I
-received money for a talk in my entire life, after 40+ talks. 😀
-
-Now looking at the pie chart, I can realize that I'm traveling a lot. I
-don't think it's a bad thing at all. I usually take care of my
-expenses when traveling so I can do frugal travels, but the airplane
-tickets are usually expensive. I also think the chart is like that
-because I don't spend that much money in my day-to-day life, so when I
-have expenses that are not common, it dominates the entire chart.
+The chart seems to be back to normal.
 
 I'm not considering the money in transit from my company to my
 personal account (waiting for money exchange, taxes payment and so
