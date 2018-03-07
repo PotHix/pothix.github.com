@@ -2,7 +2,6 @@
 title = "Stats for Feb, 2018"
 date = "2018-02-07"
 tags = ["stats","personal","english"]
-draft = true
 +++
 
 February time! Let's see what we can get from my metrics. 😀
