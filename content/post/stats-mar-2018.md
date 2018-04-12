@@ -130,7 +130,7 @@ Let's check Deep work versus Shallow work:
 
 What I can take from this chart:
 
-* I had more meetings than usual but not too bad
+* I had more meetings than usual but it's not too bad
 * Shallow work is still 55% (better than 64% from February)
 * The Shallow work task (the most generic I have) is still the big
   black box. I'm trying to not split the tracking too much or it will
@@ -165,7 +165,9 @@ Still following my Telegram usage, here is the comparison from the previous mont
 
 It seems quite stable, let's wait for the next month.
 
-I'm still trying to understand if I have a particular moment where I use Telegram the most, here is the difference from the last month to the current one:
+I'm still trying to understand if I have a particular moment where I
+use Telegram the most, here is the difference from the last month to
+the current one:
 
 [![Time of the day I used Telegram according to Rescuetime](/images/stats/2018/feb/rescuetime-telegram-time-by-hour.png "Time of the day I used Telegram according to RescueTime")](/images/stats/2018/feb/rescuetime-telegram-time-by-hour.png "")
 [![Time of the day I used Telegram according to Rescuetime](/images/stats/2018/mar/rescuetime-telegram-time-by-hour.png "Time of the day I used Telegram according to RescueTime")](/images/stats/2018/mar/rescuetime-telegram-time-by-hour.png "")
@@ -173,6 +175,9 @@ I'm still trying to understand if I have a particular moment where I use Telegra
 Nothing outstanding but 10:00 is still the time I most use Telegram. It's not
 that good since it should be my peak time. I will have to improve my
 morning routine. 👍
+
+I've added a warning when I use Telegram for more than 30 minutes in
+the day. That is helping me to understand my usage pattern.
 
 ### Physical activity
 
@@ -192,12 +197,6 @@ Here is my sleep data for this month:
 [![Amount of sleep for this month](/images/stats/2018/mar/sleep.jpg "Amount of sleep for this month")](/images/stats/2018/mar/sleep.jpg "")
 
 As we can see in the chart, it's almost the same as the last month, and I'm happy with that. 👍
-
-Considering the whole user base from mi-band:
-
-[![Sleep comparison with the user base](/images/stats/2018/mar/sleep_deep_comparison.jpg "Sleep comparison with the user base")](/images/stats/2018/mar/sleep_deep_comparison.jpg "")
-
-This chart only considers the last 7 days. My goal [previous month](/post/stats-jan-2018) was to improve my "Fell asleep score" and it's really better now.
 
 My new routine considers sleeping at 22:30 and waking up between 6 and 6:30. As you can see, it's working really well. 😀
 
