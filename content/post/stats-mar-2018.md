@@ -1,11 +1,10 @@
 +++
 title = "Stats for Mar, 2018"
-date = "2018-04-11"
+date = "2018-04-13"
 tags = ["stats","personal","english"]
-draft = true
 +++
 
-March is gone and it's time for metrics! 📊
+March is gone, and it's time for metrics! 📊
 
 ### Books
 
@@ -18,9 +17,9 @@ Just one book this month, but a 5 stars one:
 
 [When: The Scientific Secrets of Perfect
 Timing](https://amzn.to/2v3yIBB). This book is about optimization
-based on time and energy. What is the best time to do some activity
-based on statistics? I found it to be really amazing and could confirm
-many of the assumptions with my own data. I would recommend everyone
+based on time and energy. What is the best time to do some action
+based on statistics? I found it to be amazing and could confirm
+many of the assumptions with my data. I would recommend everyone
 who likes to improve their performance to read this book and draw
 their conclusions.
 
@@ -50,7 +49,7 @@ read**. Comparing with my results from the last month (**1420 unread**
 and **1020 read**), I got around **1.8% more unread articles** and **2.8%
 more read articles**.
 
-The percentages are better this month and this is a good thing. I'm
+The percentages are better this month, and this is a good thing. I'm
 happy to see that I read 30 articles this month. 🙂
 
 ### Coding
@@ -64,25 +63,27 @@ Vim and Emacs usage following the same patterns.
 
 [![Hours of coding on Wakatime this month](/images/stats/2018/mar/wakatime-coding.png "Hours of coding on Wakatime this month")](https://wakatime.com/@PotHix "")
 
-This was a very particular month since I had the [Doist
+This month was a very particular one since I had the [Doist
 retreat](https://twitter.com/amix3k/status/977808357376626689) (an
 AMAZING experience which deserves a post) and one week vacation. Not
 so much coding done.
 
 [![Languages used during this month on Wakatime](/images/stats/2018/mar/wakatime-languages.png "Languages used during this month on Wakatime")](https://wakatime.com/@PotHix "")
 
-`Python` is my first language but I had some `Ruby` as well. Unfortunately, there's no mention to `Rust` or `Elixir` this month. 😞
+`Python` is my first language but I had some `Ruby` as
+well. Unfortunately, there's no mention of `Rust` or `Elixir` this
+month. 😞
 
 ### Speaking
 
 No speaking this month but I helped organize a workshop about agile
-methodologies and how it could help our work at Doist. It was a nice
-experience.
+methodologies and how it could help our work at Doist. It was an
+excellent experience.
 
 ### Completed tasks
 
 Here is the comparison of the tasks for the last month (first) and the
-tasks for this month (second). It was extracted from
+tasks for this month (second). I extracted it from
 [Todoist](https://todoist.com).
 
 [![Amount of tasks completed last month](/images/stats/2018/feb/tasks-completed.png "Amount of tasks completed last month")](/images/stats/2018/feb/tasks-completed.png)
@@ -102,7 +103,7 @@ the list of Podcasts and their times:
 
 [![Amount of time spent listening to Podcasts, ordered by title](/images/stats/2018/mar/podcast_titles.jpg "Amount of time spent listening to Podcasts, ordered by the title")](/images/stats/2018/mar/podcast_titles.jpg)
 
-Just remember that this is an "all-time list", and I'm tracking time
+Remember that this is an "all-time list", and I'm tracking time
 instead of the episode which makes short podcasts not to appear as
 "most listened" ones. I listen to [CBN
 podcasts](http://audioglobo.globo.com/cbn) almost every day, but they
@@ -130,33 +131,34 @@ Let's check Deep work versus Shallow work:
 
 What I can take from this chart:
 
-* I had more meetings than usual but it's not too bad
+* I had more meetings than usual, but it's not too bad
 * Shallow work is still 55% (better than 64% from February)
 * The Shallow work task (the most generic I have) is still the big
-  black box. I'm trying to not split the tracking too much or it will
-  be too much work to manage it. Maybe it will be good to
-  separate lunch time and other common things just to check the time
+  black box. I'm trying not to split the tracking too much, or it will
+  be too much work to manage it. Maybe it will be useful to
+  separate lunchtime and other typical things just to check the time
   slacking.
 
 "Read/Reply Twist" is still consuming a lot of time, almost 2 hours
 every day. I'm still fighting to implement my process of checking it
 in the morning, add tasks and just review in the afternoon. I should
-probably avoid checking it in the morning but it's still hard for me.
+probably avoid doing it in the morning, but it's still hard for me.
 
-Now, let's continue to my personal projects, last month first and this month last:
+Now, let's continue to my personal projects, last month first and this
+month last:
 
 [![Hours working on personal projects using Toggl](/images/stats/2018/feb/toggl-time-personal-projects.png "Hours working on personal projects using Toggl")](/images/stats/2018/feb/toggl-time-personal-projects.png "")
 
 [![Hours working on personal projects using Toggl](/images/stats/2018/mar/toggl-time-personal-projects.png "Hours working on personal projects using Toggl")](/images/stats/2018/mar/toggl-time-personal-projects.png "")
 
-That's not much to compare here but at least it seems stable. 👍
+That's not much to compare here, but at least it seems stable. 👍
 
 Here is my data from [RescueTime](https://www.rescuetime.com/ref/1403570):
 
 [![Goal of productive hours on RescueTime](/images/stats/2018/mar/rescuetime-productivetime.png "Goal of productive hours on RescueTime")](/images/stats/2018/mar/rescuetime-productivetime.png "")
 [![RescueTime pulse](/images/stats/2018/mar/rescuetime-pulse.png "RescueTime pulse")](/images/stats/2018/mar/rescuetime-pulse.png "")
 
-It's worst than last month 😞. I had a pulse of 62 and it's now 54. I
+It's worst than last month 😞. I had a pulse of 62, and it's now 54. I
 can't say why it's bad, at least I could not feel anything wrong
 during the last month. Maybe it was related to the travel planning.
 
@@ -189,13 +191,12 @@ I'm using my Mi band data to calculate my average steps:
 [![Activity data for this month by Mi-Fit app](/images/stats/2018/mar/activity.jpg "Activity data for this month by Mi-Fit app")](/images/stats/2018/mar/activity.jpg "")
 [![Activity data comparison for this month by Mi-Fit app](/images/stats/2018/mar/activity_comparison.jpg "Activity data comparison for this month by Mi-Fit app")](/images/stats/2018/mar/activity-comparison.jpg "")
 
-This month was really better than the last one. **10.5k steps**
-compared to 6.5k from last month. 👍 This was expected since I had two
-weeks to move around because of the retreat and my vacation in
-Santiago.
+This month was better than the last one. **10.5k steps** compared to
+6.5k from previous month. 👍 This is expected since I had two weeks to
+move around because of the retreat and my vacation in Santiago.
 
 As I got back in April, it did not reflect on my weight, but the
-result was really bad for the next month 😅:
+result will be horrible for the next month 😅:
 
 [![Weight this month](/images/stats/2018/mar/physical-activity-weight.png "Weight for this month")](/images/stats/2018/mar/physical-activity-weight.png "")
 
@@ -203,8 +204,8 @@ Here is my sleep data for this month:
 
 [![Amount of sleep for this month](/images/stats/2018/mar/sleep.jpg "Amount of sleep for this month")](/images/stats/2018/mar/sleep.jpg "")
 
-I was expecting for a decrease this month. During the retreat I did
-not sleep that much because I was trying to enjoy every second of that
+I was expecting a decrease this month. During the retreat I did not
+sleep that much because I was trying to enjoy every second of that
 experience.
 
 This month is an outlier of my routine, but I think it will be back
@@ -235,8 +236,8 @@ Here are my stats for this month:
 + **825** corrections made (**3451** last month)
 + **10944** unique words (**14352** last month)
 
-Nothing to extract from these metrics since it's really different from
-the last month because of the retreat + vacations.
+Nothing to extract from these metrics since it's different from the
+last month because of the retreat + vacations.
 
 ### Locations
 
@@ -247,7 +248,7 @@ Thanks to Doist I visited Chile this month! 🙃
 For some reason, Argentina is on the list as well. I've been there
 already but not this time. :P
 
-I had one week for vacations and decided to walk around Santiago and
+I had one week of vacations and decided to walk around Santiago and
 relax. Because of that, I've added many places to the list:
 
 [![Places I visited](/images/stats/2018/mar/location-places.png "Places I visited")](/images/stats/2018/mar/location-places.png "")
@@ -258,7 +259,7 @@ month first and **this month right after it**:
 [![General view of my locations data last month](/images/stats/2018/feb/location-general.png "General view of my locations data last month")](/images/stats/2018/feb/location-general.png "") .
 [![General view of my locations data this month](/images/stats/2018/mar/location-general.png "General view of my locations data this month")](/images/stats/2018/mar/location-general.png "")
 
-One new country, 12 cities and almost 50 more places. Quite nice. 😀
+One new country, 12 cities, and almost 50 more places. Quite nice. 😀
 
 It's expected to have more commuting, and walking this month:
 
@@ -275,32 +276,42 @@ It's time to check my expenses! 💸
 
 [![Expenses by category this month](/images/stats/2018/mar/expenses.jpg "Expenses by category this month")](/images/stats/2018/mar/expenses.jpg "")
 
-The chart seems to be back to normal. The "Moradia" (kind of a
-mortgage) section increased because I was not considering it in the
-previous months.
+This month I will have to count a big investment in traveling (yes,
+traveling for me is an investment in many aspects). It's like that
+because I'm still paying some of the previous flights and I exchanged
+all the money before going to Chile, so I went with cash for the whole
+trip.
 
-I'm also not considering the money in transit from my company to my
-personal account (waiting for money exchange, taxes, accountant,
-etc.). So, without considering it, my total savings **increased by
-3.20%!** Now I have **87.93%** of my goal.
+It seems like I spent around 60% of my income this month, which is not
+regular at all. I usually spend about 40% (or less). The monthly
+expenses with my home ("Moradia") are finally part of the chart now,
+and I also added family health care on "Outros gastos".
+
+This month is an outlier, but the result is not that bad, IMO. 👍
+
+As usual, I'm not considering the money in transit from my company to
+my personal account (waiting for money exchange, taxes, accountant
+payment, etc.). So, without considering it, my total savings
+**increased by 3%** and now I have **90.56%** of my goal.
 
 ### Time to write this blog post
 
 Some people are asking me about how much time it takes to collect all
 the data and write the blog post, so I decided to add this metric
 
-**It took around 4 hours**
+**It took 3 hours and 30 minutes**
 
-It actually was 3:21 in my tracking software, but I spent a little bit
-more than that.
+That counts the whole process of organizing my data (I usually review
+my investment portfolio as well), taking screenshots, and writing this
+post.
 
 
 ### Conclusion
 
-This was not a regular month at all but it was really amazing. You
-can't see it on my metrics (maybe the locations 🤔) but keep in mind
-that not all good parts of your life will be on your metrics. I put a
-lot of effort to create this blog post but I also know when I should
-just enjoy life and let things go.
+This was not a normal month at all, but it was really amazing. You
+can't see it in my metrics (maybe the locations 🤔) but keep in mind
+that not all parts of your life will be on your metrics and that's
+OK. I put a lot of effort to create this blog post but I also know
+when I should enjoy life and let things go.
 
 See you next month. 🖖
