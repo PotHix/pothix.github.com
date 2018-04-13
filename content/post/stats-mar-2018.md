@@ -134,7 +134,7 @@ What I can take from this chart:
 * Shallow work is still 55% (better than 64% from February)
 * The Shallow work task (the most generic I have) is still the big
   black box. I'm trying to not split the tracking too much or it will
-  be too much work to keep tracking but maybe it will be good to
+  be too much work to manage it. Maybe it will be good to
   separate lunch time and other common things just to check the time
   slacking.
 
@@ -156,9 +156,12 @@ Here is my data from [RescueTime](https://www.rescuetime.com/ref/1403570):
 [![Goal of productive hours on RescueTime](/images/stats/2018/mar/rescuetime-productivetime.png "Goal of productive hours on RescueTime")](/images/stats/2018/mar/rescuetime-productivetime.png "")
 [![RescueTime pulse](/images/stats/2018/mar/rescuetime-pulse.png "RescueTime pulse")](/images/stats/2018/mar/rescuetime-pulse.png "")
 
-My pulse is the same as the last month but the goal is bad, which is expected.
+It's worst than last month 😞. I had a pulse of 62 and it's now 54. I
+can't say why it's bad, at least I could not feel anything wrong
+during the last month. Maybe it was related to the travel planning.
 
-Still following my Telegram usage, here is the comparison from the previous month to the current one:
+Still following my Telegram usage, here is the comparison from the
+previous month to the current one:
 
 [![Time spend on Telegram according to Rescuetime](/images/stats/2018/feb/rescuetime-telegram-time.png "Time spent on Telegram according to RescueTime")](/images/stats/2018/feb/rescuetime-telegram-time.png "")
 [![Time spend on Telegram according to Rescuetime](/images/stats/2018/mar/rescuetime-telegram-time.png "Time spent on Telegram according to RescueTime")](/images/stats/2018/mar/rescuetime-telegram-time.png "")
@@ -186,9 +189,13 @@ I'm using my Mi band data to calculate my average steps:
 [![Activity data for this month by Mi-Fit app](/images/stats/2018/mar/activity.jpg "Activity data for this month by Mi-Fit app")](/images/stats/2018/mar/activity.jpg "")
 [![Activity data comparison for this month by Mi-Fit app](/images/stats/2018/mar/activity_comparison.jpg "Activity data comparison for this month by Mi-Fit app")](/images/stats/2018/mar/activity-comparison.jpg "")
 
-The chart shows that it's almost the same as the last month (**6.5k** steps), which is not that bad.
+This month was really better than the last one. **10.5k steps**
+compared to 6.5k from last month. 👍 This was expected since I had two
+weeks to move around because of the retreat and my vacation in
+Santiago.
 
-I'm going to the gym almost every day. My goal is to improve my muscles and take care of my left arm after the Ban kart and Hill Sacks lesion. As I'm not doing cardio exercises, my weight is still good:
+As I got back in April, it did not reflect on my weight, but the
+result was really bad for the next month 😅:
 
 [![Weight this month](/images/stats/2018/mar/physical-activity-weight.png "Weight for this month")](/images/stats/2018/mar/physical-activity-weight.png "")
 
@@ -196,11 +203,13 @@ Here is my sleep data for this month:
 
 [![Amount of sleep for this month](/images/stats/2018/mar/sleep.jpg "Amount of sleep for this month")](/images/stats/2018/mar/sleep.jpg "")
 
-As we can see in the chart, it's almost the same as the last month, and I'm happy with that. 👍
+I was expecting for a decrease this month. During the retreat I did
+not sleep that much because I was trying to enjoy every second of that
+experience.
 
-My new routine considers sleeping at 22:30 and waking up between 6 and 6:30. As you can see, it's working really well. 😀
+This month is an outlier of my routine, but I think it will be back
+for the next.
 
-We just have to ignore the deep sleep for the last 7 days. ✌️
 
 ### TV Shows
 
@@ -209,13 +218,9 @@ episode this month:
 
 [![TV shows watched this month according to tvshowtime](/images/stats/2018/mar/tvshows.jpg "TV shows watched this month according to tvshowtime")](/images/stats/2018/mar/tvshows.jpg "")
 
-I forgot to add it to the app before it was too late. These 3 episodes are related to **Punisher**. 😀
+But these are the same 3 episodes of the last month, so I did not
+watch any tv show this month. ✌
 
-I spent **3 hours** of my life watching TV shows this month... But I
-also watched some movies. I'm not tracking films yet because I
-usually don't watch that much. Last year I watched less than 10
-movies. In case I decide to start watching more movies I will consider
-tracking them.
 
 ### Words written and errors
 
@@ -226,27 +231,41 @@ while.
 
 Here are my stats for this month:
 
-+ **72766** words written (**71248** last month)
-+ **3451** corrections made (**2039** last month)
-+ **14352** unique words (**12320** last month)
++ **50348** words written (**72766** last month)
++ **825** corrections made (**3451** last month)
++ **10944** unique words (**14352** last month)
 
-The corrections made keep increasing, I'm sure this is happening because of Grammarly premium. It offers some "advanced" corrections.
+Nothing to extract from these metrics since it's really different from
+the last month because of the retreat + vacations.
 
 ### Locations
 
-Let's explore my locations. Last month first and **this month right after it**:
+Thanks to Doist I visited Chile this month! 🙃
+
+[![Countries I visited](/images/stats/2018/mar/location-countries.png "Countries I visited")](/images/stats/2018/mar/location-countries.png "")
+
+For some reason, Argentina is on the list as well. I've been there
+already but not this time. :P
+
+I had one week for vacations and decided to walk around Santiago and
+relax. Because of that, I've added many places to the list:
+
+[![Places I visited](/images/stats/2018/mar/location-places.png "Places I visited")](/images/stats/2018/mar/location-places.png "")
+
+Let's compare the difference between last month and this month. Last
+month first and **this month right after it**:
 
 [![General view of my locations data last month](/images/stats/2018/feb/location-general.png "General view of my locations data last month")](/images/stats/2018/feb/location-general.png "") .
 [![General view of my locations data this month](/images/stats/2018/mar/location-general.png "General view of my locations data this month")](/images/stats/2018/mar/location-general.png "")
 
-Just visited some places more but no new cities or countries. 😞
+One new country, 12 cities and almost 50 more places. Quite nice. 😀
 
-Let's see the time commuting, last month first and this month second:
+It's expected to have more commuting, and walking this month:
 
 [![Location time and distance last month](/images/stats/2018/feb/location-time-distance.png "Location time and distance last month")](/images/stats/2018/feb/location-time-distance.png "") .
 [![Location time and distance this month](/images/stats/2018/mar/location-time-distance.png "Location time and distance this month")](/images/stats/2018/mar/location-time-distance.png "")
 
-Long hours spent on vehicles this month. I decided to visit my parents, and it requires at least 12 hours on a bus 😬. My time walking is almost the same.
+Still many kilometers to "reach the moon":
 
 [![Kms to the moon](/images/stats/2018/mar/location-moon.png "Kms to the moon")](/images/stats/2018/mar/location-moon.png "")
 
@@ -278,12 +297,10 @@ more than that.
 
 ### Conclusion
 
-It's confirmed that I finally have my old routine back. It took almost
-10 months to get used to the new job and feel comfortable about my
-tasks to be able to focus on other things as well. This is a useful
-metric per se. :)
-
-I have a great trip scheduled for March, and it will probably impact my
-metrics. Let's see how it goes! :)
+This was not a regular month at all but it was really amazing. You
+can't see it on my metrics (maybe the locations 🤔) but keep in mind
+that not all good parts of your life will be on your metrics. I put a
+lot of effort to create this blog post but I also know when I should
+just enjoy life and let things go.
 
 See you next month. 🖖
