@@ -224,7 +224,7 @@ I'm using my Mi band data to calculate my average steps:
 
 The chart shows that it's almost the same as the last month (**6.5k** steps), which is not that bad.
 
-I'm going to the gym almost every day. My goal is to improve my muscles and take care of my left arm after the Ban kart and Hill Sacks lesion. As I'm not doing cardio exercises, my weight is still good:
+I'm going to the gym almost every day. My goal is to improve my muscles and take care of my left arm after the Bankart and Hill Sachs lesion. As I'm not doing cardio exercises, my weight is still good:
 
 [![Weight this month](/images/stats/2018/feb/physical-activity-weight.png "Weight for this month")](/images/stats/2018/feb/physical-activity-weight.png "")
 
