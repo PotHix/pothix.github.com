@@ -11,18 +11,12 @@ It's time for April metrics! 📊
 
 **Note**: I write a review for each book I read. You can find them on [my Goodreads account](https://goodreads.com/pothix).
 
-Just one book this month, but a 5 stars one:
+Again, just one book this month, and again, a 5 stars one!
 
 [![List of books read this month](/images/stats/2018/apr/goodreads.png "List of books read this month")](https://www.goodreads.com/pothix
 "")
 
-[When: The Scientific Secrets of Perfect
-Timing](https://amzn.to/2v3yIBB). This book is about optimization
-based on time and energy. What is the best time to do some action
-based on statistics? I found it to be amazing and could confirm
-many of the assumptions with my data. I would recommend everyone
-who likes to improve their performance to read this book and draw
-their conclusions.
+[A Guide to the Good Life: The Ancient Art of Stoic Joy](https://amzn.to/2KgEAKE). This book was in my reading list for many months now. After reading it, I realized I'm practicing a fraction of Stoicism for many years. [Here is my review](https://www.goodreads.com/review/show/2355647662) if you want to read my thoughts on it.
 
 ### Articles
 
@@ -45,13 +39,18 @@ console.log("# Result: " + JSON.stringify(pocket))
 # Result: {"unread":1501,"unread_pct":3.66,"read":1096,"read_pct":4.2}
 ```
 
-It means I have **1446 articles unread** and **1050 articles
-read**. Comparing with my results from the last month (**1420 unread**
-and **1020 read**), I got around **1.8% more unread articles** and **2.8%
-more read articles**.
+It means I have **1501 articles unread** and **1096 articles
+read**. Comparing with my results from the last month (**1446 unread**
+and **1050 read**), I got around **3.6% more unread articles** and
+**4.2% more read articles**.
 
-The percentages are better this month, and this is a good thing. I'm
-happy to see that I read 30 articles this month. 🙂
+Well, I'm reading more than adding but I don't know if I'm happy with
+this situation. It's been some months since I'm complaining about my
+_read it later_ but it doesn't seem like a big problem.
+
+I'm experimenting with an integration between [Pocket + Google Sheets
+via IFTTT](https://ifttt.com/p/pothix). The idea is to count the
+number of articles read, maybe we will have something new next month.
 
 ### Coding
 
@@ -60,26 +59,24 @@ since the last post. I will start with editors this time:
 
 [![Editors used during this month on Wakatime](/images/stats/2018/apr/wakatime-editors.png "Editors used during this month on Wakatime")](https://wakatime.com/@PotHix "")
 
-Vim and Emacs usage following the same patterns.
+Nothing new here, 70-30 between Vim and Emacs.
 
 [![Hours of coding on Wakatime this month](/images/stats/2018/apr/wakatime-coding.png "Hours of coding on Wakatime this month")](https://wakatime.com/@PotHix "")
 
-This month was a very particular one since I had the [Doist
-retreat](https://twitter.com/amix3k/status/977808357376626689) (an
-AMAZING experience which deserves a post) and one week vacation. Not
-so much coding done.
+I had some national holidays + days off this month. Also, I had some
+non-coding tasks (mostly writing) and it obviously impacted my hours
+of coding.
 
 [![Languages used during this month on Wakatime](/images/stats/2018/apr/wakatime-languages.png "Languages used during this month on Wakatime")](https://wakatime.com/@PotHix "")
 
-`Python` is my first language but I had some `Ruby` as
-well. Unfortunately, there's no mention of `Rust` or `Elixir` this
-month. 😞
+`Python`, `Markdown`, and `Ruby` are the most used languages, as
+usual. Unfortunately, there's no mention of `Rust` or `Elixir` this
+month, but at least I have a small percentage of `Golang`.
 
 ### Speaking
 
-No speaking this month but I helped organize a workshop about agile
-methodologies and how it could help our work at Doist. It was an
-excellent experience.
+Again, no speaking this month. I was thinking about it and I think it
+is a hangover from the 21 presentations from last year.
 
 ### Completed tasks
 
@@ -87,10 +84,10 @@ Here is the comparison of the tasks for the last month (first) and the
 tasks for this month (second). I extracted it from
 [Todoist](https://todoist.com).
 
-[![Amount of tasks completed last month](/images/stats/2018/feb/tasks-completed.png "Amount of tasks completed last month")](/images/stats/2018/feb/tasks-completed.png)
+[![Amount of tasks completed last month](/images/stats/2018/mar/tasks-completed.png "Amount of tasks completed last month")](/images/stats/2018/mar/tasks-completed.png)
 [![Amount of tasks completed this month](/images/stats/2018/apr/tasks-completed.png "Amount of tasks completed this month")](/images/stats/2018/apr/tasks-completed.png)
 
-Almost 190 tasks in the week I returned to work. 😅
+Things are back to normal, I guess. 🙃
 
 ### Podcasts
 
@@ -99,8 +96,9 @@ Here is my
 
 [![Amount of time spent listening to Podcasts this month](/images/stats/2018/apr/podcasts.jpg "Amount of time spent listening to Podcasts this month")](/images/stats/2018/apr/podcasts.jpg)
 
-**3 days** of podcast time is above average for me. As usual, here is
-the list of Podcasts and their times:
+**3 days and 6 hours** of podcast time. It seems that 3 days is
+becoming average for me. As usual, here is the list of Podcasts and
+their times:
 
 [![Amount of time spent listening to Podcasts, ordered by title](/images/stats/2018/apr/podcast_titles.jpg "Amount of time spent listening to Podcasts, ordered by the title")](/images/stats/2018/apr/podcast_titles.jpg)
 
@@ -116,15 +114,13 @@ Here is the data from my time tracking software,
 [Toggl](https://toggl.com) comparing the last month (first) and this
 month (second):
 
-[![Hours working using Toggl last month](/images/stats/2018/feb/toggl-time-working.png "Hours working using Toggl last month")](/images/stats/2018/feb/toggl-time-working.png "")
+[![Hours working using Toggl last month](/images/stats/2018/mar/toggl-time-working.png "Hours working using Toggl last month")](/images/stats/2018/mar/toggl-time-working.png "")
 
 [![Hours working using Toggl](/images/stats/2018/apr/toggl-time-working.png "Hours working using Toggl")](/images/stats/2018/apr/toggl-time-working.png "")
 
-It seems quite stable this month.
-
-I had 12 tracked working days this month, and I worked for 107 hours,
-which mean that **I worked 11 hours more than I should** (it was also 11 in
-the last month with more days tracked 😞).
+I had 19 work days tracked this month, and I worked for 157 hours,
+which mean that **I worked 5 hours more than I should** (it was 11 in
+the last month, so it's improving! 😀).
 
 Let's check Deep work versus Shallow work:
 
@@ -132,58 +128,66 @@ Let's check Deep work versus Shallow work:
 
 What I can take from this chart:
 
-* I had more meetings than usual, but it's not too bad
-* Shallow work is still 55% (better than 64% from February)
+* Meetings are stable (and productive), considering two 1-1 meetings
+  (1 hour each) and 4 weekly meetings (around 40 minutes each)
 * The Shallow work task (the most generic I have) is still the big
-  black box. I'm trying not to split the tracking too much, or it will
-  be too much work to manage it. Maybe it will be useful to
-  separate lunchtime and other typical things just to check the time
-  slacking.
+  black box. I mentioned to split lunch times (lunch and break) but
+  forgot to do that last month. Maybe I will start doing it this
+  month (from April 15th).
 
-"Read/Reply Twist" is still consuming a lot of time, almost 2 hours
-every day. I'm still fighting to implement my process of checking it
-in the morning, add tasks and just review in the afternoon. I should
-probably avoid doing it in the morning, but it's still hard for me.
+"Read/Reply Twist" is still consuming a lot of time, more than 2 hours
+every day. Let's break Twist usage down by hour:
+
+[![Twist usage by time of the day](/images/stats/2018/apr/rescuetime-twist-time-by-hour.png "Twist usage by time of the day")](/images/stats/2018/apr/rescuetime-twist-time-by-hour.png "")
+
+It seems that my strategy of reading Twist in the morning is working
+but it's not fixing the problem of keep looking to it throughout the
+day. I should probably just skim it in the morning and get back to it
+at the end of the day. Still trying to improve this process though.
 
 Now, let's continue to my personal projects, last month first and this
 month last:
 
-[![Hours working on personal projects using Toggl](/images/stats/2018/feb/toggl-time-personal-projects.png "Hours working on personal projects using Toggl")](/images/stats/2018/feb/toggl-time-personal-projects.png "")
+[![Hours working on personal projects using Toggl](/images/stats/2018/mar/toggl-time-personal-projects.png "Hours working on personal projects using Toggl")](/images/stats/2018/mar/toggl-time-personal-projects.png "")
 
 [![Hours working on personal projects using Toggl](/images/stats/2018/apr/toggl-time-personal-projects.png "Hours working on personal projects using Toggl")](/images/stats/2018/apr/toggl-time-personal-projects.png "")
 
-That's not much to compare here, but at least it seems stable. 👍
+Again, that's not much to compare here, but at least it seems stable. 👍
 
 Here is my data from [RescueTime](https://www.rescuetime.com/ref/1403570):
 
 [![Goal of productive hours on RescueTime](/images/stats/2018/apr/rescuetime-productivetime.png "Goal of productive hours on RescueTime")](/images/stats/2018/apr/rescuetime-productivetime.png "")
 [![RescueTime pulse](/images/stats/2018/apr/rescuetime-pulse.png "RescueTime pulse")](/images/stats/2018/apr/rescuetime-pulse.png "")
 
-It's worst than last month 😞. I had a pulse of 62, and it's now 54. I
-can't say why it's bad, at least I could not feel anything wrong
-during the last month. Maybe it was related to the travel planning.
+It's worst than February and March 😞. I had a pulse of 62 on February and 54 on March, and it's now 43. It's concerning to see that, so I decided what was causing such different. When looking to the entertaining chart I saw this:
+
+[![RescueTime distracting chart](/images/stats/2018/apr/rescuetime-distracting.png "RescueTime distracting chart")](/images/stats/2018/apr/rescuetime-distracting.png "")
+
+It seems that my new (and old, at the same time) hobby Magic the
+Gathering is taking a lot of my spare time. I let rescuetime track
+all my time, not just working hours, and all MTG websites are
+considered as very distracting. Maybe I should configure rescuetime to
+track only "working hours" but I'm not sure what time should I use. 🤔
 
 Still following my Telegram usage, here is the comparison from the
 previous month to the current one:
 
-[![Time spend on Telegram according to Rescuetime](/images/stats/2018/feb/rescuetime-telegram-time.png "Time spent on Telegram according to RescueTime")](/images/stats/2018/feb/rescuetime-telegram-time.png "")
+[![Time spend on Telegram according to Rescuetime](/images/stats/2018/mar/rescuetime-telegram-time.png "Time spent on Telegram according to RescueTime")](/images/stats/2018/mar/rescuetime-telegram-time.png "")
 [![Time spend on Telegram according to Rescuetime](/images/stats/2018/apr/rescuetime-telegram-time.png "Time spent on Telegram according to RescueTime")](/images/stats/2018/apr/rescuetime-telegram-time.png "")
 
-It seems quite stable, let's wait for the next month.
+It's still too high for me. I have an alert of my time spent using
+Telegram. The goal is to not receive this alert but I'm currently
+failing at it. I have to improve this.
 
 I'm still trying to understand if I have a particular moment where I
 use Telegram the most, here is the difference from the last month to
 the current one:
 
-[![Time of the day I used Telegram according to Rescuetime](/images/stats/2018/feb/rescuetime-telegram-time-by-hour.png "Time of the day I used Telegram according to RescueTime")](/images/stats/2018/feb/rescuetime-telegram-time-by-hour.png "")
+[![Time of the day I used Telegram according to Rescuetime](/images/stats/2018/mar/rescuetime-telegram-time-by-hour.png "Time of the day I used Telegram according to RescueTime")](/images/stats/2018/mar/rescuetime-telegram-time-by-hour.png "")
 [![Time of the day I used Telegram according to Rescuetime](/images/stats/2018/apr/rescuetime-telegram-time-by-hour.png "Time of the day I used Telegram according to RescueTime")](/images/stats/2018/apr/rescuetime-telegram-time-by-hour.png "")
 
-Nothing outstanding but 10:00 is still the time I most use Telegram. It's not
-that good since it should be my peak time. I will have to improve my
-morning routine. 👍
-
-I've added a warning when I use Telegram for more than 30 minutes in
-the day. That is helping me to understand my usage pattern.
+Hm, Telegram is spread throughout the day, that's not a good thing. I
+have to keep working on it.
 
 ### Physical activity
 
@@ -192,12 +196,11 @@ I'm using my Mi band data to calculate my average steps:
 [![Activity data for this month by Mi-Fit app](/images/stats/2018/apr/activity.jpg "Activity data for this month by Mi-Fit app")](/images/stats/2018/apr/activity.jpg "")
 [![Activity data comparison for this month by Mi-Fit app](/images/stats/2018/apr/activity_comparison.jpg "Activity data comparison for this month by Mi-Fit app")](/images/stats/2018/apr/activity-comparison.jpg "")
 
-This month was better than the last one. **10.5k steps** compared to
-6.5k from previous month. 👍 This is expected since I had two weeks to
-move around because of the retreat and my vacation in Santiago.
+This month I have **8k steps** compared to 10.5k from previous
+month. This is expected since I had two weeks to move around because
+of the retreat and my vacation in Santiago last month.
 
-As I got back in April, it did not reflect on my weight, but the
-result will be horrible for the next month 😅:
+I was expecting a big change on my weight but it was not that bad. I'm expecting an increase next month though 😅:
 
 [![Weight this month](/images/stats/2018/apr/physical-activity-weight.png "Weight for this month")](/images/stats/2018/apr/physical-activity-weight.png "")
 
@@ -205,24 +208,22 @@ Here is my sleep data for this month:
 
 [![Amount of sleep for this month](/images/stats/2018/apr/sleep.jpg "Amount of sleep for this month")](/images/stats/2018/apr/sleep.jpg "")
 
-I was expecting a decrease this month. During the retreat I did not
-sleep that much because I was trying to enjoy every second of that
-experience.
-
-This month is an outlier of my routine, but I think it will be back
-for the next.
+Not that bad, the same as March. Hope to improve it in May. 👍
 
 
 ### TV Shows
 
-According to [tvshowtime](https://www.tvshowtime.com) I watched 3
+According to [tvshowtime](https://www.tvshowtime.com) I watched 8
 episode this month:
 
 [![TV shows watched this month according to tvshowtime](/images/stats/2018/apr/tvshows.jpg "TV shows watched this month according to tvshowtime")](/images/stats/2018/apr/tvshows.jpg "")
 
-But these are the same 3 episodes of the last month, so I did not
-watch any tv show this month. ✌
+We finished **The punisher** this month. Now looking for a new TV show
+to watch.
 
+I'm starting to try [trakt.tv](https://trakt.tv) so I can try the
+movies I watch along with the TV shows. Unfortunately, tvshowtime only
+tracks TV shows. Maybe we will have some new charts next month. 😉
 
 ### Words written and errors
 
@@ -233,38 +234,33 @@ while.
 
 Here are my stats for this month:
 
-+ **50348** words written (**72766** last month)
-+ **825** corrections made (**3451** last month)
-+ **10944** unique words (**14352** last month)
++ **61385** words written ( **50348** last month)
++ **934** corrections made (**825** last month)
++ **16473** unique words (**10944** last month)
 
-Nothing to extract from these metrics since it's different from the
-last month because of the retreat + vacations.
+It's expected to have a better value since last month had almost two
+weeks off because of Doist retreat + vacations. Nothing outstanding
+though.
 
 ### Locations
 
-Thanks to Doist I visited Chile this month! 🙃
-
-[![Countries I visited](/images/stats/2018/apr/location-countries.png "Countries I visited")](/images/stats/2018/apr/location-countries.png "")
-
-For some reason, Argentina is on the list as well. I've been there
-already but not this time. :P
-
-I had one week of vacations and decided to walk around Santiago and
-relax. Because of that, I've added many places to the list:
+I've added some places to the list:
 
 [![Places I visited](/images/stats/2018/apr/location-places.png "Places I visited")](/images/stats/2018/apr/location-places.png "")
+
+Went to two different cities this month, one of them is 450km+ from my home town. ✌
 
 Let's compare the difference between last month and this month. Last
 month first and **this month right after it**:
 
-[![General view of my locations data last month](/images/stats/2018/feb/location-general.png "General view of my locations data last month")](/images/stats/2018/feb/location-general.png "") .
+[![General view of my locations data last month](/images/stats/2018/mar/location-general.png "General view of my locations data last month")](/images/stats/2018/mar/location-general.png "") .
 [![General view of my locations data this month](/images/stats/2018/apr/location-general.png "General view of my locations data this month")](/images/stats/2018/apr/location-general.png "")
 
-One new country, 12 cities, and almost 50 more places. Quite nice. 😀
+And again, One new country according to Google. It's quite unstable to rely on their country count but I think they got it right now. The number of cities did not increase for some reason. 🤷‍♂
 
-It's expected to have more commuting, and walking this month:
+As expected the amount of time commuting increased a lot this month (due to the travel I mentioned above):
 
-[![Location time and distance last month](/images/stats/2018/feb/location-time-distance.png "Location time and distance last month")](/images/stats/2018/feb/location-time-distance.png "") .
+[![Location time and distance last month](/images/stats/2018/mar/location-time-distance.png "Location time and distance last month")](/images/stats/2018/mar/location-time-distance.png "") .
 [![Location time and distance this month](/images/stats/2018/apr/location-time-distance.png "Location time and distance this month")](/images/stats/2018/apr/location-time-distance.png "")
 
 Still many kilometers to "reach the moon":
@@ -273,7 +269,7 @@ Still many kilometers to "reach the moon":
 
 ### Expenses
 
-It's time to check my expenses! 💸
+It's time to check my expenses! 💰
 
 [![Expenses by category this month](/images/stats/2018/apr/expenses.jpg "Expenses by category this month")](/images/stats/2018/apr/expenses.jpg "")
 
@@ -309,10 +305,9 @@ post.
 
 ### Conclusion
 
-This was not a normal month at all, but it was really amazing. You
-can't see it in my metrics (maybe the locations 🤔) but keep in mind
-that not all parts of your life will be on your metrics and that's
-OK. I put a lot of effort to create this blog post but I also know
-when I should enjoy life and let things go.
+It was quite a common month. Some outliers were found because of my
+Magic The Gathering hobby and 20+ hours commuting because of my
+travels is not that common, but other than that, everything is just
+fine.
 
 See you next month. 🖖
