@@ -17,12 +17,12 @@ Date of the event  | Original presentation title                              | 
 2017-07-27     | Desconstruindo a web                                         | São Paulo, Brasil | Tech-talks ELO7
 2017-07-22     | Sua aplicação Ruby end-to-end                                | São Paulo, Brasil | Trilha de Ruby - TDC
 2017-07-22     | Criando um snake game com um navegador e um editor apenas    | São Paulo, Brasil | Trilha de Games - TDC
-2017-07-22     | [Command line interfaces with Go](http://cege.la/JBk1eg)     | São Paulo, Brasil | Trilha de Go - TDC
+2017-07-22     | [Command line interfaces with Go](https://goo.gl/JBk1eg)     | São Paulo, Brasil | Trilha de Go - TDC
 2017-07-15     | [Criando um snake game com Ruby usando Gosu](https://www.youtube.com/watch?v=bcQaQVJkVbw) | São Paulo, Brasil | Guru-SP
 2017-07-02     | Uma requisição web do começo ao fim                          | São Paulo, Brasil | Virada Tecnológica
 2017-06-28     | [Painel sobre comunidades](https://pbs.twimg.com/media/DDarqhkW0AAuuJT.jpg:large) | São Paulo, Brasil | [19o Encontro Locaweb](http://eventos.locaweb.com.br/eventos-anteriores/19o-encontro-locaweb-sao-paulo/)
 2017-06-24     | Desenvolvimento de jogos com HTML5                           | São Paulo, Brasil | Impacta Tecnologia
-2017-05-19     | [Desconstruindo a web](http://cege.la/OSc9Yb)                | São Paulo, Brasil | BioRitmo tech-talks.
+2017-05-19     | [Desconstruindo a web](https://goo.gl/OSc9Yb)                | São Paulo, Brasil | BioRitmo tech-talks.
 2017-05-11     | Como foi o [TDC Florianópolis](http://www.thedevelopersconference.com.br/tdc/2017/florianopolis/trilhas) | São Paulo, Brasil | Tech-talks Locaweb
 2017-05-06     | [Uma aplicação Ruby end-to-end](https://www.eventials.com/Globalcode/sabado-a-tarde-tdconline-floripa-2017-stadium/) | Florianópolis, Brasil | [TDC Florianópolis](http://www.thedevelopersconference.com.br/tdc/2017/florianopolis/trilhas)
 2017-05-03     | [Mesos como ferramenta](https://www.eventials.com/Globalcode/quarta-a-tarde-tdconline-floripa-2017-stadium/) | Florianópolis, Brasil | [TDC Florianópolis](http://www.thedevelopersconference.com.br/tdc/2017/florianopolis/trilhas)
