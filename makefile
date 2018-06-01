@@ -25,4 +25,4 @@ publish:
 	@git checkout -
 
 drafts:
-	@grep "draft = true" * -rl | grep "\.md"
+	@egrep "draft.*true" * -rl | grep "\.md"
