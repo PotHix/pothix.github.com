@@ -1,6 +1,6 @@
 +++
 title = "Stats for May, 2018"
-date = "2018-05-13"
+date = "2018-06-08"
 tags = ["stats","personal","english"]
 +++
 
@@ -15,15 +15,12 @@ Again, just one book this month, and again, a 5 stars one!
 [![List of books read this month](/images/stats/2018/may/goodreads.png "List of books read this month")](https://www.goodreads.com/pothix
 "")
 
-[A Guide to the Good Life: The Ancient Art of Stoic Joy](https://amzn.to/2KgEAKE). This book was on my reading list for many months now. After reading it, I realized I'm practicing a fraction of Stoicism for many years. [Here is my review](https://www.goodreads.com/review/show/2355647662) if you want to read my thoughts on it.
+[Shop Class as Soulcraft: An Inquiry into the Value of Work](https://amzn.to/2Jozn6t)
+[Wait, What?: And Life's Other Essential Questions](https://amzn.to/2xEnPaM)
 
 ### Articles
 
-----------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------
----------- Add the pocket version made by IFTTT spreadsheet ----------------------------------------
-----------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------
+[![Articles read this month](/images/stats/2018/may/pocket-articles.png "Articles read this month")](/images/stats/2018/may/pocket-articles.png "")
 
 As usual, I'm using that same export file from
 [Pocket](https://getpocket.com) and a script that look like the one I
