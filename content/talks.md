@@ -7,6 +7,7 @@ subtitle = "A list of all my talks by date"
 
 Date of the event  | Original presentation title                              | City and country  | Event name / organizer
 -------------- | ------------------------------------------------------------ | ----------------- | ------------------------
+2018-06-16     | Desconstruindo a web                                         | São Paulo, Brasil | [Impacta tecnologia](https://www.sympla.com.br/desconstruindo-a-web__262326)
 2018-02-03     | Criando um snake game do zero com Ruby e Gosu                | São Paulo, Brasil | [Impacta Tecnologia](http://www.impacta.com.br/eventos/03-02-2018-De-um-arquivo-vazio-ate-um-snake-game-funcionando-usando-Ruby-e-Gosu)
 2017-11-01     | Desconstruindo a web                                         | São Paulo, Brasil | Tech-talks, Codus
 2017-10-09     | Snake game using Python and PyGame                           | Porto, Portugal   | [Porto Python](https://www.meetup.com/pyporto/events/243824670/)
