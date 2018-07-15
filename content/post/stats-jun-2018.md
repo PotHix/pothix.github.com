@@ -23,7 +23,7 @@ the result is quite good.
 + [A Filosofia Explica as Grandes Questões da
   Humanidade](https://amzn.to/2uuv1RO): This book is in pt-BR, if you
   speak Portuguese and want a light (and quite funny) introduction to
-  a philosophy book, this may be the one.
+  philosophy book, this may be the one.
 + [The Hard Thing About Hard Things: Building a Business When There
   Are No Easy Answers](https://amzn.to/2Jm6rZ2): A good book for
   CTOs. It was also an excellent reading for me since I saw many of those
@@ -35,7 +35,7 @@ the result is quite good.
   games, especially what is under the hood (not just to play them) you
   will have a good time reading this book. I'm a big fan of games and
   always try to build my own just for fun. The gaming industry is
-  though, you will understand why by reading this book.
+  tough, you will understand why by reading this book.
 + [Zero to One: Notes on Startups, or How to Build the
   Future](https://amzn.to/2NSlbCf): A good one but I think I had high expectations. I recommend reading anyway, especially if you want to build a startup in the future (or already have one).
 
@@ -78,7 +78,7 @@ read**. Comparing with my results from the last month (**1539 unread**
 and **1146 read**), I got around **2.16% more unread articles** and
 **2.3% more read articles**.
 
-1173 _(read this month)_ - 1146 _(unread prev. month)_ = **27** _(the number in the spreadsheet)_
+1173 _(read this month)_ - 1146 _(read prev. month)_ = **27** _(the number in the spreadsheet)_
 
 It seems my spreadsheet tracking is working as expected. 🎉 I have to
 think if it's a good thing to lose the number of articles added, but
@@ -92,7 +92,7 @@ since the last post. I will start with editors this time:
 
 [![Editors used during this month on Wakatime](/images/stats/2018/jun/wakatime-editors.png "Editors used during this month on Wakatime")](https://wakatime.com/@PotHix "")
 
-Emacs is superior this month. I don't remember seeing any trend during the month though. 🤔
+Emacs is superior this month. I don't remember seeing any uptrend during the month though. 🤔
 
 [![Hours of coding on Wakatime this month](/images/stats/2018/jun/wakatime-coding.png "Hours of coding on Wakatime this month")](https://wakatime.com/@PotHix "")
 
@@ -164,8 +164,8 @@ probably export a file every month and post it here. 👍
 
 ### Hours working
 
-Here is the data from my time tracking software,
-[Toggl](https://toggl.com) comparing the last month (first) and this
+Here is the data from my time tracking software
+([Toggl](https://toggl.com)) comparing the last month (first) and this
 month (second):
 
 [![Hours working using Toggl last month](/images/stats/2018/may/toggl-time-working.png "Hours working using Toggl last month")](/images/stats/2018/may/toggl-time-working.png "")
@@ -256,8 +256,7 @@ I'm using my Mi band data to calculate my average steps:
 
 This month I have almost **8k steps** compared to 7k from the previous month. 🎉
 
-I'm back to the gym, but my weight is still the same. I hope to have a
-big improvement next month:
+Let's check my weight:
 
 [![Weight this month](/images/stats/2018/jun/physical-activity-weight.png "Weight for this month")](/images/stats/2018/jun/physical-activity-weight.png "")
 
@@ -342,13 +341,13 @@ categories (in pt-BR):
 
 [![Expenses by category this month](/images/stats/2018/jun/expenses.jpg "Expenses by category this month")](/images/stats/2018/jun/expenses.jpg "")
 
-I see more general expenses (_Compras_) than I would like. Gifts
-and donations ( _Presentes / Doações_) are quite high this month
-because of my parents in law health insurance. I decided to consider
-in this category because I'm already using the Family category
+I see more general expenses (_Compras_) than I would like. Gifts and
+donations ( _Presentes / Doações_) are quite high this month because
+of my parents in law health insurance. I decided to add it to the
+_donations_ category because I'm already using the Family one
 (_Família / Filhos_) to track the expenses with my dog. 😅
 
-We spent a lot with Doctors and medicines this month, but I hope it
+We spent a lot with Doctors and medicines this month (_Saúde_), but I hope it
 will not be a recurrent expense.
 
 My total savings **increased by 1.32%** this month, and now I have
