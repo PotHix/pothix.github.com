@@ -19,8 +19,10 @@ whenever possible.
 Here is a list of my current priorities:
 
 + Improving [Todoist](https://developer.todoist.com) and [Twist](https://developer.twistapp.com) APIs at [Doist](https://doist.com)
++ Organizing new meetups [Guru-SP](https://gurusp.org)
 + Improving my Python skills
-+ Playing with [Rust](https://www.rust-lang.org/en-US/)
++ Playing with [Rust](https://www.rust-lang.org/en-US/) and speaking about it
++ Organizing the [Rust community in São Paulo](https://www.meetup.com/Rust-Sao-Paulo-Meetup/)
 + Collecting data about me to be able to [post about it monthly](/tags/stats)
 + Reading books and listening to many audiobooks on Audible. My reviews are available [here](https://goodreads.com/pothix)
 + Playing Magic the gathering for fun again. [Building some pauper decks](https://www.mtgvault.com/pothix/) in the past weeks.
@@ -29,4 +31,4 @@ I'm always trying to be more productive and write more code. [I'm posting about
 my results monthly](/tags/stats), but here are my coding stats for the last
 **30 days**:
 
-(last updated on April 2018)
+(last updated on July 2018)
