@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <lastBuildDate>Fri, 08 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://pothix.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Stats for Jun, 2018</title>
+      <link>http://pothix.com/post/stats-jun-2018/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/post/stats-jun-2018/</guid>
+      <description>Guess what!? Yes, metrics for June! 📊
+Books I usually don&amp;rsquo;t count how many books I read, I just track and check at the end of the month. When I saw that I read five books read this month, my face was like 😱. All of them received a 4-star review, so the result is quite good.
+
+ Managing Oneself: This is a great book. It&amp;rsquo;s not life-changing, but there are many great tips to improve your life.</description>
+    </item>
     
     <item>
       <title>Stats for May, 2018</title>
@@ -1581,7 +1593,7 @@ Play Source       Jogando e aprendendo Demo game made with HTML5 and Javascript 
       <description>This is my now page, inspired by Derek Sievers.
 I&amp;rsquo;m living in São Paulo, Brazil and working for Doist full-time and for Intervac as a freelancer whenever possible.
 Here is a list of my current priorities:
- Improving Todoist and Twist APIs at Doist Improving my Python skills Playing with Rust Collecting data about me to be able to post about it monthly Reading books and listening to many audiobooks on Audible.</description>
+ Improving Todoist and Twist APIs at Doist Organizing new meetups Guru-SP Improving my Python skills Playing with Rust and speaking about it Organizing the Rust community in São Paulo Collecting data about me to be able to post about it monthly Reading books and listening to many audiobooks on Audible.</description>
     </item>
     
     <item>
@@ -1590,7 +1602,7 @@ Here is a list of my current priorities:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/talks/</guid>
-      <description>Date of the event Original presentation title City and country Event name / organizer     2018-02-03 Criando um snake game do zero com Ruby e Gosu São Paulo, Brasil Impacta Tecnologia   2017-11-01 Desconstruindo a web São Paulo, Brasil Tech-talks, Codus   2017-10-09 Snake game using Python and PyGame Porto, Portugal Porto Python   2017-09-20 Fazendo um snake game com Python 3 e PyGame para se divertir São Paulo, Brasil GruPy-SP   2017-09-16 Lightning talk: Brincando com API&amp;rsquo;s e jq São Paulo, Brasil Guru-SP   2017-08-31 Uma requisição web do começo ao fim Barueri, Brasil Tech-hour Catho   2017-08-19 Desconstruindo a web: Entendendo uma requisição Bebedouro, Brasil Interdevops   2017-07-27 Desconstruindo a web São Paulo, Brasil Tech-talks ELO7   2017-07-22 Sua aplicação Ruby end-to-end São Paulo, Brasil Trilha de Ruby - TDC   2017-07-22 Criando um snake game com um navegador e um editor apenas São Paulo, Brasil Trilha de Games - TDC   2017-07-22 Command line interfaces with Go São Paulo, Brasil Trilha de Go - TDC   2017-07-15 Criando um snake game com Ruby usando Gosu São Paulo, Brasil Guru-SP   2017-07-02 Uma requisição web do começo ao fim São Paulo, Brasil Virada Tecnológica   2017-06-28 Painel sobre comunidades São Paulo, Brasil 19o Encontro Locaweb   2017-06-24 Desenvolvimento de jogos com HTML5 São Paulo, Brasil Impacta Tecnologia   2017-05-19 Desconstruindo a web São Paulo, Brasil BioRitmo tech-talks.</description>
+      <description>Date of the event Original presentation title City and country Event name / organizer     2018-06-16 Desconstruindo a web São Paulo, Brasil Impacta tecnologia   2018-02-03 Criando um snake game do zero com Ruby e Gosu São Paulo, Brasil Impacta Tecnologia   2017-11-01 Desconstruindo a web São Paulo, Brasil Tech-talks, Codus   2017-10-09 Snake game using Python and PyGame Porto, Portugal Porto Python   2017-09-20 Fazendo um snake game com Python 3 e PyGame para se divertir São Paulo, Brasil GruPy-SP   2017-09-16 Lightning talk: Brincando com API&amp;rsquo;s e jq São Paulo, Brasil Guru-SP   2017-08-31 Uma requisição web do começo ao fim Barueri, Brasil Tech-hour Catho   2017-08-19 Desconstruindo a web: Entendendo uma requisição Bebedouro, Brasil Interdevops   2017-07-27 Desconstruindo a web São Paulo, Brasil Tech-talks ELO7   2017-07-22 Sua aplicação Ruby end-to-end São Paulo, Brasil Trilha de Ruby - TDC   2017-07-22 Criando um snake game com um navegador e um editor apenas São Paulo, Brasil Trilha de Games - TDC   2017-07-22 Command line interfaces with Go São Paulo, Brasil Trilha de Go - TDC   2017-07-15 Criando um snake game com Ruby usando Gosu São Paulo, Brasil Guru-SP   2017-07-02 Uma requisição web do começo ao fim São Paulo, Brasil Virada Tecnológica   2017-06-28 Painel sobre comunidades São Paulo, Brasil 19o Encontro Locaweb   2017-06-24 Desenvolvimento de jogos com HTML5 São Paulo, Brasil Impacta Tecnologia   2017-05-19 Desconstruindo a web São Paulo, Brasil BioRitmo tech-talks.</description>
     </item>
     
     <item>
