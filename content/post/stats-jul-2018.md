@@ -351,8 +351,8 @@ _donations_ category because I'm already using the Family one
 We spent a lot with Doctors and medicines this month (_Saúde_), but I hope it
 will not be a recurrent expense.
 
-My total savings **increased by 1.32%** this month, and now I have
-**95.35%** of my goal.
+My total savings **increased by 3.69%** this month, and now I have
+**98.87%** of my goal.
 
 ### Time to write this blog post
 
