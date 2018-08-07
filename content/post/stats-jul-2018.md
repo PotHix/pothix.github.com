@@ -9,36 +9,29 @@ Let's go for some great metrics for July! 📊
 
 ### Books
 
-I usually don't count how many books I read, I just track and check at
-the end of the month. When I saw that I read five books read this
-month, my face was like 😱. All of them received a 4-star review, so
-the result is quite good.
+Four books read this month and one five stars review!
 
 [![List of books read this month](/images/stats/2018/jul/goodreads.png "List of books read this month")](https://www.goodreads.com/pothix
 "")
 
-+ [Managing Oneself](https://amzn.to/2LdZT3q): This is a great
-  book. It's not life-changing, but there are many great tips to
-  improve your life. It was almost 5 stars for me. [Check my review to
-  find my notes](https://www.goodreads.com/review/show/1622218584).
-+ [A Filosofia Explica as Grandes Questões da
-  Humanidade](https://amzn.to/2uuv1RO): This book is in pt-BR, if you
-  speak Portuguese and want a light (and quite funny) introduction to
-  philosophy book, this may be the one.
-+ [The Hard Thing About Hard Things: Building a Business When There
-  Are No Easy Answers](https://amzn.to/2Jm6rZ2): A good book for
-  CTOs. It was also an excellent reading for me since I saw many of those
-  problems happening during my career 😅. I'm not sure if I'm the
-  right audience, but it's a good book overall. [Here is my review and
-  notes](https://www.goodreads.com/review/show/2285173161).
-+ [Blood, Sweat, and Pixels: The Triumphant, Turbulent Stories Behind
-  How Video Games Are Made](https://amzn.to2NT4qXs): If you like
-  games, especially what is under the hood (not just to play them) you
-  will have a good time reading this book. I'm a big fan of games and
-  always try to build my own just for fun. The gaming industry is
-  tough, you will understand why by reading this book.
-+ [Zero to One: Notes on Startups, or How to Build the
-  Future](https://amzn.to/2NSlbCf): A good one but I think I had high expectations. I recommend reading anyway, especially if you want to build a startup in the future (or already have one).
++ [Fast Focus](https://amzn.to/2KzotaV): A straight to the point book
+  about productivity. I was between 4 and 5 stars to this one and I
+  think I used 4 because nothing was that new to me on this book. I
+  totally recommend you to read it if you are new to productivity
+  books.
++ [The Introvert's Edge](https://amzn.to/2ng1MPt): A book about sales
+  for introverts. I was expecting more about introverts and less about
+  sales but it was a good book in the end. The sales pitch is quite
+  convincing.
++ [A Brief History of Time](https://amzn.to/2ONG6Hb): A great book
+  about the evolution of physics. It's a dense book but well written
+  enough to guide you through hard topics. I want to read it again in
+  the future because I'm not sure if I got everything the book has to
+  offer.
++ [Tolkien and the West](https://amzn.to/2AN71jf): What an amazing
+  book. I read 10+ J.R.R. Tolkien books but this one made me look to
+  the whole life of Tolkien and his work from a different
+  perspective. I really recommend if you're a Tolkien fan.
 
 **Note**: I write a full review for all books I read. Sometimes I
 mention some of them here, but you can find all of them on [my
