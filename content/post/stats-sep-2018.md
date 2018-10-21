@@ -1,11 +1,17 @@
 +++
 title = "Stats for Sep, 2018"
-date = "2018-09-14"
+date = "2018-09-15"
 tags = ["stats","personal","english"]
 draft = true
 +++
 
-Guess what!? Yes, metrics for June! 📊
+Well, after failing for two months, it's time to write another stats post. 😀
+
+It's been two **really** busy months for me and I was not able to
+deliver a decent post or even take care of my stats properly. In this
+post I will try to at least talk about July and August but not in
+detail as it would take a lot of time and effort to have everything
+here.
 
 ### Books
 
