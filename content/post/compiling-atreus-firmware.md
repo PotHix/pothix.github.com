@@ -20,6 +20,12 @@ After that, I just had to get the keyboard to the reset mode via `fn + ESC` (to
 change the layout) and then pressed the RESET button. I had to refer to the map
 for the current layot to find the keys but after that, it went smoothly.
 
+To compile the firmware you want, just use `make` and specify the keyboard and layout:
+
+```
+make keyboard=atreus keymap=pothix
+```
+
 To flash the firmware, I used the `avrdude` command:
 
 ```
