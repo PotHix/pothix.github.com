@@ -17,6 +17,9 @@ the result is quite good.
 [![List of books read this month](/images/stats/2018/nov/goodreads.png "List of books read this month")](https://www.goodreads.com/pothix
 "")
 
++ [Meet the frugalwoods](https://amzn.to/2QKVzeQ):
+
+
 + [Managing Oneself](https://amzn.to/2LdZT3q): This is a great
   book. It's not life-changing, but there are many great tips to
   improve your life. It was almost 5 stars for me. [Check my review to
