@@ -1561,6 +1561,15 @@ Lembro muito bem da época que associava blog com os &amp;ldquo;flogão&amp;rdqu
     </item>
     
     <item>
+      <title></title>
+      <link>http://pothix.com/loja/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/loja/</guid>
+      <description>  Lojinha do PotHix   </description>
+    </item>
+    
+    <item>
       <title>About me</title>
       <link>http://pothix.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1582,6 +1591,17 @@ And obviously, you can always send me an email (I prefer) on pothix [at] pothix 
 Play Source       Simplestack ruby gem Ruby gem to interface an application with simplestack.
 Source Rubygems       Reconquest Simple game made for Global Game Jam 2011
 Play Source       Jogando e aprendendo Demo game made with HTML5 and Javascript using Akihabara engine.</description>
+    </item>
+    
+    <item>
+      <title>Media</title>
+      <link>http://pothix.com/media/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/media/</guid>
+      <description>If you&amp;rsquo;re here looking for videos of my talks, I recommend you to check my list of talks page.
+I love podcasts! It&amp;rsquo;s the media I consume the most nowadays (along with audiobooks!), so I do my best to contribute to it. Most of them (maybe all) are in pt-BR, but I&amp;rsquo;m adding the language in the table so you can find the ones you can understand, if any.
+   Event date Language Title of the episode Event name / organizer     2018-12-21 pt-BR DNE 186 - Fim de Ano devnaestrada   2018-12-04 pt-BR Mais produtividade Hipsters.</description>
     </item>
     
     <item>
