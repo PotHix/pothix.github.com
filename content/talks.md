@@ -7,10 +7,12 @@ subtitle = "A list of all my talks by date"
 
 Date of the event  | Original presentation title                              | City and country  | Event name / organizer
 -------------- | ------------------------------------------------------------ | ----------------- | ------------------------
+2018-09-21     | [Writing a simple game in Rust](https://www.youtube.com/watch?v=8DUENLiOfiQ) | São Paulo, Brasil | [THE CONF](https://www.theconf.club)
+2018-06-16     | [10 anos de Guru-SP](https://www.youtube.com/watch?v=f0kjacxHaZc) | São Paulo, Brasil | [Guru-SP](https://www.gurusp.org/encontros/51-encontro-doguru-sp-na-loggi)
 2018-06-16     | Desconstruindo a web                                         | São Paulo, Brasil | [Impacta tecnologia](https://www.sympla.com.br/desconstruindo-a-web__262326)
 2018-02-03     | Criando um snake game do zero com Ruby e Gosu                | São Paulo, Brasil | [Impacta Tecnologia](http://www.impacta.com.br/eventos/03-02-2018-De-um-arquivo-vazio-ate-um-snake-game-funcionando-usando-Ruby-e-Gosu)
 2017-11-01     | Desconstruindo a web                                         | São Paulo, Brasil | Tech-talks, Codus
-2017-10-09     | Snake game using Python and PyGame                           | Porto, Portugal   | [Porto Python](https://www.meetup.com/pyporto/events/243824670/)
+2017-10-09     | [Snake game using Python and PyGame](https://www.youtube.com/watch?v=4MrNQeQDK-U) | Porto, Portugal   | [Porto Python](https://www.meetup.com/pyporto/events/243824670/)
 2017-09-20     | Fazendo um snake game com Python 3 e PyGame para se divertir | São Paulo, Brasil | GruPy-SP
 2017-09-16     | Lightning talk: Brincando com API's e jq                     | São Paulo, Brasil | Guru-SP
 2017-08-31     | Uma requisição web do começo ao fim                          | Barueri, Brasil   | Tech-hour Catho
