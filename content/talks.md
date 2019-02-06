@@ -55,8 +55,8 @@ Date of the event  | Original presentation title                              | 
 2013-08-22     | How we used Ruby to build Locaweb's cloud                    | São Paulo, Brasil | Tech-talks Locaweb
 2013-06-27     | HTML5, Desenvolvimento de jogos e o Skeleton-jigsaw          | São Paulo, Brasil | Tech-talks Locaweb
 2013-04-04     | Gitlab na Locaweb (ft. Diego Souza)                          | São Paulo, Brasil | Tech-talks Locaweb
-2012-11-10     | Gamedev com HTML5 e o Skeleton Jigsaw (ft. Rafael Masoni)    | São Paulo, Brasil | Guru-SP
-2012-11-10     | Game network programming (ft. Diego Souza)                   | São Paulo, Brasil | Guru-SP
+2012-11-10     | [Gamedev com HTML5 e o Skeleton Jigsaw (ft. Rafael Masoni)](https://www.youtube.com/watch?v=J2yDMOHCYak)    | São Paulo, Brasil | Guru-SP
+2012-11-10     | [Game network programming (ft. Diego Souza)](https://www.youtube.com/watch?v=nG1oGfrDiUc)                   | São Paulo, Brasil | Guru-SP
 2012-11-08     | Game network programming (ft. Diego Souza)                   | São Paulo, Brasil | Tech-talks Locaweb
 2012-09-22     | [Ruby e XMPP](https://www.youtube.com/watch?v=HDsxF0bCInI)   | São Paulo, Brasil | Guru-SP
 2012-09-20     | [Simplestack - Simplesmente vários hypervisors (ft. @morellon)](/images/speaking/simplestack.jpg) | São Paulo, Brasil | Tech-talks Locaweb
