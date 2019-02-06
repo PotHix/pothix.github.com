@@ -32,92 +32,82 @@ track.
 
 [![List of books read by year](/images/stats/2018/yir/goodreads-challenge.png "Goodreads challenge")](https://www.goodreads.com/challenges/7501-2018-reading-challenge "")
 
-Last year I read 42 but I decided to not be so aggressive this year
-and try a different strategy. The idea was to add a full review
-on [Goodreads](https://goodreads.com) after the book is finished, so I
-can think about how much I understood and retained about it.
+I kept the same strategy I used last year. I'm writing a review for every single
+book I read and it's been working as expected. I'm still using [Google
+keep](https://keep.google.com) to take notes of the important parts and opinions
+so I can add that to the review as well. These notes are easy to find using
+Google Keep's search engine when I need to find a reference.
 
-The experiment went really well and helped me with the process of
-adding more notes about the important parts (IMO) of the book. I'm
-using [Google keep](https://keep.google.com) for that, using a label
-for book notes. These notes help me to get into the context of the
-book. They are also easy to find using Google Keep's search engine
-when I need to find a reference.
+Here are the books from this year's list that I rated 5 stars along with my reviews for them:
 
-Here are the books from this year's list that I really recommend
-reading, with links to my review:
+* [Sapiens: A Brief History of Humankind](https://amzn.to/2CKuaCd) ([review](https://www.goodreads.com/review/show/2055385224))
+* [When: The Scientific Secrets of Perfect Timing](https://amzn.to/2Swopxd) ([review](https://www.goodreads.com/review/show/2254843906))
+* [Principles](https://amzn.to/2LJpVJH) ([review](https://www.goodreads.com/review/show/2479523573))
+* [It Doesn't Have to Be Crazy at Work](https://amzn.to/2s34SZy) ([review](https://www.goodreads.com/review/show/2555421279))
+* [Anything You Want](https://amzn.to/2SwGD1E) ([review](https://www.goodreads.com/review/show/2286561012))
 
-Non-Fiction
+These were great books that I would totally recommend to anyone. There's also: 
 
-* [Mastery](https://www.goodreads.com/review/show/1642811841)
-* [What Doesn't Kill Us: How Freezing Water, Extreme Altitude and Environmental Conditioning will Renew our Lost Evolutionary Strength](https://www.goodreads.com/review/show/2055058923)
-* [Radical Candor: Be a Kickass Boss Without Losing Your Humanity](https://www.goodreads.com/review/show/2055503546)
-* [Spaceman: An Astronaut's Unlikely Journey to Unlock the Secrets of the Universe](https://www.goodreads.com/review/show/1968545292)
-* [Deep Work: Rules for Focused Success in a Distracted World](https://www.goodreads.com/review/show/1601212243)
+* [Tolkien and the West: Recovering the Lost Tradition of Europe](https://amzn.to/2VmVqhh) ([review](https://www.goodreads.com/review/show/2371801135))
 
-Fiction
-
-* [Rendezvous with Rama](https://www.goodreads.com/review/show/2057742804)
+I really like it but I would not recommend if you don't know much about Tolkien and his writings.
 
 You can always look for my whole
-[list of books read this year on Goodreads](https://www.goodreads.com/review/list/38970458-willian-molinari?read_at=2017&sort=date_read).
+[list of books read this year on Goodreads](https://www.goodreads.com/review/list/38970458-willian-molinari?read_at=2018&sort=date_read).
 
-Here are some stats provided by Goodreads comparing all the books I
-have registered:
+Here are some stats provided by Goodreads comparing all the books I have
+registered:
 
-[![List of books read by year](/images/stats/2018/yir/goodreads.png "List of books read by year")](https://www.goodreads.com/pothix
-"")
+[![List of books read by year](/images/stats/2018/yir/goodreads.png "List of books read by year")](/images/stats/2018/yir/goodreads.png "")
 
-I started [listening to audiobooks](/post/audiobooks/) in 2016 and it
-was a huge difference in my life, as you can see in the charts above.
+If we consider the number of pages, I'm reading a lot less than the previous
+years:
 
-Let's compare the books I read this year with last year:
+[![List of books read by year](/images/stats/2018/yir/goodreads-pages.png "List of books read by year")](/images/stats/2018/yir/goodreads-pages.png "")
 
-[![Comparison between 2016 and 2017](/images/stats/2018/yir/goodreads-details.png "Comparison between 2016 and 2017")](https://www.goodreads.com/pothix
-"")
+I'm using [audiobooks](/post/audiobooks/) most of the time, so pages would not
+be accurate here, but it kinda shows the length of the books I've been reading.
 
-10 books less than last year but it was expected. What bothers me is
-that I **only gave 5 stars to 2 books** (comparing to 9 last year)
-and **the number of books with 3 starts is higher than the last year**.
+Let's compare the books I read this year with the ones read last year:
 
-The number of books in the "audible-deal" shelf is higher this year
-and most of the books in the 3-stars row are on this shelf... Maybe
-the deal is not worth the price after all.
+[![Comparison between 2016 and 2017](/images/stats/2018/yir/goodreads-details.png "Comparison between 2016 and 2017")](https://www.goodreads.com/pothix "")
 
-Even with the high number of books in the 3-star row I'm happy with my
-results for 2017 regarding books. [Mastery](http://amzn.to/2AZWD2q)
-was the shiny pearl of this year, I really like it.
+Almost the same number of books but a better distribution this time. [I had a
+complaint regarding the number of 5-star rated books last
+year](/post/2017-year-in-review/) and I decided to read less books from the
+Audible's daily deal this time. I tried to read the books I had in my list for a
+while, which means that I received some sort of recommendation for them. The
+results are really better, since I rated 7 books with 5 stars.
+
+It's worth mentioning that the pizza chart doesn't make much sense since I can
+have the same book in two different shelves (it's a tag, not really a shelf).
+
+I'm quite happy with my reading stats this year. **If I would have to recommend just one book, it would be  [Sapiens: A Brief History of Humankind](https://amzn.to/2CKuaCd).**
 
 ### ✅ Articles
 
-Unfortunately, I don't have data for the whole year but I can use the
-data I have from March to December.
+This time, different from [last year's review](post/2017-year-in-review/) I have
+a full year of metrics using [Pocket](https://getpocket.com).
 
-I could not find a good way to track the articles I read. While I'm
-still looking for a better way to do that, I'm
-using [Pocket](https://getpocket.com) and manually checking it every
-month. It means that every article I read since March was added to
-Pocket. Sometimes I read from there but others I just add it there to
-count as read.
+In January, I had **1352 articles unread and 1008 articles** read. I just retrieved
+my Pocket data now and **I have 1733 articles unread (22% increase) and 1456 articles
+read (31% increase)**.
 
-In March I had **760 articles Unread** and **570 articles Read**. Now,
-using the data from my [December stats post](/post/stats-dec-2017), I
-have **1296 articles Unread** and **946 articles Read**.
+It means that **I read 381 articles this year**, an average of **31 articles
+each month**, which is almost the double of I measure last year (!!). Again,
+it's worth mentioning that I'm aware that I will probably never read all those
+1456 articles left in my Pocket account and I'm OK with that.
 
-It means that **I read 186 articles this year**, an average of **15
-articles each month**. I'm aware that I will probably never read all
-those 1296 articles left in my Pocket account and I'm OK with that.
+Unfortunately, I couldn't find any simple way to track that so I'm still
+calculating it via code. I could write an integration for that but I'm still
+finding it hard to manage my time to work on it. 😐
 
-Worth mentioning that my definition of article read is when I found
-some interesting and useful article and read that from bottom to end.
+I'm using [Exist.io](https://exist.io/?referred_by=pothix) for many metrics but their data and charts are still not enough for what I need. Here is one example of my month average of articles read:
 
-I had no goal for reading articles but I decided to track that to
-understand how much I read every year. Before starting with audiobooks
-I was really frustrated with the state of my reading stats. I was not
-reading many books in the year but I had a feeling that I was reading
-many articles, which is not so bad. By tracking that I have the data I
-need to prove to myself that I'm reading enough, which helps with the
-[impostor symdrome](https://en.wikipedia.org/wiki/Impostor_syndrome).
+[![Average of articles read by month](/images/stats/2018/yir/exist-articles-monthly.png "Average of articles read by month")](/images/stats/2018/yir/exist-articles-monthly.png "")
+
+It's nice to have that so I can possibly have correlations in the future, but
+it's not as good as having the final numbers.
 
 ### ✅ Coding
 
@@ -192,56 +182,44 @@ like to be, hope to improve it in 2018.
 Forget about "Other" it's related to Bash because of my plugin. 🙄
 
 In general, these are great results IMO. 😃
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
 ### ✅ Speaking
 
-I have to say that I'm really proud of myself on this one. 😃
+As expected, I had a hangover of speaking. I did 24 presentations last
+year and I was really tired of doing that. I met my goal in 2017 and had nothing
+planned for 2018.
 
-Here is the burndown chart I created to follow up each month (nothing fancy, a simple Google spreadsheets):
+With that said, I still [presented 4 times this year](/talks). [One of these talks
+was delivered in English in
+Brazil](https://www.youtube.com/watch?v=8DUENLiOfiQ), which is not that common. 🙂
 
-[![Burn down chart for my presentations](/images/stats/2018/yir/presentations.png "Burn down chart for my presentations")](/images/stats/2018/yir/presentations.png "")
+The number of talks was very modest when compared with my stats from 2017 but I also did some other activities related to speaking:
 
-For those who don't know yet (because I usually don't post publicly
-many things), I was in a "competition"
-with *[Milhouse](http://milhouseonsoftware.com)'s last year ghost*.
-
-This story is worth sharing since it was part of my goals:
-
-_In December 2016 I asked Milhouse about how many talks he gave and he_
-_said it was 18 talks. I was stunned. At the time, I was really proud_
-_of my personal record of 12 talks in one year and I know it was really_
-_hard to achieve this number. I asked him to post about it on his blog_
-*and [here it is](http://milhouseonsoftware.com/2016/12/29/retro_216/)*.
-_When I saw that, I started a competition with_
-_myself, my goal was **to speak in 2017 more than Milhouse did in 2016**_.
-
-It looks like a time trial race in video games when you have to defeat
-your own "ghost" or the "ghost" of a friend. For those who played bike
-racer from [Top Free Games](http://www.topfreegames.com/), it's just
-like that.
-
-It may look silly but I always do "competitions" like that to motivate
-myself. Sometimes I use my own data and others I use the data from
-someone I admire or someone who did amazing things. This time was
-really nice because I told that I was doing it to some friends
-(including Milhouse) and it was a cool internal joke between us.
-
-Thanks to that "competition" I could motivate myself to:
-
-* Propose a talk to [FOSDEM](https://fosdem.org) and speak outside the
-  country in a different language. Milhouse had 1 talk outside of
-  Brazil, so I had to beat that. For this reason, I spoke in Belgium and Portugal.
-* Speak 3 times in the same conference
-  ([TDC](http://www.thedevelopersconference.com.br)) about 3 different
-  languages (Go, Ruby, Javascript) and 3 different fields (CLI, Web,
-  Games)
-* Do 5 talks with live-coding. 3 of them starting from scratch, with a
-  blank text file and 40 minutes of time (For those who don't know,
-  one of my biggest fears was live-coding talks)
-
-Met a lot of new people, studied many languages, and had **a ton** of
-fun. I really recommend this motivation hacking. It's not just for
-speaking, you can use it for anything you want.
+* I'm still one of the main organizers of [Guru-SP](https://gurusp.org), which
+  is the São Paulo Ruby Users group. This year was the group's 10 years
+  anniversary. I'm really proud to reach this milestone. We also met our goal of
+  [6 meetups this year](https://www.gurusp.org/encontros/)! It may seem to be
+  something simple but it's hard work to keep a group of volunteers together
+  making a group happen for 10 years straight.
+* I'm revived the [Rust-SP](https://www.meetup.com/Rust-Sao-Paulo-Meetup/), a
+  group dedicated to discuss the Rust language in São Paulo. The group were born
+  some years ago but was not maintained anymore. When the original creator
+  decided to end the activities of the group I decided to pick it up along with
+  [Marcelo Castellani](https://twitter.com/mfcastellani) and make it happen
+  again. We got some help for other Rustaceans and we now have a healthy
+  community again. Hope to have many meetups this year.
+* We ([Marcelo Castellani](https://twitter.com/mfcastellani), [Bruno
+  Rocha](https://twitter.com/rochacbruno), and me) organized the Rust
+  room inside [The Developers
+  Conference](http://thedevelopersconference.com.br) São Paulo. It was
+  the first time we had space for such language in the conference, so
+  it was quite a challenge for us.
+* I joined the core team of organizers of [Rust
+  LATAM](https://rustlatam.org) after [RustConf](https://rustconf.com)
+  and I'm now making it happen. Rust LATAM conference will happen this
+  March 29 and 30 in Montevideo, Uruguay.
+  
+Now that I listed all of these activities, I'm quite satisfied with what I did this year. That's why I like to write these yearly reviews. 😁
 
 
 ### ✅ Completed tasks
