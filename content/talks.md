@@ -42,14 +42,14 @@ Date of the event  | Original presentation title                              | 
 2015-12-10     | Desconstruindo a web                                         | São Paulo, Brasil | Tech-talks Locaweb
 2015-09-03     | As escolhas do desenvolvedor                                 | São Paulo, Brasil | MacMobile Mackenzie
 2015-07-30     | OSCON 2015 (ft. Diego Souza)                                 | São Paulo, Brasil | Tech-talks Locaweb
-2015-06-18     | [As escolhas do dosenvolvedor](https://en.eventials.com/locaweb/as-escolhas-do-desenvolvedor-com-willian-molinari-a-k-a-pothix/) | São Paulo, Brasil | 17o Encontro Locaweb São Paulo
-2015-06-02     | As escolhas do dosenvolvedor                                 | São Paulo, Brasil | Tech-talks Netshoes
+2015-06-18     | [As escolhas do desenvolvedor](https://en.eventials.com/locaweb/as-escolhas-do-desenvolvedor-com-willian-molinari-a-k-a-pothix/) | São Paulo, Brasil | 17o Encontro Locaweb São Paulo
+2015-06-02     | As escolhas do desenvolvedor                                 | São Paulo, Brasil | Tech-talks Netshoes
 2015-05-21     | HTML5, Desenvolvimento de jogos e o Skeleton-jigsaw          | Santa Fé do Sul, Brasil | Semana acadêmica, FUNEC
-2015-05-19     | [As escolhas do dosenvolvedor](https://www.flickr.com/photos/locaweb/17899298832/in/album-72157652754664218/) | Rio de Janeiro, Brasil | 17o Encontro Locaweb Rio de Janeiro
-2015-05-07     | [As escolhas do dosenvolvedor](https://www.flickr.com/photos/locaweb/16984105713/in/album-72157652339858570/) | Porto Alegre, Brasil | 17o Encontro Locaweb Porto Alegre
-2015-04-11     | [As escolhas do dosenvolvedor](https://www.flickr.com/photos/locaweb/17049929540/in/album-72157651709980410/) | Curitiba, Brasil | 17o Encontro Locaweb Curitiba
-2015-03-18     | [As escolhas do dosenvolvedor](https://www.flickr.com/photos/locaweb/17030159317/in/album-72157649789309524/) | Recife, Brasil | 17o Encontro Locaweb Recife
-2015-03-06     | As escolhas do dosenvolvedor                                 | Belo Horizonte, Brasil | Encontro Locaweb - Belo Horizonte
+2015-05-19     | [As escolhas do desenvolvedor](https://www.flickr.com/photos/locaweb/17899298832/in/album-72157652754664218/) | Rio de Janeiro, Brasil | 17o Encontro Locaweb Rio de Janeiro
+2015-05-07     | [As escolhas do desenvolvedor](https://www.flickr.com/photos/locaweb/16984105713/in/album-72157652339858570/) | Porto Alegre, Brasil | 17o Encontro Locaweb Porto Alegre
+2015-04-11     | [As escolhas do desenvolvedor](https://www.flickr.com/photos/locaweb/17049929540/in/album-72157651709980410/) | Curitiba, Brasil | 17o Encontro Locaweb Curitiba
+2015-03-18     | [As escolhas do desenvolvedor](https://www.flickr.com/photos/locaweb/17030159317/in/album-72157649789309524/) | Recife, Brasil | 17o Encontro Locaweb Recife
+2015-03-06     | As escolhas do desenvolvedor                                 | Belo Horizonte, Brasil | Encontro Locaweb - Belo Horizonte
 2015-01-08     | Saruman e a alocação sábia de recursos                       | São Paulo, Brasil | Tech-talks Locaweb
 2013-08-30     | [How we used Ruby to build Locaweb's cloud](http://blog.locaweb.com.br/wp-content/uploads/2013/09/9661272889_efdc32ca3e_b.jpg) | São Paulo, Brasil | Rubyconf Brasil
 2013-08-22     | How we used Ruby to build Locaweb's cloud                    | São Paulo, Brasil | Tech-talks Locaweb
