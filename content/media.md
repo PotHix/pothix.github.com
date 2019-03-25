@@ -10,7 +10,7 @@ _If you're here looking for videos of my talks, I recommend you to check my [lis
 I love podcasts! It's the media I consume the most nowadays (along with audiobooks!), so I do my best to contribute to it. Most of them (maybe all) are in pt-BR, but I'm adding the language in the table so you can find the ones you can understand, if any.
 
 
-Event date | Language | Title of the episode    |  Event name / organizer
+Date       | Language | Title of the episode    |  Name
 ---------- | -------- | ----------------------- | -----------------------
 2018-12-21 | pt-BR | [DNE 186 - Fim de Ano](https://devnaestrada.com.br/2018/12/21/fim-de-ano.html) | [devnaestrada](https://devnaestrada.com.br)
 2018-12-04 | pt-BR | [Mais produtividade](https://hipsters.tech/mais-produtividade-hipsters-125/) | [Hipsters.tech](https://hipsters.tech)
