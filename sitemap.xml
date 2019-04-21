@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://pothix.com/post/how-was-it-to-organize-rust-latam/</loc>
-    <lastmod>2019-04-21T14:02:54-03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://pothix.com/post/how-was-rust-latam-2019/</loc>
     <lastmod>2019-04-21T14:02:54-03:00</lastmod>
   </url>
@@ -812,7 +807,7 @@
   
   <url>
     <loc>http://pothix.com/tags/english/</loc>
-    <lastmod>2019-04-21T14:02:54-03:00</lastmod>
+    <lastmod>2018-07-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -951,12 +946,6 @@
   <url>
     <loc>http://pothix.com/tags/ruby/</loc>
     <lastmod>2014-02-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://pothix.com/tags/rust/</loc>
-    <lastmod>2019-04-21T14:02:54-03:00</lastmod>
     <priority>0</priority>
   </url>
   
