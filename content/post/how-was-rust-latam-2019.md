@@ -15,6 +15,8 @@ even for beginners.
 
 ## Organizers
 
+[![Rust LATAM organizers](/images/posts/rustlatam-organizers.jpg "Rust LATAM organizers")](/images/posts/rustlatam-organizersb.jpg "")
+
 This post does not name people because I don't know how much they
 feel comfortable to be mentioned here, but there's someone that
 needs to be mentioned, and this person is [Santiago
@@ -82,6 +84,8 @@ knowledge to make this conference happen. ❤️
 ## Brazilians
 
 Yes, Brazilians deserve a topic. :)
+
+[![Brazilians](/images/posts/rustlatam-brazilians.jpg "Brazilians")](/images/posts/rustlatam-brazilians.jpg "")
 
 For those who don't know yet (for some reason), I'm Brazilian. It's
 not so common for people in Brazil to go to different countries (I may
@@ -249,3 +253,5 @@ part of the team that made it happen.
 Well... The best way to end this post is to thank everyone (attendees,
 sponsors, speakers, organizers, etc.) who were there to make it
 happen. 🦀
+
+[![Everyone](/images/posts/rustlatam-everyone.jpg "Everyone")](/images/posts/rustlatam-everyone.jpg "")
