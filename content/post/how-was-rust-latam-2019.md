@@ -237,7 +237,8 @@ would be able to get home in time. It's a long and stressful process.
 One of us was out to bring the tablecloths for the sponsors'
 table. When this person got to the place, it was almost closing, and
 he/she got trapped into the garage. One of us had to go there to
-release him/her. :P
+release him/her but this person was able to release [him/her]self
+before we arrive. :P
 
 ## Conclusion
 
