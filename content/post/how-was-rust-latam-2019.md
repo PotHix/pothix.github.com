@@ -5,8 +5,8 @@ date: 2019-04-21T14:02:54-03:00
 
 For those who don't know, I'm a proud core organizer of the [Rust
 LATAM conference](https://rustlatam.org). 🎉 The conference happened
-on March 29 and 30, and this post describes how it was to organize
-the whole thing.
+on March 29 and 30, and this post describes how it was to organize the
+whole thing.
 
 Even with the small problems we had (as any other big conference), the
 feedback we received so far were very positive. We were able to bring
@@ -15,7 +15,7 @@ even for beginners.
 
 ## Organizers
 
-[![Rust LATAM organizers](/images/posts/rustlatam-organizers.jpg "Rust LATAM organizers")](/images/posts/rustlatam-organizersb.jpg "")
+[![Almost all Rust LATAM organizers](/images/posts/rustlatam-organizers.jpg "Almost all Rust LATAM organizers")](/images/posts/rustlatam-organizersb.jpg "")
 
 This post does not name people because I don't know how much they
 feel comfortable to be mentioned here, but there's someone that
