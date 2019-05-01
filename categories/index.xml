@@ -7,157 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <lastBuildDate>Thu, 03 Mar 2011 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Aug 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://pothix.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Android</title>
-      <link>http://pothix.com/categories/android/</link>
-      <pubDate>Thu, 03 Mar 2011 00:00:00 +0000</pubDate>
-      
-      <guid>http://pothix.com/categories/android/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Books</title>
-      <link>http://pothix.com/categories/books/</link>
-      <pubDate>Mon, 03 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://pothix.com/categories/books/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Courses</title>
-      <link>http://pothix.com/categories/courses/</link>
-      <pubDate>Fri, 20 Feb 2009 00:00:00 +0000</pubDate>
-      
-      <guid>http://pothix.com/categories/courses/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dev</title>
-      <link>http://pothix.com/categories/dev/</link>
-      <pubDate>Fri, 14 Feb 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://pothix.com/categories/dev/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Development</title>
-      <link>http://pothix.com/categories/development/</link>
-      <pubDate>Mon, 11 May 2009 00:00:00 +0000</pubDate>
-      
-      <guid>http://pothix.com/categories/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>English</title>
-      <link>http://pothix.com/categories/english/</link>
-      <pubDate>Fri, 10 Apr 2009 00:00:00 +0000</pubDate>
-      
-      <guid>http://pothix.com/categories/english/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Events</title>
-      <link>http://pothix.com/categories/events/</link>
-      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://pothix.com/categories/events/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Games</title>
-      <link>http://pothix.com/categories/games/</link>
-      <pubDate>Wed, 31 Oct 2012 00:00:00 +0000</pubDate>
-      
-      <guid>http://pothix.com/categories/games/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Geek</title>
-      <link>http://pothix.com/categories/geek/</link>
-      <pubDate>Sat, 27 Dec 2008 00:00:00 +0000</pubDate>
-      
-      <guid>http://pothix.com/categories/geek/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Keyboard</title>
-      <link>http://pothix.com/categories/keyboard/</link>
-      <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://pothix.com/categories/keyboard/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>http://pothix.com/categories/linux/</link>
-      <pubDate>Thu, 09 Jul 2009 00:00:00 +0000</pubDate>
-      
-      <guid>http://pothix.com/categories/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Motorcycle</title>
-      <link>http://pothix.com/categories/motorcycle/</link>
-      <pubDate>Mon, 10 Sep 2012 00:00:00 +0000</pubDate>
-      
-      <guid>http://pothix.com/categories/motorcycle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>News</title>
-      <link>http://pothix.com/categories/news/</link>
-      <pubDate>Mon, 25 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://pothix.com/categories/news/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Personal</title>
-      <link>http://pothix.com/categories/personal/</link>
-      <pubDate>Mon, 29 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>http://pothix.com/categories/personal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reading</title>
-      <link>http://pothix.com/categories/reading/</link>
-      <pubDate>Wed, 22 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://pothix.com/categories/reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Review</title>
-      <link>http://pothix.com/categories/review/</link>
-      <pubDate>Fri, 06 Aug 2010 00:00:00 +0000</pubDate>
-      
-      <guid>http://pothix.com/categories/review/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tech</title>
+      <title>tech</title>
       <link>http://pothix.com/categories/tech/</link>
       <pubDate>Sat, 05 Aug 2017 00:00:00 +0000</pubDate>
       
@@ -166,7 +22,151 @@
     </item>
     
     <item>
-      <title>Tips</title>
+      <title>travel</title>
+      <link>http://pothix.com/categories/travel/</link>
+      <pubDate>Fri, 10 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/categories/travel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>events</title>
+      <link>http://pothix.com/categories/events/</link>
+      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/categories/events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>books</title>
+      <link>http://pothix.com/categories/books/</link>
+      <pubDate>Mon, 03 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/categories/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reading</title>
+      <link>http://pothix.com/categories/reading/</link>
+      <pubDate>Wed, 22 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/categories/reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>keyboard</title>
+      <link>http://pothix.com/categories/keyboard/</link>
+      <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/categories/keyboard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>news</title>
+      <link>http://pothix.com/categories/news/</link>
+      <pubDate>Mon, 25 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/categories/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dev</title>
+      <link>http://pothix.com/categories/dev/</link>
+      <pubDate>Fri, 14 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/categories/dev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>personal</title>
+      <link>http://pothix.com/categories/personal/</link>
+      <pubDate>Mon, 29 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/categories/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>games</title>
+      <link>http://pothix.com/categories/games/</link>
+      <pubDate>Wed, 31 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/categories/games/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>motorcycle</title>
+      <link>http://pothix.com/categories/motorcycle/</link>
+      <pubDate>Mon, 10 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/categories/motorcycle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>android</title>
+      <link>http://pothix.com/categories/android/</link>
+      <pubDate>Thu, 03 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/categories/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>review</title>
+      <link>http://pothix.com/categories/review/</link>
+      <pubDate>Fri, 06 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/categories/review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>http://pothix.com/categories/linux/</link>
+      <pubDate>Thu, 09 Jul 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>development</title>
+      <link>http://pothix.com/categories/development/</link>
+      <pubDate>Mon, 11 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>english</title>
+      <link>http://pothix.com/categories/english/</link>
+      <pubDate>Fri, 10 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/categories/english/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>courses</title>
+      <link>http://pothix.com/categories/courses/</link>
+      <pubDate>Fri, 20 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/categories/courses/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tips</title>
       <link>http://pothix.com/categories/tips/</link>
       <pubDate>Mon, 12 Jan 2009 00:00:00 +0000</pubDate>
       
@@ -175,11 +175,11 @@
     </item>
     
     <item>
-      <title>Travel</title>
-      <link>http://pothix.com/categories/travel/</link>
-      <pubDate>Fri, 10 Mar 2017 00:00:00 +0000</pubDate>
+      <title>geek</title>
+      <link>http://pothix.com/categories/geek/</link>
+      <pubDate>Sat, 27 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/categories/travel/</guid>
+      <guid>http://pothix.com/categories/geek/</guid>
       <description></description>
     </item>
     
