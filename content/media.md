@@ -12,6 +12,7 @@ I love podcasts! It's the media I consume the most nowadays (along with audioboo
 
 Date       | Language | Title of the episode    |  Name
 ---------- | -------- | ----------------------- | -----------------------
+2019-05-04 | pt-BR | [Como ler um livro rendeu uma vaga na Red Hat](https://www.youtube.com/watch?v=Q80PoxkiHuo) | [Podcast: Insights de programação com Lucas Caton](https://www.lucascaton.com.br/podcast/)
 2018-12-21 | pt-BR | [DNE 186 - Fim de Ano](https://devnaestrada.com.br/2018/12/21/fim-de-ano.html) | [devnaestrada](https://devnaestrada.com.br)
 2018-12-04 | pt-BR | [Mais produtividade](https://hipsters.tech/mais-produtividade-hipsters-125/) | [Hipsters.tech](https://hipsters.tech)
 2018-11-06 | pt-BR | [Desvendando os segredos do Todoist](https://producast.com.br/desvendando-os-segredos-do-todoist-producast-s02e36/) | [Producast](https://producast.com.br)
