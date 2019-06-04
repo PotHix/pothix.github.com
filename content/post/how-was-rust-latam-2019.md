@@ -15,7 +15,7 @@ even for beginners.
 
 ## Organizers
 
-[![Almost all Rust LATAM organizers](/images/posts/rustlatam-organizers.jpg "Almost all Rust LATAM organizers")](/images/posts/rustlatam-organizersb.jpg "")
+[![All organizers in the corridor of our rented AirBnb place](/images/posts/rustlatam-organizers.jpg "Almost all Rust LATAM organizers")](/images/posts/rustlatam-organizersb.jpg "")
 
 This post does not name people because I don't know how much they
 feel comfortable to be mentioned here, but there's someone that
@@ -48,7 +48,7 @@ We generated a chart about the demographics using the data from
 everyone who attended the conference. Here's the data we have for
 that:
 
-[![Demographics](/images/posts/rustlatam-demographics.png "Demographics")](/images/posts/rustlatam-demographics.png "")
+[![A pie chart showing the demographics of the conference](/images/posts/rustlatam-demographics.png "Demographics")](/images/posts/rustlatam-demographics.png "")
 
 **Errata:** After the conference someone noticed that Mexico was not
 included in the legend of the demographics chart when we presented in
@@ -69,6 +69,8 @@ better with this conference. :)
 
 ## Speakers
 
+[![All speakers and organizers on stage](/images/posts/rustlatam-speakers.jpg "Speakers")](/images/posts/rustlatam-speakers.jpg "")
+
 Here I'm also counting the workshop speakers not only the ones who
 were speaking on stage on Saturday.
 
@@ -85,7 +87,7 @@ knowledge to make this conference happen. ❤️
 
 Yes, Brazilians deserve a topic. :)
 
-[![Brazilians](/images/posts/rustlatam-brazilians.jpg "Brazilians")](/images/posts/rustlatam-brazilians.jpg "")
+[![All brazilians on stage after the conference in a unofficial picture](/images/posts/rustlatam-brazilians.jpg "Brazilians")](/images/posts/rustlatam-brazilians.jpg "")
 
 For those who don't know yet (for some reason), I'm Brazilian. It's
 not so common for people in Brazil to go to different countries (I may
@@ -255,4 +257,4 @@ Well... The best way to end this post is to thank everyone (attendees,
 sponsors, speakers, organizers, etc.) who were there to make it
 happen. 🦀
 
-[![Everyone](/images/posts/rustlatam-everyone.jpg "Everyone")](/images/posts/rustlatam-everyone.jpg "")
+[![Picture of everyone on stage taken from above](/images/posts/rustlatam-everyone.jpg "Everyone")](/images/posts/rustlatam-everyone.jpg "")
