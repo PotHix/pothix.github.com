@@ -39,7 +39,7 @@ No. | Date       | Title + link to content (if available)                       
 40  | 2016-11-10 | GopherConBR 2016                                             |  PT  | São Paulo, Brasil | Tech-talks Locaweb
 37  | 2016-09-24 | Desconstruindo a web                                         |  PT  | São Paulo, Brasil | Rubyconf Brasil
 36  | 2016-03-24 | Mesos e Docker é-du-ARDA (ft. @rhruiz)                       |  PT  | São Paulo, Brasil | Tech-talks Locaweb
-35  | 2016-01-30 | Apache Mesos - Abstraindo seus recursos                      |  PT  | São Paulo, Brasil | [Guru-SP](https://gurusp.org)
+35  | 2016-01-30 | [Apache Mesos - Abstraindo seus recursos](https://www.youtube.com/watch?v=t2olaBrgR9A) |  PT  | São Paulo, Brasil | [Guru-SP](https://gurusp.org)
 34  | 2015-12-10 | Desconstruindo a web                                         |  PT  | São Paulo, Brasil | Tech-talks Locaweb
 33  | 2015-11-28 | [Desconstruindo a web](https://www.youtube.com/watch?v=9ERJRChQ-fU) |  PT  | São Paulo, Brasil | DevInSantos
 32  | 2015-09-03 | As escolhas do desenvolvedor                                 |  PT  | São Paulo, Brasil | MacMobile Mackenzie
@@ -66,5 +66,5 @@ No. | Date       | Title + link to content (if available)                       
 05  | 2012-05-31 | OpenStack Summit - Melhores momentos                         |  PT  | São Paulo, Brasil | Tech-talks Locaweb
 04  | 2012-02-25 | Implementações paralelas                                     |  PT  | São Paulo, Brasil | [Guru-SP](https://gurusp.org)
 03  | 2012-02-23 | Implementações paralelas                                     |  PT  | São Paulo, Brasil | Tech-talks Locaweb
-02  | 2010-03-13 | Porque Vim?                                                  |  PT  | São Paulo, Brasil | [Guru-SP](https://gurusp.org)
+02  | 2010-03-13 | [Porque Vim?](https://www.youtube.com/watch?v=uhYqwZh61yQ)   |  PT  | São Paulo, Brasil | [Guru-SP](https://gurusp.org)
 01  | 2009-04-04 | Como funciona o Rubylearning                                 |  PT  | São Paulo, Brasil | Ruby + Rails no mundo real
