@@ -210,13 +210,13 @@
   </url>
   
   <url>
-    <loc>http://pothix.com/tags/events/</loc>
+    <loc>http://pothix.com/categories/events/</loc>
     <lastmod>2017-03-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://pothix.com/categories/events/</loc>
+    <loc>http://pothix.com/tags/events/</loc>
     <lastmod>2017-03-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -391,13 +391,13 @@
   </url>
   
   <url>
-    <loc>http://pothix.com/tags/games/</loc>
+    <loc>http://pothix.com/categories/games/</loc>
     <lastmod>2012-10-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://pothix.com/categories/games/</loc>
+    <loc>http://pothix.com/tags/games/</loc>
     <lastmod>2012-10-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -475,13 +475,13 @@
   </url>
   
   <url>
-    <loc>http://pothix.com/tags/android/</loc>
+    <loc>http://pothix.com/categories/android/</loc>
     <lastmod>2011-03-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://pothix.com/categories/android/</loc>
+    <loc>http://pothix.com/tags/android/</loc>
     <lastmod>2011-03-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
