@@ -5,64 +5,66 @@ title = "Presentations"
 subtitle = "A list of all my talks by date"
 +++
 
-Date of the event  | Original presentation title                              | City and country  | Event name / organizer
--------------- | ------------------------------------------------------------ | ----------------- | ------------------------
-2018-09-21     | [Writing a simple game in Rust](https://www.youtube.com/watch?v=8DUENLiOfiQ) | São Paulo, Brasil | [THE CONF](https://www.theconf.club)
-2018-06-16     | [10 anos de Guru-SP](https://www.youtube.com/watch?v=f0kjacxHaZc) | São Paulo, Brasil | [Guru-SP](https://www.gurusp.org/encontros/51-encontro-doguru-sp-na-loggi)
-2018-06-16     | Desconstruindo a web                                         | São Paulo, Brasil | [Impacta tecnologia](https://www.sympla.com.br/desconstruindo-a-web__262326)
-2018-02-03     | Criando um snake game do zero com Ruby e Gosu                | São Paulo, Brasil | [Impacta Tecnologia](http://www.impacta.com.br/eventos/03-02-2018-De-um-arquivo-vazio-ate-um-snake-game-funcionando-usando-Ruby-e-Gosu)
-2017-11-01     | Desconstruindo a web                                         | São Paulo, Brasil | Tech-talks, Codus
-2017-10-09     | [Snake game using Python and PyGame](https://www.youtube.com/watch?v=4MrNQeQDK-U) | Porto, Portugal   | [Porto Python](https://www.meetup.com/pyporto/events/243824670/)
-2017-09-20     | Fazendo um snake game com Python 3 e PyGame para se divertir | São Paulo, Brasil | GruPy-SP
-2017-09-16     | Lightning talk: Brincando com API's e jq                     | São Paulo, Brasil | Guru-SP
-2017-08-31     | Uma requisição web do começo ao fim                          | Barueri, Brasil   | Tech-hour Catho
-2017-08-19     | Desconstruindo a web: Entendendo uma requisição              | Bebedouro, Brasil | Interdevops
-2017-07-27     | Desconstruindo a web                                         | São Paulo, Brasil | Tech-talks ELO7
-2017-07-22     | Sua aplicação Ruby end-to-end                                | São Paulo, Brasil | Trilha de Ruby - TDC
-2017-07-22     | Criando um snake game com um navegador e um editor apenas    | São Paulo, Brasil | Trilha de Games - TDC
-2017-07-22     | [Command line interfaces with Go](https://goo.gl/JBk1eg)     | São Paulo, Brasil | Trilha de Go - TDC
-2017-07-15     | [Criando um snake game com Ruby usando Gosu](https://www.youtube.com/watch?v=bcQaQVJkVbw) | São Paulo, Brasil | Guru-SP
-2017-07-02     | Uma requisição web do começo ao fim                          | São Paulo, Brasil | Virada Tecnológica
-2017-06-28     | [Painel sobre comunidades](https://pbs.twimg.com/media/DDarqhkW0AAuuJT.jpg:large) | São Paulo, Brasil | [19o Encontro Locaweb](http://eventos.locaweb.com.br/eventos-anteriores/19o-encontro-locaweb-sao-paulo/)
-2017-06-24     | Desenvolvimento de jogos com HTML5                           | São Paulo, Brasil | Impacta Tecnologia
-2017-05-19     | [Desconstruindo a web](https://goo.gl/OSc9Yb)                | São Paulo, Brasil | BioRitmo tech-talks.
-2017-05-11     | Como foi o [TDC Florianópolis](http://www.thedevelopersconference.com.br/tdc/2017/florianopolis/trilhas) | São Paulo, Brasil | Tech-talks Locaweb
-2017-05-06     | [Uma aplicação Ruby end-to-end](https://www.eventials.com/Globalcode/sabado-a-tarde-tdconline-floripa-2017-stadium/) | Florianópolis, Brasil | [TDC Florianópolis](http://www.thedevelopersconference.com.br/tdc/2017/florianopolis/trilhas)
-2017-05-03     | [Mesos como ferramenta](https://www.eventials.com/Globalcode/quarta-a-tarde-tdconline-floripa-2017-stadium/) | Florianópolis, Brasil | [TDC Florianópolis](http://www.thedevelopersconference.com.br/tdc/2017/florianopolis/trilhas)
-2017-03-23     | Desconstruindo a web                                         | São Paulo, Brasil | Tech-talks gaveteiros
-2017-03-17     | Como foi a FOSDEM 2017                                       | São Paulo, Brasil | Tech-talks Locaweb
-2017-02-05     | [Open source behind a web request](https://fosdem.org/2017/schedule/event/desktops_open_source_behind_web_request/) | Brussels, Belgica | FOSDEM 2017
-2017-01-20     | Open source behind a web request                             | São Paulo, Brasil | Tech-talks Campus code
-2017-01-14     | Desconstruindo a web                                         | São Paulo, Brasil | Impacta tecnologia
-2017-01-09     | [As escolhas do desenvolvedor](https://pbs.twimg.com/media/C1vn7x1XcAQKbxk.jpg:large) | São Paulo, Brasil | "Quero ser dev", Campus code
-2016-11-10     | GopherConBR 2016                                             | São Paulo, Brasil | Tech-talks Locaweb
-2016-09-24     | Desconstruindo a web                                         | São Paulo, Brasil | Rubyconf Brasil
-2016-03-24     | Mesos e Docker é-du-ARDA (ft. @rhruiz)                       | São Paulo, Brasil | Tech-talks Locaweb
-2016-01-30     | Apache Mesos - Abstraindo seus recursos                      | São Paulo, Brasil | Guru-SP
-2015-12-10     | Desconstruindo a web                                         | São Paulo, Brasil | Tech-talks Locaweb
-2015-09-03     | As escolhas do desenvolvedor                                 | São Paulo, Brasil | MacMobile Mackenzie
-2015-07-30     | OSCON 2015 (ft. Diego Souza)                                 | São Paulo, Brasil | Tech-talks Locaweb
-2015-06-18     | [As escolhas do desenvolvedor](https://en.eventials.com/locaweb/as-escolhas-do-desenvolvedor-com-willian-molinari-a-k-a-pothix/) | São Paulo, Brasil | 17o Encontro Locaweb São Paulo
-2015-06-02     | As escolhas do desenvolvedor                                 | São Paulo, Brasil | Tech-talks Netshoes
-2015-05-21     | HTML5, Desenvolvimento de jogos e o Skeleton-jigsaw          | Santa Fé do Sul, Brasil | Semana acadêmica, FUNEC
-2015-05-19     | [As escolhas do desenvolvedor](https://www.flickr.com/photos/locaweb/17899298832/in/album-72157652754664218/) | Rio de Janeiro, Brasil | 17o Encontro Locaweb Rio de Janeiro
-2015-05-07     | [As escolhas do desenvolvedor](https://www.flickr.com/photos/locaweb/16984105713/in/album-72157652339858570/) | Porto Alegre, Brasil | 17o Encontro Locaweb Porto Alegre
-2015-04-11     | [As escolhas do desenvolvedor](https://www.flickr.com/photos/locaweb/17049929540/in/album-72157651709980410/) | Curitiba, Brasil | 17o Encontro Locaweb Curitiba
-2015-03-18     | [As escolhas do desenvolvedor](https://www.flickr.com/photos/locaweb/17030159317/in/album-72157649789309524/) | Recife, Brasil | 17o Encontro Locaweb Recife
-2015-03-06     | As escolhas do desenvolvedor                                 | Belo Horizonte, Brasil | Encontro Locaweb - Belo Horizonte
-2015-01-08     | Saruman e a alocação sábia de recursos                       | São Paulo, Brasil | Tech-talks Locaweb
-2013-08-30     | [How we used Ruby to build Locaweb's cloud](http://blog.locaweb.com.br/wp-content/uploads/2013/09/9661272889_efdc32ca3e_b.jpg) | São Paulo, Brasil | Rubyconf Brasil
-2013-08-22     | How we used Ruby to build Locaweb's cloud                    | São Paulo, Brasil | Tech-talks Locaweb
-2013-06-27     | HTML5, Desenvolvimento de jogos e o Skeleton-jigsaw          | São Paulo, Brasil | Tech-talks Locaweb
-2013-04-04     | Gitlab na Locaweb (ft. Diego Souza)                          | São Paulo, Brasil | Tech-talks Locaweb
-2012-11-10     | [Gamedev com HTML5 e o Skeleton Jigsaw (ft. Rafael Masoni)](https://www.youtube.com/watch?v=J2yDMOHCYak)    | São Paulo, Brasil | Guru-SP
-2012-11-10     | [Game network programming (ft. Diego Souza)](https://www.youtube.com/watch?v=nG1oGfrDiUc)                   | São Paulo, Brasil | Guru-SP
-2012-11-08     | Game network programming (ft. Diego Souza)                   | São Paulo, Brasil | Tech-talks Locaweb
-2012-09-22     | [Ruby e XMPP](https://www.youtube.com/watch?v=HDsxF0bCInI)   | São Paulo, Brasil | Guru-SP
-2012-09-20     | [Simplestack - Simplesmente vários hypervisors (ft. @morellon)](/images/speaking/simplestack.jpg) | São Paulo, Brasil | Tech-talks Locaweb
-2012-08-12     | [Locasberos - Apache CAS module (ft. Diego Souza)](http://www.slideshare.net/PotHix/locasberos) | São Paulo, Brasil | Tech-talks Locaweb
-2012-05-31     | OpenStack Summit - Melhores momentos                         | São Paulo, Brasil | Tech-talks Locaweb
-2012-02-25     | Implementações paralelas                                     | São Paulo, Brasil | Guru-SP
-2012-02-23     | Implementações paralelas                                     | São Paulo, Brasil | Tech-talks Locaweb
-2010-03-13     | Porque Vim?                                                  | São Paulo, Brasil | Guru-SP
-2009-04-04     | Rubylearning                                                 | São Paulo, Brasil | Ruby + Rails no mundo real
+No. | Date       | Original presentation title                                  | Lang | City and country  | Event name / organizer
+--- | ---------- | ------------------------------------------------------------ | ---- | ----------------- | ------------------------
+75  | 2018-09-21 | Mongo, Rails 3, VPS -> Postgres, Rails 5,Heroku              |  PT  | São Paulo, Brasil | [Guru-SP](https://gurusp.org)
+74  | 2018-09-21 | [Writing a simple game in Rust](https://www.youtube.com/watch?v=8DUENLiOfiQ) | EN | São Paulo, Brasil | [THE CONF](https://www.theconf.club)
+73  | 2018-06-16 | [10 anos de Guru-SP](https://www.youtube.com/watch?v=f0kjacxHaZc) |  PT  | São Paulo, Brasil | [Guru-SP](https://www.gurusp.org/encontros/51-encontro-doguru-sp-na-loggi)
+72  | 2018-06-16 | Desconstruindo a web                                         |  PT  | São Paulo, Brasil | [Impacta tecnologia](https://www.sympla.com.br/desconstruindo-a-web__262326)
+71  | 2018-02-03 | Criando um snake game do zero com Ruby e Gosu                |  PT  | São Paulo, Brasil | [Impacta Tecnologia](http://www.impacta.com.br/eventos/03-02-2018-De-um-arquivo-vazio-ate-um-snake-game-funcionando-usando-Ruby-e-Gosu)
+70  | 2017-11-01 | Desconstruindo a web                                         |  PT  | São Paulo, Brasil | Tech-talks, Codus
+67  | 2017-10-09 | [Snake game using Python and PyGame](https://www.youtube.com/watch?v=4MrNQeQDK-U) |  PT  | Porto, Portugal   | [Porto Python](https://www.meetup.com/pyporto/events/243824670/)
+66  | 2017-09-20 | Fazendo um snake game com Python 3 e PyGame para se divertir |  PT  | São Paulo, Brasil | GruPy-SP
+65  | 2017-09-16 | Lightning talk: Brincando com API's e jq                     |  PT  | São Paulo, Brasil | [Guru-SP](https://gurusp.org)
+64  | 2017-08-31 | Uma requisição web do começo ao fim                          |  PT  | Barueri, Brasil   | Tech-hour Catho
+63  | 2017-08-19 | Desconstruindo a web: Entendendo uma requisição              |  PT  | Bebedouro, Brasil | Interdevops
+62  | 2017-07-27 | Desconstruindo a web                                         |  PT  | São Paulo, Brasil | Tech-talks ELO7
+61  | 2017-07-22 | Sua aplicação Ruby end-to-end                                |  PT  | São Paulo, Brasil | Trilha de Ruby - TDC
+60  | 2017-07-22 | Criando um snake game com um navegador e um editor apenas    |  PT  | São Paulo, Brasil | Trilha de Games - TDC
+57  | 2017-07-22 | [Command line interfaces with Go](https://goo.gl/JBk1eg)     |  PT  | São Paulo, Brasil | Trilha de Go - TDC
+56  | 2017-07-15 | [Criando um snake game com Ruby usando Gosu](https://www.youtube.com/watch?v=bcQaQVJkVbw) |  PT  | São Paulo, Brasil | [Guru-SP](https://gurusp.org)
+55  | 2017-07-02 | Uma requisição web do começo ao fim                          |  PT  | São Paulo, Brasil | Virada Tecnológica
+54  | 2017-06-28 | [Painel sobre comunidades](https://pbs.twimg.com/media/DDarqhkW0AAuuJT.jpg:large) |  PT  | São Paulo, Brasil | [19o Encontro Locaweb](http://eventos.locaweb.com.br/eventos-anteriores/19o-encontro-locaweb-sao-paulo/)
+53  | 2017-06-24 | Desenvolvimento de jogos com HTML5                           |  PT  | São Paulo, Brasil | Impacta Tecnologia
+52  | 2017-05-19 | [Desconstruindo a web](https://goo.gl/OSc9Yb)                |  PT  | São Paulo, Brasil | BioRitmo tech-talks.
+51  | 2017-05-11 | Como foi o [TDC Florianópolis](http://www.thedevelopersconference.com.br/tdc/2017/florianopolis/trilhas) |  PT  | São Paulo, Brasil | Tech-talks Locaweb
+50  | 2017-05-06 | [Uma aplicação Ruby end-to-end](https://www.eventials.com/Globalcode/sabado-a-tarde-tdconline-floripa-2017-stadium/) |  PT  | Florianópolis, Brasil | [TDC Florianópolis](http://www.thedevelopersconference.com.br/tdc/2017/florianopolis/trilhas)
+47  | 2017-05-03 | [Mesos como ferramenta](https://www.eventials.com/Globalcode/quarta-a-tarde-tdconline-floripa-2017-stadium/) |  PT  | Florianópolis, Brasil | [TDC Florianópolis](http://www.thedevelopersconference.com.br/tdc/2017/florianopolis/trilhas)
+46  | 2017-03-23 | Desconstruindo a web                                         |  PT  | São Paulo, Brasil | Tech-talks gaveteiros
+45  | 2017-03-17 | Como foi a FOSDEM 2017                                       |  PT  | São Paulo, Brasil | Tech-talks Locaweb
+44  | 2017-02-05 | [Open source behind a web request](https://fosdem.org/2017/schedule/event/desktops_open_source_behind_web_request/) | EN | Brussels, Belgica | FOSDEM 2017
+43  | 2017-01-20 | Open source behind a web request                             | EN | São Paulo, Brasil | Tech-talks Campus code
+42  | 2017-01-14 | Desconstruindo a web                                         |  PT  | São Paulo, Brasil | Impacta tecnologia
+41  | 2017-01-09 | [As escolhas do desenvolvedor](https://pbs.twimg.com/media/C1vn7x1XcAQKbxk.jpg:large) |  PT  | São Paulo, Brasil | "Quero ser dev", Campus code
+40  | 2016-11-10 | GopherConBR 2016                                             |  PT  | São Paulo, Brasil | Tech-talks Locaweb
+37  | 2016-09-24 | Desconstruindo a web                                         |  PT  | São Paulo, Brasil | Rubyconf Brasil
+36  | 2016-03-24 | Mesos e Docker é-du-ARDA (ft. @rhruiz)                       |  PT  | São Paulo, Brasil | Tech-talks Locaweb
+35  | 2016-01-30 | Apache Mesos - Abstraindo seus recursos                      |  PT  | São Paulo, Brasil | [Guru-SP](https://gurusp.org)
+34  | 2015-12-10 | Desconstruindo a web                                         |  PT  | São Paulo, Brasil | Tech-talks Locaweb
+33  | 2015-11-28 | [Desconstruindo a web](https://www.youtube.com/watch?v=9ERJRChQ-fU) |  PT  | São Paulo, Brasil | DevInSantos
+32  | 2015-09-03 | As escolhas do desenvolvedor                                 |  PT  | São Paulo, Brasil | MacMobile Mackenzie
+31  | 2015-07-30 | OSCON 2015 (ft. Diego Souza)                                 |  PT  | São Paulo, Brasil | Tech-talks Locaweb
+30  | 2015-06-18 | [As escolhas do desenvolvedor](https://en.eventials.com/locaweb/as-escolhas-do-desenvolvedor-com-willian-molinari-a-k-a-pothix/) |  PT  | São Paulo, Brasil | 17o Encontro Locaweb São Paulo
+27  | 2015-06-02 | As escolhas do desenvolvedor                                 |  PT  | São Paulo, Brasil | Tech-talks Netshoes
+26  | 2015-05-21 | HTML5, Desenvolvimento de jogos e o Skeleton-jigsaw          |  PT  | Santa Fé do Sul, Brasil | Semana acadêmica, FUNEC
+25  | 2015-05-19 | [As escolhas do desenvolvedor](https://www.flickr.com/photos/locaweb/17899298832/in/album-72157652754664218/) |  PT  | Rio de Janeiro, Brasil | 17o Encontro Locaweb Rio de Janeiro
+24  | 2015-05-07 | [As escolhas do desenvolvedor](https://www.flickr.com/photos/locaweb/16984105713/in/album-72157652339858570/) |  PT  | Porto Alegre, Brasil | 17o Encontro Locaweb Porto Alegre
+23  | 2015-04-11 | [As escolhas do desenvolvedor](https://www.flickr.com/photos/locaweb/17049929540/in/album-72157651709980410/) |  PT  | Curitiba, Brasil | 17o Encontro Locaweb Curitiba
+22  | 2015-03-18 | [As escolhas do desenvolvedor](https://www.flickr.com/photos/locaweb/17030159317/in/album-72157649789309524/) |  PT  | Recife, Brasil | 17o Encontro Locaweb Recife
+21  | 2015-03-06 | As escolhas do desenvolvedor                                 |  PT  | Belo Horizonte, Brasil | Encontro Locaweb - Belo Horizonte
+20  | 2015-01-08 | Saruman e a alocação sábia de recursos                       |  PT  | São Paulo, Brasil | Tech-talks Locaweb
+17  | 2013-08-30 | [How we used Ruby to build Locaweb's cloud](http://blog.locaweb.com.br/wp-content/uploads/2013/09/9661272889_efdc32ca3e_b.jpg) |  PT  | São Paulo, Brasil | Rubyconf Brasil
+16  | 2013-08-22 | How we used Ruby to build Locaweb's cloud                    |  PT  | São Paulo, Brasil | Tech-talks Locaweb
+15  | 2013-06-27 | HTML5, Desenvolvimento de jogos e o Skeleton-jigsaw          |  PT  | São Paulo, Brasil | Tech-talks Locaweb
+14  | 2013-04-04 | Gitlab na Locaweb (ft. Diego Souza)                          |  PT  | São Paulo, Brasil | Tech-talks Locaweb
+13  | 2012-11-10 | [Gamedev com HTML5 e o Skeleton Jigsaw (ft. Rafael Masoni)](https://www.youtube.com/watch?v=J2yDMOHCYak)    |  PT  | São Paulo, Brasil | [Guru-SP](https://gurusp.org)
+12  | 2012-11-10 | [Game network programming (ft. Diego Souza)](https://www.youtube.com/watch?v=nG1oGfrDiUc)                   |  PT  | São Paulo, Brasil | [Guru-SP](https://gurusp.org)
+11  | 2012-11-08 | Game network programming (ft. Diego Souza)                   |  PT  | São Paulo, Brasil | Tech-talks Locaweb
+10  | 2012-09-22 | [Ruby e XMPP](https://www.youtube.com/watch?v=HDsxF0bCInI)   |  PT  | São Paulo, Brasil | [Guru-SP](https://gurusp.org)
+07  | 2012-09-20 | [Simplestack - Simplesmente vários hypervisors (ft. @morellon)](/images/speaking/simplestack.jpg) |  PT  | São Paulo, Brasil | Tech-talks Locaweb
+06  | 2012-08-12 | [Locasberos - Apache CAS module (ft. Diego Souza)](http://www.slideshare.net/PotHix/locasberos) |  PT  | São Paulo, Brasil | Tech-talks Locaweb
+05  | 2012-05-31 | OpenStack Summit - Melhores momentos                         |  PT  | São Paulo, Brasil | Tech-talks Locaweb
+04  | 2012-02-25 | Implementações paralelas                                     |  PT  | São Paulo, Brasil | [Guru-SP](https://gurusp.org)
+03  | 2012-02-23 | Implementações paralelas                                     |  PT  | São Paulo, Brasil | Tech-talks Locaweb
+02  | 2010-03-13 | Porque Vim?                                                  |  PT  | São Paulo, Brasil | [Guru-SP](https://gurusp.org)
+01  | 2009-04-04 | Como funciona o Rubylearning                                 |  PT  | São Paulo, Brasil | Ruby + Rails no mundo real
