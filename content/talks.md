@@ -5,7 +5,7 @@ title = "Presentations"
 subtitle = "A list of all my talks by date"
 +++
 
-No. | Date       | Original presentation title                                  | Lang | City and country  | Event name / organizer
+No. | Date       | Title + link to content (if available)                       | Lang | City and country  | Event name / organizer
 --- | ---------- | ------------------------------------------------------------ | ---- | ----------------- | ------------------------
 75  | 2018-09-21 | Mongo, Rails 3, VPS -> Postgres, Rails 5,Heroku              |  PT  | São Paulo, Brasil | [Guru-SP](https://gurusp.org)
 74  | 2018-09-21 | [Writing a simple game in Rust](https://www.youtube.com/watch?v=8DUENLiOfiQ) | EN | São Paulo, Brasil | [THE CONF](https://www.theconf.club)
