@@ -7,7 +7,7 @@ subtitle = "A list of all my talks by date"
 
 No. | Date       | Title linking to content (if available)                      | Lang | City and country  | Event name / organizer
 --- | ---------- | ------------------------------------------------------------ | ---- | ----------------- | ------------------------
-62  | 2018-09-21 | Mongo, Rails 3, VPS -> Postgres, Rails 5,Heroku              |  PT  | São Paulo, Brasil | [Guru-SP](https://gurusp.org)
+62  | 2018-09-21 | [Mongo, Rails 3, VPS -> Postgres, Rails 5,Heroku](https://www.youtube.com/watch?v=zyJ375I-l8A) |  PT  | São Paulo, Brasil | [Guru-SP](https://gurusp.org)
 61  | 2018-09-21 | [Writing a simple game in Rust](https://www.youtube.com/watch?v=8DUENLiOfiQ) | EN | São Paulo, Brasil | [THE CONF](https://www.theconf.club)
 60  | 2018-06-16 | [10 anos de Guru-SP](https://www.youtube.com/watch?v=f0kjacxHaZc) |  PT  | São Paulo, Brasil | [Guru-SP](https://www.gurusp.org/encontros/51-encontro-doguru-sp-na-loggi)
 59  | 2018-06-16 | Desconstruindo a web                                         |  PT  | São Paulo, Brasil | [Impacta tecnologia](https://www.sympla.com.br/desconstruindo-a-web__262326)
@@ -17,7 +17,7 @@ No. | Date       | Title linking to content (if available)                      
 55  | 2017-09-20 | Fazendo um snake game com Python 3 e PyGame para se divertir |  PT  | São Paulo, Brasil | GruPy-SP
 54  | 2017-09-16 | Lightning talk: Brincando com API's e jq                     |  PT  | São Paulo, Brasil | [Guru-SP](https://gurusp.org)
 53  | 2017-08-31 | Uma requisição web do começo ao fim                          |  PT  | Barueri, Brasil   | Tech-hour Catho
-52  | 2017-08-19 | Desconstruindo a web: Entendendo uma requisição              |  PT  | Bebedouro, Brasil | Interdevops
+52  | 2017-08-19 | [Desconstruindo a web: Entendendo uma requisição](/images/speaking/desconstruindoaweb_interdevops.jpg) |  PT  | Bebedouro, Brasil | Interdevops
 51  | 2017-07-27 | Desconstruindo a web                                         |  PT  | São Paulo, Brasil | Tech-talks ELO7
 50  | 2017-07-22 | Sua aplicação Ruby end-to-end                                |  PT  | São Paulo, Brasil | Trilha de Ruby - TDC
 49  | 2017-07-22 | Criando um snake game com um navegador e um editor apenas    |  PT  | São Paulo, Brasil | Trilha de Games - TDC
@@ -64,7 +64,7 @@ No. | Date       | Title linking to content (if available)                      
 08  | 2012-09-20 | [Simplestack - Simplesmente vários hypervisors (ft. @morellon)](/images/speaking/simplestack.jpg) |  PT  | São Paulo, Brasil | Tech-talks Locaweb
 07  | 2012-08-12 | [Locasberos - Apache CAS module (ft. Diego Souza)](http://www.slideshare.net/PotHix/locasberos) |  PT  | São Paulo, Brasil | Tech-talks Locaweb
 06  | 2012-05-31 | OpenStack Summit - Melhores momentos                         |  PT  | São Paulo, Brasil | Tech-talks Locaweb
-05  | 2012-02-25 | Implementações paralelas                                     |  PT  | São Paulo, Brasil | [Guru-SP](https://gurusp.org)
+05  | 2012-02-25 | [Implementações paralelas](https://photos.google.com/share/AF1QipPudLhf5Gi5ouAjfF23lhAsuKhcBUqGhu4ga1GF6nc2BRtrpJz2SXhT9wLlW6KgzQ/photo/AF1QipORv0ptulTV6pUtu4yHYhcEKMV-O8uWTstdUtbB?key=MUdscE96S2tvSktGRV80QjZrWXR3VVZ2dVg2a3RR) |  PT  | São Paulo, Brasil | [Guru-SP](https://gurusp.org)
 04  | 2012-02-23 | Implementações paralelas                                     |  PT  | São Paulo, Brasil | Tech-talks Locaweb
 03  | 2010-05-29 | [Abertura do Ruby+Rails no mundo real](https://pt.slideshare.net/PotHix/abertura-do-rubyrailsnomundorealgurusp)|  PT  | São Paulo, Brasil | Ruby + Rails no mundo real
 02  | 2010-03-13 | [Porque Vim?](https://www.youtube.com/watch?v=uhYqwZh61yQ)   |  PT  | São Paulo, Brasil | [Guru-SP](https://gurusp.org)
