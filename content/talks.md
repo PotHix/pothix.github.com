@@ -7,9 +7,12 @@ subtitle = "A list of all my talks by date"
 
 No. | Date       | Title linking to content (if available)                      | Lang | City and country  | Event name / organizer
 --- | ---------- | ------------------------------------------------------------ | ---- | ----------------- | ------------------------
-62  | 2018-09-21 | [Mongo, Rails 3, VPS -> Postgres, Rails 5,Heroku](https://www.youtube.com/watch?v=zyJ375I-l8A) |  PT  | São Paulo, Brasil | [Guru-SP](https://gurusp.org)
-61  | 2018-09-21 | [Writing a simple game in Rust](https://www.youtube.com/watch?v=8DUENLiOfiQ) | EN | São Paulo, Brasil | [THE CONF](https://www.theconf.club)
-60  | 2018-06-16 | [10 anos de Guru-SP](https://www.youtube.com/watch?v=f0kjacxHaZc) |  PT  | São Paulo, Brasil | [Guru-SP](https://www.gurusp.org/encontros/51-encontro-doguru-sp-na-loggi)
+65  | 2019-06-21 | [Mongo, Rails 3, VPS -> Postgres, Rails 5,Heroku](https://www.youtube.com/watch?v=zyJ375I-l8A) |  PT  | São Paulo, Brasil | [Guru-SP](https://gurusp.org)
+64  | 2018-10-27 | [10 anos de Guru-SP](https://www.youtube.com/watch?v=f0kjacxHaZc) |  PT  | São Paulo, Brasil | [Guru-SP](https://www.gurusp.org/encontros/51-encontro-doguru-sp-na-loggi)
+63  | 2018-09-21 | [Writing a simple game in Rust](https://www.youtube.com/watch?v=8DUENLiOfiQ) | EN | São Paulo, Brasil | [THE CONF](https://www.theconf.club)
+62  | 2018-09-15 | [Como foi participar da Rustconf 2018](https://www.youtube.com/watch?v=KsZcCtT3wTg) | PT | São Paulo, Brasil | Rust-SP
+61  | 2018-07-21 | Escrevendo um jogo simples em Rust                           |  PT  | São Paulo, Brasil | [Trilha de Rust - TDC](http://www.thedevelopersconference.com.br/tdc/2018/saopaulo/trilha-rust)
+60  | 2018-07-21 | Introdução a linguagem Rust (ft. @rochacbruno)               |  PT  | São Paulo, Brasil | [Trilha de Rust - TDC](http://www.thedevelopersconference.com.br/tdc/2018/saopaulo/trilha-rust)
 59  | 2018-06-16 | Desconstruindo a web                                         |  PT  | São Paulo, Brasil | [Impacta tecnologia](https://www.sympla.com.br/desconstruindo-a-web__262326)
 58  | 2018-02-03 | Criando um snake game do zero com Ruby e Gosu                |  PT  | São Paulo, Brasil | [Impacta Tecnologia](http://www.impacta.com.br/eventos/03-02-2018-De-um-arquivo-vazio-ate-um-snake-game-funcionando-usando-Ruby-e-Gosu)
 57  | 2017-11-01 | Desconstruindo a web                                         |  PT  | São Paulo, Brasil | Tech-talks, Codus
