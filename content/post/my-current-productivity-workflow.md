@@ -252,3 +252,6 @@ yourself!) better in the process. If it's not working, just think about it and
 adjust it to match your way of doing things.
 
 Stay focused and productive 😉
+
+
+_PS:_ ⏱  _It took me 2h27 to write this blog post_
