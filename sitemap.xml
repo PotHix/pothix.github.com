@@ -3,44 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://pothix.com/tags/english/</loc>
+    <lastmod>2019-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://pothix.com/post/my-current-productivity-workflow/</loc>
+    <lastmod>2019-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pothix.com/tags/personal/</loc>
     <lastmod>2019-08-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://pothix.com/post/</loc>
     <lastmod>2019-08-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://pothix.com/</loc>
     <lastmod>2019-08-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://pothix.com/tags/</loc>
-    <lastmod>2019-08-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://pothix.com/tags/english/</loc>
-    <lastmod>2019-08-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://pothix.com/tags/personal/</loc>
-    <lastmod>2019-08-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://pothix.com/tags/productivity/</loc>
     <lastmod>2019-08-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pothix.com/tags/</loc>
+    <lastmod>2019-08-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -49,14 +43,13 @@
   </url>
   
   <url>
-    <loc>http://pothix.com/post/stats-jun-2018/</loc>
+    <loc>http://pothix.com/tags/stats/</loc>
     <lastmod>2018-07-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://pothix.com/tags/stats/</loc>
+    <loc>http://pothix.com/post/stats-jun-2018/</loc>
     <lastmod>2018-07-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -107,7 +100,6 @@
   <url>
     <loc>http://pothix.com/tags/tips/</loc>
     <lastmod>2017-12-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -128,7 +120,6 @@
   <url>
     <loc>http://pothix.com/tags/tech/</loc>
     <lastmod>2017-10-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -144,7 +135,6 @@
   <url>
     <loc>http://pothix.com/categories/</loc>
     <lastmod>2017-08-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -155,7 +145,6 @@
   <url>
     <loc>http://pothix.com/categories/tech/</loc>
     <lastmod>2017-08-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -171,7 +160,6 @@
   <url>
     <loc>http://pothix.com/tags/career/</loc>
     <lastmod>2017-06-14T11:26:10-03:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -212,24 +200,21 @@
   <url>
     <loc>http://pothix.com/categories/travel/</loc>
     <lastmod>2017-03-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://pothix.com/post/fosdem-survival-guide/</loc>
-    <lastmod>2017-03-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://pothix.com/categories/events/</loc>
     <lastmod>2017-03-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://pothix.com/tags/events/</loc>
     <lastmod>2017-03-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pothix.com/post/fosdem-survival-guide/</loc>
+    <lastmod>2017-03-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -240,7 +225,16 @@
   <url>
     <loc>http://pothix.com/tags/speaking/</loc>
     <lastmod>2017-03-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pothix.com/categories/books/</loc>
+    <lastmod>2016-10-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pothix.com/tags/desconstruindo-a-web/</loc>
+    <lastmod>2016-10-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -249,20 +243,13 @@
   </url>
   
   <url>
-    <loc>http://pothix.com/categories/books/</loc>
-    <lastmod>2016-10-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://pothix.com/tags/desconstruindo-a-web/</loc>
-    <lastmod>2016-10-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://pothix.com/post/rubyconf-2016/</loc>
     <lastmod>2016-09-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pothix.com/tags/books/</loc>
+    <lastmod>2016-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -271,15 +258,8 @@
   </url>
   
   <url>
-    <loc>http://pothix.com/tags/books/</loc>
-    <lastmod>2016-06-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://pothix.com/categories/reading/</loc>
     <lastmod>2016-06-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -290,7 +270,6 @@
   <url>
     <loc>http://pothix.com/categories/keyboard/</loc>
     <lastmod>2015-10-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -311,7 +290,21 @@
   <url>
     <loc>http://pothix.com/categories/news/</loc>
     <lastmod>2015-05-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pothix.com/categories/dev/</loc>
+    <lastmod>2014-02-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pothix.com/tags/python/</loc>
+    <lastmod>2014-02-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pothix.com/tags/ruby/</loc>
+    <lastmod>2014-02-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -320,21 +313,8 @@
   </url>
   
   <url>
-    <loc>http://pothix.com/categories/dev/</loc>
-    <lastmod>2014-02-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://pothix.com/tags/python/</loc>
-    <lastmod>2014-02-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://pothix.com/tags/ruby/</loc>
-    <lastmod>2014-02-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>http://pothix.com/tags/golang/</loc>
+    <lastmod>2013-12-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -343,14 +323,18 @@
   </url>
   
   <url>
-    <loc>http://pothix.com/tags/golang/</loc>
-    <lastmod>2013-12-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>http://pothix.com/post/o-guru-sp-e-seus-5-anos-de-vida/</loc>
+    <lastmod>2013-09-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://pothix.com/post/o-guru-sp-e-seus-5-anos-de-vida/</loc>
-    <lastmod>2013-09-17T00:00:00+00:00</lastmod>
+    <loc>http://pothix.com/tags/motorcycle/</loc>
+    <lastmod>2013-07-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pothix.com/categories/personal/</loc>
+    <lastmod>2013-07-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -369,18 +353,6 @@
   </url>
   
   <url>
-    <loc>http://pothix.com/tags/motorcycle/</loc>
-    <lastmod>2013-07-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://pothix.com/categories/personal/</loc>
-    <lastmod>2013-07-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://pothix.com/post/game-network-programming/</loc>
     <lastmod>2013-07-15T00:00:00+00:00</lastmod>
   </url>
@@ -388,7 +360,6 @@
   <url>
     <loc>http://pothix.com/tags/gamedev/</loc>
     <lastmod>2013-07-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -397,20 +368,18 @@
   </url>
   
   <url>
-    <loc>http://pothix.com/post/saudades-do-poker/</loc>
-    <lastmod>2012-10-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://pothix.com/categories/games/</loc>
     <lastmod>2012-10-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://pothix.com/tags/games/</loc>
     <lastmod>2012-10-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pothix.com/post/saudades-do-poker/</loc>
+    <lastmod>2012-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -421,7 +390,6 @@
   <url>
     <loc>http://pothix.com/categories/motorcycle/</loc>
     <lastmod>2012-09-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -437,7 +405,6 @@
   <url>
     <loc>http://pothix.com/tags/linux/</loc>
     <lastmod>2012-07-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -481,20 +448,18 @@
   </url>
   
   <url>
-    <loc>http://pothix.com/post/instalando-o-full-throttle-no-motorola-milestone/</loc>
-    <lastmod>2011-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://pothix.com/categories/android/</loc>
     <lastmod>2011-03-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://pothix.com/tags/android/</loc>
     <lastmod>2011-03-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pothix.com/post/instalando-o-full-throttle-no-motorola-milestone/</loc>
+    <lastmod>2011-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -538,14 +503,13 @@
   </url>
   
   <url>
-    <loc>http://pothix.com/post/rework/</loc>
+    <loc>http://pothix.com/categories/review/</loc>
     <lastmod>2010-08-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://pothix.com/categories/review/</loc>
+    <loc>http://pothix.com/post/rework/</loc>
     <lastmod>2010-08-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -554,14 +518,13 @@
   </url>
   
   <url>
-    <loc>http://pothix.com/post/servicos-legais-de-marco/</loc>
+    <loc>http://pothix.com/tags/services/</loc>
     <lastmod>2010-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://pothix.com/tags/services/</loc>
+    <loc>http://pothix.com/post/servicos-legais-de-marco/</loc>
     <lastmod>2010-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -575,14 +538,13 @@
   </url>
   
   <url>
-    <loc>http://pothix.com/post/yahoo-open-hack-2010/</loc>
+    <loc>http://pothix.com/tags/vim/</loc>
     <lastmod>2010-03-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://pothix.com/tags/vim/</loc>
+    <loc>http://pothix.com/post/yahoo-open-hack-2010/</loc>
     <lastmod>2010-03-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -723,7 +685,6 @@
   <url>
     <loc>http://pothix.com/categories/linux/</loc>
     <lastmod>2009-07-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -752,14 +713,13 @@
   </url>
   
   <url>
-    <loc>http://pothix.com/post/usando-git-em-projetos-do-google-code/</loc>
+    <loc>http://pothix.com/categories/development/</loc>
     <lastmod>2009-05-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://pothix.com/categories/development/</loc>
+    <loc>http://pothix.com/post/usando-git-em-projetos-do-google-code/</loc>
     <lastmod>2009-05-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -788,14 +748,13 @@
   </url>
   
   <url>
-    <loc>http://pothix.com/post/translated-rubylearning-presentation/</loc>
+    <loc>http://pothix.com/categories/english/</loc>
     <lastmod>2009-04-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://pothix.com/categories/english/</loc>
+    <loc>http://pothix.com/post/translated-rubylearning-presentation/</loc>
     <lastmod>2009-04-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -829,14 +788,13 @@
   </url>
   
   <url>
-    <loc>http://pothix.com/post/curso-de-verao-da-usp/</loc>
+    <loc>http://pothix.com/categories/courses/</loc>
     <lastmod>2009-02-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://pothix.com/categories/courses/</loc>
+    <loc>http://pothix.com/post/curso-de-verao-da-usp/</loc>
     <lastmod>2009-02-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -877,7 +835,6 @@
   <url>
     <loc>http://pothix.com/categories/tips/</loc>
     <lastmod>2009-01-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -898,7 +855,6 @@
   <url>
     <loc>http://pothix.com/categories/geek/</loc>
     <lastmod>2008-12-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
