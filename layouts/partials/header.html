@@ -8,7 +8,7 @@
         <meta property="og:url" content="{{ .Permalink }}">
         <meta property="og:description" content="{{ .Site.Params.Description }}">
         <meta property="og:type" content="website" />
-        {{ .Hugo.Generator }}
+        {{ hugo.Generator }}
 
         <title>{{ .Title }}{{ if eq .IsHome false }} | {{ .Site.Title }}{{ end }}</title>
 
