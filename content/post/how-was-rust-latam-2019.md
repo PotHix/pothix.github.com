@@ -1,5 +1,6 @@
 ---
 title: "How was Rust LATAM 2019"
+tags: ["english","tech","events"]
 date: 2019-04-21T14:02:54-03:00
 ---
 
