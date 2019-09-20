@@ -422,10 +422,6 @@ body {
   .widget table .odd {
     background: #f5f5f5; }
 
-.flickr-photos li {
-  display: inline-block;
-  margin: 0 5px 5px 0; }
-
 .widget_rss cite {
   text-transform: none;
   font-size: 13px; }
