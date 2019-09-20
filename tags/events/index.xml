@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <lastBuildDate>Mon, 06 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Apr 2019 14:02:54 -0300</lastBuildDate>
     
 	<atom:link href="http://pothix.com/tags/events/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How was Rust LATAM 2019</title>
+      <link>http://pothix.com/post/how-was-rust-latam-2019/</link>
+      <pubDate>Sun, 21 Apr 2019 14:02:54 -0300</pubDate>
+      
+      <guid>http://pothix.com/post/how-was-rust-latam-2019/</guid>
+      <description>For those who don&amp;rsquo;t know, I&amp;rsquo;m a proud core organizer of the Rust LATAM conference. 🎉 The conference happened on March 29 and 30, and this post describes how it was to organize the whole thing.
+Even with the small problems we had (as any other big conference), the feedback we received so far were very positive. We were able to bring amazing speakers to the conference, which brought high-level content even for beginners.</description>
+    </item>
     
     <item>
       <title>FOSDEM survival guide</title>
