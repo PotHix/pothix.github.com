@@ -1597,8 +1597,8 @@ Lembro muito bem da época que associava blog com os &amp;ldquo;flogão&amp;rdqu
       <guid>http://pothix.com/about/</guid>
       <description>&amp;lt;pt-BR&amp;gt;Tem também a versão em português&amp;lt;/pt-BR&amp;gt;
 I&amp;rsquo;m Willian Molinari, also known as PotHix. I&amp;rsquo;ve been working with software development since 2006, using many languages professionally throughout the years. I&amp;rsquo;m a published author and usually speak about programming around Brazil and the world.
-Getting in touch Want to contact me? I decided to centralize the pointers to all my profiles at about.me/pothix.
-And obviously, you can always send me an email (I prefer) on pothix [at] pothix [dot] com or via Telegram.</description>
+I like to travel and had the chance to visit 10+ countries and 7+ states of my own country of residence.
+Getting in touch Want to contact me?</description>
     </item>
     
     <item>
@@ -1631,9 +1631,20 @@ I love podcasts! It&amp;rsquo;s the media I consume the most nowadays (along wit
       
       <guid>http://pothix.com/now/</guid>
       <description>This is my now page, inspired by Derek Sievers.
-I&amp;rsquo;m living in São Paulo, Brazil and working for Doist full-time and for Intervac as a freelancer whenever possible.
+I&amp;rsquo;m living in São Paulo, Brazil and working for Doist full-time and for Intervac as a freelancer when I have time to spare.
 Here is a list of my current priorities:
- Improving Todoist and Twist APIs at Doist Improving my Python skills at work Playing with the Rust language In charge of the São Paulo Rust community (for 1+ year) Consuming books (mostly audiobooks on Audible).</description>
+ Improving Todoist and Twist integrations platform at Doist Improving my Python skills at work Playing with the Rust language In charge of the São Paulo Rust community (for 1+ year) Consuming books (mostly audiobooks on Audible).</description>
+    </item>
+    
+    <item>
+      <title>Places</title>
+      <link>http://pothix.com/places/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://pothix.com/places/</guid>
+      <description> It&amp;rsquo;s been a while since I wanted to list the places I visited, especially because people usually ask me to list them. The plan is to add links and pictures to many of the places here.
+I&amp;rsquo;m Brazilian, so I will list Brazil first because it will have many more cities and I still want to visit all states. ;)
+Brazil  Ceará, Fortaleza Ceará, Croatá Ceará, Jericoacoara Pernambuco, Recife Pernambuco, Olinda Pernambuco, Porto de Galinhas Alagoas, Maragogi Alagoas, Maceió Minas Gerais, Belo Horizonte Minas Gerais, Piranga Minas Gerais, Divinópolis Minas Gerais, Congonhas Minas Gerais, São Tomé das Letras Rio de Janeiro, Rio de Janeiro São Paulo, São Paulo São Paulo, Campos do Jordão São Paulo, Mirassol São Paulo, São José do Rio Preto São Paulo, Santa Fé do Sul São Paulo, Guarujá São Paulo, São Pedro São Paulo, Indaiatuba São Paulo, Itupeva São Paulo, Boituva São Paulo, Buritama São Paulo, Jaci São Paulo, Bebedouro São Paulo, São Sebastião São Paulo, São Vicente São Paulo, Santos São Paulo, Salesópolis São Paulo, Mongaguá São Paulo, Itanhaém São Paulo, Sorocaba São Paulo, São José dos Campos Santa Catarina, Florianópolis Paraná, Maringá Paraná, Curitiba Paraná, Foz do Iguaçu Rio Grande do Sul, Porto Alegre  Abroad  Argentina, Misiones Belgium, Antwerp Belgium, Bruges Belgium, Brussels Belgium, Ghent Chile, Pucón Chile, Santiago England, London England, Oxford England, York Netherlands, Amsterdam Netherlands, Rotterdam Netherlands, The hague Portugal, Azores Portugal, Batalha Portugal, Cascais Portugal, Fatima Portugal, Lisboa Portugal, Nazareth Portugal, Porto Portugal, Óbidos Portugal, Sintra Portugal, Colares (Cabo da roca) Scotland, Edinburgh Scotland, Glasgow Scotland, Stirling Spain, Barcelona Spain, Madrid Spain, Toledo Unietd States, Boulder United States, Denver United States, New York United States, Portland United States, San Francisco Uruguay, Montevideo  </description>
     </item>
     
     <item>
@@ -1653,7 +1664,7 @@ Here is a list of my current priorities:
       <guid>http://pothix.com/about_ptbr/</guid>
       <description>&amp;lt;pt-BR&amp;gt;There is also an English version&amp;lt;/pt-BR&amp;gt;
 Eu sou o Willian Molinari, (bem) mais conhecido como PotHix. Eu trabalho com desenvolvimento de software desde 2006 e já usei muitas linguagens de programação profissionalmente durante esses anos. Eu tenho um livro publicado e geralmente faço palestras sobre programação pelo Brasil e de vez em quando, pelo mundo.
-Meus contatos Quer entrar em contato? Eu decidi centralizar as formas de me contactar no about.</description>
+Eu gosto de viajar e já tive a chance de visitar mais de 10 países diferentes, além de visitar mais de 7 estados no meu próprio país.</description>
     </item>
     
     <item>
