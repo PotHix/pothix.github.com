@@ -15,13 +15,15 @@ tenho um [livro publicado](/writing/) e
 geralmente [faço palestras sobre programação](/speaking) pelo Brasil e
 de vez em quando, pelo mundo.
 
+Eu gosto de viajar e já [tive a chance de visitar mais de 10 países diferentes,
+além de visitar mais de 7 estados no meu próprio país](/places).
+
 ### Meus contatos
 
 Quer entrar em contato? Eu decidi centralizar as formas de me contactar no [about.me/pothix](https://about.me/pothix).
 
-E obviamente, você também pode me enviar um email (eu até prefiro) no
-**pothix** _[arroba]_ **pothix** _[ponto]_ **com**
-ou [via Telegram](https://t.me/pothix).
+Você também pode me enviar um email (eu até prefiro) no **pothix** _[arroba]_
+**pothix** _[ponto]_ **com** ou falar comigo [via Telegram](https://t.me/pothix).
 
 ### Que diabos significa PotHix
 
@@ -63,7 +65,7 @@ para o plano B:
 
 Com isso eu cheguei em **PotHix**!! Yay!!
 
-Meio besta, não? d-\_-b
+Meio besta, não? 😐
 
 Como você pode ver nos requisites, eu não estava pensando nas pessoas
 me chamando por esse nome, eu só queria um nick legal para usar de

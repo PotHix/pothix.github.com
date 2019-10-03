@@ -19,13 +19,16 @@ throughout the years. I'm a [published author](/writing/) and
 usually [speak about programming](/speaking/) around Brazil and the
 world.
 
+I like to travel and had the chance to [visit 10+ countries and 7+ states of my
+own country of residence](/places).
+
 ### Getting in touch
 
 Want to contact me? I decided to centralize the pointers to all my
 profiles at [about.me/pothix](https://about.me/pothix).
 
-And obviously, you can always send me an email (I prefer) on pothix
-[at] pothix [dot] com or [via Telegram](https://t.me/pothix).
+You can always send me an email (preferred method) on pothix [at] pothix [dot]
+com or contact me [via Telegram](https://t.me/pothix).
 
 ### WTF is PotHix
 
@@ -60,10 +63,10 @@ Nice! It was cool to me, I think nobody else will use PotH as a
 Nickname... until I found a guy with PotH as surname when playing
 Gunbound (with a 56kbs connection... LOL). So, let's go to the plan B:
 
-+ **ix** - from the *.nix. Linux ftw. :)
++ **ix** - from the \*.nix. Linux ftw. :)
 So I got PotHix!! Yay!!
 
-Silly, isn't? d-_-b
+Silly, isn't? 😐
 
 As you could see on my requirements, I was not thinking on people
 calling me by this name, I just wanted a good nickname to use on my
