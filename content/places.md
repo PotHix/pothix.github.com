@@ -5,6 +5,14 @@ title = "Places"
 subtitle = "Places I visited"
 +++
 
+
+It's been a while since I wanted to list the places I visited, especially
+because people usually ask me to list them. The plan is to add links and
+pictures to many of the places here.
+
+I'm Brazilian, so I will list Brazil first because it will have many more
+cities and I still want to visit all states. ;)
+
 ## Brazil
 
 + Ceará, Fortaleza
