@@ -12,6 +12,7 @@ I love podcasts! It's the media I consume the most nowadays (along with audioboo
 
 Date       | Language | Title of the episode    |  Name
 ---------- | -------- | ----------------------- | -----------------------
+2019-09-24 | pt-BR | [As vantagens de organizar (e participar!) de uma comunidade de software](https://youtu.be/VI9Yk-XqZ_g) | [Insights de programação](https://www.lucascaton.com.br/podcast/)
 2019-10-01 | pt-BR | [Cultura de aprendizado](https://hipsters.tech/cultura-de-aprendizado-hipsters-168/) | [Hipsters.tech](https://hipsters.tech)
 2019-08-10 | pt-BR | [Papo sobre Docker](https://www.youtube.com/watch?v=_FjRDFbbKqE) | [Insights de programação](https://www.lucascaton.com.br/podcast/)
 2019-05-04 | pt-BR | [Como ler um livro rendeu uma vaga na Red Hat](https://www.youtube.com/watch?v=Q80PoxkiHuo) | [Insights de programação](https://www.lucascaton.com.br/podcast/)
