@@ -18,9 +18,69 @@ de vez em quando, pelo mundo.
 Eu gosto de viajar e já [tive a chance de visitar mais de 10 países diferentes,
 além de visitar mais de 7 estados no meu próprio país](/places).
 
+### Carreira
+
+Meu **primeiro trabalho** com desenvolvimento de software em 2006 em uma
+aplicação feita com ASP e ASP.net. A empresa também tinha uma aplicação escrita
+em vb6 para ser mantida. Estava longe do que eu queria fazer, mas nessa empresa
+eu consegui experiência profissional e aprendi muitas coisas.
+
+Nessa época comecei a estudar Ruby e me tornei professor assistente no curso
+online internacional que eu fazia, o que me trouxe um pouco de currículo para
+procurar emprego na área.
+
+Meu **primeiro trabalho com Ruby foi em 2008** em uma pequena startup que
+estava contruindo uma rede social vocacional. Era uma aplicação feita
+utilizando Rails 2.x. Eu fazia o desenvolvimento e operação dessa aplicação,
+sendo um dos responsáveis por manter o servidor funcionando (inclusive com
+plantão).
+
+Nessa época **fundei o [Guru-SP](https://gurusp.org) (Grupo de usuários de Ruby
+de São Paulo)** com mais alguns amigos. O grupo existe até hoje e faz encontros
+presenciais para discutir a linguagem e ferramentas correlatas. Ainda sou um
+dos principais organizadores.
+
+**Em 2010 eu entrei para a equipe de cloud computing da Locaweb**. Sempre fui
+um entusiasta de Linux e trabalhar numa empresa que criava servidores virtuais
+via uma aplicação Rails era um sonho para mim. Fiz muitas coisas legais por lá.
+Desde migrar Ruby 1.8 para 1.9 e Rails 2.x para Rails 3, até escrever um
+software para resolver o problema que não estava no roadmap e **economizar mais
+de 1 milhão em um ano**.
+
+Tive uma boa progressão de carreira nos 7 anos que trabalhei na Locaweb. Tive a
+oportunidade de trabalhar com várias aplicações Ruby, implementar
+microserviços, organizar palestras internas, fazer pequenos projetos com
+Golang, trabalhar com projetos open source como o OpenStack, implementar uma
+infraestrutura com Mesos, criar projetos usando Python, integrar Ruby com libs
+feitas em C, e muito mais.
+
+Em 2015 fui promovido a **Líder técnico** e propus a criação de uma equipe de
+ferramentas internas para trabalhar nos vários desafios que haviam na
+integração entre os times.
+
+Depois de trabalhar quase 2 anos como líder técnico eu decidi mudar para outra
+empresa. Após aplicar para empresas que eu gostava, **resolvi aceitar a
+proposta da [Doist](https://doist), a empresa que faz o
+[Todoist](https://todoist.com) (que eu uso desde 2007) e o
+[Twist](https://twist.com)** para trabalhar em tempo integral com Python em um
+time remoto espalhado pelo mundo! Esse é meu trabalho principal até o momento.
+
+Além do meu trabalho principal com **Python**, dedico parte do meu tempo livre
+para manter meus conhecimentos de Ruby afiados com um trabalho freelancer para
+uma empresa que eu gosto.
+
+Também sou entusiasta da linguagem **Rust**! Desde 2018 sou um dos principais
+organizadores da **[comunidade de Rust em São
+Paulo](https://www.meetup.com/Rust-Sao-Paulo-Meetup)**, onde fazemos encontros
+bimestrais para discutir a linguagem e seu ecossistema, e também ta [Rust
+LATAM](https://rustlatam.org) que é uma conferencia itinerante sobre Rust na
+America Latina.
+
+
 ### Meus contatos
 
-Quer entrar em contato? Eu decidi centralizar as formas de me contactar no [about.me/pothix](https://about.me/pothix).
+Quer entrar em contato? Eu decidi centralizar as formas de me contactar no
+[about.me/pothix](https://about.me/pothix).
 
 Você também pode me enviar um email (eu até prefiro) no **pothix** _[arroba]_
 **pothix** _[ponto]_ **com** ou falar comigo [via Telegram](https://t.me/pothix).
