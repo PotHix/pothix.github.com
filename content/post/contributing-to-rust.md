@@ -1,7 +1,7 @@
 ---
 title: "Contributing to Rust"
 date: 2019-11-22
-draft: true
+tags: ["english","tech"]
 ---
 
 I'm involved with the Rust community for a while now. I'm one of the main
