@@ -8,7 +8,7 @@
         <meta property="og:url" content="http://pothix.com/post/ativando-numlock-na-inicializacao-do-fluxbox-no-slackware/">
         <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
         <meta property="og:type" content="website" />
-        <meta name="generator" content="Hugo 0.59.1" />
+        <meta name="generator" content="Hugo 0.62.0" />
 
         <title>Ativando numlock na Inicialização do Fluxbox no Slackware | PotHix</title>
 
@@ -95,37 +95,26 @@
 numlock já iniciar ativado quando meu fluxbox inicia e encontrei
 várias dicas, sendo umas para XFCE e outros sistemas não sendo
 Slackware, portanto decidi escrever como fiz no Slackware.</p>
-
 <p>Primeiramente precisamos do
 <a href="http://ktown.kde.org/~seli/numlockx/">numlockx</a>
 que é o programinha vai ativar o num facilmente.</p>
-
 <p>Podemos instalar
 <a href="http://slackbuilds.org/repository/12.1/system/numlockx/">ele</a> via
 <a href="http://pothix.com/blog/slackware/facilitando-a-instalacao-no-slackware">SlackBuilds</a>
 que eu uso muito!</p>
-
 <p>Após baixar o <code>numlockx.tar.gz</code> e o numlockx-.version.tar.gz`
 vamos seguir os procedimentos do SlackBuilds:</p>
-
 <pre><code>$ tar xvf numlockx.tar.gz
 $ mv numlockx-version.tar.gz numlockx
 $ cd numlockx
 # ./numlockx.SlackBuilds
-</code></pre>
-
-<p>Pronto! Seu pacote já está no seu <code>/tmp</code>! :)</p>
-
+</code></pre><p>Pronto! Seu pacote já está no seu <code>/tmp</code>! :)</p>
 <p>Agora só instalar com o pkgtool:</p>
-
 <pre><code>#installpkg numlockx.tgz
 </code></pre>
-
 <p>Agora é só inserir a seguinte linha no seu <code>~/.xinitrc</code>:</p>
-
 <pre><code>exec numlockx &amp;amp;&lt;/code&gt;
 </code></pre>
-
 <p>E da próxima vez que inicar o seu Slack seu num vai acender
 automágicamente! :P</p>
 

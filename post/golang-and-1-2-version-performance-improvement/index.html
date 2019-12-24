@@ -8,7 +8,7 @@
         <meta property="og:url" content="http://pothix.com/post/golang-and-1-2-version-performance-improvement/">
         <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
         <meta property="og:type" content="website" />
-        <meta name="generator" content="Hugo 0.59.1" />
+        <meta name="generator" content="Hugo 0.62.0" />
 
         <title>Golang and 1.2 version performance improvement | PotHix</title>
 
@@ -93,18 +93,14 @@
         </div>
 
         <div class="entry-content">
-          <p>I&rsquo;ve started using Go last month and I really liked to work with the language.</p>
-
-<p>The project I&rsquo;m working on is dead simple and just retrieves metrics and save on
-a redis server (the data will be analyzed by a different project that I&rsquo;m
-working on). So I have 15 goroutines retrieving data constantly and I&rsquo;m using
+          <p>I've started using Go last month and I really liked to work with the language.</p>
+<p>The project I'm working on is dead simple and just retrieves metrics and save on
+a redis server (the data will be analyzed by a different project that I'm
+working on). So I have 15 goroutines retrieving data constantly and I'm using
 just two native threads.</p>
-
 <p>I did some CPU profiling on the code using my current machine for Golang 1.1.2
 and 1.2 and the results can be seen below.</p>
-
 <p>Golang 1.1.2:</p>
-
 <pre><code>    (pprof) top10
     Total: 188701 samples
     137454  72.8%   72.8%   137454  72.8% crypto/des.permuteBlock
@@ -126,9 +122,7 @@ and 1.2 and the results can be seen below.</p>
     %Cpu0  :100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
     %Cpu1  : 95.0 us,  3.0 sy,  0.0 ni,  2.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
 </code></pre>
-
 <p>Golang 1.2:</p>
-
 <pre><code>    (pprof) top10
     Total: 6894 samples
     1686    24.5%   24.5%   1686    24.5%   crypto/aes.decryptBlockGo
@@ -149,14 +143,11 @@ and 1.2 and the results can be seen below.</p>
     %Cpu0  : 12.1 us,  5.1 sy,  5.1 ni, 72.7 id,  5.1 wa,  0.0 hi,  0.0 si,  0.0 st
     %Cpu1  : 20.0 us,  4.0 sy,  0.0 ni, 75.0 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
 </code></pre>
-
 <p>What an improvement! :)</p>
-
 <p>I know that this application may not be the best example to compare Go with a
 different language because it depends of a third application (that is my
 bottleneck BTW) and Ruby perform as good as the new version but I really liked
 to give Go a try.</p>
-
 <p>Go language has a lot of interesting ideas and it is growing fast.
 Looks like it is a good idea of language for some of my projects, welcome Golang!</p>
 

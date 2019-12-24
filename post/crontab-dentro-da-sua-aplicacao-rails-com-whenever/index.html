@@ -8,7 +8,7 @@
         <meta property="og:url" content="http://pothix.com/post/crontab-dentro-da-sua-aplicacao-rails-com-whenever/">
         <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
         <meta property="og:type" content="website" />
-        <meta name="generator" content="Hugo 0.59.1" />
+        <meta name="generator" content="Hugo 0.62.0" />
 
         <title>Crontab dentro da sua aplicação rails com whenever | PotHix</title>
 
@@ -95,52 +95,38 @@
 ignorei por parecer uma coisa boba, mas olhando melhor eu percebi que é
 uma idéia bem interessante. O que a gem whenever faz é manter o seu
 crontab de uma forma mais Ruby, e melhor, dentro da sua aplicação!</p>
-
 <p>A principio parece estranho tentar manter o crontab dentro da sua
 aplicação, mas ganhamos muitas vantagens com isso:</p>
-
 <ul>
 <li>versionamento</li>
 <li>menos acesso ao servidor</li>
 <li>rapida atualização do crontab do servidor via capistrano</li>
 <li>forma mais legível de ver o crontab</li>
 </ul>
-
 <p>E tudo isso não influi no crontab que você já possui ( e que muitas
 vezes tem muita coisa que não é relacionada com a aplicação ), pois o
 whenever cria uma seção que ele atualiza mantendo a seção antiga onde
 está.</p>
-
 <p>Para instalar o whenever é a mesma facilidade de sempre:</p>
-
 <pre><code>sudo gem install whenever
 </code></pre>
-
 <p><strong>OBS</strong>: Lembrando que a primeira linha só é necessária uma vez, se
-  você já tem o gemcutter no seu sources então ignore-a.</p>
-
+você já tem o gemcutter no seu sources então ignore-a.</p>
 <p>Depois disso execute:</p>
-
 <pre><code>wheneverize .
 </code></pre>
-
 <p>O comando acima vai gerar os arquivos necessários para a utilização do
 whenever ( básicamente o config/schedule.rb ).</p>
-
 <p>E a partir de agora você já pode atualizar o seu crontab com as suas
 configurações feitas no config/schedule.rb executando o comando:</p>
-
 <pre><code>whenever --update-crontab suaaplicacao
 </code></pre>
-
 <p>Quando você passa como parametro a sua aplicação ele cria um bloco
 apenas para as configurações da sua aplicação no crontab.</p>
-
 <p>Mas é claro que você não vai precisar acessar o servidor e executar
 esse comando toda vez que você alterar o arquivo de schedule, para
 isso você provavelmente deve estar usando o capistrano para ser mais
 DRY. Se estiver usando inclua algumas linhas no seu deploy.rb:</p>
-
 <pre><code>after &quot;deploy:symlink&quot;, &quot;deploy:update_crontab&quot;
 
 namespace :deploy do
@@ -150,16 +136,12 @@ namespace :deploy do
    end
 end
 </code></pre>
-
 <p><strong>OBS</strong>: Se você tiver problemas no deploy com essa linha ( como se o
 comando whenever não existisse ), tente adicionar o path absoluto
 para o whenever.</p>
-
 <p>E com isso a cada vez que você fizer um cap server deploy seu crontab
 será atualizado com as configurações contidas no config/schedule.rb.</p>
-
 <p>Veja alguns exemplos do que pode ter no seu schedule.rb:</p>
-
 <pre><code>every 4.minutes do
   rake &quot;ts:in&quot;
 end
@@ -172,12 +154,9 @@ every [:monday, :thursday], :at =&gt; '11:59 am' do
   command &quot;sudo rm -rf /&quot; # claro!
 end
 </code></pre>
-
 <p>Nada do que eu demonstrei aqui é uma grande novidade, você pode ver mais
 exemplos de como usar no <a href="http://www.railscasts.com">Railscasts</a> e na <a href="http://github.com/javan/whenever">própria página do plugin</a>.</p>
-
 <p>Espero que seja útil para mais alguem como está sendo para mim.</p>
-
 <p><em>Old comments by: Mateus, Vini, Fabiano P S, Luiz Cezer | Not available anymore. :(</em></p>
 
           

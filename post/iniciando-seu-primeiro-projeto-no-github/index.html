@@ -8,7 +8,7 @@
         <meta property="og:url" content="http://pothix.com/post/iniciando-seu-primeiro-projeto-no-github/">
         <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
         <meta property="og:type" content="website" />
-        <meta name="generator" content="Hugo 0.59.1" />
+        <meta name="generator" content="Hugo 0.62.0" />
 
         <title>Iniciando seu primeiro projeto no GitHub | PotHix</title>
 
@@ -90,87 +90,58 @@
 
         <div class="entry-content">
           <p>Hoje estou aqui para postar um pouco sobre o GitHub! =)</p>
-
 <p>Minha idéia hoje é apenas mostrar como você inicia um projeto por lá,
 ou seja, enviar um pequeno repositório git e deixar no GitHub, e
 conforme os meus progressos eu postarei mais coisas por aqui! ; )</p>
-
 <p>Antes de começar tudo isso você precisar ter cadastro no GitHub
 (obviamente) e já ter uma public-key cadastrada.</p>
-
 <p>Para cadastrar uma public-key é só logar no GitHub, clicar em account
 (no canto superior direito) e clicar em &ldquo;add public key&rdquo; que vão
 aparecer os campos para inserir a mesma.</p>
-
 <p>Você pode encontrar a sua public key no diretório <code>~/.ssh</code> com o
 comando:</p>
-
 <pre><code>cat id_rsa.pub
 </code></pre>
-
 <p>Caso ele não exista basta acessar sua home (~) e cria-lo com:</p>
-
 <pre><code>ssh-keygen -t rsa
 </code></pre>
-
-<p><strong>OBS</strong>: Eu tenho <a href="http://pothix.com/blog/slackware/deixando-seu-ssh-mais-facil-de-trabalhar">um post</a>
+<p><strong>OBS</strong>: Eu tenho <a href="http://pothix.com/blog/slackware/deixando-seu-ssh-mais-facil-de-trabalhar" title="">um post</a>
 com mais informações sobre chave e SSH.</p>
-
 <p>Depois pegar o conteúdo do arquio id_rsa.pub e colocar lá no GitHub.
 Voltando a criação do repositório&hellip; Primeiramente crie um diretório
-<a href="http://github.com/repositories/new" title=" Novo repositório no
-GitHub">por aqui</a>:</p>
-
+[por aqui](<a href="http://github.com/repositories/new">http://github.com/repositories/new</a> &quot; Novo repositório no
+GitHub&rdquo;):</p>
 <p>Depois de criar você já terá um local acessível para enviar seu
 código, que por sinal ainda não existe, portanto&hellip;.Vamos criá-lo! :)</p>
-
 <p>Primeiramente crie um diretório qualquer:</p>
-
 <pre><code>mkdir codes
 </code></pre>
-
 <p>Acesse o diretório:</p>
-
 <pre><code>cd codes
 </code></pre>
-
 <p>E vamos iniciar o git nesse repositório:</p>
-
 <pre><code>git init
 </code></pre>
-
 <p>Coloque aqui seu arquivo de código (não necessáriamente código, mas
 nesse caso vamos usar código ;)) e vamos adicioná-lo ao git:</p>
-
 <pre><code>git add mycode.rb (obs: Ruby o/)
 </code></pre>
-
 <p>Agora vamos dar um commit do que fizemos usando &ldquo;-m&rdquo; para deixar uma
 mensagem do motivo do commit:</p>
-
 <pre><code>git commit -m &quot;Meu primeiro commit&quot;
 </code></pre>
-
 <p>Agora vamos adicionar como origem o nosso projeto criado no GitHub:</p>
-
 <pre><code>git remote add origin git@github.com:seu-usuario-no-GitHub/nome-do-repositorio-criado.git
 </code></pre>
-
 <p>E depois é só dar um:</p>
-
 <pre><code>git push origin master
 </code></pre>
-
 <p>E lá está o seu código no GitHub! :)</p>
-
 <p>Tudo que eu falei aqui está no tutorial do GitHub quando você cria um
 diretório:</p>
-
-<p><a href="http://github.com/guides/setting-up-a-remote-repository-using-github-and-osx">http://github.com/guides/setting-up-a-remote-repository-using-github-and-osx</a></p>
-
+<p><a href="http://github.com/guides/setting-up-a-remote-repository-using-github-and-osx" title="">http://github.com/guides/setting-up-a-remote-repository-using-github-and-osx</a></p>
 <p>Por enquanto é isso! Algo bem simples só para você não se assustar
 quando lhe falarem de GitHub.</p>
-
 <p><em>Old comments by: John-Henrique, George Mendonça, Thiago Marinho, Neto, Denis rebelo | Not available anymore. :(</em></p>
 
           

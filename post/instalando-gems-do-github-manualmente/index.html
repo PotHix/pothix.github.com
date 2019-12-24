@@ -8,7 +8,7 @@
         <meta property="og:url" content="http://pothix.com/post/instalando-gems-do-github-manualmente/">
         <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
         <meta property="og:type" content="website" />
-        <meta name="generator" content="Hugo 0.59.1" />
+        <meta name="generator" content="Hugo 0.62.0" />
 
         <title>Instalando gems do GitHub manualmente | PotHix</title>
 
@@ -93,45 +93,34 @@
         <div class="entry-content">
           <p>Esse vai ser um post rápido para relatar um problema que eu tive ( e
 ainda estou tendo ) para instalar gems do GitHub.</p>
-
 <p>Por algum motivo bizarro (nem tanto assim, parece ser dns, mas já
 tentei opendns e nada) a página <a href="http://gems.github.com">http://gems.github.com</a> não abre de
 maneira nenhuma, enquanto a navegação continua normal sem nenhum
 problema&hellip; A consequência disso é que eu não consigo colocar o source
 do github nas minhas configurações do Rubygems. :(</p>
-
 <p>Tendo em vista que eu não conseguiria utilizar gem install para
 nenhuma gem que vinha do GitHub tive que dar um jeito de instalar
 manualmente. :)</p>
-
 <p>O que fiz foi acessar a página do GitHub referente a gem que eu queria
 instalar, que no caso é a
 <a href="http://github.com/fnando/kitabu/tree/master" title="Kitabu">kitabu</a> do
 <a href="http://github.com/fnando" title="Nando Viera">fnando</a>, pegar o link de
 clone e clonar:</p>
-
 <pre><code>$ git clone git://github.com/fnando/kitabu.git
 </code></pre>
-
 <p>Mas ae que está o lance que eu demorei para encontrar (noob), para
 uma gem ser instalada localmente ela precisa estar empacotada, e no
 GitHub você baixa direto o código fonte. Para empacotar:</p>
-
 <pre><code>$ gem build kitabu.gemspec
 </code></pre>
-
 <p>Agora sim eu tenho o arquivo <code>kitabu-0.3.3.gem</code> que eu posso utilizar
 para instalar localmente! Para instalar é só utilizar o gem install
 padrão informando o arquivo a ser instalado:</p>
-
 <pre><code>$ gem install kitabu-0.3.3.gem
 </code></pre>
-
 <p>E pronto! Lá está a minha gem instalada!</p>
-
 <p>Espero que isso seja útil para mais alguem que precise empacotar as
 suas gems. :)</p>
-
 <p><em>Old comments by: Cairo Noleto | Not available anymore. :(</em></p>
 
           

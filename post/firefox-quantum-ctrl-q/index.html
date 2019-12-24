@@ -8,7 +8,7 @@
         <meta property="og:url" content="http://pothix.com/post/firefox-quantum-ctrl-q/">
         <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
         <meta property="og:type" content="website" />
-        <meta name="generator" content="Hugo 0.59.1" />
+        <meta name="generator" content="Hugo 0.62.0" />
 
         <title>Firefox Quantum ctrl-q | PotHix</title>
 
@@ -93,30 +93,24 @@
         <div class="entry-content">
           <p>This will be a quick post to help people that are doing the same
 search as I was doing some minutes ago: &ldquo;firefox disable ctrl+q&rdquo;.</p>
-
-<p>I&rsquo;m using <a href="https://www.mozilla.org/firefox/new/">Firefox Quantum</a> for
+<p>I'm using <a href="https://www.mozilla.org/firefox/new/">Firefox Quantum</a> for
 some weeks now (will probably post about it in the future) and the
 ctrl+q &ldquo;feature&rdquo; really annoys me.</p>
-
-<p>It&rsquo;s not the first time that I hit ctrl+q by accident just to see the
+<p>It's not the first time that I hit ctrl+q by accident just to see the
 entire browser and tabs being closed without warning. I was looking on
 Google and could not find anything on how to disable it. There were
 some extensions but none of them work on Firefox Quantum, so I decided
 to dig into the internal configurations.</p>
-
 <p>Looks like there is a configuration called <code>browser.showQuitWarning</code>
 that helps with this problem. It does not disable the ctrl+q but shows
 a warning and you can just cancel it in case it was an accident.</p>
-
-<p>It&rsquo;s easy to enable it:</p>
-
+<p>It's easy to enable it:</p>
 <ul>
 <li>Type <code>about:config</code> in the address bar</li>
-<li>It will say that it&rsquo;s a place for advanced users, so you have to <code>accept the risk!</code></li>
+<li>It will say that it's a place for advanced users, so you have to <code>accept the risk!</code></li>
 <li>search for <code>browser.showQuitWarning</code></li>
 <li>click on it and change it to <code>true</code></li>
 </ul>
-
 <p>Firefox Quantum is really better than Chrome nowadays, hope it helps
 with the Quit problem.</p>
 

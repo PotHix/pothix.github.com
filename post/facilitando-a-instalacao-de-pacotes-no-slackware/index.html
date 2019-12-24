@@ -8,7 +8,7 @@
         <meta property="og:url" content="http://pothix.com/post/facilitando-a-instalacao-de-pacotes-no-slackware/">
         <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
         <meta property="og:type" content="website" />
-        <meta name="generator" content="Hugo 0.59.1" />
+        <meta name="generator" content="Hugo 0.62.0" />
 
         <title>Facilitando a instalação de pacotes no Slackware | PotHix</title>
 
@@ -91,34 +91,24 @@
         </div>
 
         <div class="entry-content">
-          
-
-<p>Estava escrevendo outro post e chegando em um ponto onde eu instalaria
+          <p>Estava escrevendo outro post e chegando em um ponto onde eu instalaria
 um pequeno Software utilizando o
 <a href="http://www.slackbuilds.org" title="Slack Builds">SlackBuilds</a> me fez
 escrever esse post sobre algumas facilitações de instalação para
 Slackware.</p>
-
 <p>Nesse post eu vou referenciar 4 facilitadores para instalação de
 pacotes no Slackware: SlackBuilds, LinuxPackages, Slackpkg, Slapt-get
 e Checkinstall.</p>
-
 <h3 id="slackbuilds">SlackBuilds</h3>
-
 <p>Primeiramente vou comentar sobre um dos que eu mais uso e que mudou a
 minha vida ( heheh ), que é o <a href="http://www.slackbuilds.org" title="Slack Builds">SlackBuilds</a>!</p>
-
 <p>SlackBuilds são scripts que facilitam a instalação de softwares
-diretamente pelo seu fonte, ao invés de usarmos o velho <code>./configure
-&amp;&amp; make &amp;&amp; make install</code>.</p>
-
+diretamente pelo seu fonte, ao invés de usarmos o velho <code>./configure &amp;&amp; make &amp;&amp; make install</code>.</p>
 <p>Quando eu preciso instalar algo, o primeiro lugar que eu visito é o
 <a href="http://www.slackbuilds.org" title="Slack Builds">site do SlackBuilds</a> para
 procurar se tem o que eu estou procurando, depois procuro em outro
 lugar.</p>
-
 <p>Para usar o SlackBuilds é simples!</p>
-
 <ul>
 <li>Primeiro você encontra o seu pacote no site.</li>
 <li>Agora você faz o download do pacote do SlackBuilds, que geralmente está no formato <code>nomeDoPacote.tar.gz</code></li>
@@ -131,62 +121,46 @@ lugar.</p>
 <li>Se tudo der certo nesse passo (pode ser que tenha alguma dependência, o que fará você tentar novamente o passo 1 para a dependência) ele vai compilar tudo para você e vai gerar um pacote .tgz do Slackware no seu <code>/tmp</code> ! :)</li>
 <li>Agora é só correr para o abraço! Acessar o seu <code>/tmp</code> e instalar o pacote com o bom e velho <code>installpkg</code></li>
 </ul>
-
 <h3 id="linux-packages">Linux Packages</h3>
-
 <p>Como segunda opção para facilitar a instalação no Slackware temos o
 <a href="http://linuxpackages.net" title="Linux Packages">Linux Packages</a> que tem
 muitos pacotes tgz para você baixar e instalar facilmente com o
 gerenciador de pacotes do Slackware.</p>
-
 <h3 id="slackpkg">Slackpkg</h3>
-
 <p>Para instalações mais automatizadas temos também o
 <a href="http://piterpunk.info02.com.br/artigos/tutorial-slackpkg.html">Slackpkg</a>
 que foi criado pelo <a href="http://piterpunk.info02.com.br/">Piter Punk</a>
 como um script para atualização de pacotes mais
 facilmente quando surgiam exploits ou bugs, e acabou se extendendo a
 instalação de pacotes e outras features interessantes.</p>
-
 <p>Eu utilizo o Slackpkg para atualizar pacotes e para instalar pacotes
 padrão da distro, e para isso é muito bom, mas não pense que ele vai
 instalar aquele pacote xyz que você estava procurando, pois ele não é
 um apt-get.</p>
-
 <h3 id="slapt-get">Slapt-get</h3>
-
 <p><a href="http://software.jaos.org/" title="Página Oficial do Linux Packages">Slapt-get</a>
 (pode-se fazer o download no <a href="http://www.linuxpackages.net/pkg_details.php?id=12307">Linux Packages</a>),
 esse sim tenta ser um apt-get! Ele faz quase as mesmas coisas que o
 apt-get faz, mas não resolve dependencias.</p>
-
 <p>Ele tambem tem um arquivo de mirrors que fica localizado em
 <code>/etc/slapt-get/slapt-getrc</code>. E em termos de comandos não muda muito
 do apt-get, e você pode usar o <code>slapt-get --install nomeDoPrograma</code> ou
 <code>slapt-get --update</code>.</p>
-
 <h3 id="checkinstall">Checkinstall</h3>
-
 <p>O <a href="http://asic-linux.com.mx/~izto/checkinstall/download.php">checkinstall</a>
 é utilizado para quando você estiver instalando um programa a partir
 do seu fonte você possa gerar um pacote da sua distribuição no final
 da instalação e instalar por ele, assim você terá mais controle pelo
 seu gerenciador de pacotes e tambem para que da próxima vez seja mais
 fácil instalá-lo.</p>
-
 <p>A instalação segue padrão até o momento final:</p>
-
 <pre><code>$ ./configure
 $ make
 </code></pre>
-
 <p>E agora ao invés do nosso # make install usaremos:</p>
-
 <pre><code># checkinstall -S
 </code></pre>
-
 <p>E assim ele vai criar um pacote Slackware no diretório e instalar. :)</p>
-
 <p>Bem isso é só para dar uma idéia do que se pode fazer para deixar suas
 instalações do Slackware mais rápidas.</p>
 

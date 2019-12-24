@@ -8,7 +8,7 @@
         <meta property="og:url" content="http://pothix.com/post/deixando-seu-ssh-mais-facil-de-trabalhar/">
         <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
         <meta property="og:type" content="website" />
-        <meta name="generator" content="Hugo 0.59.1" />
+        <meta name="generator" content="Hugo 0.62.0" />
 
         <title>Deixando seu ssh mais facil de trabalhar | PotHix</title>
 
@@ -97,80 +97,56 @@ métodos melhores para trabalhar com vários SSH ao mesmo tempo,
 geralmente a galera que administra vários servidores costuma usar
 screen para se manter conectado, mas eu como conecto de vez em quando
 para ver algo em algum dos servidores prefiro configurar desse modo.</p>
-
 <p>A primeira coisa a se fazer é configurar o seu <code>.ssh/config</code></p>
-
 <pre><code>Host server
 Hostname 192.168.1.2
 User pothix
 ForwardAgent yes
-</code></pre>
-
-<p>Sendo que Host é o que você vai usar quando for chamar por ssh (por
+</code></pre><p>Sendo que Host é o que você vai usar quando for chamar por ssh (por
 exemplo &ldquo;ssh server&rdquo;), Hostname é o IP do server, User é o usuário no
 servidor e ForwardAgent para usar o nosso ssh-agent.</p>
-
 <p>Tem um totorial bem legal sobre
 <a href="http://www.guiadohardware.net/tutoriais/dominando-ssh/pagina3.html">configuração de SSH no guia do Hardware</a>
 que explica algumas opções.</p>
-
 <p>Vamos agora configurar o nosso ssh-agent, que é um agente de
 autenticação que gerencia as nossas conexões ssh na sua seção de
 terminal.</p>
-
 <p>Primeiramente você deve iniciar o seu ssh-agent:</p>
-
 <pre><code>$ eval -s `ssh-agent -s`
 </code></pre>
-
 <p>Isso via iniciar o seu <code>ssh-agent</code> e já definir as variáveis de ambiente que ele precisa para funcionar na sua instancia atual do terminal.</p>
-
 <p>Agora que já temos o nosso ssh-agent funcionando, vamos criar a nossa chave privada para utilizar:</p>
-
 <pre><code>$ cd ~/.ssh
 $ ssh-keygen -t rsa -f minha-chave
-</code></pre>
-
-<p>Com isso ele pedirá a a senha para sua chave e depois de você digitar
+</code></pre><p>Com isso ele pedirá a a senha para sua chave e depois de você digitar
 e confirmar ele criará dois arquivos de chave:</p>
-
 <ul>
 <li>minha-chave</li>
 <li>minha-chave.pub</li>
 </ul>
-
 <p>O arquivo minha-chave é o arquivo que vamos usar para facilitar a
 nossa vida, e o arquivo minha-chave.pub é o arquivo publico de
 identificação da sua chave, falaremos mais disso depois.</p>
-
 <p>Agora com nossa chave em mãos já podemos acrescentar ela no nosso
 ssh-agent, utiliando o <code>ssh-add</code>:</p>
-
 <pre><code>$ ssh-add ~/.ssh/minha-chave
 </code></pre>
-
 <p>Ele vai pedir a senha da sua chave e depois vai adicionar ela no
 ssh-agent e agora é só alegria! :)</p>
-
 <p>Agora vamos acessar o servidor que cadastramos no nosso
 <code>~/.ssh/config</code></p>
-
 <pre><code>$ ssh server
 </code></pre>
-
 <p>Lembra dele, que fizemos lá em cima? Pois é agora vamos acessar ele
 sem precisar ficar digitando a senha toda vez, apenas usando a nossa
 chave! :D</p>
-
 <p>Lembrando que tem um porém! Isso só vai funcionar se nós estivermos
 autorizados a acessar o servidor sem senha, utilizando a chave, e para
 isso temos que ter o conteúdo do nosso minha-chave.pub no
 <code>$HOME/.ssh/authorized_keys</code> do servidor, e o problema está resolvido!
 :)</p>
-
 <p>Isso para mim é uma mão na roda, e espero que seja para vocês
 tambem. ;)</p>
-
 <p><em>Old comments by: Adelar S.Q. | Not available anymore. :(</em></p>
 
           

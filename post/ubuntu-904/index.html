@@ -8,7 +8,7 @@
         <meta property="og:url" content="http://pothix.com/post/ubuntu-904/">
         <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
         <meta property="og:type" content="website" />
-        <meta name="generator" content="Hugo 0.59.1" />
+        <meta name="generator" content="Hugo 0.62.0" />
 
         <title>Ubuntu 9.04 | PotHix</title>
 
@@ -91,14 +91,10 @@
         </div>
 
         <div class="entry-content">
-          
-
-<p>Hoje estou aqui para falar um pouco sobre o Ubuntu 9.04! :)</p>
-
+          <p>Hoje estou aqui para falar um pouco sobre o Ubuntu 9.04! :)</p>
 <p>Alguns dias atrás eu
 <a href="http://twitter.com/PotHix/status/1691907398" title="Opinião sobre Ubuntu 9.04">postei no twitter</a>
 que não estava satisfeito com o Ubuntu 9.04, e abaixo descrevo alguns dos motivos.</p>
-
 <p>Primeiramente comecei tentando instalar ele pelo cd (para não ter que
 deixar o computador ligado mil horas baixando, e tambem por que tenho
 mais de 1 Ubuntu em casa, portanto mais de mil horas x 2) e não
@@ -106,9 +102,7 @@ consegui&hellip;. Procurei várias informações, desabilitei os sources e
 deixei só o cd lá, e vários outros procedimentos, mas mesmo assim não
 tive sucesso, e por isso tive que deixar o notebook ligado fazendo
 download a noite inteira.</p>
-
 <p>Ao terminar a instalação e reiniciar ele funcionou beleza! :)</p>
-
 <p>Começando a brincar mais com o bichinho, eu descobri que o meu flash
 tinha bugado (para variar&hellip;), e as coisas que utilizavam ele
 estavam funcionando meia boca, sem contar que ainda tinha alguma
@@ -116,59 +110,43 @@ coisa bizarra que funcionava como um
 <a href="https://addons.mozilla.org/en-US/firefox/addon/">flashblock</a>,
 só que pior, por que quando eu clicava ele poderia funcioanar, ou
 não. ¬¬</p>
-
 <p>Tentei relevar isso, mas quando fui fazer uns testes com o compiz,
 percebi que ele tambem não conseguia mais ativar os efeitos (tudo bem
 que eu nem uso&hellip; Mas gostaria que funcionasse pelo menos :P),
 retornando uma mensagem de que os efeitos não poderiam ser
 habilitados. :(</p>
-
 <p>Estava meio sem tempo para perquisar sobre isso, então ficou assim por
 alguns dias, o que me deu um pouco de desânimo, e foi aí que postei no
 twitter aquele comentário.</p>
-
 <p>Ontem eu resolvi tirar um tempinho para resolver esses problemas, e
 até que foi simples (como de costume)! ;)</p>
-
-<h3 id="resolvendo-problema-do-flash-no-ubuntu-9-04">Resolvendo problema do Flash no Ubuntu 9.04:</h3>
-
+<h3 id="resolvendo-problema-do-flash-no-ubuntu-904">Resolvendo problema do Flash no Ubuntu 9.04:</h3>
 <p>Eu percebi que estava usando um plugin free do flash, e vi comentários
 na internet que esse plugin não é tão bom como o da Adobe (mas
 funcionava muito bem no 8.10 :P), portanto resolvi desinstalar e
 instalar da Adobe:</p>
-
 <pre><code>sudo apt-get remove --purge swfdec-mozilla swfdec-gnome mozilla-plugin-gnash gnash
 sudo apt-get install flashplugin-nonfree
 </code></pre>
-
 <p>E o flash já voltou a operar normalmente! :)</p>
-
 <p><strong>OBS:</strong> Se não conseguir resolver com o mesmo procedimento que eu
 usei, veja se consegue com um dos
 <a href="http://www.ubuntugeek.com/fix-for-flash-not-working-after-jaunty-upgrade-64bit.html" title="Procedimentos para resolver o problema do Flash no UbuntuGeek">outros 3 procedimentos que tem no UbuntuGeek</a>.</p>
-
-<h3 id="resolvendo-problema-do-compiz-no-ubuntu-9-04">Resolvendo problema do compiz no Ubuntu 9.04:</h3>
-
+<h3 id="resolvendo-problema-do-compiz-no-ubuntu-904">Resolvendo problema do compiz no Ubuntu 9.04:</h3>
 <p>Pesquisando mais sobre o meu problema eu achei
 <a href="https://bugs.launchpad.net/ubuntu/+source/compiz/+bug/363967" title="Bug no launchpad">esse bug no LaunchPad</a>,
 com várias pessoas com o mesmo problema, e em um
 dos ultimos comentários tem uma dica que resolveu o meu! :)</p>
-
 <p>A minha placa de vídeo estava na blacklist do compiz, e eu comentei o
 arquivo, deixando com que ela não fique mais blacklisted:</p>
-
 <p>Abri o arquivo do compiz (que está em <code>/usr/bin/compiz</code>), comentei as
 linhas referente a minha placa de vídeo, salvei e reiniciei.</p>
-
 <p>Depois de logar fui testar o compiz, e lá estava ele funcionando
 novamente! :D</p>
-
 <p>É claro que eu já desabilitei os efeitos denovo por que não acho legal
 ficar trabalhando com eles, mas já está lá funcioanndo para fazer
 gracinhas! :P</p>
-
 <p>Espero que seja útil para mais alguém.</p>
-
 <p><em>Old comments by: Pedro Costa Neves, Jésus Lopes, Phoenix, Guilherme, yarlos, venancio, marilia, lucas moraes | Not available anymore. :(</em></p>
 
           

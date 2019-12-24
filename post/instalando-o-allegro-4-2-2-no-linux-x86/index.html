@@ -8,7 +8,7 @@
         <meta property="og:url" content="http://pothix.com/post/instalando-o-allegro-4-2-2-no-linux-x86/">
         <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
         <meta property="og:type" content="website" />
-        <meta name="generator" content="Hugo 0.59.1" />
+        <meta name="generator" content="Hugo 0.62.0" />
 
         <title>Instalando o Allegro 4.2.2 no Linux x86 | PotHix</title>
 
@@ -99,23 +99,18 @@ eu parcicipei do GameJam do Itaú cultural e desenvolvi um jogo com
 Allegro. Agora com o jogo pronto estou criando arquivos executáveis
 para divulgar e tinha me esquecido da diferença de arquitetura no
 Linux, assim compilei apenas para meu Linux x64.</p>
-
 <p>Quando me dei conta que não funcionou no computador do trabalho por
 que eu tinha um binário x64, eu tive que instalar o Allegro no
 computador de lá para poder fazer funcionar também em Linux
 x86. Pensei eu:</p>
-
 <blockquote>
 <p>&ldquo;Vai ser moleza, assim como foi instalar o <a href="http://sourceforge.net/projects/alleg/files/allegro/4.2.2/allegro-4.2.2.tar.gz/download" title="Allegro 4.2.2 download">Allegro
 4.2.2</a> no notebook x64&rdquo;</p>
 </blockquote>
-
 <p>E lá fui eu:</p>
-
 <pre><code>./configure
 make
 </code></pre>
-
 <p>Ué&hellip;Deu um problema bizarro com o <em>FNSTSW</em> no make, então não vai ser
 tão fácil assim&hellip;E lá vamos nós procurar na internet. Procurando
 <a href="http://lists.alioth.debian.org/pipermail/pkg-allegro-maintainers/2009-May/000251.html" title="Pergunta em uma lista de discussão">eu descobri</a>
@@ -123,10 +118,8 @@ que tem realmente um erro em uma parte Assembly do código do Allegro
 para x86 que está errada na versão 4.2.2 que provavelmente foi
 consertada nas versões futuras, mas nesse caso tive que arrumar na
 mão:</p>
-
 <p>No arquivo <code>src/i386/icpus.s</code> alterar a seguinte linha (tirar a que tem
 um menos e colocar a que tem um mais):</p>
-
 <pre><code>fninit
 movl $0x5A5A, %eax
 -   fnstsw %eax
@@ -134,31 +127,21 @@ movl $0x5A5A, %eax
 cmpl $0, %eax
 jne is_fpu_not_found
 </code></pre>
-
 <p>E assim eu consegui compilar certinho! :D</p>
-
 <p>Quando tentei rodar meu binário me deparei com o seguinte erro: &ldquo;error
 while loading shared libraries: liballeg.so.4.2: cannot open shared
 object file: No such file or directory&rdquo; ¬¬</p>
-
 <p>Pesquisando na internet novamente eu descobri que estava faltando eu
 adicionar o diretório <code>/usr/local/lib</code> ao meu <code>LD_LIBRARY_PATH</code>:</p>
-
 <p>No meu .bashrc:</p>
-
 <pre><code>export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 </code></pre>
-
 <p>OU</p>
-
 <p>Editar o meu arquivo <code>/etc/ld.so.conf</code> e incluir <code>/usr/local/lib</code> no
 final do arquivo e depois rodar o comando <code>ldconfig</code> como root ;)</p>
-
 <p>Com isso eu consegui finalmente compilar ojogo e fazer o meu binário
 rodar o meu jogo normalmente. :)</p>
-
 <p>Espero que seja útil para mais alguem.</p>
-
 <p><em>Old comments by: Rafael Masoni, Victor, marcelo | Not available anymore. :(</em></p>
 
           

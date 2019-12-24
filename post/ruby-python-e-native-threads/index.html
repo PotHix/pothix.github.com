@@ -8,7 +8,7 @@
         <meta property="og:url" content="http://pothix.com/post/ruby-python-e-native-threads/">
         <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
         <meta property="og:type" content="website" />
-        <meta name="generator" content="Hugo 0.59.1" />
+        <meta name="generator" content="Hugo 0.62.0" />
 
         <title>Ruby, Python e native threads | PotHix</title>
 
@@ -97,29 +97,22 @@
 Python usavam Green Threads, mas depois de conversar com uma galera me disseram
 que eram threads nativas. Pesquisando na internet eu vi que eram mesmo, mas decidi
 rodar um strace para ver elas rolando e postar sobre isso.</p>
-
 <p>Fiz dois scripts simples:</p>
-
 <p><strong>Python</strong></p>
-
 <pre><code>import threading
 import time
 for i in range(5):
     t = threading.Thread(target=time.sleep, args=(1,))
     t.start()
 </code></pre>
-
 <p><strong>Ruby</strong></p>
-
 <pre><code>require 'thread'
 5.times do
   Thread.new {sleep 10}
 end
 sleep 1
 </code></pre>
-
-<p>Rodando o script python com o comando <code>strace -f -e clone,fork python thread.py</code> retorna pouca coisa:</p>
-
+<p>Rodando o script python com o comando <!-- raw HTML omitted -->strace -f -e clone,fork python thread.py<!-- raw HTML omitted --> retorna pouca coisa:</p>
 <pre><code>clone(Process 13920 attached
 child_stack=0x7f8570b67ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f8570b689d0, tls=0x7f8570b68700, child_tidptr=0x7f8570b689d0) = 13920
 [pid 13919] clone(Process 13921 attached
@@ -137,11 +130,8 @@ child_stack=0x7f856a7fbff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CL
 [pid 13923] +++ exited with 0 +++
 +++ exited with 0 +++
 </code></pre>
-
 <p>Conseguimos ver claramente as 5 threads do SO aí em cima. :)</p>
-
-<p>Já no ruby, rodando com o mesmo esquema (<code>strace -f -e clone,fork ruby thread.rb</code>) retorna bem mais coisas:</p>
-
+<p>Já no ruby, rodando com o mesmo esquema (<!-- raw HTML omitted -->strace -f -e clone,fork ruby thread.rb<!-- raw HTML omitted -->) retorna bem mais coisas:</p>
 <pre><code>clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff2580cc9d0) = 14588
 Process 14588 attached
 [pid 14588] clone(Process 14589 attached
@@ -375,14 +365,11 @@ child_stack=0x7fa6a1fb5ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CL
 [pid 14613] +++ exited with 0 +++
 +++ exited with 0 +++
 </code></pre>
-
 <p>Alí no final dá para ver as 5 threads que eu pedi no script sendo abertas no
 SO. Inclusive, se analizar todo esse retorno aí dá para ver que o Ruby criou 6
-threads, uma delas o ruby cria mesmo se vc fizer só um <code>puts</code> num script. :)</p>
-
+threads, uma delas o ruby cria mesmo se vc fizer só um <!-- raw HTML omitted -->puts<!-- raw HTML omitted --> num script. :)</p>
 <p>Discutir sobre linguagens com os amigos sempre é legal para pesquisar e
 descobrir coisas novas. :)</p>
-
 <p><em>Old comments by: Thiago FM | Not available anymore. :(</em></p>
 
           

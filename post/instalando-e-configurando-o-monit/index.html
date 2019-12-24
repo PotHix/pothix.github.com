@@ -8,7 +8,7 @@
         <meta property="og:url" content="http://pothix.com/post/instalando-e-configurando-o-monit/">
         <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
         <meta property="og:type" content="website" />
-        <meta name="generator" content="Hugo 0.59.1" />
+        <meta name="generator" content="Hugo 0.62.0" />
 
         <title>Instalando e configurando o monit | PotHix</title>
 
@@ -95,70 +95,49 @@
 eu trabalho e sofri um pouquinho com algumas coisas básicas, portanto
 decidi postar aqui para que seja útil para quem quer começar a
 utilizar o monit.</p>
-
 <p>Se você usa Ubuntu, você pode fazer download do Monit por apt-get:</p>
-
 <pre><code>sudo apt-get install monit
 </code></pre>
-
 <p>Se você não usa Ubuntu ou quer a ultima versão do Monit, então faça
 download do tar.gz <a href="http://mmonit.com/monit/download/">http://mmonit.com/monit/download/</a> e compile.</p>
-
 <p>O Monit tem 2 dependencias:</p>
-
 <ul>
 <li>bison</li>
 <li>flex</li>
 </ul>
-
 <p>Eu resolvi as 2 facilmente utilizando o próprio apt-get:</p>
-
 <p><code>sudo apt-get install bison flex</code></p>
-
 <p>Agora é só partir para compilar os fontes! ( prefiro compilar dos
 fontes em certas ocasiões para pegar a ultima versão ):</p>
-
 <pre><code>./configure
 make
 sudo make install
 </code></pre>
-
 <p>E pronto! Lá está o seu monit instalado! Agora é o momento da
 configuração. :D</p>
-
 <p>O monit utiliza o arquivo chamado .monitrc para saber o que deve ser
 monitorado e com quais parâmetros, portanto crie um arquivo na sua
 $HOME com o nome de <code>.monitrc</code>:</p>
-
 <pre><code>vim $HOME/.monitrc
 </code></pre>
-
 <p>Claro que usarei o vim para isso (qual outro poderia ser né? haha).
 Agora você deve criar o seu próprio arquivo de configuração dizendo
 o que o monit deve monitorar e quais critérios deve usar.</p>
-
 <p>Você pode pegar alguns exemplos de arquivos
 <a href="http://mongrel.rubyforge.org/browser/trunk/examples/monitrc" title="Arquivo do pessoal do mongrel">como o do pessoal do mongrel</a>,
 ou até mesmo <a href="http://mmonit.com/monit/documentation/monit.html#how_to_monitor" title=".monitrc exemplo na documentação oficial">da documentação oficial do monit</a>
 e criar o seu baseado nele. A syntax desse arquivo é de fácil
 entendimento. :)</p>
-
 <p>Para e-mails eu utilizei a minha conta do Google Apps com a seguinte configuração:</p>
-
 <pre><code>set mailserver smtp.gmail.com port 587 username &quot;pothix@pothix.com&quot; password &quot;abc123&quot; using tlsv1, with timeout 15 seconds
 </code></pre>
-
 <p>Com todas as configurações arrumadas o monit já pode ser iniciado:</p>
-
 <pre><code>monit
 </code></pre>
-
 <p>E agora você já tem vários comandos para utilizar, é só dar uma lida na
 <a href="http://mmonit.com/monit/documentation/monit.html#general_operation" title="Comandos do monit">documentação do monit para ver o que é possível fazer</a>.</p>
-
 <p>Espero que seja útil para quem ainda não usa nenhuma ferramente de
 monitoração e gostou do monit. :)</p>
-
 <p><em>Old comments by: Roger Leite, Flávio Vinícius | Not available anymore. :(</em></p>
 
           

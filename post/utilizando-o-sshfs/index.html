@@ -8,7 +8,7 @@
         <meta property="og:url" content="http://pothix.com/post/utilizando-o-sshfs/">
         <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
         <meta property="og:type" content="website" />
-        <meta name="generator" content="Hugo 0.59.1" />
+        <meta name="generator" content="Hugo 0.62.0" />
 
         <title>Utilizando o sshfs | PotHix</title>
 
@@ -91,57 +91,40 @@
         </div>
 
         <div class="entry-content">
-          
-
-<p>Estou utilizando bastante o
+          <p>Estou utilizando bastante o
 <a href="http://fuse.sourceforge.net/sshfs.html" title="sshfs">sshfs</a> para
 transferir alguns arquivos para o servidor, ao invés de utilizar o bom
 e velho scp, por questão de ficar mais prático e facil a cópia de
 vários arquivos para diretórios distintos.</p>
-
 <p>O que facilita bastante é utilizar a sua chave privada ( explicado por
 mim <a href="http://pothix.com/blog/slackware/deixando-seu-ssh-mais-facil-de-trabalhar">nesse tópico</a>)
 para montar os seus diretórios sshfs, assim você terá o diretório do
 servidor montado facilmente em seu computador e poderá enviar arquivos
 para esse diretório e seus sub-diretórios como se estivesse copiando
 arquivos para outro diretório qualquer.</p>
-
-<h3 id="instalação">Instalação</h3>
-
+<h3 id="instalao">Instalação</h3>
 <p>Se você está no Ubuntu as coisas são fáceis e práticas, com o bom e velho apt-get:</p>
-
 <pre><code># apt-get install sshfs
 </code></pre>
-
 <p>Agora se você utiliza Slackware temos alguns passos a mais, mas nada
 que lhe faça arrancar os cabelos ;)</p>
-
 <p>Primeiramente instale o
 <a href="http://slackbuilds.org/repository/12.0/system/fuse/">fuse</a> no
 <a href="http://pothix.com/blog/slackware/facilitando-a-instalacao-no-slackware" title="Facilitando a instalação no Slackware">velho esquema SlackBuilds</a>
 (ou outro se preferir).</p>
-
 <p>Depois instale o
-<a href="http://www.linuxpackages.net/search_view.php?by=name&amp;amp;name=sshfs&amp;amp;ver=12.1">sshfs</a>
+<a href="http://www.linuxpackages.net/search_view.php?by=name&amp;name=sshfs&amp;ver=12.1">sshfs</a>
 (dessa vez do Linux Packages para mudar um pouco)</p>
-
-<h3 id="utilização">Utilização</h3>
-
+<h3 id="utilizao">Utilização</h3>
 <p>Primeiramente temos que subir o módulo do fuse:</p>
-
 <pre><code># modprobe fuse
 </code></pre>
-
 <p>Essa tarefa pode ser automátizada posteriormente descomentando esse
-módulo no <code>/etc/rc.d/rc.modules</code></p>
-
+módulo no <!-- raw HTML omitted -->/etc/rc.d/rc.modules<!-- raw HTML omitted --></p>
 <p>E com isso já podemos usar o nosso sshfs! :)</p>
-
 <p>Eu costumo utilizar com os seguintes parâmetros:</p>
-
 <pre><code>sshfs root@server:/local/da/pasta/no/server /local/da/minha/pasta/local -o reconnect,sshfs_sync
 </code></pre>
-
 <p>E agora é só correr para o abraço e ter o seu diretório do servidor
 montado localmente para cópia de arquivos.</p>
 

@@ -8,7 +8,7 @@
         <meta property="og:url" content="http://pothix.com/post/usando-git-em-projetos-do-google-code/">
         <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
         <meta property="og:type" content="website" />
-        <meta name="generator" content="Hugo 0.59.1" />
+        <meta name="generator" content="Hugo 0.62.0" />
 
         <title>Usando Git em projetos do Google Code | PotHix</title>
 
@@ -93,14 +93,12 @@
 projeto do
 <a href="http://code.google.com/p/vimbook" title="Projeto do VimmBook no Google Code">vimbook</a>,
 que está no Google Code.</p>
-
 <p>Como o Google Code só usa <a href="http://subversion.tigris.org/" title="Subversion Main Page">Subversion</a>
 (infelizmente) e eu sou do mundo <a href="http://git.or.cz/index.html">Git</a>,
 resolvi usar a ferramenta Git para lidar com SVN, o
 <a href="http://www.kernel.org/pub/software/scm/git/docs/git-svn.html">git-svn</a>!
 Com ele você pode clonar um repositório SVN e utilizar como Git, e na
 hora de &ldquo;commitar&rdquo; ele retransforma em SVN.</p>
-
 <p>Já havia tentado usar Git-svn no meu projeto de
 <a href="http://wordpress.org/extend/plugins/anti-ie6-army/">plugin para wordpress</a>,
 mas nesse caso eu já tinha um repositório Git e fui tentar mandar para
@@ -109,64 +107,45 @@ contas acabei jogando para um repositório SVN qualquer só para mandar
 para o Wordpress. No fim das contas, depois desse problema com o
 Wordpress eu só tinha abominado o git-svn, mas agora eu estou
 começando a descobrir o seu valor.</p>
-
 <p>Meus agradecimentos ao <a href="http://carlancalazans.com/">Carlan Calazans</a>
 que me deu umas dicas de Git-svn quando eu comecei a
 tentar usar no projeto do plugin, que naquele momento não me fora de
 grande serventia, mas depois ajudaram bastante! ;)</p>
-
 <p>Bem, agora chega de papo-furado e vamos a parte que interessa&hellip;Códigos e How To! :)</p>
-
 <p>Primeiramente vamos baixar o código ( estou usando como exemplo o vimbook ):</p>
-
 <pre><code>git-svn clone https://vimbook.googlecode.com/svn/trunk/ vimbook --username seu.usuario.do.google
 </code></pre>
-
 <p>Ao digitar isso ele vai pedir uma senha que ele gera para a sua conta,
 e seus commits ficarão ligados a sua conta do Google. Para obter a sua
 senha é só acessar a página de
 <a href="http://code.google.com/hosting/settings" title="Página de settings do Google Code">settings do google code</a> com a sua conta.</p>
-
 <p>Após digitar a sua senha ele vai começar a receber todos os commits do
 SVN e converter para Git! O processo pode ser um pouco demorado,
 dependendo do tamanho do repositório SVN que você está importando.</p>
-
 <p>Quando terminar você terá um repositório Git normal funcionando, e
 você pode trabalhar normalmente com ele, fazendo seus branchs e tudo
 mais! :D</p>
-
 <p>Vamos ver como seria um fluxo simples para você fazer uma alteração usando branch e mandar de volta para o repositório:</p>
-
 <pre><code>git checkout -b new_changes
 </code></pre>
-
 <p>Branch criado! Faça as suas alterações&hellip;</p>
-
 <p>Após as alteraçoes feitas faça os commits normalmente como se faz no
 Git e volte ao master para ver o que há de novo no repositório
 central:</p>
-
 <pre><code>git checkout master
 git-svn rebase
 </code></pre>
-
 <p>Com isso ele vai receber as novas alterações do repositório!</p>
-
 <p>Agora é a hora de fazer um merge do seu branch com a ultima versão do
 master:</p>
-
 <pre><code>git merge new_changes
 </code></pre>
-
 <p>Se tiver algum conflito resolva-os normalmente e agora é hora de
 enviar as suas alterações novamente ao Google Code:</p>
-
 <pre><code>git-svn dcommit
 </code></pre>
-
 <p>Pronto! Você está contribuindo para um projeto do Google Code
 utilizando Git. :D</p>
-
 <p><em>Old comments by: Carlan Calazans | Not available anymore. :(</em></p>
 
           

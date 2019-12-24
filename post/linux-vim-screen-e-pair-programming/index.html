@@ -8,7 +8,7 @@
         <meta property="og:url" content="http://pothix.com/post/linux-vim-screen-e-pair-programming/">
         <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
         <meta property="og:type" content="website" />
-        <meta name="generator" content="Hugo 0.59.1" />
+        <meta name="generator" content="Hugo 0.62.0" />
 
         <title>Linux, Vim, Screen e Pair programming! | PotHix</title>
 
@@ -91,62 +91,44 @@
         </div>
 
         <div class="entry-content">
-          
-
-<p>Aqui estou eu mais uma vez para falar mais uma das maluquices que eu
+          <p>Aqui estou eu mais uma vez para falar mais uma das maluquices que eu
 fiz um bom tempo atrás mas não tive tempo de postar.</p>
-
 <p>Primeiramente eu vou falar o que muita gente já falou muito bem, que é
 sobre screen e pair programming. Mas vou dizer como funcionou para mim.
 Alguns posts que eu li antes e depois de começar a brincar com screen e
 pair programming, e que eu gostei:</p>
-
 <ul>
 <li><a href="http://www.caikesouza.com/blog/2009/05/remote-pair-programming-with-screen/">Post do Caike sobre Pair programming remoto usando screen</a></li>
 <li><a href="http://qmx.me/pair%20programming">Post do Qmx sobre pair programming usando screen</a></li>
 </ul>
-
 <p>Primeiramente vamos começar com umas dicas do post do caike:</p>
-
 <p>Para mim foi necessário alterar as permissões do Screen:</p>
-
 <pre><code>sudo chmod +s /usr/bin/screen
 sudo chmod 775 /var/run/screen
 </code></pre>
-
 <p>Agora é só seguir a velha receita dos dois posts:</p>
-
 <p>Primeiro usuário:</p>
-
 <ul>
 <li>O primeiro usuário acessa o computador host via ssh</li>
 <li>executa o comando <strong>screen -S nomedoscreen</strong></li>
 </ul>
-
 <p>Segundo usuário:</p>
-
 <ul>
 <li>Acessa o servidor com o mesmo nome de usuário/senha do primeiro</li>
 <li>executa screen -x</li>
 </ul>
-
 <p>Pronto! As duas pessoas estão compartilhando a mesma tela agora e podem
 usar o Vim para programar (claro, qual outro editor seria, não!?).</p>
-
 <p>Nunca consegui utilizar o screen multiusuário (como mencionado no post
 do caike) mas isso não é um grande problema. :)</p>
-
 <h4 id="como-eu-usei">Como eu usei</h4>
-
 <p>Primeiramente fiz um pair programming normal com o <a href="http://twitter.com/mateuslinhares">@mateuslinhares</a>,
 onde nós dois ficavamos no mesmo screen conversando (estavamos há menos
 de 2 metros de distância), e cada um com seu teclado, podendo intervir a
 qualquer momento. Isso foi legal por que não precisávamos ficar
 dividindo espaço de um mesmo monitor ou de um mesmo teclado, e ainda
 driblava outros problemas que tínhamos na época.</p>
-
-<h4 id="uma-nova-idéia">Uma nova idéia</h4>
-
+<h4 id="uma-nova-idia">Uma nova idéia</h4>
 <p>Na época desse pair programming estavamos com uma task grande e
 trabalhosa, mas podia ser feita individualmente, e provavelmente seria
 mais produtiva do que em pair programming, mas tinha uma particularidade
@@ -155,79 +137,57 @@ portanto, se mantivessemos contato contínuo isso ia acelerar o trabalho,
 pois precisávamos alterar/retirar algumas coisas que podiam ou não ser
 importantes para o sistema como um todo. Levando tudo isso em conta me
 surgiu uma idéia:</p>
-
 <blockquote>
 <p>Por que não fazer tudo com um “semi pair programming”, onde cada um
 trabalhava no seu computador mas visualizando a tela do outro em um
 split.</p>
 </blockquote>
-
 <p>Tanto eu como o @mateuslinhares estamos acostumados a separar o nosso
 vim em vários splits verticais e horizontais, ou seja, um split vertical
 do screen não seria o problema.</p>
-
 <h4 id="o-que-fizemos">O que fizemos</h4>
-
 <p>Decidimos então seguir o seguinte script:</p>
-
 <p>Setup das duas maquinas:</p>
-
 <ul>
 <li>Vim</li>
 <li>Screen</li>
 <li>Um usuário em comum</li>
 </ul>
-
-<h5 id="pothix">PotHix :</h5>
-
+<h5 id="pothix-">PotHix :</h5>
 <ul>
 <li>com o usuário compartilhado executa um <strong>screen -S pothix</strong> na sua maquina</li>
 <li>Abre um novo split no screen com o comando <strong>ctrl+a s</strong></li>
 <li>Nesse novo split acessa a maquina do Mateus e executa <strong>screen -x</strong> para acessar o screen que o @mateuslinhares criou na maquina dele</li>
 <li>Volta para o split anterior e trabalha normalmente</li>
 </ul>
-
 <h5 id="mateuslinhares">@mateuslinhares</h5>
-
 <ul>
 <li>com o usuário compartilhado executa um <strong>screen -S mateuslinhares</strong> na sua maquina</li>
 <li>Abre um novo split no screen com o comando <strong>ctrl+a s</strong></li>
 <li>Nesse novo split acessa a maquina do Mateus e executa <strong>screen -x</strong> para acessar o screen que o PotHix criou na maquina dele</li>
 <li>Volta para o split anterior e trabalha normalmente</li>
 </ul>
-
 <p>Seguindo esse script teremos os 2 utilizando um screen com um split,
 sendo que um split é para seu trabalho local e no outro você pode
 acompanhar e dar pitacos no trabalho do seu comparsa! :)</p>
-
-<h4 id="benefícios">Benefícios</h4>
-
+<h4 id="benefcios">Benefícios</h4>
 <p>No caso dessa nossa task isso resolveu muito o nosso problema, por que
 conseguimos trabalhar em locais distintos mas sempre em constante
 comunicação, o que sempre trazia alguns comentários como:</p>
-
 <p><strong>PotHix</strong>: Ow… Não tira isso aí não por que vai quebrar tal parada.</p>
-
 <p>ou então:</p>
-
 <p><strong>Mateuslinhares</strong>: Cara… Olha isso aqui no screen, dá para fazer na sua
 parte tambem.</p>
-
-<h4 id="conclusão">Conclusão</h4>
-
+<h4 id="concluso">Conclusão</h4>
 <p>Para mim foi muito bom e recomendo a todos para tentarem algo do tipo
 quando tiverem chance (a não ser que você use Textmate…nesse caso…boa
 sorte! :P)! A unica coisa que eu recomendo é utilizar 2 monitores, assim
 você pode deixar a tela do seu comparsa no outro monitor (divida os
 monitores verticalmente) e trabalhar com vários splits no seu monitor. :)</p>
-
 <p>É totalmente possível trabalhar com 1 monitor apenas (foi assim
 que trabalhamos) mas você obviamente perde um pouco de espaço.</p>
-
 <p>Espero que essas informações sejam úteis para mais alguém.</p>
-
 <p>Qualquer dúvida ou sugestão deixe nos comentários. :)</p>
-
 <p><em>Old comments by: Willian Fernandes, Luciano Sousa, caike | Not available anymore. :(</em></p>
 
           

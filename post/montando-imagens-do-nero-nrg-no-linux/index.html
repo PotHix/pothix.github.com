@@ -8,7 +8,7 @@
         <meta property="og:url" content="http://pothix.com/post/montando-imagens-do-nero-nrg-no-linux/">
         <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
         <meta property="og:type" content="website" />
-        <meta name="generator" content="Hugo 0.59.1" />
+        <meta name="generator" content="Hugo 0.62.0" />
 
         <title>Montando imagens do Nero (nrg) no Linux | PotHix</title>
 
@@ -91,45 +91,29 @@
         </div>
 
         <div class="entry-content">
-          
-
-<p>Vou comentar agora sobre como montar aquela imagem chata do Nero (.nrg
+          <p>Vou comentar agora sobre como montar aquela imagem chata do Nero (.nrg
 ) que seu amigo que gosta de janelas lhe enviou com aqueles vários
 arquivos que você tinha pedido&hellip; É um hack bem fácil!</p>
-
-<h3 id="instalações">Instalações</h3>
-
+<h3 id="instalaes">Instalações</h3>
 <p>Primeiro instale o nrg2iso</p>
-
 <h4 id="no-ubuntu">No Ubuntu</h4>
-
 <pre><code># apt-get install nrg2iso
 </code></pre>
-
 <h4 id="no-slackware">No Slackware</h4>
-
 <p>Baixando o <a href="http://www.linuxpackages.net/pkg_details.php?id=12493">pacote no Linux Packages</a>
 e instalando normalmente com:</p>
-
 <pre><code># installpkg nrg2iso-versao.tgz
 </code></pre>
-
-<h3 id="utilização">Utilização</h3>
-
+<h3 id="utilizao">Utilização</h3>
 <p>Agora já podemos utilizar o nrg3iso para converter nossa imagem:</p>
-
 <pre><code>$ nrg2iso imagem.nrg novaimagem.iso
 </code></pre>
-
-<p>E já temos nossa imagem convertida como novaimagem<strong>.iso</strong> e podemos
+<p>E já temos nossa imagem convertida como novaimagem**.iso** e podemos
 montar nossa imagem normalmente em alguma pasta, como por exemplo
 /mnt/dirImagemMontada</p>
-
 <pre><code># mount -o loop -t iso9660 imagem.iso /mnt/dirImagemMontada
 </code></pre>
-
 <p>E pronto! Lá estarão seus arquivos para você brincar! ;)</p>
-
 <p><em>Old comments by: Anderson Kemper, crebin | Not available anymore. :(</em></p>
 
           
