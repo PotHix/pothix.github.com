@@ -7,6 +7,7 @@ subtitle = "A list of all my talks by date"
 
 No. | Date       | Title linking to content (if available)                      | Lang | City and country  | Event name / organizer
 --- | ---------- | ------------------------------------------------------------ | ---- | ----------------- | ------------------------
+67  | 2019-11-29 | [Mongo, Rails 3, VPS -> Postgres, Rails 5,Heroku](https://www.eventials.com/locaweb/groups/ruby-conf-2019/) |  PT  | São Paulo, Brasil | [Rubyconf Brasil](https://rubyconf.com.br)
 66  | 2019-06-21 | [Mongo, Rails 3, VPS -> Postgres, Rails 5,Heroku](https://www.youtube.com/watch?v=zyJ375I-l8A) |  PT  | São Paulo, Brasil | [Guru-SP](https://gurusp.org)
 65  | 2018-10-27 | [10 anos de Guru-SP](https://www.youtube.com/watch?v=f0kjacxHaZc) |  PT  | São Paulo, Brasil | [Guru-SP](https://www.gurusp.org/encontros/51-encontro-doguru-sp-na-loggi)
 64  | 2018-09-21 | [Writing a simple game in Rust](https://www.youtube.com/watch?v=8DUENLiOfiQ) | EN | São Paulo, Brasil | [THE CONF](https://www.theconf.club)
