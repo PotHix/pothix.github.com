@@ -305,9 +305,16 @@ anymore, but they are still there.
 
 ## Hours working, focusing and distractions
 
-Let's start with time working, considering my full-time job only:
+Let's start checking all my data tracked using [Toggl](https://toggl.com):
 
-[![Chart for time working in my full-time job](/images/stats/2019/yir/toggl-total-time.png "Chart for time working in my full-time job")](/images/stats/2019/yir/toggl-total-time.png "")
+[![Chart for time working in my full-time job](/images/stats/2019/yir/toggl-total-time-comparison.png "Chart for time working in my full-time job")](/images/stats/2019/yir/toggl-total-time.png "")
+
+The gray bars are related to the data for 2018. I believe the changes are
+related to my scheduled vacations. :)
+
+Let's check my time working, considering my full-time job only:
+
+[![Chart for time working in my full-time job](/images/stats/2019/yir/toggl-total-time-fulltime-job.png "Chart for time working in my full-time job")](/images/stats/2019/yir/toggl-total-time.png "")
 
 April was conference + retreat + vacations for me, so it's an outlier.
 Considering 40 days of vacations during the year (national holidays are
