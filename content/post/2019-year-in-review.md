@@ -224,10 +224,10 @@ wanted to do. I have to say that I was already feeling bad to not be speaking
 for some time and I was eager to speak in 2019. 😅 I don't think things are
 change much for 2020 though.
 
-Last year I was also on stage, but not delivering a talk. I was one of the core
-organizers of Rust LATAM, the first big conference about Rust in Latin America.
-It was a great experience and you can read more about it
-[here](/post/how-was-rust-latam-2019/).
+It's also worth mentioning that I was also on stage last year, but not
+delivering a talk. I was one of the core organizers of Rust LATAM, the first
+big conference about Rust in Latin America.  It was a great experience and you
+can read more about it [here](/post/how-was-rust-latam-2019/).
 
 
 ### Completed tasks
@@ -244,8 +244,8 @@ Let's check my Todoist tasks! 🙂
 [![Tasks completed on my Todoist account](/images/stats/2019/yir/tasks-completed.png "Tasks completed on my Todoist account")](/images/stats/2019/yir/tasks-completed.png "")
 [![Average of tasks completed on my Todoist account](/images/stats/2019/yir/tasks-completed2.png "Average of tasks completed on my Todoist account")](/images/stats/2019/yir/tasks-completed2.png "")
 
-It's a it less than what I expected since I completed 6323 tasks in 2018. It's
-not a huge problem because it always depends on how you organize your task
+It's a it less than what I expected since **I completed 6323 tasks in 2018**.
+It's not a huge problem because it always depends on how you organize your task
 manager. In my case, I also have my routine on my task manager so it can help
 me to actually do the things I plan for myself. The plan for 2020 is to remove
 my routine from Todoist and move it to my calendar, so I can only have the
@@ -317,19 +317,21 @@ Let's check my time working, considering my full-time job only:
 [![Chart for time working in my full-time job](/images/stats/2019/yir/toggl-total-time-fulltime-job.png "Chart for time working in my full-time job")](/images/stats/2019/yir/toggl-total-time.png "")
 
 April was conference + retreat + vacations for me, so it's an outlier.
-Considering 40 days of vacations during the year (national holidays are
-considered vacations) and dividing the average of 151 hours a month by 18 (21
-working days - 3 days of vacations per month) I have an average of 8 hours and
-a half of work every day. At [Doist](https://doist.com), we recommend to not
-work more than 8 hours a day, so I'm working a bit more but it's under control.
+Considering 40 days of vacations during the year (we don't have national
+holidays, they are included in the 40 days) and dividing the average of 151
+hours a month by 18 (21 working days - 3 days of vacations per month) **I have an
+average of 8 hours and a half of work every day**. At [Doist](https://doist.com),
+we recommend to not work more than 8 hours a day, so I'm working a bit more but
+it's under control.
 
-I spent 81 hours of my year in meetings. Most of them were weekly sync meetings
-with my remote team and also a monthly 1-on-1 with the head of my team. I
-consider all of those meetings productive. There was not a single meeting last
-year where I found myself wasting my time, so this 81 hours are actually fine.
+**I spent 81 hours of my year in meetings**. Most of them were weekly sync
+meetings with my remote team and also a monthly 1-on-1 with the head of my
+team. I consider all of those meetings productive. There was **not a single
+meeting last year where I found myself wasting my time**, so this 81 hours are
+actually fine.
 
-The most interesting part for me is the Shallow x Deep work ratio. I have
-almost 3 times less time Deep working than Shallow working, which is not that
+The most interesting part for me is the Shallow x Deep work ratio. **I have
+almost 3 times less time Deep working than Shallow working**, which is not that
 good. This is totally something I have to improve in 2020.
 
 To give a bit more of context, I consider Deep work any work I can do without
@@ -340,98 +342,93 @@ I think I'm not tracking that as I should. Sometimes I'm focused on reading
 Twist and answering questions, but as it's not coding, I consider it as shallow
 work. I will certainly improve it for 2020. 🤞
 
-Including my freelance job:
-
-[![Chart for time working in my full-time and freelance job](/images/stats/2019/yir/toggl-total-time-plus-freelance.png "Chart for time working in my full-time and freelance job")](/images/stats/2019/yir/toggl-total-time-plus-freelance.png "")
-
-It looks more even now but I don't know if it's a good thing. I don't
-usually work as a freelancer but I work for 1 company for almost two
-years now and I really like the challenges they have there, so I would
-like to work for them again. To be able to do that, I have to
-stabilize my workday.
-
-From July to December I did almost no freelance work for this company:
+As I mentioned on my previous review, I keep one freelance job, which is almost
+a personal project to me. I like to improve the app and make it better. I don't
+have freelance gigs, but this one I'm happy to keep. Here is the time I tracked
+about it this year (based on toggle, not totally accurate):
 
 [![Chart for time working in my freelance job](/images/stats/2019/yir/toggl-freelance.png "Chart for time working in my freelance job")](/images/stats/2019/yir/toggl-freelance.png "")
 
-**A goal for the next year is to work smarter not harder**, so I will have
-more time to do other things not related to my full-time job. I really
-like my full-time job (more than ever!) but I like to do different
-projects without constraints, it can be this freelance job or other
-activities that also bring me joy.
+June was an outlier as I did the migration of the application to a different
+infrastructure in one weekend. It was an exception, because I don't work on
+weekends most of the time. As it was my idea to do this migration, it was
+personal to me. This migration project was the topic of my two presentations
+this year, as I knew it would be an interesting topic to talk about.
 
-There's one metric that makes me feel great. I've been tracking the
-amount of Deep work I do at work since the beginning of the year. I
-consider something to be Deep work when I close all external
-interruptions (Telegram, Slack, Email, Twist, Cellphone, etc) and
-focus on the work I have to do. And for this year I have this:
+Other than that, I usually don't work more than 20 hours a month for them. I
+reserve some time every week day to work on different things. This project is
+usually the first in the list, but sometimes I just don't want to work on it
+and decide to use my time for other things (tech-related or not).
 
-[![Chart for my time Deep working](/images/stats/2019/yir/toggl-deepwork.png "Chart for my time Deep working")](/images/stats/2019/yir/toggl-deepwork.png "")
+What I wrote on my 2017 Year in review still holds:
 
-What an **AMAZING** thing to see. I really like when I'm on the flow
-state focusing on my task. That chart shows me that I was happier than
-before. 🙂
+```
+I really like my full-time job (more than ever!) but I like to do different
+projects without constraints, it can be this freelance job or other activities
+that also bring me joy.
+```
 
-As I realized that it would not be possible to apply my deep work techniques in my previous job
-I was applying that on my freelance work. If I add to the chart all
-the freelance work I did for that company (features, bug busting,
-infrastructure) we have this:
-
-[![Chart for my time Deep working including my freelance](/images/stats/2019/yir/toggl-deepwork-plus-freelance.png "Chart for my time Deep working including my freelance")](/images/stats/2019/yir/toggl-deepwork-plus-freelance.png "")
-
-Which is not that bad. 🙂
-
-The good part is that I can apply Deep work to my full-time job
-instead of look for a different place to use it. 🎉
-
-I would love to track the time I spent in meetings comparing the first
-semester and the second but I was not tracking it in the first
-semester. Now, giving that a second thought, even if I tracked, it
-would be more noise than signal. Sometimes you have productive
-meetings and other times you have "meeting that need to be done" where
-people keep talking about the unrelated stuff in the first 20 minutes
-of the meeting to speak about the productive stuff after
-that. So... `¯\_(ツ)_/¯`.
-
-I also have a metric for the **time I spent doing/planning my talks**
-this year:
+I have a metric for the **time I spent doing/planning my talks** this year:
 
 [![Chart for my time doing/planning presentations](/images/stats/2019/yir/toggl-presentation.png "Chart for my time doing/planning presentations")](/images/stats/2019/yir/toggl-presentation.png "")
 
-Sometimes I did not track it at all, especially in the beginning of the
-year, but it's worth mentioning as well. In April and June, I was
-practicing for my live-coding session. 🙂
+June was a busy month, just because I decided it would be. :) I want to keep
+track of presentations, writing on my blog, etc. because I can easily metric
+how much I'm donating to the community. Sometimes, instead of working for my
+freelance, I decide to write and publish something that may be useful for
+someone. Sometimes I decide to create slides for my next presentation at a
+local meetup. If I take the ~10 hours I dedicate for that and apply the hourly
+rate I have for the freelance job, it's easy to measure how much I'm donating.
+It may be useless for other people, but it's highly valuable for me.
 
-I'm also using [rescuetime](https://www.rescuetime.com/ref/1403570) to
-track my productivity. I'm not sure if my configuration is good and I
-keep changing them, so these metrics may not be so accurate. A good
-example of that is my tracking time, I'm also tracking the time at
-night when I'm talking to friends via Telegram or over the weekend.
+I don't want any money in exchange, but it's important for people to know that
+others are donating their time because they like to do it and because they
+believe it's may be useful for someone else. I've been participating/organizing
+communities for more than 10 years now and I know how easy it is for people to
+take local meetugs and talks for granted as it is free and someone else is
+taken care of it.
 
-Let's look at the productive and distracting hours for the entire
-year:
+Moving along with the metrics, let's check what data
+[rescuetime](https://www.rescuetime.com/ref/1403570) can provide regarding my
+productivity. :)
 
-[![Rescuetime metrics for productive and distracting hours](/images/stats/2019/yir/rescuetime-yir-productive-hours.png "Rescuetime metrics for productive and distracting hours")](/images/stats/2019/yir/rescuetime-yir-productive-hours.png "")
-[![Rescuetime metrics for the category that took most of my time](/images/stats/2019/yir/rescuetime-yir-by-category.png "Rescuetime metrics for the category that took most of my time")](/images/stats/2019/yir/rescuetime-yir-by-category.png "")
+Let's look at the productive and distracting hours for the entire year:
 
-A lot of distracting hours. As it considers my weekends and nights, I
-don't think it's accurate. It still bothers me that "communication &
-scheduling" is the most used category. I will change that this year.
+[![Rescuetime 2019 year in review metrics](/images/stats/2019/yir/rescuetime-yir-2019.png "Rescuetime 2019 year in review metrics")](/images/stats/2019/yir/rescuetime-yir-2019.png "")
+
+The metrics of 2018 were not posted last here but here are them for comparison:
+
+[![Rescuetime 2018 year in review metrics](/images/stats/2019/yir/rescuetime-yir-2018.png "Rescuetime 2018 year in review metrics")](/images/stats/2019/yir/rescuetime-yir-2018.png "")
+
+This is part of the [year in review](https://www.rescuetime.com/year-in-review/2019) provided by rescuetime. They also provide a chart with the categories I used the most:
+
+[![Rescuetime 2018 year in review metrics](/images/stats/2019/yir/rescuetime-yir-by-category.png "Rescuetime 2018 year in review metrics")](/images/stats/2019/yir/rescuetime-yir-by-category.png "")
+
+The dashboard shows similar information but with some other things:
+
+[![Rescuetime 2019 year in review metrics](/images/stats/2019/yir/rescuetime-yir-by-category-dashboard.png "Rescuetime 2019 year in review metrics")](/images/stats/2019/yir/rescuetime-yir-by-category-dashboard.png "")
+[![Rescuetime 2019 year in review metrics](/images/stats/2019/yir/rescuetime-goals.png "Rescuetime 2019 year in review metrics")](/images/stats/2019/yir/rescuetime-goals.png "")
+
+I had a lot more productive hours than I had in 2017 or 2018 and this is a good thing. :)
 
 ### Music
 
-I usually don't talk about music but [last.fm](https://last.fm) did a
-good "year in review" for me, so I will add some stats here.
+Again, [last.fm](https://last.fm) did a great year in review for me, so let's
+check some stats here.
 
 [![Songs scrobbled this year](/images/stats/2019/yir/lastfm-scrobbles.png "Songs scrobbled this year")](/images/stats/2019/yir/lastfm-scrobbles.png "")
 [![Listening stats for this year](/images/stats/2019/yir/lastfm-listening-stats.png "Listening stats for this year")](/images/stats/2019/yir/lastfm-listening-stats.png "")
 [![Listening percentiles compared to the user base](/images/stats/2019/yir/lastfm-percentiles.png "Listening percentiles compared to the user base")](/images/stats/2019/yir/lastfm-percentiles.png "")
 [![Artists, albums, and track discoveries for this year](/images/stats/2019/yir/lastfm-discovery.png "Artists, albums, and track discoveries for this year")](/images/stats/2019/yir/lastfm-discovery.png "")
 
-I started using the paid version
-of [Google Music](https://music.google.com) this year, that explains
-why my "Discovery" has an increase of "558%" this year. I also almost
-doubled the number of artists I listened this year.
+I'm using [Google Music](https://music.google.com) for two years now, so I was
+already expecting to nto not have 500%+ on my Discovery as I had in 2017. My
+Discovery this time is mostly related to Pops Staples, which is awesome BTW.
+
+As usual, I'm listening to a **lot of Heavy and Threash metal, along with a lot
+of Soundtracks, which is mostly Howard Shore** (no news here).
+
+--------------------------------
 
 Some interesting statistics are related to the time I listened to more
 songs. It seems that I listen to more songs between 20:00 and
