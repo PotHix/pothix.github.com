@@ -201,7 +201,7 @@ compiler](https://pothix.com/post/contributing-to-rust/)! The change itself was
 quite simple, but it was great to understand how to contribute and hopefully
 new contributions will come this year!
 
-### Speaking
+## Speaking
 
 After 2017, I had a hangover of speaking. 😅
 
@@ -230,7 +230,7 @@ big conference about Rust in Latin America.  It was a great experience and you
 can read more about it [here](/post/how-was-rust-latam-2019/).
 
 
-### Completed tasks
+## Completed tasks
 
 Every year Todoist releases an astonishing Year in review. Here is mine from
 [2017](https://todoist.com/review/2017/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJ1QWNKZHhCQyIsInVpZCI6NTA1NDQ0MywieWVhciI6MjAxN30.zJQ9q-v1pyL1HwerqktZyNMLSwC7RxC0CKHUNdkoZQI),
@@ -280,7 +280,7 @@ The data and design of our year in review is awesome. I did not participate on
 the project this year (as I did in 2017), but proud of what we are able to
 deliver. 🎉
 
-### ✅ Podcasts
+## Podcasts
 
 [![Time listening to Podcasts this year](/images/stats/2019/yir/podcasts-time.jpg "Time listening to Podcasts this year")](/images/stats/2019/yir/podcasts-time.jpg "")
 [![Time listening by Podcasts](/images/stats/2019/yir/podcasts-list.jpg "Time listening by Podcasts")](/images/stats/2019/yir/podcasts-list.jpg "")
@@ -411,7 +411,7 @@ The dashboard shows similar information but with some other things:
 
 I had a lot more productive hours than I had in 2017 or 2018 and this is a good thing. :)
 
-### Music
+## Music
 
 Again, [last.fm](https://last.fm) did a great year in review for me, so let's
 check some stats here.
@@ -428,70 +428,143 @@ Discovery this time is mostly related to Pops Staples, which is awesome BTW.
 As usual, I'm listening to a **lot of Heavy and Threash metal, along with a lot
 of Soundtracks, which is mostly Howard Shore** (no news here).
 
---------------------------------
+In 2017, I listened more to music between 20 nad 21 and how it changed between
+10 and 11. I believe it's because I changed even more my routine to be even
+more a morning person. I usually use music to focus or to create the mood for
+the day, so it would make sense.
 
-Some interesting statistics are related to the time I listened to more
-songs. It seems that I listen to more songs between 20:00 and
-21:00. It's usually when I want to do something different and need
-more energy. Wednesday is the day I listen to more music, I have no
-idea why it's so different than the rest. 🤔
-
-And the obvious part... I listen to metal most of the time. 😜
-
-
-### TV Shows
-
-I will use my [tvshowtime](https://www.tvshowtime.com) stats to get
-some data about it. Here are my data for January and December:
-
-[![TV shows watched in January](/images/stats/2017/jan/tvshows.jpg "TV shows watched in January")](/images/stats/2017/jan/tvshows.jpg "")
-[![TV shows watched in December](/images/stats/2017/dec/tvshows.jpg "TV shows watched in December")](/images/stats/2017/dec/tvshows.jpg "")
-
-Based on that (and ignoring how much I watched in January) I can get
-to the conclusion that **I watched 241 episodes**, more than 4
-episodes a week.
-
-Let's imagine that tvshowtime uses 30 days for one month. In this
-case, **I spent 8 days and 5 hours of my year watching TV shows**.
-
-As I don't usually watch TV, I will consider that 1 week and half of
-my entire year was spend watching TV. It's 2% of all my time spent
-with TV, not sure if it's good enough.
+I have no idea why Thursday is a big outlier this year. Maybe because I'm
+afraid about the end of the week and I'm using music to concentrate to deliver
+everything I postponed during Monday, Thuesday, and Wednesday? LOL
 
 
-### Physical activity
+## TV Shows
 
-I was expecting to have an easy work on this one since I have some
-apps for metrics but turns out that it's not so easy to retrieve
-yearly information. 😞
+I had a topic for TV shows in 2017 and I'm just realizing how this is not a
+priority for me anymore. I'm not tracking the TV shows and I watch and I'm not
+even watching that much anymore.
 
-What I did to get the information I need was to look month by month
-and take screenshots on my cell phone. I'm not including November and
-December because December is truncated in the monthly view for some
-reason and it would be too much work to include November alone. It was
-not so easy or pleasant to get that but here is the data regarding my
-steps:
+There are some TV shows that I watched and enjoyed though: **Game of Thrones**
+(it's not about the end, but the journey) and **Vikings**. **Westworld S2** was
+OK. There's also **Altered Carbon** I watched in 2018 that I enjoyed, the
+concept is great.
 
-[![Number of steps from January to May](/images/stats/2019/yir/steps-jan.jpg "Number of steps from January to May")](/images/stats/2019/yir/steps-jan.jpg "")
-[![Number of steps from June to October](/images/stats/2019/yir/steps-jun.jpg "Number of steps from June to October")](/images/stats/2019/yir/steps-jun.jpg "")
+To be honest, I don't even remember the ones I watched. I trid to use
+[Trakt.tv](https://trakt.tv) but they don't provide your data if you're not
+paying, so... whatever. I checked [TV
+time](https://www.tvtime.com/en/user/10615776/profile) and it seems they are
+adding movies to the app, so maybe I will start using it again, since the app
+is great.
 
-Nothing so unusual. It was mostly stable and I had peaks in February
-and October, the two months I was traveling to Europe.
+## Physical data
 
-Regarding my sleep:
+In 2017 I had a hard time to come up with the metrics for my Phisical
+activities and it seems things did not improve in the past two years. Someone
+may say I should buy the expensive band X or the super expensive hardware Y,
+but please don't. I prefer a simple and inexpensive device that tracks and
+sends the data to other places.
 
-[![Amount of sleep from January to May](/images/stats/2019/yir/sleep-jan.jpg "Amount of sleep from January to May")](/images/stats/2019/yir/sleep-jan.jpg "")
-[![Amount of sleep from June to October](/images/stats/2019/yir/sleep-jun.jpg "Amount of sleep from January to October")](/images/stats/2019/yir/sleep-jun.jpg "")
+Getting back to what I have. Now I can't get many bars on screen no miband and
+they only provide a monthly summary, not an early one. Google fit is not very
+helpful as well:
 
-Looks like my deep sleeping (the dark purple) increased in the second
-semester. It's interesting because it correlates with the dates I
-started in my new job at Doist. In February, when I was not working, I
-had a good rate of deep sleeping as well, I will assume it was stress
-related to my previous job.
+[![Number of steps from January to May](/images/stats/2019/yir/steps1.jpg "Number of steps from January to May")](/images/stats/2019/yir/steps1.jpg "")
+[![Number of steps from January to May](/images/stats/2019/yir/steps2.jpg "Number of steps from January to May")](/images/stats/2019/yir/steps2.jpg "")
+[![Number of steps from January to May](/images/stats/2019/yir/steps3.jpg "Number of steps from January to May")](/images/stats/2019/yir/steps3.jpg "")
 
-In general, it looks good to me.
+My savior this time will be [Exist.io](https://exist.io/?referred_by=pothix),
+because they have monthly averages:
 
-### ✅ Words written and errors
+[![Exist steps](/images/stats/2019/yir/steps-exist.jpg "Exist steps")](/images/stats/2019/yir/steps-exist.jpg "")
+
+It's just an average, not the full number of steps, but it's good enough. I
+don't need the total number of steps by year, as my goal is just to understand
+if I'm walking enough, and I don't need a precise number for that.
+
+Google location timeline gave me some yearly numbers about walking and public transportation:
+
+[![Maps](/images/stats/2019/yir/maps-activity.png "Maps")](/images/stats/2019/yir/maps-activity.png "")
+[![Maps](/images/stats/2019/yir/maps-activity2.png "Maps")](/images/stats/2019/yir/maps-activity2.png "")
+
+It's nice to see I walked more than 800km this year. **April was the month I
+had more steps** and it was probably because of my vacations in Portugal 🇵🇹.
+
+### Weight
+
+I tracked my weight this year as well, here is the data I have:
+
+[![Weight](/images/stats/2019/yir/weight-google-fit.jpg "Weight")](/images/stats/2019/yir/weight-google-fit.jpg "")
+[![Weight](/images/stats/2019/yir/weight-miband.jpg "Weight")](/images/stats/2019/yir/weight-miband.jpg "")
+
+There's some data missing from January to May, but after that I took the Gym
+and diet seriously, so we can clearly see how things start to improve.
+
+When I got back from vacations (October), I was ready for some improvement
+again and I lose more weight. Weight doesn't mean much as there are many other
+important things to track. In my case, I know it was not just weight, I have
+better muscles than last year and feel much better as well.
+
+### Sleep
+
+Again, the Miband app is not very useful:
+
+[![Amount of sleep from January to May](/images/stats/2019/yir/sleep1.jpg "Amount of sleep from January to May")](/images/stats/2019/yir/sleep1.jpg "")
+[![Amount of sleep from June to October](/images/stats/2019/yir/sleep2.jpg "Amount of sleep from January to October")](/images/stats/2019/yir/sleep2.jpg "")
+
+I sync the same data with Google fit and connect it to
+[Exist.io](https://exist.io/?referred_by=pothix). Those two services provide
+some good visualizations of my data:
+
+[![Amount of sleep from January to May](/images/stats/2019/yir/sleep-google-fit.jpg "Amount of sleep from January to May")](/images/stats/2019/yir/sleep-google-fit.jpg "")
+[![Amount of sleep from January to May](/images/stats/2019/yir/sleep-exist.jpg "Amount of sleep from January to May")](/images/stats/2019/yir/sleep-exist.jpg "")
+
+I finished reading [Why We
+Sleep](https://www.goodreads.com/review/show/2435182291) in July and I was
+curious to see how changing my routine influenced my sleep. I was expecting to
+have more immediate impact on August or September, but I can see **I only had
+real impact after September**. :)
+
+I'm also using the [Sleep as
+Android](https://play.google.com/store/apps/details?id=com.urbandroid.sleep&hl=en)
+app to get some sleep data. I connect it to my miband and let it track. Here is
+the data I was able to extract from the app:
+
+[![](/images/stats/2019/yir/sleep-android-stats.jpg "")](/images/stats/2019/yir/sleep-android-stats.jpg "")
+[![](/images/stats/2019/yir/sleep-android-chronotype.jpg "")](/images/stats/2019/yir/sleep-android-chronotype.jpg "")
+
+I'm a Morning lark. I usually work better in the morning and go to sleep
+earlier. The average duration of my sleep is a bit low in this app for some
+reason, but it's usually between 7h and 7h30m.
+
+The Efficiency is the time I'm in bed but actually sleeping not browsing the
+internet or having problems to sleep. 93% is a good value.
+
+[![](/images/stats/2019/yir/sleep-android-deep-sleep.jpg "")](/images/stats/2019/yir/sleep-android-deep-sleep.jpg "")
+[![](/images/stats/2019/yir/sleep-android-irregularity.jpg "")](/images/stats/2019/yir/sleep-android-irregularity.jpg "")
+
+My deep sleep is decreasing in the past months for some reason, I have to
+improve this situation. I believe the decrease of deep work is happening
+because of my habit of looking at my cellphone before sleeping. I will try to
+cut the cellphone at night again.
+
+My irregulatiry of sleep is also not good, I should have close to no
+irregularity of sleep. I hope to improve that until the middle of the year,
+after that I can't promise anything. 😉
+
+[![](/images/stats/2019/yir/sleep-android-chronotype-wakeup.jpg "")](/images/stats/2019/yir/sleep-android-chronotype-wakeup.jpg "")
+[![](/images/stats/2019/yir/sleep-android-fall-asleep-hour.jpg "")](/images/stats/2019/yir/sleep-android-fall-asleep-hour.jpg "")
+
+It's interesting to see that I usually wake up later and sometimes sleep more
+when it's "free days" (holidays and weekend), but most of the time I eep the
+same duration. The time I go to sleep is also clearly related to the duration
+on the second chart. I believe this is pretty common since I have a time to
+wake up but not a time to go to sleep. I'm aware of the problem already and I
+hope to improve it.
+
+I'm happy with the sleep data I have and I have to say I'm curious about the
+data I will have about that next year.
+
+## Words written and errors
 
 After consolidating all the data I collected from Grammarly this year
 I have the following:
@@ -511,52 +584,28 @@ Unique words are stable since I started tracking my words. Looks like
 my vocabulary is not increasing but I think it's normal, we usually
 don't use difficult words in our day-to-day life.
 
-### ✅ Locations
+## Locations
 
-This year was amazing regarding traveling. I went to Belgium,
-Netherlands, Scotland, England, Portugal, Spain, and visited many
-different cities. I'm planning some posts about those cities for a
-while now, maybe someday.
+In 2018, I went to **Chile** and the **USA**. In 2019, I went to **Uruguay**,
+the **USA**, and **Portugal**.
 
-In one of those trips I had a goal to speak with people from other
-countries and had long conversations with people from Germany, Poland,
-Spain, Scotland, Colombia, Canada, Lithuania, Czech Republic, Japan,
-Brazil, Uruguay, Australia, Russia, Ireland, Portugal, India, Belgium,
-Bosnia, France, Argentina, and Netherlands. It was really great. 😀
+Here is the summary of the year and all-time data by Google:
 
-Now that you know about the trips, I don't know if I can trust the
-data provided by Google Locations. Take your own conclusions:
+[![General data](/images/stats/2019/yir/location-general.png "General view of my locations data")](/images/stats/2019/yir/location-general.png "")
+[![General data](/images/stats/2019/yir/location-general2.png "General view of my locations data")](/images/stats/2019/yir/location-general2.png "")
 
-Unfortunately, I don't have my data for January, the first record was
-in February (after visiting more than 13 cities in 4 countries):
+I have to say that I'm very proud of myself when I see the all time data. I
+believe that getting to know other places and cultures is something that
+expands your mind in many ways. :)
 
-[![General data for February](/images/stats/2017/feb/location-general.png "General view of my locations data")](/images/stats/2017/feb/location-general.png "")
+Here are some of the cities and places I visited this year:
 
-And this is the data for December:
+[![General data](/images/stats/2019/yir/location-places.png "General view of my locations data")](/images/stats/2019/yir/location-places.png "")
+[![General data](/images/stats/2019/yir/location-places2.png "General view of my locations data")](/images/stats/2019/yir/location-places2.png "")
 
-[![General data for December](/images/stats/2017/dec/location-general.png "General view of my locations data")](/images/stats/2019/yir/location-general.png "")
+I'm quite satisfied with my trips in 2019.
 
-It doesn't look so different even with all those travels. Considering
-that I visited Porto, Lisbon, and Barcelona in October, it doesn't
-make any sense. 😞
-
-I use Google maps and Google trips to find new places to go. I'm
-a [Google maps local guide](https://maps.google.com/localguides) and I
-usually add reviews to the map. As a side-effect of that, I have stars
-in almost all places I go.
-
-[![My Google maps in Europe](/images/stats/2019/yir/maps-europe.png "My Google maps in South America")](/images/stats/2019/yir/maps-europe.png "")
-[![My Google maps in South America](/images/stats/2019/yir/maps-south-america.png "My Google maps in South America")](/images/stats/2019/yir/maps-south-america.png "")
-
-I hope to have many other stars soon. :)
-
-According to
-[matadornetwork](https://matadornetwork.com/travel-map/22396bbf7ad1af6c0d8758cb54077e13-1515270907),
-I visited 8 countries so far:
-
-[![My world map](/images/stats/2019/yir/maps-world.png "My world map")](/images/stats/2019/yir/maps-world.png "")
-
-### ✅ Expenses
+## Expenses
 
 I would love to do a deep analysis on this topic but unfortunately,
 the apps I use do not provide an easy way of doing this. The only
@@ -590,7 +639,7 @@ savings for January when I received the payment for the work in the
 last months. 😃
 
 
-### Time to write this blog post
+## Time to write this blog post
 
 Well, this one took some time. 😜
 
@@ -602,7 +651,7 @@ After that I worked for 07h15min more, so we have **9h15min to write
 this blog post** and it worth it, for sure.
 
 
-### Conclusion
+## Conclusion
 
 What a great year! :)
 
