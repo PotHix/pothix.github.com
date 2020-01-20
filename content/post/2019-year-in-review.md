@@ -21,6 +21,15 @@ this a priority for myself anymore. I don't want the same to happen to my Year
 in review. I do it for many year already and I plan to keep doing it for a long
 time. So **let's start**!
 
+## Average day
+
+Let's start with what an average day is to me according to [Exist.io](https://exist.io/?referred_by=pothix):
+
+[![](/images/stats/2019/yir/exist-average-day.png "")](/images/stats/2019/yir/exist-average-day.png "")
+
+This is almost a TL;DR of this post, but there's a lot of details missing here
+and we will cover them topic by topic. 😉
+
 ## Books
 
 [![Year in books](/images/stats/2019/yir/goodreads-year-in-books-logo.png "A logo of my avatar with 'My year in books' written")](https://www.goodreads.com/pothix "")
