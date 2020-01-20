@@ -437,6 +437,13 @@ I have no idea why Thursday is a big outlier this year. Maybe because I'm
 afraid about the end of the week and I'm using music to concentrate to deliver
 everything I postponed during Monday, Thuesday, and Wednesday? LOL
 
+[Exist.io](https://exist.io/?referred_by=pothix) also provided data about the
+songs I listened to (via Last.fm):
+
+[![Songs scrobbled this year](/images/stats/2019/yir/lastfm-exist.png "Songs scrobbled this year")](/images/stats/2019/yir/lastfm-exist.png "")
+
+This is the piece of information I was missing from Last.fm, so it's nice to
+see it here 😃.
 
 ## TV Shows
 
@@ -566,23 +573,32 @@ data I will have about that next year.
 
 ## Words written and errors
 
-After consolidating all the data I collected from Grammarly this year
-I have the following:
+This year I didn't have the data to consolidate and I don't want to check every
+weekly email to consolidate it. Grammarly will have to do better if they want
+their customers to get better data about their writings. Sorry Grammarly,
+weekly emails are not enough.
 
-[![Grammarly data for this year](/images/stats/2019/yir/grammarly.png "Grammarly data for this year")](/images/stats/2019/yir/grammarly.png
-"")
+This is the data I have from the last email I received before my vacations in
+December:
 
-I just copied and pasted all the data from all posts into a Google
-Spreadsheets and generated a chart, no science here. January,
-February and March have no data, unfortunately.
+[![Grammarly data for this year](/images/stats/2019/yir/grammarly.png "Grammarly data for this year")](/images/stats/2019/yir/grammarly.png "")
+[![Grammarly data for this year](/images/stats/2019/yir/grammarly2.png "Grammarly data for this year")](/images/stats/2019/yir/grammarly2.png "")
 
-The interesting metric I can get from this chart is that I'm writing a
-lot more and the *corrections made* are not increasing at the same
-pace. This is really great to see. 😃
+We can see that I wrote almost 1.5MM words since I started. I checked the first
+time Grammarly sent this number and it was 963,838 words written in Feb 11th.
+Let's do a simple math:
 
-Unique words are stable since I started tracking my words. Looks like
-my vocabulary is not increasing but I think it's normal, we usually
-don't use difficult words in our day-to-day life.
+```
+1478380 - 963838 = 514542   -- words written between Feb and Dec
+514542 / 10 = 51424 -- words by month (Feb -> Dec)
+```
+
+It seems **I write around 50k words every month**. It would be **around 600k works
+a year**. 🙂
+
+I would love to have a chart like [the one I had in
+2017](/post/2017-year-in-review/) so I could see what errors I had and so on
+but it's not viable, unfortunately. 😕
 
 ## Locations
 
@@ -641,26 +657,30 @@ last months. 😃
 
 ## Time to write this blog post
 
-Well, this one took some time. 😜
+Phew... finally finished this one. 😅
 
-I started it on the airplane, coming back from York. Unfortunately, I
-lost my tracking because of a software problem but I doubt I spent
-less than 2 hours on it, so let's consider 2 hours.
+This time I could track the whole process and **it took 10h15min to write this
+blog post**.
 
-After that I worked for 07h15min more, so we have **9h15min to write
-this blog post** and it worth it, for sure.
+[![](/images/stats/2019/yir/toggl-writing-time.png "Chart for time working in my full-time job")](/images/stats/2019/yir/toggl-writing-time.png "")
+
+I can say the same thing I said in 2017: It totally worth my time
+to write this. We have so many good insights when reviewing the data we
+collected. 😌
 
 
 ## Conclusion
 
-What a great year! :)
+I have nothing to complain about 2018 and 2019. The only thing I should have
+done earlier is the year in review for 2018 because it totally changes my mood
+about what I did. It's great to do reviews because you can clearly see (at
+least it's the case for me) that you did what you wanted to do in the general
+context.
 
-It is the first time I have that so much metrics to play with. I could
-get some interesting information about how was my year and how some
-changes influenced my behavior for good or bad.
+It's clear to me that doing my year in review in 2017 helped to improve things
+I could only see when looking in "bird's eye view". Some things are not so
+noticeable when you're seeing them in context, but they become clear when you
+put them in a yearly context.
 
-It took a lot more time than I was expecting but I hope to have an
-automated way to do that in the next year.
-
-I achieved almost all of my goals last year, so I don't have anything
-to complain. Hope that this year become even better than the last one.
+I'm sure 2020 will be an year full of huge challenges for me, but I'm also
+curious to see the data I'm going to collect this year! 😉
