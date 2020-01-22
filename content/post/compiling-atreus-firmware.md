@@ -31,3 +31,46 @@ To flash the firmware, I used the `avrdude` command:
 ```
 sudo avrdude -p atmega32u4 -c avr109 -U flash:w:atreus_pothix.hex -P /dev/ttyACM0
 ```
+
+The result will be something like:
+
+```
+Connecting to programmer: .
+Found programmer: Id = "CATERIN"; type = S
+    Software Version = 1.0; No Hardware Version given.
+Programmer supports auto addr increment.
+Programmer supports buffered memory access with buffersize=128 bytes.
+
+Programmer supports the following devices:
+    Device code: 0x44
+
+avrdude: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.00s
+
+avrdude: Device signature = 0x1e9587 (probably m32u4)
+avrdude: NOTE: "flash" memory has been specified, an erase cycle will be performed
+         To disable this feature, specify the -D option.
+avrdude: erasing chip
+avrdude: reading input file "atreus_pothix.hex"
+avrdude: input file atreus_pothix.hex auto detected as Intel Hex
+avrdude: writing flash (22090 bytes):
+
+Writing | ################################################## | 100% 1.69s
+
+avrdude: 22090 bytes of flash written
+avrdude: verifying flash memory against atreus_pothix.hex:
+avrdude: load data flash data from input file atreus_pothix.hex:
+avrdude: input file atreus_pothix.hex auto detected as Intel Hex
+avrdude: input file atreus_pothix.hex contains 22090 bytes
+avrdude: reading on-chip flash data:
+
+Reading | ################################################## | 100% 0.20s
+
+avrdude: verifying ...
+avrdude: 22090 bytes of flash verified
+
+avrdude: safemode: Fuses OK (E:C8, H:D0, L:FF)
+
+avrdude done.  Thank you.
+```
