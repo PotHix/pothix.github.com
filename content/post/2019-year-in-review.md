@@ -18,7 +18,7 @@ to write my monthly reviews.
 
 Some people still ask me to get back to write such reviews, but I couldn't make
 this a priority for myself anymore. I don't want the same to happen to my Year
-in review. I do it for many year already and I plan to keep doing it for a long
+in review. I do it for many years already and I plan to keep doing it for a long
 time. So **let's start**!
 
 ## Average day
@@ -48,8 +48,8 @@ such influence in the titles I pick.
 
 I'm still using [Google keep](https://keep.google.com) to take notes of all the
 books I read and I'm posting Goodreads reviews for them based on these notes.
-You can see the reviews for 2019 by clicking on the books [on
-Goodreads](https://www.goodreads.com/user_challenges/14901302).
+You can see the reviews for 2019 by clicking each book [on my Goodreads
+page](https://www.goodreads.com/user_challenges/14901302).
 
 Here are the books from this year's list that I really recommend
 reading, with links to my review:
@@ -80,8 +80,8 @@ have registered:
 I started [listening to audiobooks](/post/audiobooks/) in 2016 and we can
 clearly see how excited I was. 😅 I can see now that I'm reducing the number of
 books I'm reading every year, but I don't think I should be concerned by that.
-The number of books should not surpass the quality of books and how much I'm
-applying what I learn.
+The number should not surpass the quality of books and how much I'm applying
+what I learn.
 
 Let's compare the books I read this year with last year:
 
@@ -89,8 +89,8 @@ Let's compare the books I read this year with last year:
 "")
 
 I used the number of pages because it clearly shows that I even read more than
-2018, but not more books. I was not expecting that but it shows that I was
-trying to be less focused on the number of books.
+2018, but not more individual books. I was not expecting that but it shows that
+I was trying to be less focused on the number of books.
 
 In 2017, I mentioned that I was disappointed with the number of 5 stars I gave.
 It was probably related with the fact that I was buying cheaper books and
@@ -114,8 +114,8 @@ writing this section I'm feeling much better. I'm happy with my results here. :)
 I couldn't finish my year in review for 2018, but the part about articles was
 done, fortunately. There's no way to get the read date from pocket, so if I
 want to collect it, I have to do it from time to time. Thanks past self! It was
-not in vain after all. If you're reading this, I was successfully to publish
-this post this time, so this is good news. 🤞
+not in vain after all. If you're reading this, I was successful in publishing
+this time, so this is good news. 🤞
 
 Different from [the review I did for 2017](post/2017-year-in-review/), I will
 now have data for the full year. I will also mention the data I had for 2018,
@@ -133,11 +133,12 @@ articles each month**.  Again, it's worth mentioning that I'm aware that I will
 probably wever read all those 1908 articles left in my Pocket account and I'm
 OK with that.
 
-I was expecing to have more data from
-[Exist.io](https://exist.io/?referred_by=pothix) this year, but unfortunately,
-it was a bit disappointing to not have much. They provided a year in review,
-which I'm going to mention later, but the only thing about articles is that **it
-says I read 263**, which is quite close to the number I had above. :)
+I was expecting to have more data from
+[Exist.io](https://exist.io/?referred_by=pothix) regarding articles this year,
+but unfortunately, it was a bit disappointing to not have much. They provided a
+year in review, which I'm going to mention later, but the only thing about
+articles is that **it says I read 263**, which is quite close to the number I
+had above. :)
 
 ## Coding
 
@@ -162,8 +163,8 @@ try to tweak the data collection once again.
 
 [![Total time coding by project this year](/images/stats/2019/yir/wakatime-projects-total.png "Total time coding by project this year")](https://wakatime.com/@PotHix "")
 
-I dedicated only 22 hours to this blog, compared to 80+ in 2017. I would like
-to improve this, but I'm not sure if it will be a priority, unfortunately.
+I dedicated only 22 hours to this blog, compared to 80+ hours in 2017. I would
+like to improve this, but I'm not sure if it will be a priority, unfortunately.
 
 [Todoist](https://todoist.com) is my top project for this year, which is
 expected since it's my main job. I expected to have more time tracked there,
@@ -172,12 +173,12 @@ hope to also have [Twist](https://twist.com) as a relevant project on my lsit
 of projects next year, or at least have integrations related to it.
 
 I still keep the same freelance job I have for more than 4 years now. It became
-almost a personal project for me. The good parts of working for them is that
-the work is just coding and mostly bugs. I just need to sit down and write some
+almost a personal project to me. The good parts of working for them is that the
+work is just coding and mostly bugs. I just need to sit down and write some
 code when I feel like.
 
-This year was totally atypical, since I took some time to migrate their
-framework from one version to another. It was a big challenge, especially for
+This year was totally atypical, since I took some time to migrate the framework
+in infrastructure of this project. It was a big challenge, especially for
 someone working using their spare time for that. I expect the number of hours
 working on this project to totally shrink in 2020. Let's see.
 
@@ -198,7 +199,7 @@ Markdown is still in this list for the same reasons I had in 2017:
 * I usually write long post in Emacs/Vim and then paste them to Twist
 
 There's no surprise that **Python** is the language I used the most this year,
-since we use Python for almost everything at Doist.
+since we use Python for almost everything at [Doist](https://doist.com).
 
 I use Ruby at my freelance job, so there's no surprise to still have it there.
 
@@ -216,7 +217,7 @@ After 2017, I had a hangover of speaking. 😅
 
 For those of you who remember, I spoke 24 times in 2017. I decided to create
 some sort of a challenge for myself to speak more and was quite successful at
-it. It was time to have a low schedule. 😃
+it. After such achievement, I decided to change my priorities. 😃
 
 To make things easier to track, I now have the [talks page](/talks), which I'm
 going to use as a reference here.
@@ -234,7 +235,7 @@ for some time and I was eager to speak in 2019. 😅 I don't think things are
 change much for 2020 though.
 
 It's also worth mentioning that I was also on stage last year, but not
-delivering a talk. I was one of the core organizers of Rust LATAM, the first
+delivering a talk. I was one of the core organizers of [Rust LATAM](https://2019.rustlatam.org), the first
 big conference about Rust in Latin America.  It was a great experience and you
 can read more about it [here](/post/how-was-rust-latam-2019/).
 
@@ -272,8 +273,11 @@ complete the list of tasks I have to post there every Friday.
 
 [![Tasks completed by time and postponed by time](/images/stats/2019/yir/tasks-completed-boost-postpone.png "Tasks completed by time and postponed by time")](/images/stats/2019/yir/tasks-completed-boost-postpone.png "")
 
-I found it very interesting that the productivity chart correlates with my When
-tracked (wrote about it on [my current productivity worklow 2019](/post/my-current-productivity-workflow/)):
+I found it very interesting that the productivity chart correlates with my
+[When
+tracker](https://www.danpink.com/wp-content/uploads/2018/01/time-sheet.pdf)
+(wrote about it on [my current productivity worklow
+2019](/post/my-current-productivity-workflow/)):
 
 ![A sheet of paper with something that looks like a chart showing the times I feel more productive](/images/posts/productivity_dailywhentracker.png)
 
@@ -318,7 +322,7 @@ Let's start checking all my data tracked using [Toggl](https://toggl.com):
 
 [![Chart for time working in my full-time job](/images/stats/2019/yir/toggl-total-time-comparison.png "Chart for time working in my full-time job")](/images/stats/2019/yir/toggl-total-time.png "")
 
-The gray bars are related to the data for 2018. I believe the changes are
+The **gray bars are related to the data for 2018**. I believe the changes are
 related to my scheduled vacations. :)
 
 Let's check my time working, considering my full-time job only:
@@ -343,9 +347,9 @@ The most interesting part for me is the Shallow x Deep work ratio. **I have
 almost 3 times less time Deep working than Shallow working**, which is not that
 good. This is totally something I have to improve in 2020.
 
-To give a bit more of context, I consider Deep work any work I can do without
-distraction. Shallow work is the work I do while I have other tabs opened on my
-browser or while I'm doing something else on the side.
+To give a bit more of context, **I consider Deep work any work I can do without
+distraction**. Shallow work is the work I do while I have other tabs opened on
+my browser or while I'm doing something else on the side.
 
 I think I'm not tracking that as I should. Sometimes I'm focused on reading
 Twist and answering questions, but as it's not coding, I consider it as shallow
@@ -358,8 +362,8 @@ about it this year (based on toggle, not totally accurate):
 
 [![Chart for time working in my freelance job](/images/stats/2019/yir/toggl-freelance.png "Chart for time working in my freelance job")](/images/stats/2019/yir/toggl-freelance.png "")
 
-June was an outlier as I did the migration of the application to a different
-infrastructure in one weekend. It was an exception, because I don't work on
+June is an outlier as I did the migration of the application to a different
+infrastructure in one weekend. It was an exception as I don't work during
 weekends most of the time. As it was my idea to do this migration, it was
 personal to me. This migration project was the topic of my two presentations
 this year, as I knew it would be an interesting topic to talk about.
@@ -384,18 +388,18 @@ I have a metric for the **time I spent doing/planning my talks** this year:
 June was a busy month, just because I decided it would be. :) I want to keep
 track of presentations, writing on my blog, etc. because I can easily metric
 how much I'm donating to the community. Sometimes, instead of working for my
-freelance, I decide to write and publish something that may be useful for
-someone. Sometimes I decide to create slides for my next presentation at a
-local meetup. If I take the ~10 hours I dedicate for that and apply the hourly
-rate I have for the freelance job, it's easy to measure how much I'm donating.
-It may be useless for other people, but it's highly valuable for me.
+freelance, I decide to write and publish something that may be useful to
+someone else. Sometimes I decide to create slides for my next presentation at a
+local meetup. If I take the ~10 hours, I can easily measure how much I'm
+donating to the community by applying my freelancing hour rate.  It may be
+useless for other people, but it's highly valuable for me.
 
 I don't want any money in exchange, but it's important for people to know that
 others are donating their time because they like to do it and because they
 believe it's may be useful for someone else. I've been participating/organizing
 communities for more than 10 years now and I know how easy it is for people to
-take local meetugs and talks for granted as it is free and someone else is
-taken care of it.
+take local meetups for granted as it is free and someone else is taken care of
+it.
 
 Moving along with the metrics, let's check what data
 [rescuetime](https://www.rescuetime.com/ref/1403570) can provide regarding my
@@ -409,7 +413,9 @@ The metrics of 2018 were not posted last here but here are them for comparison:
 
 [![Rescuetime 2018 year in review metrics](/images/stats/2019/yir/rescuetime-yir-2018.png "Rescuetime 2018 year in review metrics")](/images/stats/2019/yir/rescuetime-yir-2018.png "")
 
-This is part of the [year in review](https://www.rescuetime.com/year-in-review/2019) provided by rescuetime. They also provide a chart with the categories I used the most:
+This is part of the [year in
+review](https://www.rescuetime.com/year-in-review/2019) provided by rescuetime.
+They also provide a chart with the categories I used the most:
 
 [![Rescuetime 2018 year in review metrics](/images/stats/2019/yir/rescuetime-yir-by-category.png "Rescuetime 2018 year in review metrics")](/images/stats/2019/yir/rescuetime-yir-by-category.png "")
 
@@ -418,7 +424,8 @@ The dashboard shows similar information but with some other things:
 [![Rescuetime 2019 year in review metrics](/images/stats/2019/yir/rescuetime-yir-by-category-dashboard.png "Rescuetime 2019 year in review metrics")](/images/stats/2019/yir/rescuetime-yir-by-category-dashboard.png "")
 [![Rescuetime 2019 year in review metrics](/images/stats/2019/yir/rescuetime-goals.png "Rescuetime 2019 year in review metrics")](/images/stats/2019/yir/rescuetime-goals.png "")
 
-I had a lot more productive hours than I had in 2017 or 2018 and this is a good thing. :)
+**I had a lot more productive hours than I had in 2017 or 2018** and this is a
+good thing. 🙂
 
 ## Music
 
@@ -431,18 +438,18 @@ check some stats here.
 [![Artists, albums, and track discoveries for this year](/images/stats/2019/yir/lastfm-discovery.png "Artists, albums, and track discoveries for this year")](/images/stats/2019/yir/lastfm-discovery.png "")
 
 I'm using [Google Music](https://music.google.com) for two years now, so I was
-already expecting to nto not have 500%+ on my Discovery as I had in 2017. My
+already expecting to not have 500%+ on my Discovery as I had in 2017. My
 Discovery this time is mostly related to Pops Staples, which is awesome BTW.
 
 As usual, I'm listening to a **lot of Heavy and Threash metal, along with a lot
 of Soundtracks, which is mostly Howard Shore** (no news here).
 
-In 2017, I listened more to music between 20 nad 21 and how it changed between
-10 and 11. I believe it's because I changed even more my routine to be even
-more a morning person. I usually use music to focus or to create the mood for
-the day, so it would make sense.
+In 2017, I listened to more music between 20:00 nad 21:00 and how it changed
+between 10:00 and 11:00. I believe it's because I changed even more my routine
+to be even more a morning person. I usually use music to focus or to create the
+mood for the day, so it would make sense.
 
-I have no idea why Thursday is a big outlier this year. Maybe because I'm
+I have no idea why Thursday is the big outlier this year. Maybe because I'm
 afraid about the end of the week and I'm using music to concentrate to deliver
 everything I postponed during Monday, Thuesday, and Wednesday? LOL
 
@@ -461,9 +468,9 @@ priority for me anymore. I'm not tracking the TV shows and I watch and I'm not
 even watching that much anymore.
 
 There are some TV shows that I watched and enjoyed though: **Game of Thrones**
-(it's not about the end, but the journey) and **Vikings**. **Westworld S2** was
-OK. There's also **Altered Carbon** I watched in 2018 that I enjoyed, the
-concept is great.
+(it's not about the end, but the journey) and **Vikings**. **Westworld Season
+2** was OK. There's also **Altered Carbon** I watched in 2018 that I enjoyed,
+the concept is great.
 
 To be honest, I don't even remember the ones I watched. I trid to use
 [Trakt.tv](https://trakt.tv) but they don't provide your data if you're not
@@ -512,13 +519,32 @@ I tracked my weight this year as well, here is the data I have:
 [![Weight](/images/stats/2019/yir/weight-google-fit.jpg "Weight")](/images/stats/2019/yir/weight-google-fit.jpg "")
 [![Weight](/images/stats/2019/yir/weight-miband.jpg "Weight")](/images/stats/2019/yir/weight-miband.jpg "")
 
-There's some data missing from January to May, but after that I took the Gym
+Some data is missing from January to May, but after that I took the Gym
 and diet seriously, so we can clearly see how things start to improve.
 
 When I got back from vacations (October), I was ready for some improvement
 again and I lose more weight. Weight doesn't mean much as there are many other
 important things to track. In my case, I know it was not just weight, I have
 better muscles than last year and feel much better as well.
+
+I don't have that many metrics from the Gym. To be honest, I don't like Gyms
+that much, so I try to do only do the things that are really necessary. I do
+measurements from time to time because it's provided by the Gym. I do
+everything on paper there, so I don't spend any time with that.
+
+I take picture of the data and keep it with me. This time I decided to just
+quickly put that on a spreadsheet and generate some charts. Here is what a I
+have since 2018:
+
+[![Gym](/images/stats/2019/yir/gym-logs.png "Gym")](/images/stats/2019/yir/gym-logs.png "")
+
+As you can see, there's not much data and data is missing sometimes for some
+reason. **All measurements are done in centimeters** (of course). For the three
+initial charts, the less the better. The opposite is true for the charts below
+it.
+
+There's not much to correlate between the Gym measurements and the weight
+though.
 
 ### Sleep
 
@@ -621,7 +647,7 @@ Here is the summary of the year and all-time data by Google:
 
 I have to say that I'm very proud of myself when I see the all time data. I
 believe that getting to know other places and cultures is something that
-expands your mind in many ways. :)
+expands your mind in many ways. 🙂
 
 Here are some of the cities and places I visited this year:
 
