@@ -1,6 +1,6 @@
 +++
-title = "2019 Year in Review (with metrics!)"
-date = "2020-01-10"
+title = "2019 Year in Review (full of metrics!)"
+date = "2020-01-26"
 tags = ["stats","personal","english"]
 +++
 
