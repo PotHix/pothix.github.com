@@ -14,7 +14,7 @@ The end of 2018 and the beginning of 2019 was quite hard for me and I just
 didn't have the energy to sit down in front of the computer during the weekends
 to write my monthly reviews.
 
-[![Failed attempts to write my stats posts](/images/stats/2019/yir/blog-stats-failed.png "Two stats blog posts as drafts, never finished")](/images/stats/2019/yir/blog-stats-failed.png "")
+[![A list of files on a terminal showing 4 different unfinished posts](/images/stats/2019/yir/blog-stats-failed.png "Failed attempts to write my stats posts")](/images/stats/2019/yir/blog-stats-failed.png "")
 
 Some people still ask me to get back to write such reviews, but I couldn't make
 this a priority for myself anymore. I don't want the same to happen to my Year
@@ -25,14 +25,14 @@ time. So **let's start**!
 
 Let's start with what an average day is to me according to [Exist.io](https://exist.io/?referred_by=pothix):
 
-[![](/images/stats/2019/yir/exist-average-day.png "")](/images/stats/2019/yir/exist-average-day.png "")
+[![A list of data showing how a day works. Starts with a sleep of 7 hours and a half, 3 hours and a half of productive time, 11 tracks, 1 tweet, 2 hours of distracting time, almost 9 thousand steps, an average of 4 for my rating and going to sleep at 11h30](/images/stats/2019/yir/exist-average-day.png "My day according to Exist")](/images/stats/2019/yir/exist-average-day.png "")
 
 This is almost a TL;DR of this post, but there's a lot of details missing here
 and we will cover them topic by topic. 😉
 
 ## Books
 
-[![Year in books](/images/stats/2019/yir/goodreads-year-in-books-logo.png "A logo of my avatar with 'My year in books' written")](https://www.goodreads.com/pothix "")
+[![Year in books from Goodreads. Shows "On the shortness of life" as the shortest book and "Homo Deus" as the longest one. "The power of habit" is the most popular book. I read 6291 pages across 25 books this year](/images/stats/2019/yir/goodreads-year-in-books-logo.png "My year in books by Goodreads")](https://www.goodreads.com/pothix "")
 
 Although I did not meet my goal of 30 books read this year, I still consider
 the 25 books read an achievements.
@@ -74,8 +74,7 @@ You can always look for my whole
 Here are some stats provided by Goodreads comparing all the books I
 have registered:
 
-[![List of books read by year](/images/stats/2019/yir/goodreads.png "List of books read by year")](https://www.goodreads.com/pothix
-"")
+[![A list by year with progress bars. The biggest one is from 2017, the second is 2018, and 2019 is the third one most filled](/images/stats/2019/yir/goodreads.png "List of books read by year")](https://www.goodreads.com/pothix "")
 
 I started [listening to audiobooks](/post/audiobooks/) in 2016 and we can
 clearly see how excited I was. 😅 I can see now that I'm reducing the number of
@@ -85,8 +84,7 @@ what I learn.
 
 Let's compare the books I read this year with last year:
 
-[![Comparison between 2017, 2018, and 2019](/images/stats/2019/yir/goodreads-details.png "Comparison between 2017, 2018, and 2019")](https://www.goodreads.com/pothix
-"")
+[![The years of 2019, 2018, and 2017 and their book ratings by me](/images/stats/2019/yir/goodreads-details.png "Comparison between 2017, 2018, and 2019")](https://www.goodreads.com/pothix "")
 
 I used the number of pages because it clearly shows that I even read more than
 2018, but not more individual books. I was not expecting that but it shows that
@@ -149,7 +147,7 @@ is the top coder. We should usually focus on the **light blue part of the bar**.
 
 First, let's take a look at the total time coding:
 
-[![Total time coding this year](/images/stats/2019/yir/wakatime-coding-total.png "Total time coding this year")](https://wakatime.com/@PotHix "")
+[![Coding stats for this year. I logged 313 hours and my best day was March 21](/images/stats/2019/yir/wakatime-coding-total.png "Total time coding this year")](https://wakatime.com/@PotHix "")
 
 My daily average this year is even lower than the 1h31 per day I got on 2017,
 which looks really low for me. I'm still above the average, but 47 mins in
@@ -161,7 +159,7 @@ Wakatime records the numbers. I remember tweaking things a bit but I'm not sure
 if I should increase the numbers to have unrealistic reports. Maybe I should
 try to tweak the data collection once again.
 
-[![Total time coding by project this year](/images/stats/2019/yir/wakatime-projects-total.png "Total time coding by project this year")](https://wakatime.com/@PotHix "")
+[![Three projects followed by their progress bars](/images/stats/2019/yir/wakatime-projects-total.png "Total time coding by project this year")](https://wakatime.com/@PotHix "")
 
 I dedicated only 22 hours to this blog, compared to 80+ hours in 2017. I would
 like to improve this, but I'm not sure if it will be a priority, unfortunately.
@@ -182,14 +180,14 @@ in infrastructure of this project. It was a big challenge, especially for
 someone working using their spare time for that. I expect the number of hours
 working on this project to totally shrink in 2020. Let's see.
 
-[![Total time coding by editor this year](/images/stats/2019/yir/wakatime-editors-total.png "Total time coding by editor this year")](https://wakatime.com/@PotHix "")
+[![Total time by OS and editors. The top coder has a very big progress bar while mine are 20% of that](/images/stats/2019/yir/wakatime-editors-total.png "Total time coding by editor and OS this year")](https://wakatime.com/@PotHix "")
 
 I'm just using Linux, so it's expected to have it here. I'm using it much more
 than the average as we can see. The "top coder" is an outlier for sure. 😜
 
 In 2017, I wrote: _Looks like I fully switched to Emacs_. It seems thhings have changed again. I'm back to Vim now. 🙂
 
-[![Total time coding by language this year](/images/stats/2019/yir/wakatime-languages-total.png "Total time coding by language this year")](https://wakatime.com/@PotHix "")
+[![A list of 4 languages along with their progress bars. Dark blue is very long and light blue very small](/images/stats/2019/yir/wakatime-languages-total.png "Total time coding by language this year")](https://wakatime.com/@PotHix "")
 
 Markdown is still in this list for the same reasons I had in 2017:
 
@@ -251,10 +249,10 @@ which is the one we're going to explore.
 
 Let's check my Todoist tasks! 🙂
 
-[![Tasks completed on my Todoist account](/images/stats/2019/yir/tasks-completed.png "Tasks completed on my Todoist account")](/images/stats/2019/yir/tasks-completed.png "")
-[![Average of tasks completed on my Todoist account](/images/stats/2019/yir/tasks-completed2.png "Average of tasks completed on my Todoist account")](/images/stats/2019/yir/tasks-completed2.png "")
+[![A good design of some colorful balls rolling and the number of completed tasks in 2019](/images/stats/2019/yir/tasks-completed.png "Tasks completed on my Todoist account")](/images/stats/2019/yir/tasks-completed.png "")
+[![16 tasks per day, 119 tasks per week, 516 tasks per month](/images/stats/2019/yir/tasks-completed2.png "Average of tasks completed on my Todoist account")](/images/stats/2019/yir/tasks-completed2.png "")
 
-It's a it less than what I expected since **I completed 6323 tasks in 2018**.
+6198 tasks is less than what I expected, since **I completed 6323 tasks in 2018**.
 It's not a huge problem because it always depends on how you organize your task
 manager. In my case, I also have my routine on my task manager so it can help
 me to actually do the things I plan for myself. The plan for 2020 is to remove
@@ -264,14 +262,14 @@ have a report with less tasks next year and that's OK. 🙂
 
 It looks like **Friday is the day I complete more tasks**:
 
-[![Tasks completed by weekday on my Todoist account](/images/stats/2019/yir/tasks-completed-by-weekday.png "Tasks completed by weekday on my Todoist account")](/images/stats/2019/yir/tasks-completed.png "")
+[![Tasks completed by weekday on my Todoist account. I complete an average of 24 completed tasks every Friday](/images/stats/2019/yir/tasks-completed-by-weekday.png "Tasks completed by weekday on my Todoist account")](/images/stats/2019/yir/tasks-completed.png "")
 
 I think it happens because I usually post my snippets every Friday, so I
 complete the list of tasks I have to post there every Friday.
 
 **My most productive time is 10:00** (not 16:00 as I had in 2017):
 
-[![Tasks completed by time and postponed by time](/images/stats/2019/yir/tasks-completed-boost-postpone.png "Tasks completed by time and postponed by time")](/images/stats/2019/yir/tasks-completed-boost-postpone.png "")
+[![A chart with peaks by hour of the day. A drawing with a text show Sep 23 as the day I completed more tasks. Another drawying with a text saying that I postponed more tasks on Monday](/images/stats/2019/yir/tasks-completed-boost-postpone.png "Tasks completed by time and postponed by time")](/images/stats/2019/yir/tasks-completed-boost-postpone.png "")
 
 I found it very interesting that the productivity chart correlates with my
 [When
@@ -279,15 +277,15 @@ tracker](https://www.danpink.com/wp-content/uploads/2018/01/time-sheet.pdf)
 (wrote about it on [my current productivity worklow
 2019](/post/my-current-productivity-workflow/)):
 
-![A sheet of paper with something that looks like a chart showing the times I feel more productive](/images/posts/productivity_dailywhentracker.png)
+[![A sheet of paper with something that looks like a chart showing the times I feel more productive. It usually happens in the morning and late in the afternoon](/images/posts/productivity_dailywhentracker.png)](/images/posts/productivity_dailywhentracker.png "My daily when tracker filled in 2018")
 
 Let's see how those tasks are distributed throughout the year. You can clearly see my vacations on the light gray columns:
 
-[![Tasks completed by day on my Todoist account](/images/stats/2019/yir/tasks-completed-by-day.png "Tasks completed by day on my Todoist account")](/images/stats/2019/yir/tasks-completed-by-day.png "")
+[![Many small squares filled in scales of gray regarding the tasks I completed by day on my Todoist account](/images/stats/2019/yir/tasks-completed-by-day.png "Tasks completed by day on my Todoist account")](/images/stats/2019/yir/tasks-completed-by-day.png "")
 
 I'm still one of the 1% heavy users of Todoist! 😃
 
-[![Top 1% user of Todoist](/images/stats/2019/yir/tasks-top-1.png "Top 1% user of Todoist")](/images/stats/2019/yir/tasks-top-1.png "")
+[![Orange backgroud with some spheres. The text says I have 11069 karma points and I'm one of the top 1% users of Todoist](/images/stats/2019/yir/tasks-top-1.png "Top 1% user of Todoist")](/images/stats/2019/yir/tasks-top-1.png "")
 
 The data and design of our year in review is awesome. I did not participate on
 the project this year (as I did in 2017), but proud of what we are able to
@@ -295,8 +293,8 @@ deliver. 🎉
 
 ## Podcasts
 
-[![Time listening to Podcasts this year](/images/stats/2019/yir/podcasts-time.jpg "Time listening to Podcasts this year")](/images/stats/2019/yir/podcasts-time.jpg "")
-[![Time listening by Podcasts](/images/stats/2019/yir/podcasts-list.jpg "Time listening by Podcasts")](/images/stats/2019/yir/podcasts-list.jpg "")
+[![Print screen of an Android phone showing a set of stats from the Podcast Addict app.](/images/stats/2019/yir/podcasts-time.jpg "Time listening to Podcasts this year")](/images/stats/2019/yir/podcasts-time.jpg "")
+[![Print screen of an Android phone showing a list of podcasts and the time listening to each. Nerdcast is the first with 5 days and 16 hours](/images/stats/2019/yir/podcasts-list.jpg "Time listening by Podcasts")](/images/stats/2019/yir/podcasts-list.jpg "")
 
 Unfortunately, I don't have data about 2018 anymore, so I will just mention
 2019 here.
@@ -320,14 +318,14 @@ anymore, but they are still there.
 
 Let's start checking all my data tracked using [Toggl](https://toggl.com):
 
-[![Chart for time working in my full-time job](/images/stats/2019/yir/toggl-total-time-comparison.png "Chart for time working in my full-time job")](/images/stats/2019/yir/toggl-total-time.png "")
+[![A bar chart for the year of 2019 and 2018. Blue bars for 2019 and gray for 2018. They look similar in general but with changes in different months.](/images/stats/2019/yir/toggl-total-time-comparison.png "Chart for time working in my full-time job")](/images/stats/2019/yir/toggl-total-time.png "")
 
 The **gray bars are related to the data for 2018**. I believe the changes are
 related to my scheduled vacations. :)
 
 Let's check my time working, considering my full-time job only:
 
-[![Chart for time working in my full-time job](/images/stats/2019/yir/toggl-total-time-fulltime-job.png "Chart for time working in my full-time job")](/images/stats/2019/yir/toggl-total-time.png "")
+[![Bar chart for the year of 2019. The average seems to be around 150 hours. There's a list of categories at the bottom showing, deep work, meeting, and shallow work](/images/stats/2019/yir/toggl-total-time-fulltime-job.png "Chart for time working in my full-time job")](/images/stats/2019/yir/toggl-total-time.png "")
 
 April was conference + retreat + vacations for me, so it's an outlier.
 Considering 40 days of vacations during the year (we don't have national
@@ -360,7 +358,7 @@ a personal project to me. I like to improve the app and make it better. I don't
 have freelance gigs, but this one I'm happy to keep. Here is the time I tracked
 about it this year (based on toggle, not totally accurate):
 
-[![Chart for time working in my freelance job](/images/stats/2019/yir/toggl-freelance.png "Chart for time working in my freelance job")](/images/stats/2019/yir/toggl-freelance.png "")
+[![Bar chart. The average seems to be about 15 hours but there's a big outlier in Ju, with almost 70 hours.](/images/stats/2019/yir/toggl-freelance.png "Chart for time working in my freelance job")](/images/stats/2019/yir/toggl-freelance.png "")
 
 June is an outlier as I did the migration of the application to a different
 infrastructure in one weekend. It was an exception as I don't work during
@@ -383,7 +381,7 @@ that also bring me joy.
 
 I have a metric for the **time I spent doing/planning my talks** this year:
 
-[![Chart for my time doing/planning presentations](/images/stats/2019/yir/toggl-presentation.png "Chart for my time doing/planning presentations")](/images/stats/2019/yir/toggl-presentation.png "")
+[![Bar chart with only two charts, one in Jun and the other in Nov. Jun seems to be 4 times bigger.](/images/stats/2019/yir/toggl-presentation.png "Chart for my time doing/planning presentations")](/images/stats/2019/yir/toggl-presentation.png "")
 
 June was a busy month, just because I decided it would be. :) I want to keep
 track of presentations, writing on my blog, etc. because I can easily metric
@@ -407,22 +405,22 @@ productivity. :)
 
 Let's look at the productive and distracting hours for the entire year:
 
-[![Rescuetime 2019 year in review metrics](/images/stats/2019/yir/rescuetime-yir-2019.png "Rescuetime 2019 year in review metrics")](/images/stats/2019/yir/rescuetime-yir-2019.png "")
+[![An infograph with information for every month of 2019 in small bars and text about productivity. 2208 total hours logged, 1134 productive hours, and 525 distracting hours. My productivity pulse is 54](/images/stats/2019/yir/rescuetime-yir-2019.png "Rescuetime year in review metrics for 2019")](/images/stats/2019/yir/rescuetime-yir-2019.png "")
 
 The metrics of 2018 were not posted last here but here are them for comparison:
 
-[![Rescuetime 2018 year in review metrics](/images/stats/2019/yir/rescuetime-yir-2018.png "Rescuetime 2018 year in review metrics")](/images/stats/2019/yir/rescuetime-yir-2018.png "")
+[![An infograph with information for every month of 2018 in small bars and text about productivity. 2333 total hours logged, 1058 productive hours, and 769 distracting hours. My productivity pulse is 54](/images/stats/2019/yir/rescuetime-yir-2018.png "Rescuetime year in review metrics for 2018")](/images/stats/2019/yir/rescuetime-yir-2018.png "")
 
 This is part of the [year in
 review](https://www.rescuetime.com/year-in-review/2019) provided by rescuetime.
 They also provide a chart with the categories I used the most:
 
-[![Rescuetime 2018 year in review metrics](/images/stats/2019/yir/rescuetime-yir-by-category.png "Rescuetime 2018 year in review metrics")](/images/stats/2019/yir/rescuetime-yir-by-category.png "")
+[![A strange looking chart in a circular format. The lines above go towards the border showing which category I used the most. Communication & scheduling is the most used.](/images/stats/2019/yir/rescuetime-yir-by-category.png "Most used categories according to rescuetime")](/images/stats/2019/yir/rescuetime-yir-by-category.png "")
 
 The dashboard shows similar information but with some other things:
 
-[![Rescuetime 2019 year in review metrics](/images/stats/2019/yir/rescuetime-yir-by-category-dashboard.png "Rescuetime 2019 year in review metrics")](/images/stats/2019/yir/rescuetime-yir-by-category-dashboard.png "")
-[![Rescuetime 2019 year in review metrics](/images/stats/2019/yir/rescuetime-goals.png "Rescuetime 2019 year in review metrics")](/images/stats/2019/yir/rescuetime-goals.png "")
+[![The rescuetime dashboard showing metrics for the entire year. The productivity pulse is 55](/images/stats/2019/yir/rescuetime-yir-by-category-dashboard.png "Rescuetime dashboard data for 2019")](/images/stats/2019/yir/rescuetime-yir-by-category-dashboard.png "")
+[![A chart showing my goal for this year. It wa 900 hours and 30 mins in total and 783 all productive time](/images/stats/2019/yir/rescuetime-goals.png "Rescuetime goal chart for the year")](/images/stats/2019/yir/rescuetime-goals.png "")
 
 **I had a lot more productive hours than I had in 2017 or 2018** and this is a
 good thing. 🙂
@@ -432,8 +430,8 @@ good thing. 🙂
 Again, [last.fm](https://last.fm) did a great year in review for me, so let's
 check some stats here.
 
-[![Songs scrobbled this year](/images/stats/2019/yir/lastfm-scrobbles.png "Songs scrobbled this year")](/images/stats/2019/yir/lastfm-scrobbles.png "")
-[![Listening stats for this year](/images/stats/2019/yir/lastfm-listening-stats.png "Listening stats for this year")](/images/stats/2019/yir/lastfm-listening-stats.png "")
+[![A chart of songs scrobbled by month. In total was 5501 scrobles.](/images/stats/2019/yir/lastfm-scrobbles.png "Songs scrobbled this year")](/images/stats/2019/yir/lastfm-scrobbles.png "")
+[![6 different charts with the data. Listening time, top tags, listening week, artists, albums, and tracks](/images/stats/2019/yir/lastfm-listening-stats.png "Listening stats for this year")](/images/stats/2019/yir/lastfm-listening-stats.png "")
 [![Listening percentiles compared to the user base](/images/stats/2019/yir/lastfm-percentiles.png "Listening percentiles compared to the user base")](/images/stats/2019/yir/lastfm-percentiles.png "")
 [![Artists, albums, and track discoveries for this year](/images/stats/2019/yir/lastfm-discovery.png "Artists, albums, and track discoveries for this year")](/images/stats/2019/yir/lastfm-discovery.png "")
 
@@ -456,7 +454,7 @@ everything I postponed during Monday, Thuesday, and Wednesday? LOL
 [Exist.io](https://exist.io/?referred_by=pothix) also provided data about the
 songs I listened to (via Last.fm):
 
-[![Songs scrobbled this year](/images/stats/2019/yir/lastfm-exist.png "Songs scrobbled this year")](/images/stats/2019/yir/lastfm-exist.png "")
+[![My the top songs played was Low Down by Black Label Society, Humanity by Scorpions, Unreal by Soil, Nothing Else Matters by Metallica and Black 7 by Soil](/images/stats/2019/yir/lastfm-exist.png "Songs scrobbled this year")](/images/stats/2019/yir/lastfm-exist.png "")
 
 This is the piece of information I was missing from Last.fm, so it's nice to
 see it here 😃.
@@ -491,14 +489,14 @@ Getting back to what I have. Now I can't get many bars on screen no miband and
 they only provide a monthly summary, not an early one. Google fit is not very
 helpful as well:
 
-[![Number of steps from January to May](/images/stats/2019/yir/steps1.jpg "Number of steps from January to May")](/images/stats/2019/yir/steps1.jpg "")
-[![Number of steps from January to May](/images/stats/2019/yir/steps2.jpg "Number of steps from January to May")](/images/stats/2019/yir/steps2.jpg "")
-[![Number of steps from January to May](/images/stats/2019/yir/steps3.jpg "Number of steps from January to May")](/images/stats/2019/yir/steps3.jpg "")
+[![Screenshot from the miband app showing a bar chart](/images/stats/2019/yir/steps1.jpg "Number of steps according to miband")](/images/stats/2019/yir/steps1.jpg "")
+[![Screenshot from the miband app showing data for a month](/images/stats/2019/yir/steps2.jpg "Number of steps for the month according to miband")](/images/stats/2019/yir/steps2.jpg "")
+[![Screenshot from the google fit showing data for a month](/images/stats/2019/yir/steps3.jpg "Number of steps for the month according to Google fit")](/images/stats/2019/yir/steps3.jpg "")
 
 My savior this time will be [Exist.io](https://exist.io/?referred_by=pothix),
 because they have monthly averages:
 
-[![Exist steps](/images/stats/2019/yir/steps-exist.jpg "Exist steps")](/images/stats/2019/yir/steps-exist.jpg "")
+[![A bar chart since June 2018. It shows the average steps by month. The average seems to be around 8000 steps a month](/images/stats/2019/yir/steps-exist.jpg "Average steps by month according to Exist")](/images/stats/2019/yir/steps-exist.jpg "")
 
 It's just an average, not the full number of steps, but it's good enough. I
 don't need the total number of steps by year, as my goal is just to understand
@@ -506,8 +504,8 @@ if I'm walking enough, and I don't need a precise number for that.
 
 Google location timeline gave me some yearly numbers about walking and public transportation:
 
-[![Maps](/images/stats/2019/yir/maps-activity.png "Maps")](/images/stats/2019/yir/maps-activity.png "")
-[![Maps](/images/stats/2019/yir/maps-activity2.png "Maps")](/images/stats/2019/yir/maps-activity2.png "")
+[![A car and two circles showing my activity for 2019. 857 km walking, or 250 hours. 5222 km in transportation, or 200 hours](/images/stats/2019/yir/maps-activity.png "Activity according to Google Maps")](/images/stats/2019/yir/maps-activity.png "")
+[![A globe with the text: "1.3 times around the world". I traveled a total distance of 53,479km](/images/stats/2019/yir/maps-activity2.png "Total distance according to Google maps")](/images/stats/2019/yir/maps-activity2.png "")
 
 It's nice to see I walked more than 800km this year. **April was the month I
 had more steps** and it was probably because of my vacations in Portugal 🇵🇹.
@@ -516,8 +514,8 @@ had more steps** and it was probably because of my vacations in Portugal 🇵�
 
 I tracked my weight this year as well, here is the data I have:
 
-[![Weight](/images/stats/2019/yir/weight-google-fit.jpg "Weight")](/images/stats/2019/yir/weight-google-fit.jpg "")
-[![Weight](/images/stats/2019/yir/weight-miband.jpg "Weight")](/images/stats/2019/yir/weight-miband.jpg "")
+[![A chart showing how my weight changed across the year. It had a good downwards curve at the end.](/images/stats/2019/yir/weight-google-fit.jpg "My weight according to Google Fit")](/images/stats/2019/yir/weight-google-fit.jpg "")
+[![Screenshot of the miband app showing some stats, including my current weight (76.60kg) and BMI (23.6)](/images/stats/2019/yir/weight-miband.jpg "My current weigt and BMI according to Mifit")](/images/stats/2019/yir/weight-miband.jpg "")
 
 Some data is missing from January to May, but after that I took the Gym
 and diet seriously, so we can clearly see how things start to improve.
@@ -536,7 +534,7 @@ I take picture of the data and keep it with me. This time I decided to just
 quickly put that on a spreadsheet and generate some charts. Here is what a I
 have since 2018:
 
-[![Gym](/images/stats/2019/yir/gym-logs.png "Gym")](/images/stats/2019/yir/gym-logs.png "")
+[![Many charts showing the difference in measurement. They don't show much, there are too few data points.](/images/stats/2019/yir/gym-logs.png "My manual measurement tracking. Too few data points, unfortunately")](/images/stats/2019/yir/gym-logs.png "")
 
 As you can see, there's not much data and data is missing sometimes for some
 reason. **All measurements are done in centimeters** (of course). For the three
@@ -550,15 +548,15 @@ though.
 
 Again, the Miband app is not very useful:
 
-[![Amount of sleep from January to May](/images/stats/2019/yir/sleep1.jpg "Amount of sleep from January to May")](/images/stats/2019/yir/sleep1.jpg "")
-[![Amount of sleep from June to October](/images/stats/2019/yir/sleep2.jpg "Amount of sleep from January to October")](/images/stats/2019/yir/sleep2.jpg "")
+[![Bar chart showing data from November to January. Some more stats about the current month](/images/stats/2019/yir/sleep1.jpg "Sleep information according to Mifit")](/images/stats/2019/yir/sleep1.jpg "")
+[![A screenshop of the Mifit app showing the sleep data for the current month. Time of sleep, woke up time and avg deep sleep](/images/stats/2019/yir/sleep2.jpg "Sleep data for the current month according to Mifit")](/images/stats/2019/yir/sleep2.jpg "")
 
 I sync the same data with Google fit and connect it to
 [Exist.io](https://exist.io/?referred_by=pothix). Those two services provide
 some good visualizations of my data:
 
-[![Amount of sleep from January to May](/images/stats/2019/yir/sleep-google-fit.jpg "Amount of sleep from January to May")](/images/stats/2019/yir/sleep-google-fit.jpg "")
-[![Amount of sleep from January to May](/images/stats/2019/yir/sleep-exist.jpg "Amount of sleep from January to May")](/images/stats/2019/yir/sleep-exist.jpg "")
+[![Bar chart by month on the Google Fit app. It shows December as the month with more Sleep. The average seems to be 7 hours and 30 min](/images/stats/2019/yir/sleep-google-fit.jpg "Amount of sleep according to Google fit")](/images/stats/2019/yir/sleep-google-fit.jpg "")
+[![Bar chart by month on the Exist app](/images/stats/2019/yir/sleep-exist.jpg "Sleep data according to Exist")](/images/stats/2019/yir/sleep-exist.jpg "")
 
 I finished reading [Why We
 Sleep](https://www.goodreads.com/review/show/2435182291) in July and I was
@@ -571,8 +569,8 @@ Android](https://play.google.com/store/apps/details?id=com.urbandroid.sleep&hl=e
 app to get some sleep data. I connect it to my miband and let it track. Here is
 the data I was able to extract from the app:
 
-[![](/images/stats/2019/yir/sleep-android-stats.jpg "")](/images/stats/2019/yir/sleep-android-stats.jpg "")
-[![](/images/stats/2019/yir/sleep-android-chronotype.jpg "")](/images/stats/2019/yir/sleep-android-chronotype.jpg "")
+[![A screenshot of the Sleep as Android app showing the general stats. Duration of 7 hours, Irregularity of ~1 hour, 36% of deep sleep, 93% of efficiency](/images/stats/2019/yir/sleep-android-stats.jpg "General stats according to Sleep as Android")](/images/stats/2019/yir/sleep-android-stats.jpg "")
+[![A screenshot of the Sleep as Android app showing my chronotype of Morning lark](/images/stats/2019/yir/sleep-android-chronotype.jpg "My chronotype according to Sleep as Android")](/images/stats/2019/yir/sleep-android-chronotype.jpg "")
 
 I'm a Morning lark. I usually work better in the morning and go to sleep
 earlier. The average duration of my sleep is a bit low in this app for some
@@ -581,8 +579,8 @@ reason, but it's usually between 7h and 7h30m.
 The Efficiency is the time I'm in bed but actually sleeping not browsing the
 internet or having problems to sleep. 93% is a good value.
 
-[![](/images/stats/2019/yir/sleep-android-deep-sleep.jpg "")](/images/stats/2019/yir/sleep-android-deep-sleep.jpg "")
-[![](/images/stats/2019/yir/sleep-android-irregularity.jpg "")](/images/stats/2019/yir/sleep-android-irregularity.jpg "")
+[![A screenshot of the Sleep as Android app showing my deep sleep time. It seems to have a downward tendency.](/images/stats/2019/yir/sleep-android-deep-sleep.jpg "My deep work time according to Sleep as Android")](/images/stats/2019/yir/sleep-android-deep-sleep.jpg "")
+[![A screenshot of the Sleep as Android app showing my sleep irregularity. The chart data seems irregular too.](/images/stats/2019/yir/sleep-android-irregularity.jpg "My irregularity of sleep according to Sleep as Android")](/images/stats/2019/yir/sleep-android-irregularity.jpg "")
 
 My deep sleep is decreasing in the past months for some reason, I have to
 improve this situation. I believe the decrease of deep work is happening
@@ -593,8 +591,8 @@ My irregulatiry of sleep is also not good, I should have close to no
 irregularity of sleep. I hope to improve that until the middle of the year,
 after that I can't promise anything. 😉
 
-[![](/images/stats/2019/yir/sleep-android-chronotype-wakeup.jpg "")](/images/stats/2019/yir/sleep-android-chronotype-wakeup.jpg "")
-[![](/images/stats/2019/yir/sleep-android-fall-asleep-hour.jpg "")](/images/stats/2019/yir/sleep-android-fall-asleep-hour.jpg "")
+[![A screenshot of the Sleep as Android app showing the wake up time for working days and free days](/images/stats/2019/yir/sleep-android-chronotype-wakeup.jpg "Wake up time for working days and free days according to Sleep as Android")](/images/stats/2019/yir/sleep-android-chronotype-wakeup.jpg "")
+[![A screenshot of the Sleep as Android app showing my fall asleep hour. The duration is worse when I sleep later.](/images/stats/2019/yir/sleep-android-fall-asleep-hour.jpg "Duration of sleep by fall asleep hours according to Sleep as Android")](/images/stats/2019/yir/sleep-android-fall-asleep-hour.jpg "")
 
 It's interesting to see that I usually wake up later and sometimes sleep more
 when it's "free days" (holidays and weekend), but most of the time I eep the
@@ -616,8 +614,8 @@ weekly emails are not enough.
 This is the data I have from the last email I received before my vacations in
 December:
 
-[![Grammarly data for this year](/images/stats/2019/yir/grammarly.png "Grammarly data for this year")](/images/stats/2019/yir/grammarly.png "")
-[![Grammarly data for this year](/images/stats/2019/yir/grammarly2.png "Grammarly data for this year")](/images/stats/2019/yir/grammarly2.png "")
+[![Screenshot of the email sent by Grammarly. It shows the number of words checked (13618)](/images/stats/2019/yir/grammarly.png "Grammarly data for this year")](/images/stats/2019/yir/grammarly.png "")
+[![Screenshot of the email sent by Grammarly. It shows the number of alerts shown (156),  the number of unique words used (2844), and total words checked (1,478,380)](/images/stats/2019/yir/grammarly2.png "Grammarly data for this year")](/images/stats/2019/yir/grammarly2.png "")
 
 We can see that I wrote almost 1.5MM words since I started. I checked the first
 time Grammarly sent this number and it was 963,838 words written in Feb 11th.
@@ -642,8 +640,8 @@ the **USA**, and **Portugal**.
 
 Here is the summary of the year and all-time data by Google:
 
-[![General data](/images/stats/2019/yir/location-general.png "General view of my locations data")](/images/stats/2019/yir/location-general.png "")
-[![General data](/images/stats/2019/yir/location-general2.png "General view of my locations data")](/images/stats/2019/yir/location-general2.png "")
+[![World map view with pins to the countries I visited](/images/stats/2019/yir/location-general.png "General view of my locations data")](/images/stats/2019/yir/location-general.png "")
+[![My all time data. 9 countries visited, 114 cities, and 1048 places.](/images/stats/2019/yir/location-general2.png "General view of my locations data")](/images/stats/2019/yir/location-general2.png "")
 
 I have to say that I'm very proud of myself when I see the all time data. I
 believe that getting to know other places and cultures is something that
@@ -651,44 +649,63 @@ expands your mind in many ways. 🙂
 
 Here are some of the cities and places I visited this year:
 
-[![General data](/images/stats/2019/yir/location-places.png "General view of my locations data")](/images/stats/2019/yir/location-places.png "")
-[![General data](/images/stats/2019/yir/location-places2.png "General view of my locations data")](/images/stats/2019/yir/location-places2.png "")
+[![Pictures of cities I visited. Montevideo, Boulder, and Ponta Delgada](/images/stats/2019/yir/location-places.png "Cities visited, by Google locations")](/images/stats/2019/yir/location-places.png "")
+[![Pictures of places I visited. Palace of Monserrate, Campos do Jordão, Cascais, Parque Terra Nostra, Plaza Zabala](/images/stats/2019/yir/location-places2.png "Places visited, by Google locations")](/images/stats/2019/yir/location-places2.png "")
 
 I'm quite satisfied with my trips in 2019.
 
 ## Expenses
 
-I would love to do a deep analysis on this topic but unfortunately,
-the apps I use do not provide an easy way of doing this. The only
-thing I got was this chart for the last 6 months:
+I have some sad news about my expenses data this year. The app I was using
+before is now even worse, so I decided to not use it anymore and remove all my
+data from there.
 
-[![Expenses by category in the last 6 months](/images/stats/2019/yir/expenses.png "Expenses by category in the last 6 months")](/images/stats/2019/yir/expenses.jpg "")
+The good news is that I decided to invest more time on investing this year, so
+I had to organize my finances somehow. Because of the need of organization, I
+had to get all my investing data into one spreadsheet.
 
-The legend in the left is not so good because I had to remove the
-actual values in cash to keep the percentages only. 🙄
+I decided to use
+[dlombello's](https://www.dlombelloplanilhas.com/planilhas/controle-de-investimentos)
+spreadsheet for that (pt-BR only). I have to say that I'm amazed by how
+feature-complete is this spreadsheet. It's still worrysome that you have to
+give full access to your Google account for it to work (because of external
+scripts), so I created a Google account just for that. Until now, it totally
+worth the effort.
 
-Looking into this chart I can see that "Viagem" (travel) took almost
-35% of my expenses. I tend to live a frugal life, so it makes sense to
-have my travel expenses taking most part of my money spent. For me,
-traveling is an investment and I don't regret spending money on it.
+Here are some chargs I can get from the spreadsheet:
 
-It bothers me that "Compras" (general spending) is the second category
-of my expenses. I was expecting to have "Mercado" (groceries) here or
-maybe "Bares / Restaurantes" (eating out), but not "compras". I will
-look closely at it this year because it's an yellow flag for my
-expenses.
+[![Pizza chart for my types of investments](/images/stats/2019/yir/invest-by-type.png "Types of investments by dlombello spreadsheet")](/images/stats/2019/yir/invest-by-type.png "")
+[![Pizza chart for my types of investments by index](/images/stats/2019/yir/invest-by-index.png "Types of investments by index via dlombello spreadsheet")](/images/stats/2019/yir/invest-by-index.png "")
 
-Regarding my savings, it **increased by 16.83%** this year,
-considering the value I had at the end of April (I don't have data for
-Jan, Feb, and March). It's an **average of 2.10%** for each month, so
-if we apply that for January, February, March, and April, **we would
-have 25.25%**. In the end of the year, I had 75.10% of my savings goal.
+The first chart shows the types of investments I have. The Orange and green are
+related to the stock market and the rest is bonds and others. The second chart
+is the indexes these investments are related to.
 
-Considering that I did not receive any payment in the last 6 months,
-it's **really great**! I'm already expecting for a huge increase in my
-savings for January when I received the payment for the work in the
-last months. 😃
+I don't think these charts are very good, but I started to use this spreadsheet
+last month and I don't have that many ways to retrieve good information from it
+yet. I hope to have better data next year, let's see how it goes. 😉
 
+Regarding my savings, it **increased by 23.87%** this year (compared to 26.72%
+in 2018 and 16.83% for a bit more than half of 2017), an **average increase of 2.57%** per month.
+
+In 2017, I said I had 75.10% of my savings goal. Well, I met this goal in 2018. 😅
+
+The plan was done long ago and it doesn't make sense anymore given the current
+economic conditions. I decided to keep it anyway as it would be good to keep
+the history until I meet the goal. When I finally got to the value I wanted, I
+started a new plan.
+
+Considering this new plan and the whole year of 2019, **I have 89.40% of my
+goal**. I know it's weird to just introduce this value without further
+background, but just wanted to keep it here for my future self.
+
+Given the current circunstances and my life choices, this goal will have to
+change this year. I'm OK with these changes, it's important to have plans but
+it's also important to change them if the circunstances require such change
+IMO.
+
+I'm looking forward to see what this new year will do to my expenses and
+general portfolio 😅.
 
 ## Time to write this blog post
 
@@ -697,7 +714,7 @@ Phew... finally finished this one. 😅
 This time I could track the whole process and **it took 10h15min to write this
 blog post**.
 
-[![](/images/stats/2019/yir/toggl-writing-time.png "Chart for time working in my full-time job")](/images/stats/2019/yir/toggl-writing-time.png "")
+[![The total time and a list of entries with their duration](/images/stats/2019/yir/toggl-writing-time.png "Total time to write this blog post")](/images/stats/2019/yir/toggl-writing-time.png "")
 
 I can say the same thing I said in 2017: It totally worth my time
 to write this. We have so many good insights when reviewing the data we
