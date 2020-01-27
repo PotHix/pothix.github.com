@@ -18,7 +18,7 @@
       <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/contributing-to-rust/</guid>
-      <description>I&#39;m involved with the Rust community for a while now. I&#39;m one of the main organizers of the Rust meetup in São Paulo and also the Rust conference in Latin America (Rust LATAM) for more than one year now, but did not contribute to Rust source code yet.
+      <description>I&amp;rsquo;m involved with the Rust community for a while now. I&amp;rsquo;m one of the main organizers of the Rust meetup in São Paulo and also the Rust conference in Latin America (Rust LATAM) for more than one year now, but did not contribute to Rust source code yet.
 This post will show the step by step I did to submit my first pull request to the Rust compiler.
 If you want to go straight to the step by step, without any introduction, jump to My step by step to the first contribution.</description>
     </item>
@@ -29,7 +29,7 @@ If you want to go straight to the step by step, without any introduction, jump t
       <pubDate>Sun, 21 Apr 2019 14:02:54 -0300</pubDate>
       
       <guid>http://pothix.com/post/how-was-rust-latam-2019/</guid>
-      <description>For those who don&#39;t know, I&#39;m a proud core organizer of the Rust LATAM conference. 🎉 The conference happened on March 29 and 30, and this post describes how it was to organize the whole thing.
+      <description>For those who don&amp;rsquo;t know, I&amp;rsquo;m a proud core organizer of the Rust LATAM conference. 🎉 The conference happened on March 29 and 30, and this post describes how it was to organize the whole thing.
 Even with the small problems we had (as any other big conference), the feedback we received so far were very positive. We were able to bring amazing speakers to the conference, which brought high-level content even for beginners.</description>
     </item>
     
@@ -39,9 +39,9 @@ Even with the small problems we had (as any other big conference), the feedback 
       <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/doist-pothix/</guid>
-      <description>TL;DR: I&#39;m working on something I really believe is good at Doist and I feel great.
-As I mentioned on this post (in pt-BR) I left the company I was working for the last year to join a new company. The new company is Doist and I&#39;m working for them since July.
-Some time ago a friend asked me why I joined Doist and I realized it&#39;s kind of a love story so I decided to write the post.</description>
+      <description>TL;DR: I&amp;rsquo;m working on something I really believe is good at Doist and I feel great.
+As I mentioned on this post (in pt-BR) I left the company I was working for the last year to join a new company. The new company is Doist and I&amp;rsquo;m working for them since July.
+Some time ago a friend asked me why I joined Doist and I realized it&amp;rsquo;s kind of a love story so I decided to write the post.</description>
     </item>
     
     <item>
@@ -51,7 +51,7 @@ Some time ago a friend asked me why I joined Doist and I realized it&#39;s kind 
       
       <guid>http://pothix.com/post/my-archlinux-setup/</guid>
       <description>I was playing with Archlinux in the last 3 or 4 years and last year I decided to reboot my configuration files and start using Xfce.
-Talking to Fabio Akita about my Archlinux tunning, I heard that I should be posting about that. That&#39;s true, so I decided to start writing it. I wrote in March and it was in draft form since then, so it&#39;s time to release it. :)</description>
+Talking to Fabio Akita about my Archlinux tunning, I heard that I should be posting about that. That&amp;rsquo;s true, so I decided to start writing it. I wrote in March and it was in draft form since then, so it&amp;rsquo;s time to release it. :)</description>
     </item>
     
     <item>
@@ -92,8 +92,8 @@ I had 30 minutes to present and I did it in 26. I usually speak fast and this pr
       <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/experiences-of-almost-two-years-using-colemak/</guid>
-      <description>TL;DR: I like Colemak, and it is a very good layout. I found some equivalent pros and cons, so I can&#39;t recommend it to anyone without a little bit of philosophy. :)
-For those who don&#39;t know Colemak, it is a keyboard layout created to make the most used keys stay in the home row as well as make you swipe between your right and left hand.
+      <description>TL;DR: I like Colemak, and it is a very good layout. I found some equivalent pros and cons, so I can&amp;rsquo;t recommend it to anyone without a little bit of philosophy. :)
+For those who don&amp;rsquo;t know Colemak, it is a keyboard layout created to make the most used keys stay in the home row as well as make you swipe between your right and left hand.
 There is a keyboard layouts heatmap for you to understand the benefits of using a keyboard layout that was designed to help you to be comfortable and fast when typing instead of one that helping the operator to not jam the typewriter.</description>
     </item>
     
@@ -115,8 +115,8 @@ import threading import time for i in range(5): t = threading.</description>
       <pubDate>Tue, 03 Dec 2013 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/golang-and-1-2-version-performance-improvement/</guid>
-      <description>I&#39;ve started using Go last month and I really liked to work with the language.
-The project I&#39;m working on is dead simple and just retrieves metrics and save on a redis server (the data will be analyzed by a different project that I&#39;m working on). So I have 15 goroutines retrieving data constantly and I&#39;m using just two native threads.
+      <description>I&amp;rsquo;ve started using Go last month and I really liked to work with the language.
+The project I&amp;rsquo;m working on is dead simple and just retrieves metrics and save on a redis server (the data will be analyzed by a different project that I&amp;rsquo;m working on). So I have 15 goroutines retrieving data constantly and I&amp;rsquo;m using just two native threads.
 I did some CPU profiling on the code using my current machine for Golang 1.</description>
     </item>
     
@@ -139,7 +139,7 @@ Vou descrever um pouco do que fizemos e como organizamos, mas vai ser apenas um 
       <guid>http://pothix.com/post/javascript-and-gamedev-discussion/</guid>
       <description>I read the blog post from Impact engine creator Dominic where he shows an email he sent to John Carmack about his opinions on Javascript expressed on his keynote.
 Dominic is trying to show that Javascript is not a good language to develop the next AAA game but it is awesome to make simple games and have it easily available to the world.
-We have a lot of negative comments on the post (I really don&#39;t know why) but some good ones too.</description>
+We have a lot of negative comments on the post (I really don&amp;rsquo;t know why) but some good ones too.</description>
     </item>
     
     <item>
@@ -304,7 +304,7 @@ Foi bem legal palestrar para uma galera que já conhecia ao menos um pouco do ed
       <pubDate>Mon, 29 Mar 2010 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/yahoo-open-hack-2010/</guid>
-      <description>Para quem ainda não soube, no final de semana passado rolou o Yahoo Open Hack Day 2010! O intuito do evento é juntar uma grande quantidade de Hackers para criar serviços úteis utilizando informações públicas e de preferência utilizar as API&#39;s do Yahoo (havia premios para alguns hacks com elas).
+      <description>Para quem ainda não soube, no final de semana passado rolou o Yahoo Open Hack Day 2010! O intuito do evento é juntar uma grande quantidade de Hackers para criar serviços úteis utilizando informações públicas e de preferência utilizar as API&amp;rsquo;s do Yahoo (havia premios para alguns hacks com elas).
 Uma das coisas legais do evento é que nada é proibido com relação aos Hacks, ou seja, você pode fazer um Hack com as ferramentas do Google (não vai concorrer aos premios, mas poderá apresentar lá e tudo mais), todas as linguagens de programação estão permitidas, não somente hacks web eram permitidos, o que deixou a criatividade ir longe.</description>
     </item>
     
@@ -600,7 +600,7 @@ Aqui no blog tem uma página só para falar do Plugin, e lá você pode obter ma
       <description>As I promised, here goes my presentation! :)
 Finally i finished to translate all the presentation! Watched the video a lot of times, pausing and playing to write all I said translating to english. :)
 Fortunately I had a big help from my friend Victor Goff, that corrected all my grammar errors and typos.
-I&#39;m posting below all i have about the presentation, slides from Slideshare and a translation pasted here, but you can find the translation at Google Docs too.</description>
+I&amp;rsquo;m posting below all i have about the presentation, slides from Slideshare and a translation pasted here, but you can find the translation at Google Docs too.</description>
     </item>
     
     <item>
@@ -732,10 +732,10 @@ Agora vem a hora da crítica&amp;hellip; Como que os usuários tem que ficar des
       <pubDate>Wed, 07 Jan 2009 00:00:00 +0000</pubDate>
       
       <guid>http://pothix.com/post/deploying-a-simple-merb-application-on-locaweb/</guid>
-      <description>I writing this post to help my friends of Rubylearning with a little Merb application deployment on Locaweb. I&#39;m just translating some informations that you can find here in portuguese.
+      <description>I writing this post to help my friends of Rubylearning with a little Merb application deployment on Locaweb. I&amp;rsquo;m just translating some informations that you can find here in portuguese.
 Lets get started! :D
 First open the
-Domain Manager (gerenciador de domínios) on Locaweb Panel (painel da Locaweb) and configure the pointer of your main site to other directory on public_html of your account (this directory don&#39;t need to exist).</description>
+Domain Manager (gerenciador de domínios) on Locaweb Panel (painel da Locaweb) and configure the pointer of your main site to other directory on public_html of your account (this directory don&amp;rsquo;t need to exist).</description>
     </item>
     
     <item>

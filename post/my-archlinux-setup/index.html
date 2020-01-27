@@ -8,7 +8,7 @@
         <meta property="og:url" content="http://pothix.com/post/my-archlinux-setup/">
         <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
         <meta property="og:type" content="website" />
-        <meta name="generator" content="Hugo 0.62.0" />
+        <meta name="generator" content="Hugo 0.63.1" />
 
         <title>My Archlinux setup | PotHix</title>
 
@@ -94,8 +94,8 @@
           <p>I was playing with Archlinux in the last 3 or 4 years and last year I decided to
 reboot my configuration files and start using Xfce.</p>
 <p>Talking to <a href="https://twitter.com/AkitaOnRails">Fabio Akita</a> about my Archlinux
-tunning, I heard that I should be posting about that. That's true, so I decided
-to start writing it. I wrote in March and it was in draft form since then, so it's time
+tunning, I heard that I should be posting about that. That&rsquo;s true, so I decided
+to start writing it. I wrote in March and it was in draft form since then, so it&rsquo;s time
 to release it. :)</p>
 <p>BTW, Fabio
 <a href="http://www.akitaonrails.com/2017/01/10/arch-linux-best-distro-ever">already did that</a>,
@@ -103,17 +103,17 @@ but I will post about my setup anyway.</p>
 <h3 id="desktop-environment">Desktop Environment</h3>
 <p>I was using Gnome before deciding to reboot my workstation. I
 met <a href="https://twitter.com/marcosnils">@marcosnils</a> at Gophercon last year and we
-had some chatting about window managers. I'm a big fan of tiling and was
+had some chatting about window managers. I&rsquo;m a big fan of tiling and was
 planning to go to a tiling window manager again. The problem with tiling window
 managers is the amount of configuration you have to create in order to have your
 laptop in a fully functional mode. I was looking for something between a window
 manager and a desktop environment, something composable with some support for
 tiling. And then, he shows me his laptop with Xfce running.</p>
-<p>That doesn't look like the Xfce I know. It was pretty smooth and with many
+<p>That doesn&rsquo;t look like the Xfce I know. It was pretty smooth and with many
 features I did not know. Then, I decided to give Xfce a try.</p>
 <p>At first, it was horrible but functional. I could compose its packages to only
-install what I wanted and almost everything was working out of the box. That's
-what I was looking for. So it's time for themes, fonts, bars and so on, just to
+install what I wanted and almost everything was working out of the box. That&rsquo;s
+what I was looking for. So it&rsquo;s time for themes, fonts, bars and so on, just to
 make it beautiful.</p>
 <p>Here is my results:</p>
 <p><a href="/images/posts/archlinux-setup/archlinux_setup_xfce.png" title=""><img src="/images/posts/archlinux-setup/archlinux_setup_xfce.png" alt="Xfce screenshot" title="Xfce screenshot"></a></p>
@@ -131,10 +131,10 @@ time) to configure and tune it.</p>
 <p>As I was trying different things, why not to try Wayland as well? So I
 installed <a href="http://swaywm.org/">sway</a> instead of i3 to use it with Wayland. It
 was an interesting test. My configuration files work with i3 and sway currently.</p>
-<p>I'm usually using Xfce but sometimes I log in with sway to take advantage of the
+<p>I&rsquo;m usually using Xfce but sometimes I log in with sway to take advantage of the
 tiling in a different way.</p>
 <h3 id="managing-configuration-files">Managing configuration files</h3>
-<p>It's possible to use configuration managers for this task (like
+<p>It&rsquo;s possible to use configuration managers for this task (like
 <a href="https://saltstack.com/">Salt</a>,
 <a href="https://www.ansible.com/">Ansible</a>,
 <a href="https://docs.chef.io/chef_solo.html">Chef solo</a> and so on) but I preferred to
@@ -148,10 +148,10 @@ copies the files to the correct places, BOOM, done. I like it.</p>
 computer. Some files have to change because of network interface names and so
 on, but the structure is the same.</p>
 <h3 id="kernel">Kernel</h3>
-<p>I'm trying different kernels. The first one (and easier)
+<p>I&rsquo;m trying different kernels. The first one (and easier)
 was <a href="https://github.com/zen-kernel/zen-kernel/issues/30">linux-zen</a>. It is
 available in the community repository of Archlinux. I really recommend it in
-case you don't need (or want) to use Docker with support to <code>overlayfs</code>.</p>
+case you don&rsquo;t need (or want) to use Docker with support to <code>overlayfs</code>.</p>
 <p>I was also compiling the <code>rc</code> releases of the Linux kernel whenever possible, so
 I could try to contribute in case I found something weird, but as it takes a lot
 of my time, I decided to give it a break for some time.</p>
@@ -162,7 +162,7 @@ from <a href="http://users.on.net/~ckolivas/kernel/">Con Kolivas</a>. There is a
 scheduler running and some other improvements. It was made with desktop
 performance in mind (just like <code>linux-zen</code>, that uses the same scheduler from
 <code>linux-ck</code>).</p>
-<p><code>linux-ck</code> has its own repo, in case you don't want to compile it yourself from
+<p><code>linux-ck</code> has its own repo, in case you don&rsquo;t want to compile it yourself from
 AUR. Just add this line to your pacman.conf:</p>
 <pre><code>[repo-ck]
 Server = http://repo-ck.com/$arch
@@ -180,9 +180,9 @@ since I discussed with him about it and we applied almost the same procedure.</p
 deal with AUR easily. Fabio uses <a href="https://github.com/rmarquis/pacaur">pacaur</a>
 but I prefer to use <a href="https://aur.archlinux.org/packages/aura-bin/">aura-bin</a>.</p>
 <p>I know guys who prefer to use <a href="https://archlinux.fr/yaourt-en">yaourt</a> but I
-don't think it has good defaults.</p>
+don&rsquo;t think it has good defaults.</p>
 <h3 id="installing-it-from-scratch">Installing it from scratch</h3>
-<p>I'm that kind of Linux user who likes to install new distributions or rebuild
+<p>I&rsquo;m that kind of Linux user who likes to install new distributions or rebuild
 the system from time to time, so I created my own ways to do it faster.</p>
 <p>I decided to not automate the whole Archlinux installation because it would take
 more cost than bringing benefit. The partition of the disks and initial installation I do
@@ -196,10 +196,10 @@ this matter I have
 every time I decide to reboot my computer. So, instead of running <code>systemctl reboot</code> I
 run <code>update-and reboot</code> and it reboots with the new packages installed.</p>
 <h3 id="conclusion">Conclusion</h3>
-<p>Since I started used Linux I've gone through Kurumin, Slackware, Ubuntu, and
+<p>Since I started used Linux I&rsquo;ve gone through Kurumin, Slackware, Ubuntu, and
 Archlinux. I formatted my laptop many times and kept using Archlinux for the
-past years, it's the best Linux distribution for my use case.</p>
-<p>If you're looking for the best cost/benefit for customization and effort doing
+past years, it&rsquo;s the best Linux distribution for my use case.</p>
+<p>If you&rsquo;re looking for the best cost/benefit for customization and effort doing
 it, I really recommend <strong>Archlinux</strong> + <strong>Xfce</strong>. You will miss some new technologies on
 the WM side (Wayland&hellip;) but it worth the trade-off.</p>
 
@@ -289,7 +289,7 @@ the WM side (Wayland&hellip;) but it worth the trade-off.</p>
             <div class="site-info">
                 <div class="grids">
                     <div class="grid-6">
-                        © 2019 <a href="http://demo.codestag.com/doctype/">Doctype</a> WordPress Theme by <a href="//codestag.com">Codestag</a> modified by PotHix.
+                        © 2020 <a href="http://demo.codestag.com/doctype/">Doctype</a> WordPress Theme by <a href="//codestag.com">Codestag</a> modified by PotHix.
                     </div>
                 </div>
             </div>

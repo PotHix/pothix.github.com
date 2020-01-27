@@ -8,7 +8,7 @@
         <meta property="og:url" content="http://pothix.com/post/contributing-to-rust/">
         <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
         <meta property="og:type" content="website" />
-        <meta name="generator" content="Hugo 0.62.0" />
+        <meta name="generator" content="Hugo 0.63.1" />
 
         <title>Contributing to Rust | PotHix</title>
 
@@ -91,7 +91,7 @@
         </div>
 
         <div class="entry-content">
-          <p>I'm involved with the Rust community for a while now. I'm one of the main
+          <p>I&rsquo;m involved with the Rust community for a while now. I&rsquo;m one of the main
 organizers of the <a href="https://www.meetup.com/Rust-Sao-Paulo-Meetup/">Rust meetup in São
 Paulo</a> and also the <a href="https://rustlatam.org/">Rust
 conference in Latin America (Rust LATAM)</a> for more than
@@ -102,17 +102,17 @@ the Rust compiler.</p>
 to <a href="#my-step-by-step-to-the-first-contribution">My step by step to the first
 contribution</a>.</p>
 <h2 id="the-dream">The dream</h2>
-<p>I don't know about you, but I always wanted to contribute to core things. I
-still want to have a commit on the Linux kernel someday, and it's not the first
+<p>I don&rsquo;t know about you, but I always wanted to contribute to core things. I
+still want to have a commit on the Linux kernel someday, and it&rsquo;s not the first
 time I try to contribute to a programming language.</p>
 <p>I read the kernel source code multiple times and also read their contribution
-guides, but it's not simple to contribute. It's hard to find issues you can
+guides, but it&rsquo;s not simple to contribute. It&rsquo;s hard to find issues you can
 understand, reproduce, and compile. It may not be true for people out there,
 but it was my personal experience.</p>
 <p>I also tried to contribute to the Ruby programming language. I was working with
-Ruby for many years, so I decided to read its source. I didn't find the code
+Ruby for many years, so I decided to read its source. I didn&rsquo;t find the code
 easy to follow, and the issues are not easy to find and reproduce. For Ruby,
-it's even worse, since some things are still in Japanese, especially the
+it&rsquo;s even worse, since some things are still in Japanese, especially the
 discussions. The language community is not very accessible to contributions
 like the rest of the community.</p>
 <p>These paragraphs are not to say bad things about these communities. I still
@@ -132,29 +132,29 @@ previous attempts of contributions.</p>
 <h3 id="how-it-started">How it started</h3>
 <p>At <a href="https://doist.com">Doist</a>, we (speaking about my team here) try to
 encourage people to learn new things every week. You should reserve some time
-to try new things and bring some knowledge back to the team. If you don't book
+to try new things and bring some knowledge back to the team. If you don&rsquo;t book
 work time for that, you will probably overwork or never have time to improve
 your development skills.</p>
-<p>Every week we're naming someone to be responsible for describing what he/she
-learned during our next weekly meeting. It doesn't mean this is the only person
+<p>Every week we&rsquo;re naming someone to be responsible for describing what he/she
+learned during our next weekly meeting. It doesn&rsquo;t mean this is the only person
 that has to learn something, but at least one will be responsible for
 describing to the rest of the team.</p>
 <p>During the past week, I volunteered to take some time to learn something and
 report back. What I have in my schedule for months now (I would say more than
-one year) is to contribute anything to the Rust compiler. It doesn't matter
+one year) is to contribute anything to the Rust compiler. It doesn&rsquo;t matter
 what the contribution will be, but it has to be something meaningful and change
 the compiler in some way.</p>
 <p>With some work hours reserved (around 3 hours of work during the week) and some
 of my free time, I was ready to start!</p>
 <h2 id="my-step-by-step-to-the-first-contribution">My step by step to the first contribution</h2>
-<p><em>PS. I will link to a lot of documentation here, it's possible that they will
+<p><em>PS. I will link to a lot of documentation here, it&rsquo;s possible that they will
 change the links and it will break, but hope the whole context helps if the
 links are not 100% functional after some time</em></p>
 <h3 id="understanding-the-structure">Understanding the structure</h3>
 <p>The first step was to read the
 <a href="https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a>
-file. There's <strong>a lot</strong> of good stuff there. Seriously, it seems obvious, but
-it's not like other projects I tried and gave up quickly, it shows/points to
+file. There&rsquo;s <strong>a lot</strong> of good stuff there. Seriously, it seems obvious, but
+it&rsquo;s not like other projects I tried and gave up quickly, it shows/points to
 everything you need to know.</p>
 <p>If we refer to <a href="https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md#the-build-system">the build system
 section</a>,
@@ -166,7 +166,7 @@ works</a>!
 python script to build a small piece of it, which is what you want to be able
 to fix a bug.</p>
 <h3 id="finding-the-issue">Finding the issue</h3>
-<p>I'm particularly interested about the <a href="https://github.com/rust-lang/rust/labels?utf8=%E2%9C%93&amp;q=diagnostic">diagnostic
+<p>I&rsquo;m particularly interested about the <a href="https://github.com/rust-lang/rust/labels?utf8=%E2%9C%93&amp;q=diagnostic">diagnostic
 issues</a>,
 so I reached out to the guy who is more familiar to this part of the codebase
 (<a href="http://github.com/estebank">@estebank</a>) via
@@ -174,8 +174,8 @@ so I reached out to the guy who is more familiar to this part of the codebase
 for communication with the compiler team.</p>
 <p>I met Esteban at <a href="https://rustconf.com">Rustconf</a> and <a href="https://rustlatam.org">Rust
 LATAM</a>, so it was easy to introduce myself (again).
-Everyone I talked to until now was very receptive to help when you're polite
-(of course) and asking for help, even if they don't know you, so don't be
+Everyone I talked to until now was very receptive to help when you&rsquo;re polite
+(of course) and asking for help, even if they don&rsquo;t know you, so don&rsquo;t be
 afraid to reach out to people.</p>
 <p>Esteban described which labels would be suitable for my first issue (in this
 case, <code>d-papercut</code>), and I started to read one by one to pick mine.</p>
@@ -192,15 +192,15 @@ documentation on how to build the compiler.</p>
 <p><em>As a side note: The way the compiler is compiled is very interesting. It has
 three different stages. It downloads the beta compiler to compile itself (Rust
 is written in Rust, remember?), and then it uses the generated compiler to
-build the compiler again against itself. :) (there's much more, but I recommend
-reading the official documentation if you're interested ;) ).</em></p>
+build the compiler again against itself. :) (there&rsquo;s much more, but I recommend
+reading the official documentation if you&rsquo;re interested ;) ).</em></p>
 <p>After trying some commands to build the repository and get used to the time it
 takes to compile (and how to make the compilation faster by compiling parts of
 it), I got my first version of the compiler and was able to compile a sample
 program.</p>
-<p>I have to say that it's very satisfying to see the change you did there. It
-doesn't matter if it's just a string. It proves to me that the first step is
-done, and it's realistic to continue. o/</p>
+<p>I have to say that it&rsquo;s very satisfying to see the change you did there. It
+doesn&rsquo;t matter if it&rsquo;s just a string. It proves to me that the first step is
+done, and it&rsquo;s realistic to continue. o/</p>
 <p>Now that I can build the compiler, I can get back to the issue and modify the
 mentioned test.</p>
 <h3 id="testing-the-compiler">Testing the compiler</h3>
@@ -221,22 +221,22 @@ accepted. 🎉</p>
 <p>Now, getting back to the issue. When I ran the test command, it shows me that I
 now have a broken test, since I changed the word <code>form</code> to the word <code>whatever</code>.
 \o/</p>
-<p>So, let's first fix the test to have the behavior I wanted. In this case, I
+<p>So, let&rsquo;s first fix the test to have the behavior I wanted. In this case, I
 want to recommend <code>#[repr(C)]</code> to everything instead of a statement that is not
 valid. By doing that, the editors can suggest valid code instead of just a
 tooltip with and list and <code>...</code>.</p>
 <p>Now that I have a broken test, I can <code>checkout</code> the code file and start looking
 for the file to change.</p>
-<h3 id="understanding-the-code-and-changing-whats-needed">Understanding the code and changing what's needed</h3>
+<h3 id="understanding-the-code-and-changing-whats-needed">Understanding the code and changing what&rsquo;s needed</h3>
 <p>This is the part where we should be more used to. When I say <em>more used to</em>, I
-mean it's more related to our day-to-day job, whatever it is. It's just another
+mean it&rsquo;s more related to our day-to-day job, whatever it is. It&rsquo;s just another
 codebase with a bug that you have to find out. 😉</p>
-<p>Let's start debugging it function by function and understanding which code is
+<p>Let&rsquo;s start debugging it function by function and understanding which code is
 being called. We will do that until we find the piece of code that has to be
 changed.</p>
-<p>While you're going up the stack, you will probably find many other things you
+<p>While you&rsquo;re going up the stack, you will probably find many other things you
 have no idea how/why they are there. In some cases, you may see features of the
-language that you're still not familiar with, so you may also take some time to
+language that you&rsquo;re still not familiar with, so you may also take some time to
 learn those to continue your journey. That was the case for me with macros. 🙂</p>
 <p>After some time, I finally found the place I had to change, and it was simple
 for this particular case I was trying to solve.</p>
@@ -261,7 +261,7 @@ the code again and just fixed the test.</p>
 <h3 id="pr-and-discussions">PR and discussions</h3>
 <p>As usual, there was some discussion about the change. The PR usually stays
 there for some days until one of the maintainers have enough time to take a
-look at it and decide if it's worth changing.</p>
+look at it and decide if it&rsquo;s worth changing.</p>
 <p>The discussions usually happen on the PR itself, but in my case, there were
 some discussions with Esteban via Zulip, as the change was straightforward, and
 I had some questions.</p>
@@ -270,7 +270,7 @@ something better designed for this case. The idea is to suggest the right
 <code>repr</code> for the context of the code. This change will take much more knowledge
 (and time 😅) than I have now.</p>
 <p>Fortunately, the Rust team found the change to be valuable enough to merge in,
-even if it doesn't fix the issue altogether, so <a href="https://github.com/rust-lang/rust/pull/66206">the PR was approved
+even if it doesn&rsquo;t fix the issue altogether, so <a href="https://github.com/rust-lang/rust/pull/66206">the PR was approved
 </a>!</p>
 <h3 id="after-the-approval">After the approval</h3>
 <p>When your PR is approved, the <strong><a href="https://github.com/bors">@bors</a></strong> bot will add
@@ -279,11 +279,11 @@ merge</a> and will eventually be
 merged to the master branch.</p>
 <p><a href="/images/posts/contributing-to-rust.jpg"><img src="/images/posts/contributing-to-rust.jpg" alt="Image of the Rust repository on GitHub with the merge of my commit as the latest commit"></a></p>
 <p>You will also be added to the <a href="https://thanks.rust-lang.org/rust/all-time/">Thanks
-page</a> as you're now part of the
+page</a> as you&rsquo;re now part of the
 Rust repository with you commit 🎉.</p>
 <h2 id="next-steps">Next steps</h2>
 <p>I like to do it in baby steps. I planned to try something simple, so I could
-understand the basics of contributing to the compiler. It's now done. 🙂</p>
+understand the basics of contributing to the compiler. It&rsquo;s now done. 🙂</p>
 <p>Now that I (and hopefully, you as well) understand the processes to contribute
 and have the setup to do it, I can go to the next step and try more issues. The
 plan is to focus on the diagnostics part of the compiler (which is the part I
@@ -378,7 +378,7 @@ bigger&hellip; but&hellip; baby steps. 😉</p>
             <div class="site-info">
                 <div class="grids">
                     <div class="grid-6">
-                        © 2019 <a href="http://demo.codestag.com/doctype/">Doctype</a> WordPress Theme by <a href="//codestag.com">Codestag</a> modified by PotHix.
+                        © 2020 <a href="http://demo.codestag.com/doctype/">Doctype</a> WordPress Theme by <a href="//codestag.com">Codestag</a> modified by PotHix.
                     </div>
                 </div>
             </div>

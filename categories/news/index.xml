@@ -19,8 +19,8 @@
       
       <guid>http://pothix.com/post/new-layout-of-pothix-blog/</guid>
       <description>Welcome to the new blog layout of PotHix.com! :)
-I decided that the time has came to change not just the layout but the blog engine as well. I&#39;m now using middleman instead of wordpress. Just to be clear, I don&#39;t think wordpress is not good at all, but I want to publish static files instead of keeping the wordpress &amp;ldquo;infrastructure&amp;rdquo;.
-I&#39;ve divided into 3 feeds:
+I decided that the time has came to change not just the layout but the blog engine as well. I&amp;rsquo;m now using middleman instead of wordpress. Just to be clear, I don&amp;rsquo;t think wordpress is not good at all, but I want to publish static files instead of keeping the wordpress &amp;ldquo;infrastructure&amp;rdquo;.
+I&amp;rsquo;ve divided into 3 feeds:
  Only english posts: http://feeds.</description>
     </item>
     

@@ -3,27 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://pothix.com/post/contributing-to-rust/</loc>
-    <lastmod>2019-11-22T00:00:00+00:00</lastmod>
+    <loc>http://pothix.com/post/2019-year-in-review/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://pothix.com/tags/english/</loc>
-    <lastmod>2019-11-22T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pothix.com/tags/personal/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://pothix.com/post/</loc>
-    <lastmod>2019-11-22T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://pothix.com/</loc>
-    <lastmod>2019-11-22T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pothix.com/tags/stats/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://pothix.com/tags/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pothix.com/post/contributing-to-rust/</loc>
     <lastmod>2019-11-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -34,11 +49,6 @@
   
   <url>
     <loc>http://pothix.com/post/my-current-productivity-workflow/</loc>
-    <lastmod>2019-08-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://pothix.com/tags/personal/</loc>
     <lastmod>2019-08-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -55,11 +65,6 @@
   <url>
     <loc>http://pothix.com/post/how-was-rust-latam-2019/</loc>
     <lastmod>2019-04-21T14:02:54-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://pothix.com/tags/stats/</loc>
-    <lastmod>2018-07-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -453,12 +458,12 @@
   </url>
   
   <url>
-    <loc>http://pothix.com/categories/android/</loc>
+    <loc>http://pothix.com/tags/android/</loc>
     <lastmod>2011-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://pothix.com/tags/android/</loc>
+    <loc>http://pothix.com/categories/android/</loc>
     <lastmod>2011-03-03T00:00:00+00:00</lastmod>
   </url>
   
