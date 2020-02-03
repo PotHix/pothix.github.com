@@ -17,9 +17,10 @@ Here is a list of my current priorities:
 
 + Improving [Todoist](https://developer.todoist.com) and [Twist](https://developer.twistapp.com) integrations platform at [Doist](https://doist.com)
 + Improving my Python skills at work
-+ Playing with the [Rust language](https://www.rust-lang.org/en-US/)
-+ In charge of the [São Paulo Rust community](https://www.meetup.com/Rust-Sao-Paulo-Meetup/) (for 1+ year)
++ Improving my [Rust](https://www.rust-lang.org/en-US/) skills and [trying to contribute to the compiler](/post/contributing-to-rust/)
++ Being one of the main organizers of the [São Paulo Rust community](https://www.meetup.com/Rust-Sao-Paulo-Meetup/) (for almost 2+ years)
 + Consuming books (mostly audiobooks on Audible). My reviews are available [here](https://goodreads.com/pothix)
++ Getting myself ready to the big changes to come soon.
 
 These are some activities I still enjoy and want to be involved but I'm not finding much time nowadays:
 
@@ -30,4 +31,4 @@ These are some activities I still enjoy and want to be involved but I'm not find
 
 Here are my coding stats for the last **30 days**:
 
-(last updated in October 2019)
+(last updated in February 2020)
