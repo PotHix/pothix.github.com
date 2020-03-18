@@ -458,12 +458,12 @@
   </url>
   
   <url>
-    <loc>http://pothix.com/categories/android/</loc>
+    <loc>http://pothix.com/tags/android/</loc>
     <lastmod>2011-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://pothix.com/tags/android/</loc>
+    <loc>http://pothix.com/categories/android/</loc>
     <lastmod>2011-03-03T00:00:00+00:00</lastmod>
   </url>
   
@@ -960,11 +960,6 @@
   <url>
     <loc>http://pothix.com/post/primeiro-post-por-aqui/</loc>
     <lastmod>2008-09-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://pothix.com/loja/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
