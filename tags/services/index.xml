@@ -2,32 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>services on PotHix</title>
-    <link>http://pothix.com/tags/services/</link>
+    <link>https://pothix.com/tags/services/</link>
     <description>Recent content in services on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
     <lastBuildDate>Thu, 01 Apr 2010 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://pothix.com/tags/services/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pothix.com/tags/services/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Serviços legais de Março</title>
-      <link>http://pothix.com/post/servicos-legais-de-marco/</link>
+      <link>https://pothix.com/post/servicos-legais-de-marco/</link>
       <pubDate>Thu, 01 Apr 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/servicos-legais-de-marco/</guid>
+      <guid>https://pothix.com/post/servicos-legais-de-marco/</guid>
       <description>Como vocês puderam perceber (ou não) eu não postei sobre os serviços legais de fevereiro e tenho um bom motivo para isso: Não achei nenhum serviço que valia a pena ser mencionado e não queria fazer um post enchendo linguiça! :P
 O meu ultimo post foi sobre o Yahoo Open Hack 2009, e lá eu pude conhecer muita coisa legal, e ver outras nascendo de projetos lá mesmo! Por isso tenho informações legais para essa série novamente!</description>
     </item>
     
     <item>
       <title>Serviços legais de Janeiro</title>
-      <link>http://pothix.com/post/servicos-legais-de-janeiro/</link>
+      <link>https://pothix.com/post/servicos-legais-de-janeiro/</link>
       <pubDate>Tue, 26 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/servicos-legais-de-janeiro/</guid>
+      <guid>https://pothix.com/post/servicos-legais-de-janeiro/</guid>
       <description>E ae galera! Vamos para mais um post sobre os serviços legais do mes.
 OpenDNS Estranho eu falar de OpenDNS não? Já existe faz tanto tempo e muita gente já conhece/usa. O que me fez colocar ele na lista de serviços legais foi justamente as opções que você tem na web do OpenDNS!
 Se você se cadastrar no OpenDNS você pode configurar muitas coisas legais, como por exemplo a página de endereço não encontrado, ou a página de tentativa de fishing, entre outras.</description>
@@ -35,19 +34,19 @@ Se você se cadastrar no OpenDNS você pode configurar muitas coisas legais, com
     
     <item>
       <title>Serviços legais de dezembro</title>
-      <link>http://pothix.com/post/servicos-legais-de-dezembro/</link>
+      <link>https://pothix.com/post/servicos-legais-de-dezembro/</link>
       <pubDate>Wed, 02 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/servicos-legais-de-dezembro/</guid>
+      <guid>https://pothix.com/post/servicos-legais-de-dezembro/</guid>
       <description>Infelizmente não consegui postar sobre os serviços legais do mes de novembro por que eu estava cheio de coisas para fazer ( devido as provas de fim de ano, e meu curso é anual ), portanto não consegui agregar nada para novembro, e muito menos tempo para postar. Mas agora estou eu aqui denovo para postar sobre o que eu achei de legal na internet nesse meio tempo! E lá vamos nós:</description>
     </item>
     
     <item>
       <title>Serviços legais de outubro</title>
-      <link>http://pothix.com/post/servicos-legais-de-outubro/</link>
+      <link>https://pothix.com/post/servicos-legais-de-outubro/</link>
       <pubDate>Sun, 04 Oct 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/servicos-legais-de-outubro/</guid>
+      <guid>https://pothix.com/post/servicos-legais-de-outubro/</guid>
       <description>Já estava me esquecendo de postar sobre os serviçoes legais desse mes! :P
 Estava com poucos quando lembrei, mas não demorou muito para que eu lembrasse de alguns muito bons. Vamos lá!
 yUML&amp;lt; O yUML é um serviço para se criar UML facilmente utilizando apenas uma URL com determinadas marcações. O caike que me mostrou no ultimo post quando eu tinha mencionado sobre criação deUML. Valeu Caike!
@@ -56,10 +55,10 @@ Gliffy Continuando em diagramas e UML temos o Gliffy que também faz uma grande 
     
     <item>
       <title>Serviços legais de setembro</title>
-      <link>http://pothix.com/post/servicos-legais-de-setembro/</link>
+      <link>https://pothix.com/post/servicos-legais-de-setembro/</link>
       <pubDate>Thu, 10 Sep 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/servicos-legais-de-setembro/</guid>
+      <guid>https://pothix.com/post/servicos-legais-de-setembro/</guid>
       <description>E lá vamos nós novamente para mais um post sobre os serviços legais que eu encontrei esse mes.
 Creately O Creately é um site para se fazer diagramas! Eu estava procurando por isso faz bastante tempo e nunca tinha achado um satisfatório, mas esse parece ser muito bom!
 Com ele é possível fazer uma grande quantidade coisas, como diagramas de classe, fluxograma, esqueletos de layout e mais um monte de coisas legais e depois exportar para alguns formatos.</description>
@@ -67,30 +66,30 @@ Com ele é possível fazer uma grande quantidade coisas, como diagramas de class
     
     <item>
       <title>Serviços legais de Agosto</title>
-      <link>http://pothix.com/post/servicos-legais-de-agosto/</link>
+      <link>https://pothix.com/post/servicos-legais-de-agosto/</link>
       <pubDate>Thu, 06 Aug 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/servicos-legais-de-agosto/</guid>
+      <guid>https://pothix.com/post/servicos-legais-de-agosto/</guid>
       <description>E lá vamos nós com mais um post (que felizmente estou conseguindo manter mensal) sobre os serviços legais que eu vi no mês passado e estou usando esse mês.
 TypingWeb O TypingWeb é um serviço web que possui vários tutoriais para aprender a digitar corretamente. Eu estou treinando digitação já faz um tempo utilizando o TypeRacing e um programinha para Linux chamado gtypist que tambem é bem legal para treinar. Achei esse site fantástico, e o mais legal de tudo é que tem uma versão em português, então eu posso passar para outras pessoas (como a minha mãe por exemplo) que tambem querem aprender a digitar melhor mas não se dão bem com o inglês.</description>
     </item>
     
     <item>
       <title>Serviços legais de Julho</title>
-      <link>http://pothix.com/post/servicos-legais-de-julho/</link>
+      <link>https://pothix.com/post/servicos-legais-de-julho/</link>
       <pubDate>Sat, 04 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/servicos-legais-de-julho/</guid>
+      <guid>https://pothix.com/post/servicos-legais-de-julho/</guid>
       <description>Esse mês eu estou conseguindo novamente fazer um post sobre os serviços legais que eu encontrei esse mês ( e alguns que eu já uso faz tempo )
 Wakoopa O Wakoopa é um software que você instala em seu computador e ele lhe dá estatísticas do que você mais usa, entre aplicações desktop e webapps! Mas isso não é o melhor disso tudo! O melhor é que ele se integra com uma conta que você tem no site do Wakoopa e se torna uma rede social onde você pode ver o que seus amigos estão usando, fazer reviews de softwares que você gosta, encontrar softwares novos e outras coisas bem legais!</description>
     </item>
     
     <item>
       <title>Serviços interessantes</title>
-      <link>http://pothix.com/post/servicos-interessantes/</link>
+      <link>https://pothix.com/post/servicos-interessantes/</link>
       <pubDate>Fri, 12 Jun 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/servicos-interessantes/</guid>
+      <guid>https://pothix.com/post/servicos-interessantes/</guid>
       <description>Depois de conhecer alguns serviços legais na internet resolvi postar sobre eles aqui. Gostaria de fazer um post desse tipo mensalmente ( assim como o Ronaldo Ferraz faz no seu blog sobre o balanço cultural, que eu acho bem legal ), mas pelo menos dessa vez quero postar algumas coisas legais, e se possível eu posto periódicamente o que eu tenho feito / encontrado de divertido. ;)
 Dropbox Já começando com o DropBox, que é uma aplicação para sincronização de arquivos.</description>
     </item>

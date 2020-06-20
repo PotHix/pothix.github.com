@@ -2,22 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>english on PotHix</title>
-    <link>http://pothix.com/tags/english/</link>
+    <link>https://pothix.com/tags/english/</link>
     <description>Recent content in english on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
     <lastBuildDate>Sun, 26 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://pothix.com/tags/english/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pothix.com/tags/english/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2019 Year in Review (full of metrics!)</title>
-      <link>http://pothix.com/post/2019-year-in-review/</link>
+      <link>https://pothix.com/post/2019-year-in-review/</link>
       <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/2019-year-in-review/</guid>
+      <guid>https://pothix.com/post/2019-year-in-review/</guid>
       <description>Brace yourselves, like any other stats post, this one will be HUGE
 My year in review for 2018 was never posted because I could never finish it. I don&amp;rsquo;t want to let the same thing happen this year, so here I am.
 The end of 2018 and the beginning of 2019 was quite hard for me and me just didn&amp;rsquo;t have the energy to sit down in front of the computer during the weekends to write my monthly reviews.</description>
@@ -25,10 +24,10 @@ The end of 2018 and the beginning of 2019 was quite hard for me and me just didn
     
     <item>
       <title>Contributing to Rust</title>
-      <link>http://pothix.com/post/contributing-to-rust/</link>
+      <link>https://pothix.com/post/contributing-to-rust/</link>
       <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/contributing-to-rust/</guid>
+      <guid>https://pothix.com/post/contributing-to-rust/</guid>
       <description>I&amp;rsquo;m involved with the Rust community for a while now. I&amp;rsquo;m one of the main organizers of the Rust meetup in São Paulo and also the Rust conference in Latin America (Rust LATAM) for more than one year now, but did not contribute to Rust source code yet.
 This post will show the step by step I did to submit my first pull request to the Rust compiler.
 If you want to go straight to the step by step, without any introduction, jump to My step by step to the first contribution.</description>
@@ -36,30 +35,30 @@ If you want to go straight to the step by step, without any introduction, jump t
     
     <item>
       <title>My Current Productivity Workflow</title>
-      <link>http://pothix.com/post/my-current-productivity-workflow/</link>
+      <link>https://pothix.com/post/my-current-productivity-workflow/</link>
       <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/my-current-productivity-workflow/</guid>
+      <guid>https://pothix.com/post/my-current-productivity-workflow/</guid>
       <description>From time to time, I receive questions about my productivity workflow, so I decided to write it down here. Keep in mind it&amp;rsquo;s a living thing and may change with time, but what I&amp;rsquo;m documenting here is what I&amp;rsquo;m using right now.
 Tool As you probably know, I work for Doist for some time now, and I&amp;rsquo;m a Todoist user since 2007, so the my tool of choice is quite obvious.</description>
     </item>
     
     <item>
       <title>How was Rust LATAM 2019</title>
-      <link>http://pothix.com/post/how-was-rust-latam-2019/</link>
+      <link>https://pothix.com/post/how-was-rust-latam-2019/</link>
       <pubDate>Sun, 21 Apr 2019 14:02:54 -0300</pubDate>
       
-      <guid>http://pothix.com/post/how-was-rust-latam-2019/</guid>
+      <guid>https://pothix.com/post/how-was-rust-latam-2019/</guid>
       <description>For those who don&amp;rsquo;t know, I&amp;rsquo;m a proud core organizer of the Rust LATAM conference. 🎉 The conference happened on March 29 and 30, and this post describes how it was to organize the whole thing.
 Even with the small problems we had (as any other big conference), the feedback we received so far were very positive. We were able to bring amazing speakers to the conference, which brought high-level content even for beginners.</description>
     </item>
     
     <item>
       <title>Stats for Jun, 2018</title>
-      <link>http://pothix.com/post/stats-jun-2018/</link>
+      <link>https://pothix.com/post/stats-jun-2018/</link>
       <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/stats-jun-2018/</guid>
+      <guid>https://pothix.com/post/stats-jun-2018/</guid>
       <description>Guess what!? Yes, metrics for June! 📊
 Books I usually don&amp;rsquo;t count how many books I read, I just track and check at the end of the month. When I saw that I read five books read this month, my face was like 😱. All of them received a 4-star review, so the result is quite good.
 
@@ -68,10 +67,10 @@ Books I usually don&amp;rsquo;t count how many books I read, I just track and ch
     
     <item>
       <title>Stats for May, 2018</title>
-      <link>http://pothix.com/post/stats-may-2018/</link>
+      <link>https://pothix.com/post/stats-may-2018/</link>
       <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/stats-may-2018/</guid>
+      <guid>https://pothix.com/post/stats-may-2018/</guid>
       <description>It&amp;rsquo;s May, and it&amp;rsquo;s time for metrics! 📊
 Books Two books read this month, but both received a 3 stars review: 
  Wait, What?: And Life&amp;rsquo;s Other Essential Questions: Exactly what the author says in the beginning: It&amp;rsquo;s a lecture that became a book. Not bad, but OK-ish. Shop Class as Soulcraft: An Inquiry into the Value of Work: More political views than I was expecting and the pacing is not so good.</description>
@@ -79,10 +78,10 @@ Books Two books read this month, but both received a 3 stars review:
     
     <item>
       <title>Stats for Apr, 2018</title>
-      <link>http://pothix.com/post/stats-apr-2018/</link>
+      <link>https://pothix.com/post/stats-apr-2018/</link>
       <pubDate>Sun, 13 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/stats-apr-2018/</guid>
+      <guid>https://pothix.com/post/stats-apr-2018/</guid>
       <description>It&amp;rsquo;s time for April metrics! 📊
 Books Note: I write a review for each book I read. You can find them on my Goodreads account.
 Again, just one book this month, and again, a 5 stars one!
@@ -92,10 +91,10 @@ A Guide to the Good Life: The Ancient Art of Stoic Joy. This book was on my read
     
     <item>
       <title>Stats for Mar, 2018</title>
-      <link>http://pothix.com/post/stats-mar-2018/</link>
+      <link>https://pothix.com/post/stats-mar-2018/</link>
       <pubDate>Fri, 13 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/stats-mar-2018/</guid>
+      <guid>https://pothix.com/post/stats-mar-2018/</guid>
       <description>March is gone, and it&amp;rsquo;s time for metrics! 📊
 Books Note: I write a review for each book I read. You can find them on my Goodreads account.
 Just one book this month, but a 5 stars one:
@@ -105,10 +104,10 @@ When: The Scientific Secrets of Perfect Timing. This book is about optimization 
     
     <item>
       <title>Stats for Feb, 2018</title>
-      <link>http://pothix.com/post/stats-feb-2018/</link>
+      <link>https://pothix.com/post/stats-feb-2018/</link>
       <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/stats-feb-2018/</guid>
+      <guid>https://pothix.com/post/stats-feb-2018/</guid>
       <description>February time! Let&amp;rsquo;s see what we can get from my metrics. 😀
 Books Note: I write a review for each book I read. You can find them on my Goodreads account.
 I&amp;rsquo;m quite satisfied with my reading list for this month:
@@ -119,10 +118,10 @@ The Art of Learning: A Journey in the Pursuit of Excellence.</description>
     
     <item>
       <title>Stats for Jan, 2018</title>
-      <link>http://pothix.com/post/stats-jan-2018/</link>
+      <link>https://pothix.com/post/stats-jan-2018/</link>
       <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/stats-jan-2018/</guid>
+      <guid>https://pothix.com/post/stats-jan-2018/</guid>
       <description>I&amp;rsquo;m excited to write this post about my performance for the first month of the year. I think I will have some great news at the end of this post, related to my expenses.
 Let&amp;rsquo;s get started! 😀
 Books I decided to listen to my podcasts this month, so I did not hear that many audiobooks. The only book I read this month was a physical book:
@@ -132,10 +131,10 @@ Hiding in unnatural happiness is a book I received from a monk in York.</descrip
     
     <item>
       <title>2017 Year in Review (with metrics!)</title>
-      <link>http://pothix.com/post/2017-year-in-review/</link>
+      <link>https://pothix.com/post/2017-year-in-review/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/2017-year-in-review/</guid>
+      <guid>https://pothix.com/post/2017-year-in-review/</guid>
       <description>Brace yourselves, this post will be HUGE
 TL;DR: It was a great year and I&amp;rsquo;m really glad to see the metrics and notice everything I accomplished.
 I don&amp;rsquo;t remember the last time I posted my yearly review publicly but as I&amp;rsquo;m doing monthly posts of my stats, it makes sense to do an annual review as well.
@@ -144,10 +143,10 @@ I do yearly reviews since around 2005 but I never post them publicly. I also wri
     
     <item>
       <title>Stats for Dec, 2017</title>
-      <link>http://pothix.com/post/stats-dec-2017/</link>
+      <link>https://pothix.com/post/stats-dec-2017/</link>
       <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/stats-dec-2017/</guid>
+      <guid>https://pothix.com/post/stats-dec-2017/</guid>
       <description>Came back from a travel last month and just packed my stuff to travel again this month. Let&amp;rsquo;s see if it affected my performance.
 Books I was traveling this month, so as usual, I&amp;rsquo;m not reading/listening to audiobooks because I prefer to focus on the place I&amp;rsquo;m visiting. For this reason, I did not finish any book this month.
 With that said, it is the first time I have 4 books on my reading list at the same time.</description>
@@ -155,10 +154,10 @@ With that said, it is the first time I have 4 books on my reading list at the sa
     
     <item>
       <title>Firefox Quantum ctrl-q</title>
-      <link>http://pothix.com/post/firefox-quantum-ctrl-q/</link>
+      <link>https://pothix.com/post/firefox-quantum-ctrl-q/</link>
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/firefox-quantum-ctrl-q/</guid>
+      <guid>https://pothix.com/post/firefox-quantum-ctrl-q/</guid>
       <description>This will be a quick post to help people that are doing the same search as I was doing some minutes ago: &amp;ldquo;firefox disable ctrl+q&amp;rdquo;.
 I&amp;rsquo;m using Firefox Quantum for some weeks now (will probably post about it in the future) and the ctrl+q &amp;ldquo;feature&amp;rdquo; really annoys me.
 It&amp;rsquo;s not the first time that I hit ctrl+q by accident just to see the entire browser and tabs being closed without warning.</description>
@@ -166,10 +165,10 @@ It&amp;rsquo;s not the first time that I hit ctrl+q by accident just to see the 
     
     <item>
       <title>Stats for Nov, 2017</title>
-      <link>http://pothix.com/post/stats-nov-2017/</link>
+      <link>https://pothix.com/post/stats-nov-2017/</link>
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/stats-nov-2017/</guid>
+      <guid>https://pothix.com/post/stats-nov-2017/</guid>
       <description>Came back from a travel last month and just packed my stuff to travel again this month. Let&amp;rsquo;s see if it affected my performance.
 Books 
 Read three books this month. My first book of H.P. Lovecraft, called At the mountains of madness was one of them. It was an interesting experience to read it. I also read about minimalism just to realize that I&amp;rsquo;m a minimalism since forever. If you like minimalism I also recommend to listen to their podcast and read their website.</description>
@@ -177,10 +176,10 @@ Read three books this month. My first book of H.P. Lovecraft, called At the moun
     
     <item>
       <title>Stats for Oct, 2017</title>
-      <link>http://pothix.com/post/stats-oct-2017/</link>
+      <link>https://pothix.com/post/stats-oct-2017/</link>
       <pubDate>Sun, 05 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/stats-oct-2017/</guid>
+      <guid>https://pothix.com/post/stats-oct-2017/</guid>
       <description>This month was very unusual because I was traveling through Portugal and Spain for work and tourism, so it will probably affect my stats a lot. With that said, let&amp;rsquo;s see how it is. 😄
 Books I read some pages from Elixir in Action, but unfortunately did not finish any book this month. I usually don&amp;rsquo;t read that much when traveling, so it&amp;rsquo;s sad but expected. 😞
 Articles As usual, I&amp;rsquo;m using that same export file from Pocket and the same script to calculate the amount of articles I read:</description>
@@ -188,10 +187,10 @@ Articles As usual, I&amp;rsquo;m using that same export file from Pocket and the
     
     <item>
       <title>Stats for sep, 2017</title>
-      <link>http://pothix.com/post/stats-sep-2017/</link>
+      <link>https://pothix.com/post/stats-sep-2017/</link>
       <pubDate>Tue, 31 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/stats-sep-2017/</guid>
+      <guid>https://pothix.com/post/stats-sep-2017/</guid>
       <description>It&amp;rsquo;s already the end of October and I could not manage to post my stats from September but I have a good reason for that (which you will read about in the next month 😉).
 Books 
 What Doesn’t Kill Us: How Freezing Water, Extreme Altitude and Environmental Conditioning Will Renew Our Lost Evolutionary Strength is a book that describes what the human body can do if trained for it. The writing process is not so good for my taste, sometimes it looks like a memoir, sometimes it&amp;rsquo;s non-fiction&amp;hellip; but the message it passes is really interesting.</description>
@@ -199,10 +198,10 @@ What Doesn’t Kill Us: How Freezing Water, Extreme Altitude and Environmental C
     
     <item>
       <title>PotHix ❤ Doist</title>
-      <link>http://pothix.com/post/doist-pothix/</link>
+      <link>https://pothix.com/post/doist-pothix/</link>
       <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/doist-pothix/</guid>
+      <guid>https://pothix.com/post/doist-pothix/</guid>
       <description>TL;DR: I&amp;rsquo;m working on something I really believe is good at Doist and I feel great.
 As I mentioned on this post (in pt-BR) I left the company I was working for the last year to join a new company. The new company is Doist and I&amp;rsquo;m working for them since July.
 Some time ago a friend asked me why I joined Doist and I realized it&amp;rsquo;s kind of a love story so I decided to write the post.</description>
@@ -210,10 +209,10 @@ Some time ago a friend asked me why I joined Doist and I realized it&amp;rsquo;s
     
     <item>
       <title>Stats for Aug, 2017</title>
-      <link>http://pothix.com/post/stats-aug-2017/</link>
+      <link>https://pothix.com/post/stats-aug-2017/</link>
       <pubDate>Thu, 07 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/stats-aug-2017/</guid>
+      <guid>https://pothix.com/post/stats-aug-2017/</guid>
       <description>September is here, time to review my stats for August, 2017.
 Books 
 This is my personal record of books read in one single month. 7 freaking books. 😱
@@ -222,10 +221,10 @@ Let&amp;rsquo;s start with two small books I read. Cesar Millan&amp;rsquo;s Guid
     
     <item>
       <title>Stats for Jul, 2017</title>
-      <link>http://pothix.com/post/stats-jul-2017/</link>
+      <link>https://pothix.com/post/stats-jul-2017/</link>
       <pubDate>Mon, 07 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/stats-jul-2017/</guid>
+      <guid>https://pothix.com/post/stats-jul-2017/</guid>
       <description>Okay, here we go for the first full month working in my new job. :)
 Books 
 This month I read Let My People Go Surfing: The Education of a Reluctant Businessman, which was recommended by the other Doisters. It&amp;rsquo;s a great book by the guy who built the company Patagonia, a bootstrapped company, from scratch. Their way of thinking looks a lot like the way we think at Doist.</description>
@@ -233,20 +232,20 @@ This month I read Let My People Go Surfing: The Education of a Reluctant Busines
     
     <item>
       <title>My Archlinux setup</title>
-      <link>http://pothix.com/post/my-archlinux-setup/</link>
+      <link>https://pothix.com/post/my-archlinux-setup/</link>
       <pubDate>Sat, 05 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/my-archlinux-setup/</guid>
+      <guid>https://pothix.com/post/my-archlinux-setup/</guid>
       <description>I was playing with Archlinux in the last 3 or 4 years and last year I decided to reboot my configuration files and start using Xfce.
 Talking to Fabio Akita about my Archlinux tunning, I heard that I should be posting about that. That&amp;rsquo;s true, so I decided to start writing it. I wrote in March and it was in draft form since then, so it&amp;rsquo;s time to release it. :)</description>
     </item>
     
     <item>
       <title>Stats for Jun, 2017</title>
-      <link>http://pothix.com/post/stats-jun-2017/</link>
+      <link>https://pothix.com/post/stats-jun-2017/</link>
       <pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/stats-jun-2017/</guid>
+      <guid>https://pothix.com/post/stats-jun-2017/</guid>
       <description>I&amp;rsquo;m ready to review my stats for June and share them with you! Are you? Hope so! :D
 Books 
 Last month I read Deep Work again because I was preparing to work for a new company. The new company is Doist, but this is a topic for a another post. It proved to be a great asset, as they also recommend reading it. From their reading list I also took The score takes care of itself and Start with Why.</description>
@@ -254,10 +253,10 @@ Last month I read Deep Work again because I was preparing to work for a new comp
     
     <item>
       <title>Wordpress to Middleman, to Hugo using github-pages and HTTPS</title>
-      <link>http://pothix.com/post/hugo-github-pages-and-https/</link>
+      <link>https://pothix.com/post/hugo-github-pages-and-https/</link>
       <pubDate>Tue, 13 Jun 2017 13:54:49 -0300</pubDate>
       
-      <guid>http://pothix.com/post/hugo-github-pages-and-https/</guid>
+      <guid>https://pothix.com/post/hugo-github-pages-and-https/</guid>
       <description>Yes, it was a journey. I decided to chance my blog engine again.
 But this time I decided to post about the whole transition, since I started my blog, back in 2008.
 I needed a blog at the time but could not spend time creating something, I just wanted to &amp;ldquo;buy a blog&amp;rdquo; and write. Dreamhost was an awesome service for that. In one hour I bought a domain, installed a Wordpress via one click install and set up my own email via Google apps (at the time it was free).</description>
@@ -265,10 +264,10 @@ I needed a blog at the time but could not spend time creating something, I just 
     
     <item>
       <title>Stats for May, 2017</title>
-      <link>http://pothix.com/post/stats-may-2017/</link>
+      <link>https://pothix.com/post/stats-may-2017/</link>
       <pubDate>Wed, 07 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/stats-may-2017/</guid>
+      <guid>https://pothix.com/post/stats-may-2017/</guid>
       <description>Here we go again for my stats for the last month. :)
 Books 
 I will start a in a new company this month, so I decided to re-read Deep Work (I really recommend this one). This book is just great for everyone who wants to focus and do the hard work. It has everything to do with my new work schedule. The book about Elon Musk was a good reading as well, this guy has some great ideas.</description>
@@ -276,10 +275,10 @@ I will start a in a new company this month, so I decided to re-read Deep Work (I
     
     <item>
       <title>Stats for April, 2017</title>
-      <link>http://pothix.com/post/stats-apr-2017/</link>
+      <link>https://pothix.com/post/stats-apr-2017/</link>
       <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/stats-apr-2017/</guid>
+      <guid>https://pothix.com/post/stats-apr-2017/</guid>
       <description>This was not a good month. I spent most of the time sick, recovering from what may be a Labyrinthitis. I still have to confirm that, but I&amp;rsquo;m in slow motion for a while.
 But anyways, let&amp;rsquo;s go to the collected data.
 Books Books for this month:
@@ -289,10 +288,10 @@ Books Books for this month:
     
     <item>
       <title>Stats for March, 2017</title>
-      <link>http://pothix.com/post/stats-mar-2017/</link>
+      <link>https://pothix.com/post/stats-mar-2017/</link>
       <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/stats-mar-2017/</guid>
+      <guid>https://pothix.com/post/stats-mar-2017/</guid>
       <description>Back to work this month. :)
 After one month vacation, I got back to my routine and got some good results this month.
 Books Added three more books to the list:
@@ -303,10 +302,10 @@ Articles I&amp;rsquo;m still trying to find a way to track the articles I read.<
     
     <item>
       <title>Stats for February, 2017</title>
-      <link>http://pothix.com/post/stats-feb-2017/</link>
+      <link>https://pothix.com/post/stats-feb-2017/</link>
       <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/stats-feb-2017/</guid>
+      <guid>https://pothix.com/post/stats-feb-2017/</guid>
       <description>February was an atypical month because I was on vacation. :)
 Much of my stats will reflect my travel around Europe. But no coding was done during this trip.
 Books Continuing my goal to read 30 books this year, I read two books this month:
@@ -316,10 +315,10 @@ I had plans to visit Amsterdam and Oxford during my travel. Because of that I de
     
     <item>
       <title>Stats for January, 2017</title>
-      <link>http://pothix.com/post/stats-jan-2017/</link>
+      <link>https://pothix.com/post/stats-jan-2017/</link>
       <pubDate>Sun, 02 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/stats-jan-2017/</guid>
+      <guid>https://pothix.com/post/stats-jan-2017/</guid>
       <description>This is the first post of a series that will show all the data I&amp;rsquo;ve been collecting during the month. One of my goals this year is to track everything possible. These posts will help me to analyze all the data and may extract something for me.
 This is not a new idea, I&amp;rsquo;m inspired by posts like this from Matthew of truevalhalla.com.
 Books My goal is to read 30 books this year, so I must have an average of 2.</description>
@@ -327,10 +326,10 @@ Books My goal is to read 30 books this year, so I must have an average of 2.</de
     
     <item>
       <title>Oxford for Tolkien fans</title>
-      <link>http://pothix.com/post/oxford-for-tolkien-fans/</link>
+      <link>https://pothix.com/post/oxford-for-tolkien-fans/</link>
       <pubDate>Fri, 10 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/oxford-for-tolkien-fans/</guid>
+      <guid>https://pothix.com/post/oxford-for-tolkien-fans/</guid>
       <description>TL;DR: When traveling to Europe, I decided to take 2 or 3 days to visit Oxford. I will describe how was the experience of a J.R.R. Tolkien fan there.
 I&amp;rsquo;m a big fan of J.R.R Tolkien. Have read most of his books, the ones released when he was still alive and other edited by Christopher Tolkien.
 After attending FOSDEM I decided to travel around some countries in Europe and UK. The most expensive part, the airplane tickets (Brazil -&amp;gt; Europe), were already paid, so&amp;hellip; why not?</description>
@@ -338,20 +337,20 @@ After attending FOSDEM I decided to travel around some countries in Europe and U
     
     <item>
       <title>FOSDEM survival guide</title>
-      <link>http://pothix.com/post/fosdem-survival-guide/</link>
+      <link>https://pothix.com/post/fosdem-survival-guide/</link>
       <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/fosdem-survival-guide/</guid>
+      <guid>https://pothix.com/post/fosdem-survival-guide/</guid>
       <description>TL;DR: It was my first time at FOSDEM and it took some time to feel comfortable, this post may help newcomers.
 As I mentioned in my previous post, I spoke at FOSDEM this year. It was my first time there (in the whole Europe, btw!) and it took some time to get used to the way the event goes. This post will show some tips that may help FOSDEM newcomers and maybe some veterans as well.</description>
     </item>
     
     <item>
       <title>My presentation at FOSDEM 2017</title>
-      <link>http://pothix.com/post/my-presentation-at-fosdem-2017/</link>
+      <link>https://pothix.com/post/my-presentation-at-fosdem-2017/</link>
       <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/my-presentation-at-fosdem-2017/</guid>
+      <guid>https://pothix.com/post/my-presentation-at-fosdem-2017/</guid>
       <description>This year my proposal to speak at FOSDEM was accepted and I spoke at the Desktop devroom! :)
 It was my first talk in English, so I decided to do as many rehearsals as I could. I was 8 in total, but as expected, it was still a little bit faster than expected. :P
 I had 30 minutes to present and I did it in 26. I usually speak fast and this presentation was made to be fast because I had a lot of content to show in 30 minutes.</description>
@@ -359,10 +358,10 @@ I had 30 minutes to present and I did it in 26. I usually speak fast and this pr
     
     <item>
       <title>Experiences of almost two years using Colemak</title>
-      <link>http://pothix.com/post/experiences-of-almost-two-years-using-colemak/</link>
+      <link>https://pothix.com/post/experiences-of-almost-two-years-using-colemak/</link>
       <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/experiences-of-almost-two-years-using-colemak/</guid>
+      <guid>https://pothix.com/post/experiences-of-almost-two-years-using-colemak/</guid>
       <description>TL;DR: I like Colemak, and it is a very good layout. I found some equivalent pros and cons, so I can&amp;rsquo;t recommend it to anyone without a little bit of philosophy. :)
 For those who don&amp;rsquo;t know Colemak, it is a keyboard layout created to make the most used keys stay in the home row as well as make you swipe between your right and left hand.
 There is a keyboard layouts heatmap for you to understand the benefits of using a keyboard layout that was designed to help you to be comfortable and fast when typing instead of one that helping the operator to not jam the typewriter.</description>
@@ -370,20 +369,20 @@ There is a keyboard layouts heatmap for you to understand the benefits of using 
     
     <item>
       <title>OSCON 2015</title>
-      <link>http://pothix.com/post/oscon/</link>
+      <link>https://pothix.com/post/oscon/</link>
       <pubDate>Mon, 27 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/oscon/</guid>
+      <guid>https://pothix.com/post/oscon/</guid>
       <description>TL;DR I&amp;rsquo;ve been at OSCON this year (thanks to Locaweb) and this post will summarize my impressions about the conference. I spoke at Locaweb Tech-Talks about it and you can find my slides here (in portuguese).
 OSCON (Open Source Conference) is one of the most important open source conferences of our time and happened in Portland this year as usual. Portland is a great city, the one I liked the most until now, it doesn&amp;rsquo;t have high car traffic, MAX (the train) took us for most of the places we wanted to know, nice people all over the place, great convention center and a lot of other benefits.</description>
     </item>
     
     <item>
       <title>New layout of PotHix blog</title>
-      <link>http://pothix.com/post/new-layout-of-pothix-blog/</link>
+      <link>https://pothix.com/post/new-layout-of-pothix-blog/</link>
       <pubDate>Mon, 25 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/new-layout-of-pothix-blog/</guid>
+      <guid>https://pothix.com/post/new-layout-of-pothix-blog/</guid>
       <description>Welcome to the new blog layout of PotHix.com! :)
 I decided that the time has came to change not just the layout but the blog engine as well. I&amp;rsquo;m now using middleman instead of wordpress. Just to be clear, I don&amp;rsquo;t think wordpress is not good at all, but I want to publish static files instead of keeping the wordpress &amp;ldquo;infrastructure&amp;rdquo;.
 I&amp;rsquo;ve divided into 3 feeds:
@@ -392,10 +391,10 @@ I&amp;rsquo;ve divided into 3 feeds:
     
     <item>
       <title>Golang and 1.2 version performance improvement</title>
-      <link>http://pothix.com/post/golang-and-1-2-version-performance-improvement/</link>
+      <link>https://pothix.com/post/golang-and-1-2-version-performance-improvement/</link>
       <pubDate>Tue, 03 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/golang-and-1-2-version-performance-improvement/</guid>
+      <guid>https://pothix.com/post/golang-and-1-2-version-performance-improvement/</guid>
       <description>I&amp;rsquo;ve started using Go last month and I really liked to work with the language.
 The project I&amp;rsquo;m working on is dead simple and just retrieves metrics and save on a redis server (the data will be analyzed by a different project that I&amp;rsquo;m working on). So I have 15 goroutines retrieving data constantly and I&amp;rsquo;m using just two native threads.
 I did some CPU profiling on the code using my current machine for Golang 1.</description>
@@ -403,30 +402,30 @@ I did some CPU profiling on the code using my current machine for Golang 1.</des
     
     <item>
       <title>Game Network Programming</title>
-      <link>http://pothix.com/post/game-network-programming/</link>
+      <link>https://pothix.com/post/game-network-programming/</link>
       <pubDate>Mon, 15 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/game-network-programming/</guid>
+      <guid>https://pothix.com/post/game-network-programming/</guid>
       <description>English Abstract: This post was about my presentation with Diego Souza (vulgo Marciano) about Game network programming. I was studying and reading Quake source just for fun and decided to learn more about game networking in general, so I decided to prepare this presentation to show other people what I’ve learned. You can see the full video (portuguese only, sorry) and the slides below.
 Portuguese: Eu e o Diego Souza (vulgo Marciano) fizemos uma palestra sobre Game network programming tanto na Locaweb como no Guru-SP.</description>
     </item>
     
     <item>
       <title>A lifestyle</title>
-      <link>http://pothix.com/post/a-lifestyle/</link>
+      <link>https://pothix.com/post/a-lifestyle/</link>
       <pubDate>Mon, 10 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/a-lifestyle/</guid>
+      <guid>https://pothix.com/post/a-lifestyle/</guid>
       <description>Just a transcript from here, but it reflects my way of life at this stage of my life:
 We believe in going our own way,no matter which way the rest of the world is going. We believe in bucking the system that’s built to smash individuals as bugs on a windshield. Some of us believe in the man upstairs.All of us believe in sticking in to the man down here. We believe in the sky and we don’t believe in the sunroof.</description>
     </item>
     
     <item>
       <title>Javascript and Gamedev discussion</title>
-      <link>http://pothix.com/post/javascript-and-gamedev-discussion/</link>
+      <link>https://pothix.com/post/javascript-and-gamedev-discussion/</link>
       <pubDate>Sun, 02 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/javascript-and-gamedev-discussion/</guid>
+      <guid>https://pothix.com/post/javascript-and-gamedev-discussion/</guid>
       <description>I read the blog post from Impact engine creator Dominic where he shows an email he sent to John Carmack about his opinions on Javascript expressed on his keynote.
 Dominic is trying to show that Javascript is not a good language to develop the next AAA game but it is awesome to make simple games and have it easily available to the world.
 We have a lot of negative comments on the post (I really don&amp;rsquo;t know why) but some good ones too.</description>
@@ -434,10 +433,10 @@ We have a lot of negative comments on the post (I really don&amp;rsquo;t know wh
     
     <item>
       <title>Kernel compiling</title>
-      <link>http://pothix.com/post/kernel-compiling/</link>
+      <link>https://pothix.com/post/kernel-compiling/</link>
       <pubDate>Mon, 23 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/kernel-compiling/</guid>
+      <guid>https://pothix.com/post/kernel-compiling/</guid>
       <description>Since I bought an Acer notebook to use Linux again (I sold my mac, I have a post about it but in portuguese) I started to compile my own kernel.
 The reasons for the decision:
 I have a hardware that works better with the newer kernels. I really want to understand the linux kernel better. As Judas Priest sings on Painkiller song: “I’m living on the eeeeeedge”. LOL
@@ -446,10 +445,10 @@ How to proceed There are some steps to follow when compiling a new kernel for yo
     
     <item>
       <title>Simlinks for ruby on Debian Squeeze</title>
-      <link>http://pothix.com/post/simlinks-for-ruby-on-debian-squeeze/</link>
+      <link>https://pothix.com/post/simlinks-for-ruby-on-debian-squeeze/</link>
       <pubDate>Tue, 17 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/simlinks-for-ruby-on-debian-squeeze/</guid>
+      <guid>https://pothix.com/post/simlinks-for-ruby-on-debian-squeeze/</guid>
       <description>Every time we need to deploy a new Ruby application on top of Debian Squeeze we need to fix some Ruby depedencies to make the application work as it should.
 It happens because we&amp;rsquo;re building using rvm instead of the packaged version of ruby, but it needed to be that way in order to use our old build server.
 I&amp;rsquo;ll keep it documented here:
@@ -458,10 +457,10 @@ ln -s /usr/lib/libruby-1.9.1.so.1.9.1 /usr/lib/libruby.so.1.9 ln -s /usr/bin/rak
     
     <item>
       <title>Translated Rubylearning presentation</title>
-      <link>http://pothix.com/post/translated-rubylearning-presentation/</link>
+      <link>https://pothix.com/post/translated-rubylearning-presentation/</link>
       <pubDate>Fri, 10 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/translated-rubylearning-presentation/</guid>
+      <guid>https://pothix.com/post/translated-rubylearning-presentation/</guid>
       <description>As I promised, here goes my presentation! :)
 Finally i finished to translate all the presentation! Watched the video a lot of times, pausing and playing to write all I said translating to english. :)
 Fortunately I had a big help from my friend Victor Goff, that corrected all my grammar errors and typos.
@@ -470,10 +469,10 @@ I&amp;rsquo;m posting below all i have about the presentation, slides from Slide
     
     <item>
       <title>Deploying a simple Merb application on Locaweb</title>
-      <link>http://pothix.com/post/deploying-a-simple-merb-application-on-locaweb/</link>
+      <link>https://pothix.com/post/deploying-a-simple-merb-application-on-locaweb/</link>
       <pubDate>Wed, 07 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/deploying-a-simple-merb-application-on-locaweb/</guid>
+      <guid>https://pothix.com/post/deploying-a-simple-merb-application-on-locaweb/</guid>
       <description>I writing this post to help my friends of Rubylearning with a little Merb application deployment on Locaweb. I&amp;rsquo;m just translating some informations that you can find here in portuguese.
 Lets get started! :D
 First open the
@@ -482,10 +481,10 @@ Domain Manager (gerenciador de domínios) on Locaweb Panel (painel da Locaweb) a
     
     <item>
       <title>New year is coming</title>
-      <link>http://pothix.com/post/new-year-is-coming/</link>
+      <link>https://pothix.com/post/new-year-is-coming/</link>
       <pubDate>Wed, 31 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/new-year-is-coming/</guid>
+      <guid>https://pothix.com/post/new-year-is-coming/</guid>
       <description>Estou apenas postando para dizer que nesse novo ano eu pretendo postar mais sobre programação! Essa é a primeira virada de ano desse blog, então resolvi postar meus &amp;ldquo;planos&amp;rdquo; para o próximo ano.
 Como o blog é novo eu comecei a escrever faz pouco tempo e estou pegando experiência aos poucos, e talvez agora nesse novo ano a qualidade dos posts aumente! (ou não&amp;hellip;heheh).
 Não sei bem qual rumo minha vida vai seguir nesse novo ano, o que eu vou ter que aprender e estudar, talvez eu tenha que aprender coisas que eu não tinha planejado e isso pode tomar uma boa parte do meu tempo, mas eu pretendo postar todos os meus estudos aqui, portanto terei algum material interessante aqui.</description>
@@ -493,10 +492,10 @@ Não sei bem qual rumo minha vida vai seguir nesse novo ano, o que eu vou ter qu
     
     <item>
       <title>First post in English here</title>
-      <link>http://pothix.com/post/first-post-in-english-here/</link>
+      <link>https://pothix.com/post/first-post-in-english-here/</link>
       <pubDate>Tue, 16 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/first-post-in-english-here/</guid>
+      <guid>https://pothix.com/post/first-post-in-english-here/</guid>
       <description>Hi international friends! :)
 I&amp;rsquo;m just posting to inform that I want to post some content in English too! I&amp;rsquo;ll try to make a RSS Feed only for my English posts, so you don&amp;rsquo;t need to view my portuguese posts on your feed reader. :)
 As everyone knows, my English is not so good, but I think you can understand me well! Any English errors (I&amp;rsquo;m sure it will have a lot of them) please tell me and I&amp;rsquo;ll correct it asap.</description>

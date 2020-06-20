@@ -2,22 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>productivity on PotHix</title>
-    <link>http://pothix.com/tags/productivity/</link>
+    <link>https://pothix.com/tags/productivity/</link>
     <description>Recent content in productivity on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
     <lastBuildDate>Thu, 15 Aug 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://pothix.com/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pothix.com/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My Current Productivity Workflow</title>
-      <link>http://pothix.com/post/my-current-productivity-workflow/</link>
+      <link>https://pothix.com/post/my-current-productivity-workflow/</link>
       <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/my-current-productivity-workflow/</guid>
+      <guid>https://pothix.com/post/my-current-productivity-workflow/</guid>
       <description>From time to time, I receive questions about my productivity workflow, so I decided to write it down here. Keep in mind it&amp;rsquo;s a living thing and may change with time, but what I&amp;rsquo;m documenting here is what I&amp;rsquo;m using right now.
 Tool As you probably know, I work for Doist for some time now, and I&amp;rsquo;m a Todoist user since 2007, so the my tool of choice is quite obvious.</description>
     </item>

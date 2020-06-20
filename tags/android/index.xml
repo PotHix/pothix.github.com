@@ -2,22 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>android on PotHix</title>
-    <link>http://pothix.com/tags/android/</link>
+    <link>https://pothix.com/tags/android/</link>
     <description>Recent content in android on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
     <lastBuildDate>Thu, 03 Mar 2011 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://pothix.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pothix.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Instalando o Full Throttle no Motorola Milestone</title>
-      <link>http://pothix.com/post/instalando-o-full-throttle-no-motorola-milestone/</link>
+      <link>https://pothix.com/post/instalando-o-full-throttle-no-motorola-milestone/</link>
       <pubDate>Thu, 03 Mar 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/instalando-o-full-throttle-no-motorola-milestone/</guid>
+      <guid>https://pothix.com/post/instalando-o-full-throttle-no-motorola-milestone/</guid>
       <description>Logo depois que eu comprei a minha Dragstar 650, me deu uma grande vontade de voltar a jogar full throttle (por que será, né?), e eu comecei a procurar uma forma de fazer isso.
 Eu tenho o jogo (o CD-ROM mesmo) ripado no meu computador, e agora só faltava emular ele.
 Procurando na internet eu achei o scummvm que emula os games da LucasArts em várias plataformas! Baixei o .</description>
@@ -25,30 +24,30 @@ Procurando na internet eu achei o scummvm que emula os games da LucasArts em vá
     
     <item>
       <title>Semana de eventos (#rubyconfbr, #adl e #gddbr)</title>
-      <link>http://pothix.com/post/semana-de-eventos-rubyconfbr-adl-e-gddbr/</link>
+      <link>https://pothix.com/post/semana-de-eventos-rubyconfbr-adl-e-gddbr/</link>
       <pubDate>Sun, 31 Oct 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/semana-de-eventos-rubyconfbr-adl-e-gddbr/</guid>
+      <guid>https://pothix.com/post/semana-de-eventos-rubyconfbr-adl-e-gddbr/</guid>
       <description>Na semana passada (semana do dia 24 ao dia 30 de outubro) foi uma semana de grandes eventos, que eu tive o prazer de participar de todos! :)
 Rubyconf Brasil A Rubyconf Brasil é o Antigo Rails Summit Latin America, que acontecia no centro de convenções do Anhembi, e agora mudou sua localização para o centro de convenções Frei Caneca, para diminuir os custos e prover um local mais acessível para os participantes (próximo ao metrô e a avenida paulista).</description>
     </item>
     
     <item>
       <title>Fluxo de leitura e o Android</title>
-      <link>http://pothix.com/post/fluxo-de-leitura-e-o-android/</link>
+      <link>https://pothix.com/post/fluxo-de-leitura-e-o-android/</link>
       <pubDate>Wed, 08 Sep 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/fluxo-de-leitura-e-o-android/</guid>
+      <guid>https://pothix.com/post/fluxo-de-leitura-e-o-android/</guid>
       <description>Quem me conhece sabe como eu sou meio doido quanto a ler coisas aleatórias (Google reader e artigos interessantes que eu acho perdidos por aí), e como eu tenho um tempo um pouco limitado, devido ao trabalho e a faculdade eu sempre tenho alguns esquemas diferentes para ler. :P
 Fluxo de leitura Depois que eu comprei um Android o meu fluxo de leitura se modificou um pouco. E está da seguinte maneira:</description>
     </item>
     
     <item>
       <title>Motorola Milestone e Android</title>
-      <link>http://pothix.com/post/motorola-milestone-e-android/</link>
+      <link>https://pothix.com/post/motorola-milestone-e-android/</link>
       <pubDate>Wed, 08 Sep 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/motorola-milestone-e-android/</guid>
+      <guid>https://pothix.com/post/motorola-milestone-e-android/</guid>
       <description>Muita gente tem me perguntado sobre o meu Android atual, um motorola Milestone, e resolvi postar algumas informações e opiniões sobre o aparelho e sobre o Android em si.
 Primeiramente, gostaria de dizer que o Android é um sistema muito bom, e estou bastante satisfeito com as features, apps, SDK e etc.
 Milestone É um aparelho bem legal e na minha opinião é o Android mais &amp;ldquo;custo X benefício&amp;rdquo; do Brasil.</description>

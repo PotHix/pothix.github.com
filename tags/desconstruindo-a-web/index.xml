@@ -2,22 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>desconstruindo-a-web on PotHix</title>
-    <link>http://pothix.com/tags/desconstruindo-a-web/</link>
+    <link>https://pothix.com/tags/desconstruindo-a-web/</link>
     <description>Recent content in desconstruindo-a-web on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
     <lastBuildDate>Mon, 03 Oct 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://pothix.com/tags/desconstruindo-a-web/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pothix.com/tags/desconstruindo-a-web/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Escrevendo o Desconstruindo a web</title>
-      <link>http://pothix.com/post/escrevendo-o-desconstruindo-a-web/</link>
+      <link>https://pothix.com/post/escrevendo-o-desconstruindo-a-web/</link>
       <pubDate>Mon, 03 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/escrevendo-o-desconstruindo-a-web/</guid>
+      <guid>https://pothix.com/post/escrevendo-o-desconstruindo-a-web/</guid>
       <description>TL;DR: Escrevi um livro em 315 horas, geralmente aos fins de semana durante 2 ou 3 horas consecutivas. O processo completo durou 8 meses e foi lançado oficialmente na Rubyconfbr2016.
 Como muitos já sabem, eu lancei um livro chamado Desconstruindo a web pela Casa do Código.
 Eu sou meio maluco (retardado, segundo o George Guimarães) por produtividade e organização pessoal e resolvi escrever sobre como foi o processo e mostrar todas as métricas que eu coletei.</description>

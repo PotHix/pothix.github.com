@@ -2,202 +2,201 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on PotHix</title>
-    <link>http://pothix.com/tags/</link>
+    <link>https://pothix.com/tags/</link>
     <description>Recent content in Tags on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
     <lastBuildDate>Sun, 26 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://pothix.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pothix.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>english</title>
-      <link>http://pothix.com/tags/english/</link>
+      <link>https://pothix.com/tags/english/</link>
       <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/tags/english/</guid>
+      <guid>https://pothix.com/tags/english/</guid>
       <description></description>
     </item>
     
     <item>
       <title>personal</title>
-      <link>http://pothix.com/tags/personal/</link>
+      <link>https://pothix.com/tags/personal/</link>
       <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/tags/personal/</guid>
+      <guid>https://pothix.com/tags/personal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>stats</title>
-      <link>http://pothix.com/tags/stats/</link>
+      <link>https://pothix.com/tags/stats/</link>
       <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/tags/stats/</guid>
+      <guid>https://pothix.com/tags/stats/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tech</title>
-      <link>http://pothix.com/tags/tech/</link>
+      <link>https://pothix.com/tags/tech/</link>
       <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/tags/tech/</guid>
+      <guid>https://pothix.com/tags/tech/</guid>
       <description></description>
     </item>
     
     <item>
       <title>productivity</title>
-      <link>http://pothix.com/tags/productivity/</link>
+      <link>https://pothix.com/tags/productivity/</link>
       <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/tags/productivity/</guid>
+      <guid>https://pothix.com/tags/productivity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>events</title>
-      <link>http://pothix.com/tags/events/</link>
+      <link>https://pothix.com/tags/events/</link>
       <pubDate>Sun, 21 Apr 2019 14:02:54 -0300</pubDate>
       
-      <guid>http://pothix.com/tags/events/</guid>
+      <guid>https://pothix.com/tags/events/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tips</title>
-      <link>http://pothix.com/tags/tips/</link>
+      <link>https://pothix.com/tags/tips/</link>
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/tags/tips/</guid>
+      <guid>https://pothix.com/tags/tips/</guid>
       <description></description>
     </item>
     
     <item>
       <title>career</title>
-      <link>http://pothix.com/tags/career/</link>
+      <link>https://pothix.com/tags/career/</link>
       <pubDate>Wed, 14 Jun 2017 11:26:10 -0300</pubDate>
       
-      <guid>http://pothix.com/tags/career/</guid>
+      <guid>https://pothix.com/tags/career/</guid>
       <description></description>
     </item>
     
     <item>
       <title>speaking</title>
-      <link>http://pothix.com/tags/speaking/</link>
+      <link>https://pothix.com/tags/speaking/</link>
       <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/tags/speaking/</guid>
+      <guid>https://pothix.com/tags/speaking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>desconstruindo-a-web</title>
-      <link>http://pothix.com/tags/desconstruindo-a-web/</link>
+      <link>https://pothix.com/tags/desconstruindo-a-web/</link>
       <pubDate>Mon, 03 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/tags/desconstruindo-a-web/</guid>
+      <guid>https://pothix.com/tags/desconstruindo-a-web/</guid>
       <description></description>
     </item>
     
     <item>
       <title>books</title>
-      <link>http://pothix.com/tags/books/</link>
+      <link>https://pothix.com/tags/books/</link>
       <pubDate>Wed, 22 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/tags/books/</guid>
+      <guid>https://pothix.com/tags/books/</guid>
       <description></description>
     </item>
     
     <item>
       <title>python</title>
-      <link>http://pothix.com/tags/python/</link>
+      <link>https://pothix.com/tags/python/</link>
       <pubDate>Fri, 14 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/tags/python/</guid>
+      <guid>https://pothix.com/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ruby</title>
-      <link>http://pothix.com/tags/ruby/</link>
+      <link>https://pothix.com/tags/ruby/</link>
       <pubDate>Fri, 14 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/tags/ruby/</guid>
+      <guid>https://pothix.com/tags/ruby/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>http://pothix.com/tags/golang/</link>
+      <link>https://pothix.com/tags/golang/</link>
       <pubDate>Tue, 03 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/tags/golang/</guid>
+      <guid>https://pothix.com/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>motorcycle</title>
-      <link>http://pothix.com/tags/motorcycle/</link>
+      <link>https://pothix.com/tags/motorcycle/</link>
       <pubDate>Mon, 29 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/tags/motorcycle/</guid>
+      <guid>https://pothix.com/tags/motorcycle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gamedev</title>
-      <link>http://pothix.com/tags/gamedev/</link>
+      <link>https://pothix.com/tags/gamedev/</link>
       <pubDate>Mon, 15 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/tags/gamedev/</guid>
+      <guid>https://pothix.com/tags/gamedev/</guid>
       <description></description>
     </item>
     
     <item>
       <title>games</title>
-      <link>http://pothix.com/tags/games/</link>
+      <link>https://pothix.com/tags/games/</link>
       <pubDate>Wed, 31 Oct 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/tags/games/</guid>
+      <guid>https://pothix.com/tags/games/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>http://pothix.com/tags/linux/</link>
+      <link>https://pothix.com/tags/linux/</link>
       <pubDate>Mon, 23 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/tags/linux/</guid>
+      <guid>https://pothix.com/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>android</title>
-      <link>http://pothix.com/tags/android/</link>
+      <link>https://pothix.com/tags/android/</link>
       <pubDate>Thu, 03 Mar 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/tags/android/</guid>
+      <guid>https://pothix.com/tags/android/</guid>
       <description></description>
     </item>
     
     <item>
       <title>services</title>
-      <link>http://pothix.com/tags/services/</link>
+      <link>https://pothix.com/tags/services/</link>
       <pubDate>Thu, 01 Apr 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/tags/services/</guid>
+      <guid>https://pothix.com/tags/services/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vim</title>
-      <link>http://pothix.com/tags/vim/</link>
+      <link>https://pothix.com/tags/vim/</link>
       <pubDate>Mon, 29 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/tags/vim/</guid>
+      <guid>https://pothix.com/tags/vim/</guid>
       <description></description>
     </item>
     

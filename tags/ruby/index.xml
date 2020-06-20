@@ -2,22 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ruby on PotHix</title>
-    <link>http://pothix.com/tags/ruby/</link>
+    <link>https://pothix.com/tags/ruby/</link>
     <description>Recent content in ruby on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
     <lastBuildDate>Fri, 14 Feb 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://pothix.com/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pothix.com/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ruby, Python e native threads</title>
-      <link>http://pothix.com/post/ruby-python-e-native-threads/</link>
+      <link>https://pothix.com/post/ruby-python-e-native-threads/</link>
       <pubDate>Fri, 14 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/ruby-python-e-native-threads/</guid>
+      <guid>https://pothix.com/post/ruby-python-e-native-threads/</guid>
       <description>Pode ser que eu seja meio burro (heheh) mas eu ainda achava que o Ruby e o Python usavam Green Threads, mas depois de conversar com uma galera me disseram que eram threads nativas. Pesquisando na internet eu vi que eram mesmo, mas decidi rodar um strace para ver elas rolando e postar sobre isso.
 Fiz dois scripts simples:
 Python
@@ -26,10 +25,10 @@ import threading import time for i in range(5): t = threading.</description>
     
     <item>
       <title>O Guru-SP e seus 5 anos de vida</title>
-      <link>http://pothix.com/post/o-guru-sp-e-seus-5-anos-de-vida/</link>
+      <link>https://pothix.com/post/o-guru-sp-e-seus-5-anos-de-vida/</link>
       <pubDate>Tue, 17 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/o-guru-sp-e-seus-5-anos-de-vida/</guid>
+      <guid>https://pothix.com/post/o-guru-sp-e-seus-5-anos-de-vida/</guid>
       <description>Há pouco tempo aconteceu o encontro numero 31 do Guru-SP, e como sempre saímos (dessa vez estavamos @vinibaggio, @agaelebe, @nuxlli e @anderson_leite) para aquele velho momento de bate papo pós evento. Durante a conversa o @nuxlli perguntou sobre como o Guru-SP começou e nesse momento eu comecei a relembrar daquela velha tarde em 2008.
 Mas peraí&amp;hellip; 2008!! O Guru-SP está próximo de fazer 5 anos de vida! :)
 Em pensar que tudo começou após um post do @agaelebe na Rails-br falando sobre criar grupos locais para conversar mais sobre Ruby e fazer encontros com mais frequência, o que gerou interesse de várias pessoas de São Paulo, que decidiram levar esse &amp;ldquo;projeto&amp;rdquo; pra frente.</description>
@@ -37,70 +36,70 @@ Em pensar que tudo começou após um post do @agaelebe na Rails-br falando sobre
     
     <item>
       <title>XMPP e Ruby</title>
-      <link>http://pothix.com/post/xmpp-e-ruby/</link>
+      <link>https://pothix.com/post/xmpp-e-ruby/</link>
       <pubDate>Tue, 10 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/xmpp-e-ruby/</guid>
+      <guid>https://pothix.com/post/xmpp-e-ruby/</guid>
       <description>Alguns (vários…) meses atrás eu fiz uma palestra pequena no Guru-SP(São Paulo Ruby Users Group) sobre Ruby e XMPP, os vídeos e slides estão disponíveis:
 Nessa talk eu mostrei como criar dois bots simples e como subir eles na sua conta do Gmail. A Gem blather tem uma DSL bem legal para trabalhar com XMPP em Ruby, mas nos meus testes funcionou muito melhor com ruby 1.9.3 do que com 1.</description>
     </item>
     
     <item>
       <title>Semana de eventos (#rubyconfbr, #adl e #gddbr)</title>
-      <link>http://pothix.com/post/semana-de-eventos-rubyconfbr-adl-e-gddbr/</link>
+      <link>https://pothix.com/post/semana-de-eventos-rubyconfbr-adl-e-gddbr/</link>
       <pubDate>Sun, 31 Oct 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/semana-de-eventos-rubyconfbr-adl-e-gddbr/</guid>
+      <guid>https://pothix.com/post/semana-de-eventos-rubyconfbr-adl-e-gddbr/</guid>
       <description>Na semana passada (semana do dia 24 ao dia 30 de outubro) foi uma semana de grandes eventos, que eu tive o prazer de participar de todos! :)
 Rubyconf Brasil A Rubyconf Brasil é o Antigo Rails Summit Latin America, que acontecia no centro de convenções do Anhembi, e agora mudou sua localização para o centro de convenções Frei Caneca, para diminuir os custos e prover um local mais acessível para os participantes (próximo ao metrô e a avenida paulista).</description>
     </item>
     
     <item>
       <title>Conto da migração para Rails 3</title>
-      <link>http://pothix.com/post/conto-da-migracao-para-rails-3/</link>
+      <link>https://pothix.com/post/conto-da-migracao-para-rails-3/</link>
       <pubDate>Thu, 21 Oct 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/conto-da-migracao-para-rails-3/</guid>
+      <guid>https://pothix.com/post/conto-da-migracao-para-rails-3/</guid>
       <description>Nesse post eu vou falar um pouco de como foi atualizar a aplicação que eu trabalho atualmente para Rails3.
 Em uma segunda feira eu tive a brilhante ideia de aproveitar que as tasks que eu estava fazendo estavam dependentes de algumas coisas que ainda não estavam feitas, e resolvi começar a atualizar a aplicação para Rails3 só para saber o trabalho que ia dar, e no final do dia eu já tinha feito todas as alterações necessárias para o boot da aplicação e para rodar a suite de testes (não fazer os testes passar, apenas rodar!</description>
     </item>
     
     <item>
       <title>Crontab dentro da sua aplicação rails com whenever</title>
-      <link>http://pothix.com/post/crontab-dentro-da-sua-aplicacao-rails-com-whenever/</link>
+      <link>https://pothix.com/post/crontab-dentro-da-sua-aplicacao-rails-com-whenever/</link>
       <pubDate>Wed, 02 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/crontab-dentro-da-sua-aplicacao-rails-com-whenever/</guid>
+      <guid>https://pothix.com/post/crontab-dentro-da-sua-aplicacao-rails-com-whenever/</guid>
       <description>Hoje estou aqui para falar de uma coisa que quando vi pela primeira vez ignorei por parecer uma coisa boba, mas olhando melhor eu percebi que é uma idéia bem interessante. O que a gem whenever faz é manter o seu crontab de uma forma mais Ruby, e melhor, dentro da sua aplicação!
 A principio parece estranho tentar manter o crontab dentro da sua aplicação, mas ganhamos muitas vantagens com isso:</description>
     </item>
     
     <item>
       <title>Rails Summit 2009</title>
-      <link>http://pothix.com/post/rails-summit-2009/</link>
+      <link>https://pothix.com/post/rails-summit-2009/</link>
       <pubDate>Mon, 19 Oct 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/rails-summit-2009/</guid>
+      <guid>https://pothix.com/post/rails-summit-2009/</guid>
       <description>Esse é um post para relatar como foi o Rails Summit Latin America desse ano! 😀 Já começo o post com um grande #win para a organização do #railssummit, por que eles tem tomadas para todos e wi-fi liberado para todos os participantes, o que ajuda para que pessoas como eu possam ficar postando no blog durante o evento, :) Vamos ao evento!
 Rails Insurgency – Chad Fowler A palestra foi muito interessante e o Chad Fowler falou sobre como é a dificuldade de implantar uma aplicação Rails em uma grande empresa quando você tem grandes gerentes que te enchem de perguntas do tipo: “Rails faz X?</description>
     </item>
     
     <item>
       <title>Instalando gems do GitHub manualmente</title>
-      <link>http://pothix.com/post/instalando-gems-do-github-manualmente/</link>
+      <link>https://pothix.com/post/instalando-gems-do-github-manualmente/</link>
       <pubDate>Tue, 28 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/instalando-gems-do-github-manualmente/</guid>
+      <guid>https://pothix.com/post/instalando-gems-do-github-manualmente/</guid>
       <description>Esse vai ser um post rápido para relatar um problema que eu tive ( e ainda estou tendo ) para instalar gems do GitHub.
 Por algum motivo bizarro (nem tanto assim, parece ser dns, mas já tentei opendns e nada) a página http://gems.github.com não abre de maneira nenhuma, enquanto a navegação continua normal sem nenhum problema&amp;hellip; A consequência disso é que eu não consigo colocar o source do github nas minhas configurações do Rubygems.</description>
     </item>
     
     <item>
       <title>Encontro de numero 5 do Guru-sp</title>
-      <link>http://pothix.com/post/encontro-de-numero-5-do-guru-sp/</link>
+      <link>https://pothix.com/post/encontro-de-numero-5-do-guru-sp/</link>
       <pubDate>Tue, 21 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/encontro-de-numero-5-do-guru-sp/</guid>
+      <guid>https://pothix.com/post/encontro-de-numero-5-do-guru-sp/</guid>
       <description>Nesse sábado aconteceu o quinto encontro do Guru-sp! :)
 O encontro estava marcado para as 10 da manhã com uma seção para iniciantes e começou as 10:30 ( sempre atrasa um pouquinho né? hehe ), já com um bate papo legal coordenado pelo @rafaelrosafu após uma breve apresentação de todos os participantes.
 Rails para iniciantes Nessa primeira seção tiveram muitas conversas interessantes sobre algumas filosofias Rails, como:
@@ -109,10 +108,10 @@ Rails para iniciantes Nessa primeira seção tiveram muitas conversas interessan
     
     <item>
       <title>Começando a falar de Ruby</title>
-      <link>http://pothix.com/post/comecando-a-falar-de-ruby/</link>
+      <link>https://pothix.com/post/comecando-a-falar-de-ruby/</link>
       <pubDate>Mon, 13 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/comecando-a-falar-de-ruby/</guid>
+      <guid>https://pothix.com/post/comecando-a-falar-de-ruby/</guid>
       <description>Se você já conhece Ruby, ignore esse post! A idéia do post é mostrar um pouco da linguagem Ruby para pessoas que não conhecem nada sobre ela.
 Eu, claro, acho muito interessante que muita gente por aí ainda não conhece Ruby, mesmo com a grande popularização do Rails, e eu chego a ouvir coisas assim:
  &amp;ldquo;Não é você que programa naquela linguagem esquisita?&amp;rdquo;
@@ -121,10 +120,10 @@ Eu, claro, acho muito interessante que muita gente por aí ainda não conhece Ru
     
     <item>
       <title>Translated Rubylearning presentation</title>
-      <link>http://pothix.com/post/translated-rubylearning-presentation/</link>
+      <link>https://pothix.com/post/translated-rubylearning-presentation/</link>
       <pubDate>Fri, 10 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/translated-rubylearning-presentation/</guid>
+      <guid>https://pothix.com/post/translated-rubylearning-presentation/</guid>
       <description>As I promised, here goes my presentation! :)
 Finally i finished to translate all the presentation! Watched the video a lot of times, pausing and playing to write all I said translating to english. :)
 Fortunately I had a big help from my friend Victor Goff, that corrected all my grammar errors and typos.
@@ -133,29 +132,29 @@ I&amp;rsquo;m posting below all i have about the presentation, slides from Slide
     
     <item>
       <title>Rails X Django</title>
-      <link>http://pothix.com/post/rails-x-django/</link>
+      <link>https://pothix.com/post/rails-x-django/</link>
       <pubDate>Wed, 08 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/rails-x-django/</guid>
+      <guid>https://pothix.com/post/rails-x-django/</guid>
       <description>Como todos sabem eu sou do mundo Ruby/Rails (Não sou xiita mas é o que mais gosto) e de vez em quando começo a brincar com coisas diferentes para poder formar a minha própria opinião sobre o assunto. No mes de fevereiro me surgiu um projeto bem interessante para trabalhar, pessoas legais, oportunidade legal, bem interessante! O projeto seria feito em Python/Django, e achei bem interessante a idéia de poder comparar várias coisas do Rails com o Django.</description>
     </item>
     
     <item>
       <title>Ruby e Rails no mundo real</title>
-      <link>http://pothix.com/post/ruby-e-rails-no-mundo-real-overview/</link>
+      <link>https://pothix.com/post/ruby-e-rails-no-mundo-real-overview/</link>
       <pubDate>Tue, 07 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/ruby-e-rails-no-mundo-real-overview/</guid>
+      <guid>https://pothix.com/post/ruby-e-rails-no-mundo-real-overview/</guid>
       <description>Como muitos leitores do Blog sabem, eu palestrei no Evento &amp;ldquo;Ruby e Rails no mundo real&amp;rdquo;, e vou fazer um pequeno overview desse evento que eu havia divulgado aqui no blog:
 O evento foi bem interessante, bem alem do que nós havíamos planejado nas primeiras conversas do primeiro encontro do GURU-SP, e atendeu bastante as nossas expectativas por ser o primeiro. Obviamente cometemos alguns erros que vamos melhorar no próximo, como garantir que tenha Wi-Fi por exemplo!</description>
     </item>
     
     <item>
       <title>Ruby Inside Brasil</title>
-      <link>http://pothix.com/post/ruby-inside-brasil/</link>
+      <link>https://pothix.com/post/ruby-inside-brasil/</link>
       <pubDate>Tue, 31 Mar 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/ruby-inside-brasil/</guid>
+      <guid>https://pothix.com/post/ruby-inside-brasil/</guid>
       <description>Há um tempo já que eu deveria ter postado sobre o Ruby Inside Brasil, mas estou esvaziando aos poucos o meu Todo List e estou aproveitando a promoção que eles fizeram para liberar esse post tambem. :)
 O Ruby Inside Brasil é a edição autorizada do Ruby Inside mantido pelo Peter Cooper. Uma ótima iniciativa para postar bom conteúdo em português.
 A idéia inicial do projeto foi do Carlos Brando, que junto com vários outros colaboradores está contruindo o nome do Ruby Inside Brasil, e tem como idéia não apenas postar traduções dos conteúdos do Ruby Inside em inglês, mas tambem postar conteúdo próprio escritos por desenvolvedores brasileiros, cobrindo tudo que acontece relacionado a Rails e Ruby aqui Brasil!</description>
@@ -163,20 +162,20 @@ A idéia inicial do projeto foi do Carlos Brando, que junto com vários outros c
     
     <item>
       <title>Colocando sua aplicação Rails na Dreamhost</title>
-      <link>http://pothix.com/post/colocando-sua-aplicacao-rails-na-dreamhost/</link>
+      <link>https://pothix.com/post/colocando-sua-aplicacao-rails-na-dreamhost/</link>
       <pubDate>Wed, 25 Mar 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/colocando-sua-aplicacao-rails-na-dreamhost/</guid>
+      <guid>https://pothix.com/post/colocando-sua-aplicacao-rails-na-dreamhost/</guid>
       <description>Estou fazendo um pequeno site em Rails e como tinha que mostrar o andamento para um colega, aproveitei para testar como seria o Deploy desse projeto na DreamHost ( mesmo sabendo que o provedor final não será lá ), e achei muito fácil de se fazer, portanto resolvi escrever um pouco sobre o processo. :D
 Primeiramente, você precisa ter acesso SSH na sua conta. Se você ainda não tiver esse acesso apenas faça o seguinte procedimento:</description>
     </item>
     
     <item>
       <title>Ruby e Rails no mundo real</title>
-      <link>http://pothix.com/post/ruby-e-rails-no-mundo-real/</link>
+      <link>https://pothix.com/post/ruby-e-rails-no-mundo-real/</link>
       <pubDate>Fri, 06 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/ruby-e-rails-no-mundo-real/</guid>
+      <guid>https://pothix.com/post/ruby-e-rails-no-mundo-real/</guid>
       <description>Pessoal, hoje o meu post é para comentar sobre o evento do Guru-sp (Grupo de usuário Ruby de São Paulo), cujo fui um dos fundadores e participo até hoje (quem vê pensa que faz bastante tempo&amp;hellip; Apenas uns 4 meses haha).
 O evento já tem site oficial e está com as inscrições abertas!
 Pelo que estamos fazendo o evento tende a ser grande, com auditório para cerca de 200 pessoas, com direito a crachá, apostila, Coffee break e etc.</description>
@@ -184,10 +183,10 @@ Pelo que estamos fazendo o evento tende a ser grande, com auditório para cerca 
     
     <item>
       <title>Deploying a simple Merb application on Locaweb</title>
-      <link>http://pothix.com/post/deploying-a-simple-merb-application-on-locaweb/</link>
+      <link>https://pothix.com/post/deploying-a-simple-merb-application-on-locaweb/</link>
       <pubDate>Wed, 07 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/deploying-a-simple-merb-application-on-locaweb/</guid>
+      <guid>https://pothix.com/post/deploying-a-simple-merb-application-on-locaweb/</guid>
       <description>I writing this post to help my friends of Rubylearning with a little Merb application deployment on Locaweb. I&amp;rsquo;m just translating some informations that you can find here in portuguese.
 Lets get started! :D
 First open the
@@ -196,10 +195,10 @@ Domain Manager (gerenciador de domínios) on Locaweb Panel (painel da Locaweb) a
     
     <item>
       <title>Aprenda Ruby no Rubylearning</title>
-      <link>http://pothix.com/post/aprenda-ruby-no-rubylearning/</link>
+      <link>https://pothix.com/post/aprenda-ruby-no-rubylearning/</link>
       <pubDate>Fri, 07 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/aprenda-ruby-no-rubylearning/</guid>
+      <guid>https://pothix.com/post/aprenda-ruby-no-rubylearning/</guid>
       <description>Como muitos sabem, eu sou um dos professores assistentes do Rubylearning.org que oferece gratuitamente cursos de ruby!
 O Satish Talim anunciou que estão abertas as inscrições para o FORPC101-9C ( Free Online Ruby Programming Course 101 - Batch 9 Core) que é a série de cursos gratuitos sobre Ruby Core.
 Aconselho todos que querem aprender Ruby a participarem! Não se preocupe muito com seu inglês, ele não precisa estar extremamente afiado para você participar, basta que você consiga entender bem para que você participe, e caso não consiga escrever bem o pessoal pode ajudar você a se expressar para conseguir ajuda nos Foruns!</description>
@@ -207,20 +206,20 @@ Aconselho todos que querem aprender Ruby a participarem! Não se preocupe muito 
     
     <item>
       <title>Rails Summit Latin America (Day 2)</title>
-      <link>http://pothix.com/post/rails-summit-latin-america-day-2/</link>
+      <link>https://pothix.com/post/rails-summit-latin-america-day-2/</link>
       <pubDate>Wed, 22 Oct 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/rails-summit-latin-america-day-2/</guid>
+      <guid>https://pothix.com/post/rails-summit-latin-america-day-2/</guid>
       <description>Para quem não viu o meu post sobre o primeiro dia da Rails Summit, veja aqui! ;) E agora vamos ao segundo post sobre a Rails Summit! :)
 Começamos o segundo dia de Rails Summit as 8:00, e logo no começo do dia tivemos alguns probleminhas técnicos com energia elétrica que logo foi contornado com um gerador ( esse evento escala! ). Tivemos a abertura do dia com o Fabio akita comentando sobre as palestras e dando recados gerais.</description>
     </item>
     
     <item>
       <title>Rails Summit Latin America</title>
-      <link>http://pothix.com/post/rails-summit-latin-america/</link>
+      <link>https://pothix.com/post/rails-summit-latin-america/</link>
       <pubDate>Tue, 21 Oct 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://pothix.com/post/rails-summit-latin-america/</guid>
+      <guid>https://pothix.com/post/rails-summit-latin-america/</guid>
       <description>Como muitos sabem eu participei da Rails Summit Latin America e vou agora fazer uns comentários sobre o evento.
 Vou dividir em 2 posts, um para cada dia, por que o assunto ficou bem extenso.
 Minha intenção com a Rails Summit, alem de ver as ótimas palestras era de fazer um social network com a galera que eu só conhecia por nickname, e isso realmente foi difícil de fazer justamente por isso, reconhecer as pessoas pessoalmente sendo que só as conheço por nickname e avatar não é nada fácil.</description>
