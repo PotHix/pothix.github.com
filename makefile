@@ -11,7 +11,7 @@ build:
 	@hugo
 
 publish:
-	@make build
+	@make rebuild
 	@echo "Publishing"
 	@git log --oneline | head -n1 | sed -r 's/^[a-zA-Z0-9]+ //g' > public/last_commit
 	@git checkout master
