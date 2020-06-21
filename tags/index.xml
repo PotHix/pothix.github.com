@@ -8,7 +8,8 @@
     <language>en</language>
     <lastBuildDate>Sun, 26 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://pothix.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pothix.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
     
     
     <item>
@@ -20,6 +21,8 @@
       <description></description>
     </item>
     
+    
+    
     <item>
       <title>personal</title>
       <link>https://pothix.com/tags/personal/</link>
@@ -28,6 +31,8 @@
       <guid>https://pothix.com/tags/personal/</guid>
       <description></description>
     </item>
+    
+    
     
     <item>
       <title>stats</title>
@@ -38,6 +43,8 @@
       <description></description>
     </item>
     
+    
+    
     <item>
       <title>tech</title>
       <link>https://pothix.com/tags/tech/</link>
@@ -46,6 +53,8 @@
       <guid>https://pothix.com/tags/tech/</guid>
       <description></description>
     </item>
+    
+    
     
     <item>
       <title>productivity</title>
@@ -56,6 +65,8 @@
       <description></description>
     </item>
     
+    
+    
     <item>
       <title>events</title>
       <link>https://pothix.com/tags/events/</link>
@@ -64,6 +75,8 @@
       <guid>https://pothix.com/tags/events/</guid>
       <description></description>
     </item>
+    
+    
     
     <item>
       <title>tips</title>
@@ -74,6 +87,8 @@
       <description></description>
     </item>
     
+    
+    
     <item>
       <title>career</title>
       <link>https://pothix.com/tags/career/</link>
@@ -82,6 +97,8 @@
       <guid>https://pothix.com/tags/career/</guid>
       <description></description>
     </item>
+    
+    
     
     <item>
       <title>speaking</title>
@@ -92,6 +109,8 @@
       <description></description>
     </item>
     
+    
+    
     <item>
       <title>desconstruindo-a-web</title>
       <link>https://pothix.com/tags/desconstruindo-a-web/</link>
@@ -100,6 +119,8 @@
       <guid>https://pothix.com/tags/desconstruindo-a-web/</guid>
       <description></description>
     </item>
+    
+    
     
     <item>
       <title>books</title>
@@ -110,6 +131,8 @@
       <description></description>
     </item>
     
+    
+    
     <item>
       <title>python</title>
       <link>https://pothix.com/tags/python/</link>
@@ -118,6 +141,8 @@
       <guid>https://pothix.com/tags/python/</guid>
       <description></description>
     </item>
+    
+    
     
     <item>
       <title>ruby</title>
@@ -128,6 +153,8 @@
       <description></description>
     </item>
     
+    
+    
     <item>
       <title>golang</title>
       <link>https://pothix.com/tags/golang/</link>
@@ -136,6 +163,8 @@
       <guid>https://pothix.com/tags/golang/</guid>
       <description></description>
     </item>
+    
+    
     
     <item>
       <title>motorcycle</title>
@@ -146,6 +175,8 @@
       <description></description>
     </item>
     
+    
+    
     <item>
       <title>gamedev</title>
       <link>https://pothix.com/tags/gamedev/</link>
@@ -154,6 +185,8 @@
       <guid>https://pothix.com/tags/gamedev/</guid>
       <description></description>
     </item>
+    
+    
     
     <item>
       <title>games</title>
@@ -164,6 +197,8 @@
       <description></description>
     </item>
     
+    
+    
     <item>
       <title>linux</title>
       <link>https://pothix.com/tags/linux/</link>
@@ -172,6 +207,8 @@
       <guid>https://pothix.com/tags/linux/</guid>
       <description></description>
     </item>
+    
+    
     
     <item>
       <title>android</title>
@@ -182,6 +219,8 @@
       <description></description>
     </item>
     
+    
+    
     <item>
       <title>services</title>
       <link>https://pothix.com/tags/services/</link>
@@ -191,6 +230,8 @@
       <description></description>
     </item>
     
+    
+    
     <item>
       <title>vim</title>
       <link>https://pothix.com/tags/vim/</link>
@@ -199,6 +240,7 @@
       <guid>https://pothix.com/tags/vim/</guid>
       <description></description>
     </item>
+    
     
   </channel>
 </rss>

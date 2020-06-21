@@ -8,7 +8,8 @@
     <language>en</language>
     <lastBuildDate>Mon, 29 Jul 2013 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://pothix.com/tags/motorcycle/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pothix.com/tags/motorcycle/index.xml" rel="self" type="application/rss+xml" />
+    
     
     
     <item>
@@ -22,6 +23,8 @@ Informações sobre ela:
  Segundo dono Licenciada 2013 31000 km de boas estradas! Pneu dianteiro e traseiro trocados há menos de 1000km (duraram mais ou menos 29k)  Acessórios que vão com ela (além de todas as peças originais):</description>
     </item>
     
+    
+    
     <item>
       <title>Vendo intruder 125 customizada e com guidão seca suvaco</title>
       <link>https://pothix.com/post/vendo-intruder-125-customizada-e-com-guidao-seca-suvaco/</link>
@@ -32,6 +35,8 @@ Informações sobre ela:
 Algumas informações sobre ela:
  Único dono Toda a parafernalha que veio com ela quando eu comprei eu ainda tenho IPVA pago Pneu traseiro praticamente novo, não rodou nem 100km Bateria nova, 1 mês de uso Motor, protetor de corrente e paralamas frontal são preto fosco.</description>
     </item>
+    
+    
     
     <item>
       <title>Viagem de moto para Eldorado na Argentina</title>
@@ -45,6 +50,8 @@ Bem, vamos ao relato:
 Essa foi minha primeira viagem para fora do Brasil e também a minha primeira viagem grande de moto (tinha feito uma de 700km no total 350 contínuo), e é claro que com essas condições eu tava meio perdido para organizar as coisas, preocupado com a moto e etc.</description>
     </item>
     
+    
+    
     <item>
       <title>Instalando o Full Throttle no Motorola Milestone</title>
       <link>https://pothix.com/post/instalando-o-full-throttle-no-motorola-milestone/</link>
@@ -56,6 +63,8 @@ Eu tenho o jogo (o CD-ROM mesmo) ripado no meu computador, e agora só faltava e
 Procurando na internet eu achei o scummvm que emula os games da LucasArts em várias plataformas! Baixei o .</description>
     </item>
     
+    
+    
     <item>
       <title>PotHix e as motos</title>
       <link>https://pothix.com/post/pothix-e-as-motos/</link>
@@ -64,6 +73,8 @@ Procurando na internet eu achei o scummvm que emula os games da LucasArts em vá
       <guid>https://pothix.com/post/pothix-e-as-motos/</guid>
       <description>Bem, para introduzir um assunto sobre os meus Hobbies aqui no blog eu vou falar um pouco da minha história com motos. Eu nunca gostei da idéia de ter um veículo, mas na época que eu comecei a trabalhar mais longe e fazer faculdade eu estava gastando 4 horas diárias dentro de onibus, e isso estava me incomodando bastante, mesmo eu ouvindo podcasts todos os dias eu ainda considerava isso como tempo perdido.</description>
     </item>
+    
+    
     
     <item>
       <title>Viajar de moto com um grupo de motociclistas</title>
@@ -75,6 +86,7 @@ Procurando na internet eu achei o scummvm que emula os games da LucasArts em vá
 Depois que comprei o monstro (apelido da minha Dragstar 650), a vontade de viajar de moto aumentou muito, afinal, montar sobre 650cc com 40HP para andar por bairro é zuado! :P
 Aproveitei o natal e fui com uns amigos para Itanhaém, eu sozinho na moto e eles de carro.</description>
     </item>
+    
     
   </channel>
 </rss>

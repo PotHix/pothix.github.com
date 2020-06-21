@@ -8,7 +8,8 @@
     <language>en</language>
     <lastBuildDate>Thu, 15 Aug 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://pothix.com/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pothix.com/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    
     
     
     <item>
@@ -20,6 +21,7 @@
       <description>From time to time, I receive questions about my productivity workflow, so I decided to write it down here. Keep in mind it&amp;rsquo;s a living thing and may change with time, but what I&amp;rsquo;m documenting here is what I&amp;rsquo;m using right now.
 Tool As you probably know, I work for Doist for some time now, and I&amp;rsquo;m a Todoist user since 2007, so the my tool of choice is quite obvious.</description>
     </item>
+    
     
   </channel>
 </rss>

@@ -8,7 +8,8 @@
     <language>en</language>
     <lastBuildDate>Tue, 03 Dec 2013 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://pothix.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pothix.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
     
     
     <item>
@@ -21,6 +22,7 @@
 The project I&amp;rsquo;m working on is dead simple and just retrieves metrics and save on a redis server (the data will be analyzed by a different project that I&amp;rsquo;m working on). So I have 15 goroutines retrieving data constantly and I&amp;rsquo;m using just two native threads.
 I did some CPU profiling on the code using my current machine for Golang 1.</description>
     </item>
+    
     
   </channel>
 </rss>

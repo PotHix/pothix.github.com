@@ -8,7 +8,8 @@
     <language>en</language>
     <lastBuildDate>Wed, 22 Jun 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://pothix.com/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pothix.com/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    
     
     
     <item>
@@ -22,6 +23,8 @@ Atualização de 18/06/2016: Adicionando o audiobooks.com.
 Quem me conhece sabe que há muito tempo eu ouço podcasts sempre que eu posso, principalmente no caminho entre a minha casa e o trabalho. No fim do ano de 2015 eu vi a quantidade de livros que o Rafael Rosa leu e fiquei abismado. Ele leu mais de 90 livros em um ano! Tudo bem que ele estava em um período sabático, mas mesmo assim ainda é uma quantidade bem absurda de livros para se ler em um ano.</description>
     </item>
     
+    
+    
     <item>
       <title>Fluxo de leitura e o Android</title>
       <link>https://pothix.com/post/fluxo-de-leitura-e-o-android/</link>
@@ -31,6 +34,8 @@ Quem me conhece sabe que há muito tempo eu ouço podcasts sempre que eu posso, 
       <description>Quem me conhece sabe como eu sou meio doido quanto a ler coisas aleatórias (Google reader e artigos interessantes que eu acho perdidos por aí), e como eu tenho um tempo um pouco limitado, devido ao trabalho e a faculdade eu sempre tenho alguns esquemas diferentes para ler. :P
 Fluxo de leitura Depois que eu comprei um Android o meu fluxo de leitura se modificou um pouco. E está da seguinte maneira:</description>
     </item>
+    
+    
     
     <item>
       <title>Rework</title>
@@ -42,6 +47,8 @@ Fluxo de leitura Depois que eu comprei um Android o meu fluxo de leitura se modi
 Atualmente eu fiz uma compra na Amazon em conjunto com uns amigos (@vinibaggio, @hugobarauna, @cantoniodasilva), e cogitei a compra do Rework, mas depois de uma pergunta no Twitter e algumas respostas sobre a idéia do livro eu resolvi não comprar, pois parecia muito gerencial, e acabei optando por outros (Design Patterns In Ruby, Ruby Programming Language, The Pragmatic Programmer), que falarei em outros posts :P.</description>
     </item>
     
+    
+    
     <item>
       <title>BookReview: A cabeça de Steve Jobs</title>
       <link>https://pothix.com/post/bookreview-a-cabeca-de-steve-jobs/</link>
@@ -51,6 +58,8 @@ Atualmente eu fiz uma compra na Amazon em conjunto com uns amigos (@vinibaggio, 
       <description>Aqui estou eu novamente para falar de um livro que eu li nas férias! Dessa vez vou comentar sobre: &amp;ldquo;A cabeça de Steve Jobs&amp;rdquo;
 Sobre o livro O livro é bem interessante e conta como Steve Jobs fez para ter o sucesso que tem atualmente, contando não somente os acertos, mas também os erros de Steve com o mercado, o que faz com que você caia na real que ele (assim como você) é apenas uma pessoa comum e que as vezes suas decisões fantásticas levavam a uma má situação.</description>
     </item>
+    
+    
     
     <item>
       <title>BookReview: Anjos e Demônios</title>
@@ -62,6 +71,8 @@ Sobre o livro O livro é bem interessante e conta como Steve Jobs fez para ter o
 Eu particularmente gosto dos livros do Dan Brown, pois em sua grande maioria são histórias “polemicas” por misturar alguns fatos reais (que ninguem consegue provar a favor nem contra) com outros que são pura ficção.</description>
     </item>
     
+    
+    
     <item>
       <title>BookReview: High Performance Websites</title>
       <link>https://pothix.com/post/bookreview-high-performance-websites/</link>
@@ -71,6 +82,8 @@ Eu particularmente gosto dos livros do Dan Brown, pois em sua grande maioria sã
       <description>Mais um dos livros que eu consegui terminar de ler nas férias! O livro fala sobre performance de front end, como fazer as suas páginas carregarem mais rapidamente e fornecer uma melhor experiência para o usuário.
 O livro começa explicando um pouco sobre o HTTP, seus métodos e utilizações, e depois inicia as sobre as 14 regras para ter um website mais performático. Eu vou tentar mostrar um pouco de cada uma das regras que o livro aborda, mas é claro que sem os grandes detalhes, comparações e exemplos que o livro dá, que são muito amplos e interessantes para se entender, mas vou dar uma visão geral de qual é o conteúdo da regra, para te chamar para comprar o livro e ler (ou não&amp;hellip;hehhe).</description>
     </item>
+    
+    
     
     <item>
       <title>BookReview: Lord of the Rings</title>
@@ -82,6 +95,8 @@ O livro começa explicando um pouco sobre o HTTP, seus métodos e utilizações,
 Todos que me conhecem sabem como eu sou apaixonado pelo mundo de O senhor dos anéis na verdade sobre histórias medievais e o Senhor dos anéis é foda), e eu só tinha assistido o filme (mais de 10 vezes o primeiro, e milhões de vezes os outros 2) e não tinha lido o livro ainda, o que me deixava inquieto, pois eu sabia muito bem que o nível de riquezas e detalhes do livro ia muito alem do que eu podia imaginar, sem contar que muita coisa foi cortada no filme (obviamente) para que se fosse feita uma boa adaptação.</description>
     </item>
     
+    
+    
     <item>
       <title>BookReview: Pragmatic version control using Git</title>
       <link>https://pothix.com/post/bookreview-pragmatic-version-control-using-git/</link>
@@ -91,6 +106,7 @@ Todos que me conhecem sabem como eu sou apaixonado pelo mundo de O senhor dos an
       <description>Há tempos que eu estava querendo conhecer um pouco mais do Git e nos últimos dias estava procurando um livro legal, quando me deparei com esse livro. Fiz algumas perguntas para um pessoal no Twitter como pessoalmente sobre esse livro, alguns me recomendavam, outros me passavam outros também interessantes, e estava em dúvida entre comprar ou não, até que consegui emprestado e li em 3 dias.
 O livro é bem interessante, aborda desde o mais básico até o nível intermediário, não abordando conteúdos tão avançados.</description>
     </item>
+    
     
   </channel>
 </rss>

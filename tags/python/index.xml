@@ -8,7 +8,8 @@
     <language>en</language>
     <lastBuildDate>Fri, 14 Feb 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://pothix.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pothix.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
     
     
     <item>
@@ -23,6 +24,8 @@ Python
 import threading import time for i in range(5): t = threading.</description>
     </item>
     
+    
+    
     <item>
       <title>Rails X Django</title>
       <link>https://pothix.com/post/rails-x-django/</link>
@@ -31,6 +34,7 @@ import threading import time for i in range(5): t = threading.</description>
       <guid>https://pothix.com/post/rails-x-django/</guid>
       <description>Como todos sabem eu sou do mundo Ruby/Rails (Não sou xiita mas é o que mais gosto) e de vez em quando começo a brincar com coisas diferentes para poder formar a minha própria opinião sobre o assunto. No mes de fevereiro me surgiu um projeto bem interessante para trabalhar, pessoas legais, oportunidade legal, bem interessante! O projeto seria feito em Python/Django, e achei bem interessante a idéia de poder comparar várias coisas do Rails com o Django.</description>
     </item>
+    
     
   </channel>
 </rss>

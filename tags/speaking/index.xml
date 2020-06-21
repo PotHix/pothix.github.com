@@ -8,7 +8,8 @@
     <language>en</language>
     <lastBuildDate>Sat, 04 Mar 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://pothix.com/tags/speaking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pothix.com/tags/speaking/index.xml" rel="self" type="application/rss+xml" />
+    
     
     
     <item>
@@ -22,6 +23,8 @@ It was my first talk in English, so I decided to do as many rehearsals as I coul
 I had 30 minutes to present and I did it in 26. I usually speak fast and this presentation was made to be fast because I had a lot of content to show in 30 minutes.</description>
     </item>
     
+    
+    
     <item>
       <title>As escolhas do desenvolvedor</title>
       <link>https://pothix.com/post/as-escolhas-do-desenvolvedor/</link>
@@ -33,6 +36,8 @@ I had 30 minutes to present and I did it in 26. I usually speak fast and this pr
 Minha palestra se chama &amp;ldquo;As escolhas do desenvolvedor&amp;rdquo; e fala sobre as escolhas que fazemos durante nossa carreira de desenvolvedor, escolhas com linguagens, configurações de servidores, deploy, equipe, testes e etc.</description>
     </item>
     
+    
+    
     <item>
       <title>Game Network Programming</title>
       <link>https://pothix.com/post/game-network-programming/</link>
@@ -42,6 +47,8 @@ Minha palestra se chama &amp;ldquo;As escolhas do desenvolvedor&amp;rdquo; e fal
       <description>English Abstract: This post was about my presentation with Diego Souza (vulgo Marciano) about Game network programming. I was studying and reading Quake source just for fun and decided to learn more about game networking in general, so I decided to prepare this presentation to show other people what I’ve learned. You can see the full video (portuguese only, sorry) and the slides below.
 Portuguese: Eu e o Diego Souza (vulgo Marciano) fizemos uma palestra sobre Game network programming tanto na Locaweb como no Guru-SP.</description>
     </item>
+    
+    
     
     <item>
       <title>Plaev, HTML5 e Skeleton-jigsaw</title>
@@ -54,6 +61,8 @@ Eu e o Rafael Masoni trabalhamos nesse jogo durante quase 1 ano (começamos a fa
 Vou descrever um pouco do que fizemos e como organizamos, mas vai ser apenas um resumo do que falamos na nossa palestra no Guru-SP:</description>
     </item>
     
+    
+    
     <item>
       <title>Palestra sobre implementacoes paralelas</title>
       <link>https://pothix.com/post/palestra-sobre-implementacoes-paralelas/</link>
@@ -63,6 +72,8 @@ Vou descrever um pouco do que fizemos e como organizamos, mas vai ser apenas um 
       <description>Esse post ficou como draft desde que eu palestrei sobre implementações paralelas, e agora que eu lembrei dele decidi publicar! :)
 Bem, como eu disse, eu paletrei sobre implementacoes paralelas tanto na Locaweb como no Guru-SP. A idea da palestra vem de um post do John Carmack sobre implementações paralelas, e nesse post ele comenta sobre todos os tipos de implementação paralela que ele já utilizou e as que mais funcionaram para cada tipo de caso.</description>
     </item>
+    
+    
     
     <item>
       <title>Palestra sobre Gamedev, Javascript e HTML5</title>
@@ -74,6 +85,8 @@ Bem, como eu disse, eu paletrei sobre implementacoes paralelas tanto na Locaweb 
 A grande maioria das pessoas que estavam assistindo a palestra não eram desenvolvedores, e estavam começando a estudar agora, e acho que por isso não surgiram muitas perguntas sobre o assunto, mesmo eu evitando colocar código.</description>
     </item>
     
+    
+    
     <item>
       <title>Palestra sobre Vim</title>
       <link>https://pothix.com/post/palestra-sobre-vim/</link>
@@ -84,6 +97,7 @@ A grande maioria das pessoas que estavam assistindo a palestra não eram desenvo
 Primeiramente, já começo com uma desculpa, por que já faz mais de 2 semanas que palestrei e só agora estou fazendo esse post. :(
 Foi bem legal palestrar para uma galera que já conhecia ao menos um pouco do editor. Quando eu estava planejando o que eu ia falar eu fiquei com uma grande dúvida de qual seria a minha linha de apresentação, por que eu não sabia quantos já conheciam o editor, portanto eu poderia chegar falando de coisas avançadas e ninguem entenderia nada, ou pelo contrário, se muitos conhecessem e eu chegasse falando de coisas básicas demais a palestra seria um saco.</description>
     </item>
+    
     
   </channel>
 </rss>

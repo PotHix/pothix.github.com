@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Places on PotHix</title>
+    <link>https://pothix.com/places/</link>
+    <description>Recent content in Places on PotHix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 25 Mar 2019 08:45:26 -0300</lastBuildDate>
+    
+    <atom:link href="https://pothix.com/places/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    
+  </channel>
+</rss>

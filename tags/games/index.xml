@@ -8,7 +8,8 @@
     <language>en</language>
     <lastBuildDate>Wed, 31 Oct 2012 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://pothix.com/tags/games/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pothix.com/tags/games/index.xml" rel="self" type="application/rss+xml" />
+    
     
     
     <item>
@@ -21,6 +22,8 @@
 Depois de sair da faculdade eu sempre penso em tentar juntar aquele pessoal novamente, ou até mesmo juntar outras pessoas para poder jogar, mas eu acho difícil conseguir contato com o aquele pessoal novamente e a galera que eu tenho contato hoje geralmente não sabem jogar e tampouco se importam em aprender, ainda mais quando sabem que o jogo só tem graça quando está valendo dinheiro.</description>
     </item>
     
+    
+    
     <item>
       <title>Instalando o Full Throttle no Motorola Milestone</title>
       <link>https://pothix.com/post/instalando-o-full-throttle-no-motorola-milestone/</link>
@@ -31,6 +34,8 @@ Depois de sair da faculdade eu sempre penso em tentar juntar aquele pessoal nova
 Eu tenho o jogo (o CD-ROM mesmo) ripado no meu computador, e agora só faltava emular ele.
 Procurando na internet eu achei o scummvm que emula os games da LucasArts em várias plataformas! Baixei o .</description>
     </item>
+    
+    
     
     <item>
       <title>Meme: Game design ao Extremo</title>
@@ -43,6 +48,8 @@ A idéia do post é mostrar alguns games interessantes e falar a sua opinião so
  Liste quantos jogos em Flash quiser. Preferencialmente aqueles que, por algum motivo de design chamaram sua atenção. Diga o que desses jogos te chamou a atenção, seja em quantas linhas quiser.</description>
     </item>
     
+    
+    
     <item>
       <title>GameReview: SpiderMan - Friend or Foe</title>
       <link>https://pothix.com/post/gamereview-spiderman-friend-or-foe/</link>
@@ -52,6 +59,8 @@ A idéia do post é mostrar alguns games interessantes e falar a sua opinião so
       <description>Aqui estou eu com mais um GameReview de um jogo que eu tenho jogado ultimamente no PSP e finalmente no sábado as 02:15 eu consegui terminar, o Spiderman - Friend or foe!
 Como quem já me conhece sabe, eu sou um fã de homem aranha! Não aquele fã que tem todos os quadrinhos ou que fica comprando um monte de coisas, mas eu sempre gostei das histórias do aranha e sempre que possível comprava ou pegava emprestado algumas séries de quadrinhos para ler, ou jogos para jogar, ou desenhos/filmes para assistir, enfim&amp;hellip; Homem Aranha FTW!</description>
     </item>
+    
+    
     
     <item>
       <title>GameReview: Diablo</title>
@@ -63,6 +72,8 @@ Como quem já me conhece sabe, eu sou um fã de homem aranha! Não aquele fã qu
 Quando o Diablo I foi lançado eu mal sabia o que era ter um computador, e a única coisa que eu podia fazer era ver um colega meu com o jogo original jogando enquanto eu ficava babando&amp;hellip;.</description>
     </item>
     
+    
+    
     <item>
       <title>GameReview: Need For Speed - Most Wanted</title>
       <link>https://pothix.com/post/gamereview-need-for-speed-most-wanted/</link>
@@ -72,6 +83,8 @@ Quando o Diablo I foi lançado eu mal sabia o que era ter um computador, e a ún
       <description>Como eu disse no ultimo post agora eu vou fazer uns pomsts sobre uns jogos que eu estou voltando a jogar no PSP, dizendo o que eu achei, como foi jogar ele, defeitos, qualidades, gosto pessoal e tudo mais!
 Primeiramente vou falar sobre o gosto pessoal. Eu nunca fui muito fã de jogos de corrida, foram poucos que realmente me fizeram jogar até o final, e esse realmente foi um deles!</description>
     </item>
+    
+    
     
     <item>
       <title>Voltando a ser um gamer</title>
@@ -84,6 +97,7 @@ Com esse post eu pretendo introduzir uma nova série (não achei palavra melhor)
 Vou contar um pouco do título &amp;ldquo;Voltando a ser um gamer&amp;rdquo;.
 Eu sempre gostei de jogar vídeo games desde pequeno, a ponto da minha mãe dizer que eu só podia jogar 3 horas por dia&amp;hellip; hahaha&amp;hellip; Tive poucos vídeo games pois meus pais não tinham tanto dinheiro assim para ficar comprando novos, portanto se eu quisesse algo novo eu tinha que me virar e comprar.</description>
     </item>
+    
     
   </channel>
 </rss>

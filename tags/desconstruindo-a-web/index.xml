@@ -8,7 +8,8 @@
     <language>en</language>
     <lastBuildDate>Mon, 03 Oct 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://pothix.com/tags/desconstruindo-a-web/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pothix.com/tags/desconstruindo-a-web/index.xml" rel="self" type="application/rss+xml" />
+    
     
     
     <item>
@@ -21,6 +22,7 @@
 Como muitos já sabem, eu lancei um livro chamado Desconstruindo a web pela Casa do Código.
 Eu sou meio maluco (retardado, segundo o George Guimarães) por produtividade e organização pessoal e resolvi escrever sobre como foi o processo e mostrar todas as métricas que eu coletei.</description>
     </item>
+    
     
   </channel>
 </rss>

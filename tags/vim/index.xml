@@ -8,7 +8,8 @@
     <language>en</language>
     <lastBuildDate>Mon, 29 Mar 2010 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://pothix.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pothix.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    
     
     
     <item>
@@ -22,6 +23,8 @@ Primeiramente, já começo com uma desculpa, por que já faz mais de 2 semanas q
 Foi bem legal palestrar para uma galera que já conhecia ao menos um pouco do editor. Quando eu estava planejando o que eu ia falar eu fiquei com uma grande dúvida de qual seria a minha linha de apresentação, por que eu não sabia quantos já conheciam o editor, portanto eu poderia chegar falando de coisas avançadas e ninguem entenderia nada, ou pelo contrário, se muitos conhecessem e eu chegasse falando de coisas básicas demais a palestra seria um saco.</description>
     </item>
     
+    
+    
     <item>
       <title>Um pouco sobre o Vim</title>
       <link>https://pothix.com/post/um-pouco-sobre-o-vim/</link>
@@ -31,6 +34,7 @@ Foi bem legal palestrar para uma galera que já conhecia ao menos um pouco do ed
       <description>Aqui começa uma série de artigos sobre por que eu gosto de usar o VIM para programar.
 Uma das primeiras coisas que eu gostaria de comentar é sobre a quebra de paradigma que você deve ter quando começa a usar um editor como o vim que tem vários modos de operação, ou seja, não é mais apenas digitar, pois cada modo de operação tem o seu modo de agir. Os modos de operação são os seguintes:</description>
     </item>
+    
     
   </channel>
 </rss>

@@ -8,7 +8,8 @@
     <language>en</language>
     <lastBuildDate>Fri, 22 Nov 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://pothix.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pothix.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    
     
     
     <item>
@@ -22,6 +23,8 @@ This post will show the step by step I did to submit my first pull request to th
 If you want to go straight to the step by step, without any introduction, jump to My step by step to the first contribution.</description>
     </item>
     
+    
+    
     <item>
       <title>How was Rust LATAM 2019</title>
       <link>https://pothix.com/post/how-was-rust-latam-2019/</link>
@@ -31,6 +34,8 @@ If you want to go straight to the step by step, without any introduction, jump t
       <description>For those who don&amp;rsquo;t know, I&amp;rsquo;m a proud core organizer of the Rust LATAM conference. 🎉 The conference happened on March 29 and 30, and this post describes how it was to organize the whole thing.
 Even with the small problems we had (as any other big conference), the feedback we received so far were very positive. We were able to bring amazing speakers to the conference, which brought high-level content even for beginners.</description>
     </item>
+    
+    
     
     <item>
       <title>PotHix ❤ Doist</title>
@@ -43,6 +48,8 @@ As I mentioned on this post (in pt-BR) I left the company I was working for the 
 Some time ago a friend asked me why I joined Doist and I realized it&amp;rsquo;s kind of a love story so I decided to write the post.</description>
     </item>
     
+    
+    
     <item>
       <title>My Archlinux setup</title>
       <link>https://pothix.com/post/my-archlinux-setup/</link>
@@ -52,6 +59,8 @@ Some time ago a friend asked me why I joined Doist and I realized it&amp;rsquo;s
       <description>I was playing with Archlinux in the last 3 or 4 years and last year I decided to reboot my configuration files and start using Xfce.
 Talking to Fabio Akita about my Archlinux tunning, I heard that I should be posting about that. That&amp;rsquo;s true, so I decided to start writing it. I wrote in March and it was in draft form since then, so it&amp;rsquo;s time to release it. :)</description>
     </item>
+    
+    
     
     <item>
       <title>Wordpress to Middleman, to Hugo using github-pages and HTTPS</title>
@@ -64,6 +73,8 @@ But this time I decided to post about the whole transition, since I started my b
 I needed a blog at the time but could not spend time creating something, I just wanted to &amp;ldquo;buy a blog&amp;rdquo; and write. Dreamhost was an awesome service for that. In one hour I bought a domain, installed a Wordpress via one click install and set up my own email via Google apps (at the time it was free).</description>
     </item>
     
+    
+    
     <item>
       <title>FOSDEM survival guide</title>
       <link>https://pothix.com/post/fosdem-survival-guide/</link>
@@ -73,6 +84,8 @@ I needed a blog at the time but could not spend time creating something, I just 
       <description>TL;DR: It was my first time at FOSDEM and it took some time to feel comfortable, this post may help newcomers.
 As I mentioned in my previous post, I spoke at FOSDEM this year. It was my first time there (in the whole Europe, btw!) and it took some time to get used to the way the event goes. This post will show some tips that may help FOSDEM newcomers and maybe some veterans as well.</description>
     </item>
+    
+    
     
     <item>
       <title>My presentation at FOSDEM 2017</title>
@@ -85,6 +98,8 @@ It was my first talk in English, so I decided to do as many rehearsals as I coul
 I had 30 minutes to present and I did it in 26. I usually speak fast and this presentation was made to be fast because I had a lot of content to show in 30 minutes.</description>
     </item>
     
+    
+    
     <item>
       <title>Experiences of almost two years using Colemak</title>
       <link>https://pothix.com/post/experiences-of-almost-two-years-using-colemak/</link>
@@ -95,6 +110,8 @@ I had 30 minutes to present and I did it in 26. I usually speak fast and this pr
 For those who don&amp;rsquo;t know Colemak, it is a keyboard layout created to make the most used keys stay in the home row as well as make you swipe between your right and left hand.
 There is a keyboard layouts heatmap for you to understand the benefits of using a keyboard layout that was designed to help you to be comfortable and fast when typing instead of one that helping the operator to not jam the typewriter.</description>
     </item>
+    
+    
     
     <item>
       <title>Ruby, Python e native threads</title>
@@ -108,6 +125,8 @@ Python
 import threading import time for i in range(5): t = threading.</description>
     </item>
     
+    
+    
     <item>
       <title>Golang and 1.2 version performance improvement</title>
       <link>https://pothix.com/post/golang-and-1-2-version-performance-improvement/</link>
@@ -118,6 +137,8 @@ import threading import time for i in range(5): t = threading.</description>
 The project I&amp;rsquo;m working on is dead simple and just retrieves metrics and save on a redis server (the data will be analyzed by a different project that I&amp;rsquo;m working on). So I have 15 goroutines retrieving data constantly and I&amp;rsquo;m using just two native threads.
 I did some CPU profiling on the code using my current machine for Golang 1.</description>
     </item>
+    
+    
     
     <item>
       <title>Plaev, HTML5 e Skeleton-jigsaw</title>
@@ -130,6 +151,8 @@ Eu e o Rafael Masoni trabalhamos nesse jogo durante quase 1 ano (começamos a fa
 Vou descrever um pouco do que fizemos e como organizamos, mas vai ser apenas um resumo do que falamos na nossa palestra no Guru-SP:</description>
     </item>
     
+    
+    
     <item>
       <title>Javascript and Gamedev discussion</title>
       <link>https://pothix.com/post/javascript-and-gamedev-discussion/</link>
@@ -140,6 +163,8 @@ Vou descrever um pouco do que fizemos e como organizamos, mas vai ser apenas um 
 Dominic is trying to show that Javascript is not a good language to develop the next AAA game but it is awesome to make simple games and have it easily available to the world.
 We have a lot of negative comments on the post (I really don&amp;rsquo;t know why) but some good ones too.</description>
     </item>
+    
+    
     
     <item>
       <title>Kernel compiling</title>
@@ -153,6 +178,8 @@ I have a hardware that works better with the newer kernels. I really want to und
 How to proceed There are some steps to follow when compiling a new kernel for your Linux box:</description>
     </item>
     
+    
+    
     <item>
       <title>Menos mac e mais Linux</title>
       <link>https://pothix.com/post/menos-mac-e-mais-linux/</link>
@@ -162,6 +189,8 @@ How to proceed There are some steps to follow when compiling a new kernel for yo
       <description>TL; DR Usei mac por mais de 6 meses e decidi voltar ao Linux. Na minha opinião mac não é ruim, mas Linux é melhor.
 A idéia desse post não é fazer um flame war, muito menos justificar porque eu voltei para o Linux (afinal, eu não devo nada pra ninguém), e sim falar um pouco do que eu vi de vantagens e desvantagens no Mac e porque eu resolvi voltar a usar Linux.</description>
     </item>
+    
+    
     
     <item>
       <title>Aprendendo com o código do Quake</title>
@@ -174,6 +203,8 @@ Os review foram feitos por Fabien Anglard e estão todos disponíveis no site de
 O primeiro artigo que eu li foi sobre o code review do código do Quake 2 de 1997.</description>
     </item>
     
+    
+    
     <item>
       <title>Palestra sobre implementacoes paralelas</title>
       <link>https://pothix.com/post/palestra-sobre-implementacoes-paralelas/</link>
@@ -183,6 +214,8 @@ O primeiro artigo que eu li foi sobre o code review do código do Quake 2 de 199
       <description>Esse post ficou como draft desde que eu palestrei sobre implementações paralelas, e agora que eu lembrei dele decidi publicar! :)
 Bem, como eu disse, eu paletrei sobre implementacoes paralelas tanto na Locaweb como no Guru-SP. A idea da palestra vem de um post do John Carmack sobre implementações paralelas, e nesse post ele comenta sobre todos os tipos de implementação paralela que ele já utilizou e as que mais funcionaram para cada tipo de caso.</description>
     </item>
+    
+    
     
     <item>
       <title>XMPP e Ruby</title>
@@ -194,6 +227,8 @@ Bem, como eu disse, eu paletrei sobre implementacoes paralelas tanto na Locaweb 
 Nessa talk eu mostrei como criar dois bots simples e como subir eles na sua conta do Gmail. A Gem blather tem uma DSL bem legal para trabalhar com XMPP em Ruby, mas nos meus testes funcionou muito melhor com ruby 1.9.3 do que com 1.</description>
     </item>
     
+    
+    
     <item>
       <title>Sempre aprender coisas diferentes</title>
       <link>https://pothix.com/post/sempre-aprender-coisas-diferentes/</link>
@@ -203,6 +238,8 @@ Nessa talk eu mostrei como criar dois bots simples e como subir eles na sua cont
       <description>Estou começando a fazer meu TCC agora e resolvi brincar um pouco com LaTeX. Ja faz um bom tempo que eu queria brincar um pouco com ele, entender melhor como funciona e por que tanta gente usa ele e acha legal.
 Eu tive um pouco de experiência com LaTeX quando estava ajudando a escrever o vimbook, mas não tive contato o suficiente por que entrei no meio do projeto e já estava tudo pronto, foi só seguir a estrutura.</description>
     </item>
+    
+    
     
     <item>
       <title>Organizando os Feeds do Blog</title>
@@ -214,6 +251,8 @@ Eu tive um pouco de experiência com LaTeX quando estava ajudando a escrever o v
 Agora eu gostaria de além de escrever sobre coisas técnicas, escrever também sobre os meus outros hobbies, como Motos, Shows e etc. Alguns deles eu até já escrevia um pouco antes, mas nem tanto, e isso já me incomodava um pouco, por que eu sei bem que várias pessoas que seguem o feed não gostam das mesmas coisas que eu.</description>
     </item>
     
+    
+    
     <item>
       <title>Meu ambiente de desenvolvimento</title>
       <link>https://pothix.com/post/meu-ambiente-de-desenvolvimento/</link>
@@ -223,6 +262,8 @@ Agora eu gostaria de além de escrever sobre coisas técnicas, escrever também 
       <description>Fui convidado pelo @jtadeulopes e pelo @qmx para participar do meme sobre ambientes de desenvolvimento, então estou fazendo esse post para falar um pouco mais sobre o meu.
 Sistema Operacional Já usei Windows um bom tempo atrás, e agora tenho um pós-conceito para usar (preconceito é só quando vc não conhece), não vejo nenhuma vantagem para utilizar ele e acho que não vale o preço (tenho um Vista e um Win7 originais que ganhei na compra do notebook e na CampusParty e nem uso).</description>
     </item>
+    
+    
     
     <item>
       <title>Semana de eventos (#rubyconfbr, #adl e #gddbr)</title>
@@ -234,6 +275,8 @@ Sistema Operacional Já usei Windows um bom tempo atrás, e agora tenho um pós-
 Rubyconf Brasil A Rubyconf Brasil é o Antigo Rails Summit Latin America, que acontecia no centro de convenções do Anhembi, e agora mudou sua localização para o centro de convenções Frei Caneca, para diminuir os custos e prover um local mais acessível para os participantes (próximo ao metrô e a avenida paulista).</description>
     </item>
     
+    
+    
     <item>
       <title>Conto da migração para Rails 3</title>
       <link>https://pothix.com/post/conto-da-migracao-para-rails-3/</link>
@@ -243,6 +286,8 @@ Rubyconf Brasil A Rubyconf Brasil é o Antigo Rails Summit Latin America, que ac
       <description>Nesse post eu vou falar um pouco de como foi atualizar a aplicação que eu trabalho atualmente para Rails3.
 Em uma segunda feira eu tive a brilhante ideia de aproveitar que as tasks que eu estava fazendo estavam dependentes de algumas coisas que ainda não estavam feitas, e resolvi começar a atualizar a aplicação para Rails3 só para saber o trabalho que ia dar, e no final do dia eu já tinha feito todas as alterações necessárias para o boot da aplicação e para rodar a suite de testes (não fazer os testes passar, apenas rodar!</description>
     </item>
+    
+    
     
     <item>
       <title>Motorola Milestone e Android</title>
@@ -255,6 +300,8 @@ Primeiramente, gostaria de dizer que o Android é um sistema muito bom, e estou 
 Milestone É um aparelho bem legal e na minha opinião é o Android mais &amp;ldquo;custo X benefício&amp;rdquo; do Brasil.</description>
     </item>
     
+    
+    
     <item>
       <title>FISL11</title>
       <link>https://pothix.com/post/fisl11/</link>
@@ -266,6 +313,8 @@ Para quem ainda não sabe, eu estou trabalhando na Locaweb desde o começo deste
 Esperava um conteúdo técnico melhor no FISL, e algumas palestras (ou a falta de boas palestras) me decepcionou um pouco, mas pelo que eu fiquei sabendo foi decisão do público os temas, então ficou meio incontrolável.</description>
     </item>
     
+    
+    
     <item>
       <title>Serviços legais de Março</title>
       <link>https://pothix.com/post/servicos-legais-de-marco/</link>
@@ -276,6 +325,8 @@ Esperava um conteúdo técnico melhor no FISL, e algumas palestras (ou a falta d
 O meu ultimo post foi sobre o Yahoo Open Hack 2009, e lá eu pude conhecer muita coisa legal, e ver outras nascendo de projetos lá mesmo! Por isso tenho informações legais para essa série novamente!</description>
     </item>
     
+    
+    
     <item>
       <title>Linux, Vim, Screen e Pair programming!</title>
       <link>https://pothix.com/post/linux-vim-screen-e-pair-programming/</link>
@@ -285,6 +336,8 @@ O meu ultimo post foi sobre o Yahoo Open Hack 2009, e lá eu pude conhecer muita
       <description>Aqui estou eu mais uma vez para falar mais uma das maluquices que eu fiz um bom tempo atrás mas não tive tempo de postar.
 Primeiramente eu vou falar o que muita gente já falou muito bem, que é sobre screen e pair programming. Mas vou dizer como funcionou para mim. Alguns posts que eu li antes e depois de começar a brincar com screen e pair programming, e que eu gostei:</description>
     </item>
+    
+    
     
     <item>
       <title>Palestra sobre Vim</title>
@@ -297,6 +350,8 @@ Primeiramente, já começo com uma desculpa, por que já faz mais de 2 semanas q
 Foi bem legal palestrar para uma galera que já conhecia ao menos um pouco do editor. Quando eu estava planejando o que eu ia falar eu fiquei com uma grande dúvida de qual seria a minha linha de apresentação, por que eu não sabia quantos já conheciam o editor, portanto eu poderia chegar falando de coisas avançadas e ninguem entenderia nada, ou pelo contrário, se muitos conhecessem e eu chegasse falando de coisas básicas demais a palestra seria um saco.</description>
     </item>
     
+    
+    
     <item>
       <title>Yahoo Open Hack 2010</title>
       <link>https://pothix.com/post/yahoo-open-hack-2010/</link>
@@ -306,6 +361,8 @@ Foi bem legal palestrar para uma galera que já conhecia ao menos um pouco do ed
       <description>Para quem ainda não soube, no final de semana passado rolou o Yahoo Open Hack Day 2010! O intuito do evento é juntar uma grande quantidade de Hackers para criar serviços úteis utilizando informações públicas e de preferência utilizar as API&amp;rsquo;s do Yahoo (havia premios para alguns hacks com elas).
 Uma das coisas legais do evento é que nada é proibido com relação aos Hacks, ou seja, você pode fazer um Hack com as ferramentas do Google (não vai concorrer aos premios, mas poderá apresentar lá e tudo mais), todas as linguagens de programação estão permitidas, não somente hacks web eram permitidos, o que deixou a criatividade ir longe.</description>
     </item>
+    
+    
     
     <item>
       <title>Serviços legais de Janeiro</title>
@@ -318,6 +375,8 @@ OpenDNS Estranho eu falar de OpenDNS não? Já existe faz tanto tempo e muita ge
 Se você se cadastrar no OpenDNS você pode configurar muitas coisas legais, como por exemplo a página de endereço não encontrado, ou a página de tentativa de fishing, entre outras.</description>
     </item>
     
+    
+    
     <item>
       <title>Crontab dentro da sua aplicação rails com whenever</title>
       <link>https://pothix.com/post/crontab-dentro-da-sua-aplicacao-rails-com-whenever/</link>
@@ -327,6 +386,8 @@ Se você se cadastrar no OpenDNS você pode configurar muitas coisas legais, com
       <description>Hoje estou aqui para falar de uma coisa que quando vi pela primeira vez ignorei por parecer uma coisa boba, mas olhando melhor eu percebi que é uma idéia bem interessante. O que a gem whenever faz é manter o seu crontab de uma forma mais Ruby, e melhor, dentro da sua aplicação!
 A principio parece estranho tentar manter o crontab dentro da sua aplicação, mas ganhamos muitas vantagens com isso:</description>
     </item>
+    
+    
     
     <item>
       <title>Dev In Sampa</title>
@@ -338,6 +399,8 @@ A principio parece estranho tentar manter o crontab dentro da sua aplicação, m
 Perdi um pouco a hora, portanto não assisti o começo da palestra do José Valim, que por sinal é um assunto que muito me interessa, portanto recorri aos vídeos do @agaelebe para assistir o comecinho.</description>
     </item>
     
+    
+    
     <item>
       <title>Serviços legais de dezembro</title>
       <link>https://pothix.com/post/servicos-legais-de-dezembro/</link>
@@ -346,6 +409,8 @@ Perdi um pouco a hora, portanto não assisti o começo da palestra do José Vali
       <guid>https://pothix.com/post/servicos-legais-de-dezembro/</guid>
       <description>Infelizmente não consegui postar sobre os serviços legais do mes de novembro por que eu estava cheio de coisas para fazer ( devido as provas de fim de ano, e meu curso é anual ), portanto não consegui agregar nada para novembro, e muito menos tempo para postar. Mas agora estou eu aqui denovo para postar sobre o que eu achei de legal na internet nesse meio tempo! E lá vamos nós:</description>
     </item>
+    
+    
     
     <item>
       <title>Rails Summit 2009</title>
@@ -356,6 +421,8 @@ Perdi um pouco a hora, portanto não assisti o começo da palestra do José Vali
       <description>Esse é um post para relatar como foi o Rails Summit Latin America desse ano! 😀 Já começo o post com um grande #win para a organização do #railssummit, por que eles tem tomadas para todos e wi-fi liberado para todos os participantes, o que ajuda para que pessoas como eu possam ficar postando no blog durante o evento, :) Vamos ao evento!
 Rails Insurgency – Chad Fowler A palestra foi muito interessante e o Chad Fowler falou sobre como é a dificuldade de implantar uma aplicação Rails em uma grande empresa quando você tem grandes gerentes que te enchem de perguntas do tipo: “Rails faz X?</description>
     </item>
+    
+    
     
     <item>
       <title>Serviços legais de outubro</title>
@@ -369,6 +436,8 @@ yUML&amp;lt; O yUML é um serviço para se criar UML facilmente utilizando apena
 Gliffy Continuando em diagramas e UML temos o Gliffy que também faz uma grande quantidade de diagramas diferentes.</description>
     </item>
     
+    
+    
     <item>
       <title>Instalando e configurando o monit</title>
       <link>https://pothix.com/post/instalando-e-configurando-o-monit/</link>
@@ -379,6 +448,8 @@ Gliffy Continuando em diagramas e UML temos o Gliffy que também faz uma grande 
 Se você usa Ubuntu, você pode fazer download do Monit por apt-get:
 sudo apt-get install monit  Se você não usa Ubuntu ou quer a ultima versão do Monit, então faça download do tar.</description>
     </item>
+    
+    
     
     <item>
       <title>Serviços legais de setembro</title>
@@ -391,6 +462,8 @@ Creately O Creately é um site para se fazer diagramas! Eu estava procurando por
 Com ele é possível fazer uma grande quantidade coisas, como diagramas de classe, fluxograma, esqueletos de layout e mais um monte de coisas legais e depois exportar para alguns formatos.</description>
     </item>
     
+    
+    
     <item>
       <title>Um pouco sobre o Vim</title>
       <link>https://pothix.com/post/um-pouco-sobre-o-vim/</link>
@@ -400,6 +473,8 @@ Com ele é possível fazer uma grande quantidade coisas, como diagramas de class
       <description>Aqui começa uma série de artigos sobre por que eu gosto de usar o VIM para programar.
 Uma das primeiras coisas que eu gostaria de comentar é sobre a quebra de paradigma que você deve ter quando começa a usar um editor como o vim que tem vários modos de operação, ou seja, não é mais apenas digitar, pois cada modo de operação tem o seu modo de agir. Os modos de operação são os seguintes:</description>
     </item>
+    
+    
     
     <item>
       <title>GameJam</title>
@@ -411,6 +486,8 @@ Uma das primeiras coisas que eu gostaria de comentar é sobre a quebra de paradi
 Nesse evento os participantes tinham que formar equipes de até 4 pessoas e fazer um jogo em 48 horas, sendo que o tema ao qual o jogo devia responder só seria passado na sexta feira as 19, e teríamos até as 19 horas do domingo para entregar o jogo pronto utilizando qualquer plataforma para desenvolvimento.</description>
     </item>
     
+    
+    
     <item>
       <title>Instalando o Allegro 4.2.2 no Linux x86</title>
       <link>https://pothix.com/post/instalando-o-allegro-4-2-2-no-linux-x86/</link>
@@ -420,6 +497,8 @@ Nesse evento os participantes tinham que formar equipes de até 4 pessoas e faze
       <description>Como mencionei no meu ultimo post eu parcicipei do GameJam do Itaú cultural e desenvolvi um jogo com Allegro. Agora com o jogo pronto estou criando arquivos executáveis para divulgar e tinha me esquecido da diferença de arquitetura no Linux, assim compilei apenas para meu Linux x64.
 Quando me dei conta que não funcionou no computador do trabalho por que eu tinha um binário x64, eu tive que instalar o Allegro no computador de lá para poder fazer funcionar também em Linux x86.</description>
     </item>
+    
+    
     
     <item>
       <title>Serviços legais de Agosto</title>
@@ -431,6 +510,8 @@ Quando me dei conta que não funcionou no computador do trabalho por que eu tinh
 TypingWeb O TypingWeb é um serviço web que possui vários tutoriais para aprender a digitar corretamente. Eu estou treinando digitação já faz um tempo utilizando o TypeRacing e um programinha para Linux chamado gtypist que tambem é bem legal para treinar. Achei esse site fantástico, e o mais legal de tudo é que tem uma versão em português, então eu posso passar para outras pessoas (como a minha mãe por exemplo) que tambem querem aprender a digitar melhor mas não se dão bem com o inglês.</description>
     </item>
     
+    
+    
     <item>
       <title>BookReview: High Performance Websites</title>
       <link>https://pothix.com/post/bookreview-high-performance-websites/</link>
@@ -441,6 +522,8 @@ TypingWeb O TypingWeb é um serviço web que possui vários tutoriais para apren
 O livro começa explicando um pouco sobre o HTTP, seus métodos e utilizações, e depois inicia as sobre as 14 regras para ter um website mais performático. Eu vou tentar mostrar um pouco de cada uma das regras que o livro aborda, mas é claro que sem os grandes detalhes, comparações e exemplos que o livro dá, que são muito amplos e interessantes para se entender, mas vou dar uma visão geral de qual é o conteúdo da regra, para te chamar para comprar o livro e ler (ou não&amp;hellip;hehhe).</description>
     </item>
     
+    
+    
     <item>
       <title>Instalando gems do GitHub manualmente</title>
       <link>https://pothix.com/post/instalando-gems-do-github-manualmente/</link>
@@ -450,6 +533,8 @@ O livro começa explicando um pouco sobre o HTTP, seus métodos e utilizações,
       <description>Esse vai ser um post rápido para relatar um problema que eu tive ( e ainda estou tendo ) para instalar gems do GitHub.
 Por algum motivo bizarro (nem tanto assim, parece ser dns, mas já tentei opendns e nada) a página http://gems.github.com não abre de maneira nenhuma, enquanto a navegação continua normal sem nenhum problema&amp;hellip; A consequência disso é que eu não consigo colocar o source do github nas minhas configurações do Rubygems.</description>
     </item>
+    
+    
     
     <item>
       <title>Encontro de numero 5 do Guru-sp</title>
@@ -463,6 +548,8 @@ Rails para iniciantes Nessa primeira seção tiveram muitas conversas interessan
  DRY REST TDD Test all the Fucking Time Skynny Controllers and Fat Models  e mais algumas outras coisas bem interessantes que fomentaram uma ótima discussão sobre quais os melhores padrões para se seguir quando se constrói uma aplicação Rails (sim, falamos tomando como base uma aplicação Rails), como utilizar plugins como o ResourceController (que tem seus prós e contras), manter seus scripts num lugar diferente da pasta scripts, que é a pasta padrão para scripts &amp;ldquo;internos&amp;rdquo; do Rails e tentar centralizar em uma pasta dentro de lib, além de usar Rake sempre que possível para essas tarefas ficarem organizadas e de fácil acesso.</description>
     </item>
     
+    
+    
     <item>
       <title>BookReview: Pragmatic version control using Git</title>
       <link>https://pothix.com/post/bookreview-pragmatic-version-control-using-git/</link>
@@ -473,6 +560,8 @@ Rails para iniciantes Nessa primeira seção tiveram muitas conversas interessan
 O livro é bem interessante, aborda desde o mais básico até o nível intermediário, não abordando conteúdos tão avançados.</description>
     </item>
     
+    
+    
     <item>
       <title>Como desabilitar o beep no Ubuntu</title>
       <link>https://pothix.com/post/como-desabilitar-o-beep-no-ubuntu/</link>
@@ -482,6 +571,8 @@ O livro é bem interessante, aborda desde o mais básico até o nível intermedi
       <description>Resolvi postar sobre isso por que é uma coisa tão simples mas irrita muito quando você não sabe como desabilitar, e sempre que eu procurava eu caia em fóruns com vários comandos bizarros e colocar algo referente ao com no blacklist e não sei o que mais lá que era chato de se fazer, quando é tão fácil.
 O que sempre acontecia é que eu estava aqui ouvindo boa musica (e alta, por sinal) e programando, o que me levava ao terminal em vários momentos, e quando eu menos espero aquele meu backspace adicional gera um beep monstruoso que dá um grande susto, e isso me irritava profundamente.</description>
     </item>
+    
+    
     
     <item>
       <title>Opera Unite</title>
@@ -494,6 +585,8 @@ A idéia do Opera Unite é tornar a internet mais interligada, fazendo com que v
 Eu nunca utilizei Opera ( não por que eu sou contra, e sim por que eu nunca precisei e sempre estive confortável com o Firefox, principalmente para desenvolver ), mas achei interessante a campanha de marketing e a idéia deles com esse novo produto.</description>
     </item>
     
+    
+    
     <item>
       <title>Instalando modem 3G Claro USB E226 no Ubuntu</title>
       <link>https://pothix.com/post/instalando-modem-3g-claro-usb-e226-no-ubuntu/</link>
@@ -505,6 +598,8 @@ Vou descrever aqui o processo:
  Inserir o modem na entrada USB Vai aparecer um assistente de configuração simples ( Next Next Finish ), para você seguir e instalar.</description>
     </item>
     
+    
+    
     <item>
       <title>Serviços interessantes</title>
       <link>https://pothix.com/post/servicos-interessantes/</link>
@@ -515,6 +610,8 @@ Vou descrever aqui o processo:
 Dropbox Já começando com o DropBox, que é uma aplicação para sincronização de arquivos.</description>
     </item>
     
+    
+    
     <item>
       <title>Organizando seu Gmail para manter Inbox zero</title>
       <link>https://pothix.com/post/organizando-seu-gmail-para-manter-inbox-zero/</link>
@@ -523,6 +620,8 @@ Dropbox Já começando com o DropBox, que é uma aplicação para sincronizaçã
       <guid>https://pothix.com/post/organizando-seu-gmail-para-manter-inbox-zero/</guid>
       <description>Agora chegando em tempo de provas e grande acumulo de atividades no trabalho eu fico começando a procurar as brechas de tempo que eu gasto &amp;ldquo;inútilmente&amp;rdquo; para ver se eu consigo aplicar em alguma coisa que possa me ajudar a cumprir todas as tarefas. Fiz uma pequena análise do tempo que eu perdia em determinados lugares, e vi que tanto e-mail como Twitter me consumiam uma grande quantidade de tempo ( com o Twitter é fácil, só desativar temporariamente e seguir menos gente ), portanto decidi fazer um refactoring!</description>
     </item>
+    
+    
     
     <item>
       <title>Usando Git em projetos do Google Code</title>
@@ -535,6 +634,8 @@ Como o Google Code só usa Subversion (infelizmente) e eu sou do mundo Git, reso
 Já havia tentado usar Git-svn no meu projeto de plugin para wordpress, mas nesse caso eu já tinha um repositório Git e fui tentar mandar para um repositório SVN vazio, o que só me deu dor de cabeça, e no fim das contas acabei jogando para um repositório SVN qualquer só para mandar para o Wordpress.</description>
     </item>
     
+    
+    
     <item>
       <title>Configurando seu Gtalk do Google Apps no Pidgin</title>
       <link>https://pothix.com/post/configurando-seu-gtalk-do-google-apps-no-pidgin/</link>
@@ -544,6 +645,8 @@ Já havia tentado usar Git-svn no meu projeto de plugin para wordpress, mas ness
       <description>Resolvi postar sobre isso depois de passar por 3 empresas que usam o Google Apps for your Domain e eu sempre esbarrar com o maldito probleminha ao se configurar o Pidgin.
 Pensei que isso era burrice minha de não ver a configuração correta, mas depois percebi que não era só eu que não via essas configurações para poder fazer o negócio funcionar! Como eu nunca anotava o processo, sempre tinha que ficar pesquisando para ver se achava algo relacionado a isso, e nunca funcionava.</description>
     </item>
+    
+    
     
     <item>
       <title>Ubuntu 9.04</title>
@@ -556,6 +659,8 @@ Alguns dias atrás eu postei no twitter que não estava satisfeito com o Ubuntu 
 Primeiramente comecei tentando instalar ele pelo cd (para não ter que deixar o computador ligado mil horas baixando, e tambem por que tenho mais de 1 Ubuntu em casa, portanto mais de mil horas x 2) e não consegui&amp;hellip;.</description>
     </item>
     
+    
+    
     <item>
       <title>Encontro de Design e Tecnologia Digital</title>
       <link>https://pothix.com/post/encontro-de-design-e-tecnologia-digital/</link>
@@ -566,6 +671,8 @@ Primeiramente comecei tentando instalar ele pelo cd (para não ter que deixar o 
 CMS’s livres: não reinventado a roda no desenvolvimento web A palestra foi conduzida por Paulino Michelazzo da Fábrica Livre, e foi uma palestra interessante!
 O palestrante soube levar bem a palestra, com momentos engraçados ( várias brincadeiras com Java e Windows, que obviamente não devem ser levadas a sério ), e apresentando como é fácil criar uma loja virtual utilizando o Joomla.</description>
     </item>
+    
+    
     
     <item>
       <title>Começando a falar de Ruby</title>
@@ -579,6 +686,8 @@ Eu, claro, acho muito interessante que muita gente por aí ainda não conhece Ru
  Cheguei a ouvir do meu &amp;ldquo;professor de algoritmo&amp;rdquo; (perdeu meu respeito):</description>
     </item>
     
+    
+    
     <item>
       <title>Plugin para WordPress: Anti IE6 Army</title>
       <link>https://pothix.com/post/plugin-para-wordpress-anti-ie6-army/</link>
@@ -589,6 +698,8 @@ Eu, claro, acho muito interessante que muita gente por aí ainda não conhece Ru
 A idéia do plugin é juntar um exército de campanhas contra o Internet Explorer 6 que estão perdidas pela internet em um único plugin, para que todos que possuem blogs com Wordpress possam usar facilmente, sem precisal alterar HTML, ou abrir qualquer arquivo de código!
 Aqui no blog tem uma página só para falar do Plugin, e lá você pode obter mais informações.</description>
     </item>
+    
+    
     
     <item>
       <title>Translated Rubylearning presentation</title>
@@ -602,6 +713,8 @@ Fortunately I had a big help from my friend Victor Goff, that corrected all my g
 I&amp;rsquo;m posting below all i have about the presentation, slides from Slideshare and a translation pasted here, but you can find the translation at Google Docs too.</description>
     </item>
     
+    
+    
     <item>
       <title>Rails X Django</title>
       <link>https://pothix.com/post/rails-x-django/</link>
@@ -610,6 +723,8 @@ I&amp;rsquo;m posting below all i have about the presentation, slides from Slide
       <guid>https://pothix.com/post/rails-x-django/</guid>
       <description>Como todos sabem eu sou do mundo Ruby/Rails (Não sou xiita mas é o que mais gosto) e de vez em quando começo a brincar com coisas diferentes para poder formar a minha própria opinião sobre o assunto. No mes de fevereiro me surgiu um projeto bem interessante para trabalhar, pessoas legais, oportunidade legal, bem interessante! O projeto seria feito em Python/Django, e achei bem interessante a idéia de poder comparar várias coisas do Rails com o Django.</description>
     </item>
+    
+    
     
     <item>
       <title>Ruby e Rails no mundo real</title>
@@ -621,6 +736,8 @@ I&amp;rsquo;m posting below all i have about the presentation, slides from Slide
 O evento foi bem interessante, bem alem do que nós havíamos planejado nas primeiras conversas do primeiro encontro do GURU-SP, e atendeu bastante as nossas expectativas por ser o primeiro. Obviamente cometemos alguns erros que vamos melhorar no próximo, como garantir que tenha Wi-Fi por exemplo!</description>
     </item>
     
+    
+    
     <item>
       <title>Projeto de fevereiro</title>
       <link>https://pothix.com/post/projeto-de-fevereiro/</link>
@@ -630,6 +747,8 @@ O evento foi bem interessante, bem alem do que nós havíamos planejado nas prim
       <description>No mês de fevereiro eu estive envolvido com um projeto bem interessante na empresa que estou trabalhando (ainda vamos trabalhar mais em nosso site 😛), que foi feito em Python / Django e deveria gerar páginas estáticas ( exigência do projeto ).
 Tivemos um prazo muito curto para tudo que deveria ser feito, o que gerou uma grande quantidade de trabalho fora do horário e dos dias comuns. Entre o começo e o fim do projeto, tínhamos o carnaval, portanto tivemos que deixar nossos espíritos carnavalescos guardados e partir para o trabalho árduo no feriado até horas indeterminadas.</description>
     </item>
+    
+    
     
     <item>
       <title>Ruby Inside Brasil</title>
@@ -642,6 +761,8 @@ O Ruby Inside Brasil é a edição autorizada do Ruby Inside mantido pelo Peter 
 A idéia inicial do projeto foi do Carlos Brando, que junto com vários outros colaboradores está contruindo o nome do Ruby Inside Brasil, e tem como idéia não apenas postar traduções dos conteúdos do Ruby Inside em inglês, mas tambem postar conteúdo próprio escritos por desenvolvedores brasileiros, cobrindo tudo que acontece relacionado a Rails e Ruby aqui Brasil!</description>
     </item>
     
+    
+    
     <item>
       <title>Colocando sua aplicação Rails na Dreamhost</title>
       <link>https://pothix.com/post/colocando-sua-aplicacao-rails-na-dreamhost/</link>
@@ -652,6 +773,8 @@ A idéia inicial do projeto foi do Carlos Brando, que junto com vários outros c
 Primeiramente, você precisa ter acesso SSH na sua conta. Se você ainda não tiver esse acesso apenas faça o seguinte procedimento:</description>
     </item>
     
+    
+    
     <item>
       <title>Curso de verão da USP</title>
       <link>https://pothix.com/post/curso-de-verao-da-usp/</link>
@@ -661,6 +784,8 @@ Primeiramente, você precisa ter acesso SSH na sua conta. Se você ainda não ti
       <description>Com o fim do curso de verão de 2009 da USP, resolvi postar minhas impressões sobre o mesmo!
 O curso realmente foi muito bom e me ensinou muita coisa! Eu já tinha feito o curso no ano retrasado, mas não cheguei a terminar, por que o professor da época era muito foda e assumia que todos os alunos já sabiam do que ele estava falando, e para mim não significava tanto assim, portanto chegou um momento que eu simplesmente já não estava entendendo mais nada, e o professor já estava jogando matéria loucamente, portanto abandonei.</description>
     </item>
+    
+    
     
     <item>
       <title>DC&#43;&#43; no Linux</title>
@@ -673,6 +798,8 @@ Para quem não conhece, o DC++ é um software para compartilhamento de arquivos,
 Atualmente estou utilizando Ubuntu no meu notebook (não tenho mais PC nem em casa e nem no trampo, portanto o meu Slackware se foi&amp;hellip;:() e vou mostrar aqui como instalar o seu DC++ nele!</description>
     </item>
     
+    
+    
     <item>
       <title>Ruby e Rails no mundo real</title>
       <link>https://pothix.com/post/ruby-e-rails-no-mundo-real/</link>
@@ -683,6 +810,8 @@ Atualmente estou utilizando Ubuntu no meu notebook (não tenho mais PC nem em ca
 O evento já tem site oficial e está com as inscrições abertas!
 Pelo que estamos fazendo o evento tende a ser grande, com auditório para cerca de 200 pessoas, com direito a crachá, apostila, Coffee break e etc.</description>
     </item>
+    
+    
     
     <item>
       <title>VIVO online agora funciona no Firefox / Safari</title>
@@ -695,6 +824,8 @@ Eu tinha feito um post sobre os usuários dos serviços da VIVO que tiveram que 
 Tudo bem que isso é um direito nosso e já deveria funcionar em todos desde o começo do serviço, pois prejudicava os usuários de outros sistemas operacionais diferentes do Windows, mas temos que parabenizar a VIVO por trabalhar em cima do problema que tinham e resolver assim como prometeram em novembro do ano passado!</description>
     </item>
     
+    
+    
     <item>
       <title>Campus Party 2009</title>
       <link>https://pothix.com/post/campus-party-2009/</link>
@@ -706,6 +837,8 @@ Segue um pequeno resumo do que pude ver por lá:
 Segunda-feira dia 19/01/2009 Cheguei no evento mais ou menos as 15:00 e consegui entrar rapidinho&amp;hellip; Já armei a minha barraca (vide fotos) e deixei algumas coisas por lá para não ficar carregando, e fui conectar na internet que ainda estava bem precária que só funcionava em algumas mesas.</description>
     </item>
     
+    
+    
     <item>
       <title>Usuários resolvem os problemas da VIVO</title>
       <link>https://pothix.com/post/usuarios-resolvem-os-problemas-da-vivo/</link>
@@ -716,6 +849,8 @@ Segunda-feira dia 19/01/2009 Cheguei no evento mais ou menos as 15:00 e consegui
 Agora vem a hora da crítica&amp;hellip; Como que os usuários tem que ficar desenvolvendo formas alternativas para acessar os serviços que deveriam funcionar para eles, mas por descaso e serviço mal feito não lhe são concedidos?</description>
     </item>
     
+    
+    
     <item>
       <title>Fora IE6</title>
       <link>https://pothix.com/post/fora-ie6/</link>
@@ -724,6 +859,8 @@ Agora vem a hora da crítica&amp;hellip; Como que os usuários tem que ficar des
       <guid>https://pothix.com/post/fora-ie6/</guid>
       <description>Já está mais do que na hora de eu fazer um post sobre isso, e acho que não há momento mais propício do que esse afinal, até o Google já está dando alertassobre isso no Gmail. Sabemos que o Gmail é não é o serviço mais acessado do Google, mas isso já é uma grande ajuda para alertar os desavisados que esse navegador já passou da hora de deixar de existir, e quem sabe num futuro talvez distante ( espero que não tão distante assim ) o google resolva fazer algo parecido com o Orkut!</description>
     </item>
+    
+    
     
     <item>
       <title>Deploying a simple Merb application on Locaweb</title>
@@ -737,6 +874,8 @@ First open the
 Domain Manager (gerenciador de domínios) on Locaweb Panel (painel da Locaweb) and configure the pointer of your main site to other directory on public_html of your account (this directory don&amp;rsquo;t need to exist).</description>
     </item>
     
+    
+    
     <item>
       <title>Configurando seu git para começar a usar</title>
       <link>https://pothix.com/post/configurando-seu-git-para-comecar-a-usar/</link>
@@ -746,6 +885,8 @@ Domain Manager (gerenciador de domínios) on Locaweb Panel (painel da Locaweb) a
       <description>Meu ultimo post foi sobre como subir um projeto para o GitHub, mas me veio agora uma vontade repentina de falar como deixar seu git legalzinho para começar a criar repositórios e contribuir com códigos! Serão apenas configurações básicas, mas que são bem úteis quando você estiver usando o Git ativamente!
 Antes de mais nada precisamos instalar o Git, portanto é só baixar ele no repositório oficial e fazer a instalação referente ao seu sistema operacional.</description>
     </item>
+    
+    
     
     <item>
       <title>Iniciando seu primeiro projeto no GitHub</title>
@@ -759,6 +900,8 @@ Antes de começar tudo isso você precisar ter cadastro no GitHub (obviamente) e
 Para cadastrar uma public-key é só logar no GitHub, clicar em account (no canto superior direito) e clicar em &amp;ldquo;add public key&amp;rdquo; que vão aparecer os campos para inserir a mesma.</description>
     </item>
     
+    
+    
     <item>
       <title>Ir além do básico tambem é gratis</title>
       <link>https://pothix.com/post/ir-alem-do-basico-tambem-e-gratis/</link>
@@ -769,6 +912,8 @@ Para cadastrar uma public-key é só logar no GitHub, clicar em account (no cant
 Conheço muitas pessoas que fazem faculdade relacionada a programação, mas não aplicam o que estão vendo por lá, acham que já estão fazendo demais em ir para a faculdade e ficar lá no tempo em que o professor está falando&amp;hellip;Ou seja, essas pessoas não estão indo a faculdade para aprender algo para colocar em prática, eles estão lá simplesmente para &amp;ldquo;passar de ano&amp;rdquo;.</description>
     </item>
     
+    
+    
     <item>
       <title>A facilidade do Ubuntu</title>
       <link>https://pothix.com/post/a-facilidade-do-ubuntu/</link>
@@ -777,6 +922,8 @@ Conheço muitas pessoas que fazem faculdade relacionada a programação, mas nã
       <guid>https://pothix.com/post/a-facilidade-do-ubuntu/</guid>
       <description>Deixa eu explicar aqui para quem estou destinando esse post. Esse post é destinado a algumas pessoas que costumam me perguntar se o Linux é difícil, se ele vai conseguir mexer nele se instalar, se Linux é melhor que Windows e outras perguntas derivadas disso, portanto se você já tem conhecimentos em Linux e já usa Linux esse post só vai servir para você passar para seus amigos que não usam, pois é bem básico.</description>
     </item>
+    
+    
     
     <item>
       <title>Como são os primeiros passos de um Linuxer</title>
@@ -787,6 +934,8 @@ Conheço muitas pessoas que fazem faculdade relacionada a programação, mas nã
       <description>Nesse post eu vou contar um pouco de como são os primeiros passos de alguem que quer mesmo brincar com Linux. No caso vou falar como eu comecei com o Linux! Vamos lá! :)
 Eu sempre ouvia falar de Linux quando eu lia Livros sobre segurança e tudo mais, portanto sempre tinha vontade de utilizar&amp;hellip; Meu primeiro contato direto com Linux foi em 2004, mas nessa época eu ainda era bem fanático por jogos de computador, o que me fez continuar no Windows por um tempo.</description>
     </item>
+    
+    
     
     <item>
       <title>Montando imagens do Nero (nrg) no Linux</title>
@@ -800,6 +949,8 @@ No Ubuntu # apt-get install nrg2iso  No Slackware Baixando o pacote no Linux Pac
 # installpkg nrg2iso-versao.tgz  Utilização Agora já podemos utilizar o nrg3iso para converter nossa imagem:</description>
     </item>
     
+    
+    
     <item>
       <title>Utilizando o sshfs</title>
       <link>https://pothix.com/post/utilizando-o-sshfs/</link>
@@ -810,6 +961,8 @@ No Ubuntu # apt-get install nrg2iso  No Slackware Baixando o pacote no Linux Pac
 O que facilita bastante é utilizar a sua chave privada ( explicado por mim nesse tópico) para montar os seus diretórios sshfs, assim você terá o diretório do servidor montado facilmente em seu computador e poderá enviar arquivos para esse diretório e seus sub-diretórios como se estivesse copiando arquivos para outro diretório qualquer.</description>
     </item>
     
+    
+    
     <item>
       <title>Deixando seu ssh mais facil de trabalhar</title>
       <link>https://pothix.com/post/deixando-seu-ssh-mais-facil-de-trabalhar/</link>
@@ -819,6 +972,8 @@ O que facilita bastante é utilizar a sua chave privada ( explicado por mim ness
       <description>Se você usa bastante SSH vou mostrar um método para facilitar um pouco a sua vida. Sei que existem métodos melhores para trabalhar com vários SSH ao mesmo tempo, geralmente a galera que administra vários servidores costuma usar screen para se manter conectado, mas eu como conecto de vez em quando para ver algo em algum dos servidores prefiro configurar desse modo.
 A primeira coisa a se fazer é configurar o seu .</description>
     </item>
+    
+    
     
     <item>
       <title>Ativando numlock na Inicialização do Fluxbox no Slackware</title>
@@ -832,6 +987,8 @@ Podemos instalar ele via SlackBuilds que eu uso muito!
 Após baixar o numlockx.tar.gz e o numlockx-.version.tar.gz` vamos seguir os procedimentos do SlackBuilds:</description>
     </item>
     
+    
+    
     <item>
       <title>Facilitando a instalação de pacotes no Slackware</title>
       <link>https://pothix.com/post/facilitando-a-instalacao-de-pacotes-no-slackware/</link>
@@ -842,6 +999,8 @@ Após baixar o numlockx.tar.gz e o numlockx-.version.tar.gz` vamos seguir os pro
 Nesse post eu vou referenciar 4 facilitadores para instalação de pacotes no Slackware: SlackBuilds, LinuxPackages, Slackpkg, Slapt-get e Checkinstall.
 SlackBuilds Primeiramente vou comentar sobre um dos que eu mais uso e que mudou a minha vida ( heheh ), que é o SlackBuilds!</description>
     </item>
+    
+    
     
     <item>
       <title>Aprenda Ruby no Rubylearning</title>
@@ -854,6 +1013,8 @@ O Satish Talim anunciou que estão abertas as inscrições para o FORPC101-9C ( 
 Aconselho todos que querem aprender Ruby a participarem! Não se preocupe muito com seu inglês, ele não precisa estar extremamente afiado para você participar, basta que você consiga entender bem para que você participe, e caso não consiga escrever bem o pessoal pode ajudar você a se expressar para conseguir ajuda nos Foruns!</description>
     </item>
     
+    
+    
     <item>
       <title>Rails Summit Latin America (Day 2)</title>
       <link>https://pothix.com/post/rails-summit-latin-america-day-2/</link>
@@ -863,6 +1024,8 @@ Aconselho todos que querem aprender Ruby a participarem! Não se preocupe muito 
       <description>Para quem não viu o meu post sobre o primeiro dia da Rails Summit, veja aqui! ;) E agora vamos ao segundo post sobre a Rails Summit! :)
 Começamos o segundo dia de Rails Summit as 8:00, e logo no começo do dia tivemos alguns probleminhas técnicos com energia elétrica que logo foi contornado com um gerador ( esse evento escala! ). Tivemos a abertura do dia com o Fabio akita comentando sobre as palestras e dando recados gerais.</description>
     </item>
+    
+    
     
     <item>
       <title>Rails Summit Latin America</title>
@@ -875,6 +1038,8 @@ Vou dividir em 2 posts, um para cada dia, por que o assunto ficou bem extenso.
 Minha intenção com a Rails Summit, alem de ver as ótimas palestras era de fazer um social network com a galera que eu só conhecia por nickname, e isso realmente foi difícil de fazer justamente por isso, reconhecer as pessoas pessoalmente sendo que só as conheço por nickname e avatar não é nada fácil.</description>
     </item>
     
+    
+    
     <item>
       <title>Primeiro post por aqui!</title>
       <link>https://pothix.com/post/primeiro-post-por-aqui/</link>
@@ -884,6 +1049,7 @@ Minha intenção com a Rails Summit, alem de ver as ótimas palestras era de faz
       <description>Bem, como primeiro post vou me apresentar e dizer qual o meu intuito com esse blog.
 Lembro muito bem da época que associava blog com os &amp;ldquo;flogão&amp;rdquo; da vida e prometia para mim mesmo que eu nunca criaria um blog para mim. Com a mudança de rumo dos blogs a minha vontade de criar um para divulgar informação útil foi crescendo, mas eu me mantinha preso aquela velha promessa, até que mês passado eu consegui me livrar disso e decidi finalmente ingressar no ramo de blog, pois eu pesquiso e leio tanta coisa que provavelmente algum dos conhecimentos que tenho ou coisas que fiz serão úteis para mais alguem.</description>
     </item>
+    
     
   </channel>
 </rss>

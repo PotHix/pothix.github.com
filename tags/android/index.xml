@@ -8,7 +8,8 @@
     <language>en</language>
     <lastBuildDate>Thu, 03 Mar 2011 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://pothix.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pothix.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    
     
     
     <item>
@@ -22,6 +23,8 @@ Eu tenho o jogo (o CD-ROM mesmo) ripado no meu computador, e agora só faltava e
 Procurando na internet eu achei o scummvm que emula os games da LucasArts em várias plataformas! Baixei o .</description>
     </item>
     
+    
+    
     <item>
       <title>Semana de eventos (#rubyconfbr, #adl e #gddbr)</title>
       <link>https://pothix.com/post/semana-de-eventos-rubyconfbr-adl-e-gddbr/</link>
@@ -31,6 +34,8 @@ Procurando na internet eu achei o scummvm que emula os games da LucasArts em vá
       <description>Na semana passada (semana do dia 24 ao dia 30 de outubro) foi uma semana de grandes eventos, que eu tive o prazer de participar de todos! :)
 Rubyconf Brasil A Rubyconf Brasil é o Antigo Rails Summit Latin America, que acontecia no centro de convenções do Anhembi, e agora mudou sua localização para o centro de convenções Frei Caneca, para diminuir os custos e prover um local mais acessível para os participantes (próximo ao metrô e a avenida paulista).</description>
     </item>
+    
+    
     
     <item>
       <title>Fluxo de leitura e o Android</title>
@@ -42,6 +47,8 @@ Rubyconf Brasil A Rubyconf Brasil é o Antigo Rails Summit Latin America, que ac
 Fluxo de leitura Depois que eu comprei um Android o meu fluxo de leitura se modificou um pouco. E está da seguinte maneira:</description>
     </item>
     
+    
+    
     <item>
       <title>Motorola Milestone e Android</title>
       <link>https://pothix.com/post/motorola-milestone-e-android/</link>
@@ -52,6 +59,7 @@ Fluxo de leitura Depois que eu comprei um Android o meu fluxo de leitura se modi
 Primeiramente, gostaria de dizer que o Android é um sistema muito bom, e estou bastante satisfeito com as features, apps, SDK e etc.
 Milestone É um aparelho bem legal e na minha opinião é o Android mais &amp;ldquo;custo X benefício&amp;rdquo; do Brasil.</description>
     </item>
+    
     
   </channel>
 </rss>

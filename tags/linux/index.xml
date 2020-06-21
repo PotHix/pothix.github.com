@@ -8,7 +8,8 @@
     <language>en</language>
     <lastBuildDate>Mon, 23 Jul 2012 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://pothix.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pothix.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
     
     
     <item>
@@ -23,6 +24,8 @@ I have a hardware that works better with the newer kernels. I really want to und
 How to proceed There are some steps to follow when compiling a new kernel for your Linux box:</description>
     </item>
     
+    
+    
     <item>
       <title>Menos mac e mais Linux</title>
       <link>https://pothix.com/post/menos-mac-e-mais-linux/</link>
@@ -32,6 +35,8 @@ How to proceed There are some steps to follow when compiling a new kernel for yo
       <description>TL; DR Usei mac por mais de 6 meses e decidi voltar ao Linux. Na minha opinião mac não é ruim, mas Linux é melhor.
 A idéia desse post não é fazer um flame war, muito menos justificar porque eu voltei para o Linux (afinal, eu não devo nada pra ninguém), e sim falar um pouco do que eu vi de vantagens e desvantagens no Mac e porque eu resolvi voltar a usar Linux.</description>
     </item>
+    
+    
     
     <item>
       <title>Simlinks for ruby on Debian Squeeze</title>
@@ -45,6 +50,8 @@ I&amp;rsquo;ll keep it documented here:
 ln -s /usr/lib/libruby-1.9.1.so.1.9.1 /usr/lib/libruby.so.1.9 ln -s /usr/bin/rake1.</description>
     </item>
     
+    
+    
     <item>
       <title>Linux, Vim, Screen e Pair programming!</title>
       <link>https://pothix.com/post/linux-vim-screen-e-pair-programming/</link>
@@ -54,6 +61,8 @@ ln -s /usr/lib/libruby-1.9.1.so.1.9.1 /usr/lib/libruby.so.1.9 ln -s /usr/bin/rak
       <description>Aqui estou eu mais uma vez para falar mais uma das maluquices que eu fiz um bom tempo atrás mas não tive tempo de postar.
 Primeiramente eu vou falar o que muita gente já falou muito bem, que é sobre screen e pair programming. Mas vou dizer como funcionou para mim. Alguns posts que eu li antes e depois de começar a brincar com screen e pair programming, e que eu gostei:</description>
     </item>
+    
+    
     
     <item>
       <title>Palestra sobre Vim</title>
@@ -66,6 +75,8 @@ Primeiramente, já começo com uma desculpa, por que já faz mais de 2 semanas q
 Foi bem legal palestrar para uma galera que já conhecia ao menos um pouco do editor. Quando eu estava planejando o que eu ia falar eu fiquei com uma grande dúvida de qual seria a minha linha de apresentação, por que eu não sabia quantos já conheciam o editor, portanto eu poderia chegar falando de coisas avançadas e ninguem entenderia nada, ou pelo contrário, se muitos conhecessem e eu chegasse falando de coisas básicas demais a palestra seria um saco.</description>
     </item>
     
+    
+    
     <item>
       <title>Instalando e configurando o monit</title>
       <link>https://pothix.com/post/instalando-e-configurando-o-monit/</link>
@@ -77,6 +88,8 @@ Se você usa Ubuntu, você pode fazer download do Monit por apt-get:
 sudo apt-get install monit  Se você não usa Ubuntu ou quer a ultima versão do Monit, então faça download do tar.</description>
     </item>
     
+    
+    
     <item>
       <title>Instalando o Allegro 4.2.2 no Linux x86</title>
       <link>https://pothix.com/post/instalando-o-allegro-4-2-2-no-linux-x86/</link>
@@ -87,6 +100,8 @@ sudo apt-get install monit  Se você não usa Ubuntu ou quer a ultima versão do
 Quando me dei conta que não funcionou no computador do trabalho por que eu tinha um binário x64, eu tive que instalar o Allegro no computador de lá para poder fazer funcionar também em Linux x86.</description>
     </item>
     
+    
+    
     <item>
       <title>Como desabilitar o beep no Ubuntu</title>
       <link>https://pothix.com/post/como-desabilitar-o-beep-no-ubuntu/</link>
@@ -96,6 +111,8 @@ Quando me dei conta que não funcionou no computador do trabalho por que eu tinh
       <description>Resolvi postar sobre isso por que é uma coisa tão simples mas irrita muito quando você não sabe como desabilitar, e sempre que eu procurava eu caia em fóruns com vários comandos bizarros e colocar algo referente ao com no blacklist e não sei o que mais lá que era chato de se fazer, quando é tão fácil.
 O que sempre acontecia é que eu estava aqui ouvindo boa musica (e alta, por sinal) e programando, o que me levava ao terminal em vários momentos, e quando eu menos espero aquele meu backspace adicional gera um beep monstruoso que dá um grande susto, e isso me irritava profundamente.</description>
     </item>
+    
+    
     
     <item>
       <title>Instalando modem 3G Claro USB E226 no Ubuntu</title>
@@ -108,6 +125,8 @@ Vou descrever aqui o processo:
  Inserir o modem na entrada USB Vai aparecer um assistente de configuração simples ( Next Next Finish ), para você seguir e instalar.</description>
     </item>
     
+    
+    
     <item>
       <title>Configurando seu Gtalk do Google Apps no Pidgin</title>
       <link>https://pothix.com/post/configurando-seu-gtalk-do-google-apps-no-pidgin/</link>
@@ -117,6 +136,8 @@ Vou descrever aqui o processo:
       <description>Resolvi postar sobre isso depois de passar por 3 empresas que usam o Google Apps for your Domain e eu sempre esbarrar com o maldito probleminha ao se configurar o Pidgin.
 Pensei que isso era burrice minha de não ver a configuração correta, mas depois percebi que não era só eu que não via essas configurações para poder fazer o negócio funcionar! Como eu nunca anotava o processo, sempre tinha que ficar pesquisando para ver se achava algo relacionado a isso, e nunca funcionava.</description>
     </item>
+    
+    
     
     <item>
       <title>Ubuntu 9.04</title>
@@ -129,6 +150,8 @@ Alguns dias atrás eu postei no twitter que não estava satisfeito com o Ubuntu 
 Primeiramente comecei tentando instalar ele pelo cd (para não ter que deixar o computador ligado mil horas baixando, e tambem por que tenho mais de 1 Ubuntu em casa, portanto mais de mil horas x 2) e não consegui&amp;hellip;.</description>
     </item>
     
+    
+    
     <item>
       <title>DC&#43;&#43; no Linux</title>
       <link>https://pothix.com/post/dc-no-linux/</link>
@@ -139,6 +162,8 @@ Primeiramente comecei tentando instalar ele pelo cd (para não ter que deixar o 
 Para quem não conhece, o DC++ é um software para compartilhamento de arquivos, muito interessante, onde você pode facilmente compartilhar arquivos pela rede local, e por isso mesmo que foi muito utilizado na Campus Party, onde os campuseiros compartilharam terabytes e mais terabytes de arquivos!
 Atualmente estou utilizando Ubuntu no meu notebook (não tenho mais PC nem em casa e nem no trampo, portanto o meu Slackware se foi&amp;hellip;:() e vou mostrar aqui como instalar o seu DC++ nele!</description>
     </item>
+    
+    
     
     <item>
       <title>Deploying a simple Merb application on Locaweb</title>
@@ -152,6 +177,8 @@ First open the
 Domain Manager (gerenciador de domínios) on Locaweb Panel (painel da Locaweb) and configure the pointer of your main site to other directory on public_html of your account (this directory don&amp;rsquo;t need to exist).</description>
     </item>
     
+    
+    
     <item>
       <title>Configurando seu git para começar a usar</title>
       <link>https://pothix.com/post/configurando-seu-git-para-comecar-a-usar/</link>
@@ -162,6 +189,8 @@ Domain Manager (gerenciador de domínios) on Locaweb Panel (painel da Locaweb) a
 Antes de mais nada precisamos instalar o Git, portanto é só baixar ele no repositório oficial e fazer a instalação referente ao seu sistema operacional.</description>
     </item>
     
+    
+    
     <item>
       <title>A facilidade do Ubuntu</title>
       <link>https://pothix.com/post/a-facilidade-do-ubuntu/</link>
@@ -170,6 +199,8 @@ Antes de mais nada precisamos instalar o Git, portanto é só baixar ele no repo
       <guid>https://pothix.com/post/a-facilidade-do-ubuntu/</guid>
       <description>Deixa eu explicar aqui para quem estou destinando esse post. Esse post é destinado a algumas pessoas que costumam me perguntar se o Linux é difícil, se ele vai conseguir mexer nele se instalar, se Linux é melhor que Windows e outras perguntas derivadas disso, portanto se você já tem conhecimentos em Linux e já usa Linux esse post só vai servir para você passar para seus amigos que não usam, pois é bem básico.</description>
     </item>
+    
+    
     
     <item>
       <title>Como são os primeiros passos de um Linuxer</title>
@@ -180,6 +211,8 @@ Antes de mais nada precisamos instalar o Git, portanto é só baixar ele no repo
       <description>Nesse post eu vou contar um pouco de como são os primeiros passos de alguem que quer mesmo brincar com Linux. No caso vou falar como eu comecei com o Linux! Vamos lá! :)
 Eu sempre ouvia falar de Linux quando eu lia Livros sobre segurança e tudo mais, portanto sempre tinha vontade de utilizar&amp;hellip; Meu primeiro contato direto com Linux foi em 2004, mas nessa época eu ainda era bem fanático por jogos de computador, o que me fez continuar no Windows por um tempo.</description>
     </item>
+    
+    
     
     <item>
       <title>Montando imagens do Nero (nrg) no Linux</title>
@@ -193,6 +226,8 @@ No Ubuntu # apt-get install nrg2iso  No Slackware Baixando o pacote no Linux Pac
 # installpkg nrg2iso-versao.tgz  Utilização Agora já podemos utilizar o nrg3iso para converter nossa imagem:</description>
     </item>
     
+    
+    
     <item>
       <title>Utilizando o sshfs</title>
       <link>https://pothix.com/post/utilizando-o-sshfs/</link>
@@ -203,6 +238,8 @@ No Ubuntu # apt-get install nrg2iso  No Slackware Baixando o pacote no Linux Pac
 O que facilita bastante é utilizar a sua chave privada ( explicado por mim nesse tópico) para montar os seus diretórios sshfs, assim você terá o diretório do servidor montado facilmente em seu computador e poderá enviar arquivos para esse diretório e seus sub-diretórios como se estivesse copiando arquivos para outro diretório qualquer.</description>
     </item>
     
+    
+    
     <item>
       <title>Deixando seu ssh mais facil de trabalhar</title>
       <link>https://pothix.com/post/deixando-seu-ssh-mais-facil-de-trabalhar/</link>
@@ -212,6 +249,8 @@ O que facilita bastante é utilizar a sua chave privada ( explicado por mim ness
       <description>Se você usa bastante SSH vou mostrar um método para facilitar um pouco a sua vida. Sei que existem métodos melhores para trabalhar com vários SSH ao mesmo tempo, geralmente a galera que administra vários servidores costuma usar screen para se manter conectado, mas eu como conecto de vez em quando para ver algo em algum dos servidores prefiro configurar desse modo.
 A primeira coisa a se fazer é configurar o seu .</description>
     </item>
+    
+    
     
     <item>
       <title>Ativando numlock na Inicialização do Fluxbox no Slackware</title>
@@ -225,6 +264,8 @@ Podemos instalar ele via SlackBuilds que eu uso muito!
 Após baixar o numlockx.tar.gz e o numlockx-.version.tar.gz` vamos seguir os procedimentos do SlackBuilds:</description>
     </item>
     
+    
+    
     <item>
       <title>Ouvindo suas musicas no Amarok</title>
       <link>https://pothix.com/post/ouvindo-suas-musicas-no-amarok/</link>
@@ -235,6 +276,8 @@ Após baixar o numlockx.tar.gz e o numlockx-.version.tar.gz` vamos seguir os pro
 Resolvi começar o Amarok para tocar os meus mp3, e ele lembra bastante o Itunes (ta certo que usei pouco o Itunes, mas conheço algumas funções dele).
 Tive um pequeno probleminha para configurar minhas teclas multimedia para funcionar no amarok, já que elas vem configuradas para chamar o player padrão do Ubuntu&amp;hellip; Mas nada muito problemático tambem&amp;hellip;</description>
     </item>
+    
+    
     
     <item>
       <title>Facilitando a instalação de pacotes no Slackware</title>
@@ -247,6 +290,8 @@ Nesse post eu vou referenciar 4 facilitadores para instalação de pacotes no Sl
 SlackBuilds Primeiramente vou comentar sobre um dos que eu mais uso e que mudou a minha vida ( heheh ), que é o SlackBuilds!</description>
     </item>
     
+    
+    
     <item>
       <title>Mais de uma distro no Notebook!</title>
       <link>https://pothix.com/post/mais-de-uma-distro-no-notebook/</link>
@@ -256,6 +301,7 @@ SlackBuilds Primeiramente vou comentar sobre um dos que eu mais uso e que mudou 
       <description>Pouco tempo atrás comprei um notebook Toshiba U405-S2854 e instalei o Slackware 12.0 (não tinha baixado o 12.1 ainda) com fluxbox nele e aproveitei para brincar de compilar o Kernel e conhecer outras coisas&amp;hellip;
 Percebi que meus conhecimentos não estavam bons o suficiente para eu fazer tudo o que eu queria com meu Slack em um curto espaço de tempo, infelizmente, e portanto resolvi instalar outro linux mais facil para eu usar enquanto meu slackware não fica do jeito que eu quero.</description>
     </item>
+    
     
   </channel>
 </rss>

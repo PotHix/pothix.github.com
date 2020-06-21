@@ -8,7 +8,8 @@
     <language>en</language>
     <lastBuildDate>Wed, 14 Jun 2017 11:26:10 -0300</lastBuildDate>
     
-	<atom:link href="https://pothix.com/tags/career/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pothix.com/tags/career/index.xml" rel="self" type="application/rss+xml" />
+    
     
     
     <item>
@@ -21,6 +22,7 @@
 Eu entrei na Locaweb em Junho de 2010. Na época o Fabio Kung entrou em contato comigo perguntando se eu queria me juntar a equipe de Cloud Computing.
 A equipe de Cloud Depois de uma conversa com ele e com outro gestor, eu descobri que era exatamente o que eu queria fazer, trabalhar com Ruby e infraestrutura, duas coisas que eu gostava muito.</description>
     </item>
+    
     
   </channel>
 </rss>
