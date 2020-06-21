@@ -2,14 +2,12 @@
 title: "NYC"
 aliases: ["NYC"]
 date: 2019-03-25T08:45:26-03:00
-draft: true
+skip_feed: true
 ---
 
 I had to chance to go to travel to NYC more than once. The first time
 I came there alone and the second one I went with my wife and both
 trips were good.
-
-
 
 ## Airport
 
@@ -85,7 +83,6 @@ not consider the full price (but at least $10 is worth sparing, it's a
 great museum).
 
 
-
 ## Places to eat
 
 _(if you really care about food, skip this part because I don't. This
@@ -98,4 +95,4 @@ Burger King, etc. but I look for places where I can quickly eat
 something and go to the next location.
 
 + **Shakeshack**: There are many of them and the burger is good enough
-+ **Fresh??**: Good place if you want quickly eat some  
++ **Fresh??**: Good place if you want quickly eat some
