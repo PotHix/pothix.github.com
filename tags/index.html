@@ -93,6 +93,8 @@
       
         <a href="/tags/english">english</a>,
       
+        <a href="/tags/keyboards">keyboards</a>,
+      
       </span>
     </div>
 
@@ -226,6 +228,36 @@ Even with the small problems we had (as any other big conference), the feedback 
 
     <header class="entry-header">
       <h2 class="entry-title">
+        <a href="https://pothix.com/post/compiling-atreus-firmware/">Flashing a different firmware for the Atreus keyboard</a>
+      </h2>
+    </header>
+
+    <div class="entry-meta">
+      <span class="posted-on">
+        Published at October 22, 2018
+      </span>
+
+      <span class="tags-links">
+      
+        <a href="/tags/english">english</a>,
+      
+        <a href="/tags/keyboards">keyboards</a>,
+      
+      </span>
+    </div>
+
+    <div class="entry-content">
+      I just bought an Atreus keyboard and I&rsquo;m now configuring my own firmware.
+To do that, I&rsquo;m using the qmk_firmware.
+I&rsquo;m adding a new file as a layout (link here) and I have to change tmk_core/common/avr/bootloader.c to be able to compile it:
+-uint32_t reset_key __attribute__ ((section (&quot;.noinit&quot;))); +uint32_t reset_key __attribute__ ((section (&quot;.noinit,\&quot;aw\&quot;,@nobits;&quot;))); After that, I just had to get the keyboard to the reset mode via fn + ESC (to change the layout) and then pressed the RESET button.
+    </div>
+  </article>
+
+  <article class="post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
+
+    <header class="entry-header">
+      <h2 class="entry-title">
         <a href="https://pothix.com/post/stats-jun-2018/">Stats for Jun, 2018</a>
       </h2>
     </header>
@@ -348,40 +380,6 @@ Books Note: I write a review for each book I read. You can find them on my Goodr
 Just one book this month, but a 5 stars one:
 
 When: The Scientific Secrets of Perfect Timing. This book is about optimization based on time and energy. What is the best time to do some action based on statistics? I found it to be amazing and could confirm many of the assumptions with my data.
-    </div>
-  </article>
-
-  <article class="post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
-
-    <header class="entry-header">
-      <h2 class="entry-title">
-        <a href="https://pothix.com/post/stats-feb-2018/">Stats for Feb, 2018</a>
-      </h2>
-    </header>
-
-    <div class="entry-meta">
-      <span class="posted-on">
-        Published at March 7, 2018
-      </span>
-
-      <span class="tags-links">
-      
-        <a href="/tags/stats">stats</a>,
-      
-        <a href="/tags/personal">personal</a>,
-      
-        <a href="/tags/english">english</a>,
-      
-      </span>
-    </div>
-
-    <div class="entry-content">
-      February time! Let&rsquo;s see what we can get from my metrics. 😀
-Books Note: I write a review for each book I read. You can find them on my Goodreads account.
-I&rsquo;m quite satisfied with my reading list for this month:
-
-Five books read in a month and a 4.6 average rating. That&rsquo;s what I call a good reading month.
-The Art of Learning: A Journey in the Pursuit of Excellence.
     </div>
   </article>
 

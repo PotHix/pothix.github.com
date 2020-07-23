@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta content="Willian Molinari a.k.a. PotHix" name="author">
+        <meta property="og:title" content="keyboards - PotHix">
+        <meta property="og:url" content="https://pothix.com/tags/keyboards/">
+        <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
+        <meta property="og:type" content="website" />
+        <meta name="generator" content="Hugo 0.73.0" />
+
+        <title>keyboards | PotHix</title>
+
+        
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
+        
+
+        <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts)" href="http://feeds.feedburner.com/PotHix" />
+        <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts in English)" href="http://feeds.feedburner.com/EnglishPotHix" />
+        <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts related to technology)" href="http://feeds.feedburner.com/PotHixTech" />
+
+        <link rel="icon" type="image/png" href="/images/favico.png">
+        <link rel="stylesheet" href="/stylesheets/style.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="/stylesheets/stag-custom-styles.css" type="text/css" media="all" />
+
+        <link rel="stylesheet" href="/stylesheets/font-awesome-4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" id="doctype-fonts-css"  href="http://fonts.googleapis.com/css?family=Rokkitt%3A700%7CLato%3A300%2C400%2C700%2C300italic&#038;subset=latin" type="text/css" media="all" />
+
+        <body class="blog sticky-nav chrome stagtools">
+            <div id="page" class="hfeed site">
+                <header id="masthead" class="site-header site-header--fixed" role="banner">
+                    <div class="inside">
+                        <div id="navbar" class="navbar">
+  <nav id="site-navigation" class="navigation main-navigation" role="navigation">
+    <ul id="primary-menu" class="primary-menu">
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/">Home</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/coding">Coding</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/speaking">Speaking</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/writing">Writing</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/media">Media</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/now">Now</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/about">About me</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+                        <a class="site-branding" href="/" title="Doctype" rel="home">
+                            <span class="logo-container">
+                                <img data-at2x src="/images/logo.png" alt="Website's logo">
+                            </span>
+                        </a>
+                    </div>
+                </header>
+
+
+<div id="content" class="site-content">
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
+            
+              <article class="post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
+
+                <header class="entry-header">
+                  <h2 class="entry-title">
+                    <a href="https://pothix.com/post/assembling-an-iris-rev4/">Assembling an Iris Rev4</a>
+                  </h2>
+                </header>
+
+                <div class="entry-meta">
+                  <span class="posted-on">
+                    Published at July 23, 2020
+                  </span>
+
+                  <span class="tags-links">
+                  
+                    <a href="/tags/tech">tech</a>,
+                  
+                    <a href="/tags/english">english</a>,
+                  
+                    <a href="/tags/keyboards">keyboards</a>,
+                  
+                  </span>
+                </div>
+
+                <div class="entry-content">
+                  It&rsquo;s been a while since I&rsquo;m looking for a keyboard that would be great to take with me when I&rsquo;m not working from home for some days. I finally found the Iris keyboard that seems to be exactly what I&rsquo;m looking for.
+The need I currently have a Kinesis Advantage at home. The keyboard is great, probably the best keyboard I used so far, but it&rsquo;s far from what we can call portable 😅.
+                </div>
+              </article>
+            
+              <article class="post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
+
+                <header class="entry-header">
+                  <h2 class="entry-title">
+                    <a href="https://pothix.com/post/compiling-atreus-firmware/">Flashing a different firmware for the Atreus keyboard</a>
+                  </h2>
+                </header>
+
+                <div class="entry-meta">
+                  <span class="posted-on">
+                    Published at October 22, 2018
+                  </span>
+
+                  <span class="tags-links">
+                  
+                    <a href="/tags/english">english</a>,
+                  
+                    <a href="/tags/keyboards">keyboards</a>,
+                  
+                  </span>
+                </div>
+
+                <div class="entry-content">
+                  I just bought an Atreus keyboard and I&rsquo;m now configuring my own firmware.
+To do that, I&rsquo;m using the qmk_firmware.
+I&rsquo;m adding a new file as a layout (link here) and I have to change tmk_core/common/avr/bootloader.c to be able to compile it:
+-uint32_t reset_key __attribute__ ((section (&quot;.noinit&quot;))); +uint32_t reset_key __attribute__ ((section (&quot;.noinit,\&quot;aw\&quot;,@nobits;&quot;))); After that, I just had to get the keyboard to the reset mode via fn + ESC (to change the layout) and then pressed the RESET button.
+                </div>
+              </article>
+            
+        </main>
+    </div>
+</div>
+
+        <footer class="footer-widget-area">
+            <div class="inside">
+                <div class="grids">
+                    <aside id="stag-dribbble-2" class="widget grid-4 stag-dribbble">
+                        <div>
+                            <h3 class="widget-title">
+                                <span>Photography, a hobby</span>
+                            </h3>
+                            <a href="https://500px.com/pothix">
+                                <img src="https://drscdn.500px.org/photo/306645053/q%3D80_h%3D600/v2?sig=f0145e764e9dead0b4a6500b9fb53591aeb72f18eadb26bbd6c345322144abbf" style="float:left">
+                            </a>
+                            <div class="textwidget">
+                                <center>Check out <a href="https://500px.com/pothix">my 500px account</a> for more photos!</center>
+                            </div>
+                        </div>
+                    </aside>
+
+                    <aside id="recent-posts-2" class="widget grid-4 widget_recent_entries">
+                        <h3 class="widget-title">
+                            <span>Last 3 books read</span>
+                        </h3>
+
+                        <ul>
+                            <style type="text/css" media="screen">
+                                .gr_grid_container {
+                                 
+                                    height:150px;
+                                }
+
+                                .gr_grid_book_container {
+                                    float: left;
+                                    width: 98px;
+                                    height: 160px;
+                                    padding: 0px 0px;
+                                    overflow: hidden;
+                                }
+                            </style>
+
+                            <div id="gr_grid_widget_1490660444">
+                            </div>
+
+                            <script src="https://www.goodreads.com/review/grid_widget/38970458.Willian's%20bookshelf:%20read?cover_size=medium&hide_link=true&hide_title=true&num_books=3&order=d&shelf=read&sort=date_read&widget_id=1494295777
+" type="text/javascript" charset="utf-8"></script>
+                        </ul>
+                    </aside>
+
+                    <aside id="text-2" class="widget grid-4 widget_text">
+                        <h3 class="widget-title">
+                            <span>Follow this blog</span>
+                        </h3>
+                        <div class="textwidget">
+                            I've added three different RSS feeds here based on categories. The idea was to help you the tech guy that don't want to see what kind of motorcycle I have, or the english speaker that don't want to see portuguese posts on his feed reader.
+                            <br /><br />
+                            So, I have a feed for <a href="http://feeds.feedburner.com/PotHix">all my posts</a>, for the <a href="http://feeds.feedburner.com/EnglishPotHix">English posts</a> and <a href="http://feeds.feedburner.com/PotHixTech">Tech related posts</a>. Choose one and be happy! :)
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </footer>
+
+        <footer id="colophon" class="site-footer" role="contentinfo">
+            <div class="site-info">
+                <div class="grids">
+                    <div class="grid-6">
+                        © 2020 <a href="http://demo.codestag.com/doctype/">Doctype</a> WordPress Theme by <a href="//codestag.com">Codestag</a> modified by PotHix.
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script type='text/javascript' src='/javascripts/jquery.js'></script>
+    <script type='text/javascript' src='/javascripts/widget.min.js'></script>
+    <script type='text/javascript' src='/javascripts/tabs.min.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery.custom.js'></script>
+    <script type='text/javascript' src='/javascripts/plugins.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery.mixitup.min.js'></script>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-2852094-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</body>
+</html>
+

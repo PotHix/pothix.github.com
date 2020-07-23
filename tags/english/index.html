@@ -92,6 +92,8 @@
                   
                     <a href="/tags/english">english</a>,
                   
+                    <a href="/tags/keyboards">keyboards</a>,
+                  
                   </span>
                 </div>
 
@@ -218,6 +220,36 @@ Tool As you probably know, I work for Doist for some time now, and I&rsquo;m a T
                 <div class="entry-content">
                   For those who don&rsquo;t know, I&rsquo;m a proud core organizer of the Rust LATAM conference. 🎉 The conference happened on March 29 and 30, and this post describes how it was to organize the whole thing.
 Even with the small problems we had (as any other big conference), the feedback we received so far were very positive. We were able to bring amazing speakers to the conference, which brought high-level content even for beginners.
+                </div>
+              </article>
+            
+              <article class="post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
+
+                <header class="entry-header">
+                  <h2 class="entry-title">
+                    <a href="https://pothix.com/post/compiling-atreus-firmware/">Flashing a different firmware for the Atreus keyboard</a>
+                  </h2>
+                </header>
+
+                <div class="entry-meta">
+                  <span class="posted-on">
+                    Published at October 22, 2018
+                  </span>
+
+                  <span class="tags-links">
+                  
+                    <a href="/tags/english">english</a>,
+                  
+                    <a href="/tags/keyboards">keyboards</a>,
+                  
+                  </span>
+                </div>
+
+                <div class="entry-content">
+                  I just bought an Atreus keyboard and I&rsquo;m now configuring my own firmware.
+To do that, I&rsquo;m using the qmk_firmware.
+I&rsquo;m adding a new file as a layout (link here) and I have to change tmk_core/common/avr/bootloader.c to be able to compile it:
+-uint32_t reset_key __attribute__ ((section (&quot;.noinit&quot;))); +uint32_t reset_key __attribute__ ((section (&quot;.noinit,\&quot;aw\&quot;,@nobits;&quot;))); After that, I just had to get the keyboard to the reset mode via fn + ESC (to change the layout) and then pressed the RESET button.
                 </div>
               </article>
             
