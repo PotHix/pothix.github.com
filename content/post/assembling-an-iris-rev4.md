@@ -60,6 +60,8 @@ to do. If this is your case, be careful with your fan.
 
 [To Be Continued]
 
+_PS: [Here](https://photos.google.com/share/AF1QipOEfqRQ-V2aVWYO1ENs4xrMADgwfMQM36D0hgdGdv1kW8T04pNHui4JX3UffsHO9A?key=WnJ1YXhNTERaTnhNNFVDQnh2enA3ekd6ZjlTZVN3) is the album with all pictures I took while assembling the keyboard._ 😉
+
 ## Customizing the firmware
 
 The first thing to do is to clone the [qmk firmware
