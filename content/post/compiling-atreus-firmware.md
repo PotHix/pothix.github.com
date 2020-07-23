@@ -1,12 +1,12 @@
 ---
-title: "Flashing a different firmware for Atreus keyboard"
+title: "Flashing a different firmware for the Atreus keyboard"
 date: 2018-10-22
-draft: true
+tags: ["english", "keyboards"]
 ---
 
 I just bought an Atreus keyboard and I'm now configuring my own firmware.
 
-To do that, I'm using `qmk_firmware`.
+To do that, I'm using the `qmk_firmware`.
 
 I'm adding a new file as a layout (link here) and I have to change
 `tmk_core/common/avr/bootloader.c` to be able to compile it:
@@ -26,6 +26,7 @@ To compile the firmware you want, just use `make` and specify the keyboard and l
 make keyboard=atreus keymap=pothix
 ```
 
+In this case, I have a keymap called "pothix" at `qmk_firmware/keyboards/atreus/keymaps`.
 To flash the firmware, I used the `avrdude` command:
 
 ```
@@ -74,3 +75,5 @@ avrdude: safemode: Fuses OK (E:C8, H:D0, L:FF)
 
 avrdude done.  Thank you.
 ```
+
+Hope it's helpful to someone else. :)
