@@ -6,7 +6,7 @@
     <description>Recent content in Tags on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 26 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2020 09:48:21 -0300</lastBuildDate>
     
     <atom:link href="https://pothix.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,20 @@
     <item>
       <title>english</title>
       <link>https://pothix.com/tags/english/</link>
-      <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Jul 2020 09:48:21 -0300</pubDate>
       
       <guid>https://pothix.com/tags/english/</guid>
+      <description></description>
+    </item>
+    
+    
+    
+    <item>
+      <title>tech</title>
+      <link>https://pothix.com/tags/tech/</link>
+      <pubDate>Thu, 23 Jul 2020 09:48:21 -0300</pubDate>
+      
+      <guid>https://pothix.com/tags/tech/</guid>
       <description></description>
     </item>
     
@@ -40,17 +51,6 @@
       <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/tags/stats/</guid>
-      <description></description>
-    </item>
-    
-    
-    
-    <item>
-      <title>tech</title>
-      <link>https://pothix.com/tags/tech/</link>
-      <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://pothix.com/tags/tech/</guid>
       <description></description>
     </item>
     

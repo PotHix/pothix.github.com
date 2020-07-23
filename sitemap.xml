@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://pothix.com/tags/english/</loc>
+    <lastmod>2020-07-23T09:48:21-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pothix.com/post/</loc>
     <lastmod>2020-07-23T09:48:21-03:00</lastmod>
   </url>
@@ -18,12 +23,17 @@
   </url>
   
   <url>
-    <loc>https://pothix.com/post/2019-year-in-review/</loc>
-    <lastmod>2020-01-26T00:00:00+00:00</lastmod>
+    <loc>https://pothix.com/tags/</loc>
+    <lastmod>2020-07-23T09:48:21-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/tags/english/</loc>
+    <loc>https://pothix.com/tags/tech/</loc>
+    <lastmod>2020-07-23T09:48:21-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pothix.com/post/2019-year-in-review/</loc>
     <lastmod>2020-01-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -38,17 +48,7 @@
   </url>
   
   <url>
-    <loc>https://pothix.com/tags/</loc>
-    <lastmod>2020-01-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://pothix.com/post/contributing-to-rust/</loc>
-    <lastmod>2019-11-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pothix.com/tags/tech/</loc>
     <lastmod>2019-11-22T00:00:00+00:00</lastmod>
   </url>
   
