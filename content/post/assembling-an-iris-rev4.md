@@ -48,7 +48,7 @@ I had to buy the following pieces to be able to do it:
 + 1 Soldering kit (soldering iron, desoldering pump, soldering iron stand, tin wire tube): R$88,00
 + Acrylic Middle layers: $30.00 (bought after the keyboard was assembled as it's optional)
 
-The sum is about $234.60 + R$125,00 (~30 USD). I believe I spend around **280
+The sum is about $234.60 + R$125,00 (~30 USD). I believe I spent around **280
 USD** to build the keyboard. In my local currency, using the current
 conversion (it may have been different when I first bought the needed
 components), it's around **R$1400,00**.
