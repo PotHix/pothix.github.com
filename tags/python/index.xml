@@ -14,10 +14,10 @@
     
     <item>
       <title>Ruby, Python e native threads</title>
-      <link>https://pothix.com/post/ruby-python-e-native-threads/</link>
+      <link>https://pothix.com/threads-rubypython/</link>
       <pubDate>Fri, 14 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/ruby-python-e-native-threads/</guid>
+      <guid>https://pothix.com/threads-rubypython/</guid>
       <description>Pode ser que eu seja meio burro (heheh) mas eu ainda achava que o Ruby e o Python usavam Green Threads, mas depois de conversar com uma galera me disseram que eram threads nativas. Pesquisando na internet eu vi que eram mesmo, mas decidi rodar um strace para ver elas rolando e postar sobre isso.
 Fiz dois scripts simples:
 Python
@@ -28,10 +28,10 @@ import threading import time for i in range(5): t = threading.</description>
     
     <item>
       <title>Rails X Django</title>
-      <link>https://pothix.com/post/rails-x-django/</link>
+      <link>https://pothix.com/rails-django/</link>
       <pubDate>Wed, 08 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/post/rails-x-django/</guid>
+      <guid>https://pothix.com/rails-django/</guid>
       <description>Como todos sabem eu sou do mundo Ruby/Rails (Não sou xiita mas é o que mais gosto) e de vez em quando começo a brincar com coisas diferentes para poder formar a minha própria opinião sobre o assunto. No mes de fevereiro me surgiu um projeto bem interessante para trabalhar, pessoas legais, oportunidade legal, bem interessante! O projeto seria feito em Python/Django, e achei bem interessante a idéia de poder comparar várias coisas do Rails com o Django.</description>
     </item>
     

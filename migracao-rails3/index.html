@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta content="Willian Molinari a.k.a. PotHix" name="author">
+        <meta property="og:title" content="Conto da migração para Rails 3 - PotHix">
+        <meta property="og:url" content="https://pothix.com/migracao-rails3/">
+        <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
+        <meta property="og:type" content="website" />
+        <meta name="generator" content="Hugo 0.74.3" />
+
+        <title>Conto da migração para Rails 3 | PotHix</title>
+
+        
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
+        
+
+        <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts)" href="http://feeds.feedburner.com/PotHix" />
+        <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts in English)" href="http://feeds.feedburner.com/EnglishPotHix" />
+        <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts related to technology)" href="http://feeds.feedburner.com/PotHixTech" />
+
+        <link rel="icon" type="image/png" href="/images/favico.png">
+        <link rel="stylesheet" href="/stylesheets/style.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="/stylesheets/stag-custom-styles.css" type="text/css" media="all" />
+
+        <link rel="stylesheet" href="/stylesheets/font-awesome-4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" id="doctype-fonts-css"  href="http://fonts.googleapis.com/css?family=Rokkitt%3A700%7CLato%3A300%2C400%2C700%2C300italic&#038;subset=latin" type="text/css" media="all" />
+
+        <body class="blog sticky-nav chrome stagtools">
+            <div id="page" class="hfeed site">
+                <header id="masthead" class="site-header site-header--fixed" role="banner">
+                    <div class="inside">
+                        <div id="navbar" class="navbar">
+  <nav id="site-navigation" class="navigation main-navigation" role="navigation">
+    <ul id="primary-menu" class="primary-menu">
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/">Home</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/coding">Coding</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/speaking">Speaking</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/writing">Writing</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/media">Media</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/now">Now</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/about">About me</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+                        <a class="site-branding" href="/" title="Doctype" rel="home">
+                            <span class="logo-container">
+                                <img data-at2x src="/images/logo.png" alt="Website's logo">
+                            </span>
+                        </a>
+                    </div>
+                </header>
+
+
+<div id="content" class="site-content">
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
+            <article class="post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
+                <header class="entry-header">
+                    <h2 class="entry-title">Conto da migração para Rails 3</h2>
+                </header>
+
+                <div class="entry-meta">
+                    <span class="posted-on">
+                        Published at October 21, 2010
+                    </span>
+                    <span class="tags-links">
+                        
+                        <a href="/tags/ruby">ruby</a>,
+                        
+                        <a href="/tags/tech">tech</a>,
+                        
+                    </span>
+                    <span class="translate">
+                        
+                        <a href="https://translate.google.com/translate?sl=pt&amp;tl=en&amp;u=https%3a%2f%2fpothix.com%2fmigracao-rails3%2f" target="_blank" rel="nofollow noopener noreferrer">Translate 🇺🇸</a>
+                        
+                    </span>
+                </div>
+
+                <div class="entry-content">
+                    <p>Nesse post eu vou falar um pouco de como foi atualizar a aplicação que
+eu trabalho atualmente para Rails3.</p>
+<p>Em uma segunda feira eu tive a brilhante ideia de aproveitar que as
+tasks que eu estava fazendo estavam dependentes de algumas coisas que
+ainda não estavam feitas, e resolvi começar a atualizar a aplicação
+para Rails3 só para saber o trabalho que ia dar, e no final do dia eu
+já tinha feito todas as alterações necessárias para o boot da
+aplicação e para rodar a suite de testes (não fazer os testes passar,
+apenas rodar!).  Depois disso foi mais 1 dia para fazer todos os
+testes passar, e mais alguns outros testando a aplicação e resolvendo
+pequenos problemas de safe html e derivados.</p>
+<h4 id="dicas-para-fazer-a-conversão-do-código">Dicas para fazer a conversão do código</h4>
+<h5 id="tenha-testes">Tenha testes</h5>
+<p>Se não tiver testes, esqueça essa idéia e pare de ler o post, a menos
+que você queira quebrar sua app em produção.</p>
+<h5 id="faça-sua-aplicação-e-suite-de-testes-funcionar">Faça sua aplicação e suite de testes funcionar</h5>
+<p>Primeiramente, se você ainda não conhece, vale a pena dar uma olhada
+no plugin chamado Rails Upgrade que te dá um guideline do que você
+precisa ir alterando para tornar sua aplicação compatível com Rails 3.
+Esse plugin faz algumas coisas como criar o application.rb baseado no
+seu environment, te dar alguns guias das configurações que mudaram e
+tenta converter suas rotas para o novo padrão (vide próximo tópico) O
+primeiro passo a se tomar é utilizar o plugin (ou não, pode fazer
+manualmente também) e trocar as coisas principais para que sua
+aplicação pelo menos passe pela etapa de boot.  Quando passar por esse
+passo vá para seus testes, e se for RSpec prepare-se para ter alguns
+problemas de conversão, por que algumas coisas mudaram do RSpec 1 para
+o RSpec 2, e você vai ter que lidar com os problemas de atualização
+dos seus testes tambem. A maioria das coisas que tive problemas foi
+com métodos que não existem mais como o have_tag por exemplo.</p>
+<h5 id="não-use-o-rails-upgrade-para-a-conversão-das-rotas">Não use o Rails Upgrade para a conversão das rotas</h5>
+<p>Como disse acima, esse plugin é um ótimo guia, mas tome cuidado com
+ele como solução final. Você pode dizer para ele converter suas rotas,
+mas tome cuidado, por que dependendo da forma que as suas rotas estão
+diagramadas o resultado que ele dá não é muito conciso. O que eu fiz
+foi utilizar a conversão dele apenas como estudo para saber como está
+a nova syntax e refiz o arquivo de rotas do zero.</p>
+<h5 id="pare-de-usar-remarkable">Pare de usar remarkable</h5>
+<p>Eu sempre gostei de usar Remarkable para testar relacionamentos,
+validações e etc, mas remarkable no Rails 3 é uma grande porcaria. Os
+desenvolvedores que começaram o projeto ficaram sem tempo para o mesmo
+e deixaram na mão de outros, que não tem a mesma qualidade ou
+preocupação com o projeto, portanto, a menos que você queira ser o
+novo mantenedor do projeto e fazer as alterações necessárias para que
+funcione bem no Rails 3, fuja dele agora.  O que eu fiz foi começar a
+usar o Shoulda para algumas coisas que me convinham, como por exemplo
+testes de relacionamento e validações. Para quem estiver interessado
+em fazer essa migração, eu fiz grande parte das trocas do que eu usava
+(validações e relacionamentos) facinho com grep e sed! Fiz <a href="http://gist.github.com/640517">um
+Gist</a> disso.</p>
+<h5 id="evite-dependencias">Evite dependencias</h5>
+<p>Assim como o remarkable acima, cada outra gem/plugin que você está
+utilizando pode ter problemas com o Rails 3, portanto, antes de fazer
+a migração procure manter o menor número possível de dependencias no
+seu projeto, e as que você tiver veja se já possui uma versão
+funcional para Rails 3, e se não possuir você já pode se voluntariar
+para fazer ;).</p>
+<h5 id="use-o-sufixo-_html-nos-locales-necessários">Use o sufixo _html nos locales necessários</h5>
+<p>Suponho que as aplicações Rails estão usando os formatos de
+internacionalização do Rails, portanto suas string não estão perdidas
+pelas Views, Controllers e Models e sim estão em seus devidos arquivos
+de locale.  Levando esse cenário óbvio em conta lembre-se de que você
+não precisa dar raw em toda mensagem que possui HTML por que Rails já
+faz isso para você quando você adiciona o sufixo _html na sua chave de
+locale. Exemplo:</p>
+<pre><code>not_yet: &quot;**Ainda não**&quot;
+</code></pre>
+<p>Ficaria:</p>
+<pre><code>not_yet_html: &quot;**Ainda não**&quot;
+</code></pre>
+<p>E assim ele não vai escapar automaticamente o HTML dessa chave.</p>
+<h5 id="vá-lidando-aos-poucos-com-deprecation-warning">Vá lidando aos poucos com DEPRECATION WARNING</h5>
+<p>Quando você rodar sua suite de testes pela primeira vez já vai ser
+bombardeado por uma quantidade monstra de _DEPRECATION WARNING_s, mas
+não saia atacando eles de uma vez, primeiramente tenha em mente fazer
+sua aplicação funcionar e você vai corrigir esses probleminhas aos
+poucos enquanto estiver corrigindo os erros ou desenvolvendo coisas
+novas.  Felizmente a API do ActiveRecord não deixou de funcionar,
+portanto você ainda não vai precisar fazer grandes modificações para a
+nova syntax utilizando Arel por enquanto, o que vai tornar a migração
+menos dolorosa e você pode migrar aos poucos enquanto seu código já
+estiver rodando.</p>
+<h4 id="dicas-de-organização-para-a-migração">Dicas de organização para a migração</h4>
+<h5 id="crie-um-branch-separado-e-altere-aos-poucos">Crie um branch separado e altere aos poucos</h5>
+<p>Sim! Todos queríamos que toda a equipe parasse por alguns dias e fosse
+alterar o projeto para funcionar com Rails 3, mas todos sabemos que
+isso não é possível na realidade de ninguém. Então uma coisa legal
+para se fazer (principalmente quando se está trabalhando com controle
+de versão distribuído, onde branches não são tão penosos) é criar um
+branch e manter uma pessoa trabalhando nele enquanto os outros vão
+tocando o projeto, sempre com muita comunicação para evitar que as
+pessoas criem cada vez mais código legado que precisará ser migrado,
+até que chegue uma hora que você possa voltar para o master e ficar
+sem deploy por alguns poucos dias para que a aquipe termine o trabalho
+e faça alguns testes.</p>
+<h5 id="ataque-um-problema-de-cada-vez">Ataque um problema de cada vez</h5>
+<p>Acho muito legal a combinação Rails + Ruby1.9, mas acho que as coisas
+ficam bem mais fáceis quando atacamos no estilo estripador (por
+partes), assim você tem um caminho a menos para analizar de onde vem o
+possível erro, e assim que terminar uma migração para Rails 3 já pode
+começar uma para Ruby 1.9 e ver o que vai quebrar apenas para essa
+implementação específica.</p>
+<h5 id="use-seu-ambiente-de-homologação">Use seu ambiente de homologação</h5>
+<p>Não sei como seu deploy funciona atualmente, mas talvez com a migração
+você precise alterar ele e é na hora que você for colocar no seu
+ambiente de homologação que você vai descobrir isso, portanto, use-o
+bem! :)</p>
+<h4 id="conclusão-e-saldo-final">Conclusão e Saldo final</h4>
+<p>Fazer a migração para o Rails 3 foi mais simples do que eu imaginei,
+mas mesmo assim tomou vários dias para a conclusão.  Nos meus calculos
+levou mais ou menos 2 dias só meus e uns 3 dias meus e de outro
+desenvolvedor, isso contando os problemas de merge e etc. Portanto
+acho que em 1 semana é possível migrar uma aplicação bem coberta por
+testes sem grandes problemas e sem precisar parar a sua equipe inteira
+por um grande período. Escolha aquela semana com um feriado e atualize
+sua aplicação. :)</p>
+<p><em>Old comments by: Diego Carrion, Willian Fernandes | Not available anymore. :(</em></p>
+
+                    
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'pothixcom';
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+                </div>
+            </article>
+        </main>
+    </div>
+</div>
+
+        <footer class="footer-widget-area">
+            <div class="inside">
+                <div class="grids">
+                    <aside id="stag-dribbble-2" class="widget grid-4 stag-dribbble">
+                        <div>
+                            <h3 class="widget-title">
+                                <span>Photography, a hobby</span>
+                            </h3>
+                            <a href="https://500px.com/pothix">
+                                <img src="https://drscdn.500px.org/photo/306645053/q%3D80_h%3D600/v2?sig=f0145e764e9dead0b4a6500b9fb53591aeb72f18eadb26bbd6c345322144abbf" style="float:left">
+                            </a>
+                            <div class="textwidget">
+                                <center>Check out <a href="https://500px.com/pothix">my 500px account</a> for more photos!</center>
+                            </div>
+                        </div>
+                    </aside>
+
+                    <aside id="recent-posts-2" class="widget grid-4 widget_recent_entries">
+                        <h3 class="widget-title">
+                            <span>Last 3 books read</span>
+                        </h3>
+
+                        <ul>
+                            <style type="text/css" media="screen">
+                                .gr_grid_container {
+                                 
+                                    height:150px;
+                                }
+
+                                .gr_grid_book_container {
+                                    float: left;
+                                    width: 98px;
+                                    height: 160px;
+                                    padding: 0px 0px;
+                                    overflow: hidden;
+                                }
+                            </style>
+
+                            <div id="gr_grid_widget_1490660444">
+                            </div>
+
+                            <script src="https://www.goodreads.com/review/grid_widget/38970458.Willian's%20bookshelf:%20read?cover_size=medium&hide_link=true&hide_title=true&num_books=3&order=d&shelf=read&sort=date_read&widget_id=1494295777
+" type="text/javascript" charset="utf-8"></script>
+                        </ul>
+                    </aside>
+
+                    <aside id="text-2" class="widget grid-4 widget_text">
+                        <h3 class="widget-title">
+                            <span>Follow this blog</span>
+                        </h3>
+                        <div class="textwidget">
+                            I've added three different RSS feeds here based on categories. The idea was to help you the tech guy that don't want to see what kind of motorcycle I have, or the english speaker that don't want to see portuguese posts on his feed reader.
+                            <br /><br />
+                            So, I have a feed for <a href="http://feeds.feedburner.com/PotHix">all my posts</a>, for the <a href="http://feeds.feedburner.com/EnglishPotHix">English posts</a> and <a href="http://feeds.feedburner.com/PotHixTech">Tech related posts</a>. Choose one and be happy! :)
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </footer>
+
+        <footer id="colophon" class="site-footer" role="contentinfo">
+            <div class="site-info">
+                <div class="grids">
+                    <div class="grid-6">
+                        © 2020 <a href="http://demo.codestag.com/doctype/">Doctype</a> WordPress Theme by <a href="//codestag.com">Codestag</a> modified by PotHix.
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script type='text/javascript' src='/javascripts/jquery.js'></script>
+    <script type='text/javascript' src='/javascripts/widget.min.js'></script>
+    <script type='text/javascript' src='/javascripts/tabs.min.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery.custom.js'></script>
+    <script type='text/javascript' src='/javascripts/plugins.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery.mixitup.min.js'></script>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-2852094-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</body>
+</html>
+

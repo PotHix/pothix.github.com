@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta content="Willian Molinari a.k.a. PotHix" name="author">
+        <meta property="og:title" content="Linux, Vim, Screen e Pair programming! - PotHix">
+        <meta property="og:url" content="https://pothix.com/linux-pairprog/">
+        <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
+        <meta property="og:type" content="website" />
+        <meta name="generator" content="Hugo 0.74.3" />
+
+        <title>Linux, Vim, Screen e Pair programming! | PotHix</title>
+
+        
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
+        
+
+        <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts)" href="http://feeds.feedburner.com/PotHix" />
+        <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts in English)" href="http://feeds.feedburner.com/EnglishPotHix" />
+        <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts related to technology)" href="http://feeds.feedburner.com/PotHixTech" />
+
+        <link rel="icon" type="image/png" href="/images/favico.png">
+        <link rel="stylesheet" href="/stylesheets/style.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="/stylesheets/stag-custom-styles.css" type="text/css" media="all" />
+
+        <link rel="stylesheet" href="/stylesheets/font-awesome-4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" id="doctype-fonts-css"  href="http://fonts.googleapis.com/css?family=Rokkitt%3A700%7CLato%3A300%2C400%2C700%2C300italic&#038;subset=latin" type="text/css" media="all" />
+
+        <body class="blog sticky-nav chrome stagtools">
+            <div id="page" class="hfeed site">
+                <header id="masthead" class="site-header site-header--fixed" role="banner">
+                    <div class="inside">
+                        <div id="navbar" class="navbar">
+  <nav id="site-navigation" class="navigation main-navigation" role="navigation">
+    <ul id="primary-menu" class="primary-menu">
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/">Home</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/coding">Coding</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/speaking">Speaking</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/writing">Writing</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/media">Media</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/now">Now</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/about">About me</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+                        <a class="site-branding" href="/" title="Doctype" rel="home">
+                            <span class="logo-container">
+                                <img data-at2x src="/images/logo.png" alt="Website's logo">
+                            </span>
+                        </a>
+                    </div>
+                </header>
+
+
+<div id="content" class="site-content">
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
+            <article class="post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
+                <header class="entry-header">
+                    <h2 class="entry-title">Linux, Vim, Screen e Pair programming!</h2>
+                </header>
+
+                <div class="entry-meta">
+                    <span class="posted-on">
+                        Published at March 29, 2010
+                    </span>
+                    <span class="tags-links">
+                        
+                        <a href="/tags/linux">linux</a>,
+                        
+                        <a href="/tags/tech">tech</a>,
+                        
+                    </span>
+                    <span class="translate">
+                        
+                        <a href="https://translate.google.com/translate?sl=pt&amp;tl=en&amp;u=https%3a%2f%2fpothix.com%2flinux-pairprog%2f" target="_blank" rel="nofollow noopener noreferrer">Translate 🇺🇸</a>
+                        
+                    </span>
+                </div>
+
+                <div class="entry-content">
+                    <p>Aqui estou eu mais uma vez para falar mais uma das maluquices que eu
+fiz um bom tempo atrás mas não tive tempo de postar.</p>
+<p>Primeiramente eu vou falar o que muita gente já falou muito bem, que é
+sobre screen e pair programming. Mas vou dizer como funcionou para mim.
+Alguns posts que eu li antes e depois de começar a brincar com screen e
+pair programming, e que eu gostei:</p>
+<ul>
+<li><a href="http://www.caikesouza.com/blog/2009/05/remote-pair-programming-with-screen/">Post do Caike sobre Pair programming remoto usando screen</a></li>
+<li><a href="http://qmx.me/pair%20programming">Post do Qmx sobre pair programming usando screen</a></li>
+</ul>
+<p>Primeiramente vamos começar com umas dicas do post do caike:</p>
+<p>Para mim foi necessário alterar as permissões do Screen:</p>
+<pre><code>sudo chmod +s /usr/bin/screen
+sudo chmod 775 /var/run/screen
+</code></pre>
+<p>Agora é só seguir a velha receita dos dois posts:</p>
+<p>Primeiro usuário:</p>
+<ul>
+<li>O primeiro usuário acessa o computador host via ssh</li>
+<li>executa o comando <strong>screen -S nomedoscreen</strong></li>
+</ul>
+<p>Segundo usuário:</p>
+<ul>
+<li>Acessa o servidor com o mesmo nome de usuário/senha do primeiro</li>
+<li>executa screen -x</li>
+</ul>
+<p>Pronto! As duas pessoas estão compartilhando a mesma tela agora e podem
+usar o Vim para programar (claro, qual outro editor seria, não!?).</p>
+<p>Nunca consegui utilizar o screen multiusuário (como mencionado no post
+do caike) mas isso não é um grande problema. :)</p>
+<h4 id="como-eu-usei">Como eu usei</h4>
+<p>Primeiramente fiz um pair programming normal com o <a href="http://twitter.com/mateuslinhares">@mateuslinhares</a>,
+onde nós dois ficavamos no mesmo screen conversando (estavamos há menos
+de 2 metros de distância), e cada um com seu teclado, podendo intervir a
+qualquer momento. Isso foi legal por que não precisávamos ficar
+dividindo espaço de um mesmo monitor ou de um mesmo teclado, e ainda
+driblava outros problemas que tínhamos na época.</p>
+<h4 id="uma-nova-idéia">Uma nova idéia</h4>
+<p>Na época desse pair programming estavamos com uma task grande e
+trabalhosa, mas podia ser feita individualmente, e provavelmente seria
+mais produtiva do que em pair programming, mas tinha uma particularidade
+muito interessante. Cada um de nós conhecia melhor uma parte do sistema,
+portanto, se mantivessemos contato contínuo isso ia acelerar o trabalho,
+pois precisávamos alterar/retirar algumas coisas que podiam ou não ser
+importantes para o sistema como um todo. Levando tudo isso em conta me
+surgiu uma idéia:</p>
+<blockquote>
+<p>Por que não fazer tudo com um “semi pair programming”, onde cada um
+trabalhava no seu computador mas visualizando a tela do outro em um
+split.</p>
+</blockquote>
+<p>Tanto eu como o @mateuslinhares estamos acostumados a separar o nosso
+vim em vários splits verticais e horizontais, ou seja, um split vertical
+do screen não seria o problema.</p>
+<h4 id="o-que-fizemos">O que fizemos</h4>
+<p>Decidimos então seguir o seguinte script:</p>
+<p>Setup das duas maquinas:</p>
+<ul>
+<li>Vim</li>
+<li>Screen</li>
+<li>Um usuário em comum</li>
+</ul>
+<h5 id="pothix-">PotHix :</h5>
+<ul>
+<li>com o usuário compartilhado executa um <strong>screen -S pothix</strong> na sua maquina</li>
+<li>Abre um novo split no screen com o comando <strong>ctrl+a s</strong></li>
+<li>Nesse novo split acessa a maquina do Mateus e executa <strong>screen -x</strong> para acessar o screen que o @mateuslinhares criou na maquina dele</li>
+<li>Volta para o split anterior e trabalha normalmente</li>
+</ul>
+<h5 id="mateuslinhares">@mateuslinhares</h5>
+<ul>
+<li>com o usuário compartilhado executa um <strong>screen -S mateuslinhares</strong> na sua maquina</li>
+<li>Abre um novo split no screen com o comando <strong>ctrl+a s</strong></li>
+<li>Nesse novo split acessa a maquina do Mateus e executa <strong>screen -x</strong> para acessar o screen que o PotHix criou na maquina dele</li>
+<li>Volta para o split anterior e trabalha normalmente</li>
+</ul>
+<p>Seguindo esse script teremos os 2 utilizando um screen com um split,
+sendo que um split é para seu trabalho local e no outro você pode
+acompanhar e dar pitacos no trabalho do seu comparsa! :)</p>
+<h4 id="benefícios">Benefícios</h4>
+<p>No caso dessa nossa task isso resolveu muito o nosso problema, por que
+conseguimos trabalhar em locais distintos mas sempre em constante
+comunicação, o que sempre trazia alguns comentários como:</p>
+<p><strong>PotHix</strong>: Ow… Não tira isso aí não por que vai quebrar tal parada.</p>
+<p>ou então:</p>
+<p><strong>Mateuslinhares</strong>: Cara… Olha isso aqui no screen, dá para fazer na sua
+parte tambem.</p>
+<h4 id="conclusão">Conclusão</h4>
+<p>Para mim foi muito bom e recomendo a todos para tentarem algo do tipo
+quando tiverem chance (a não ser que você use Textmate…nesse caso…boa
+sorte! :P)! A unica coisa que eu recomendo é utilizar 2 monitores, assim
+você pode deixar a tela do seu comparsa no outro monitor (divida os
+monitores verticalmente) e trabalhar com vários splits no seu monitor. :)</p>
+<p>É totalmente possível trabalhar com 1 monitor apenas (foi assim
+que trabalhamos) mas você obviamente perde um pouco de espaço.</p>
+<p>Espero que essas informações sejam úteis para mais alguém.</p>
+<p>Qualquer dúvida ou sugestão deixe nos comentários. :)</p>
+<p><em>Old comments by: Willian Fernandes, Luciano Sousa, caike | Not available anymore. :(</em></p>
+
+                    
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'pothixcom';
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+                </div>
+            </article>
+        </main>
+    </div>
+</div>
+
+        <footer class="footer-widget-area">
+            <div class="inside">
+                <div class="grids">
+                    <aside id="stag-dribbble-2" class="widget grid-4 stag-dribbble">
+                        <div>
+                            <h3 class="widget-title">
+                                <span>Photography, a hobby</span>
+                            </h3>
+                            <a href="https://500px.com/pothix">
+                                <img src="https://drscdn.500px.org/photo/306645053/q%3D80_h%3D600/v2?sig=f0145e764e9dead0b4a6500b9fb53591aeb72f18eadb26bbd6c345322144abbf" style="float:left">
+                            </a>
+                            <div class="textwidget">
+                                <center>Check out <a href="https://500px.com/pothix">my 500px account</a> for more photos!</center>
+                            </div>
+                        </div>
+                    </aside>
+
+                    <aside id="recent-posts-2" class="widget grid-4 widget_recent_entries">
+                        <h3 class="widget-title">
+                            <span>Last 3 books read</span>
+                        </h3>
+
+                        <ul>
+                            <style type="text/css" media="screen">
+                                .gr_grid_container {
+                                 
+                                    height:150px;
+                                }
+
+                                .gr_grid_book_container {
+                                    float: left;
+                                    width: 98px;
+                                    height: 160px;
+                                    padding: 0px 0px;
+                                    overflow: hidden;
+                                }
+                            </style>
+
+                            <div id="gr_grid_widget_1490660444">
+                            </div>
+
+                            <script src="https://www.goodreads.com/review/grid_widget/38970458.Willian's%20bookshelf:%20read?cover_size=medium&hide_link=true&hide_title=true&num_books=3&order=d&shelf=read&sort=date_read&widget_id=1494295777
+" type="text/javascript" charset="utf-8"></script>
+                        </ul>
+                    </aside>
+
+                    <aside id="text-2" class="widget grid-4 widget_text">
+                        <h3 class="widget-title">
+                            <span>Follow this blog</span>
+                        </h3>
+                        <div class="textwidget">
+                            I've added three different RSS feeds here based on categories. The idea was to help you the tech guy that don't want to see what kind of motorcycle I have, or the english speaker that don't want to see portuguese posts on his feed reader.
+                            <br /><br />
+                            So, I have a feed for <a href="http://feeds.feedburner.com/PotHix">all my posts</a>, for the <a href="http://feeds.feedburner.com/EnglishPotHix">English posts</a> and <a href="http://feeds.feedburner.com/PotHixTech">Tech related posts</a>. Choose one and be happy! :)
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </footer>
+
+        <footer id="colophon" class="site-footer" role="contentinfo">
+            <div class="site-info">
+                <div class="grids">
+                    <div class="grid-6">
+                        © 2020 <a href="http://demo.codestag.com/doctype/">Doctype</a> WordPress Theme by <a href="//codestag.com">Codestag</a> modified by PotHix.
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script type='text/javascript' src='/javascripts/jquery.js'></script>
+    <script type='text/javascript' src='/javascripts/widget.min.js'></script>
+    <script type='text/javascript' src='/javascripts/tabs.min.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery.custom.js'></script>
+    <script type='text/javascript' src='/javascripts/plugins.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery.mixitup.min.js'></script>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-2852094-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</body>
+</html>
+

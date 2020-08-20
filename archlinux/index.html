@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta content="Willian Molinari a.k.a. PotHix" name="author">
+        <meta property="og:title" content="My Archlinux setup - PotHix">
+        <meta property="og:url" content="https://pothix.com/archlinux/">
+        <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
+        <meta property="og:type" content="website" />
+        <meta name="generator" content="Hugo 0.74.3" />
+
+        <title>My Archlinux setup | PotHix</title>
+
+        
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
+        
+
+        <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts)" href="http://feeds.feedburner.com/PotHix" />
+        <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts in English)" href="http://feeds.feedburner.com/EnglishPotHix" />
+        <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts related to technology)" href="http://feeds.feedburner.com/PotHixTech" />
+
+        <link rel="icon" type="image/png" href="/images/favico.png">
+        <link rel="stylesheet" href="/stylesheets/style.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="/stylesheets/stag-custom-styles.css" type="text/css" media="all" />
+
+        <link rel="stylesheet" href="/stylesheets/font-awesome-4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" id="doctype-fonts-css"  href="http://fonts.googleapis.com/css?family=Rokkitt%3A700%7CLato%3A300%2C400%2C700%2C300italic&#038;subset=latin" type="text/css" media="all" />
+
+        <body class="blog sticky-nav chrome stagtools">
+            <div id="page" class="hfeed site">
+                <header id="masthead" class="site-header site-header--fixed" role="banner">
+                    <div class="inside">
+                        <div id="navbar" class="navbar">
+  <nav id="site-navigation" class="navigation main-navigation" role="navigation">
+    <ul id="primary-menu" class="primary-menu">
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/">Home</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/coding">Coding</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/speaking">Speaking</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/writing">Writing</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/media">Media</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/now">Now</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/about">About me</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+                        <a class="site-branding" href="/" title="Doctype" rel="home">
+                            <span class="logo-container">
+                                <img data-at2x src="/images/logo.png" alt="Website's logo">
+                            </span>
+                        </a>
+                    </div>
+                </header>
+
+
+<div id="content" class="site-content">
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
+            <article class="post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
+                <header class="entry-header">
+                    <h2 class="entry-title">My Archlinux setup</h2>
+                </header>
+
+                <div class="entry-meta">
+                    <span class="posted-on">
+                        Published at August 5, 2017
+                    </span>
+                    <span class="tags-links">
+                        
+                        <a href="/tags/english">english</a>,
+                        
+                        <a href="/tags/tech"> tech</a>,
+                        
+                    </span>
+                    <span class="translate">
+                        
+                        <a href="https://translate.google.com/translate?sl=en&amp;tl=pt&amp;u=https%3a%2f%2fpothix.com%2farchlinux%2f" target="_blank" rel="nofollow noopener noreferrer">Traduzir 🇧🇷</a>
+                        
+                    </span>
+                </div>
+
+                <div class="entry-content">
+                    <p>I was playing with Archlinux in the last 3 or 4 years and last year I decided to
+reboot my configuration files and start using Xfce.</p>
+<p>Talking to <a href="https://twitter.com/AkitaOnRails">Fabio Akita</a> about my Archlinux
+tunning, I heard that I should be posting about that. That&rsquo;s true, so I decided
+to start writing it. I wrote in March and it was in draft form since then, so it&rsquo;s time
+to release it. :)</p>
+<p>BTW, Fabio
+<a href="http://www.akitaonrails.com/2017/01/10/arch-linux-best-distro-ever">already did that</a>,
+but I will post about my setup anyway.</p>
+<h3 id="desktop-environment">Desktop Environment</h3>
+<p>I was using Gnome before deciding to reboot my workstation. I
+met <a href="https://twitter.com/marcosnils">@marcosnils</a> at Gophercon last year and we
+had some chatting about window managers. I&rsquo;m a big fan of tiling and was
+planning to go to a tiling window manager again. The problem with tiling window
+managers is the amount of configuration you have to create in order to have your
+laptop in a fully functional mode. I was looking for something between a window
+manager and a desktop environment, something composable with some support for
+tiling. And then, he shows me his laptop with Xfce running.</p>
+<p>That doesn&rsquo;t look like the Xfce I know. It was pretty smooth and with many
+features I did not know. Then, I decided to give Xfce a try.</p>
+<p>At first, it was horrible but functional. I could compose its packages to only
+install what I wanted and almost everything was working out of the box. That&rsquo;s
+what I was looking for. So it&rsquo;s time for themes, fonts, bars and so on, just to
+make it beautiful.</p>
+<p>Here is my results:</p>
+<p><a href="/images/posts/archlinux-setup/archlinux_setup_xfce.png" title=""><img src="/images/posts/archlinux-setup/archlinux_setup_xfce.png" alt="Xfce screenshot" title="Xfce screenshot"></a></p>
+<p>It looks good to me. :)</p>
+<p>Xfce has shortcuts to do what I like to do with tiling: vertical and horizontal
+splits. Here is an example of me writing this blog post on a split screen on my
+ultrawide monitor:</p>
+<p><a href="/images/posts/archlinux-setup/xfce_split.png" title=""><img src="/images/posts/archlinux-setup/xfce_split.png" alt="Xfce tiling example" title="Xfce tiling example"></a></p>
+<p>Keyboard shortcuts for different types of screenshots were really useful as
+well. I did not know this feature, but it was probably my fault. :P</p>
+<h3 id="window-manager">Window manager</h3>
+<p>I was trying different window managers at the time, so I decided to
+give <a href="https://i3wm.org/">i3</a> a try. It looks very good if you like (or have the
+time) to configure and tune it.</p>
+<p>As I was trying different things, why not to try Wayland as well? So I
+installed <a href="http://swaywm.org/">sway</a> instead of i3 to use it with Wayland. It
+was an interesting test. My configuration files work with i3 and sway currently.</p>
+<p>I&rsquo;m usually using Xfce but sometimes I log in with sway to take advantage of the
+tiling in a different way.</p>
+<h3 id="managing-configuration-files">Managing configuration files</h3>
+<p>It&rsquo;s possible to use configuration managers for this task (like
+<a href="https://saltstack.com/">Salt</a>,
+<a href="https://www.ansible.com/">Ansible</a>,
+<a href="https://docs.chef.io/chef_solo.html">Chef solo</a> and so on) but I preferred to
+use a simpler way.</p>
+<p>All configurations to recreate this environment is available in
+my <a href="https://github.com/PotHix/pothix-dotfiles">dotfiles repository</a>. It uses a
+project called <a href="https://github.com/dgvncsz0f/dot-install">dot-install</a> created
+by <a href="https://github.com/dgvncsz0f">Diego Souza</a>. It is a simple bash script that
+copies the files to the correct places, BOOM, done. I like it.</p>
+<p>I can create bundles to apply the same configuration files to more than one
+computer. Some files have to change because of network interface names and so
+on, but the structure is the same.</p>
+<h3 id="kernel">Kernel</h3>
+<p>I&rsquo;m trying different kernels. The first one (and easier)
+was <a href="https://github.com/zen-kernel/zen-kernel/issues/30">linux-zen</a>. It is
+available in the community repository of Archlinux. I really recommend it in
+case you don&rsquo;t need (or want) to use Docker with support to <code>overlayfs</code>.</p>
+<p>I was also compiling the <code>rc</code> releases of the Linux kernel whenever possible, so
+I could try to contribute in case I found something weird, but as it takes a lot
+of my time, I decided to give it a break for some time.</p>
+<p>But the best one until now is
+the <a href="https://wiki.archlinux.org/index.php/linux-ck">linux-ck</a>. It is the Linux
+kernel with the patches
+from <a href="http://users.on.net/~ckolivas/kernel/">Con Kolivas</a>. There is a different
+scheduler running and some other improvements. It was made with desktop
+performance in mind (just like <code>linux-zen</code>, that uses the same scheduler from
+<code>linux-ck</code>).</p>
+<p><code>linux-ck</code> has its own repo, in case you don&rsquo;t want to compile it yourself from
+AUR. Just add this line to your pacman.conf:</p>
+<pre><code>[repo-ck]
+Server = http://repo-ck.com/$arch
+</code></pre>
+<p>Just be aware that the link quality is awful. You have to retry it many times to
+get the file downloaded. =/</p>
+<h3 id="tunning">Tunning</h3>
+<p>There are some good tips to apply on your Archlinux, but I will not just copy
+&amp; paste it here. Please
+<a href="http://www.akitaonrails.com/2017/01/10/arch-linux-best-distro-ever">refer to Fabio post</a>,
+since I discussed with him about it and we applied almost the same procedure.</p>
+<p>The I/O related tunning are the most recommended.</p>
+<h3 id="package-manager">Package manager</h3>
+<p>There are some addition package managers available for Archlinux, so you can
+deal with AUR easily. Fabio uses <a href="https://github.com/rmarquis/pacaur">pacaur</a>
+but I prefer to use <a href="https://aur.archlinux.org/packages/aura-bin/">aura-bin</a>.</p>
+<p>I know guys who prefer to use <a href="https://archlinux.fr/yaourt-en">yaourt</a> but I
+don&rsquo;t think it has good defaults.</p>
+<h3 id="installing-it-from-scratch">Installing it from scratch</h3>
+<p>I&rsquo;m that kind of Linux user who likes to install new distributions or rebuild
+the system from time to time, so I created my own ways to do it faster.</p>
+<p>I decided to not automate the whole Archlinux installation because it would take
+more cost than bringing benefit. The partition of the disks and initial installation I do
+manually and then I use my own scripts and configuration files to get the same
+environment I had with just a few commands.</p>
+<p>The first step is to install all packages needed to my day-to-day tasks. For
+this matter I have
+<a href="https://github.com/PotHix/pothix-dotfiles/blob/master/modules/so/archlinux/packages/gondor/dist/.config/packages">this script</a>. It executes many commands to install all packages I need.</p>
+<p>I run
+<a href="https://github.com/PotHix/pothix-dotfiles/blob/master/modules/terminal/shell/dist/bin/update-and">this script</a>
+every time I decide to reboot my computer. So, instead of running <code>systemctl reboot</code> I
+run <code>update-and reboot</code> and it reboots with the new packages installed.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>Since I started used Linux I&rsquo;ve gone through Kurumin, Slackware, Ubuntu, and
+Archlinux. I formatted my laptop many times and kept using Archlinux for the
+past years, it&rsquo;s the best Linux distribution for my use case.</p>
+<p>If you&rsquo;re looking for the best cost/benefit for customization and effort doing
+it, I really recommend <strong>Archlinux</strong> + <strong>Xfce</strong>. You will miss some new technologies on
+the WM side (Wayland&hellip;) but it worth the trade-off.</p>
+
+                    
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'pothixcom';
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+                </div>
+            </article>
+        </main>
+    </div>
+</div>
+
+        <footer class="footer-widget-area">
+            <div class="inside">
+                <div class="grids">
+                    <aside id="stag-dribbble-2" class="widget grid-4 stag-dribbble">
+                        <div>
+                            <h3 class="widget-title">
+                                <span>Photography, a hobby</span>
+                            </h3>
+                            <a href="https://500px.com/pothix">
+                                <img src="https://drscdn.500px.org/photo/306645053/q%3D80_h%3D600/v2?sig=f0145e764e9dead0b4a6500b9fb53591aeb72f18eadb26bbd6c345322144abbf" style="float:left">
+                            </a>
+                            <div class="textwidget">
+                                <center>Check out <a href="https://500px.com/pothix">my 500px account</a> for more photos!</center>
+                            </div>
+                        </div>
+                    </aside>
+
+                    <aside id="recent-posts-2" class="widget grid-4 widget_recent_entries">
+                        <h3 class="widget-title">
+                            <span>Last 3 books read</span>
+                        </h3>
+
+                        <ul>
+                            <style type="text/css" media="screen">
+                                .gr_grid_container {
+                                 
+                                    height:150px;
+                                }
+
+                                .gr_grid_book_container {
+                                    float: left;
+                                    width: 98px;
+                                    height: 160px;
+                                    padding: 0px 0px;
+                                    overflow: hidden;
+                                }
+                            </style>
+
+                            <div id="gr_grid_widget_1490660444">
+                            </div>
+
+                            <script src="https://www.goodreads.com/review/grid_widget/38970458.Willian's%20bookshelf:%20read?cover_size=medium&hide_link=true&hide_title=true&num_books=3&order=d&shelf=read&sort=date_read&widget_id=1494295777
+" type="text/javascript" charset="utf-8"></script>
+                        </ul>
+                    </aside>
+
+                    <aside id="text-2" class="widget grid-4 widget_text">
+                        <h3 class="widget-title">
+                            <span>Follow this blog</span>
+                        </h3>
+                        <div class="textwidget">
+                            I've added three different RSS feeds here based on categories. The idea was to help you the tech guy that don't want to see what kind of motorcycle I have, or the english speaker that don't want to see portuguese posts on his feed reader.
+                            <br /><br />
+                            So, I have a feed for <a href="http://feeds.feedburner.com/PotHix">all my posts</a>, for the <a href="http://feeds.feedburner.com/EnglishPotHix">English posts</a> and <a href="http://feeds.feedburner.com/PotHixTech">Tech related posts</a>. Choose one and be happy! :)
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </footer>
+
+        <footer id="colophon" class="site-footer" role="contentinfo">
+            <div class="site-info">
+                <div class="grids">
+                    <div class="grid-6">
+                        © 2020 <a href="http://demo.codestag.com/doctype/">Doctype</a> WordPress Theme by <a href="//codestag.com">Codestag</a> modified by PotHix.
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script type='text/javascript' src='/javascripts/jquery.js'></script>
+    <script type='text/javascript' src='/javascripts/widget.min.js'></script>
+    <script type='text/javascript' src='/javascripts/tabs.min.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery.custom.js'></script>
+    <script type='text/javascript' src='/javascripts/plugins.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery.mixitup.min.js'></script>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-2852094-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</body>
+</html>
+

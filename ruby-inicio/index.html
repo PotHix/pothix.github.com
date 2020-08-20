@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta content="Willian Molinari a.k.a. PotHix" name="author">
+        <meta property="og:title" content="Começando a falar de Ruby - PotHix">
+        <meta property="og:url" content="https://pothix.com/ruby-inicio/">
+        <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
+        <meta property="og:type" content="website" />
+        <meta name="generator" content="Hugo 0.74.3" />
+
+        <title>Começando a falar de Ruby | PotHix</title>
+
+        
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
+        
+
+        <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts)" href="http://feeds.feedburner.com/PotHix" />
+        <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts in English)" href="http://feeds.feedburner.com/EnglishPotHix" />
+        <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts related to technology)" href="http://feeds.feedburner.com/PotHixTech" />
+
+        <link rel="icon" type="image/png" href="/images/favico.png">
+        <link rel="stylesheet" href="/stylesheets/style.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="/stylesheets/stag-custom-styles.css" type="text/css" media="all" />
+
+        <link rel="stylesheet" href="/stylesheets/font-awesome-4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" id="doctype-fonts-css"  href="http://fonts.googleapis.com/css?family=Rokkitt%3A700%7CLato%3A300%2C400%2C700%2C300italic&#038;subset=latin" type="text/css" media="all" />
+
+        <body class="blog sticky-nav chrome stagtools">
+            <div id="page" class="hfeed site">
+                <header id="masthead" class="site-header site-header--fixed" role="banner">
+                    <div class="inside">
+                        <div id="navbar" class="navbar">
+  <nav id="site-navigation" class="navigation main-navigation" role="navigation">
+    <ul id="primary-menu" class="primary-menu">
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/">Home</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/coding">Coding</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/speaking">Speaking</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/writing">Writing</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/media">Media</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/now">Now</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/about">About me</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+                        <a class="site-branding" href="/" title="Doctype" rel="home">
+                            <span class="logo-container">
+                                <img data-at2x src="/images/logo.png" alt="Website's logo">
+                            </span>
+                        </a>
+                    </div>
+                </header>
+
+
+<div id="content" class="site-content">
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
+            <article class="post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
+                <header class="entry-header">
+                    <h2 class="entry-title">Começando a falar de Ruby</h2>
+                </header>
+
+                <div class="entry-meta">
+                    <span class="posted-on">
+                        Published at April 13, 2009
+                    </span>
+                    <span class="tags-links">
+                        
+                        <a href="/tags/ruby">ruby</a>,
+                        
+                        <a href="/tags/tech">tech</a>,
+                        
+                    </span>
+                    <span class="translate">
+                        
+                        <a href="https://translate.google.com/translate?sl=pt&amp;tl=en&amp;u=https%3a%2f%2fpothix.com%2fruby-inicio%2f" target="_blank" rel="nofollow noopener noreferrer">Translate 🇺🇸</a>
+                        
+                    </span>
+                </div>
+
+                <div class="entry-content">
+                    <p>Se você já conhece Ruby, ignore esse post! A idéia do post é mostrar
+um pouco da linguagem Ruby para pessoas que não conhecem nada sobre
+ela.</p>
+<p>Eu, claro, acho muito interessante que muita gente por aí ainda não
+conhece Ruby, mesmo com a grande popularização do Rails, e eu chego a
+ouvir coisas assim:</p>
+<blockquote>
+<p>&ldquo;Não é você que programa naquela linguagem esquisita?&rdquo;</p>
+</blockquote>
+<p>Cheguei a ouvir do meu &ldquo;professor de algoritmo&rdquo; (perdeu meu respeito):</p>
+<blockquote>
+<p>&ldquo;Gostei desse algoritmo que você fez nessa linguagem esquisita aqui&rdquo;</p>
+</blockquote>
+<p>Há muitas pessoas que já ouviram falar em algo relacionado a Ruby
+apenas quando leram alguma coisa na Info falando de
+RubyOnRails. Portanto, resolvi escrever alguns posts sobre a linguagem
+para passar para esse pessoal que ainda não conhece nada. Pretendo que
+esse seja o post introdutório de vários capítulos passando por partes
+interessantes da linguagem. :)</p>
+<h3 id="entãovamos-falar-de-ruby-">Então&hellip;Vamos falar de Ruby! :)</h3>
+<p>Ruby é uma linguagem interpretada, criada pelo japonês
+<a href="http://www.rubyist.net/%7Ematz/" title="">Yukihiro “matz” Matsumoto</a> e
+liberada publicamente em 1995. Desde lá o Ruby vem aparecendo bastante
+no mundo de tecnologia, sendo que a partir de 2006 teve um grande boom
+de comentários, ainda mais com o maior aparecimento do
+<a href="http://rubyonrails.org/" title="RubyOnRails">Rails</a>.</p>
+<p>Uma coisa que me irrita bastante é as pessoas associarem diretamente
+Ruby com Rails, portanto preciso deixar isso claro&hellip;</p>
+<blockquote>
+<p>Rails não é Ruby!</p>
+</blockquote>
+<p>Rails é um framework para desenvolvimento web que <strong>utiliza</strong> a
+linguagem Ruby para o tal. O Ruby tem bem mais coisas legais do que
+só o Rails. ;)</p>
+<p>Como o Ruby é uma linguagem interpretada, podemos facilmente fazer um Hello World em Ruby:</p>
+<pre><code>puts 'Hello World'
+</code></pre>
+<p>Isso aí! Apenas uma linha! Uma linguagem totalmente orientada a objeto
+e você não precisa necessáriamente criar uma classe, um método (
+public static void main&hellip; ) e escrever mil comandos Hierarquicamente
+para escrever algo! ;)</p>
+<p>O interessante do Ruby é que tudo é um objeto, ou seja, se você escreve o numero 10 ele já é um objeto, tendo seus próprios métodos, como por exemplo:</p>
+<pre><code>10.times { puts 'Vou estudar Ruby' }
+</code></pre>
+<p>No caso acima usamos um dos métodos do 10 (que é da Classe Fixnum)
+que é o método times, que faz um loop 10 (ou qualquer outro numero
+Fixnum que estivesse aqui ) vezes fazendo o que está dentro do bloco,
+no caso, imprimir &ldquo;vou estudar Ruby&rdquo;. :)</p>
+<p>No Ruby você consegue modificar métodos em tempo de execução! Uma
+classe que não possuía nenhum método pode possuir 10 em tempo de
+execução bastando que seu código os inclua lá, e isso é uma coisa
+muito legal!</p>
+<p>A sintaxe da linguagem foi feita para ser simples, você tem vários
+métodos facilitadores, inclusive com uso de &ldquo;?&rdquo; ( interrogação ) para
+alguns métodos, como por exemplo para descobrir se a variável está não
+retorna nada:</p>
+<pre><code>variavel.nil?
+</code></pre>
+<p>Aqui temos uma pergunta explícita, que você olhando isso
+intuitivamente lhe vem duas respostas: Sim ou não ( nem me venha com
+talvez :P ),o que mostra que você olha um código Ruby e facilmente
+distingue muita coisa.</p>
+<p>E tem bem mais <a href="http://www.ruby-lang.org/pt/sobre-o-ruby/">coisas</a>
+<a href="http://pt.wikipedia.org/wiki/Ruby_(linguagem_de_programa%C3%A7%C3%A3o)" title="Artigo sobre Ruby na Wikipedia">interessantes</a>!</p>
+<h3 id="táe-por-que-diabos-eu-deveria-usar-ruby">Tá&hellip;E por que diabos eu deveria usar Ruby</h3>
+<p>Aí que está! É aí que entram as coisas legais, como:</p>
+<h4 id="rails">Rails</h4>
+<p>Agora sim você pode usar esse cara aí em cima para desenvolver
+aplicações bem legais usando todas as facilidades que o Ruby pode te
+oferecer</p>
+<h4 id="shoes">Shoes</h4>
+<p>Uma biblioteca bem interessante para desenvolvimento desktop
+multiplataforma, onde você consegue fazer muita coisa legal.</p>
+<h4 id="jruby">JRuby</h4>
+<p>Olha que legal, se você gosta bastante do Java, você pode rodar
+programas Ruby em cima da maquina virtual Java, o que é bem legal, até
+por que, a velocidade do JRuby, já passou a do MRI ( Matz Ruby
+Interpreter, ou a versão core oficial do Ruby, feita pelo Matz ).</p>
+<p>Inclusive você pode importar várias bibliotecas do Java e tudo
+mais. ;)</p>
+<h4 id="iron-ruby">Iron Ruby</h4>
+<p>Você usa a plataforma .NET da Microsoft? Então procure por esse cara!
+Eu não tenho muito a comentar por que não uso .NET.</p>
+<p>É claro que não existem só esses aí em cima, apenas estou citando
+algumas coisas legais, mas se você procura por desenvolvimento web
+você pode escolher <a href="http://www.sinatrarb.com/" title="Sinatra">Sinatra</a>,
+<a href="http://merbivore.com/" title="Merb Official Home Page">Merb</a> (ainda não se
+fundiu com o Rails, mas isso vai acontecer na versão 3 do Rails), ou
+outros.</p>
+<p>E se você apenas pensa em desenvolver para Desktop, alem do Shoes,
+você pode escolher, o <a href="http://www.rubyist.net/~slagell/gtk/">RubyGTK</a>,
+o <a href="http://www.macruby.org/" title="MacRuby">MacRuby</a> (para
+usuários MAC) ou até o
+<a href="http://www.fxruby.org/" title="FXRuby Official Page">FXRuby</a>!</p>
+<p>Se você não é programador, e trabalha com administração de sistemas,
+por que não utilizar Ruby para automatizar as tarefas? É fácil, tem
+manutenção simples, vem padrão em várias distribuições Linux&hellip;Não tem
+desculpa! :P</p>
+<p>Meu foco nesse post não é abordar a fundo nenhuma das ferramentas que
+eu citei acima, e sim apenas dar um overview de tudo que você pode
+fazer usando essa linguagem.</p>
+<h3 id="puxa-gostei-como-usar">Puxa, gostei! Como usar?</h3>
+<p>Moleza! Está no Linux né? Se estiver usando Ubuntu só dê os comandos mágicos:</p>
+<pre><code>sudo apt-get install ruby irb rdoc
+</code></pre>
+<p>Não está no Linux? Humm&hellip;No Windows é fácil tambem, baixe o
+executável e instale. Não tive muito contato com um mac ainda para
+instalar coisas e tudo mais, mas me parece fácil.</p>
+<p>Basta clicar <a href="http://www.ruby-lang.org/pt/downloads/">aqui</a> e pegar os
+arquivos necessários para a instalação! :D</p>
+<h3 id="vixeinstalei-e-agora">Vixe&hellip;Instalei, e agora?</h3>
+<p>Agora é hora de brincar um pouco com a linguagem para saber como ela
+funciona! Eu recomendo você a entrar no
+<a href="http://en.wikipedia.org/wiki/Interactive_Ruby_Shell" title="Interactive
+Ruby Shell at Wikipedia">IRB</a> (<strong>I</strong>nteractive <strong>R</strong>u<strong>b</strong>y Shell) e
+começar a brincar!</p>
+<p>Para acessar o irb é aquela moleza de sempre, apenas entre no terminal
+e chame por irb ( acho que funciona assim no Windows tambem )! :D</p>
+<p>Lá você pode tentar executar uns códigos, inclusive os poucos exemplos
+que eu postei aqui, é muito legal para você conhecer a linguagem,
+descobrir uns métodos e tudo mais.</p>
+<h3 id="já-estou-no-irb-mas-eu-não-sei-fazer-nada">Já estou no IRB, mas eu não sei fazer nada&hellip;</h3>
+<p>Bem, agora é partir para as cabeças! :D</p>
+<ol>
+<li>Eu recomendo você a começar lendo o <a href="http://eustaquiorangel.com/downloads/tutorialruby.pdf" title="Tutorial de Ruby do TaQ">tutorial de Ruby do TaQ</a> que é um material bem legal para começar.</li>
+<li>Se seu ingles é bom (não precisa ser fluente, mas você precisa saber ler e enteder) eu aconselho firmemente você a participar de algum curso Core do <a href="http://rubylearning.org/class/" title="Rubylearning.org">Rubylearning.org</a>, e lá você vai aprender bastante coisa, alem de se divertir bastante.</li>
+<li>Leia alguns dos livros gratuitos que estão disponíveis na web gratuitamente e em português! Eu recomendo o <a href="http://aprendaaprogramar.rubyonrails.pro.br/" title="Aprenda a programar traduzido pela comunidade">Aprenda a Programar</a> e o <a href="http://why.nomedojogo.com/" title="O (comovente) guia de Ruby do Why traduzido pela comunidade">(comovente) guia de Ruby do Why</a>. ( obrigado pela dica <a href="http://blog.abrcoelho.net/" title="Blog do Abraão">Abraão</a> )</li>
+<li>Participe de Grupos de usuários para aumentar seus conhecimentos e conhecer pessoas que tambem estão interessadas na linguagem e sempre estudando! Se você está em São Paulo eu recomento fortemente você a participar do <a href="http://guru-sp.org" title="Grupo de usuários Ruby de São Paulo">GURU-SP</a>! :)</li>
+<li>Fique de olho aqui no blog que eu pretendo começar a postar umas coisas básicas, mas não espere somente por mim e já inicie seus estudos! ;)</li>
+</ol>
+<p>Bem, com isso você já tem uma pequena base do que é o Ruby ( e sabe
+que o Rails é apenas um framework feito em Ruby ) e já pode começar a
+se divertir com ele! :D</p>
+<p><em>Old comments by: Piteco, Jotae, Lê, Abraão Coelho, CrociDB, André &ldquo;aCidcOde&rdquo; Gomes | Not available anymore. :(</em></p>
+
+                    
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'pothixcom';
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+                </div>
+            </article>
+        </main>
+    </div>
+</div>
+
+        <footer class="footer-widget-area">
+            <div class="inside">
+                <div class="grids">
+                    <aside id="stag-dribbble-2" class="widget grid-4 stag-dribbble">
+                        <div>
+                            <h3 class="widget-title">
+                                <span>Photography, a hobby</span>
+                            </h3>
+                            <a href="https://500px.com/pothix">
+                                <img src="https://drscdn.500px.org/photo/306645053/q%3D80_h%3D600/v2?sig=f0145e764e9dead0b4a6500b9fb53591aeb72f18eadb26bbd6c345322144abbf" style="float:left">
+                            </a>
+                            <div class="textwidget">
+                                <center>Check out <a href="https://500px.com/pothix">my 500px account</a> for more photos!</center>
+                            </div>
+                        </div>
+                    </aside>
+
+                    <aside id="recent-posts-2" class="widget grid-4 widget_recent_entries">
+                        <h3 class="widget-title">
+                            <span>Last 3 books read</span>
+                        </h3>
+
+                        <ul>
+                            <style type="text/css" media="screen">
+                                .gr_grid_container {
+                                 
+                                    height:150px;
+                                }
+
+                                .gr_grid_book_container {
+                                    float: left;
+                                    width: 98px;
+                                    height: 160px;
+                                    padding: 0px 0px;
+                                    overflow: hidden;
+                                }
+                            </style>
+
+                            <div id="gr_grid_widget_1490660444">
+                            </div>
+
+                            <script src="https://www.goodreads.com/review/grid_widget/38970458.Willian's%20bookshelf:%20read?cover_size=medium&hide_link=true&hide_title=true&num_books=3&order=d&shelf=read&sort=date_read&widget_id=1494295777
+" type="text/javascript" charset="utf-8"></script>
+                        </ul>
+                    </aside>
+
+                    <aside id="text-2" class="widget grid-4 widget_text">
+                        <h3 class="widget-title">
+                            <span>Follow this blog</span>
+                        </h3>
+                        <div class="textwidget">
+                            I've added three different RSS feeds here based on categories. The idea was to help you the tech guy that don't want to see what kind of motorcycle I have, or the english speaker that don't want to see portuguese posts on his feed reader.
+                            <br /><br />
+                            So, I have a feed for <a href="http://feeds.feedburner.com/PotHix">all my posts</a>, for the <a href="http://feeds.feedburner.com/EnglishPotHix">English posts</a> and <a href="http://feeds.feedburner.com/PotHixTech">Tech related posts</a>. Choose one and be happy! :)
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </footer>
+
+        <footer id="colophon" class="site-footer" role="contentinfo">
+            <div class="site-info">
+                <div class="grids">
+                    <div class="grid-6">
+                        © 2020 <a href="http://demo.codestag.com/doctype/">Doctype</a> WordPress Theme by <a href="//codestag.com">Codestag</a> modified by PotHix.
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script type='text/javascript' src='/javascripts/jquery.js'></script>
+    <script type='text/javascript' src='/javascripts/widget.min.js'></script>
+    <script type='text/javascript' src='/javascripts/tabs.min.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery.custom.js'></script>
+    <script type='text/javascript' src='/javascripts/plugins.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery.mixitup.min.js'></script>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-2852094-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</body>
+</html>
+

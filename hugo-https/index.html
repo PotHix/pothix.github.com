@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta content="Willian Molinari a.k.a. PotHix" name="author">
+        <meta property="og:title" content="Wordpress to Middleman, to Hugo using github-pages and HTTPS - PotHix">
+        <meta property="og:url" content="https://pothix.com/hugo-https/">
+        <meta property="og:description" content="The personal website for Willian Molinari, also known as PotHix">
+        <meta property="og:type" content="website" />
+        <meta name="generator" content="Hugo 0.74.3" />
+
+        <title>Wordpress to Middleman, to Hugo using github-pages and HTTPS | PotHix</title>
+
+        
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
+        
+
+        <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts)" href="http://feeds.feedburner.com/PotHix" />
+        <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts in English)" href="http://feeds.feedburner.com/EnglishPotHix" />
+        <link rel="alternate" type="application/atom+xml" title="Atom Feed (all posts related to technology)" href="http://feeds.feedburner.com/PotHixTech" />
+
+        <link rel="icon" type="image/png" href="/images/favico.png">
+        <link rel="stylesheet" href="/stylesheets/style.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="/stylesheets/stag-custom-styles.css" type="text/css" media="all" />
+
+        <link rel="stylesheet" href="/stylesheets/font-awesome-4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" id="doctype-fonts-css"  href="http://fonts.googleapis.com/css?family=Rokkitt%3A700%7CLato%3A300%2C400%2C700%2C300italic&#038;subset=latin" type="text/css" media="all" />
+
+        <body class="blog sticky-nav chrome stagtools">
+            <div id="page" class="hfeed site">
+                <header id="masthead" class="site-header site-header--fixed" role="banner">
+                    <div class="inside">
+                        <div id="navbar" class="navbar">
+  <nav id="site-navigation" class="navigation main-navigation" role="navigation">
+    <ul id="primary-menu" class="primary-menu">
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/">Home</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/coding">Coding</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/speaking">Speaking</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/writing">Writing</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/media">Media</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/now">Now</a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <a href="/about">About me</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+                        <a class="site-branding" href="/" title="Doctype" rel="home">
+                            <span class="logo-container">
+                                <img data-at2x src="/images/logo.png" alt="Website's logo">
+                            </span>
+                        </a>
+                    </div>
+                </header>
+
+
+<div id="content" class="site-content">
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
+            <article class="post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
+                <header class="entry-header">
+                    <h2 class="entry-title">Wordpress to Middleman, to Hugo using github-pages and HTTPS</h2>
+                </header>
+
+                <div class="entry-meta">
+                    <span class="posted-on">
+                        Published at June 13, 2017
+                    </span>
+                    <span class="tags-links">
+                        
+                        <a href="/tags/tech">tech</a>,
+                        
+                        <a href="/tags/english">english</a>,
+                        
+                    </span>
+                    <span class="translate">
+                        
+                        <a href="https://translate.google.com/translate?sl=en&amp;tl=pt&amp;u=https%3a%2f%2fpothix.com%2fhugo-https%2f" target="_blank" rel="nofollow noopener noreferrer">Traduzir 🇧🇷</a>
+                        
+                    </span>
+                </div>
+
+                <div class="entry-content">
+                    <p>Yes, it was a journey. I decided to chance my blog engine again.</p>
+<p>But this time I decided to post about the whole transition, since I started my
+blog, <a href="https://pothix.com/post/primeiro-post-por-aqui/">back in 2008</a>.</p>
+<p>I needed a blog at the time but could not spend time creating something, I just
+wanted to &ldquo;buy a blog&rdquo; and write. Dreamhost was an awesome service for that. In
+one hour I bought a domain, installed a Wordpress via one click install and set
+up my own email via Google apps (at the time it was free).</p>
+<p>Wordpress is a good blog engine, it just works. You have to keep it updated
+because of security risks, but it works. I wrote some plugins and customized
+themes during the years I used it and it worked just fine. Please, don&rsquo;t say bad
+things about Wordpress, it solved more problems and is great for so many
+people. :)</p>
+<p>After some years I decided it was time to cancel my Dreamhost account. I had
+just some small websites there and all of them could become static pages. That&rsquo;s
+what I did.</p>
+<p>All my website were converted to static web pages and migrated to Github pages,
+including this blog. But let&rsquo;s focus on this blog for a while.</p>
+<h2 id="migrating-from-wordpress-to-middleman">Migrating from Wordpress to Middleman</h2>
+<p>I was already using markdown for my blog posts because I was posting from Vim
+using <a href="https://github.com/pothix/vimpress">Vimpress</a>. So I had to convert all
+other posts from HTML to Markdown.</p>
+<p>My old layout was not good anymore. I was looking for something responsive and
+used the migration to get the courage to change the layout as well. I bought a
+Wordpress layout and converted it to <code>.erb</code> for Middleman.</p>
+<p>I was using Wordpress comment system and I decided to not migrate to
+Disqus. Today I know that I could do that, but at the time I decided to just
+abandon the old comments. But I wanted to keep the names of everyone that wrote
+a comment in the article.</p>
+<p>Most of the migration was done
+by <a href="https://gist.github.com/PotHix/e78c75281d4f1c508e89">a Ruby script</a> that I
+created. These are the steps needed:</p>
+<ul>
+<li>Download an <code>.xml</code> backup of your Wordpress posts with comments</li>
+<li>Change the script to use the correct file name and blacklist comments</li>
+<li>Run the script</li>
+</ul>
+<p>The script will convert all posts from HTML to Markdown and create individual
+files for every post, following the middleman style.</p>
+<p>You just have to check every post and fix images.</p>
+<p>In my case, it was harder than that because I was creating a blog from scratch
+but using the same content. But at the end, it worth the work.</p>
+<h2 id="migrating-from-middleman-to-hugo">Migrating from Middleman to Hugo</h2>
+<p>For some reason, I decided to not post about my blog engine change this year. I
+was using <a href="https://middlemanapp.com">middleman</a>
+since <a href="https://pothix.com/post/new-layout-of-pothix-blog/">May 2015</a>, but
+decided to change to <a href="https://gohugo.io/">Hugo</a>.</p>
+<p>I promised myself that I would not change my blog engine to Hugo just because it
+looks cool. And then Middleman started to work weird, sometimes the <code>middleman serve</code> serves my content as plain text instead of HTML. It was hard to try it
+locally before publishing.</p>
+<p>It was everything I needed to try a new blog engine (haha). This migration was
+simpler. I just had to understand how Hugo works and how the template
+language works.</p>
+<p>To convert middleman format to Hugo I used a big <code>sed</code> command that I can&rsquo;t
+reproduce anymore. haha</p>
+<p>As usual, I used the migration as an excuse to do more things. Since 2008 I
+change my URLs layout many times. So, I used Google Analytics to get these old
+URLs and added them as <a href="https://gohugo.io/extras/aliases/">aliases</a> in Hugo. The
+old URLs now work with the current blog.</p>
+<p>Some advantages of Hugo:</p>
+<ul>
+<li>It&rsquo;s just a binary, I don&rsquo;t have to install anything beyond that. (<code>aura -S hugo-bin</code> :D)</li>
+<li>It builds *<em>really</em> fast, it&rsquo;s not fair to compare with middleman (Go X Ruby)</li>
+<li>There are some great features, like aliases</li>
+<li>I really like the live-reloading by default</li>
+</ul>
+<h2 id="https">HTTPS</h2>
+<p>I was missing the HTTPS feature, but it was not possible to use it when using
+Github-pages, at least not for custom domains.</p>
+<p>After reading <a href="https://www.sergioaugrod.com.br/offtopic/2017/05/14/migrando-do-ghost-para-o-github-pages.html">this post (pt-BR)</a>
+I found that it would be possible to use HTTPS, even in Github-pages, and <strong>for free</strong>.</p>
+<p>The solution: <a href="https://www.cloudflare.com">Cloudflare</a>!</p>
+<p>Cloudflare has a free plan that is sufficient for many blogs out there. You just
+have to create your account and point your <code>ns</code> entries to their servers. By
+doing that you can even use HSTS! :D</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>I&rsquo;m really happy with the current setting.</p>
+<ul>
+<li>Hugo is a great platform</li>
+<li>Github is fast, simple and free</li>
+<li>My new layout has the features I need</li>
+<li>It&rsquo;s easy to change</li>
+</ul>
+<p>Static pages are the future&hellip; again&hellip; haha</p>
+
+                    
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'pothixcom';
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+                </div>
+            </article>
+        </main>
+    </div>
+</div>
+
+        <footer class="footer-widget-area">
+            <div class="inside">
+                <div class="grids">
+                    <aside id="stag-dribbble-2" class="widget grid-4 stag-dribbble">
+                        <div>
+                            <h3 class="widget-title">
+                                <span>Photography, a hobby</span>
+                            </h3>
+                            <a href="https://500px.com/pothix">
+                                <img src="https://drscdn.500px.org/photo/306645053/q%3D80_h%3D600/v2?sig=f0145e764e9dead0b4a6500b9fb53591aeb72f18eadb26bbd6c345322144abbf" style="float:left">
+                            </a>
+                            <div class="textwidget">
+                                <center>Check out <a href="https://500px.com/pothix">my 500px account</a> for more photos!</center>
+                            </div>
+                        </div>
+                    </aside>
+
+                    <aside id="recent-posts-2" class="widget grid-4 widget_recent_entries">
+                        <h3 class="widget-title">
+                            <span>Last 3 books read</span>
+                        </h3>
+
+                        <ul>
+                            <style type="text/css" media="screen">
+                                .gr_grid_container {
+                                 
+                                    height:150px;
+                                }
+
+                                .gr_grid_book_container {
+                                    float: left;
+                                    width: 98px;
+                                    height: 160px;
+                                    padding: 0px 0px;
+                                    overflow: hidden;
+                                }
+                            </style>
+
+                            <div id="gr_grid_widget_1490660444">
+                            </div>
+
+                            <script src="https://www.goodreads.com/review/grid_widget/38970458.Willian's%20bookshelf:%20read?cover_size=medium&hide_link=true&hide_title=true&num_books=3&order=d&shelf=read&sort=date_read&widget_id=1494295777
+" type="text/javascript" charset="utf-8"></script>
+                        </ul>
+                    </aside>
+
+                    <aside id="text-2" class="widget grid-4 widget_text">
+                        <h3 class="widget-title">
+                            <span>Follow this blog</span>
+                        </h3>
+                        <div class="textwidget">
+                            I've added three different RSS feeds here based on categories. The idea was to help you the tech guy that don't want to see what kind of motorcycle I have, or the english speaker that don't want to see portuguese posts on his feed reader.
+                            <br /><br />
+                            So, I have a feed for <a href="http://feeds.feedburner.com/PotHix">all my posts</a>, for the <a href="http://feeds.feedburner.com/EnglishPotHix">English posts</a> and <a href="http://feeds.feedburner.com/PotHixTech">Tech related posts</a>. Choose one and be happy! :)
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </footer>
+
+        <footer id="colophon" class="site-footer" role="contentinfo">
+            <div class="site-info">
+                <div class="grids">
+                    <div class="grid-6">
+                        © 2020 <a href="http://demo.codestag.com/doctype/">Doctype</a> WordPress Theme by <a href="//codestag.com">Codestag</a> modified by PotHix.
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script type='text/javascript' src='/javascripts/jquery.js'></script>
+    <script type='text/javascript' src='/javascripts/widget.min.js'></script>
+    <script type='text/javascript' src='/javascripts/tabs.min.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery.custom.js'></script>
+    <script type='text/javascript' src='/javascripts/plugins.js'></script>
+    <script type='text/javascript' src='/javascripts/jquery.mixitup.min.js'></script>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-2852094-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</body>
+</html>
+
