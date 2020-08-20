@@ -1,9 +1,12 @@
 +++
 title = "Ouvir livros (audiobooks), o futuro da leitura"
-aliases=["2016/06/22/audiobooks.html"]
 date = "2016-06-22"
 tags = ["books"]
 categories = "reading"
+aliases=[
+  "2016/06/22/audiobooks.html",
+  "post/audiobooks"
+]
 +++
 
 **TL;DR**: Ouvir livros é o futuro.

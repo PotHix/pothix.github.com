@@ -1,9 +1,12 @@
 +++
 title = "OSCON 2015"
-aliases=["2015/07/27/oscon.html"]
 date = "2015-07-27"
 tags = ["events","english"]
 categories = "events"
+aliases=[
+  "post/oscon",
+  "2015/07/27/oscon.html"
+]
 +++
 
 **TL;DR** I've been at OSCON this year (thanks to

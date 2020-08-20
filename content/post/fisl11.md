@@ -1,6 +1,7 @@
 +++
 title = "FISL11"
 aliases=[
+  "post/fisl11",
   "2010/08/01/fisl11.html",
   "blog/events/fisl11"
 ]

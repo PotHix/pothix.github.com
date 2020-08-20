@@ -1,9 +1,11 @@
 +++
 title = "Opera Unite"
-aliases=["2009/06/16/opera-unite.html"]
 date = "2009-06-16"
 tags = ["tech"]
-categories = "dev"
+aliases=[
+  "post/opera-unite",
+  "2009/06/16/opera-unite.html"
+]
 +++
 
 Hoje é o dia em que o pessoal da Opera falou que iria reinventar a

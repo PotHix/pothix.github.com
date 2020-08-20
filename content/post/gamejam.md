@@ -1,6 +1,7 @@
 +++
 title = "GameJam"
 aliases=[
+  "post/gamejam",
   "2009/08/12/gamejam.html",
   "blog/development/gamejam"
 ]
