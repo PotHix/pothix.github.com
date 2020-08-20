@@ -1,6 +1,7 @@
 +++
 title = "Dia difícil"
 aliases=[
+  "post/dia-dificil",
   "2009/02/08/dia-dificil.html",
   "blog/personal/dia-dificil"
 ]

@@ -2,6 +2,7 @@
 title = "PotHix ❤ Doist"
 date = "2017-10-30"
 tags = ["english", "tech"]
+aliases=["post/doist-pothix"]
 +++
 
 **TL;DR:** I'm working on something I really believe is good

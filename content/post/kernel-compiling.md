@@ -1,9 +1,11 @@
 +++
 title = "Kernel compiling"
-aliases=["2012/07/23/kernel-compiling.html"]
 date = "2012-07-23"
 tags = ["linux","english","tech"]
-categories = "dev"
+aliases=[
+  "post/kernel-compiling",
+  "2012/07/23/kernel-compiling.html"
+]
 +++
 
 Since I bought an Acer notebook to use Linux again (I sold my mac, I
