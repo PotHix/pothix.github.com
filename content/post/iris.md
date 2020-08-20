@@ -2,6 +2,9 @@
 title: "Assembling an Iris Rev4"
 date: 2020-07-23T09:48:21-03:00
 tags: ["tech","english", "keyboards"]
+aliases: [
+  "post/assembling-an-iris-rev4/"
+]
 ---
 
 It's been a while since I'm looking for a keyboard that would be great to take
