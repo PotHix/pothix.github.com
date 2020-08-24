@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-04-13"
 tags = ["ruby","tech"]
-categories = "dev"
 +++
 
 Se você já conhece Ruby, ignore esse post! A idéia do post é mostrar

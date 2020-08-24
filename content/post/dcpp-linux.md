@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-02-09"
 tags = ["tech","linux"]
-categories = "linux"
 +++
 
 Hoje finalmente estou conseguindo escrever um post sobre o DC++! Desde

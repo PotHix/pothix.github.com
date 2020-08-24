@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2010-02-02"
 tags = ["events"]
-categories = "events"
 +++
 
 E vou para um assunto meio OFF no meu blog (ou não), que é falar de

@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2010-09-08"
 tags = ["android","tech"]
-categories = "personal"
 +++
 
 Muita gente tem me perguntado sobre o meu Android atual, um motorola

@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-04-11"
 tags = ["tech"]
-categories = "dev"
 +++
 
 Estou postando para anunciar que foi lançada a versão 1.0 do meu

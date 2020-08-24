@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2012-07-19"
 tags = ["linux","tech"]
-categories = "dev"
 +++
 
 **TL; DR** Usei mac por mais de 6 meses e decidi voltar ao Linux. Na minha opinião

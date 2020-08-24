@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2014-02-14"
 tags = ["ruby","python","tech"]
-categories = "dev"
 +++
 
 Pode ser que eu seja meio burro (heheh) mas eu ainda achava que o Ruby e o

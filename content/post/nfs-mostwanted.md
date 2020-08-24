@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2008-12-14"
 tags = ["games"]
-categories = "review"
 +++
 
 Como eu disse no [ultimo post](http://pothix.com/blog/games/voltando-a-ser-um-gamer)

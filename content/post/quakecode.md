@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2012-07-18"
 tags = ["gamedev","tech"]
-categories = "dev"
 +++
 
 Desde que eu terminei a faculdade eu venho lendo bastante coisa útil (foi muita

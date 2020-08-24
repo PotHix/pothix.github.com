@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-07-25"
 tags = ["books"]
-categories = "review"
 +++
 
 Chegou o momento que eu estava esperando há vários meses.... Após

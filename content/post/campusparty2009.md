@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-01-26"
 tags = ["events","tech"]
-categories = "events"
 +++
 
 Como sabem eu estive na Campus Party nessa ultima semana, e consegui

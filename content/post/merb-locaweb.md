@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-01-07"
 tags = ["english","linux","ruby","tech"]
-categories = "dev"
 +++
 
 I writing this post to help my friends of

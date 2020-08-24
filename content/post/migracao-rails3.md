@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2010-10-21"
 tags = ["ruby","tech"]
-categories = "dev"
 +++
 
 Nesse post eu vou falar um pouco de como foi atualizar a aplicação que

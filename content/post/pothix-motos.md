@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2011-01-25"
 tags = ["motorcycle"]
-categories = "motorcycle"
 +++
 
 Bem, para introduzir um assunto sobre os meus Hobbies aqui no blog eu

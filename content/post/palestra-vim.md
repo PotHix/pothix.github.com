@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2010-03-29"
 tags = ["events","linux","speaking","tech","vim"]
-categories = "events"
 +++
 
 Esse vai ser um post curto, apenas para deixar registrado algumas

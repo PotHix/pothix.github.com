@@ -2,7 +2,6 @@
 title = "OSCON 2015"
 date = "2015-07-27"
 tags = ["events","english"]
-categories = "events"
 aliases=[
   "post/oscon",
   "2015/07/27/oscon.html"

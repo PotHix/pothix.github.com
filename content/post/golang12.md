@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2013-12-03"
 tags = ["golang","english","tech"]
-categories = "dev"
 +++
 
 I've started using Go last month and I really liked to work with the language.

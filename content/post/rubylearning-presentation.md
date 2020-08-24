@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-04-10"
 tags = ["events","ruby","tech","english"]
-categories = "english"
 +++
 
 As I promised, here goes my presentation! :)

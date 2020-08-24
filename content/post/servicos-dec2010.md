@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-12-02"
 tags = ["tech","services"]
-categories = "review"
 +++
 
 Infelizmente não consegui postar sobre os serviços legais do mes de

@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2008-11-13"
 tags = ["linux"]
-categories = "linux"
 +++
 
 Como sabem, instalei o Ubuntu no meu notebook Toshiba U405-S2854, e

@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2013-07-29"
 tags = ["personal"]
-categories = "personal"
 +++
 
 Esse ano aconteceram algumas coisas zuadas para mim e resolvi capitalizar o

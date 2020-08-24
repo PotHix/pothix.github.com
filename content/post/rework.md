@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2010-08-06"
 tags = ["books"]
-categories = "review"
 +++
 
 Hoje terminei de ler o livro da 37signals chamado Rework! E vou falar

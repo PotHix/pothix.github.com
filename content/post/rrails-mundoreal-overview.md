@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-04-07"
 tags = ["events","tech","ruby"]
-categories = "events"
 +++
 
 Como muitos leitores do Blog sabem, eu palestrei no Evento

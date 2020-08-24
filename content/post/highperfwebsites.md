@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-07-30"
 tags = ["books","tech"]
-categories = "review"
 +++
 
 Mais um dos livros que eu consegui terminar de ler nas férias! O livro

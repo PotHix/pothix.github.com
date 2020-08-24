@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2010-09-08"
 tags = ["android","books","personal"]
-categories = "android"
 +++
 
 Quem me conhece sabe como eu sou meio doido quanto a ler coisas

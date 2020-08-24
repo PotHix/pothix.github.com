@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-02-08"
 tags = ["personal"]
-categories = "personal"
 +++
 
 Hoje o dia foi $#&amp;&amp;!

@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-12-02"
 tags = ["ruby","tech"]
-categories = "dev"
 +++
 
 Hoje estou aqui para falar de uma coisa que quando vi pela primeira vez

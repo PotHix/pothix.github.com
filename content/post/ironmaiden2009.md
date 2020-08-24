@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-03-17"
 tags = ["events"]
-categories = "events"
 +++
 
 Fui ao show do Iron maiden nesse domingo dia 15/03 e resolvi postar as

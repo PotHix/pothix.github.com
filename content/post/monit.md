@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-09-10"
 tags = ["linux","tech"]
-categories = "dev"
 +++
 
 Esses dias eu peguei para instalar o monit no servidor da empresa que

@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-08-14"
 tags = ["tech","vim"]
-categories = "dev"
 +++
 
 Aqui começa uma série de artigos sobre por que eu gosto de usar o VIM

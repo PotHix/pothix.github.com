@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-08-17"
 tags = ["personal"]
-categories = "personal"
 +++
 
 Eu sempre digo que a faculdade me atrasa bastante, por que eu não

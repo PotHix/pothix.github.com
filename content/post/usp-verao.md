@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-02-20"
 tags = ["tech"]
-categories = "courses"
 +++
 
 [![Foto da grama escrito IME-USP](/images/posts/curso_verao_ime.jpg "IME-USP")](/images/posts/curso_verao_ime.jpg "")

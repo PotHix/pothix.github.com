@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2012-04-09"
 tags = ["motorcycle"]
-categories = "motorcycle"
 +++
 
 **TL; DR** Fiz uma viagem de moto saindo de São Paulo e indo para Eldorado (Argentina)

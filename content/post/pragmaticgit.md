@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-07-19"
 tags = ["books","tech"]
-categories = "review"
 +++
 
 Há tempos que eu estava querendo conhecer um pouco mais do Git e nos

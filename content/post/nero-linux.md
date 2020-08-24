@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2008-11-29"
 tags = ["tech","linux"]
-categories = "linux"
 +++
 
 Vou comentar agora sobre como montar aquela imagem chata do Nero (.nrg

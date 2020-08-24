@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2011-01-25"
 tags = ["motorcycle"]
-categories = "motorcycle"
 +++
 
 Pois é! Essa era uma das coisas que eu tinha vontade de fazer há muito tempo,

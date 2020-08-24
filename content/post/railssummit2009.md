@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-10-19"
 tags = ["events","ruby","tech"]
-categories = "events"
 +++
 
 Esse é um post para relatar como foi o Rails Summit Latin America desse

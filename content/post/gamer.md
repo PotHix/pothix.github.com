@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2008-12-14"
 tags = ["gamedev","games"]
-categories = "games"
 +++
 
 Esse aqui vai ser um post um pouco fora do escopo "programação", mas

@@ -2,7 +2,6 @@
 title = "As escolhas do desenvolvedor"
 date = "2015-08-31"
 tags = ["events","speaking"]
-categories = "events"
 aliases=[
   "2015/08/31/as-escolhas-do-desenvolvedor.html",
   "post/as-escolhas-do-desenvolvedor"

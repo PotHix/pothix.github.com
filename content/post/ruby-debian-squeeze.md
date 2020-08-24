@@ -2,7 +2,6 @@
 title = "Simlinks for ruby on Debian Squeeze"
 date = "2012-07-17"
 tags = ["linux","english"]
-categories = "dev"
 aliases=[
   "post/simlinks-for-ruby-on-debian-squeeze",
   "2012/07/17/simlinks-for-ruby-on-debian-squeeze.html"

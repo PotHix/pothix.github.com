@@ -6,7 +6,6 @@ aliases=[
 ]
 date = "2012-07-10"
 tags = ["ruby","tech"]
-categories = "dev"
 +++
 
 Alguns (vários…) meses atrás eu fiz uma palestra pequena no Guru-SP(São Paulo

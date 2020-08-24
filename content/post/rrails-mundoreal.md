@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-02-06"
 tags = ["ruby","tech","events"]
-categories = "events"
 +++
 
 Pessoal, hoje o meu post é para comentar sobre o evento do

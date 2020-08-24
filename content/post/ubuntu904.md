@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-05-06"
 tags = ["linux","tech"]
-categories = "linux"
 +++
 
 Hoje estou aqui para falar um pouco sobre o Ubuntu 9.04! :)

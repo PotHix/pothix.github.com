@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2010-08-01"
 tags = ["events","tech"]
-categories = "events"
 +++
 
 Finalmente depois de 4 anos planejando eu consegui ir para o FISL! :)

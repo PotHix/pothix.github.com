@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-07-20"
 tags = ["games"]
-categories = "review"
 +++
 
 Pois é... Sei que muitos de vocês devem estar pensando se esse era um

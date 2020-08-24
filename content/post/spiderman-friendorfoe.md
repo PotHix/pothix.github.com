@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-07-22"
 tags = ["games"]
-categories = "review"
 +++
 
 Aqui estou eu com mais um GameReview de um jogo que eu tenho jogado

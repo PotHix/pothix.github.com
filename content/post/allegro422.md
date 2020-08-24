@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-08-12"
 tags = ["gamedev","tech","linux"]
-categories = "dev"
 +++
 
 Como mencionei no

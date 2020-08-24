@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2013-07-15"
 tags = ["gamedev","speaking","english","events"]
-categories = "dev"
 +++
 
 **English Abstract**: This post was about my presentation with Diego Souza

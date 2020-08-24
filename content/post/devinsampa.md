@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-12-02"
 tags = ["events","tech"]
-categories = "events"
 +++
 
 [![Imagem com o logo do DevInSampa](/images/posts/dev_in_sampa.jpg "Logo do DevInSampa")](/images/posts/dev_in_sampa.jpg "")

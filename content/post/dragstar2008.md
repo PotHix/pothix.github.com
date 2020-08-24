@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2013-07-29"
 tags = ["motorcycle"]
-categories = "personal"
 +++
 
 Chegou a hora de pendurar o colete por um tempo, obviamente estarei de

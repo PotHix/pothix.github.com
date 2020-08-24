@@ -2,7 +2,6 @@
 title = "Experiences of almost two years using Colemak"
 date = "2015-10-08"
 tags =  ["english", "tech"]
-categories = "keyboard"
 aliases=[
   "post/experiences-of-almost-two-years-using-colemak",
   "2015/10/08/experiences-of-almost-two-years-using-Colemak.html"

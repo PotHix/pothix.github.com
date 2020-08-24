@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2013-09-17"
 tags = ["events","ruby"]
-categories = "events"
 +++
 
 Há pouco tempo aconteceu o [encontro numero 31 do Guru-SP](http://gurusp.org/encontros/trigesimo-primeiro-encontro-do-guru-sp), e como sempre saímos

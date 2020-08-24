@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-06-13"
 tags = ["tech","linux"]
-categories = "linux"
 +++
 
 Após receber um modem Claro da [empresa que eu trabalho atualmente](http://www.ikwa.com.br "Ikwa Orientação Profissional")

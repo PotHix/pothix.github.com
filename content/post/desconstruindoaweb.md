@@ -2,7 +2,6 @@
 title = "Escrevendo o Desconstruindo a web"
 date = "2016-10-03"
 tags = ["desconstruindo-a-web"]
-categories = "books"
 aliases=[
   "post/escrevendo-o-desconstruindo-a-web",
   "2016/10/03/escrevendo-o-desconstruindo-a-web.html"

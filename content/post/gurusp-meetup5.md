@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-07-21"
 tags = ["events","ruby","tech"]
-categories = "events"
 +++
 
 [![Foto do pessoal reunido com seus notebooks no encontro](/images/posts/5_encontro_guru.jpg "Quinto encontro do Guru-sp")](/images/posts/5_encontro_guru.jpg "")

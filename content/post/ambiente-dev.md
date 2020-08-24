@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2010-12-29"
 tags = ["tech"]
-categories = "dev"
 +++
 
 Fui convidado pelo [@jtadeulopes](http://twitter.com/#!/jtadeulopes) e

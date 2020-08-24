@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2008-12-21"
 tags = ["tech"]
-categories = "dev"
 +++
 
 Hoje estou aqui para postar um pouco sobre o GitHub! =)

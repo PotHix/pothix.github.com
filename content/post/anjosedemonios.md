@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-12-28"
 tags = ["books"]
-categories = "review"
 +++
 
 Felizmente eu estou de férias da faculdade novamente, e isso me dá um

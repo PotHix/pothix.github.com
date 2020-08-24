@@ -2,7 +2,6 @@
 title = "New year is coming"
 date = "2008-12-31"
 tags = ["personal","english"]
-categories = "english"
 aliases=[
   "post/new-year-is-coming",
   "2008/12/31/new-year-is-coming.html"

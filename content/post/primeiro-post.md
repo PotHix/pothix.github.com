@@ -2,7 +2,6 @@
 title = "Primeiro post por aqui!"
 date = "2008-09-02"
 tags = ["tech"]
-categories = "news"
 aliases=[
   "2008/09/02/primeiro-post-por-aqui.html",
   "post/primeiro-post-por-aqui"

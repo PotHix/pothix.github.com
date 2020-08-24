@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-03-25"
 tags = ["ruby","tech"]
-categories = "dev"
 +++
 
 Estou fazendo um pequeno site em Rails e como tinha que mostrar o

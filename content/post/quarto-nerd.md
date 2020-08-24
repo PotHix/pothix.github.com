@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2008-12-27"
 tags = ["personal"]
-categories = "geek"
 +++
 
 Bem...Estava eu aproveitando as férias (tanto da faculdade como as

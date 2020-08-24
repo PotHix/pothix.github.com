@@ -2,7 +2,6 @@
 title = "Rubyconf 2016"
 date = "2016-09-26"
 tags = ["events"]
-categories = "events"
 aliases=[
   "2016/09/26/rubyconf-2016.html",
   "post/rubyconf-2016"

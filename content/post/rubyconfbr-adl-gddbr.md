@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2010-10-31"
 tags = ["android","events","ruby","tech"]
-categories = "events"
 +++
 
 Na semana passada (semana do dia 24 ao dia 30 de outubro) foi uma

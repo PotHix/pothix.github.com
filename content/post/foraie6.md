@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-01-12"
 tags = ["tech"]
-categories = "tips"
 +++
 
 Já está mais do que na hora de eu fazer um post sobre isso, e acho que

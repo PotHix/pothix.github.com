@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2011-05-23"
 tags = ["gamedev","speaking","events"]
-categories = "games"
 +++
 
 Esse fim de semana eu palestrei no FLISOL de São José dos Campos sobre

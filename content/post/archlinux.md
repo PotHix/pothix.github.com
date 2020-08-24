@@ -2,7 +2,6 @@
 title = "My Archlinux setup"
 date = "2017-08-05"
 tags = ["english"," tech"]
-categories = "tech"
 aliases=[
   "post/my-archlinux-setup"
 ]

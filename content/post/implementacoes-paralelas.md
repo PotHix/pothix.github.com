@@ -2,7 +2,6 @@
 title = "Palestra sobre implementacoes paralelas"
 date = "2012-07-16"
 tags = ["tech","speaking","events"]
-categories = "events"
 aliases=[
   "post/palestra-sobre-implementacoes-paralelas",
   "2012/07/16/palestra-sobre-implementacoes-paralelas.html"

@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2010-01-05"
 tags = ["books"]
-categories = "books"
 +++
 
 Aqui estou eu novamente para falar de um livro que eu li nas férias!

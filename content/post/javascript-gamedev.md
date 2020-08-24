@@ -2,7 +2,6 @@
 title = "Javascript and Gamedev discussion"
 date = "2012-09-02"
 tags = ["gamedev","english","tech"]
-categories = "dev"
 aliases=[
   "post/javascript-and-gamedev-discussion",
   "2012/09/02/javascript-and-gamedev-discussion.html"

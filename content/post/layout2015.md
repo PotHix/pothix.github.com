@@ -2,7 +2,6 @@
 title = "New layout of PotHix blog"
 date = "2015-05-25"
 tags = ["english"]
-categories = "news"
 aliases=[
   "post/new-layout-of-pothix-blog",
   "2015/05/25/new-layout-of-pothix-blog.html"

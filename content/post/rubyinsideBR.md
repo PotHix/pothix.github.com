@@ -2,7 +2,6 @@
 title = "Ruby Inside Brasil"
 date = "2009-03-31"
 tags = ["tech","ruby"]
-categories = "dev"
 aliases=[
   "post/ruby-inside-brasil",
   "2009/03/31/ruby-inside-brasil.html"

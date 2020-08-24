@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2011-04-27"
 tags = ["tech"]
-categories = "personal"
 +++
 
 Estou começando a fazer meu TCC agora e resolvi brincar um pouco com LaTeX. Ja

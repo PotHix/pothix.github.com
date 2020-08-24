@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-05-09"
 tags = ["tech","linux"]
-categories = "linux"
 +++
 
 Resolvi postar sobre isso depois de passar por 3 empresas que usam o

@@ -2,7 +2,6 @@
 title = "Organizando os Feeds do Blog"
 date = "2011-01-24"
 tags = ["personal","tech"]
-categories = "dev"
 aliases=[
   "post/organizando-os-feeds-do-blog",
   "2011/01/24/organizando-os-feeds-do-blog.html"

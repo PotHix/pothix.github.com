@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-08-12"
 tags = ["gamedev","tech"]
-categories = "dev"
 +++
 
 [![Foto que mostra o pothix programando](/images/posts/gamejam_espaco.jpg "Espaço do Gamejam")](/images/posts/gamejam_espaco.jpg "")

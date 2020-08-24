@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2008-11-27"
 tags = ["tech","linux"]
-categories = "linux"
 +++
 
 Se você usa bastante [SSH](http://en.wikipedia.org/wiki/Ssh) vou

@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2009-05-20"
 tags = ["tech"]
-categories = "personal"
 +++
 
 Agora chegando em tempo de provas e grande acumulo de atividades no

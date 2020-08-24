@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2008-11-11"
 tags = ["linux","tech"]
-categories = "linux"
 +++
 
 Estava escrevendo outro post e chegando em um ponto onde eu instalaria

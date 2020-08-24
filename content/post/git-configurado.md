@@ -8,7 +8,6 @@ aliases=[
 ]
 date = "2008-12-21"
 tags = ["tech","linux"]
-categories = "dev"
 +++
 
 Meu ultimo post foi sobre como subir um projeto para o

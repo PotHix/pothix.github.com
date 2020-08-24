@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2008-11-07"
 tags = ["ruby","tech"]
-categories = "development"
 +++
 
 Como muitos sabem, eu sou um dos professores assistentes do

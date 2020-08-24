@@ -7,7 +7,6 @@ aliases=[
 ]
 date = "2013-07-29"
 tags = ["motorcycle"]
-categories = "personal"
 +++
 
 Depois de brincar de customização de motos por um tempo chegou a hora
