@@ -56,6 +56,10 @@ USD** to build the keyboard. In my local currency, using the current
 conversion (it may have been different when I first bought the needed
 components), it's around **R$1400,00**.
 
+I had some credits on Amazon and the currency was not that bad at the time. The
+effective value considering the credits was about R$800,00 which is still
+almost 4/5 of the minimum wage here in Brazil.
+
 ## Assembling
 
 ![A laptop, PCB, soldering iron, keycaps, and switches on the table](/images/posts/iris-rev4/initial.jpg "Ready to start")
