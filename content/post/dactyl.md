@@ -4,7 +4,28 @@ date: 2020-08-28T15:01:17-03:00
 draft: true
 ---
 
-Here are the items I bould to build my dactyl:
+After build the [Iris keyboard](/iris) I decided to start a new quest to build
+a Dactyl-cc (as I mentioned at the end of the Iris post 😉)
+
+Dactyl is the keyboad I wanted to build from the start but I certainly didn't
+have the skils to do it. I decided to first build a "portable kinesis", so I
+could take it with me when I was traveling and Iris seemed like a great fit for
+this and not that hard for a first project. Now that I have the skills, I will
+build the Dactyl to maybe take my kinesis' place.
+
+## Parts to buy
+
+I decided to buy everything from AliExpress. It's usually cheaper than buying
+everything where I like (Brazil) and I not in a hurry, which is the bigger
+disadvantage of AliExpress.
+
+Many of these parts I could easily find in a local store, sometimes even
+cheaper, but due to the pandemic I don't want to visit any physical store.
+
+With that said, let's go for the list of parts I bought and the individual
+links (the advantage of buying everything on AliExpress ☺️):
+
+### Required parts
 
 Qty | Item              | Total price | BRL (+taxes) | Link
 --- | ----------------- | ----------  | ------------ | ------------------------------------------------
@@ -25,7 +46,7 @@ Qty | Item              | Total price | BRL (+taxes) | Link
 1   | 2.0% flux solder  | R$ 11,70    | R$ 11,60     | https://www.aliexpress.com/item/33006453680.html
 
 
-Extras:
+### Extras:
 
 Qty | Item              | Price       | BRL (+taxes) | Link
 --- | ----------------- | ----------  | ------------ | ------------------------------------------------
