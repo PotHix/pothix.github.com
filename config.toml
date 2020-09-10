@@ -1,6 +1,7 @@
 baseurl = "https://pothix.com"
 languageCode = "en"
 title = "PotHix"
+theme = "doctype"
 disqusShortname = "pothixcom"
 googleAnalytics = "UA-2852094-2"
 
