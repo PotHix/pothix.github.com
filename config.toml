@@ -22,7 +22,7 @@ post = "/:filename"
   # hello-friend-ng params
   #############################################
   dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
+  dateformShort   = "Jan 2, 2006"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
 
@@ -82,12 +82,10 @@ post = "/:filename"
     sharingicons = true
 
     [languages.en.params.logo]
-      logoText = "PotHix"
+      logoText = ""
       logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
+      path = "/images/logo.png"
+      alt = "A drawing that represents myself, portrait, black and white"
 
   # And you can even create generic menu
   [[menu.main]]
