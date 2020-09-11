@@ -89,6 +89,31 @@ post = "/:filename"
 
   # And you can even create generic menu
   [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
+    identifier = "coding"
+    name       = "Coding"
+    url        = "/coding"
+
+  [[menu.main]]
+    identifier = "speaking"
+    name       = "Speaking"
+    url        = "/speaking"
+
+  [[menu.main]]
+    identifier = "writing"
+    name       = "Writing"
+    url        = "/writing"
+
+  [[menu.main]]
+    identifier = "media"
+    name       = "Media"
+    url        = "/media"
+
+  [[menu.main]]
+    identifier = "now"
+    name       = "Now"
+    url        = "/now"
+
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
