@@ -84,7 +84,7 @@ post = "/:filename"
     [languages.en.params.logo]
       logoText = ""
       logoHomeLink = "/"
-      path = "/images/logo.png"
+      path = "/images/pothix-logo.svg"
       alt = "A drawing that represents myself, portrait, black and white"
 
   # And you can even create generic menu
