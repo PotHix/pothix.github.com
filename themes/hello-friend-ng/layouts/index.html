@@ -2,8 +2,6 @@
     {{ $paginator := .Paginate (where .Site.RegularPages "Section" "post") }}
 
     <main class="posts">
-        <h1>{{ .Title }}</h1>
-
         {{ if .Content }}
             <div class="content">{{ .Content }}</div>
         {{ end }}
@@ -12,7 +10,7 @@
             {{ range $paginator.Pages }}
                 <li class="post-item">
                     <a href="{{.Permalink}}">
-                        <span class="post-title">{{.Title}}</span>
+                        <span class="post-title">{{.Title}}{{ if .Draft }}<strong> :: Draft{{ end }}</strong></span>
                         <span class="post-day">
                             {{ if .Site.Params.dateformShort }}
                                 {{ .Date.Format .Site.Params.dateformShort }}
