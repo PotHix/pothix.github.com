@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Places on PotHix</title>
-    <link>https://pothix.com/places/</link>
-    <description>Recent content in Places on PotHix</description>
+    <title>Series on PotHix</title>
+    <link>https://pothix.com/series/</link>
+    <description>Recent content in Series on PotHix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 25 Mar 2019 08:45:26 -0300</lastBuildDate>
     
-    <atom:link href="https://pothix.com/places/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://pothix.com/series/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
