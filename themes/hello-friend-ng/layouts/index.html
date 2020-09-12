@@ -8,9 +8,9 @@
 
         <ul class="posts-list">
             {{ range $paginator.Pages }}
-                <li class="post-item">
+                <li class="post-item" style="padding:10px 0">
                     <a href="{{.Permalink}}">
-                        <span class="post-title">{{.Title}}{{ if .Draft }}<strong> :: Draft{{ end }}</strong></span>
+                        <span class="post-title" style="text-transform: uppercase">{{.Title}}{{ if .Draft }}<strong> :: Draft{{ end }}</strong></span>
                         <span class="post-day">
                             {{ if .Site.Params.dateformShort }}
                                 {{ .Date.Format .Site.Params.dateformShort }}
@@ -19,6 +19,7 @@
                             {{ end }}
                         </span>
                     </a>
+                    <p>{{ .Summary | plainify | safeHTML }}</p>
                 </li>
             {{ end }}
         </ul>
