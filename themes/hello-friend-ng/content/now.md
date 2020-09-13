@@ -1,5 +1,8 @@
 +++
 title = "What is happening now"
+tags = [
+  "english",
+]
 +++
 
 This is my [now page](http://nownownow.com/about), inspired
@@ -29,7 +32,5 @@ Things that I'm avoiding because of COVID-19:
 
 1. Playing Magic the gathering for fun. I'm playing Pauper. [my decks are here](https://www.mtgvault.com/pothix/). I usually play in a local game store, but it's now closed to avoid social interaction.
 1. Going to the Gym. Actually, going out. I'm avoinding anything that's not staying home.
-
-Here are my coding stats for the last **30 days**:
 
 (last updated in September 2020)

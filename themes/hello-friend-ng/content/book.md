@@ -1,4 +1,7 @@
 +++
+tags = [
+  "english",
+]
 aliases = [
   "writing.html",
   "writing",

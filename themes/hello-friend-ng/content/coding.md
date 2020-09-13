@@ -2,6 +2,9 @@
 aliases = ["mywork.html"]
 title = "Coding"
 toc = true
+tags = [
+  "english",
+]
 +++
 
 I'm programming professioally since 2007 and have some things to show. Some of

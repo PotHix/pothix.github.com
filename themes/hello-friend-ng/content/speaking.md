@@ -1,8 +1,8 @@
 +++
-type = "page"
-layout = "title_subtitle"
 title = "Presentations"
-subtitle = "A list of all my talks by date"
+tags = [
+  "english",
+]
 +++
 
 No. | Date       | Presentation  | Event
