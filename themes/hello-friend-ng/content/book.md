@@ -94,7 +94,7 @@ Wrote for gamedev.tutsplus.com in Jan 2013.
 
 ### Audiobooks: Locaweb blog
 
-[![book](/images/writing/audiobooks_article.png)](http://blog.locaweb.com.br/dicas/audiobooks-leia-quando-voce-nunca-imaginou-ler/)
+{{< image src="/images/writing/audiobooks_article.png" alt="audiobooks" position="center" >}}
 
 A pt-BR article about how audiobooks can change your "reading" life forever.
 It's mostly what I've written [here](/audiobooks) too.
