@@ -31,7 +31,7 @@ post = "/:filename"
   homeSubtitle = "A simple and beautiful blog"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
+  disableReadOtherPosts = true
 
   # Enable sharing buttons, if you linke
   enableSharingButtons = true
