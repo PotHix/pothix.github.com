@@ -1,23 +1,25 @@
 +++
-aliases = ["mywork.html"]
-title = "Coding"
-toc = true
+title = "Code"
 tags = [
   "english",
 ]
+aliases = [
+  "mywork.html",
+  "coding",
+]
 +++
 
-I'm programming professioally since 2007 and have some things to show. Some of
-them were done on my spare time and others were part of my paid job.
+I've been writing code professioally since 2007 and have some things to show.
+Some of them were done on my spare time and others were part of my paid job.
 
 
 ## Paid work
 
 These are projects I've worked full-time while being employed by a company or working as a freelancer
 
-### [Locaweb: Cloud PRO](https://www.locaweb.com.br/cloud/cloud-server-pro/)
+### Locaweb: Cloud PRO
 
-![coding](/images/cloudserverpro.png)
+[![coding](/images/code/cloudserverpro.png)](https://www.locaweb.com.br/cloud/cloud-server-pro/)
 
 I was the main developer for the Cloud Server PRO product at Locaweb. Worked on
 the project since its beta release and improved for 5 years.
@@ -26,8 +28,6 @@ It's (mostly) a Ruby+Rails project responsible for the main state machine
 provisioning virtual machines on the Xen hypervisor. The application was also
 responsible for the configuration of other pieces of infrastructure like DHCP
 servers, Firewalls, software defined networks and etc.
-
-[Visit](https://www.locaweb.com.br/cloud/cloud-server-pro/)
 
 
 ### [Simplestack](https://github.com/Locaweb/simplestack)

@@ -89,16 +89,21 @@ post = "/:filename"
       alt = "A drawing that represents myself, portrait, black and white"
 
   [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+
+  [[menu.main]]
     identifier = "book"
     name       = "Book"
     url        = "/book"
 
   [[menu.main]]
+    identifier = "code"
+    name       = "Code"
+    url        = "/code"
+
+  [[menu.main]]
     identifier = "now"
     name       = "Now"
     url        = "/now"
-
-  [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "/about"
