@@ -1,4 +1,4 @@
-{{ $paginator := .Paginate (where .Site.RegularPages "Section" "post") }}
+{{ $paginator := .Paginate (where .Site.RegularPages "Section" "posts") }}
 {{ range sort $paginator.Pages }}
   <article class="post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-version tag-wordpress-2 mix">
 
