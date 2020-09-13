@@ -10,6 +10,7 @@ paginate     = 10
 [taxonomies]
   tag    = "tags"
   series = "series"
+
 [permalinks]
 post = "/:filename"
 
@@ -87,26 +88,10 @@ post = "/:filename"
       path = "/images/pothix-logo.svg"
       alt = "A drawing that represents myself, portrait, black and white"
 
-  # And you can even create generic menu
   [[menu.main]]
-    identifier = "coding"
-    name       = "Coding"
-    url        = "/coding"
-
-  [[menu.main]]
-    identifier = "speaking"
-    name       = "Speaking"
-    url        = "/speaking"
-
-  [[menu.main]]
-    identifier = "writing"
-    name       = "Writing"
-    url        = "/writing"
-
-  [[menu.main]]
-    identifier = "media"
-    name       = "Media"
-    url        = "/media"
+    identifier = "book"
+    name       = "Book"
+    url        = "/book"
 
   [[menu.main]]
     identifier = "now"
