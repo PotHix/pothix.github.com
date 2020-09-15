@@ -95,4 +95,3 @@ Burger King, etc. but I look for places where I can quickly eat
 something and go to the next location.
 
 + **Shakeshack**: There are many of them and the burger is good enough
-+ **Fresh??**: Good place if you want quickly eat some
