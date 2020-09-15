@@ -1,8 +1,8 @@
 baseurl = "https://pothix.com"
 languageCode = "en"
 title = "PotHix"
-theme = "doctype"
-# theme = "hello-friend-ng"
+# theme = "doctype"
+theme = "hello-friend-ng"
 disqusShortname = "pothixcom"
 googleAnalytics = "UA-2852094-2"
 paginate     = 10
