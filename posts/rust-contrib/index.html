@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="I&amp;rsquo;m involved with the Rust community for a while now. I&amp;rsquo;m one of the main organizers of the Rust meetup in São Paulo and also the Rust conference in Latin America (Rust LATAM) for more than one year now, but did not contribute to Rust source code yet.
+This post will show the step by step I did to submit my first pull request to the Rust compiler.
+If you want to go straight to the step by step, without any introduction, jump to My step by step to the first contribution." />
+<meta name="keywords" content="Programming, Linux, Desconstruindo a web, Ruby, Elixir, Golang, Guru-SP, Rust, Productivity, english, tech" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://pothix.com/posts/rust-contrib/" />
+
+
+    <title>
+        
+            Contributing to Rust :: PotHix  — The personal website for Willian Molinari, also known as PotHix
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.f1e6072a14a5c4102143cf40cb0c8826b5f8f5c43f4d3e1b7f2ab7215498f372.css">
+
+
+
+
+
+
+<meta itemprop="name" content="Contributing to Rust">
+<meta itemprop="description" content="I&rsquo;m involved with the Rust community for a while now. I&rsquo;m one of the main organizers of the Rust meetup in São Paulo and also the Rust conference in Latin America (Rust LATAM) for more than one year now, but did not contribute to Rust source code yet.
+This post will show the step by step I did to submit my first pull request to the Rust compiler.
+If you want to go straight to the step by step, without any introduction, jump to My step by step to the first contribution.">
+<meta itemprop="datePublished" content="2019-11-22T00:00:00-03:00" />
+<meta itemprop="dateModified" content="2019-11-22T00:00:00-03:00" />
+<meta itemprop="wordCount" content="2024">
+<meta itemprop="image" content="https://pothix.com"/>
+
+
+
+<meta itemprop="keywords" content="english,tech," />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://pothix.com"/>
+
+<meta name="twitter:title" content="Contributing to Rust"/>
+<meta name="twitter:description" content="I&rsquo;m involved with the Rust community for a while now. I&rsquo;m one of the main organizers of the Rust meetup in São Paulo and also the Rust conference in Latin America (Rust LATAM) for more than one year now, but did not contribute to Rust source code yet.
+This post will show the step by step I did to submit my first pull request to the Rust compiler.
+If you want to go straight to the step by step, without any introduction, jump to My step by step to the first contribution."/>
+
+
+
+    <meta property="og:title" content="Contributing to Rust" />
+<meta property="og:description" content="I&rsquo;m involved with the Rust community for a while now. I&rsquo;m one of the main organizers of the Rust meetup in São Paulo and also the Rust conference in Latin America (Rust LATAM) for more than one year now, but did not contribute to Rust source code yet.
+This post will show the step by step I did to submit my first pull request to the Rust compiler.
+If you want to go straight to the step by step, without any introduction, jump to My step by step to the first contribution." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://pothix.com/posts/rust-contrib/" />
+<meta property="og:image" content="https://pothix.com"/>
+<meta property="article:published_time" content="2019-11-22T00:00:00-03:00" />
+<meta property="article:modified_time" content="2019-11-22T00:00:00-03:00" /><meta property="og:site_name" content="PotHix" />
+
+
+
+
+
+
+    <meta property="article:published_time" content="2019-11-22 00:00:00 -0300 -03" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <img src="/images/pothix-logo.svg" alt="A drawing that represents myself, portrait, black and white" />
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://pothix.com/about">About</a></li><li><a href="https://pothix.com/book">Book</a></li><li><a href="https://pothix.com/code">Code</a></li><li><a href="https://pothix.com/now">Now</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+  <main class="post">
+
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        10 minutes reading
+
+        |
+
+        
+            
+                Também disponível em
+                <a href="https://translate.google.com/translate?sl=en&amp;tl=pt&amp;u=https%3a%2f%2fpothix.com%2fposts%2frust-contrib%2f" target="_blank" rel="nofollow noopener noreferrer"><span class="flag flag-icon flag-icon-br flag-icon-squared"></span></a>
+            
+        
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="https://pothix.com/posts/rust-contrib/">Contributing to Rust</a>
+      </h1>
+
+      
+
+      <div class="post-content">
+        <p>I&rsquo;m involved with the Rust community for a while now. I&rsquo;m one of the main
+organizers of the <a href="https://www.meetup.com/Rust-Sao-Paulo-Meetup/">Rust meetup in São
+Paulo</a> and also the <a href="https://rustlatam.org/">Rust
+conference in Latin America (Rust LATAM)</a> for more than
+one year now, but did not contribute to Rust source code yet.</p>
+<p>This post will show the step by step I did to submit my first pull request to
+the Rust compiler.</p>
+<p>If you want to go straight to the step by step, without any introduction, jump
+to <a href="#my-step-by-step-to-the-first-contribution">My step by step to the first
+contribution</a>.</p>
+<h2 id="the-dream">The dream</h2>
+<p>I don&rsquo;t know about you, but I always wanted to contribute to core things. I
+still want to have a commit on the Linux kernel someday, and it&rsquo;s not the first
+time I try to contribute to a programming language.</p>
+<p>I read the kernel source code multiple times and also read their contribution
+guides, but it&rsquo;s not simple to contribute. It&rsquo;s hard to find issues you can
+understand, reproduce, and compile. It may not be true for people out there,
+but it was my personal experience.</p>
+<p>I also tried to contribute to the Ruby programming language. I was working with
+Ruby for many years, so I decided to read its source. I didn&rsquo;t find the code
+easy to follow, and the issues are not easy to find and reproduce. For Ruby,
+it&rsquo;s even worse, since some things are still in Japanese, especially the
+discussions. The language community is not very accessible to contributions
+like the rest of the community.</p>
+<p>These paragraphs are not to say bad things about these communities. I still
+love Linux and the Ruby programming language. I just want to show my previous
+attempts and what went wrong. 😉</p>
+<h3 id="the-rust-scenario">The Rust scenario</h3>
+<p>Different from the Linux kernel and the Ruby programming language, the Rust
+programming language is implemented in Rust itself (instead of C), which makes
+things even better. 🙂</p>
+<p>The community and contribution guides are both <strong>awesome</strong>. You can feel the
+enormous amount of work the community puts on documenting stuff so people can
+find it easy to fix small things or even suggest and implement significant
+features.</p>
+<p>The whole process of how the community organizes itself is very open and
+encourages everyone to take part in it. This is not something I found on my
+previous attempts of contributions.</p>
+<h3 id="how-it-started">How it started</h3>
+<p>At <a href="https://doist.com">Doist</a>, we (speaking about my team here) try to
+encourage people to learn new things every week. You should reserve some time
+to try new things and bring some knowledge back to the team. If you don&rsquo;t book
+work time for that, you will probably overwork or never have time to improve
+your development skills.</p>
+<p>Every week we&rsquo;re naming someone to be responsible for describing what he/she
+learned during our next weekly meeting. It doesn&rsquo;t mean this is the only person
+that has to learn something, but at least one will be responsible for
+describing to the rest of the team.</p>
+<p>During the past week, I volunteered to take some time to learn something and
+report back. What I have in my schedule for months now (I would say more than
+one year) is to contribute anything to the Rust compiler. It doesn&rsquo;t matter
+what the contribution will be, but it has to be something meaningful and change
+the compiler in some way.</p>
+<p>With some work hours reserved (around 3 hours of work during the week) and some
+of my free time, I was ready to start!</p>
+<h2 id="my-step-by-step-to-the-first-contribution">My step by step to the first contribution</h2>
+<p><em>PS. I will link to a lot of documentation here, it&rsquo;s possible that they will
+change the links and it will break, but hope the whole context helps if the
+links are not 100% functional after some time</em></p>
+<h3 id="understanding-the-structure">Understanding the structure</h3>
+<p>The first step was to read the
+<a href="https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a>
+file. There&rsquo;s <strong>a lot</strong> of good stuff there. Seriously, it seems obvious, but
+it&rsquo;s not like other projects I tried and gave up quickly, it shows/points to
+everything you need to know.</p>
+<p>If we refer to <a href="https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md#the-build-system">the build system
+section</a>,
+we will be quickly introduced to the build script (<code>x.py</code>) and to <a href="https://rust-lang.github.io/rustc-guide/building/how-to-build-and-run.html">a complete
+guide about how the compiler
+works</a>!
+:)</p>
+<p>From there, you will understand how the compiler works and how you can use the
+python script to build a small piece of it, which is what you want to be able
+to fix a bug.</p>
+<h3 id="finding-the-issue">Finding the issue</h3>
+<p>I&rsquo;m particularly interested about the <a href="https://github.com/rust-lang/rust/labels?utf8=%E2%9C%93&amp;q=diagnostic">diagnostic
+issues</a>,
+so I reached out to the guy who is more familiar to this part of the codebase
+(<a href="http://github.com/estebank">@estebank</a>) via
+<a href="https://rust-lang.zulipchat.com">Zulip</a>, which is currently the tool of choice
+for communication with the compiler team.</p>
+<p>I met Esteban at <a href="https://rustconf.com">Rustconf</a> and <a href="https://rustlatam.org">Rust
+LATAM</a>, so it was easy to introduce myself (again).
+Everyone I talked to until now was very receptive to help when you&rsquo;re polite
+(of course) and asking for help, even if they don&rsquo;t know you, so don&rsquo;t be
+afraid to reach out to people.</p>
+<p>Esteban described which labels would be suitable for my first issue (in this
+case, <code>d-papercut</code>), and I started to read one by one to pick mine.</p>
+<p>After some time, I decided to investigate <a href="https://github.com/rust-lang/rust/issues/61286">an issue about the suggestion for
+the #[repr = &ldquo;C&rdquo;] syntax</a>.</p>
+<h3 id="the-first-compilation">The first compilation</h3>
+<p>The issue I chose mention <a href="https://github.com/rust-lang/rust/blob/609ffa1a890fd6b8b0364cd7b35bf1d45abf82d0/src/test/ui/repr.stderr">a <code>.stderr</code> file on the
+codebase</a>,
+which is a great way to start. :D</p>
+<p>The first thing I did was to look for one of the strings I found there (the
+text &ldquo;<code>must be of the form</code>&rdquo;) and change it to something else.</p>
+<p>I changed it to <code>must be of the whatever</code> and referred back to the
+documentation on how to build the compiler.</p>
+<p><em>As a side note: The way the compiler is compiled is very interesting. It has
+three different stages. It downloads the beta compiler to compile itself (Rust
+is written in Rust, remember?), and then it uses the generated compiler to
+build the compiler again against itself. :) (there&rsquo;s much more, but I recommend
+reading the official documentation if you&rsquo;re interested ;) ).</em></p>
+<p>After trying some commands to build the repository and get used to the time it
+takes to compile (and how to make the compilation faster by compiling parts of
+it), I got my first version of the compiler and was able to compile a sample
+program.</p>
+<p>I have to say that it&rsquo;s very satisfying to see the change you did there. It
+doesn&rsquo;t matter if it&rsquo;s just a string. It proves to me that the first step is
+done, and it&rsquo;s realistic to continue. o/</p>
+<p>Now that I can build the compiler, I can get back to the issue and modify the
+mentioned test.</p>
+<h3 id="testing-the-compiler">Testing the compiler</h3>
+<p>We will now use <a href="https://rust-lang.github.io/rustc-guide/tests/intro.html">the rustc
+documentation</a> again
+to understand how to run the test suite for the compiler.</p>
+<p>The documentation helps to understand how the testing organization and
+infrastructure works. It also shows the various types of tests you will find
+and how to run them. In my case, I had to run the UI tests of the compiler, so
+I could run it using the <code>x.py</code> script just like I do with everything else:</p>
+<pre><code>./x.py test --stage 1 src/test/ui
+</code></pre><p><em>PS. I will not go into the details of the code I used since you can refer to
+the documentation I linked and get a much better and detailed explanation.</em></p>
+<p>While trying to understand how the testing infrastructure works, I found a
+problem with the documentation, so <a href="https://github.com/rust-lang/rust/issues/61286">I submitted a PR to the compiler
+doucumentation</a> and it was
+accepted. 🎉</p>
+<p>Now, getting back to the issue. When I ran the test command, it shows me that I
+now have a broken test, since I changed the word <code>form</code> to the word <code>whatever</code>.
+\o/</p>
+<p>So, let&rsquo;s first fix the test to have the behavior I wanted. In this case, I
+want to recommend <code>#[repr(C)]</code> to everything instead of a statement that is not
+valid. By doing that, the editors can suggest valid code instead of just a
+tooltip with and list and <code>...</code>.</p>
+<p>Now that I have a broken test, I can <code>checkout</code> the code file and start looking
+for the file to change.</p>
+<h3 id="understanding-the-code-and-changing-whats-needed">Understanding the code and changing what&rsquo;s needed</h3>
+<p>This is the part where we should be more used to. When I say <em>more used to</em>, I
+mean it&rsquo;s more related to our day-to-day job, whatever it is. It&rsquo;s just another
+codebase with a bug that you have to find out. 😉</p>
+<p>Let&rsquo;s start debugging it function by function and understanding which code is
+being called. We will do that until we find the piece of code that has to be
+changed.</p>
+<p>While you&rsquo;re going up the stack, you will probably find many other things you
+have no idea how/why they are there. In some cases, you may see features of the
+language that you&rsquo;re still not familiar with, so you may also take some time to
+learn those to continue your journey. That was the case for me with macros. 🙂</p>
+<p>After some time, I finally found the place I had to change, and it was simple
+for this particular case I was trying to solve.</p>
+<h3 id="creating-the-pull-request">Creating the pull request</h3>
+<p><a href="https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md#pull-requests">To create a Pull Request, we can refer to this section in the Rust
+documentation</a>.
+I used that to create mine and mention Esteban.</p>
+<p>There are some bots to help the community to take care of managing the PRs, so
+we (as a community) have many powers to ask for reviews, approve PRs, create a
+queue of PRs to merge, etc.</p>
+<p>To mention someone to review, I used the <code>r? @username</code> function of the
+<a href="https://github.com/rust-highfive">rust-highfive</a> bot, so it can assign the
+person who is knowledgeable on that part of the codebase (@estebank in my
+case).</p>
+<p>After creating the PR, the Rust language infrastructure will run the tests (it
+was Travis before, Azure pipelines currently, and may change to Github actions
+in the future) and report back in the PR.</p>
+<p>After some time (~2 hours), I got the report that I broke the build with my
+changes (🤦) because there were other tests in a different part of the code,
+expecting that message as a diagnostic for the <code>[repr = &quot;C&quot;]</code> syntax. I checked
+the code again and just fixed the test.</p>
+<h3 id="pr-and-discussions">PR and discussions</h3>
+<p>As usual, there was some discussion about the change. The PR usually stays
+there for some days until one of the maintainers have enough time to take a
+look at it and decide if it&rsquo;s worth changing.</p>
+<p>The discussions usually happen on the PR itself, but in my case, there were
+some discussions with Esteban via Zulip, as the change was straightforward, and
+I had some questions.</p>
+<p>It turns out that my change only partially fixes the issue because it will need
+something better designed for this case. The idea is to suggest the right
+<code>repr</code> for the context of the code. This change will take much more knowledge
+(and time 😅) than I have now.</p>
+<p>Fortunately, the Rust team found the change to be valuable enough to merge in,
+even if it doesn&rsquo;t fix the issue altogether, so <a href="https://github.com/rust-lang/rust/pull/66206">the PR was approved
+</a>!</p>
+<h3 id="after-the-approval">After the approval</h3>
+<p>When your PR is approved, the <strong><a href="https://github.com/bors">@bors</a></strong> bot will add
+it to the <a href="https://buildbot2.rust-lang.org/homu/queue/rust">the queue of PRs to
+merge</a> and will eventually be
+merged to the master branch.</p>
+<p><a href="/images/posts/contributing-to-rust.jpg"><img src="/images/posts/contributing-to-rust.jpg" alt="Image of the Rust repository on GitHub with the merge of my commit as the latest commit"></a></p>
+<p>You will also be added to the <a href="https://thanks.rust-lang.org/rust/all-time/">Thanks
+page</a> as you&rsquo;re now part of the
+Rust repository with you commit 🎉.</p>
+<h2 id="next-steps">Next steps</h2>
+<p>I like to do it in baby steps. I planned to try something simple, so I could
+understand the basics of contributing to the compiler. It&rsquo;s now done. 🙂</p>
+<p>Now that I (and hopefully, you as well) understand the processes to contribute
+and have the setup to do it, I can go to the next step and try more issues. The
+plan is to focus on the diagnostics part of the compiler (which is the part I
+like the most) and solve small issues that may have a high impact on how the
+developers are interacting with the language.</p>
+<p>When I feel comfortable with the small issues, I can look for something
+bigger&hellip; but&hellip; baby steps. 😉</p>
+
+      </div>
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+      
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://pothix.com/tags/english/">english</a></span>
+        <span class="tag"><a href="https://pothix.com/tags/tech/">tech</a></span>
+        
+    </p>
+
+      
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        2024 Words
+      </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        
+          2019-11-22
+        
+
+        
+          
+        
+      </p>
+    </div>
+      <hr />
+      <div class="sharing-buttons">
+        <span style="padding-top:17px">Share:</span> 
+<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fpothix.com%2fposts%2frust-contrib%2f" target="_blank" rel="noopener" aria-label="" title="Share on facebook">
+  <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?url=https%3a%2f%2fpothix.com%2fposts%2frust-contrib%2f" target="_blank" rel="noopener" aria-label="" title="Share on twitter">
+  <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small">
+      <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Contributing%20to%20Rust&amp;caption=Contributing%20to%20Rust&amp;canonicalUrl=https%3a%2f%2fpothix.com%2fposts%2frust-contrib%2f" target="_blank" rel="noopener" aria-label="" title="Share on tumblr">
+  <div class="resp-sharing-button resp-sharing-button--tumblr resp-sharing-button--small">
+    <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.563 24c-5.093 0-7.031-3.756-7.031-6.411V9.747H5.116V6.648c3.63-1.313 4.512-4.596 4.71-6.469C9.84.051 9.941 0 9.999 0h3.517v6.114h4.801v3.633h-4.82v7.47c.016 1.001.375 2.371 2.207 2.371h.09c.631-.02 1.486-.205 1.936-.419l1.156 3.425c-.436.636-2.4 1.374-4.156 1.404h-.178l.011.002z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="mailto:?subject=Contributing%20to%20Rust&amp;body=https%3a%2f%2fpothix.com%2fposts%2frust-contrib%2f" target="_self" rel="noopener" aria-label="" title="Share via email">
+  <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://pinterest.com/pin/create/button/?url=https%3a%2f%2fpothix.com%2fposts%2frust-contrib%2f&amp;media=https%3a%2f%2fpothix.com%2fposts%2frust-contrib%2f;description=Contributing%20to%20Rust" target="_blank" rel="noopener" aria-label="" title="Share on pinterest">
+  <div class="resp-sharing-button resp-sharing-button--pinterest resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fpothix.com%2fposts%2frust-contrib%2f&amp;title=Contributing%20to%20Rust&amp;summary=Contributing%20to%20Rust&amp;source=https%3a%2f%2fpothix.com%2fposts%2frust-contrib%2f" target="_blank" rel="noopener" aria-label="" title="Share on linkedin">
+  <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=https%3a%2f%2fpothix.com%2fposts%2frust-contrib%2f&amp;resubmit=true&amp;title=Contributing%20to%20Rust" target="_blank" rel="noopener" aria-label="" title="Share on reddit">
+  <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.xing.com/app/user?op=share;url=https%3a%2f%2fpothix.com%2fposts%2frust-contrib%2f;title=Contributing%20to%20Rust" target="_blank" rel="noopener" aria-label="" title="Share on xing">
+  <div class="resp-sharing-button resp-sharing-button--xing resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M18.188 0c-.517 0-.741.325-.927.66 0 0-7.455 13.224-7.702 13.657.015.024 4.919 9.023 4.919 9.023.17.308.436.66.967.66h3.454c.211 0 .375-.078.463-.22.089-.151.089-.346-.009-.536l-4.879-8.916c-.004-.006-.004-.016 0-.022L22.139.756c.095-.191.097-.387.006-.535C22.056.078 21.894 0 21.686 0h-3.498zM3.648 4.74c-.211 0-.385.074-.473.216-.09.149-.078.339.02.531l2.34 4.05c.004.01.004.016 0 .021L1.86 16.051c-.099.188-.093.381 0 .529.085.142.239.234.45.234h3.461c.518 0 .766-.348.945-.667l3.734-6.609-2.378-4.155c-.172-.315-.434-.659-.962-.659H3.648v.016z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="whatsapp://send?text=Contributing%20to%20Rust%20https%3a%2f%2fpothix.com%2fposts%2frust-contrib%2f" target="_blank" rel="noopener" aria-label="" title="Share on whatsapp">
+  <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fpothix.com%2fposts%2frust-contrib%2f&amp;t=Contributing%20to%20Rust" target="_blank" rel="noopener" aria-label="" title="Share on hacker news">
+  <div class="resp-sharing-button resp-sharing-button--hackernews resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M0 24V0h24v24H0zM6.951 5.896l4.112 7.708v5.064h1.583v-4.972l4.148-7.799h-1.749l-2.457 4.875c-.372.745-.688 1.434-.688 1.434s-.297-.708-.651-1.434L8.831 5.896h-1.88z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://telegram.me/share/url?text=Contributing%20to%20Rust&amp;url=https%3a%2f%2fpothix.com%2fposts%2frust-contrib%2f" target="_blank" rel="noopener" aria-label="" title="Share on telegram">
+  <div class="resp-sharing-button resp-sharing-button--telegram resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+    </div>
+  </div>
+</a>
+
+      </div>
+
+    
+
+
+    
+      
+        <div id="comments">
+          <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "pothixcom" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+      
+    
+
+  </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+            
+                <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            
+            <span> <a href="https://pothix.com/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Made with &#10084; by <a href="https://github.com/rhazdon">Djordje Atlialp</a></span>
+            <span>Customized by <a href="https://pothix.com">PotHix</a></span>
+          </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.ac9cf4e1cba514d4b8d26425170f15199b3e3149e754c3111c53550a89316d9db58d05cc8a1507b6c9d8e2d9bcd980f8dd512231c6d62bfaf1680c32cbce0bbc.js" integrity="sha512-rJz04culFNS40mQlFw8VGZs&#43;MUnnVMMRHFNVCokxbZ21jQXMihUHtsnY4tm82YD43VEiMcbWK/rxaAwyy84LvA=="></script>
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-2852094-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+    </body>
+</html>

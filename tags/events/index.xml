@@ -9,360 +9,304 @@
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Sun, 21 Apr 2019 14:02:54 -0300</lastBuildDate>
     
-    <atom:link href="https://pothix.com/tags/events/index.xml" rel="self" type="application/rss+xml" />
-    
+	<atom:link href="https://pothix.com/tags/events/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How was Rust LATAM 2019</title>
-      <link>https://pothix.com/rustlatam2019/</link>
+      <link>https://pothix.com/posts/rustlatam2019/</link>
       <pubDate>Sun, 21 Apr 2019 14:02:54 -0300</pubDate>
       
-      <guid>https://pothix.com/rustlatam2019/</guid>
+      <guid>https://pothix.com/posts/rustlatam2019/</guid>
       <description>For those who don&amp;rsquo;t know, I&amp;rsquo;m a proud core organizer of the Rust LATAM conference. 🎉 The conference happened on March 29 and 30, and this post describes how it was to organize the whole thing.
 Even with the small problems we had (as any other big conference), the feedback we received so far were very positive. We were able to bring amazing speakers to the conference, which brought high-level content even for beginners.</description>
     </item>
     
-    
-    
     <item>
       <title>FOSDEM survival guide</title>
-      <link>https://pothix.com/fosdem-guide/</link>
+      <link>https://pothix.com/posts/fosdem-guide/</link>
       <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/fosdem-guide/</guid>
+      <guid>https://pothix.com/posts/fosdem-guide/</guid>
       <description>TL;DR: It was my first time at FOSDEM and it took some time to feel comfortable, this post may help newcomers.
 As I mentioned in my previous post, I spoke at FOSDEM this year. It was my first time there (in the whole Europe, btw!) and it took some time to get used to the way the event goes. This post will show some tips that may help FOSDEM newcomers and maybe some veterans as well.</description>
     </item>
     
-    
-    
     <item>
       <title>My presentation at FOSDEM 2017</title>
-      <link>https://pothix.com/fosdem2017/</link>
+      <link>https://pothix.com/posts/fosdem2017/</link>
       <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/fosdem2017/</guid>
+      <guid>https://pothix.com/posts/fosdem2017/</guid>
       <description>This year my proposal to speak at FOSDEM was accepted and I spoke at the Desktop devroom! :)
 It was my first talk in English, so I decided to do as many rehearsals as I could. I was 8 in total, but as expected, it was still a little bit faster than expected. :P
 I had 30 minutes to present and I did it in 26. I usually speak fast and this presentation was made to be fast because I had a lot of content to show in 30 minutes.</description>
     </item>
     
-    
-    
     <item>
       <title>Rubyconf 2016</title>
-      <link>https://pothix.com/rubyconf2016/</link>
+      <link>https://pothix.com/posts/rubyconf2016/</link>
       <pubDate>Mon, 26 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/rubyconf2016/</guid>
+      <guid>https://pothix.com/posts/rubyconf2016/</guid>
       <description>TL;DR: A melhor Rubyconf que eu participei
 Nos dias 24 e 25 de Setembro de 2016 aconteceu a Rubyconf Brasil. Assim como eu fiz um post sobre o primeiro Rails Summit que o Akita participou da organização, resolvi também fazer um post sobre a última rubyconf que ele resolveu organizar.
 Essa Rubyconf teve vários pontos especialmente importantes para mim. O primeiro deles foi logo no início quando o Gilberto Mautner, que é um dos fundadores da Locaweb, mencionou os números do projeto que eu estou trabalhando por lá.</description>
     </item>
     
-    
-    
     <item>
       <title>As escolhas do desenvolvedor</title>
-      <link>https://pothix.com/escolhasdev/</link>
+      <link>https://pothix.com/posts/escolhasdev/</link>
       <pubDate>Mon, 31 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/escolhasdev/</guid>
+      <guid>https://pothix.com/posts/escolhasdev/</guid>
       <description>Esse ano fui chamado para palestrar em todas as edições do Encontro Locaweb que acontecem por várias cidades do Brasil! Palestrei em 6 cidades de estados diferentes, e aconteceram na seguinte ordem:
  Belo Horizonte Curitiba Recife Porto Alegre Rio de Janeiro São Paulo  Adicionei os links para as fotos dos eventos na listagem acima. :)
 Minha palestra se chama &amp;ldquo;As escolhas do desenvolvedor&amp;rdquo; e fala sobre as escolhas que fazemos durante nossa carreira de desenvolvedor, escolhas com linguagens, configurações de servidores, deploy, equipe, testes e etc.</description>
     </item>
     
-    
-    
     <item>
       <title>OSCON 2015</title>
-      <link>https://pothix.com/oscon/</link>
+      <link>https://pothix.com/posts/oscon/</link>
       <pubDate>Mon, 27 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/oscon/</guid>
+      <guid>https://pothix.com/posts/oscon/</guid>
       <description>TL;DR I&amp;rsquo;ve been at OSCON this year (thanks to Locaweb) and this post will summarize my impressions about the conference. I spoke at Locaweb Tech-Talks about it and you can find my slides here (in portuguese).
 OSCON (Open Source Conference) is one of the most important open source conferences of our time and happened in Portland this year as usual. Portland is a great city, the one I liked the most until now, it doesn&amp;rsquo;t have high car traffic, MAX (the train) took us for most of the places we wanted to know, nice people all over the place, great convention center and a lot of other benefits.</description>
     </item>
     
-    
-    
     <item>
       <title>O Guru-SP e seus 5 anos de vida</title>
-      <link>https://pothix.com/gurusp5/</link>
+      <link>https://pothix.com/posts/gurusp5/</link>
       <pubDate>Tue, 17 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/gurusp5/</guid>
+      <guid>https://pothix.com/posts/gurusp5/</guid>
       <description>Há pouco tempo aconteceu o encontro numero 31 do Guru-SP, e como sempre saímos (dessa vez estavamos @vinibaggio, @agaelebe, @nuxlli e @anderson_leite) para aquele velho momento de bate papo pós evento. Durante a conversa o @nuxlli perguntou sobre como o Guru-SP começou e nesse momento eu comecei a relembrar daquela velha tarde em 2008.
 Mas peraí&amp;hellip; 2008!! O Guru-SP está próximo de fazer 5 anos de vida! :)
 Em pensar que tudo começou após um post do @agaelebe na Rails-br falando sobre criar grupos locais para conversar mais sobre Ruby e fazer encontros com mais frequência, o que gerou interesse de várias pessoas de São Paulo, que decidiram levar esse &amp;ldquo;projeto&amp;rdquo; pra frente.</description>
     </item>
     
-    
-    
     <item>
       <title>Game Network Programming</title>
-      <link>https://pothix.com/game-netprog/</link>
+      <link>https://pothix.com/posts/game-netprog/</link>
       <pubDate>Mon, 15 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/game-netprog/</guid>
+      <guid>https://pothix.com/posts/game-netprog/</guid>
       <description>English Abstract: This post was about my presentation with Diego Souza (vulgo Marciano) about Game network programming. I was studying and reading Quake source just for fun and decided to learn more about game networking in general, so I decided to prepare this presentation to show other people what I’ve learned. You can see the full video (portuguese only, sorry) and the slides below.
 Portuguese: Eu e o Diego Souza (vulgo Marciano) fizemos uma palestra sobre Game network programming tanto na Locaweb como no Guru-SP.</description>
     </item>
     
-    
-    
     <item>
       <title>Plaev, HTML5 e Skeleton-jigsaw</title>
-      <link>https://pothix.com/skeleton-jigsaw/</link>
+      <link>https://pothix.com/posts/skeleton-jigsaw/</link>
       <pubDate>Tue, 04 Dec 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/skeleton-jigsaw/</guid>
+      <guid>https://pothix.com/posts/skeleton-jigsaw/</guid>
       <description>Depois de muito tempo desenvolvendo finalmente terminamos o Skeleton-Jigsaw em outubro! Demorei para postar sobre isso aqui no blog por falta de tempo, mas aqui está!
 Eu e o Rafael Masoni trabalhamos nesse jogo durante quase 1 ano (começamos a falar dele no comecinho de janeiro) investindo nosso tempo livre para fazer todas as partes do jogo (audio, programação, arte, game design, level design e etc).
 Vou descrever um pouco do que fizemos e como organizamos, mas vai ser apenas um resumo do que falamos na nossa palestra no Guru-SP:</description>
     </item>
     
-    
-    
     <item>
       <title>Palestra sobre implementacoes paralelas</title>
-      <link>https://pothix.com/implementacoes-paralelas/</link>
+      <link>https://pothix.com/posts/implementacoes-paralelas/</link>
       <pubDate>Mon, 16 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/implementacoes-paralelas/</guid>
+      <guid>https://pothix.com/posts/implementacoes-paralelas/</guid>
       <description>Esse post ficou como draft desde que eu palestrei sobre implementações paralelas, e agora que eu lembrei dele decidi publicar! :)
 Bem, como eu disse, eu paletrei sobre implementacoes paralelas tanto na Locaweb como no Guru-SP. A idea da palestra vem de um post do John Carmack sobre implementações paralelas, e nesse post ele comenta sobre todos os tipos de implementação paralela que ele já utilizou e as que mais funcionaram para cada tipo de caso.</description>
     </item>
     
-    
-    
     <item>
       <title>Palestra sobre Gamedev, Javascript e HTML5</title>
-      <link>https://pothix.com/gamedev-javascript/</link>
+      <link>https://pothix.com/posts/gamedev-javascript/</link>
       <pubDate>Mon, 23 May 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/gamedev-javascript/</guid>
+      <guid>https://pothix.com/posts/gamedev-javascript/</guid>
       <description>Esse fim de semana eu palestrei no FLISOL de São José dos Campos sobre desenvolvimento de jogos, Javascript e HTML5. Foi uma palestra simples e rápida, durou pouco mais de meia hora (preciso aprender a falar um pouco mais devagar :P) mas foi divertido.
 A grande maioria das pessoas que estavam assistindo a palestra não eram desenvolvedores, e estavam começando a estudar agora, e acho que por isso não surgiram muitas perguntas sobre o assunto, mesmo eu evitando colocar código.</description>
     </item>
     
-    
-    
     <item>
       <title>Semana de eventos (#rubyconfbr, #adl e #gddbr)</title>
-      <link>https://pothix.com/rubyconfbr-adl-gddbr/</link>
+      <link>https://pothix.com/posts/rubyconfbr-adl-gddbr/</link>
       <pubDate>Sun, 31 Oct 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/rubyconfbr-adl-gddbr/</guid>
+      <guid>https://pothix.com/posts/rubyconfbr-adl-gddbr/</guid>
       <description>Na semana passada (semana do dia 24 ao dia 30 de outubro) foi uma semana de grandes eventos, que eu tive o prazer de participar de todos! :)
 Rubyconf Brasil A Rubyconf Brasil é o Antigo Rails Summit Latin America, que acontecia no centro de convenções do Anhembi, e agora mudou sua localização para o centro de convenções Frei Caneca, para diminuir os custos e prover um local mais acessível para os participantes (próximo ao metrô e a avenida paulista).</description>
     </item>
     
-    
-    
     <item>
       <title>FISL11</title>
-      <link>https://pothix.com/fisl11/</link>
+      <link>https://pothix.com/posts/fisl11/</link>
       <pubDate>Sun, 01 Aug 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/fisl11/</guid>
+      <guid>https://pothix.com/posts/fisl11/</guid>
       <description>Finalmente depois de 4 anos planejando eu consegui ir para o FISL! :)
 Para quem ainda não sabe, eu estou trabalhando na Locaweb desde o começo deste mês e consegui ir com a equipe deles para o FISL.
 Esperava um conteúdo técnico melhor no FISL, e algumas palestras (ou a falta de boas palestras) me decepcionou um pouco, mas pelo que eu fiquei sabendo foi decisão do público os temas, então ficou meio incontrolável.</description>
     </item>
     
-    
-    
     <item>
       <title>Palestra sobre Vim</title>
-      <link>https://pothix.com/palestra-vim/</link>
+      <link>https://pothix.com/posts/palestra-vim/</link>
       <pubDate>Mon, 29 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/palestra-vim/</guid>
+      <guid>https://pothix.com/posts/palestra-vim/</guid>
       <description>Esse vai ser um post curto, apenas para deixar registrado algumas informações sobre a palestra de Vim que teve no sétimo encontro do Guru-sp (sim, eu fui o palestrante :D).
 Primeiramente, já começo com uma desculpa, por que já faz mais de 2 semanas que palestrei e só agora estou fazendo esse post. :(
 Foi bem legal palestrar para uma galera que já conhecia ao menos um pouco do editor. Quando eu estava planejando o que eu ia falar eu fiquei com uma grande dúvida de qual seria a minha linha de apresentação, por que eu não sabia quantos já conheciam o editor, portanto eu poderia chegar falando de coisas avançadas e ninguem entenderia nada, ou pelo contrário, se muitos conhecessem e eu chegasse falando de coisas básicas demais a palestra seria um saco.</description>
     </item>
     
-    
-    
     <item>
       <title>Yahoo Open Hack 2010</title>
-      <link>https://pothix.com/hack2010/</link>
+      <link>https://pothix.com/posts/hack2010/</link>
       <pubDate>Mon, 29 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/hack2010/</guid>
+      <guid>https://pothix.com/posts/hack2010/</guid>
       <description>Para quem ainda não soube, no final de semana passado rolou o Yahoo Open Hack Day 2010! O intuito do evento é juntar uma grande quantidade de Hackers para criar serviços úteis utilizando informações públicas e de preferência utilizar as API&amp;rsquo;s do Yahoo (havia premios para alguns hacks com elas).
 Uma das coisas legais do evento é que nada é proibido com relação aos Hacks, ou seja, você pode fazer um Hack com as ferramentas do Google (não vai concorrer aos premios, mas poderá apresentar lá e tudo mais), todas as linguagens de programação estão permitidas, não somente hacks web eram permitidos, o que deixou a criatividade ir longe.</description>
     </item>
     
-    
-    
     <item>
       <title>Campus Party 2010</title>
-      <link>https://pothix.com/campusparty2010/</link>
+      <link>https://pothix.com/posts/campusparty2010/</link>
       <pubDate>Tue, 02 Feb 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/campusparty2010/</guid>
+      <guid>https://pothix.com/posts/campusparty2010/</guid>
       <description>Esse começo de ano eu estou aproveitando para participar de alguns eventos, e a Campus Party é um dos principais deles. Assim que eu entrei na empresa que eu estou trabalhando atualmente eu já informei que em janeiro tinha um evento que eu gostaria muito de participar (entrei na empresa em abril :P) e deixei combinado que eu estaria liberado para o tal, portanto agora consegui uma semana de férias para aproveitar a campus party!</description>
     </item>
     
-    
-    
     <item>
       <title>Show do Metallica</title>
-      <link>https://pothix.com/metallica2010/</link>
+      <link>https://pothix.com/posts/metallica2010/</link>
       <pubDate>Tue, 02 Feb 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/metallica2010/</guid>
+      <guid>https://pothix.com/posts/metallica2010/</guid>
       <description>E vou para um assunto meio OFF no meu blog (ou não), que é falar de shows que vou, nesse caso o do Metallica!
 Há muito tempo queria que o Metallica viesse para o Brasil, e no ano passado que tiveram vários shows bons (ACDC, Motorhead, Megadeth, Iron Maiden e etc) fiquei sabendo que eles viriam ao Brasil e já antecipei a compra do ingresso com a ajuda do meu amigo Bruno Assis que é cliente do CityBank.</description>
     </item>
     
-    
-    
     <item>
       <title>Dev In Sampa</title>
-      <link>https://pothix.com/devinsampa/</link>
+      <link>https://pothix.com/posts/devinsampa/</link>
       <pubDate>Wed, 02 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/devinsampa/</guid>
+      <guid>https://pothix.com/posts/devinsampa/</guid>
       <description>Nesse sábado, dia 28/11/2009 aconteceu aqui em São Paulo (obviamente! :P ) o Dev In Sampa! Um evento para desenvolvedores em geral, sem foco em uma determinada linguagem de programação, ou seja, um evento bem legal e pragmatico! :D
 Perdi um pouco a hora, portanto não assisti o começo da palestra do José Valim, que por sinal é um assunto que muito me interessa, portanto recorri aos vídeos do @agaelebe para assistir o comecinho.</description>
     </item>
     
-    
-    
     <item>
       <title>Show do ACDC</title>
-      <link>https://pothix.com/acdc2009/</link>
+      <link>https://pothix.com/posts/acdc2009/</link>
       <pubDate>Tue, 01 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/acdc2009/</guid>
+      <guid>https://pothix.com/posts/acdc2009/</guid>
       <description>Como muitos sabem eu tive o prazer de estar no show do ACDC aqui no Brasil, que aconteceu no dia 27 de novembro de 2009.
 Eu não queria perder esse show por nada, por vários motivos, sendo 2 deles:
  Eu curto pra caramba ACDC Os caras já estão bem velhinhos! Assim como o Ozzy que eu fui e já pensava que podia ser a ultima vez :P  O show foi no estádio do Morumbi:</description>
     </item>
     
-    
-    
     <item>
       <title>Rails Summit 2009</title>
-      <link>https://pothix.com/railssummit2009/</link>
+      <link>https://pothix.com/posts/railssummit2009/</link>
       <pubDate>Mon, 19 Oct 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/railssummit2009/</guid>
+      <guid>https://pothix.com/posts/railssummit2009/</guid>
       <description>Esse é um post para relatar como foi o Rails Summit Latin America desse ano! 😀 Já começo o post com um grande #win para a organização do #railssummit, por que eles tem tomadas para todos e wi-fi liberado para todos os participantes, o que ajuda para que pessoas como eu possam ficar postando no blog durante o evento, :) Vamos ao evento!
 Rails Insurgency – Chad Fowler A palestra foi muito interessante e o Chad Fowler falou sobre como é a dificuldade de implantar uma aplicação Rails em uma grande empresa quando você tem grandes gerentes que te enchem de perguntas do tipo: “Rails faz X?</description>
     </item>
     
-    
-    
     <item>
       <title>Encontro de numero 5 do Guru-sp</title>
-      <link>https://pothix.com/gurusp-meetup5/</link>
+      <link>https://pothix.com/posts/gurusp-meetup5/</link>
       <pubDate>Tue, 21 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/gurusp-meetup5/</guid>
+      <guid>https://pothix.com/posts/gurusp-meetup5/</guid>
       <description>Nesse sábado aconteceu o quinto encontro do Guru-sp! :)
 O encontro estava marcado para as 10 da manhã com uma seção para iniciantes e começou as 10:30 ( sempre atrasa um pouquinho né? hehe ), já com um bate papo legal coordenado pelo @rafaelrosafu após uma breve apresentação de todos os participantes.
 Rails para iniciantes Nessa primeira seção tiveram muitas conversas interessantes sobre algumas filosofias Rails, como:
  DRY REST TDD Test all the Fucking Time Skynny Controllers and Fat Models  e mais algumas outras coisas bem interessantes que fomentaram uma ótima discussão sobre quais os melhores padrões para se seguir quando se constrói uma aplicação Rails (sim, falamos tomando como base uma aplicação Rails), como utilizar plugins como o ResourceController (que tem seus prós e contras), manter seus scripts num lugar diferente da pasta scripts, que é a pasta padrão para scripts &amp;ldquo;internos&amp;rdquo; do Rails e tentar centralizar em uma pasta dentro de lib, além de usar Rake sempre que possível para essas tarefas ficarem organizadas e de fácil acesso.</description>
     </item>
     
-    
-    
     <item>
       <title>Encontro de Design e Tecnologia Digital</title>
-      <link>https://pothix.com/encontro-designtec/</link>
+      <link>https://pothix.com/posts/encontro-designtec/</link>
       <pubDate>Sun, 26 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/encontro-designtec/</guid>
+      <guid>https://pothix.com/posts/encontro-designtec/</guid>
       <description>Participei nesse sábado do EDTED (Encontro de Design e Tecnologia Digital), e vou postar as minhas impressões sobre o evento, focando as palestras que assisti:
 CMS’s livres: não reinventado a roda no desenvolvimento web A palestra foi conduzida por Paulino Michelazzo da Fábrica Livre, e foi uma palestra interessante!
 O palestrante soube levar bem a palestra, com momentos engraçados ( várias brincadeiras com Java e Windows, que obviamente não devem ser levadas a sério ), e apresentando como é fácil criar uma loja virtual utilizando o Joomla.</description>
     </item>
     
-    
-    
     <item>
       <title>Translated Rubylearning presentation</title>
-      <link>https://pothix.com/rubylearning-presentation/</link>
+      <link>https://pothix.com/posts/rubylearning-presentation/</link>
       <pubDate>Fri, 10 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/rubylearning-presentation/</guid>
+      <guid>https://pothix.com/posts/rubylearning-presentation/</guid>
       <description>As I promised, here goes my presentation! :)
 Finally i finished to translate all the presentation! Watched the video a lot of times, pausing and playing to write all I said translating to english. :)
 Fortunately I had a big help from my friend Victor Goff, that corrected all my grammar errors and typos.
 I&amp;rsquo;m posting below all i have about the presentation, slides from Slideshare and a translation pasted here, but you can find the translation at Google Docs too.</description>
     </item>
     
-    
-    
     <item>
       <title>Ruby e Rails no mundo real</title>
-      <link>https://pothix.com/rrails-mundoreal-overview/</link>
+      <link>https://pothix.com/posts/rrails-mundoreal-overview/</link>
       <pubDate>Tue, 07 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/rrails-mundoreal-overview/</guid>
+      <guid>https://pothix.com/posts/rrails-mundoreal-overview/</guid>
       <description>Como muitos leitores do Blog sabem, eu palestrei no Evento &amp;ldquo;Ruby e Rails no mundo real&amp;rdquo;, e vou fazer um pequeno overview desse evento que eu havia divulgado aqui no blog:
 O evento foi bem interessante, bem alem do que nós havíamos planejado nas primeiras conversas do primeiro encontro do GURU-SP, e atendeu bastante as nossas expectativas por ser o primeiro. Obviamente cometemos alguns erros que vamos melhorar no próximo, como garantir que tenha Wi-Fi por exemplo!</description>
     </item>
     
-    
-    
     <item>
       <title>Show do Iron Maiden</title>
-      <link>https://pothix.com/ironmaiden2009/</link>
+      <link>https://pothix.com/posts/ironmaiden2009/</link>
       <pubDate>Tue, 17 Mar 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/ironmaiden2009/</guid>
+      <guid>https://pothix.com/posts/ironmaiden2009/</guid>
       <description>Fui ao show do Iron maiden nesse domingo dia 15/03 e resolvi postar as minhas considerações.
 O show do Iron Maiden em si foi muito legal! Tocaram muitos clássicos como:
  Fear of the dark ( der&amp;hellip; ) Wasted Years Aces High The rime of ancient mariner Phanton of the Opera Hallowed be the name 666 the number of the beast The trooper  entre outras!
 A abertura com o discurso de Winston Churchill e já entrando com Aces High foi muito legal!</description>
     </item>
     
-    
-    
     <item>
       <title>Ruby e Rails no mundo real</title>
-      <link>https://pothix.com/rrails-mundoreal/</link>
+      <link>https://pothix.com/posts/rrails-mundoreal/</link>
       <pubDate>Fri, 06 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/rrails-mundoreal/</guid>
+      <guid>https://pothix.com/posts/rrails-mundoreal/</guid>
       <description>Pessoal, hoje o meu post é para comentar sobre o evento do Guru-sp (Grupo de usuário Ruby de São Paulo), cujo fui um dos fundadores e participo até hoje (quem vê pensa que faz bastante tempo&amp;hellip; Apenas uns 4 meses haha).
 O evento já tem site oficial e está com as inscrições abertas!
 Pelo que estamos fazendo o evento tende a ser grande, com auditório para cerca de 200 pessoas, com direito a crachá, apostila, Coffee break e etc.</description>
     </item>
     
-    
-    
     <item>
       <title>Campus Party 2009</title>
-      <link>https://pothix.com/campusparty2009/</link>
+      <link>https://pothix.com/posts/campusparty2009/</link>
       <pubDate>Mon, 26 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/campusparty2009/</guid>
+      <guid>https://pothix.com/posts/campusparty2009/</guid>
       <description>Como sabem eu estive na Campus Party nessa ultima semana, e consegui aproveitar bastante do evento, apesar do monte de coisas que estão acontecendo na minha vida e a correria toda de trabalho, curso e outras coisas.
 Segue um pequeno resumo do que pude ver por lá:
 Segunda-feira dia 19/01/2009 Cheguei no evento mais ou menos as 15:00 e consegui entrar rapidinho&amp;hellip; Já armei a minha barraca (vide fotos) e deixei algumas coisas por lá para não ficar carregando, e fui conectar na internet que ainda estava bem precária que só funcionava em algumas mesas.</description>
     </item>
     
-    
-    
     <item>
       <title>Rails Summit Latin America (Day 2)</title>
-      <link>https://pothix.com/railssummit-day2/</link>
+      <link>https://pothix.com/posts/railssummit-day2/</link>
       <pubDate>Wed, 22 Oct 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/railssummit-day2/</guid>
+      <guid>https://pothix.com/posts/railssummit-day2/</guid>
       <description>Para quem não viu o meu post sobre o primeiro dia da Rails Summit, veja aqui! ;) E agora vamos ao segundo post sobre a Rails Summit! :)
 Começamos o segundo dia de Rails Summit as 8:00, e logo no começo do dia tivemos alguns probleminhas técnicos com energia elétrica que logo foi contornado com um gerador ( esse evento escala! ). Tivemos a abertura do dia com o Fabio akita comentando sobre as palestras e dando recados gerais.</description>
     </item>
-    
     
   </channel>
 </rss>

@@ -9,21 +9,19 @@
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Mon, 03 Oct 2016 00:00:00 +0000</lastBuildDate>
     
-    <atom:link href="https://pothix.com/tags/desconstruindo-a-web/index.xml" rel="self" type="application/rss+xml" />
-    
+	<atom:link href="https://pothix.com/tags/desconstruindo-a-web/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Escrevendo o Desconstruindo a web</title>
-      <link>https://pothix.com/desconstruindoaweb/</link>
+      <link>https://pothix.com/posts/desconstruindoaweb/</link>
       <pubDate>Mon, 03 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/desconstruindoaweb/</guid>
+      <guid>https://pothix.com/posts/desconstruindoaweb/</guid>
       <description>TL;DR: Escrevi um livro em 315 horas, geralmente aos fins de semana durante 2 ou 3 horas consecutivas. O processo completo durou 8 meses e foi lançado oficialmente na Rubyconfbr2016.
 Como muitos já sabem, eu lancei um livro chamado Desconstruindo a web pela Casa do Código.
 Eu sou meio maluco (retardado, segundo o George Guimarães) por produtividade e organização pessoal e resolvi escrever sobre como foi o processo e mostrar todas as métricas que eu coletei.</description>
     </item>
-    
     
   </channel>
 </rss>

@@ -9,8 +9,7 @@
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Thu, 23 Jul 2020 09:48:21 -0300</lastBuildDate>
     
-    <atom:link href="https://pothix.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+	<atom:link href="https://pothix.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,8 +21,6 @@
       <description></description>
     </item>
     
-    
-    
     <item>
       <title>keyboards</title>
       <link>https://pothix.com/tags/keyboards/</link>
@@ -32,8 +29,6 @@
       <guid>https://pothix.com/tags/keyboards/</guid>
       <description></description>
     </item>
-    
-    
     
     <item>
       <title>tech</title>
@@ -44,8 +39,6 @@
       <description></description>
     </item>
     
-    
-    
     <item>
       <title>personal</title>
       <link>https://pothix.com/tags/personal/</link>
@@ -54,8 +47,6 @@
       <guid>https://pothix.com/tags/personal/</guid>
       <description></description>
     </item>
-    
-    
     
     <item>
       <title>stats</title>
@@ -66,8 +57,6 @@
       <description></description>
     </item>
     
-    
-    
     <item>
       <title>productivity</title>
       <link>https://pothix.com/tags/productivity/</link>
@@ -76,8 +65,6 @@
       <guid>https://pothix.com/tags/productivity/</guid>
       <description></description>
     </item>
-    
-    
     
     <item>
       <title>events</title>
@@ -88,8 +75,6 @@
       <description></description>
     </item>
     
-    
-    
     <item>
       <title>tips</title>
       <link>https://pothix.com/tags/tips/</link>
@@ -98,8 +83,6 @@
       <guid>https://pothix.com/tags/tips/</guid>
       <description></description>
     </item>
-    
-    
     
     <item>
       <title>career</title>
@@ -110,8 +93,6 @@
       <description></description>
     </item>
     
-    
-    
     <item>
       <title>speaking</title>
       <link>https://pothix.com/tags/speaking/</link>
@@ -120,8 +101,6 @@
       <guid>https://pothix.com/tags/speaking/</guid>
       <description></description>
     </item>
-    
-    
     
     <item>
       <title>desconstruindo-a-web</title>
@@ -132,8 +111,6 @@
       <description></description>
     </item>
     
-    
-    
     <item>
       <title>books</title>
       <link>https://pothix.com/tags/books/</link>
@@ -142,8 +119,6 @@
       <guid>https://pothix.com/tags/books/</guid>
       <description></description>
     </item>
-    
-    
     
     <item>
       <title>python</title>
@@ -154,8 +129,6 @@
       <description></description>
     </item>
     
-    
-    
     <item>
       <title>ruby</title>
       <link>https://pothix.com/tags/ruby/</link>
@@ -164,8 +137,6 @@
       <guid>https://pothix.com/tags/ruby/</guid>
       <description></description>
     </item>
-    
-    
     
     <item>
       <title>golang</title>
@@ -176,8 +147,6 @@
       <description></description>
     </item>
     
-    
-    
     <item>
       <title>motorcycle</title>
       <link>https://pothix.com/tags/motorcycle/</link>
@@ -186,8 +155,6 @@
       <guid>https://pothix.com/tags/motorcycle/</guid>
       <description></description>
     </item>
-    
-    
     
     <item>
       <title>gamedev</title>
@@ -198,8 +165,6 @@
       <description></description>
     </item>
     
-    
-    
     <item>
       <title>games</title>
       <link>https://pothix.com/tags/games/</link>
@@ -208,8 +173,6 @@
       <guid>https://pothix.com/tags/games/</guid>
       <description></description>
     </item>
-    
-    
     
     <item>
       <title>linux</title>
@@ -220,8 +183,6 @@
       <description></description>
     </item>
     
-    
-    
     <item>
       <title>android</title>
       <link>https://pothix.com/tags/android/</link>
@@ -230,8 +191,6 @@
       <guid>https://pothix.com/tags/android/</guid>
       <description></description>
     </item>
-    
-    
     
     <item>
       <title>services</title>
@@ -242,8 +201,6 @@
       <description></description>
     </item>
     
-    
-    
     <item>
       <title>vim</title>
       <link>https://pothix.com/tags/vim/</link>
@@ -252,7 +209,6 @@
       <guid>https://pothix.com/tags/vim/</guid>
       <description></description>
     </item>
-    
     
   </channel>
 </rss>

@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="TL;DR: Escrevi um livro em 315 horas, geralmente aos fins de semana durante 2 ou 3 horas consecutivas. O processo completo durou 8 meses e foi lançado oficialmente na Rubyconfbr2016.
+Como muitos já sabem, eu lancei um livro chamado Desconstruindo a web pela Casa do Código.
+Eu sou meio maluco (retardado, segundo o George Guimarães) por produtividade e organização pessoal e resolvi escrever sobre como foi o processo e mostrar todas as métricas que eu coletei." />
+<meta name="keywords" content="Programming, Linux, Desconstruindo a web, Ruby, Elixir, Golang, Guru-SP, Rust, Productivity, desconstruindo-a-web" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://pothix.com/posts/desconstruindoaweb/" />
+
+
+    <title>
+        
+            Escrevendo o Desconstruindo a web :: PotHix  — The personal website for Willian Molinari, also known as PotHix
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.f1e6072a14a5c4102143cf40cb0c8826b5f8f5c43f4d3e1b7f2ab7215498f372.css">
+
+
+
+
+
+
+<meta itemprop="name" content="Escrevendo o Desconstruindo a web">
+<meta itemprop="description" content="TL;DR: Escrevi um livro em 315 horas, geralmente aos fins de semana durante 2 ou 3 horas consecutivas. O processo completo durou 8 meses e foi lançado oficialmente na Rubyconfbr2016.
+Como muitos já sabem, eu lancei um livro chamado Desconstruindo a web pela Casa do Código.
+Eu sou meio maluco (retardado, segundo o George Guimarães) por produtividade e organização pessoal e resolvi escrever sobre como foi o processo e mostrar todas as métricas que eu coletei.">
+<meta itemprop="datePublished" content="2016-10-03T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2016-10-03T00:00:00+00:00" />
+<meta itemprop="wordCount" content="1940">
+<meta itemprop="image" content="https://pothix.com"/>
+
+
+
+<meta itemprop="keywords" content="desconstruindo-a-web," />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://pothix.com"/>
+
+<meta name="twitter:title" content="Escrevendo o Desconstruindo a web"/>
+<meta name="twitter:description" content="TL;DR: Escrevi um livro em 315 horas, geralmente aos fins de semana durante 2 ou 3 horas consecutivas. O processo completo durou 8 meses e foi lançado oficialmente na Rubyconfbr2016.
+Como muitos já sabem, eu lancei um livro chamado Desconstruindo a web pela Casa do Código.
+Eu sou meio maluco (retardado, segundo o George Guimarães) por produtividade e organização pessoal e resolvi escrever sobre como foi o processo e mostrar todas as métricas que eu coletei."/>
+
+
+
+    <meta property="og:title" content="Escrevendo o Desconstruindo a web" />
+<meta property="og:description" content="TL;DR: Escrevi um livro em 315 horas, geralmente aos fins de semana durante 2 ou 3 horas consecutivas. O processo completo durou 8 meses e foi lançado oficialmente na Rubyconfbr2016.
+Como muitos já sabem, eu lancei um livro chamado Desconstruindo a web pela Casa do Código.
+Eu sou meio maluco (retardado, segundo o George Guimarães) por produtividade e organização pessoal e resolvi escrever sobre como foi o processo e mostrar todas as métricas que eu coletei." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://pothix.com/posts/desconstruindoaweb/" />
+<meta property="og:image" content="https://pothix.com"/>
+<meta property="article:published_time" content="2016-10-03T00:00:00+00:00" />
+<meta property="article:modified_time" content="2016-10-03T00:00:00+00:00" /><meta property="og:site_name" content="PotHix" />
+
+
+
+
+
+
+    <meta property="article:published_time" content="2016-10-03 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <img src="/images/pothix-logo.svg" alt="A drawing that represents myself, portrait, black and white" />
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://pothix.com/about">About</a></li><li><a href="https://pothix.com/book">Book</a></li><li><a href="https://pothix.com/code">Code</a></li><li><a href="https://pothix.com/now">Now</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+  <main class="post">
+
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        10 minutes reading
+
+        |
+
+        
+            
+                Also available in
+                <a href="https://translate.google.com/translate?sl=pt&amp;tl=en&amp;u=https%3a%2f%2fpothix.com%2fposts%2fdesconstruindoaweb%2f" target="_blank" rel="nofollow noopener noreferrer"><span class="flag flag-icon flag-icon-us flag-icon-squared"></span></a>
+            
+        
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="https://pothix.com/posts/desconstruindoaweb/">Escrevendo o Desconstruindo a web</a>
+      </h1>
+
+      
+
+      <div class="post-content">
+        <p><strong>TL;DR</strong>: Escrevi um livro em 315 horas, geralmente aos fins de semana durante
+2 ou 3 horas consecutivas. O processo completo durou 8 meses e foi lançado
+oficialmente na Rubyconfbr2016.</p>
+<p>Como muitos já sabem, eu lancei um livro chamado
+<a href="https://desconstruindoaweb.com.br">Desconstruindo a web</a> pela
+<a href="https://www.casadocodigo.com.br/products/livro-desconstruindo-web">Casa do Código</a>.</p>
+<p>Eu sou meio maluco (retardado, segundo o
+<a href="https://twitter.com/georgeguimaraes">George Guimarães</a>) por produtividade e
+organização pessoal e resolvi escrever sobre como foi o processo e mostrar todas
+as métricas que eu coletei.</p>
+<h3 id="como-começou">Como começou</h3>
+<p>Há muito tempo atrás, por volta de 2010, eu participei do
+<a href="http://devinsampa.com.br/">DevInSampa</a>. Esse era um evento muito legal que não
+era focado em uma tecnologia específica e tinha como única finalidade trazer
+vários assuntos legais da área de desenvolvimento.</p>
+<p>Nessa época, eu pensei em fazer uma palestra que mostrasse tudo que está
+acontecendo no computador enquanto você acessa uma aplicação. Quando comecei a
+fazer um documento sobre isso, percebi que eu teria <strong>muito</strong> trabalho pela
+frente e comecei a procrastinação. Fiquei bastante tempo nesse estado&hellip; Demorei
+tanto que o DevInSampa morreu no meio do caminho. :(</p>
+<p>A procrastinação durou até o meio do ano de 2015, quando o
+<a href="https://twitter.com/brunoadacosta">Bruno Costa</a> me chamou para
+palestrar no <a href="http://www.devinsantos.com.br/">DevInSantos</a>! Até o nome
+do evento era parecido, era uma segunda chance para fazer a palestra
+perdida.</p>
+<p>Após aceitar o convite e dar um tema aleatório, eu comecei a fazer as pesquisas
+sobre o que eu poderia falar. Essa pesquisa me levou a conclusão que mostrar
+tudo que acontece em uma requisição web seria uma boa ideia. Depois de pensar um
+pouco, o melhor tema que eu consegui foi &ldquo;<strong>Desconstruindo a web</strong>&rdquo;.</p>
+<p>Depois de algumas semanas fazendo os slides e pouco mais de 40 horas de
+pesquisa, eu finalmente terminei os slides da apresentação. Ao terminar, percebi
+que havia muito conteúdo para uma palestra de 50 minutos. Eu que sempre preferi
+que as palestras tivessem apenas 30 minutos, agora estava reclamando que o tempo
+não era o suficiente para o conteúdo. Isso me fez pensar que talvez essa não
+fosse a mídia correta para expor todo esse conteúdo.</p>
+<p>Fiz a palestra e a recepção foi boa, mesmo com a velocidade alta que eu tive que
+falar para terminar a palestra a tempo. Apesar disso, saí do evento convicto que
+eu precisava de outra mídia para passar tudo que eu tinha estudado. E foi aí que
+uma velha ideia voltou para a minha cabeça: &ldquo;E se eu escrever um livro?&rdquo;</p>
+<h3 id="a-ideia">A ideia</h3>
+<p>Escrever um livro é um objetivo de vida para mim, portanto eu sempre estava
+pensando em como atingi-lo. Uma das ideias era escrever um livro de fantasia
+usando <a href="https://en.wikipedia.org/wiki/Self-publishing">self-publishing</a> em algum
+momento da vida, mas depois de ver a quantidade de conteúdo que a palestra
+gerou, surgiram algumas ideias. O conteúdo já estava estruturado e eu já tinha
+ideia de quase tudo que queria mostrar, bastava colocar em palavras e imagens.</p>
+<p>Consegui entrar em contato com o
+<a href="https://twitter.com/adrianoalmeida7">Adriano Almeida</a> da casa do código por
+indicação do meu amigo <a href="https://twitter.com/vinibaggio">Vinicius Baggio</a> e
+apresentei o material que eu já tinha e as ideias para o que ele poderia
+ser. Ele gostou do material e me passou as condições para continuar o trabalho.</p>
+<h3 id="a-preparação">A preparação</h3>
+<p>Nessa época eu estava começando a trabalhar em um projeto freelancer para uma
+empresa de fora do Brasil, além do meu trabalho em tempo integral para a
+<a href="http://locaweb.com.br">Locaweb</a>. Eu precisaria organizar o meu tempo para
+trabalhar no livro, além de manter essas atividades.</p>
+<p>O único tempo que eu tinha eram algumas horas durante o fim de semana. Com isso,
+para trabalhar nesse projeto eu precisaria alinhar com a minha esposa e saber se
+ela estava comigo nesse meu novo projeto. Depois de combinar com as partes
+envolvidas e fazer o meu planejamento, era hora de começar!</p>
+<h3 id="o-processo-de-escrita">O processo de escrita</h3>
+<p>Comecei a trabalhar no livro logo no começo do ano, sendo que a
+primeira versão do prefácio foi escrita no dia <strong>9 de Janeiro</strong>. Eu
+mantive uma planilha no <a href="https://docs.google.com">Google Docs</a> para
+contabilizar todas as horas que eu trabalhasse nele. Lá eu também
+registrei o que eu estava fazendo durante as horas que eu estava
+trabalhando.</p>
+<p>A planilha era uma forma bem simples de eu guardar um log do que eu
+estava fazendo. Simples assim:</p>
+<p><img src="/images/posts/escrevendo-o-desconstruindo-a-web/planilha.png" alt="Planilha simples de controle de horas"></p>
+<p>O último dia de trabalho registrado na planilha é <strong>14 de Agosto de 2016</strong>, que
+é o dia que eu considero terminados todos os trabalhos relacionados ao livro.</p>
+<p>Por ter essa planilha, eu consigo fazer alguns gráficos interessantes. A partir
+de agora, vou utilizar os dados que eu extraí de lá para mostrar mais sobre o
+processo de escrita.</p>
+<h4 id="dias-trabalhados">Dias trabalhados</h4>
+<p><img src="/images/posts/escrevendo-o-desconstruindo-a-web/quando-trabalhei-mais.png" alt="Quando trabalhei mais"></p>
+<p>A maior parte do tempo que eu escrevi foi nos finais de semana, que
+somam 50% do trabalho no livro. Minha ideia era trabalhar cerca de 3
+horas consecutivas no livro. Essa quantidade de horas é o máximo que
+eu consigo trabalhar em total concentração.</p>
+<p>Eu sempre busquei ambientes livres de distração, mas depois de ler o
+<a href="https://www.goodreads.com/book/show/25744928-deep-work">Deep Work</a> (que eu
+recomendo para todos!) eu melhorei ainda mais a minha forma de trabalhar.</p>
+<p>Sempre que começava a trabalhar, eu avisava a minha esposa que eu ficaria
+incomunicável por algumas horas. Durante as próximas 2-3 horas, não haiva
+comunicador, e-mail, celular ou qualquer outra coisa que pudesse tirar a minha
+atenção.</p>
+<p>Eu tenho uma <em>playlist</em> no <a href="https://play.google.com/music">Google Music</a> só com
+músicas que me ajudam na concentração. Quando não estava usando essa <em>playlist</em>,
+eu usava apenas barulho de chuva com o site
+<a href="http://rain.today/">rain.today</a>. Quem me conhece sabe que eu não sou de comprar
+fones de ouvido caros, portanto eu tenho um fone vagabundo e uso sons desse tipo
+para me isolar do ambiente.</p>
+<h4 id="horários-que-eu-trabalhava">Horários que eu trabalhava</h4>
+<p><img src="/images/posts/escrevendo-o-desconstruindo-a-web/horario-de-trabalho.png" alt="Horário de trabalho"></p>
+<p>O horário que eu mais iniciei foi as 18 horas. Geralmente aos domingos, era o
+momento que eu já tinha aproveitado uma boa parte do dia com a minha esposa e
+trabalhava até começar o episódio de Game of Thrones na HBO. :D</p>
+<p>Mas tem início em quase todas as horas do dia.</p>
+<h4 id="horas-por-dia">Horas por dia</h4>
+<p><img src="/images/posts/escrevendo-o-desconstruindo-a-web/horas-por-dia.png" alt="Horas por dia"></p>
+<p>Esse gráfico foi um pouco assustador para mim. Durante o feriado de Corpus
+Christi, que aconteceu no dia 26 de Maio, eu estava sozinho em casa e aproveitei
+para trabalhar no livro. Em um dos dias desse &ldquo;feriado prolongado&rdquo; eu trabalhei
+12 horas no livro, que está representado como aquele ponto entre 26 de Maio e 12
+de Junho.</p>
+<p>Durante essas datas, eu só sai de casa umas 2 vezes para comprar comida, o resto
+do tempo foi pesquisando e escrevendo. Eu não tinha nenhum deadline, apenas a
+vontade de pesquisar e escrever. Isso me fez pensar que eu tenho sorte de ser
+casado, porque senão eu seria mais maluco que o normal.</p>
+<h4 id="horas-por-mês">Horas por mês</h4>
+<p><img src="/images/posts/escrevendo-o-desconstruindo-a-web/horas-por-mes.png" alt="Horas por mês"></p>
+<p>Eu estava bem curioso para saber como foi a distribuição de horas durante os
+meses. Como eu esperava, o mês de Julho tem uma grande quantidade de horas. Isso
+aconteceu porque eu decidi mandar para a Rubyconf a palestra que inspirou o
+livro, e ela foi aceita. Esse fato colocou um <em>deadline</em> no livro. :)</p>
+<p>Após conversar com a <a href="https://casadocodigo.com.br">Casa do código</a>, combinamos
+que eu precisaria entregar o conteúdo até o dia <strong>7 de Agosto</strong> para que o livro
+ficasse pronto a tempo da conferência.</p>
+<p>Durante os fins de semana do mês de Julho eu trabalhei cerca de 14 horas por fim
+de semana escrevendo. Apesar de ser um pouco cansativo, eu estava bem feliz por
+estar trabalhando no projeto e não me desgastei muito.</p>
+<p>Como o prazo era relativamente apertado, eu decidi tirar horas na semana para
+fazer isso também. Com essa escolha, eu precisei negociar umas &ldquo;férias&rdquo; do
+projeto que trabalho como freelancer e que toma cerca de 2-3 horas diárias do
+meu tempo.</p>
+<h4 id="o-que-compõe-a-escrita-de-um-livro">O que compõe a escrita de um livro</h4>
+<p>Eu sempre tive curiosidade da quantidade de tempo que um escritor gasta nas
+atividades de escrever um livro e me usei como cobaia para entender um pouco.</p>
+<p><img src="/images/posts/escrevendo-o-desconstruindo-a-web/atividades.png" alt="Atividades"></p>
+<p>Escrever é só uma das atividades de um escritor, assim como digitar é só uma das
+atividades de um programador. Apenas <strong>42%</strong> do tempo foi gasto organizando as
+palavras e escrevendo da melhor maneira possível.</p>
+<p>O tempo de pesquisa está bem ligado com o tempo de escrita, consumindo <strong>12%</strong>
+do tempo total. Infelizmente eu não separei exatamente a quantidade de horas que
+eu gastei com pesquisa, portanto, é possível que parte do tempo considerado como
+escrita também seja pesquisa. Eu aprendi muito no processo! :)</p>
+<p>Eu decidi fazer todos os desenhos, o que tomou <strong>7%</strong> do tempo. Eu não sou muito
+bom com desenho, mas fiquei contente com o resultado final. Eu utilizei muito
+<a href="https://inkscape.org/en/">Inkscape</a> e um pouco de <a href="https://www.gimp.org/">GIMP</a>
+para trabalhar com as imagens do livro. Para a imagem do &ldquo;mapa&rdquo;, que é meio
+&ldquo;quem é esse Pokémon?&rdquo;, eu criei um script Python que usa
+<a href="https://www.cairographics.org/">Cairo</a> e <code>rsvg</code> para manipular os gráficos
+<a href="https://en.wikipedia.org/wiki/Scalable_Vector_Graphics">SVG</a> do Inkscape e
+gerar as imagens na sequência que eu esperava.</p>
+<p>Era importante criar um site para o livro, pois todo o estudo é baseado em uma
+URL. Por esse motivo eu gastei <strong>6%</strong> do tempo na criação dessa página. Não foi
+um processo complicado, mas eu queria que ficasse exatamente como eu esperava.</p>
+<p>Outra dúvida que eu tinha era sobre a reescrita de conteúdo e eu descobri que os
+primeiros capítulos geralmente são reescritos. Utilizei <strong>6%</strong> do meu tempo para
+reescrever os primeiros capítulos, que já não pareciam com a continuação do
+livro. Só é preciso saber a hora de parar, senão fica igual refactoring infinito
+de código.</p>
+<p>Revisão é uma parte importante do processo e consumiu <strong>25%</strong> do tempo total. Eu
+chamei 4 revisores técnicos competentes para me ajudar no processo (obrigado
+novamente <a href="http://milhouseonsoftware.com/">Milhouse</a>,
+<a href="https://www.broota.com.br/quem-somos">Daniel Sousa</a>,
+<a href="https://twitter.com/mateuslinhares">Mateus Linhares</a> e
+<a href="https://twitter.com/vinibaggio">Vinibaggio</a>) que sempre me davam suas opiniões
+sinceras sobre o conteúdo. Além disso eu contei também com uma revisora da casa
+do código, que acompanhou a escrita de cada capítulo e me dava dicas sobre a
+escrita e didática.</p>
+<p>Eu resolvi pegar uma semana de férias antes da entrega do livro para trabalhar
+nele em tempo integral. Ele já estava completo e durante essa uma semana eu
+trabalhei em revisão. Essa revisão não era igual as que foram feitas durante o
+processo de escrita e sim uma revisão geral para ver se o conteúdo não estava
+duplicado entre os capítulos e se estava sendo mostrado de uma forma coesa.</p>
+<h3 id="a-entrega">A entrega</h3>
+<p>Eu mantive o livro em segredo durante todo o processo de escrita. Apenas um
+grupo seleto de pessoas sabiam que eu estava escrevendo, para evitar
+expectativas. Minha meta era publicar o livro na Rubyconf no dia 23 de Setembro,
+no final da minha palestra.</p>
+<p>A casa do código colocou no site deles no começo do mês, mas não divulgaram em
+nenhum lugar. Alguns amigos descobriram e eu pedi para não divulgarem por
+enquanto. Ver o livro no site deles e não divulgar foi algo bem difícil, mas eu
+consegui me conter até o dia 23.</p>
+<p>Depois da minha palestra eu mostrei o livro e foi uma sensação fantástica
+mostrar para todos os amigos um trabalho que eu tanto me orgulho. Foram <strong>315
+horas</strong> e <strong>8 meses</strong> de trabalho que valeram a pena.</p>
+<h3 id="conclusão">Conclusão</h3>
+<p>Não escrevi esse livro com a finalidade de ganhar dinheiro. A primeira dica que
+um amigo me deu quando eu disse que ia escrever foi: &ldquo;Você sabe que
+financeiramente não compensa, né?&rdquo;.</p>
+<p>É sempre bom ter uma segunda renda para remunerar essas 315 horas investidas,
+mas não foi o principal motivador da minha escrita. Pode parecer bobo, mas eu
+escrevi esse livro por que eu <strong>realmente acredito</strong> que ele vai ser útil para
+as pessoas.</p>
+<p>Esse é o primeiro livro e provavelmente não será o último&hellip; Que venham os
+próximos! :)</p>
+
+      </div>
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+      
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://pothix.com/tags/desconstruindo-a-web/">desconstruindo-a-web</a></span>
+        
+    </p>
+
+      
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        1940 Words
+      </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        
+          2016-10-02
+        
+
+        
+          
+        
+      </p>
+    </div>
+      <hr />
+      <div class="sharing-buttons">
+        <span style="padding-top:17px">Share:</span> 
+<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fpothix.com%2fposts%2fdesconstruindoaweb%2f" target="_blank" rel="noopener" aria-label="" title="Share on facebook">
+  <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?url=https%3a%2f%2fpothix.com%2fposts%2fdesconstruindoaweb%2f" target="_blank" rel="noopener" aria-label="" title="Share on twitter">
+  <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small">
+      <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Escrevendo%20o%20Desconstruindo%20a%20web&amp;caption=Escrevendo%20o%20Desconstruindo%20a%20web&amp;canonicalUrl=https%3a%2f%2fpothix.com%2fposts%2fdesconstruindoaweb%2f" target="_blank" rel="noopener" aria-label="" title="Share on tumblr">
+  <div class="resp-sharing-button resp-sharing-button--tumblr resp-sharing-button--small">
+    <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.563 24c-5.093 0-7.031-3.756-7.031-6.411V9.747H5.116V6.648c3.63-1.313 4.512-4.596 4.71-6.469C9.84.051 9.941 0 9.999 0h3.517v6.114h4.801v3.633h-4.82v7.47c.016 1.001.375 2.371 2.207 2.371h.09c.631-.02 1.486-.205 1.936-.419l1.156 3.425c-.436.636-2.4 1.374-4.156 1.404h-.178l.011.002z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="mailto:?subject=Escrevendo%20o%20Desconstruindo%20a%20web&amp;body=https%3a%2f%2fpothix.com%2fposts%2fdesconstruindoaweb%2f" target="_self" rel="noopener" aria-label="" title="Share via email">
+  <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://pinterest.com/pin/create/button/?url=https%3a%2f%2fpothix.com%2fposts%2fdesconstruindoaweb%2f&amp;media=https%3a%2f%2fpothix.com%2fposts%2fdesconstruindoaweb%2f;description=Escrevendo%20o%20Desconstruindo%20a%20web" target="_blank" rel="noopener" aria-label="" title="Share on pinterest">
+  <div class="resp-sharing-button resp-sharing-button--pinterest resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fpothix.com%2fposts%2fdesconstruindoaweb%2f&amp;title=Escrevendo%20o%20Desconstruindo%20a%20web&amp;summary=Escrevendo%20o%20Desconstruindo%20a%20web&amp;source=https%3a%2f%2fpothix.com%2fposts%2fdesconstruindoaweb%2f" target="_blank" rel="noopener" aria-label="" title="Share on linkedin">
+  <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=https%3a%2f%2fpothix.com%2fposts%2fdesconstruindoaweb%2f&amp;resubmit=true&amp;title=Escrevendo%20o%20Desconstruindo%20a%20web" target="_blank" rel="noopener" aria-label="" title="Share on reddit">
+  <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.xing.com/app/user?op=share;url=https%3a%2f%2fpothix.com%2fposts%2fdesconstruindoaweb%2f;title=Escrevendo%20o%20Desconstruindo%20a%20web" target="_blank" rel="noopener" aria-label="" title="Share on xing">
+  <div class="resp-sharing-button resp-sharing-button--xing resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M18.188 0c-.517 0-.741.325-.927.66 0 0-7.455 13.224-7.702 13.657.015.024 4.919 9.023 4.919 9.023.17.308.436.66.967.66h3.454c.211 0 .375-.078.463-.22.089-.151.089-.346-.009-.536l-4.879-8.916c-.004-.006-.004-.016 0-.022L22.139.756c.095-.191.097-.387.006-.535C22.056.078 21.894 0 21.686 0h-3.498zM3.648 4.74c-.211 0-.385.074-.473.216-.09.149-.078.339.02.531l2.34 4.05c.004.01.004.016 0 .021L1.86 16.051c-.099.188-.093.381 0 .529.085.142.239.234.45.234h3.461c.518 0 .766-.348.945-.667l3.734-6.609-2.378-4.155c-.172-.315-.434-.659-.962-.659H3.648v.016z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="whatsapp://send?text=Escrevendo%20o%20Desconstruindo%20a%20web%20https%3a%2f%2fpothix.com%2fposts%2fdesconstruindoaweb%2f" target="_blank" rel="noopener" aria-label="" title="Share on whatsapp">
+  <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fpothix.com%2fposts%2fdesconstruindoaweb%2f&amp;t=Escrevendo%20o%20Desconstruindo%20a%20web" target="_blank" rel="noopener" aria-label="" title="Share on hacker news">
+  <div class="resp-sharing-button resp-sharing-button--hackernews resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M0 24V0h24v24H0zM6.951 5.896l4.112 7.708v5.064h1.583v-4.972l4.148-7.799h-1.749l-2.457 4.875c-.372.745-.688 1.434-.688 1.434s-.297-.708-.651-1.434L8.831 5.896h-1.88z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://telegram.me/share/url?text=Escrevendo%20o%20Desconstruindo%20a%20web&amp;url=https%3a%2f%2fpothix.com%2fposts%2fdesconstruindoaweb%2f" target="_blank" rel="noopener" aria-label="" title="Share on telegram">
+  <div class="resp-sharing-button resp-sharing-button--telegram resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+    </div>
+  </div>
+</a>
+
+      </div>
+
+    
+
+
+    
+      
+        <div id="comments">
+          <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "pothixcom" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+      
+    
+
+  </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+            
+                <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            
+            <span> <a href="https://pothix.com/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Made with &#10084; by <a href="https://github.com/rhazdon">Djordje Atlialp</a></span>
+            <span>Customized by <a href="https://pothix.com">PotHix</a></span>
+          </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.ac9cf4e1cba514d4b8d26425170f15199b3e3149e754c3111c53550a89316d9db58d05cc8a1507b6c9d8e2d9bcd980f8dd512231c6d62bfaf1680c32cbce0bbc.js" integrity="sha512-rJz04culFNS40mQlFw8VGZs&#43;MUnnVMMRHFNVCokxbZ21jQXMihUHtsnY4tm82YD43VEiMcbWK/rxaAwyy84LvA=="></script>
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-2852094-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+    </body>
+</html>

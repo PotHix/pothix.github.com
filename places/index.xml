@@ -9,10 +9,18 @@
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Mon, 25 Mar 2019 08:45:26 -0300</lastBuildDate>
     
-    <atom:link href="https://pothix.com/places/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pothix.com/places/index.xml" rel="self" type="application/rss+xml" />
     
     
-    
+    <item>
+      <title>NYC</title>
+      <link>https://pothix.com/places/nyc/</link>
+      <pubDate>Mon, 25 Mar 2019 08:45:26 -0300</pubDate>
+      
+      <guid>https://pothix.com/places/nyc/</guid>
+      <description>I had to chance to go to travel to NYC more than once. The first time I came there alone and the second one I went with my wife and both trips were good.
+Airport I always try to go to JFK because it&amp;rsquo;s the biggest and simplest airport to use. The airport is really big and they have a train called Airtrain, that can be used to go from one terminal to another and also connects to the Subway.</description>
+    </item>
     
   </channel>
 </rss>

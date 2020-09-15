@@ -9,33 +9,29 @@
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Mon, 29 Mar 2010 00:00:00 +0000</lastBuildDate>
     
-    <atom:link href="https://pothix.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
-    
+	<atom:link href="https://pothix.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Palestra sobre Vim</title>
-      <link>https://pothix.com/palestra-vim/</link>
+      <link>https://pothix.com/posts/palestra-vim/</link>
       <pubDate>Mon, 29 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/palestra-vim/</guid>
+      <guid>https://pothix.com/posts/palestra-vim/</guid>
       <description>Esse vai ser um post curto, apenas para deixar registrado algumas informações sobre a palestra de Vim que teve no sétimo encontro do Guru-sp (sim, eu fui o palestrante :D).
 Primeiramente, já começo com uma desculpa, por que já faz mais de 2 semanas que palestrei e só agora estou fazendo esse post. :(
 Foi bem legal palestrar para uma galera que já conhecia ao menos um pouco do editor. Quando eu estava planejando o que eu ia falar eu fiquei com uma grande dúvida de qual seria a minha linha de apresentação, por que eu não sabia quantos já conheciam o editor, portanto eu poderia chegar falando de coisas avançadas e ninguem entenderia nada, ou pelo contrário, se muitos conhecessem e eu chegasse falando de coisas básicas demais a palestra seria um saco.</description>
     </item>
     
-    
-    
     <item>
       <title>Um pouco sobre o Vim</title>
-      <link>https://pothix.com/vim/</link>
+      <link>https://pothix.com/posts/vim/</link>
       <pubDate>Fri, 14 Aug 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/vim/</guid>
+      <guid>https://pothix.com/posts/vim/</guid>
       <description>Aqui começa uma série de artigos sobre por que eu gosto de usar o VIM para programar.
 Uma das primeiras coisas que eu gostaria de comentar é sobre a quebra de paradigma que você deve ter quando começa a usar um editor como o vim que tem vários modos de operação, ou seja, não é mais apenas digitar, pois cada modo de operação tem o seu modo de agir. Os modos de operação são os seguintes:</description>
     </item>
-    
     
   </channel>
 </rss>
