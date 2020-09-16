@@ -14,15 +14,15 @@
         {{ if .IsTranslated }}
             {{ i18n "postAvailable" }}
             {{ range .Translations }}
-                <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
+                <a href="{{ .Permalink }}">{{ index $.Site.Data.langFlags (.Lang) }}</a>
             {{ end}}
         {{ else }}
             {{ if in .Params.tags "english" }}
                 Também disponível em
-                <a href="https://translate.google.com/translate?sl=en&amp;tl=pt&amp;u={{ .Permalink }}" target="_blank" rel="nofollow noopener noreferrer"><span class="flag flag-icon flag-icon-br flag-icon-squared"></span></a>
+                <a href="https://translate.google.com/translate?sl=en&amp;tl=pt&amp;u={{ .Permalink }}" target="_blank" rel="nofollow noopener noreferrer">🇧🇷</a>
             {{ else }}
                 {{ i18n "postAvailable" }}
-                <a href="https://translate.google.com/translate?sl=pt&amp;tl=en&amp;u={{ .Permalink }}" target="_blank" rel="nofollow noopener noreferrer"><span class="flag flag-icon flag-icon-us flag-icon-squared"></span></a>
+                <a href="https://translate.google.com/translate?sl=pt&amp;tl=en&amp;u={{ .Permalink }}" target="_blank" rel="nofollow noopener noreferrer">🇺🇸</a>
             {{ end }}
         {{ end }}
       </p>
