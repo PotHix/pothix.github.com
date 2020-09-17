@@ -2,6 +2,7 @@
 title: "Dactyl"
 date: 2020-08-28T15:01:17-03:00
 draft: true
+serie: "Dactyl"
 ---
 
 After build the [Iris keyboard](/iris) I decided to start a new quest to build
@@ -29,28 +30,38 @@ links (the advantage of buying everything on AliExpress ☺️):
 
 Qty | Item              | Total price | BRL (+taxes) | Link
 --- | ----------------- | ----------  | ------------ | ------------------------------------------------
-68  | Gateron Brown Sw  | $ 17.57     |              | https://www.aliexpress.com/item/32980039972.html
-1   | Ergodox caps set  | $ 19.90     |              | https://www.aliexpress.com/item/32895788424.html
-10  | RJ9 female        | $ 5.10      |              | https://www.aliexpress.com/item/4001341125623.html
-50  | M3 Screw 5mm      | $ 1.91      |              | https://www.aliexpress.com/item/4000220786440.html
-25  | Nut insert M3     | $ 1.58      |              | https://www.aliexpress.com/item/33003887129.html
-200 | IN4148 Diodes     | $ 1.14      |              | https://www.aliexpress.com/item/2025724181.html
-2   | Wrist Rest        | $ 5.60      |              | https://www.aliexpress.com/item/32977646806.html
-1   | Jumper cables     | $ 0.98      |              | https://www.aliexpress.com/item/33041631448.html
-3   | MicroUSB to USBC  | $ 2.97      |              | https://www.aliexpress.com/item/33014954687.html
-2   | RJ9 cables        | $ 2.24      |              | https://www.aliexpress.com/item/4001216996891.html
-20  | Reset buttons     | $ 1.06      |              | https://www.aliexpress.com/item/32912175986.html
-135 | Hotswap sockets   | $ 13.50     |              | https://www.aliexpress.com/item/4000019410050.html
-7   | Colored wires     | $ 8.82      |              | https://www.aliexpress.com/item/32849118753.html
-2   | Promicro          | $ 5.90      |              | https://www.aliexpress.com/item/32989454699.html
-1   | 2.0% flux solder  | R$ 11,70    | R$ 11,60     | https://www.aliexpress.com/item/33006453680.html
+68  | Gateron Brown Sw  | $ 17.57     | R$ 109,34\*  | [AliExpress](https://www.aliexpress.com/item/32980039972.html)
+1   | Ergodox caps set  | $ 19.90     | R$ 123,84\*  | [AliExpress](https://www.aliexpress.com/item/32895788424.html)
+10  | RJ9 female        | $ 5.10      | R$ 31,73\*   | [AliExpress](https://www.aliexpress.com/item/4001341125623.html)
+50  | M3 Screw 5mm      | $ 1.91      | R$ 11,89\*   | [AliExpress](https://www.aliexpress.com/item/4000220786440.html)
+25  | Nut insert M3     | $ 1.58      | R$ 9,83\*    | [AliExpress](https://www.aliexpress.com/item/33003887129.html)
+200 | IN4148 Diodes     | $ 1.14      | R$ 7,09\*    | [AliExpress](https://www.aliexpress.com/item/2025724181.html)
+2   | Wrist Rest        | $ 5.60      | R$ 34,85\*   | [AliExpress](https://www.aliexpress.com/item/32977646806.html)
+1   | Jumper cables     | $ 0.98      | R$ 6,10\*    | [AliExpress](https://www.aliexpress.com/item/33041631448.html)
+3   | MicroUSB to USBC  | $ 2.97      | R$ 18,48\*   | [AliExpress](https://www.aliexpress.com/item/33014954687.html)
+2   | RJ9 cables        | $ 2.24      | R$ 13,94\*   | [AliExpress](https://www.aliexpress.com/item/4001216996891.html)
+20  | Reset buttons     | $ 1.06      | R$ 6,59\*    | [AliExpress](https://www.aliexpress.com/item/32912175986.html)
+135 | Hotswap sockets   | $ 13.50     | R$ 84,01\*   | [AliExpress](https://www.aliexpress.com/item/4000019410050.html)
+7   | Colored wires     | $ 8.82      | R$ 54,89\*   | [AliExpress](https://www.aliexpress.com/item/32849118753.html)\*\*
+2   | Promicro          | $ 5.90      | R$ 36,72\*   | [AliExpress](https://www.aliexpress.com/item/32989454698.html)
+1   | 2.0% flux solder  | $ 2.11      | R$ 11,60     | [AliExpress](https://www.aliexpress.com/item/33006453680.html)
 
 
 ### Extras:
 
 Qty | Item              | Price       | BRL (+taxes) | Link
 --- | ----------------- | ----------  | ------------ | ------------------------------------------------
-5   | Testing Switches  | $ 1.20      |              | https://www.aliexpress.com/item/32956853282.html
+5   | Testing Switches  | $ 1.20      | R$ 7,45\*    | https://www.aliexpress.com/item/32956853282.html
 
 
-Currently, it's a total of $92.50 approximately (many small taxes to find yet).
+\* I bought so many things and bundled them together that it's now hard to find
+the exact amount of money I spent considering taxes, currencies, bundled
+orders, etc. To simplify things a bit I used the average currency exchange from
+my credit card bill to get all the BRL prices marked with a \*.
+
+\*\* The item marked with \*\* is open for dispute. For some reason the
+shipment was cancelled so I'm checking with the seller and didn't get a
+response.
+
+Currently, it's a total of $92.50 or R$568,35 approximately. I would say R$600
+would be a good guess because of the currency exchange flutuation.
