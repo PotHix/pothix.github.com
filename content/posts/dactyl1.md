@@ -4,6 +4,9 @@ date: 2020-08-28T15:01:17-03:00
 aliases: [
     "dactyl",
 ]
+tags: [
+    "english",
+]
 series: ["Dactyl"]
 ---
 
