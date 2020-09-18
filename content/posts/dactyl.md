@@ -1,5 +1,5 @@
 ---
-title: "Dactyl"
+title: "Dactyl keyboard - Part 1"
 date: 2020-08-28T15:01:17-03:00
 draft: true
 series: ["Dactyl"]
@@ -14,7 +14,10 @@ could take it with me when I was traveling and Iris seemed like a great fit for
 this and not that hard for a first project. Now that I have the skills, I will
 build the Dactyl to maybe take my kinesis' place.
 
-## Parts to buy
+This is the first post of [a series about building a dactyl
+keyboard](/series/dactyl) and we will focus on the parts I had to buy.
+
+## Where to buy
 
 I decided to buy everything from AliExpress. It's usually cheaper than buying
 everything where I like (Brazil) and I not in a hurry, which is the bigger
@@ -26,7 +29,10 @@ cheaper, but due to the pandemic I don't want to visit any physical store.
 With that said, let's go for the list of parts I bought and the individual
 links (the advantage of buying everything on AliExpress ☺️):
 
-### Required parts
+## Required parts
+
+It required a lot of reserach to understand what each of these do and why they
+are required, but here are my choices:
 
 Qty | Item              | Total price | BRL (+taxes) | Link
 --- | ----------------- | ----------  | ------------ | ------------------------------------------------
@@ -63,5 +69,13 @@ my credit card bill to get all the BRL prices marked with a \*.
 shipment was cancelled so I'm checking with the seller and didn't get a
 response.
 
+## Cost and ETA
+
 Currently, it's a total of $92.50 or R$568,35 approximately. I would say R$600
-would be a good guess because of the currency exchange flutuation.
+would be a good guess because of the currency exchange flutuation. As a
+comparison, the minimum wage in Brazil is R$ 1045.
+
+The average time to get something from AliExpress to Brazil is around 3 weeks
+and some of these parts started to arrive already. :)
+
+Wait for more about this soon. :)
