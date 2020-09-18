@@ -1,6 +1,9 @@
 ---
 title: "Dactyl keyboard - Part 1"
 date: 2020-08-28T15:01:17-03:00
+aliases: [
+    "dactyl",
+]
 series: ["Dactyl"]
 ---
 
@@ -62,11 +65,10 @@ Qty | Item              | Price       | BRL (+taxes) | Link
 \* I bought so many things and bundled them together that it's now hard to find
 the exact amount of money I spent considering taxes, currencies, bundled
 orders, etc. To simplify things a bit I used the average currency exchange from
-my credit card bill to get all the BRL prices marked with a \*.
+my credit card bill to get all the BRL prices for these items.
 
-\*\* The item marked with \*\* is open for dispute. For some reason the
-shipment was cancelled so I'm checking with the seller and didn't get a
-response.
+\*\* This item is open for dispute. For some reason the shipment was cancelled
+so I'm checking with the seller and didn't get a response.
 
 ## Cost and ETA
 
