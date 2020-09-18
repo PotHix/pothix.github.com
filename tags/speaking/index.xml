@@ -10,10 +10,10 @@
     <lastBuildDate>Sat, 04 Mar 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://pothix.com/tags/speaking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My presentation at FOSDEM 2017</title>
-      <link>https://pothix.com/posts/fosdem2017/</link>
+      <link>https://pothix.com/fosdem2017/</link>
       <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/posts/fosdem2017/</guid>
+      <guid>https://pothix.com/fosdem2017/</guid>
       <description>This year my proposal to speak at FOSDEM was accepted and I spoke at the Desktop devroom! :)
 It was my first talk in English, so I decided to do as many rehearsals as I could. I was 8 in total, but as expected, it was still a little bit faster than expected. :P
 I had 30 minutes to present and I did it in 26. I usually speak fast and this presentation was made to be fast because I had a lot of content to show in 30 minutes.</description>
@@ -21,10 +21,10 @@ I had 30 minutes to present and I did it in 26. I usually speak fast and this pr
     
     <item>
       <title>As escolhas do desenvolvedor</title>
-      <link>https://pothix.com/posts/escolhasdev/</link>
+      <link>https://pothix.com/escolhasdev/</link>
       <pubDate>Mon, 31 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/posts/escolhasdev/</guid>
+      <guid>https://pothix.com/escolhasdev/</guid>
       <description>Esse ano fui chamado para palestrar em todas as edições do Encontro Locaweb que acontecem por várias cidades do Brasil! Palestrei em 6 cidades de estados diferentes, e aconteceram na seguinte ordem:
  Belo Horizonte Curitiba Recife Porto Alegre Rio de Janeiro São Paulo  Adicionei os links para as fotos dos eventos na listagem acima. :)
 Minha palestra se chama &amp;ldquo;As escolhas do desenvolvedor&amp;rdquo; e fala sobre as escolhas que fazemos durante nossa carreira de desenvolvedor, escolhas com linguagens, configurações de servidores, deploy, equipe, testes e etc.</description>
@@ -32,20 +32,20 @@ Minha palestra se chama &amp;ldquo;As escolhas do desenvolvedor&amp;rdquo; e fal
     
     <item>
       <title>Game Network Programming</title>
-      <link>https://pothix.com/posts/game-netprog/</link>
+      <link>https://pothix.com/game-netprog/</link>
       <pubDate>Mon, 15 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/posts/game-netprog/</guid>
+      <guid>https://pothix.com/game-netprog/</guid>
       <description>English Abstract: This post was about my presentation with Diego Souza (vulgo Marciano) about Game network programming. I was studying and reading Quake source just for fun and decided to learn more about game networking in general, so I decided to prepare this presentation to show other people what I’ve learned. You can see the full video (portuguese only, sorry) and the slides below.
 Portuguese: Eu e o Diego Souza (vulgo Marciano) fizemos uma palestra sobre Game network programming tanto na Locaweb como no Guru-SP.</description>
     </item>
     
     <item>
       <title>Plaev, HTML5 e Skeleton-jigsaw</title>
-      <link>https://pothix.com/posts/skeleton-jigsaw/</link>
+      <link>https://pothix.com/skeleton-jigsaw/</link>
       <pubDate>Tue, 04 Dec 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/posts/skeleton-jigsaw/</guid>
+      <guid>https://pothix.com/skeleton-jigsaw/</guid>
       <description>Depois de muito tempo desenvolvendo finalmente terminamos o Skeleton-Jigsaw em outubro! Demorei para postar sobre isso aqui no blog por falta de tempo, mas aqui está!
 Eu e o Rafael Masoni trabalhamos nesse jogo durante quase 1 ano (começamos a falar dele no comecinho de janeiro) investindo nosso tempo livre para fazer todas as partes do jogo (audio, programação, arte, game design, level design e etc).
 Vou descrever um pouco do que fizemos e como organizamos, mas vai ser apenas um resumo do que falamos na nossa palestra no Guru-SP:</description>
@@ -53,30 +53,30 @@ Vou descrever um pouco do que fizemos e como organizamos, mas vai ser apenas um 
     
     <item>
       <title>Palestra sobre implementacoes paralelas</title>
-      <link>https://pothix.com/posts/implementacoes-paralelas/</link>
+      <link>https://pothix.com/implementacoes-paralelas/</link>
       <pubDate>Mon, 16 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/posts/implementacoes-paralelas/</guid>
+      <guid>https://pothix.com/implementacoes-paralelas/</guid>
       <description>Esse post ficou como draft desde que eu palestrei sobre implementações paralelas, e agora que eu lembrei dele decidi publicar! :)
 Bem, como eu disse, eu paletrei sobre implementacoes paralelas tanto na Locaweb como no Guru-SP. A idea da palestra vem de um post do John Carmack sobre implementações paralelas, e nesse post ele comenta sobre todos os tipos de implementação paralela que ele já utilizou e as que mais funcionaram para cada tipo de caso.</description>
     </item>
     
     <item>
       <title>Palestra sobre Gamedev, Javascript e HTML5</title>
-      <link>https://pothix.com/posts/gamedev-javascript/</link>
+      <link>https://pothix.com/gamedev-javascript/</link>
       <pubDate>Mon, 23 May 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/posts/gamedev-javascript/</guid>
+      <guid>https://pothix.com/gamedev-javascript/</guid>
       <description>Esse fim de semana eu palestrei no FLISOL de São José dos Campos sobre desenvolvimento de jogos, Javascript e HTML5. Foi uma palestra simples e rápida, durou pouco mais de meia hora (preciso aprender a falar um pouco mais devagar :P) mas foi divertido.
 A grande maioria das pessoas que estavam assistindo a palestra não eram desenvolvedores, e estavam começando a estudar agora, e acho que por isso não surgiram muitas perguntas sobre o assunto, mesmo eu evitando colocar código.</description>
     </item>
     
     <item>
       <title>Palestra sobre Vim</title>
-      <link>https://pothix.com/posts/palestra-vim/</link>
+      <link>https://pothix.com/palestra-vim/</link>
       <pubDate>Mon, 29 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/posts/palestra-vim/</guid>
+      <guid>https://pothix.com/palestra-vim/</guid>
       <description>Esse vai ser um post curto, apenas para deixar registrado algumas informações sobre a palestra de Vim que teve no sétimo encontro do Guru-sp (sim, eu fui o palestrante :D).
 Primeiramente, já começo com uma desculpa, por que já faz mais de 2 semanas que palestrei e só agora estou fazendo esse post. :(
 Foi bem legal palestrar para uma galera que já conhecia ao menos um pouco do editor. Quando eu estava planejando o que eu ia falar eu fiquei com uma grande dúvida de qual seria a minha linha de apresentação, por que eu não sabia quantos já conheciam o editor, portanto eu poderia chegar falando de coisas avançadas e ninguem entenderia nada, ou pelo contrário, se muitos conhecessem e eu chegasse falando de coisas básicas demais a palestra seria um saco.</description>

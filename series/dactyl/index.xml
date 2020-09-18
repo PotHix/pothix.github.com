@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dactyl on PotHix</title>
+    <link>https://pothix.com/series/dactyl/</link>
+    <description>Recent content in Dactyl on PotHix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 28 Aug 2020 15:01:17 -0300</lastBuildDate><atom:link href="https://pothix.com/series/dactyl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dactyl keyboard - Part 1</title>
+      <link>https://pothix.com/dactyl1/</link>
+      <pubDate>Fri, 28 Aug 2020 15:01:17 -0300</pubDate>
+      
+      <guid>https://pothix.com/dactyl1/</guid>
+      <description>After build the Iris keyboard I decided to start a new quest to build a Dactyl-cc (as I mentioned at the end of the Iris post 😉)
+Dactyl is the keyboad I wanted to build from the start but I certainly didn&amp;rsquo;t have the skils to do it. I decided to first build a &amp;ldquo;portable kinesis&amp;rdquo;, so I could take it with me when I was traveling and Iris seemed like a great fit for this and not that hard for a first project.</description>
+    </item>
+    
+  </channel>
+</rss>

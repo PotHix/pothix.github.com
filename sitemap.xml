@@ -3,7 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://pothix.com/posts/iris/</loc>
+    <loc>https://pothix.com/series/dactyl/</loc>
+    <lastmod>2020-08-28T15:01:17-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pothix.com/dactyl1/</loc>
+    <lastmod>2020-08-28T15:01:17-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pothix.com/posts/</loc>
+    <lastmod>2020-08-28T15:01:17-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pothix.com/</loc>
+    <lastmod>2020-08-28T15:01:17-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pothix.com/series/</loc>
+    <lastmod>2020-08-28T15:01:17-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pothix.com/iris/</loc>
     <lastmod>2020-07-23T09:48:21-03:00</lastmod>
   </url>
   
@@ -18,16 +43,6 @@
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/</loc>
-    <lastmod>2020-07-23T09:48:21-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pothix.com/</loc>
-    <lastmod>2020-07-23T09:48:21-03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://pothix.com/tags/</loc>
     <lastmod>2020-07-23T09:48:21-03:00</lastmod>
   </url>
@@ -38,17 +53,12 @@
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/2019/</loc>
+    <loc>https://pothix.com/2019/</loc>
     <lastmod>2020-01-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://pothix.com/tags/personal/</loc>
-    <lastmod>2020-01-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pothix.com/series/</loc>
     <lastmod>2020-01-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -63,12 +73,12 @@
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/rust-contrib/</loc>
+    <loc>https://pothix.com/rust-contrib/</loc>
     <lastmod>2019-11-22T00:00:00-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/productivity-workflow/</loc>
+    <loc>https://pothix.com/productivity-workflow/</loc>
     <lastmod>2019-08-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -83,7 +93,7 @@
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/rustlatam2019/</loc>
+    <loc>https://pothix.com/rustlatam2019/</loc>
     <lastmod>2019-04-21T14:02:54-03:00</lastmod>
   </url>
   
@@ -98,57 +108,57 @@
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/atreus-firmware/</loc>
+    <loc>https://pothix.com/atreus-firmware/</loc>
     <lastmod>2018-10-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/jun2018/</loc>
+    <loc>https://pothix.com/jun2018/</loc>
     <lastmod>2018-07-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/may2018/</loc>
+    <loc>https://pothix.com/may2018/</loc>
     <lastmod>2018-06-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/apr2018/</loc>
+    <loc>https://pothix.com/apr2018/</loc>
     <lastmod>2018-05-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/mar2018/</loc>
+    <loc>https://pothix.com/mar2018/</loc>
     <lastmod>2018-04-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/feb2018/</loc>
+    <loc>https://pothix.com/feb2018/</loc>
     <lastmod>2018-03-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/jan2018/</loc>
+    <loc>https://pothix.com/jan2018/</loc>
     <lastmod>2018-02-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/2017/</loc>
+    <loc>https://pothix.com/2017/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/dec2017/</loc>
+    <loc>https://pothix.com/dec2017/</loc>
     <lastmod>2018-01-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/firefox-ctrlq/</loc>
+    <loc>https://pothix.com/firefox-ctrlq/</loc>
     <lastmod>2017-12-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/nov2017/</loc>
+    <loc>https://pothix.com/nov2017/</loc>
     <lastmod>2017-12-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -158,42 +168,42 @@
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/oct2017/</loc>
+    <loc>https://pothix.com/oct2017/</loc>
     <lastmod>2017-11-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/sep2017/</loc>
+    <loc>https://pothix.com/sep2017/</loc>
     <lastmod>2017-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/doist/</loc>
+    <loc>https://pothix.com/doist/</loc>
     <lastmod>2017-10-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/aug2017/</loc>
+    <loc>https://pothix.com/aug2017/</loc>
     <lastmod>2017-09-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/jul2017/</loc>
+    <loc>https://pothix.com/jul2017/</loc>
     <lastmod>2017-08-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/archlinux/</loc>
+    <loc>https://pothix.com/archlinux/</loc>
     <lastmod>2017-08-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/jun2017/</loc>
+    <loc>https://pothix.com/jun2017/</loc>
     <lastmod>2017-07-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/locaweb/</loc>
+    <loc>https://pothix.com/locaweb/</loc>
     <lastmod>2017-06-14T11:26:10-03:00</lastmod>
   </url>
   
@@ -203,47 +213,47 @@
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/hugo-https/</loc>
+    <loc>https://pothix.com/hugo-https/</loc>
     <lastmod>2017-06-13T13:54:49-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/may2017/</loc>
+    <loc>https://pothix.com/may2017/</loc>
     <lastmod>2017-06-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/apr2017/</loc>
+    <loc>https://pothix.com/apr2017/</loc>
     <lastmod>2017-05-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/mar2017/</loc>
+    <loc>https://pothix.com/mar2017/</loc>
     <lastmod>2017-04-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/feb2017/</loc>
+    <loc>https://pothix.com/feb2017/</loc>
     <lastmod>2017-04-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/jan2017/</loc>
+    <loc>https://pothix.com/jan2017/</loc>
     <lastmod>2017-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/oxford-tolkien/</loc>
+    <loc>https://pothix.com/oxford-tolkien/</loc>
     <lastmod>2017-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/fosdem-guide/</loc>
+    <loc>https://pothix.com/fosdem-guide/</loc>
     <lastmod>2017-03-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/fosdem2017/</loc>
+    <loc>https://pothix.com/fosdem2017/</loc>
     <lastmod>2017-03-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -258,12 +268,12 @@
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/desconstruindoaweb/</loc>
+    <loc>https://pothix.com/desconstruindoaweb/</loc>
     <lastmod>2016-10-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/rubyconf2016/</loc>
+    <loc>https://pothix.com/rubyconf2016/</loc>
     <lastmod>2016-09-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -273,27 +283,27 @@
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/audiobooks/</loc>
+    <loc>https://pothix.com/audiobooks/</loc>
     <lastmod>2016-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/colemak-experience/</loc>
+    <loc>https://pothix.com/colemak-experience/</loc>
     <lastmod>2015-10-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/escolhasdev/</loc>
+    <loc>https://pothix.com/escolhasdev/</loc>
     <lastmod>2015-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/oscon/</loc>
+    <loc>https://pothix.com/oscon/</loc>
     <lastmod>2015-07-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/layout2015/</loc>
+    <loc>https://pothix.com/layout2015/</loc>
     <lastmod>2015-05-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -308,7 +318,7 @@
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/threads-rubypython/</loc>
+    <loc>https://pothix.com/threads-rubypython/</loc>
     <lastmod>2014-02-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -318,12 +328,12 @@
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/golang12/</loc>
+    <loc>https://pothix.com/golang12/</loc>
     <lastmod>2013-12-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/gurusp5/</loc>
+    <loc>https://pothix.com/gurusp5/</loc>
     <lastmod>2013-09-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -333,22 +343,22 @@
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/venda2013/</loc>
+    <loc>https://pothix.com/venda2013/</loc>
     <lastmod>2013-07-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/dragstar2008/</loc>
+    <loc>https://pothix.com/dragstar2008/</loc>
     <lastmod>2013-07-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/intruder125/</loc>
+    <loc>https://pothix.com/intruder125/</loc>
     <lastmod>2013-07-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/game-netprog/</loc>
+    <loc>https://pothix.com/game-netprog/</loc>
     <lastmod>2013-07-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -358,7 +368,7 @@
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/skeleton-jigsaw/</loc>
+    <loc>https://pothix.com/skeleton-jigsaw/</loc>
     <lastmod>2012-12-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -368,22 +378,22 @@
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/poker/</loc>
+    <loc>https://pothix.com/poker/</loc>
     <lastmod>2012-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/lifestyle/</loc>
+    <loc>https://pothix.com/lifestyle/</loc>
     <lastmod>2012-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/javascript-gamedev/</loc>
+    <loc>https://pothix.com/javascript-gamedev/</loc>
     <lastmod>2012-09-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/kernel-compiling/</loc>
+    <loc>https://pothix.com/kernel-compiling/</loc>
     <lastmod>2012-07-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -393,42 +403,42 @@
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/mac-linux/</loc>
+    <loc>https://pothix.com/mac-linux/</loc>
     <lastmod>2012-07-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/quakecode/</loc>
+    <loc>https://pothix.com/quakecode/</loc>
     <lastmod>2012-07-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/ruby-debian-squeeze/</loc>
+    <loc>https://pothix.com/ruby-debian-squeeze/</loc>
     <lastmod>2012-07-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/implementacoes-paralelas/</loc>
+    <loc>https://pothix.com/implementacoes-paralelas/</loc>
     <lastmod>2012-07-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/rubyxmpp/</loc>
+    <loc>https://pothix.com/rubyxmpp/</loc>
     <lastmod>2012-07-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/moto-argentina/</loc>
+    <loc>https://pothix.com/moto-argentina/</loc>
     <lastmod>2012-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/gamedev-javascript/</loc>
+    <loc>https://pothix.com/gamedev-javascript/</loc>
     <lastmod>2011-05-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/aprender/</loc>
+    <loc>https://pothix.com/aprender/</loc>
     <lastmod>2011-04-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -438,57 +448,57 @@
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/fullthrottle-android/</loc>
+    <loc>https://pothix.com/fullthrottle-android/</loc>
     <lastmod>2011-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/pothix-motos/</loc>
+    <loc>https://pothix.com/pothix-motos/</loc>
     <lastmod>2011-01-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/motogrupo/</loc>
+    <loc>https://pothix.com/motogrupo/</loc>
     <lastmod>2011-01-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/feeds2011/</loc>
+    <loc>https://pothix.com/feeds2011/</loc>
     <lastmod>2011-01-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/ambiente-dev/</loc>
+    <loc>https://pothix.com/ambiente-dev/</loc>
     <lastmod>2010-12-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/rubyconfbr-adl-gddbr/</loc>
+    <loc>https://pothix.com/rubyconfbr-adl-gddbr/</loc>
     <lastmod>2010-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/migracao-rails3/</loc>
+    <loc>https://pothix.com/migracao-rails3/</loc>
     <lastmod>2010-10-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/leitura-android/</loc>
+    <loc>https://pothix.com/leitura-android/</loc>
     <lastmod>2010-09-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/motorola-milestone/</loc>
+    <loc>https://pothix.com/motorola-milestone/</loc>
     <lastmod>2010-09-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/rework/</loc>
+    <loc>https://pothix.com/rework/</loc>
     <lastmod>2010-08-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/fisl11/</loc>
+    <loc>https://pothix.com/fisl11/</loc>
     <lastmod>2010-08-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -503,17 +513,17 @@
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/servicos-mar2010/</loc>
+    <loc>https://pothix.com/servicos-mar2010/</loc>
     <lastmod>2010-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/linux-pairprog/</loc>
+    <loc>https://pothix.com/linux-pairprog/</loc>
     <lastmod>2010-03-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/palestra-vim/</loc>
+    <loc>https://pothix.com/palestra-vim/</loc>
     <lastmod>2010-03-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -523,362 +533,362 @@
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/hack2010/</loc>
+    <loc>https://pothix.com/hack2010/</loc>
     <lastmod>2010-03-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/campusparty2010/</loc>
+    <loc>https://pothix.com/campusparty2010/</loc>
     <lastmod>2010-02-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/metallica2010/</loc>
+    <loc>https://pothix.com/metallica2010/</loc>
     <lastmod>2010-02-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/servicos-jan2010/</loc>
+    <loc>https://pothix.com/servicos-jan2010/</loc>
     <lastmod>2010-01-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/stevejobs/</loc>
+    <loc>https://pothix.com/stevejobs/</loc>
     <lastmod>2010-01-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/anjosedemonios/</loc>
+    <loc>https://pothix.com/anjosedemonios/</loc>
     <lastmod>2009-12-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/crontab-rails/</loc>
+    <loc>https://pothix.com/crontab-rails/</loc>
     <lastmod>2009-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/devinsampa/</loc>
+    <loc>https://pothix.com/devinsampa/</loc>
     <lastmod>2009-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/servicos-dec2010/</loc>
+    <loc>https://pothix.com/servicos-dec2010/</loc>
     <lastmod>2009-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/acdc2009/</loc>
+    <loc>https://pothix.com/acdc2009/</loc>
     <lastmod>2009-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/railssummit2009/</loc>
+    <loc>https://pothix.com/railssummit2009/</loc>
     <lastmod>2009-10-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/servicos-oct-2009/</loc>
+    <loc>https://pothix.com/servicos-oct-2009/</loc>
     <lastmod>2009-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/monit/</loc>
+    <loc>https://pothix.com/monit/</loc>
     <lastmod>2009-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/servicos-sep-2009/</loc>
+    <loc>https://pothix.com/servicos-sep-2009/</loc>
     <lastmod>2009-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/meme-gamedesign/</loc>
+    <loc>https://pothix.com/meme-gamedesign/</loc>
     <lastmod>2009-08-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/ferias-julho2009/</loc>
+    <loc>https://pothix.com/ferias-julho2009/</loc>
     <lastmod>2009-08-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/vim/</loc>
+    <loc>https://pothix.com/vim/</loc>
     <lastmod>2009-08-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/gamejam/</loc>
+    <loc>https://pothix.com/gamejam/</loc>
     <lastmod>2009-08-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/allegro422/</loc>
+    <loc>https://pothix.com/allegro422/</loc>
     <lastmod>2009-08-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/servicos-aug2009/</loc>
+    <loc>https://pothix.com/servicos-aug2009/</loc>
     <lastmod>2009-08-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/highperfwebsites/</loc>
+    <loc>https://pothix.com/highperfwebsites/</loc>
     <lastmod>2009-07-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/gems-github/</loc>
+    <loc>https://pothix.com/gems-github/</loc>
     <lastmod>2009-07-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/lotr/</loc>
+    <loc>https://pothix.com/lotr/</loc>
     <lastmod>2009-07-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/spiderman-friendorfoe/</loc>
+    <loc>https://pothix.com/spiderman-friendorfoe/</loc>
     <lastmod>2009-07-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/gurusp-meetup5/</loc>
+    <loc>https://pothix.com/gurusp-meetup5/</loc>
     <lastmod>2009-07-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/diablo/</loc>
+    <loc>https://pothix.com/diablo/</loc>
     <lastmod>2009-07-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/pragmaticgit/</loc>
+    <loc>https://pothix.com/pragmaticgit/</loc>
     <lastmod>2009-07-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/ubuntu-beep/</loc>
+    <loc>https://pothix.com/ubuntu-beep/</loc>
     <lastmod>2009-07-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/servicos-jul2009/</loc>
+    <loc>https://pothix.com/servicos-jul2009/</loc>
     <lastmod>2009-07-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/opera-unite/</loc>
+    <loc>https://pothix.com/opera-unite/</loc>
     <lastmod>2009-06-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/modemclaro-ubuntu/</loc>
+    <loc>https://pothix.com/modemclaro-ubuntu/</loc>
     <lastmod>2009-06-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/servicos-jul2019/</loc>
+    <loc>https://pothix.com/servicos-jul2019/</loc>
     <lastmod>2009-06-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/gmail-inboxzero/</loc>
+    <loc>https://pothix.com/gmail-inboxzero/</loc>
     <lastmod>2009-05-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/git-googlecode/</loc>
+    <loc>https://pothix.com/git-googlecode/</loc>
     <lastmod>2009-05-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/gtalk-pidgin/</loc>
+    <loc>https://pothix.com/gtalk-pidgin/</loc>
     <lastmod>2009-05-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/ubuntu904/</loc>
+    <loc>https://pothix.com/ubuntu904/</loc>
     <lastmod>2009-05-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/encontro-designtec/</loc>
+    <loc>https://pothix.com/encontro-designtec/</loc>
     <lastmod>2009-04-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/ruby-inicio/</loc>
+    <loc>https://pothix.com/ruby-inicio/</loc>
     <lastmod>2009-04-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/antiie6army/</loc>
+    <loc>https://pothix.com/antiie6army/</loc>
     <lastmod>2009-04-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/rubylearning-presentation/</loc>
+    <loc>https://pothix.com/rubylearning-presentation/</loc>
     <lastmod>2009-04-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/rails-django/</loc>
+    <loc>https://pothix.com/rails-django/</loc>
     <lastmod>2009-04-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/rrails-mundoreal-overview/</loc>
+    <loc>https://pothix.com/rrails-mundoreal-overview/</loc>
     <lastmod>2009-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/feb2010/</loc>
+    <loc>https://pothix.com/feb2010/</loc>
     <lastmod>2009-04-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/rubyinsidebr/</loc>
+    <loc>https://pothix.com/rubyinsidebr/</loc>
     <lastmod>2009-03-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/rails-dreamhost/</loc>
+    <loc>https://pothix.com/rails-dreamhost/</loc>
     <lastmod>2009-03-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/ironmaiden2009/</loc>
+    <loc>https://pothix.com/ironmaiden2009/</loc>
     <lastmod>2009-03-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/usp-verao/</loc>
+    <loc>https://pothix.com/usp-verao/</loc>
     <lastmod>2009-02-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/dcpp-linux/</loc>
+    <loc>https://pothix.com/dcpp-linux/</loc>
     <lastmod>2009-02-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/dia-dificil/</loc>
+    <loc>https://pothix.com/dia-dificil/</loc>
     <lastmod>2009-02-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/rrails-mundoreal/</loc>
+    <loc>https://pothix.com/rrails-mundoreal/</loc>
     <lastmod>2009-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/vivo-firefox/</loc>
+    <loc>https://pothix.com/vivo-firefox/</loc>
     <lastmod>2009-01-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/campusparty2009/</loc>
+    <loc>https://pothix.com/campusparty2009/</loc>
     <lastmod>2009-01-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/problemas-vivo/</loc>
+    <loc>https://pothix.com/problemas-vivo/</loc>
     <lastmod>2009-01-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/foraie6/</loc>
+    <loc>https://pothix.com/foraie6/</loc>
     <lastmod>2009-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/merb-locaweb/</loc>
+    <loc>https://pothix.com/merb-locaweb/</loc>
     <lastmod>2009-01-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/newyear2008/</loc>
+    <loc>https://pothix.com/newyear2008/</loc>
     <lastmod>2008-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/quarto-nerd/</loc>
+    <loc>https://pothix.com/quarto-nerd/</loc>
     <lastmod>2008-12-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/git-configurado/</loc>
+    <loc>https://pothix.com/git-configurado/</loc>
     <lastmod>2008-12-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/primeiro-github/</loc>
+    <loc>https://pothix.com/primeiro-github/</loc>
     <lastmod>2008-12-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/first-post/</loc>
+    <loc>https://pothix.com/first-post/</loc>
     <lastmod>2008-12-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/nfs-mostwanted/</loc>
+    <loc>https://pothix.com/nfs-mostwanted/</loc>
     <lastmod>2008-12-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/gamer/</loc>
+    <loc>https://pothix.com/gamer/</loc>
     <lastmod>2008-12-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/basico/</loc>
+    <loc>https://pothix.com/basico/</loc>
     <lastmod>2008-12-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/ubuntu/</loc>
+    <loc>https://pothix.com/ubuntu/</loc>
     <lastmod>2008-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/inicio-linuxer/</loc>
+    <loc>https://pothix.com/inicio-linuxer/</loc>
     <lastmod>2008-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/nero-linux/</loc>
+    <loc>https://pothix.com/nero-linux/</loc>
     <lastmod>2008-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/sshfs/</loc>
+    <loc>https://pothix.com/sshfs/</loc>
     <lastmod>2008-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/ssh/</loc>
+    <loc>https://pothix.com/ssh/</loc>
     <lastmod>2008-11-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/fluxbox-slackware/</loc>
+    <loc>https://pothix.com/fluxbox-slackware/</loc>
     <lastmod>2008-11-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/amarok/</loc>
+    <loc>https://pothix.com/amarok/</loc>
     <lastmod>2008-11-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/slackware-pacotes/</loc>
+    <loc>https://pothix.com/slackware-pacotes/</loc>
     <lastmod>2008-11-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/rubylearning/</loc>
+    <loc>https://pothix.com/rubylearning/</loc>
     <lastmod>2008-11-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -888,22 +898,22 @@
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/railssummit-day2/</loc>
+    <loc>https://pothix.com/railssummit-day2/</loc>
     <lastmod>2008-10-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/railssummit-day1/</loc>
+    <loc>https://pothix.com/railssummit-day1/</loc>
     <lastmod>2008-10-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/mais-distros/</loc>
+    <loc>https://pothix.com/mais-distros/</loc>
     <lastmod>2008-10-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/primeiro-post/</loc>
+    <loc>https://pothix.com/primeiro-post/</loc>
     <lastmod>2008-09-02T00:00:00+00:00</lastmod>
   </url>
   

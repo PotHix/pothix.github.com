@@ -6,15 +6,198 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Thu, 23 Jul 2020 09:48:21 -0300</lastBuildDate>
+        <lastBuildDate>Fri, 28 Aug 2020 15:01:17 -0300</lastBuildDate>
         <atom:link href="https://pothix.com/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
+            <title>Dactyl keyboard - Part 1</title>
+            <link>https://pothix.com/dactyl1/</link>
+            <pubDate>Fri, 28 Aug 2020 15:01:17 -0300</pubDate>
+            
+            <guid>https://pothix.com/dactyl1/</guid>
+            <description>After build the Iris keyboard I decided to start a new quest to build a Dactyl-cc (as I mentioned at the end of the Iris post 😉)
+Dactyl is the keyboad I wanted to build from the start but I certainly didn&amp;rsquo;t have the skils to do it. I decided to first build a &amp;ldquo;portable kinesis&amp;rdquo;, so I could take it with me when I was traveling and Iris seemed like a great fit for this and not that hard for a first project.</description>
+            <content type="html"><![CDATA[<p>After build the <a href="/iris">Iris keyboard</a> I decided to start a new quest to build
+a Dactyl-cc (as I mentioned at the end of the Iris post 😉)</p>
+<p>Dactyl is the keyboad I wanted to build from the start but I certainly didn&rsquo;t
+have the skils to do it. I decided to first build a &ldquo;portable kinesis&rdquo;, so I
+could take it with me when I was traveling and Iris seemed like a great fit for
+this and not that hard for a first project. Now that I have the skills, I will
+build the Dactyl to maybe take my kinesis' place.</p>
+<p>This is the first post of <a href="/series/dactyl">a series about building a dactyl
+keyboard</a> and we will focus on the parts I had to buy.</p>
+<h2 id="where-to-buy">Where to buy</h2>
+<p>I decided to buy everything from AliExpress. It&rsquo;s usually cheaper than buying
+everything where I like (Brazil) and I not in a hurry, which is the bigger
+disadvantage of AliExpress.</p>
+<p>Many of these parts I could easily find in a local store, sometimes even
+cheaper, but due to the pandemic I don&rsquo;t want to visit any physical store.</p>
+<p>With that said, let&rsquo;s go for the list of parts I bought and the individual
+links (the advantage of buying everything on AliExpress ☺️):</p>
+<h2 id="required-parts">Required parts</h2>
+<p>It required a lot of reserach to understand what each of these do and why they
+are required, but here are my choices:</p>
+<table>
+<thead>
+<tr>
+<th>Qty</th>
+<th>Item</th>
+<th>Total price</th>
+<th>BRL (+taxes)</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>68</td>
+<td>Gateron Brown Sw</td>
+<td>$ 17.57</td>
+<td>R$ 109,34*</td>
+<td><a href="https://www.aliexpress.com/item/32980039972.html">AliExpress</a></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Ergodox caps set</td>
+<td>$ 19.90</td>
+<td>R$ 123,84*</td>
+<td><a href="https://www.aliexpress.com/item/32895788424.html">AliExpress</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td>RJ9 female</td>
+<td>$ 5.10</td>
+<td>R$ 31,73*</td>
+<td><a href="https://www.aliexpress.com/item/4001341125623.html">AliExpress</a></td>
+</tr>
+<tr>
+<td>50</td>
+<td>M3 Screw 5mm</td>
+<td>$ 1.91</td>
+<td>R$ 11,89*</td>
+<td><a href="https://www.aliexpress.com/item/4000220786440.html">AliExpress</a></td>
+</tr>
+<tr>
+<td>25</td>
+<td>Nut insert M3</td>
+<td>$ 1.58</td>
+<td>R$ 9,83*</td>
+<td><a href="https://www.aliexpress.com/item/33003887129.html">AliExpress</a></td>
+</tr>
+<tr>
+<td>200</td>
+<td>IN4148 Diodes</td>
+<td>$ 1.14</td>
+<td>R$ 7,09*</td>
+<td><a href="https://www.aliexpress.com/item/2025724181.html">AliExpress</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Wrist Rest</td>
+<td>$ 5.60</td>
+<td>R$ 34,85*</td>
+<td><a href="https://www.aliexpress.com/item/32977646806.html">AliExpress</a></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Jumper cables</td>
+<td>$ 0.98</td>
+<td>R$ 6,10*</td>
+<td><a href="https://www.aliexpress.com/item/33041631448.html">AliExpress</a></td>
+</tr>
+<tr>
+<td>3</td>
+<td>MicroUSB to USBC</td>
+<td>$ 2.97</td>
+<td>R$ 18,48*</td>
+<td><a href="https://www.aliexpress.com/item/33014954687.html">AliExpress</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td>RJ9 cables</td>
+<td>$ 2.24</td>
+<td>R$ 13,94*</td>
+<td><a href="https://www.aliexpress.com/item/4001216996891.html">AliExpress</a></td>
+</tr>
+<tr>
+<td>20</td>
+<td>Reset buttons</td>
+<td>$ 1.06</td>
+<td>R$ 6,59*</td>
+<td><a href="https://www.aliexpress.com/item/32912175986.html">AliExpress</a></td>
+</tr>
+<tr>
+<td>135</td>
+<td>Hotswap sockets</td>
+<td>$ 13.50</td>
+<td>R$ 84,01*</td>
+<td><a href="https://www.aliexpress.com/item/4000019410050.html">AliExpress</a></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Colored wires</td>
+<td>$ 8.82</td>
+<td>R$ 54,89*</td>
+<td><a href="https://www.aliexpress.com/item/32849118753.html">AliExpress</a>**</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Promicro</td>
+<td>$ 5.90</td>
+<td>R$ 36,72*</td>
+<td><a href="https://www.aliexpress.com/item/32989454698.html">AliExpress</a></td>
+</tr>
+<tr>
+<td>1</td>
+<td>2.0% flux solder</td>
+<td>$ 2.11</td>
+<td>R$ 11,60</td>
+<td><a href="https://www.aliexpress.com/item/33006453680.html">AliExpress</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="extras">Extras:</h3>
+<table>
+<thead>
+<tr>
+<th>Qty</th>
+<th>Item</th>
+<th>Price</th>
+<th>BRL (+taxes)</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td>Testing Switches</td>
+<td>$ 1.20</td>
+<td>R$ 7,45*</td>
+<td><a href="https://www.aliexpress.com/item/32956853282.html">AliExpress</a></td>
+</tr>
+</tbody>
+</table>
+<p>* I bought so many things and bundled them together that it&rsquo;s now hard to find
+the exact amount of money I spent considering taxes, currencies, bundled
+orders, etc. To simplify things a bit I used the average currency exchange from
+my credit card bill to get all the BRL prices for these items.</p>
+<p>** This item is open for dispute. For some reason the shipment was cancelled
+so I&rsquo;m checking with the seller and didn&rsquo;t get a response.</p>
+<h2 id="cost-and-eta">Cost and ETA</h2>
+<p>Currently, it&rsquo;s a total of $92.50 or R$568,35 approximately. I would say R$600
+would be a good guess because of the currency exchange flutuation. As a
+comparison, the minimum wage in Brazil is R$ 1045.</p>
+<p>The average time to get something from AliExpress to Brazil is around 3 weeks
+and some of these parts started to arrive already. :)</p>
+<p>Wait for more about this soon. :)</p>
+]]></content>
+        </item>
+        
+        <item>
             <title>Assembling an Iris Rev4</title>
-            <link>https://pothix.com/posts/iris/</link>
+            <link>https://pothix.com/iris/</link>
             <pubDate>Thu, 23 Jul 2020 09:48:21 -0300</pubDate>
             
-            <guid>https://pothix.com/posts/iris/</guid>
+            <guid>https://pothix.com/iris/</guid>
             <description>It&amp;rsquo;s been a while since I&amp;rsquo;m looking for a keyboard that would be great to take with me when I&amp;rsquo;m not working from home for some days. I finally found the Iris keyboard that seems to be exactly what I&amp;rsquo;m looking for.
 The need I currently have a Kinesis Advantage at home. The keyboard is great, probably the best keyboard I used so far, but it&amp;rsquo;s far from what we can call portable 😅.</description>
             <content type="html"><![CDATA[<p>It&rsquo;s been a while since I&rsquo;m looking for a keyboard that would be great to take
@@ -184,10 +367,10 @@ have to move to the hard version of keyboard assembling. :)</p>
         
         <item>
             <title>2019 Year in Review (full of metrics!)</title>
-            <link>https://pothix.com/posts/2019/</link>
+            <link>https://pothix.com/2019/</link>
             <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/2019/</guid>
+            <guid>https://pothix.com/2019/</guid>
             <description>Brace yourselves, like any other stats post, this one will be HUGE
 My year in review for 2018 was never posted because I could never finish it. I don&amp;rsquo;t want to let the same thing happen this year, so here I am.
 The end of 2018 and the beginning of 2019 was quite hard for me and me just didn&amp;rsquo;t have the energy to sit down in front of the computer during the weekends to write my monthly reviews.</description>
@@ -722,10 +905,10 @@ curious to see the data I&rsquo;m going to collect this year! 😉</p>
         
         <item>
             <title>Contributing to Rust</title>
-            <link>https://pothix.com/posts/rust-contrib/</link>
+            <link>https://pothix.com/rust-contrib/</link>
             <pubDate>Fri, 22 Nov 2019 00:00:00 -0300</pubDate>
             
-            <guid>https://pothix.com/posts/rust-contrib/</guid>
+            <guid>https://pothix.com/rust-contrib/</guid>
             <description>I&amp;rsquo;m involved with the Rust community for a while now. I&amp;rsquo;m one of the main organizers of the Rust meetup in São Paulo and also the Rust conference in Latin America (Rust LATAM) for more than one year now, but did not contribute to Rust source code yet.
 This post will show the step by step I did to submit my first pull request to the Rust compiler.
 If you want to go straight to the step by step, without any introduction, jump to My step by step to the first contribution.</description>
@@ -934,10 +1117,10 @@ bigger&hellip; but&hellip; baby steps. 😉</p>
         
         <item>
             <title>My Current Productivity Workflow</title>
-            <link>https://pothix.com/posts/productivity-workflow/</link>
+            <link>https://pothix.com/productivity-workflow/</link>
             <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/productivity-workflow/</guid>
+            <guid>https://pothix.com/productivity-workflow/</guid>
             <description>From time to time, I receive questions about my productivity workflow, so I decided to write it down here. Keep in mind it&amp;rsquo;s a living thing and may change with time, but what I&amp;rsquo;m documenting here is what I&amp;rsquo;m using right now.
 Tool As you probably know, I work for Doist for some time now, and I&amp;rsquo;m a Todoist user since 2007, so the my tool of choice is quite obvious.</description>
             <content type="html"><![CDATA[<p>From time to time, I receive questions about my productivity workflow, so I
@@ -1137,10 +1320,10 @@ adjust it to match your way of doing things.</p>
         
         <item>
             <title>How was Rust LATAM 2019</title>
-            <link>https://pothix.com/posts/rustlatam2019/</link>
+            <link>https://pothix.com/rustlatam2019/</link>
             <pubDate>Sun, 21 Apr 2019 14:02:54 -0300</pubDate>
             
-            <guid>https://pothix.com/posts/rustlatam2019/</guid>
+            <guid>https://pothix.com/rustlatam2019/</guid>
             <description>For those who don&amp;rsquo;t know, I&amp;rsquo;m a proud core organizer of the Rust LATAM conference. 🎉 The conference happened on March 29 and 30, and this post describes how it was to organize the whole thing.
 Even with the small problems we had (as any other big conference), the feedback we received so far were very positive. We were able to bring amazing speakers to the conference, which brought high-level content even for beginners.</description>
             <content type="html"><![CDATA[<p>For those who don&rsquo;t know, I&rsquo;m a proud core organizer of the <a href="https://rustlatam.org">Rust
@@ -1340,10 +1523,10 @@ happen. 🦀</p>
         
         <item>
             <title>Flashing a different firmware for the Atreus keyboard</title>
-            <link>https://pothix.com/posts/atreus-firmware/</link>
+            <link>https://pothix.com/atreus-firmware/</link>
             <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/atreus-firmware/</guid>
+            <guid>https://pothix.com/atreus-firmware/</guid>
             <description>I just bought an Atreus keyboard and I&amp;rsquo;m now configuring my own firmware.
 To do that, I&amp;rsquo;m using the qmk_firmware.
 I&amp;rsquo;m adding a new file as a layout (link here) and I have to change tmk_core/common/avr/bootloader.c to be able to compile it:
@@ -1407,10 +1590,10 @@ avrdude done.  Thank you.
         
         <item>
             <title>Stats for Jun, 2018</title>
-            <link>https://pothix.com/posts/jun2018/</link>
+            <link>https://pothix.com/jun2018/</link>
             <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/jun2018/</guid>
+            <guid>https://pothix.com/jun2018/</guid>
             <description>Guess what!? Yes, metrics for June! 📊
 Books I usually don&amp;rsquo;t count how many books I read, I just track and check at the end of the month. When I saw that I read five books read this month, my face was like 😱. All of them received a 4-star review, so the result is quite good.
 
@@ -1674,10 +1857,10 @@ month. ☺</p>
         
         <item>
             <title>Stats for May, 2018</title>
-            <link>https://pothix.com/posts/may2018/</link>
+            <link>https://pothix.com/may2018/</link>
             <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/may2018/</guid>
+            <guid>https://pothix.com/may2018/</guid>
             <description>It&amp;rsquo;s May, and it&amp;rsquo;s time for metrics! 📊
 Books Two books read this month, but both received a 3 stars review: 
  Wait, What?: And Life&amp;rsquo;s Other Essential Questions: Exactly what the author says in the beginning: It&amp;rsquo;s a lecture that became a book. Not bad, but OK-ish. Shop Class as Soulcraft: An Inquiry into the Value of Work: More political views than I was expecting and the pacing is not so good.</description>
@@ -1926,10 +2109,10 @@ were met, so I have nothing to complain. ✌</p>
         
         <item>
             <title>Stats for Apr, 2018</title>
-            <link>https://pothix.com/posts/apr2018/</link>
+            <link>https://pothix.com/apr2018/</link>
             <pubDate>Sun, 13 May 2018 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/apr2018/</guid>
+            <guid>https://pothix.com/apr2018/</guid>
             <description>It&amp;rsquo;s time for April metrics! 📊
 Books Note: I write a review for each book I read. You can find them on my Goodreads account.
 Again, just one book this month, and again, a 5 stars one!
@@ -2143,10 +2326,10 @@ fine.</p>
         
         <item>
             <title>Stats for Mar, 2018</title>
-            <link>https://pothix.com/posts/mar2018/</link>
+            <link>https://pothix.com/mar2018/</link>
             <pubDate>Fri, 13 Apr 2018 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/mar2018/</guid>
+            <guid>https://pothix.com/mar2018/</guid>
             <description>March is gone, and it&amp;rsquo;s time for metrics! 📊
 Books Note: I write a review for each book I read. You can find them on my Goodreads account.
 Just one book this month, but a 5 stars one:
@@ -2365,10 +2548,10 @@ when I should enjoy life and let things go.</p>
         
         <item>
             <title>Stats for Feb, 2018</title>
-            <link>https://pothix.com/posts/feb2018/</link>
+            <link>https://pothix.com/feb2018/</link>
             <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/feb2018/</guid>
+            <guid>https://pothix.com/feb2018/</guid>
             <description>February time! Let&amp;rsquo;s see what we can get from my metrics. 😀
 Books Note: I write a review for each book I read. You can find them on my Goodreads account.
 I&amp;rsquo;m quite satisfied with my reading list for this month:
@@ -2588,10 +2771,10 @@ metrics. Let&rsquo;s see how it goes! :)</p>
         
         <item>
             <title>Stats for Jan, 2018</title>
-            <link>https://pothix.com/posts/jan2018/</link>
+            <link>https://pothix.com/jan2018/</link>
             <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/jan2018/</guid>
+            <guid>https://pothix.com/jan2018/</guid>
             <description>I&amp;rsquo;m excited to write this post about my performance for the first month of the year. I think I will have some great news at the end of this post, related to my expenses.
 Let&amp;rsquo;s get started! 😀
 Books I decided to listen to my podcasts this month, so I did not hear that many audiobooks. The only book I read this month was a physical book:
@@ -2803,10 +2986,10 @@ and I&rsquo;m glad to see that happening again. 🚀</p>
         
         <item>
             <title>2017 Year in Review (with metrics!)</title>
-            <link>https://pothix.com/posts/2017/</link>
+            <link>https://pothix.com/2017/</link>
             <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/2017/</guid>
+            <guid>https://pothix.com/2017/</guid>
             <description>Brace yourselves, this post will be HUGE
 TL;DR: It was a great year and I&amp;rsquo;m really glad to see the metrics and notice everything I accomplished.
 I don&amp;rsquo;t remember the last time I posted my yearly review publicly but as I&amp;rsquo;m doing monthly posts of my stats, it makes sense to do an annual review as well.
@@ -3232,10 +3415,10 @@ to complain. Hope that this year become even better than the last one.</p>
         
         <item>
             <title>Stats for Dec, 2017</title>
-            <link>https://pothix.com/posts/dec2017/</link>
+            <link>https://pothix.com/dec2017/</link>
             <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/dec2017/</guid>
+            <guid>https://pothix.com/dec2017/</guid>
             <description>Came back from a travel last month and just packed my stuff to travel again this month. Let&amp;rsquo;s see if it affected my performance.
 Books I was traveling this month, so as usual, I&amp;rsquo;m not reading/listening to audiobooks because I prefer to focus on the place I&amp;rsquo;m visiting. For this reason, I did not finish any book this month.
 With that said, it is the first time I have 4 books on my reading list at the same time.</description>
@@ -3439,10 +3622,10 @@ soon. 😀</p>
         
         <item>
             <title>Firefox Quantum ctrl-q</title>
-            <link>https://pothix.com/posts/firefox-ctrlq/</link>
+            <link>https://pothix.com/firefox-ctrlq/</link>
             <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/firefox-ctrlq/</guid>
+            <guid>https://pothix.com/firefox-ctrlq/</guid>
             <description>This will be a quick post to help people that are doing the same search as I was doing some minutes ago: &amp;ldquo;firefox disable ctrl+q&amp;rdquo;.
 I&amp;rsquo;m using Firefox Quantum for some weeks now (will probably post about it in the future) and the ctrl+q &amp;ldquo;feature&amp;rdquo; really annoys me.
 It&amp;rsquo;s not the first time that I hit ctrl+q by accident just to see the entire browser and tabs being closed without warning.</description>
@@ -3473,10 +3656,10 @@ with the Quit problem.</p>
         
         <item>
             <title>Stats for Nov, 2017</title>
-            <link>https://pothix.com/posts/nov2017/</link>
+            <link>https://pothix.com/nov2017/</link>
             <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/nov2017/</guid>
+            <guid>https://pothix.com/nov2017/</guid>
             <description>Came back from a travel last month and just packed my stuff to travel again this month. Let&amp;rsquo;s see if it affected my performance.
 Books 
 Read three books this month. My first book of H.P. Lovecraft, called At the mountains of madness was one of them. It was an interesting experience to read it. I also read about minimalism just to realize that I&amp;rsquo;m a minimalism since forever. If you like minimalism I also recommend to listen to their podcast and read their website.</description>
@@ -3662,10 +3845,10 @@ now and I hope to have a nice December with everything set up. :)</p>
         
         <item>
             <title>Stats for Oct, 2017</title>
-            <link>https://pothix.com/posts/oct2017/</link>
+            <link>https://pothix.com/oct2017/</link>
             <pubDate>Sun, 05 Nov 2017 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/oct2017/</guid>
+            <guid>https://pothix.com/oct2017/</guid>
             <description>This month was very unusual because I was traveling through Portugal and Spain for work and tourism, so it will probably affect my stats a lot. With that said, let&amp;rsquo;s see how it is. 😄
 Books I read some pages from Elixir in Action, but unfortunately did not finish any book this month. I usually don&amp;rsquo;t read that much when traveling, so it&amp;rsquo;s sad but expected. 😞
 Articles As usual, I&amp;rsquo;m using that same export file from Pocket and the same script to calculate the amount of articles I read:</description>
@@ -3857,10 +4040,10 @@ post. :D</p>
         
         <item>
             <title>Stats for sep, 2017</title>
-            <link>https://pothix.com/posts/sep2017/</link>
+            <link>https://pothix.com/sep2017/</link>
             <pubDate>Tue, 31 Oct 2017 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/sep2017/</guid>
+            <guid>https://pothix.com/sep2017/</guid>
             <description>It&amp;rsquo;s already the end of October and I could not manage to post my stats from September but I have a good reason for that (which you will read about in the next month 😉).
 Books 
 What Doesn’t Kill Us: How Freezing Water, Extreme Altitude and Environmental Conditioning Will Renew Our Lost Evolutionary Strength is a book that describes what the human body can do if trained for it. The writing process is not so good for my taste, sometimes it looks like a memoir, sometimes it&amp;rsquo;s non-fiction&amp;hellip; but the message it passes is really interesting.</description>
@@ -4031,10 +4214,10 @@ take 1 week off and will work from different locations. Let&rsquo;s see how it g
         
         <item>
             <title>PotHix ❤ Doist</title>
-            <link>https://pothix.com/posts/doist/</link>
+            <link>https://pothix.com/doist/</link>
             <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/doist/</guid>
+            <guid>https://pothix.com/doist/</guid>
             <description>TL;DR: I&amp;rsquo;m working on something I really believe is good at Doist and I feel great.
 As I mentioned on this post (in pt-BR) I left the company I was working for the last year to join a new company. The new company is Doist and I&amp;rsquo;m working for them since July.
 Some time ago a friend asked me why I joined Doist and I realized it&amp;rsquo;s kind of a love story so I decided to write the post.</description>
@@ -4125,10 +4308,10 @@ better.</p>
         
         <item>
             <title>Stats for Aug, 2017</title>
-            <link>https://pothix.com/posts/aug2017/</link>
+            <link>https://pothix.com/aug2017/</link>
             <pubDate>Thu, 07 Sep 2017 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/aug2017/</guid>
+            <guid>https://pothix.com/aug2017/</guid>
             <description>September is here, time to review my stats for August, 2017.
 Books 
 This is my personal record of books read in one single month. 7 freaking books. 😱
@@ -4355,10 +4538,10 @@ how it goes.</p>
         
         <item>
             <title>Stats for Jul, 2017</title>
-            <link>https://pothix.com/posts/jul2017/</link>
+            <link>https://pothix.com/jul2017/</link>
             <pubDate>Mon, 07 Aug 2017 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/jul2017/</guid>
+            <guid>https://pothix.com/jul2017/</guid>
             <description>Okay, here we go for the first full month working in my new job. :)
 Books 
 This month I read Let My People Go Surfing: The Education of a Reluctant Businessman, which was recommended by the other Doisters. It&amp;rsquo;s a great book by the guy who built the company Patagonia, a bootstrapped company, from scratch. Their way of thinking looks a lot like the way we think at Doist.</description>
@@ -4555,10 +4738,10 @@ experience of building a great product.</p>
         
         <item>
             <title>My Archlinux setup</title>
-            <link>https://pothix.com/posts/archlinux/</link>
+            <link>https://pothix.com/archlinux/</link>
             <pubDate>Sat, 05 Aug 2017 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/archlinux/</guid>
+            <guid>https://pothix.com/archlinux/</guid>
             <description>I was playing with Archlinux in the last 3 or 4 years and last year I decided to reboot my configuration files and start using Xfce.
 Talking to Fabio Akita about my Archlinux tunning, I heard that I should be posting about that. That&amp;rsquo;s true, so I decided to start writing it. I wrote in March and it was in draft form since then, so it&amp;rsquo;s time to release it. :)</description>
             <content type="html"><![CDATA[<p>I was playing with Archlinux in the last 3 or 4 years and last year I decided to
@@ -4677,10 +4860,10 @@ the WM side (Wayland&hellip;) but it worth the trade-off.</p>
         
         <item>
             <title>Stats for Jun, 2017</title>
-            <link>https://pothix.com/posts/jun2017/</link>
+            <link>https://pothix.com/jun2017/</link>
             <pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/jun2017/</guid>
+            <guid>https://pothix.com/jun2017/</guid>
             <description>I&amp;rsquo;m ready to review my stats for June and share them with you! Are you? Hope so! :D
 Books 
 Last month I read Deep Work again because I was preparing to work for a new company. The new company is Doist, but this is a topic for a another post. It proved to be a great asset, as they also recommend reading it. From their reading list I also took The score takes care of itself and Start with Why.</description>
@@ -4848,10 +5031,10 @@ software I have to support, but it&rsquo;s being an awesome experience.</p>
         
         <item>
             <title>7 anos de Locaweb e a saida</title>
-            <link>https://pothix.com/posts/locaweb/</link>
+            <link>https://pothix.com/locaweb/</link>
             <pubDate>Wed, 14 Jun 2017 11:26:10 -0300</pubDate>
             
-            <guid>https://pothix.com/posts/locaweb/</guid>
+            <guid>https://pothix.com/locaweb/</guid>
             <description>TL;DR: Esse mês eu completaria 7 anos trabalhando para a Locaweb, mas decidi sair no dia 2 de junho. Nada demais, só procurando coisas diferentes
 Eu entrei na Locaweb em Junho de 2010. Na época o Fabio Kung entrou em contato comigo perguntando se eu queria me juntar a equipe de Cloud Computing.
 A equipe de Cloud Depois de uma conversa com ele e com outro gestor, eu descobri que era exatamente o que eu queria fazer, trabalhar com Ruby e infraestrutura, duas coisas que eu gostava muito.</description>
@@ -5009,10 +5192,10 @@ mais sobre isso em breve. :)</p>
         
         <item>
             <title>Wordpress to Middleman, to Hugo using github-pages and HTTPS</title>
-            <link>https://pothix.com/posts/hugo-https/</link>
+            <link>https://pothix.com/hugo-https/</link>
             <pubDate>Tue, 13 Jun 2017 13:54:49 -0300</pubDate>
             
-            <guid>https://pothix.com/posts/hugo-https/</guid>
+            <guid>https://pothix.com/hugo-https/</guid>
             <description>Yes, it was a journey. I decided to chance my blog engine again.
 But this time I decided to post about the whole transition, since I started my blog, back in 2008.
 I needed a blog at the time but could not spend time creating something, I just wanted to &amp;ldquo;buy a blog&amp;rdquo; and write. Dreamhost was an awesome service for that. In one hour I bought a domain, installed a Wordpress via one click install and set up my own email via Google apps (at the time it was free).</description>
@@ -5104,10 +5287,10 @@ doing that you can even use HSTS! :D</p>
         
         <item>
             <title>Stats for May, 2017</title>
-            <link>https://pothix.com/posts/may2017/</link>
+            <link>https://pothix.com/may2017/</link>
             <pubDate>Wed, 07 Jun 2017 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/may2017/</guid>
+            <guid>https://pothix.com/may2017/</guid>
             <description>Here we go again for my stats for the last month. :)
 Books 
 I will start a in a new company this month, so I decided to re-read Deep Work (I really recommend this one). This book is just great for everyone who wants to focus and do the hard work. It has everything to do with my new work schedule. The book about Elon Musk was a good reading as well, this guy has some great ideas.</description>
@@ -5243,10 +5426,10 @@ be. Let&rsquo;s wait for the next post! :)</p>
         
         <item>
             <title>Stats for April, 2017</title>
-            <link>https://pothix.com/posts/apr2017/</link>
+            <link>https://pothix.com/apr2017/</link>
             <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/apr2017/</guid>
+            <guid>https://pothix.com/apr2017/</guid>
             <description>This was not a good month. I spent most of the time sick, recovering from what may be a Labyrinthitis. I still have to confirm that, but I&amp;rsquo;m in slow motion for a while.
 But anyways, let&amp;rsquo;s go to the collected data.
 Books Books for this month:
@@ -5381,10 +5564,10 @@ little bit and I have to go to the doctor this month and look for it.</p>
         
         <item>
             <title>Stats for March, 2017</title>
-            <link>https://pothix.com/posts/mar2017/</link>
+            <link>https://pothix.com/mar2017/</link>
             <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/mar2017/</guid>
+            <guid>https://pothix.com/mar2017/</guid>
             <description>Back to work this month. :)
 After one month vacation, I got back to my routine and got some good results this month.
 Books Added three more books to the list:
@@ -5483,10 +5666,10 @@ be. Maybe next month. :)</p>
         
         <item>
             <title>Stats for February, 2017</title>
-            <link>https://pothix.com/posts/feb2017/</link>
+            <link>https://pothix.com/feb2017/</link>
             <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/feb2017/</guid>
+            <guid>https://pothix.com/feb2017/</guid>
             <description>February was an atypical month because I was on vacation. :)
 Much of my stats will reflect my travel around Europe. But no coding was done during this trip.
 Books Continuing my goal to read 30 books this year, I read two books this month:
@@ -5567,10 +5750,10 @@ it:</p>
         
         <item>
             <title>Stats for January, 2017</title>
-            <link>https://pothix.com/posts/jan2017/</link>
+            <link>https://pothix.com/jan2017/</link>
             <pubDate>Sun, 02 Apr 2017 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/jan2017/</guid>
+            <guid>https://pothix.com/jan2017/</guid>
             <description>This is the first post of a series that will show all the data I&amp;rsquo;ve been collecting during the month. One of my goals this year is to track everything possible. These posts will help me to analyze all the data and may extract something for me.
 This is not a new idea, I&amp;rsquo;m inspired by posts like this from Matthew of truevalhalla.com.
 Books My goal is to read 30 books this year, so I must have an average of 2.</description>
@@ -5675,10 +5858,10 @@ so easy to write posts like these, I&rsquo;m trying to create some
         
         <item>
             <title>Oxford for Tolkien fans</title>
-            <link>https://pothix.com/posts/oxford-tolkien/</link>
+            <link>https://pothix.com/oxford-tolkien/</link>
             <pubDate>Fri, 10 Mar 2017 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/oxford-tolkien/</guid>
+            <guid>https://pothix.com/oxford-tolkien/</guid>
             <description>TL;DR: When traveling to Europe, I decided to take 2 or 3 days to visit Oxford. I will describe how was the experience of a J.R.R. Tolkien fan there.
 I&amp;rsquo;m a big fan of J.R.R Tolkien. Have read most of his books, the ones released when he was still alive and other edited by Christopher Tolkien.
 After attending FOSDEM I decided to travel around some countries in Europe and UK. The most expensive part, the airplane tickets (Brazil -&amp;gt; Europe), were already paid, so&amp;hellip; why not?</description>
@@ -5771,10 +5954,10 @@ there.</p>
         
         <item>
             <title>FOSDEM survival guide</title>
-            <link>https://pothix.com/posts/fosdem-guide/</link>
+            <link>https://pothix.com/fosdem-guide/</link>
             <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/fosdem-guide/</guid>
+            <guid>https://pothix.com/fosdem-guide/</guid>
             <description>TL;DR: It was my first time at FOSDEM and it took some time to feel comfortable, this post may help newcomers.
 As I mentioned in my previous post, I spoke at FOSDEM this year. It was my first time there (in the whole Europe, btw!) and it took some time to get used to the way the event goes. This post will show some tips that may help FOSDEM newcomers and maybe some veterans as well.</description>
             <content type="html"><![CDATA[<p><strong>TL;DR</strong>: It was my first time at <a href="http://fosdem.org">FOSDEM</a> and it
@@ -5865,10 +6048,10 @@ received these tips before, so I would have planned my day better.</p>
         
         <item>
             <title>My presentation at FOSDEM 2017</title>
-            <link>https://pothix.com/posts/fosdem2017/</link>
+            <link>https://pothix.com/fosdem2017/</link>
             <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/fosdem2017/</guid>
+            <guid>https://pothix.com/fosdem2017/</guid>
             <description>This year my proposal to speak at FOSDEM was accepted and I spoke at the Desktop devroom! :)
 It was my first talk in English, so I decided to do as many rehearsals as I could. I was 8 in total, but as expected, it was still a little bit faster than expected. :P
 I had 30 minutes to present and I did it in 26. I usually speak fast and this presentation was made to be fast because I had a lot of content to show in 30 minutes.</description>
@@ -5895,10 +6078,10 @@ on
         
         <item>
             <title>Escrevendo o Desconstruindo a web</title>
-            <link>https://pothix.com/posts/desconstruindoaweb/</link>
+            <link>https://pothix.com/desconstruindoaweb/</link>
             <pubDate>Mon, 03 Oct 2016 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/desconstruindoaweb/</guid>
+            <guid>https://pothix.com/desconstruindoaweb/</guid>
             <description>TL;DR: Escrevi um livro em 315 horas, geralmente aos fins de semana durante 2 ou 3 horas consecutivas. O processo completo durou 8 meses e foi lançado oficialmente na Rubyconfbr2016.
 Como muitos já sabem, eu lancei um livro chamado Desconstruindo a web pela Casa do Código.
 Eu sou meio maluco (retardado, segundo o George Guimarães) por produtividade e organização pessoal e resolvi escrever sobre como foi o processo e mostrar todas as métricas que eu coletei.</description>
@@ -6097,10 +6280,10 @@ próximos! :)</p>
         
         <item>
             <title>Rubyconf 2016</title>
-            <link>https://pothix.com/posts/rubyconf2016/</link>
+            <link>https://pothix.com/rubyconf2016/</link>
             <pubDate>Mon, 26 Sep 2016 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/rubyconf2016/</guid>
+            <guid>https://pothix.com/rubyconf2016/</guid>
             <description>TL;DR: A melhor Rubyconf que eu participei
 Nos dias 24 e 25 de Setembro de 2016 aconteceu a Rubyconf Brasil. Assim como eu fiz um post sobre o primeiro Rails Summit que o Akita participou da organização, resolvi também fazer um post sobre a última rubyconf que ele resolveu organizar.
 Essa Rubyconf teve vários pontos especialmente importantes para mim. O primeiro deles foi logo no início quando o Gilberto Mautner, que é um dos fundadores da Locaweb, mencionou os números do projeto que eu estou trabalhando por lá.</description>
@@ -6164,10 +6347,10 @@ contínua de conhecimento vai continuar. :)</p>
         
         <item>
             <title>Ouvir livros (audiobooks), o futuro da leitura</title>
-            <link>https://pothix.com/posts/audiobooks/</link>
+            <link>https://pothix.com/audiobooks/</link>
             <pubDate>Wed, 22 Jun 2016 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/audiobooks/</guid>
+            <guid>https://pothix.com/audiobooks/</guid>
             <description>TL;DR: Ouvir livros é o futuro.
 Atualização de 18/06/2016: Adicionando o audiobooks.com.
 Quem me conhece sabe que há muito tempo eu ouço podcasts sempre que eu posso, principalmente no caminho entre a minha casa e o trabalho. No fim do ano de 2015 eu vi a quantidade de livros que o Rafael Rosa leu e fiquei abismado. Ele leu mais de 90 livros em um ano! Tudo bem que ele estava em um período sabático, mas mesmo assim ainda é uma quantidade bem absurda de livros para se ler em um ano.</description>
@@ -6269,10 +6452,10 @@ livros que queria! :)</p>
         
         <item>
             <title>Experiences of almost two years using Colemak</title>
-            <link>https://pothix.com/posts/colemak-experience/</link>
+            <link>https://pothix.com/colemak-experience/</link>
             <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/colemak-experience/</guid>
+            <guid>https://pothix.com/colemak-experience/</guid>
             <description>TL;DR: I like Colemak, and it is a very good layout. I found some equivalent pros and cons, so I can&amp;rsquo;t recommend it to anyone without a little bit of philosophy. :)
 For those who don&amp;rsquo;t know Colemak, it is a keyboard layout created to make the most used keys stay in the home row as well as make you swipe between your right and left hand.
 There is a keyboard layouts heatmap for you to understand the benefits of using a keyboard layout that was designed to help you to be comfortable and fast when typing instead of one that helping the operator to not jam the typewriter.</description>
@@ -6325,10 +6508,10 @@ about my journey is that <strong>I would do it again if I could</strong>. :)</p>
         
         <item>
             <title>As escolhas do desenvolvedor</title>
-            <link>https://pothix.com/posts/escolhasdev/</link>
+            <link>https://pothix.com/escolhasdev/</link>
             <pubDate>Mon, 31 Aug 2015 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/escolhasdev/</guid>
+            <guid>https://pothix.com/escolhasdev/</guid>
             <description>Esse ano fui chamado para palestrar em todas as edições do Encontro Locaweb que acontecem por várias cidades do Brasil! Palestrei em 6 cidades de estados diferentes, e aconteceram na seguinte ordem:
  Belo Horizonte Curitiba Recife Porto Alegre Rio de Janeiro São Paulo  Adicionei os links para as fotos dos eventos na listagem acima. :)
 Minha palestra se chama &amp;ldquo;As escolhas do desenvolvedor&amp;rdquo; e fala sobre as escolhas que fazemos durante nossa carreira de desenvolvedor, escolhas com linguagens, configurações de servidores, deploy, equipe, testes e etc.</description>
@@ -6364,10 +6547,10 @@ coisa legal com a palestra.</p>
         
         <item>
             <title>OSCON 2015</title>
-            <link>https://pothix.com/posts/oscon/</link>
+            <link>https://pothix.com/oscon/</link>
             <pubDate>Mon, 27 Jul 2015 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/oscon/</guid>
+            <guid>https://pothix.com/oscon/</guid>
             <description>TL;DR I&amp;rsquo;ve been at OSCON this year (thanks to Locaweb) and this post will summarize my impressions about the conference. I spoke at Locaweb Tech-Talks about it and you can find my slides here (in portuguese).
 OSCON (Open Source Conference) is one of the most important open source conferences of our time and happened in Portland this year as usual. Portland is a great city, the one I liked the most until now, it doesn&amp;rsquo;t have high car traffic, MAX (the train) took us for most of the places we wanted to know, nice people all over the place, great convention center and a lot of other benefits.</description>
             <content type="html"><![CDATA[<p><strong>TL;DR</strong> I&rsquo;ve been at OSCON this year (thanks to
@@ -6649,10 +6832,10 @@ Portland. :(</p>
         
         <item>
             <title>New layout of PotHix blog</title>
-            <link>https://pothix.com/posts/layout2015/</link>
+            <link>https://pothix.com/layout2015/</link>
             <pubDate>Mon, 25 May 2015 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/layout2015/</guid>
+            <guid>https://pothix.com/layout2015/</guid>
             <description>Welcome to the new blog layout of PotHix.com! :)
 I decided that the time has came to change not just the layout but the blog engine as well. I&amp;rsquo;m now using middleman instead of wordpress. Just to be clear, I don&amp;rsquo;t think wordpress is not good at all, but I want to publish static files instead of keeping the wordpress &amp;ldquo;infrastructure&amp;rdquo;.
 I&amp;rsquo;ve divided into 3 feeds:
@@ -6674,10 +6857,10 @@ instead of keeping the wordpress &ldquo;infrastructure&rdquo;.</p>
         
         <item>
             <title>Ruby, Python e native threads</title>
-            <link>https://pothix.com/posts/threads-rubypython/</link>
+            <link>https://pothix.com/threads-rubypython/</link>
             <pubDate>Fri, 14 Feb 2014 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/threads-rubypython/</guid>
+            <guid>https://pothix.com/threads-rubypython/</guid>
             <description>Pode ser que eu seja meio burro (heheh) mas eu ainda achava que o Ruby e o Python usavam Green Threads, mas depois de conversar com uma galera me disseram que eram threads nativas. Pesquisando na internet eu vi que eram mesmo, mas decidi rodar um strace para ver elas rolando e postar sobre isso.
 Fiz dois scripts simples:
 Python
@@ -6965,10 +7148,10 @@ descobrir coisas novas. :)</p>
         
         <item>
             <title>Golang and 1.2 version performance improvement</title>
-            <link>https://pothix.com/posts/golang12/</link>
+            <link>https://pothix.com/golang12/</link>
             <pubDate>Tue, 03 Dec 2013 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/golang12/</guid>
+            <guid>https://pothix.com/golang12/</guid>
             <description>I&amp;rsquo;ve started using Go last month and I really liked to work with the language.
 The project I&amp;rsquo;m working on is dead simple and just retrieves metrics and save on a redis server (the data will be analyzed by a different project that I&amp;rsquo;m working on). So I have 15 goroutines retrieving data constantly and I&amp;rsquo;m using just two native threads.
 I did some CPU profiling on the code using my current machine for Golang 1.</description>
@@ -7034,10 +7217,10 @@ Looks like it is a good idea of language for some of my projects, welcome Golang
         
         <item>
             <title>O Guru-SP e seus 5 anos de vida</title>
-            <link>https://pothix.com/posts/gurusp5/</link>
+            <link>https://pothix.com/gurusp5/</link>
             <pubDate>Tue, 17 Sep 2013 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/gurusp5/</guid>
+            <guid>https://pothix.com/gurusp5/</guid>
             <description>Há pouco tempo aconteceu o encontro numero 31 do Guru-SP, e como sempre saímos (dessa vez estavamos @vinibaggio, @agaelebe, @nuxlli e @anderson_leite) para aquele velho momento de bate papo pós evento. Durante a conversa o @nuxlli perguntou sobre como o Guru-SP começou e nesse momento eu comecei a relembrar daquela velha tarde em 2008.
 Mas peraí&amp;hellip; 2008!! O Guru-SP está próximo de fazer 5 anos de vida! :)
 Em pensar que tudo começou após um post do @agaelebe na Rails-br falando sobre criar grupos locais para conversar mais sobre Ruby e fazer encontros com mais frequência, o que gerou interesse de várias pessoas de São Paulo, que decidiram levar esse &amp;ldquo;projeto&amp;rdquo; pra frente.</description>
@@ -7106,10 +7289,10 @@ Brasil, e mais do que isso um lugar legal para troca de conhecimentos.</p>
         
         <item>
             <title>Vendendo minhas coisas</title>
-            <link>https://pothix.com/posts/venda2013/</link>
+            <link>https://pothix.com/venda2013/</link>
             <pubDate>Mon, 29 Jul 2013 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/venda2013/</guid>
+            <guid>https://pothix.com/venda2013/</guid>
             <description>Esse ano aconteceram algumas coisas zuadas para mim e resolvi capitalizar o dinheiro das coisas que eu tenho e começar denovo no ano que vem.
 Procurei preços justos para tudo que estou vendendo (os links das minhas pesquisas estão nas descrições dos produtos), mas caso alguém ache que alguma das coisas está com um preço não-justo e estiver interessado é só entrar em contato que negociamos.
 Estou aproveitando para testar a plataforma do loja integrada, mas os pagamentos eu prefiro que sejam por depósito mesmo, e se possível marcamos a entrega pessoalmente.</description>
@@ -7132,10 +7315,10 @@ entrega pessoalmente.</p>
         
         <item>
             <title>Vendo Dragstar 2008</title>
-            <link>https://pothix.com/posts/dragstar2008/</link>
+            <link>https://pothix.com/dragstar2008/</link>
             <pubDate>Mon, 29 Jul 2013 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/dragstar2008/</guid>
+            <guid>https://pothix.com/dragstar2008/</guid>
             <description>Chegou a hora de pendurar o colete por um tempo, obviamente estarei de volta num futuro não tão distante, mas pelo menos por enquanto vou ficar um tempo sem motos. Por esse motivo estou vendendo minha Dragstar 2008.
 Informações sobre ela:
  Segundo dono Licenciada 2013 31000 km de boas estradas! Pneu dianteiro e traseiro trocados há menos de 1000km (duraram mais ou menos 29k)  Acessórios que vão com ela (além de todas as peças originais):</description>
@@ -7171,10 +7354,10 @@ conversamos. :)</p>
         
         <item>
             <title>Vendo intruder 125 customizada e com guidão seca suvaco</title>
-            <link>https://pothix.com/posts/intruder125/</link>
+            <link>https://pothix.com/intruder125/</link>
             <pubDate>Mon, 29 Jul 2013 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/intruder125/</guid>
+            <guid>https://pothix.com/intruder125/</guid>
             <description>Depois de brincar de customização de motos por um tempo chegou a hora de vender minha intrudinha. Estou com ela desde 2008 e só me deu alegrias.
 Algumas informações sobre ela:
  Único dono Toda a parafernalha que veio com ela quando eu comprei eu ainda tenho IPVA pago Pneu traseiro praticamente novo, não rodou nem 100km Bateria nova, 1 mês de uso Motor, protetor de corrente e paralamas frontal são preto fosco.</description>
@@ -7206,10 +7389,10 @@ comentários mesmo.</p>
         
         <item>
             <title>Game Network Programming</title>
-            <link>https://pothix.com/posts/game-netprog/</link>
+            <link>https://pothix.com/game-netprog/</link>
             <pubDate>Mon, 15 Jul 2013 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/game-netprog/</guid>
+            <guid>https://pothix.com/game-netprog/</guid>
             <description>English Abstract: This post was about my presentation with Diego Souza (vulgo Marciano) about Game network programming. I was studying and reading Quake source just for fun and decided to learn more about game networking in general, so I decided to prepare this presentation to show other people what I’ve learned. You can see the full video (portuguese only, sorry) and the slides below.
 Portuguese: Eu e o Diego Souza (vulgo Marciano) fizemos uma palestra sobre Game network programming tanto na Locaweb como no Guru-SP.</description>
             <content type="html"><![CDATA[<p><strong>English Abstract</strong>: This post was about my presentation with Diego Souza
@@ -7245,10 +7428,10 @@ também! Se tiverem dúvidas postem aí nos comentários. :)</p>
         
         <item>
             <title>Plaev, HTML5 e Skeleton-jigsaw</title>
-            <link>https://pothix.com/posts/skeleton-jigsaw/</link>
+            <link>https://pothix.com/skeleton-jigsaw/</link>
             <pubDate>Tue, 04 Dec 2012 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/skeleton-jigsaw/</guid>
+            <guid>https://pothix.com/skeleton-jigsaw/</guid>
             <description>Depois de muito tempo desenvolvendo finalmente terminamos o Skeleton-Jigsaw em outubro! Demorei para postar sobre isso aqui no blog por falta de tempo, mas aqui está!
 Eu e o Rafael Masoni trabalhamos nesse jogo durante quase 1 ano (começamos a falar dele no comecinho de janeiro) investindo nosso tempo livre para fazer todas as partes do jogo (audio, programação, arte, game design, level design e etc).
 Vou descrever um pouco do que fizemos e como organizamos, mas vai ser apenas um resumo do que falamos na nossa palestra no Guru-SP:</description>
@@ -7287,10 +7470,10 @@ do vídeo, mas se tiverem dúvidas coloquem nos comentários.</p>
         
         <item>
             <title>Saudades do Poker</title>
-            <link>https://pothix.com/posts/poker/</link>
+            <link>https://pothix.com/poker/</link>
             <pubDate>Wed, 31 Oct 2012 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/poker/</guid>
+            <guid>https://pothix.com/poker/</guid>
             <description>Apesar de eu não ser bom o suficiente eu curto bastante jogar poker, mas as poucas vezes que me juntei com os amigos pessoalmente para jogar foi na época da faculdade, que marcavamos as &amp;ldquo;poker nights&amp;rdquo; e jogavamos apostando pequenas quantias.
 Depois de sair da faculdade eu sempre penso em tentar juntar aquele pessoal novamente, ou até mesmo juntar outras pessoas para poder jogar, mas eu acho difícil conseguir contato com o aquele pessoal novamente e a galera que eu tenho contato hoje geralmente não sabem jogar e tampouco se importam em aprender, ainda mais quando sabem que o jogo só tem graça quando está valendo dinheiro.</description>
             <content type="html"><![CDATA[<p>Apesar de eu não ser bom o suficiente eu curto bastante jogar poker, mas as
@@ -7324,10 +7507,10 @@ dinheiro se perdendo. :P</p>
         
         <item>
             <title>A lifestyle</title>
-            <link>https://pothix.com/posts/lifestyle/</link>
+            <link>https://pothix.com/lifestyle/</link>
             <pubDate>Mon, 10 Sep 2012 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/lifestyle/</guid>
+            <guid>https://pothix.com/lifestyle/</guid>
             <description>Just a transcript from here, but it reflects my way of life at this stage of my life:
 We believe in going our own way,no matter which way the rest of the world is going. We believe in bucking the system that’s built to smash individuals as bugs on a windshield. Some of us believe in the man upstairs.All of us believe in sticking in to the man down here. We believe in the sky and we don’t believe in the sunroof.</description>
             <content type="html"><![CDATA[<p>Just a transcript from <a href="http://www.youtube.com/watch?v=vlZ4ONTb9i0&amp;feature=youtu.be">here</a>,
@@ -7372,10 +7555,10 @@ We don’t care what everyone else believes.
         
         <item>
             <title>Javascript and Gamedev discussion</title>
-            <link>https://pothix.com/posts/javascript-gamedev/</link>
+            <link>https://pothix.com/javascript-gamedev/</link>
             <pubDate>Sun, 02 Sep 2012 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/javascript-gamedev/</guid>
+            <guid>https://pothix.com/javascript-gamedev/</guid>
             <description>I read the blog post from Impact engine creator Dominic where he shows an email he sent to John Carmack about his opinions on Javascript expressed on his keynote.
 Dominic is trying to show that Javascript is not a good language to develop the next AAA game but it is awesome to make simple games and have it easily available to the world.
 We have a lot of negative comments on the post (I really don&amp;rsquo;t know why) but some good ones too.</description>
@@ -7419,10 +7602,10 @@ well, you just need to decide which one is better for your business.</p>
         
         <item>
             <title>Kernel compiling</title>
-            <link>https://pothix.com/posts/kernel-compiling/</link>
+            <link>https://pothix.com/kernel-compiling/</link>
             <pubDate>Mon, 23 Jul 2012 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/kernel-compiling/</guid>
+            <guid>https://pothix.com/kernel-compiling/</guid>
             <description>Since I bought an Acer notebook to use Linux again (I sold my mac, I have a post about it but in portuguese) I started to compile my own kernel.
 The reasons for the decision:
 I have a hardware that works better with the newer kernels. I really want to understand the linux kernel better. As Judas Priest sings on Painkiller song: “I’m living on the eeeeeedge”. LOL
@@ -7548,10 +7731,10 @@ process I think that I learned a lot, so it is worth it.</p>
         
         <item>
             <title>Menos mac e mais Linux</title>
-            <link>https://pothix.com/posts/mac-linux/</link>
+            <link>https://pothix.com/mac-linux/</link>
             <pubDate>Thu, 19 Jul 2012 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/mac-linux/</guid>
+            <guid>https://pothix.com/mac-linux/</guid>
             <description>TL; DR Usei mac por mais de 6 meses e decidi voltar ao Linux. Na minha opinião mac não é ruim, mas Linux é melhor.
 A idéia desse post não é fazer um flame war, muito menos justificar porque eu voltei para o Linux (afinal, eu não devo nada pra ninguém), e sim falar um pouco do que eu vi de vantagens e desvantagens no Mac e porque eu resolvi voltar a usar Linux.</description>
             <content type="html"><![CDATA[<p><strong>TL; DR</strong> Usei mac por mais de 6 meses e decidi voltar ao Linux. Na minha opinião
@@ -7662,10 +7845,10 @@ de frutinha. :P</p>
         
         <item>
             <title>Aprendendo com o código do Quake</title>
-            <link>https://pothix.com/posts/quakecode/</link>
+            <link>https://pothix.com/quakecode/</link>
             <pubDate>Wed, 18 Jul 2012 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/quakecode/</guid>
+            <guid>https://pothix.com/quakecode/</guid>
             <description>Desde que eu terminei a faculdade eu venho lendo bastante coisa útil (foi muita coisa inútil durante 4 anos&amp;hellip;) e aprendendo bastante coisa. Nos ultimos meses eu li vários code reviews dos códigos do Quake e do Doom.
 Os review foram feitos por Fabien Anglard e estão todos disponíveis no site dele http://fabiensanglard.net.
 O primeiro artigo que eu li foi sobre o code review do código do Quake 2 de 1997.</description>
@@ -7716,10 +7899,10 @@ programação <strong>RECOMENDO</strong> fortemente tirar algumas horas e ler os
         
         <item>
             <title>Simlinks for ruby on Debian Squeeze</title>
-            <link>https://pothix.com/posts/ruby-debian-squeeze/</link>
+            <link>https://pothix.com/ruby-debian-squeeze/</link>
             <pubDate>Tue, 17 Jul 2012 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/ruby-debian-squeeze/</guid>
+            <guid>https://pothix.com/ruby-debian-squeeze/</guid>
             <description>Every time we need to deploy a new Ruby application on top of Debian Squeeze we need to fix some Ruby depedencies to make the application work as it should.
 It happens because we&amp;rsquo;re building using rvm instead of the packaged version of ruby, but it needed to be that way in order to use our old build server.
 I&amp;rsquo;ll keep it documented here:
@@ -7741,10 +7924,10 @@ ln -s /usr/bin/gem1.9.1 /usr/bin/gem
         
         <item>
             <title>Palestra sobre implementacoes paralelas</title>
-            <link>https://pothix.com/posts/implementacoes-paralelas/</link>
+            <link>https://pothix.com/implementacoes-paralelas/</link>
             <pubDate>Mon, 16 Jul 2012 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/implementacoes-paralelas/</guid>
+            <guid>https://pothix.com/implementacoes-paralelas/</guid>
             <description>Esse post ficou como draft desde que eu palestrei sobre implementações paralelas, e agora que eu lembrei dele decidi publicar! :)
 Bem, como eu disse, eu paletrei sobre implementacoes paralelas tanto na Locaweb como no Guru-SP. A idea da palestra vem de um post do John Carmack sobre implementações paralelas, e nesse post ele comenta sobre todos os tipos de implementação paralela que ele já utilizou e as que mais funcionaram para cada tipo de caso.</description>
             <content type="html"><![CDATA[<p>Esse post ficou como draft desde que eu palestrei sobre implementações
@@ -7766,10 +7949,10 @@ de manter. Espero que seja útil para mais alguém. ;)</p>
         
         <item>
             <title>XMPP e Ruby</title>
-            <link>https://pothix.com/posts/rubyxmpp/</link>
+            <link>https://pothix.com/rubyxmpp/</link>
             <pubDate>Tue, 10 Jul 2012 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/rubyxmpp/</guid>
+            <guid>https://pothix.com/rubyxmpp/</guid>
             <description>Alguns (vários…) meses atrás eu fiz uma palestra pequena no Guru-SP(São Paulo Ruby Users Group) sobre Ruby e XMPP, os vídeos e slides estão disponíveis:
 Nessa talk eu mostrei como criar dois bots simples e como subir eles na sua conta do Gmail. A Gem blather tem uma DSL bem legal para trabalhar com XMPP em Ruby, mas nos meus testes funcionou muito melhor com ruby 1.9.3 do que com 1.</description>
             <content type="html"><![CDATA[<p>Alguns (vários…) meses atrás eu fiz uma palestra pequena no Guru-SP(São Paulo
@@ -7788,10 +7971,10 @@ projeto.</p>
         
         <item>
             <title>Viagem de moto para Eldorado na Argentina</title>
-            <link>https://pothix.com/posts/moto-argentina/</link>
+            <link>https://pothix.com/moto-argentina/</link>
             <pubDate>Mon, 09 Apr 2012 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/moto-argentina/</guid>
+            <guid>https://pothix.com/moto-argentina/</guid>
             <description>TL; DR Fiz uma viagem de moto saindo de São Paulo e indo para Eldorado (Argentina) , durou uma semana no total e rodei mais de 3000km, esse é o relato da viagem.
 Quem quiser ver todas as fotos que eu tirei durante a viagem, estão no Picasa
 Bem, vamos ao relato:
@@ -8101,10 +8284,10 @@ faria ela novamente, do jeito que foi, ou diferente.</p>
         
         <item>
             <title>Palestra sobre Gamedev, Javascript e HTML5</title>
-            <link>https://pothix.com/posts/gamedev-javascript/</link>
+            <link>https://pothix.com/gamedev-javascript/</link>
             <pubDate>Mon, 23 May 2011 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/gamedev-javascript/</guid>
+            <guid>https://pothix.com/gamedev-javascript/</guid>
             <description>Esse fim de semana eu palestrei no FLISOL de São José dos Campos sobre desenvolvimento de jogos, Javascript e HTML5. Foi uma palestra simples e rápida, durou pouco mais de meia hora (preciso aprender a falar um pouco mais devagar :P) mas foi divertido.
 A grande maioria das pessoas que estavam assistindo a palestra não eram desenvolvedores, e estavam começando a estudar agora, e acho que por isso não surgiram muitas perguntas sobre o assunto, mesmo eu evitando colocar código.</description>
             <content type="html"><![CDATA[<p>Esse fim de semana eu palestrei no FLISOL de São José dos Campos sobre
@@ -8131,10 +8314,10 @@ Sugestões e críticas construtivas são bem vindas! ;)</p>
         
         <item>
             <title>Sempre aprender coisas diferentes</title>
-            <link>https://pothix.com/posts/aprender/</link>
+            <link>https://pothix.com/aprender/</link>
             <pubDate>Wed, 27 Apr 2011 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/aprender/</guid>
+            <guid>https://pothix.com/aprender/</guid>
             <description>Estou começando a fazer meu TCC agora e resolvi brincar um pouco com LaTeX. Ja faz um bom tempo que eu queria brincar um pouco com ele, entender melhor como funciona e por que tanta gente usa ele e acha legal.
 Eu tive um pouco de experiência com LaTeX quando estava ajudando a escrever o vimbook, mas não tive contato o suficiente por que entrei no meio do projeto e já estava tudo pronto, foi só seguir a estrutura.</description>
             <content type="html"><![CDATA[<p>Estou começando a fazer meu TCC agora e resolvi brincar um pouco com LaTeX. Ja
@@ -8174,10 +8357,10 @@ se conhecem ou não essa coisa.</p>
         
         <item>
             <title>Instalando o Full Throttle no Motorola Milestone</title>
-            <link>https://pothix.com/posts/fullthrottle-android/</link>
+            <link>https://pothix.com/fullthrottle-android/</link>
             <pubDate>Thu, 03 Mar 2011 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/fullthrottle-android/</guid>
+            <guid>https://pothix.com/fullthrottle-android/</guid>
             <description>Logo depois que eu comprei a minha Dragstar 650, me deu uma grande vontade de voltar a jogar full throttle (por que será, né?), e eu comecei a procurar uma forma de fazer isso.
 Eu tenho o jogo (o CD-ROM mesmo) ripado no meu computador, e agora só faltava emular ele.
 Procurando na internet eu achei o scummvm que emula os games da LucasArts em várias plataformas! Baixei o .</description>
@@ -8213,10 +8396,10 @@ throttle ripado no SD e falar para o scummvm dar o load.</p>
         
         <item>
             <title>PotHix e as motos</title>
-            <link>https://pothix.com/posts/pothix-motos/</link>
+            <link>https://pothix.com/pothix-motos/</link>
             <pubDate>Tue, 25 Jan 2011 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/pothix-motos/</guid>
+            <guid>https://pothix.com/pothix-motos/</guid>
             <description>Bem, para introduzir um assunto sobre os meus Hobbies aqui no blog eu vou falar um pouco da minha história com motos. Eu nunca gostei da idéia de ter um veículo, mas na época que eu comecei a trabalhar mais longe e fazer faculdade eu estava gastando 4 horas diárias dentro de onibus, e isso estava me incomodando bastante, mesmo eu ouvindo podcasts todos os dias eu ainda considerava isso como tempo perdido.</description>
             <content type="html"><![CDATA[<p>Bem, para introduzir um assunto sobre os meus Hobbies aqui no blog eu
 vou falar um pouco da minha história com motos.  Eu nunca gostei da
@@ -8278,10 +8461,10 @@ um dos meus Hobbies :)</p>
         
         <item>
             <title>Viajar de moto com um grupo de motociclistas</title>
-            <link>https://pothix.com/posts/motogrupo/</link>
+            <link>https://pothix.com/motogrupo/</link>
             <pubDate>Tue, 25 Jan 2011 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/motogrupo/</guid>
+            <guid>https://pothix.com/motogrupo/</guid>
             <description>Pois é! Essa era uma das coisas que eu tinha vontade de fazer há muito tempo, mas não queria ir de Intruder 125, e agora o momento chegou. :)
 Depois que comprei o monstro (apelido da minha Dragstar 650), a vontade de viajar de moto aumentou muito, afinal, montar sobre 650cc com 40HP para andar por bairro é zuado! :P
 Aproveitei o natal e fui com uns amigos para Itanhaém, eu sozinho na moto e eles de carro.</description>
@@ -8336,10 +8519,10 @@ algo muito foda, e esse primeiro passeio com certeza não será o ultimo! :)</p>
         
         <item>
             <title>Organizando os Feeds do Blog</title>
-            <link>https://pothix.com/posts/feeds2011/</link>
+            <link>https://pothix.com/feeds2011/</link>
             <pubDate>Mon, 24 Jan 2011 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/feeds2011/</guid>
+            <guid>https://pothix.com/feeds2011/</guid>
             <description>Como muitos sabem, eu sou meio doido por organização (heheh) e eu mesmo não gosto de ficar lendo coisas que não me interessam de outros blogs, ou seja, no blog de alguém que gosta bastante de Vim eu ter que ficar lendo sobre paraquedismo :P
 Agora eu gostaria de além de escrever sobre coisas técnicas, escrever também sobre os meus outros hobbies, como Motos, Shows e etc. Alguns deles eu até já escrevia um pouco antes, mas nem tanto, e isso já me incomodava um pouco, por que eu sei bem que várias pessoas que seguem o feed não gostam das mesmas coisas que eu.</description>
             <content type="html"><![CDATA[<p>Como muitos sabem, eu sou meio doido por organização (heheh) e eu
@@ -8365,10 +8548,10 @@ colocar, é só ignorar isso tudo :)</p>
         
         <item>
             <title>Meu ambiente de desenvolvimento</title>
-            <link>https://pothix.com/posts/ambiente-dev/</link>
+            <link>https://pothix.com/ambiente-dev/</link>
             <pubDate>Wed, 29 Dec 2010 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/ambiente-dev/</guid>
+            <guid>https://pothix.com/ambiente-dev/</guid>
             <description>Fui convidado pelo @jtadeulopes e pelo @qmx para participar do meme sobre ambientes de desenvolvimento, então estou fazendo esse post para falar um pouco mais sobre o meu.
 Sistema Operacional Já usei Windows um bom tempo atrás, e agora tenho um pós-conceito para usar (preconceito é só quando vc não conhece), não vejo nenhuma vantagem para utilizar ele e acho que não vale o preço (tenho um Vista e um Win7 originais que ganhei na compra do notebook e na CampusParty e nem uso).</description>
             <content type="html"><![CDATA[<p>Fui convidado pelo <a href="http://twitter.com/#!/jtadeulopes">@jtadeulopes</a> e
@@ -8474,10 +8657,10 @@ exemplo) mas acho que isso ae já é uma visão geral :D</p>
         
         <item>
             <title>Semana de eventos (#rubyconfbr, #adl e #gddbr)</title>
-            <link>https://pothix.com/posts/rubyconfbr-adl-gddbr/</link>
+            <link>https://pothix.com/rubyconfbr-adl-gddbr/</link>
             <pubDate>Sun, 31 Oct 2010 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/rubyconfbr-adl-gddbr/</guid>
+            <guid>https://pothix.com/rubyconfbr-adl-gddbr/</guid>
             <description>Na semana passada (semana do dia 24 ao dia 30 de outubro) foi uma semana de grandes eventos, que eu tive o prazer de participar de todos! :)
 Rubyconf Brasil A Rubyconf Brasil é o Antigo Rails Summit Latin America, que acontecia no centro de convenções do Anhembi, e agora mudou sua localização para o centro de convenções Frei Caneca, para diminuir os custos e prover um local mais acessível para os participantes (próximo ao metrô e a avenida paulista).</description>
             <content type="html"><![CDATA[<p>Na semana passada (semana do dia 24 ao dia 30 de outubro) foi uma
@@ -8595,10 +8778,10 @@ trabalho, e descansei no final da semana! Portanto&hellip; Vitória! :D</p>
         
         <item>
             <title>Conto da migração para Rails 3</title>
-            <link>https://pothix.com/posts/migracao-rails3/</link>
+            <link>https://pothix.com/migracao-rails3/</link>
             <pubDate>Thu, 21 Oct 2010 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/migracao-rails3/</guid>
+            <guid>https://pothix.com/migracao-rails3/</guid>
             <description>Nesse post eu vou falar um pouco de como foi atualizar a aplicação que eu trabalho atualmente para Rails3.
 Em uma segunda feira eu tive a brilhante ideia de aproveitar que as tasks que eu estava fazendo estavam dependentes de algumas coisas que ainda não estavam feitas, e resolvi começar a atualizar a aplicação para Rails3 só para saber o trabalho que ia dar, e no final do dia eu já tinha feito todas as alterações necessárias para o boot da aplicação e para rodar a suite de testes (não fazer os testes passar, apenas rodar!</description>
             <content type="html"><![CDATA[<p>Nesse post eu vou falar um pouco de como foi atualizar a aplicação que
@@ -8723,10 +8906,10 @@ sua aplicação. :)</p>
         
         <item>
             <title>Fluxo de leitura e o Android</title>
-            <link>https://pothix.com/posts/leitura-android/</link>
+            <link>https://pothix.com/leitura-android/</link>
             <pubDate>Wed, 08 Sep 2010 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/leitura-android/</guid>
+            <guid>https://pothix.com/leitura-android/</guid>
             <description>Quem me conhece sabe como eu sou meio doido quanto a ler coisas aleatórias (Google reader e artigos interessantes que eu acho perdidos por aí), e como eu tenho um tempo um pouco limitado, devido ao trabalho e a faculdade eu sempre tenho alguns esquemas diferentes para ler. :P
 Fluxo de leitura Depois que eu comprei um Android o meu fluxo de leitura se modificou um pouco. E está da seguinte maneira:</description>
             <content type="html"><![CDATA[<p>Quem me conhece sabe como eu sou meio doido quanto a ler coisas
@@ -8802,10 +8985,10 @@ se fosse um ebook comum! :)</p>
         
         <item>
             <title>Motorola Milestone e Android</title>
-            <link>https://pothix.com/posts/motorola-milestone/</link>
+            <link>https://pothix.com/motorola-milestone/</link>
             <pubDate>Wed, 08 Sep 2010 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/motorola-milestone/</guid>
+            <guid>https://pothix.com/motorola-milestone/</guid>
             <description>Muita gente tem me perguntado sobre o meu Android atual, um motorola Milestone, e resolvi postar algumas informações e opiniões sobre o aparelho e sobre o Android em si.
 Primeiramente, gostaria de dizer que o Android é um sistema muito bom, e estou bastante satisfeito com as features, apps, SDK e etc.
 Milestone É um aparelho bem legal e na minha opinião é o Android mais &amp;ldquo;custo X benefício&amp;rdquo; do Brasil.</description>
@@ -8862,10 +9045,10 @@ que eu estou mantendo com uns amigos.</p>
         
         <item>
             <title>Rework</title>
-            <link>https://pothix.com/posts/rework/</link>
+            <link>https://pothix.com/rework/</link>
             <pubDate>Fri, 06 Aug 2010 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/rework/</guid>
+            <guid>https://pothix.com/rework/</guid>
             <description>Hoje terminei de ler o livro da 37signals chamado Rework! E vou falar um pouco sobre a idéia dele aqui.
 Atualmente eu fiz uma compra na Amazon em conjunto com uns amigos (@vinibaggio, @hugobarauna, @cantoniodasilva), e cogitei a compra do Rework, mas depois de uma pergunta no Twitter e algumas respostas sobre a idéia do livro eu resolvi não comprar, pois parecia muito gerencial, e acabei optando por outros (Design Patterns In Ruby, Ruby Programming Language, The Pragmatic Programmer), que falarei em outros posts :P.</description>
             <content type="html"><![CDATA[<p>Hoje terminei de ler o livro da 37signals chamado Rework! E vou falar
@@ -8910,10 +9093,10 @@ como uma pequena empresa.</p>
         
         <item>
             <title>FISL11</title>
-            <link>https://pothix.com/posts/fisl11/</link>
+            <link>https://pothix.com/fisl11/</link>
             <pubDate>Sun, 01 Aug 2010 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/fisl11/</guid>
+            <guid>https://pothix.com/fisl11/</guid>
             <description>Finalmente depois de 4 anos planejando eu consegui ir para o FISL! :)
 Para quem ainda não sabe, eu estou trabalhando na Locaweb desde o começo deste mês e consegui ir com a equipe deles para o FISL.
 Esperava um conteúdo técnico melhor no FISL, e algumas palestras (ou a falta de boas palestras) me decepcionou um pouco, mas pelo que eu fiquei sabendo foi decisão do público os temas, então ficou meio incontrolável.</description>
@@ -9032,10 +9215,10 @@ picasa</a>. ;)</p>
         
         <item>
             <title>Serviços legais de Março</title>
-            <link>https://pothix.com/posts/servicos-mar2010/</link>
+            <link>https://pothix.com/servicos-mar2010/</link>
             <pubDate>Thu, 01 Apr 2010 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/servicos-mar2010/</guid>
+            <guid>https://pothix.com/servicos-mar2010/</guid>
             <description>Como vocês puderam perceber (ou não) eu não postei sobre os serviços legais de fevereiro e tenho um bom motivo para isso: Não achei nenhum serviço que valia a pena ser mencionado e não queria fazer um post enchendo linguiça! :P
 O meu ultimo post foi sobre o Yahoo Open Hack 2009, e lá eu pude conhecer muita coisa legal, e ver outras nascendo de projetos lá mesmo! Por isso tenho informações legais para essa série novamente!</description>
             <content type="html"><![CDATA[<p>Como vocês puderam perceber (ou não) eu não postei sobre os serviços
@@ -9087,10 +9270,10 @@ melhores do que a sua biblioteca preferida.</p>
         
         <item>
             <title>Linux, Vim, Screen e Pair programming!</title>
-            <link>https://pothix.com/posts/linux-pairprog/</link>
+            <link>https://pothix.com/linux-pairprog/</link>
             <pubDate>Mon, 29 Mar 2010 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/linux-pairprog/</guid>
+            <guid>https://pothix.com/linux-pairprog/</guid>
             <description>Aqui estou eu mais uma vez para falar mais uma das maluquices que eu fiz um bom tempo atrás mas não tive tempo de postar.
 Primeiramente eu vou falar o que muita gente já falou muito bem, que é sobre screen e pair programming. Mas vou dizer como funcionou para mim. Alguns posts que eu li antes e depois de começar a brincar com screen e pair programming, e que eu gostei:</description>
             <content type="html"><![CDATA[<p>Aqui estou eu mais uma vez para falar mais uma das maluquices que eu
@@ -9196,10 +9379,10 @@ que trabalhamos) mas você obviamente perde um pouco de espaço.</p>
         
         <item>
             <title>Palestra sobre Vim</title>
-            <link>https://pothix.com/posts/palestra-vim/</link>
+            <link>https://pothix.com/palestra-vim/</link>
             <pubDate>Mon, 29 Mar 2010 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/palestra-vim/</guid>
+            <guid>https://pothix.com/palestra-vim/</guid>
             <description>Esse vai ser um post curto, apenas para deixar registrado algumas informações sobre a palestra de Vim que teve no sétimo encontro do Guru-sp (sim, eu fui o palestrante :D).
 Primeiramente, já começo com uma desculpa, por que já faz mais de 2 semanas que palestrei e só agora estou fazendo esse post. :(
 Foi bem legal palestrar para uma galera que já conhecia ao menos um pouco do editor. Quando eu estava planejando o que eu ia falar eu fiquei com uma grande dúvida de qual seria a minha linha de apresentação, por que eu não sabia quantos já conheciam o editor, portanto eu poderia chegar falando de coisas avançadas e ninguem entenderia nada, ou pelo contrário, se muitos conhecessem e eu chegasse falando de coisas básicas demais a palestra seria um saco.</description>
@@ -9232,10 +9415,10 @@ Hugo!), e portanto temos o vídeo tambem:</p>
         
         <item>
             <title>Yahoo Open Hack 2010</title>
-            <link>https://pothix.com/posts/hack2010/</link>
+            <link>https://pothix.com/hack2010/</link>
             <pubDate>Mon, 29 Mar 2010 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/hack2010/</guid>
+            <guid>https://pothix.com/hack2010/</guid>
             <description>Para quem ainda não soube, no final de semana passado rolou o Yahoo Open Hack Day 2010! O intuito do evento é juntar uma grande quantidade de Hackers para criar serviços úteis utilizando informações públicas e de preferência utilizar as API&amp;rsquo;s do Yahoo (havia premios para alguns hacks com elas).
 Uma das coisas legais do evento é que nada é proibido com relação aos Hacks, ou seja, você pode fazer um Hack com as ferramentas do Google (não vai concorrer aos premios, mas poderá apresentar lá e tudo mais), todas as linguagens de programação estão permitidas, não somente hacks web eram permitidos, o que deixou a criatividade ir longe.</description>
             <content type="html"><![CDATA[<p>Para quem ainda não soube, no final de semana passado rolou o Yahoo
@@ -9313,10 +9496,10 @@ Picasa</a>.</p>
         
         <item>
             <title>Campus Party 2010</title>
-            <link>https://pothix.com/posts/campusparty2010/</link>
+            <link>https://pothix.com/campusparty2010/</link>
             <pubDate>Tue, 02 Feb 2010 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/campusparty2010/</guid>
+            <guid>https://pothix.com/campusparty2010/</guid>
             <description>Esse começo de ano eu estou aproveitando para participar de alguns eventos, e a Campus Party é um dos principais deles. Assim que eu entrei na empresa que eu estou trabalhando atualmente eu já informei que em janeiro tinha um evento que eu gostaria muito de participar (entrei na empresa em abril :P) e deixei combinado que eu estaria liberado para o tal, portanto agora consegui uma semana de férias para aproveitar a campus party!</description>
             <content type="html"><![CDATA[<p>Esse começo de ano eu estou aproveitando para participar de alguns
 eventos, e a Campus Party é um dos principais deles.  Assim que eu
@@ -9406,10 +9589,10 @@ precisa &ldquo;entrar na brincadeira&rdquo; e aproveitar. ;)</p>
         
         <item>
             <title>Show do Metallica</title>
-            <link>https://pothix.com/posts/metallica2010/</link>
+            <link>https://pothix.com/metallica2010/</link>
             <pubDate>Tue, 02 Feb 2010 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/metallica2010/</guid>
+            <guid>https://pothix.com/metallica2010/</guid>
             <description>E vou para um assunto meio OFF no meu blog (ou não), que é falar de shows que vou, nesse caso o do Metallica!
 Há muito tempo queria que o Metallica viesse para o Brasil, e no ano passado que tiveram vários shows bons (ACDC, Motorhead, Megadeth, Iron Maiden e etc) fiquei sabendo que eles viriam ao Brasil e já antecipei a compra do ingresso com a ajuda do meu amigo Bruno Assis que é cliente do CityBank.</description>
             <content type="html"><![CDATA[<p>E vou para um assunto meio OFF no meu blog (ou não), que é falar de
@@ -9498,10 +9681,10 @@ Se tiver a chance de ir&hellip;Vá! :D</p>
         
         <item>
             <title>Serviços legais de Janeiro</title>
-            <link>https://pothix.com/posts/servicos-jan2010/</link>
+            <link>https://pothix.com/servicos-jan2010/</link>
             <pubDate>Tue, 26 Jan 2010 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/servicos-jan2010/</guid>
+            <guid>https://pothix.com/servicos-jan2010/</guid>
             <description>E ae galera! Vamos para mais um post sobre os serviços legais do mes.
 OpenDNS Estranho eu falar de OpenDNS não? Já existe faz tanto tempo e muita gente já conhece/usa. O que me fez colocar ele na lista de serviços legais foi justamente as opções que você tem na web do OpenDNS!
 Se você se cadastrar no OpenDNS você pode configurar muitas coisas legais, como por exemplo a página de endereço não encontrado, ou a página de tentativa de fishing, entre outras.</description>
@@ -9545,10 +9728,10 @@ curtos, portanto, eu fico por aqui! Espero que sejam úteis! ;)</p>
         
         <item>
             <title>BookReview: A cabeça de Steve Jobs</title>
-            <link>https://pothix.com/posts/stevejobs/</link>
+            <link>https://pothix.com/stevejobs/</link>
             <pubDate>Tue, 05 Jan 2010 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/stevejobs/</guid>
+            <guid>https://pothix.com/stevejobs/</guid>
             <description>Aqui estou eu novamente para falar de um livro que eu li nas férias! Dessa vez vou comentar sobre: &amp;ldquo;A cabeça de Steve Jobs&amp;rdquo;
 Sobre o livro O livro é bem interessante e conta como Steve Jobs fez para ter o sucesso que tem atualmente, contando não somente os acertos, mas também os erros de Steve com o mercado, o que faz com que você caia na real que ele (assim como você) é apenas uma pessoa comum e que as vezes suas decisões fantásticas levavam a uma má situação.</description>
             <content type="html"><![CDATA[<p>Aqui estou eu novamente para falar de um livro que eu li nas férias!
@@ -9606,10 +9789,10 @@ certeza já mudou um pouco a minha forma de pensar. ;)</p>
         
         <item>
             <title>BookReview: Anjos e Demônios</title>
-            <link>https://pothix.com/posts/anjosedemonios/</link>
+            <link>https://pothix.com/anjosedemonios/</link>
             <pubDate>Mon, 28 Dec 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/anjosedemonios/</guid>
+            <guid>https://pothix.com/anjosedemonios/</guid>
             <description>Felizmente eu estou de férias da faculdade novamente, e isso me dá um tempo livre para ler alguns livros, portanto resolvi começar com “Anjos e Demônios“, que é um livro que eu estou postergando a leitura faz mais de 2 anos (desde que li o código da vinci).
 Eu particularmente gosto dos livros do Dan Brown, pois em sua grande maioria são histórias “polemicas” por misturar alguns fatos reais (que ninguem consegue provar a favor nem contra) com outros que são pura ficção.</description>
             <content type="html"><![CDATA[<p>Felizmente eu estou de férias da faculdade novamente, e isso me dá um
@@ -9667,10 +9850,10 @@ se você já leu o livro. 😉</p>
         
         <item>
             <title>Crontab dentro da sua aplicação rails com whenever</title>
-            <link>https://pothix.com/posts/crontab-rails/</link>
+            <link>https://pothix.com/crontab-rails/</link>
             <pubDate>Wed, 02 Dec 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/crontab-rails/</guid>
+            <guid>https://pothix.com/crontab-rails/</guid>
             <description>Hoje estou aqui para falar de uma coisa que quando vi pela primeira vez ignorei por parecer uma coisa boba, mas olhando melhor eu percebi que é uma idéia bem interessante. O que a gem whenever faz é manter o seu crontab de uma forma mais Ruby, e melhor, dentro da sua aplicação!
 A principio parece estranho tentar manter o crontab dentro da sua aplicação, mas ganhamos muitas vantagens com isso:</description>
             <content type="html"><![CDATA[<p>Hoje estou aqui para falar de uma coisa que quando vi pela primeira vez
@@ -9745,10 +9928,10 @@ exemplos de como usar no <a href="http://www.railscasts.com">Railscasts</a> e na
         
         <item>
             <title>Dev In Sampa</title>
-            <link>https://pothix.com/posts/devinsampa/</link>
+            <link>https://pothix.com/devinsampa/</link>
             <pubDate>Wed, 02 Dec 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/devinsampa/</guid>
+            <guid>https://pothix.com/devinsampa/</guid>
             <description>Nesse sábado, dia 28/11/2009 aconteceu aqui em São Paulo (obviamente! :P ) o Dev In Sampa! Um evento para desenvolvedores em geral, sem foco em uma determinada linguagem de programação, ou seja, um evento bem legal e pragmatico! :D
 Perdi um pouco a hora, portanto não assisti o começo da palestra do José Valim, que por sinal é um assunto que muito me interessa, portanto recorri aos vídeos do @agaelebe para assistir o comecinho.</description>
             <content type="html"><![CDATA[<p><a href="/images/posts/dev_in_sampa.jpg" title=""><img src="/images/posts/dev_in_sampa.jpg" alt="Imagem com o logo do DevInSampa" title="Logo do DevInSampa"></a></p>
@@ -9900,10 +10083,10 @@ novamente na próxima edição! :D</p>
         
         <item>
             <title>Serviços legais de dezembro</title>
-            <link>https://pothix.com/posts/servicos-dec2010/</link>
+            <link>https://pothix.com/servicos-dec2010/</link>
             <pubDate>Wed, 02 Dec 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/servicos-dec2010/</guid>
+            <guid>https://pothix.com/servicos-dec2010/</guid>
             <description>Infelizmente não consegui postar sobre os serviços legais do mes de novembro por que eu estava cheio de coisas para fazer ( devido as provas de fim de ano, e meu curso é anual ), portanto não consegui agregar nada para novembro, e muito menos tempo para postar. Mas agora estou eu aqui denovo para postar sobre o que eu achei de legal na internet nesse meio tempo! E lá vamos nós:</description>
             <content type="html"><![CDATA[<p>Infelizmente não consegui postar sobre os serviços legais do mes de
 novembro por que eu estava cheio de coisas para fazer ( devido as provas
@@ -9945,10 +10128,10 @@ desse mes. ;)</p>
         
         <item>
             <title>Show do ACDC</title>
-            <link>https://pothix.com/posts/acdc2009/</link>
+            <link>https://pothix.com/acdc2009/</link>
             <pubDate>Tue, 01 Dec 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/acdc2009/</guid>
+            <guid>https://pothix.com/acdc2009/</guid>
             <description>Como muitos sabem eu tive o prazer de estar no show do ACDC aqui no Brasil, que aconteceu no dia 27 de novembro de 2009.
 Eu não queria perder esse show por nada, por vários motivos, sendo 2 deles:
  Eu curto pra caramba ACDC Os caras já estão bem velhinhos! Assim como o Ozzy que eu fui e já pensava que podia ser a ultima vez :P  O show foi no estádio do Morumbi:</description>
@@ -10035,10 +10218,10 @@ de meu agrado, todas que eu gosto ).</p>
         
         <item>
             <title>Rails Summit 2009</title>
-            <link>https://pothix.com/posts/railssummit2009/</link>
+            <link>https://pothix.com/railssummit2009/</link>
             <pubDate>Mon, 19 Oct 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/railssummit2009/</guid>
+            <guid>https://pothix.com/railssummit2009/</guid>
             <description>Esse é um post para relatar como foi o Rails Summit Latin America desse ano! 😀 Já começo o post com um grande #win para a organização do #railssummit, por que eles tem tomadas para todos e wi-fi liberado para todos os participantes, o que ajuda para que pessoas como eu possam ficar postando no blog durante o evento, :) Vamos ao evento!
 Rails Insurgency – Chad Fowler A palestra foi muito interessante e o Chad Fowler falou sobre como é a dificuldade de implantar uma aplicação Rails em uma grande empresa quando você tem grandes gerentes que te enchem de perguntas do tipo: “Rails faz X?</description>
             <content type="html"><![CDATA[<p>Esse é um post para relatar como foi o Rails Summit Latin America desse
@@ -10232,10 +10415,10 @@ picasaweb</a>.</p>
         
         <item>
             <title>Serviços legais de outubro</title>
-            <link>https://pothix.com/posts/servicos-oct-2009/</link>
+            <link>https://pothix.com/servicos-oct-2009/</link>
             <pubDate>Sun, 04 Oct 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/servicos-oct-2009/</guid>
+            <guid>https://pothix.com/servicos-oct-2009/</guid>
             <description>Já estava me esquecendo de postar sobre os serviçoes legais desse mes! :P
 Estava com poucos quando lembrei, mas não demorou muito para que eu lembrasse de alguns muito bons. Vamos lá!
 yUML&amp;lt; O yUML é um serviço para se criar UML facilmente utilizando apenas uma URL com determinadas marcações. O caike que me mostrou no ultimo post quando eu tinha mencionado sobre criação deUML. Valeu Caike!
@@ -10274,10 +10457,10 @@ arrastar os post-its para as próximas áreas ( todo, wip, verify, done
         
         <item>
             <title>Instalando e configurando o monit</title>
-            <link>https://pothix.com/posts/monit/</link>
+            <link>https://pothix.com/monit/</link>
             <pubDate>Thu, 10 Sep 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/monit/</guid>
+            <guid>https://pothix.com/monit/</guid>
             <description>Esses dias eu peguei para instalar o monit no servidor da empresa que eu trabalho e sofri um pouquinho com algumas coisas básicas, portanto decidi postar aqui para que seja útil para quem quer começar a utilizar o monit.
 Se você usa Ubuntu, você pode fazer download do Monit por apt-get:
 sudo apt-get install monit  Se você não usa Ubuntu ou quer a ultima versão do Monit, então faça download do tar.</description>
@@ -10334,10 +10517,10 @@ monitoração e gostou do monit. :)</p>
         
         <item>
             <title>Serviços legais de setembro</title>
-            <link>https://pothix.com/posts/servicos-sep-2009/</link>
+            <link>https://pothix.com/servicos-sep-2009/</link>
             <pubDate>Thu, 10 Sep 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/servicos-sep-2009/</guid>
+            <guid>https://pothix.com/servicos-sep-2009/</guid>
             <description>E lá vamos nós novamente para mais um post sobre os serviços legais que eu encontrei esse mes.
 Creately O Creately é um site para se fazer diagramas! Eu estava procurando por isso faz bastante tempo e nunca tinha achado um satisfatório, mas esse parece ser muito bom!
 Com ele é possível fazer uma grande quantidade coisas, como diagramas de classe, fluxograma, esqueletos de layout e mais um monte de coisas legais e depois exportar para alguns formatos.</description>
@@ -10374,10 +10557,10 @@ ou várias outras coisas interessantes.</p>
         
         <item>
             <title>Meme: Game design ao Extremo</title>
-            <link>https://pothix.com/posts/meme-gamedesign/</link>
+            <link>https://pothix.com/meme-gamedesign/</link>
             <pubDate>Sat, 22 Aug 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/meme-gamedesign/</guid>
+            <guid>https://pothix.com/meme-gamedesign/</guid>
             <description>Estou escrevendo esse post por que fui convocado para esse meme pelo Bruno Croci, que foi meu parceiro no desenvolvimento de um dos games vencedores do GameJam do itaú cultural, o Robotz Warehouse.
 A idéia do post é mostrar alguns games interessantes e falar a sua opinião sobre eles. As regras são:
  Liste quantos jogos em Flash quiser. Preferencialmente aqueles que, por algum motivo de design chamaram sua atenção. Diga o que desses jogos te chamou a atenção, seja em quantas linhas quiser.</description>
@@ -10467,10 +10650,10 @@ para games.</p>
         
         <item>
             <title>Saldo final das férias de julho</title>
-            <link>https://pothix.com/posts/ferias-julho2009/</link>
+            <link>https://pothix.com/ferias-julho2009/</link>
             <pubDate>Mon, 17 Aug 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/ferias-julho2009/</guid>
+            <guid>https://pothix.com/ferias-julho2009/</guid>
             <description>Eu sempre digo que a faculdade me atrasa bastante, por que eu não consigo estudar/fazer um monte de coisas que eu tenho vontade para me dedicar as coisas que a faculdade me obriga a fazer. Se a faculdade é bom ou ruim não é discussão para esse post, mas resolvi postar a quantidade de coisas que eu consegui fazer nessas férias aproveitando que eu não precisava me preocupar com a faculdade, assim deixando o tempo da noite e a cabeça menos preocupada:</description>
             <content type="html"><![CDATA[<p>Eu sempre digo que a faculdade me atrasa bastante, por que eu não
 consigo estudar/fazer um monte de coisas que eu tenho vontade para me
@@ -10538,10 +10721,10 @@ nessas férias&rdquo; :P</p>
         
         <item>
             <title>Um pouco sobre o Vim</title>
-            <link>https://pothix.com/posts/vim/</link>
+            <link>https://pothix.com/vim/</link>
             <pubDate>Fri, 14 Aug 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/vim/</guid>
+            <guid>https://pothix.com/vim/</guid>
             <description>Aqui começa uma série de artigos sobre por que eu gosto de usar o VIM para programar.
 Uma das primeiras coisas que eu gostaria de comentar é sobre a quebra de paradigma que você deve ter quando começa a usar um editor como o vim que tem vários modos de operação, ou seja, não é mais apenas digitar, pois cada modo de operação tem o seu modo de agir. Os modos de operação são os seguintes:</description>
             <content type="html"><![CDATA[<p>Aqui começa uma série de artigos sobre por que eu gosto de usar o VIM
@@ -10622,10 +10805,10 @@ ferramentas.</p>
         
         <item>
             <title>GameJam</title>
-            <link>https://pothix.com/posts/gamejam/</link>
+            <link>https://pothix.com/gamejam/</link>
             <pubDate>Wed, 12 Aug 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/gamejam/</guid>
+            <guid>https://pothix.com/gamejam/</guid>
             <description>Como alguns sabem no final de semana passado ( dias 7, 8 e 9 ) eu participei do GameJam do Itaú cultural.
 Nesse evento os participantes tinham que formar equipes de até 4 pessoas e fazer um jogo em 48 horas, sendo que o tema ao qual o jogo devia responder só seria passado na sexta feira as 19, e teríamos até as 19 horas do domingo para entregar o jogo pronto utilizando qualquer plataforma para desenvolvimento.</description>
             <content type="html"><![CDATA[<p><a href="/images/posts/gamejam_espaco.jpg" title=""><img src="/images/posts/gamejam_espaco.jpg" alt="Foto que mostra o pothix programando" title="Espaço do Gamejam"></a></p>
@@ -10772,10 +10955,10 @@ que foi um contest de 48 horas&hellip;hehe):</p>
         
         <item>
             <title>Instalando o Allegro 4.2.2 no Linux x86</title>
-            <link>https://pothix.com/posts/allegro422/</link>
+            <link>https://pothix.com/allegro422/</link>
             <pubDate>Wed, 12 Aug 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/allegro422/</guid>
+            <guid>https://pothix.com/allegro422/</guid>
             <description>Como mencionei no meu ultimo post eu parcicipei do GameJam do Itaú cultural e desenvolvi um jogo com Allegro. Agora com o jogo pronto estou criando arquivos executáveis para divulgar e tinha me esquecido da diferença de arquitetura no Linux, assim compilei apenas para meu Linux x64.
 Quando me dei conta que não funcionou no computador do trabalho por que eu tinha um binário x64, eu tive que instalar o Allegro no computador de lá para poder fazer funcionar também em Linux x86.</description>
             <content type="html"><![CDATA[<p>Como mencionei no
@@ -10833,10 +11016,10 @@ rodar o meu jogo normalmente. :)</p>
         
         <item>
             <title>Serviços legais de Agosto</title>
-            <link>https://pothix.com/posts/servicos-aug2009/</link>
+            <link>https://pothix.com/servicos-aug2009/</link>
             <pubDate>Thu, 06 Aug 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/servicos-aug2009/</guid>
+            <guid>https://pothix.com/servicos-aug2009/</guid>
             <description>E lá vamos nós com mais um post (que felizmente estou conseguindo manter mensal) sobre os serviços legais que eu vi no mês passado e estou usando esse mês.
 TypingWeb O TypingWeb é um serviço web que possui vários tutoriais para aprender a digitar corretamente. Eu estou treinando digitação já faz um tempo utilizando o TypeRacing e um programinha para Linux chamado gtypist que tambem é bem legal para treinar. Achei esse site fantástico, e o mais legal de tudo é que tem uma versão em português, então eu posso passar para outras pessoas (como a minha mãe por exemplo) que tambem querem aprender a digitar melhor mas não se dão bem com o inglês.</description>
             <content type="html"><![CDATA[<p>E lá vamos nós com mais um post (que felizmente estou conseguindo
@@ -10882,10 +11065,10 @@ E espero que sejam úteis para vocês assim como são para mim. :)</p>
         
         <item>
             <title>BookReview: High Performance Websites</title>
-            <link>https://pothix.com/posts/highperfwebsites/</link>
+            <link>https://pothix.com/highperfwebsites/</link>
             <pubDate>Thu, 30 Jul 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/highperfwebsites/</guid>
+            <guid>https://pothix.com/highperfwebsites/</guid>
             <description>Mais um dos livros que eu consegui terminar de ler nas férias! O livro fala sobre performance de front end, como fazer as suas páginas carregarem mais rapidamente e fornecer uma melhor experiência para o usuário.
 O livro começa explicando um pouco sobre o HTTP, seus métodos e utilizações, e depois inicia as sobre as 14 regras para ter um website mais performático. Eu vou tentar mostrar um pouco de cada uma das regras que o livro aborda, mas é claro que sem os grandes detalhes, comparações e exemplos que o livro dá, que são muito amplos e interessantes para se entender, mas vou dar uma visão geral de qual é o conteúdo da regra, para te chamar para comprar o livro e ler (ou não&amp;hellip;hehhe).</description>
             <content type="html"><![CDATA[<p>Mais um dos livros que eu consegui terminar de ler nas férias! O livro
@@ -11015,10 +11198,10 @@ bons argumentos para lhe dizer por que isso seria uma boa escolha.</p>
         
         <item>
             <title>Instalando gems do GitHub manualmente</title>
-            <link>https://pothix.com/posts/gems-github/</link>
+            <link>https://pothix.com/gems-github/</link>
             <pubDate>Tue, 28 Jul 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/gems-github/</guid>
+            <guid>https://pothix.com/gems-github/</guid>
             <description>Esse vai ser um post rápido para relatar um problema que eu tive ( e ainda estou tendo ) para instalar gems do GitHub.
 Por algum motivo bizarro (nem tanto assim, parece ser dns, mas já tentei opendns e nada) a página http://gems.github.com não abre de maneira nenhuma, enquanto a navegação continua normal sem nenhum problema&amp;hellip; A consequência disso é que eu não consigo colocar o source do github nas minhas configurações do Rubygems.</description>
             <content type="html"><![CDATA[<p>Esse vai ser um post rápido para relatar um problema que eu tive ( e
@@ -11057,10 +11240,10 @@ suas gems. :)</p>
         
         <item>
             <title>BookReview: Lord of the Rings</title>
-            <link>https://pothix.com/posts/lotr/</link>
+            <link>https://pothix.com/lotr/</link>
             <pubDate>Sat, 25 Jul 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/lotr/</guid>
+            <guid>https://pothix.com/lotr/</guid>
             <description>Chegou o momento que eu estava esperando há vários meses&amp;hellip;. Após terminar de ler, vou escrever sobre O Senhor dos Anéis! :D
 Todos que me conhecem sabem como eu sou apaixonado pelo mundo de O senhor dos anéis na verdade sobre histórias medievais e o Senhor dos anéis é foda), e eu só tinha assistido o filme (mais de 10 vezes o primeiro, e milhões de vezes os outros 2) e não tinha lido o livro ainda, o que me deixava inquieto, pois eu sabia muito bem que o nível de riquezas e detalhes do livro ia muito alem do que eu podia imaginar, sem contar que muita coisa foi cortada no filme (obviamente) para que se fosse feita uma boa adaptação.</description>
             <content type="html"><![CDATA[<p>Chegou o momento que eu estava esperando há vários meses&hellip;. Após
@@ -11227,10 +11410,10 @@ leu, e recomendo muito mesmo que você leia, por que vale muito a pena!</p>
         
         <item>
             <title>GameReview: SpiderMan - Friend or Foe</title>
-            <link>https://pothix.com/posts/spiderman-friendorfoe/</link>
+            <link>https://pothix.com/spiderman-friendorfoe/</link>
             <pubDate>Wed, 22 Jul 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/spiderman-friendorfoe/</guid>
+            <guid>https://pothix.com/spiderman-friendorfoe/</guid>
             <description>Aqui estou eu com mais um GameReview de um jogo que eu tenho jogado ultimamente no PSP e finalmente no sábado as 02:15 eu consegui terminar, o Spiderman - Friend or foe!
 Como quem já me conhece sabe, eu sou um fã de homem aranha! Não aquele fã que tem todos os quadrinhos ou que fica comprando um monte de coisas, mas eu sempre gostei das histórias do aranha e sempre que possível comprava ou pegava emprestado algumas séries de quadrinhos para ler, ou jogos para jogar, ou desenhos/filmes para assistir, enfim&amp;hellip; Homem Aranha FTW!</description>
             <content type="html"><![CDATA[<p>Aqui estou eu com mais um GameReview de um jogo que eu tenho jogado
@@ -11293,10 +11476,10 @@ conseguir ir até o final.</p>
         
         <item>
             <title>Encontro de numero 5 do Guru-sp</title>
-            <link>https://pothix.com/posts/gurusp-meetup5/</link>
+            <link>https://pothix.com/gurusp-meetup5/</link>
             <pubDate>Tue, 21 Jul 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/gurusp-meetup5/</guid>
+            <guid>https://pothix.com/gurusp-meetup5/</guid>
             <description>Nesse sábado aconteceu o quinto encontro do Guru-sp! :)
 O encontro estava marcado para as 10 da manhã com uma seção para iniciantes e começou as 10:30 ( sempre atrasa um pouquinho né? hehe ), já com um bate papo legal coordenado pelo @rafaelrosafu após uma breve apresentação de todos os participantes.
 Rails para iniciantes Nessa primeira seção tiveram muitas conversas interessantes sobre algumas filosofias Rails, como:
@@ -11379,10 +11562,10 @@ amizades e conhecimentos!</p>
         
         <item>
             <title>GameReview: Diablo</title>
-            <link>https://pothix.com/posts/diablo/</link>
+            <link>https://pothix.com/diablo/</link>
             <pubDate>Mon, 20 Jul 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/diablo/</guid>
+            <guid>https://pothix.com/diablo/</guid>
             <description>Pois é&amp;hellip; Sei que muitos de vocês devem estar pensando se esse era um review de algum demo do Diablo III que sabe se lá como eu teria conseguido por que ainda nem lançou, mas não, esse é um review do Diablo I! Estranho como um jogo lançado a tantos anos atrás tenha ganhado um review meu agora, não? :P
 Quando o Diablo I foi lançado eu mal sabia o que era ter um computador, e a única coisa que eu podia fazer era ver um colega meu com o jogo original jogando enquanto eu ficava babando&amp;hellip;.</description>
             <content type="html"><![CDATA[<p>Pois é&hellip; Sei que muitos de vocês devem estar pensando se esse era um
@@ -11468,10 +11651,10 @@ maldade com você&hellip;.</p>
         
         <item>
             <title>BookReview: Pragmatic version control using Git</title>
-            <link>https://pothix.com/posts/pragmaticgit/</link>
+            <link>https://pothix.com/pragmaticgit/</link>
             <pubDate>Sun, 19 Jul 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/pragmaticgit/</guid>
+            <guid>https://pothix.com/pragmaticgit/</guid>
             <description>Há tempos que eu estava querendo conhecer um pouco mais do Git e nos últimos dias estava procurando um livro legal, quando me deparei com esse livro. Fiz algumas perguntas para um pessoal no Twitter como pessoalmente sobre esse livro, alguns me recomendavam, outros me passavam outros também interessantes, e estava em dúvida entre comprar ou não, até que consegui emprestado e li em 3 dias.
 O livro é bem interessante, aborda desde o mais básico até o nível intermediário, não abordando conteúdos tão avançados.</description>
             <content type="html"><![CDATA[<p>Há tempos que eu estava querendo conhecer um pouco mais do Git e nos
@@ -11541,10 +11724,10 @@ legais.</p>
         
         <item>
             <title>Como desabilitar o beep no Ubuntu</title>
-            <link>https://pothix.com/posts/ubuntu-beep/</link>
+            <link>https://pothix.com/ubuntu-beep/</link>
             <pubDate>Thu, 09 Jul 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/ubuntu-beep/</guid>
+            <guid>https://pothix.com/ubuntu-beep/</guid>
             <description>Resolvi postar sobre isso por que é uma coisa tão simples mas irrita muito quando você não sabe como desabilitar, e sempre que eu procurava eu caia em fóruns com vários comandos bizarros e colocar algo referente ao com no blacklist e não sei o que mais lá que era chato de se fazer, quando é tão fácil.
 O que sempre acontecia é que eu estava aqui ouvindo boa musica (e alta, por sinal) e programando, o que me levava ao terminal em vários momentos, e quando eu menos espero aquele meu backspace adicional gera um beep monstruoso que dá um grande susto, e isso me irritava profundamente.</description>
             <content type="html"><![CDATA[<p>Resolvi postar sobre isso por que é uma coisa tão simples mas irrita
@@ -11577,10 +11760,10 @@ emitindo beeps supostamente benéficos para vc! :P</p>
         
         <item>
             <title>Serviços legais de Julho</title>
-            <link>https://pothix.com/posts/servicos-jul2009/</link>
+            <link>https://pothix.com/servicos-jul2009/</link>
             <pubDate>Sat, 04 Jul 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/servicos-jul2009/</guid>
+            <guid>https://pothix.com/servicos-jul2009/</guid>
             <description>Esse mês eu estou conseguindo novamente fazer um post sobre os serviços legais que eu encontrei esse mês ( e alguns que eu já uso faz tempo )
 Wakoopa O Wakoopa é um software que você instala em seu computador e ele lhe dá estatísticas do que você mais usa, entre aplicações desktop e webapps! Mas isso não é o melhor disso tudo! O melhor é que ele se integra com uma conta que você tem no site do Wakoopa e se torna uma rede social onde você pode ver o que seus amigos estão usando, fazer reviews de softwares que você gosta, encontrar softwares novos e outras coisas bem legais!</description>
             <content type="html"><![CDATA[<p>Esse mês eu estou conseguindo novamente fazer um post sobre os
@@ -11632,10 +11815,10 @@ web interessantes! ;)</p>
         
         <item>
             <title>Opera Unite</title>
-            <link>https://pothix.com/posts/opera-unite/</link>
+            <link>https://pothix.com/opera-unite/</link>
             <pubDate>Tue, 16 Jun 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/opera-unite/</guid>
+            <guid>https://pothix.com/opera-unite/</guid>
             <description>Hoje é o dia em que o pessoal da Opera falou que iria reinventar a web, e o que eles fizeram foi lancar o Opera Unite!
 A idéia do Opera Unite é tornar a internet mais interligada, fazendo com que você consiga compartilhar arquivos, conversar com amigos e outras coisas apenas usando o browser.
 Eu nunca utilizei Opera ( não por que eu sou contra, e sim por que eu nunca precisei e sempre estive confortável com o Firefox, principalmente para desenvolver ), mas achei interessante a campanha de marketing e a idéia deles com esse novo produto.</description>
@@ -11683,10 +11866,10 @@ não é rápida o suficiente para dar uma boa impressão para o serviço.</p>
         
         <item>
             <title>Instalando modem 3G Claro USB E226 no Ubuntu</title>
-            <link>https://pothix.com/posts/modemclaro-ubuntu/</link>
+            <link>https://pothix.com/modemclaro-ubuntu/</link>
             <pubDate>Sat, 13 Jun 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/modemclaro-ubuntu/</guid>
+            <guid>https://pothix.com/modemclaro-ubuntu/</guid>
             <description>Após receber um modem Claro da empresa que eu trabalho atualmente eu fui fazer o processo de instalação no Ubuntu. Já tinha recebido a informação de um colega de trabalho de como fazer, e obviamente não foi nada difícil (o que que é difícil no Ubuntu? :)).
 Vou descrever aqui o processo:
  Inserir o modem na entrada USB Vai aparecer um assistente de configuração simples ( Next Next Finish ), para você seguir e instalar.</description>
@@ -11722,10 +11905,10 @@ para <strong>208.67.222.222, 208.67.220.220</strong>.</p>
         
         <item>
             <title>Serviços interessantes</title>
-            <link>https://pothix.com/posts/servicos-jul2019/</link>
+            <link>https://pothix.com/servicos-jul2019/</link>
             <pubDate>Fri, 12 Jun 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/servicos-jul2019/</guid>
+            <guid>https://pothix.com/servicos-jul2019/</guid>
             <description>Depois de conhecer alguns serviços legais na internet resolvi postar sobre eles aqui. Gostaria de fazer um post desse tipo mensalmente ( assim como o Ronaldo Ferraz faz no seu blog sobre o balanço cultural, que eu acho bem legal ), mas pelo menos dessa vez quero postar algumas coisas legais, e se possível eu posto periódicamente o que eu tenho feito / encontrado de divertido. ;)
 Dropbox Já começando com o DropBox, que é uma aplicação para sincronização de arquivos.</description>
             <content type="html"><![CDATA[<p>Depois de conhecer alguns serviços legais na internet resolvi postar sobre eles aqui.  Gostaria de fazer um post desse tipo mensalmente ( assim como o <a href="http://logbr.reflectivesurface.com" title="Blog do Ronaldo Ferraz">Ronaldo Ferraz faz no seu blog</a> sobre o balanço cultural, que eu acho bem legal ), mas pelo menos dessa vez quero postar algumas coisas legais, e se possível eu posto periódicamente o que eu tenho feito / encontrado de divertido. ;)</p>
@@ -11775,10 +11958,10 @@ de compartilhar, espero que seja útil para os leitores do blog.</p>
         
         <item>
             <title>Organizando seu Gmail para manter Inbox zero</title>
-            <link>https://pothix.com/posts/gmail-inboxzero/</link>
+            <link>https://pothix.com/gmail-inboxzero/</link>
             <pubDate>Wed, 20 May 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/gmail-inboxzero/</guid>
+            <guid>https://pothix.com/gmail-inboxzero/</guid>
             <description>Agora chegando em tempo de provas e grande acumulo de atividades no trabalho eu fico começando a procurar as brechas de tempo que eu gasto &amp;ldquo;inútilmente&amp;rdquo; para ver se eu consigo aplicar em alguma coisa que possa me ajudar a cumprir todas as tarefas. Fiz uma pequena análise do tempo que eu perdia em determinados lugares, e vi que tanto e-mail como Twitter me consumiam uma grande quantidade de tempo ( com o Twitter é fácil, só desativar temporariamente e seguir menos gente ), portanto decidi fazer um refactoring!</description>
             <content type="html"><![CDATA[<p>Agora chegando em tempo de provas e grande acumulo de atividades no
 trabalho eu fico começando a procurar as brechas de tempo que eu gasto
@@ -11856,10 +12039,10 @@ tome tanto tempo.</p>
         
         <item>
             <title>Usando Git em projetos do Google Code</title>
-            <link>https://pothix.com/posts/git-googlecode/</link>
+            <link>https://pothix.com/git-googlecode/</link>
             <pubDate>Mon, 11 May 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/git-googlecode/</guid>
+            <guid>https://pothix.com/git-googlecode/</guid>
             <description>Resolvi escrever esse post depois de começar a contribuir para o projeto do vimbook, que está no Google Code.
 Como o Google Code só usa Subversion (infelizmente) e eu sou do mundo Git, resolvi usar a ferramenta Git para lidar com SVN, o git-svn! Com ele você pode clonar um repositório SVN e utilizar como Git, e na hora de &amp;ldquo;commitar&amp;rdquo; ele retransforma em SVN.
 Já havia tentado usar Git-svn no meu projeto de plugin para wordpress, mas nesse caso eu já tinha um repositório Git e fui tentar mandar para um repositório SVN vazio, o que só me deu dor de cabeça, e no fim das contas acabei jogando para um repositório SVN qualquer só para mandar para o Wordpress.</description>
@@ -11926,10 +12109,10 @@ utilizando Git. :D</p>
         
         <item>
             <title>Configurando seu Gtalk do Google Apps no Pidgin</title>
-            <link>https://pothix.com/posts/gtalk-pidgin/</link>
+            <link>https://pothix.com/gtalk-pidgin/</link>
             <pubDate>Sat, 09 May 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/gtalk-pidgin/</guid>
+            <guid>https://pothix.com/gtalk-pidgin/</guid>
             <description>Resolvi postar sobre isso depois de passar por 3 empresas que usam o Google Apps for your Domain e eu sempre esbarrar com o maldito probleminha ao se configurar o Pidgin.
 Pensei que isso era burrice minha de não ver a configuração correta, mas depois percebi que não era só eu que não via essas configurações para poder fazer o negócio funcionar! Como eu nunca anotava o processo, sempre tinha que ficar pesquisando para ver se achava algo relacionado a isso, e nunca funcionava.</description>
             <content type="html"><![CDATA[<p>Resolvi postar sobre isso depois de passar por 3 empresas que usam o
@@ -11965,10 +12148,10 @@ Google Apps! :)</p>
         
         <item>
             <title>Ubuntu 9.04</title>
-            <link>https://pothix.com/posts/ubuntu904/</link>
+            <link>https://pothix.com/ubuntu904/</link>
             <pubDate>Wed, 06 May 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/ubuntu904/</guid>
+            <guid>https://pothix.com/ubuntu904/</guid>
             <description>Hoje estou aqui para falar um pouco sobre o Ubuntu 9.04! :)
 Alguns dias atrás eu postei no twitter que não estava satisfeito com o Ubuntu 9.04, e abaixo descrevo alguns dos motivos.
 Primeiramente comecei tentando instalar ele pelo cd (para não ter que deixar o computador ligado mil horas baixando, e tambem por que tenho mais de 1 Ubuntu em casa, portanto mais de mil horas x 2) e não consegui&amp;hellip;.</description>
@@ -12034,10 +12217,10 @@ gracinhas! :P</p>
         
         <item>
             <title>Encontro de Design e Tecnologia Digital</title>
-            <link>https://pothix.com/posts/encontro-designtec/</link>
+            <link>https://pothix.com/encontro-designtec/</link>
             <pubDate>Sun, 26 Apr 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/encontro-designtec/</guid>
+            <guid>https://pothix.com/encontro-designtec/</guid>
             <description>Participei nesse sábado do EDTED (Encontro de Design e Tecnologia Digital), e vou postar as minhas impressões sobre o evento, focando as palestras que assisti:
 CMS’s livres: não reinventado a roda no desenvolvimento web A palestra foi conduzida por Paulino Michelazzo da Fábrica Livre, e foi uma palestra interessante!
 O palestrante soube levar bem a palestra, com momentos engraçados ( várias brincadeiras com Java e Windows, que obviamente não devem ser levadas a sério ), e apresentando como é fácil criar uma loja virtual utilizando o Joomla.</description>
@@ -12163,10 +12346,10 @@ perdeu! :D</p>
         
         <item>
             <title>Começando a falar de Ruby</title>
-            <link>https://pothix.com/posts/ruby-inicio/</link>
+            <link>https://pothix.com/ruby-inicio/</link>
             <pubDate>Mon, 13 Apr 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/ruby-inicio/</guid>
+            <guid>https://pothix.com/ruby-inicio/</guid>
             <description>Se você já conhece Ruby, ignore esse post! A idéia do post é mostrar um pouco da linguagem Ruby para pessoas que não conhecem nada sobre ela.
 Eu, claro, acho muito interessante que muita gente por aí ainda não conhece Ruby, mesmo com a grande popularização do Rails, e eu chego a ouvir coisas assim:
  &amp;ldquo;Não é você que programa naquela linguagem esquisita?&amp;rdquo;
@@ -12310,10 +12493,10 @@ se divertir com ele! :D</p>
         
         <item>
             <title>Plugin para WordPress: Anti IE6 Army</title>
-            <link>https://pothix.com/posts/antiie6army/</link>
+            <link>https://pothix.com/antiie6army/</link>
             <pubDate>Sat, 11 Apr 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/antiie6army/</guid>
+            <guid>https://pothix.com/antiie6army/</guid>
             <description>Estou postando para anunciar que foi lançada a versão 1.0 do meu plugin para Wordpress chamado anti-IE6-army! :D
 A idéia do plugin é juntar um exército de campanhas contra o Internet Explorer 6 que estão perdidas pela internet em um único plugin, para que todos que possuem blogs com Wordpress possam usar facilmente, sem precisal alterar HTML, ou abrir qualquer arquivo de código!
 Aqui no blog tem uma página só para falar do Plugin, e lá você pode obter mais informações.</description>
@@ -12351,10 +12534,10 @@ plugin. ;)</p>
         
         <item>
             <title>Translated Rubylearning presentation</title>
-            <link>https://pothix.com/posts/rubylearning-presentation/</link>
+            <link>https://pothix.com/rubylearning-presentation/</link>
             <pubDate>Fri, 10 Apr 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/rubylearning-presentation/</guid>
+            <guid>https://pothix.com/rubylearning-presentation/</guid>
             <description>As I promised, here goes my presentation! :)
 Finally i finished to translate all the presentation! Watched the video a lot of times, pausing and playing to write all I said translating to english. :)
 Fortunately I had a big help from my friend Victor Goff, that corrected all my grammar errors and typos.
@@ -12587,10 +12770,10 @@ with paypal.</p>
         
         <item>
             <title>Rails X Django</title>
-            <link>https://pothix.com/posts/rails-django/</link>
+            <link>https://pothix.com/rails-django/</link>
             <pubDate>Wed, 08 Apr 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/rails-django/</guid>
+            <guid>https://pothix.com/rails-django/</guid>
             <description>Como todos sabem eu sou do mundo Ruby/Rails (Não sou xiita mas é o que mais gosto) e de vez em quando começo a brincar com coisas diferentes para poder formar a minha própria opinião sobre o assunto. No mes de fevereiro me surgiu um projeto bem interessante para trabalhar, pessoas legais, oportunidade legal, bem interessante! O projeto seria feito em Python/Django, e achei bem interessante a idéia de poder comparar várias coisas do Rails com o Django.</description>
             <content type="html"><![CDATA[<p>Como todos sabem eu sou do mundo Ruby/Rails (Não sou xiita mas é o
 que mais gosto) e de vez em quando começo a brincar com coisas
@@ -12626,10 +12809,10 @@ projeto que você for usar. ;)</p>
         
         <item>
             <title>Ruby e Rails no mundo real</title>
-            <link>https://pothix.com/posts/rrails-mundoreal-overview/</link>
+            <link>https://pothix.com/rrails-mundoreal-overview/</link>
             <pubDate>Tue, 07 Apr 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/rrails-mundoreal-overview/</guid>
+            <guid>https://pothix.com/rrails-mundoreal-overview/</guid>
             <description>Como muitos leitores do Blog sabem, eu palestrei no Evento &amp;ldquo;Ruby e Rails no mundo real&amp;rdquo;, e vou fazer um pequeno overview desse evento que eu havia divulgado aqui no blog:
 O evento foi bem interessante, bem alem do que nós havíamos planejado nas primeiras conversas do primeiro encontro do GURU-SP, e atendeu bastante as nossas expectativas por ser o primeiro. Obviamente cometemos alguns erros que vamos melhorar no próximo, como garantir que tenha Wi-Fi por exemplo!</description>
             <content type="html"><![CDATA[<p>Como muitos leitores do Blog sabem, eu palestrei no Evento
@@ -12668,10 +12851,10 @@ assim que estiverem disponíveis ) é só acessar!</p>
         
         <item>
             <title>Projeto de fevereiro</title>
-            <link>https://pothix.com/posts/feb2010/</link>
+            <link>https://pothix.com/feb2010/</link>
             <pubDate>Fri, 03 Apr 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/feb2010/</guid>
+            <guid>https://pothix.com/feb2010/</guid>
             <description>No mês de fevereiro eu estive envolvido com um projeto bem interessante na empresa que estou trabalhando (ainda vamos trabalhar mais em nosso site 😛), que foi feito em Python / Django e deveria gerar páginas estáticas ( exigência do projeto ).
 Tivemos um prazo muito curto para tudo que deveria ser feito, o que gerou uma grande quantidade de trabalho fora do horário e dos dias comuns. Entre o começo e o fim do projeto, tínhamos o carnaval, portanto tivemos que deixar nossos espíritos carnavalescos guardados e partir para o trabalho árduo no feriado até horas indeterminadas.</description>
             <content type="html"><![CDATA[<p>No mês de fevereiro eu estive envolvido com um projeto bem
@@ -12737,10 +12920,10 @@ comemoração, quando terminavamos nossas features:</p>
         
         <item>
             <title>Ruby Inside Brasil</title>
-            <link>https://pothix.com/posts/rubyinsidebr/</link>
+            <link>https://pothix.com/rubyinsidebr/</link>
             <pubDate>Tue, 31 Mar 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/rubyinsidebr/</guid>
+            <guid>https://pothix.com/rubyinsidebr/</guid>
             <description>Há um tempo já que eu deveria ter postado sobre o Ruby Inside Brasil, mas estou esvaziando aos poucos o meu Todo List e estou aproveitando a promoção que eles fizeram para liberar esse post tambem. :)
 O Ruby Inside Brasil é a edição autorizada do Ruby Inside mantido pelo Peter Cooper. Uma ótima iniciativa para postar bom conteúdo em português.
 A idéia inicial do projeto foi do Carlos Brando, que junto com vários outros colaboradores está contruindo o nome do Ruby Inside Brasil, e tem como idéia não apenas postar traduções dos conteúdos do Ruby Inside em inglês, mas tambem postar conteúdo próprio escritos por desenvolvedores brasileiros, cobrindo tudo que acontece relacionado a Rails e Ruby aqui Brasil!</description>
@@ -12766,10 +12949,10 @@ patrocinar o projeto entre em contato com os responsáveis pela
         
         <item>
             <title>Colocando sua aplicação Rails na Dreamhost</title>
-            <link>https://pothix.com/posts/rails-dreamhost/</link>
+            <link>https://pothix.com/rails-dreamhost/</link>
             <pubDate>Wed, 25 Mar 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/rails-dreamhost/</guid>
+            <guid>https://pothix.com/rails-dreamhost/</guid>
             <description>Estou fazendo um pequeno site em Rails e como tinha que mostrar o andamento para um colega, aproveitei para testar como seria o Deploy desse projeto na DreamHost ( mesmo sabendo que o provedor final não será lá ), e achei muito fácil de se fazer, portanto resolvi escrever um pouco sobre o processo. :D
 Primeiramente, você precisa ter acesso SSH na sua conta. Se você ainda não tiver esse acesso apenas faça o seguinte procedimento:</description>
             <content type="html"><![CDATA[<p>Estou fazendo um pequeno site em Rails e como tinha que mostrar o
@@ -12833,10 +13016,10 @@ já terei minha aplicação alterada lá! :)</p>
         
         <item>
             <title>Show do Iron Maiden</title>
-            <link>https://pothix.com/posts/ironmaiden2009/</link>
+            <link>https://pothix.com/ironmaiden2009/</link>
             <pubDate>Tue, 17 Mar 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/ironmaiden2009/</guid>
+            <guid>https://pothix.com/ironmaiden2009/</guid>
             <description>Fui ao show do Iron maiden nesse domingo dia 15/03 e resolvi postar as minhas considerações.
 O show do Iron Maiden em si foi muito legal! Tocaram muitos clássicos como:
  Fear of the dark ( der&amp;hellip; ) Wasted Years Aces High The rime of ancient mariner Phanton of the Opera Hallowed be the name 666 the number of the beast The trooper  entre outras!
@@ -12902,10 +13085,10 @@ ver o Iron aqui no Brasil! :D</p>
         
         <item>
             <title>Curso de verão da USP</title>
-            <link>https://pothix.com/posts/usp-verao/</link>
+            <link>https://pothix.com/usp-verao/</link>
             <pubDate>Fri, 20 Feb 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/usp-verao/</guid>
+            <guid>https://pothix.com/usp-verao/</guid>
             <description>Com o fim do curso de verão de 2009 da USP, resolvi postar minhas impressões sobre o mesmo!
 O curso realmente foi muito bom e me ensinou muita coisa! Eu já tinha feito o curso no ano retrasado, mas não cheguei a terminar, por que o professor da época era muito foda e assumia que todos os alunos já sabiam do que ele estava falando, e para mim não significava tanto assim, portanto chegou um momento que eu simplesmente já não estava entendendo mais nada, e o professor já estava jogando matéria loucamente, portanto abandonei.</description>
             <content type="html"><![CDATA[<p><a href="/images/posts/curso_verao_ime.jpg" title=""><img src="/images/posts/curso_verao_ime.jpg" alt="Foto da grama escrito IME-USP" title="IME-USP"></a></p>
@@ -13045,10 +13228,10 @@ que vem e vá fazer um curso de verão! ;)</p>
         
         <item>
             <title>DC&#43;&#43; no Linux</title>
-            <link>https://pothix.com/posts/dcpp-linux/</link>
+            <link>https://pothix.com/dcpp-linux/</link>
             <pubDate>Mon, 09 Feb 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/dcpp-linux/</guid>
+            <guid>https://pothix.com/dcpp-linux/</guid>
             <description>Hoje finalmente estou conseguindo escrever um post sobre o DC++! Desde a Campus Party eu quero escrever esse post mas nunca consigo tempo!
 Para quem não conhece, o DC++ é um software para compartilhamento de arquivos, muito interessante, onde você pode facilmente compartilhar arquivos pela rede local, e por isso mesmo que foi muito utilizado na Campus Party, onde os campuseiros compartilharam terabytes e mais terabytes de arquivos!
 Atualmente estou utilizando Ubuntu no meu notebook (não tenho mais PC nem em casa e nem no trampo, portanto o meu Slackware se foi&amp;hellip;:() e vou mostrar aqui como instalar o seu DC++ nele!</description>
@@ -13099,10 +13282,10 @@ Party!</p>
         
         <item>
             <title>Dia difícil</title>
-            <link>https://pothix.com/posts/dia-dificil/</link>
+            <link>https://pothix.com/dia-dificil/</link>
             <pubDate>Sun, 08 Feb 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/dia-dificil/</guid>
+            <guid>https://pothix.com/dia-dificil/</guid>
             <description>Hoje o dia foi $#&amp;amp;&amp;amp;!
 
 Atualmente moro em Diadema (que não é uma cidade ruim como muitos ouvem falar), e tenho o azer de morar próximo a um córrego, que a prefeitura promete canalizar há mais de 10 anos, e agora parece que finalmente o projeto começou a andar, mas enquanto o projeto não é concluído de vez a coisa ficou pior que o normal&amp;hellip;
@@ -13166,10 +13349,10 @@ responder ) e seguir rumo&hellip;</p>
         
         <item>
             <title>Ruby e Rails no mundo real</title>
-            <link>https://pothix.com/posts/rrails-mundoreal/</link>
+            <link>https://pothix.com/rrails-mundoreal/</link>
             <pubDate>Fri, 06 Feb 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/rrails-mundoreal/</guid>
+            <guid>https://pothix.com/rrails-mundoreal/</guid>
             <description>Pessoal, hoje o meu post é para comentar sobre o evento do Guru-sp (Grupo de usuário Ruby de São Paulo), cujo fui um dos fundadores e participo até hoje (quem vê pensa que faz bastante tempo&amp;hellip; Apenas uns 4 meses haha).
 O evento já tem site oficial e está com as inscrições abertas!
 Pelo que estamos fazendo o evento tende a ser grande, com auditório para cerca de 200 pessoas, com direito a crachá, apostila, Coffee break e etc.</description>
@@ -13213,10 +13396,10 @@ com as novidades do evento.</p>
         
         <item>
             <title>VIVO online agora funciona no Firefox / Safari</title>
-            <link>https://pothix.com/posts/vivo-firefox/</link>
+            <link>https://pothix.com/vivo-firefox/</link>
             <pubDate>Fri, 30 Jan 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/vivo-firefox/</guid>
+            <guid>https://pothix.com/vivo-firefox/</guid>
             <description>Boas novas!
 Eu tinha feito um post sobre os usuários dos serviços da VIVO que tiveram que desenvolver uma extensão para conseguir acessar os serviços do Vivo on line, e agora a vivo anunciou oficialmente em seu blog que o Vivo on line funcionará bem em outros navegadores diferentes de Internet Explorer! :)
 Tudo bem que isso é um direito nosso e já deveria funcionar em todos desde o começo do serviço, pois prejudicava os usuários de outros sistemas operacionais diferentes do Windows, mas temos que parabenizar a VIVO por trabalhar em cima do problema que tinham e resolver assim como prometeram em novembro do ano passado!</description>
@@ -13241,10 +13424,10 @@ prestando maus serviços.</p>
         
         <item>
             <title>Campus Party 2009</title>
-            <link>https://pothix.com/posts/campusparty2009/</link>
+            <link>https://pothix.com/campusparty2009/</link>
             <pubDate>Mon, 26 Jan 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/campusparty2009/</guid>
+            <guid>https://pothix.com/campusparty2009/</guid>
             <description>Como sabem eu estive na Campus Party nessa ultima semana, e consegui aproveitar bastante do evento, apesar do monte de coisas que estão acontecendo na minha vida e a correria toda de trabalho, curso e outras coisas.
 Segue um pequeno resumo do que pude ver por lá:
 Segunda-feira dia 19/01/2009 Cheguei no evento mais ou menos as 15:00 e consegui entrar rapidinho&amp;hellip; Já armei a minha barraca (vide fotos) e deixei algumas coisas por lá para não ficar carregando, e fui conectar na internet que ainda estava bem precária que só funcionava em algumas mesas.</description>
@@ -13473,10 +13656,10 @@ evento para mim foi muito bom!</p>
         
         <item>
             <title>Usuários resolvem os problemas da VIVO</title>
-            <link>https://pothix.com/posts/problemas-vivo/</link>
+            <link>https://pothix.com/problemas-vivo/</link>
             <pubDate>Tue, 13 Jan 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/problemas-vivo/</guid>
+            <guid>https://pothix.com/problemas-vivo/</guid>
             <description>Primeiramente quero parabenizar o Diogo Santos pelo seu add-on para Firefox, que faz com que o botão &amp;ldquo;entrar&amp;rdquo; do site da Vivo funcione sem que você tenha que usar javascript para manipular pela barra de endereços. Parabéns Diogo, é uma ótima contribuição para a comunidade.
 Agora vem a hora da crítica&amp;hellip; Como que os usuários tem que ficar desenvolvendo formas alternativas para acessar os serviços que deveriam funcionar para eles, mas por descaso e serviço mal feito não lhe são concedidos?</description>
             <content type="html"><![CDATA[<p>Primeiramente quero parabenizar o
@@ -13516,10 +13699,10 @@ e a parabenização ao <a href="http://diogosantos.com/" title="Site do Diogo">D
         
         <item>
             <title>Fora IE6</title>
-            <link>https://pothix.com/posts/foraie6/</link>
+            <link>https://pothix.com/foraie6/</link>
             <pubDate>Mon, 12 Jan 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/foraie6/</guid>
+            <guid>https://pothix.com/foraie6/</guid>
             <description>Já está mais do que na hora de eu fazer um post sobre isso, e acho que não há momento mais propício do que esse afinal, até o Google já está dando alertassobre isso no Gmail. Sabemos que o Gmail é não é o serviço mais acessado do Google, mas isso já é uma grande ajuda para alertar os desavisados que esse navegador já passou da hora de deixar de existir, e quem sabe num futuro talvez distante ( espero que não tão distante assim ) o google resolva fazer algo parecido com o Orkut!</description>
             <content type="html"><![CDATA[<p>Já está mais do que na hora de eu fazer um post sobre isso, e acho que
 não há momento mais propício do que esse afinal, até o Google já está
@@ -13581,10 +13764,10 @@ solução para isso.</p>
         
         <item>
             <title>Deploying a simple Merb application on Locaweb</title>
-            <link>https://pothix.com/posts/merb-locaweb/</link>
+            <link>https://pothix.com/merb-locaweb/</link>
             <pubDate>Wed, 07 Jan 2009 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/merb-locaweb/</guid>
+            <guid>https://pothix.com/merb-locaweb/</guid>
             <description>I writing this post to help my friends of Rubylearning with a little Merb application deployment on Locaweb. I&amp;rsquo;m just translating some informations that you can find here in portuguese.
 Lets get started! :D
 First open the
@@ -13644,10 +13827,10 @@ pointed by apache with Phusion Passenger.</p>
         
         <item>
             <title>New year is coming</title>
-            <link>https://pothix.com/posts/newyear2008/</link>
+            <link>https://pothix.com/newyear2008/</link>
             <pubDate>Wed, 31 Dec 2008 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/newyear2008/</guid>
+            <guid>https://pothix.com/newyear2008/</guid>
             <description>Estou apenas postando para dizer que nesse novo ano eu pretendo postar mais sobre programação! Essa é a primeira virada de ano desse blog, então resolvi postar meus &amp;ldquo;planos&amp;rdquo; para o próximo ano.
 Como o blog é novo eu comecei a escrever faz pouco tempo e estou pegando experiência aos poucos, e talvez agora nesse novo ano a qualidade dos posts aumente! (ou não&amp;hellip;heheh).
 Não sei bem qual rumo minha vida vai seguir nesse novo ano, o que eu vou ter que aprender e estudar, talvez eu tenha que aprender coisas que eu não tinha planejado e isso pode tomar uma boa parte do meu tempo, mas eu pretendo postar todos os meus estudos aqui, portanto terei algum material interessante aqui.</description>
@@ -13680,10 +13863,10 @@ nos veremos em 2009!</p>
         
         <item>
             <title>Concurso Quarto mais Nerd</title>
-            <link>https://pothix.com/posts/quarto-nerd/</link>
+            <link>https://pothix.com/quarto-nerd/</link>
             <pubDate>Sat, 27 Dec 2008 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/quarto-nerd/</guid>
+            <guid>https://pothix.com/quarto-nerd/</guid>
             <description>Bem&amp;hellip;Estava eu aproveitando as férias (tanto da faculdade como as férias coletivas do trabalho) para colocar as coisas em ordem, começando pelo meu quarto que é o lugar da casa que eu passo mais tempo e eu gosto de manter bem organizado, portanto já tratei de aproveitar meu tempo livre para deixar ele do jeito que eu queria.
 Comprei uma pequena estante para colocar mais livros e outras coisas legais, encaixotei várias coisas que eu quase nunca vou usar, e joguei 2 sacolas de papéis e outras coisas inúteis fora.</description>
             <content type="html"><![CDATA[<p>Bem&hellip;Estava eu aproveitando as férias (tanto da faculdade como as
@@ -13752,10 +13935,10 @@ aqui nos comentários.</p>
         
         <item>
             <title>Configurando seu git para começar a usar</title>
-            <link>https://pothix.com/posts/git-configurado/</link>
+            <link>https://pothix.com/git-configurado/</link>
             <pubDate>Sun, 21 Dec 2008 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/git-configurado/</guid>
+            <guid>https://pothix.com/git-configurado/</guid>
             <description>Meu ultimo post foi sobre como subir um projeto para o GitHub, mas me veio agora uma vontade repentina de falar como deixar seu git legalzinho para começar a criar repositórios e contribuir com códigos! Serão apenas configurações básicas, mas que são bem úteis quando você estiver usando o Git ativamente!
 Antes de mais nada precisamos instalar o Git, portanto é só baixar ele no repositório oficial e fazer a instalação referente ao seu sistema operacional.</description>
             <content type="html"><![CDATA[<p>Meu ultimo post foi sobre como subir um projeto para o
@@ -13800,10 +13983,10 @@ legal para começar.</p>
         
         <item>
             <title>Iniciando seu primeiro projeto no GitHub</title>
-            <link>https://pothix.com/posts/primeiro-github/</link>
+            <link>https://pothix.com/primeiro-github/</link>
             <pubDate>Sun, 21 Dec 2008 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/primeiro-github/</guid>
+            <guid>https://pothix.com/primeiro-github/</guid>
             <description>Hoje estou aqui para postar um pouco sobre o GitHub! =)
 Minha idéia hoje é apenas mostrar como você inicia um projeto por lá, ou seja, enviar um pequeno repositório git e deixar no GitHub, e conforme os meus progressos eu postarei mais coisas por aqui! ; )
 Antes de começar tudo isso você precisar ter cadastro no GitHub (obviamente) e já ter uma public-key cadastrada.
@@ -13867,10 +14050,10 @@ quando lhe falarem de GitHub.</p>
         
         <item>
             <title>First post in English here</title>
-            <link>https://pothix.com/posts/first-post/</link>
+            <link>https://pothix.com/first-post/</link>
             <pubDate>Tue, 16 Dec 2008 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/first-post/</guid>
+            <guid>https://pothix.com/first-post/</guid>
             <description>Hi international friends! :)
 I&amp;rsquo;m just posting to inform that I want to post some content in English too! I&amp;rsquo;ll try to make a RSS Feed only for my English posts, so you don&amp;rsquo;t need to view my portuguese posts on your feed reader. :)
 As everyone knows, my English is not so good, but I think you can understand me well! Any English errors (I&amp;rsquo;m sure it will have a lot of them) please tell me and I&amp;rsquo;ll correct it asap.</description>
@@ -13887,10 +14070,10 @@ them) please tell me and I&rsquo;ll correct it asap.</p>
         
         <item>
             <title>GameReview: Need For Speed - Most Wanted</title>
-            <link>https://pothix.com/posts/nfs-mostwanted/</link>
+            <link>https://pothix.com/nfs-mostwanted/</link>
             <pubDate>Sun, 14 Dec 2008 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/nfs-mostwanted/</guid>
+            <guid>https://pothix.com/nfs-mostwanted/</guid>
             <description>Como eu disse no ultimo post agora eu vou fazer uns pomsts sobre uns jogos que eu estou voltando a jogar no PSP, dizendo o que eu achei, como foi jogar ele, defeitos, qualidades, gosto pessoal e tudo mais!
 Primeiramente vou falar sobre o gosto pessoal. Eu nunca fui muito fã de jogos de corrida, foram poucos que realmente me fizeram jogar até o final, e esse realmente foi um deles!</description>
             <content type="html"><![CDATA[<p>Como eu disse no <a href="http://pothix.com/blog/games/voltando-a-ser-um-gamer">ultimo post</a>
@@ -13995,10 +14178,10 @@ ficar correndo ainda em qualquer pista, acho meio vago isso.</p>
         
         <item>
             <title>Voltando a ser um gamer</title>
-            <link>https://pothix.com/posts/gamer/</link>
+            <link>https://pothix.com/gamer/</link>
             <pubDate>Sun, 14 Dec 2008 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/gamer/</guid>
+            <guid>https://pothix.com/gamer/</guid>
             <description>Esse aqui vai ser um post um pouco fora do escopo &amp;ldquo;programação&amp;rdquo;, mas ainda no escopo &amp;ldquo;nerd&amp;rdquo;! :)
 Com esse post eu pretendo introduzir uma nova série (não achei palavra melhor) posts sobre os games que eu estou jogando atualmente, postanto umas opiniões e tudo mais, e quem sabe até alguns jogos que eu pretendo instalar no Linux.
 Vou contar um pouco do título &amp;ldquo;Voltando a ser um gamer&amp;rdquo;.
@@ -14117,10 +14300,10 @@ começar a postar um pouco alguns jogos tambem. :)</p>
         
         <item>
             <title>Ir além do básico tambem é gratis</title>
-            <link>https://pothix.com/posts/basico/</link>
+            <link>https://pothix.com/basico/</link>
             <pubDate>Thu, 11 Dec 2008 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/basico/</guid>
+            <guid>https://pothix.com/basico/</guid>
             <description>Faz um tempinho que eu estou querendo fazer um post seguindo os moldes da campanha do Marco Gomes, que também gerou o post do Diego Eis, e finalmente consegui um tempinho para expressar também a minha opinião nesse assunto! :)
 Conheço muitas pessoas que fazem faculdade relacionada a programação, mas não aplicam o que estão vendo por lá, acham que já estão fazendo demais em ir para a faculdade e ficar lá no tempo em que o professor está falando&amp;hellip;Ou seja, essas pessoas não estão indo a faculdade para aprender algo para colocar em prática, eles estão lá simplesmente para &amp;ldquo;passar de ano&amp;rdquo;.</description>
             <content type="html"><![CDATA[<p>Faz um tempinho que eu estou querendo fazer um post seguindo os moldes
@@ -14184,10 +14367,10 @@ recadinhos com as peguetes&rdquo;</p>
         
         <item>
             <title>A facilidade do Ubuntu</title>
-            <link>https://pothix.com/posts/ubuntu/</link>
+            <link>https://pothix.com/ubuntu/</link>
             <pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/ubuntu/</guid>
+            <guid>https://pothix.com/ubuntu/</guid>
             <description>Deixa eu explicar aqui para quem estou destinando esse post. Esse post é destinado a algumas pessoas que costumam me perguntar se o Linux é difícil, se ele vai conseguir mexer nele se instalar, se Linux é melhor que Windows e outras perguntas derivadas disso, portanto se você já tem conhecimentos em Linux e já usa Linux esse post só vai servir para você passar para seus amigos que não usam, pois é bem básico.</description>
             <content type="html"><![CDATA[<p>Deixa eu explicar aqui para quem estou destinando esse post. Esse post
 é destinado a algumas pessoas que costumam me perguntar se o Linux é
@@ -14355,10 +14538,10 @@ possível para responder.</p>
         
         <item>
             <title>Como são os primeiros passos de um Linuxer</title>
-            <link>https://pothix.com/posts/inicio-linuxer/</link>
+            <link>https://pothix.com/inicio-linuxer/</link>
             <pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/inicio-linuxer/</guid>
+            <guid>https://pothix.com/inicio-linuxer/</guid>
             <description>Nesse post eu vou contar um pouco de como são os primeiros passos de alguem que quer mesmo brincar com Linux. No caso vou falar como eu comecei com o Linux! Vamos lá! :)
 Eu sempre ouvia falar de Linux quando eu lia Livros sobre segurança e tudo mais, portanto sempre tinha vontade de utilizar&amp;hellip; Meu primeiro contato direto com Linux foi em 2004, mas nessa época eu ainda era bem fanático por jogos de computador, o que me fez continuar no Windows por um tempo.</description>
             <content type="html"><![CDATA[<p>Nesse post eu vou contar um pouco de como são os primeiros passos de
@@ -14474,10 +14657,10 @@ quantidade de coisas legais que você pode ter nesse sistema.</p>
         
         <item>
             <title>Montando imagens do Nero (nrg) no Linux</title>
-            <link>https://pothix.com/posts/nero-linux/</link>
+            <link>https://pothix.com/nero-linux/</link>
             <pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/nero-linux/</guid>
+            <guid>https://pothix.com/nero-linux/</guid>
             <description>Vou comentar agora sobre como montar aquela imagem chata do Nero (.nrg ) que seu amigo que gosta de janelas lhe enviou com aqueles vários arquivos que você tinha pedido&amp;hellip; É um hack bem fácil!
 Instalações Primeiro instale o nrg2iso
 No Ubuntu # apt-get install nrg2iso  No Slackware Baixando o pacote no Linux Packages e instalando normalmente com:
@@ -14511,10 +14694,10 @@ montar nossa imagem normalmente em alguma pasta, como por exemplo
         
         <item>
             <title>Utilizando o sshfs</title>
-            <link>https://pothix.com/posts/sshfs/</link>
+            <link>https://pothix.com/sshfs/</link>
             <pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/sshfs/</guid>
+            <guid>https://pothix.com/sshfs/</guid>
             <description>Estou utilizando bastante o sshfs para transferir alguns arquivos para o servidor, ao invés de utilizar o bom e velho scp, por questão de ficar mais prático e facil a cópia de vários arquivos para diretórios distintos.
 O que facilita bastante é utilizar a sua chave privada ( explicado por mim nesse tópico) para montar os seus diretórios sshfs, assim você terá o diretório do servidor montado facilmente em seu computador e poderá enviar arquivos para esse diretório e seus sub-diretórios como se estivesse copiando arquivos para outro diretório qualquer.</description>
             <content type="html"><![CDATA[<p>Estou utilizando bastante o
@@ -14558,10 +14741,10 @@ montado localmente para cópia de arquivos.</p>
         
         <item>
             <title>Deixando seu ssh mais facil de trabalhar</title>
-            <link>https://pothix.com/posts/ssh/</link>
+            <link>https://pothix.com/ssh/</link>
             <pubDate>Thu, 27 Nov 2008 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/ssh/</guid>
+            <guid>https://pothix.com/ssh/</guid>
             <description>Se você usa bastante SSH vou mostrar um método para facilitar um pouco a sua vida. Sei que existem métodos melhores para trabalhar com vários SSH ao mesmo tempo, geralmente a galera que administra vários servidores costuma usar screen para se manter conectado, mas eu como conecto de vez em quando para ver algo em algum dos servidores prefiro configurar desse modo.
 A primeira coisa a se fazer é configurar o seu .</description>
             <content type="html"><![CDATA[<p>Se você usa bastante <a href="http://en.wikipedia.org/wiki/Ssh">SSH</a> vou
@@ -14626,10 +14809,10 @@ tambem. ;)</p>
         
         <item>
             <title>Ativando numlock na Inicialização do Fluxbox no Slackware</title>
-            <link>https://pothix.com/posts/fluxbox-slackware/</link>
+            <link>https://pothix.com/fluxbox-slackware/</link>
             <pubDate>Thu, 13 Nov 2008 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/fluxbox-slackware/</guid>
+            <guid>https://pothix.com/fluxbox-slackware/</guid>
             <description>Estava eu pesquisando na internet como conseguir fazer o meu numlock já iniciar ativado quando meu fluxbox inicia e encontrei várias dicas, sendo umas para XFCE e outros sistemas não sendo Slackware, portanto decidi escrever como fiz no Slackware.
 Primeiramente precisamos do numlockx que é o programinha vai ativar o num facilmente.
 Podemos instalar ele via SlackBuilds que eu uso muito!
@@ -14665,10 +14848,10 @@ automágicamente! :P</p>
         
         <item>
             <title>Ouvindo suas musicas no Amarok</title>
-            <link>https://pothix.com/posts/amarok/</link>
+            <link>https://pothix.com/amarok/</link>
             <pubDate>Thu, 13 Nov 2008 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/amarok/</guid>
+            <guid>https://pothix.com/amarok/</guid>
             <description>Como sabem, instalei o Ubuntu no meu notebook Toshiba U405-S2854, e estou brincando um pouco com programas bunitinhos e mais pesados do que os que eu costumava usar no Slackware.
 Resolvi começar o Amarok para tocar os meus mp3, e ele lembra bastante o Itunes (ta certo que usei pouco o Itunes, mas conheço algumas funções dele).
 Tive um pequeno probleminha para configurar minhas teclas multimedia para funcionar no amarok, já que elas vem configuradas para chamar o player padrão do Ubuntu&amp;hellip; Mas nada muito problemático tambem&amp;hellip;</description>
@@ -14704,10 +14887,10 @@ coisas&hellip;Mas para quem vem do XMMS isso já é muita frescura&hellip;hahaha
         
         <item>
             <title>Facilitando a instalação de pacotes no Slackware</title>
-            <link>https://pothix.com/posts/slackware-pacotes/</link>
+            <link>https://pothix.com/slackware-pacotes/</link>
             <pubDate>Tue, 11 Nov 2008 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/slackware-pacotes/</guid>
+            <guid>https://pothix.com/slackware-pacotes/</guid>
             <description>Estava escrevendo outro post e chegando em um ponto onde eu instalaria um pequeno Software utilizando o SlackBuilds me fez escrever esse post sobre algumas facilitações de instalação para Slackware.
 Nesse post eu vou referenciar 4 facilitadores para instalação de pacotes no Slackware: SlackBuilds, LinuxPackages, Slackpkg, Slapt-get e Checkinstall.
 SlackBuilds Primeiramente vou comentar sobre um dos que eu mais uso e que mudou a minha vida ( heheh ), que é o SlackBuilds!</description>
@@ -14788,10 +14971,10 @@ instalações do Slackware mais rápidas.</p>
         
         <item>
             <title>Aprenda Ruby no Rubylearning</title>
-            <link>https://pothix.com/posts/rubylearning/</link>
+            <link>https://pothix.com/rubylearning/</link>
             <pubDate>Fri, 07 Nov 2008 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/rubylearning/</guid>
+            <guid>https://pothix.com/rubylearning/</guid>
             <description>Como muitos sabem, eu sou um dos professores assistentes do Rubylearning.org que oferece gratuitamente cursos de ruby!
 O Satish Talim anunciou que estão abertas as inscrições para o FORPC101-9C ( Free Online Ruby Programming Course 101 - Batch 9 Core) que é a série de cursos gratuitos sobre Ruby Core.
 Aconselho todos que querem aprender Ruby a participarem! Não se preocupe muito com seu inglês, ele não precisa estar extremamente afiado para você participar, basta que você consiga entender bem para que você participe, e caso não consiga escrever bem o pessoal pode ajudar você a se expressar para conseguir ajuda nos Foruns!</description>
@@ -14839,10 +15022,10 @@ para conhecer mais sobre o Ruby, e se gostar pode pensar nos pagos.</p>
         
         <item>
             <title>Rails Summit Latin America (Day 2)</title>
-            <link>https://pothix.com/posts/railssummit-day2/</link>
+            <link>https://pothix.com/railssummit-day2/</link>
             <pubDate>Wed, 22 Oct 2008 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/railssummit-day2/</guid>
+            <guid>https://pothix.com/railssummit-day2/</guid>
             <description>Para quem não viu o meu post sobre o primeiro dia da Rails Summit, veja aqui! ;) E agora vamos ao segundo post sobre a Rails Summit! :)
 Começamos o segundo dia de Rails Summit as 8:00, e logo no começo do dia tivemos alguns probleminhas técnicos com energia elétrica que logo foi contornado com um gerador ( esse evento escala! ). Tivemos a abertura do dia com o Fabio akita comentando sobre as palestras e dando recados gerais.</description>
             <content type="html"><![CDATA[<p>Para quem não viu o meu post sobre o primeiro dia da Rails Summit,
@@ -14972,10 +15155,10 @@ para esse projeto!</p>
         
         <item>
             <title>Rails Summit Latin America</title>
-            <link>https://pothix.com/posts/railssummit-day1/</link>
+            <link>https://pothix.com/railssummit-day1/</link>
             <pubDate>Tue, 21 Oct 2008 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/railssummit-day1/</guid>
+            <guid>https://pothix.com/railssummit-day1/</guid>
             <description>Como muitos sabem eu participei da Rails Summit Latin America e vou agora fazer uns comentários sobre o evento.
 Vou dividir em 2 posts, um para cada dia, por que o assunto ficou bem extenso.
 Minha intenção com a Rails Summit, alem de ver as ótimas palestras era de fazer um social network com a galera que eu só conhecia por nickname, e isso realmente foi difícil de fazer justamente por isso, reconhecer as pessoas pessoalmente sendo que só as conheço por nickname e avatar não é nada fácil.</description>
@@ -15138,10 +15321,10 @@ que postaram muita coisa interessante.</p>
         
         <item>
             <title>Mais de uma distro no Notebook!</title>
-            <link>https://pothix.com/posts/mais-distros/</link>
+            <link>https://pothix.com/mais-distros/</link>
             <pubDate>Mon, 13 Oct 2008 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/mais-distros/</guid>
+            <guid>https://pothix.com/mais-distros/</guid>
             <description>Pouco tempo atrás comprei um notebook Toshiba U405-S2854 e instalei o Slackware 12.0 (não tinha baixado o 12.1 ainda) com fluxbox nele e aproveitei para brincar de compilar o Kernel e conhecer outras coisas&amp;hellip;
 Percebi que meus conhecimentos não estavam bons o suficiente para eu fazer tudo o que eu queria com meu Slack em um curto espaço de tempo, infelizmente, e portanto resolvi instalar outro linux mais facil para eu usar enquanto meu slackware não fica do jeito que eu quero.</description>
             <content type="html"><![CDATA[<p>Pouco tempo atrás comprei um notebook
@@ -15170,10 +15353,10 @@ minhas 2 distros.</p>
         
         <item>
             <title>Primeiro post por aqui!</title>
-            <link>https://pothix.com/posts/primeiro-post/</link>
+            <link>https://pothix.com/primeiro-post/</link>
             <pubDate>Tue, 02 Sep 2008 00:00:00 +0000</pubDate>
             
-            <guid>https://pothix.com/posts/primeiro-post/</guid>
+            <guid>https://pothix.com/primeiro-post/</guid>
             <description>Bem, como primeiro post vou me apresentar e dizer qual o meu intuito com esse blog.
 Lembro muito bem da época que associava blog com os &amp;ldquo;flogão&amp;rdquo; da vida e prometia para mim mesmo que eu nunca criaria um blog para mim. Com a mudança de rumo dos blogs a minha vontade de criar um para divulgar informação útil foi crescendo, mas eu me mantinha preso aquela velha promessa, até que mês passado eu consegui me livrar disso e decidi finalmente ingressar no ramo de blog, pois eu pesquiso e leio tanta coisa que provavelmente algum dos conhecimentos que tenho ou coisas que fiz serão úteis para mais alguem.</description>
             <content type="html"><![CDATA[<p>Bem, como primeiro post vou me apresentar e dizer qual o meu intuito
