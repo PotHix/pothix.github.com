@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rails Summit on PotHix</title>
+    <link>https://pothix.com/series/rails-summit/</link>
+    <description>Recent content in Rails Summit on PotHix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Wed, 22 Oct 2008 00:00:00 +0000</lastBuildDate><atom:link href="https://pothix.com/series/rails-summit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rails Summit Latin America (Day 2)</title>
+      <link>https://pothix.com/posts/railssummit-day2/</link>
+      <pubDate>Wed, 22 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/posts/railssummit-day2/</guid>
+      <description>Para quem não viu o meu post sobre o primeiro dia da Rails Summit, veja aqui! ;) E agora vamos ao segundo post sobre a Rails Summit! :)
+Começamos o segundo dia de Rails Summit as 8:00, e logo no começo do dia tivemos alguns probleminhas técnicos com energia elétrica que logo foi contornado com um gerador ( esse evento escala! ). Tivemos a abertura do dia com o Fabio akita comentando sobre as palestras e dando recados gerais.</description>
+    </item>
+    
+    <item>
+      <title>Rails Summit Latin America</title>
+      <link>https://pothix.com/posts/railssummit-day1/</link>
+      <pubDate>Tue, 21 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/posts/railssummit-day1/</guid>
+      <description>Como muitos sabem eu participei da Rails Summit Latin America e vou agora fazer uns comentários sobre o evento.
+Vou dividir em 2 posts, um para cada dia, por que o assunto ficou bem extenso.
+Minha intenção com a Rails Summit, alem de ver as ótimas palestras era de fazer um social network com a galera que eu só conhecia por nickname, e isso realmente foi difícil de fazer justamente por isso, reconhecer as pessoas pessoalmente sendo que só as conheço por nickname e avatar não é nada fácil.</description>
+    </item>
+    
+  </channel>
+</rss>

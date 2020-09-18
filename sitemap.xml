@@ -48,6 +48,16 @@
   </url>
   
   <url>
+    <loc>https://pothix.com/series/</loc>
+    <lastmod>2020-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pothix.com/series/stats/</loc>
+    <lastmod>2020-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pothix.com/tags/stats/</loc>
     <lastmod>2020-01-26T00:00:00+00:00</lastmod>
   </url>
@@ -483,6 +493,11 @@
   </url>
   
   <url>
+    <loc>https://pothix.com/series/cool-services/</loc>
+    <lastmod>2010-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pothix.com/tags/services/</loc>
     <lastmod>2010-04-01T00:00:00+00:00</lastmod>
   </url>
@@ -868,6 +883,11 @@
   </url>
   
   <url>
+    <loc>https://pothix.com/series/rails-summit/</loc>
+    <lastmod>2008-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pothix.com/posts/railssummit-day2/</loc>
     <lastmod>2008-10-22T00:00:00+00:00</lastmod>
   </url>
@@ -905,10 +925,6 @@
   
   <url>
     <loc>https://pothix.com/speaking/</loc>
-  </url>
-  
-  <url>
-    <loc>https://pothix.com/series/</loc>
   </url>
   
   <url>

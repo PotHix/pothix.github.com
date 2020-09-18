@@ -824,7 +824,7 @@ the #[repr = &ldquo;C&rdquo;] syntax</a>.</p>
 codebase</a>,
 which is a great way to start. :D</p>
 <p>The first thing I did was to look for one of the strings I found there (the
-text &ldquo;<code>must be of the form</code>&rdquo;) and change it to something else.</p>
+text &ldquo;<code>must be of the form</code>&quot;) and change it to something else.</p>
 <p>I changed it to <code>must be of the whatever</code> and referred back to the
 documentation on how to build the compiler.</p>
 <p><em>As a side note: The way the compiler is compiled is very interesting. It has
@@ -1318,7 +1318,7 @@ this person&rsquo;s passport was also in the backpack. We started the
 process of getting a new passport during the workshops day so him/her
 would be able to get home in time. It&rsquo;s a long and stressful process.</p>
 <h3 id="trapped-organizer">Trapped organizer</h3>
-<p>One of us was out to bring the tablecloths for the sponsors&rsquo;
+<p>One of us was out to bring the tablecloths for the sponsors'
 table. When this person got to the place, it was almost closing, and
 he/she got trapped into the garage. One of us had to go there to
 release him/her but this person was able to release [him/her]self
@@ -6427,7 +6427,7 @@ spoke about his hobbie of playing with
 game maps with Go and Genetic Algorithms in order to create de best
 roller coaster ever! It is not there already but the presention was
 really cool to follow.</p>
-<h4 id="you-type-googlecom-into-your-browser-bar-and-press-enter-what-happens-next">You type &ldquo;google.com&rdquo; into your browser bar and press enter: What happens next?&rdquo;</h4>
+<h4 id="you-type-googlecom-into-your-browser-bar-and-press-enter-what-happens-next">You type &ldquo;google.com&rdquo; into your browser bar and press enter: What happens next?&quot;</h4>
 <p>The speaker for this talk is
 <a href="https://twitter.com/mathie">Graeme Mathieson</a>. I was planning to
 spoke about it before de last edition of
@@ -6621,7 +6621,7 @@ project is on fire and the team needs more intensity on it.</p>
 <p>Communication is really important for the teams and they do not set a limitation
 for important communications like framework versions and DC migrations. For this
 task they use hipchat, email, banners and everything that may call the
-engineers&rsquo; attention.</p>
+engineers' attention.</p>
 <h4 id="situation-normal-everything-must-change">Situation normal, everything must change</h4>
 <p>This was the last keynote and maybe the best one, and I highly recommend you to
 <a href="https://www.youtube.com/watch?v=Ty6pOVEc3bA">watch it</a>.</p>
@@ -7152,7 +7152,7 @@ Dragstar 2008.</p>
 </ul>
 <p>Acessórios que vão com ela (além de todas as peças originais):</p>
 <ul>
-<li>Escapamento esportivo Halley 2.5&rdquo; (não ta instalado, e tem uns ralados, mas vai junto)</li>
+<li>Escapamento esportivo Halley 2.5&quot; (não ta instalado, e tem uns ralados, mas vai junto)</li>
 <li>Protetor de motor / apoio de pé</li>
 <li>Raisers maiores</li>
 <li>Banco bipartido do pedrinho</li>
@@ -7612,14 +7612,14 @@ um GIMP feito para mac específicamente, só fizeram ele rodar lá), e isso é b
 triste.</p>
 <p>O tempo passou e eu tive a oportunidade de ir para San Francisco no OpenStack
 Summit, e eu pensei em trocar de computador, e por coincidência um colega estava
-perguntando se alguem estava vendendo um Macbook de 13&rdquo; (!!), não perdi tempo,
+perguntando se alguem estava vendendo um Macbook de 13&quot; (!!), não perdi tempo,
 negociei e vendi por um preço muito bom (tendo em vista que comprei fora do país
 e vendi por aqui). E comecei a consultar valores de outros computadores para
 a substituição. Durante essa coleta de preços eu até cheguei a cogitar comprar o
 Macbook Air, mas eu estava certo de que mac para mim já deu o que tinha que dar,
 e agora era hora de voltar ao bom e velho Linux.</p>
 <p>No fim das contas eu comprei o computador que possuía o melhor custo X benefício
-para o que eu precisava, que é o Acer S3-951-6432, que possui tela de 13&rdquo;, SSD de
+para o que eu precisava, que é o Acer S3-951-6432, que possui tela de 13&quot;, SSD de
 256, 4GB de memória, processador i7, leitor de cartão da Realtek, placa wireless
 Atheros e uma placa de vídeo intel 3000.</p>
 <p>Dessa vez eu queria usar Linux de verdade, conhecendo tudo o que eu estava utilizando
@@ -8569,7 +8569,7 @@ escolher bem :D).</p>
 <p>A palestra sobre Desenvolvimento de extensões para o Chrome foi bem legal e mostrou como é simples desenvolver uma extensão e como ele consegue acesso fácil ao chrome apenas utilizando Javascript. E o mais engraçado é que o desenvolvedor do Chromed Bird fez uma pequena apresentação mostrando a extensão dele e ele tinha uma direct message com um link para um twit meu. Vai saber :P</p>
 </li>
 <li>
-<p>Achei que a palestra sobre HTML5 seria a mesmice de sempre, mas aprendi muita coisa interessante com ela! Não sabia que agora existem buscas no estilo jQuery nativamente no Javascript. Algo como .search('#id&rsquo;) (não é esse método, mas existe), fora as dicas que ele deu e os exemplos que ele mostrou que valeram a pena. Vou procurar a apresentação dele na internet depois para dar uma olhada novamente, e se eu encontrar atualizo o post.</p>
+<p>Achei que a palestra sobre HTML5 seria a mesmice de sempre, mas aprendi muita coisa interessante com ela! Não sabia que agora existem buscas no estilo jQuery nativamente no Javascript. Algo como .search('#id') (não é esse método, mas existe), fora as dicas que ele deu e os exemplos que ele mostrou que valeram a pena. Vou procurar a apresentação dele na internet depois para dar uma olhada novamente, e se eu encontrar atualizo o post.</p>
 </li>
 </ul>
 <p>Novamente, teve outras palestras legais, mas essas são as que eu
@@ -9995,7 +9995,7 @@ o trem, quando não conseguem elas pulam fora, e o Angus com o trem a
 todo vapor apenas pega sua Guitarra e o trem se colide com o fim da
 linha.</p>
 <p>Na hora da colisão do trem no vídeo o palco todo se acende e o ACDC
-inicia o show tocando Rock N&rsquo; Roll Train! Uma musica muito legal para
+inicia o show tocando Rock N' Roll Train! Uma musica muito legal para
 se iniciar! Nesse momento o cenário já está enfeitado com uma grande
 locomotiva que fica soltando fumaça enquanto eles tocam.</p>
 <p>Abaixo vai o set list que foi tocado durante o show com os meus devidos comentários:</p>
@@ -10014,7 +10014,7 @@ locomotiva que fica soltando fumaça enquanto eles tocam.</p>
 <li><strong>You Shook Me All Night Long</strong> - Musica de mulheres novamente, e não me lembro se foi nessa mas teve uma mina que lembrou a essência dos bons e velhos shows do ACDC que as mulheres levantavam a camiseta! :D:D:D</li>
 <li><strong>TNT</strong> - Hey! Hey! Hey! T&hellip;.N&hellip;.T! Obviamente, mais uma das clássicas do ACDC que não podia faltar num show de qualidade como esse!</li>
 <li><strong>Whole Lotta Rosie</strong> - E lá vamos a mais uma parte muito foda do cenário! Surge uma boneca gigante da Rosie no cenário ( com os peitos gigantes por sinal ), e fazendo um movimento de bater o pé que ficou muito legal.</li>
-<li><strong>Let There Be Rock</strong> - Boa e velha essência do Rock N&rsquo; Roll! Me de as luzes&hellip;Me de o som&hellip;Me de a bateria&hellip;Me de a guitarra&hellip;Que se faça o Rock n&rsquo; Roll!</li>
+<li><strong>Let There Be Rock</strong> - Boa e velha essência do Rock N' Roll! Me de as luzes&hellip;Me de o som&hellip;Me de a bateria&hellip;Me de a guitarra&hellip;Que se faça o Rock n' Roll!</li>
 <li><strong>Highway To Hell</strong> - Clássica e muito foda! Não tem o que dizer!</li>
 <li><strong>For Those About To Rock</strong> - Essa para mim foi a melhor musica do show! A musica é muito boa, a interação com o cenário ficou perfeita, e foi a musica final para fechar. Foi muito legal ver isso: For those about to rock&hellip;. Fire ( um canhão que fica atrás do palco dispara! ) Weeeee saluuuuute yoooou!</li>
 </ul>
@@ -10571,7 +10571,7 @@ você mais fica no Vim, você pode fazer as coisas mais interessantes!</p>
 <p>Ok, falei&hellip;falei&hellip;e não mostrei o por que o modo normal é tão
 poderoso né? Bem, são coisas como essas:</p>
 <ul>
-<li>Dentro de aspas podemos dar um ci&rdquo; e ele já excluiria todo o conteúdo que está dentro das aspas e deixaria você em modo de inserção para inserir um novo conteúdo</li>
+<li>Dentro de aspas podemos dar um ci&quot; e ele já excluiria todo o conteúdo que está dentro das aspas e deixaria você em modo de inserção para inserir um novo conteúdo</li>
 <li>Parar em cima do número 20 e quer adicionar 7? Apenas faça <code>ctrl+a</code> e ele fará a soma em cima desse número</li>
 <li>E se ao invés de soma vc quiser a subtração dos valores acima? Apenas faça <code>ctrl+x</code> e ele fará a soma em cima desse número</li>
 <li>É claro que você não vai ficar repetindo esse monte de coisas que você fez aí em cima se tiver várias ocorrências e você não quiser fazer um &ldquo;find and replace&rdquo;, por que você pode usar o . (ponto) para fazer a sua ultima ação novamente.</li>
@@ -13707,7 +13707,7 @@ queria:</p>
 <p>Fora da mesa:</p>
 <ul>
 <li>Violão e guitarra</li>
-<li>Posters dos 3 filmes d&quot;O Senhor dos Anéis&rdquo;</li>
+<li>Posters dos 3 filmes d&quot;O Senhor dos Anéis&quot;</li>
 <li>Mochila preta</li>
 </ul>
 <p>Na mesa:</p>
