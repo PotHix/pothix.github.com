@@ -51,7 +51,7 @@ Qty | Item              | Total price | BRL (+taxes) | Link
 
 Qty | Item              | Price       | BRL (+taxes) | Link
 --- | ----------------- | ----------  | ------------ | ------------------------------------------------
-5   | Testing Switches  | $ 1.20      | R$ 7,45\*    | https://www.aliexpress.com/item/32956853282.html
+5   | Testing Switches  | $ 1.20      | R$ 7,45\*    | [AliExpress](https://www.aliexpress.com/item/32956853282.html)
 
 
 \* I bought so many things and bundled them together that it's now hard to find
