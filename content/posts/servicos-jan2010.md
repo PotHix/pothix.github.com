@@ -7,6 +7,7 @@ aliases=[
 ]
 date = "2010-01-26"
 tags = ["tech","services"]
+series = ["Cool services"]
 +++
 
 E ae galera! Vamos para mais um post sobre os serviços legais do mes.

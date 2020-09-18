@@ -7,6 +7,7 @@ aliases=[
 ]
 date = "2008-10-22"
 tags = ["events","ruby","tech"]
+series = ["Rails Summit"]
 +++
 
 Para quem não viu o meu post sobre o primeiro dia da Rails Summit,

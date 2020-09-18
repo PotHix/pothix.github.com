@@ -7,6 +7,7 @@ aliases=[
 ]
 date = "2009-07-04"
 tags = ["tips","services"]
+series = ["Cool services"]
 +++
 
 Esse mês eu estou conseguindo novamente fazer um post sobre os
