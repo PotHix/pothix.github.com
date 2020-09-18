@@ -249,6 +249,10 @@ ol ol {
   list-style-type: lower-alpha;
 }
 
+td, th {
+  padding-right: 15px;
+}
+
 .container {
   flex: 1 auto;
   display: flex;
