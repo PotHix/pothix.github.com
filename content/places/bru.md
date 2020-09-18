@@ -1,8 +1,10 @@
 +++
-aliases=["post/viagem-belgica"]
 title = "Viagem para a Bélgica"
 date = "2017-10-31"
 tags = ["travel"]
+aliases=[
+    "post/viagem-belgica",
+]
 draft = true
 +++
 
