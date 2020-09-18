@@ -29,7 +29,7 @@ Many of these parts I could easily find in a local store, sometimes even
 cheaper, but due to the pandemic I don't want to visit any physical store.
 
 With that said, let's go for the list of parts I bought and the individual
-links (the advantage of buying everything on AliExpress ☺️):
+links (the advantage of buying everything on AliExpress 😄):
 
 ## Required parts
 
@@ -72,11 +72,11 @@ so I'm checking with the seller and didn't get a response.
 
 ## Cost and ETA
 
-Currently, it's a total of $92.50 or R$568,35 approximately. I would say R$600
+Currently, it's a total of **$92.50** or R$568,35 approximately. I would say **R$600**
 would be a good guess because of the currency exchange flutuation. As a
 comparison, the minimum wage in Brazil is R$ 1045.
 
 The average time to get something from AliExpress to Brazil is around 3 weeks
-and some of these parts started to arrive already. :)
+and some of these parts started to arrive already 😃
 
-Wait for more about this soon. :)
+Wait for more about this soon 🚀
