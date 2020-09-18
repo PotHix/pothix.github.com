@@ -1,7 +1,6 @@
 ---
 title: "Dactyl keyboard - Part 1"
 date: 2020-08-28T15:01:17-03:00
-draft: true
 series: ["Dactyl"]
 ---
 
