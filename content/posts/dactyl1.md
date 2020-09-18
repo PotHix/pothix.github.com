@@ -1,14 +1,16 @@
----
-title: "Dactyl keyboard - Part 1"
-date: 2020-08-28T15:01:17-03:00
-aliases: [
++++
+title = "Dactyl keyboard - Part 1"
+date = 2020-08-28
+aliases = [
     "dactyl",
 ]
-tags: [
+tags = [
     "english",
 ]
-series: ["Dactyl"]
----
+series = [
+    "Dactyl"
+]
++++
 
 After build the [Iris keyboard](/iris) I decided to start a new quest to build
 a Dactyl-cc (as I mentioned at the end of the Iris post 😉)
