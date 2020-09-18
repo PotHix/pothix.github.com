@@ -17,14 +17,9 @@ I’ve learned. You can see the full video (portuguese only, sorry) and the slid
 below.
 
 **Portuguese**: Eu e o Diego Souza (vulgo Marciano) fizemos uma palestra sobre
-  Game network programming tanto na Locaweb como no Guru-SP. A palestra que
-  fizemos no Guru-SP foi gravada pelo Agaelebe:
-
-<embed type="application/x-shockwave-flash" src="http://a.blip.tv/api.swf#hOdBg5PuBQI" style="display:none"></embed>
-
-E aqui estão os slides:
-
-<iframe src="http://blip.tv/play/hOdBg5PuBQI.html?p=1" width="550" height="443" frameborder="0" allowfullscreen></iframe>
+Game network programming tanto na Locaweb como no Guru-SP. A palestra que
+fizemos no Guru-SP foi gravada pelo Agaelebe e está [disponível no
+Youtube](https://www.youtube.com/watch?v=nG1oGfrDiUc).
 
 Como eu estava na vibe de jogos desde o começo do ano passado, eu estava lendo
 os posts sobre o código do Quake. Quem me conhece sabe que eu trabalho na equipe
