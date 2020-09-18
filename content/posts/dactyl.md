@@ -2,7 +2,7 @@
 title: "Dactyl"
 date: 2020-08-28T15:01:17-03:00
 draft: true
-serie: "Dactyl"
+series: ["Dactyl"]
 ---
 
 After build the [Iris keyboard](/iris) I decided to start a new quest to build
