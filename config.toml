@@ -12,7 +12,7 @@ paginate     = 10
   series = "series"
 
 [permalinks]
-post = "/:filename"
+  posts = "/:filename"
 
 
 [params]
