@@ -27,4 +27,4 @@ publish:
 	@git checkout -
 
 drafts:
-	@egrep "draft.*true" * -rl | grep "\.md"
+	@egrep "draft.*true" content/posts/ -rl | grep "\.md"
