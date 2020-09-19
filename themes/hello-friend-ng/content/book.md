@@ -44,7 +44,8 @@ book and this blog. I will list ome of them here.
 I was the main tech reviewer for the Rust book, written by [Marcelo
 Castellani](https://twitter.com/mfcastellani). I had the chance to co-write
 this book with him but I didn't have the time to dedicate to the project, so I
-just did the technical review. The is nice for those who want a simple and easy-to-read Rust book in pt-BR.
+just did the technical review. The book is great for those who want a simple
+and easy-to-read Rust book in pt-BR.
 
 ### Rails book: One of the tech reviewers
 
