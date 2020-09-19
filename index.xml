@@ -1665,6 +1665,19 @@ Locaweb: Cloud PRO</description>
     
     <item>
       <title>Desconstruindo a web</title>
+      <link>https://pothix.com/articles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/articles/</guid>
+      <description>Articles published outside of this blog I as invited to write articles for other blogs which I respect and/or have a good reach. I will list here some of them.
+The game loop: Gamedev tuts+ 
+An article that explains how the Game loop works in game development. It was written for gamedev.tutsplus.com in Nov 2012.
+Client side prediction: Gamedev tuts+ 
+Article that explains how client side pretiction works in game development.</description>
+    </item>
+    
+    <item>
+      <title>Desconstruindo a web</title>
       <link>https://pothix.com/book/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
