@@ -102,7 +102,7 @@ It's mostly what I've written [here](/audiobooks) too.
 
 ### Quantified self: Doist blog + Quartz at work
 
-[![book](/images/writing/quantified_article.jpg)](https://qz.com/work/1431910/mostly-free-tools-to-track-almost-every-area-of-your-life/)
+[![book](/images/writing/quantifiedself_article.png)](https://blog.doist.com/quantified-self-apps/)
 
 I used all the my knowledge tracking myself for more than one year to write
 down all the tools available to use for those who want to quantify themselves.
