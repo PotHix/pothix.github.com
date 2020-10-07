@@ -37,7 +37,7 @@ paginate     = 10
   enableSharingButtons = true
 
   # Metadata mostly used in document's head
-  images = [""]
+  images = ["/images/pothix-logo.svg"]
 
   # Default theme "light" or "dark"
   defaultTheme = "light"
