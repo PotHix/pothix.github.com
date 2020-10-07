@@ -7,6 +7,7 @@ tags = [
 
 No. | Date       | Presentation  | Event
 --- | ---------- | ------------- | ------
+68  | 2020-10-06 | [Trabalho remoto e assincrono](https://www.youtube.com/watch?v=sAMX3SiiESY) |  [Future of Work](https://www.brasil.futureofwork.co/)
 67  | 2019-11-29 | [Mongo, Rails 3 -> Postgres, Rails 5](https://www.eventials.com/locaweb/groups/ruby-conf-2019/) |  [Rubyconf BR](https://rubyconf.com.br)
 66  | 2019-06-21 | [Mongo, Rails 3 -> Postgres, Rails 5](https://www.youtube.com/watch?v=zyJ375I-l8A) |  [Guru-SP](https://gurusp.org)
 65  | 2018-10-27 | [10 anos de Guru-SP](https://www.youtube.com/watch?v=f0kjacxHaZc) |  [Guru-SP](https://www.gurusp.org/encontros/51-encontro-doguru-sp-na-loggi)
