@@ -3,6 +3,9 @@ title = "Presentations"
 tags = [
   "english",
 ]
+aliases = [
+  "talks"
+]
 +++
 
 No. | Date       | Presentation  | Event
