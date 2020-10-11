@@ -83,8 +83,10 @@ paginate     = 10
     sharingicons = true
 
     [languages.en.params.logo]
-      logoText = ""
+      logoText = "pothix.com"
       logoHomeLink = "/"
+      logoCursorDisable = true
+      logoCursorColor = "white"
       path = "/images/pothix-logo.svg"
       alt = "A drawing that represents myself, portrait, black and white"
 
