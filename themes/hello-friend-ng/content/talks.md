@@ -4,7 +4,7 @@ tags = [
   "english",
 ]
 aliases = [
-  "talks"
+  "speaking"
 ]
 +++
 
