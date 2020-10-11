@@ -109,3 +109,8 @@ paginate     = 10
     identifier = "now"
     name       = "Now"
     url        = "/now"
+
+  [[menu.main]]
+    identifier = "talks"
+    name       = "Talks"
+    url        = "/talks"
