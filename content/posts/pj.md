@@ -5,22 +5,36 @@ title = "Abertura de empresa"
 series = ["PF/PJ"]
 +++
 
-Esse é o segundo post da [série de PF/PJ](/series/p)
+Esse é o segundo post da [série de PF/PJ](/series/pf/pj) e vou contar sobre a
+minha epopéia de como foi abrir uma empresa em 2017 e como está sendo até hoje.
 
-Em 2017 eu comecei a escrever um texto sobre como foi abrir a minha empresa e
-quais os detalhes de como foi isso. É claro que eu nunca terminei esse post.
-Desde então, vários conhecidos me procuraram para entender melhor o processo já
-que também estavam embarcando no lance de PJ ou pelo menos estavam cogitando
-fazê-lo.
-
-Hoje olhando os drafts do meu blog, eu resolvi escrever uma pequena série de
-posts sobre abrir ou não empresa e receber dinheiro de fora do país. Nesse
-primero post vou mencionar sobre como eu recebia dinheiro de fora do país como
-pessoa física.
+A ideia principal desse post é mostrar para as pessoas como é abrir uma empresa
+de desenvolvimento de software, os custos envolvidos e qual a melhor forma
+(IMO) de estruturá-la.
 
 **DISCLAIMER**: Eu não sou contador, mas essas são as informações que
 eu levantei depois de toda a minha pesquisa, assim eu consegui
 conversar melhor com os contadores. Leia, entenda e converse com eles.
+
+## Um pouco de história
+
+Depois do período que trabalhei como frelancer pessoa física (como
+descrevi no [post de PF para o exterior](/pf)), eu resolvi [sair do meu
+trabalho CLT](/locaweb) e procurar uma outra empresa para trabalhar.
+
+Eu sempre quis ter minha própria empresa. Essa ideia vem desde antes do
+meu primeiro trabalho com tecnologia, mas nunca surgiu a oportunidade.
+Houve várias vezes que eu tentei buscar mais informações e cogitei a
+possibilidade, mas as informações eram sempre muito perdidas ou faziam o
+processo se tornar inviável para o meu contexto.
+
+Em 2017 eu [comecei a trabalhar para a Doist](/doist), que não é uma
+empresa brasileira e viabilizou esse meu plano de abrir a minha própria
+empresa.
+
+O processo foi muito complicado para mim. Não necessariamente é
+complicado para todo mundo, mas espero que as minhas descrições aqui
+sejam úteis para alguém.
 
 ## As informações da empresa
 
