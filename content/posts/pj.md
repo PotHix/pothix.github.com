@@ -1,76 +1,24 @@
 +++
-date = "2017-06-09T19:08:18-03:00"
+date = "2020-10-12"
 draft = true
 title = "Abertura de empresa"
+series = ["PF/PJ"]
 +++
 
-Esse texto vem mostrar a odisséia que é abrir uma empresa de prestação
-de serviços de desenvolvimento de Software no Brasil.
+Em 2017 eu comecei a escrever um texto sobre como foi abrir a minha empresa e
+quais os detalhes de como foi isso. É claro que eu nunca terminei esse post.
+Desde então, vários conhecidos me procuraram para entender melhor o processo já
+que também estavam embarcando no lance de PJ ou pelo menos estavam cogitando
+fazê-lo.
+
+Hoje olhando os drafts do meu blog, eu resolvi escrever uma pequena série de
+posts sobre abrir ou não empresa e receber dinheiro de fora do país. Nesse
+primero post vou mencionar sobre como eu recebia dinheiro de fora do país como
+pessoa física.
 
 **DISCLAIMER**: Eu não sou contador, mas essas são as informações que
 eu levantei depois de toda a minha pesquisa, assim eu consegui
 conversar melhor com os contadores. Leia, entenda e converse com eles.
-
-## Um pouco de história
-
-Eu fui indicado por um amigo para prestar serviços de software para
-uma empresa que tem base fora do Brasil. Fiz o teste, implementei
-algumas features e fizemos um contrato simples de X horas por mês, com
-pagamento por hora.
-
-Parecia uma boa hora para abrir uma empresa, afinal, é isso que tem
-que fazer para ficar dentro da lei, certo?
-
-Fiquei semanas pesquisando como seria abrir uma empresa para prestar
-serviços para o exterior. O melhor documento que eu achei foi o
-do [Tapajós](http://tapajos.me/trabalhando_fora), mas mesmo assim
-ainda faltavam muitas informações sobre como as coisas
-funcionavaem. Eu conversei com várias pessoas e falei com um contador,
-cada um me falava uma coisa diferente.
-
-Até que falei com um amigo de um amigo que trabalha para o exterior e
-recebe como pessoa física. Pareceu uma boa alternativa.
-
-## Recebendo como pessoa física
-
-Parece ser meio Off-Topic mas não é. Muitas vezes você não precisa
-realmente abrir uma empresa para fazer seus trabalhos freelance dentro
-da lei, você pode simplesmente receber como pessoa física.
-
-Caso esteja prestando serviços para fora do Brasil, você pode fazer
-uma invoice como pessoa física mesmo e receber os valores. Eu
-recomendo abrir conta em uma corretora porque as taxas dos bancos
-tradicionais são bem ruins.
-
-Quando você recebe o dinheiro, você deve usar
-o
-[Carnê Leão](https://idg.receita.fazenda.gov.br/orientacao/tributaria/pagamentos-e-parcelamentos/pagamento-do-imposto-de-renda-de-pessoa-fisica/carne-leao/2017/programa-carne-leao-2017) para
-declarar o recebimento e pagar os impostos. Caso tenha algum duplo
-desconto (no caso de você já trabalhar como CLT), o restante do
-imposto será cobrado na sua declaração de imposto de renda. Dessa
-forma, você vai pagar o mesmo valor que paga como CLT, 27.5% de
-imposto sobre o recebimento (considerando o maior valor).
-
-Você deve estar se perguntando: "Caramba! 27.5% de imposto! Pessoa
-Jurídica é muito menos!". E vamos entender porque eu resolvi ficar com
-esse valor.
-
-Eu moro em Diadema, sites como
-o [Contabilizei](http://contabilizei.com.br/) e
-o [Agilize](https://www.agilize.com.br/) não suportam a minha cidade
-ainda. Com isso em mente, vamos considerar alguns custos:
-
-**Contador**: Meio salário mínimo por mês + decimo terceiro (pois é...)
-**Conta PJ**: R$ 70 por mês
-**Abertura da empresa**: chutando baixo, cerca de R$ 500 a R$ 600
-
-Fiz as contas e vi que se eu estivesse recebendo um valor menor que R$
-5000, não ia compensar manter uma empresa aberta, só pela dor de
-cabeça.
-
-Caso esteja trabalhando para o Brasil, ainda é possível receber como
-pessoa física, mas nesse caso a empresa que precisa reter os impostos
-na fonte.
 
 ## As informações da empresa
 
@@ -142,7 +90,7 @@ as
 [porcentagens de imposto por atividade](https://www.contabilizei.com.br/contabilidade-online/tabela-simples-nacional-completa/),
 apesar de não estarem considerando a lei complementar ainda.
 
-## Recebimento de dinheiro
+### Recebimento de dinheiro
 
 Se estiver recebendo dinheiro do exterior, você vai precisar fechar o
 câmbio de alguma forma. Por "fechar o câmbio", entenda escolher uma
