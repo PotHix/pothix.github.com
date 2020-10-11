@@ -1,5 +1,5 @@
 +++
-date = "2020-10-11"
+date = 2020-10-11
 title = "Freelancer PF para o exterior"
 series = ["PF/PJ"]
 +++

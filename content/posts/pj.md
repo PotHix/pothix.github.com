@@ -1,9 +1,11 @@
 +++
-date = "2020-10-12"
+date = 2020-10-12
 draft = true
 title = "Abertura de empresa"
 series = ["PF/PJ"]
 +++
+
+Esse é o segundo post da [série de PF/PJ](/series/p)
 
 Em 2017 eu comecei a escrever um texto sobre como foi abrir a minha empresa e
 quais os detalhes de como foi isso. É claro que eu nunca terminei esse post.
