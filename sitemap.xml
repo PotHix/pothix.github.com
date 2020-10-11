@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://pothix.com/pf/</loc>
+    <lastmod>2020-10-11T00:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pothix.com/posts/</loc>
+    <lastmod>2020-10-11T00:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pothix.com/</loc>
+    <lastmod>2020-10-11T00:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pothix.com/series/dactyl/</loc>
     <lastmod>2020-08-28T00:00:00-03:00</lastmod>
   </url>
@@ -14,16 +29,6 @@
   
   <url>
     <loc>https://pothix.com/tags/english/</loc>
-    <lastmod>2020-08-28T00:00:00-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pothix.com/posts/</loc>
-    <lastmod>2020-08-28T00:00:00-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pothix.com/</loc>
     <lastmod>2020-08-28T00:00:00-03:00</lastmod>
   </url>
   
@@ -935,6 +940,10 @@
   
   <url>
     <loc>https://pothix.com/media/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pothix.com/series/pf/pj/</loc>
   </url>
   
   <url>

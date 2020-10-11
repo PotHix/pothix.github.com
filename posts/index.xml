@@ -6,8 +6,130 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Fri, 28 Aug 2020 00:00:00 -0300</lastBuildDate>
+        <lastBuildDate>Sun, 11 Oct 2020 00:00:00 -0300</lastBuildDate>
         <atom:link href="https://pothix.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Freelancer PF para o exterior</title>
+            <link>https://pothix.com/pf/</link>
+            <pubDate>Sun, 11 Oct 2020 00:00:00 -0300</pubDate>
+            
+            <guid>https://pothix.com/pf/</guid>
+            <description>Esse é um texto que eu escrevi em 2017 quando eu comecei a abrir a minha empresa. Como o post ficou interminado e eu acho que ainda tem valor, eu resolvi terminar e publicar.
+Vou escrever uma pequena série de posts sobre esse lance de formas de trabalho e a minha experiência fora de CLT.
+DISCLAIMER: Eu não sou contador, mas essas são as informações que eu levantei depois de toda a minha pesquisa, assim eu consegui conversar melhor com os contadores.</description>
+            <content type="html"><![CDATA[<p>Esse é um texto que eu escrevi em 2017 quando eu comecei a abrir a minha
+empresa. Como o post ficou interminado e eu acho que ainda tem valor, eu
+resolvi terminar e publicar.</p>
+<p>Vou escrever uma pequena série de posts sobre esse lance de formas de trabalho
+e a minha experiência fora de CLT.</p>
+<p><strong>DISCLAIMER</strong>: Eu não sou contador, mas essas são as informações que
+eu levantei depois de toda a minha pesquisa, assim eu consegui
+conversar melhor com os contadores. Leia, entenda e converse com eles.</p>
+<h2 id="um-pouco-de-história">Um pouco de história</h2>
+<p>Eu fui indicado por um amigo para prestar serviços de desenvolvimento de
+software para uma empresa que tem base fora do Brasil. Fiz o teste, implementei
+algumas features e fizemos um contrato simples de X horas por mês, com
+pagamento por hora.</p>
+<p>Na época eu trabalhava como CLT e ter uma empresa aberta ia me gerar vários
+custos. Eu estava bem preocupado de parar com o freela e ficar com a empresa
+aberta pagando pela burocracia.</p>
+<p>Fiquei semanas pesquisando como seria abrir uma empresa para prestar serviços
+para o exterior. O <a href="http://tapajos.me/trabalhando_fora">melhor documento que eu
+achei</a> foi o do
+<a href="http://tapajos.me/">@tapajos</a>, mas mesmo assim ainda faltavam muitas
+informações sobre como as coisas funcionavam. Eu conversei com várias pessoas
+e falei com um contador, cada um me falava uma coisa diferente.</p>
+<p>Falei com um amigo de um amigo que trabalha para o exterior e recebe como
+pessoa física. Pareceu uma boa alternativa.</p>
+<h2 id="recebendo-como-pessoa-física">Recebendo como pessoa física</h2>
+<p>Você <strong>não precisa ser PJ para receber dinheiro</strong> dentro da lei, você pode
+simplesmente receber como pessoa física. Caso esteja prestando serviços para
+fora do Brasil, você pode fazer uma invoice como pessoa física mesmo e receber
+os valores.</p>
+<h3 id="escolhendo-uma-corretora-de-valores">Escolhendo uma corretora de valores</h3>
+<p>Eu recomendo abrir conta em uma corretora porque as taxas dos bancos
+tradicionais são bem ruins.</p>
+<p>Hoje em dia (desde aquela época) eu uso a <a href="https://btcorretora.com.br/">B&amp;T
+corretora</a> e resolvo tudo por email. Uso o serviço
+deles faz mais de 4 anos e não tenho o que reclamar. Eles são uma corretora
+<a href="https://www.bcb.gov.br/rex/IAMC/Port/Instituicoes/inst_intermediarias.asp">cadastrada no site do banco
+central</a>.
+Quem quiser, <a href="/about">entre em contato comigo</a> que eu coloco em contato com a
+pessoa que cuida da minha conta.</p>
+<p>Eu uso a B&amp;T, mas qualquer corretora que siga esses requisitos funcionaria bem.</p>
+<h3 id="recebendo-o-dinheiro-do-exterior">Recebendo o dinheiro do exterior</h3>
+<p>Quando você se cadastra em uma corretora, você vai também cadastrar a sua conta
+bancária. Quando o dinheiro chega, você vai precisar fechar o cambio com o
+valor atual da moeda estrangeira no momento e depois o dinheiro vai ser
+depositado na sua conta.</p>
+<p>Dependendo da corretora, esse fechamento de cambio pode acontecer
+automaticamente ou depender de uma intervenção manual. No caso da B&amp;T, que é a
+corretora que eu uso, esse é um processo manual onde eles entram em contato
+comigo dizendo a taxa atual e eu aprovo ou não o fechamento.</p>
+<p>A corretora pede um documento para dar suporte a entrada do dinheiro, nesse
+caso vai ser a invoice. Após o fechamento do cambio, você terá um contrato de
+cambio, que é o documento que comprova a entrada de dinheiro no país.</p>
+<h3 id="declarando-e-pagando-o-imposto">Declarando e pagando o imposto</h3>
+<p>Quando você recebe o dinheiro, você deve usar o <a href="https://receita.economia.gov.br/orientacao/tributaria/pagamentos-e-parcelamentos/pagamento-do-imposto-de-renda-de-pessoa-fisica/carne-leao/2020/programa-carne-leao-2020">Carnê
+Leão</a>
+para declarar o recebimento e pagar os impostos. Caso tenha algum duplo
+desconto (no caso de você já trabalhar como CLT), o restante do imposto será
+cobrado na sua declaração de imposto de renda. Dessa forma, você vai pagar o
+mesmo valor que paga como CLT, 27.5% de imposto sobre o recebimento
+(considerando o maior valor).</p>
+<p>Você deve estar se perguntando: &ldquo;Caramba! 27.5% de imposto! Pessoa Jurídica é
+muito menos!&rdquo;. PJ com certeza paga menos imposto, mas dependendo da situação
+compensa receber como pessoa física.</p>
+<h3 id="quando-receber-valores-como-pessoa-física">Quando receber valores como pessoa física</h3>
+<p>Quando você vai fazer apenas uma trabalho freelance e não sabe se isso vai
+durar muito tempo, vale mais a pena começar a receber como pessoa física antes
+de pensar em PJ.</p>
+<p>Eu adoraria recomendar as pessoas a utilizarei MEI, mas infelizmente, MEI <strong>não
+atende</strong> a nossa profissão. <a href="https://agilize.com.br/blog/empreendedorismo/desenvolvedor/#Por-que-desenvolvedores-de-software-n%C3%A3o-podem-se-enquadrar-como-MEI">Achei esse artigo da agilize que fala um pouco
+mais sobre
+isso</a> e não vou escrever muito mais, dado que há bastante informação na internet.
+Há <a href="https://www25.senado.leg.br/web/atividade/materias/-/materia/133127">um projeto no
+Senado</a>
+para permitir MEI para programadores, mas o Senador responsável pelo projeto
+(Rogério Carvalho, do PT) até o momento <a href="https://legis.senado.leg.br/sdleg-getter/documento?dm=7970336&amp;ts=1594016896384&amp;disposition=inline">é contrário ao projeto por causa da
+&ldquo;Pejotização do
+trabalho&rdquo;</a>
+🙄.</p>
+<p>Como MEI não é uma realidade para nós, programadores e programadoras, receber
+como pessoa física ainda é a melhor opção se não for algo duradouro.</p>
+<p>Vamos fazer algumas contas só para ter uma ideia dos custos de uma empresa
+(conta de padaria, pode ser mais ou menos):</p>
+<p>Eu moro em Diadema, portanto sites como o
+<a href="http://contabilizei.com.br/">Contabilizei</a> e o
+<a href="https://www.agilize.com.br/">Agilize</a>, que possuem valores mais acessíveis,
+não suportam a minha cidade ainda. Com isso em mente, vamos considerar alguns
+custos:</p>
+<p><strong>Contador</strong>: Meio salário mínimo por mês + decimo terceiro (pois é&hellip; é uma realidade).
+<strong>Conta PJ</strong>: R$ 70 por mês no Itaú, mas você pode tentar nubank, por exemplo.
+<strong>Abertura da empresa</strong>: chutando baixo, cerca de R$ 500 a R$ 600</p>
+<p>Hoje a realidade é muito melhor do que em 2017 e para manter uma empresa você
+pode gastar de 50-400 reais por mês (dependendo do que você consegue para
+contabilidade).</p>
+<p>Na minha época, fiz as contas e vi que se eu estivesse recebendo um valor menor
+que R$ 5000, não ia compensar manter uma empresa aberta, só pela dor de cabeça.</p>
+<p>Caso esteja trabalhando para o Brasil, ainda é possível receber como pessoa
+física, mas nesse caso a empresa que precisa reter os impostos na fonte para
+que você receba como &ldquo;autonomo&rdquo;. Eu recebi dessa forma uma vez, mas deu uma
+grande dor de cabeça. Não é uma coisa que as empresas estão acostumadas a fazer
+por aqui (na minha experiência) e geralmente preferem procurar alguém com
+empresa aberta, infelizmente.</p>
+<h3 id="conclusão">Conclusão</h3>
+<p>Esse post estava como draft no meu blog desde 2017, quando eu estava abrindo
+minha empresa. Hoje já não é mais uma realidade para mim, mas trabalhei cerca
+de 1 ano como freelancer para o exterior recebendo como pessoa física enquanto
+ainda tinha meu trabalho CLT. Como isso pode ser útil para mais alguém, eu
+decidi postar mesmo assim.</p>
+<p>Trabalhar para fora do Brasil como freelancer sem empresa aberta é possível,
+apesar de caro, mas é uma boa forma de começar sem se preocupar com muita
+burocracia.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Dactyl keyboard - Part 1</title>
