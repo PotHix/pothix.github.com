@@ -118,9 +118,9 @@ Eu moro em Diadema, portanto sites como o
 não suportam a minha cidade ainda. Com isso em mente, vamos considerar alguns
 custos:
 
-**Contador**: Meio salário mínimo por mês + decimo terceiro (pois é... é uma realidade).
-**Conta PJ**: R$ 70 por mês no Itaú, mas você pode tentar nubank, por exemplo.
-**Abertura da empresa**: chutando baixo, cerca de R$ 500 a R$ 600
++ **Contador**: Meio salário mínimo por mês + decimo terceiro (pois é... é uma realidade).
++ **Conta PJ**: R$ 70 por mês no Itaú, mas você pode tentar nubank, por exemplo.
++ **Abertura da empresa**: chutando baixo, cerca de R$ 500 a R$ 600
 
 Hoje a realidade é muito melhor do que em 2017 e para manter uma empresa você
 pode gastar de 50-400 reais por mês (dependendo do que você consegue para
