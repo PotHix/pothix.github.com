@@ -6,7 +6,7 @@ series = ["PF/PJ"]
 +++
 
 Esse é o segundo post da [série de PF/PJ](/series/pf/pj) e vou contar sobre a
-minha epopéia de como foi abrir uma empresa em 2017 e como está sendo até hoje.
+minha epopéia de como foi abrir uma empresa em 2017 e o que escolhi.
 
 A ideia principal desse post é mostrar para as pessoas como é abrir uma empresa
 de desenvolvimento de software, os custos envolvidos e qual a melhor forma
@@ -36,75 +36,118 @@ O processo foi muito complicado para mim. Não necessariamente é
 complicado para todo mundo, mas espero que as minhas descrições aqui
 sejam úteis para alguém.
 
-## As informações da empresa
+## As informações para abrir a empresa
 
 Quando comecei a pesquisar isso, eu não tinha ideia do que era uma
 empresa e como eu faria para receber por lá. Então tive que começar a
 pesquisa do zero.
 
+Hoje em dia, temos muito mais material online e várias empresas de
+contabilidade para te auxiliar. De qualquer forma, é sempre bom encontrar
+pessoas que já fazem isso na prática e te dizem como as coisas estão
+funcionando.
+
 ### O Simples Nacional
 
-O [Simples Nacional](https://www8.receita.gov.br/SimplesNacional/), é
-um esquema de taxação que o governo criou para simplificar o pagamento
-de impostos. Antes dele, as empresas tinham que pagar um monte de
-impostos separados, cada um com seu esquema de calculo e pagamento. O
-Simples Nacional veio unificar isso e gerar apenas uma guia de
-pagamento, o DAS (**D**ocumento de **A**rrecadação **S**implificada).
+O [Simples Nacional](http://www8.receita.fazenda.gov.br/SimplesNacional/), é um
+esquema de taxação que o governo criou para simplificar o pagamento de
+impostos. Antes dele, as empresas tinham que pagar um monte de impostos
+separados, cada um com seu esquema de calculo e pagamento. O Simples Nacional
+veio unificar isso e gerar apenas uma guia de pagamento, o DAS (**D**ocumento
+de **A**rrecadação **S**implificada).
 
-Esse documento vai ser gerado sempre que houver uma nota fiscal
-gerada. Os impostos vão ser de acordo com o tipo da sua empresa e o
-CNAE (que veremos em breve) utilizado para o trabalho.
+Esse documento vai ser gerado todo mês, sempre que houver uma nota fiscal
+gerada. Os impostos vão ser de acordo com o tipo da sua empresa e o CNAE (que
+veremos em breve) utilizado para o trabalho.
 
-Não é qualquer empresa que se enquadra no simples, só alguns tipos de
-serviço que se enquadram. Quando a empresa se enquadra no simples, ela
-precisa vez em qual dos anexos ela está se enquadrando de acordo com o
-CNAE que ela está utilizando.
+Não é qualquer empresa que se enquadra no simples, só alguns tipos de serviço
+que se enquadram. Quando a empresa se enquadra no simples, ela precisa ver em
+qual dos anexos ela está se enquadrando de acordo com o CNAE que ela está
+utilizando. As empresas de software geralmente se incluem nessa modalidade.
+
+Você pode escolher não se enquadrar no simples e ficar no lucro presumido (por
+exemplo), mas não vai ser o tema desse post. Eu recomendo abrir a empresa no
+simples nacional por ser bem mais... simples.
 
 ### CNAEs
 
-O CNAE é a **C**lassificação **N**acional de **A**tividades
-**E**conômicas. Ele que diz qual o tipo de serviço que a sua empresa
-faz e qual a porcentagem de impostos você deve pagar.
+O CNAE é a **C**lassificação **N**acional de **A**tividades **E**conômicas. Ele
+que diz qual o tipo de serviço que a sua empresa faz e qual a porcentagem de
+impostos você deve pagar.
 
-Ao conversar com algumas pessoas que tem empresa aberta e até mesmo
-com um contador, eu percebi que cada um interpreta os CNAEs de uma
-forma para o nosso setor de desenvolvimento de software. Cada
-empresa/contador tem que conhecer a lei e como seus serviços se
-enquadram nela e usar o CNAE que se enquadra melhor. Não cabe a esse
-texto julgar isso.
+Ao conversar com algumas pessoas que tem empresa aberta e até mesmo com um
+contador, eu percebi que cada um interpreta os CNAEs de uma forma para o nosso
+setor de desenvolvimento de software. Cada empresa/contador tem que conhecer a
+lei e como seus serviços se enquadram nela e usar o CNAE que se enquadra
+melhor. Não cabe a esse texto julgar isso.
 
-Se você trabalha remotamente desenvolvendo software para alguma
-empresa, você poderá se enquadrar
-no
-[CNAE 6101-5/01 - DESENVOLVIMENTO DE PROGRAMAS DE COMPUTADOR SOB ENCOMENDA](http://cnae.ibge.gov.br/busca-online-cnae.html?subclasse=6201501&tipo=cnae&versao=9&view=subclasse).
+Se você trabalha remotamente desenvolvendo software para alguma empresa (meu
+caso), você poderá se enquadrar no CNAE "61.01-5-01 - desenvolvimento de
+programas de computador sob encomenda".
 
-Como eu disse há pouco, existe muita controvérsia quanto a prestação
-de serviços de "informática" nas nossas leis. No passado, mesmo esse
-tipo de CNAE era enquadrado no anexo V do simples porque era
-ambíguo. Finalmente fizeram
-a
-[lei complementar 155 de outubro de 2016](http://www.planalto.gov.br/ccivil_03/leis/LCP/Lcp155.htm) no
-[§ 5º-D](http://www.planalto.gov.br/ccivil_03/leis/LCP/Lcp123.htm#art18§5d),
-que faz com que esse CNAE consiga se enquadrar no anexo III do
-simples, pagando **6%** de imposto ao invés de **17.5%** como é no
-anexo V.
-
-Lembrando que para que você use esse CNAE e se enquadre no anexo III,
-você precisa estar prestando serviço de desenvolvimento de software,
-mas o software tem que ser desenvolvido **no estabelecimento do
-optante**, conforme a descrição da lei complementar. Então nada de ir
-trabalhar na empresa como se fosse CLT se enquadrando no anexo III.
+Esse é o CNAE que eu escolhi para a minha empresa, juntamente com o "62.04-0-00
+- Consultoria em tecnologia da informação" e "62.01-5-02 - Web design" (que eu
+nunca usei).
 
 Para os casos de pessoas que trabalham como PJ dentro da empresa, eles
-geralmente entram como consultores com o
-CNAE
-[6204-0/00](http://cnae.ibge.gov.br/busca-online-cnae.html?subclasse=6204000&tipo=cnae&versao=9&view=subclasse),
-que paga cerca de **17%** de imposto.
+geralmente entram como consultores com o CNAE 62.04-0-00 que paga cerca de
+**15.5%** de imposto.
 
-O pessoal da Contabilizei fez uma tabela com
-as
-[porcentagens de imposto por atividade](https://www.contabilizei.com.br/contabilidade-online/tabela-simples-nacional-completa/),
-apesar de não estarem considerando a lei complementar ainda.
+O pessoal da Contabilizei fez uma tabela com as [porcentagens de imposto por
+atividade](https://www.contabilizei.com.br/contabilidade-online/tabela-simples-nacional-completa/).
+Lá você pode ver que o CNAE "Desenvolvimento de programas de computador sob
+encomenda" pode se enquadrar tanto no anexo V como no anexo III, o que varia
+muito o valor do imposto.
+
+### Anexos do simples e valores de imposto
+
+Eu não quero entrar em detalhes sobre o que os anexos do simples significam,
+mas usando o nosso CNAE de "Desenvolvimento de programas de computador sob
+encomenda" como exemplo, o valor do imposto muda de acordo com o anexo do
+simples nacional. Podemos pagar 15.5% ou 6%. Uma diferença enorme.
+
+Na data de escrita desse post (o que eu tinha escrito em 2017 não é mais válido
+e provavelmente vai mudar no futuro, pesquise!) está em vigor o que eles
+chamam de "fator r". O tal do _fator r_ afeta alguns CNAEs, como é o exemplo do
+"Desenvolvimento de programas de computador sob encomenda" que eu mencionei
+acima.
+
+Em linhas gerais, o que o _fator r_ diz é que você pode ser enquadrado no
+anexo III se você retirar 30% (é um pouquinho menos, mas considere 30) do seu
+faturamento como folha de pagamento.
+
+O que isso significa para nós, desenvolvedores e desenvolvedoras de software
+prestando serviço remotamente, é que podemos pagar 6% de imposto ao prestar
+serviço.
+
+Para conseguir esse valor, considerando que não temos nenhum funcionário,
+precisamos pagar pro-labore para nós mesmos no valor de 30% do nosso
+faturamento. Simples assim.
+
+### Pro-labore
+
+O que diabos é pró-labore, você deve estar se perguntando.
+
+Pro-labore é o seu salário. Lembrando que você não vai ser mais uma pessoa,
+você vai ser [uma
+entidade](http://www.portaldecontabilidade.com.br/tematicas/principiosfundamentais.htm).
+"Você como empresa" não é você como pessoa física. Por isso que tudo deve ser
+muito bem separado (contas, dívidas, etc.).
+
+Com isso em mente, é necessário que a empresa te pague todo mês o seu salário
+de pessoa física. Se você pensar bem faz total sentido, afinal você dedica seu
+tempo como funcionário em tempo integral da sua empresa. Não importa muito se
+você é o único funcionário ou não.
+
+Eu recomendo você fazer esse depósito de uma forma separada, todo mês, para
+ficar fácil de registrar contabilmente.
+
+Seguindo o fator r, retire os 30% e seja feliz no anexo III do simples
+(considerando que o seu CNAE entre nessa regra, claro!).
+
+É importante mencionar que essa regra do fator r usa o seu faturamente anual.
+Se você já tinha empresa e não estava seguindo essa regra antes, você vai ter
+que esperar vários meses para se adequar.
 
 ### Recebimento de dinheiro
 
