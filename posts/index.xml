@@ -6,8 +6,150 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Wed, 21 Oct 2020 00:00:00 -0300</lastBuildDate>
+        <lastBuildDate>Thu, 22 Oct 2020 00:00:00 -0300</lastBuildDate>
         <atom:link href="https://pothix.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Abertura de empresa</title>
+            <link>https://pothix.com/aberturapj/</link>
+            <pubDate>Thu, 22 Oct 2020 00:00:00 -0300</pubDate>
+            
+            <guid>https://pothix.com/aberturapj/</guid>
+            <description>Esse é o segundo post da série de PF/PJ e vou contar sobre a minha epopéia de como foi abrir uma empresa em 2017 e o que escolhi.
+A ideia principal desse post é mostrar para as pessoas como é abrir uma empresa de desenvolvimento de software, os custos envolvidos e qual a melhor forma (IMO) de estruturá-la.
+DISCLAIMER: Eu não sou contador, mas essas são as informações que eu levantei depois de toda a minha pesquisa, assim eu consegui conversar melhor com os contadores.</description>
+            <content type="html"><![CDATA[<p>Esse é o segundo post da <a href="/series/pf/pj">série de PF/PJ</a> e vou contar sobre a
+minha epopéia de como foi abrir uma empresa em 2017 e o que escolhi.</p>
+<p>A ideia principal desse post é mostrar para as pessoas como é abrir uma empresa
+de desenvolvimento de software, os custos envolvidos e qual a melhor forma
+(IMO) de estruturá-la.</p>
+<p><strong>DISCLAIMER</strong>: Eu não sou contador, mas essas são as informações que
+eu levantei depois de toda a minha pesquisa, assim eu consegui
+conversar melhor com os contadores. Leia, entenda e converse com eles.</p>
+<h2 id="um-pouco-de-história">Um pouco de história</h2>
+<p>Depois do período que trabalhei como frelancer pessoa física (como
+descrevi no <a href="/pf">post de PF para o exterior</a>), eu resolvi <a href="/locaweb">sair do meu
+trabalho CLT</a> e procurar uma outra empresa para trabalhar.</p>
+<p>Eu sempre quis ter minha própria empresa. Essa ideia vem desde antes do
+meu primeiro trabalho com tecnologia, mas nunca surgiu a oportunidade.
+Houve várias vezes que eu tentei buscar mais informações e cogitei a
+possibilidade, mas as informações eram sempre muito perdidas ou faziam o
+processo se tornar inviável para o meu contexto.</p>
+<p>Em 2017 eu <a href="/doist">comecei a trabalhar para a Doist</a>, que não é uma
+empresa brasileira e viabilizou esse meu plano de abrir a minha própria
+empresa.</p>
+<p>O processo foi muito complicado para mim. Não necessariamente é
+complicado para todo mundo, mas espero que as minhas descrições aqui
+sejam úteis para alguém.</p>
+<h2 id="as-informações-para-abrir-a-empresa">As informações para abrir a empresa</h2>
+<p>Quando comecei a pesquisar isso, eu não tinha ideia do que era uma
+empresa e como eu faria para receber por lá. Então tive que começar a
+pesquisa do zero.</p>
+<p>Hoje em dia, temos muito mais material online e várias empresas de
+contabilidade para te auxiliar. De qualquer forma, é sempre bom encontrar
+pessoas que já fazem isso na prática e te dizem como as coisas estão
+funcionando.</p>
+<h3 id="modelo-de-tributação">Modelo de tributação</h3>
+<p>O <a href="http://www8.receita.fazenda.gov.br/SimplesNacional/">Simples Nacional</a>, é um
+esquema de taxação que o governo criou para simplificar o pagamento de
+impostos. Antes dele, as empresas tinham que pagar um monte de impostos
+separados, cada um com seu esquema de calculo e pagamento. O Simples Nacional
+veio unificar isso e gerar apenas uma guia de pagamento, o DAS (<strong>D</strong>ocumento
+de <strong>A</strong>rrecadação <strong>S</strong>implificada).</p>
+<p>Esse documento vai ser gerado todo mês, sempre que houver uma nota fiscal
+gerada. Os impostos vão ser de acordo com o tipo da sua empresa e o CNAE (que
+veremos em breve) utilizado para o trabalho.</p>
+<p>Não é qualquer empresa que se enquadra no simples, só alguns tipos de serviço
+que se enquadram. Quando a empresa se enquadra no simples, ela precisa ver em
+qual dos anexos ela está se enquadrando de acordo com o CNAE que ela está
+utilizando. As empresas de software geralmente se incluem nessa modalidade.</p>
+<p>Você pode escolher não se enquadrar no simples e ficar no lucro presumido (por
+exemplo), mas eu vou falar mais sobre isso em outro post. Eu recomendo abrir a
+empresa no simples nacional por ser bem mais&hellip; simples.</p>
+<h3 id="cnaes">CNAEs</h3>
+<p>O CNAE é a <strong>C</strong>lassificação <strong>N</strong>acional de <strong>A</strong>tividades <strong>E</strong>conômicas. Ele
+que diz qual o tipo de serviço que a sua empresa faz e qual a porcentagem de
+impostos você deve pagar.</p>
+<p>Ao conversar com algumas pessoas que tem empresa aberta e até mesmo com um
+contador, eu percebi que cada um interpreta os CNAEs de uma forma para o nosso
+setor de desenvolvimento de software. Cada empresa/contador tem que conhecer a
+lei e como seus serviços se enquadram nela e usar o CNAE que se enquadra
+melhor. Não cabe a esse texto julgar isso.</p>
+<p>Se você trabalha remotamente desenvolvendo software para alguma empresa (meu
+caso), você poderá se enquadrar no CNAE &ldquo;61.01-5-01 - desenvolvimento de
+programas de computador sob encomenda&rdquo;.</p>
+<p>Esse é o CNAE que eu escolhi para a minha empresa, juntamente com o &ldquo;62.04-0-00</p>
+<ul>
+<li>Consultoria em tecnologia da informação&rdquo; e &ldquo;62.01-5-02 - Web design&rdquo; (que eu
+nunca usei).</li>
+</ul>
+<p>Para os casos de pessoas que trabalham como PJ dentro da empresa, eles
+geralmente entram como consultores com o CNAE 62.04-0-00 que paga cerca de
+<strong>15.5%</strong> de imposto.</p>
+<p>O pessoal da Contabilizei fez uma tabela com as <a href="https://www.contabilizei.com.br/contabilidade-online/tabela-simples-nacional-completa/">porcentagens de imposto por
+atividade</a>.
+Lá você pode ver que o CNAE &ldquo;Desenvolvimento de programas de computador sob
+encomenda&rdquo; pode se enquadrar tanto no anexo V como no anexo III, o que varia
+muito o valor do imposto.</p>
+<p>Se atente ao tal do <em>fator r</em> do link acima e escolha o CNAE que faça sentido
+para o trabalho que você desenvolve e se possível um que se encaixe no tal do
+<em>fator r</em> para você pagar menos imposto quando tira ~30% do faturamento como
+prolabore (seu salário). Falarei melhor do <em>fator r</em> e o prolabore em outro
+post.</p>
+<h3 id="tipo-de-empresa">Tipo de empresa</h3>
+<p>Existem vários tipos de empresa:</p>
+<ul>
+<li>MEI (que não funciona para programadores!)</li>
+<li>ME</li>
+<li>ltda</li>
+<li>SA</li>
+<li>EIRELI</li>
+<li>SLU (relativamente nova na data da escrita desse post)</li>
+</ul>
+<p>De todas essas, as que fazem mais sentido para desenvolvedores que não vão ter
+funcionários (na minha opinião) são a ME, Ltda, e SLU.</p>
+<p>Eu abri minha empresa como ME, mas se eu fosse abrir hoje, provavelmente
+consideraria uma SLU. A SLU parece uma mistura da Ltda com a EIRELI. Parece ser
+um modelo bem bom, mas eu não estudei o suficiente para adicionar mais
+informações aqui.</p>
+<p>Na ME, você abre uma empresa com o seu nome e pode ter até no máximo 1
+funcionário (AFAIK). Seus bens pessoais podem ser usados para quitar dívidas da
+empresa caso algo muito ruim aconteça.</p>
+<h2 id="meu-processo">Meu processo</h2>
+<p>Depois de pesquisar todas essas informações e encontrar uma empresa de
+contabilidade que parecia boa o suficiente, eu dei entrada na abertura da
+empresa na minha cidade. Cada cidade tem um processo diferente, então não vou
+entrar muito em detalhes quanto a isso.</p>
+<p>Eu conheço gente que abriu a empresa e deixou tudo completamente funcional
+legalmente em 2 ou 3 semanas, mas o prazo médio (de acordo com as perguntas que
+fiz) para ter uma empresa funcionando totalmente é de pouco mais de um mês.</p>
+<p>Meu processo demorou <strong>6 meses para ficar pronto</strong>.</p>
+<h3 id="o-que-deu-errado">O que deu errado</h3>
+<p>O processo estava correndo tudo bem, até que em algum momento os <strong>bombeiros</strong>
+(sim, você não leu errado&hellip;) negaram a abertura da empresa.</p>
+<p>Eu sou bem certinho com tudo que eu faço e decidi abrir a empresa no endereço
+que eu vou trabalhar na maior parte do tempo: meu apartamento. Mas eu sempre
+subestimo o quanto é difícil fazer as coisas certas.</p>
+<p>Acontece que o meu prédio estava com o AVCB, que é o documento de vistoria dos
+bombeiros, atrasado e estavam em processo de renovação. Enquanto esse documento
+não estivesse tudo certo a minha empresa não podia ser aberta.</p>
+<p>O mais engraçado é que eu já moro aqui. Estou aqui todo dia. Usando o
+computador. Mas eu não podia abrir a minha empresa para fazer exatamente isso.
+Chega a ser ridículo.</p>
+<p>O processo de regularização do prédio, vistoria dos bombeiros, aprovação do
+AVCB, e aprovação dos bombeiros levou 2 meses para ficar pronto. Houve idas e
+vindas minhas na central do corpo de bombeiros que fica em outra cidade,
+inúmeras conversas com o síndico para entender a situação, e etc.</p>
+<p>Quando o meu documento dos bombeiros liberou, ainda demorou quase um mês para
+tudo ficar pronto para uso.</p>
+<h2 id="conclusão">Conclusão</h2>
+<p>Eu comecei a escrever esse post em 2017, mas estava de saco cheio de todo esse
+processo e nunca terminei. Hoje finalmente resolvi me livrar desse draft no meu
+blog.</p>
+<p>Se tem uma coisa a se concluir: Antes de começar o processo de abertura, veja
+se o AVCB (e outros documentos) do local onde você vai abrir está tudo certo.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Tolkien Biography</title>
