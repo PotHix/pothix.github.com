@@ -1,6 +1,5 @@
 +++
-date = 2020-10-12
-draft = true
+date = 2020-10-22
 title = "Abertura de empresa"
 series = ["PF/PJ"]
 +++
