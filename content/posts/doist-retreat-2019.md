@@ -1,15 +1,15 @@
----
-title: "How was Doist Retreat 2019"
-date: 2019-04-05T14:03:39-03:00
-draft: true
----
++++
+title = "How was Doist Retreat 2019"
+date = 2019-04-05
+draft = true
++++
 
 **TL;DR**: I work remotely for [Doist](https://doist.com) and we bring
 the whole team together somewhere in the world once an year. I will
 describe how it was for me this year in Azores, Portugal 🇵🇹.
 
 [I'm working for Doist for almost two years
-now](post/doist-pothix/). When I posted about it for the first time,
+now](/doist). When I posted about it for the first time,
 my plan was to start a series of posts about what we are doing there
 and how it feels to work with people that fully believe in the project
 and the mantra of the company while working async and
