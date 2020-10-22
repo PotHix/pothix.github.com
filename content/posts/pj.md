@@ -47,7 +47,7 @@ contabilidade para te auxiliar. De qualquer forma, é sempre bom encontrar
 pessoas que já fazem isso na prática e te dizem como as coisas estão
 funcionando.
 
-### O Simples Nacional
+### Modelo de tributação
 
 O [Simples Nacional](http://www8.receita.fazenda.gov.br/SimplesNacional/), é um
 esquema de taxação que o governo criou para simplificar o pagamento de
@@ -66,8 +66,8 @@ qual dos anexos ela está se enquadrando de acordo com o CNAE que ela está
 utilizando. As empresas de software geralmente se incluem nessa modalidade.
 
 Você pode escolher não se enquadrar no simples e ficar no lucro presumido (por
-exemplo), mas não vai ser o tema desse post. Eu recomendo abrir a empresa no
-simples nacional por ser bem mais... simples.
+exemplo), mas eu vou falar mais sobre isso em outro post. Eu recomendo abrir a
+empresa no simples nacional por ser bem mais... simples.
 
 ### CNAEs
 
@@ -99,81 +99,78 @@ Lá você pode ver que o CNAE "Desenvolvimento de programas de computador sob
 encomenda" pode se enquadrar tanto no anexo V como no anexo III, o que varia
 muito o valor do imposto.
 
-### Anexos do simples e valores de imposto
+Se atente ao tal do _fator r_ do link acima e escolha o CNAE que faça sentido
+para o trabalho que você desenvolve e se possível um que se encaixe no tal do
+_fator r_ para você pagar menos imposto quando tira ~30% do faturamento como
+prolabore (seu salário). Falarei melhor do _fator r_ e o prolabore em outro
+post.
 
-Eu não quero entrar em detalhes sobre o que os anexos do simples significam,
-mas usando o nosso CNAE de "Desenvolvimento de programas de computador sob
-encomenda" como exemplo, o valor do imposto muda de acordo com o anexo do
-simples nacional. Podemos pagar 15.5% ou 6%. Uma diferença enorme.
+### Tipo de empresa
 
-Na data de escrita desse post (o que eu tinha escrito em 2017 não é mais válido
-e provavelmente vai mudar no futuro, pesquise!) está em vigor o que eles
-chamam de "fator r". O tal do _fator r_ afeta alguns CNAEs, como é o exemplo do
-"Desenvolvimento de programas de computador sob encomenda" que eu mencionei
-acima.
+Existem vários tipos de empresa:
 
-Em linhas gerais, o que o _fator r_ diz é que você pode ser enquadrado no
-anexo III se você retirar 30% (é um pouquinho menos, mas considere 30) do seu
-faturamento como folha de pagamento.
+* MEI (que não funciona para programadores!)
+* ME
+* ltda
+* SA
+* EIRELI
+* SLU (relativamente nova na data da escrita desse post)
 
-O que isso significa para nós, desenvolvedores e desenvolvedoras de software
-prestando serviço remotamente, é que podemos pagar 6% de imposto ao prestar
-serviço.
+De todas essas, as que fazem mais sentido para desenvolvedores que não vão ter
+funcionários (na minha opinião) são a ME, Ltda, e SLU.
 
-Para conseguir esse valor, considerando que não temos nenhum funcionário,
-precisamos pagar pro-labore para nós mesmos no valor de 30% do nosso
-faturamento. Simples assim.
+Eu abri minha empresa como ME, mas se eu fosse abrir hoje, provavelmente
+consideraria uma SLU. A SLU parece uma mistura da Ltda com a EIRELI. Parece ser
+um modelo bem bom, mas eu não estudei o suficiente para adicionar mais
+informações aqui.
 
-### Pro-labore
+Na ME, você abre uma empresa com o seu nome e pode ter até no máximo 1
+funcionário (AFAIK). Seus bens pessoais podem ser usados para quitar dívidas da
+empresa caso algo muito ruim aconteça.
 
-O que diabos é pró-labore, você deve estar se perguntando.
+## Meu processo
 
-Pro-labore é o seu salário. Lembrando que você não vai ser mais uma pessoa,
-você vai ser [uma
-entidade](http://www.portaldecontabilidade.com.br/tematicas/principiosfundamentais.htm).
-"Você como empresa" não é você como pessoa física. Por isso que tudo deve ser
-muito bem separado (contas, dívidas, etc.).
+Depois de pesquisar todas essas informações e encontrar uma empresa de
+contabilidade que parecia boa o suficiente, eu dei entrada na abertura da
+empresa na minha cidade. Cada cidade tem um processo diferente, então não vou
+entrar muito em detalhes quanto a isso.
 
-Com isso em mente, é necessário que a empresa te pague todo mês o seu salário
-de pessoa física. Se você pensar bem faz total sentido, afinal você dedica seu
-tempo como funcionário em tempo integral da sua empresa. Não importa muito se
-você é o único funcionário ou não.
+Eu conheço gente que abriu a empresa e deixou tudo completamente funcional
+legalmente em 2 ou 3 semanas, mas o prazo médio (de acordo com as perguntas que
+fiz) para ter uma empresa funcionando totalmente é de pouco mais de um mês.
 
-Eu recomendo você fazer esse depósito de uma forma separada, todo mês, para
-ficar fácil de registrar contabilmente.
+Meu processo demorou **6 meses para ficar pronto**.
 
-Seguindo o fator r, retire os 30% e seja feliz no anexo III do simples
-(considerando que o seu CNAE entre nessa regra, claro!).
+### O que deu errado
 
-É importante mencionar que essa regra do fator r usa o seu faturamente anual.
-Se você já tinha empresa e não estava seguindo essa regra antes, você vai ter
-que esperar vários meses para se adequar.
+O processo estava correndo tudo bem, até que em algum momento os **bombeiros**
+(sim, você não leu errado...) negaram a abertura da empresa.
 
-### Recebimento de dinheiro
+Eu sou bem certinho com tudo que eu faço e decidi abrir a empresa no endereço
+que eu vou trabalhar na maior parte do tempo: meu apartamento. Mas eu sempre
+subestimo o quanto é difícil fazer as coisas certas.
 
-Se estiver recebendo dinheiro do exterior, você vai precisar fechar o
-câmbio de alguma forma. Por "fechar o câmbio", entenda escolher uma
-taxa de cambio junto a uma entidade autorizada e transformar o valor
-de moeda estrangeira em real.
+Acontece que o meu prédio estava com o AVCB, que é o documento de vistoria dos
+bombeiros, atrasado e estavam em processo de renovação. Enquanto esse documento
+não estivesse tudo certo a minha empresa não podia ser aberta.
 
-Como eu disse no começo do artigo, eu recomendo utilizar uma corretora
-para isso, mas o próprio banco pode fazer para você.
+O mais engraçado é que eu já moro aqui. Estou aqui todo dia. Usando o
+computador. Mas eu não podia abrir a minha empresa para fazer exatamente isso.
+Chega a ser ridículo.
 
-Na corretora que eu utilizo, eles cobram $30 para fechar o câmbio e
-usam um spread (uma taxa sobre a taxa atual da moeda) de 1.5%. Nos
-bancos a taxa de câmbio geralmente é muito ruim, eles nem liberam esse
-spread na maior parte dos casos, sem contar que geralmente é mais
-burocrático.
+O processo de regularização do prédio, vistoria dos bombeiros, aprovação do
+AVCB, e aprovação dos bombeiros levou 2 meses para ficar pronto. Houve idas e
+vindas minhas na central do corpo de bombeiros que fica em outra cidade,
+inúmeras conversas com o síndico para entender a situação, e etc.
 
-Após fechar o câmbio, a corretora envia o dinheiro para a sua conta.
+Quando o meu documento dos bombeiros liberou, ainda demorou quase um mês para
+tudo ficar pronto para uso.
 
-## Retirada do dinheiro
+## Conclusão
 
-Para quem trabalha como pessoa jurídica, é necessário definir um
-pró-labore. Pró-labore é um salário do sócio da empresa, você vai
-receber isso mensalmente. O pagamento do pró-labore não é opcional.
+Eu comecei a escrever esse post em 2017, mas estava de saco cheio de todo esse
+processo e nunca terminei. Hoje finalmente resolvi me livrar desse draft no meu
+blog.
 
-Os sócios escolhem o quanto vão receber de pró-labore, sendo o mínimo
-o salário mínimo vigente. O restante do valor fica para a empresa,
-podendo ser retirado como lucro, sem adição de impostos na pessoa
-física.
+Se tem uma coisa a se concluir: Antes de começar o processo de abertura, veja
+se o AVCB (e outros documentos) do local onde você vai abrir está tudo certo.
