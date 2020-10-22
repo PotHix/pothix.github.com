@@ -1,15 +1,15 @@
----
-title: "Thoughts on Async Work"
-date: 2019-04-09T09:55:30-03:00
-draft: true
----
++++
+title = "Thoughts on Async Work"
+date = 2019-04-09
+draft = true
++++
 
 As I'm having some "safe commuting" (places where I can open my laptop
 without being too afraid of being robbed) time during my trip to
 Portugal, I'm trying to write down things I have in my mind currently.
 
 As I said many time in the previous posts, [I'm working for
-Doist](/post/doist-pothix) and we work asynchronously there. I was
+Doist](/doist) and we work asynchronously there. I was
 writing my thoughts without much explanation but then I found out that
 it would not make any sense if I don't give you enough context about
 that, so I'm structuring it a little bit.
