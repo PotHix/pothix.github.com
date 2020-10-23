@@ -42,35 +42,10 @@ paginate     = 10
   # Default theme "light" or "dark"
   defaultTheme = "light"
 
-  #############################################
-  # doctype params
-  #############################################
-  author = "Willian Molinari a.k.a. PotHix"
-  sharingicons = true
-
-  [params.highlight]
-  style = "github"
-  languages = ["go", "dockerfile", "ruby", "elixir", "shell", "rust", "python"]
-
-  [[params.social]]
-  url = "https://github.com/PotHix"
-  fa_icon = "fa-github"
-
-  [[params.social]]
-  url = "https://gitlab.com/pothix"
-  fa_icon = "fa-gitlab"
-
-  [[params.social]]
-  url = "https://twitter.com/PotHix"
-  fa_icon = "fa-twitter"
-
-  [[params.social]]
-  url = "https://linkedin.com/in/willianmolinari"
-  fa_icon = "fa-linkedin-square"
-
-  [[params.social]]
-  url = "/index.xml"
-  fa_icon = "fa-rss"
+  [params.favicon.color]
+  mask = "#a9a9b3"
+  msapplication = "#a9a9b3"
+  theme = "#a9a9b3"
 
 [languages]
   [languages.en]
