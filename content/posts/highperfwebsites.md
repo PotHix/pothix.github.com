@@ -1,5 +1,5 @@
 +++
-title = "BookReview: High Performance Websites"
+title = "High Performance Websites"
 aliases=[
   "post/bookreview-high-performance-websites",
   "2009/07/30/bookreview-high-performance-websites.html",

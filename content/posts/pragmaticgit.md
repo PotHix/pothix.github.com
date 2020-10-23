@@ -1,5 +1,5 @@
 +++
-title = "BookReview: Pragmatic version control using Git"
+title = "Pragmatic version control using Git"
 aliases=[
   "post/bookreview-pragmatic-version-control-using-git",
   "2009/07/19/bookreview-pragmatic-version-control-using-git.html",

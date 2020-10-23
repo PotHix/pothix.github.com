@@ -1,5 +1,5 @@
 +++
-title = "BookReview: Anjos e Demônios"
+title = "Anjos e Demônios"
 aliases=[
   "post/bookreview-anjos-e-demonios",
   "2009/12/28/bookreview-anjos-e-demonios.html",

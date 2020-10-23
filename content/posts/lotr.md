@@ -1,5 +1,5 @@
 +++
-title = "BookReview: Lord of the Rings"
+title = "Lord of the Rings"
 aliases=[
   "post/bookreview-lord-of-the-rings",
   "2009/07/25/bookreview-lord-of-the-rings.html",
