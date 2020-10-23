@@ -199,4 +199,3 @@ Para quem quiser ver fotos eu coloquei todas as minhas no
 
 
 
-_Old comments by: Raul Souza Lima, TaQ, Dirceu Pereira Tiegs, Marcos Ricardo, Elomar França, Carlan Calazans, Letícia, Letícia | Not available anymore. :(_

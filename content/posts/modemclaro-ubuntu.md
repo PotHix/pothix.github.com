@@ -44,4 +44,3 @@ Com isso você já vai conseguir navegar normalmente! :)
 
 
 
-_Old comments by: Lê, ronaldo, Rodrigues | Not available anymore. :(_

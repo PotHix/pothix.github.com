@@ -84,4 +84,3 @@ quando lhe falarem de GitHub.
 
 
 
-_Old comments by: John-Henrique, George Mendonça, Thiago Marinho, Neto, Denis rebelo | Not available anymore. :(_

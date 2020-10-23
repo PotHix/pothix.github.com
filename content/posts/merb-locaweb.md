@@ -71,4 +71,3 @@ Hope this help you on how to make your simple application works on Locaweb. ;)
 
 
 
-_Old comments by: website erstellen lassen, Vikki Guitreau | Not available anymore. :(_

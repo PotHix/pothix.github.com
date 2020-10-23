@@ -32,4 +32,3 @@ colocar, é só ignorar isso tudo :)
 
 
 
-_Old comments by: Tino Gomes | Not available anymore. :(_

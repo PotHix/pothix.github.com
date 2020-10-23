@@ -53,4 +53,3 @@ O livro contém muitos outros tópicos interessantes, e tem uma leitura bem agra
 
 
 
-_Old comments by: Bruno Croci, Paulo Silveira | Not available anymore. :(_

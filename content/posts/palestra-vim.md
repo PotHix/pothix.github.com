@@ -42,4 +42,3 @@ Qualquer dúvida, comentário ou sugestão é só postar aqui! :)
 
 
 
-_Old comments by: Sérgio Luiz Araújo Silva, Vinicius B. Fuentes, Bruno Croci, otubo | Not available anymore. :(_

@@ -136,4 +136,3 @@ Qualquer dúvida ou sugestão deixe nos comentários. :)
 
 
 
-_Old comments by: Willian Fernandes, Luciano Sousa, caike | Not available anymore. :(_

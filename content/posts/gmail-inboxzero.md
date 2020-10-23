@@ -96,4 +96,3 @@ Se alguem tiver mais dicas poste nos comentários.
 
 
 
-_Old comments by: Carlos Brando, MarioRinaldi, Lê, The Rub(ens), Elomar França, Gabriel, Suelen GC | Not available anymore. :(_

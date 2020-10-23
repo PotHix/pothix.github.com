@@ -50,4 +50,3 @@ Se quer mesmo dar sua opinião, tenha pelo menos algum conhecimento prático
 
 
 
-_Old comments by: InFog, Mario Rinaldi, Geny Scaramuzzini | Not available anymore. :(_

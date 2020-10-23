@@ -51,4 +51,3 @@ do vídeo, mas se tiverem dúvidas coloquem nos comentários.
 
 
 
-_Old comments by: Alexandre Araujo, David Paniz | Not available anymore. :(_

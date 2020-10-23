@@ -30,4 +30,3 @@ Quem puder me ajudar a divulgar eu agradeço muito.
 
 
 
-_Old comments by: Amadeus Folego | Not available anymore. :(_

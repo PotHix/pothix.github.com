@@ -57,4 +57,3 @@ E espero que sejam úteis para vocês assim como são para mim. :)
 
 
 
-_Old comments by: CrociDB | Not available anymore. :(_

@@ -48,4 +48,3 @@ e a parabenização ao [Diogo](http://diogosantos.com/ "Site do Diogo")!
 
 
 
-_Old comments by: Phoenix, Igor | Not available anymore. :(_

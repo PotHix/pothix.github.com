@@ -132,4 +132,3 @@ Aí ficam as minhas considerações sobre o jogo! ;)
 
 
 
-_Old comments by: valdiney, ronald | Not available anymore. :(_

@@ -84,4 +84,3 @@ Brasil, e mais do que isso um lugar legal para troca de conhecimentos.
 
 
 
-_Old comments by: nuxlli, Renato Elias, Marcelo Castellani, Reinaldo, Rafael Rosa, Vinicius Baggio Fuentes, Lucas Caton, Paulo Silveira, Nelson Haraguchi, lucas renan | Not available anymore. :(_

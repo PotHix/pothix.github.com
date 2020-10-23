@@ -74,4 +74,3 @@ se você já leu o livro. 😉
 
 
 
-_Old comments by: Bruno Croci, Diego, car-reviews.ru | Not available anymore. :(_

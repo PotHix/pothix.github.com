@@ -182,4 +182,3 @@ Obrigado [Locaweb] por ter me levado lá! You Rock!
 
 
 
-_Old comments by: Thiago Paixão, Sérgio Neves, Lê, Rafael Farias | Not available anymore. :(_

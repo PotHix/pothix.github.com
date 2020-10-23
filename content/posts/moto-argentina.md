@@ -359,4 +359,3 @@ E uma coisa que eu posso afirmar é que eu saí de São Paulo com 10 conhecidos 
 
 
 
-_Old comments by: Fantinati, CIDÃO, Kaio lopes, Vinicius Baggio Fuentes, Sérjão, Sérgio Neves, Nelo, Walter Santos, Everaldo (BIGJOE), Ruy Camboriú | Not available anymore. :(_

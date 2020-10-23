@@ -270,4 +270,3 @@ picasaweb].
 
 
 
-_Old comments by: @diegorv | Not available anymore. :(_

@@ -67,4 +67,3 @@ de compartilhar, espero que seja útil para os leitores do blog.
 
 
 
-_Old comments by: CrociDB, Bónus Poker | Not available anymore. :(_

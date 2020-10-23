@@ -41,4 +41,3 @@ Se alguém aí costuma se juntar para jogar, não esqueçam de me incluir! :)
 
 
 
-_Old comments by: Letícia F. | Not available anymore. :(_

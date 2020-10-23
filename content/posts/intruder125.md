@@ -36,4 +36,3 @@ comentários mesmo.
 
 
 
-_Old comments by: thalita | Not available anymore. :(_

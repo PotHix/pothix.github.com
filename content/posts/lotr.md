@@ -212,4 +212,3 @@ leu, e recomendo muito mesmo que você leia, por que vale muito a pena!
 
 
 
-_Old comments by: Lê | Not available anymore. :(_

@@ -48,4 +48,3 @@ assim que estiverem disponíveis ) é só acessar!
 
 
 
-_Old comments by: Satish Talim, ashbb, Bruno Croci, Magnun, Leandro Silva | Not available anymore. :(_

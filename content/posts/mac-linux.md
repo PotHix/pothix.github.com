@@ -136,4 +136,3 @@ de frutinha. :P
 
 
 
-_Old comments by: Daniel Libanori, TaQ, David Paniz, Eduardo Resende, Letícia Figueira, Lucas Caton, Magnun | Not available anymore. :(_

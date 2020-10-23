@@ -139,4 +139,3 @@ que vem e vá fazer um curso de verão! ;)
 
 
 
-_Old comments by: Jack, Sam L., Débora | Not available anymore. :(_

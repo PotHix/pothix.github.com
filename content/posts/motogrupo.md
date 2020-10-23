@@ -70,4 +70,3 @@ algo muito foda, e esse primeiro passeio com certeza não será o ultimo! :)
 
 
 
-_Old comments by: Vinicius Baggio, Marcelo Castellani, Kaio Lopes, Omar Colocci, Letícia, Sérgio Neves, Santana, Nelson Oliveira | Not available anymore. :(_

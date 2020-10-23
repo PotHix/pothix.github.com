@@ -56,4 +56,3 @@ Parabéns a equipe do Opera pela inovação! :)
 
 
 
-_Old comments by: CrociDB, Rafael Masoni | Not available anymore. :(_

@@ -73,4 +73,3 @@ recadinhos com as peguetes"
 
 
 
-_Old comments by: Magnun, Marco Gomes, Tagliati, Cayo Medeiros aka. yogodoshi, Tony Fabeen, Lê, Herminio, Simone, Lucas | Not available anymore. :(_

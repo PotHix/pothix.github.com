@@ -106,4 +106,3 @@ E agora....Diablo II mostra sua nova aventura! ;)
 
 
 
-_Old comments by: caike, Fantinati, Rafael Masoni | Not available anymore. :(_

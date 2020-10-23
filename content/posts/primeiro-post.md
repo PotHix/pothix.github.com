@@ -30,4 +30,3 @@ Se quiser mais informações sobre mim procure na seção sobre do site.
 
 
 
-_Old comments by: Bruno | Not available anymore. :(_

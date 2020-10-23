@@ -183,4 +183,3 @@ se divertir com ele! :D
 
 
 
-_Old comments by: Piteco, Jotae, Lê, Abraão Coelho, CrociDB, André "aCidcOde" Gomes | Not available anymore. :(_

@@ -55,4 +55,3 @@ legal para começar.
 
 
 
-_Old comments by: Thiago Scherrer, Adelar S.Q. | Not available anymore. :(_

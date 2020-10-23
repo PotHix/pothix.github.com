@@ -44,4 +44,3 @@ E pronto! Lá estarão seus arquivos para você brincar! ;)
 
 
 
-_Old comments by: Anderson Kemper, crebin | Not available anymore. :(_

@@ -84,4 +84,3 @@ utilizando Git. :D
 
 
 
-_Old comments by: Carlan Calazans | Not available anymore. :(_

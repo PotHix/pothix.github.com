@@ -78,4 +78,3 @@ responder ) e seguir rumo...
 
 
 
-_Old comments by: Raul Souza Lima, Phoenix, Hugo, Karlisson | Not available anymore. :(_

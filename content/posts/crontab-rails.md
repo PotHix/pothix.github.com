@@ -94,4 +94,3 @@ Espero que seja útil para mais alguem como está sendo para mim.
   [própria página do plugin]: http://github.com/javan/whenever
 
 
-_Old comments by: Mateus, Vini, Fabiano P S, Luiz Cezer | Not available anymore. :(_

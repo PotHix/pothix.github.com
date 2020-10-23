@@ -50,4 +50,3 @@ Bem, é isso! Espero que esses links sejam úteis para mais alguem além de mim!
 
 
 
-_Old comments by: CrociDB, caike | Not available anymore. :(_

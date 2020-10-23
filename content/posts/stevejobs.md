@@ -75,4 +75,3 @@ certeza já mudou um pouco a minha forma de pensar. ;)
 
 
 
-_Old comments by: Rafael Timbó, Fabiano P S | Not available anymore. :(_

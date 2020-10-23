@@ -72,4 +72,3 @@ E Aguardem mais posts meus sobre Android ;)
 
 
 
-_Old comments by: Letícia, Bruna Griebeler, Nelson Haraguchi | Not available anymore. :(_

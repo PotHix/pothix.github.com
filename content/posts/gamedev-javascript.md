@@ -39,4 +39,3 @@ Sugestões e críticas construtivas são bem vindas! ;)
 
 
 
-_Old comments by: Hugo Roque (a.k.a hugolnx), Berg Ginu, Berg Ginu | Not available anymore. :(_
