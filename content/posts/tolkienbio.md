@@ -1,5 +1,5 @@
 +++
-title = "Tolkien Biography"
+title = "J.R.R. Tolkien: A Biography"
 date = 2020-10-21
 tags = [
     "english",
@@ -7,7 +7,7 @@ tags = [
 ]
 +++
 
-Book: [J.R.R. Tolkien: A Biography](https://www.goodreads.com/review/show/3401638686). Rating: ⭐️⭐️⭐️⭐️⭐️.
+Book: [J.R.R. Tolkien: A Biography, by Humphrey Carpenter](https://www.goodreads.com/review/show/3401638686). Rating: ⭐️⭐️⭐️⭐️⭐️.
 
 It's not a secret to anyone that [I'm a big fan of J.R.R.
 Tolkien](/oxford-tolkien). I have 3 versions of this book. A translated version
