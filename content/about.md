@@ -11,14 +11,16 @@ tags = [
 ]
 +++
 
-I'm Willian Molinari, also known as **PotHix**. I've been working with
-software development since 2006, using many languages professionally
-throughout the years. I'm a [published author](/writing/) and
-usually [speak about programming](/speaking/) around Brazil and the
-world.
+I'm Willian Molinari, also known as **PotHix**. I've been working with software
+development since 2006, using many languages professionally throughout the
+years.
 
-I like to travel and had the chance to [visit 10+ countries and 7+ states of my
-own country of residence](/places).
+It would be hard to add all the topics I'm passionate about in the top menu, so I decided to keep a list here:
+
+* [Write](/book/): I'm a published author and writing is something I love.
+* [Tech](/talks/): I love technology and I'm usually speakiking about programming in Brazil and around the world.
+* [Travel](/places):  like to travel and had the chance to visit 10+ countries and 7+ states of my own country of residence.
+* [Read](/books): I like reading and I'm moving my [my Goodreads reviews](https://goodreads.com/pothix) here.
 
 ### Getting in touch
 
@@ -26,9 +28,9 @@ Want to contact me? I decided to centralize the pointers to all my
 profiles at [about.me/pothix](https://about.me/pothix).
 
 You can always send me an email (preferred method) on pothix [at] pothix [dot]
-com or contact me [via Telegram](https://t.me/pothix).
+com or contact me [via Telegram](https://t.me/pothix) if it's something urgent.
 
-### WTF is PotHix
+### What does PotHix mean?
 
 Well... Here we go again. :)
 
