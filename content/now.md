@@ -19,9 +19,9 @@ Here is a list of my current priorities:
 1. Working full time (and improving my skills) with Python and Golang
 1. Improving my [Rust](https://www.rust-lang.org/en-US/) skills and [trying to contribute to the compiler](/post/contributing-to-rust/) (not much time for it nowadays, unfortunately)
 1. Being one of the main organizers of the [São Paulo Rust community](https://www.meetup.com/Rust-Sao-Paulo-Meetup/) (for 2+ years), not very active due to the pandemic
-1. Consuming books (mostly audiobooks on Audible). My reviews are available [here](https://goodreads.com/pothix)
-1. Researching and buying stuff to assemble my [dactyl-cc](https://github.com/mjohns/dactyl-cc/)
-1. Taking care of my twin babies at home and not sleeping much.
+1. Consuming books (mostly audiobooks on Audible). My reviews are available [here](https://goodreads.com/pothix), but moving them to this blog.
+1. Trying to get some time to assemble my [dactyl-cc](https://github.com/mjohns/dactyl-cc/).
+1. Taking care of my twin babies at home with all its ups and downs.
 
 These are some activities I still enjoy and want to be involved but I'm not finding much time nowadays:
 
@@ -30,7 +30,9 @@ These are some activities I still enjoy and want to be involved but I'm not find
 
 Things that I'm avoiding because of COVID-19:
 
+1. Organizing any kind of meetup.
+1. Traveling
 1. Playing Magic the gathering for fun. I'm playing Pauper. [my decks are here](https://www.mtgvault.com/pothix/). I usually play in a local game store, but it's now closed to avoid social interaction.
 1. Going to the Gym. Actually, going out. I'm avoinding anything that's not staying home.
 
-(last updated in September 2020)
+(last updated in October 2020)
