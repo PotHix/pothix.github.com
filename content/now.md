@@ -33,6 +33,6 @@ Things that I'm avoiding because of COVID-19:
 1. Organizing any kind of meetup.
 1. Traveling
 1. Playing Magic the gathering for fun. I'm playing Pauper. [my decks are here](https://www.mtgvault.com/pothix/). I usually play in a local game store, but it's now closed to avoid social interaction.
-1. Going to the Gym. Actually, going out. I'm avoinding anything that's not staying home.
+1. Going to the Gym. Actually, going out. I'm avoiding anything that's not staying home.
 
 (last updated in October 2020)
