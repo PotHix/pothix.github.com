@@ -39,9 +39,6 @@ paginate     = 10
   # Metadata mostly used in document's head
   images = ["/images/logo.svg"]
 
-  # Default theme "light" or "dark"
-  defaultTheme = "light"
-
   [params.favicon.color]
   mask = "#a9a9b3"
   msapplication = "#a9a9b3"
