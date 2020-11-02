@@ -4,9 +4,9 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  padding: 20px;
+  padding: 20px 0;
 
-  .dark-theme & {
+  @media (prefers-color-scheme: dark) {
     background: #252627;
   }
 
@@ -28,23 +28,4 @@
     width: 760px;
     max-width: 100%;
   }
-}
-
-.theme-toggle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 1;
-  cursor: pointer;
-}
-
-.theme-toggler {
-  fill: currentColor;
-}
-
-.unselectable {
-  user-select: none;
-  -webkit-user-select: none;  
-  -moz-user-select: none;    
-  -ms-user-select: none;      
 }
