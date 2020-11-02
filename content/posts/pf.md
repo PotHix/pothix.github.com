@@ -1,7 +1,7 @@
 +++
 date = 2020-10-11
 title = "Freelancer PF para o exterior"
-series = ["PF/PJ"]
+series = ["PF & PJ"]
 +++
 
 Esse é um texto que eu escrevi em 2017 quando eu comecei a abrir a minha

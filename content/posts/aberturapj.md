@@ -1,7 +1,7 @@
 +++
 date = 2020-10-22
 title = "Abertura de empresa"
-series = ["PF/PJ"]
+series = ["PF & PJ"]
 +++
 
 Esse é o segundo post da [série de PF/PJ](/series/pf/pj) e vou contar sobre a

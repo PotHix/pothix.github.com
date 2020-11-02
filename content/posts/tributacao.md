@@ -2,7 +2,7 @@
 title = "Tributacao"
 date = 2020-10-22
 draft = true
-series = ["PF/PJ"]
+series = ["PF & PJ"]
 +++
 
 ### Anexos do simples e valores de imposto
