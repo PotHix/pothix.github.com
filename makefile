@@ -20,7 +20,6 @@ publish:
 	@for i in $(find . -path ./public -prune -o -name index.html); do rm -rf $(dirname $i); done
 	@cp -R public/* .
 	@rm -rf public
-	@mv images/*-*x*.png images/apple-touch-icon.png images/site.webmanifest images/*.ico .
 	@git add -A .
 	@git commit -m "Last commit from source branch: '`cat last_commit`'"
 	@rm -rf last_commit
