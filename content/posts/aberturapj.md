@@ -4,7 +4,7 @@ title = "Abertura de empresa"
 series = ["PF & PJ"]
 +++
 
-Esse é o segundo post da [série de PF/PJ](/series/pf/pj) e vou contar sobre a
+Esse é o segundo post da [série de PF & PJ](/series/pf-pj) e vou contar sobre a
 minha epopéia de como foi abrir uma empresa em 2017 e o que escolhi.
 
 A ideia principal desse post é mostrar para as pessoas como é abrir uma empresa

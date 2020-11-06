@@ -5,12 +5,50 @@ draft = true
 series = ["PF & PJ"]
 +++
 
-### Anexos do simples e valores de imposto
+Nesse terceiro post da [série de PF & PJ](/series/pf-pj) eu vou explicar o que
+eu sei sobre o Simples Nacional atual, porque eu mudei para o Lucro presumido e
+as diferenças.
 
-Eu não quero entrar em detalhes sobre o que os anexos do simples significam,
-mas usando o nosso CNAE de "Desenvolvimento de programas de computador sob
-encomenda" como exemplo, o valor do imposto muda de acordo com o anexo do
-simples nacional. Podemos pagar 15.5% ou 6%. Uma diferença enorme.
+Esses não são assuntos tão divertidos de se falar aqui no blog, mas são eternos
+motivos de conversas com amigos para enteder o que é mais viável para eles,
+portanto eu resolvi escrever sobre o meu caso e o que eu sei.
+
+**DISCLAIMER**: Eu não sou contador, mas essas são as informações que
+eu levantei depois de toda a minha pesquisa, assim eu consegui
+conversar melhor com os contadores. Leia, entenda e converse com eles.
+
+### Simples nacional
+
+Eu descrevi brevemente o Simples nacional no meu post sobre [abertura de
+empresa](aberturapj) e aqui eu vou descrever mais algumas nuancias que eu tive
+que pesquisar na época.
+
+#### O primeiro ano
+
+O meu primeiro ano da minha empresa foi dentro do simples nacional. Esse é o
+caminho que eu recomendo a todos ao começar como PJ. O Simples realmente é o
+mais.. simples... que você consegue ter no modelo de PJ atualmente. Os impostos
+ficam todos juntos em apenas um documento e fica mais fácil entrar na rotina de
+PJ.
+
+Na época (fim de 2017 e 2018) ficar dentro do Simples Nacional era muito mais
+caro para o meu caso. Eu presto serviços para o exterior e tenho direito a
+isenção de PIS e COFINS, o que é mais complicado de fazer no Simples Nacional.
+Eu diria até que é controverso, pois os impostos vem todos juntos dentro do DAS
+para pagamento, portanto preferi não fazer.
+
+### Os anexos do simples
+
+O Simples nacional é dividido em vários anexos. Dependendo do tipo de trabalho
+que sua empresa está prestando, você pode cair em um anexo diferente e pagar
+mais ou menos imposto. Antigamente algumas coisas eram bem subjetivas quanto a
+esses anexos. Atualmente (2020) o processo parece menos subjetivo com a
+introdução do _fator r_, que vamos ver em breve.
+
+Usando o CNAE de "Desenvolvimento de programas de computador sob encomenda" que
+eu mencionei [no artigo anterior](/aberturapj) como exemplo, podemos  o valor do imposto
+muda de acordo com o anexo do simples nacional. Podemos pagar 15.5% ou 6%. Uma
+diferença enorme.
 
 Na data de escrita desse post (o que eu tinha escrito em 2017 não é mais válido
 e provavelmente vai mudar no futuro, pesquise!) está em vigor o que eles
