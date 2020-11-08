@@ -1,6 +1,6 @@
 +++
 title = "PJ optante do Lucro Presumido"
-date = 2020-11-07
+date = 2020-11-08
 series = ["PF & PJ"]
 +++
 
