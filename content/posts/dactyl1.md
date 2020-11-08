@@ -59,6 +59,8 @@ Qty | Item              | Total price | BRL (+taxes) | Link
 2   | Promicro          | $ 5.90      | R$ 36,72\*   | [AliExpress](https://www.aliexpress.com/item/32989454698.html)
 1   | 2.0% flux solder  | $ 2.11      | R$ 11,60     | [AliExpress](https://www.aliexpress.com/item/33006453680.html)
 
+_update: It turned out the M3 screw is not the right one and the wrong jumper cables were sent 😕_.
+
 
 ### Extras:
 
