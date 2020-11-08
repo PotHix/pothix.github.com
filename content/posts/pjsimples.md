@@ -1,13 +1,12 @@
 +++
-title = "Tributacao"
-date = 2020-10-22
-draft = true
+title = "PJ optante do Simples"
+date = 2020-11-07
 series = ["PF & PJ"]
 +++
 
 Nesse terceiro post da [série de PF & PJ](/series/pf-pj) eu vou explicar o que
-eu sei sobre o Simples Nacional atual, porque eu mudei para o Lucro presumido e
-as diferenças.
+eu sei sobre o Simples Nacional atual e como era a minha vida quando minha
+empresa era optante.
 
 Esses não são assuntos tão divertidos de se falar aqui no blog, mas são eternos
 motivos de conversas com amigos para enteder o que é mais viável para eles,
@@ -100,3 +99,35 @@ pagando menos imposto.
 É importante mencionar que essa regra do fator r usa o seu faturamente anual.
 Se você já tinha empresa e não estava seguindo essa regra antes, você vai ter
 que esperar vários meses para se adequar.
+
+### Impostos
+
+No simples, todo mês usa empresa de contabilidade manda um documento chamado
+DAS (Documento de Arrecadação do Simples). Esse documento engloba tudo que
+precisa ser pago no mês referente a impostos. Vem fechadinho, pronto para pagar
+e esquecer.
+
+Nesse quesito, o Simples nacional realmente facilita bastante a vida do
+empresário.
+
+## Vale a pena usar o Simples?
+
+Essa é a pergunta que todo mundo tem quando está abrindo uma empresa. Tudo é
+muito difícil de calcular, não tem uma formula simples para chegar nessa
+conclusão. Esse post não vai ser a bala de prata para isso.
+
+Mas tem uma coisa que talvez possa ajudar. Se levarmos em consideração as
+seguintes premissas:
+
+* Você está abrindo sua primeira empresa
+* Você vai trabalhar remoto
+* Você vai usar o CNAE de desenvolvimento de software por encomenda
+* Você não vai ter funcionários
+* Você vai tirar 30% do seu faturamento todo mês como prolabore
+
+Eu diria que sim, o Simples é uma ótima escolha para esse momento. Você ainda
+vai pagar cerca de 10-12% de impostos, mas compensa totalmente a dor de cabeça
+de outros métodos por enquanto.
+
+Depois de algum tempo no Simples você pode avaliar outros métodos e mudar no
+começo do ano. Foi isso que eu fiz, mas já é assunto para outro post. 😉
