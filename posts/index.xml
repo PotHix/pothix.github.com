@@ -6,8 +6,116 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Sat, 24 Oct 2020 00:00:00 -0300</lastBuildDate>
+        <lastBuildDate>Sat, 07 Nov 2020 00:00:00 -0300</lastBuildDate>
         <atom:link href="https://pothix.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>PJ optante do Simples</title>
+            <link>https://pothix.com/pjsimples/</link>
+            <pubDate>Sat, 07 Nov 2020 00:00:00 -0300</pubDate>
+            
+            <guid>https://pothix.com/pjsimples/</guid>
+            <description>Nesse terceiro post da série de PF &amp;amp; PJ eu vou explicar o que eu sei sobre o Simples Nacional atual e como era a minha vida quando minha empresa era optante.
+Esses não são assuntos tão divertidos de se falar aqui no blog, mas são eternos motivos de conversas com amigos para enteder o que é mais viável para eles, portanto eu resolvi escrever sobre o meu caso e o que eu sei.</description>
+            <content type="html"><![CDATA[<p>Nesse terceiro post da <a href="/series/pf-pj">série de PF &amp; PJ</a> eu vou explicar o que
+eu sei sobre o Simples Nacional atual e como era a minha vida quando minha
+empresa era optante.</p>
+<p>Esses não são assuntos tão divertidos de se falar aqui no blog, mas são eternos
+motivos de conversas com amigos para enteder o que é mais viável para eles,
+portanto eu resolvi escrever sobre o meu caso e o que eu sei.</p>
+<p><strong>DISCLAIMER</strong>: Eu não sou contador, mas essas são as informações que
+eu levantei depois de toda a minha pesquisa, assim eu consegui
+conversar melhor com os contadores. Leia, entenda e converse com eles.</p>
+<h3 id="o-primeiro-ano">O primeiro ano</h3>
+<p>O meu primeiro ano da minha empresa foi dentro do simples nacional. Esse é o
+caminho que eu recomendo a todos ao começar como PJ. O Simples realmente é o
+mais.. simples&hellip; que você consegue ter no modelo de PJ atualmente. Os impostos
+ficam todos juntos em apenas um documento e fica mais fácil entrar na rotina de
+PJ.</p>
+<p>Na época (fim de 2017 e 2018) ficar dentro do Simples Nacional era muito mais
+caro para o meu caso. Eu presto serviços para o exterior e tenho direito a
+isenção de PIS e COFINS, o que é mais complicado de fazer no Simples Nacional.
+Eu diria até que é controverso, pois os impostos vem todos juntos dentro do DAS
+para pagamento, portanto preferi não fazer.</p>
+<h3 id="simples-nacional">Simples nacional</h3>
+<p>Eu descrevi brevemente o Simples nacional no meu post sobre <a href="aberturapj">abertura de
+empresa</a> e aqui eu vou descrever mais algumas nuancias que eu tive
+que pesquisar na época.</p>
+<h3 id="os-anexos-do-simples">Os anexos do simples</h3>
+<p>O Simples nacional é dividido em vários anexos. Dependendo do tipo de trabalho
+que sua empresa está prestando, você pode cair em um anexo diferente e pagar
+mais ou menos imposto. Como eu mencionei acima, antigamente algumas coisas eram
+piores e até mais subjetivas quanto a esses anexos. Atualmente (2020) o
+processo parece menos subjetivo com a introdução do <em>fator r</em>, que vamos ver em
+breve.</p>
+<p>Vamos usa o CNAE de &ldquo;Desenvolvimento de programas de computador sob encomenda&rdquo;
+que eu mencionei <a href="/aberturapj">no artigo anterior</a> como exemplo. Com esse CNAE
+o valor do imposto muda de acordo com o anexo do simples nacional. Podemos
+pagar 15.5% ou 6%. Uma diferença enorme.</p>
+<h3 id="o-fator-r">O fator r</h3>
+<p>Na data de escrita desse post está em vigor o que eles chamam de &ldquo;fator r&rdquo;. O
+tal do <em>fator r</em> afeta alguns CNAEs, como é o exemplo do &ldquo;Desenvolvimento de
+programas de computador sob encomenda&rdquo; que eu mencionei acima.</p>
+<p>Em linhas gerais, o que o <em>fator r</em> diz (considernado o caso do CNAE que
+estamos usando) é que você pode ser enquadrado no anexo III se você retirar 30%
+(é um pouquinho menos, mas considere 30) do seu faturamento como folha de
+pagamento.</p>
+<p>O que isso significa para nós, desenvolvedores e desenvolvedoras de software
+prestando serviço remotamente, é que podemos pagar 6% de imposto ao prestar
+serviço.</p>
+<p>Para conseguir esse valor, considerando que não temos nenhum funcionário,
+precisamos pagar pro-labore para nós mesmos no valor de 30% do nosso
+faturamento. Simples assim.</p>
+<h3 id="pro-labore">Pro-labore</h3>
+<p>O que diabos é pró-labore, você deve estar se perguntando.</p>
+<p>Pro-labore é o seu salário. Lembrando que você não vai ser mais uma pessoa,
+você vai ser <a href="http://www.portaldecontabilidade.com.br/tematicas/principiosfundamentais.htm">uma
+entidade</a>.
+&ldquo;Você como empresa&rdquo; não é você como pessoa física. Por isso que tudo deve ser
+muito bem separado (contas bancárias, dívidas, etc.).</p>
+<p>Com isso em mente, é necessário que a empresa te pague todo mês o seu salário
+de pessoa física. Se você pensar bem faz total sentido, afinal você dedica seu
+tempo como funcionário em tempo integral da sua empresa. Não importa muito se
+você é o único funcionário ou não.</p>
+<p><em>Nota: Há controversias se você deve sempre pagar o prolabore ou não. Alguns dizem que
+a lei não é clara sobre essa necessidade, mas eu recomendo retirar sempre. É
+sempre importante que a sua empresa de contabilidade também divida esse risco
+com você, portanto pergunte para ele qual a melhor maneira de fazer.</em></p>
+<p>Eu recomendo você fazer o depósito do prolabore de uma forma separada, todo
+mês, para ficar fácil de registrar contabilmente.</p>
+<p>Se tiver uma empresa no simples nacional e um dos CNAES que tem o benefício do
+tal do <em>fator r</em> da lista do tópico anterior, retire os 30% e seja feliz
+pagando menos imposto.</p>
+<p>É importante mencionar que essa regra do fator r usa o seu faturamente anual.
+Se você já tinha empresa e não estava seguindo essa regra antes, você vai ter
+que esperar vários meses para se adequar.</p>
+<h3 id="impostos">Impostos</h3>
+<p>No simples, todo mês usa empresa de contabilidade manda um documento chamado
+DAS (Documento de Arrecadação do Simples). Esse documento engloba tudo que
+precisa ser pago no mês referente a impostos. Vem fechadinho, pronto para pagar
+e esquecer.</p>
+<p>Nesse quesito, o Simples nacional realmente facilita bastante a vida do
+empresário.</p>
+<h2 id="vale-a-pena-usar-o-simples">Vale a pena usar o Simples?</h2>
+<p>Essa é a pergunta que todo mundo tem quando está abrindo uma empresa. Tudo é
+muito difícil de calcular, não tem uma formula simples para chegar nessa
+conclusão. Esse post não vai ser a bala de prata para isso.</p>
+<p>Mas tem uma coisa que talvez possa ajudar. Se levarmos em consideração as
+seguintes premissas:</p>
+<ul>
+<li>Você está abrindo sua primeira empresa</li>
+<li>Você vai trabalhar remoto</li>
+<li>Você vai usar o CNAE de desenvolvimento de software por encomenda</li>
+<li>Você não vai ter funcionários</li>
+<li>Você vai tirar 30% do seu faturamento todo mês como prolabore</li>
+</ul>
+<p>Eu diria que sim, o Simples é uma ótima escolha para esse momento. Você ainda
+vai pagar cerca de 10-12% de impostos, mas compensa totalmente a dor de cabeça
+de outros métodos por enquanto.</p>
+<p>Depois de algum tempo no Simples você pode avaliar outros métodos e mudar no
+começo do ano. Foi isso que eu fiz, mas já é assunto para outro post. 😉</p>
+]]></content>
+        </item>
         
         <item>
             <title>When: The Scientific Secrets of Perfect Timing</title>
@@ -133,10 +241,10 @@ part.</li>
             <pubDate>Thu, 22 Oct 2020 00:00:00 -0300</pubDate>
             
             <guid>https://pothix.com/aberturapj/</guid>
-            <description>Esse é o segundo post da série de PF/PJ e vou contar sobre a minha epopéia de como foi abrir uma empresa em 2017 e o que escolhi.
+            <description>Esse é o segundo post da série de PF &amp;amp; PJ e vou contar sobre a minha epopéia de como foi abrir uma empresa em 2017 e o que escolhi.
 A ideia principal desse post é mostrar para as pessoas como é abrir uma empresa de desenvolvimento de software, os custos envolvidos e qual a melhor forma (IMO) de estruturá-la.
 DISCLAIMER: Eu não sou contador, mas essas são as informações que eu levantei depois de toda a minha pesquisa, assim eu consegui conversar melhor com os contadores.</description>
-            <content type="html"><![CDATA[<p>Esse é o segundo post da <a href="/series/pf/pj">série de PF/PJ</a> e vou contar sobre a
+            <content type="html"><![CDATA[<p>Esse é o segundo post da <a href="/series/pf-pj">série de PF &amp; PJ</a> e vou contar sobre a
 minha epopéia de como foi abrir uma empresa em 2017 e o que escolhi.</p>
 <p>A ideia principal desse post é mostrar para as pessoas como é abrir uma empresa
 de desenvolvimento de software, os custos envolvidos e qual a melhor forma
