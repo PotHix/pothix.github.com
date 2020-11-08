@@ -48,7 +48,7 @@ breve.
 Vamos usa o CNAE de "Desenvolvimento de programas de computador sob encomenda"
 que eu mencionei [no artigo anterior](/aberturapj) como exemplo. Com esse CNAE
 o valor do imposto muda de acordo com o anexo do simples nacional. Podemos
-pagar 15.5% ou 6%. Uma diferença enorme.
+pagar 15.5% ou 6% (no melhor caso). Uma diferença enorme.
 
 ### O fator r
 
@@ -68,6 +68,12 @@ serviço.
 Para conseguir esse valor, considerando que não temos nenhum funcionário,
 precisamos pagar pro-labore para nós mesmos no valor de 30% do nosso
 faturamento. Simples assim.
+
+Esse valor de 6% só funciona quando a empresa fatura menos de 180k reais por
+ano. A porcentagem vai aumentando dependendo do faturamento. A empresa de
+contabilidade chamada _Contabilizei_ mantém várias informações legais sobre o
+simples e [aqui tem uma página com a tabela do anexo
+III](https://blog.contabilizei.com.br/contabilidade-online/anexo-3-simples-nacional/).
 
 ### Pro-labore
 
