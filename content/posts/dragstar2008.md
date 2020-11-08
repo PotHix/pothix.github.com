@@ -6,7 +6,7 @@ aliases=[
   "blog/personal/vendo-dragstar-2008"
 ]
 date = "2013-07-29"
-tags = ["motorcycle"]
+tags = ["motorcycles"]
 +++
 
 Chegou a hora de pendurar o colete por um tempo, obviamente estarei de

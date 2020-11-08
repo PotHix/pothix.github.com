@@ -6,7 +6,7 @@ aliases=[
   "blog/motorcycle/viajar-de-moto-com-um-grupo-de-motociclistas"
 ]
 date = "2011-01-25"
-tags = ["motorcycle"]
+tags = ["motorcycles"]
 +++
 
 Pois é! Essa era uma das coisas que eu tinha vontade de fazer há muito tempo,

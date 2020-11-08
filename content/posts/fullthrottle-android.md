@@ -6,7 +6,7 @@ aliases=[
   "blog/android/instalando-o-full-throttle-no-motorola-milestone"
 ]
 date = "2011-03-03"
-tags = ["android","games","motorcycle"]
+tags = ["android","games","motorcycles"]
 +++
 
 [![Foto do full throtle rodando no meu notebook toshiba](/images/posts/full_throtle_pothix.jpg "Full throtle rodando no meu toshiba")](/images/posts/full_throtle_pothix.jpg "")

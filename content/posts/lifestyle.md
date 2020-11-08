@@ -1,7 +1,7 @@
 +++
 title = "A lifestyle"
 date = "2012-09-10"
-tags = ["english"]
+tags = ["motorcycles", "english"]
 aliases=[
   "post/a-lifestyle",
   "2012/09/10/a-lifestyle.html"

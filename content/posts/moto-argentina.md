@@ -6,7 +6,7 @@ aliases=[
   "blog/motorcycle/viagem-de-moto-para-eldorado-na-argentina"
 ]
 date = "2012-04-09"
-tags = ["motorcycle"]
+tags = ["motorcycles"]
 +++
 
 **TL; DR** Fiz uma viagem de moto saindo de São Paulo e indo para Eldorado (Argentina)

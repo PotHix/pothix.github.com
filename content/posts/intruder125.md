@@ -6,7 +6,7 @@ aliases=[
   "/blog/personal/vendo-intruder-125-customizada-e-com-guidao-seca-suvaco"
 ]
 date = "2013-07-29"
-tags = ["motorcycle"]
+tags = ["motorcycles"]
 +++
 
 Depois de brincar de customização de motos por um tempo chegou a hora

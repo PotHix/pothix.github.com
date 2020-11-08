@@ -1,7 +1,7 @@
 +++
 title = "PotHix ❤ Doist"
 date = "2017-10-30"
-tags = ["english", "tech"]
+tags = ["career", "english", "tech"]
 aliases=["post/doist-pothix"]
 +++
 

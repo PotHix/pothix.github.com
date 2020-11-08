@@ -6,7 +6,7 @@ aliases=[
   "blog/motorcycle/pothix-e-as-motos"
 ]
 date = "2011-01-25"
-tags = ["motorcycle"]
+tags = ["motorcycles"]
 +++
 
 Bem, para introduzir um assunto sobre os meus Hobbies aqui no blog eu
