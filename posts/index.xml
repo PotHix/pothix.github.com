@@ -6,8 +6,81 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Sun, 08 Nov 2020 00:00:00 -0300</lastBuildDate>
+        <lastBuildDate>Mon, 09 Nov 2020 00:00:00 -0300</lastBuildDate>
         <atom:link href="https://pothix.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Testing the micro controller</title>
+            <link>https://pothix.com/dactyl2/</link>
+            <pubDate>Mon, 09 Nov 2020 00:00:00 -0300</pubDate>
+            
+            <guid>https://pothix.com/dactyl2/</guid>
+            <description>A lot happened since my last post and all parts are already here! 😃
+It was expected that I would not have that much time to work on the keyboard when all the parts arrive, this will be a long journey. The only thing that I wanted to do as soon as possible was to check if the products were in a good condition.
+These are cheap parts coming from China in a month-long journey, so it&amp;rsquo;s important to check if they are working as expected while I still can open a dispute with the seller if something is wrong.</description>
+            <content type="html"><![CDATA[<p>A lot happened since <a href="/dactyl1">my last post</a> and all parts are already here! 😃</p>
+<p>It was expected that I would not have that much time to work on the keyboard
+when all the parts arrive, this will be a long journey. The only thing that I
+wanted to do as soon as possible was to check if the products were in a good
+condition.</p>
+<p>These are cheap parts coming from China in a month-long journey, so it&rsquo;s
+important to check if they are working as expected while I still can open a
+dispute with the seller if something is wrong.</p>
+<p>Most parts are very simple:</p>
+<p><img src="/images/posts/dactyl2/parts.jpg" alt="Other parts"></p>
+<p>I tested the switches with a multimeter just to be sure they were doing their
+job. It&rsquo;s a simple continuity test: Each probe touching one pin and pressing
+the switch to &ldquo;hear the beep&rdquo;.</p>
+<p>The part that I was mostly interested in was the microcontrollers:</p>
+<p><img src="/images/posts/dactyl2/microcontroller.jpg" alt="Both microcontrollers"></p>
+<p>I bought a cheap Arduino promicro and I wanted to be sure it was working. To do
+that, I connected it to the computer via micro-USB cable and flashed QMK into
+it.</p>
+<p><strong>Note:</strong> It&rsquo;s important to be sure you are using a good cable that transmits
+both data and power. I was initially using a simple cable I have here that
+doesn&rsquo;t transmit cable and was quite sad none of my microcontrollers were
+working 🤦‍♂.</p>
+<p>A <a href="https://twitter.com/rhruiz">friend of mine</a> recommended me to try the
+Laplace firmware for the test because it was very simple to check and that&rsquo;s
+what I did.</p>
+<p>The process is straightforward:</p>
+<ol>
+<li>Connect the microcontroller via micro-USB</li>
+<li>It should be recognized on <code>dmesg</code> (when using the right cable 🙄) and light up the red led</li>
+<li>You need to reset it by shorting the right pins</li>
+<li>Run the flash command for the firmware chosen</li>
+</ol>
+<p>The steps <strong>1</strong> and <strong>2</strong> don&rsquo;t need further description but let&rsquo;s go through
+the steps <strong>3</strong> and <strong>4</strong>.</p>
+<h2 id="reset-the-promicro">Reset the promicro</h2>
+<p>To reset the promicro, you will need a tweezer (preferred) or anything that you
+can use to short the two pins. Than you have to short the RST and GND pins
+while connected.</p>
+<p>After shorting, you will see a different output on your <code>dmesg</code> (I suggest
+keeping a <code>dmesg -w</code> running.</p>
+<h2 id="flash-the-firmware">Flash the firmware</h2>
+<p>The process was quite simple. I just connected the microcontroller, went to the
+qmk firmware directory and ran the following command right after reseting the
+promicro:</p>
+<pre><code>make keebio:laplace:default:avrdude
+</code></pre><p>and voilà:</p>
+<p><img src="/images/posts/dactyl2/flash-laplace.jpg" alt="Flashing laplace firmware"></p>
+<h2 id="testing-the-promicro">Testing the promicro</h2>
+<p>Now that the micro controller already has a firmware loaded, I decided to test
+some of the connections to be sure it was working as expected. Again you will
+need your tweezers and the microcontroller connected to the computer.</p>
+<p>I used <a href="https://linux.die.net/man/1/xev">xev</a> to test. It only receives any
+events received by the X server on Linux.</p>
+<p><img src="/images/posts/dactyl2/testing-tweezer.jpg" alt="Testing the microcontroller with a tweezer"></p>
+<p>I <a href="https://github.com/qmk/qmk_firmware/blob/master/keyboards/keebio/laplace/config.h#L34">used the matrix pins described on laplace&rsquo;s
+firmware</a>
+and started shorting. I was able to find ESC and DELETE, so I considered it as
+a working hardware. 🎉</p>
+<p>That&rsquo;s the simplest way I found (with some help, of course 😉) to test the
+microcontroller without assembling the keyboard. Hope it&rsquo;s useful to someone
+else.</p>
+]]></content>
+        </item>
         
         <item>
             <title>PJ optante do Lucro Presumido</title>
