@@ -1,6 +1,6 @@
 +++
 title = "Testing the micro controller"
-date = 2020-11-10
+date = 2020-11-09
 series = [
     "dactyl",
 ]
