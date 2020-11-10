@@ -38,7 +38,7 @@ that, I connected it to the computer via micro-USB cable and flashed QMK into
 it.</p>
 <p><strong>Note:</strong> It&rsquo;s important to be sure you are using a good cable that transmits
 both data and power. I was initially using a simple cable I have here that
-doesn&rsquo;t transmit cable and was quite sad none of my microcontrollers were
+doesn&rsquo;t transmit data and was quite sad none of my microcontrollers were
 working 🤦‍♂.</p>
 <p>A <a href="https://twitter.com/rhruiz">friend of mine</a> recommended me to try the
 Laplace firmware for the test because it was very simple to check and that&rsquo;s
