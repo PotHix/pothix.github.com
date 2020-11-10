@@ -53,8 +53,8 @@ Ao invés de pagar o DAS todo mês como no simples, você vai precisar pagar PIS
 COFINS, ISS, IRPJ, CSLL separadamente.
 
 A princípio, isso parece ser muito ruim, mas dependendo do caso pode ser
-vantajoso. Para quem presta serviços para o exterir, por exemplo, isso se torna
-uma vantagem.
+vantajoso. Para quem presta serviços para o exterior, por exemplo, isso se
+torna uma vantagem.
 
 Ao prestar serviços para o exterior, a empresa consegue **isenção de PIS e
 COFINS**. Há controvésias de como isso pode ser feito no Simples nacional, mas no
