@@ -39,7 +39,7 @@ it.
 
 **Note:** It's important to be sure you are using a good cable that transmits
 both data and power. I was initially using a simple cable I have here that
-doesn't transmit cable and was quite sad none of my microcontrollers were
+doesn't transmit data and was quite sad none of my microcontrollers were
 working 🤦‍♂.
 
 A [friend of mine](https://twitter.com/rhruiz) recommended me to try the
