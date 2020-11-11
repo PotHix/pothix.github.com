@@ -36,6 +36,7 @@
 
   .post {
     &-title {
+      font-weight: bold;
       font-size: 1rem;
       margin: 5px 0 5px 0;
     }
@@ -52,20 +53,17 @@
     }
 
     &-item {
-      border-bottom: 1px grey dashed;
+      border-bottom: 1px grey solid;
 
       a {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
         padding: 12px 0;
         text-decoration: none;
       }
     }
 
     &-day {
+      display: block;
       flex-shrink: 0;
-      margin-left: 1em;
       @include dimmed;
     }
   }
