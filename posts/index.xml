@@ -15,10 +15,12 @@
             <pubDate>Tue, 01 Dec 2020 00:00:00 -0300</pubDate>
             
             <guid>https://pothix.com/lotrfocus/</guid>
-            <description>I&amp;rsquo;m co-authoring a book about Rust and was reviewing an example about enums. My plan was to use some sort of reference to J.R.R. Tolkien fantasy world (because I really like it). I was considering using something like this:
-enum Race { Elf, Dwarf, Men, Hobbit, Ent } PS: I&amp;rsquo;m only considering the free-peoples of middle earth for this enum.
-While thinking about it, a lot of things came to my mind and before I realized, I was watching a video on YouTube on why Elrond did not kill Isildur on Mount Doom after he refused destroying the one ring.</description>
-            <content type="html"><![CDATA[<p>I&rsquo;m co-authoring a book about Rust and was reviewing an example about <code>enum</code>s.
+            <description>This is one of my quick thought posts (⚡). They could be a tweet but I have my own twitter here with much more freedom.
+I&amp;rsquo;m co-authoring a book about Rust and was reviewing an example about enums. My plan was to use some sort of reference to J.R.R. Tolkien fantasy world (because I really like it). I was considering using something like this:
+enum Race { Elf, Dwarf, Men, Hobbit, Ent } PS: I&amp;rsquo;m only considering the free-peoples of middle earth for this enum.</description>
+            <content type="html"><![CDATA[<p><em>This is one of my quick thought posts (⚡). They could be a tweet but I have my
+own twitter here with much more freedom.</em></p>
+<p>I&rsquo;m co-authoring a book about Rust and was reviewing an example about <code>enum</code>s.
 My plan was to use some sort of reference to J.R.R. Tolkien fantasy world
 (because I really like it). I was considering using something like this:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-rust" data-lang="rust"><span style="color:#66d9ef">enum</span> <span style="color:#a6e22e">Race</span> {

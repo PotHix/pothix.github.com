@@ -14,9 +14,9 @@
       <pubDate>Tue, 01 Dec 2020 00:00:00 -0300</pubDate>
       
       <guid>https://pothix.com/lotrfocus/</guid>
-      <description>I&amp;rsquo;m co-authoring a book about Rust and was reviewing an example about enums. My plan was to use some sort of reference to J.R.R. Tolkien fantasy world (because I really like it). I was considering using something like this:
-enum Race { Elf, Dwarf, Men, Hobbit, Ent } PS: I&amp;rsquo;m only considering the free-peoples of middle earth for this enum.
-While thinking about it, a lot of things came to my mind and before I realized, I was watching a video on YouTube on why Elrond did not kill Isildur on Mount Doom after he refused destroying the one ring.</description>
+      <description>This is one of my quick thought posts (⚡). They could be a tweet but I have my own twitter here with much more freedom.
+I&amp;rsquo;m co-authoring a book about Rust and was reviewing an example about enums. My plan was to use some sort of reference to J.R.R. Tolkien fantasy world (because I really like it). I was considering using something like this:
+enum Race { Elf, Dwarf, Men, Hobbit, Ent } PS: I&amp;rsquo;m only considering the free-peoples of middle earth for this enum.</description>
     </item>
     
   </channel>
