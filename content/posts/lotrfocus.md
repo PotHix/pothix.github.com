@@ -7,6 +7,9 @@ tags = [
 ]
 +++
 
+_This is one of my quick thought posts (⚡). They could be a tweet but I have my
+own twitter here with much more freedom._
+
 I'm co-authoring a book about Rust and was reviewing an example about `enum`s.
 My plan was to use some sort of reference to J.R.R. Tolkien fantasy world
 (because I really like it). I was considering using something like this:
