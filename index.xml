@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 09 Nov 2020 00:00:00 -0300</lastBuildDate><atom:link href="https://pothix.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 -0300</lastBuildDate><atom:link href="https://pothix.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>⚡ Rust, LotR, and focus</title>
+      <link>https://pothix.com/lotrfocus/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 -0300</pubDate>
+      
+      <guid>https://pothix.com/lotrfocus/</guid>
+      <description>I&amp;rsquo;m co-authoring a book about Rust and was reviewing an example about enums. My plan was to use some sort of reference to J.R.R. Tolkien fantasy world (because I really like it). I was considering using something like this:
+enum Race { Elf, Dwarf, Men, Hobbit, Ent } PS: I&amp;rsquo;m only considering the free-peoples of middle earth for this enum.
+While thinking about it, a lot of things came to my mind and before I realized, I was watching a video on YouTube on why Elrond did not kill Isildur on Mount Doom after he refused destroying the one ring.</description>
+    </item>
+    
     <item>
       <title>Testing a promicro</title>
       <link>https://pothix.com/dactyl2/</link>

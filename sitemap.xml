@@ -3,12 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://pothix.com/series/dactyl/</loc>
-    <lastmod>2020-11-09T00:00:00-03:00</lastmod>
+    <loc>https://pothix.com/tags/english/</loc>
+    <lastmod>2020-12-01T00:00:00-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/tags/english/</loc>
+    <loc>https://pothix.com/posts/</loc>
+    <lastmod>2020-12-01T00:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pothix.com/</loc>
+    <lastmod>2020-12-01T00:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pothix.com/tags/quickthoughts/</loc>
+    <lastmod>2020-12-01T00:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pothix.com/tags/</loc>
+    <lastmod>2020-12-01T00:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pothix.com/lotrfocus/</loc>
+    <lastmod>2020-12-01T00:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pothix.com/series/dactyl/</loc>
     <lastmod>2020-11-09T00:00:00-03:00</lastmod>
   </url>
   
@@ -18,22 +43,7 @@
   </url>
   
   <url>
-    <loc>https://pothix.com/posts/</loc>
-    <lastmod>2020-11-09T00:00:00-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pothix.com/</loc>
-    <lastmod>2020-11-09T00:00:00-03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://pothix.com/series/</loc>
-    <lastmod>2020-11-09T00:00:00-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pothix.com/tags/</loc>
     <lastmod>2020-11-09T00:00:00-03:00</lastmod>
   </url>
   
