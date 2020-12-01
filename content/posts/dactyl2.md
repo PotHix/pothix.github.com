@@ -1,5 +1,5 @@
 +++
-title = "Testing the promicro"
+title = "Testing a promicro"
 date = 2020-11-09
 series = [
     "dactyl",
