@@ -1,7 +1,6 @@
 +++
 title = "⚡ Rust, LotR, and focus"
 date = 2020-12-01
-draft = true
 tags = [
     "english",
     "quickthoughts",
