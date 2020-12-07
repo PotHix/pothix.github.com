@@ -10,6 +10,7 @@ aliases = [
 
 No. | Date       | Presentation  | Event
 --- | ---------- | ------------- | ------
+69  | 2020-11-18 | Exploring a Core Library for Multiple Languages using Rust | Doist talks
 68  | 2020-10-06 | [Trabalho remoto e assincrono](https://www.youtube.com/watch?v=sAMX3SiiESY) |  [Future of Work](https://www.brasil.futureofwork.co/)
 67  | 2019-11-29 | [Mongo, Rails 3 -> Postgres, Rails 5](https://www.eventials.com/locaweb/groups/ruby-conf-2019/) |  [Rubyconf BR](https://rubyconf.com.br)
 66  | 2019-06-21 | [Mongo, Rails 3 -> Postgres, Rails 5](https://www.youtube.com/watch?v=zyJ375I-l8A) |  [Guru-SP](https://gurusp.org)
