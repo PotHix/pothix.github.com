@@ -35,6 +35,6 @@ found myself watching a video on YouTube about one of my hobbies.
 
 I was not doing a deep work session this time, it was just casual writing while
 I have some minutes to spare. This was another reminder on why Deep Work is so
-important. When deep working, I convince myself I'm in a diffeent stage and I
+important. When deep working, I convince myself I'm in a diffeent mood and I
 just say to myself: "Yes, OK. I will add a task to Todoist to check that when
-the session starts".
+the session ends".

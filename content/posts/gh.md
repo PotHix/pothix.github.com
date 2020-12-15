@@ -3,6 +3,7 @@ title = "⚡ GitHub CLI (a.k.a gh)"
 date = 2020-12-15
 tags = [
     "english",
+    "quickthoughts",
 ]
 +++
 
