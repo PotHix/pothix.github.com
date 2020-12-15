@@ -10,10 +10,10 @@
     <lastBuildDate>Tue, 15 Dec 2020 00:00:00 -0300</lastBuildDate><atom:link href="https://pothix.com/tags/quickthoughts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>⚡ GitHub CLI (a.k.a gh)</title>
-      <link>https://pothix.com/gh/</link>
+      <link>https://pothix.com/ghcli/</link>
       <pubDate>Tue, 15 Dec 2020 00:00:00 -0300</pubDate>
       
-      <guid>https://pothix.com/gh/</guid>
+      <guid>https://pothix.com/ghcli/</guid>
       <description>This is one of my quick thought posts (⚡). They could be a tweet but I have my own twitter here with much more freedom.
 The GitHub CLI is been a major time saver for me. I was skeptical about its usage in the beginning but it proved to be very useful.
 Cloning When I want to download a new repository, instead of typing the whole URL or going to the browser to find the repository, I just type:</description>
