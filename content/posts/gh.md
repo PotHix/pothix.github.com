@@ -1,7 +1,6 @@
 +++
 title = "⚡ GitHub CLI (a.k.a gh)"
 date = 2020-12-15
-draft = true
 tags = [
     "english",
 ]
