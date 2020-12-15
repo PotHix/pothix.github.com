@@ -6,8 +6,53 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Tue, 01 Dec 2020 00:00:00 -0300</lastBuildDate>
+        <lastBuildDate>Tue, 15 Dec 2020 00:00:00 -0300</lastBuildDate>
         <atom:link href="https://pothix.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>⚡ GitHub CLI (a.k.a gh)</title>
+            <link>https://pothix.com/gh/</link>
+            <pubDate>Tue, 15 Dec 2020 00:00:00 -0300</pubDate>
+            
+            <guid>https://pothix.com/gh/</guid>
+            <description>This is one of my quick thought posts (⚡). They could be a tweet but I have my own twitter here with much more freedom.
+The GitHub CLI is been a major time saver for me. I was skeptical about its usage in the beginning but it proved to be very useful.
+Cloning When I want to download a new repository, instead of typing the whole URL or going to the browser to find the repository, I just type:</description>
+            <content type="html"><![CDATA[<p><em>This is one of my quick thought posts (⚡). They could be a tweet but I have my
+own twitter here with much more freedom.</em></p>
+<p>The GitHub CLI is been a major time saver for me. I was skeptical about its
+usage in the beginning but it proved to be very useful.</p>
+<h2 id="cloning">Cloning</h2>
+<p>When I want to download a new repository, instead of typing the whole URL or
+going to the browser to find the repository, I just type:</p>
+<pre><code>    gh repo clone name-of-the-repository
+</code></pre>
+<p>It works out of the box if the repo is mine. If it&rsquo;s from someone else, I have
+to specify the user:</p>
+<pre><code>    gh repo clone rust-lang/rust
+</code></pre>
+<p>It works like a charm ✨</p>
+<h2 id="creating-prs">Creating PRs</h2>
+<p>We create pull requests all the time at Doist, so it&rsquo;s great to have some
+automation for that.</p>
+<p>I&rsquo;m usually very descriptive on my commit messages. If the change is simple and
+just contains one commit, <code>gh</code> creates the description by itself:</p>
+<pre><code>    gh pr create -f -a PotHix -r nameOfTheReviewer
+</code></pre>
+<p>I even created a simple bash function to make it quickier when I use the
+following arguments:</p>
+<pre><code>create_pr() {
+    local reviewer=$1
+    gh pr create -f -a $GITHUB_USER -r $reviewer
+}
+</code></pre><p>After writing a good commit message, I just type:</p>
+<pre><code>    create_pr Doist/integrations
+</code></pre>
+<p>This command creates a PR and adds Doist&rsquo;s Integrations team as the reviewer and
+adds me as the assignee.</p>
+<p>This has been saving a ton of time for me. Hope it&rsquo;s useful for someone else. :)</p>
+]]></content>
+        </item>
         
         <item>
             <title>⚡ Rust, LotR, and focus</title>
