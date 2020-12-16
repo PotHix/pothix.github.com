@@ -1,5 +1,5 @@
 +++
-title = "When: The Scientific Secrets of Perfect Timing"
+title = "Review of When: The Scientific Secrets of Perfect Timing"
 date = 2020-10-24
 tags = [
     "english",
