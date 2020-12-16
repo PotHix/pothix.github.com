@@ -658,9 +658,10 @@ It&amp;rsquo;s important to understand all the pieces involved in a web request 
       
       <guid>https://pothix.com/now/</guid>
       <description>This is my now page, inspired by Derek Sievers.
-I&amp;rsquo;m living in São Paulo, Brazil and working for Doist full-time and for Intervac as a freelancer when I have time to spare.
+I&amp;rsquo;m living in São Paulo, Brazil and working for Doist remotely and asynchronously full-time.
+Intervac when there time to spare.
 Here is a list of my current priorities:
- Improving Todoist and Twist integrations platform at Doist Working full time (and improving my skills) with Python and Golang Improving my Rust skills and trying to contribute to the compiler (not much time for it nowadays, unfortunately) Being one of the main organizers of the São Paulo Rust community (for 2+ years), not very active due to the pandemic Consuming books (mostly audiobooks on Audible).</description>
+ Improving Todoist and Twist APIs and integrations platform at Doist. Mostly working with Python, Golang, and Typescript. Improving my Rust skills and trying to contribute to the compiler (not much time for it nowadays, unfortunately) Co-authoring a book abour Rust in pt-BR 🦀 Taking care of my twin babies at home with all its ups and downs (more downs than ups in the beggining, but there are magic moments).</description>
     </item>
     
   </channel>
