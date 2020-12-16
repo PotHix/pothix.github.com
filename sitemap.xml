@@ -3,27 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://pothix.com/tags/books/</loc>
+    <lastmod>2020-12-16T00:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pothix.com/tags/english/</loc>
-    <lastmod>2020-12-15T00:00:00-03:00</lastmod>
+    <lastmod>2020-12-16T00:00:00-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://pothix.com/posts/</loc>
-    <lastmod>2020-12-15T00:00:00-03:00</lastmod>
+    <lastmod>2020-12-16T00:00:00-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://pothix.com/</loc>
-    <lastmod>2020-12-15T00:00:00-03:00</lastmod>
+    <lastmod>2020-12-16T00:00:00-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pothix.com/tags/quickthoughts/</loc>
-    <lastmod>2020-12-15T00:00:00-03:00</lastmod>
+    <loc>https://pothix.com/dailyrituals/</loc>
+    <lastmod>2020-12-16T00:00:00-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://pothix.com/tags/</loc>
+    <lastmod>2020-12-16T00:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pothix.com/tags/quickthoughts/</loc>
     <lastmod>2020-12-15T00:00:00-03:00</lastmod>
   </url>
   
@@ -70,11 +80,6 @@
   <url>
     <loc>https://pothix.com/pjsimples/</loc>
     <lastmod>2020-11-07T00:00:00-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pothix.com/tags/books/</loc>
-    <lastmod>2020-10-24T00:00:00-03:00</lastmod>
   </url>
   
   <url>
