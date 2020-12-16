@@ -87,3 +87,8 @@ paginate     = 10
     identifier = "talks"
     name       = "Talks"
     url        = "/talks"
+
+  [[menu.main]]
+    identifier = "tags"
+    name       = "Tags"
+    url        = "/tags"
