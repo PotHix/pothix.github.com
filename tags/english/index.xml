@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 16 Dec 2020 00:00:00 -0300</lastBuildDate><atom:link href="https://pothix.com/tags/english/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Dec 2020 00:00:00 -0300</lastBuildDate><atom:link href="https://pothix.com/tags/english/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chrome: Invalid HTTPS in development</title>
+      <link>https://pothix.com/thisisunsafe/</link>
+      <pubDate>Thu, 17 Dec 2020 00:00:00 -0300</pubDate>
+      
+      <guid>https://pothix.com/thisisunsafe/</guid>
+      <description>It&amp;rsquo;s not the first time I had to use HTTPS for local development and had to do the whole setup of self-signed certificates. It&amp;rsquo;s a painful process that doesn&amp;rsquo;t have a good ROI for the developer.
+One day, after being sick of doing this every time, I decided to do some research for an easy way to workaround this. That was when I found the thisisunsafe hack.
+If you&amp;rsquo;re using Chrome (or chromium) you can type thisisunsafe when you access your development app complaining about HTTPS certificates.</description>
+    </item>
+    
     <item>
       <title>Review of Daily Rituals: How Artists Work</title>
       <link>https://pothix.com/dailyrituals/</link>
