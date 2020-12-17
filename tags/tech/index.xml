@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 23 Jul 2020 09:48:21 -0300</lastBuildDate><atom:link href="https://pothix.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 -0300</lastBuildDate><atom:link href="https://pothix.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub CLI (a.k.a gh)</title>
+      <link>https://pothix.com/ghcli/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 -0300</pubDate>
+      
+      <guid>https://pothix.com/ghcli/</guid>
+      <description>The GitHub CLI is been a major time saver for me. I was skeptical about its usage in the beginning but it proved to be very useful.
+Cloning When I want to download a new repository, instead of typing the whole URL or going to the browser to find the repository, I just type:
+ gh repo clone name-of-the-repository  It works out of the box if the repo is mine.</description>
+    </item>
+    
     <item>
       <title>Assembling an Iris Rev4</title>
       <link>https://pothix.com/iris/</link>

@@ -20,23 +20,23 @@ What first caught my attention was the pattern of the peak, through, rebound eve
     </item>
     
     <item>
-      <title>⚡ GitHub CLI (a.k.a gh)</title>
+      <title>GitHub CLI (a.k.a gh)</title>
       <link>https://pothix.com/ghcli/</link>
       <pubDate>Tue, 15 Dec 2020 00:00:00 -0300</pubDate>
       
       <guid>https://pothix.com/ghcli/</guid>
-      <description>This is one of my quick thought posts (⚡). They could be a tweet but I have my own twitter here with much more freedom.
-The GitHub CLI is been a major time saver for me. I was skeptical about its usage in the beginning but it proved to be very useful.
-Cloning When I want to download a new repository, instead of typing the whole URL or going to the browser to find the repository, I just type:</description>
+      <description>The GitHub CLI is been a major time saver for me. I was skeptical about its usage in the beginning but it proved to be very useful.
+Cloning When I want to download a new repository, instead of typing the whole URL or going to the browser to find the repository, I just type:
+ gh repo clone name-of-the-repository  It works out of the box if the repo is mine.</description>
     </item>
     
     <item>
-      <title>⚡ Rust, LotR, and focus</title>
+      <title>Rust, LotR, and focus</title>
       <link>https://pothix.com/lotrfocus/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 -0300</pubDate>
       
       <guid>https://pothix.com/lotrfocus/</guid>
-      <description>This is one of my quick thought posts (⚡). They could be a tweet but I have my own twitter here with much more freedom.
+      <description>💡 Quick thought post. A bigger tweet but on my own platform.
 I&amp;rsquo;m co-authoring a book about Rust and was reviewing an example about enums. My plan was to use some sort of reference to J.R.R. Tolkien fantasy world (because I really like it). I was considering using something like this:
 enum Race { Elf, Dwarf, Men, Hobbit, Ent } PS: I&amp;rsquo;m only considering the free-peoples of middle earth for this enum.</description>
     </item>
