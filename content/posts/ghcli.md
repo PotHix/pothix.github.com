@@ -1,14 +1,11 @@
 +++
-title = "⚡ GitHub CLI (a.k.a gh)"
+title = "GitHub CLI (a.k.a gh)"
 date = 2020-12-15
 tags = [
     "english",
-    "quickthoughts",
+    "tech",
 ]
 +++
-
-_This is one of my quick thought posts (⚡). They could be a tweet but I have my
-own twitter here with much more freedom._
 
 The GitHub CLI is been a major time saver for me. I was skeptical about its
 usage in the beginning but it proved to be very useful.

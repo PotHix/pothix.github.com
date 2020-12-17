@@ -1,5 +1,5 @@
 +++
-title = "⚡ Rust, LotR, and focus"
+title = "Rust, LotR, and focus"
 date = 2020-12-01
 tags = [
     "english",
@@ -7,8 +7,7 @@ tags = [
 ]
 +++
 
-_This is one of my quick thought posts (⚡). They could be a tweet but I have my
-own twitter here with much more freedom._
+_💡 Quick thought post. A bigger tweet but on my own platform._
 
 I'm co-authoring a book about Rust and was reviewing an example about `enum`s.
 My plan was to use some sort of reference to J.R.R. Tolkien fantasy world
