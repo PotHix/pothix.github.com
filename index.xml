@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 17 Dec 2020 00:00:00 -0300</lastBuildDate><atom:link href="https://pothix.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Dec 2020 14:45:35 -0300</lastBuildDate><atom:link href="https://pothix.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microblogging</title>
+      <link>https://pothix.com/m/202012211442/</link>
+      <pubDate>Mon, 21 Dec 2020 14:45:35 -0300</pubDate>
+      
+      <guid>https://pothix.com/m/202012211442/</guid>
+      <description>I still don&amp;rsquo;t know if keeping microblogging here on my blog makes sense, but I decided to give this a try. Some of these I will share elsewhere but some others I will just keep here.</description>
+    </item>
+    
     <item>
       <title>Chrome: Invalid HTTPS in development</title>
       <link>https://pothix.com/thisisunsafe/</link>
