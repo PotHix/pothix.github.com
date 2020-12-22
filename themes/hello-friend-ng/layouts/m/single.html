@@ -1,0 +1,26 @@
+{{ define "main" }}
+  <main class="post">
+
+    <div class="post-info">
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+      </h1>
+
+      <div class="post-content">
+        {{ .Content }}
+      </div>
+    </article>
+
+    {{- if .Site.Params.EnableSharingButtons }}
+      <hr />
+
+      <div class="sharing-buttons">
+        <span style="padding-top:17px">Share:</span> {{ partial "sharing-buttons.html" . }}
+      </div>
+    {{- end }}
+
+  </main>
+{{ end }}
