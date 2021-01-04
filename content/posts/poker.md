@@ -27,10 +27,15 @@ reportagens de pessoas que vivem de poker e passam o dia jogando pela internet,
 o que lhes traz uma quantia considerável por mês.
 
 Resolvi começar a jogar pela internet novamente nas horas vagas e escolhi o
-[partypoker](http://pt.partypoker.com/) para brincar. Ao entrar no site descobri
-que o instalador era para Windows, mas como eu já estava acostumado a ver sites
-de poker com instalador para windows eu decidi usar a interface web deles que
-funciona com um applet java e rolou tranquilo.
+partypoker para brincar. Ao entrar no site descobri que o instalador era para
+Windows, mas como eu já estava acostumado a ver sites de poker com instalador
+para windows eu decidi usar a interface web deles que funciona com um applet
+java e rolou tranquilo.
+
+_Update: hoje em dia eu prefiro muito mais jogar na
+[ReplayPoker](https://replaypoker.com), porque acho o site deles bem melhor e
+tive a chance de conversar com o criador do site e a equipe de desenvolvimento
+alguns anos atrás._
 
 Jogar poker pela internet é bem divertido, e também necessário para quem quer levar
 o jogo a sério, mas eu ainda sinto falta de juntar os amigos pessoalmente e passar
