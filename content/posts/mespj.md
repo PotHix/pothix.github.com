@@ -16,10 +16,10 @@ Sem mais delongas, vamos lá!
 
 ## O mês atual é para lidar com o mês anterior
 
-Esse não é um conceito que prestamos muita atenção quando quando trabalhamos
-CLT, o salário só chega e pronto. Ao ter a própria empresa, eu comecei a prestar
-mais atenção que as coisas que eu estou lidando esse mês geralmente é referente
-ao mês passado.
+Esse não é um conceito que prestamos muita atenção quando trabalhamos CLT, o
+salário só chega e pronto. Ao ter a própria empresa, eu comecei a prestar mais
+atenção que as coisas que eu estou lidando esse mês geralmente é referente ao
+mês passado.
 
 Alguns exemplos:
 
