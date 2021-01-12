@@ -46,7 +46,7 @@ Qty | Item              | Total price | BRL (+taxes) | Link
 68  | Gateron Brown Sw  | $ 17.57     | R$ 109,34\*  | [AliExpress](https://www.aliexpress.com/item/32980039972.html)
 1   | Ergodox caps set  | $ 19.90     | R$ 123,84\*  | [AliExpress](https://www.aliexpress.com/item/32895788424.html)
 10  | RJ9 female        | $ 5.10      | R$ 31,73\*   | [AliExpress](https://www.aliexpress.com/item/4001341125623.html)
-50  | M3 Screw 5mm      | $ 1.91      | R$ 11,89\*   | [AliExpress](https://www.aliexpress.com/item/4000220786440.html)
+~~50~~  | ~~M3 Screw 5mm~~      | ~~$ 1.91~~      | ~~R$ 11,89\*~~   | ~~[AliExpress](https://www.aliexpress.com/item/4000220786440.html)~~
 25  | Nut insert M3     | $ 1.58      | R$ 9,83\*    | [AliExpress](https://www.aliexpress.com/item/33003887129.html)
 200 | IN4148 Diodes     | $ 1.14      | R$ 7,09\*    | [AliExpress](https://www.aliexpress.com/item/2025724181.html)
 2   | Wrist Rest        | $ 5.60      | R$ 34,85\*   | [AliExpress](https://www.aliexpress.com/item/32977646806.html)
