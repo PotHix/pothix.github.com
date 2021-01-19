@@ -37,7 +37,7 @@ These are some activities I still enjoy and want to be involved but I'm not find
    [books tag](https://pothix.com/tags/books/). I was still able to read 10
    books this year and I'm glad about it.
 1. I'm still part of the team that organizes meetups for [the Ruby community in São Paulo](https://gurusp.org) (for more than 12 years)
-1. Playing with Cardistry and Magic. It's a nice hobby and helps to be outside of the digital world sometimes.
+1. Playing with Cardistry and Magic. It's a nice hobby and helps to be outside the digital world sometimes.
 
 Things that I'm avoiding because of COVID-19:
 
