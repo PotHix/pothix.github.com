@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PotHix</title>
+    <link>https://pothix.com/t/</link>
+    <description>Recent content on PotHix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Mon, 21 Dec 2020 14:45:35 -0300</lastBuildDate><atom:link href="https://pothix.com/t/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Would it be necessary?</title>
+      <link>https://pothix.com/t/willitbenecessary/</link>
+      <pubDate>Mon, 21 Dec 2020 14:45:35 -0300</pubDate>
+      
+      <guid>https://pothix.com/t/willitbenecessary/</guid>
+      <description>I have no idea if I&amp;rsquo;m going to continue maintaining this section. I currently have my own private notes in Roam research and maybe I will publish some of them here. Let&amp;rsquo;s see if it&amp;rsquo;s going to work.</description>
+    </item>
+    
+  </channel>
+</rss>
