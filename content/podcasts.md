@@ -1,6 +1,7 @@
 +++
 title = "Podcasts"
 tags = ["english"]
+toc = true
 +++
 
 I listen to podcasts since 2007 when I had to download them and transfer to my
@@ -16,25 +17,25 @@ Here is a list of the podcasts I recommend. By language and category:
 
 Name              | Category   | Why I listen to it
 ----------------- | ---------- | -------------------------------------
-99 Vidas          | Gaming     | It's mostly about old games and it's a topic I like a lot
-Podquest          | Gaming     | Game developers working on AAA games, they are great
-Dev na estrada    | Tech       | General development and interview with developers. I was a guest once.
-Hipsters.tech     | Tech       | I like the content and the quality. I was a guest more than once.
-Mauro Halfeld     | Money      | Investment tips and evaluation. It's very conservative, but I like it anyway.
-Linha Aberta CBN  | Money      | Daily life of economy in Brazil.
-Café Brasil       | Misc       | A bit of politics, great music, and some good ideas.
-Nerdcast          | Misc       | It was the first podcast I listened to and their quality is amazing. I'm not listening to all episodes anymore, but they sometimes have great content.
+[99 Vidas](https://99vidas.com.br)          | Gaming     | It's mostly about old games and it's a topic I like a lot
+[Podquest](https://podquest.com.br)          | Gaming     | Game developers working on AAA games, they are great
+[Dev na estrada](https://devnaestrada.com.br)    | Tech       | General development and interview with developers. I was a guest once.
+[Hipsters.tech](https://hipsters.tech)     | Tech       | I like the content and the quality. I was a guest more than once.
+[Mauro Halfeld](https://cbn.globoradio.globo.com/servicos/podcast/PODCAST.htm?podcast=87/cbn-dinheiro&ctarget=cbn-dinheiro-mauro-halfeld)     | Money      | Investment tips and evaluation. It's very conservative, but I like it anyway.
+[Linha Aberta CBN](https://cbn.globoradio.globo.com/servicos/podcast/PODCAST.htm?podcast=73/linha-aberta&ctarget=linha-aberta-carlos-alberto-sardenberg)  | Money      | Daily life of economy in Brazil.
+[Café Brasil](https://portalcafebrasil.com.br/)       | Misc       | A bit of politics, great music, and some good ideas.
+[Nerdcast](https://nerdcast.com.br)          | Misc       | It was the first podcast I listened to and their quality is amazing. I'm not listening to all episodes anymore, but they sometimes have great content.
 
 
 ## 🇺🇸 English
 
 Name              | Category   | Why I listen to it
 ----------------- | ---------- | -------------------------------------
-Ruby Rogues       | Tech       | Ruby development in general
-Hardcore History  | History    | Long history episodes. It's truly awesome.
-How to afford anything    | Money | A lot about early retirement and money management
-Retirement answer man | Money | Another podcast that deals with retirement and saving money for that
-Philosophize this!| Philosophy | The only and best philosophy podcast I found. I totally recommend it to anyone!
+[Ruby Rogues](https://devchat.tv/podcasts/ruby-rogues/)       | Tech       | Ruby development in general
+[Hardcore History](https://www.dancarlin.com/hardcore-history-series/)  | History    | Long history episodes. It's truly awesome.
+[How to afford anything](https://affordanything.com/podcast/)    | Money | A lot about early retirement and money management
+[Retirement wnswer man](https://www.rogerwhitney.com/blog) | Money | Another podcast that deals with retirement and saving money for that
+[Philosophize this!](https://www.philosophizethis.org/) | Philosophy | The only and best philosophy podcast I found. I totally recommend it to anyone!
 
 
 ## 🟢 Esperanto
