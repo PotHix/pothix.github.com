@@ -55,7 +55,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://pothix.com/" />
 <meta property="og:image" content="https://pothix.com/images/logo.svg"/>
-<meta property="og:updated_time" content="2021-01-09T00:00:00-03:00" /><meta property="og:site_name" content="PotHix" />
+<meta property="og:updated_time" content="2021-01-28T00:00:00-03:00" /><meta property="og:site_name" content="PotHix" />
 
 
 
@@ -112,6 +112,20 @@
         
 
         <ul class="posts-list">
+            
+                <li class="post-item" style="padding:10px 0">
+                    <a href="https://pothix.com/aberturapj/">
+                        <span class="post-title" style="text-transform: uppercase">Abertura de empresa</strong></span>
+                        <span class="post-day">
+                            
+                                Oct 22, 2020
+                            
+                        </span>
+                    </a>
+                    <p>Esse é o segundo post da série de PF &amp; PJ e vou contar sobre a minha epopéia de como foi abrir uma empresa em 2017 e o que escolhi.
+A ideia principal desse post é mostrar para as pessoas como é abrir uma empresa de desenvolvimento de software, os custos envolvidos e qual a melhor forma (IMO) de estruturá-la.
+DISCLAIMER: Eu não sou contador, mas essas são as informações que eu levantei depois de toda a minha pesquisa, assim eu consegui conversar melhor com os contadores.</p>
+                </li>
             
                 <li class="post-item" style="padding:10px 0">
                     <a href="https://pothix.com/tolkienbio/">
@@ -234,21 +248,6 @@ Even with the small problems we had (as any other big conference), the feedback 
 To do that, I&rsquo;m using the qmk_firmware.
 I&rsquo;m adding a new file as a layout (link here) and I have to change tmk_core/common/avr/bootloader.c to be able to compile it:
 -uint32_t reset_key __attribute__ ((section (&quot;.noinit&quot;))); +uint32_t reset_key __attribute__ ((section (&quot;.noinit,\&quot;aw\&quot;,@nobits;&quot;))); After that, I just had to get the keyboard to the reset mode via fn + ESC (to change the layout) and then pressed the RESET button.</p>
-                </li>
-            
-                <li class="post-item" style="padding:10px 0">
-                    <a href="https://pothix.com/jun2018/">
-                        <span class="post-title" style="text-transform: uppercase">Stats for Jun, 2018</strong></span>
-                        <span class="post-day">
-                            
-                                Jul 14, 2018
-                            
-                        </span>
-                    </a>
-                    <p>Guess what!? Yes, metrics for June! 📊
-Books I usually don&rsquo;t count how many books I read, I just track and check at the end of the month. When I saw that I read five books read this month, my face was like 😱. All of them received a 4-star review, so the result is quite good.
-
- Managing Oneself: This is a great book. It&rsquo;s not life-changing, but there are many great tips to improve your life.</p>
                 </li>
             
         </ul>
