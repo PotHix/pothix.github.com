@@ -15,5 +15,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      - name: Install hugo
+        run: sudo apt-get install hugo
+
       - name: Publish
         run: make publish
