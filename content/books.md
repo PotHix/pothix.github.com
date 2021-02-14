@@ -11,6 +11,11 @@ toc = true
 Here I describe the list of books I recommend to people. The recommendation also
 links to my review here, in case you want to have more information about it.
 
+If you want to see all my reviews, not just for the recommended books, I suggest
+you to check the [books tag](/tags/books).
+
+Now let's start with my recommendations. 💪
+
 ## Tolkien: A biography
 
 It's no secret that I'm a big fan of J.R.R. Tolkien. I have (or had, depending
