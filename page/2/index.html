@@ -55,7 +55,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://pothix.com/" />
 <meta property="og:image" content="https://pothix.com/images/logo.svg"/>
-<meta property="og:updated_time" content="2021-02-09T00:00:00-03:00" /><meta property="og:site_name" content="PotHix" />
+<meta property="og:updated_time" content="2021-02-13T00:00:00-03:00" /><meta property="og:site_name" content="PotHix" />
 
 
 
@@ -112,6 +112,20 @@
         
 
         <ul class="posts-list">
+            
+                <li class="post-item" style="padding:10px 0">
+                    <a href="https://pothix.com/when/">
+                        <span class="post-title" style="text-transform: uppercase">Review of When: The Scientific Secrets of Perfect Timing</strong></span>
+                        <span class="post-day">
+                            
+                                Oct 24, 2020
+                            
+                        </span>
+                    </a>
+                    <p>Book: When: The Scientific Secrets of Perfect Timing, by Daniel Pink. Rating: ⭐️⭐️⭐️⭐️⭐️.
+I read this book two times. The first time I had no context and was just looking for something to improve myself. The second time I read it to review everything I used and implemented so I could quote the book when writing an article about how to manage your energy to be more effective.
+The book provieds amazing insights if you like to base your decisions on scientific research.</p>
+                </li>
             
                 <li class="post-item" style="padding:10px 0">
                     <a href="https://pothix.com/aberturapj/">
@@ -233,21 +247,6 @@ Tool As you probably know, I work for Doist for some time now, and I&rsquo;m a T
                     </a>
                     <p>For those who don&rsquo;t know, I&rsquo;m a proud core organizer of the Rust LATAM conference. 🎉 The conference happened on March 29 and 30, and this post describes how it was to organize the whole thing.
 Even with the small problems we had (as any other big conference), the feedback we received so far were very positive. We were able to bring amazing speakers to the conference, which brought high-level content even for beginners.</p>
-                </li>
-            
-                <li class="post-item" style="padding:10px 0">
-                    <a href="https://pothix.com/atreus-firmware/">
-                        <span class="post-title" style="text-transform: uppercase">Flashing a different firmware for the Atreus keyboard</strong></span>
-                        <span class="post-day">
-                            
-                                Oct 22, 2018
-                            
-                        </span>
-                    </a>
-                    <p>I just bought an Atreus keyboard and I&rsquo;m now configuring my own firmware.
-To do that, I&rsquo;m using the qmk_firmware.
-I&rsquo;m adding a new file as a layout (link here) and I have to change tmk_core/common/avr/bootloader.c to be able to compile it:
--uint32_t reset_key __attribute__ ((section (&quot;.noinit&quot;))); +uint32_t reset_key __attribute__ ((section (&quot;.noinit,\&quot;aw\&quot;,@nobits;&quot;))); After that, I just had to get the keyboard to the reset mode via fn + ESC (to change the layout) and then pressed the RESET button.</p>
                 </li>
             
         </ul>
