@@ -18,9 +18,15 @@ years.
 It would be hard to add all the topics I'm passionate about in the top menu, so I decided to keep a list here:
 
 * [Write](/book/): I'm a published author and writing is something I love.
-* [Tech](/talks/): I love technology and I'm usually speaking about programming in Brazil and around the world.
-* [Travel](/places): I like to travel and had the chance to visit 10+ countries and 7+ states of my own country of residence.
-* [Read](/books): I like reading and I'm moving my [my Goodreads reviews](https://goodreads.com/pothix) to [this blog, one review at a time](/tags/books).
+* [Tech](/talks/): I love technology and I'm usually speaking about programming
+  in Brazil and around the world.
+* [Travel](/places): I like to travel and had the chance to visit 10+ countries
+  and 7+ states of my own country of residence.
+* [Read](/books): I like reading and I'm moving my [my Goodreads
+  reviews](https://goodreads.com/pothix) to [this blog, one review at a
+  time](/tags/books).
+* [Movies](/movies): There are some movies worth watching. Here I list the ones
+  I recommend
 
 ### Getting in touch
 
