@@ -3,22 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://pothix.com/pirataria/</loc>
-    <lastmod>2021-02-17T00:00:00-03:00</lastmod>
+    <loc>https://pothix.com/2020/</loc>
+    <lastmod>2021-02-23T00:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pothix.com/tags/english/</loc>
+    <lastmod>2021-02-23T00:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pothix.com/tags/personal/</loc>
+    <lastmod>2021-02-23T00:00:00-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://pothix.com/posts/</loc>
-    <lastmod>2021-02-17T00:00:00-03:00</lastmod>
+    <lastmod>2021-02-23T00:00:00-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://pothix.com/</loc>
-    <lastmod>2021-02-17T00:00:00-03:00</lastmod>
+    <lastmod>2021-02-23T00:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pothix.com/series/</loc>
+    <lastmod>2021-02-23T00:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pothix.com/series/stats/</loc>
+    <lastmod>2021-02-23T00:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pothix.com/tags/stats/</loc>
+    <lastmod>2021-02-23T00:00:00-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://pothix.com/tags/</loc>
+    <lastmod>2021-02-23T00:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pothix.com/pirataria/</loc>
     <lastmod>2021-02-17T00:00:00-03:00</lastmod>
   </url>
   
@@ -29,11 +59,6 @@
   
   <url>
     <loc>https://pothix.com/books/</loc>
-    <lastmod>2021-02-14T00:00:00-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pothix.com/tags/english/</loc>
     <lastmod>2021-02-14T00:00:00-03:00</lastmod>
   </url>
   
@@ -64,11 +89,6 @@
   
   <url>
     <loc>https://pothix.com/series/pf-pj/</loc>
-    <lastmod>2021-01-09T00:00:00-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pothix.com/series/</loc>
     <lastmod>2021-01-09T00:00:00-03:00</lastmod>
   </url>
   
@@ -170,21 +190,6 @@
   
   <url>
     <loc>https://pothix.com/2019/</loc>
-    <lastmod>2020-01-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pothix.com/tags/personal/</loc>
-    <lastmod>2020-01-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pothix.com/series/stats/</loc>
-    <lastmod>2020-01-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pothix.com/tags/stats/</loc>
     <lastmod>2020-01-26T00:00:00+00:00</lastmod>
   </url>
   
