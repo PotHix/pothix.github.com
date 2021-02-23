@@ -113,8 +113,6 @@ what I created here.</p>
 multi-language library I was doing using Rust. Nothing production ready, but it
 was part of a &ldquo;Personal DO&rdquo; at Doist, where I could research anything I wanted
 and may be useful for the company.</p>
-<p>I dedicated only 22 hours to this blog, compared to 80+ hours in 2017. I would
-like to improve this, but I&rsquo;m not sure if it will be a priority, unfortunately.</p>
 <p>Most of my time was developing the Todoist REST API written in Golang, which is
 nice to see here. I&rsquo;m still working on <a href="https://todoist.com">Todoist</a> but in a different repository now.</p>
 <p>I still keep the same freelance job I have for more than 5 years now. It became
