@@ -415,7 +415,10 @@ empresa:
    mensal. A invoice tem pouquíssima utilidade aqui no Brasil, só é importante
    para eles lá fora e para o cambio.
 2. Eles fazem o pagamento para a conta que eu informar (minha corretora de
-   cambio)
+   cambio). A corretora me passa o IBAN e as informacões dos bancos
+   intermediários e contas e eu envio isso junto com o beneficiário, que é minha
+   razão social PJ e são essas informações que a empresa usa para fazer o
+   pagamento.
 3. Minha corretora recebe o pagamento e fechamos o cambio, gerando um contrato
    de cambio (registrado no banco central)
 4. O dinheiro é transferido para minha conta PJ
