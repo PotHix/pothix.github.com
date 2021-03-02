@@ -6,8 +6,102 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Tue, 23 Feb 2021 00:00:00 -0300</lastBuildDate>
+        <lastBuildDate>Tue, 02 Mar 2021 00:00:00 -0300</lastBuildDate>
         <atom:link href="https://pothix.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Password managers</title>
+            <link>https://pothix.com/passwordmanagers/</link>
+            <pubDate>Tue, 02 Mar 2021 00:00:00 -0300</pubDate>
+            
+            <guid>https://pothix.com/passwordmanagers/</guid>
+            <description>After many years using LastPass, I decided to make the switch to 1Password. I&amp;rsquo;m going to describe here why I did this and how was my process to choose.
+LastPass I&amp;rsquo;m using LastPass for many years now. A lot of people say that LastPass is not a good password manager, it has bugs, it&amp;rsquo;s ugly, it has too many trackers, yada, yada, yada.
+I was always the guy who said: &amp;ldquo;Yeah, it works for me&amp;rdquo;.</description>
+            <content type="html"><![CDATA[<p>After many years using <a href="https://lastpass.com">LastPass</a>, I decided to make the
+switch to <a href="https://1password.com">1Password</a>. I&rsquo;m going to describe here why I
+did this and how was my process to choose.</p>
+<h2 id="lastpass">LastPass</h2>
+<p>I&rsquo;m using LastPass for many years now. A lot of people say that LastPass is not
+a good password manager, it has bugs, it&rsquo;s ugly, <a href="https://www.gsmarena.com/lastpass_for_android_has_seven_builtin_trackers_security_firm_warns-news-47977.php">it has too many
+trackers</a>,
+yada, yada, yada.</p>
+<p>I was always the guy who said: &ldquo;Yeah, it works for me&rdquo;. I was aware of the
+problems of LastPass but I was OK with the what the product was giving me
+without asking any money in return.</p>
+<p>Although LastPass works for me, there were some annoying bugs. The fact that the
+Android app usually don&rsquo;t fill users and passwords is really annoying. It&rsquo;s
+basically useless on Android for me. I keep the app there so I can open it and
+do the copy &amp; paste myself.</p>
+<p>I have nothing to complain about the browser extensions, it usually works as I
+expect. It fills in passwords and save new ones when I subscribe to other
+services. That&rsquo;s it. 🤷</p>
+<p>LastPass' UI is really weird indeed. It&rsquo;s hard to find where to do stuff because
+there&rsquo;s a lot of clutter everywhere. When you get used to it, things work as
+expected.</p>
+<h2 id="the-move">The move</h2>
+<p>In the beginning of 2021, I started to consider paying for a password manager
+and having a family subscription. I wanted to share some accounts with my wife
+and parents. Some accounts are not very personal:</p>
+<ul>
+<li>Supermarket account to buy groceries</li>
+<li>Pharmacy account</li>
+<li>Other accounts related to my babies</li>
+<li>Streaming accounts with multiple profiles and family subscriptions (Netflix,
+Amazon Prime Video, etc).</li>
+</ul>
+<p>I was also looking for a place to start exercising what I call my &ldquo;Death plan&rdquo;:
+&ldquo;If I die, what is going to happen?&rdquo;. The password manager shared with my family
+is a great start.</p>
+<h2 id="the-research">The research</h2>
+<p>I didn&rsquo;t do much research for this. I had some ideas of what I could use and
+meet my criteria:</p>
+<ul>
+<li>LastPass</li>
+<li>Bitwarden</li>
+<li>1Password</li>
+</ul>
+<h3 id="lastpass-1">LastPass</h3>
+<p>I&rsquo;m already used to it, but I&rsquo;m not sure if I want to use their paid versions
+and I&rsquo;m a bit skeptical about their choices as a product.</p>
+<p>If I&rsquo;m going to move to a different idea, I will probably choose a different
+product.</p>
+<h3 id="bitwarden">Bitwarden</h3>
+<p>I already use Bitwarden at work and it works fine. There&rsquo;s not much I have to
+complain there. Some bullet points:</p>
+<ul>
+<li>The interface is OK-ish.</li>
+<li>It&rsquo;s open source.</li>
+<li>I&rsquo;m already used to it because I&rsquo;m using their business plan.</li>
+<li>The price is OK.</li>
+</ul>
+<p>I decided to do some research to find out how it&rsquo;s going to be to use them via
+business and personal and found out <a href="https://community.bitwarden.com/t/log-in-with-multiple-bitwarden-user-accounts/716">they don&rsquo;t support it just
+yet</a>,
+which is a no-go to me.</p>
+<h3 id="1password">1Password</h3>
+<p>A lot of friends already use it for many years. It&rsquo;s a solid product. I had some
+prejudice against them because it was a Apple thing, but now that they are
+available everywhere, it&rsquo;s worth trying.</p>
+<p>I did their trial and the product is indeed good as people mentioned. Their
+online vault is not very user-friendly IMO. It took me some time to understand
+how to add and edit stuff. I believe it is related to that &ldquo;Apple thing&rdquo; feeling
+I always had.</p>
+<p>It seems to be the best password manager I can find until now.</p>
+<h2 id="the-choice">The choice</h2>
+<p>I just subscribed to 1Password now and I&rsquo;m enjoying it.  I&rsquo;m a top 1% Todoist
+user and I have a 25% discount on 1Password because of that (for new users
+only), which is a big win.</p>
+<p>Here is a list of things I like about 1Password:</p>
+<ul>
+<li>The way to create vaults and share</li>
+<li>Share passwords with your family is very simple</li>
+<li>The Android app actually works to fill in passwords (take that LastPass)</li>
+</ul>
+<p>I hope it will be a long relationship so I will not have to migrate passwords
+again. 😅</p>
+]]></content>
+        </item>
         
         <item>
             <title>2020 Year in Review</title>
