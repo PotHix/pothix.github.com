@@ -7,7 +7,7 @@ tags = [
 +++
 
 After many years using [LastPass](https://lastpass.com), I decided to make the
-switch to [1Password](https://1password.com). I'm going to describe here why I
+switch to [1Password](https://1Password.com). I'm going to describe here why I
 did this and how was my process to choose.
 
 ## LastPass
@@ -98,9 +98,10 @@ It seems to be the best password manager I can find until now.
 
 ## The choice
 
-I just subscribed to 1Password now and I'm enjoying it.  I'm a top 1% Todoist
+I just subscribed to 1Password now and I'm enjoying it.  ~I'm a top 1% Todoist
 user and I have a 25% discount on 1Password because of that (for new users
-only), which is a big win.
+only)~ (I actually got a 50% discount becaues of the family membership), which
+is a big win.
 
 Here is a list of things I like about 1Password:
 
@@ -110,3 +111,18 @@ Here is a list of things I like about 1Password:
 
 I hope it will be a long relationship so I will not have to migrate passwords
 again. 😅
+
+## The migration
+
+The migration was quite simple. I went to LastPass, exported all my passwords as
+a CSV and imported all of them in 1Password. That's it! :)
+
+I found some encoding problem in some security notes because of words like
+"Anotação", but other than that, everything worked seamlessly. If you're coming
+from LastPass, there's a good chance you will face no problems with the
+migration.
+
+## Conclusion
+
+If you're looking for a password manager and you are willing to pay for a good
+service, 1Password seems to be a very strong canditate. I really recommend it.
