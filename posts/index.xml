@@ -19,7 +19,7 @@
 LastPass I&amp;rsquo;m using LastPass for many years now. A lot of people say that LastPass is not a good password manager, it has bugs, it&amp;rsquo;s ugly, it has too many trackers, yada, yada, yada.
 I was always the guy who said: &amp;ldquo;Yeah, it works for me&amp;rdquo;.</description>
             <content type="html"><![CDATA[<p>After many years using <a href="https://lastpass.com">LastPass</a>, I decided to make the
-switch to <a href="https://1password.com">1Password</a>. I&rsquo;m going to describe here why I
+switch to <a href="https://1Password.com">1Password</a>. I&rsquo;m going to describe here why I
 did this and how was my process to choose.</p>
 <h2 id="lastpass">LastPass</h2>
 <p>I&rsquo;m using LastPass for many years now. A lot of people say that LastPass is not
@@ -89,9 +89,10 @@ how to add and edit stuff. I believe it is related to that &ldquo;Apple thing&rd
 I always had.</p>
 <p>It seems to be the best password manager I can find until now.</p>
 <h2 id="the-choice">The choice</h2>
-<p>I just subscribed to 1Password now and I&rsquo;m enjoying it.  I&rsquo;m a top 1% Todoist
+<p>I just subscribed to 1Password now and I&rsquo;m enjoying it.  ~I&rsquo;m a top 1% Todoist
 user and I have a 25% discount on 1Password because of that (for new users
-only), which is a big win.</p>
+only)~ (I actually got a 50% discount becaues of the family membership), which
+is a big win.</p>
 <p>Here is a list of things I like about 1Password:</p>
 <ul>
 <li>The way to create vaults and share</li>
@@ -100,6 +101,16 @@ only), which is a big win.</p>
 </ul>
 <p>I hope it will be a long relationship so I will not have to migrate passwords
 again. 😅</p>
+<h2 id="the-migration">The migration</h2>
+<p>The migration was quite simple. I went to LastPass, exported all my passwords as
+a CSV and imported all of them in 1Password. That&rsquo;s it! :)</p>
+<p>I found some encoding problem in some security notes because of words like
+&ldquo;Anotação&rdquo;, but other than that, everything worked seamlessly. If you&rsquo;re coming
+from LastPass, there&rsquo;s a good chance you will face no problems with the
+migration.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>If you&rsquo;re looking for a password manager and you are willing to pay for a good
+service, 1Password seems to be a very strong canditate. I really recommend it.</p>
 ]]></content>
         </item>
         
