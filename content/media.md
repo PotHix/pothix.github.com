@@ -26,3 +26,12 @@ Date       | Lang  | Episode title
 2017-11-09 | pt-BR | [Organização pessoal e produtividade](https://opensanca.github.io/podcast/podcast/2017/10/09/organizacao-pessoal-e-produtividade.html)
 2017-07-24 | pt-BR | [Willian Molinari - Desconstruindo a Web](https://castalio.info/episodio-110-willian-molinari-desconstruindo-a-web.html)
 2016-10-26 | pt-BR | [DNE 77 - PotHix](https://devnaestrada.com.br/2016/10/28/pothix.html)
+
+
+I was also mentioned in some other podcasts. These are not content brought to
+the podcast by me, but my name was mentioned or my voice played during the show
+
+
+Date       | Lang  | Episode title
+---------- | ----- | -------------
+2008-02-22 | pt-BR | [Traumas de Infância - Jovem Nerd](https://jovemnerd.com.br/nerdcast/nerdcast-101-traumas-de-infancia/)
