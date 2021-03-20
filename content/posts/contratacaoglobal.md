@@ -1,5 +1,5 @@
 +++
-title = "Opinião: Produtos e times globais"
+title = "Opinião: Produtos e contratações globais"
 date = 2021-03-20
 tags = [
     "tech",
