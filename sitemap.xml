@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pothix.com/contratacaoglobal/</loc>
+    <lastmod>2021-03-20T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/posts/</loc>
+    <lastmod>2021-03-20T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/</loc>
+    <lastmod>2021-03-20T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/tags/</loc>
+    <lastmod>2021-03-20T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/tags/tech/</loc>
+    <lastmod>2021-03-20T00:00:00-03:00</lastmod>
+  </url><url>
     <loc>https://pothix.com/tags/english/</loc>
     <lastmod>2021-03-02T00:00:00-03:00</lastmod>
   </url><url>
     <loc>https://pothix.com/passwordmanagers/</loc>
-    <lastmod>2021-03-02T00:00:00-03:00</lastmod>
-  </url><url>
-    <loc>https://pothix.com/posts/</loc>
-    <lastmod>2021-03-02T00:00:00-03:00</lastmod>
-  </url><url>
-    <loc>https://pothix.com/</loc>
-    <lastmod>2021-03-02T00:00:00-03:00</lastmod>
-  </url><url>
-    <loc>https://pothix.com/tags/</loc>
     <lastmod>2021-03-02T00:00:00-03:00</lastmod>
   </url><url>
     <loc>https://pothix.com/2020/</loc>
@@ -33,9 +39,6 @@
     <lastmod>2021-02-23T00:00:00-03:00</lastmod>
   </url><url>
     <loc>https://pothix.com/pirataria/</loc>
-    <lastmod>2021-02-17T00:00:00-03:00</lastmod>
-  </url><url>
-    <loc>https://pothix.com/tags/tech/</loc>
     <lastmod>2021-02-17T00:00:00-03:00</lastmod>
   </url><url>
     <loc>https://pothix.com/books/</loc>
