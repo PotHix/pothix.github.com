@@ -1,5 +1,5 @@
 +++
-title = "Programming Rust: Fast, Safe Systems Development"
+title = "Review of Programming Rust: Fast, Safe Systems Development"
 date = 2020-08-11
 tags = [
     "english",
