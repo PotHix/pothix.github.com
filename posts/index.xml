@@ -2732,6 +2732,65 @@ and some of these parts started to arrive already 😃</p>
         </item>
         
         <item>
+            <title>Programming Rust: Fast, Safe Systems Development</title>
+            <link>https://pothix.com/programmingrust/</link>
+            <pubDate>Tue, 11 Aug 2020 00:00:00 -0300</pubDate>
+            
+            <guid>https://pothix.com/programmingrust/</guid>
+            <description>Book: Programming Rust: Fast, Safe Systems Development. Rating: ⭐️⭐️⭐️⭐️⭐️.
+This is a great book for sure. I started reading it in 2017 but never find the time to read it. Now, thanks to having two babies at home, I have enough time to read while waiting for them to sleep. :)
+There are many things I like about this book. The first is the comparisons with C and C++ since both authors are/were C/C++ developers.</description>
+            <content type="html"><![CDATA[<p>Book: <a href="https://www.goodreads.com/review/25550614">Programming Rust: Fast, Safe Systems Development</a>. Rating: ⭐️⭐️⭐️⭐️⭐️.</p>
+<p>This is a great book for sure. I started reading it in 2017 but never find the
+time to read it. Now, thanks to having two babies at home, I have enough time to
+read while waiting for them to sleep. :)</p>
+<p>There are many things I like about this book. The first is the comparisons with
+C and C++ since both authors are/were C/C++ developers. This kind of experience
+helps you understand how Rust is useful and what practical problems it&rsquo;s
+actually solving. I always hear about the theory, but the practical examples are
+gold.</p>
+<p>I love the final example where the authors build a wrapper around libgit2 using
+FFI. It shows how to create a crate that deals with a non-safe interface while
+building a safe interface for yourself.</p>
+<p>The book is a complete and fluid reading for those wanting to understand how
+Rust works and what you can do by using it.</p>
+<p>Here is my raw notes about the book:</p>
+<ul>
+<li>Rust infers float if no type was given. It defaults to f64 in case both (f32
+and f64) are possible</li>
+<li><code>std::f32::const</code> define constants for <code>INFINITY</code>, <code>NEG_INFINITY</code>, <code>NAN</code>,
+<code>MIN</code>, <code>MAX</code>.  The same for f64</li>
+<li>While let pattern = expression</li>
+<li>Lifetimes for loops. Use &lsquo;name_of_lifetime before the loop, so you can use
+break and continue using this label</li>
+<li><code>unwrap_or_else( function)</code> executes the function when there&rsquo;s an error.</li>
+<li>expect is the same as unwrap but let you define a message in case o fr the 9f
+a panic</li>
+<li>The only reasonable use of unwrap is when your function can&rsquo;t fail. E.g. when
+yiu have a set of data defined but the function you&rsquo;re using to convert
+returns a result</li>
+<li>if let = Err(err) is used to unpackage the err tha can be used inside the if
+block</li>
+<li>static is a variable created before your program starts. Const is just like
+C++, it fill be compiled in place to every usage of it</li>
+<li><code>debug_assert()</code> and debug_assert_eq() may be used in common code and will not
+be added in the release</li>
+<li>If you expect a test to panic, add #[should_panic] attribut to your test</li>
+<li>Rangefull is the unit-struct for ..</li>
+<li>Use .. when you don&rsquo;t care about the other fields of the struct in pattern
+matching</li>
+<li>If you implement the trait From and you have single argument constructor, you
+gain <code>into</code> for free</li>
+<li>By following Rust&rsquo;s strict contract of how to use closures (move, clone, or
+borrowing),, you gain thread safety</li>
+<li>Fn trait is implemented by functions and closures. If you define a function
+and expects an fn only, you will only be able to receive functions, not
+closures.</li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
             <title>Assembling an Iris Rev4</title>
             <link>https://pothix.com/iris/</link>
             <pubDate>Thu, 23 Jul 2020 09:48:21 -0300</pubDate>
