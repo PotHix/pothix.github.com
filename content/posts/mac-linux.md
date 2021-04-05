@@ -131,8 +131,4 @@ mas nada que compilar no mac ou usar o slackbuilds...digo....homebrew... para fa
 não resolva, portanto ele ficou no mesmo patamar do Linux, cada um com suas vantagens e
 desvantagens, e as vantagens do Linux me atraem mais do que as do Mac.
 
-Ah, e não me venha com historinha que "O legal do Mac é a experiencia" que é conversa
-de frutinha. :P
-
-
-
+Ah, e não me venha com historinha que "O legal do Mac é a experiencia". :P
