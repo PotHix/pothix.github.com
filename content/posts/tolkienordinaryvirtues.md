@@ -1,5 +1,5 @@
 +++
-title = "Tolkien's Ordinary Virtues Book Review"
+title = "Review of Tolkien's Ordinary Virtues book"
 date = 2021-01-28
 tags = [
     "english",
@@ -7,7 +7,7 @@ tags = [
 ]
 +++
 
-Book: [Tolkien's Ordinary Virtues, by Mark Eddy Smith](https://www.goodreads.com/review/show/3745484650). Rating: ⭐️⭐️⭐️.
+Book: [Tolkien's Ordinary Virtues](https://www.goodreads.com/review/show/3745484650) by Mark Eddy Smith. Rating: ⭐️⭐️⭐️.
 
 I'm a big fan of Tolkien (of you follow me or my blog, you probably already know
 that) and decided to give a chance to this one even knowing it was totally
@@ -40,14 +40,14 @@ Here is my raw notes about the book:
 - "If simple folk are free from care and fear, simple they will be" -- Aragorn in the council of Elrond
 - It was easier for Bilbo to give the ring to Frodo because he was already giving everything to his fellow
 - Merry and Pippin were just friends Frodo trust. Even the elves recommended
-Frodo to take people he enjoys the company for the journey
+  Frodo to take people he enjoys the company for the journey
 - Gandalf is the master of friendships. He praises friendships over all other
-virtues. Almost everyone around him are his friends: Radagast, the Eagles, Scadufax the horse, etc
+  virtues. Almost everyone around him are his friends: Radagast, the Eagles, Scadufax the horse, etc
 - Gandalf did his best to make Gimli and Legolas friends
 - Staying home to raise kids is a sacrifice parents are willing to make to have the benefits of a family
 - Most of the fellowship did their own sacrifices of abandoning their homelands in the danger of a war to join the fellowship.
 - Gandalf is always concerned about his friends, even when he was falling after
-fighting the Balrog, he just warned hit friends to "fly".
+  fighting the Balrog, he just warned hit friends to "fly".
 - The kindness of Frodo with Gollum is the proof that Frodo is resisting the ring's power
 - True wisdom is the ability to see things as they really are
 - Hope is not a feeling, it's a choice
