@@ -7,7 +7,7 @@ tags = [
 ]
 +++
 
-Book: [The Life‑Changing Magic of Tidying Up](https://www.goodreads.com/review/show/22318578) by Marie Kondo. Rating: ⭐️⭐️⭐️⭐️.
+Book: [The Life‑Changing Magic of Tidying Up](https://www.goodreads.com/review/show/1839858488) by Marie Kondo. Rating: ⭐️⭐️⭐️⭐️.
 
 I like the book and there are very few things I disagree with the author. I
 think it's too much to talk to objects, but I understand where this is coming
