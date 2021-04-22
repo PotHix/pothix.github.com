@@ -1,7 +1,6 @@
 +++
 title = "Review of The Drawing of the Three (The Dark Tower, #2)"
 date = 2021-04-21
-draft = true
 tags = [
     "english",
     "books",
