@@ -12,9 +12,9 @@ Book: [The Drawing of the Three (The Dark Tower, #2)](https://www.goodreads.com/
 
 What a surprise! I enjoyed listening to this book. I have the whole series of books (printed version) here and decided to listen to the first one some years ago. I was not very impressed by it and decided to put the who series aside for some time. Last month I decided to give the second book a shot.
 
-I liked the way the characters were developed and how their stories crossed one another. The Audible narration was also quite good and helped with the ambience.
+I liked the way the characters were developed and how their stories crossed one another. The Audible narration was also quite good and helped with the ambiance.
 
-I'm excited for the next book now, let's see if it keeps my interest!
+I'm excited about the next book now, let's see if it keeps my interest!
 
 There's not much to take notes from fantasy books IMO but here are some notes I took while reading it.
 
