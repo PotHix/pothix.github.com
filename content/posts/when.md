@@ -7,7 +7,7 @@ tags = [
 ]
 +++
 
-Book: [When: The Scientific Secrets of Perfect Timing, by Daniel Pink](https://www.goodreads.com/review/show/2254843906). Rating: ⭐️⭐️⭐️⭐️⭐️.
+Book: [When: The Scientific Secrets of Perfect Timing](https://www.goodreads.com/review/show/2254843906), by Daniel Pink. Rating: ⭐️⭐️⭐️⭐️⭐️.
 
 I read this book two times. The first time I had no context and was just
 looking for something to improve myself. The second time I read it to review
