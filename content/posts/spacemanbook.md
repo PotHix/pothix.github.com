@@ -17,9 +17,7 @@ Being an astronaut is being part of a family. This is one of the main messages i
 
 A great sentence of the book:
 
-
 > You just have one life, you must do something that matter
-
 
 It makes a lot of sense for someone who works for NASA and it should make a lot of sense for all of us too.
 
