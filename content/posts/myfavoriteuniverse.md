@@ -11,7 +11,7 @@ Book: [My Favorite Universe](https://www.goodreads.com/book/show/33410046) by Ne
 
 A good book to introduce physics to common people.
 
-Neil deGrasse Tyson is great explaining complicated topics in a simple way. The explanation of dense objects using hot chocolate and cream was really nice for me (no spoilers, read it! :D).
+Neil deGrasse Tyson is great at explaining complicated topics in a simple way. The explanation of dense objects using hot chocolate and cream was really nice for me (no spoilers, read it! :D).
 
 Did you watch Cosmos? Do you like to (or at least used to) follow Discovery Channel space documentaries? In case your answer is yes to any of these questions, you probably already know most part of this book. It's worth reading in case you want a second chance with a different kind of explanation.
 

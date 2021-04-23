@@ -11,7 +11,7 @@ Book: [Minimalism: Live a Meaningful Life](https://www.goodreads.com/book/show/1
 
 I was expecting more from this book.
 
-I listen to their Podcast and read some articles on their website. This book looks like a list of pointers to their website. I would just recommend it in case you want something to start your journey in the minimalism thinking, so you can buy the audiobook and listen to it in your spare time before diving deep into their articles.
+I listen to their Podcast and read some articles on their website. This book looks like a list of pointers to their website. I would just recommend it in case you want something to start your journey in minimalism thinking, so you can buy the audiobook and listen to it in your spare time before diving deep into their articles.
 
 As usual, there is some good information here as well. Here are my notes:
 
