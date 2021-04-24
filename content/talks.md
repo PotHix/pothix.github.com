@@ -10,6 +10,7 @@ aliases = [
 
 No. | Date       | Presentation  | Event
 --- | ---------- | ------------- | ------
+70  | 2021-04-24 | [Mesa redonda: Trabalho remoto para empresas de fora](https://www.youtube.com/watch?v=08oOi0jTDZY) | [Guru-SP](https://gurusp.org)
 69  | 2020-11-18 | Exploring a Core Library for Multiple Languages using Rust | Doist talks
 68  | 2020-10-06 | [Trabalho remoto e assincrono](https://www.youtube.com/watch?v=sAMX3SiiESY) |  [Future of Work](https://www.brasil.futureofwork.co/)
 67  | 2019-11-29 | [Mongo, Rails 3 -> Postgres, Rails 5](https://www.eventials.com/locaweb/groups/ruby-conf-2019/) |  [Rubyconf BR](https://rubyconf.com.br)
