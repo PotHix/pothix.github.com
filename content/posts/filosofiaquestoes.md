@@ -16,17 +16,17 @@ Esse livro porque ele me fez pensar sobre várias coisas interessantes e rever a
 Minha notas desse livro
 
 * Muitas vezes as pessoas acreditam que se você é honesto, você será recompensado. Nada mais equivocado. A ação moral não é conectada com os acasos tristes do mundo. A atividade moral e a tristeza não tem nenhuma ação de causalidade.
-* A psicoterapia abre feridas para cura-las
-* A vidr em sociedade supõe algumas concordâncias de valor
-* Toda vez que algo nos alegra, queremos mostrar aos outros porque isso também vai alegra-los. Filósofos não são diferentes, se alegram com a filosofia e estão convencidos que todos deveriam se alegrar também.
-* Só seríamos livres quando pudéssemos agir na contramão de nossos desejos. Seríamos livres quando decidissemos fazer o que não queremos
+* A psicoterapia abre feridas para curá-las
+* A vida em sociedade supõe algumas concordâncias de valor
+* Toda vez que algo nos alegra, queremos mostrar aos outros porque isso também vai alegrá-los. Filósofos não são diferentes, se alegram com a filosofia e estão convencidos que todos deveriam se alegrar também.
+* Só seríamos livres quando pudéssemos agir na contramão de nossos desejos. Seríamos livres quando decidíssemos fazer o que não queremos
 * O desejo é algo que o corpo impõe. Se você vive para satisfazer o desejo você não é livre, se torna um escravo do desejo
 * A liberdade é a vitória da ideia e da razão sobre os apetites das entranhas. Essa é a ideia apresentada pelos filósofos idealistas
-* Propõe se que a ética sejauma teoria da moral
+* Propõe se que a ética seja uma teoria da moral
 * A ética tem como matéria prima a moral
 * Ética e moral não são a mesma coisa mas tem tudo a ver
-* Discípulos de Platão acreditam no valor absoluto: existe só um tipo de música boa (que tem sua verdade no mundo das idéias). Outros podem acreditar que a verdade depende de cada um e de sua moral.
-* Se amassemos mais, careceriamos menos de moral
+* Discípulos de Platão acreditam no valor absoluto: existe só um tipo de música boa (que tem sua verdade no mundo das ideias). Outros podem acreditar que a verdade depende de cada um e de sua moral.
+* Se amassemos mais, careceríamos menos de moral
 * O amor é escasso e o ódio abundante
 * A generosidade é uma virtude da moral. Na falta de amor, você pode ser generoso.
 * Uma mãe amamenta um filho por amor. Se ela não ama o filho e ainda assim amamenta, faz por generosidade, por achar que isso é um dever.
@@ -36,10 +36,10 @@ Minha notas desse livro
 * Você só é livre quando faz o que não quer, sendo assim, não é escravo do desejo
 * Ser sucumbir aos desejos é ser escravo de você mesmo, mas resistir a todos os desejos é tirar as coisas "coloridas" da vida
 * Quando você errar a resposta de um problema matemático, comemore, pois esse é o resultado da sua liberdade de escolher como chegar a um resultado
-* O sabiá não é livre para voar, ele é escravo do vôo. Ele depende disso para viver. Não pode simplesmente decidir andar a pé por aí.
+* O sabiá não é livre para voar, ele é escravo do voo. Ele depende disso para viver. Não pode simplesmente decidir andar a pé por aí.
 * Uma pessoa tende a votar em candidatos de esquerda dependendo de quanto mais capital cultural e menos capital econômico. O oposto acontece para cara votos em candidatos de direita.
 * Homens não vivem por instinto, como animais, e eles precisam compensar essa pobreza instintiva com inteligência
-* A origem da desigualdade dos homens: russeau
+* A origem da desigualdade dos homens: Russeau
 * Quando falamos sobre o que o mundo produziu em nós, já há outro mundo e outro nós
 * Na frase "eu te amo" a pessoa ama o que? Mãos? Voz? Glúteos? E quando isso mudar?
 * Se tudo que falamos tem origem na sociedade i não é algo exclusivo nosso, a nossa definição própria também segue o mesmo princípio.
@@ -51,7 +51,7 @@ Minha notas desse livro
 * Postar somente seus momentos felizes em redes sociais também é uma arma de dominação e poder
 * "Fiz uma viagem, que eu mesmo planejei. Tudo foi ótimo" é outra forma de dominação
 * Fazer o outro crer que você é melhor ou mais digno que ele
-* Esse é o mesmo sentimento de quando estamos com umr pessoa famosa e tentamos parecer menos bobos ao lado dela por causa da ideia que ele é melhor do que você. Isso é poder.
+* Esse é o mesmo sentimento de quando estamos com uma pessoa famosa e tentamos parecer menos bobos ao lado dela por causa da ideia que ele é melhor do que você. Isso é poder.
 * Maquiavel percebeu o uso do poder para controle e seu nome virou sinônimo de ser ardiloso e usar o poder para manipular as pessoas
 * Espinoza dizia que todas as religiões são instituições políticas e como tais, servem apenas para legitimar uma forma de dominação. Os textos são datados de uma época específica e feitos para um povo específico por um líder específico para sua dominação. Deus não tem nada a ver com eles, os homens é que tem.
 * Para Maquiavel, a política é a continuação da guerra por outros meios
