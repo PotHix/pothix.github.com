@@ -1,5 +1,5 @@
 +++
-title = "Review of Principles (Summary)"
+title = "Review of Principles"
 date = 2018-10-05
 tags = [
     "english",
