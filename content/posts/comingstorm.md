@@ -17,5 +17,5 @@ Here are my notes for this small book:
 - The man chosen by Trump to have the government data doesn't have an issue with bending the truth
 - The government have to find a way to make the news feel real
 - We should not spread news without understanding people
-- People living in Mobile homes have 30x more chances to die in a huricane
+- People living in Mobile homes have 30x more chances to die in a hurricane
 - It seems to be all a matter of trust in the government warning for tornadoes
