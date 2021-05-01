@@ -151,41 +151,41 @@ migration of **all** the content I currently have to Roam Research.
 
 Here is how I approached it:
 
-- 1. Started migrating my 1000+ notes from Google keep to Roam research (most of
-  them were useless). My Google keep is now clean.
-- 2. Went through my hundreds of Google Docs files one by one and migrated to
-  Roam the ones that were just structurally organized notes (project ideas lost,
-  university notes, course notes, etc.). I used that time to also tidy up my
-  Google Drive account.
-- 3. Found an old export from a software called
-  [NoteCase](https://www.notecasepro.com/) that I used ~2010 (when it was still
-  free) . It was exported in HTML format and I imported everything to Roam as
-  is. Later in the process, I split the whole thing into separate pages, topic
-  by topic.
-- 4. Went to my Git repository containing one big LaTeX document (3k+ lines) and
-  migrated it to roam. The exported document had good formatting but I still had
-  to do some manual tweaking to get it in shape inside Roam.
-- 5. Went to my Goodreads account and exported all the data there (I was
-  creating content for them for years!) and created [a Rust project to migrate
-  them to my
-  blog](https://github.com/PotHix/pothix-codes/tree/master/rust/goodreads-to-hugo)
-  (I'm using all the chances I have to play with Rust).
-  The project generated pages like this: https://pothix.com/deepworkbook/.
-- 6. Now that I had all the content in markdown on my blog, I imported the whole
-  blog on [Roam Research](https://roamresearch.com) and started fixing the formatting (removing
-  front-matter, etc.) and linking to other content there.
-- 7. As I wanted my note-taking to reflect my daily life, I exported everything
-  from Twitter and [created a Rust project (again!) to migrate my tweets to
-  Roam](https://github.com/PotHix/pothix-codes/tree/master/rust/twitter-export-to-roam).
-  I like the result and took the chance to delete all tweets I had on my account
-  as they're now safe, linkable, and only available to me.
-- 8. With all the digital content imported, I started the import of analog ones.
-  There were one year of notes from a 2003 agenda I have. It was tiresome but a
-  great experience to read all the stories there, especially because it was the
-  year I started working and bought my first computer. This agenda alone added
-  350+ pages to Roam.
-- 9. Migrated the other notebook I had for drafts and other things. I keep it
-  since 2015.
+1. Started migrating my 1000+ notes from Google keep to Roam research (most of
+   them were useless). My Google keep is now clean.
+2. Went through my hundreds of Google Docs files one by one and migrated to Roam
+   the ones that were just structurally organized notes (project ideas lost,
+   university notes, course notes, etc.). I used that time to also tidy up my
+   Google Drive account.
+3. Found an old export from a software called
+   [NoteCase](https://www.notecasepro.com/) that I used ~2010 (when it was still
+   free) . It was exported in HTML format and I imported everything to Roam as
+   is. Later in the process, I split the whole thing into separate pages, topic
+   by topic.
+4. Went to my Git repository containing one big LaTeX document (3k+ lines) and
+   migrated it to roam. The exported document had good formatting but I still
+   had to do some manual tweaking to get it in shape inside Roam.
+5. Went to my Goodreads account and exported all the data there (I was creating
+   content for them for years!) and created [a Rust project to migrate them to
+   my
+   blog](https://github.com/PotHix/pothix-codes/tree/master/rust/goodreads-to-hugo)
+   (I'm using all the chances I have to play with Rust).  The project generated
+   pages like this: https://pothix.com/deepworkbook/.
+6. Now that I had all the content in markdown on my blog, I imported the whole
+   blog on [Roam Research](https://roamresearch.com) and started fixing the
+   formatting (removing front-matter, etc.) and linking to other content there.
+7. As I wanted my note-taking to reflect my daily life, I exported everything
+   from Twitter and [created a Rust project (again!) to migrate my tweets to
+   Roam](https://github.com/PotHix/pothix-codes/tree/master/rust/twitter-export-to-roam).
+   I like the result and took the chance to delete all tweets I had on my
+   account as they're now safe, linkable, and only available to me.
+8. With all the digital content imported, I started the import of analog ones.
+   There were one year of notes from a 2003 agenda I have. It was tiresome but a
+   great experience to read all the stories there, especially because it was the
+   year I started working and bought my first computer. This agenda alone added
+   350+ pages to Roam.
+9. Migrated the other notebook I had for drafts and other things. I keep it
+   since 2015.
 
 I finished the process some days ago. Countless hours in the past 4 months but
 it's worth it IMO. I went from 0 `.md` files in 2020 to 4500+ now and all the
