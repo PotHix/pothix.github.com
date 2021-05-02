@@ -20,7 +20,7 @@ I never gave that much importance to sleep and always tried to "optimize" the ti
 
 The best part of this book is the significant number of *scientific* studies referenced. It's not some article you read online that is interpreting some research in their way and telling you that you only need on average 6.7 hours of sleep a day. In this book, you will know dozens of scientific studies, their methods, and conclusions.
 
-These kinds of books written by scientists are fantastic (and sometimes boring... it can't be perfect) to help you draw your own conclusions based on serious researches available until now. I would totally recommend this book if you don't take sleep seriously and is interested in something that is free and can drastically improve your life.
+These kinds of books written by scientists are fantastic (and sometimes boring... It can't be perfect) to help you draw your own conclusions based on serious researches available until now. I would totally recommend this book if you don't take sleep seriously and is interested in something that is free and can drastically improve your life.
 
 I did some sleep experiments in the past, but I will probably reboot all of them. My experiments start now! :)
 
@@ -34,7 +34,7 @@ Night owls are usually penalized by society by having a different gene. It's not
 40% of the population are morning people, 30% are night owls, and the rest are in between
 Melatonin helps to pace the sleep cycle
 Because our Circadian Rhythm is bigger than 24 hours, it's easier to artificially stretch a day than shrink it
-Jet lag happens when you travel through timezones but your circadian time is not adjusted yet
+Jet lag happens when you travel through timezone but your circadian time is not adjusted yet
 Caffeine is the only addictive drug we give to our children
 Caffeine doesn't kill the urge to sleep; it just blocks the signals of the level of adenosine for your brain. When the caffeine effect passes, you will probably have a caffeine crash because of the level of adenosine accumulated
 Wake state is learning, NREM state is reflecting, REM state is integration (integrating neurons with each other)
@@ -77,7 +77,7 @@ Lucid dreamers may be the next iteration of Homo sapiens by focusing their dream
 What if Alien abductions are just post-sleep paralysis? The symptoms are similar and they are usually reported at night
 If you know you are carrying a gene that will kill you by not being able to sleep, would it change your will to have children and spread the disease?
 In a study, sleep-deprived rats (10+ days) started losing body mass even when they were eating well. When core temperature decreases, mammals increase the metabolic rate. Because of the lack of sleep, they could not control the body temperature and were burning from inside out (metabolic increase)
-There's a study based on Hunter gathers that says humans only need 6.7 hours of sleep to live. When you look into the research, wellbeing, and life expectancy of the tribes researched, you get a different conclusion. (7-9 is still the recommended)
+There's a study based on Hunter gathers that says humans only need 6.7 hours of sleep to live. When you look into the research, well-being, and life expectancy of the tribes researched, you get a different conclusion. (7-9 is still the recommended)
 Sleep and time awake work together for a balanced life. It seems to be a good balance to have 16 hours of awake time and around 8 hours of sleep
 We decide when it's night and when it's the day because of electricity and other artificial lights
 Using an iPad (or any other LED device) to read before sleep reduces the creation of melatonin and directly influence the time and quality of sleep
@@ -95,6 +95,7 @@ We receive no education about the importance of sleep but receive some regarding
 Sleep appears to be a natural analgesic when done right.
 
 12 tips for a good sleep
+
 1. Stick to a sleep schedule every day. Set an alarm to go to sleep, not just to wake up
 2. Exercise is great but it's important to not exercise late in the day
 3. Avoid caffeine (coffee, Coca-Cola, chocolate, and certain teas) and nicotine. The effects of coffee take 8 hours to vanish sometimes
@@ -103,7 +104,7 @@ Sleep appears to be a natural analgesic when done right.
 6. If possible avoid medicines that affect your sleep
 7. Don't take naps after 3 pm. Late naps can make it harder to sleep at night
 8. Relax before bed. Reading or listening to music should be part of your bed routine.
-9. Take a hot bath before bed to reduce your body temperature (cooldown after it). The bath can also help you to relax.
+9. Take a hot bath before bed to reduce your body temperature (cool down after it). The bath can also help you to relax.
 10. Dark bedroom, cool bedroom, devices free bedroom
 11. Have the right sunlight exposure. Try to have morning sunlight for at least 30 minutes every day.
 12. Don lie in bed awake. Anxiety to sleep can make it even harder to sleep.
