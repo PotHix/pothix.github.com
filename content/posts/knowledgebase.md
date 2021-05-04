@@ -53,7 +53,7 @@ just to name a few advantages it brings:
 
 - I don't have to care about files, their names, titles, folders, etc. I just
   write notes on a web page
-- The sync is done. I don't have to think about the syncing mechanism is just
+- The sync is done. I don't have to think about the syncing mechanism, it is
   like any other web app. (I still do my own backups periodically, though)
 - They have a markdown format for export and it works great. I can just take
   notes and not be concerned about migrating my files at some point.
