@@ -141,7 +141,7 @@ The real story begins now. I decided to use [Roam
 Research](https://roamresearch.com) as my tool of choice and became a believer
 subscriber, now it's time to start the import process.
 
-A knowledge base( or "second brain") only makes sense if you have all your
+A knowledge base (or "second brain") only makes sense if you have all your
 information there. I would not be able to link the ideas while reading books if
 my book notes are in a different note-taking app. The same is valid to all the
 content I have and moments of my life I want to refer to.
