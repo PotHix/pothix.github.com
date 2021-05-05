@@ -45,9 +45,9 @@ Here is my raw notes about the book:
   block
 - static is a variable created before your program starts. Const is just like
   C++, it fill be compiled in place to every usage of it
-- `debug_assert()` and debug_assert_eq() may be used in common code and will not
+- `debug_assert()` and `debug_assert_eq()` may be used in common code and will not
   be added in the release
-- If you expect a test to panic, add #[should_panic] attribut to your test
+- If you expect a test to panic, add `#[should_panic]` attribut to your test
 - Rangefull is the unit-struct for ..
 - Use .. when you don't care about the other fields of the struct in pattern
   matching
