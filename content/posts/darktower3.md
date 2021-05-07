@@ -1,5 +1,5 @@
 +++
-title = "Review of The Waste Lands (The Dark Tower, `#3`)"
+title = "Review of The Waste Lands (The Dark Tower, #3)"
 date = 2021-05-06
 tags = [
     "books",
