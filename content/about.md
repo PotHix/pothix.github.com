@@ -25,6 +25,7 @@ It would be hard to add all the topics I'm passionate about in the top menu, so 
 * [Read](/books): I like reading and I'm moving my [my Goodreads
   reviews](https://goodreads.com/pothix) to [this blog, one review at a
   time](/tags/books).
+* [Media](/media): All podcasts and videos I did myself or was an invited guest.
 * [Movies](/movies): There are some movies worth watching. Here I list the ones
   I recommend
 
