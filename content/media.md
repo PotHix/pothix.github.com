@@ -12,6 +12,7 @@ I love podcasts! It's the media I consume the most nowadays (along with audioboo
 
 Date       | Lang  | Episode title
 ---------- | ----- | -------------
+2021-04-30 | pt-BR | [Todoist e trabalho remoto](https://fechatagpodcast.com.br/)
 2019-10-01 | pt-BR | [Cultura de aprendizado](https://hipsters.tech/cultura-de-aprendizado-hipsters-168/)
 2019-09-24 | pt-BR | [Comunidades de software](https://youtu.be/VI9Yk-XqZ_g)
 2019-08-10 | pt-BR | [Papo sobre Docker](https://www.youtube.com/watch?v=_FjRDFbbKqE)
