@@ -4,6 +4,9 @@ date = 2016-03-08
 tags = [
     "books",
 ]
+aliases = [
+    "torrenegra1"
+]
 +++
 
 Book: [O Pistoleiro (A Torre Negra, #1)](https://www.goodreads.com/book/show/3030034) by Stephen King. Rating: ⭐️⭐️⭐️⭐️.
