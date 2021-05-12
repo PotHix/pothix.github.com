@@ -1,5 +1,5 @@
 +++
-title = "My Current Productivity Workflow"
+title = "My 2019 Productivity Workflow"
 date = "2019-08-15"
 tags = ["personal", "english", "productivity"]
 aliases=[
@@ -27,17 +27,17 @@ The organization for my top level projects looks like this:
 + **Work**: Everything related to my full time job. It's probably the one with more sub-projects and tasks
 + **Hobbies**: I have many, so I have a project for each. Examples: Drums, MTG, Cardistry, Photography, etc.
 + **Me & Wife**: A shared project with my wife. Anything we do together we add there.
-+ **Others**: projects I could not fit in any other category. Example: todoist integrations
++ **Others**: projects I could not fit in any other category. Example: Todoist integrations
 
 Most of these top level projects have have their own sub-projects.
 
 ## Process
 
-I use due dates to guide my life inside todoist. Every day I open Todoist and
+I use due dates to guide my life inside Todoist. Every day I open Todoist and
 find what I have to do during that day.
 
 When I have something in mind it goes to my `Inbox` project. It doesn't matter
-if I'm at the computer or walking on the street, I just open todoist and add it
+if I'm at the computer or walking on the street, I just open Todoist and add it
 there so I can do the triage later.
 
 I try to apply the [Getting Things Done](https://gettingthingsdone.com/) idea,
@@ -90,7 +90,7 @@ I want to do. A good example is the `Start the deep work session`, as it
 triggers the "Focus time" of [rescuetime](https://rescuetime.com) and block
 sites I consider not productive.
 
-## Reccuring tasks
+## Recurring tasks
 
 I have some recurring tasks that are not part of my routine and they are not
 related to work. It's also important to make time for the things you care
@@ -136,7 +136,7 @@ I used the [Daily when tracker](https://www.danpink.com/wp-content/uploads/2018/
 I also use the concept of [Deep work](https://www.goodreads.com/review/show/1601212243) described by the book with the same name.
 
 This is the reason why I have the task "_Start the deep work session_" in the
-morning and at the end of the afternooon.
+morning and at the end of the afternoon.
 
 ### Deep work filters
 
@@ -164,7 +164,7 @@ considered shallow work.
 
 I also have some filters based on the tasks I set priorities, so I can quickly
 see what should be a priority for my day instead of just reacting to what is
-going on. It doens't work all the time because [urgent and
+going on. It doesn't work all the time because [urgent and
 important](https://miro.medium.com/max/1120/1*tDk8uelQtJnpx33rIQVjjA.png)
 things sometimes pop up, but it gives me a clear view of what my priorities
 are.
@@ -206,7 +206,7 @@ I add a "`@snippet`" label to every task I want to report. When a task with a
 "`@snippet`" label is completed, IFTTT creates a new task in a project called
 "`Snippets`" with the completion date and the task project in the task title.
 
-When I want to report that, I go the the "`Snippets`" project, click on the menu,
+When I want to report that, I go to the "`Snippets`" project, click on the menu,
 **Export as a Template**, and **Export as file**. I have a note in the same
 project with a command the does the job of formatting that:
 
@@ -217,7 +217,7 @@ cat ~/Downloads/Snippets.csv | grep -v project_note | grep "task," | awk -F "," 
 So I can just post it to [Twist](https://twist.com).
 
 
-## How a tipical day looks like
+## How a typical day looks like
 
 I wake up early (because that's what I want for myself, I don't have to),
 prepare the breakfast, and take some time to eat and chat with my wife. We try

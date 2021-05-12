@@ -8,11 +8,11 @@ tags = [
 toc = true
 +++
 
+_If you want to see all my reviews, not just the small list of recommended books
+(still WIP), I suggest you to check the [books tag](/tags/books)._
+
 Here I describe the list of books I recommend to people. The recommendation also
 links to my review here, in case you want to have more information about it.
-
-If you want to see all my reviews, not just for the recommended books, I suggest
-you to check the [books tag](/tags/books).
 
 Now let's start with my recommendations. 💪
 
