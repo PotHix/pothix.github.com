@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 06 May 2021 00:00:00 -0300</lastBuildDate><atom:link href="https://pothix.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pothix.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My 2021 Productivity Workflow</title>
+      <link>https://pothix.com/workflow2021/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/workflow2021/</guid>
+      <description>This post is the updated version of the one I wrote in 2019. Instead of changing the previous one, I decided to create an updated version based on that.
+From time to time, I receive questions about my productivity workflow and I think it will be useful to have it written down somewhere. This post will describe how I&amp;rsquo;m dealing with it in 2021.
+Tool As you probably know, I work for Doist for some time now, and I&amp;rsquo;m a Todoist user since 2007, so the my tool of choice is quite obvious.</description>
+    </item>
+    
     <item>
       <title>Review of The Waste Lands (The Dark Tower, #3)</title>
       <link>https://pothix.com/darktower3/</link>
@@ -102,8 +113,8 @@ O texto é bem leve ao falar do assunto e mostra a visão da autora e sua própr
       <pubDate>Sun, 14 Feb 2021 00:00:00 -0300</pubDate>
       
       <guid>https://pothix.com/books/</guid>
-      <description>Here I describe the list of books I recommend to people. The recommendation also links to my review here, in case you want to have more information about it.
-If you want to see all my reviews, not just for the recommended books, I suggest you to check the books tag.
+      <description>If you want to see all my reviews, not just the small list of recommended books (still WIP), I suggest you to check the books tag.
+Here I describe the list of books I recommend to people. The recommendation also links to my review here, in case you want to have more information about it.
 Now let&amp;rsquo;s start with my recommendations. 💪
 Tolkien: A biography It&amp;rsquo;s no secret that I&amp;rsquo;m a big fan of J.</description>
     </item>
@@ -496,11 +507,11 @@ I don&amp;rsquo;t agree with all the ideas presented here but I enjoyed thinking
     </item>
     
     <item>
-      <title>My Current Productivity Workflow</title>
-      <link>https://pothix.com/productivity-workflow/</link>
+      <title>My 2019 Productivity Workflow</title>
+      <link>https://pothix.com/workflow2019/</link>
       <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://pothix.com/productivity-workflow/</guid>
+      <guid>https://pothix.com/workflow2019/</guid>
       <description>From time to time, I receive questions about my productivity workflow, so I decided to write it down here. Keep in mind it&amp;rsquo;s a living thing and may change with time, but what I&amp;rsquo;m documenting here is what I&amp;rsquo;m using right now.
 Tool As you probably know, I work for Doist for some time now, and I&amp;rsquo;m a Todoist user since 2007, so the my tool of choice is quite obvious.</description>
     </item>
