@@ -4,9 +4,9 @@ date = "2021-05-12"
 tags = ["personal", "english", "productivity"]
 +++
 
-_This post is the updated version of [the one I wrote in 2019](workflow2019) and
-it is very similar. Instead of changing that, I decided to create a and updated
-version based on that._
+_This post is the updated version of [the one I wrote in 2019](workflow2019).
+Instead of changing the previous one, I decided to create an updated version
+based on that._
 
 From time to time, I receive questions about my productivity workflow and I
 think it will be useful to have it written down somewhere. This post will
