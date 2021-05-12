@@ -3,7 +3,8 @@ title = "My Current Productivity Workflow"
 date = "2019-08-15"
 tags = ["personal", "english", "productivity"]
 aliases=[
-  "post/my-current-productivity-workflow"
+  "post/my-current-productivity-workflow",
+  "productivity-workflow",
 ]
 +++
 
