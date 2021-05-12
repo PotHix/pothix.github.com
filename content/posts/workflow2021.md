@@ -106,18 +106,21 @@ Let's break down my filters and explain their usage 🙂
 As you can see, I also rely on Todoist labels to mark the tasks I want to have
 in each of these chunks.
 
-The **peak** filter lists all the tasks with the **@peak** label or the ones
-that are priority 1 for me today. I also list any tasks related to my calendar
-by filtering the tag **@Gcal** and retrieving the ones that must be done in the
-next 4 hours.
-
-I used the [Daily when tracker](https://www.danpink.com/wp-content/uploads/2018/01/time-sheet.pdf) to check when was my peak, trough, and recovery times:
+I used the [Daily when
+tracker](https://www.danpink.com/wp-content/uploads/2018/01/time-sheet.pdf) to
+check when was my peak, trough, and recovery times:
 
 ![A sheet of paper with something that looks like a chart showing the times I feel more productive](/images/posts/productivity_dailywhentracker.png)
 
 As you can see, my peak time is usually in the morning, so I use the **peak**
 filter in the morning to be sure I use my energy in the right way. I wrote a
 good article about this at the [Doist blog](https://blog.doist.com/daily-schedule/).
+
+The **peak** filter lists all the tasks with the **@peak** label or the ones
+that are priority 1 for me today. I also list any tasks related to my calendar
+by filtering the tag **@Gcal** and retrieving the ones that must be done in the
+next 4 hours. I sort the tasks by priority and do them in order whenever
+possible.
 
 The **Trough** label is used right after lunch, when I know I usually don't have
 enough energy. I use this time to do everything that don't require that much
@@ -236,6 +239,29 @@ At the end of the day, I postpone my tasks (if any) or just let them become
 overdue to be postponed quickly via Todoist on the next day. I usually do the
 planning for the week every Friday, so everything should be ready for the next
 day.
+
+### Calendar
+
+I use Google Calendar since I started using Gmail (~2004?) and the integration
+with Todoist is very useful for me.
+
+Todoist has a 2-way-sync integration with Google calendar, but I don't care much
+about using it that way. What I do is to bring everything I have on Google
+calendar to my Todoist so I can better plan my day only relying on one tool.
+
+I mentioned I have a **Calendars** project and I use it as an umbrella to 2 other
+projects. These projects have the name of two of my calendars: my personal
+calendar and work calendar.
+
+I use the option to sync "A specific project" and just sync one of those empty
+projects. I never add anything there, their role here is to bring my calendar
+events to Todoist tasks with dates and times.
+
+I have a policy of disabling all the notifications when doing focused work and
+totally recommend it. The only problem is that you also miss some important
+notifications. When I integrated my calendar with my Todoist, I was able to know
+exactly what I have to do and can do my peak work without worrying if there's
+something important I'm missing.
 
 ## Conclusion
 
