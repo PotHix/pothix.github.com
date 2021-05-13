@@ -67,6 +67,11 @@ will notify me about that in the right day and time.
 
 ## Recurring tasks
 
+There are two types of recurring tasks for me: daily tasks and other recurring
+tasks
+
+### Daily recurring tasks
+
 I have some recurring tasks to be sure I do the things I have to do every day.
 It's important to make time for the things you care about, sometimes they are
 work-related tasks but you also have other things in life to take care of.
@@ -83,6 +88,24 @@ Here are some of them:
 These are usually tasks that I have to remind myself to do. Every time I miss
 some event or forget to do something it becomes a recurring task so it will not
 happen again.
+
+### Other recurring
+
+These are tasks that are recurring but they are not present every day. Some
+examples of tasks:
+
++ Bills to pay (usually once a month)
++ Review my life insurance (usually once a year)
++ Send [a random email to my future self](https://futureme.org) (every 6 months)
++ Download free HTML templates from themeforest (every month)
+
+It's been almost 5 years since I started downloading the free themes from
+themeforest every month and I have a good collection of them for personal
+projects. I've been doing this consistently during these years, thanks to this
+process.
+
+You may have better things to do with your recurring tasks, these are just
+examples that are important to me.
 
 ## Filtering to avoid distractions
 
