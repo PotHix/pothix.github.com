@@ -6,7 +6,7 @@ tags = [
 ]
 +++
 
-Book: [Wizard and Glass (The Dark Tower, #4)](https://www.goodreads.com/review/show/000000000) by Stephen King. Rating: ⭐️⭐️⭐️⭐️.
+Book: [Wizard and Glass (The Dark Tower, #4)](https://www.goodreads.com/review/show/1631915749) by Stephen King. Rating: ⭐️⭐️⭐️⭐️.
 
 Outro livro que li em Português, então o review vai ser em Português também.
 
