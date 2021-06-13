@@ -1,10 +1,8 @@
 +++
-title = "Darktower5"
+title = "Review of Wolves of the Calla (The Dark Tower, #5)"
 date = 2021-06-13
-draft = true
 tags = [
-    "english",
-    "tech",
+    "books",
 ]
 +++
 
