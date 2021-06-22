@@ -6,8 +6,50 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Wed, 16 Jun 2021 00:00:00 -0300</lastBuildDate>
+        <lastBuildDate>Tue, 22 Jun 2021 00:00:00 -0300</lastBuildDate>
         <atom:link href="https://pothix.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Fixing Logitech mouse MX Master 2 problem</title>
+            <link>https://pothix.com/mastermxfix/</link>
+            <pubDate>Tue, 22 Jun 2021 00:00:00 -0300</pubDate>
+            
+            <guid>https://pothix.com/mastermxfix/</guid>
+            <description>This is a quick post for any Logitech MX master 2 (any version, really) owner having problems with their mouse. If your mouse is not moving at all but buttons are still working, there&amp;rsquo;s a good chance your problem has an easy fix.
+There&amp;rsquo;s a video (in pt-BR) about that if you prefer doing it more interactively, but in summary: The [hidden] thumb button is the problem. It gets stuck and messes up everything.</description>
+            <content type="html"><![CDATA[<p>This is a quick post for any Logitech MX master 2 (any version, really) owner
+having problems with their mouse. If your mouse is not moving at all but buttons
+are still working, there&rsquo;s a good chance your problem has an easy fix.</p>
+<p>There&rsquo;s <a href="https://www.youtube.com/watch?v=zQ7P0isizbY">a video (in pt-BR) about
+that</a> if you prefer doing it more
+interactively, but in summary: The [hidden] thumb button is the problem. It gets
+stuck and messes up everything. I <strong>never</strong> used that button, and it&rsquo;s just
+there, ruining everything. If you&rsquo;re using it&hellip; well&hellip; I suggest not using
+anymore. 🤷</p>
+<p>To fix that, you will need a small Philips and a Torx T4 screwdriver. I got mine
+by buying a cheap (~7 USD) iPhone repair toolkit.</p>
+<p>To open your mouse you will need your Torx T4 screwdriver to remove the top 2
+screws, and then you will have to remove the rubber protection from both sides
+to have access to the other 4 philips screws there. Be sure to do it carefully,
+so you can put it back later.</p>
+<p><img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPotHix-KB%2FqwGVqyw91G.png?alt=media&amp;token=aa5057df-d39d-48de-a031-0370fd0b36e1" alt=""></p>
+<p>Open your mouse and disconnect the cable between the two parts. In my case,
+removed the cable lock (I have no idea what&rsquo;s the real name for that) by
+mistake, but you can just pull it up:</p>
+<p><img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPotHix-KB%2Fr1d1xcZYVq.png?alt=media&amp;token=f693bf2a-1e36-44c3-913c-8225860e660b" alt=""></p>
+<p>The piece you will have to fix is this one:</p>
+<p><img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPotHix-KB%2FbzZP0kVOKw.png?alt=media&amp;token=e9500be7-6f2c-4dd5-a1fa-be2ebc807cc3" alt=""></p>
+<p>Just remove the screws and prevent the knob to touch the actual button in the
+mouse. I did something very simple for that:</p>
+<p><img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPotHix-KB%2F7OAzBDRRIb.png?alt=media&amp;token=67b18e85-467d-4f1d-9e7b-fa36473e44e4" alt=""></p>
+<p>Put everything back together, plug both sides again (it took a lot of time for
+me becaues I removed the piece and had a hard time to put it back, be sure to do
+things right 😅):</p>
+<p><img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPotHix-KB%2F9SaF3loMoG.png?alt=media&amp;token=d8d1dbf3-2f6c-4113-8b98-12fae4f565bf" alt=""></p>
+<p>Now you fixed the problem that shouldn&rsquo;t exist if Logitech took their hardware
+seriously. ✌️</p>
+]]></content>
+        </item>
         
         <item>
             <title>Review of Song of Susannah (The Dark Tower, #6)</title>

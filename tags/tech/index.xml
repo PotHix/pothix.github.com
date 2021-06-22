@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 20 Mar 2021 00:00:00 -0300</lastBuildDate><atom:link href="https://pothix.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Jun 2021 00:00:00 -0300</lastBuildDate><atom:link href="https://pothix.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fixing Logitech mouse MX Master 2 problem</title>
+      <link>https://pothix.com/mastermxfix/</link>
+      <pubDate>Tue, 22 Jun 2021 00:00:00 -0300</pubDate>
+      
+      <guid>https://pothix.com/mastermxfix/</guid>
+      <description>This is a quick post for any Logitech MX master 2 (any version, really) owner having problems with their mouse. If your mouse is not moving at all but buttons are still working, there&amp;rsquo;s a good chance your problem has an easy fix.
+There&amp;rsquo;s a video (in pt-BR) about that if you prefer doing it more interactively, but in summary: The [hidden] thumb button is the problem. It gets stuck and messes up everything.</description>
+    </item>
+    
     <item>
       <title>Opinião: Produtos e contratações globais</title>
       <link>https://pothix.com/contratacaoglobal/</link>
