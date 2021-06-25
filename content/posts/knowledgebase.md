@@ -194,7 +194,7 @@ content is linkable and searchable on the same platform.
 Here is a screenshot of my graph as it is right now. Every point is a page and
 lines are the connections between them.
 
-![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPotHix-KB%2FjAx4SbAt4U.png?alt=media&token=548bc7c3-5442-40bb-bacf-03c3c4083915)
+![](/images/posts/knowledgebase.jpg)
 
 ## Linking step
 
