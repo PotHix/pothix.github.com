@@ -1,10 +1,8 @@
 +++
 title = "Audiobooks as podcasts"
-date = 2021-06-22
-draft = true
+date = 2021-06-25
 tags = [
     "english",
-    "tech",
 ]
 +++
 
