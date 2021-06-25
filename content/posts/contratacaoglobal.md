@@ -9,7 +9,7 @@ tags = [
 Tudo começou com uma discussão no grupo off-topic do Ruby Brasil. Alguém
 compartilhou a seguinte imagem:
 
-![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPotHix%2FKKgOAA5vUO.png?alt=media&token=47be7960-1cff-436a-b4fe-013dfe514233)
+![](/images/posts/contratacaoglobal1.jpg)
 _Encontrei o post original [no Linkedin](https://www.linkedin.com/posts/blpsilva_com-a-subida-do-d%C3%B3lar-de-r-4-para-r-560-activity-6778743111364448256-j5_k/)_
 
 Esse post não é uma resposta direta ao Bruno Pereira, mas sim estendendo a
@@ -41,7 +41,7 @@ dessa mais conhecidas.
 Vamos usar um salário médio de um pleno/sênior (baseado em experiência, sem
 nenhuma estatística) de São Paulo para comparação:
 
-![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPotHix%2F6bf94ooVHr.png?alt=media&token=a6821772-50a6-4427-8f62-0fc34a8e35a7)
+![](/images/posts/contratacaoglobal2.jpg)
 
 Um desenvolvedor que ganharia R$15.000 aqui, ganharia ~2700 USD em um país que
 use essa moeda. Isso, na minha opinião, é um valor bem baixo para pagar um
