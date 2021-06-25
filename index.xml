@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 22 Jun 2021 00:00:00 -0300</lastBuildDate><atom:link href="https://pothix.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Jun 2021 00:00:00 -0300</lastBuildDate><atom:link href="https://pothix.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Audiobooks as podcasts</title>
+      <link>https://pothix.com/audiobookaspodcast/</link>
+      <pubDate>Fri, 25 Jun 2021 00:00:00 -0300</pubDate>
+      
+      <guid>https://pothix.com/audiobookaspodcast/</guid>
+      <description>I love to listen to audiobooks (article in pt-BR), and I&amp;rsquo;m was an Audible subscriber for many years, just pausing my subscription because I have way too many books (~150) already and need some time to clear the queue. 🙂
+Audible is the best service to listen to audiobooks, no doubts here from my side, but sometimes I get audiobooks from other medias. As an example, I have 3 books from Pragmatic Programmers downloaded as mp3 files and I must find my way on how to listen to them.</description>
+    </item>
+    
     <item>
       <title>Fixing Logitech mouse MX Master 2 problem</title>
       <link>https://pothix.com/mastermxfix/</link>

@@ -6,8 +6,65 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Tue, 22 Jun 2021 00:00:00 -0300</lastBuildDate>
+        <lastBuildDate>Fri, 25 Jun 2021 00:00:00 -0300</lastBuildDate>
         <atom:link href="https://pothix.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Audiobooks as podcasts</title>
+            <link>https://pothix.com/audiobookaspodcast/</link>
+            <pubDate>Fri, 25 Jun 2021 00:00:00 -0300</pubDate>
+            
+            <guid>https://pothix.com/audiobookaspodcast/</guid>
+            <description>I love to listen to audiobooks (article in pt-BR), and I&amp;rsquo;m was an Audible subscriber for many years, just pausing my subscription because I have way too many books (~150) already and need some time to clear the queue. 🙂
+Audible is the best service to listen to audiobooks, no doubts here from my side, but sometimes I get audiobooks from other medias. As an example, I have 3 books from Pragmatic Programmers downloaded as mp3 files and I must find my way on how to listen to them.</description>
+            <content type="html"><![CDATA[<p>I love to <a href="/audiobooks">listen to audiobooks (article in pt-BR)</a>, and I&rsquo;m was an
+<a href="https://audible.com">Audible</a> subscriber for many years, just pausing my
+subscription because I have way too many books (~150) already and need some time
+to clear the queue. 🙂</p>
+<p>Audible is the best service to listen to audiobooks, no doubts here from my
+side, but sometimes I get audiobooks from other medias. As an example, I have 3
+books from <a href="https://pragprog.com/categories/audio-books/">Pragmatic Programmers</a>
+downloaded as <code>mp3</code> files and I must find my way on how to listen to them.</p>
+<p>I&rsquo;m a also a big fan of podcasts, so I have a great podcasts app (<a href="https://podcastaddict.com/">Podcast
+Addict</a>) set up and ready to roll. I&rsquo;m going to
+describe how I use my podcasts app to listen to my audiobooks when needed.</p>
+<h2 id="what-i-did-in-the-past">What I did in the past</h2>
+<p>Things were much more difficult in the past as I couldn&rsquo;t find software that
+could play these files in the way I wanted and in the right order. I&rsquo;m not
+focusing on PragProg books but will consider other audio files.</p>
+<p>The problem was the difference between the <code>mp3</code> audio tags and the file name.
+Sometimes the tags and the file names were different and the software usually
+lists tracks by tag and not a file name.</p>
+<p>To quickly fix this problem, I had my own set of scripts.</p>
+<p>The first one is a quick shell script to remove spaces from files to make them
+easy to manipulate:</p>
+<pre><code>ls | while read -r FILE; do mv -v &quot;$FILE&quot; `echo $FILE | tr ' ' '_'; done
+</code></pre><p>and the second is a line of shell script using <code>id3lib</code> to add the file name to its metatags:</p>
+<pre><code>for i in *.mp3; do id3tag --song=&quot;$i&quot; $i; done```
+</code></pre><p>Now that I had the right metatags, I could just transfer the files to my
+cellphone and add them to Podcast Addict. The process was mostly the same I&rsquo;m
+doing now, so let&rsquo;s describe the current process.</p>
+<h2 id="what-i-do-now">What I do now</h2>
+<p>I don&rsquo;t do any manipulation to the files and just use them as is! 🙂</p>
+<p>The step by step is:</p>
+<ol>
+<li>I get the audio files and save them to my Dropbox account</li>
+<li>When all files are uploaded, I check the Dropbox app on my phone and go to
+their directory</li>
+<li>Download all files to the device. Keep in mind that it may take a while to
+download everything. Dropbox is extremely slow to do this, probably limit
+processing in the cellphone.</li>
+<li>Select all files, click the menu, and use the &ldquo;Save to Device&rdquo; option.
+Dropbox lets you choose the directory to which the files will be saved.</li>
+<li>I choose my &ldquo;Audiobooks&rdquo; directory</li>
+<li>Go to Podcast Addict, click the &ldquo;+&rdquo; button in the top right, and select &ldquo;Virtual&rdquo;</li>
+<li>Select my &ldquo;Audiobooks&rdquo; directory and ask the app to import all files by filename (instead of metadata)</li>
+</ol>
+<p>Now the audiobook is available as a &ldquo;podcast&rdquo; and I can just press and hold the
+audiobook cover and &ldquo;Add unplayed episodes to playlist&rdquo; to listen to my books
+right from my playlist as I do with Podcasts. 🎶</p>
+]]></content>
+        </item>
         
         <item>
             <title>Fixing Logitech mouse MX Master 2 problem</title>
