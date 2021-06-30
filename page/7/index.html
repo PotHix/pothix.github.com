@@ -112,6 +112,19 @@
         <ul class="posts-list">
             
                 <li class="post-item" style="padding:10px 0">
+                    <a href="https://pothix.com/homodeus/">
+                        <span class="post-title" style="text-transform: uppercase">Review of Homo Deus: A History of Tomorrow</strong></span>
+                        <span class="post-day">
+                            
+                                May 12, 2019
+                            
+                        </span>
+                    </a>
+                    <p>Book: Homo Deus: A History of Tomorrow by Yuval Noah Harari. Rating: ⭐️⭐️⭐️⭐️⭐️.
+This is a great book that made me pause many times think. This is the kind of book I love to read. I heard some criticism about Yuval&rsquo;s books and they are mostly related to his way to connect things that he is not an expert about. For me, it&rsquo;s the best part of the books because it also makes me consider the connections and think about them.</p>
+                </li>
+            
+                <li class="post-item" style="padding:10px 0">
                     <a href="https://pothix.com/rustlatam2019/">
                         <span class="post-title" style="text-transform: uppercase">How was Rust LATAM 2019</strong></span>
                         <span class="post-day">
@@ -233,21 +246,6 @@ It was interesting to read that they felt themselves to be privileged when compa
                     <p>Book: The Power Of Less: The Fine Art of Limiting Yourself to the Essential by Leo Babauta. Rating: ⭐️⭐️⭐️⭐️.
 It&rsquo;s a good book. It&rsquo;s repetitive and a bit outdated (I heard Google reader somewhere) but all the hints here are still valid.
 To summarize: the focus is everything. Chose something you want to do and do it. Remove everything else that&rsquo;s not moving you toward your priorities and do what you have to do.</p>
-                </li>
-            
-                <li class="post-item" style="padding:10px 0">
-                    <a href="https://pothix.com/atreus-firmware/">
-                        <span class="post-title" style="text-transform: uppercase">Flashing a different firmware for the Atreus keyboard</strong></span>
-                        <span class="post-day">
-                            
-                                Oct 22, 2018
-                            
-                        </span>
-                    </a>
-                    <p>I just bought an Atreus keyboard and I&rsquo;m now configuring my own firmware.
-To do that, I&rsquo;m using the qmk_firmware.
-I&rsquo;m adding a new file as a layout (link here) and I have to change tmk_core/common/avr/bootloader.c to be able to compile it:
--uint32_t reset_key __attribute__ ((section (&quot;.noinit&quot;))); +uint32_t reset_key __attribute__ ((section (&quot;.noinit,\&quot;aw\&quot;,@nobits;&quot;))); After that, I just had to get the keyboard to the reset mode via fn + ESC (to change the layout) and then pressed the RESET button.</p>
                 </li>
             
         </ul>
