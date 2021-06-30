@@ -112,6 +112,19 @@
         <ul class="posts-list">
             
                 <li class="post-item" style="padding:10px 0">
+                    <a href="https://pothix.com/rustlatam2019/">
+                        <span class="post-title" style="text-transform: uppercase">How was Rust LATAM 2019</strong></span>
+                        <span class="post-day">
+                            
+                                Apr 21, 2019
+                            
+                        </span>
+                    </a>
+                    <p>For those who don&rsquo;t know, I&rsquo;m a proud core organizer of the Rust LATAM conference. 🎉 The conference happened on March 29 and 30, and this post describes how it was to organize the whole thing.
+Even with the small problems we had (as any other big conference), the feedback we received so far were very positive. We were able to bring amazing speakers to the conference, which brought high-level content even for beginners.</p>
+                </li>
+            
+                <li class="post-item" style="padding:10px 0">
                     <a href="https://pothix.com/atomichabits/">
                         <span class="post-title" style="text-transform: uppercase">Review of Atomic Habits: An Easy &amp; Proven Way to Build Good Habits &amp; Break Bad Ones</strong></span>
                         <span class="post-day">
@@ -235,20 +248,6 @@ To summarize: the focus is everything. Chose something you want to do and do it.
 To do that, I&rsquo;m using the qmk_firmware.
 I&rsquo;m adding a new file as a layout (link here) and I have to change tmk_core/common/avr/bootloader.c to be able to compile it:
 -uint32_t reset_key __attribute__ ((section (&quot;.noinit&quot;))); +uint32_t reset_key __attribute__ ((section (&quot;.noinit,\&quot;aw\&quot;,@nobits;&quot;))); After that, I just had to get the keyboard to the reset mode via fn + ESC (to change the layout) and then pressed the RESET button.</p>
-                </li>
-            
-                <li class="post-item" style="padding:10px 0">
-                    <a href="https://pothix.com/crazyatwork/">
-                        <span class="post-title" style="text-transform: uppercase">Review of It Doesn&#39;t Have to Be Crazy at Work</strong></span>
-                        <span class="post-day">
-                            
-                                Oct 21, 2018
-                            
-                        </span>
-                    </a>
-                    <p>Book: It Doesn&rsquo;t Have to Be Crazy at Work by Jason Fried. Rating: ⭐️⭐️⭐️⭐️⭐️.
-What a great book! The best part of this book is that there&rsquo;s nothing so out of this world there, they are just talking about what we should be doing.
-Hey, it&rsquo;s true, it doesn&rsquo;t have to be crazy at work. We can still do our best and deliver an amazing product without making ourselves miserable working like crazy to meet some made-up numbers used as &ldquo;goals&rdquo;.</p>
                 </li>
             
         </ul>
