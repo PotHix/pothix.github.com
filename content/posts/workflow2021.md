@@ -4,7 +4,7 @@ date = "2021-05-12"
 tags = ["personal", "english", "productivity"]
 +++
 
-_This post is the updated version of [the one I wrote in 2019](workflow2019).
+_This post is the updated version of [the one I wrote in 2019](/workflow2019).
 Instead of changing the previous one, I decided to create an updated version
 based on that._
 
