@@ -45,8 +45,8 @@ I&amp;rsquo;m adding a new file as a layout (link here) and I have to change tmk
 <meta itemprop="description" content="I just bought an Atreus keyboard and I&rsquo;m now configuring my own firmware.
 To do that, I&rsquo;m using the qmk_firmware.
 I&rsquo;m adding a new file as a layout (link here) and I have to change tmk_core/common/avr/bootloader.c to be able to compile it:
--uint32_t reset_key __attribute__ ((section (&quot;.noinit&quot;))); &#43;uint32_t reset_key __attribute__ ((section (&quot;.noinit,\&quot;aw\&quot;,@nobits;&quot;))); After that, I just had to get the keyboard to the reset mode via fn &#43; ESC (to change the layout) and then pressed the RESET button."><meta itemprop="datePublished" content="2018-10-22T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2018-10-22T00:00:00&#43;00:00" />
+-uint32_t reset_key __attribute__ ((section (&quot;.noinit&quot;))); &#43;uint32_t reset_key __attribute__ ((section (&quot;.noinit,\&quot;aw\&quot;,@nobits;&quot;))); After that, I just had to get the keyboard to the reset mode via fn &#43; ESC (to change the layout) and then pressed the RESET button."><meta itemprop="datePublished" content="2018-10-22T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2018-10-22T00:00:00+00:00" />
 <meta itemprop="wordCount" content="341"><meta itemprop="image" content="https://pothix.com/images/logo.svg"/>
 <meta itemprop="keywords" content="english,keyboards," />
 <meta name="twitter:card" content="summary_large_image"/>
@@ -67,8 +67,8 @@ I&rsquo;m adding a new file as a layout (link here) and I have to change tmk_cor
 -uint32_t reset_key __attribute__ ((section (&quot;.noinit&quot;))); &#43;uint32_t reset_key __attribute__ ((section (&quot;.noinit,\&quot;aw\&quot;,@nobits;&quot;))); After that, I just had to get the keyboard to the reset mode via fn &#43; ESC (to change the layout) and then pressed the RESET button." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://pothix.com/atreus-firmware/" /><meta property="og:image" content="https://pothix.com/images/logo.svg"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2018-10-22T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2018-10-22T00:00:00&#43;00:00" /><meta property="og:site_name" content="PotHix" />
+<meta property="article:published_time" content="2018-10-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-10-22T00:00:00+00:00" /><meta property="og:site_name" content="PotHix" />
 
 
 
