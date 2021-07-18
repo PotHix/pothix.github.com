@@ -10,6 +10,7 @@ aliases = [
 
 No. | Date       | Presentation  | Event
 --- | ---------- | ------------- | ------
+71  | 2021-07-17 | [Desconstruindo a web](https://cege.la/3xLXYbu) | [Mutirão DevOps](https://www.twitch.tv/videos/1089776626)
 70  | 2021-04-24 | [Mesa redonda: Trabalho remoto para empresas de fora](https://www.youtube.com/watch?v=08oOi0jTDZY) | [Guru-SP](https://gurusp.org)
 69  | 2020-11-18 | Exploring a Core Library for Multiple Languages using Rust | Doist talks
 68  | 2020-10-06 | [Trabalho remoto e assincrono](https://www.youtube.com/watch?v=sAMX3SiiESY) |  [Future of Work](https://www.brasil.futureofwork.co/)
