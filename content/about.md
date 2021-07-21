@@ -22,9 +22,9 @@ It would be hard to add all the topics I'm passionate about in the top menu, so 
   in Brazil and around the world.
 * [Travel](/places): I like to travel and had the chance to visit 10+ countries
   and 7+ states of my own country of residence.
-* [Read](/books): I like reading and I'm moving my [my Goodreads
-  reviews](https://goodreads.com/pothix) to [this blog, one review at a
-  time](/tags/books).
+* [Read](/books): I like reading and I keep my [Goodreads
+  reviews](https://goodreads.com/pothix) updated while I'm posting [all my
+  book reviews here](/tags/books).
 * [Media](/media): All podcasts and videos I did myself or was an invited guest.
 * [Movies](/movies): There are some movies worth watching. Here I list the ones
   I recommend

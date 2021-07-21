@@ -22,7 +22,7 @@ Here is a list of my current priorities:
 1. Improving my [Rust](https://www.rust-lang.org/en-US/) skills and [trying to
    contribute to the compiler](/post/contributing-to-rust/) (not much time for
    it nowadays, unfortunately)
-1. Co-authoring a book abour Rust in pt-BR 🦀
+1. Co-authoring a book about Rust in pt-BR 🦀
 1. Taking care of my twin babies at home with all its ups and downs (more downs
    than ups in the beggining, but there are some magic moments sometimes).
 1. Building a [knowledge-base](/knowledgebase) using [Roam
