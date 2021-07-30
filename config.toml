@@ -16,7 +16,7 @@ paginate     = 10
 
 
 [params]
-  description = "The personal website for Willian Molinari, also known as PotHix"
+  description = ""
   keywords = ["Programming", "Linux", "Desconstruindo a web", "Ruby", "Elixir", "Golang", "Guru-SP", "Rust", "Productivity"]
 
   #############################################
@@ -47,7 +47,7 @@ paginate     = 10
 [languages]
   [languages.en]
     title = "PotHix"
-    subtitle = "The personal website for Willian Molinari, also known as PotHix"
+    subtitle = ""
     keywords = "Programming, Linux, Desconstruindo a web, Ruby, Elixir, Golang, Guru-SP, Rust, Productivity"
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
