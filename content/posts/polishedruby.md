@@ -37,7 +37,7 @@ especially liked the chapter 6, about code formatting. The final part of the
 book is also OK, but you have to read it with a grain of salt as it feels like
 a mother talking about how pretty is her son/daughter. 😅
 
-**Here are my raw notes (and comments) about the book:**
+**Here are my kindle highlights and my comments (in 💭) about the book:**
 
 Chapter 1: Getting the Most out of Core Classes
 
