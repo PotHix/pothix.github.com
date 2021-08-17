@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="Book: Polished Ruby Programming: Build better software with more intuitive, maintainable, scalable, and high-performance Ruby code by Jeremy Evans. Rating: ⭐️⭐️⭐️⭐️.
+I got a contact from Packtpub about this book. The deal was to receive the book for free in exchange for an honest review. Here I am, just finished the book and will write about it.
+The book is quite good, there&amp;rsquo;s a lot of good information there, and I would totally recommend to someone investing in Ruby." />
+<meta name="keywords" content="Programming, Linux, Desconstruindo a web, Ruby, Elixir, Golang, Guru-SP, Rust, Productivity, english, books, tech" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://pothix.com/polishedruby/" />
+
+
+    <title>
+        
+            Review of Polished Ruby Programming :: PotHix 
+        
+    </title>
+
+
+
+
+
+<link rel="stylesheet" href="/main.bcf2d55b6299e98cca373f072c65ed76e7729d56193a2d15233875ecc94ca658.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#a9a9b3">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="#a9a9b3">
+    <meta name="theme-color" content="#a9a9b3">
+
+
+
+<meta itemprop="name" content="Review of Polished Ruby Programming">
+<meta itemprop="description" content="Book: Polished Ruby Programming: Build better software with more intuitive, maintainable, scalable, and high-performance Ruby code by Jeremy Evans. Rating: ⭐️⭐️⭐️⭐️.
+I got a contact from Packtpub about this book. The deal was to receive the book for free in exchange for an honest review. Here I am, just finished the book and will write about it.
+The book is quite good, there&rsquo;s a lot of good information there, and I would totally recommend to someone investing in Ruby."><meta itemprop="datePublished" content="2021-08-17T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-08-17T00:00:00+00:00" />
+<meta itemprop="wordCount" content="5067"><meta itemprop="image" content="https://pothix.com/images/logo.svg"/>
+<meta itemprop="keywords" content="english,books,tech," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://pothix.com/images/logo.svg"/>
+
+<meta name="twitter:title" content="Review of Polished Ruby Programming"/>
+<meta name="twitter:description" content="Book: Polished Ruby Programming: Build better software with more intuitive, maintainable, scalable, and high-performance Ruby code by Jeremy Evans. Rating: ⭐️⭐️⭐️⭐️.
+I got a contact from Packtpub about this book. The deal was to receive the book for free in exchange for an honest review. Here I am, just finished the book and will write about it.
+The book is quite good, there&rsquo;s a lot of good information there, and I would totally recommend to someone investing in Ruby."/>
+
+
+
+    <meta property="og:title" content="Review of Polished Ruby Programming" />
+<meta property="og:description" content="Book: Polished Ruby Programming: Build better software with more intuitive, maintainable, scalable, and high-performance Ruby code by Jeremy Evans. Rating: ⭐️⭐️⭐️⭐️.
+I got a contact from Packtpub about this book. The deal was to receive the book for free in exchange for an honest review. Here I am, just finished the book and will write about it.
+The book is quite good, there&rsquo;s a lot of good information there, and I would totally recommend to someone investing in Ruby." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://pothix.com/polishedruby/" /><meta property="og:image" content="https://pothix.com/images/logo.svg"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-08-17T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-08-17T00:00:00+00:00" /><meta property="og:site_name" content="PotHix" />
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2021-08-17 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body>
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <svg width="138.86" height="43.632" version="1.1" viewBox="0 0 138.86 43.632" xmlns="http://www.w3.org/2000/svg"><g transform="matrix(1.0331 0 0 1.0507 -1.1993 -1.3156)"><g transform="translate(2.7374 -1.9692)" fill="#a9a9b3" stroke-width="1px"><g aria-label="PotHix"><path d="m58.883 12.784q0 1.6248-1.0876 2.8198-0.98022 1.0742-2.6184 1.6113-0.73853 0.2417-1.759 0.29541-0.73852 0.05371-1.8933 0.01343-1.5442-0.05371-1.8127-0.05371v5.3174h0.95337q0.75195 0 0.75195 0.57739 0 0.56396-0.75195 0.56396h-3.0347q-0.75195 0-0.75195-0.56396 0-0.57739 0.75195-0.57739h0.95337v-13.455h-0.95337q-0.75195 0-0.75195-0.57739 0-0.56396 0.75195-0.56396l5.9888 0.013428q2.0947 0 3.6255 1.2219 1.6382 1.3025 1.6382 3.3569zm-1.1279 0q0-1.5173-1.2891-2.5244-1.1816-0.92651-2.7393-0.92651h-4.0149v7.0093h3.5986q1.6516 0 2.9675-0.92651 1.4771-1.0474 1.4771-2.6318z"/><path d="m74.258 18.705q0 2.3499-1.665 3.988-1.6516 1.6382-4.0149 1.6382-2.3633 0-4.0283-1.6248-1.665-1.6382-1.665-4.0015 0-2.3633 1.665-4.0015 1.665-1.6382 4.0283-1.6382 2.3633 0 4.0149 1.6382 1.665 1.6382 1.665 4.0015zm-1.0205 0q0-1.9336-1.3696-3.2629-1.3562-1.3428-3.3032-1.3428-1.9336 0-3.3032 1.3428-1.3562 1.3293-1.3562 3.2629 0 1.9202 1.3696 3.2629 1.3696 1.3428 3.2898 1.3428 1.9336 0 3.3032-1.3293 1.3696-1.3428 1.3696-3.2764z"/><path d="m89.995 22.492q0 0.65796-1.7188 1.3293-1.3293 0.52368-2.511 0.52368-1.6785 0-2.8064-0.85938-1.2354-0.93994-1.2354-2.5647l-0.01343-6.1096h-2.7527q-0.75195 0-0.75195-0.57739 0-0.56396 0.75195-0.56396h2.7527l0.01343-4.7266q0-0.75195 0.56396-0.75195 0.57739 0 0.57739 0.75195l-0.01343 4.7266h5.4517q0.75195 0 0.75195 0.57739 0 0.56396-0.75195 0.56396h-5.4517l0.01343 6.1096q0 1.1011 0.88623 1.7322 0.79224 0.56396 1.9336 0.56396 0.49683 0 1.7993-0.34912 0.28198-0.06714 1.1145-0.52368 0.77881-0.41626 0.85938-0.41626 0.53711 0 0.53711 0.56396z"/><path d="m106.22 23.351q0 0.56396-0.75195 0.56396h-3.0347q-0.75196 0-0.75196-0.56396 0-0.57739 0.75196-0.57739h0.93994v-6.4722h-7.4792v6.4722h0.95337q0.75195 0 0.75195 0.57739 0 0.56396-0.75195 0.56396h-3.0347q-0.75195 0-0.75195-0.56396 0-0.57739 0.75195-0.57739h0.95337v-13.455h-0.95337q-0.75195 0-0.75195-0.57739 0-0.56396 0.75195-0.56396h3.0347q0.75195 0 0.75195 0.56396 0 0.57739-0.75195 0.57739h-0.95337v5.8545h7.4792l0.0134-5.8545h-0.95337q-0.75196 0-0.75196-0.57739 0-0.56396 0.75196-0.56396h3.0347q0.75195 0 0.75195 0.56396 0 0.57739-0.75195 0.57739h-0.95334v13.455h0.95337q0.75195 0 0.75195 0.57739z"/><path d="m113.06 10.984h-1.665v-2.9138h1.665zm-1.1279 11.79v-7.9626h-0.95337q-0.75195 0-0.75195-0.57739 0-0.56396 0.75195-0.56396h2.0813v9.104zm2.1082 0q0.75195 0 0.75195 0.57739 0 0.56396-0.75195 0.56396h-3.0347q-0.75195 0-0.75195-0.56396 0-0.57739 0.75195-0.57739z"/><path d="m132.83 23.338q0 0.56396-0.71167 0.56396h-3.5449q-0.71167 0-0.71167-0.56396 0-0.51025 0.68481-0.59082-0.10742 0.01343 1.0071 0.01343l-3.6926-3.3972-3.8269 3.3972q1.1414 0 1.0205-0.01343 0.68481 0.08057 0.68481 0.59082 0 0.56396-0.71167 0.56396h-3.5449q-0.71167 0-0.71167-0.56396 0-0.51025 0.68482-0.59082-0.10743 0.01343 1.0071 0.01343l4.6326-4.1492-4.0552-3.8q-1.1414 0-1.0205 0.01343-0.68481-0.08057-0.68481-0.59082 0-0.56396 0.71167-0.56396h3.5449q0.71167 0 0.71167 0.56396 0 0.51025-0.68482 0.59082 0.12085-0.01343-1.0205-0.01343l3.2629 3.0615 3.1555-3.0615q-1.1548 0-1.0205 0.01343-0.69824-0.08057-0.69824-0.59082 0-0.56396 0.71167-0.56396h3.5449q0.71167 0 0.71167 0.56396 0 0.51025-0.68481 0.59082 0.12085-0.01343-1.0205-0.01343l-3.9343 3.8 4.4983 4.1492q1.1414 0 1.0205-0.01343 0.68482 0.08057 0.68482 0.59082z"/></g><g aria-label=".com"><path d="m49.94 39.107q0 0.17944-0.29907 0.52124-0.29907 0.33325-0.46997 0.33325-0.1709 0-0.47852-0.33325-0.29907-0.3418-0.29907-0.52124t0.29907-0.5127q0.30762-0.3418 0.47852-0.3418 0.1709 0 0.46997 0.3418 0.29907 0.33325 0.29907 0.5127z"/><path d="m60.382 38.543q0 0.33325-0.78613 0.84595-1.2476 0.82031-2.7942 0.82031-1.5637 0-2.572-0.98267-1.0083-0.99121-1.0083-2.5464 0-1.5723 1.0254-2.5977 1.0254-1.0339 2.5977-1.0339 1.4868 0 2.5037 0.88867v-0.28198q0.0085-0.37598 0.31616-0.37598 0.33325 0 0.33325 0.43579v1.4697q0 0.43579-0.33325 0.43579-0.12817 0-0.21362-0.08545l-0.15381-0.50415q-0.12817-0.43579-0.67505-0.8374-0.6665-0.48706-1.8115-0.48706-1.3159 0-2.1277 0.82886-0.81177 0.82031-0.81177 2.1362 0 1.2903 0.82886 2.0935 0.8374 0.80322 2.1277 0.80322 1.6235 0 2.9565-1.1792 0.17944-0.15381 0.28198-0.15381 0.31616 0 0.31616 0.30762z"/><path d="m69.807 36.595q0 1.4954-1.0596 2.5378-1.051 1.0425-2.5549 1.0425t-2.5635-1.0339q-1.0596-1.0425-1.0596-2.5464t1.0596-2.5464q1.0596-1.0425 2.5635-1.0425t2.5549 1.0425q1.0596 1.0425 1.0596 2.5464zm-0.64941 0q0-1.2305-0.87158-2.0764-0.86304-0.85449-2.1021-0.85449-1.2305 0-2.1021 0.85449-0.86304 0.84595-0.86304 2.0764 0 1.2219 0.87158 2.0764t2.0935 0.85449q1.2305 0 2.1021-0.84595 0.87158-0.85449 0.87158-2.085z"/><path d="m85.846 39.551q0 0.35889-0.47852 0.35889h-1.9312q-0.47852 0-0.47852-0.35889 0-0.36743 0.47852-0.36743h0.60669l-0.0085-3.512q0-0.8374-0.61523-1.3416-0.57251-0.46997-1.427-0.46997-1.3586 0-2.572 1.3416 0.03418 0.1709 0.03418 0.35034l0.0085 3.6316h0.60669q0.47852 0 0.47852 0.36743 0 0.35889-0.47852 0.35889h-1.9312q-0.47852 0-0.47852-0.35889 0-0.36743 0.47852-0.36743h0.60669l-0.0085-3.512q0-0.8374-0.61523-1.3416-0.57251-0.46997-1.427-0.46997-0.92285 0-1.4868 0.48706-0.06836 0.05982-1.0596 1.2219l0.0085 3.6145h0.60669q0.47852 0 0.47852 0.36743 0 0.35889-0.47852 0.35889h-1.9312q-0.47852 0-0.47852-0.35889 0-0.36743 0.47852-0.36743h0.60669l-0.0085-5.0671h-0.60669q-0.47852 0-0.47852-0.36743 0-0.35889 0.47852-0.35889h1.3245v1.0852q0.80322-0.81177 1.1023-0.99976 0.55542-0.3418 1.4526-0.3418 1.6577 0 2.4353 1.3074 1.3074-1.3074 2.8625-1.3074 1.0938 0 1.897 0.64942 0.85449 0.69214 0.85449 1.7688l0.0085 3.6316h0.60669q0.47852 0 0.47852 0.36743z"/></g></g><g transform="matrix(1.0001 0 0 .99259 -.0018886 .011012)"><rect x="1.6355" y="1.7232" width="41.348" height="40.89" ry="4.581" fill="#f0f0f0" stroke="#000" stroke-width=".94573"/><g transform="matrix(.95946 0 0 .95946 2.4904 1.3238)" stroke-width=".20845"><g><path d="m26.295 30.993 7.6921 2.3324c2.4342 1.0924 3.3033 3.6261 3.577 7.6334l-35.504 0.03559c-0.19225-4.3957 1.728-5.6598 5.8769-7.7299l9.0902-2.3677c4.2589 2.5852 8.2037 2.3548 9.2675 0.09612z" fill-rule="evenodd" stroke="#000" stroke-width=".20845"/><path d="m32.868 7.5736c-0.07019 8.2938 0.40742 19.541-9.0073 22.424-1.0393 0.39006-1.9192 0.29027-2.9533 0.02683-2.4391-0.78029-4.619-3.1983-5.4306-4.5521-0.96505-1.5202-1.8243-3.7205-2.3227-6.9386-3.8721-14.124 0.88302-16.842 12.422-15.822 2.3455 0.20723 6.4114 1.2194 7.2919 4.8625z" fill="#fff" fill-rule="evenodd" stroke="#000" stroke-width=".20845"/><path d="m12.144 14.551c0.58504 6.6096 1.2093 7.727 1.6793 10.268 0.74686 1.9647 0.48115 6.3751 2.4876 8.7026 0.78686 0.86117 1.6664 1.6186 3.4788 2.2233 1.6582 0.6851 3.8692 0.44201 5.5274 0.40304 1.6382-0.23032 2.393-0.58985 3.0647-1.2404 0.94154-1.009 1.2993-4.6255 1.6796-5.7209l1.2069-4.9583c0.39315-1.3794 0.30805-2.1149 1.1885-5.1615 0.12886-0.86246 0.26863-2.224 0.27612-3.4684-0.04528 0.20906-0.18572 0.02753-0.21555 0.22899-0.16959 1.1452-0.1775 2.7518-0.72917 4.5019l-0.65244 1.8239-0.8503 2.3167c-0.12336 0.35652-0.22038 0.90741-2.6569 3.3728-0.50255 0.36537-0.47406 0.6125-1.819 0.71102-0.76128-0.32075-0.84092-0.73185-1.0287-1.2581-0.32496-0.55745-0.30314-1.2968-0.14105-2.5737l-0.6788-0.10512-0.50963 2.199-0.38248 0.58397c-0.63813 0.736-2.7959 1.4319-4.2175 0.81859-0.75694-0.3383-1.7716-1.4433-2.4004-2.337l-1.4037-2.1905-0.96718-2.0535c-0.99369-2.176-1.1995-4.3278-1.4183-6.2525z" fill="#646464"/><path d="m32.868 7.5736c-3.2097-0.59694-6.5228 1.1093-8.6455 0.35723-12.539-4.4422-10.766 4.5682-11.068 10.603-3.8721-14.124 0.88302-16.842 12.422-15.822 2.2397 0.19788 5.9615 1.152 7.1421 4.3887 0.05574 0.15281 0.31592 0.50474 0.1498 0.47384z" fill="#606060" fill-rule="evenodd" opacity=".393"/></g><g><path d="m25.456 15.14c0.10246 0.37963 1.9631 4.1443 1.416 4.2469l-1.6342 0.46874" fill="none" stroke="#000" stroke-width=".20845"/><path d="m27.125 24.17-5.4637-0.97168" fill="#fff" fill-rule="evenodd" stroke="#666" stroke-width=".20845"/><g transform="matrix(.34733 0 0 .34733 -39.86 -26.913)" fill="#fff" stroke="#000"><path d="m183.37 111.03c6.8447 0.52296 7.141 0.20117 7.141 0.20117z" fill-rule="evenodd" stroke-width=".60016"/><rect transform="matrix(.9996 .028143 -.032768 .99946 0 0)" x="165.93" y="99.888" width="22.255" height="12.353" ry="1.2394" fill-opacity=".98429" stroke-width=".60016"/><rect transform="matrix(.99963 .027355 -.033164 .99945 0 0)" x="193.82" y="100.61" width="19.66" height="11.764" ry="1.1803" fill-opacity=".98429" stroke-width=".60016"/></g></g><g transform="matrix(1.0088 2.8858e-5 -2.9349e-5 .99194 -1.7612 -.17309)" fill="#666" fill-rule="evenodd" stroke="#4d4d4d" stroke-width="1.5685"><g transform="rotate(-9.3233 23.742 22.042)"><g transform="matrix(-.058947 -.10238 .13925 -.033974 25.615 88.051)"><path d="m550.79 243.74c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/><path d="m555.08 240.96c0 1.617 2.0203 2.5254 3.0305 3.7881"/><path d="m557.35 238.43c0 0.81665 3.4388 3.1084 4.7982 3.7881"/><path d="m559.88 235.65c0 0.9598 1.8436 0.90931 2.2728 1.7678 0.16836 0.33672 0.33672 0.67344 0.50507 1.0102 0.61856 1.2371-0.7658 1.5152 1.2627 1.5152"/><path d="m562.4 232.62c0.46775 0.9355 3.0842 2.1277 3.7881 3.5355"/><path d="m565.69 230.6c0.66658 1.3332 4.6252 3.6751 6.8185 4.0406"/><path d="m566.95 226.82c0.34398 0.68796 3.3523 2.9215 5.8084 3.5355 2.1828 0.5457 0.85988-0.17197 1.2627-0.25253"/><path d="m569.47 224.04c1.7209 0.43022 2.5254 2.8401 2.5254 4.7982v0.50508"/><path d="m572.5 221.76c0 1.7797 7.213 3.9498 7.5762 4.0406"/><path d="m572.5 217.98c0 2.1045 4.1786 0.82662 6.0609 1.7678 0.69416 0.34708 1.5118 0.35287 2.2728 0.50508"/></g><g transform="matrix(-.058947 -.10238 .13925 -.033974 28.294 88.872)"><path d="m550.79 243.74c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/><path d="m555.08 240.96c0 1.617 2.0203 2.5254 3.0305 3.7881"/><path d="m557.35 238.43c0 0.81665 3.4388 3.1084 4.7982 3.7881"/><path d="m559.88 235.65c0 0.9598 1.8436 0.90931 2.2728 1.7678 0.16836 0.33672 0.33672 0.67344 0.50507 1.0102 0.61856 1.2371-0.7658 1.5152 1.2627 1.5152"/><path d="m562.4 232.62c0.46775 0.9355 3.0842 2.1277 3.7881 3.5355"/><path d="m565.69 230.6c0.66658 1.3332 4.6252 3.6751 6.8185 4.0406"/><path d="m566.95 226.82c0.34398 0.68796 3.3523 2.9215 5.8084 3.5355 2.1828 0.5457 0.85988-0.17197 1.2627-0.25253"/><path d="m569.47 224.04c1.7209 0.43022 2.5254 2.8401 2.5254 4.7982v0.50508"/><path d="m572.5 221.76c0 1.7797 7.213 3.9498 7.5762 4.0406"/><path d="m572.5 217.98c0 2.1045 4.1786 0.82662 6.0609 1.7678 0.69416 0.34708 1.5118 0.35287 2.2728 0.50508"/></g></g><g transform="rotate(-9.3233 26.167 20.696)"><g transform="matrix(-.058947 -.10238 .13925 -.033974 25.615 88.051)"><path d="m550.79 243.74c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/><path d="m555.08 240.96c0 1.617 2.0203 2.5254 3.0305 3.7881"/><path d="m557.35 238.43c0 0.81665 3.4388 3.1084 4.7982 3.7881"/><path d="m559.88 235.65c0 0.9598 1.8436 0.90931 2.2728 1.7678 0.16836 0.33672 0.33672 0.67344 0.50507 1.0102 0.61856 1.2371-0.7658 1.5152 1.2627 1.5152"/><path d="m562.4 232.62c0.46775 0.9355 3.0842 2.1277 3.7881 3.5355"/><path d="m565.69 230.6c0.66658 1.3332 4.6252 3.6751 6.8185 4.0406"/><path d="m566.95 226.82c0.34398 0.68796 3.3523 2.9215 5.8084 3.5355 2.1828 0.5457 0.85988-0.17197 1.2627-0.25253"/><path d="m569.47 224.04c1.7209 0.43022 2.5254 2.8401 2.5254 4.7982v0.50508"/><path d="m572.5 221.76c0 1.7797 7.213 3.9498 7.5762 4.0406"/><path d="m572.5 217.98c0 2.1045 4.1786 0.82662 6.0609 1.7678 0.69416 0.34708 1.5118 0.35287 2.2728 0.50508"/></g><g transform="matrix(-.058947 -.10238 .13925 -.033974 28.294 88.872)"><path d="m550.79 243.74c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/><path d="m555.08 240.96c0 1.617 2.0203 2.5254 3.0305 3.7881"/><path d="m557.35 238.43c0 0.81665 3.4388 3.1084 4.7982 3.7881"/><path d="m559.88 235.65c0 0.9598 1.8436 0.90931 2.2728 1.7678 0.16836 0.33672 0.33672 0.67344 0.50507 1.0102 0.61856 1.2371-0.7658 1.5152 1.2627 1.5152"/><path d="m562.4 232.62c0.46775 0.9355 3.0842 2.1277 3.7881 3.5355"/><path d="m565.69 230.6c0.66658 1.3332 4.6252 3.6751 6.8185 4.0406"/><path d="m566.95 226.82c0.34398 0.68796 3.3523 2.9215 5.8084 3.5355 2.1828 0.5457 0.85988-0.17197 1.2627-0.25253"/><path d="m569.47 224.04c1.7209 0.43022 2.5254 2.8401 2.5254 4.7982v0.50508"/><path d="m572.5 221.76c0 1.7797 7.213 3.9498 7.5762 4.0406"/><path d="m572.5 217.98c0 2.1045 4.1786 0.82662 6.0609 1.7678 0.69416 0.34708 1.5118 0.35287 2.2728 0.50508"/><path d="m547.72 240.68c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/><path d="m544.28 240.83c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/><path d="m549.89 240.01c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/><path d="m584.24 200.36c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/><path d="m588.67 202.32c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/><path d="m589.01 199.72c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/><path d="m584.21 195.67c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/><path d="m579.44 196.32c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/><path d="m579.6 194.09c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/></g></g></g></g></g></g></svg>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://pothix.com/about">About</a></li><li><a href="https://pothix.com/book">Book</a></li><li><a href="https://pothix.com/code">Code</a></li><li><a href="https://pothix.com/now">Now</a></li><li><a href="https://pothix.com/tags">Tags</a></li><li><a href="https://pothix.com/talks">Talks</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+  <main class="post">
+
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        24 minutes reading
+
+        |
+
+        
+            
+                Também disponível em
+                <a href="https://translate.google.com/translate?sl=en&amp;tl=pt&amp;u=https%3a%2f%2fpothix.com%2fpolishedruby%2f" target="_blank" rel="nofollow noopener noreferrer">🇧🇷</a>
+            
+        
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="https://pothix.com/polishedruby/">Review of Polished Ruby Programming</a>
+      </h1>
+
+      
+
+      <div class="post-content">
+        <p>Book: <a href="https://www.goodreads.com/review/show/4062011051">Polished Ruby Programming: Build better software with more intuitive, maintainable, scalable, and high-performance Ruby code</a> by Jeremy Evans. Rating: ⭐️⭐️⭐️⭐️.</p>
+<p>I got a contact from Packtpub about this book. The deal was to receive the book
+for free in exchange for an honest review. Here I am, just finished the book
+and will write about it.</p>
+<p>The book is quite good, there&rsquo;s a lot of good information there, and I would
+totally recommend to someone investing in Ruby.</p>
+<p>The author did some great contributions to the Ruby community (Ruby Committer,
+Lead developer of Sequel, Roda, and Rodauth. OpenBSD ruby ports maintainer.),
+is doing software and community work for many years now (I can quickly check
+his open source work since 2008), and has some strong opinions about famous
+Ruby libraries.</p>
+<p>For most of the book, I was totally into the narrative and how the author was
+organizing information. When things started to go more into the web, I started
+to feel something different. It felt like the author was selling one library or
+the other, because they were <em>much better</em> than others. Turns out, it&rsquo;s the
+libraries he created himself 🙄. After that, I had the same feeling, until I
+finished the book.</p>
+<p>The book still deserves a 4 star review. The content until the web part is
+indeed great. Jeremy was able to write down some interesting pieces of advice
+on how to use Ruby in some particular scenarios where performance is needed. I
+especially liked the chapter 6, about code formatting. The final part of the
+book is also OK, but you have to read it with a grain of salt as it feels like
+a mother talking about how pretty is her son/daughter. 😅</p>
+<p><strong>Here are my raw notes (and comments) about the book:</strong></p>
+<ul>
+<li>Chapter 1: Getting the Most out of Core Classes
+<ul>
+<li>
+<blockquote>
+<p>Ruby&rsquo;s core classes also use nil as a signal that a method that modifies the receiver did not make a modification:</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>When you want to cache an expression that may return nil or false as a valid value, you need to use a different implementation approach.</p>
+</blockquote>
+<ul>
+<li>💭 — Context : memoization</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>One advantage of using true, false, and nil compared to most other objects in Ruby is that they are three of the immediate object types. Immediate objects in Ruby are objects that do not require memory allocation to create and memory indirection to access, and as such they are generally faster than non-immediate objects.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Any time you are considering using division in your code and both arguments could be integers, be aware of this issue and consider whether you would like to use integer division. If not, you should convert the numerator or denominator to a different numeric type</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>do not avoid the use of rationals on a performance basis unless you have profiled them and determined they are a bottleneck</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Ruby is focused on programmer happiness and productivity, so it will often automatically convert a string to a symbol if it needs a symbol, or a symbol to a string if it needs a string.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>While it looks like symbols and strings are as interchangeable as the method argument to send, this is only because Ruby tries to be friendly to the programmer and accept either.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Module# define_method, Kernel# instance_variable_get, and Module# const_get. The general principle when using these methods in Ruby code is always to pass symbols to them, since it results in better performance.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>if you need to accept a configuration value that can only be one of three options, it&rsquo;s probably best to use a symbol:</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p><code>Array#&amp;</code> uses a linear search of the array, so this approach is very slow for a large number of artists.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Set is actually implemented using a hash internally,</p>
+</blockquote>
+<ul>
+<li>💭 — That&rsquo;s Interesting</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>you should only use a set for code that isn&rsquo;t performance-sensitive and you would like to use a nicer API. For any performance-sensitive code, you should prefer using a hash directly.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>a Struct class is a little lighter on memory than a regular class, but has slower accessor methods.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>freezing the receiver in initialize is the best approach.</p>
+</blockquote>
+<ul>
+<li>💭 — To get an immutable struct</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Chapter 2: Designing Useful Custom Classes
+<ul>
+<li>
+<blockquote>
+<p>As a general principle, you should delay increasing complexity in your class designs until you actually need the complexity.</p>
+</blockquote>
+<ul>
+<li>💭 — YES !</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>While the Liskov substitution principle is useful to follow in general, you should not be dogmatic about applying it. In a strict sense, all subtypes that have different behavior than their supertypes or produce different results could be said to violate Liskov substitutability,</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Ruby, in general, respects that the programmer will know to do the right thing.</p>
+</blockquote>
+<ul>
+<li>💭 — It&rsquo;s Both a blessing and a curse</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>There is one method in Ruby that will almost always break Liskov substitutability, and that you should generally avoid, and that is instance_of?.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>These approaches should almost always use kind_of? instead,</p>
+</blockquote>
+<ul>
+<li>💭 — Instead Of instance of</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>The problem with this approach is that it prevents you from using multithreaded tests to speed up your testing.</p>
+</blockquote>
+<ul>
+<li>💭 — Overwriting Date.today</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>Unless your code has already been tightly optimized, there are probably better ways to optimize your application than attempting to use a custom data structure instead of a Ruby array or hash.</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>Chapter 3: Proper Variable Usage
+<ul>
+<li>
+<blockquote>
+<p>if you are writing a general-purpose library, you should not modify core classes unless that is the purpose of the library.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>array_class = Array</p>
+</blockquote>
+<ul>
+<li>💭 — Performance Sensitive</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>the length of the variable name should be roughly proportional to the inverse of the size of the scope of the variable,</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>You could also use a numbered parameter in this case: <code>@albums.each do puts _1. name end</code></p>
+</blockquote>
+<ul>
+<li>💭 — That&rsquo;s new to me</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>Note that it is possible to be more explicit and use instance_variable_defined?(:@ total_tax) instead of defined?(@ total_tax), but it is recommended that you use defined? because Ruby is better able to optimize it. This is because defined? is a keyword and instance_variable_defined? is a regular method, and the Ruby virtual machine optimizes the defined? keyword into a direct instance variable check.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>The scope of instance variables is always the same as the implicit receiver of methods, self.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>accessing local variables is faster than accessing instance variables.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Ruby&rsquo;s constant lookup algorithm: Look in the current namespace (W in the previous example). Look in the lexical namespaces containing the current namespace (X, Y, and Z in the previous example). Look in the ancestors of the current namespace, in order (U in the previous example). Do not look in ancestors of the lexical namespaces containing the current namespace.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>You can make constants not externally accessible using private_constant:</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Class variable semantics are bad enough that the Ruby core team now recommends against their use, and no longer considers it worth it to even fix bugs in how class variables are handled.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Using a mutable constant to work around constant reassignment warnings is definitely a hack and not an implementation recommendation. It&rsquo;s a bad idea to use this approach, for the same reason it is bad to rely on globally mutable data structures in general.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>The main issues with using global variables in Ruby are the same as using global variables in any programming language, in that it encourages poor coding style and hard-to-follow code.</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>Chapter 4: Methods and Their Arguments
+<ul>
+<li>
+<blockquote>
+<p>When using the frozen-string-literal magic comment to make all the strings in a file frozen, even dup, a three-letter method name, was considered too long, so they added the +@ unary operator on strings (+@ doesn&rsquo;t duplicate the string if it isn&rsquo;t frozen, but it is almost always used on frozen strings).</p>
+</blockquote>
+<ul>
+<li>💭 — How Is that a good name!?</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>For methods that should only be called once during application initialization for configuring applications, it&rsquo;s a good idea to give them very descriptive names.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>If you are considering writing a method with many required arguments, strongly consider the argument ordering issues involved before doing so.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>If you want to avoid array allocation in all cases, you can use a frozen constant, as follows: EMPTY_ARRAY = []. freeze def a( bar = EMPTY_ARRAY) end</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>You can mimic this API in Ruby by using a rest argument for additional sources and a post argument for the destination: <code>def mv( source, *sources, dir)</code></p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>OPTIONS = {}. freeze def foo( options = OPTIONS) end With this approach, calling the method without options never allocates a hash.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>in Ruby 3, calling a method with a # keyword splat does not allocate a hash</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>it is best to use keyword arguments instead of an optional positional hash argument.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>If you are maintaining Ruby code that uses positional arguments with default hash values as a replacement for keyword arguments, you should consider whether you want to convert them into keyword arguments.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>it is never safe to modify the arity of what you are yielding to a block if users can pass a lambda proc as the block argument.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>any time you break backward compatibility in a library, even in a major version, you should have a good reason to. Even if their code breaks, the users of a library tend to feel less betrayed and annoyed when they can see that such a breakage was necessary for greater progress.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>What about the visibility of constants? In general, it&rsquo;s best to use private_constant for any constant you do not want to expose to users. Only leave a constant public if there is a good reason for it to be public.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Once a constant is public, it&rsquo;s part of your library&rsquo;s interface, and you should treat changes that are made to the constant similar to changes that are made to any public method, so do your best to keep backward compatibility for it.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>If you have a lot of methods and constants that are currently public and should be made private, it is a little tedious to do all this method_missing and const_missing overriding. In that case, you can use the deprecate_public gem to handle all the hard work for you:</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Delegating all arguments to another method is such a common pattern in Ruby that they added a shortcut for it in Ruby 2.7 by using &hellip;:</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>Chapter 5: Handling Errors
+<ul>
+<li>
+<blockquote>
+<p>Both Python and Ruby support similar behavior for retrieving data from hashes, but Ruby, in this case, is permissive, while Python, in this case, is strict.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Ruby&rsquo;s permissiveness in either area can be considered a bug or a feature, depending on your point of view. Most programmers who prefer to use Ruby probably consider it a feature, since otherwise, they would probably prefer to use another language.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>This is the principle of misuse resistance. A method that does not raise an exception for errors is easier to misuse than a method that raises an exception for errors.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>code uses exceptions for flow control, which is, in general, a bad approach.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>One consideration when using exceptions is that they get slower in proportion to the size of the call stack. If you have a call stack with 100 frames, which is quite common in Ruby web applications, raising an exception is much slower than if you only have a call stack with 10 frames.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>You can include a third argument to raise, which is the array to use for the backtrace. If you want to make the exception handling as fast as possible, you can use an empty array: raise ArgumentError, &ldquo;message&rdquo;, []</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>raise ArgumentError, &ldquo;message&rdquo;, EMPTY_ARRAY</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Because the exception being raised has no backtrace, it is much more difficult to debug if you run into problems.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>if you have a module named LibraryModule and want to add support for backtraceless exceptions, you could add a skip_exception_backtraces accessor, as shown in this example: exception = ArgumentError.new(&quot; message&quot;) if LibraryModule.skip_exception_backtraces exception.set_backtrace( EMPTY_ARRAY) end</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>the retry keyword is only valid inside rescue clauses, it is not valid in the begin clause. That&rsquo;s a bummer.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>The redo keyword is one of the least used keywords in Ruby. If you haven&rsquo;t used it before, it is similar to the next keyword, but instead of going to the next block iteration, it restarts the current block iteration.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>In general, procs and lambdas (Proc instances) are among the more expensive object instances to create, at least compared to other core classes.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>The following code is a modified implementation of a classic exponential backoff algorithm: <code>sleep( 3 * (0.5 + rand/ 2) * 1.5**( retries-1))</code></p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>It&rsquo;s important that <code>Foo:: Error</code> is a subclass of StandardError and not of Exception. You should only subclass Exception in very rare cases because subclasses of Exception are not caught by rescue clauses without arguments.</p>
+</blockquote>
+</li>
+<li>In general, idiomatic Ruby code avoids defensive programming based on types, because in Ruby, what matters is what methods the object responds to and the objects returned by those methods.</li>
+</ul>
+</li>
+<li>Chapter 6: Formatting Code for Easy Reading
+<ul>
+<li>
+<blockquote>
+<p>it is often a good idea to enforce syntactic consistency. Enforcing syntactic consistency can increase the performance of philosophers. The poets may find such code boring and not as fun to work on, and it is likely that enforcing syntactic consistency will affect their enjoyment of working on the code, but it is unlikely that enforcing syntactic consistency will harm their productivity, as they are, in general, able to read and write a wide variety of styles.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>What is important is to know where in general, on the poet-philosopher spectrum, the programming team maintaining the code lies, so you can choose whether or not to enforce syntactic consistency in the library.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>RuboCop has a solution for this, which is the configuration parameter, AllCops:DisabledByDefault. Using this configuration parameter, you can only enable the syntax checks that you believe will be helpful for your library.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>The argument against arbitrary limits is simple: if there was a better approach that was within the limit, it would have already been used. The argument for arbitrary limits is also simple: the programmer is too stupid, ignorant, or inexperienced to know what the best approach is, and an arbitrary limit can reduce the possible damage, by forcing the programmer to restructure their code. A simple counterargument to that is if the programmer is too stupid, ignorant, or inexperienced to do things correctly within the limit, why do we trust them to split the code intelligently into smaller parts to get around the limit?</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>In short, don&rsquo;t assume that RuboCop knows better than you do and keep the default arbitrary limits. Use your judgment on what API makes sense for your library.</p>
+</blockquote>
+<ul>
+<li>💭 — OMG. This whole chapter is ✨</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Chapter 8: Designing for Extensibility
+<ul>
+<li>
+<blockquote>
+<p>A library based on a plugin system, even if the library itself is quite large, will generally have a small enough core that a new user can read through the core of the library within a few hours and have a good idea about how it works.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>libraries designed around plugin systems tend to be significantly faster. The startup time for libraries that only load the core of the library by default is often significantly faster than startup times for monolithic libraries.</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>Chapter 9: Metaprogramming and When to Use It
+<ul>
+<li>
+<blockquote>
+<p>The main difference between programming and metaprogramming in Ruby is conceptual.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>It would definitely suck to have to define accessor methods this verbosely. It&rsquo;s hard to believe, but there are programming languages where you still have to do that, even some that were originally released after Ruby.</p>
+</blockquote>
+<ul>
+<li>💭 — Haha</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>If this is the only place you are using methods like this in your library or application, it&rsquo;s best to metaprogram directly in the class to avoid unnecessary indirection and keep the definitions local to the class</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>singleton_class.extend HashAccessor</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>extend is shorthand for singleton_class.include,</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Ruby will support as many levels of singleton classes as you need for your metaprogramming.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>let&rsquo;s say you are working on a module named Rusty, for writing rusty code. Rusty code strives to be one-third more efficient than Ruby code by defining methods using only two characters, fn, instead of the normal three you need in Ruby (def).</p>
+</blockquote>
+<ul>
+<li>💭 — I got that reference 🦀</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>if you are doing metaprogramming in Ruby, the block-based approach is the approach you want to reach for first. However, there is another approach, a dangerous approach, called the eval-based approach. With the eval-based approach, instead of metaprogramming with Ruby objects, you metaprogram by building a string of Ruby code.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>In addition to much clunkier code, the eval-based approach is far less safe. Because eval evaluates arbitrary Ruby code, it can do things such as delete every file you have access to.</p>
+</blockquote>
+<ul>
+<li>💭 — It make me remember of a <code>eval(params)</code> I once saw</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>if you absolutely must have the fastest possible performance and need to deal with untrusted data, you can use a whitelisting approach.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p><code>Baz.class_eval &quot;def #{ name}; :foo end&quot; That's because the value of the name variable could be &quot;x; end; File.delete(__FILE__); def y; </code>&quot;, as some users might just think it is funny to delete the file running the code.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>However, another approach is to create a subclass of BasicObject and override method_missing in it, then instance_exec the block in the context of an instance of that BasicObject subclass. This is shown in the following code block: <code>def words(&amp; block) array = [] Class.new( BasicObject) do define_method(: method_missing) do | meth, *| array &lt; &lt; meth end end.new.instance_exec(&amp; block) array.reverse end</code></p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Defining actual methods is much better for performance. In addition, with actual methods, calling Struct50. instance_methods returns all of the methods, which is much better when you need to figure out which methods instances of the class respond to.</p>
+</blockquote>
+<ul>
+<li>Dont use method missing unless it&rsquo;s really needed</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>While it&rsquo;s almost always better to use define_method over method_missing when you know the valid methods upfront, there is a case where you still want to use method_missing. That is when you have a very large number of valid methods, say over 1,000. The reason to prefer method_missing, in that case, is that each method defined with define_method has a cost in terms of memory used, with a related performance cost for the garbage collector. With method_missing, there are no separate methods, so there is no memory or garbage collector cost.</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>Chapter 10: Designing Useful Domain-Specific Languages
+<ul>
+<li>
+<blockquote>
+<p>In this section, you learned about DSLs for configuring a library, using a real-world example from RSpec.</p>
+</blockquote>
+<ul>
+<li>Great examples and explanation</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>After programmer friendliness, probably the main reason you see so many DSLs in Ruby is the simplicity of implementation.</p>
+</blockquote>
+<ul>
+<li>💭 — Which is good but also bad IMO</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>The best cases for DSL use in Ruby are where using the DSL makes the library easier to maintain and makes it simpler for a user to use the library.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>implementing a DSL just to reduce code verbosity is often a bad idea. Try hard to think of alternative approaches to using a DSL if you are using it just to reduce code verbosity.</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>Chapter 11: Testing to Ensure Your Code Works
+<ul>
+<li>
+<blockquote>
+<p>Testing is more critical in Ruby than in most other programming environments, partly because of the power and flexibility Ruby offers, and also because of Ruby&rsquo;s dynamic typing.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Ruby programs are also generally not compiled until you try to run them, so even simple syntax errors will not be caught unless you try to load the related code. Combined, these two qualities make testing in Ruby more critical than in many other programming languages.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Ruby does ship with the ability to just compile programs and not actually run them, it&rsquo;s just not commonly used. This feature is very useful with large libraries if you just want to check that there are no syntax errors in any of the source files. You can access this feature using the -c command-line option, such as ruby -c file_name.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Scanning all files with ruby -wc is a great idea, but it only does some fairly basic checks on the file.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>either because they are too difficult or the tests or specifications have bugs and it is actually impossible to have correct answers returned due to missing input.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>The main issue with TAD is you can end up implementing a feature that works, but the interface to use it is hard to use or testing it is difficult. If you use a TAD approach, you need to realize this while you are writing the feature, and constantly remind yourself to think of how the user will use the feature, make sure to keep that usage as simple as you can and avoid unnecessary complexity.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>TAD approach focused on implementing a design, and not simply on passing a test. Just as you need to focus on the user experience and not just use the easiest implementation approach with TAD, you need to focus on the user experience and not just use the easiest testing approach with TDD.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>If non-programmers will not be assisting the programming team by writing specifications, BDD generally ends up being mostly wasted effort.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>tests are designed to help avoid and debug problems in library code. The more abstractions you use in your test code, the more likely you are to be debugging your test code instead of your library code.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Once you reach a certain level of test abstraction, a failing test gives you no confidence about whether the bug is in the library or the tests themselves, and that is a bad situation to be in.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>avoid abstracting the parts of the specs that are performing the actual testing, as opposed to setting up for the actual testing.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Slow and reliable tests are in general much better than fast tests that break without reason (false positives) and don&rsquo;t catch actual breakage (false negatives).</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Realizing that 100% coverage means nothing</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>This brings us to the critical concept in regards to code coverage, which is that 100% coverage means nothing. The corollary to this concept is even more important, and that is that less than 100% coverage means something. Having 100% code coverage does not tell you anything, but having less than 100% code coverage tells you something. At the very least, having less than 100% code coverage means that there are certain parts of your code that you are not testing at all.</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>Chapter 12: Handling Change
+<ul>
+<li>
+<blockquote>
+<p>Removing features sounds like a bad thing for most new programmers, but it is probably one of the happiest moments for experienced programmers.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Things become more complicated if you still need to call the method internally until it is removed. In this case, it&rsquo;s best to have an internal private alias to the method that doesn&rsquo;t raise a warning, and change all internal callers to use it:</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>If the feature being removed is a constant and not a method, you can use deprecate_constant:</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>in Ruby 3, deprecation warnings are not shown by default, even when we have $ VERBOSE = true. You need to use the -w flag when starting Ruby,</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>Chapter 13: Using Common Design Patterns
+<ul>
+<li>
+<blockquote>
+<p>While design patterns are not as necessary in Ruby as they are in less powerful languages, they are still a useful tool to have in your toolbox.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>The null object pattern should only be used if you can always or almost always treat the null object as a real object.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>In general, it is best to avoid the null object pattern in performance-sensitive code, even if it would otherwise be a good fit.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>With the adapter pattern, you write an adapter with the interface you want to use that wraps the objects that use a different interface.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>The strategy pattern is almost the same as the adapter pattern, except that you don&rsquo;t wrap another object. Instead, you provide different implementations, or strategies, for performing the same operation.</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>Chapter 14: Optimizing Your Library
+<ul>
+<li>
+<blockquote>
+<p>no language that is as dynamic, easy to use, and programmer-friendly as Ruby is as fast as Ruby.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>If you are using Ruby, it is likely in an environment where the flexibility and ease of use of Ruby outweigh the potential performance issues.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>There are a couple of good options for profiling libraries in Ruby, ruby-prof and stackprof. There are other profilers for Ruby, such as rack-mini-profiler and rbspy, but they mostly focus on profiling production applications and not libraries,</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>No code is faster than no code.</p>
+</blockquote>
+<ul>
+<li>💭 — ???. This sentence was quite confusing to me.</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>With the important realization that the methods are idempotent, you could reoptimize the approach where you were optimizing for performance by caching results:</p>
+</blockquote>
+<ul>
+<li>That&rsquo;s one of the arguments that make funcional Programming faster</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>The most important aspect of a benchmark is how well the benchmark reflects how the library is actually used. When possible, try to create benchmarks that are actual production use cases or similar to production use cases.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>If you find any code that can be moved from the initialize method to a separate method, moving the code to the separate method will improve performance in most cases.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>the [] method is better optimized internally by Ruby&rsquo;s virtual machine, for array and hash.</p>
+</blockquote>
+<ul>
+<li>💭 — ore than .first and .last, but that&rsquo;s a micro optimization</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>If you are going to use these types of micro-optimizations, recheck that they are still faster with each new Ruby release.</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>Chapter 15: The Database Is Key
+<ul>
+<li>
+<blockquote>
+<p>The database is where all of an application&rsquo;s data is stored, and in most cases, an application&rsquo;s data is more important than the application itself.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>An application written in Ruby using intelligent database design and indexing will often outperform an application written in C with less intelligent database design and improper indexing.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>If you value your data at all and your database has any structure at all, a schemaless document database is usually a poor choice that you will end up regretting later when you discover anomalies in your data, far too late to fix them. Most key-value databases are too limited for the use of structured data unless they are treated as document databases, in which case they have the same issues as document databases. Unless you have studied and have had experience with graph databases and are sure they are the best database type for your application, they probably aren&rsquo;t. Similarly, unless you have very specialized needs, a specialized database such as a time series database is probably the wrong choice for your application.</p>
+</blockquote>
+<ul>
+<li>💭 — That&rsquo;s a great definition of how to choose a database</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>PostgreSQL is the most robust open source database and has greater support for advanced data types and indexes. It is possible to be successful with MySQL, but you need to be careful to configure MySQL in a way that will not result in silent data loss.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>If you must use SQLite, make sure to use CHECK constraints as much as possible to actually enforce database types.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Denormalizing your database should only be done as a form of performance optimization.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>When profiling and benchmarking, try to use a copy of the production database, because database performance is often dependent on what data is being stored in the database.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Remember that denormalizing is always a tradeoff to get increased performance in particular cases while making other cases more difficult.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Do not blindly add created_at and updated_at columns to every table, only add them to the tables that really need both. By limiting the size of your database tables, you&rsquo;ll make access to those tables faster. Remember that you can always add columns later if you determine you really need the information.</p>
+</blockquote>
+<ul>
+<li>💭 — Not sure if I agree. There were times I missed having a created or updated at and they were not there. Remember you can also always delete data 🤷‍♂️</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>If you are going to be accessing tracks by release date, but then showing them in order by name, you&rsquo;ll want a composite index on the release_date column and the name column in that order, because that will allow the database to avoid a separate sort step when retrieving the data.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>When adding an index on a single column, always consider whether it is a better idea to add a composite index with that column as the first column and an additional column added after. Such composite indexes are in general more flexible and can optimize more types of queries, though they may not optimize a specific query as well.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>You should avoid any feature that does not allow the enforcement of referential integrity, such as polymorphic associations. There are only rare exceptions where referential integrity shouldn&rsquo;t be enforced with foreign keys, such as audit logs stored in the database where you need to allow the deletion of rows but still retain the audit logs.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>If it is possible, it is much faster to write a database function for performing the same operation, and issue a single UPDATE statement to update all rows at once. This is usually at least one order of magnitude faster, and sometimes multiple orders of magnitude faster.</p>
+</blockquote>
+<ul>
+<li>💭 — Yes, but faster is not the only thing to consider whin developing software. Wnat about versioning? Discoverability? Maintenance? Tests? etc.</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>Do the concatenation in the database via a query such as this: # SELECT first_name | | ' ' | | last_name FROM names; The preceding command is going to be significantly faster than a query such as this: # SELECT first_name, last_name FROM names</p>
+</blockquote>
+<ul>
+<li>💭 — Yes, but it always depends on the app. Is the database the bottleneck?</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>if you have a table of employees, and you want to enforce that the username column for the employee is unique, but only for active employees, you cannot just add a unique index on the username column. This is because if a previous employee had that user name 10 years ago, a new employee wouldn&rsquo;t be able to use it. For this case, use a partial unique index, where you enforce uniqueness on username, but only when the active column is true.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>constraints as the primary method of enforcing data consistency, with model validations only being used to provide nicer error messages. The advantage of Sequel&rsquo;s approach is that if you modify the database without going through the model layer, data consistency issues will still be caught by the database.</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>Chapter 17: Robust Web Application Security
+<ul>
+<li>
+<blockquote>
+<p>You should never try to forbid what is known to be bad (the blacklist approach to security). Instead, you should only allow what you know to be good (the whitelist approach).</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+
+      </div>
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+      
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://pothix.com/tags/english/">english</a></span>
+        <span class="tag"><a href="https://pothix.com/tags/books/">books</a></span>
+        <span class="tag"><a href="https://pothix.com/tags/tech/">tech</a></span>
+        
+    </p>
+
+      
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        5067 Words
+      </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        
+          2021-08-16
+        
+
+        
+          
+        
+      </p>
+    </div>
+      <hr />
+      <div class="sharing-buttons">
+        <span style="padding-top:17px">Share:</span> 
+<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fpothix.com%2fpolishedruby%2f" target="_blank" rel="noopener" aria-label="" title="Share on facebook">
+  <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?url=https%3a%2f%2fpothix.com%2fpolishedruby%2f" target="_blank" rel="noopener" aria-label="" title="Share on twitter">
+  <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small">
+      <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Review%20of%20Polished%20Ruby%20Programming&amp;caption=Review%20of%20Polished%20Ruby%20Programming&amp;canonicalUrl=https%3a%2f%2fpothix.com%2fpolishedruby%2f" target="_blank" rel="noopener" aria-label="" title="Share on tumblr">
+  <div class="resp-sharing-button resp-sharing-button--tumblr resp-sharing-button--small">
+    <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.563 24c-5.093 0-7.031-3.756-7.031-6.411V9.747H5.116V6.648c3.63-1.313 4.512-4.596 4.71-6.469C9.84.051 9.941 0 9.999 0h3.517v6.114h4.801v3.633h-4.82v7.47c.016 1.001.375 2.371 2.207 2.371h.09c.631-.02 1.486-.205 1.936-.419l1.156 3.425c-.436.636-2.4 1.374-4.156 1.404h-.178l.011.002z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="mailto:?subject=Review%20of%20Polished%20Ruby%20Programming&amp;body=https%3a%2f%2fpothix.com%2fpolishedruby%2f" target="_self" rel="noopener" aria-label="" title="Share via email">
+  <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://pinterest.com/pin/create/button/?url=https%3a%2f%2fpothix.com%2fpolishedruby%2f&amp;media=https%3a%2f%2fpothix.com%2fpolishedruby%2f;description=Review%20of%20Polished%20Ruby%20Programming" target="_blank" rel="noopener" aria-label="" title="Share on pinterest">
+  <div class="resp-sharing-button resp-sharing-button--pinterest resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fpothix.com%2fpolishedruby%2f&amp;title=Review%20of%20Polished%20Ruby%20Programming&amp;summary=Review%20of%20Polished%20Ruby%20Programming&amp;source=https%3a%2f%2fpothix.com%2fpolishedruby%2f" target="_blank" rel="noopener" aria-label="" title="Share on linkedin">
+  <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=https%3a%2f%2fpothix.com%2fpolishedruby%2f&amp;resubmit=true&amp;title=Review%20of%20Polished%20Ruby%20Programming" target="_blank" rel="noopener" aria-label="" title="Share on reddit">
+  <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.xing.com/app/user?op=share;url=https%3a%2f%2fpothix.com%2fpolishedruby%2f;title=Review%20of%20Polished%20Ruby%20Programming" target="_blank" rel="noopener" aria-label="" title="Share on xing">
+  <div class="resp-sharing-button resp-sharing-button--xing resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M18.188 0c-.517 0-.741.325-.927.66 0 0-7.455 13.224-7.702 13.657.015.024 4.919 9.023 4.919 9.023.17.308.436.66.967.66h3.454c.211 0 .375-.078.463-.22.089-.151.089-.346-.009-.536l-4.879-8.916c-.004-.006-.004-.016 0-.022L22.139.756c.095-.191.097-.387.006-.535C22.056.078 21.894 0 21.686 0h-3.498zM3.648 4.74c-.211 0-.385.074-.473.216-.09.149-.078.339.02.531l2.34 4.05c.004.01.004.016 0 .021L1.86 16.051c-.099.188-.093.381 0 .529.085.142.239.234.45.234h3.461c.518 0 .766-.348.945-.667l3.734-6.609-2.378-4.155c-.172-.315-.434-.659-.962-.659H3.648v.016z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="whatsapp://send?text=Review%20of%20Polished%20Ruby%20Programming%20https%3a%2f%2fpothix.com%2fpolishedruby%2f" target="_blank" rel="noopener" aria-label="" title="Share on whatsapp">
+  <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fpothix.com%2fpolishedruby%2f&amp;t=Review%20of%20Polished%20Ruby%20Programming" target="_blank" rel="noopener" aria-label="" title="Share on hacker news">
+  <div class="resp-sharing-button resp-sharing-button--hackernews resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M0 24V0h24v24H0zM6.951 5.896l4.112 7.708v5.064h1.583v-4.972l4.148-7.799h-1.749l-2.457 4.875c-.372.745-.688 1.434-.688 1.434s-.297-.708-.651-1.434L8.831 5.896h-1.88z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://telegram.me/share/url?text=Review%20of%20Polished%20Ruby%20Programming&amp;url=https%3a%2f%2fpothix.com%2fpolishedruby%2f" target="_blank" rel="noopener" aria-label="" title="Share on telegram">
+  <div class="resp-sharing-button resp-sharing-button--telegram resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+    </div>
+  </div>
+</a>
+
+      </div>
+
+    
+
+
+    
+
+  </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+            
+                <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            
+            <span>
+                <a href="http://feeds.feedburner.com/Pothix" target="_blank" title="RSS"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+                <a href="http://feeds.feedburner.com/EnglishPotHix" target="_blank" title="English RSS"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+                <a href="http://feeds.feedburner.com/PotHixTech" target="_blank" title="Tech RSS"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+                
+            </span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Made with &#10084; by <a href="https://github.com/rhazdon">Djordje Atlialp</a></span>
+            <span>Customized by <a href="https://pothix.com">PotHix</a></span>
+          </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="/bundle.min.51b5afebbc3c0c51dc879e9481d2b001bec57be11d8399b83a1f02c077368a8da6b431c9bef7391c5be35f9451b5a05011dd439b1fdf7aef86579ccb1ace07a0.js" integrity="sha512-UbWv67w8DFHch56UgdKwAb7Fe&#43;Edg5m4Oh8CwHc2io2mtDHJvvc5HFvjX5RRtaBQEd1Dmx/feu&#43;GV5zLGs4HoA=="></script>
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-2852094-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+    </body>
+</html>

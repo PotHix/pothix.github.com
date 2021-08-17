@@ -7,11 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 21 Jul 2021 00:00:00 -0300</lastBuildDate><atom:link href="https://pothix.com/tags/english/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pothix.com/tags/english/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Review of Polished Ruby Programming</title>
+      <link>https://pothix.com/polishedruby/</link>
+      <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/polishedruby/</guid>
+      <description>Book: Polished Ruby Programming: Build better software with more intuitive, maintainable, scalable, and high-performance Ruby code by Jeremy Evans. Rating: ⭐️⭐️⭐️⭐️.
+I got a contact from Packtpub about this book. The deal was to receive the book for free in exchange for an honest review. Here I am, just finished the book and will write about it.
+The book is quite good, there&amp;rsquo;s a lot of good information there, and I would totally recommend to someone investing in Ruby.</description>
+    </item>
+    
     <item>
       <title>A book inside a book</title>
       <link>https://pothix.com/bookinsidebook/</link>
-      <pubDate>Wed, 21 Jul 2021 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/bookinsidebook/</guid>
       <description>This is a post I&amp;rsquo;m postponing since 2016. 😅
@@ -23,7 +34,7 @@ The first step is to glue all pages.</description>
     <item>
       <title>Review of The Little Sisters of Eluria (The Dark Tower, #0.5)</title>
       <link>https://pothix.com/darktower0/</link>
-      <pubDate>Fri, 09 Jul 2021 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/darktower0/</guid>
       <description>Book: The Little Sisters of Eluria (The Dark Tower, #0.5) by Stephen King. Rating: ⭐️⭐️⭐️⭐️.
@@ -34,7 +45,7 @@ It doesn&amp;rsquo;t add much to the whole story other than just showing a bit m
     <item>
       <title>Review of The Wind Through the Keyhole</title>
       <link>https://pothix.com/darktower8/</link>
-      <pubDate>Wed, 07 Jul 2021 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/darktower8/</guid>
       <description>Book: The Wind Through the Keyhole by Stephen King. Rating: ⭐️⭐️⭐️.
@@ -44,7 +55,7 @@ I wish I have read this book in chronological order. The book is not bad, but re
     <item>
       <title>Review of The Dark Tower (The Dark Tower, #7)</title>
       <link>https://pothix.com/darktower7/</link>
-      <pubDate>Tue, 29 Jun 2021 00:00:00 -0300</pubDate>
+      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/darktower7/</guid>
       <description>Book: The Dark Tower (The Dark Tower, #7) by Stephen King. Rating: ⭐️⭐️⭐️⭐️.
@@ -56,7 +67,7 @@ A forma que o King construiu os personagens foi fantástica e me deixou bem apeg
     <item>
       <title>Review of The Lottery</title>
       <link>https://pothix.com/thelottery/</link>
-      <pubDate>Tue, 29 Jun 2021 00:00:00 -0300</pubDate>
+      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/thelottery/</guid>
       <description>Book: The Lottery by Shirley Jackson. Rating: ⭐️⭐️⭐️⭐️.
@@ -67,7 +78,7 @@ It&amp;rsquo;s funny how random the situation is in Lud when the plot is reveale
     <item>
       <title>Review of The Masque of the Red Death</title>
       <link>https://pothix.com/reddeath/</link>
-      <pubDate>Tue, 29 Jun 2021 00:00:00 -0300</pubDate>
+      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/reddeath/</guid>
       <description>Book: The Masque of the Red Death by Edgar Allan Poe. Rating: ⭐️⭐️⭐️⭐️.
@@ -78,7 +89,7 @@ It&amp;rsquo;s all about a prince defying the disease by locking his people insi
     <item>
       <title>Audiobooks as podcasts</title>
       <link>https://pothix.com/audiobookaspodcast/</link>
-      <pubDate>Fri, 25 Jun 2021 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/audiobookaspodcast/</guid>
       <description>I love to listen to audiobooks (article in pt-BR), and I&amp;rsquo;m was an Audible subscriber for many years, just pausing my subscription because I have way too many books (~150) already and need some time to clear the queue. 🙂
@@ -88,7 +99,7 @@ Audible is the best service to listen to audiobooks, no doubts here from my side
     <item>
       <title>Fixing Logitech mouse MX Master 2 problem</title>
       <link>https://pothix.com/mxmasterfix/</link>
-      <pubDate>Tue, 22 Jun 2021 00:00:00 -0300</pubDate>
+      <pubDate>Tue, 22 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/mxmasterfix/</guid>
       <description>This is a quick post for any Logitech MX master 2 (any version, really) owner having problems with their mouse. If your mouse is not moving at all but buttons are still working, there&amp;rsquo;s a good chance your problem has an easy fix.
@@ -109,7 +120,7 @@ Tool As you probably know, I work for Doist for some time now, and I&amp;rsquo;m
     <item>
       <title>My knowledge base bootstrap</title>
       <link>https://pothix.com/knowledgebase/</link>
-      <pubDate>Sat, 01 May 2021 00:00:00 -0300</pubDate>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/knowledgebase/</guid>
       <description>Note-taking is my current obsession, so it&amp;rsquo;s time to talk about it here. 😃
@@ -120,7 +131,7 @@ When January came, I saw a post by Caffo talking about Roam Research and how he 
     <item>
       <title>Review of The Drawing of the Three (The Dark Tower, #2)</title>
       <link>https://pothix.com/darktower2/</link>
-      <pubDate>Wed, 21 Apr 2021 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/darktower2/</guid>
       <description>Book: The Drawing of the Three (The Dark Tower, #2) by Stephen King. Rating: ⭐️⭐️⭐️⭐️.
@@ -130,7 +141,7 @@ What a surprise! I enjoyed listening to this book. I have the whole series of bo
     <item>
       <title>Review of The Life‑Changing Magic of Tidying Up</title>
       <link>https://pothix.com/magicoftidyingup/</link>
-      <pubDate>Sun, 11 Apr 2021 00:00:00 -0300</pubDate>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/magicoftidyingup/</guid>
       <description>Book: The Life‑Changing Magic of Tidying Up by Marie Kondo. Rating: ⭐️⭐️⭐️⭐️.
@@ -141,7 +152,7 @@ I don&amp;rsquo;t think it&amp;rsquo;s a good idea to remove all objects from yo
     <item>
       <title>Password managers</title>
       <link>https://pothix.com/passwordmanagers/</link>
-      <pubDate>Tue, 02 Mar 2021 00:00:00 -0300</pubDate>
+      <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/passwordmanagers/</guid>
       <description>After many years using LastPass, I decided to make the switch to 1Password. I&amp;rsquo;m going to describe here why I did this and how was my process to choose.
@@ -152,7 +163,7 @@ I was always the guy who said: &amp;ldquo;Yeah, it works for me&amp;rdquo;.</des
     <item>
       <title>2020 Year in Review</title>
       <link>https://pothix.com/2020/</link>
-      <pubDate>Tue, 23 Feb 2021 00:00:00 -0300</pubDate>
+      <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/2020/</guid>
       <description>Brace yourselves, like any other stats post, this one will be HUGE
@@ -163,7 +174,7 @@ I can say for sure that 2020 was a complicated year and a lot of things change i
     <item>
       <title>Books</title>
       <link>https://pothix.com/books/</link>
-      <pubDate>Sun, 14 Feb 2021 00:00:00 -0300</pubDate>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/books/</guid>
       <description>If you want to see all my reviews, not just the small list of recommended books (still WIP), I suggest you to check the books tag.
@@ -175,7 +186,7 @@ Tolkien: A biography It&amp;rsquo;s no secret that I&amp;rsquo;m a big fan of J.
     <item>
       <title>Movies</title>
       <link>https://pothix.com/movies/</link>
-      <pubDate>Sun, 14 Feb 2021 00:00:00 -0300</pubDate>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/movies/</guid>
       <description>It&amp;rsquo;s been a while since I wanted to write down the movies I recommend. There are so many great movies to recommend that I will never be able to reply from the top of my head.
@@ -186,7 +197,7 @@ The Lord of the Rings trilogy (200[4,5,6]) - Extended version It&amp;rsquo;s no 
     <item>
       <title>Thoughts on group chats</title>
       <link>https://pothix.com/group-chats/</link>
-      <pubDate>Sat, 13 Feb 2021 00:00:00 -0300</pubDate>
+      <pubDate>Sat, 13 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/group-chats/</guid>
       <description>I&amp;rsquo;m a big fan of group chats. The current app I use the most for group chats (and direct messages as well) is Telegram. I even created some group chats for topics I like (mechanical keyboards, note taking and productivity, Books and audiobooks, Money and investing, etc.).
@@ -196,7 +207,7 @@ I take group chats (and communities) more seriously than I should and I make sur
     <item>
       <title>Magic The Gathering</title>
       <link>https://pothix.com/mtg/</link>
-      <pubDate>Tue, 09 Feb 2021 00:00:00 -0300</pubDate>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/mtg/</guid>
       <description>Some context I&amp;rsquo;m a big fan of Magic The Gathering (or MTG) since the first time I played it in 2004. Even before 2004, I remember seeing some cards a friend had and being totally amazed, even without understanding how the game worked.
@@ -206,7 +217,7 @@ I couldn&amp;rsquo;t play much when I was a kid because these cards were (and so
     <item>
       <title>Review of Tolkien&#39;s Ordinary Virtues book</title>
       <link>https://pothix.com/tolkienordinaryvirtues/</link>
-      <pubDate>Thu, 28 Jan 2021 00:00:00 -0300</pubDate>
+      <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/tolkienordinaryvirtues/</guid>
       <description>Book: Tolkien’s Ordinary Virtues, by Mark Eddy Smith. Rating: ⭐️⭐️⭐️.
@@ -217,7 +228,7 @@ The book is about Christian comparisons between The Lord of the Rings and some v
     <item>
       <title>Chrome: Invalid HTTPS in development</title>
       <link>https://pothix.com/thisisunsafe/</link>
-      <pubDate>Thu, 17 Dec 2020 00:00:00 -0300</pubDate>
+      <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/thisisunsafe/</guid>
       <description>It&amp;rsquo;s not the first time I had to use HTTPS for local development and had to do the whole setup of self-signed certificates. It&amp;rsquo;s a painful process that doesn&amp;rsquo;t have a good ROI for the developer.
@@ -228,7 +239,7 @@ If you&amp;rsquo;re using Chrome (or chromium) you can type thisisunsafe when yo
     <item>
       <title>Review of Daily Rituals: How Artists Work</title>
       <link>https://pothix.com/dailyrituals/</link>
-      <pubDate>Wed, 16 Dec 2020 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/dailyrituals/</guid>
       <description>Book: Daily Rituals: How Artists Work. Rating: ⭐️⭐️⭐️⭐️.
@@ -239,7 +250,7 @@ What first caught my attention was the pattern of the peak, through, rebound eve
     <item>
       <title>GitHub CLI (a.k.a gh)</title>
       <link>https://pothix.com/ghcli/</link>
-      <pubDate>Tue, 15 Dec 2020 00:00:00 -0300</pubDate>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/ghcli/</guid>
       <description>The GitHub CLI is been a major time saver for me. I was skeptical about its usage in the beginning but it proved to be very useful.
@@ -250,7 +261,7 @@ Cloning When I want to download a new repository, instead of typing the whole UR
     <item>
       <title>Rust, LotR, and focus</title>
       <link>https://pothix.com/lotrfocus/</link>
-      <pubDate>Tue, 01 Dec 2020 00:00:00 -0300</pubDate>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/lotrfocus/</guid>
       <description>💡 Quick thought post. A bigger tweet but on my own platform.
@@ -261,7 +272,7 @@ enum Race { Elf, Dwarf, Men, Hobbit, Ent } PS: I&amp;rsquo;m only considering th
     <item>
       <title>Testing a promicro</title>
       <link>https://pothix.com/dactyl2/</link>
-      <pubDate>Mon, 09 Nov 2020 00:00:00 -0300</pubDate>
+      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/dactyl2/</guid>
       <description>A lot happened since my last post and all parts are already here! 😃
@@ -272,7 +283,7 @@ These are cheap parts coming from China in a month-long journey, so it&amp;rsquo
     <item>
       <title>Review of When: The Scientific Secrets of Perfect Timing</title>
       <link>https://pothix.com/when/</link>
-      <pubDate>Sat, 24 Oct 2020 00:00:00 -0300</pubDate>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/when/</guid>
       <description>Book: When: The Scientific Secrets of Perfect Timing, by Daniel Pink. Rating: ⭐️⭐️⭐️⭐️⭐️.
@@ -283,7 +294,7 @@ The book provides amazing insights if you like to base your decisions on scienti
     <item>
       <title>J.R.R. Tolkien: A Biography</title>
       <link>https://pothix.com/tolkienbio/</link>
-      <pubDate>Wed, 21 Oct 2020 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 21 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/tolkienbio/</guid>
       <description>Book: J.R.R. Tolkien: A Biography, by Humphrey Carpenter. Rating: ⭐️⭐️⭐️⭐️⭐️.
@@ -294,7 +305,7 @@ I just listened to the Inklings book by Humphrey Carpenter, so it was the best t
     <item>
       <title>Review of The Inklings: C.S. Lewis, J.R.R. Tolkien, Charles Williams, and Their Friends</title>
       <link>https://pothix.com/inklings/</link>
-      <pubDate>Sat, 05 Sep 2020 00:00:00 -0300</pubDate>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/inklings/</guid>
       <description>Book: The Inklings: C.S. Lewis, J.R.R. Tolkien, Charles Williams, and Their Friends by Humphrey Carpenter. Rating: ⭐️⭐️⭐️⭐️⭐️.
@@ -305,7 +316,7 @@ I&amp;rsquo;m a big fan of J.R.R Tolkien and also the concept of the Inklings. I
     <item>
       <title>Dactyl keyboard - Part 1</title>
       <link>https://pothix.com/dactyl1/</link>
-      <pubDate>Fri, 28 Aug 2020 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/dactyl1/</guid>
       <description>After build the Iris keyboard I decided to start a new quest to build a Dactyl-cc (as I mentioned at the end of the Iris post 😉)
@@ -315,7 +326,7 @@ Dactyl is the keyboad I wanted to build from the start but I certainly didn&amp;
     <item>
       <title>Review of Programming Rust: Fast, Safe Systems Development</title>
       <link>https://pothix.com/programmingrust/</link>
-      <pubDate>Tue, 11 Aug 2020 00:00:00 -0300</pubDate>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/programmingrust/</guid>
       <description>Book: Programming Rust: Fast, Safe Systems Development. Rating: ⭐️⭐️⭐️⭐️⭐️.
@@ -336,7 +347,7 @@ The need I currently have a Kinesis Advantage at home. The keyboard is great, pr
     <item>
       <title>Review of Nonviolent Communication</title>
       <link>https://pothix.com/nonviolentcommunication/</link>
-      <pubDate>Fri, 22 May 2020 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/nonviolentcommunication/</guid>
       <description>Book: Nonviolent Communication by Marshall B. Rosenberg. Rating: ⭐️⭐️⭐️⭐️⭐️.
@@ -348,7 +359,7 @@ This book feels even more important now that we have more people working remotel
     <item>
       <title>Review of The Antidote: Happiness for People Who Can&#39;t Stand Positive Thinking</title>
       <link>https://pothix.com/theantidote/</link>
-      <pubDate>Fri, 15 May 2020 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/theantidote/</guid>
       <description>Book: The Antidote: Happiness for People Who Can&amp;rsquo;t Stand Positive Thinking by Oliver Burkeman. Rating: ⭐️⭐️⭐️⭐️.
@@ -359,7 +370,7 @@ I liked the book overall. It&amp;rsquo;s interesting how the author shows some s
     <item>
       <title>Review of Don&#39;t Panic: Taking Control of Anxiety Attacks</title>
       <link>https://pothix.com/dontpanicbook/</link>
-      <pubDate>Tue, 07 Apr 2020 00:00:00 -0300</pubDate>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/dontpanicbook/</guid>
       <description>Book: Don&amp;rsquo;t Panic: Taking Control of Anxiety Attacks by R. Reid Wilson. Rating: ⭐️⭐️⭐️⭐️.
@@ -370,7 +381,7 @@ Some people said it seems like a Rust programming language book because of the w
     <item>
       <title>Review of Essentialism: The Disciplined Pursuit of Less</title>
       <link>https://pothix.com/essentialismbook/</link>
-      <pubDate>Mon, 09 Mar 2020 00:00:00 -0300</pubDate>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/essentialismbook/</guid>
       <description>Book: Essentialism: The Disciplined Pursuit of Less by Greg McKeown. Rating: ⭐️⭐️⭐️⭐️.
@@ -382,7 +393,7 @@ Sometimes we have so much noise around that it&amp;rsquo;s hard to find what is 
     <item>
       <title>Review of The Courage to Be Disliked: How to Free Yourself, Change your Life and Achieve Real Happiness</title>
       <link>https://pothix.com/couragetobedisliked/</link>
-      <pubDate>Thu, 13 Feb 2020 00:00:00 -0300</pubDate>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/couragetobedisliked/</guid>
       <description>Book: The Courage to Be Disliked: How to Free Yourself, Change your Life and Achieve Real Happiness by Ichiro Kishimi. Rating: ⭐️⭐️⭐️⭐️⭐️.
@@ -404,7 +415,7 @@ The end of 2018 and the beginning of 2019 was quite hard for me and me just didn
     <item>
       <title>Review of On the Shortness of Life</title>
       <link>https://pothix.com/shortenessoflife/</link>
-      <pubDate>Thu, 26 Dec 2019 00:00:00 -0300</pubDate>
+      <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/shortenessoflife/</guid>
       <description>Book: On the Shortness of Life by Seneca. Rating: ⭐️⭐️⭐️⭐️.
@@ -415,7 +426,7 @@ If you want a quick and meaningful book, pick this one. :)</description>
     <item>
       <title>Review of Digital Minimalism: Choosing a Focused Life in a Noisy World</title>
       <link>https://pothix.com/digitalminimalism/</link>
-      <pubDate>Fri, 20 Dec 2019 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/digitalminimalism/</guid>
       <description>Book: Digital Minimalism: Choosing a Focused Life in a Noisy World by Cal Newport. Rating: ⭐️⭐️⭐️⭐️.
@@ -426,7 +437,7 @@ I&amp;rsquo;m not a big fan of social networks in general, they are mostly a was
     <item>
       <title>Review of Peak Performance: Elevate Your Game, Avoid Burnout, and Thrive with the New Science of Success</title>
       <link>https://pothix.com/peakperformance/</link>
-      <pubDate>Sat, 07 Dec 2019 00:00:00 -0300</pubDate>
+      <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/peakperformance/</guid>
       <description>Book: Peak Performance: Elevate Your Game, Avoid Burnout, and Thrive with the New Science of Success by Brad Stulberg. Rating: ⭐️⭐️⭐️⭐️.
@@ -436,7 +447,7 @@ A great book. I felt like it&amp;rsquo;s a compilation of some good books I read
     <item>
       <title>Review of Born Standing Up: A Comic&#39;s Life</title>
       <link>https://pothix.com/bornstandingup/</link>
-      <pubDate>Sat, 23 Nov 2019 00:00:00 -0300</pubDate>
+      <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/bornstandingup/</guid>
       <description>Book: Born Standing Up: A Comic&amp;rsquo;s Life by Steve Martin. Rating: ⭐️⭐️⭐️⭐️.
@@ -448,7 +459,7 @@ It was great to follow Steve&amp;rsquo;s career from a broke comedian to a famou
     <item>
       <title>Contributing to Rust</title>
       <link>https://pothix.com/rust-contrib/</link>
-      <pubDate>Fri, 22 Nov 2019 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/rust-contrib/</guid>
       <description>I&amp;rsquo;m involved with the Rust community for a while now. I&amp;rsquo;m one of the main organizers of the Rust meetup in São Paulo and also the Rust conference in Latin America (Rust LATAM) for more than one year now, but did not contribute to Rust source code yet.
@@ -459,7 +470,7 @@ If you want to go straight to the step by step, without any introduction, jump t
     <item>
       <title>Review of How to Be Free: An Ancient Guide to the Stoic Life</title>
       <link>https://pothix.com/howtobefree/</link>
-      <pubDate>Sat, 16 Nov 2019 00:00:00 -0300</pubDate>
+      <pubDate>Sat, 16 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/howtobefree/</guid>
       <description>Book: How to Be Free: An Ancient Guide to the Stoic Life by Epictetus. Rating: ⭐️⭐️⭐️⭐️.
@@ -469,7 +480,7 @@ A good book. It seems like a summary of the whole enchiridion. After reading Sen
     <item>
       <title>Review of Letters from a Stoic</title>
       <link>https://pothix.com/lettersfromastoic/</link>
-      <pubDate>Fri, 08 Nov 2019 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/lettersfromastoic/</guid>
       <description>Book: Letters from a Stoic by Seneca. Rating: ⭐️⭐️⭐️⭐️.
@@ -479,7 +490,7 @@ I was expecting a bit more about this book but I&amp;rsquo;m sure it is just a p
     <item>
       <title>Review of So Good They Can&#39;t Ignore You: Why Skills Trump Passion in the Quest for Work You Love</title>
       <link>https://pothix.com/sogoodtheycantignoreyou/</link>
-      <pubDate>Fri, 25 Oct 2019 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/sogoodtheycantignoreyou/</guid>
       <description>Book: So Good They Can&amp;rsquo;t Ignore You: Why Skills Trump Passion in the Quest for Work You Love by Cal Newport. Rating: ⭐️⭐️⭐️⭐️.
@@ -490,7 +501,7 @@ I&amp;rsquo;m glad that I did most of what he mentions here, and I can say it wo
     <item>
       <title>Review of Utopia for Realists: How We Can Build the Ideal World</title>
       <link>https://pothix.com/utopiaforrealists/</link>
-      <pubDate>Sat, 19 Oct 2019 00:00:00 -0300</pubDate>
+      <pubDate>Sat, 19 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/utopiaforrealists/</guid>
       <description>Book: Utopia for Realists: How We Can Build the Ideal World by Rutger Bregman. Rating: ⭐️⭐️⭐️⭐️.
@@ -511,7 +522,7 @@ Tool As you probably know, I work for Doist for some time now, and I&amp;rsquo;m
     <item>
       <title>Review of Moonwalking with Einstein: The Art and Science of Remembering Everything</title>
       <link>https://pothix.com/moonwalkingwitheinstein/</link>
-      <pubDate>Tue, 13 Aug 2019 00:00:00 -0300</pubDate>
+      <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/moonwalkingwitheinstein/</guid>
       <description>Book: Moonwalking with Einstein: The Art and Science of Remembering Everything by Joshua Foer. Rating: ⭐️⭐️⭐️⭐️.
@@ -522,7 +533,7 @@ I saw some people mentioning that &amp;ldquo;this is not a book to teach you how
     <item>
       <title>Review of Why We Sleep: Unlocking the Power of Sleep and Dreams</title>
       <link>https://pothix.com/whywesleep/</link>
-      <pubDate>Thu, 04 Jul 2019 00:00:00 -0300</pubDate>
+      <pubDate>Thu, 04 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/whywesleep/</guid>
       <description>Book: Why We Sleep: Unlocking the Power of Sleep and Dreams by Matthew Walker. Rating: ⭐️⭐️⭐️⭐️⭐️.
@@ -533,7 +544,7 @@ When I started reading it, my review was around 3 stars. This book is not easy t
     <item>
       <title>Review of Make Time: How to Focus on What Matters Every Day</title>
       <link>https://pothix.com/maketimebook/</link>
-      <pubDate>Mon, 24 Jun 2019 00:00:00 -0300</pubDate>
+      <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/maketimebook/</guid>
       <description>Book: Make Time: How to Focus on What Matters Every Day by Jake Knapp. Rating: ⭐️⭐️⭐️.
@@ -545,7 +556,7 @@ I already knew many things exposed here, so it was not life-changing for me.</de
     <item>
       <title>Review of Norse Mythology</title>
       <link>https://pothix.com/norsemythology/</link>
-      <pubDate>Mon, 24 Jun 2019 00:00:00 -0300</pubDate>
+      <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/norsemythology/</guid>
       <description>Book: Norse Mythology by Neil Gaiman. Rating: ⭐️⭐️⭐️⭐️.
@@ -556,7 +567,7 @@ It&amp;rsquo;s interesting to see the influence of Norse Mythology in some thing
     <item>
       <title>Review of Powerful: Building a Culture of Freedom and Responsibility</title>
       <link>https://pothix.com/powerful/</link>
-      <pubDate>Wed, 29 May 2019 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/powerful/</guid>
       <description>Book: Powerful: Building a Culture of Freedom and Responsibility by Patty McCord. Rating: ⭐️⭐️⭐️.
@@ -567,7 +578,7 @@ I part I like the most about this book is how Netflix &amp;ldquo;considers their
     <item>
       <title>Review of Remote: Office Not Required</title>
       <link>https://pothix.com/remotebook/</link>
-      <pubDate>Thu, 23 May 2019 00:00:00 -0300</pubDate>
+      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/remotebook/</guid>
       <description>Book: Remote: Office Not Required by David Heinemeier Hansson. Rating: ⭐️⭐️⭐️.
@@ -579,7 +590,7 @@ I found it to be a little repetitive as well, they are not very pragmatic about 
     <item>
       <title>Review of The Joy of Less, A Minimalist Living Guide: How to Declutter, Organize, and Simplify Your Life</title>
       <link>https://pothix.com/joyofless/</link>
-      <pubDate>Mon, 20 May 2019 00:00:00 -0300</pubDate>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/joyofless/</guid>
       <description>Book: The Joy of Less, A Minimalist Living Guide: How to Declutter, Organize, and Simplify Your Life by Francine Jay. Rating: ⭐️⭐️⭐️⭐️.
@@ -589,7 +600,7 @@ This is a book I can see myself writing. I would say that around 80% of the thin
     <item>
       <title>Review of The Coming Storm</title>
       <link>https://pothix.com/comingstorm/</link>
-      <pubDate>Tue, 14 May 2019 00:00:00 -0300</pubDate>
+      <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/comingstorm/</guid>
       <description>Book: The Coming Storm by Michael Lewis. Rating: ⭐️⭐️⭐️.
@@ -600,7 +611,7 @@ Here are my notes for this small book:</description>
     <item>
       <title>Review of Homo Deus: A History of Tomorrow</title>
       <link>https://pothix.com/homodeus/</link>
-      <pubDate>Sun, 12 May 2019 00:00:00 -0300</pubDate>
+      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/homodeus/</guid>
       <description>Book: Homo Deus: A History of Tomorrow by Yuval Noah Harari. Rating: ⭐️⭐️⭐️⭐️⭐️.
@@ -620,7 +631,7 @@ Even with the small problems we had (as any other big conference), the feedback 
     <item>
       <title>Review of Atomic Habits: An Easy &amp; Proven Way to Build Good Habits &amp; Break Bad Ones</title>
       <link>https://pothix.com/atomichabits/</link>
-      <pubDate>Fri, 08 Feb 2019 00:00:00 -0200</pubDate>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/atomichabits/</guid>
       <description>This is an amazing book! I&amp;rsquo;ve been reading about productivity and habits for a while now and I think this book does a great work of gathering everything together and presenting it in a nice form.
@@ -630,7 +641,7 @@ I think I liked it even more because I already apply many of the tips written he
     <item>
       <title>Review of 21 Lessons for the 21st Century</title>
       <link>https://pothix.com/21lessons21stcentury/</link>
-      <pubDate>Tue, 29 Jan 2019 00:00:00 -0200</pubDate>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/21lessons21stcentury/</guid>
       <description>Book: 21 Lessons for the 21st Century by Yuval Noah Harari. Rating: ⭐️⭐️⭐️⭐️.
@@ -641,7 +652,7 @@ I like the way Yuval brings some topics to the discussion. This book made me thi
     <item>
       <title>Review of The Servant: A Simple Story about the True Essence of Leadership</title>
       <link>https://pothix.com/theservant/</link>
-      <pubDate>Tue, 29 Jan 2019 00:00:00 -0200</pubDate>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/theservant/</guid>
       <description>Book: The Servant: A Simple Story about the True Essence of Leadership by James C. Hunter. Rating: ⭐️⭐️⭐️⭐️.
@@ -651,7 +662,7 @@ This book was a big hit in Brazil for a while and of course, I heard about it in
     <item>
       <title>Review of Radical Focus: Achieving Your Most Important Goals with Objectives and Key Results</title>
       <link>https://pothix.com/radicalfocus/</link>
-      <pubDate>Thu, 20 Dec 2018 00:00:00 -0200</pubDate>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/radicalfocus/</guid>
       <description>Book: Radical Focus: Achieving Your Most Important Goals with Objectives and Key Results by Christina Wodtke. Rating: ⭐️⭐️⭐️.
@@ -662,7 +673,7 @@ It starts as a non-fiction/business book, as I expected it to be, but out of now
     <item>
       <title>Review of Sapiens: A Brief History of Humankind</title>
       <link>https://pothix.com/sapiens/</link>
-      <pubDate>Thu, 20 Dec 2018 00:00:00 -0200</pubDate>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/sapiens/</guid>
       <description>Book: Sapiens: A Brief History of Humankind by Yuval Noah Harari. Rating: ⭐️⭐️⭐️⭐️⭐️.
@@ -673,7 +684,7 @@ I really like the way the author says &amp;ldquo;we don&amp;rsquo;t know this ye
     <item>
       <title>Review of The 21 Irrefutable Laws of Leadership: Follow Them and People Will Follow You</title>
       <link>https://pothix.com/21lawsofleadership/</link>
-      <pubDate>Thu, 20 Dec 2018 00:00:00 -0200</pubDate>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/21lawsofleadership/</guid>
       <description>Book: The 21 Irrefutable Laws of Leadership: Follow Them and People Will Follow You by John C. Maxwell. Rating: ⭐️⭐️⭐️.
@@ -685,7 +696,7 @@ I would recommend it to someone, but reading a summary first would probably give
     <item>
       <title>Review of Meet the Frugalwoods: Achieving Financial Independence Through Simple Living</title>
       <link>https://pothix.com/meetthefrugalwoods/</link>
-      <pubDate>Mon, 26 Nov 2018 00:00:00 -0200</pubDate>
+      <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/meetthefrugalwoods/</guid>
       <description>Book: Meet the Frugalwoods: Achieving Financial Independence Through Simple Living by Elizabeth Willard Thames. Rating: ⭐️⭐️⭐️.
@@ -696,7 +707,7 @@ It was interesting to read that they felt themselves to be privileged when compa
     <item>
       <title>Review of The Power Of Less: The Fine Art of Limiting Yourself to the Essential</title>
       <link>https://pothix.com/powerofless/</link>
-      <pubDate>Mon, 12 Nov 2018 00:00:00 -0200</pubDate>
+      <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/powerofless/</guid>
       <description>Book: The Power Of Less: The Fine Art of Limiting Yourself to the Essential by Leo Babauta. Rating: ⭐️⭐️⭐️⭐️.
@@ -719,7 +730,7 @@ I&amp;rsquo;m adding a new file as a layout (link here) and I have to change tmk
     <item>
       <title>Review of It Doesn&#39;t Have to Be Crazy at Work</title>
       <link>https://pothix.com/crazyatwork/</link>
-      <pubDate>Sun, 21 Oct 2018 00:00:00 -0300</pubDate>
+      <pubDate>Sun, 21 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/crazyatwork/</guid>
       <description>Book: It Doesn&amp;rsquo;t Have to Be Crazy at Work by Jason Fried. Rating: ⭐️⭐️⭐️⭐️⭐️.
@@ -730,7 +741,7 @@ Hey, it&amp;rsquo;s true, it doesn&amp;rsquo;t have to be crazy at work. We can 
     <item>
       <title>Review of Principles</title>
       <link>https://pothix.com/principlesbook/</link>
-      <pubDate>Fri, 05 Oct 2018 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 05 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/principlesbook/</guid>
       <description>Book: Principles (Summary) by Ray Dalio. Rating: ⭐️⭐️⭐️⭐️⭐️.
@@ -741,7 +752,7 @@ There are many good ideas in this book and many of the things I see here are log
     <item>
       <title>Review of 1984</title>
       <link>https://pothix.com/1984/</link>
-      <pubDate>Thu, 20 Sep 2018 00:00:00 -0300</pubDate>
+      <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/1984/</guid>
       <description>Book: 1984 by George Orwell. Rating: ⭐️⭐️⭐️⭐️.
@@ -753,7 +764,7 @@ The whole idea of creating a language to limit how people describe things and ho
     <item>
       <title>Review of The Lay of Aotrou and Itroun</title>
       <link>https://pothix.com/aotrouanditroun/</link>
-      <pubDate>Wed, 29 Aug 2018 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 29 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/aotrouanditroun/</guid>
       <description>Book: The Lay of Aotrou and Itroun by J.R.R. Tolkien. Rating: ⭐️⭐️⭐️.
@@ -765,7 +776,7 @@ There are three poems in this book and it tries to tell a story about how Tolkie
     <item>
       <title>Review of Tolkien and the West: Recovering the Lost Tradition of Europe (The Modern Scholar)</title>
       <link>https://pothix.com/tolkienwest/</link>
-      <pubDate>Sun, 22 Jul 2018 00:00:00 -0300</pubDate>
+      <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/tolkienwest/</guid>
       <description>Book: Tolkien and the West: Recovering the Lost Tradition of Europe (The Modern Scholar) by Michael D.C. Drout. Rating: ⭐️⭐️⭐️⭐️⭐️.
@@ -777,7 +788,7 @@ With that said, it was amazing to me to find so much that was not explicit in th
     <item>
       <title>Review of A Brief History of Time</title>
       <link>https://pothix.com/briefhistoryoftime/</link>
-      <pubDate>Fri, 20 Jul 2018 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/briefhistoryoftime/</guid>
       <description>Book: A Brief History of Time by Stephen Hawking. Rating: ⭐️⭐️⭐️⭐️.
@@ -788,7 +799,7 @@ The pacing of the book is really good. He starts with the basics of physics and 
     <item>
       <title>Review of The Introvert&#39;s Edge: How the Quiet and Shy Can Outsell Anyone</title>
       <link>https://pothix.com/introvertsedge/</link>
-      <pubDate>Sat, 14 Jul 2018 00:00:00 -0300</pubDate>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/introvertsedge/</guid>
       <description>Book: The Introvert&amp;rsquo;s Edge: How the Quiet and Shy Can Outsell Anyone by Matthew Owen Pollard. Rating: ⭐️⭐️⭐️.
@@ -811,7 +822,7 @@ Books I usually don&amp;rsquo;t count how many books I read, I just track and ch
     <item>
       <title>Review of Fast Focus: A Quick-Start Guide To Mastering Your Attention, Ignoring Distractions, And Getting More Done In Less Time!</title>
       <link>https://pothix.com/fastfocusbook/</link>
-      <pubDate>Fri, 13 Jul 2018 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/fastfocusbook/</guid>
       <description>Book: Fast Focus: A Quick-Start Guide To Mastering Your Attention, Ignoring Distractions, And Getting More Done In Less Time! by Damon Zahariades. Rating: ⭐️⭐️⭐️⭐️.
@@ -821,7 +832,7 @@ It&amp;rsquo;s a good book overall. I was between 4 and 5 for this one. It share
     <item>
       <title>Review of Managing Oneself</title>
       <link>https://pothix.com/managingoneself/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 -0300</pubDate>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/managingoneself/</guid>
       <description>Book: Managing Oneself by Peter F. Drucker. Rating: ⭐️⭐️⭐️⭐️.
@@ -834,7 +845,7 @@ Here are my raw notes about the book:
     <item>
       <title>Review of A Filosofia Explica as Grandes Questões da Humanidade</title>
       <link>https://pothix.com/filosofiaquestoes/</link>
-      <pubDate>Tue, 26 Jun 2018 00:00:00 -0300</pubDate>
+      <pubDate>Tue, 26 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/filosofiaquestoes/</guid>
       <description>Book: A Filosofia Explica as Grandes Questões da Humanidade by Clóvis de Barros Filho. Rating: ⭐️⭐️⭐️⭐️.
@@ -844,7 +855,7 @@ Um livro bem interessante para aqueles que querem pensar sobre algumas coisas ma
     <item>
       <title>Review of The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers</title>
       <link>https://pothix.com/hardthingabouthardthings/</link>
-      <pubDate>Mon, 18 Jun 2018 00:00:00 -0300</pubDate>
+      <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/hardthingabouthardthings/</guid>
       <description>Book: The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers by Ben Horowitz. Rating: ⭐️⭐️⭐️⭐️.
@@ -855,7 +866,7 @@ Sometimes the author contradicts himself, IMO.</description>
     <item>
       <title>Review of Blood, Sweat, and Pixels: The Triumphant, Turbulent Stories Behind How Video Games Are Made</title>
       <link>https://pothix.com/bloodsweatandpixels/</link>
-      <pubDate>Mon, 11 Jun 2018 00:00:00 -0300</pubDate>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/bloodsweatandpixels/</guid>
       <description>Book: Blood, Sweat, and Pixels: The Triumphant, Turbulent Stories Behind How Video Games Are Made by Jason Schreier. Rating: ⭐️⭐️⭐️⭐️.
@@ -867,7 +878,7 @@ I would also add Indie game: the movie (also available on Netflix) to the list o
     <item>
       <title>Review of Zero to One: Notes on Startups, or How to Build the Future</title>
       <link>https://pothix.com/zerotoone/</link>
-      <pubDate>Fri, 08 Jun 2018 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/zerotoone/</guid>
       <description>Book: Zero to One: Notes on Startups, or How to Build the Future by Peter Thiel. Rating: ⭐️⭐️⭐️⭐️.
@@ -890,7 +901,7 @@ Books Two books read this month, but both received a 3 stars review:
     <item>
       <title>Review of Wait, What?: And Life&#39;s Other Essential Questions</title>
       <link>https://pothix.com/waitwhat/</link>
-      <pubDate>Fri, 25 May 2018 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/waitwhat/</guid>
       <description>Book: Wait, What?: And Life&amp;rsquo;s Other Essential Questions by James E. Ryan. Rating: ⭐️⭐️⭐️.
@@ -901,7 +912,7 @@ The book is exactly what the author says in the beginning: It&amp;rsquo;s a lect
     <item>
       <title>Review of Shop Class as Soulcraft: An Inquiry Into the Value of Work</title>
       <link>https://pothix.com/shopclasssoulcraft/</link>
-      <pubDate>Thu, 17 May 2018 00:00:00 -0300</pubDate>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/shopclasssoulcraft/</guid>
       <description>Book: Shop Class as Soulcraft: An Inquiry Into the Value of Work by Matthew B. Crawford. Rating: ⭐️⭐️⭐️.
@@ -925,7 +936,7 @@ A Guide to the Good Life: The Ancient Art of Stoic Joy. This book was on my read
     <item>
       <title>Review of A Guide to the Good Life: The Ancient Art of Stoic Joy</title>
       <link>https://pothix.com/guidetogoodlife/</link>
-      <pubDate>Wed, 18 Apr 2018 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 18 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/guidetogoodlife/</guid>
       <description>Book: A Guide to the Good Life: The Ancient Art of Stoic Joy by William B. Irvine. Rating: ⭐️⭐️⭐️⭐️⭐️.
@@ -963,7 +974,7 @@ The Art of Learning: A Journey in the Pursuit of Excellence.</description>
     <item>
       <title>Review of The Art of Learning: A Journey in the Pursuit of Excellence</title>
       <link>https://pothix.com/artoflearning/</link>
-      <pubDate>Tue, 27 Feb 2018 00:00:00 -0300</pubDate>
+      <pubDate>Tue, 27 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/artoflearning/</guid>
       <description>Book: The Art of Learning: A Journey in the Pursuit of Excellence by Josh Waitzkin. Rating: ⭐️⭐️⭐️⭐️.
@@ -974,7 +985,7 @@ The author is the guy from &amp;ldquo;Searching for Bobby Fischer&amp;rdquo; mov
     <item>
       <title>Review of The Richest Man in Babylon</title>
       <link>https://pothix.com/richestmaninbabylon/</link>
-      <pubDate>Sat, 10 Feb 2018 00:00:00 -0200</pubDate>
+      <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/richestmaninbabylon/</guid>
       <description>Book: The Richest Man in Babylon by George S. Clason. Rating: ⭐️⭐️⭐️.
@@ -985,7 +996,7 @@ This book is a series of parables of the &amp;ldquo;richest man in Babylon&amp;r
     <item>
       <title>Review of Rich Dad, Poor Dad</title>
       <link>https://pothix.com/richdadpoordad/</link>
-      <pubDate>Wed, 07 Feb 2018 00:00:00 -0200</pubDate>
+      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/richdadpoordad/</guid>
       <description>Book: Rich Dad, Poor Dad by Robert T. Kiyosaki. Rating: ⭐️⭐️⭐️⭐️.
@@ -1008,7 +1019,7 @@ Hiding in unnatural happiness is a book I received from a monk in York.</descrip
     <item>
       <title>Review of Anything You Want</title>
       <link>https://pothix.com/anythingyouwant/</link>
-      <pubDate>Tue, 06 Feb 2018 00:00:00 -0200</pubDate>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/anythingyouwant/</guid>
       <description>Book: Anything You Want by Derek Sivers. Rating: ⭐️⭐️⭐️⭐️⭐️.
@@ -1020,7 +1031,7 @@ This book was concise enough and with tons of valuable information to earn this 
     <item>
       <title>Review of The Art of Invisibility: The World&#39;s Most Famous Hacker Teaches You How to Be Safe in the Age of Big Brother and Big Data</title>
       <link>https://pothix.com/artofinvisibility/</link>
-      <pubDate>Tue, 06 Feb 2018 00:00:00 -0200</pubDate>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/artofinvisibility/</guid>
       <description>Book: The Art of Invisibility: The World&amp;rsquo;s Most Famous Hacker Teaches You How to Be Safe in the Age of Big Brother and Big Data by Kevin D. Mitnick. Rating: ⭐️⭐️⭐️⭐️.
@@ -1031,7 +1042,7 @@ He shows some things you can do to be anonymous but it&amp;rsquo;s tough and you
     <item>
       <title>Review of Hiding in Unnatural Happiness</title>
       <link>https://pothix.com/unnaturalhappiness/</link>
-      <pubDate>Sun, 28 Jan 2018 00:00:00 -0200</pubDate>
+      <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/unnaturalhappiness/</guid>
       <description>Book: Hiding in Unnatural Happiness by Devamrita Swami. Rating: ⭐️⭐️⭐️.
@@ -1087,7 +1098,7 @@ Read three books this month. My first book of H.P. Lovecraft, called At the moun
     <item>
       <title>Review of At the Mountains of Madness</title>
       <link>https://pothix.com/mountainsofmadness/</link>
-      <pubDate>Fri, 17 Nov 2017 00:00:00 -0200</pubDate>
+      <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/mountainsofmadness/</guid>
       <description>Book: At the Mountains of Madness by H.P. Lovecraft. Rating: ⭐️⭐️⭐️.
@@ -1098,7 +1109,7 @@ It&amp;rsquo;s interesting how he keeps the suspense until the last 5% of the bo
     <item>
       <title>Review of Minimalism: Live a Meaningful Life</title>
       <link>https://pothix.com/minimalismbook/</link>
-      <pubDate>Wed, 08 Nov 2017 00:00:00 -0200</pubDate>
+      <pubDate>Wed, 08 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/minimalismbook/</guid>
       <description>Book: Minimalism: Live a Meaningful Life by Joshua Fields Millburn. Rating: ⭐️⭐️⭐️.
@@ -1120,7 +1131,7 @@ Articles As usual, I&amp;rsquo;m using that same export file from Pocket and the
     <item>
       <title>Review of On Power</title>
       <link>https://pothix.com/onpowerbook/</link>
-      <pubDate>Thu, 02 Nov 2017 00:00:00 -0200</pubDate>
+      <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/onpowerbook/</guid>
       <description>Book: On Power by Robert A. Caro. Rating: ⭐️⭐️.
@@ -1154,7 +1165,7 @@ Some time ago a friend asked me why I joined Doist and I realized it&amp;rsquo;s
     <item>
       <title>Review of What Doesn&#39;t Kill Us: How Freezing Water, Extreme Altitude, and Environmental Conditioning Will Renew Our Lost Evolutionary Strength</title>
       <link>https://pothix.com/wimhoffbook/</link>
-      <pubDate>Thu, 14 Sep 2017 00:00:00 -0300</pubDate>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/wimhoffbook/</guid>
       <description>Book: What Doesn&amp;rsquo;t Kill Us: How Freezing Water, Extreme Altitude, and Environmental Conditioning Will Renew Our Lost Evolutionary Strength by Scott Carney. Rating: ⭐️⭐️⭐️⭐️.
@@ -1177,7 +1188,7 @@ Let&amp;rsquo;s start with two small books I read. Cesar Millan&amp;rsquo;s Guid
     <item>
       <title>Review of Rendezvous with Rama (Rama, #1)</title>
       <link>https://pothix.com/rendezvouswithrama/</link>
-      <pubDate>Thu, 31 Aug 2017 00:00:00 -0300</pubDate>
+      <pubDate>Thu, 31 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/rendezvouswithrama/</guid>
       <description>Book: Rendezvous with Rama (Rama, #1) by Arthur C. Clarke. Rating: ⭐️⭐️⭐️⭐️.
@@ -1189,7 +1200,7 @@ Arthur C. Clarke writes in a nice way, adding the exact number of details you ne
     <item>
       <title>Review of My Favorite Universe</title>
       <link>https://pothix.com/myfavoriteuniverse/</link>
-      <pubDate>Wed, 23 Aug 2017 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 23 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/myfavoriteuniverse/</guid>
       <description>Book: My Favorite Universe by Neil deGrasse Tyson. Rating: ⭐️⭐️⭐️⭐️.
@@ -1201,7 +1212,7 @@ Did you watch Cosmos? Do you like to (or at least used to) follow Discovery Chan
     <item>
       <title>Review of Cesar Millan&#39;s Guide to Bringing Home a Shelter Dog</title>
       <link>https://pothix.com/bringinghomeashelterdog/</link>
-      <pubDate>Mon, 21 Aug 2017 00:00:00 -0300</pubDate>
+      <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/bringinghomeashelterdog/</guid>
       <description>Book: Cesar Millan&amp;rsquo;s Guide to Bringing Home a Shelter Dog by Cesar Millan. Rating: ⭐️⭐️⭐️.
@@ -1212,7 +1223,7 @@ I adopted my dog from a local shelter, he was abandoned at the shelter door with
     <item>
       <title>Review of Radical Candor: Be a Kickass Boss Without Losing Your Humanity</title>
       <link>https://pothix.com/radicalcandorbook/</link>
-      <pubDate>Sun, 13 Aug 2017 00:00:00 -0300</pubDate>
+      <pubDate>Sun, 13 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/radicalcandorbook/</guid>
       <description>Book: Radical Candor: Be a Kickass Boss Without Losing Your Humanity by Kim Malone Scott. Rating: ⭐️⭐️⭐️⭐️.
@@ -1243,7 +1254,7 @@ Talking to Fabio Akita about my Archlinux tunning, I heard that I should be post
     <item>
       <title>Review of Leadership and Self-Deception: Getting Out of the Box</title>
       <link>https://pothix.com/leadershipselfdeception/</link>
-      <pubDate>Thu, 03 Aug 2017 00:00:00 -0300</pubDate>
+      <pubDate>Thu, 03 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/leadershipselfdeception/</guid>
       <description>Book: Leadership and Self-Deception: Getting Out of the Box by The Arbinger Institute. Rating: ⭐️⭐️⭐️.
@@ -1255,7 +1266,7 @@ This is a short book with an easy to follow narrative about leadership. There ar
     <item>
       <title>Review of A Game of Thrones (A Song of Ice and Fire, #1)</title>
       <link>https://pothix.com/gameofthrones/</link>
-      <pubDate>Fri, 28 Jul 2017 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 28 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/gameofthrones/</guid>
       <description>Book: A Game of Thrones (A Song of Ice and Fire, #1) by George R.R. Martin. Rating: ⭐️⭐️⭐️⭐️.
@@ -1266,7 +1277,7 @@ I know ASOIAF from the TV show &amp;ldquo;Game of Thrones&amp;rdquo;. This book 
     <item>
       <title>Review of Practice Perfect: 42 Rules for Getting Better at Getting Better</title>
       <link>https://pothix.com/practiceperfectbook/</link>
-      <pubDate>Wed, 12 Jul 2017 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 12 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/practiceperfectbook/</guid>
       <description>Book: Practice Perfect: 42 Rules for Getting Better at Getting Better by Doug Lemov. Rating: ⭐️⭐️⭐️.
@@ -1288,7 +1299,7 @@ Last month I read Deep Work again because I was preparing to work for a new comp
     <item>
       <title>Review of Let My People Go Surfing: The Education of a Reluctant Businessman</title>
       <link>https://pothix.com/letmypeoplegosurfing/</link>
-      <pubDate>Thu, 06 Jul 2017 00:00:00 -0300</pubDate>
+      <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/letmypeoplegosurfing/</guid>
       <description>Book: Let My People Go Surfing: The Education of a Reluctant Businessman by Yvon Chouinard. Rating: ⭐️⭐️⭐️⭐️.
@@ -1300,7 +1311,7 @@ Their way of life resonates a lot with what I think is a good way to live. Maint
     <item>
       <title>Review of The Score Takes Care of Itself: My Philosophy of Leadership</title>
       <link>https://pothix.com/scoretakescareofitself/</link>
-      <pubDate>Thu, 29 Jun 2017 00:00:00 -0300</pubDate>
+      <pubDate>Thu, 29 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/scoretakescareofitself/</guid>
       <description>Book: The Score Takes Care of Itself: My Philosophy of Leadership by Bill Walsh. Rating: ⭐️⭐️⭐️⭐️.
@@ -1310,7 +1321,7 @@ It&amp;rsquo;s a great book on leadership. I confess that I was really bored in 
     <item>
       <title>Review of Start with Why: How Great Leaders Inspire Everyone to Take Action</title>
       <link>https://pothix.com/startwithwhy/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 -0300</pubDate>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/startwithwhy/</guid>
       <description>Book: Start with Why: How Great Leaders Inspire Everyone to Take Action by Simon Sinek. Rating: ⭐️⭐️⭐️⭐️.
@@ -1322,7 +1333,7 @@ Here are some notes about it:
     <item>
       <title>Review of The Secrets of Story: Innovative Tools for Perfecting Your Fiction and Captivating Readers</title>
       <link>https://pothix.com/secretsofstory/</link>
-      <pubDate>Wed, 14 Jun 2017 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/secretsofstory/</guid>
       <description>Book: The Secrets of Story: Innovative Tools for Perfecting Your Fiction and Captivating Readers by Matt Bird. Rating: ⭐️⭐️⭐️⭐️.
@@ -1356,7 +1367,7 @@ I will start a in a new company this month, so I decided to re-read Deep Work (I
     <item>
       <title>Review of Louder Than Words: The New Science of How the Mind Makes Meaning</title>
       <link>https://pothix.com/louderthanwords/</link>
-      <pubDate>Mon, 05 Jun 2017 00:00:00 -0300</pubDate>
+      <pubDate>Mon, 05 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/louderthanwords/</guid>
       <description>Book: Louder Than Words: The New Science of How the Mind Makes Meaning by Benjamin K. Bergen. Rating: ⭐️⭐️⭐️.
@@ -1368,7 +1379,7 @@ This book made me realize that our words do not give meaning to something.</desc
     <item>
       <title>Review of Deep Work: Rules for Focused Success in a Distracted World</title>
       <link>https://pothix.com/deepworkbook/</link>
-      <pubDate>Wed, 31 May 2017 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 31 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/deepworkbook/</guid>
       <description>Book: Deep Work: Rules for Focused Success in a Distracted World by Cal Newport. Rating: ⭐️⭐️⭐️⭐️⭐️.
@@ -1381,7 +1392,7 @@ Embrace boredom is the most difficult practice from this book.</description>
     <item>
       <title>Review of Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future</title>
       <link>https://pothix.com/elonmuskbook/</link>
-      <pubDate>Thu, 18 May 2017 00:00:00 -0300</pubDate>
+      <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/elonmuskbook/</guid>
       <description>Book: Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future by Ashlee Vance. Rating: ⭐️⭐️⭐️.
@@ -1407,7 +1418,7 @@ Books Books for this month:
     <item>
       <title>Review of The Power of Broke: How Empty Pockets, a Tight Budget, and a Hunger for Success Can Become Your Greatest Competitive Advantage</title>
       <link>https://pothix.com/powerofbroke/</link>
-      <pubDate>Sat, 29 Apr 2017 00:00:00 -0300</pubDate>
+      <pubDate>Sat, 29 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/powerofbroke/</guid>
       <description>Book: The Power of Broke: How Empty Pockets, a Tight Budget, and a Hunger for Success Can Become Your Greatest Competitive Advantage by Daymond John. Rating: ⭐️⭐️⭐️.
@@ -1418,7 +1429,7 @@ The whole book discusses how to do business when you have no money. Daymond is t
     <item>
       <title>Review of Spaceman: An Astronaut&#39;s Unlikely Journey to Unlock the Secrets of the Universe</title>
       <link>https://pothix.com/spacemanbook/</link>
-      <pubDate>Thu, 13 Apr 2017 00:00:00 -0300</pubDate>
+      <pubDate>Thu, 13 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/spacemanbook/</guid>
       <description>Book: Spaceman: An Astronaut&amp;rsquo;s Unlikely Journey to Unlock the Secrets of the Universe by Mike Massimino. Rating: ⭐️⭐️⭐️⭐️.
@@ -1429,7 +1440,7 @@ Mike does a great job describing how is the life of an astronaut. Listen (yes, I
     <item>
       <title>Review of Smarter Faster Better: The Secrets of Being Productive in Life and Business</title>
       <link>https://pothix.com/smarterfasterbetter/</link>
-      <pubDate>Mon, 10 Apr 2017 00:00:00 -0300</pubDate>
+      <pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/smarterfasterbetter/</guid>
       <description>Book: Smarter Faster Better: The Secrets of Being Productive in Life and Business by Charles Duhigg. Rating: ⭐️⭐️⭐️⭐️.
@@ -1442,7 +1453,7 @@ Motivation  Motivation is feeling in control.</description>
     <item>
       <title>Review of The Art of The Lord of the Rings by J.R.R. Tolkien</title>
       <link>https://pothix.com/artoflotr/</link>
-      <pubDate>Fri, 07 Apr 2017 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/artoflotr/</guid>
       <description>Book: The Art of The Lord of the Rings by J.R.R. Tolkien by Wayne G. Hammond. Rating: ⭐️⭐️⭐️⭐️.
@@ -1491,7 +1502,7 @@ Books My goal is to read 30 books this year, so I must have an average of 2.</de
     <item>
       <title>Review of Mindfulness in Plain English</title>
       <link>https://pothix.com/mindfulnessplainenglish/</link>
-      <pubDate>Wed, 29 Mar 2017 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/mindfulnessplainenglish/</guid>
       <description>Book: Mindfulness in Plain English by Henepola Gunaratana. Rating: ⭐️⭐️⭐️.
@@ -1504,7 +1515,7 @@ Here are my raw notes about the book:</description>
     <item>
       <title>Review of The Urban Monk: Eastern Wisdom and Modern Hacks to Stop Time and Find Success, Happiness, and Peace</title>
       <link>https://pothix.com/urbanmonk/</link>
-      <pubDate>Fri, 24 Mar 2017 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 24 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/urbanmonk/</guid>
       <description>Book: The Urban Monk: Eastern Wisdom and Modern Hacks to Stop Time and Find Success, Happiness, and Peace by Pedram Shojai. Rating: ⭐️⭐️⭐️.
@@ -1515,7 +1526,7 @@ There are some chapters with a lot of meditation techniques and some tips about 
     <item>
       <title>Review of Mastery</title>
       <link>https://pothix.com/masterybook/</link>
-      <pubDate>Sat, 18 Mar 2017 00:00:00 -0300</pubDate>
+      <pubDate>Sat, 18 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/masterybook/</guid>
       <description>Book: Mastery by Robert Greene. Rating: ⭐️⭐️⭐️⭐️⭐️.
@@ -1559,7 +1570,7 @@ I had 30 minutes to present and I did it in 26. I usually speak fast and this pr
     <item>
       <title>Review of The Diary of a Young Girl</title>
       <link>https://pothix.com/annefrank/</link>
-      <pubDate>Wed, 01 Feb 2017 00:00:00 -0200</pubDate>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/annefrank/</guid>
       <description>Book: The Diary of a Young Girl by Anne Frank. Rating: ⭐️⭐️⭐️.
@@ -1570,7 +1581,7 @@ The book is OK. Most part of it is just what you expect from a diary of a 14 yea
     <item>
       <title>Review of Outliers: The Story of Success</title>
       <link>https://pothix.com/outliersbook/</link>
-      <pubDate>Mon, 23 Jan 2017 00:00:00 -0200</pubDate>
+      <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/outliersbook/</guid>
       <description>Book: Outliers: The Story of Success by Malcolm Gladwell. Rating: ⭐️⭐️⭐️⭐️.
@@ -1581,7 +1592,7 @@ The key point of this book is: what makes successful people is a match of many f
     <item>
       <title>Review of The Memory Illusion: Remembering, Forgetting, and the Science of False Memory</title>
       <link>https://pothix.com/memoryillusion/</link>
-      <pubDate>Wed, 18 Jan 2017 00:00:00 -0200</pubDate>
+      <pubDate>Wed, 18 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/memoryillusion/</guid>
       <description>Book: The Memory Illusion: Remembering, Forgetting, and the Science of False Memory by Julia Shaw. Rating: ⭐️⭐️⭐️.
@@ -1592,7 +1603,7 @@ The good argument in favor of this book is its references. There are many refere
     <item>
       <title>Review of Algorithms to Live By: The Computer Science of Human Decisions</title>
       <link>https://pothix.com/algorithmstoliveby/</link>
-      <pubDate>Thu, 29 Dec 2016 00:00:00 -0200</pubDate>
+      <pubDate>Thu, 29 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/algorithmstoliveby/</guid>
       <description>Book: Algorithms to Live By: The Computer Science of Human Decisions by Brian Christian. Rating: ⭐️⭐️⭐️⭐️.
@@ -1603,7 +1614,7 @@ I tend to not implement algorithms just for the sake of learning a new one and t
     <item>
       <title>Review of Programming Elixir: Functional |&gt; Concurrent |&gt; Pragmatic |&gt; Fun</title>
       <link>https://pothix.com/programmingelixir/</link>
-      <pubDate>Fri, 16 Dec 2016 00:00:00 -0200</pubDate>
+      <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/programmingelixir/</guid>
       <description>Book: Programming Elixir: Functional |&amp;gt; Concurrent |&amp;gt; Pragmatic |&amp;gt; Fun by Dave Thomas. Rating: ⭐️⭐️⭐️.
@@ -1614,7 +1625,7 @@ I started with Programming Phoenix for a more practical learning. This book feel
     <item>
       <title>Review of The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life</title>
       <link>https://pothix.com/artofnotgivingafuck/</link>
-      <pubDate>Fri, 09 Dec 2016 00:00:00 -0200</pubDate>
+      <pubDate>Fri, 09 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/artofnotgivingafuck/</guid>
       <description>Book: The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life by Mark Manson. Rating: ⭐️⭐️⭐️.
@@ -1627,7 +1638,7 @@ Here are my raw notes about the book:
     <item>
       <title>Review of TED Talks: The Official TED Guide to Public Speaking</title>
       <link>https://pothix.com/tedtalksbook/</link>
-      <pubDate>Fri, 02 Dec 2016 00:00:00 -0200</pubDate>
+      <pubDate>Fri, 02 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/tedtalksbook/</guid>
       <description>Book: TED Talks: The Official TED Guide to Public Speaking by Chris J. Anderson. Rating: ⭐️⭐️⭐️.
@@ -1638,7 +1649,7 @@ This book shows the way to deliver a presentation that earns a standing ovation 
     <item>
       <title>Review of Will It Fly?: How to Test Your Next Business Idea So You Don&#39;t Waste Your Time and Money</title>
       <link>https://pothix.com/willitfly/</link>
-      <pubDate>Sun, 13 Nov 2016 00:00:00 -0200</pubDate>
+      <pubDate>Sun, 13 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/willitfly/</guid>
       <description>Book: Will It Fly?: How to Test Your Next Business Idea So You Don&amp;rsquo;t Waste Your Time and Money . Rating: ⭐️⭐️⭐️⭐️.
@@ -1650,7 +1661,7 @@ Here are my raw notes about the book:
     <item>
       <title>Review of The 10x Rule: The Only Difference Between Success and Failure</title>
       <link>https://pothix.com/10xrule/</link>
-      <pubDate>Fri, 11 Nov 2016 00:00:00 -0200</pubDate>
+      <pubDate>Fri, 11 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/10xrule/</guid>
       <description>Book: The 10x Rule: The Only Difference Between Success and Failure by Grant Cardone. Rating: ⭐️⭐️⭐️⭐️.
@@ -1660,7 +1671,7 @@ I really like this book. I would recommend it if you are the kind of person that
     <item>
       <title>Review of Einstein: His Life and Universe</title>
       <link>https://pothix.com/einsteinbio/</link>
-      <pubDate>Thu, 27 Oct 2016 00:00:00 -0200</pubDate>
+      <pubDate>Thu, 27 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/einsteinbio/</guid>
       <description>Book: Einstein: His Life and Universe by Walter Isaacson. Rating: ⭐️⭐️⭐️⭐️⭐️.
@@ -1672,7 +1683,7 @@ I knew that Albert Einstein was a genius but it was not just that. He was extrem
     <item>
       <title>Review of Programming Phoenix: Productive |&gt; Reliable |&gt; Fast</title>
       <link>https://pothix.com/programmingphoenix/</link>
-      <pubDate>Sat, 15 Oct 2016 00:00:00 -0300</pubDate>
+      <pubDate>Sat, 15 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/programmingphoenix/</guid>
       <description>Book: Programming Phoenix: Productive |&amp;gt; Reliable |&amp;gt; Fast by Chris McCord. Rating: ⭐️⭐️⭐️⭐️.
@@ -1684,7 +1695,7 @@ I decided to try Programming Phoenix and found that it shows everything I need t
     <item>
       <title>Review of The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win</title>
       <link>https://pothix.com/phoenixproject/</link>
-      <pubDate>Wed, 05 Oct 2016 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 05 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/phoenixproject/</guid>
       <description>Book: The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win by Gene Kim. Rating: ⭐️⭐️⭐️⭐️.
@@ -1696,7 +1707,7 @@ It is a typical hero&amp;rsquo;s journey and the characters are not so well deve
     <item>
       <title>Review of Level Up Your Life: How to Unlock Adventure and Happiness by Becoming the Hero of Your Own Story</title>
       <link>https://pothix.com/levelupyourlife/</link>
-      <pubDate>Mon, 03 Oct 2016 00:00:00 -0300</pubDate>
+      <pubDate>Mon, 03 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/levelupyourlife/</guid>
       <description>Book: Level Up Your Life: How to Unlock Adventure and Happiness by Becoming the Hero of Your Own Story by Steve Kamb. Rating: ⭐️⭐️⭐️.
@@ -1708,7 +1719,7 @@ There are many great references for the nerds out there.</description>
     <item>
       <title>Review of The Coaching Habit: Say Less, Ask More &amp; Change the Way You Lead Forever</title>
       <link>https://pothix.com/coachinghabits/</link>
-      <pubDate>Fri, 02 Sep 2016 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 02 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/coachinghabits/</guid>
       <description>Book: The Coaching Habit: Say Less, Ask More &amp;amp; Change the Way You Lead Forever. Rating: ⭐️⭐️⭐️.
@@ -1720,7 +1731,7 @@ Here are my raw notes about the book:
     <item>
       <title>Review of How to Spot a Liar with People Don&#39;t Tell the Truth</title>
       <link>https://pothix.com/howtospotaliar/</link>
-      <pubDate>Mon, 29 Aug 2016 00:00:00 -0300</pubDate>
+      <pubDate>Mon, 29 Aug 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/howtospotaliar/</guid>
       <description>Book: How to Spot a Liar with People Don&amp;rsquo;t Tell the Truth by Gregory Hartley. Rating: ⭐️⭐️.
@@ -1732,7 +1743,7 @@ But it is not all that bad. I got some interesting tips on body language and the
     <item>
       <title>Review of Thinking, Fast and Slow</title>
       <link>https://pothix.com/thinkingfastslow/</link>
-      <pubDate>Fri, 12 Aug 2016 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 12 Aug 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/thinkingfastslow/</guid>
       <description>Book: Thinking, Fast and Slow by Daniel Kahneman. Rating: ⭐️⭐️⭐️⭐️.
@@ -1744,7 +1755,7 @@ There are dozens of serious research done to make this book happen. They were no
     <item>
       <title>Review of The Power of Habit: Why We Do What We Do in Life and Business</title>
       <link>https://pothix.com/powerofhabit/</link>
-      <pubDate>Fri, 08 Jul 2016 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 08 Jul 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/powerofhabit/</guid>
       <description>Book: The Power of Habit: Why We Do What We Do in Life and Business by Charles Duhigg. Rating: ⭐️⭐️⭐️⭐️⭐️.
@@ -1755,7 +1766,7 @@ I like the number of studies this book shows and how much we understand about ou
     <item>
       <title>Review of Life, the Universe and Everything (Hitchhiker&#39;s Guide to the Galaxy, #3)</title>
       <link>https://pothix.com/hitchhiker3/</link>
-      <pubDate>Mon, 27 Jun 2016 00:00:00 -0300</pubDate>
+      <pubDate>Mon, 27 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/hitchhiker3/</guid>
       <description>Book: Life, the Universe and Everything (Hitchhiker&amp;rsquo;s Guide to the Galaxy, #3) by Douglas Adams. Rating: ⭐️⭐️⭐️.
@@ -1766,7 +1777,7 @@ This book made me think about reading the fourth and fifth and I think I will st
     <item>
       <title>Review of The Restaurant at the End of the Universe (Hitchhiker&#39;s Guide to the Galaxy, #2)</title>
       <link>https://pothix.com/hitchhiker2/</link>
-      <pubDate>Tue, 14 Jun 2016 00:00:00 -0300</pubDate>
+      <pubDate>Tue, 14 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/hitchhiker2/</guid>
       <description>Book: The Restaurant at the End of the Universe (Hitchhiker&amp;rsquo;s Guide to the Galaxy, #2) by Douglas Adams. Rating: ⭐️⭐️⭐️⭐️⭐️.
@@ -1777,7 +1788,7 @@ There are some nice gotchas that make you laugh while reading, I really recommen
     <item>
       <title>Review of The Hitchhiker&#39;s Guide to the Galaxy (Hitchhiker&#39;s Guide to the Galaxy, #1)</title>
       <link>https://pothix.com/hitchhiker1/</link>
-      <pubDate>Mon, 06 Jun 2016 00:00:00 -0300</pubDate>
+      <pubDate>Mon, 06 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/hitchhiker1/</guid>
       <description>Book: The Hitchhiker&amp;rsquo;s Guide to the Galaxy (Hitchhiker&amp;rsquo;s Guide to the Galaxy, #1) by Douglas Adams. Rating: ⭐️⭐️⭐️⭐️⭐️.
@@ -1788,7 +1799,7 @@ There are some ideas that look so absurd in real life but make sense in the book
     <item>
       <title>Review of The Future of the Professions: How Technology Will Transform the Work of Human Experts</title>
       <link>https://pothix.com/futureofprofessions/</link>
-      <pubDate>Wed, 01 Jun 2016 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/futureofprofessions/</guid>
       <description>Book: The Future of the Professions: How Technology Will Transform the Work of Human Experts by Richard Susskind. Rating: ⭐️⭐️⭐️.
@@ -1798,7 +1809,7 @@ It is a nice idea and the arguments looks valid and make you think about the fut
     <item>
       <title>Review of Docker Security: Using Containers Safely in Production</title>
       <link>https://pothix.com/dockersecuritybook/</link>
-      <pubDate>Mon, 23 May 2016 00:00:00 -0300</pubDate>
+      <pubDate>Mon, 23 May 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/dockersecuritybook/</guid>
       <description>Book: Docker Security: Using Containers Safely in Production by Adrian Mouat. Rating: ⭐️⭐️⭐️⭐️.
@@ -1808,7 +1819,7 @@ It&amp;rsquo;s a good book for who is using or planning to use Docker in product
     <item>
       <title>Review of The Wolf of Wall Street (The Wolf of Wall Street, #1)</title>
       <link>https://pothix.com/wolfofwallstreet/</link>
-      <pubDate>Wed, 11 May 2016 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 11 May 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/wolfofwallstreet/</guid>
       <description>Book: The Wolf of Wall Street (The Wolf of Wall Street, #1) by Jordan Belfort. Rating: ⭐️⭐️⭐️.
@@ -1822,7 +1833,7 @@ The only thing that I absorved from this book is: This kind of life is not for m
     <item>
       <title>Review of The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change</title>
       <link>https://pothix.com/7habits/</link>
-      <pubDate>Mon, 02 May 2016 00:00:00 -0300</pubDate>
+      <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/7habits/</guid>
       <description>Book: The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change by Stephen R. Covey. Rating: ⭐️⭐️⭐️⭐️.
@@ -1833,7 +1844,7 @@ There are some great insights, at least for me, in this book. The author says th
     <item>
       <title>Review of Getting Real: The Smarter, Faster, Easier Way to Build a Web Application</title>
       <link>https://pothix.com/gettingrealbook/</link>
-      <pubDate>Mon, 04 Apr 2016 00:00:00 -0300</pubDate>
+      <pubDate>Mon, 04 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/gettingrealbook/</guid>
       <description>Book: Getting Real: The Smarter, Faster, Easier Way to Build a Web Application by 37 Signals. Rating: ⭐️⭐️⭐️⭐️.
@@ -1844,7 +1855,7 @@ Some of them can&amp;rsquo;t be applied to big and established companies, but it
     <item>
       <title>Review of Hackers: Heroes of the Computer Revolution</title>
       <link>https://pothix.com/hackerscomputerrevolution/</link>
-      <pubDate>Fri, 01 Apr 2016 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/hackerscomputerrevolution/</guid>
       <description>Book: Hackers: Heroes of the Computer Revolution by Steven Levy. Rating: ⭐️⭐️⭐️⭐️⭐️.
@@ -1855,7 +1866,7 @@ The word Hackers is not the same these days, but the Hacker Ethics still lives i
     <item>
       <title>Review of MONEY Master the Game: 7 Simple Steps to Financial Freedom</title>
       <link>https://pothix.com/moneymasterthegame/</link>
-      <pubDate>Mon, 21 Mar 2016 00:00:00 -0300</pubDate>
+      <pubDate>Mon, 21 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/moneymasterthegame/</guid>
       <description>Book: MONEY Master the Game: 7 Simple Steps to Financial Freedom by Anthony Robbins. Rating: ⭐️⭐️⭐️⭐️.
@@ -1866,7 +1877,7 @@ When I started this book my feeling was: &amp;ldquo;Man, this may be one of the 
     <item>
       <title>Review of A Study in Scarlet (Sherlock Holmes, #1)</title>
       <link>https://pothix.com/sherlockholmes1/</link>
-      <pubDate>Fri, 19 Feb 2016 00:00:00 -0200</pubDate>
+      <pubDate>Fri, 19 Feb 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/sherlockholmes1/</guid>
       <description>Book: A Study in Scarlet (Sherlock Holmes, #1) by Arthur Conan Doyle. Rating: ⭐️⭐️⭐️⭐️.
@@ -1877,7 +1888,7 @@ I really recommend you to read it if you like stories on investigation.</descrip
     <item>
       <title>Review of Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture</title>
       <link>https://pothix.com/mastersofdoom/</link>
-      <pubDate>Wed, 17 Feb 2016 00:00:00 -0200</pubDate>
+      <pubDate>Wed, 17 Feb 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/mastersofdoom/</guid>
       <description>Book: Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture by David Kushner. Rating: ⭐️⭐️⭐️⭐️⭐️.
@@ -1888,7 +1899,7 @@ There are some other thoughts to put in this book. The two Johns are doing great
     <item>
       <title>Review of The Big Drop: How To Grow Your Wealth During the Coming Collapse</title>
       <link>https://pothix.com/bigdrop/</link>
-      <pubDate>Wed, 10 Feb 2016 00:00:00 -0200</pubDate>
+      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/bigdrop/</guid>
       <description>Book: The Big Drop: How To Grow Your Wealth During the Coming Collapse by James Rickards. Rating: ⭐️⭐️⭐️.
@@ -1899,7 +1910,7 @@ I&amp;rsquo;m Brazilian and some part of the economic context is not the same he
     <item>
       <title>Review of Freakonomics: A Rogue Economist Explores the Hidden Side of Everything</title>
       <link>https://pothix.com/freakonomics/</link>
-      <pubDate>Wed, 03 Feb 2016 00:00:00 -0200</pubDate>
+      <pubDate>Wed, 03 Feb 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/freakonomics/</guid>
       <description>Book: Freakonomics: A Rogue Economist Explores the Hidden Side of Everything by Steven D. Levitt. Rating: ⭐️⭐️⭐️⭐️.
@@ -1910,7 +1921,7 @@ In some parts it looks like the comparison of the global warming and the number 
     <item>
       <title>Review of Management 3.0: Leading Agile Developers, Developing Agile Leaders</title>
       <link>https://pothix.com/management30/</link>
-      <pubDate>Thu, 31 Dec 2015 00:00:00 -0200</pubDate>
+      <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/management30/</guid>
       <description>Book: Management 3.0: Leading Agile Developers, Developing Agile Leaders by Jurgen Appelo. Rating: ⭐️⭐️⭐️⭐️.
@@ -2019,7 +2030,7 @@ ln -s /usr/lib/libruby-1.9.1.so.1.9.1 /usr/lib/libruby.so.1.9 ln -s /usr/bin/rak
     <item>
       <title>Silmarilion</title>
       <link>https://pothix.com/silmarilion/</link>
-      <pubDate>Wed, 07 Jul 2010 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 07 Jul 2010 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/silmarilion/</guid>
       <description>Book: Silmarilion by J.R.R. Tolkien. Rating: ⭐️⭐️⭐️⭐️⭐️.
