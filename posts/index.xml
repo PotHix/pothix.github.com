@@ -41,7 +41,7 @@ on how to use Ruby in some particular scenarios where performance is needed. I
 especially liked the chapter 6, about code formatting. The final part of the
 book is also OK, but you have to read it with a grain of salt as it feels like
 a mother talking about how pretty is her son/daughter. 😅</p>
-<p><strong>Here are my raw notes (and comments) about the book:</strong></p>
+<p><strong>Here are my kindle highlights and my comments (in 💭) about the book:</strong></p>
 <p>Chapter 1: Getting the Most out of Core Classes</p>
 <ul>
 <li>Ruby&rsquo;s core classes also use nil as a signal that a method that modifies the receiver did not make a modification:</li>
