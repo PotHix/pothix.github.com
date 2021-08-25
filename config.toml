@@ -10,13 +10,25 @@ paginate     = 10
   tag    = "tags"
   series = "series"
 
+  [[params.social]]
+    name = "email"
+    url  = "mailto:pothix@pothix.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/pothix"
+
+  [[params.social]]
+    name = "gitlab"
+    url  = "https://gitlab.com/pothix"
+
 [permalinks]
   posts = "/:filename"
 
 
 [params]
   description = ""
-  keywords = ["Programming", "Linux", "Desconstruindo a web", "Ruby", "Elixir", "Golang", "Guru-SP", "Rust", "Productivity"]
+  keywords = ["Programming", "Productivity"]
 
   #############################################
   # hello-friend-* params
@@ -27,7 +39,7 @@ paginate     = 10
   dateformNumTime = "2006-01-02"
 
   # Subtitle for home
-  homeSubtitle = "A simple and beautiful blog"
+  homeSubtitle = "Software development, productivity, remote work, and some other thoughts."
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = true
