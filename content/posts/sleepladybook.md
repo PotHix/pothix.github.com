@@ -1,5 +1,5 @@
 +++
-title = "The Sleep Lady's Good Night, Sleep Tight: Gentle Proven Solutions to Help Your Child Sleep without Leaving Them to Cry-it-Out"
+title = "Review of The Sleep Lady's Good Night, Sleep Tight"
 date = 2021-08-24
 tags = [
     "english",
