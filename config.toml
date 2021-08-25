@@ -1,8 +1,7 @@
 baseurl = "https://pothix.com"
 languageCode = "en"
 title = "PotHix"
-# theme = "doctype"
-theme = "hello-friend-ng"
+theme = "hello-friend-pothix"
 # disqusShortname = "pothixcom"
 googleAnalytics = "UA-2852094-2"
 paginate     = 10
@@ -20,7 +19,7 @@ paginate     = 10
   keywords = ["Programming", "Linux", "Desconstruindo a web", "Ruby", "Elixir", "Golang", "Guru-SP", "Rust", "Productivity"]
 
   #############################################
-  # hello-friend-ng params
+  # hello-friend-* params
   #############################################
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2, 2006"
