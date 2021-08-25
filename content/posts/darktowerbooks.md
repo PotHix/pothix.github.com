@@ -1,5 +1,5 @@
 +++
-title = "Review of The Dark Tower Series"
+title = "Review of The Dark Tower Book Series"
 date = 2021-08-25
 tags = [
     "english",
