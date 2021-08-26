@@ -1,13 +1,16 @@
 +++
-title = "Silmarilion"
+title = "Review of The Silmarillion"
 date = 2010-07-07
 tags = [
     "english",
     "books",
 ]
+aliases = [
+    "silmarilion"
+]
 +++
 
-Book: [Silmarilion](https://www.goodreads.com/review/show/1434543586) by J.R.R.
+Book: [The Silmarilion](https://www.goodreads.com/review/show/1434543586) by J.R.R.
 Tolkien. Rating: ⭐️⭐️⭐️⭐️⭐️.
 
 This is J.R.R. Tolkien's life work. The other known books a product of this. He
@@ -24,9 +27,9 @@ character or entity is just amazing. It's great to see the big amount of
 references coming from Catholicism, Nordic stories, Greek goods (in a way), and
 Tolkien's imagination.
 
-If you're planning to read [[book/Os Filhos de Húrin (The Children of Húrin)]],
-do it first and skip the same story from the Silmarilion. They are the same, but
-it's complete in its own book (I totally recommend the story BTW).
+If you're planning to read The Children of Húrin, do it first and skip the same
+story from the Silmarilion. They are the same, but it's complete in its own book
+(I totally recommend the story BTW).
 
 In summary, if you like Tolkien and the Middle earth, the Silmarilion is a must
 read to fully comprehend the background story.
