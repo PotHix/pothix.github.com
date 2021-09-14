@@ -272,13 +272,13 @@ start trying docker and if it didn&rsquo;t work, go for option 2.</p>
 <p>I <a href="https://github.com/PotHix/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/pothix">created my own keymap inside my
 fork</a>
 so it would be easy to keep the main code updated. So I have to use the following command to compile it:</p>
-<pre><code>make keebio/iris/rev4:pothix
+<pre tabindex="0"><code>make keebio/iris/rev4:pothix
 </code></pre><p>If everything goes right, I just can just flash it.</p>
 <p>Connect the keyboard to the USB port and hit the RESET button. It may be via
 RESET button at the back of the keyboard of actually hitting the RESET key on
 the &ldquo;LOWER&rdquo; layer (check the default keymap for more info).</p>
 <p>After that, run the following command:</p>
-<pre><code>sudo make keebio/iris/rev4:pothix:flash
+<pre tabindex="0"><code>sudo make keebio/iris/rev4:pothix:flash
 </code></pre><p>I&rsquo;m not able to flash it without sudo, so keep it in mind when flashing.</p>
 <p>Remember to flash both sides because you may get incompatibilities and weird
 behaviors sometimes. Here is one I had:</p>

@@ -154,18 +154,18 @@ I&rsquo;m adding a new file as a layout (link here) and I have to change tmk_cor
 <p>To do that, I&rsquo;m using the <code>qmk_firmware</code>.</p>
 <p>I&rsquo;m adding a new file as a layout (link here) and I have to change
 <code>tmk_core/common/avr/bootloader.c</code> to be able to compile it:</p>
-<pre><code>-uint32_t reset_key  __attribute__ ((section (&quot;.noinit&quot;)));
+<pre tabindex="0"><code>-uint32_t reset_key  __attribute__ ((section (&quot;.noinit&quot;)));
 +uint32_t reset_key __attribute__ ((section (&quot;.noinit,\&quot;aw\&quot;,@nobits;&quot;)));
 </code></pre><p>After that, I just had to get the keyboard to the reset mode via <code>fn + ESC</code> (to
 change the layout) and then pressed the RESET button. I had to refer to the map
 for the current layot to find the keys but after that, it went smoothly.</p>
 <p>To compile the firmware you want, just use <code>make</code> and specify the keyboard and layout:</p>
-<pre><code>make keyboard=atreus keymap=pothix
+<pre tabindex="0"><code>make keyboard=atreus keymap=pothix
 </code></pre><p>In this case, I have a keymap called &ldquo;pothix&rdquo; at <code>qmk_firmware/keyboards/atreus/keymaps</code>.
 To flash the firmware, I used the <code>avrdude</code> command:</p>
-<pre><code>sudo avrdude -p atmega32u4 -c avr109 -U flash:w:atreus_pothix.hex -P /dev/ttyACM0
+<pre tabindex="0"><code>sudo avrdude -p atmega32u4 -c avr109 -U flash:w:atreus_pothix.hex -P /dev/ttyACM0
 </code></pre><p>The result will be something like:</p>
-<pre><code>Connecting to programmer: .
+<pre tabindex="0"><code>Connecting to programmer: .
 Found programmer: Id = &quot;CATERIN&quot;; type = S
     Software Version = 1.0; No Hardware Version given.
 Programmer supports auto addr increment.

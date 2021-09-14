@@ -171,7 +171,7 @@ read, but 3 stars are enough for it.</p>
 <p>As usual, I&rsquo;m using that same export file from
 <a href="https://getpocket.com">Pocket</a> and this time I changed the script to
 calculate, it will save me some time in the next month:</p>
-<pre><code>var pocket = {unread: 1296, unread_pct: 1.00, read: 946, read_pct: 1.00};
+<pre tabindex="0"><code>var pocket = {unread: 1296, unread_pct: 1.00, read: 946, read_pct: 1.00};
 var uls=document.body.getElementsByTagName(&quot;ul&quot;);
 unread = uls[0].children.length;
 pocket[&quot;unread_pct&quot;] = +((1 - pocket[&quot;unread&quot;] / unread) * 100).toFixed(2);

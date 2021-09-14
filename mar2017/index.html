@@ -172,7 +172,7 @@ how to live a minimalist life.</p>
 <h3 id="articles">Articles</h3>
 <p>I&rsquo;m still trying to find a way to track the articles I read. In the past months I&rsquo;ve being adding all of them to Pocket and reading there. Unfortunately I could not find anything to build information from my pocket reading data (suggestions welcome).</p>
 <p>For now I&rsquo;m just <a href="https://getpocket.com/export">exporting my content in HTML format</a> and using a simple Javascript to count it:</p>
-<pre><code>var uls=document.body.getElementsByTagName(&quot;ul&quot;);
+<pre tabindex="0"><code>var uls=document.body.getElementsByTagName(&quot;ul&quot;);
 for(var i=0; i&lt;uls.length; i++) {
     console.log(uls[i].children.length)
 }

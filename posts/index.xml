@@ -80,7 +80,7 @@ chronological order with a narrative that makes sense, but you still feel it was
 not created as a single piece. I usually compare this to The Bible (please
 forgive me if you&rsquo;re religious, I&rsquo;m not anymore), because it <strong>has</strong> a
 narrative, but you can feel this is a collection of texts.</p>
-<p>Now that you get what The Silmarillion is, you can read it in many ways. The one
+<p>Now that you get what The Silmarillion is, you can read it in many ways. The way
 I recommend is to start with books that came out of the it. One of them is The
 Children of Húrin. It feels much complete as a story by itself, and you can skip
 the story about Turin Turambar when you finish this and start reading The
@@ -1146,9 +1146,9 @@ lists tracks by tag and not a file name.</p>
 <p>To quickly fix this problem, I had my own set of scripts.</p>
 <p>The first one is a quick shell script to remove spaces from files to make them
 easy to manipulate:</p>
-<pre><code>ls | while read -r FILE; do mv -v &quot;$FILE&quot; `echo $FILE | tr ' ' '_'; done
+<pre tabindex="0"><code>ls | while read -r FILE; do mv -v &quot;$FILE&quot; `echo $FILE | tr ' ' '_'; done
 </code></pre><p>and the second is a line of shell script using <code>id3lib</code> to add the file name to its metatags:</p>
-<pre><code>for i in *.mp3; do id3tag --song=&quot;$i&quot; $i; done```
+<pre tabindex="0"><code>for i in *.mp3; do id3tag --song=&quot;$i&quot; $i; done```
 </code></pre><p>Now that I had the right metatags, I could just transfer the files to my
 cellphone and add them to Podcast Addict. The process was mostly the same I&rsquo;m
 doing now, so let&rsquo;s describe the current process.</p>
@@ -2991,7 +2991,7 @@ empresa. Além do extrato mensal consolidado, eu envio todos os documentos que e
 recebi ou enviei, assim eles podem ter uma foto completa do que aconteceu com a
 empresa no mês passado.</p>
 <p>Eu uso o <a href="https://www.dropbox.com/referrals/AACKsl9GSQ2ztA7PDvXFvszgPaYtDtUbzYg?src=global9">Dropbox</a> para gerenciar os documentos da minha empresa e mantenho a seguinte estrutura:</p>
-<pre><code>~/Dropbox/Aulë Software ❯ tree . -d -L 2
+<pre tabindex="0"><code>~/Dropbox/Aulë Software ❯ tree . -d -L 2
 [...]
 ├── 2020
 │   ├── 01
@@ -3021,7 +3021,7 @@ empresa no mês passado.</p>
 </code></pre><p>Tem os anos a partir de 2017 ali (removi porque era a mesma coisa de 2020) e
 desde lá eu tenho a mesma estrutura de documentos. O diretório <code>template</code> ali
 tem vários arquivos que eu sei que são necessários todo mês. Aqui um exemplo:</p>
-<pre><code>~/Dropbox/Aulë Software ❯ tree 2021/template/
+<pre tabindex="0"><code>~/Dropbox/Aulë Software ❯ tree 2021/template/
 2021/template/
 ├── aule-receipts
 ├── contabil
@@ -3086,7 +3086,7 @@ para o valor total do mês passado. Eu gostaria de fazer isso no meio do mês, m
 eu acho que fica muito bagunçado cobrar um mês pela metade, por isso faço dessa
 forma bem no começo do mês.</p>
 <p>Com isso eu já adiciono alguns documentos no Dropbox:</p>
-<pre><code>~/Dropbox/Aulë Software ❯ tree 2021/template/
+<pre tabindex="0"><code>~/Dropbox/Aulë Software ❯ tree 2021/template/
 2021/template/
 ├── aule-receipts
 ├── contabil
@@ -3141,7 +3141,7 @@ tempo. Eu geralmente faço isso pelo aplicativo de celular do meu banco, caso
 seja possível. Algumas coisas não funcionam bem no celular, aí tem que ir para o
 computador, mas são casos raros ultimamente.</p>
 <p>Com isso já temos:</p>
-<pre><code>~/Dropbox/Aulë Software ❯ tree 2021/template/
+<pre tabindex="0"><code>~/Dropbox/Aulë Software ❯ tree 2021/template/
 2021/template/
 OK ├── aule-receipts
 ├── contabil
@@ -3222,7 +3222,7 @@ mas eu prefiro uma forma mais organizada de fazer as coisas (tipo 2 ali).</p>
 <li>O valor de adiantamento de lucros baseado no balanço</li>
 </ul>
 <p>Com isso:</p>
-<pre><code>~/Dropbox/Aulë Software ❯ tree 2021/template/
+<pre tabindex="0"><code>~/Dropbox/Aulë Software ❯ tree 2021/template/
 2021/template/
 OK ├── aule-receipts
 OK ├── contabil
@@ -3270,7 +3270,7 @@ minha conta de internet, que tenho subsídio ❤️.</p>
 <p>Faço a invoice mais ou menos da mesma forma que eu fiz do freela no começo do
 mês e envio para a empresa para começar o processo de pagamento.</p>
 <p>Com isso:</p>
-<pre><code>~/Dropbox/Aulë Software ❯ tree 2021/template/
+<pre tabindex="0"><code>~/Dropbox/Aulë Software ❯ tree 2021/template/
 2021/template/
 OK ├── aule-receipts
 OK ├── contabil
@@ -3357,7 +3357,7 @@ contrato de cambio</li>
 </ul>
 <p>Esses documentos fazem a amarração da transação. 🙂</p>
 <p>Com isso eu fecho o meu ciclo de documentos e sei que está tudo OK:</p>
-<pre><code>~/Dropbox/Aulë Software ❯ tree 2021/template/
+<pre tabindex="0"><code>~/Dropbox/Aulë Software ❯ tree 2021/template/
 2021/template/
 OK ├── aule-receipts
 OK ├── contabil
@@ -3526,7 +3526,7 @@ just contains one commit, <code>gh</code> creates the description by itself:</p>
 </code></pre>
 <p>I even created a simple bash function to make it quickier when I use the
 following arguments:</p>
-<pre><code>create_pr() {
+<pre tabindex="0"><code>create_pr() {
     local reviewer=$1
     gh pr create -f -a $GITHUB_USER -r $reviewer
 }
@@ -3626,7 +3626,7 @@ keeping a <code>dmesg -w</code> running.</p>
 <p>The process was quite simple. I just connected the microcontroller, went to the
 qmk firmware directory and ran the following command right after reseting the
 promicro:</p>
-<pre><code>make keebio:laplace:default:avrdude
+<pre tabindex="0"><code>make keebio:laplace:default:avrdude
 </code></pre><p>and voilà:</p>
 <p><img src="/images/posts/dactyl2/flash-laplace.jpg" alt="Flashing laplace firmware"></p>
 <h2 id="testing-the-promicro">Testing the promicro</h2>
@@ -4814,13 +4814,13 @@ start trying docker and if it didn&rsquo;t work, go for option 2.</p>
 <p>I <a href="https://github.com/PotHix/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/pothix">created my own keymap inside my
 fork</a>
 so it would be easy to keep the main code updated. So I have to use the following command to compile it:</p>
-<pre><code>make keebio/iris/rev4:pothix
+<pre tabindex="0"><code>make keebio/iris/rev4:pothix
 </code></pre><p>If everything goes right, I just can just flash it.</p>
 <p>Connect the keyboard to the USB port and hit the RESET button. It may be via
 RESET button at the back of the keyboard of actually hitting the RESET key on
 the &ldquo;LOWER&rdquo; layer (check the default keymap for more info).</p>
 <p>After that, run the following command:</p>
-<pre><code>sudo make keebio/iris/rev4:pothix:flash
+<pre tabindex="0"><code>sudo make keebio/iris/rev4:pothix:flash
 </code></pre><p>I&rsquo;m not able to flash it without sudo, so keep it in mind when flashing.</p>
 <p>Remember to flash both sides because you may get incompatibilities and weird
 behaviors sometimes. Here is one I had:</p>
@@ -5340,7 +5340,7 @@ reserve some time every weekday to work on different things. This project is
 usually the first in the list, but sometimes I just don&rsquo;t want to work on it
 and decide to use my time for other things (tech-related or not).</p>
 <p>What I wrote on my 2017 Year in review still holds:</p>
-<pre><code>I really like my full-time job (more than ever!) but I like to do different
+<pre tabindex="0"><code>I really like my full-time job (more than ever!) but I like to do different
 projects without constraints, it can be this freelance job or other activities
 that also brings me joy.
 </code></pre><p>I have a metric for the <strong>time I spent doing/planning my talks</strong> this year:</p>
@@ -5516,7 +5516,7 @@ December:</p>
 <p>We can see that I wrote almost 1.5MM words since I started. I checked the first
 time Grammarly sent this number and it was 963,838 words written on Feb 11th.
 Let&rsquo;s do a simple math:</p>
-<pre><code>1478380 - 963838 = 514542   -- words written between Feb and Dec
+<pre tabindex="0"><code>1478380 - 963838 = 514542   -- words written between Feb and Dec
 514542 / 10 = 51424 -- words by month (Feb -&gt; Dec)
 </code></pre><p>It seems <strong>I write around 50k words every month</strong>. It would be <strong>around 600k works
 a year</strong>. 🙂</p>
@@ -5911,7 +5911,7 @@ to understand how to run the test suite for the compiler.</p>
 infrastructure works. It also shows the various types of tests you will find
 and how to run them. In my case, I had to run the UI tests of the compiler, so
 I could run it using the <code>x.py</code> script just like I do with everything else:</p>
-<pre><code>./x.py test --stage 1 src/test/ui
+<pre tabindex="0"><code>./x.py test --stage 1 src/test/ui
 </code></pre><p><em>PS. I will not go into the details of the code I used since you can refer to
 the documentation I linked and get a much better and detailed explanation.</em></p>
 <p>While trying to understand how the testing infrastructure works, I found a
@@ -6363,7 +6363,7 @@ week and what we plan to do during the next.</p>
 <p>When I want to report that, I go to the &ldquo;<code>Snippets</code>&rdquo; project, click on the menu,
 <strong>Export as a Template</strong>, and <strong>Export as file</strong>. I have a note in the same
 project with a command the does the job of formatting that:</p>
-<pre><code>cat ~/Downloads/Snippets.csv | grep -v project_note | grep &quot;task,&quot; | awk -F &quot;,&quot; '/1/ {print &quot;- &quot; $2}'; rm /home/pothix/Downloads/Snippets.csv
+<pre tabindex="0"><code>cat ~/Downloads/Snippets.csv | grep -v project_note | grep &quot;task,&quot; | awk -F &quot;,&quot; '/1/ {print &quot;- &quot; $2}'; rm /home/pothix/Downloads/Snippets.csv
 </code></pre><p>So I can just post it to <a href="https://twist.com">Twist</a>.</p>
 <h2 id="how-a-typical-day-looks-like">How a typical day looks like</h2>
 <p>I wake up early (because that&rsquo;s what I want for myself, I don&rsquo;t have to),
@@ -7622,18 +7622,18 @@ I&amp;rsquo;m adding a new file as a layout (link here) and I have to change tmk
 <p>To do that, I&rsquo;m using the <code>qmk_firmware</code>.</p>
 <p>I&rsquo;m adding a new file as a layout (link here) and I have to change
 <code>tmk_core/common/avr/bootloader.c</code> to be able to compile it:</p>
-<pre><code>-uint32_t reset_key  __attribute__ ((section (&quot;.noinit&quot;)));
+<pre tabindex="0"><code>-uint32_t reset_key  __attribute__ ((section (&quot;.noinit&quot;)));
 +uint32_t reset_key __attribute__ ((section (&quot;.noinit,\&quot;aw\&quot;,@nobits;&quot;)));
 </code></pre><p>After that, I just had to get the keyboard to the reset mode via <code>fn + ESC</code> (to
 change the layout) and then pressed the RESET button. I had to refer to the map
 for the current layot to find the keys but after that, it went smoothly.</p>
 <p>To compile the firmware you want, just use <code>make</code> and specify the keyboard and layout:</p>
-<pre><code>make keyboard=atreus keymap=pothix
+<pre tabindex="0"><code>make keyboard=atreus keymap=pothix
 </code></pre><p>In this case, I have a keymap called &ldquo;pothix&rdquo; at <code>qmk_firmware/keyboards/atreus/keymaps</code>.
 To flash the firmware, I used the <code>avrdude</code> command:</p>
-<pre><code>sudo avrdude -p atmega32u4 -c avr109 -U flash:w:atreus_pothix.hex -P /dev/ttyACM0
+<pre tabindex="0"><code>sudo avrdude -p atmega32u4 -c avr109 -U flash:w:atreus_pothix.hex -P /dev/ttyACM0
 </code></pre><p>The result will be something like:</p>
-<pre><code>Connecting to programmer: .
+<pre tabindex="0"><code>Connecting to programmer: .
 Found programmer: Id = &quot;CATERIN&quot;; type = S
     Software Version = 1.0; No Hardware Version given.
 Programmer supports auto addr increment.
@@ -8070,7 +8070,7 @@ read</em> for the month.</p>
 <p>I use a <code>SUMIF</code> to sum all lines containing the YEARMONTH tag and it
 shows I got <strong>27 articles read</strong>.</p>
 <p>Let&rsquo;s compare this with the old method:</p>
-<pre><code>var pocket = {&quot;unread&quot;:1539,&quot;unread_pct&quot;:2.47,&quot;read&quot;:1146,&quot;read_pct&quot;:4.36}
+<pre tabindex="0"><code>var pocket = {&quot;unread&quot;:1539,&quot;unread_pct&quot;:2.47,&quot;read&quot;:1146,&quot;read_pct&quot;:4.36}
 
 var uls=document.body.getElementsByTagName(&quot;ul&quot;);
 unread = uls[0].children.length;
@@ -8655,7 +8655,7 @@ got <strong>26 articles read</strong>.</p>
 considered just an experiment for now. I hope to soon change to this
 method of collecting data about the articles read.</p>
 <p>Meanwhile, it&rsquo;s worth keeping the old method:</p>
-<pre><code>var pocket = {&quot;unread&quot;:1501,&quot;unread_pct&quot;:3.66,&quot;read&quot;:1096,&quot;read_pct&quot;:4.2}
+<pre tabindex="0"><code>var pocket = {&quot;unread&quot;:1501,&quot;unread_pct&quot;:3.66,&quot;read&quot;:1096,&quot;read_pct&quot;:4.2}
 
 var uls=document.body.getElementsByTagName(&quot;ul&quot;);
 unread = uls[0].children.length;
@@ -8969,7 +8969,7 @@ A Guide to the Good Life: The Ancient Art of Stoic Joy. This book was on my read
 <p>As usual, I&rsquo;m using that same export file from
 <a href="https://getpocket.com">Pocket</a> and a script that look like the one I
 used last month. Here is the script with the actual data:</p>
-<pre><code>var pocket = {&quot;unread&quot;:1446,&quot;unread_pct&quot;:1.8,&quot;read&quot;:1050,&quot;read_pct&quot;:2.86}
+<pre tabindex="0"><code>var pocket = {&quot;unread&quot;:1446,&quot;unread_pct&quot;:1.8,&quot;read&quot;:1050,&quot;read_pct&quot;:2.86}
 
 var uls=document.body.getElementsByTagName(&quot;ul&quot;);
 unread = uls[0].children.length;
@@ -9274,7 +9274,7 @@ their conclusions.</p>
 <p>As usual, I&rsquo;m using that same export file from
 <a href="https://getpocket.com">Pocket</a> and a script that look like the one I
 used last month. Here is the script with the actual data:</p>
-<pre><code>var pocket = {&quot;unread&quot;:1420,&quot;unread_pct&quot;:4.79,&quot;read&quot;:1020,&quot;read_pct&quot;:1.18}
+<pre tabindex="0"><code>var pocket = {&quot;unread&quot;:1420,&quot;unread_pct&quot;:4.79,&quot;read&quot;:1020,&quot;read_pct&quot;:1.18}
 
 var uls=document.body.getElementsByTagName(&quot;ul&quot;);
 unread = uls[0].children.length;
@@ -9497,7 +9497,7 @@ The Art of Learning: A Journey in the Pursuit of Excellence.</description>
 <p>As usual, I&rsquo;m using that same export file from
 <a href="https://getpocket.com">Pocket</a> and a script that look like the one I
 used last month. Here is the script with the actual data:</p>
-<pre><code>var pocket = {&quot;unread&quot;:1352,&quot;unread_pct&quot;:4.14,&quot;read&quot;:1008,&quot;read_pct&quot;:6.15};
+<pre tabindex="0"><code>var pocket = {&quot;unread&quot;:1352,&quot;unread_pct&quot;:4.14,&quot;read&quot;:1008,&quot;read_pct&quot;:6.15};
 
 var uls=document.body.getElementsByTagName(&quot;ul&quot;);
 unread = uls[0].children.length;
@@ -9833,7 +9833,7 @@ read, but 3 stars are enough for it.</p>
 <p>As usual, I&rsquo;m using that same export file from
 <a href="https://getpocket.com">Pocket</a> and this time I changed the script to
 calculate, it will save me some time in the next month:</p>
-<pre><code>var pocket = {unread: 1296, unread_pct: 1.00, read: 946, read_pct: 1.00};
+<pre tabindex="0"><code>var pocket = {unread: 1296, unread_pct: 1.00, read: 946, read_pct: 1.00};
 var uls=document.body.getElementsByTagName(&quot;ul&quot;);
 unread = uls[0].children.length;
 pocket[&quot;unread_pct&quot;] = +((1 - pocket[&quot;unread&quot;] / unread) * 100).toFixed(2);
@@ -10580,7 +10580,7 @@ but I want to finish soon, it&rsquo;s really small.</p>
 <p>As usual, I&rsquo;m using that same export file
 from <a href="https://getpocket.com">Pocket</a> and the same script to calculate
 the amount of articles I read:</p>
-<pre><code>var uls=document.body.getElementsByTagName(&quot;ul&quot;);
+<pre tabindex="0"><code>var uls=document.body.getElementsByTagName(&quot;ul&quot;);
 for(var i=0; i&lt;uls.length; i++) {
     console.log(uls[i].children.length)
 }
@@ -10820,7 +10820,7 @@ while.</p>
 <p>As usual, I&rsquo;m using that same export file
 from <a href="https://getpocket.com">Pocket</a> and the same script to calculate
 the amount of articles I read:</p>
-<pre><code>var uls=document.body.getElementsByTagName(&quot;ul&quot;);
+<pre tabindex="0"><code>var uls=document.body.getElementsByTagName(&quot;ul&quot;);
 for(var i=0; i&lt;uls.length; i++) {
     console.log(uls[i].children.length)
 }
@@ -11040,7 +11040,7 @@ much when traveling, so it&rsquo;s sad but expected. 😞</p>
 <h3 id="articles">Articles</h3>
 <p>As usual, I&rsquo;m using that same export file from <a href="https://getpocket.com">Pocket</a>
 and the same script to calculate the amount of articles I read:</p>
-<pre><code>var uls=document.body.getElementsByTagName(&quot;ul&quot;);
+<pre tabindex="0"><code>var uls=document.body.getElementsByTagName(&quot;ul&quot;);
 for(var i=0; i&lt;uls.length; i++) {
     console.log(uls[i].children.length)
 }
@@ -11261,7 +11261,7 @@ pressing things to do this month.</p>
 <p>As usual, I&rsquo;m using that same export file
 from <a href="https://getpocket.com">Pocket</a> and the same script to calculate
 the amount of articles I read:</p>
-<pre><code>var uls=document.body.getElementsByTagName(&quot;ul&quot;);
+<pre tabindex="0"><code>var uls=document.body.getElementsByTagName(&quot;ul&quot;);
 for(var i=0; i&lt;uls.length; i++) {
     console.log(uls[i].children.length)
 }
@@ -11590,7 +11590,7 @@ really amazing. Totally recommended.</p>
 <p>As usual, I&rsquo;m using that same export file
 from <a href="https://getpocket.com">Pocket</a> and the same script to calculate
 the amount of articles I read:</p>
-<pre><code>var uls=document.body.getElementsByTagName(&quot;ul&quot;);
+<pre tabindex="0"><code>var uls=document.body.getElementsByTagName(&quot;ul&quot;);
 for(var i=0; i&lt;uls.length; i++) {
     console.log(uls[i].children.length)
 }
@@ -11972,7 +11972,7 @@ reading the books. I hope to start the next one soon.</p>
 <p>As usual, I&rsquo;m using that same export file
 from <a href="https://getpocket.com">Pocket</a> and the same script to calculate
 the amount of articles I read:</p>
-<pre><code>var uls=document.body.getElementsByTagName(&quot;ul&quot;);
+<pre tabindex="0"><code>var uls=document.body.getElementsByTagName(&quot;ul&quot;);
 for(var i=0; i&lt;uls.length; i++) {
     console.log(uls[i].children.length)
 }
@@ -12394,7 +12394,7 @@ about words as being pointers to a meaning. :)</p>
 <p>As usual, I&rsquo;m using that same export file
 from <a href="https://getpocket.com">Pocket</a> and the same script to calculate
 the amount of articles I read:</p>
-<pre><code>var uls=document.body.getElementsByTagName(&quot;ul&quot;);
+<pre tabindex="0"><code>var uls=document.body.getElementsByTagName(&quot;ul&quot;);
 for(var i=0; i&lt;uls.length; i++) {
     console.log(uls[i].children.length)
 }
@@ -13009,7 +13009,7 @@ schedule. The <a href="http://amzn.to/2r1nCG0">book about Elon Musk</a> was a
 good reading as well, this guy has some great ideas.</p>
 <h3 id="articles">Articles</h3>
 <p>I&rsquo;m using the same export file from <a href="https://getpocket.com">Pocket</a> and the same script to calculate the amount of articles I read:</p>
-<pre><code>var uls=document.body.getElementsByTagName(&quot;ul&quot;);
+<pre tabindex="0"><code>var uls=document.body.getElementsByTagName(&quot;ul&quot;);
 for(var i=0; i&lt;uls.length; i++) {
     console.log(uls[i].children.length)
 }
@@ -13277,7 +13277,7 @@ from
 the astronaut.</p>
 <h3 id="articles">Articles</h3>
 <p>I&rsquo;m using the same export file from <a href="https://getpocket.com">Pocket</a> and the same script to calculate my articles:</p>
-<pre><code>var uls=document.body.getElementsByTagName(&quot;ul&quot;);
+<pre tabindex="0"><code>var uls=document.body.getElementsByTagName(&quot;ul&quot;);
 for(var i=0; i&lt;uls.length; i++) {
     console.log(uls[i].children.length)
 }
@@ -13560,7 +13560,7 @@ how to live a minimalist life.</p>
 <h3 id="articles">Articles</h3>
 <p>I&rsquo;m still trying to find a way to track the articles I read. In the past months I&rsquo;ve being adding all of them to Pocket and reading there. Unfortunately I could not find anything to build information from my pocket reading data (suggestions welcome).</p>
 <p>For now I&rsquo;m just <a href="https://getpocket.com/export">exporting my content in HTML format</a> and using a simple Javascript to count it:</p>
-<pre><code>var uls=document.body.getElementsByTagName(&quot;ul&quot;);
+<pre tabindex="0"><code>var uls=document.body.getElementsByTagName(&quot;ul&quot;);
 for(var i=0; i&lt;uls.length; i++) {
     console.log(uls[i].children.length)
 }
@@ -22351,7 +22351,7 @@ indeterminada de palavras, sendo que elas seriam informadas uma por
 linha pela entrada padrão, e o programa deveria imprimir todas as
 palavras que eram anagramas umas das outras na mesma linha, e as que
 não eram anagramas na linha seguinte&hellip; Algo como:</p>
-<pre><code>teste
+<pre tabindex="0"><code>teste
 marrocos
 futebol
 pothix
@@ -22359,7 +22359,7 @@ bolfute
 eetts
 socorram
 </code></pre><p>Ia retornar:</p>
-<pre><code>teste eetts
+<pre tabindex="0"><code>teste eetts
 marrocos socorram
 pothix
 futebol bolfute
@@ -23894,7 +23894,7 @@ geralmente a galera que administra vários servidores costuma usar
 screen para se manter conectado, mas eu como conecto de vez em quando
 para ver algo em algum dos servidores prefiro configurar desse modo.</p>
 <p>A primeira coisa a se fazer é configurar o seu <code>.ssh/config</code></p>
-<pre><code>Host server
+<pre tabindex="0"><code>Host server
 Hostname 192.168.1.2
 User pothix
 ForwardAgent yes
@@ -23912,7 +23912,7 @@ terminal.</p>
 </code></pre>
 <p>Isso via iniciar o seu <code>ssh-agent</code> e já definir as variáveis de ambiente que ele precisa para funcionar na sua instancia atual do terminal.</p>
 <p>Agora que já temos o nosso ssh-agent funcionando, vamos criar a nossa chave privada para utilizar:</p>
-<pre><code>$ cd ~/.ssh
+<pre tabindex="0"><code>$ cd ~/.ssh
 $ ssh-keygen -t rsa -f minha-chave
 </code></pre><p>Com isso ele pedirá a a senha para sua chave e depois de você digitar
 e confirmar ele criará dois arquivos de chave:</p>
@@ -23969,7 +23969,7 @@ que é o programinha vai ativar o num facilmente.</p>
 que eu uso muito!</p>
 <p>Após baixar o <code>numlockx.tar.gz</code> e o numlockx-.version.tar.gz`
 vamos seguir os procedimentos do SlackBuilds:</p>
-<pre><code>$ tar xvf numlockx.tar.gz
+<pre tabindex="0"><code>$ tar xvf numlockx.tar.gz
 $ mv numlockx-version.tar.gz numlockx
 $ cd numlockx
 # ./numlockx.SlackBuilds

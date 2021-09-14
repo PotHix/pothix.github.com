@@ -163,9 +163,9 @@ lists tracks by tag and not a file name.</p>
 <p>To quickly fix this problem, I had my own set of scripts.</p>
 <p>The first one is a quick shell script to remove spaces from files to make them
 easy to manipulate:</p>
-<pre><code>ls | while read -r FILE; do mv -v &quot;$FILE&quot; `echo $FILE | tr ' ' '_'; done
+<pre tabindex="0"><code>ls | while read -r FILE; do mv -v &quot;$FILE&quot; `echo $FILE | tr ' ' '_'; done
 </code></pre><p>and the second is a line of shell script using <code>id3lib</code> to add the file name to its metatags:</p>
-<pre><code>for i in *.mp3; do id3tag --song=&quot;$i&quot; $i; done```
+<pre tabindex="0"><code>for i in *.mp3; do id3tag --song=&quot;$i&quot; $i; done```
 </code></pre><p>Now that I had the right metatags, I could just transfer the files to my
 cellphone and add them to Podcast Addict. The process was mostly the same I&rsquo;m
 doing now, so let&rsquo;s describe the current process.</p>

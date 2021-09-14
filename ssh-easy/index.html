@@ -149,7 +149,7 @@ geralmente a galera que administra vários servidores costuma usar
 screen para se manter conectado, mas eu como conecto de vez em quando
 para ver algo em algum dos servidores prefiro configurar desse modo.</p>
 <p>A primeira coisa a se fazer é configurar o seu <code>.ssh/config</code></p>
-<pre><code>Host server
+<pre tabindex="0"><code>Host server
 Hostname 192.168.1.2
 User pothix
 ForwardAgent yes
@@ -167,7 +167,7 @@ terminal.</p>
 </code></pre>
 <p>Isso via iniciar o seu <code>ssh-agent</code> e já definir as variáveis de ambiente que ele precisa para funcionar na sua instancia atual do terminal.</p>
 <p>Agora que já temos o nosso ssh-agent funcionando, vamos criar a nossa chave privada para utilizar:</p>
-<pre><code>$ cd ~/.ssh
+<pre tabindex="0"><code>$ cd ~/.ssh
 $ ssh-keygen -t rsa -f minha-chave
 </code></pre><p>Com isso ele pedirá a a senha para sua chave e depois de você digitar
 e confirmar ele criará dois arquivos de chave:</p>
