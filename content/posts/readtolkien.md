@@ -84,7 +84,7 @@ not created as a single piece. I usually compare this to The Bible (please
 forgive me if you're religious, I'm not anymore), because it **has** a
 narrative, but you can feel this is a collection of texts.
 
-Now that you get what The Silmarillion is, you can read it in many ways. The one
+Now that you get what The Silmarillion is, you can read it in many ways. The way
 I recommend is to start with books that came out of the it. One of them is The
 Children of Húrin. It feels much complete as a story by itself, and you can skip
 the story about Turin Turambar when you finish this and start reading The
