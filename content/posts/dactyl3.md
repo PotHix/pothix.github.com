@@ -19,7 +19,7 @@ I anticipated. Being a parent of twins takes a lot of energy, and my predictions
 were very distant from the truth (for a change!). For this reason, I'm posting a
 step by step of what I'm doing with this dactyl project.
 
-## 3D printing
+## Quoting
 
 There are some websites acting like marketplaces for 3D printing. One of them is
 [treatstock](https://www.treatstock.com/), but there's also local people with 3D
