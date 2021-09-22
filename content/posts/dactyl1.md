@@ -6,6 +6,7 @@ aliases = [
 ]
 tags = [
     "english",
+    "keyboards",
 ]
 series = [
     "Dactyl"
