@@ -6,8 +6,81 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 22 Sep 2021 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://pothix.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>3D printing the Dactyl-cc case</title>
+            <link>https://pothix.com/dactyl3/</link>
+            <pubDate>Wed, 22 Sep 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://pothix.com/dactyl3/</guid>
+            <description>This is another post of my dactyl series. This time I&amp;rsquo;m going write about the process to make the 3D printed case, and prepare it for the keyboard.
+Unfortunately, the process of assembling the keyboard is taking much longer than I anticipated. Being a parent of twins takes a lot of energy, and my predictions were very distant from the truth (for a change!). For this reason, I&amp;rsquo;m posting a step by step of what I&amp;rsquo;m doing with this dactyl project.</description>
+            <content type="html"><![CDATA[<p>This is another post of my <a href="/series/dactyl">dactyl</a> series. This time I&rsquo;m going
+write about the process to make the 3D printed case, and prepare it for the
+keyboard.</p>
+<p>Unfortunately, the process of assembling the keyboard is taking much longer than
+I anticipated. Being a parent of twins takes a lot of energy, and my predictions
+were very distant from the truth (for a change!). For this reason, I&rsquo;m posting a
+step by step of what I&rsquo;m doing with this dactyl project.</p>
+<h2 id="3d-printing">3D printing</h2>
+<p>There are some websites acting like marketplaces for 3D printing. One of them is
+<a href="https://www.treatstock.com/">treatstock</a>, but there&rsquo;s also local people with 3D
+printing using other places to advertise, so I decided to get some quotes for
+the Dactyl-cc printing.</p>
+<h3 id="treat-stock">Treat stock</h3>
+<p>On treatstock the process is quite simple to get a quote. I just found a place
+that delivers to my location, uploaded the STL and got a price. Simple as that.
+The problem is the price, because I got no less than R$300.</p>
+<h3 id="mercado-livre">Mercado livre</h3>
+<p>My next step was to look for a seller providing this service via Mercado Livre,
+since we can find anything there (just like eBay, giving its own proportions). I
+found a person doing it for R$240, but the process of getting the quote was not
+very good. The person didn&rsquo;t even know what exactly he would print 🙄.</p>
+<h3 id="recommendation">Recommendation</h3>
+<p>This is always the best way to go. If you have a recommendation, there&rsquo;s a good
+chance things are going to work better, IMO.</p>
+<p>A friend of mine, from a <a href="https://t.me/tecladomecanicobr">Mechanical Keyboards Telegram
+chat</a>, have a contact who printed his <a href="https://github.com/mattdibi/redox-keyboard">redox
+keyboard</a> case for a good price, so
+I decided to contact this person and ask for a quote. He could do it for R$100,
+which is a pretty good price.</p>
+<p>The process of getting the quote was great. We talked via Telegram, and he got
+the STL files to analyze before getting back with the quote. I would totally
+recommend it. If you&rsquo;re from Brazil and is looking for some 3D printing for your
+keyboard, I totally recommend talking to Renato. His nickname is <a href="https://t.me/renny_br">@renny_br on
+Telegram</a>.</p>
+<h3 id="a-favor-from-a-friend">A favor from a friend</h3>
+<p>I was about to do it with Renato when I mentioned to a friend
+(<a href="https://twitter.com/agaelebe">agaelebe</a>) if it was possible to use the printer
+of the hackerspace he is a member (<a href="https://garoa.net.br">Garoa Hacker Club</a>)
+and he said he was going to check.</p>
+<p>After some time, he got back to me and said he could print it himself or ask one
+of his friends to do it. He will just need the material if it&rsquo;s not available.
+It turns out that his friend <a href="https://marcelocampos.cc">Marcelo Campos</a>, said he
+could try to print this.</p>
+<p>This is the left side right after printing (in September 2020, but I&rsquo;m only
+posting about this now. Thanks a lot, Marcelo!):</p>
+<p><img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPotHix-KB%2FIPJ-91OppJ.jpg?alt=media&amp;token=4c4a27ca-99c1-4cca-ad3a-aaace35ba173" alt=""></p>
+<h2 id="the-results-when-i-got-the-case">The results when I got the case</h2>
+<p>After a few days, I was able to get the case from
+<a href="https://twitter.com/agaelebe">agaelebe</a> and check it myself. For those who are
+curious, this is the raw format you receive right after printing:</p>
+<p><img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPotHix-KB%2FjnIr2mxzVb.jpg?alt=media&amp;token=6cfbad0a-c2f0-4af8-93b5-7cce32246cb6" alt=""></p>
+<p><img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPotHix-KB%2FEn13ZKrejm.jpg?alt=media&amp;token=ad3e5cc9-bd90-4115-b594-4e8fe5a8ac5d" alt=""></p>
+<p><img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPotHix-KB%2FiE9rM8IkeL.jpg?alt=media&amp;token=45392eac-469d-48c8-b903-b5a3ded34b52" alt=""></p>
+<p>It was the first time I got some raw result of a 3D printing process in my
+hands, and I found it quite interesting.</p>
+<p>I was very curious about how it would look like with keycaps, so I cleaned it up
+and added the switches and keycaps to check (I will talk about the process in
+the next post). This is what I got:</p>
+<p><img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPotHix-KB%2F0Tu3X2QPgt.jpg?alt=media&amp;token=160c5773-e7af-428f-ab2b-5fa60a09bb4e" alt=""></p>
+<p>Not pretty, I would say, but it felt great to type on it. It almost felt like my kinesis, so it motivated me to continue.</p>
+<p>This whole process was done in 2020 and the current version (still WIP) is more
+advanced. I will post about the cleanup, sanding, and painting soon. 🙂</p>
+]]></content>
+        </item>
         
         <item>
             <title>How to read Tolkien, in my experience</title>
