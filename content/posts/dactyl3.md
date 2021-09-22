@@ -94,7 +94,9 @@ the next post). This is what I got:
 
 ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPotHix-KB%2F0Tu3X2QPgt.jpg?alt=media&token=160c5773-e7af-428f-ab2b-5fa60a09bb4e)
 
-Not pretty, I would say, but it felt great to type on it. It almost felt like my kinesis, so it motivated me to continue.
+Not pretty I would say, but it felt great to type on it. It almost felt like my
+kinesis, and I still want to improve its aesthetics, so it motivated me to
+continue.
 
 This whole process was done in 2020 and the current version (still WIP) is more
 advanced. I will post about the cleanup, sanding, and painting soon. 🙂
