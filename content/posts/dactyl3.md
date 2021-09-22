@@ -92,6 +92,8 @@ I was very curious about how it would look like with keycaps, so I cleaned it up
 and added the switches and keycaps to check (I will talk about the process in
 the next post). This is what I got:
 
+![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPotHix-KB%2FPJy_NL0R_D.png?alt=media&token=c6b9d5f2-839e-41d3-b4e0-54f3dda5761f)
+
 ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPotHix-KB%2F0Tu3X2QPgt.jpg?alt=media&token=160c5773-e7af-428f-ab2b-5fa60a09bb4e)
 
 Not pretty I would say, but it felt great to type on it. It almost felt like my
