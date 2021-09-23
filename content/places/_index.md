@@ -15,6 +15,7 @@ cities and I still want to visit all states. ;)
 
 + 🇧🇷 Ceará, Fortaleza
 + 🇧🇷 Ceará, Croatá
++ 🇧🇷 Ceará, Sobral
 + 🇧🇷 Ceará, Jericoacoara
 + 🇧🇷 Pernambuco, Recife
 + 🇧🇷 Pernambuco, Olinda
@@ -34,6 +35,7 @@ cities and I still want to visit all states. ;)
 + 🇧🇷 São Paulo, Santa Fé do Sul
 + 🇧🇷 São Paulo, Guarujá
 + 🇧🇷 São Paulo, São Pedro
++ 🇧🇷 São Paulo, Ibiúna
 + 🇧🇷 São Paulo, Indaiatuba
 + 🇧🇷 São Paulo, Itupeva
 + 🇧🇷 São Paulo, Boituva
