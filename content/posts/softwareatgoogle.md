@@ -13,7 +13,7 @@ Time](https://www.goodreads.com/review/show/3491762189) by Titus Winters.
 Rating: ⭐️⭐️⭐️⭐️.
 
 It was a great book to read. It's not the kind of book you read and start
-applyind stuff at your current job. We all must remember we're not Google, and
+applying stuff at your current job. We all must remember we're not Google, and
 many things mentioned there are great, but only applies to their context.
 
 With that said, I quite enjoyed the book. I was curious about Google's
