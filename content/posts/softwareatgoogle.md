@@ -1,0 +1,342 @@
++++
+title = "Review of Software Engineering at Google"
+date = 2021-09-28
+tags = [
+    "english",
+    "tech",
+    "books",
+]
++++
+
+Book: [Software Engineering at Google: Lessons Learned from Programming Over
+Time](https://www.goodreads.com/review/show/3491762189) by Titus Winters.
+Rating: ⭐️⭐️⭐️⭐️.
+
+It was a great book to read. It's not the kind of book you read and start
+applyind stuff at your current job. We all must remember we're not Google, and
+many things mentioned there are great, but only applies to their context.
+
+With that said, I quite enjoyed the book. I was curious about Google's
+structure, and it's mind-blowing the amount of problems specific to that scale.
+I even learned a few things that are still worth applying in non-Google
+companies.
+
+I have to say, the whole chapter about testing is very on point to me, they
+nailed it, not just for Google. Things get even more complicated in Google's
+scale, but most of the conclusions and processes there would resolve a bunch of
+problems in other pieces of software I had to work with during my career.
+
+**Here are my raw notes about the book (quotes and my comments after 💭):**
+
+- 1. What is Software Engineering
+    - Programming Over Time
+         - One key insight we share in this book is that software engineering can be thought of as “programming integrated over time.”
+         - Nothing is built on stone; all is built on sand, but we must build as if the sand were stone.
+            - 💭 — This is so true in software development
+         - One way to see the impact of time on a program is to think about the question, “What is the expected life span1 of your code?”
+         - Your project is sustainable if, for the expected life span of your software, you are capable of reacting to whatever valuable change comes along, for either technical or business reasons.
+         - When you are fundamentally incapable of reacting to a change in underlying technology or product direction, you’re placing a high- risk bet on the hope that such a change never becomes critical.
+         - The job of a software engineer, or a software engineering leader, is to aim for sustainability and management of the scaling costs for the organization, the product, and the development workflow.
+         - We might sometimes defer maintenance changes, or even embrace policies that don’t scale well, with the knowledge that we’ll need to revisit those decisions. Those choices should be explicit and clear about the deferred costs.
+    - Time and Change
+         - A serial startup developer could very reasonably have 10 years of development experience and little or no experience maintaining any piece of software expected to exist for longer than a year or two.
+            - 💭 — That is an interesting point. I've been working on long lived apps in the past 10 years and I certainly dealt with some developers that introduced bad code because of such mindset
+         - keeping software maintainable for the long- term is a constant battle.
+         - With a sufficient number of users of an API, it does not matter what you promise in the contract: all observable behaviors of your system will be depended on by somebody.
+         - Given enough time and enough users, even the most innocuous change will break something;
+         - Per Hyrum’s Law, programmers will write programs that depend on the order in which a hash table is traversed, if they have the ability to do so.
+            - 💭 — It reminds me of JSON comments. LOL
+         - But even this still allows for some Hyrum’s Law surprises: there is code that uses hash iteration ordering as an inefficient random- number generator. Removing such randomness now would break those users.
+            - 💭 — LOL
+         - We’ve taken to saying, “It’s programming if ‘clever’ is a compliment, but it’s software engineering if ‘clever’ is an accusation.”
+            - 💭 — That's interesting and I can clearly see examples where this applies throughout my carreer
+         - the ever- widening gap between CPU cycles versus memory latency impacts what “efficient” code looks like. Over time, the value in upgrading to newer hardware can be diminished without accompanying design changes to the software.
+    - Scale and Efficiency
+         - if changing something comes at inordinate cost, it will likely be deferred.
+         - Only with an organization- wide awareness and commitment to scaling are you likely to keep on top of these issues.
+         - We’ve found that expertise and shared communication forums offer great value as an organization scales. As engineers discuss and answer questions in shared forums, knowledge tends to spread. New experts grow. If you have a hundred engineers writing Java, a single friendly and helpful Java expert willing to answer questions will soon produce a hundred engineers writing better Java code.
+         - The more frequently you change your infrastructure, the easier it becomes to do so.
+         - No single process or tool needs to be perfect, so we can assume a defense- in- depth approach, hopefully catching as many defects on the left side of the graph as possible.
+    - Trade-offs and Costs
+         - If your project life span is short, forks are less risky.
+         - Contrary to some people’s instincts, leaders who admit mistakes are more respected, not less.
+         - Every task your organization has to do repeatedly should be scalable (linear or better) in terms of human input.
+- 2. How to Work Well on Teams
+    - Hiding Considered Harmful
+         - When you become stuck on something absurd, how much time do you waste pulling yourself out of the hole? Think about how different the experience would be if you had a couple of peers to look over your shoulder and tell you— instantly— how you goofed and how to get past the problem.
+            - 💭 — This is an important topic in a remote and asyc work environment. It's indeed slower but the focus is usually higher in a remote environment .
+         - Don’t misunderstand us— we still think engineers need uninterrupted time to focus on writing code, but we think they need a high- bandwidth, low- friction connection to their team just as much. If less- knowledgeable people on your team feel that there’s a barrier to asking you a question, it’s a problem: finding the right balance is an art.
+    - It’s All About the Team
+         - You need to work with other people. Share your vision. Divide the labor. Learn from others. Create a brilliant team.
+            - 💭 — This is something I can relate to. You don't need to be in the same place or be talking real time to do that
+         - If you perform a root- cause analysis on almost any social conflict, you can ultimately trace it back to a lack of humility, respect, and/ or trust.
+         - The discussion stays focused on the code itself, not on anyone’s value or coding skills.
+         - The more open you are to influence, the more you are able to influence; the more vulnerable you are, the stronger you appear.
+         - Sometimes, the best thing you can do is just say, “I don’t know.”
+         - your organization needs a culture of learning, and that requires creating the psychological safety that permits people to admit to a lack of knowledge.
+- 3. Knowledge Sharing
+    - Philosophy
+         - Documented knowledge, on the other hand, can better scale not just to the team but to the entire organization.
+         - Tribal and written knowledge complement each other.
+    - Growing Your Knowledge
+         - Seek out and understand context, especially for decisions that seem unusual. After you’ve understood the context and purpose of the code, consider whether your change still makes sense. If it does, go ahead and make it; if it doesn’t, document your reasoning for future readers.
+    - Scaling Your Questions: Ask the Community
+         - Do your future self a favor: when you learn something from a one- to- one discussion, write it down. Chances are that future newcomers will have the same questions you had. Do them a favor, too, and share what you write
+         - Leaders improve the quality of the people around them, improve the team’s psychological safety, create a culture of teamwork and collaboration, defuse tensions within the team, set an example of Google’s culture and values, and make Google a more vibrant and exciting place to work. Jerks are not good leaders.
+         - go/ links are so short that it’s easy to share them in conversation (“ You should check out go/ frobber!”).
+            - 💭 — It's Interesting that I just did this with my blog and can confirm it's useful.
+    - Readability: Standardized Mentorship Through Code Review
+         - one or more qualified reviewers must explicitly give readability approval for the CL.
+            - 💭 — I can imagine how bureaucratic this is...
+- 4. Engineering for Equity
+    - Understanding the Need for Diversity
+         - Engineers should begin by focusing all work within the framing of the complete ecosystem they seek to influence.
+         - Diversity is necessary to design properly for a comprehensive user base.
+    - Reject Singular Approaches
+         - A common methodology today is to build for the majority use case first, leaving improvements and features that address edge cases for later. But this approach is flawed; it gives users who are already advantaged in access to technology a head start, which increases inequity.
+         - This research should be done with user groups that are multilingual and multicultural and that span multiple countries, socioeconomic class, abilities, and age ranges. Focus on the most difficult or least represented use case first.
+    - Values Versus Outcomes
+         - Design for the user who will have the most difficulty using your product.
+            - 💭 — In other words: start thinking on the edge cases instead of the happy path. It may be feasible to a large company like google but i wonder if this is feasible for the large majority of small companies.
+         - The whole concept of MVP is also made much harder.
+- 5. How to Lead a Team
+    - Managers and Tech Leads (and Both)
+         - Most TLs are also individual contributors, which often forces them to choose between doing something quickly themselves or delegating it to a team member to do (sometimes) more slowly. The latter is most often the correct decision for the TL as they grow the size and capability of their team.
+         - Managers and Tech Leads (and Both) >  Page 120
+         - At Google, it’s customary for larger, well- established teams to have a pair of leaders— one TL and one engineering manager— working together as partners.
+         - A Manager is a leader of people, whereas a Tech Lead leads technology
+    - The Engineering Manager
+         - Traditional managers worry about how to get things done, whereas great managers worry about what things get done (and trust their team to figure out how to do it).
+         - A good way to build a culture in which risk taking is accepted is to let your team know that it’s OK to fail.
+    - Antipatterns
+         - If it’s permanently necessary to micromanage people because you don’t trust them, you have a hiring failure on your hands.
+- 6. Leading at Scale
+    - Always Be Leaving
+         - This is what good management is about: 95% observation and listening, and 5% making critical adjustments in just the right place.
+         - Anchoring a team identity to a specific solution (“ We are the team that manages the Git repositories”) can lead to all sorts of angst over time. What if a large percentage of your engineers want to switch to a new version control system? The team is likely to “dig in,” defend its solution, and resist change, even if this is not the best path for the organization.
+- 7. Measuring Engineering Productivity
+    - Selecting Meaningful Metrics with Goals and Signals
+         - if you look only where you can see, you might not be looking in the right place.
+    - Taking Action and Tracking Results
+         - We instead always assume that engineers will make the appropriate trade- offs if they have the proper data available and the suitable tools at their disposal.
+- 8. Style Guides and Rules
+    - Creating the Rules
+         - At Google, where the style guide serves as law for coding practices, we do not ask, “What goes into the style guide?” but rather, “Why does something go into the style guide?”
+         - When a codebase is internally consistent in its style and norms, engineers writing code and others reading it can focus on what’s getting done rather than how it is presented.
+         - We know that some of the rules in our style guides will encounter cases that warrant exceptions, and that’s OK.
+         - As adoption spreads, engineers wanting to use the new features in different ways discuss their examples with the style guide owners, asking for allowances to permit additional use cases beyond those covered by the initial restrictions.
+            - 💭 — That feels very frustrating
+         - There are absolutely best practices left unspecified by these documents, including many fundamental pieces of good engineering advice: don’t be clever, don’t fork the codebase, don’t reinvent the wheel, and so on.
+         - Noticing when a rule is ready for another look is an important part of the process that keeps our rule set relevant and up to date.
+         - problems are proven with patterns found in existing Google code. Given a demonstrated problem, because we have the detailed reasoning behind the existing style guide decision,
+    - Guidance
+         - This “Tip of the Week” series has been extremely successful internally, with frequent citations during code reviews and technical discussions.
+    - Applying the Rules
+         - when it comes to checking for compliance, rather than exclusively depending on engineer- based verification, we strongly prefer to automate enforcement with tooling.
+         - Other rules are social rather than technical, and it is often unwise to solve social problems with a technical solution.
+         - Reviewers can (and do) push back if they judge a change to be too large. For this and similar rules, enforcement is up to the discretion of the engineers authoring and reviewing the code.
+         - We use tools like clang- tidy (for C + +) and Error Prone (for Java) to automate the process of enforcing rules.
+         - Most code at Google is subject to such a presubmit check. For our code, we use clang- format for C + +; an in- house wrapper around yapf for Python; gofmt for Go; dartfmt for Dart; and buildifier for our BUILD files.
+- 9. Code Review
+    - Code Review Flow
+         - Duplicated code not only is a wasted effort, it can actually cost more in time than not having the code at all; changes that could be easily performed under one code pattern often require more effort when there is duplication in the codebase.
+    - How Code Review Works at Google
+         - Google’s codebase is a tree structure with hierarchical owners of particular directories. (See Chapter 16). Owners act as gatekeepers for their particular directories.
+    - Code Review Benefits
+         - There is a recognition that strict processes tend not to work well for a dynamic company needing to respond quickly to new technologies, and that bureaucratic rules tend not to work well with creative professionals. Code review, however, is a mandate, one of the few blanket processes in which all software engineers at Google must participate.
+    - Code Review Benefits
+         - code review processes that are heavyweight, or that don’t scale properly, become unsustainable.
+         - A reviewer shouldn’t propose alternatives because of personal opinion. Reviewers can propose alternatives, but only if they improve comprehension (by being less complex, for example) or functionality (by being more efficient, for example). In general, engineers are encouraged to approve changes that improve the codebase rather than wait for consensus on a more “perfect” solution.
+         - It is often useful to find a reviewer who has a different perspective from the author, especially a reviewer who might need, as part of their job, to maintain or use the code being proposed within the change.
+            - 💭 — That Is a good idea
+         - When an engineer marks a code review as LGTM, they are saying that the code does what it says and that it is understandable.
+    - Code Review Best Practices
+         - Reviewers should be careful about jumping to conclusions based on a code author’s particular approach. It’s better to ask questions on why something was done the way it was before assuming that approach is wrong.
+         - At Google, we expect feedback from a code review within 24 (working) hours. If a reviewer is unable to complete a review in that time, it’s good practice (and expected) to respond that they’ve at least seen the change and will get to the review as soon as possible.
+         - Remember that you are not your code, and that this change you propose is not “yours” but the team’s. After you check that piece of code into the codebase, it is no longer yours in any case. Be receptive to questions on your approach, and be prepared to explain why you did things in certain ways.
+         - Most changes at Google are expected to be reviewed within about a day. 7 (This doesn’t necessarily mean that the review is over within a day, but that initial feedback is provided within a day.)
+         - Although the first line should be a summary of the entire change, the description should still go into detail on what is being changed and why.
+         - The cost of additional reviewers quickly outweighs their value.
+    - Types of Code Reviews
+         - To ensure that code is sustainable, a greenfield review should ensure that an API matches an agreed design (which may require reviewing a design document) and is tested fully, with all API endpoints having some form of unit test, and that those tests fail when the code’s assumptions change.
+         - Inevitably, you will need to submit a change for a bug fix to your codebase. When doing so, avoid the temptation to address other issues. Not only does this risk increasing the size of the code review, it also makes it more difficult to perform regression testing or for others to roll back your change.
+- 10. Documentation
+    - Types of Code Reviews
+         - Engineers, therefore, need the proper tools and incentives to do so effectively. The key to making it easier for them to write quality documentation is to introduce processes and tools that scale with the organization and that tie into their existing workflow.
+            - 💭 — +1 on that
+    - Why Is Documentation Needed?
+         -  Documentation is critical over time, and reaps tremendous benefits for especially critical code as an organization scales.
+    - Documentation Is Like Code
+         - An engineer might write shell scripts or Python to run command- line tasks, or they might write most of their backend code in C + + but write some middleware code in Java, and so on. Each language is a tool in the toolbox.
+         - Leveraging of existing developer workflows, rather than creating new ones, was a key benefit.
+    - Know Your Audience
+         - A design document might need to persuade decision makers. A tutorial might need to provide very explicit instructions to someone utterly unfamiliar with your codebase. An API might need to provide complete and accurate reference information for any users of that API, be they experts or novices. Always try to identify a primary audience and write to that audience.
+         - As Blaise Pascal once said, “If I had more time, I would have written you a shorter letter.”
+    - Documentation Types
+         - Generally, a file comment should begin with an outline of what’s contained in the code you are reading.
+         - Any API that cannot be succinctly described in the first paragraph or two is usually the sign of an API that is not well thought out. Consider breaking the API into separate components in those cases.
+         - Function comments should stress the active nature of their use, beginning with an indicative verb describing what the function does and what is returned.
+         - Combine all atomic user operations into single steps so that the user knows they need to do something at each step in the process.
+    - Documentation Philosophy
+         - At Google, we often attach “freshness dates” to documentation. Such documents note the last time a document was reviewed, and metadata in the documentation set will send email reminders when the document hasn’t been touched in, for example, three months.
+- 11. Testing Overview
+    - Why Do We Write Tests?
+         - Keep in mind that tests derive their value from the trust engineers place in them. If testing becomes a productivity sink, constantly inducing toil and uncertainty, engineers will lose trust and begin to find workarounds. A bad test suite can be worse than no test suite at all.
+         -  we have built testing into the heart of our engineering culture.
+         - To address these problems, the tech lead (TL) of GWS decided to institute a policy of engineer- driven, automated testing. As part of this policy, all new code changes were required to include tests, and those tests would be run continuously. Within a year of instituting this policy, the number of emergency pushes dropped by half. This drop occurred despite the fact that the project was seeing a record number of new changes every quarter. Even in the face of unprecedented growth and change,
+         - After an engineer on the team writes a test, it is added to the pool of common resources available to others. Everyone else on the team can now run the test and will benefit when it detects an issue.
+    - Designing a Test Suite
+         - the most important qualities we want from our test suite are speed and determinism,
+         - You can’t run a server and have a separate test process connect to it. It also means that you can’t run a third- party program such as a database as part of your test.
+         - The constraints placed on small tests can be too restrictive for many interesting kinds of tests.
+         - We like to say that “a test should be obvious upon inspection.” Because there are no tests for the tests themselves, they require manual review as an important check on correctness.
+    - Testing at Google Scale
+         - All changes are committed to the repository head
+         - In addition to developing the proper culture, invest in your testing infrastructure by developing linters, documentation, or other assistance that makes it more difficult to write bad tests.
+- 12. Unit Testing
+    - Preventing Brittle Tests
+         - The takeaway is that after you write a test, you shouldn’t need to touch that test again as you refactor the system, fix bugs, or add new features.
+         - If a method or class exists only to support one or two other classes (i.e., it is a “helper class”), it probably shouldn’t be considered its own unit, and its functionality should be tested through those classes instead of directly.
+    - Writing Clear Tests
+         - A test is complete when its body contains all of the information a reader needs in order to understand how it arrives at its result.
+         - particular, it can often be worth violating the DRY (Don’t Repeat Yourself) principle if it leads to clearer tests.
+         - rather than writing a test for each method, write a test for each behavior.
+         - The lesson is clear: in test code, stick to straight- line code over clever logic, and consider tolerating some duplication when it makes the test more descriptive and meaningful. We’ll discuss ideas around duplication and code sharing
+- 14. Larger Testing
+    - Larger Tests at Google
+         - One way to achieve this test ratio when presented with a user journey that can require contributions from many internal systems is to “chain” tests, as illustrated in Figure 14- 4, not specifically in their execution, but to create multiple smaller pairwise integration tests that represent the overall scenario. This is done by ensuring that the output of one test is used as the input to another test by persisting this output to a data repository.
+    - Structure of a Large Test
+         - if the backend provides a public API, it is often easier to split the tests into connected tests at the UI/ API boundary and to use the public API to drive the end- to- end tests. This is true whether the UI is a browser, command- line interface (CLI), desktop app, or mobile app.
+    - Types of Larger Tests
+         - Many times, it is not the code that is the source of defects but instead configuration: data files, databases, option definitions, and so on.
+         - Any defects found by exploratory tests should be replicated with an automated test that can run much more frequently.
+         - One common approach we use for manual exploratory testing is the bug bash. A team of engineers and related personnel (managers, product managers, test engineers, anyone with familiarity with the product) schedules a “meeting,” but at this session, everyone involved manually tests the product.
+            - 💭 — That's An interesting idea
+         - modes for a given publicly facing product. Additionally, as Hyrum’s Law states, the actual public API is not the declared one but all user- visible aspects of a product.
+         - Maps. A/ B diff tests operate by sending traffic to a public API and comparing the responses between old and new versions (especially during migrations). Any deviations in behavior must be reconciled as either anticipated or unanticipated (regressions).
+         - Even though software is a digital asset and the physical bits themselves don’t degrade, new technologies, libraries, techniques, languages, and other environmental changes over time render existing systems obsolete.
+         - For long- running software ecosystems, planning for and executing deprecation correctly reduces resource costs and improves velocity by removing the redundancy and complexity that builds up in a system over time.
+- 15. Deprecation
+    - Why Deprecate?
+         - code is a liability, not an asset. After all, if code were an asset, why should we even bother spending time trying to turn down and remove obsolete systems?
+         - Code itself doesn’t bring value: it is the functionality that it provides that brings value. That functionality is an asset if it meets a user need: the code that implements this functionality is simply a means to that end.
+    - Why Is Deprecation So Hard?
+         - staffing a team and spending time removing obsolete systems costs real money, whereas the costs of doing nothing and letting the system lumber along unattended are not readily observable.
+         - don’t start projects that your organization isn’t committed to support for the expected lifespan of the organization.
+    - Types of Deprecation
+         - we hope that clients move, but can’t force them to. As our friends in SRE will readily tell you: “Hope is not a strategy.”
+         - we strongly advocate that compulsory deprecations are actively staffed by a specialized team through completion.
+         - when a system is slated for deprecation and removal, the team will announce planned outages of increasing duration in the months and weeks prior to the turndown.
+         - In particular, we find “trunk- based development” as popularized by DevOps1 (one repository, no dev branches) to be a particularly scalable policy approach, and we’ll provide some suggestions as to why that is.
+- 16. Version Control and Branch Management
+    - Version Control at Google
+         - For an individual developer, lack of choice can seem like an arbitrary impediment. Yet we see again and again that for an organization, it’s a critical component in efficient scaling.
+- 18. Build Systems and Build Philosophy
+    - What Happens Without a Build System?
+         - For a single developer working on at most a couple hundred lines of code for at most a week or two (which might have been the entire experience thus far of a junior developer who just graduated university), a compiler is all you need. Scripts can maybe take you a little bit farther. But as soon as you need to coordinate across multiple developers and their machines, even a perfect build script isn’t enough because it becomes very difficult to account for the minor differences in those machines. At this point, this simple approach breaks down and it’s time to invest in a real build system.
+    - Modern Build Systems
+         - Fundamentally, they aren’t that different from the aforementioned script- based DIY approach we were working on: they run the same compilers under the hood, and you need to understand those underlying tools to be able to know what the build system is really doing.
+            - 💭 — Cargo?
+         - The fundamental problem is that we want the build system to be aware of these files without having to check them into source control. Updating a dependency should be a conscious choice, but that choice should be made once in a central place rather than managed by individual engineers or automatically by the system.
+         - for there to be any benefit from a remote cache, downloading an artifact needs to be faster than building it. This is not always the case, especially if the cache server is far from the machine doing the build. Google’s network and build system is carefully tuned to be able to quickly share build results.
+            - 💭 — That may be one of the reasons why remote work would be so hard for them. It breaks many given assumptions.
+         - Changes to a project’s build system can be expensive, and that cost increases as the project becomes larger. This is why Google believes that almost every new project benefits from incorporating an artifact- based build system like Bazel right from the start. Within Google, essentially all code from tiny experimental projects up to Google Search is built using Blaze.
+- 19. Critique: Google’s Code Review Tool
+    - Code Review Tooling Principles
+         - Code review is not for slowing others down; instead, it is for empowering others.
+         - Trust and communication are core to the code review process. A tool can enhance the experience, but it can’t replace them.
+    - Stage 1: Create a Change
+         - For example, suppose that a linter finds a style violation of extra spaces at the end of the line. The change page will display a chip for that linter. From the chip, the author can quickly go to the diff showing the offending code to understand the style violation with two clicks. Most linter violations also include fix suggestions. With a click, the author can preview the fix suggestion (for example, remove the extra spaces), and with another click, apply the fix on the change.
+            - 💭 — That's Great
+- 20. Static Analysis
+    - Characteristics of Effective Static Analysis
+         - Fixing a static analysis warning could introduce a bug. For code that is not being frequently modified, why “fix” code that is running fine in production?
+         - we generally focus on newly introduced warnings; existing issues in otherwise working code are typically only worth highlighting (and fixing) if they are particularly important (security issues, significant bug fixes, etc.).
+    - Tricorder: Google’s Static Analysis Platform
+         - antipatterns could represent real bugs. For example, consider the following code snippet hashing a field f of type long: `result = 31 * result + (int) (f ^ (f > > > 32))`; Now consider the case in which the type of f is int. The code will still compile, but the right shift by 32 is a no- op so that f is XORed with itself and no longer affects the value produced. We fixed 31 occurrences of this bug in Google’s codebase while enabling the check as a compiler error in Error Prone.
+            - 💭 — These are the real useful checks we're expecting from the static analysis.
+         - we display the option to click a “Not useful” button on an analysis result; this click provides the option to file a bug directly against the analyzer writer about why the result is not useful with information about analysis result prepopulated. Code reviewers can also ask change authors to address analysis results by clicking a “Please fix” button.
+            - 💭 — That's indeed very useful. I will consider proposing that as a manual process (as we don't need an entire Google system right now)
+         - Although not every language at Google has this policy, the most frequently used ones do. Both of the Java and C + + compilers have been configured to avoid displaying compiler warnings. The Go compiler takes this to extreme; some things that other languages would consider warnings (such as unused variables or package imports) are errors in Go.
+            - 💭 — OMG, that's why we have such a ridiculous policy in Go... 🤦‍♂️
+- 21. Dependency Management
+    - Importing Dependencies
+         - Internally, we already have roughly 250 million lines of C + + code that depend on this library
+            - 💭 — 😱
+         - it is important to realize that dependency management has a wholly different nature in a programming task versus a software engineering task. If you’re in a problem space for which maintenance over time is relevant, dependency management is difficult. If you’re purely developing a solution for today with no need to ever update anything, it is perfectly reasonable to grab as many readily available dependencies as you like with no thought of how to use them responsibly or plan for upgrades.
+    - Dependency Management, In Theory
+         - Live at Head presupposes that we can unpin dependencies, drop SemVer, and rely on dependency providers to test changes against the entire ecosystem before committing.
+         - The incentive structures and technological assumptions here are materially different than other scenarios: we assume that there exist unit tests and CI, we assume that API providers will be bound by whether downstream dependencies will be broken, and we assume that API consumers are keeping their tests passing and relying on their dependency in supported ways.
+    - The Limitations of SemVer
+         - you can’t prove anything about compatibility when only considering the source API; you have to know with which things you are asking about compatibility.
+         - The compression inherent in “I made a breaking change; I must bump the major version number” is lossy when it doesn’t apply at the granularity of an individual atomic API unit.
+         - There is a further argument that SemVer doesn’t always incentivize the creation of stable code.
+            - 💭 — Well... It's the trade off of the decentralization 🤷‍♂️
+         - Repackaging and renaming everything seems like a reasonable amount of work to expect from a provider in exchange for them taking the nuclear option and throwing away backward compatibility.
+            - 💭 — That's a good point. Not sure if all breaking changes are nuclear options though.
+         - However, our experience at Google suggests that it is unlikely that you can have any of those three properties at scale and keep them working constantly over time.
+            - 💭 — At Google's scale, not any medium sized project.
+    - Dependency Management with Infinite Resources
+         - As the Apache community saying goes, we ought to prioritize “community over code.”
+         - “Don’t release things without a plan (and a mandate) to support it for the long term.”
+- 22. Large-Scale Changes
+    - Who Deals with LSCs?
+         - Centralizing the migration and accounting for its costs is almost always faster and cheaper than depending on individual teams to organically migrate.
+         - Although fixing this single- character change might seem pointless, particularly across a codebase the size of Google’s, the maturity of our LSC tooling and process enabled us to do it with just a couple weeks’ worth of background- task effort.
+            - 💭 — Just a couple of weeks :grimacing:
+    - Barriers to Atomic Changes
+         - it might not be just “difficult” or “unwise” to make a large change atomically: it might simply be impossible with a given set of infrastructures.
+         - The SREs who run Google’s production services have a mantra: “No Haunted Graveyards.” A haunted graveyard in this sense is a system that is so ancient, obtuse, or complex that no one dares enter it.
+         - Google’s codebase had more than 500,000 references to scoped_ptr scattered among millions of source files.
+    - LSC Infrastructure
+         - Google’s use of the semantic indexing tool Kythe provides a complete map of the links between parts of our codebase, allowing us to ask questions such as “Where are the callers of this function?” or “Which classes derive from this one?”
+            - 💭 — That may be very useful
+         - languages that tend to be viewed as more focused on developer productivity tend to be more difficult to maintain.
+    - The LSC Process
+         - If a particular owner proves to be unresponsive, Rosie adds additional reviewers automatically in an effort to get a change reviewed in a timely manner.
+- 23. Continuous Integration
+    - CI Concepts
+         - why not just run all tests on presubmit? The main reason is that it’s too expensive. Engineer productivity is extremely valuable, and waiting a long time to run every test during code submission can be severely disruptive.
+         - CI Is Alerting Titus Winters As with responsibly running production systems, sustainably maintaining software systems also requires continual automated monitoring. Just as we use a monitoring and alerting system to understand how production systems respond to change, CI reveals how our software is responding to changes in its environment.
+         - Policies that say, “Nobody can commit if our latest CI results aren’t green” are probably misguided. If CI reports an issue, such failures should definitely be investigated before letting people commit or compound the issue. But if the root cause is well understood and clearly would not affect production, blocking commits is unreasonable.
+            - 💭 — That said, having a non-green status and dismiss is quite problematic for the trust in the alert
+    - CI at Google
+         - Every day it is responsible for handling more than 50,000 unique changes and running more than four billion individual test cases.
+         - To deal with such breakages, each team has a “Build Cop.” The Build Cop’s responsibility is keeping all the tests passing in their particular project, regardless of who breaks them. When a Build Cop is notified of a failing test in their project, they drop whatever they are doing and fix the build.
+         - The presence of failing tests can quickly begin to erode confidence in the test suite. As mentioned previously, fixing a broken build is the responsibility of the Build Cop. The most effective tool the Build Cop has is the rollback.
+         - Before long, Takeout faced “flag issues.” Flags added for one of the instances would break the others, and their deployments would break when servers could not start up due to configuration incompatibilities.
+         - The team came up with a strategic way to disable failing tests by tagging them with an associated bug and filing that off to the responsible team
+            - 💭 — Linking skipped tests to bugs is actually quite clever. I see this working even in simple codebases. It's weird to have a test skipped without a reason written down
+         - The value of code is not realized at the time of submission but when features are available to your users.
+- 24. Continuous Delivery
+    - Velocity Is a Team Sport: How to Break Up a Deployment into Manageable Pieces
+         - If your releases are costly and sometimes risky, the instinct is to slow down your release cadence and increase your stability period.
+         - In some cases, at Google, the answer has been to rewrite an application from scratch rather than simply migrating it, establishing the desired modularity into the new architecture. Although either of these options can take months and is likely painful in the short term, the value gained in terms of operational cost and cognitive simplicity will pay off over an application’s lifespan of years.
+    - Evaluating Changes in Isolation: Flag-Guarding Features
+         - Turning on a flag for 100% of your users all at once is not a great idea, so a configuration service that manages safe configuration rollouts is a good investment.
+    - Striving for Agility: Setting Up a Release Train
+         - A world of regular releases means that if a developer misses the release train, they’ll be able to catch the next train in a matter of hours rather than days. This limits developer panic and greatly improves work– life balance for release engineers.
+            - 💭 — If it's just hours, it would be quite acceptable indeed
+    - Shifting Left: Making Data-Driven Decisions Earlier
+         - One of our release managers shared a piece of wisdom that turned the situation around when he said that the diversity of our client market was not a problem, but a fact.
+    - Conclusion
+         - we’ve found that, counterintuitively, faster is safer.
+         - faster is cheaper, because having a predictable, frequent release train forces you to drive down the cost of each release and makes the cost of any abandoned release very low.
+         - I don’t try to understand computers. I try to understand the programs. Barbara Liskov
+- 25. Compute as a Service
+    - Taming the Compute Environment
+         - However, the growth of the number of datacenters Google manages meant that we moved toward a model in which turning up a datacenter is an automated process that does not require human intervention.
+    - Writing Software for Managed Compute
+         - If your server is a pet, when it’s broken, a human comes to look at it (usually in a panic), understand what went wrong, and hopefully nurse it back to health. It’s difficult to replace. If your servers are cattle, you name them replica001 to replica100, and if one fails, automation will remove it and provision a new one in its place.
+    - CaaS Over Time and Scale
+         - This underlines the challenges of designing a container system that will prove maintainable over time and thus the value of using a container system developed and used by a broader community, where these types of issues have already occurred for others and the lessons learned have been incorporated.
+            - 💭 — Community ❤️
+    - Choosing a Compute Service
+         - code will be written in a way that takes advantage of all the properties of the system (Hyrum’s Law); thus, for instance, if you choose a VM-based offering, teams will tweak their particular VM images; and if you choose a specific container-based solution, teams will call out to the APIs of the cluster manager.
+         - Some teams were creative in their desire to limit memory usage and replaced (in their custom filesystem overlay) the Bash command with a custom-written piece of “execute the second argument” code. These teams, of course, were very aware of their memory usage, and so when the Borg team changed the process runner to use ash (which was not overwritten by the custom code), their memory usage increased (because it started including ash usage instead of the custom code usage), and this caused alerts, rolling back the change, and a certain amount of unhappiness.
+            - 💭 — Fixing workarounds actually generated more problems. LOL
+         - It’s worth mentioning that many or most serverless frameworks are built on top of other compute layers: AppEngine runs on Borg, Knative runs on Kubernetes, Lambda runs on Amazon EC2.
+         - The other is to run multicloud; that is, to use managed services based on the same open source solutions from two or more different cloud providers (say, GKE and AKS for Kubernetes). This provides an even easier path for migration out of one of them, and also makes it more difficult to depend on specific implementation details available in one one of them.
+            - 💭 — I have some major concerns about being tied to a specific provider
+         - Along the way, he has started several Google projects that are believed to be in the top-10 largest refactorings in human history.
+
