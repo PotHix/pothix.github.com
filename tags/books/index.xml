@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 26 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pothix.com/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pothix.com/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Review of Software Engineering at Google</title>
+      <link>https://pothix.com/softwareatgoogle/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/softwareatgoogle/</guid>
+      <description>Book: Software Engineering at Google: Lessons Learned from Programming Over Time by Titus Winters. Rating: ⭐️⭐️⭐️⭐️.
+It was a great book to read. It&amp;rsquo;s not the kind of book you read and start applyind stuff at your current job. We all must remember we&amp;rsquo;re not Google, and many things mentioned there are great, but only applies to their context.
+With that said, I quite enjoyed the book. I was curious about Google&amp;rsquo;s structure, and it&amp;rsquo;s mind-blowing the amount of problems specific to that scale.</description>
+    </item>
+    
     <item>
       <title>How to read Tolkien, in my experience</title>
       <link>https://pothix.com/readtolkien/</link>

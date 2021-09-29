@@ -2,32 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pothix.com/tags/books/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/tags/english/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/posts/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/softwareatgoogle/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/tags/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/tags/tech/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://pothix.com/dactyl3/</loc>
     <lastmod>2021-09-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pothix.com/series/dactyl/</loc>
     <lastmod>2021-09-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pothix.com/tags/english/</loc>
-    <lastmod>2021-09-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://pothix.com/tags/keyboards/</loc>
-    <lastmod>2021-09-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pothix.com/posts/</loc>
-    <lastmod>2021-09-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pothix.com/</loc>
     <lastmod>2021-09-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pothix.com/series/</loc>
     <lastmod>2021-09-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pothix.com/tags/</loc>
-    <lastmod>2021-09-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pothix.com/tags/books/</loc>
-    <lastmod>2021-08-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pothix.com/readtolkien/</loc>
     <lastmod>2021-08-26T00:00:00+00:00</lastmod>
@@ -39,9 +45,6 @@
     <lastmod>2021-08-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pothix.com/polishedruby/</loc>
-    <lastmod>2021-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pothix.com/tags/tech/</loc>
     <lastmod>2021-08-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pothix.com/bookinsidebook/</loc>

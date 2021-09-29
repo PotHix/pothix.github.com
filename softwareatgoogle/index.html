@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="Book: Software Engineering at Google: Lessons Learned from Programming Over Time by Titus Winters. Rating: ⭐️⭐️⭐️⭐️.
+It was a great book to read. It&amp;rsquo;s not the kind of book you read and start applyind stuff at your current job. We all must remember we&amp;rsquo;re not Google, and many things mentioned there are great, but only applies to their context.
+With that said, I quite enjoyed the book. I was curious about Google&amp;rsquo;s structure, and it&amp;rsquo;s mind-blowing the amount of problems specific to that scale." />
+<meta name="keywords" content="Programming, Linux, Desconstruindo a web, Ruby, Elixir, Golang, Guru-SP, Rust, Productivity, english, tech, books" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://pothix.com/softwareatgoogle/" />
+
+
+    <title>
+        
+            Review of Software Engineering at Google :: PotHix 
+        
+    </title>
+
+
+
+
+
+<link rel="stylesheet" href="/main.bcf2d55b6299e98cca373f072c65ed76e7729d56193a2d15233875ecc94ca658.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#a9a9b3">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="#a9a9b3">
+    <meta name="theme-color" content="#a9a9b3">
+
+
+
+<meta itemprop="name" content="Review of Software Engineering at Google">
+<meta itemprop="description" content="Book: Software Engineering at Google: Lessons Learned from Programming Over Time by Titus Winters. Rating: ⭐️⭐️⭐️⭐️.
+It was a great book to read. It&rsquo;s not the kind of book you read and start applyind stuff at your current job. We all must remember we&rsquo;re not Google, and many things mentioned there are great, but only applies to their context.
+With that said, I quite enjoyed the book. I was curious about Google&rsquo;s structure, and it&rsquo;s mind-blowing the amount of problems specific to that scale."><meta itemprop="datePublished" content="2021-09-28T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-09-28T00:00:00+00:00" />
+<meta itemprop="wordCount" content="6975"><meta itemprop="image" content="https://pothix.com/images/logo.svg"/>
+<meta itemprop="keywords" content="english,tech,books," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://pothix.com/images/logo.svg"/>
+
+<meta name="twitter:title" content="Review of Software Engineering at Google"/>
+<meta name="twitter:description" content="Book: Software Engineering at Google: Lessons Learned from Programming Over Time by Titus Winters. Rating: ⭐️⭐️⭐️⭐️.
+It was a great book to read. It&rsquo;s not the kind of book you read and start applyind stuff at your current job. We all must remember we&rsquo;re not Google, and many things mentioned there are great, but only applies to their context.
+With that said, I quite enjoyed the book. I was curious about Google&rsquo;s structure, and it&rsquo;s mind-blowing the amount of problems specific to that scale."/>
+
+
+
+    <meta property="og:title" content="Review of Software Engineering at Google" />
+<meta property="og:description" content="Book: Software Engineering at Google: Lessons Learned from Programming Over Time by Titus Winters. Rating: ⭐️⭐️⭐️⭐️.
+It was a great book to read. It&rsquo;s not the kind of book you read and start applyind stuff at your current job. We all must remember we&rsquo;re not Google, and many things mentioned there are great, but only applies to their context.
+With that said, I quite enjoyed the book. I was curious about Google&rsquo;s structure, and it&rsquo;s mind-blowing the amount of problems specific to that scale." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://pothix.com/softwareatgoogle/" /><meta property="og:image" content="https://pothix.com/images/logo.svg"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-09-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-09-28T00:00:00+00:00" /><meta property="og:site_name" content="PotHix" />
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2021-09-28 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body>
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <svg width="138.86" height="43.632" version="1.1" viewBox="0 0 138.86 43.632" xmlns="http://www.w3.org/2000/svg"><g transform="matrix(1.0331 0 0 1.0507 -1.1993 -1.3156)"><g transform="translate(2.7374 -1.9692)" fill="#a9a9b3" stroke-width="1px"><g aria-label="PotHix"><path d="m58.883 12.784q0 1.6248-1.0876 2.8198-0.98022 1.0742-2.6184 1.6113-0.73853 0.2417-1.759 0.29541-0.73852 0.05371-1.8933 0.01343-1.5442-0.05371-1.8127-0.05371v5.3174h0.95337q0.75195 0 0.75195 0.57739 0 0.56396-0.75195 0.56396h-3.0347q-0.75195 0-0.75195-0.56396 0-0.57739 0.75195-0.57739h0.95337v-13.455h-0.95337q-0.75195 0-0.75195-0.57739 0-0.56396 0.75195-0.56396l5.9888 0.013428q2.0947 0 3.6255 1.2219 1.6382 1.3025 1.6382 3.3569zm-1.1279 0q0-1.5173-1.2891-2.5244-1.1816-0.92651-2.7393-0.92651h-4.0149v7.0093h3.5986q1.6516 0 2.9675-0.92651 1.4771-1.0474 1.4771-2.6318z"/><path d="m74.258 18.705q0 2.3499-1.665 3.988-1.6516 1.6382-4.0149 1.6382-2.3633 0-4.0283-1.6248-1.665-1.6382-1.665-4.0015 0-2.3633 1.665-4.0015 1.665-1.6382 4.0283-1.6382 2.3633 0 4.0149 1.6382 1.665 1.6382 1.665 4.0015zm-1.0205 0q0-1.9336-1.3696-3.2629-1.3562-1.3428-3.3032-1.3428-1.9336 0-3.3032 1.3428-1.3562 1.3293-1.3562 3.2629 0 1.9202 1.3696 3.2629 1.3696 1.3428 3.2898 1.3428 1.9336 0 3.3032-1.3293 1.3696-1.3428 1.3696-3.2764z"/><path d="m89.995 22.492q0 0.65796-1.7188 1.3293-1.3293 0.52368-2.511 0.52368-1.6785 0-2.8064-0.85938-1.2354-0.93994-1.2354-2.5647l-0.01343-6.1096h-2.7527q-0.75195 0-0.75195-0.57739 0-0.56396 0.75195-0.56396h2.7527l0.01343-4.7266q0-0.75195 0.56396-0.75195 0.57739 0 0.57739 0.75195l-0.01343 4.7266h5.4517q0.75195 0 0.75195 0.57739 0 0.56396-0.75195 0.56396h-5.4517l0.01343 6.1096q0 1.1011 0.88623 1.7322 0.79224 0.56396 1.9336 0.56396 0.49683 0 1.7993-0.34912 0.28198-0.06714 1.1145-0.52368 0.77881-0.41626 0.85938-0.41626 0.53711 0 0.53711 0.56396z"/><path d="m106.22 23.351q0 0.56396-0.75195 0.56396h-3.0347q-0.75196 0-0.75196-0.56396 0-0.57739 0.75196-0.57739h0.93994v-6.4722h-7.4792v6.4722h0.95337q0.75195 0 0.75195 0.57739 0 0.56396-0.75195 0.56396h-3.0347q-0.75195 0-0.75195-0.56396 0-0.57739 0.75195-0.57739h0.95337v-13.455h-0.95337q-0.75195 0-0.75195-0.57739 0-0.56396 0.75195-0.56396h3.0347q0.75195 0 0.75195 0.56396 0 0.57739-0.75195 0.57739h-0.95337v5.8545h7.4792l0.0134-5.8545h-0.95337q-0.75196 0-0.75196-0.57739 0-0.56396 0.75196-0.56396h3.0347q0.75195 0 0.75195 0.56396 0 0.57739-0.75195 0.57739h-0.95334v13.455h0.95337q0.75195 0 0.75195 0.57739z"/><path d="m113.06 10.984h-1.665v-2.9138h1.665zm-1.1279 11.79v-7.9626h-0.95337q-0.75195 0-0.75195-0.57739 0-0.56396 0.75195-0.56396h2.0813v9.104zm2.1082 0q0.75195 0 0.75195 0.57739 0 0.56396-0.75195 0.56396h-3.0347q-0.75195 0-0.75195-0.56396 0-0.57739 0.75195-0.57739z"/><path d="m132.83 23.338q0 0.56396-0.71167 0.56396h-3.5449q-0.71167 0-0.71167-0.56396 0-0.51025 0.68481-0.59082-0.10742 0.01343 1.0071 0.01343l-3.6926-3.3972-3.8269 3.3972q1.1414 0 1.0205-0.01343 0.68481 0.08057 0.68481 0.59082 0 0.56396-0.71167 0.56396h-3.5449q-0.71167 0-0.71167-0.56396 0-0.51025 0.68482-0.59082-0.10743 0.01343 1.0071 0.01343l4.6326-4.1492-4.0552-3.8q-1.1414 0-1.0205 0.01343-0.68481-0.08057-0.68481-0.59082 0-0.56396 0.71167-0.56396h3.5449q0.71167 0 0.71167 0.56396 0 0.51025-0.68482 0.59082 0.12085-0.01343-1.0205-0.01343l3.2629 3.0615 3.1555-3.0615q-1.1548 0-1.0205 0.01343-0.69824-0.08057-0.69824-0.59082 0-0.56396 0.71167-0.56396h3.5449q0.71167 0 0.71167 0.56396 0 0.51025-0.68481 0.59082 0.12085-0.01343-1.0205-0.01343l-3.9343 3.8 4.4983 4.1492q1.1414 0 1.0205-0.01343 0.68482 0.08057 0.68482 0.59082z"/></g><g aria-label=".com"><path d="m49.94 39.107q0 0.17944-0.29907 0.52124-0.29907 0.33325-0.46997 0.33325-0.1709 0-0.47852-0.33325-0.29907-0.3418-0.29907-0.52124t0.29907-0.5127q0.30762-0.3418 0.47852-0.3418 0.1709 0 0.46997 0.3418 0.29907 0.33325 0.29907 0.5127z"/><path d="m60.382 38.543q0 0.33325-0.78613 0.84595-1.2476 0.82031-2.7942 0.82031-1.5637 0-2.572-0.98267-1.0083-0.99121-1.0083-2.5464 0-1.5723 1.0254-2.5977 1.0254-1.0339 2.5977-1.0339 1.4868 0 2.5037 0.88867v-0.28198q0.0085-0.37598 0.31616-0.37598 0.33325 0 0.33325 0.43579v1.4697q0 0.43579-0.33325 0.43579-0.12817 0-0.21362-0.08545l-0.15381-0.50415q-0.12817-0.43579-0.67505-0.8374-0.6665-0.48706-1.8115-0.48706-1.3159 0-2.1277 0.82886-0.81177 0.82031-0.81177 2.1362 0 1.2903 0.82886 2.0935 0.8374 0.80322 2.1277 0.80322 1.6235 0 2.9565-1.1792 0.17944-0.15381 0.28198-0.15381 0.31616 0 0.31616 0.30762z"/><path d="m69.807 36.595q0 1.4954-1.0596 2.5378-1.051 1.0425-2.5549 1.0425t-2.5635-1.0339q-1.0596-1.0425-1.0596-2.5464t1.0596-2.5464q1.0596-1.0425 2.5635-1.0425t2.5549 1.0425q1.0596 1.0425 1.0596 2.5464zm-0.64941 0q0-1.2305-0.87158-2.0764-0.86304-0.85449-2.1021-0.85449-1.2305 0-2.1021 0.85449-0.86304 0.84595-0.86304 2.0764 0 1.2219 0.87158 2.0764t2.0935 0.85449q1.2305 0 2.1021-0.84595 0.87158-0.85449 0.87158-2.085z"/><path d="m85.846 39.551q0 0.35889-0.47852 0.35889h-1.9312q-0.47852 0-0.47852-0.35889 0-0.36743 0.47852-0.36743h0.60669l-0.0085-3.512q0-0.8374-0.61523-1.3416-0.57251-0.46997-1.427-0.46997-1.3586 0-2.572 1.3416 0.03418 0.1709 0.03418 0.35034l0.0085 3.6316h0.60669q0.47852 0 0.47852 0.36743 0 0.35889-0.47852 0.35889h-1.9312q-0.47852 0-0.47852-0.35889 0-0.36743 0.47852-0.36743h0.60669l-0.0085-3.512q0-0.8374-0.61523-1.3416-0.57251-0.46997-1.427-0.46997-0.92285 0-1.4868 0.48706-0.06836 0.05982-1.0596 1.2219l0.0085 3.6145h0.60669q0.47852 0 0.47852 0.36743 0 0.35889-0.47852 0.35889h-1.9312q-0.47852 0-0.47852-0.35889 0-0.36743 0.47852-0.36743h0.60669l-0.0085-5.0671h-0.60669q-0.47852 0-0.47852-0.36743 0-0.35889 0.47852-0.35889h1.3245v1.0852q0.80322-0.81177 1.1023-0.99976 0.55542-0.3418 1.4526-0.3418 1.6577 0 2.4353 1.3074 1.3074-1.3074 2.8625-1.3074 1.0938 0 1.897 0.64942 0.85449 0.69214 0.85449 1.7688l0.0085 3.6316h0.60669q0.47852 0 0.47852 0.36743z"/></g></g><g transform="matrix(1.0001 0 0 .99259 -.0018886 .011012)"><rect x="1.6355" y="1.7232" width="41.348" height="40.89" ry="4.581" fill="#f0f0f0" stroke="#000" stroke-width=".94573"/><g transform="matrix(.95946 0 0 .95946 2.4904 1.3238)" stroke-width=".20845"><g><path d="m26.295 30.993 7.6921 2.3324c2.4342 1.0924 3.3033 3.6261 3.577 7.6334l-35.504 0.03559c-0.19225-4.3957 1.728-5.6598 5.8769-7.7299l9.0902-2.3677c4.2589 2.5852 8.2037 2.3548 9.2675 0.09612z" fill-rule="evenodd" stroke="#000" stroke-width=".20845"/><path d="m32.868 7.5736c-0.07019 8.2938 0.40742 19.541-9.0073 22.424-1.0393 0.39006-1.9192 0.29027-2.9533 0.02683-2.4391-0.78029-4.619-3.1983-5.4306-4.5521-0.96505-1.5202-1.8243-3.7205-2.3227-6.9386-3.8721-14.124 0.88302-16.842 12.422-15.822 2.3455 0.20723 6.4114 1.2194 7.2919 4.8625z" fill="#fff" fill-rule="evenodd" stroke="#000" stroke-width=".20845"/><path d="m12.144 14.551c0.58504 6.6096 1.2093 7.727 1.6793 10.268 0.74686 1.9647 0.48115 6.3751 2.4876 8.7026 0.78686 0.86117 1.6664 1.6186 3.4788 2.2233 1.6582 0.6851 3.8692 0.44201 5.5274 0.40304 1.6382-0.23032 2.393-0.58985 3.0647-1.2404 0.94154-1.009 1.2993-4.6255 1.6796-5.7209l1.2069-4.9583c0.39315-1.3794 0.30805-2.1149 1.1885-5.1615 0.12886-0.86246 0.26863-2.224 0.27612-3.4684-0.04528 0.20906-0.18572 0.02753-0.21555 0.22899-0.16959 1.1452-0.1775 2.7518-0.72917 4.5019l-0.65244 1.8239-0.8503 2.3167c-0.12336 0.35652-0.22038 0.90741-2.6569 3.3728-0.50255 0.36537-0.47406 0.6125-1.819 0.71102-0.76128-0.32075-0.84092-0.73185-1.0287-1.2581-0.32496-0.55745-0.30314-1.2968-0.14105-2.5737l-0.6788-0.10512-0.50963 2.199-0.38248 0.58397c-0.63813 0.736-2.7959 1.4319-4.2175 0.81859-0.75694-0.3383-1.7716-1.4433-2.4004-2.337l-1.4037-2.1905-0.96718-2.0535c-0.99369-2.176-1.1995-4.3278-1.4183-6.2525z" fill="#646464"/><path d="m32.868 7.5736c-3.2097-0.59694-6.5228 1.1093-8.6455 0.35723-12.539-4.4422-10.766 4.5682-11.068 10.603-3.8721-14.124 0.88302-16.842 12.422-15.822 2.2397 0.19788 5.9615 1.152 7.1421 4.3887 0.05574 0.15281 0.31592 0.50474 0.1498 0.47384z" fill="#606060" fill-rule="evenodd" opacity=".393"/></g><g><path d="m25.456 15.14c0.10246 0.37963 1.9631 4.1443 1.416 4.2469l-1.6342 0.46874" fill="none" stroke="#000" stroke-width=".20845"/><path d="m27.125 24.17-5.4637-0.97168" fill="#fff" fill-rule="evenodd" stroke="#666" stroke-width=".20845"/><g transform="matrix(.34733 0 0 .34733 -39.86 -26.913)" fill="#fff" stroke="#000"><path d="m183.37 111.03c6.8447 0.52296 7.141 0.20117 7.141 0.20117z" fill-rule="evenodd" stroke-width=".60016"/><rect transform="matrix(.9996 .028143 -.032768 .99946 0 0)" x="165.93" y="99.888" width="22.255" height="12.353" ry="1.2394" fill-opacity=".98429" stroke-width=".60016"/><rect transform="matrix(.99963 .027355 -.033164 .99945 0 0)" x="193.82" y="100.61" width="19.66" height="11.764" ry="1.1803" fill-opacity=".98429" stroke-width=".60016"/></g></g><g transform="matrix(1.0088 2.8858e-5 -2.9349e-5 .99194 -1.7612 -.17309)" fill="#666" fill-rule="evenodd" stroke="#4d4d4d" stroke-width="1.5685"><g transform="rotate(-9.3233 23.742 22.042)"><g transform="matrix(-.058947 -.10238 .13925 -.033974 25.615 88.051)"><path d="m550.79 243.74c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/><path d="m555.08 240.96c0 1.617 2.0203 2.5254 3.0305 3.7881"/><path d="m557.35 238.43c0 0.81665 3.4388 3.1084 4.7982 3.7881"/><path d="m559.88 235.65c0 0.9598 1.8436 0.90931 2.2728 1.7678 0.16836 0.33672 0.33672 0.67344 0.50507 1.0102 0.61856 1.2371-0.7658 1.5152 1.2627 1.5152"/><path d="m562.4 232.62c0.46775 0.9355 3.0842 2.1277 3.7881 3.5355"/><path d="m565.69 230.6c0.66658 1.3332 4.6252 3.6751 6.8185 4.0406"/><path d="m566.95 226.82c0.34398 0.68796 3.3523 2.9215 5.8084 3.5355 2.1828 0.5457 0.85988-0.17197 1.2627-0.25253"/><path d="m569.47 224.04c1.7209 0.43022 2.5254 2.8401 2.5254 4.7982v0.50508"/><path d="m572.5 221.76c0 1.7797 7.213 3.9498 7.5762 4.0406"/><path d="m572.5 217.98c0 2.1045 4.1786 0.82662 6.0609 1.7678 0.69416 0.34708 1.5118 0.35287 2.2728 0.50508"/></g><g transform="matrix(-.058947 -.10238 .13925 -.033974 28.294 88.872)"><path d="m550.79 243.74c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/><path d="m555.08 240.96c0 1.617 2.0203 2.5254 3.0305 3.7881"/><path d="m557.35 238.43c0 0.81665 3.4388 3.1084 4.7982 3.7881"/><path d="m559.88 235.65c0 0.9598 1.8436 0.90931 2.2728 1.7678 0.16836 0.33672 0.33672 0.67344 0.50507 1.0102 0.61856 1.2371-0.7658 1.5152 1.2627 1.5152"/><path d="m562.4 232.62c0.46775 0.9355 3.0842 2.1277 3.7881 3.5355"/><path d="m565.69 230.6c0.66658 1.3332 4.6252 3.6751 6.8185 4.0406"/><path d="m566.95 226.82c0.34398 0.68796 3.3523 2.9215 5.8084 3.5355 2.1828 0.5457 0.85988-0.17197 1.2627-0.25253"/><path d="m569.47 224.04c1.7209 0.43022 2.5254 2.8401 2.5254 4.7982v0.50508"/><path d="m572.5 221.76c0 1.7797 7.213 3.9498 7.5762 4.0406"/><path d="m572.5 217.98c0 2.1045 4.1786 0.82662 6.0609 1.7678 0.69416 0.34708 1.5118 0.35287 2.2728 0.50508"/></g></g><g transform="rotate(-9.3233 26.167 20.696)"><g transform="matrix(-.058947 -.10238 .13925 -.033974 25.615 88.051)"><path d="m550.79 243.74c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/><path d="m555.08 240.96c0 1.617 2.0203 2.5254 3.0305 3.7881"/><path d="m557.35 238.43c0 0.81665 3.4388 3.1084 4.7982 3.7881"/><path d="m559.88 235.65c0 0.9598 1.8436 0.90931 2.2728 1.7678 0.16836 0.33672 0.33672 0.67344 0.50507 1.0102 0.61856 1.2371-0.7658 1.5152 1.2627 1.5152"/><path d="m562.4 232.62c0.46775 0.9355 3.0842 2.1277 3.7881 3.5355"/><path d="m565.69 230.6c0.66658 1.3332 4.6252 3.6751 6.8185 4.0406"/><path d="m566.95 226.82c0.34398 0.68796 3.3523 2.9215 5.8084 3.5355 2.1828 0.5457 0.85988-0.17197 1.2627-0.25253"/><path d="m569.47 224.04c1.7209 0.43022 2.5254 2.8401 2.5254 4.7982v0.50508"/><path d="m572.5 221.76c0 1.7797 7.213 3.9498 7.5762 4.0406"/><path d="m572.5 217.98c0 2.1045 4.1786 0.82662 6.0609 1.7678 0.69416 0.34708 1.5118 0.35287 2.2728 0.50508"/></g><g transform="matrix(-.058947 -.10238 .13925 -.033974 28.294 88.872)"><path d="m550.79 243.74c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/><path d="m555.08 240.96c0 1.617 2.0203 2.5254 3.0305 3.7881"/><path d="m557.35 238.43c0 0.81665 3.4388 3.1084 4.7982 3.7881"/><path d="m559.88 235.65c0 0.9598 1.8436 0.90931 2.2728 1.7678 0.16836 0.33672 0.33672 0.67344 0.50507 1.0102 0.61856 1.2371-0.7658 1.5152 1.2627 1.5152"/><path d="m562.4 232.62c0.46775 0.9355 3.0842 2.1277 3.7881 3.5355"/><path d="m565.69 230.6c0.66658 1.3332 4.6252 3.6751 6.8185 4.0406"/><path d="m566.95 226.82c0.34398 0.68796 3.3523 2.9215 5.8084 3.5355 2.1828 0.5457 0.85988-0.17197 1.2627-0.25253"/><path d="m569.47 224.04c1.7209 0.43022 2.5254 2.8401 2.5254 4.7982v0.50508"/><path d="m572.5 221.76c0 1.7797 7.213 3.9498 7.5762 4.0406"/><path d="m572.5 217.98c0 2.1045 4.1786 0.82662 6.0609 1.7678 0.69416 0.34708 1.5118 0.35287 2.2728 0.50508"/><path d="m547.72 240.68c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/><path d="m544.28 240.83c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/><path d="m549.89 240.01c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/><path d="m584.24 200.36c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/><path d="m588.67 202.32c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/><path d="m589.01 199.72c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/><path d="m584.21 195.67c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/><path d="m579.44 196.32c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/><path d="m579.6 194.09c0.72964 0.67938 4.7982 1.7654 4.7982 3.5355v0.50507"/></g></g></g></g></g></g></svg>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://pothix.com/about">About</a></li><li><a href="https://pothix.com/book">Book</a></li><li><a href="https://pothix.com/code">Code</a></li><li><a href="https://pothix.com/now">Now</a></li><li><a href="https://pothix.com/tags">Tags</a></li><li><a href="https://pothix.com/talks">Talks</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+  <main class="post">
+
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        33 minutes reading
+
+        |
+
+        
+            
+                Também disponível em
+                <a href="https://translate.google.com/translate?sl=en&amp;tl=pt&amp;u=https%3a%2f%2fpothix.com%2fsoftwareatgoogle%2f" target="_blank" rel="nofollow noopener noreferrer">🇧🇷</a>
+            
+        
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="https://pothix.com/softwareatgoogle/">Review of Software Engineering at Google</a>
+      </h1>
+
+      
+
+      <div class="post-content">
+        <p>Book: <a href="https://www.goodreads.com/review/show/3491762189">Software Engineering at Google: Lessons Learned from Programming Over
+Time</a> by Titus Winters.
+Rating: ⭐️⭐️⭐️⭐️.</p>
+<p>It was a great book to read. It&rsquo;s not the kind of book you read and start
+applyind stuff at your current job. We all must remember we&rsquo;re not Google, and
+many things mentioned there are great, but only applies to their context.</p>
+<p>With that said, I quite enjoyed the book. I was curious about Google&rsquo;s
+structure, and it&rsquo;s mind-blowing the amount of problems specific to that scale.
+I even learned a few things that are still worth applying in non-Google
+companies.</p>
+<p>I have to say, the whole chapter about testing is very on point to me, they
+nailed it, not just for Google. Things get even more complicated in Google&rsquo;s
+scale, but most of the conclusions and processes there would resolve a bunch of
+problems in other pieces of software I had to work with during my career.</p>
+<p><strong>Here are my raw notes about the book (quotes and my comments after 💭):</strong></p>
+<ul>
+<li>
+<ol>
+<li>What is Software Engineering</li>
+</ol>
+<ul>
+<li>Programming Over Time
+<ul>
+<li>One key insight we share in this book is that software engineering can be thought of as “programming integrated over time.”</li>
+<li>Nothing is built on stone; all is built on sand, but we must build as if the sand were stone.
+<ul>
+<li>💭 — This is so true in software development</li>
+</ul>
+</li>
+<li>One way to see the impact of time on a program is to think about the question, “What is the expected life span1 of your code?”</li>
+<li>Your project is sustainable if, for the expected life span of your software, you are capable of reacting to whatever valuable change comes along, for either technical or business reasons.</li>
+<li>When you are fundamentally incapable of reacting to a change in underlying technology or product direction, you’re placing a high- risk bet on the hope that such a change never becomes critical.</li>
+<li>The job of a software engineer, or a software engineering leader, is to aim for sustainability and management of the scaling costs for the organization, the product, and the development workflow.</li>
+<li>We might sometimes defer maintenance changes, or even embrace policies that don’t scale well, with the knowledge that we’ll need to revisit those decisions. Those choices should be explicit and clear about the deferred costs.</li>
+</ul>
+</li>
+<li>Time and Change
+<ul>
+<li>A serial startup developer could very reasonably have 10 years of development experience and little or no experience maintaining any piece of software expected to exist for longer than a year or two.
+<ul>
+<li>💭 — That is an interesting point. I&rsquo;ve been working on long lived apps in the past 10 years and I certainly dealt with some developers that introduced bad code because of such mindset</li>
+</ul>
+</li>
+<li>keeping software maintainable for the long- term is a constant battle.</li>
+<li>With a sufficient number of users of an API, it does not matter what you promise in the contract: all observable behaviors of your system will be depended on by somebody.</li>
+<li>Given enough time and enough users, even the most innocuous change will break something;</li>
+<li>Per Hyrum’s Law, programmers will write programs that depend on the order in which a hash table is traversed, if they have the ability to do so.
+<ul>
+<li>💭 — It reminds me of JSON comments. LOL</li>
+</ul>
+</li>
+<li>But even this still allows for some Hyrum’s Law surprises: there is code that uses hash iteration ordering as an inefficient random- number generator. Removing such randomness now would break those users.
+<ul>
+<li>💭 — LOL</li>
+</ul>
+</li>
+<li>We’ve taken to saying, “It’s programming if ‘clever’ is a compliment, but it’s software engineering if ‘clever’ is an accusation.”
+<ul>
+<li>💭 — That&rsquo;s interesting and I can clearly see examples where this applies throughout my carreer</li>
+</ul>
+</li>
+<li>the ever- widening gap between CPU cycles versus memory latency impacts what “efficient” code looks like. Over time, the value in upgrading to newer hardware can be diminished without accompanying design changes to the software.</li>
+</ul>
+</li>
+<li>Scale and Efficiency
+<ul>
+<li>if changing something comes at inordinate cost, it will likely be deferred.</li>
+<li>Only with an organization- wide awareness and commitment to scaling are you likely to keep on top of these issues.</li>
+<li>We’ve found that expertise and shared communication forums offer great value as an organization scales. As engineers discuss and answer questions in shared forums, knowledge tends to spread. New experts grow. If you have a hundred engineers writing Java, a single friendly and helpful Java expert willing to answer questions will soon produce a hundred engineers writing better Java code.</li>
+<li>The more frequently you change your infrastructure, the easier it becomes to do so.</li>
+<li>No single process or tool needs to be perfect, so we can assume a defense- in- depth approach, hopefully catching as many defects on the left side of the graph as possible.</li>
+</ul>
+</li>
+<li>Trade-offs and Costs
+<ul>
+<li>If your project life span is short, forks are less risky.</li>
+<li>Contrary to some people’s instincts, leaders who admit mistakes are more respected, not less.</li>
+<li>Every task your organization has to do repeatedly should be scalable (linear or better) in terms of human input.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ol start="2">
+<li>How to Work Well on Teams</li>
+</ol>
+<ul>
+<li>Hiding Considered Harmful
+<ul>
+<li>When you become stuck on something absurd, how much time do you waste pulling yourself out of the hole? Think about how different the experience would be if you had a couple of peers to look over your shoulder and tell you— instantly— how you goofed and how to get past the problem.
+<ul>
+<li>💭 — This is an important topic in a remote and asyc work environment. It&rsquo;s indeed slower but the focus is usually higher in a remote environment .</li>
+</ul>
+</li>
+<li>Don’t misunderstand us— we still think engineers need uninterrupted time to focus on writing code, but we think they need a high- bandwidth, low- friction connection to their team just as much. If less- knowledgeable people on your team feel that there’s a barrier to asking you a question, it’s a problem: finding the right balance is an art.</li>
+</ul>
+</li>
+<li>It’s All About the Team
+<ul>
+<li>You need to work with other people. Share your vision. Divide the labor. Learn from others. Create a brilliant team.
+<ul>
+<li>💭 — This is something I can relate to. You don&rsquo;t need to be in the same place or be talking real time to do that</li>
+</ul>
+</li>
+<li>If you perform a root- cause analysis on almost any social conflict, you can ultimately trace it back to a lack of humility, respect, and/ or trust.</li>
+<li>The discussion stays focused on the code itself, not on anyone’s value or coding skills.</li>
+<li>The more open you are to influence, the more you are able to influence; the more vulnerable you are, the stronger you appear.</li>
+<li>Sometimes, the best thing you can do is just say, “I don’t know.”</li>
+<li>your organization needs a culture of learning, and that requires creating the psychological safety that permits people to admit to a lack of knowledge.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ol start="3">
+<li>Knowledge Sharing</li>
+</ol>
+<ul>
+<li>Philosophy
+<ul>
+<li>Documented knowledge, on the other hand, can better scale not just to the team but to the entire organization.</li>
+<li>Tribal and written knowledge complement each other.</li>
+</ul>
+</li>
+<li>Growing Your Knowledge
+<ul>
+<li>Seek out and understand context, especially for decisions that seem unusual. After you’ve understood the context and purpose of the code, consider whether your change still makes sense. If it does, go ahead and make it; if it doesn’t, document your reasoning for future readers.</li>
+</ul>
+</li>
+<li>Scaling Your Questions: Ask the Community
+<ul>
+<li>Do your future self a favor: when you learn something from a one- to- one discussion, write it down. Chances are that future newcomers will have the same questions you had. Do them a favor, too, and share what you write</li>
+<li>Leaders improve the quality of the people around them, improve the team’s psychological safety, create a culture of teamwork and collaboration, defuse tensions within the team, set an example of Google’s culture and values, and make Google a more vibrant and exciting place to work. Jerks are not good leaders.</li>
+<li>go/ links are so short that it’s easy to share them in conversation (“ You should check out go/ frobber!”).
+<ul>
+<li>💭 — It&rsquo;s Interesting that I just did this with my blog and can confirm it&rsquo;s useful.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Readability: Standardized Mentorship Through Code Review
+<ul>
+<li>one or more qualified reviewers must explicitly give readability approval for the CL.
+<ul>
+<li>💭 — I can imagine how bureaucratic this is&hellip;</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ol start="4">
+<li>Engineering for Equity</li>
+</ol>
+<ul>
+<li>Understanding the Need for Diversity
+<ul>
+<li>Engineers should begin by focusing all work within the framing of the complete ecosystem they seek to influence.</li>
+<li>Diversity is necessary to design properly for a comprehensive user base.</li>
+</ul>
+</li>
+<li>Reject Singular Approaches
+<ul>
+<li>A common methodology today is to build for the majority use case first, leaving improvements and features that address edge cases for later. But this approach is flawed; it gives users who are already advantaged in access to technology a head start, which increases inequity.</li>
+<li>This research should be done with user groups that are multilingual and multicultural and that span multiple countries, socioeconomic class, abilities, and age ranges. Focus on the most difficult or least represented use case first.</li>
+</ul>
+</li>
+<li>Values Versus Outcomes
+<ul>
+<li>Design for the user who will have the most difficulty using your product.
+<ul>
+<li>💭 — In other words: start thinking on the edge cases instead of the happy path. It may be feasible to a large company like google but i wonder if this is feasible for the large majority of small companies.</li>
+</ul>
+</li>
+<li>The whole concept of MVP is also made much harder.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ol start="5">
+<li>How to Lead a Team</li>
+</ol>
+<ul>
+<li>Managers and Tech Leads (and Both)
+<ul>
+<li>Most TLs are also individual contributors, which often forces them to choose between doing something quickly themselves or delegating it to a team member to do (sometimes) more slowly. The latter is most often the correct decision for the TL as they grow the size and capability of their team.</li>
+<li>Managers and Tech Leads (and Both) &gt;  Page 120</li>
+<li>At Google, it’s customary for larger, well- established teams to have a pair of leaders— one TL and one engineering manager— working together as partners.</li>
+<li>A Manager is a leader of people, whereas a Tech Lead leads technology</li>
+</ul>
+</li>
+<li>The Engineering Manager
+<ul>
+<li>Traditional managers worry about how to get things done, whereas great managers worry about what things get done (and trust their team to figure out how to do it).</li>
+<li>A good way to build a culture in which risk taking is accepted is to let your team know that it’s OK to fail.</li>
+</ul>
+</li>
+<li>Antipatterns
+<ul>
+<li>If it’s permanently necessary to micromanage people because you don’t trust them, you have a hiring failure on your hands.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ol start="6">
+<li>Leading at Scale</li>
+</ol>
+<ul>
+<li>Always Be Leaving
+<ul>
+<li>This is what good management is about: 95% observation and listening, and 5% making critical adjustments in just the right place.</li>
+<li>Anchoring a team identity to a specific solution (“ We are the team that manages the Git repositories”) can lead to all sorts of angst over time. What if a large percentage of your engineers want to switch to a new version control system? The team is likely to “dig in,” defend its solution, and resist change, even if this is not the best path for the organization.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ol start="7">
+<li>Measuring Engineering Productivity</li>
+</ol>
+<ul>
+<li>Selecting Meaningful Metrics with Goals and Signals
+<ul>
+<li>if you look only where you can see, you might not be looking in the right place.</li>
+</ul>
+</li>
+<li>Taking Action and Tracking Results
+<ul>
+<li>We instead always assume that engineers will make the appropriate trade- offs if they have the proper data available and the suitable tools at their disposal.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ol start="8">
+<li>Style Guides and Rules</li>
+</ol>
+<ul>
+<li>Creating the Rules
+<ul>
+<li>At Google, where the style guide serves as law for coding practices, we do not ask, “What goes into the style guide?” but rather, “Why does something go into the style guide?”</li>
+<li>When a codebase is internally consistent in its style and norms, engineers writing code and others reading it can focus on what’s getting done rather than how it is presented.</li>
+<li>We know that some of the rules in our style guides will encounter cases that warrant exceptions, and that’s OK.</li>
+<li>As adoption spreads, engineers wanting to use the new features in different ways discuss their examples with the style guide owners, asking for allowances to permit additional use cases beyond those covered by the initial restrictions.
+<ul>
+<li>💭 — That feels very frustrating</li>
+</ul>
+</li>
+<li>There are absolutely best practices left unspecified by these documents, including many fundamental pieces of good engineering advice: don’t be clever, don’t fork the codebase, don’t reinvent the wheel, and so on.</li>
+<li>Noticing when a rule is ready for another look is an important part of the process that keeps our rule set relevant and up to date.</li>
+<li>problems are proven with patterns found in existing Google code. Given a demonstrated problem, because we have the detailed reasoning behind the existing style guide decision,</li>
+</ul>
+</li>
+<li>Guidance
+<ul>
+<li>This “Tip of the Week” series has been extremely successful internally, with frequent citations during code reviews and technical discussions.</li>
+</ul>
+</li>
+<li>Applying the Rules
+<ul>
+<li>when it comes to checking for compliance, rather than exclusively depending on engineer- based verification, we strongly prefer to automate enforcement with tooling.</li>
+<li>Other rules are social rather than technical, and it is often unwise to solve social problems with a technical solution.</li>
+<li>Reviewers can (and do) push back if they judge a change to be too large. For this and similar rules, enforcement is up to the discretion of the engineers authoring and reviewing the code.</li>
+<li>We use tools like clang- tidy (for C + +) and Error Prone (for Java) to automate the process of enforcing rules.</li>
+<li>Most code at Google is subject to such a presubmit check. For our code, we use clang- format for C + +; an in- house wrapper around yapf for Python; gofmt for Go; dartfmt for Dart; and buildifier for our BUILD files.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ol start="9">
+<li>Code Review</li>
+</ol>
+<ul>
+<li>Code Review Flow
+<ul>
+<li>Duplicated code not only is a wasted effort, it can actually cost more in time than not having the code at all; changes that could be easily performed under one code pattern often require more effort when there is duplication in the codebase.</li>
+</ul>
+</li>
+<li>How Code Review Works at Google
+<ul>
+<li>Google’s codebase is a tree structure with hierarchical owners of particular directories. (See Chapter 16). Owners act as gatekeepers for their particular directories.</li>
+</ul>
+</li>
+<li>Code Review Benefits
+<ul>
+<li>There is a recognition that strict processes tend not to work well for a dynamic company needing to respond quickly to new technologies, and that bureaucratic rules tend not to work well with creative professionals. Code review, however, is a mandate, one of the few blanket processes in which all software engineers at Google must participate.</li>
+</ul>
+</li>
+<li>Code Review Benefits
+<ul>
+<li>code review processes that are heavyweight, or that don’t scale properly, become unsustainable.</li>
+<li>A reviewer shouldn’t propose alternatives because of personal opinion. Reviewers can propose alternatives, but only if they improve comprehension (by being less complex, for example) or functionality (by being more efficient, for example). In general, engineers are encouraged to approve changes that improve the codebase rather than wait for consensus on a more “perfect” solution.</li>
+<li>It is often useful to find a reviewer who has a different perspective from the author, especially a reviewer who might need, as part of their job, to maintain or use the code being proposed within the change.
+<ul>
+<li>💭 — That Is a good idea</li>
+</ul>
+</li>
+<li>When an engineer marks a code review as LGTM, they are saying that the code does what it says and that it is understandable.</li>
+</ul>
+</li>
+<li>Code Review Best Practices
+<ul>
+<li>Reviewers should be careful about jumping to conclusions based on a code author’s particular approach. It’s better to ask questions on why something was done the way it was before assuming that approach is wrong.</li>
+<li>At Google, we expect feedback from a code review within 24 (working) hours. If a reviewer is unable to complete a review in that time, it’s good practice (and expected) to respond that they’ve at least seen the change and will get to the review as soon as possible.</li>
+<li>Remember that you are not your code, and that this change you propose is not “yours” but the team’s. After you check that piece of code into the codebase, it is no longer yours in any case. Be receptive to questions on your approach, and be prepared to explain why you did things in certain ways.</li>
+<li>Most changes at Google are expected to be reviewed within about a day. 7 (This doesn’t necessarily mean that the review is over within a day, but that initial feedback is provided within a day.)</li>
+<li>Although the first line should be a summary of the entire change, the description should still go into detail on what is being changed and why.</li>
+<li>The cost of additional reviewers quickly outweighs their value.</li>
+</ul>
+</li>
+<li>Types of Code Reviews
+<ul>
+<li>To ensure that code is sustainable, a greenfield review should ensure that an API matches an agreed design (which may require reviewing a design document) and is tested fully, with all API endpoints having some form of unit test, and that those tests fail when the code’s assumptions change.</li>
+<li>Inevitably, you will need to submit a change for a bug fix to your codebase. When doing so, avoid the temptation to address other issues. Not only does this risk increasing the size of the code review, it also makes it more difficult to perform regression testing or for others to roll back your change.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ol start="10">
+<li>Documentation</li>
+</ol>
+<ul>
+<li>Types of Code Reviews
+<ul>
+<li>Engineers, therefore, need the proper tools and incentives to do so effectively. The key to making it easier for them to write quality documentation is to introduce processes and tools that scale with the organization and that tie into their existing workflow.
+<ul>
+<li>💭 — +1 on that</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Why Is Documentation Needed?
+<ul>
+<li>Documentation is critical over time, and reaps tremendous benefits for especially critical code as an organization scales.</li>
+</ul>
+</li>
+<li>Documentation Is Like Code
+<ul>
+<li>An engineer might write shell scripts or Python to run command- line tasks, or they might write most of their backend code in C + + but write some middleware code in Java, and so on. Each language is a tool in the toolbox.</li>
+<li>Leveraging of existing developer workflows, rather than creating new ones, was a key benefit.</li>
+</ul>
+</li>
+<li>Know Your Audience
+<ul>
+<li>A design document might need to persuade decision makers. A tutorial might need to provide very explicit instructions to someone utterly unfamiliar with your codebase. An API might need to provide complete and accurate reference information for any users of that API, be they experts or novices. Always try to identify a primary audience and write to that audience.</li>
+<li>As Blaise Pascal once said, “If I had more time, I would have written you a shorter letter.”</li>
+</ul>
+</li>
+<li>Documentation Types
+<ul>
+<li>Generally, a file comment should begin with an outline of what’s contained in the code you are reading.</li>
+<li>Any API that cannot be succinctly described in the first paragraph or two is usually the sign of an API that is not well thought out. Consider breaking the API into separate components in those cases.</li>
+<li>Function comments should stress the active nature of their use, beginning with an indicative verb describing what the function does and what is returned.</li>
+<li>Combine all atomic user operations into single steps so that the user knows they need to do something at each step in the process.</li>
+</ul>
+</li>
+<li>Documentation Philosophy
+<ul>
+<li>At Google, we often attach “freshness dates” to documentation. Such documents note the last time a document was reviewed, and metadata in the documentation set will send email reminders when the document hasn’t been touched in, for example, three months.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ol start="11">
+<li>Testing Overview</li>
+</ol>
+<ul>
+<li>Why Do We Write Tests?
+<ul>
+<li>Keep in mind that tests derive their value from the trust engineers place in them. If testing becomes a productivity sink, constantly inducing toil and uncertainty, engineers will lose trust and begin to find workarounds. A bad test suite can be worse than no test suite at all.</li>
+<li>we have built testing into the heart of our engineering culture.</li>
+<li>To address these problems, the tech lead (TL) of GWS decided to institute a policy of engineer- driven, automated testing. As part of this policy, all new code changes were required to include tests, and those tests would be run continuously. Within a year of instituting this policy, the number of emergency pushes dropped by half. This drop occurred despite the fact that the project was seeing a record number of new changes every quarter. Even in the face of unprecedented growth and change,</li>
+<li>After an engineer on the team writes a test, it is added to the pool of common resources available to others. Everyone else on the team can now run the test and will benefit when it detects an issue.</li>
+</ul>
+</li>
+<li>Designing a Test Suite
+<ul>
+<li>the most important qualities we want from our test suite are speed and determinism,</li>
+<li>You can’t run a server and have a separate test process connect to it. It also means that you can’t run a third- party program such as a database as part of your test.</li>
+<li>The constraints placed on small tests can be too restrictive for many interesting kinds of tests.</li>
+<li>We like to say that “a test should be obvious upon inspection.” Because there are no tests for the tests themselves, they require manual review as an important check on correctness.</li>
+</ul>
+</li>
+<li>Testing at Google Scale
+<ul>
+<li>All changes are committed to the repository head</li>
+<li>In addition to developing the proper culture, invest in your testing infrastructure by developing linters, documentation, or other assistance that makes it more difficult to write bad tests.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ol start="12">
+<li>Unit Testing</li>
+</ol>
+<ul>
+<li>Preventing Brittle Tests
+<ul>
+<li>The takeaway is that after you write a test, you shouldn’t need to touch that test again as you refactor the system, fix bugs, or add new features.</li>
+<li>If a method or class exists only to support one or two other classes (i.e., it is a “helper class”), it probably shouldn’t be considered its own unit, and its functionality should be tested through those classes instead of directly.</li>
+</ul>
+</li>
+<li>Writing Clear Tests
+<ul>
+<li>A test is complete when its body contains all of the information a reader needs in order to understand how it arrives at its result.</li>
+<li>particular, it can often be worth violating the DRY (Don’t Repeat Yourself) principle if it leads to clearer tests.</li>
+<li>rather than writing a test for each method, write a test for each behavior.</li>
+<li>The lesson is clear: in test code, stick to straight- line code over clever logic, and consider tolerating some duplication when it makes the test more descriptive and meaningful. We’ll discuss ideas around duplication and code sharing</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ol start="14">
+<li>Larger Testing</li>
+</ol>
+<ul>
+<li>Larger Tests at Google
+<ul>
+<li>One way to achieve this test ratio when presented with a user journey that can require contributions from many internal systems is to “chain” tests, as illustrated in Figure 14- 4, not specifically in their execution, but to create multiple smaller pairwise integration tests that represent the overall scenario. This is done by ensuring that the output of one test is used as the input to another test by persisting this output to a data repository.</li>
+</ul>
+</li>
+<li>Structure of a Large Test
+<ul>
+<li>if the backend provides a public API, it is often easier to split the tests into connected tests at the UI/ API boundary and to use the public API to drive the end- to- end tests. This is true whether the UI is a browser, command- line interface (CLI), desktop app, or mobile app.</li>
+</ul>
+</li>
+<li>Types of Larger Tests
+<ul>
+<li>Many times, it is not the code that is the source of defects but instead configuration: data files, databases, option definitions, and so on.</li>
+<li>Any defects found by exploratory tests should be replicated with an automated test that can run much more frequently.</li>
+<li>One common approach we use for manual exploratory testing is the bug bash. A team of engineers and related personnel (managers, product managers, test engineers, anyone with familiarity with the product) schedules a “meeting,” but at this session, everyone involved manually tests the product.
+<ul>
+<li>💭 — That&rsquo;s An interesting idea</li>
+</ul>
+</li>
+<li>modes for a given publicly facing product. Additionally, as Hyrum’s Law states, the actual public API is not the declared one but all user- visible aspects of a product.</li>
+<li>Maps. A/ B diff tests operate by sending traffic to a public API and comparing the responses between old and new versions (especially during migrations). Any deviations in behavior must be reconciled as either anticipated or unanticipated (regressions).</li>
+<li>Even though software is a digital asset and the physical bits themselves don’t degrade, new technologies, libraries, techniques, languages, and other environmental changes over time render existing systems obsolete.</li>
+<li>For long- running software ecosystems, planning for and executing deprecation correctly reduces resource costs and improves velocity by removing the redundancy and complexity that builds up in a system over time.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ol start="15">
+<li>Deprecation</li>
+</ol>
+<ul>
+<li>Why Deprecate?
+<ul>
+<li>code is a liability, not an asset. After all, if code were an asset, why should we even bother spending time trying to turn down and remove obsolete systems?</li>
+<li>Code itself doesn’t bring value: it is the functionality that it provides that brings value. That functionality is an asset if it meets a user need: the code that implements this functionality is simply a means to that end.</li>
+</ul>
+</li>
+<li>Why Is Deprecation So Hard?
+<ul>
+<li>staffing a team and spending time removing obsolete systems costs real money, whereas the costs of doing nothing and letting the system lumber along unattended are not readily observable.</li>
+<li>don’t start projects that your organization isn’t committed to support for the expected lifespan of the organization.</li>
+</ul>
+</li>
+<li>Types of Deprecation
+<ul>
+<li>we hope that clients move, but can’t force them to. As our friends in SRE will readily tell you: “Hope is not a strategy.”</li>
+<li>we strongly advocate that compulsory deprecations are actively staffed by a specialized team through completion.</li>
+<li>when a system is slated for deprecation and removal, the team will announce planned outages of increasing duration in the months and weeks prior to the turndown.</li>
+<li>In particular, we find “trunk- based development” as popularized by DevOps1 (one repository, no dev branches) to be a particularly scalable policy approach, and we’ll provide some suggestions as to why that is.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ol start="16">
+<li>Version Control and Branch Management</li>
+</ol>
+<ul>
+<li>Version Control at Google
+<ul>
+<li>For an individual developer, lack of choice can seem like an arbitrary impediment. Yet we see again and again that for an organization, it’s a critical component in efficient scaling.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ol start="18">
+<li>Build Systems and Build Philosophy</li>
+</ol>
+<ul>
+<li>What Happens Without a Build System?
+<ul>
+<li>For a single developer working on at most a couple hundred lines of code for at most a week or two (which might have been the entire experience thus far of a junior developer who just graduated university), a compiler is all you need. Scripts can maybe take you a little bit farther. But as soon as you need to coordinate across multiple developers and their machines, even a perfect build script isn’t enough because it becomes very difficult to account for the minor differences in those machines. At this point, this simple approach breaks down and it’s time to invest in a real build system.</li>
+</ul>
+</li>
+<li>Modern Build Systems
+<ul>
+<li>Fundamentally, they aren’t that different from the aforementioned script- based DIY approach we were working on: they run the same compilers under the hood, and you need to understand those underlying tools to be able to know what the build system is really doing.
+<ul>
+<li>💭 — Cargo?</li>
+</ul>
+</li>
+<li>The fundamental problem is that we want the build system to be aware of these files without having to check them into source control. Updating a dependency should be a conscious choice, but that choice should be made once in a central place rather than managed by individual engineers or automatically by the system.</li>
+<li>for there to be any benefit from a remote cache, downloading an artifact needs to be faster than building it. This is not always the case, especially if the cache server is far from the machine doing the build. Google’s network and build system is carefully tuned to be able to quickly share build results.
+<ul>
+<li>💭 — That may be one of the reasons why remote work would be so hard for them. It breaks many given assumptions.</li>
+</ul>
+</li>
+<li>Changes to a project’s build system can be expensive, and that cost increases as the project becomes larger. This is why Google believes that almost every new project benefits from incorporating an artifact- based build system like Bazel right from the start. Within Google, essentially all code from tiny experimental projects up to Google Search is built using Blaze.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ol start="19">
+<li>Critique: Google’s Code Review Tool</li>
+</ol>
+<ul>
+<li>Code Review Tooling Principles
+<ul>
+<li>Code review is not for slowing others down; instead, it is for empowering others.</li>
+<li>Trust and communication are core to the code review process. A tool can enhance the experience, but it can’t replace them.</li>
+</ul>
+</li>
+<li>Stage 1: Create a Change
+<ul>
+<li>For example, suppose that a linter finds a style violation of extra spaces at the end of the line. The change page will display a chip for that linter. From the chip, the author can quickly go to the diff showing the offending code to understand the style violation with two clicks. Most linter violations also include fix suggestions. With a click, the author can preview the fix suggestion (for example, remove the extra spaces), and with another click, apply the fix on the change.
+<ul>
+<li>💭 — That&rsquo;s Great</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ol start="20">
+<li>Static Analysis</li>
+</ol>
+<ul>
+<li>Characteristics of Effective Static Analysis
+<ul>
+<li>Fixing a static analysis warning could introduce a bug. For code that is not being frequently modified, why “fix” code that is running fine in production?</li>
+<li>we generally focus on newly introduced warnings; existing issues in otherwise working code are typically only worth highlighting (and fixing) if they are particularly important (security issues, significant bug fixes, etc.).</li>
+</ul>
+</li>
+<li>Tricorder: Google’s Static Analysis Platform
+<ul>
+<li>antipatterns could represent real bugs. For example, consider the following code snippet hashing a field f of type long: <code>result = 31 * result + (int) (f ^ (f &gt; &gt; &gt; 32))</code>; Now consider the case in which the type of f is int. The code will still compile, but the right shift by 32 is a no- op so that f is XORed with itself and no longer affects the value produced. We fixed 31 occurrences of this bug in Google’s codebase while enabling the check as a compiler error in Error Prone.
+<ul>
+<li>💭 — These are the real useful checks we&rsquo;re expecting from the static analysis.</li>
+</ul>
+</li>
+<li>we display the option to click a “Not useful” button on an analysis result; this click provides the option to file a bug directly against the analyzer writer about why the result is not useful with information about analysis result prepopulated. Code reviewers can also ask change authors to address analysis results by clicking a “Please fix” button.
+<ul>
+<li>💭 — That&rsquo;s indeed very useful. I will consider proposing that as a manual process (as we don&rsquo;t need an entire Google system right now)</li>
+</ul>
+</li>
+<li>Although not every language at Google has this policy, the most frequently used ones do. Both of the Java and C + + compilers have been configured to avoid displaying compiler warnings. The Go compiler takes this to extreme; some things that other languages would consider warnings (such as unused variables or package imports) are errors in Go.
+<ul>
+<li>💭 — OMG, that&rsquo;s why we have such a ridiculous policy in Go&hellip; 🤦‍♂️</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ol start="21">
+<li>Dependency Management</li>
+</ol>
+<ul>
+<li>Importing Dependencies
+<ul>
+<li>Internally, we already have roughly 250 million lines of C + + code that depend on this library
+<ul>
+<li>💭 — 😱</li>
+</ul>
+</li>
+<li>it is important to realize that dependency management has a wholly different nature in a programming task versus a software engineering task. If you’re in a problem space for which maintenance over time is relevant, dependency management is difficult. If you’re purely developing a solution for today with no need to ever update anything, it is perfectly reasonable to grab as many readily available dependencies as you like with no thought of how to use them responsibly or plan for upgrades.</li>
+</ul>
+</li>
+<li>Dependency Management, In Theory
+<ul>
+<li>Live at Head presupposes that we can unpin dependencies, drop SemVer, and rely on dependency providers to test changes against the entire ecosystem before committing.</li>
+<li>The incentive structures and technological assumptions here are materially different than other scenarios: we assume that there exist unit tests and CI, we assume that API providers will be bound by whether downstream dependencies will be broken, and we assume that API consumers are keeping their tests passing and relying on their dependency in supported ways.</li>
+</ul>
+</li>
+<li>The Limitations of SemVer
+<ul>
+<li>you can’t prove anything about compatibility when only considering the source API; you have to know with which things you are asking about compatibility.</li>
+<li>The compression inherent in “I made a breaking change; I must bump the major version number” is lossy when it doesn’t apply at the granularity of an individual atomic API unit.</li>
+<li>There is a further argument that SemVer doesn’t always incentivize the creation of stable code.
+<ul>
+<li>💭 — Well&hellip; It&rsquo;s the trade off of the decentralization 🤷‍♂️</li>
+</ul>
+</li>
+<li>Repackaging and renaming everything seems like a reasonable amount of work to expect from a provider in exchange for them taking the nuclear option and throwing away backward compatibility.
+<ul>
+<li>💭 — That&rsquo;s a good point. Not sure if all breaking changes are nuclear options though.</li>
+</ul>
+</li>
+<li>However, our experience at Google suggests that it is unlikely that you can have any of those three properties at scale and keep them working constantly over time.
+<ul>
+<li>💭 — At Google&rsquo;s scale, not any medium sized project.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Dependency Management with Infinite Resources
+<ul>
+<li>As the Apache community saying goes, we ought to prioritize “community over code.”</li>
+<li>“Don’t release things without a plan (and a mandate) to support it for the long term.”</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ol start="22">
+<li>Large-Scale Changes</li>
+</ol>
+<ul>
+<li>Who Deals with LSCs?
+<ul>
+<li>Centralizing the migration and accounting for its costs is almost always faster and cheaper than depending on individual teams to organically migrate.</li>
+<li>Although fixing this single- character change might seem pointless, particularly across a codebase the size of Google’s, the maturity of our LSC tooling and process enabled us to do it with just a couple weeks’ worth of background- task effort.
+<ul>
+<li>💭 — Just a couple of weeks :grimacing:</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Barriers to Atomic Changes
+<ul>
+<li>it might not be just “difficult” or “unwise” to make a large change atomically: it might simply be impossible with a given set of infrastructures.</li>
+<li>The SREs who run Google’s production services have a mantra: “No Haunted Graveyards.” A haunted graveyard in this sense is a system that is so ancient, obtuse, or complex that no one dares enter it.</li>
+<li>Google’s codebase had more than 500,000 references to scoped_ptr scattered among millions of source files.</li>
+</ul>
+</li>
+<li>LSC Infrastructure
+<ul>
+<li>Google’s use of the semantic indexing tool Kythe provides a complete map of the links between parts of our codebase, allowing us to ask questions such as “Where are the callers of this function?” or “Which classes derive from this one?”
+<ul>
+<li>💭 — That may be very useful</li>
+</ul>
+</li>
+<li>languages that tend to be viewed as more focused on developer productivity tend to be more difficult to maintain.</li>
+</ul>
+</li>
+<li>The LSC Process
+<ul>
+<li>If a particular owner proves to be unresponsive, Rosie adds additional reviewers automatically in an effort to get a change reviewed in a timely manner.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ol start="23">
+<li>Continuous Integration</li>
+</ol>
+<ul>
+<li>CI Concepts
+<ul>
+<li>why not just run all tests on presubmit? The main reason is that it’s too expensive. Engineer productivity is extremely valuable, and waiting a long time to run every test during code submission can be severely disruptive.</li>
+<li>CI Is Alerting Titus Winters As with responsibly running production systems, sustainably maintaining software systems also requires continual automated monitoring. Just as we use a monitoring and alerting system to understand how production systems respond to change, CI reveals how our software is responding to changes in its environment.</li>
+<li>Policies that say, “Nobody can commit if our latest CI results aren’t green” are probably misguided. If CI reports an issue, such failures should definitely be investigated before letting people commit or compound the issue. But if the root cause is well understood and clearly would not affect production, blocking commits is unreasonable.
+<ul>
+<li>💭 — That said, having a non-green status and dismiss is quite problematic for the trust in the alert</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>CI at Google
+<ul>
+<li>Every day it is responsible for handling more than 50,000 unique changes and running more than four billion individual test cases.</li>
+<li>To deal with such breakages, each team has a “Build Cop.” The Build Cop’s responsibility is keeping all the tests passing in their particular project, regardless of who breaks them. When a Build Cop is notified of a failing test in their project, they drop whatever they are doing and fix the build.</li>
+<li>The presence of failing tests can quickly begin to erode confidence in the test suite. As mentioned previously, fixing a broken build is the responsibility of the Build Cop. The most effective tool the Build Cop has is the rollback.</li>
+<li>Before long, Takeout faced “flag issues.” Flags added for one of the instances would break the others, and their deployments would break when servers could not start up due to configuration incompatibilities.</li>
+<li>The team came up with a strategic way to disable failing tests by tagging them with an associated bug and filing that off to the responsible team
+<ul>
+<li>💭 — Linking skipped tests to bugs is actually quite clever. I see this working even in simple codebases. It&rsquo;s weird to have a test skipped without a reason written down</li>
+</ul>
+</li>
+<li>The value of code is not realized at the time of submission but when features are available to your users.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ol start="24">
+<li>Continuous Delivery</li>
+</ol>
+<ul>
+<li>Velocity Is a Team Sport: How to Break Up a Deployment into Manageable Pieces
+<ul>
+<li>If your releases are costly and sometimes risky, the instinct is to slow down your release cadence and increase your stability period.</li>
+<li>In some cases, at Google, the answer has been to rewrite an application from scratch rather than simply migrating it, establishing the desired modularity into the new architecture. Although either of these options can take months and is likely painful in the short term, the value gained in terms of operational cost and cognitive simplicity will pay off over an application’s lifespan of years.</li>
+</ul>
+</li>
+<li>Evaluating Changes in Isolation: Flag-Guarding Features
+<ul>
+<li>Turning on a flag for 100% of your users all at once is not a great idea, so a configuration service that manages safe configuration rollouts is a good investment.</li>
+</ul>
+</li>
+<li>Striving for Agility: Setting Up a Release Train
+<ul>
+<li>A world of regular releases means that if a developer misses the release train, they’ll be able to catch the next train in a matter of hours rather than days. This limits developer panic and greatly improves work– life balance for release engineers.
+<ul>
+<li>💭 — If it&rsquo;s just hours, it would be quite acceptable indeed</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Shifting Left: Making Data-Driven Decisions Earlier
+<ul>
+<li>One of our release managers shared a piece of wisdom that turned the situation around when he said that the diversity of our client market was not a problem, but a fact.</li>
+</ul>
+</li>
+<li>Conclusion
+<ul>
+<li>we’ve found that, counterintuitively, faster is safer.</li>
+<li>faster is cheaper, because having a predictable, frequent release train forces you to drive down the cost of each release and makes the cost of any abandoned release very low.</li>
+<li>I don’t try to understand computers. I try to understand the programs. Barbara Liskov</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ol start="25">
+<li>Compute as a Service</li>
+</ol>
+<ul>
+<li>Taming the Compute Environment
+<ul>
+<li>However, the growth of the number of datacenters Google manages meant that we moved toward a model in which turning up a datacenter is an automated process that does not require human intervention.</li>
+</ul>
+</li>
+<li>Writing Software for Managed Compute
+<ul>
+<li>If your server is a pet, when it’s broken, a human comes to look at it (usually in a panic), understand what went wrong, and hopefully nurse it back to health. It’s difficult to replace. If your servers are cattle, you name them replica001 to replica100, and if one fails, automation will remove it and provision a new one in its place.</li>
+</ul>
+</li>
+<li>CaaS Over Time and Scale
+<ul>
+<li>This underlines the challenges of designing a container system that will prove maintainable over time and thus the value of using a container system developed and used by a broader community, where these types of issues have already occurred for others and the lessons learned have been incorporated.
+<ul>
+<li>💭 — Community ❤️</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Choosing a Compute Service
+<ul>
+<li>code will be written in a way that takes advantage of all the properties of the system (Hyrum’s Law); thus, for instance, if you choose a VM-based offering, teams will tweak their particular VM images; and if you choose a specific container-based solution, teams will call out to the APIs of the cluster manager.</li>
+<li>Some teams were creative in their desire to limit memory usage and replaced (in their custom filesystem overlay) the Bash command with a custom-written piece of “execute the second argument” code. These teams, of course, were very aware of their memory usage, and so when the Borg team changed the process runner to use ash (which was not overwritten by the custom code), their memory usage increased (because it started including ash usage instead of the custom code usage), and this caused alerts, rolling back the change, and a certain amount of unhappiness.
+<ul>
+<li>💭 — Fixing workarounds actually generated more problems. LOL</li>
+</ul>
+</li>
+<li>It’s worth mentioning that many or most serverless frameworks are built on top of other compute layers: AppEngine runs on Borg, Knative runs on Kubernetes, Lambda runs on Amazon EC2.</li>
+<li>The other is to run multicloud; that is, to use managed services based on the same open source solutions from two or more different cloud providers (say, GKE and AKS for Kubernetes). This provides an even easier path for migration out of one of them, and also makes it more difficult to depend on specific implementation details available in one one of them.
+<ul>
+<li>💭 — I have some major concerns about being tied to a specific provider</li>
+</ul>
+</li>
+<li>Along the way, he has started several Google projects that are believed to be in the top-10 largest refactorings in human history.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+      </div>
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+      
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://pothix.com/tags/english/">english</a></span>
+        <span class="tag"><a href="https://pothix.com/tags/tech/">tech</a></span>
+        <span class="tag"><a href="https://pothix.com/tags/books/">books</a></span>
+        
+    </p>
+
+      
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        6975 Words
+      </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        
+          2021-09-27
+        
+
+        
+          
+        
+      </p>
+    </div>
+      <hr />
+      <div class="sharing-buttons">
+        <span style="padding-top:17px">Share:</span> 
+<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fpothix.com%2fsoftwareatgoogle%2f" target="_blank" rel="noopener" aria-label="" title="Share on facebook">
+  <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?url=https%3a%2f%2fpothix.com%2fsoftwareatgoogle%2f" target="_blank" rel="noopener" aria-label="" title="Share on twitter">
+  <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small">
+      <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Review%20of%20Software%20Engineering%20at%20Google&amp;caption=Review%20of%20Software%20Engineering%20at%20Google&amp;canonicalUrl=https%3a%2f%2fpothix.com%2fsoftwareatgoogle%2f" target="_blank" rel="noopener" aria-label="" title="Share on tumblr">
+  <div class="resp-sharing-button resp-sharing-button--tumblr resp-sharing-button--small">
+    <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.563 24c-5.093 0-7.031-3.756-7.031-6.411V9.747H5.116V6.648c3.63-1.313 4.512-4.596 4.71-6.469C9.84.051 9.941 0 9.999 0h3.517v6.114h4.801v3.633h-4.82v7.47c.016 1.001.375 2.371 2.207 2.371h.09c.631-.02 1.486-.205 1.936-.419l1.156 3.425c-.436.636-2.4 1.374-4.156 1.404h-.178l.011.002z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="mailto:?subject=Review%20of%20Software%20Engineering%20at%20Google&amp;body=https%3a%2f%2fpothix.com%2fsoftwareatgoogle%2f" target="_self" rel="noopener" aria-label="" title="Share via email">
+  <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://pinterest.com/pin/create/button/?url=https%3a%2f%2fpothix.com%2fsoftwareatgoogle%2f&amp;media=https%3a%2f%2fpothix.com%2fsoftwareatgoogle%2f;description=Review%20of%20Software%20Engineering%20at%20Google" target="_blank" rel="noopener" aria-label="" title="Share on pinterest">
+  <div class="resp-sharing-button resp-sharing-button--pinterest resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fpothix.com%2fsoftwareatgoogle%2f&amp;title=Review%20of%20Software%20Engineering%20at%20Google&amp;summary=Review%20of%20Software%20Engineering%20at%20Google&amp;source=https%3a%2f%2fpothix.com%2fsoftwareatgoogle%2f" target="_blank" rel="noopener" aria-label="" title="Share on linkedin">
+  <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=https%3a%2f%2fpothix.com%2fsoftwareatgoogle%2f&amp;resubmit=true&amp;title=Review%20of%20Software%20Engineering%20at%20Google" target="_blank" rel="noopener" aria-label="" title="Share on reddit">
+  <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.xing.com/app/user?op=share;url=https%3a%2f%2fpothix.com%2fsoftwareatgoogle%2f;title=Review%20of%20Software%20Engineering%20at%20Google" target="_blank" rel="noopener" aria-label="" title="Share on xing">
+  <div class="resp-sharing-button resp-sharing-button--xing resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M18.188 0c-.517 0-.741.325-.927.66 0 0-7.455 13.224-7.702 13.657.015.024 4.919 9.023 4.919 9.023.17.308.436.66.967.66h3.454c.211 0 .375-.078.463-.22.089-.151.089-.346-.009-.536l-4.879-8.916c-.004-.006-.004-.016 0-.022L22.139.756c.095-.191.097-.387.006-.535C22.056.078 21.894 0 21.686 0h-3.498zM3.648 4.74c-.211 0-.385.074-.473.216-.09.149-.078.339.02.531l2.34 4.05c.004.01.004.016 0 .021L1.86 16.051c-.099.188-.093.381 0 .529.085.142.239.234.45.234h3.461c.518 0 .766-.348.945-.667l3.734-6.609-2.378-4.155c-.172-.315-.434-.659-.962-.659H3.648v.016z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="whatsapp://send?text=Review%20of%20Software%20Engineering%20at%20Google%20https%3a%2f%2fpothix.com%2fsoftwareatgoogle%2f" target="_blank" rel="noopener" aria-label="" title="Share on whatsapp">
+  <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fpothix.com%2fsoftwareatgoogle%2f&amp;t=Review%20of%20Software%20Engineering%20at%20Google" target="_blank" rel="noopener" aria-label="" title="Share on hacker news">
+  <div class="resp-sharing-button resp-sharing-button--hackernews resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M0 24V0h24v24H0zM6.951 5.896l4.112 7.708v5.064h1.583v-4.972l4.148-7.799h-1.749l-2.457 4.875c-.372.745-.688 1.434-.688 1.434s-.297-.708-.651-1.434L8.831 5.896h-1.88z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://telegram.me/share/url?text=Review%20of%20Software%20Engineering%20at%20Google&amp;url=https%3a%2f%2fpothix.com%2fsoftwareatgoogle%2f" target="_blank" rel="noopener" aria-label="" title="Share on telegram">
+  <div class="resp-sharing-button resp-sharing-button--telegram resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+    </div>
+  </div>
+</a>
+
+      </div>
+
+    
+
+
+    
+
+  </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+            
+                <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            
+            <span>
+                <a href="http://feeds.feedburner.com/Pothix" target="_blank" title="RSS"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+                <a href="http://feeds.feedburner.com/EnglishPotHix" target="_blank" title="English RSS"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+                <a href="http://feeds.feedburner.com/PotHixTech" target="_blank" title="Tech RSS"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+                
+            </span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Made with &#10084; by <a href="https://github.com/rhazdon">Djordje Atlialp</a></span>
+            <span>Customized by <a href="https://pothix.com">PotHix</a></span>
+          </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="/bundle.min.51b5afebbc3c0c51dc879e9481d2b001bec57be11d8399b83a1f02c077368a8da6b431c9bef7391c5be35f9451b5a05011dd439b1fdf7aef86579ccb1ace07a0.js" integrity="sha512-UbWv67w8DFHch56UgdKwAb7Fe&#43;Edg5m4Oh8CwHc2io2mtDHJvvc5HFvjX5RRtaBQEd1Dmx/feu&#43;GV5zLGs4HoA=="></script>
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-2852094-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+    </body>
+</html>
