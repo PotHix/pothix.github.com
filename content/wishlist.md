@@ -3,6 +3,9 @@ title = "Gifts I want to receive"
 tags = [
   "english",
 ]
+aliases = [
+  "gifts",
+]
 +++
 
 Sometimes people want to give me stuff and I would like to refer them to a page.
