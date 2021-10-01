@@ -2,8 +2,9 @@
 title = "Review of Tolkien's Ordinary Virtues book"
 date = 2021-01-28
 tags = [
-    "english",
-    "books",
+  "english",
+  "books",
+  "tolkien",
 ]
 +++
 

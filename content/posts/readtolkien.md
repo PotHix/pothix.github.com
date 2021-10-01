@@ -2,8 +2,9 @@
 title = "How to read Tolkien, in my experience"
 date = 2021-08-26
 tags = [
-    "english",
-    "books",
+  "english",
+  "books",
+  "tolkien",
 ]
 +++
 

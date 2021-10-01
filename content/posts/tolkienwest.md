@@ -2,8 +2,9 @@
 title = "Review of Tolkien and the West: Recovering the Lost Tradition of Europe (The Modern Scholar)"
 date = 2018-07-22
 tags = [
-    "english",
-    "books",
+  "english",
+  "books",
+  "tolkien",
 ]
 +++
 

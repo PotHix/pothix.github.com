@@ -1,7 +1,11 @@
 +++
 title = "Oxford for Tolkien fans"
 date = "2017-03-10"
-tags = ["personal","english"]
+tags = [
+  "personal",
+  "english",
+  "tolkien",
+]
 aliases=[
   "post/oxford-for-tolkien-fans",
   "2017/03/08/oxford-for-tolkien-fans.html"

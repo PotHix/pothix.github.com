@@ -2,8 +2,9 @@
 title = "J.R.R. Tolkien: A Biography"
 date = 2020-10-21
 tags = [
-    "english",
-    "books",
+  "english",
+  "books",
+  "tolkien",
 ]
 +++
 
