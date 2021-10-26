@@ -2,16 +2,23 @@
 type = "page"
 layout = "title_subtitle"
 title = "Media"
-subtitle = "A list of podcasts and video episodes I've been a guest"
+subtitle = "A list of podcasts, newsletters, magazines, and video episodes I've been a guest"
 +++
 
 _If you're here looking for videos of my talks, I recommend you to check my [list of talks page](/talks)._
 
-I love podcasts! It's the media I consume the most nowadays (along with audiobooks!), so I do my best to contribute to it. Most of them (maybe all) are in pt-BR, but I'm adding the language in the table so you can find the ones you can understand, if any.
+
+## Podcasts, videos, and lives
+
+I love podcasts! It's the media I consume the most nowadays (along with
+audiobooks!), so I do my best to contribute to it. Most of them (maybe all) are
+in pt-BR, but I'm adding the language in the table so you can find the ones you
+can understand, if any.
 
 
 Date       | Lang  | Episode title
 ---------- | ----- | -------------
+2021-10-26 | pt-BR | [A linguagem Rust](https://hipsters.tech/rust-hipsters-ponto-tech-276/)
 2021-04-30 | pt-BR | [Todoist e trabalho remoto](https://fechatagpodcast.com.br/)
 2019-10-01 | pt-BR | [Cultura de aprendizado](https://hipsters.tech/cultura-de-aprendizado-hipsters-168/)
 2019-09-24 | pt-BR | [Comunidades de software](https://youtu.be/VI9Yk-XqZ_g)
@@ -28,7 +35,6 @@ Date       | Lang  | Episode title
 2017-07-24 | pt-BR | [Willian Molinari - Desconstruindo a Web](https://castalio.info/episodio-110-willian-molinari-desconstruindo-a-web.html)
 2016-10-26 | pt-BR | [DNE 77 - PotHix](https://devnaestrada.com.br/2016/10/28/pothix.html)
 
-
 I was also mentioned in some other podcasts. These are not content brought to
 the podcast by me, but my name was mentioned or my voice played during the show
 
@@ -36,3 +42,22 @@ the podcast by me, but my name was mentioned or my voice played during the show
 Date       | Lang  | Episode title
 ---------- | ----- | -------------
 2008-02-22 | pt-BR | [Traumas de Infância - Jovem Nerd](https://jovemnerd.com.br/nerdcast/nerdcast-101-traumas-de-infancia/)
+
+
+## Magazines
+
+I wrote content for some **magazines** in the past. I will list here the ones I
+remember:
+
+Date       | Lang  | Magazine
+---------- | ----- | -------------
+2013-11-01 | pt-BR | [imasters magazine #8](https://issuu.com/imasters/docs/revista-imasters-8)
+
+
+## Online content elsewhere
+
+Date       | Lang  | Magazine
+---------- | ----- | -------------
+2017-04-12 | pt-BR | [Training center: Como é trabalhar como software developer](https://medium.com/trainingcenter/como-%C3%A9-trabalhar-como-software-developer-por-willian-molinari-o-pothix-6da503d07b0)
+2013-01-31 | en    | [Gamedev tuts+: What Is "Client-Side Prediction"?](https://gamedevelopment.tutsplus.com/articles/gamedev-glossary-what-is-client-side-prediction--gamedev-3849)
+2012-10-30 | en    | [Gamedev tuts+: What Is the “Game Loop”?](https://gamedevelopment.tutsplus.com/articles/gamedev-glossary-what-is-the-game-loop--gamedev-2469)
