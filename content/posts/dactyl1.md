@@ -84,6 +84,10 @@ Currently, it's a total of **$92.50** or R$568,35 approximately. I would say **R
 would be a good guess because of the currency exchange flutuation. As a
 comparison, the minimum wage in Brazil is R$ 1045.
 
+**2021 edit:** A friend of mine just bought the spare parts I had here for
+R$100. The final price for the keyboard was ~**R$500** (not considering the huge
+amount of work I'm putting into it, of course 😉).
+
 The average time to get something from AliExpress to Brazil is around 3 weeks
 and some of these parts started to arrive already 😃
 
