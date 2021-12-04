@@ -81,7 +81,7 @@ lei e como seus serviços se enquadram nela e usar o CNAE que se enquadra
 melhor. Não cabe a esse texto julgar isso.
 
 Se você trabalha remotamente desenvolvendo software para alguma empresa (meu
-caso), você poderá se enquadrar no CNAE "61.01-5-01 - desenvolvimento de
+caso), você poderá se enquadrar no CNAE "62.01-5/01 - desenvolvimento de
 programas de computador sob encomenda".
 
 Esse é o CNAE que eu escolhi para a minha empresa, juntamente com o "62.04-0-00
