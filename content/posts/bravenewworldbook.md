@@ -9,7 +9,7 @@ tags = [
 
 Book: [Brave New World](https://www.goodreads.com/review/show/2630302498) by Aldous Huxley. Rating: ⭐️⭐️⭐️⭐️.
 
-People usually mention Brave New World along with [[book/1984]], so I had this
+People usually mention Brave New World along with [1984](/1984), so I had this
 one in my list for a long time now. Now that I read it, I can totally understand
 why both books are "related", even with complete different plots.
 
