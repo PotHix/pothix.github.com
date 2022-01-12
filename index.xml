@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 05 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pothix.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pothix.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How typing speed influences our life</title>
+      <link>https://pothix.com/typingspeed/</link>
+      <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/typingspeed/</guid>
+      <description>It&amp;rsquo;s not the first time I have an argument with someone about typing speed, so I decided to write this small post to make my point clear.
+The discussion usually starts with the following argument:
+ I don&amp;rsquo;t have to type fast to be a good programmer. Programming is not about typing, but thinking about the solution.
+ Yes, that&amp;rsquo;s true! The whole job of a programmer is not to type, but to solve problems.</description>
+    </item>
+    
     <item>
       <title>Review of Brave New World</title>
       <link>https://pothix.com/bravenewworldbook/</link>
@@ -3633,7 +3645,7 @@ I currently live in Brazil and I think the current president do not act in good 
       
       <guid>https://pothix.com/now/</guid>
       <description>This is my now page, inspired by Derek Sievers.
-I&amp;rsquo;m living in São Paulo, Brazil and working for Doist remotely and asynchronously full-time.
+Spending some time with my parents at Croatá, Ceará while working for Doist remotely and asynchronously full-time.
 Intervac when there time to spare.
 Here is a list of my current priorities:
  Improving Todoist and Twist APIs and backend codebase at Doist. Mostly working with Python and Golang. Improving my Rust skills and trying to contribute to the compiler (not much time for it nowadays, unfortunately) Co-authoring a book about Rust in pt-BR 🦀 Taking care of my twin children at home with all its ups and downs.</description>

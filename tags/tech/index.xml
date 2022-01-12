@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 28 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pothix.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pothix.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How typing speed influences our life</title>
+      <link>https://pothix.com/typingspeed/</link>
+      <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/typingspeed/</guid>
+      <description>It&amp;rsquo;s not the first time I have an argument with someone about typing speed, so I decided to write this small post to make my point clear.
+The discussion usually starts with the following argument:
+ I don&amp;rsquo;t have to type fast to be a good programmer. Programming is not about typing, but thinking about the solution.
+ Yes, that&amp;rsquo;s true! The whole job of a programmer is not to type, but to solve problems.</description>
+    </item>
+    
     <item>
       <title>Review of Software Engineering at Google</title>
       <link>https://pothix.com/softwareatgoogle/</link>
