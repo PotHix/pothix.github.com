@@ -4,6 +4,7 @@ date = 2010-07-07
 tags = [
     "english",
     "books",
+    "tolkien",
 ]
 aliases = [
     "silmarilion"

@@ -6,7 +6,10 @@ aliases=[
   "blog/books/bookreview-lord-of-the-rings"
 ]
 date = "2009-07-25"
-tags = ["books"]
+tags = [
+  "books",
+  "tolkien",
+]
 +++
 
 Chegou o momento que eu estava esperando há vários meses.... Após

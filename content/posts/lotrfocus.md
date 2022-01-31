@@ -3,7 +3,7 @@ title = "Rust, LotR, and focus"
 date = 2020-12-01
 tags = [
     "english",
-    "quickthoughts",
+    "tolkien",
 ]
 +++
 
