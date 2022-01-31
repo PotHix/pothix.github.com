@@ -30,6 +30,17 @@ The book is about Christian comparisons between The Lord of the Rings and some v
     </item>
     
     <item>
+      <title>Rust, LotR, and focus</title>
+      <link>https://pothix.com/lotrfocus/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/lotrfocus/</guid>
+      <description>💡 Quick thought post. A bigger tweet but on my own platform.
+I&amp;rsquo;m co-authoring a book about Rust and was reviewing an example about enums. My plan was to use some sort of reference to J.R.R. Tolkien fantasy world (because I really like it). I was considering using something like this:
+enum Race { Elf, Dwarf, Men, Hobbit, Ent } PS: I&amp;rsquo;m only considering the free-peoples of middle earth for this enum.</description>
+    </item>
+    
+    <item>
       <title>J.R.R. Tolkien: A Biography</title>
       <link>https://pothix.com/tolkienbio/</link>
       <pubDate>Wed, 21 Oct 2020 00:00:00 +0000</pubDate>
@@ -38,6 +49,29 @@ The book is about Christian comparisons between The Lord of the Rings and some v
       <description>Book: J.R.R. Tolkien: A Biography, by Humphrey Carpenter. Rating: ⭐️⭐️⭐️⭐️⭐️.
 It&amp;rsquo;s not a secret to anyone that I&amp;rsquo;m a big fan of J.R.R. Tolkien. I have 3 versions of this book. A translated version (pt-BR), the original version in English, and the audiobook. It&amp;rsquo;s no news that it would be a 5 star book to me.
 I just listened to the Inklings book by Humphrey Carpenter, so it was the best time to also listen to this one (yes, I went for the Audiobook).</description>
+    </item>
+    
+    <item>
+      <title>Review of The Inklings: C.S. Lewis, J.R.R. Tolkien, Charles Williams, and Their Friends</title>
+      <link>https://pothix.com/inklings/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/inklings/</guid>
+      <description>Book: The Inklings: C.S. Lewis, J.R.R. Tolkien, Charles Williams, and Their Friends by Humphrey Carpenter. Rating: ⭐️⭐️⭐️⭐️⭐️.
+I&amp;rsquo;m giving it 5 stars because I enjoyed it a lot and it came at the right time for me. For most people, it will probably be a 4-stars book.
+I&amp;rsquo;m a big fan of J.R.R Tolkien and also the concept of the Inklings. I have my own spin-off of this group with some friends but instead of discussing literature, we just take some time to have some deep conversation about anything.</description>
+    </item>
+    
+    <item>
+      <title>Review of The Lay of Aotrou and Itroun</title>
+      <link>https://pothix.com/aotrouanditroun/</link>
+      <pubDate>Wed, 29 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/aotrouanditroun/</guid>
+      <description>Book: The Lay of Aotrou and Itroun by J.R.R. Tolkien. Rating: ⭐️⭐️⭐️.
+It&amp;rsquo;s an OK book if you&amp;rsquo;re a Tolkien fan.
+For those who like Tolkien and everything he researched, it&amp;rsquo;s an interesting book to read. I would not recommend this book to someone who&amp;rsquo;s not into Tolkien.
+There are three poems in this book and it tries to tell a story about how Tolkien wrote the final poem. None of them are that great alone but together they show one particular part of Tolkien&amp;rsquo;s style of writing/researching.</description>
     </item>
     
     <item>
@@ -53,6 +87,17 @@ With that said, it was amazing to me to find so much that was not explicit in th
     </item>
     
     <item>
+      <title>Review of The Art of The Lord of the Rings by J.R.R. Tolkien</title>
+      <link>https://pothix.com/artoflotr/</link>
+      <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/artoflotr/</guid>
+      <description>Book: The Art of The Lord of the Rings by J.R.R. Tolkien by Wayne G. Hammond. Rating: ⭐️⭐️⭐️⭐️.
+This is one of those books for Tolkien fans. I do not recommend it if you did not read other books by Tolkien.
+It is nice to read if you already read The Hobbit and The Lord of the Rings. This book shows a lot of details that Tolkien used as a guideline to write the book.</description>
+    </item>
+    
+    <item>
       <title>Oxford for Tolkien fans</title>
       <link>https://pothix.com/oxford-tolkien/</link>
       <pubDate>Fri, 10 Mar 2017 00:00:00 +0000</pubDate>
@@ -61,6 +106,61 @@ With that said, it was amazing to me to find so much that was not explicit in th
       <description>TL;DR: When traveling to Europe, I decided to take 2 or 3 days to visit Oxford. I will describe how was the experience of a J.R.R. Tolkien fan there.
 I&amp;rsquo;m a big fan of J.R.R Tolkien. Have read most of his books, the ones released when he was still alive and other edited by Christopher Tolkien.
 After attending FOSDEM I decided to travel around some countries in Europe and UK. The most expensive part, the airplane tickets (Brazil -&amp;gt; Europe), were already paid, so&amp;hellip; why not?</description>
+    </item>
+    
+    <item>
+      <title>Review de A história de Kullervo</title>
+      <link>https://pothix.com/kullervo/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/kullervo/</guid>
+      <description>Book: A história de Kullervo by J.R.R. Tolkien. Rating: ⭐️⭐️⭐️.
+Um livro para quem é fã de Tolkien.
+Esse é um livro relativamente pequeno, com uma história de cerca de 50 páginas e muitas referências para um dos primeiros trabalhos do Tolkien. Eu só recomendaria esse livro para quem já leu outras obras do Tolkien como Silmarilion ou Os Filhos de Húrin.
+A história de Kullervo inspirou muito do que aconteceu na história de Turin Turambar, além de outras coisas que são contadas no Silmarilion.</description>
+    </item>
+    
+    <item>
+      <title>Review de Ferreiro de Bosque Grande</title>
+      <link>https://pothix.com/ferreirobosquegrande/</link>
+      <pubDate>Mon, 25 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/ferreirobosquegrande/</guid>
+      <description>Book: Ferreiro de Bosque Grande by J.R.R. Tolkien. Rating: ⭐️⭐️⭐️⭐️.
+É um livro muito legal para quem é fã de Tolkien. A história é bem pequena, menos da metade de livro. O restante do livro é um pouco de contexto sobre a história e porque ela foi escrita, juntamente com algumas ligações sobre a vida do Tolkien na época.
+Esse foi o último livro escrito pelo Tolkien antes de sua morte e diz muito sobre o seus pensamentos sobre escrita, sobre o mundo das &amp;ldquo;fadas&amp;rdquo; (que não tem nada a ver com o que pensamos dele atualmente) e sobre a vida no geral.</description>
+    </item>
+    
+    <item>
+      <title>Review de Cartas do Papai Noel por J.R.R Tolkien</title>
+      <link>https://pothix.com/cartaspapainoel/</link>
+      <pubDate>Sat, 13 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/cartaspapainoel/</guid>
+      <description>Book: Cartas do Papai Noel by J.R.R. Tolkien. Rating: ⭐️⭐️⭐️⭐️.
+Eu realmente admiro o J.R.R Tolkien. Esse tipo de livro mostra como ele usava toda a sua imaginação e suas habilidades para fazer coisas para os filhos dele.
+Para quem é fã das obras do Tolkien vai curtir bastante esse livro. Se você é pai (não é o meu caso) talvez veja uma forma legal de lidar com o seu filho pequeno e fazer brincadeiras durante os anos.</description>
+    </item>
+    
+    <item>
+      <title>Review of The Silmarillion</title>
+      <link>https://pothix.com/silmarillion/</link>
+      <pubDate>Wed, 07 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/silmarillion/</guid>
+      <description>Book: The Silmarilion by J.R.R. Tolkien. Rating: ⭐️⭐️⭐️⭐️⭐️.
+This is J.R.R. Tolkien&amp;rsquo;s life work. The other known books a product of this. He was not able to finish this masterpiece, but Christopher Tolkien finished his father&amp;rsquo;s work in a great way.
+I&amp;rsquo;m not going to lie, the Silmarilion is not an easy to read book. I would not recommend it to anyone who was not totally aware of the other books and still looking for more middle earth content.</description>
+    </item>
+    
+    <item>
+      <title>Lord of the Rings</title>
+      <link>https://pothix.com/lotr/</link>
+      <pubDate>Sat, 25 Jul 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/lotr/</guid>
+      <description>Chegou o momento que eu estava esperando há vários meses&amp;hellip;. Após terminar de ler, vou escrever sobre O Senhor dos Anéis! :D
+Todos que me conhecem sabem como eu sou apaixonado pelo mundo de O senhor dos anéis na verdade sobre histórias medievais e o Senhor dos anéis é foda), e eu só tinha assistido o filme (mais de 10 vezes o primeiro, e milhões de vezes os outros 2) e não tinha lido o livro ainda, o que me deixava inquieto, pois eu sabia muito bem que o nível de riquezas e detalhes do livro ia muito alem do que eu podia imaginar, sem contar que muita coisa foi cortada no filme (obviamente) para que se fosse feita uma boa adaptação.</description>
     </item>
     
   </channel>
