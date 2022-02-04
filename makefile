@@ -14,7 +14,7 @@ publish:
 	@make rebuild
 	@echo "Publishing"
 	@git log --oneline | head -n1 | sed -r 's/^[a-zA-Z0-9]+ //g' > public/last_commit
-	@git checkout master
+	@git checkout main
 	@git pull --rebase
 	@rm -rf *.html *.xml 2* about* page tags series stylesheets images avatar javascripts resources content
 	@for i in $(find . -path ./public -prune -o -name index.html); do rm -rf $(dirname $i); done
