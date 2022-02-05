@@ -28,12 +28,12 @@ Just to list a few things:
 - Emails
 - Group chats (Twist, Slack, Discord, whatever you're using)
 - Writing specs or RFCs
-- Writting good PR descriptions
+- Writing good PR descriptions
 - Writing PR review comments
 - etc.
 
 Each of these will depend on you to type stuff. Having a faster typing speed
-will definitely make you more productive. You don't have to be the fastest typer
+will definitely make you more productive. You don't have to be the fastest typist
 around, but typing less than 80 words per minute is totally something you should
 consider improving.
 
