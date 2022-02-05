@@ -1,6 +1,6 @@
 +++
 title = "How typing speed influences our life"
-date = 2022-01-12
+date = 2022-02-05
 tags = [
     "english",
     "tech",
