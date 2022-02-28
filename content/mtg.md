@@ -127,3 +127,29 @@ it's quite decent in this scenario.
 
 If I like what I see after playing against meta-game aggro decks, then I move
 forward to build it on paper or other media I'm using.
+
+## Decks I'm currently brewing
+
+Some of them are copies from other decks that I'm just modifying and adding more
+stuff, but others I'm just doing from scratch.
+
+Pauper Commander
+
+* [Bruenor Battlehammer](https://manabox.app/decks/bFVZAQP2RiOlphmBntrbrQ)
+* [Aven flying tokens](https://manabox.app/decks/kOz-_y8cTp6S3jASbSAH1g)
+* [Ink duelist](https://manabox.app/decks/mox4AScISF6rGMbkVOiL9Q)
+* [Hamza creatures](https://manabox.app/decks/RkSXe4FBReGLPUbWUDbktA)
+* [Siona Tokens](https://manabox.app/decks/Tcwp3gc6Q_6R4ExbpvAsuA)
+* [Jukai Enchantments](https://manabox.app/decks/6HFvRotsTb-tckeW2hg6ng)
+* [Satyr enchanter](https://manabox.app/decks/7csYeMm2Tg2OjYs9fxcVag)
+* [Orzhov fliers](https://manabox.app/decks/JU6XRmEoROmsRSgNWqznzQ)
+* [Mesa enchantress PDH](https://manabox.app/decks/Ifru__VCRLqPRwsJtw0B0Q)
+* [Kor Blademaster](https://manabox.app/decks/hQrQwxMaTi-yMmf2SmQ3FA)
+* [Reyav Double strike](https://manabox.app/decks/mNOaFnNwSP2kHVKtW8DESA)
+* [Phalanx leader](https://manabox.app/decks/d6K6xnVASf-USpmxDR4q5w)
+* [Twinblade Paladin Life gain](https://manabox.app/decks/iqWU8kqXQaSpUrRN-x-04w)
+
+Pauper
+
+* [Mono-white Vigilance](https://manabox.app/decks/V6ermW6SSJSulI6jOdhX_g)
+* [Chimera Weenies](https://manabox.app/decks/KLDT8vA7QDyOM-a9NC6hbg)
