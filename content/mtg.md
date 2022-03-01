@@ -153,3 +153,4 @@ Pauper
 
 * [Mono-white Vigilance](https://manabox.app/decks/V6ermW6SSJSulI6jOdhX_g)
 * [Chimera Weenies](https://manabox.app/decks/KLDT8vA7QDyOM-a9NC6hbg)
+* [Mono-white Soldiers](https://manabox.app/decks/e38-mnc9R5eyK-0v7Wnzlw)
