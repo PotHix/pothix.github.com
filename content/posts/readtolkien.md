@@ -86,8 +86,8 @@ forgive me if you're religious, I'm not anymore), because it **has** a
 narrative, but you can feel this is a collection of texts.
 
 Now that you get what The Silmarillion is, you can read it in many ways. The way
-I recommend is to start with books that came out of the it. One of them is The
-Children of Húrin. It feels much complete as a story by itself, and you can skip
+I recommend is to start with books that came out of it. One of them is The
+Children of Húrin. It feels complete as a story by itself, and you can skip
 the story about Turin Turambar when you finish this and start reading The
 Silmarillion.
 
@@ -115,7 +115,7 @@ middle earth.
 
 __This one I was not able to finish yet, but I have the complete collection here__ 🙂
 
-## There no more about middle earth to read, but I want more about Tolkien!
+## There is no more about middle earth to read, but I want more about Tolkien!
 
 The first one to recommend here is [his biography](/tolkienbio). It's quite
 interesting to see how Tolkien was just a professor living an ordinary life in a
