@@ -82,7 +82,7 @@ I'm currently an owner of the following Pauper decks:
 - Mono-White Heroic
 - Temur Affinity
 - Selesnya (and sometimes Naya 😉) Slivers
-- Azban Soul Sisters
+- Abzan Soul Sisters
 
 I'm a big fan of White decks and everything I do is centered in the white color,
 even if I have to corrupt it a little bit with other colors to make it a
@@ -121,7 +121,7 @@ Now that I have the deck there, I export it and import on
 implementation of MTG written in Java. It's in alpha stage on Android, but it
 works most of the time 😅.
 
-I usually play against Forge's AI to have a glimpse of how my idea would play in
+I mostly play against Forge's AI to have a glimpse of how my idea would play in
 the "real world". The AI only plays some decks well, mostly aggro decks, but
 it's quite decent in this scenario.
 
@@ -133,23 +133,28 @@ forward to build it on paper or other media I'm using.
 Some of them are copies from other decks that I'm just modifying and adding more
 stuff, but others I'm just doing from scratch.
 
-Pauper Commander
+### Pauper Commander
 
-* [Bruenor Battlehammer](https://manabox.app/decks/bFVZAQP2RiOlphmBntrbrQ)
-* [Aven flying tokens](https://manabox.app/decks/kOz-_y8cTp6S3jASbSAH1g)
-* [Ink duelist](https://manabox.app/decks/mox4AScISF6rGMbkVOiL9Q)
+#### Seriously brewing
+
+* [Phalanx leader](https://manabox.app/decks/d6K6xnVASf-USpmxDR4q5w)
 * [Hamza creatures](https://manabox.app/decks/RkSXe4FBReGLPUbWUDbktA)
-* [Siona Tokens](https://manabox.app/decks/Tcwp3gc6Q_6R4ExbpvAsuA)
-* [Jukai Enchantments](https://manabox.app/decks/6HFvRotsTb-tckeW2hg6ng)
 * [Satyr enchanter](https://manabox.app/decks/7csYeMm2Tg2OjYs9fxcVag)
-* [Orzhov fliers](https://manabox.app/decks/JU6XRmEoROmsRSgNWqznzQ)
 * [Mesa enchantress PDH](https://manabox.app/decks/Ifru__VCRLqPRwsJtw0B0Q)
 * [Kor Blademaster](https://manabox.app/decks/hQrQwxMaTi-yMmf2SmQ3FA)
 * [Reyav Double strike](https://manabox.app/decks/mNOaFnNwSP2kHVKtW8DESA)
-* [Phalanx leader](https://manabox.app/decks/d6K6xnVASf-USpmxDR4q5w)
-* [Twinblade Paladin Life gain](https://manabox.app/decks/iqWU8kqXQaSpUrRN-x-04w)
 
-Pauper
+#### Random brews
+
+* [Bruenor Battlehammer](https://manabox.app/decks/bFVZAQP2RiOlphmBntrbrQ)
+* [Siona Tokens](https://manabox.app/decks/Tcwp3gc6Q_6R4ExbpvAsuA)
+* [Ink duelist](https://manabox.app/decks/mox4AScISF6rGMbkVOiL9Q)
+* [Twinblade Paladin Life gain](https://manabox.app/decks/iqWU8kqXQaSpUrRN-x-04w)
+* [Jukai Enchantments](https://manabox.app/decks/6HFvRotsTb-tckeW2hg6ng)
+* [Aven flying tokens](https://manabox.app/decks/kOz-_y8cTp6S3jASbSAH1g)
+* [Orzhov fliers](https://manabox.app/decks/JU6XRmEoROmsRSgNWqznzQ)
+
+### Pauper
 
 * [Mono-white Vigilance](https://manabox.app/decks/V6ermW6SSJSulI6jOdhX_g)
 * [Chimera Weenies](https://manabox.app/decks/KLDT8vA7QDyOM-a9NC6hbg)
