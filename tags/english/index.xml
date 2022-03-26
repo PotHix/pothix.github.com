@@ -351,7 +351,7 @@ Cloning When I want to download a new repository, instead of typing the whole UR
       <guid>https://pothix.com/lotrfocus/</guid>
       <description>💡 Quick thought post. A bigger tweet but on my own platform.
 I&amp;rsquo;m co-authoring a book about Rust and was reviewing an example about enums. My plan was to use some sort of reference to J.R.R. Tolkien fantasy world (because I really like it). I was considering using something like this:
-enum Race { Elf, Dwarf, Men, Hobbit, Ent } PS: I&amp;rsquo;m only considering the free-peoples of middle earth for this enum.</description>
+enum Race {  Elf,  Dwarf,  Men,  Hobbit,  Ent } PS: I&amp;rsquo;m only considering the free-peoples of middle earth for this enum.</description>
     </item>
     
     <item>
@@ -809,7 +809,7 @@ To summarize: the focus is everything. Chose something you want to do and do it.
       <description>I just bought an Atreus keyboard and I&amp;rsquo;m now configuring my own firmware.
 To do that, I&amp;rsquo;m using the qmk_firmware.
 I&amp;rsquo;m adding a new file as a layout (link here) and I have to change tmk_core/common/avr/bootloader.c to be able to compile it:
--uint32_t reset_key __attribute__ ((section (&amp;quot;.noinit&amp;quot;))); +uint32_t reset_key __attribute__ ((section (&amp;quot;.noinit,\&amp;quot;aw\&amp;quot;,@nobits;&amp;quot;))); After that, I just had to get the keyboard to the reset mode via fn + ESC (to change the layout) and then pressed the RESET button.</description>
+-uint32_t reset_key __attribute__ ((section (&amp;#34;.noinit&amp;#34;))); +uint32_t reset_key __attribute__ ((section (&amp;#34;.noinit,\&amp;#34;aw\&amp;#34;,@nobits;&amp;#34;))); After that, I just had to get the keyboard to the reset mode via fn + ESC (to change the layout) and then pressed the RESET button.</description>
     </item>
     
     <item>

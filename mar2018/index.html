@@ -171,18 +171,18 @@ their conclusions.</p>
 <p>As usual, I&rsquo;m using that same export file from
 <a href="https://getpocket.com">Pocket</a> and a script that look like the one I
 used last month. Here is the script with the actual data:</p>
-<pre tabindex="0"><code>var pocket = {&quot;unread&quot;:1420,&quot;unread_pct&quot;:4.79,&quot;read&quot;:1020,&quot;read_pct&quot;:1.18}
+<pre tabindex="0"><code>var pocket = {&#34;unread&#34;:1420,&#34;unread_pct&#34;:4.79,&#34;read&#34;:1020,&#34;read_pct&#34;:1.18}
 
-var uls=document.body.getElementsByTagName(&quot;ul&quot;);
+var uls=document.body.getElementsByTagName(&#34;ul&#34;);
 unread = uls[0].children.length;
-pocket[&quot;unread_pct&quot;] = +((1 - pocket[&quot;unread&quot;] / unread) * 100).toFixed(2);
-pocket[&quot;unread&quot;] = unread;
+pocket[&#34;unread_pct&#34;] = +((1 - pocket[&#34;unread&#34;] / unread) * 100).toFixed(2);
+pocket[&#34;unread&#34;] = unread;
 read = uls[1].children.length;
-pocket[&quot;read_pct&quot;] = +((1 - pocket[&quot;read&quot;] / read) * 100).toFixed(2);
-pocket[&quot;read&quot;] = uls[1].children.length;
-console.log(&quot;# Result: &quot; + JSON.stringify(pocket))
+pocket[&#34;read_pct&#34;] = +((1 - pocket[&#34;read&#34;] / read) * 100).toFixed(2);
+pocket[&#34;read&#34;] = uls[1].children.length;
+console.log(&#34;# Result: &#34; + JSON.stringify(pocket))
 
-# Result: {&quot;unread&quot;:1446,&quot;unread_pct&quot;:1.8,&quot;read&quot;:1050,&quot;read_pct&quot;:2.86}
+# Result: {&#34;unread&#34;:1446,&#34;unread_pct&#34;:1.8,&#34;read&#34;:1050,&#34;read_pct&#34;:2.86}
 </code></pre><p>It means I have <strong>1446 articles unread</strong> and <strong>1050 articles
 read</strong>. Comparing with my results from the last month (<strong>1420 unread</strong>
 and <strong>1020 read</strong>), I got around <strong>1.8% more unread articles</strong> and <strong>2.8%
@@ -544,7 +544,7 @@ when I should enjoy life and let things go.</p>
 
 
 
-<script type="text/javascript" src="/bundle.min.51b5afebbc3c0c51dc879e9481d2b001bec57be11d8399b83a1f02c077368a8da6b431c9bef7391c5be35f9451b5a05011dd439b1fdf7aef86579ccb1ace07a0.js" integrity="sha512-UbWv67w8DFHch56UgdKwAb7Fe&#43;Edg5m4Oh8CwHc2io2mtDHJvvc5HFvjX5RRtaBQEd1Dmx/feu&#43;GV5zLGs4HoA=="></script>
+<script type="text/javascript" src="/bundle.min.57ae754c35073c374441a7e4b0580adb6903678f7dd2b673374b5901a421b16504c2e8894d0fadf70da8dcc8f2dc88426a660be8ab8759731409d1a0e8882fc1.js" integrity="sha512-V651TDUHPDdEQafksFgK22kDZ4990rZzN0tZAaQhsWUEwuiJTQ&#43;t9w2o3Mjy3IhCamYL6KuHWXMUCdGg6IgvwQ=="></script>
     
 <script type="application/javascript">
 var doNotTrack = false;

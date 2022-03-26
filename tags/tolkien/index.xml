@@ -37,7 +37,7 @@ The book is about Christian comparisons between The Lord of the Rings and some v
       <guid>https://pothix.com/lotrfocus/</guid>
       <description>💡 Quick thought post. A bigger tweet but on my own platform.
 I&amp;rsquo;m co-authoring a book about Rust and was reviewing an example about enums. My plan was to use some sort of reference to J.R.R. Tolkien fantasy world (because I really like it). I was considering using something like this:
-enum Race { Elf, Dwarf, Men, Hobbit, Ent } PS: I&amp;rsquo;m only considering the free-peoples of middle earth for this enum.</description>
+enum Race {  Elf,  Dwarf,  Men,  Hobbit,  Ent } PS: I&amp;rsquo;m only considering the free-peoples of middle earth for this enum.</description>
     </item>
     
     <item>
