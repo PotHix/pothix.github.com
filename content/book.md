@@ -30,22 +30,25 @@ the highest review between the books of my publisher with more than 50
 reviews](https://www.goodreads.com/review/list/27871094?sort=num_ratings) (5
 star average with 1 review doesn't count 😛), which makes me quite happy.
 
+## Co-author
+
+[![Rust book](/images/writing/rust_book.jpg)](https://www.casadocodigo.com.br/products/livro-rust)
+
+I was the main tech reviewer for the first edition of the book and became a
+co-author. The second edition was rewriten by me and the original author, my
+friend [Marcelo Castellani](https://twitter.com/mfcastellani), to be fully
+compatible with the 2021 edition of Rust.
+
+This book was written to help those who want a pt-BR fluid reading on how to
+start playing with the Rust language. We explain the basics of the language and
+open an umbrella of possibilities that the language provides.
+
 ------------------
 
 ## Reviewer for other books
 
-I love writing and I'm involved in other books and articles other than my own
-book and this blog. I will list ome of them here.
-
-### Rust book: Main tech reviewer
-
-[![Rust book](/images/writing/rust_book.jpg)](https://www.casadocodigo.com.br/products/livro-rust)
-
-I was the main tech reviewer for the Rust book, written by [Marcelo
-Castellani](https://twitter.com/mfcastellani). I had the chance to co-write
-this book with him but I didn't have the time to dedicate to the project, so I
-just did the technical review. The book is great for those who want a simple
-and easy-to-read Rust book in pt-BR.
+I love writing, and I'm involved in other books and articles other than my own
+book and this blog. I will list some of them here.
 
 ### Rails book: One of the tech reviewers
 
