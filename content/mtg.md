@@ -135,24 +135,16 @@ stuff, but others I'm just doing from scratch.
 
 ### Pauper Commander
 
-#### Seriously brewing
+#### Brews
 
 * [Phalanx leader](https://manabox.app/decks/d6K6xnVASf-USpmxDR4q5w)
 * [Hamza creatures](https://manabox.app/decks/RkSXe4FBReGLPUbWUDbktA)
 * [Satyr enchanter](https://manabox.app/decks/7csYeMm2Tg2OjYs9fxcVag)
-* [Mesa enchantress PDH](https://manabox.app/decks/Ifru__VCRLqPRwsJtw0B0Q)
+* [Mesa enchantress](https://manabox.app/decks/Ifru__VCRLqPRwsJtw0B0Q)
 * [Kor Blademaster](https://manabox.app/decks/hQrQwxMaTi-yMmf2SmQ3FA)
 * [Reyav Double strike](https://manabox.app/decks/mNOaFnNwSP2kHVKtW8DESA)
-
-#### Random brews
-
-* [Bruenor Battlehammer](https://manabox.app/decks/bFVZAQP2RiOlphmBntrbrQ)
+* [Illuminator virtuoso](https://manabox.app/decks/F_Qqv5EpSOGMhxW0zlvPqQ)
 * [Siona Tokens](https://manabox.app/decks/Tcwp3gc6Q_6R4ExbpvAsuA)
-* [Ink duelist](https://manabox.app/decks/mox4AScISF6rGMbkVOiL9Q)
-* [Twinblade Paladin Life gain](https://manabox.app/decks/iqWU8kqXQaSpUrRN-x-04w)
-* [Jukai Enchantments](https://manabox.app/decks/6HFvRotsTb-tckeW2hg6ng)
-* [Aven flying tokens](https://manabox.app/decks/kOz-_y8cTp6S3jASbSAH1g)
-* [Orzhov fliers](https://manabox.app/decks/JU6XRmEoROmsRSgNWqznzQ)
 
 ### Pauper
 
