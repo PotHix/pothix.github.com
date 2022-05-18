@@ -7,9 +7,9 @@ features = ["blog", "shortcode", "syntax highlighting"]
 min_version = 0.30
 
 [author]
-  name = "Djordje Atlialp"
-  homepage = "https://atlialp.com"
-  twitter = "https://twitter.com/rhazdon"
+  name = "PotHix"
+  homepage = "https://pothix.com"
+  twitter = "https://twitter.com/PotHix"
 
 [original]
   name = "hello-friend"
