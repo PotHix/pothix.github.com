@@ -10,6 +10,7 @@ aliases = [
 
 No. | Date       | Presentation  | Event
 --- | ---------- | ------------- | ------
+74  | 2022-05-17 | [Desconstruindo a web](https://cege.la/2VU6eZh) | [Talks4devs Iugu](/images/talks/202205-talks4devs.jpg)
 73  | 2021-08-18 | [Note-taking: My experience, how to do it, and why it worth it](https://cege.la/2VU6eZh) | Doist talks
 72  | 2021-07-29 | [Keynote: Ruby, além da linguagem](https://cege.la/3xLXYbu) | [Rubyconf](https://online.rubyconf.com.br)
 71  | 2021-07-17 | [Desconstruindo a web](https://www.youtube.com/watch?v=WSDHHPVSU7o) | [Mutirão DevOps](https://github.com/badtuxx/MutiraoDevOps)
