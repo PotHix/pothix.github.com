@@ -6,8 +6,54 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Sat, 05 Feb 2022 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 10 Jun 2022 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://pothix.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Review of Speed Up Your Python with Rust: Optimize Python performance by creating Python pip modules in Rust with PyO3</title>
+            <link>https://pothix.com/pythonwithrustbook/</link>
+            <pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate>
+            
+            <guid>https://pothix.com/pythonwithrustbook/</guid>
+            <description>Book: Speed Up Your Python with Rust: Optimize Python performance by creating Python pip modules in Rust with PyO3 by Maxwell Flitton. Rating: ⭐️⭐️⭐️.
+I got this book from Packt in an exchange for an honest review, so here it is.
+It&amp;rsquo;s not news to anyone that I&amp;rsquo;m a big fan of the Rust programming language. I&amp;rsquo;ve organized conferences, did the initial work to contribute to the compiler, Organize local meetups in my city, and even have my own book on how to start with Rust (in pt-BR).</description>
+            <content type="html"><![CDATA[<p>Book: <a href="https://www.goodreads.com/review/show/4606266441">Speed Up Your Python with Rust: Optimize Python performance by creating Python pip modules in Rust with PyO3</a> by Maxwell Flitton. Rating: ⭐️⭐️⭐️.</p>
+<p>I got this book from Packt in an exchange for an honest review, so here it is.</p>
+<p>It&rsquo;s not news to anyone that I&rsquo;m a big fan of the Rust programming language.
+I&rsquo;ve <a href="/rustlatam2019">organized conferences</a>, <a href="/rust-contrib">did the initial work to
+contribute to the compiler</a>, <a href="https://twitter.com/rustlang_sp">Organize local meetups in my
+city</a>, and even <a href="/book">have my own book on how to
+start with Rust</a> (in pt-BR). On top of that, I&rsquo;m currently working with
+Python at <a href="/doist">Doist</a>, so I had high expectations for this book.</p>
+<p>In summary: It did not meet my expectations. 😕</p>
+<p>The initial 40% of the book was showing the basics of Rust and Python, which is
+something I would expect the reader to already know, as the book is about
+integrating both languages. After that, the author shows how to upload a pip
+package to pypi, which is good by itself, but I found it to be quite offtopic to
+the book as I was expecting the reader to be aware of this took.</p>
+<p>After these ~45% of the book, the author starts playing with PyO3 and showing
+the integration of both languages. This part is nice, and it&rsquo;s what I was looking
+forward when I started reading it.</p>
+<p>The author describes some interesting tricks on how to do the bridge between the
+two languages and an interface that makes sense for this kind of implementation.
+That was an enjoyable reading.</p>
+<p>The offtopic content (in my perspective) started to come back after a while, as
+the author decides to explain how numpy works and the specifics of how to solve
+a simple problem using numpy, so he could continue the explanation. That could
+be summarized in a &ldquo;trust me, this numpy code works, let&rsquo;s see how to integrate
+with Rust&rdquo; manner.</p>
+<p>For most of the books, I had the feeling of reading a tutorial because of the
+way the book was written. The author chose to use numbered lists with steps on
+how things were being done, and that is not something that keeps me engaged in
+reading further. It was not once or twice, but used as a writing style to
+describe most examples.</p>
+<p>The conclusion is: I learned some things about integrating Python with Rust.
+When the author really focused on the topic I was looking for, it was good
+content. I just felt most of the book was not really related to what I was
+expecting when I started reading it.</p>
+]]></content>
+        </item>
         
         <item>
             <title>How typing speed influences our life</title>

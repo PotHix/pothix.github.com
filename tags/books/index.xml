@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 05 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pothix.com/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pothix.com/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Review of Speed Up Your Python with Rust: Optimize Python performance by creating Python pip modules in Rust with PyO3</title>
+      <link>https://pothix.com/pythonwithrustbook/</link>
+      <pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/pythonwithrustbook/</guid>
+      <description>Book: Speed Up Your Python with Rust: Optimize Python performance by creating Python pip modules in Rust with PyO3 by Maxwell Flitton. Rating: ⭐️⭐️⭐️.
+I got this book from Packt in an exchange for an honest review, so here it is.
+It&amp;rsquo;s not news to anyone that I&amp;rsquo;m a big fan of the Rust programming language. I&amp;rsquo;ve organized conferences, did the initial work to contribute to the compiler, Organize local meetups in my city, and even have my own book on how to start with Rust (in pt-BR).</description>
+    </item>
+    
     <item>
       <title>Review of Brave New World</title>
       <link>https://pothix.com/bravenewworldbook/</link>
