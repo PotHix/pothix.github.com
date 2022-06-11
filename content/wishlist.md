@@ -16,7 +16,5 @@ receive any of them.
 
 Let's go for the list:
 
-- The DIY version of [the framework laptop](https://frame.work/). i7 with 32GB
-  of RAM.
-- A DIY kit to build a [Corne keyboard](https://keyhive.xyz/shop/corne-v3). Hot
-  swappable chocs.
+- [SteamDeck](https://store.steampowered.com/steamdeck)
+- [Razer Kishi controller](https://www.amazon.com/Razer-Kishi-Controller-Android-Passthrough-Thumbsticks/dp/B086X8DHN2) to play mobile games.
