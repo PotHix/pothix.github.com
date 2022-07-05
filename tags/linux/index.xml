@@ -71,7 +71,7 @@ Foi bem legal palestrar para uma galera que já conhecia ao menos um pouco do ed
       <guid>https://pothix.com/monit/</guid>
       <description>Esses dias eu peguei para instalar o monit no servidor da empresa que eu trabalho e sofri um pouquinho com algumas coisas básicas, portanto decidi postar aqui para que seja útil para quem quer começar a utilizar o monit.
 Se você usa Ubuntu, você pode fazer download do Monit por apt-get:
-sudo apt-get install monit  Se você não usa Ubuntu ou quer a ultima versão do Monit, então faça download do tar.</description>
+sudo apt-get install monit Se você não usa Ubuntu ou quer a ultima versão do Monit, então faça download do tar.</description>
     </item>
     
     <item>
@@ -102,7 +102,7 @@ O que sempre acontecia é que eu estava aqui ouvindo boa musica (e alta, por sin
       <guid>https://pothix.com/modemclaro-ubuntu/</guid>
       <description>Após receber um modem Claro da empresa que eu trabalho atualmente eu fui fazer o processo de instalação no Ubuntu. Já tinha recebido a informação de um colega de trabalho de como fazer, e obviamente não foi nada difícil (o que que é difícil no Ubuntu? :)).
 Vou descrever aqui o processo:
- Inserir o modem na entrada USB Vai aparecer um assistente de configuração simples ( Next Next Finish ), para você seguir e instalar.</description>
+Inserir o modem na entrada USB Vai aparecer um assistente de configuração simples ( Next Next Finish ), para você seguir e instalar.</description>
     </item>
     
     <item>
@@ -186,8 +186,8 @@ Eu sempre ouvia falar de Linux quando eu lia Livros sobre segurança e tudo mais
       <guid>https://pothix.com/nero-linux/</guid>
       <description>Vou comentar agora sobre como montar aquela imagem chata do Nero (.nrg ) que seu amigo que gosta de janelas lhe enviou com aqueles vários arquivos que você tinha pedido&amp;hellip; É um hack bem fácil!
 Instalações Primeiro instale o nrg2iso
-No Ubuntu # apt-get install nrg2iso  No Slackware Baixando o pacote no Linux Packages e instalando normalmente com:
-# installpkg nrg2iso-versao.tgz  Utilização Agora já podemos utilizar o nrg3iso para converter nossa imagem:</description>
+No Ubuntu # apt-get install nrg2iso No Slackware Baixando o pacote no Linux Packages e instalando normalmente com:
+# installpkg nrg2iso-versao.tgz Utilização Agora já podemos utilizar o nrg3iso para converter nossa imagem:</description>
     </item>
     
     <item>

@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pothix.com/places/</loc>
+    <lastmod>2022-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/</loc>
+    <lastmod>2022-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/places/rome/</loc>
+    <lastmod>2022-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/places/florence/</loc>
+    <lastmod>2022-06-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/places/venice/</loc>
+    <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/places/pertisau/</loc>
+    <lastmod>2022-06-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/places/munich/</loc>
+    <lastmod>2022-06-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://pothix.com/tags/books/</loc>
     <lastmod>2022-06-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -9,9 +30,6 @@
     <lastmod>2022-06-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pothix.com/posts/</loc>
-    <lastmod>2022-06-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pothix.com/</loc>
     <lastmod>2022-06-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pothix.com/pythonwithrustbook/</loc>
@@ -284,10 +302,13 @@
     <loc>https://pothix.com/rustlatam2019/</loc>
     <lastmod>2019-04-21T14:02:54-03:00</lastmod>
   </url><url>
-    <loc>https://pothix.com/places/nyc/</loc>
-    <lastmod>2019-03-25T08:45:26-03:00</lastmod>
+    <loc>https://pothix.com/places/opo/</loc>
+    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pothix.com/places/</loc>
+    <loc>https://pothix.com/places/azores/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/places/nyc/</loc>
     <lastmod>2019-03-25T08:45:26-03:00</lastmod>
   </url><url>
     <loc>https://pothix.com/atomichabits/</loc>

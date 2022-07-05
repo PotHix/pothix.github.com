@@ -16,8 +16,8 @@
       <guid>https://pothix.com/typingspeed/</guid>
       <description>It&amp;rsquo;s not the first time I have an argument with someone about typing speed, so I decided to write this small post to make my point clear.
 The discussion usually starts with the following argument:
- I don&amp;rsquo;t have to type fast to be a good programmer. Programming is not about typing, but thinking about the solution.
- Yes, that&amp;rsquo;s true! The whole job of a programmer is not to type, but to solve problems.</description>
+I don&amp;rsquo;t have to type fast to be a good programmer. Programming is not about typing, but thinking about the solution.
+Yes, that&amp;rsquo;s true! The whole job of a programmer is not to type, but to solve problems.</description>
     </item>
     
     <item>
@@ -72,7 +72,7 @@ Um dos argumentos usados lá é que as empresas precisam entender que esse é um
       <guid>https://pothix.com/pirataria/</guid>
       <description>Há alguns dias atrás, um amigo meu compartilhou um texto sobre pirataria no twitter. O texto possui o tema &amp;ldquo;Precisamos falar sobre a pirataria&amp;rdquo; e pode ser visto aqui.
 O texto é bem leve ao falar do assunto e mostra a visão da autora e sua própria experiência com a pirataria. Se eu fosse resumir o texto em uma frase (sim, é o meu entendimento sobre ele), seria:
- Todo mundo já usou pirataria de uma forma ou de outra quando não tinha dinheiro o suficiente para pagar por um determinado material.</description>
+Todo mundo já usou pirataria de uma forma ou de outra quando não tinha dinheiro o suficiente para pagar por um determinado material.</description>
     </item>
     
     <item>
@@ -127,7 +127,7 @@ If you&amp;rsquo;re using Chrome (or chromium) you can type thisisunsafe when yo
       <guid>https://pothix.com/ghcli/</guid>
       <description>The GitHub CLI is been a major time saver for me. I was skeptical about its usage in the beginning but it proved to be very useful.
 Cloning When I want to download a new repository, instead of typing the whole URL or going to the browser to find the repository, I just type:
- gh repo clone name-of-the-repository  It works out of the box if the repo is mine.</description>
+gh repo clone name-of-the-repository It works out of the box if the repo is mine. If it&amp;rsquo;s from someone else, I have to specify the user:</description>
     </item>
     
     <item>
@@ -494,7 +494,7 @@ Rails Insurgency – Chad Fowler A palestra foi muito interessante e o Chad Fowl
       <guid>https://pothix.com/servicos-oct-2009/</guid>
       <description>Já estava me esquecendo de postar sobre os serviçoes legais desse mes! :P
 Estava com poucos quando lembrei, mas não demorou muito para que eu lembrasse de alguns muito bons. Vamos lá!
-yUML&amp;lt; O yUML é um serviço para se criar UML facilmente utilizando apenas uma URL com determinadas marcações. O caike que me mostrou no ultimo post quando eu tinha mencionado sobre criação deUML. Valeu Caike!
+yUML&amp;lt; O yUML é um serviço para se criar UML facilmente utilizando apenas uma URL com determinadas marcações. O caike que me mostrou no ultimo post quando eu tinha mencionado sobre criação de UML. Valeu Caike!
 Gliffy Continuando em diagramas e UML temos o Gliffy que também faz uma grande quantidade de diagramas diferentes.</description>
     </item>
     
@@ -506,7 +506,7 @@ Gliffy Continuando em diagramas e UML temos o Gliffy que também faz uma grande 
       <guid>https://pothix.com/monit/</guid>
       <description>Esses dias eu peguei para instalar o monit no servidor da empresa que eu trabalho e sofri um pouquinho com algumas coisas básicas, portanto decidi postar aqui para que seja útil para quem quer começar a utilizar o monit.
 Se você usa Ubuntu, você pode fazer download do Monit por apt-get:
-sudo apt-get install monit  Se você não usa Ubuntu ou quer a ultima versão do Monit, então faça download do tar.</description>
+sudo apt-get install monit Se você não usa Ubuntu ou quer a ultima versão do Monit, então faça download do tar.</description>
     </item>
     
     <item>
@@ -589,7 +589,7 @@ Por algum motivo bizarro (nem tanto assim, parece ser dns, mas já tentei opendn
       <description>Nesse sábado aconteceu o quinto encontro do Guru-sp! :)
 O encontro estava marcado para as 10 da manhã com uma seção para iniciantes e começou as 10:30 ( sempre atrasa um pouquinho né? hehe ), já com um bate papo legal coordenado pelo @rafaelrosafu após uma breve apresentação de todos os participantes.
 Rails para iniciantes Nessa primeira seção tiveram muitas conversas interessantes sobre algumas filosofias Rails, como:
- DRY REST TDD Test all the Fucking Time Skynny Controllers and Fat Models  e mais algumas outras coisas bem interessantes que fomentaram uma ótima discussão sobre quais os melhores padrões para se seguir quando se constrói uma aplicação Rails (sim, falamos tomando como base uma aplicação Rails), como utilizar plugins como o ResourceController (que tem seus prós e contras), manter seus scripts num lugar diferente da pasta scripts, que é a pasta padrão para scripts &amp;ldquo;internos&amp;rdquo; do Rails e tentar centralizar em uma pasta dentro de lib, além de usar Rake sempre que possível para essas tarefas ficarem organizadas e de fácil acesso.</description>
+DRY REST TDD Test all the Fucking Time Skynny Controllers and Fat Models e mais algumas outras coisas bem interessantes que fomentaram uma ótima discussão sobre quais os melhores padrões para se seguir quando se constrói uma aplicação Rails (sim, falamos tomando como base uma aplicação Rails), como utilizar plugins como o ResourceController (que tem seus prós e contras), manter seus scripts num lugar diferente da pasta scripts, que é a pasta padrão para scripts &amp;ldquo;internos&amp;rdquo; do Rails e tentar centralizar em uma pasta dentro de lib, além de usar Rake sempre que possível para essas tarefas ficarem organizadas e de fácil acesso.</description>
     </item>
     
     <item>
@@ -631,7 +631,7 @@ Eu nunca utilizei Opera ( não por que eu sou contra, e sim por que eu nunca pre
       <guid>https://pothix.com/modemclaro-ubuntu/</guid>
       <description>Após receber um modem Claro da empresa que eu trabalho atualmente eu fui fazer o processo de instalação no Ubuntu. Já tinha recebido a informação de um colega de trabalho de como fazer, e obviamente não foi nada difícil (o que que é difícil no Ubuntu? :)).
 Vou descrever aqui o processo:
- Inserir o modem na entrada USB Vai aparecer um assistente de configuração simples ( Next Next Finish ), para você seguir e instalar.</description>
+Inserir o modem na entrada USB Vai aparecer um assistente de configuração simples ( Next Next Finish ), para você seguir e instalar.</description>
     </item>
     
     <item>
@@ -704,8 +704,8 @@ O palestrante soube levar bem a palestra, com momentos engraçados ( várias bri
       <guid>https://pothix.com/ruby-inicio/</guid>
       <description>Se você já conhece Ruby, ignore esse post! A idéia do post é mostrar um pouco da linguagem Ruby para pessoas que não conhecem nada sobre ela.
 Eu, claro, acho muito interessante que muita gente por aí ainda não conhece Ruby, mesmo com a grande popularização do Rails, e eu chego a ouvir coisas assim:
- &amp;ldquo;Não é você que programa naquela linguagem esquisita?&amp;rdquo;
- Cheguei a ouvir do meu &amp;ldquo;professor de algoritmo&amp;rdquo; (perdeu meu respeito):</description>
+&amp;ldquo;Não é você que programa naquela linguagem esquisita?&amp;rdquo;
+Cheguei a ouvir do meu &amp;ldquo;professor de algoritmo&amp;rdquo; (perdeu meu respeito):</description>
     </item>
     
     <item>
@@ -925,8 +925,8 @@ Eu sempre ouvia falar de Linux quando eu lia Livros sobre segurança e tudo mais
       <guid>https://pothix.com/nero-linux/</guid>
       <description>Vou comentar agora sobre como montar aquela imagem chata do Nero (.nrg ) que seu amigo que gosta de janelas lhe enviou com aqueles vários arquivos que você tinha pedido&amp;hellip; É um hack bem fácil!
 Instalações Primeiro instale o nrg2iso
-No Ubuntu # apt-get install nrg2iso  No Slackware Baixando o pacote no Linux Packages e instalando normalmente com:
-# installpkg nrg2iso-versao.tgz  Utilização Agora já podemos utilizar o nrg3iso para converter nossa imagem:</description>
+No Ubuntu # apt-get install nrg2iso No Slackware Baixando o pacote no Linux Packages e instalando normalmente com:
+# installpkg nrg2iso-versao.tgz Utilização Agora já podemos utilizar o nrg3iso para converter nossa imagem:</description>
     </item>
     
     <item>

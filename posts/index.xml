@@ -63,8 +63,8 @@ expecting when I started reading it.</p>
             <guid>https://pothix.com/typingspeed/</guid>
             <description>It&amp;rsquo;s not the first time I have an argument with someone about typing speed, so I decided to write this small post to make my point clear.
 The discussion usually starts with the following argument:
- I don&amp;rsquo;t have to type fast to be a good programmer. Programming is not about typing, but thinking about the solution.
- Yes, that&amp;rsquo;s true! The whole job of a programmer is not to type, but to solve problems.</description>
+I don&amp;rsquo;t have to type fast to be a good programmer. Programming is not about typing, but thinking about the solution.
+Yes, that&amp;rsquo;s true! The whole job of a programmer is not to type, but to solve problems.</description>
             <content type="html"><![CDATA[<p>It&rsquo;s not the first time I have an argument with someone about typing speed, so I
 decided to write this small post to make my point clear.</p>
 <p>The discussion usually starts with the following argument:</p>
@@ -1799,7 +1799,7 @@ questions. I think that was kept as a mystery on purpose. 🙂</p>
             <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
             
             <guid>https://pothix.com/sleepladybook/</guid>
-            <description>Book: The Sleep Lady&amp;rsquo;s Good Night, Sleep Tight: Gentle Proven Solutions to Help Your Child Sleep without Leaving Them to Cry-it-Out  by Kim West. Rating: ⭐️⭐️⭐️⭐️.
+            <description>Book: The Sleep Lady&amp;rsquo;s Good Night, Sleep Tight: Gentle Proven Solutions to Help Your Child Sleep without Leaving Them to Cry-it-Out by Kim West. Rating: ⭐️⭐️⭐️⭐️.
 This is not a book I read because I was excited to read it. It&amp;rsquo;s a book I read to make my nights less bad and try to understand how to improve the life with babies. I read this after a friend mentioned it had sections on how to deal with multiples.</description>
             <content type="html"><![CDATA[<p>Book: <a href="https://www.goodreads.com/review/show/4098564482">The Sleep Lady&rsquo;s Good Night, Sleep Tight: Gentle Proven Solutions to Help
 Your Child Sleep without Leaving Them to Cry-it-Out
@@ -4279,7 +4279,7 @@ somehow. In general, it was more positive than I thought tough. 😊</p>
             <guid>https://pothix.com/pirataria/</guid>
             <description>Há alguns dias atrás, um amigo meu compartilhou um texto sobre pirataria no twitter. O texto possui o tema &amp;ldquo;Precisamos falar sobre a pirataria&amp;rdquo; e pode ser visto aqui.
 O texto é bem leve ao falar do assunto e mostra a visão da autora e sua própria experiência com a pirataria. Se eu fosse resumir o texto em uma frase (sim, é o meu entendimento sobre ele), seria:
- Todo mundo já usou pirataria de uma forma ou de outra quando não tinha dinheiro o suficiente para pagar por um determinado material.</description>
+Todo mundo já usou pirataria de uma forma ou de outra quando não tinha dinheiro o suficiente para pagar por um determinado material.</description>
             <content type="html"><![CDATA[<p>Há alguns dias atrás, <a href="https://twitter.com/infoslack/status/1361800614414540803">um amigo meu compartilhou um texto sobre pirataria no
 twitter</a>. O texto
 possui o tema &ldquo;Precisamos falar sobre a pirataria&rdquo; e pode ser visto
@@ -5055,7 +5055,7 @@ afternoon. It was his only rule.</li>
             <guid>https://pothix.com/ghcli/</guid>
             <description>The GitHub CLI is been a major time saver for me. I was skeptical about its usage in the beginning but it proved to be very useful.
 Cloning When I want to download a new repository, instead of typing the whole URL or going to the browser to find the repository, I just type:
- gh repo clone name-of-the-repository  It works out of the box if the repo is mine.</description>
+gh repo clone name-of-the-repository It works out of the box if the repo is mine. If it&amp;rsquo;s from someone else, I have to specify the user:</description>
             <content type="html"><![CDATA[<p>The GitHub CLI is been a major time saver for me. I was skeptical about its
 usage in the beginning but it proved to be very useful.</p>
 <h2 id="cloning">Cloning</h2>
@@ -5098,7 +5098,7 @@ adds me as the assignee.</p>
             <guid>https://pothix.com/lotrfocus/</guid>
             <description>💡 Quick thought post. A bigger tweet but on my own platform.
 I&amp;rsquo;m co-authoring a book about Rust and was reviewing an example about enums. My plan was to use some sort of reference to J.R.R. Tolkien fantasy world (because I really like it). I was considering using something like this:
-enum Race {  Elf,  Dwarf,  Men,  Hobbit,  Ent } PS: I&amp;rsquo;m only considering the free-peoples of middle earth for this enum.</description>
+enum Race { Elf, Dwarf, Men, Hobbit, Ent } PS: I&amp;rsquo;m only considering the free-peoples of middle earth for this enum.</description>
             <content type="html"><![CDATA[<p><em>💡 Quick thought post. A bigger tweet but on my own platform.</em></p>
 <p>I&rsquo;m co-authoring a book about Rust and was reviewing an example about <code>enum</code>s.
 My plan was to use some sort of reference to J.R.R. Tolkien fantasy world
@@ -9626,8 +9626,7 @@ I have to say that his method seems to be really good.</description>
             <guid>https://pothix.com/jun2018/</guid>
             <description>Guess what!? Yes, metrics for June! 📊
 Books I usually don&amp;rsquo;t count how many books I read, I just track and check at the end of the month. When I saw that I read five books read this month, my face was like 😱. All of them received a 4-star review, so the result is quite good.
-
- Managing Oneself: This is a great book. It&amp;rsquo;s not life-changing, but there are many great tips to improve your life.</description>
+Managing Oneself: This is a great book. It&amp;rsquo;s not life-changing, but there are many great tips to improve your life.</description>
             <content type="html"><![CDATA[<p>Guess what!? Yes, metrics for June! 📊</p>
 <h3 id="books">Books</h3>
 <p>I usually don&rsquo;t count how many books I read, I just track and check at
@@ -9947,7 +9946,7 @@ It shares some great insights with [b:When: The Scientific Secrets of Perfect Ti
 This book is not life-changing but it&amp;rsquo;s small, straight to the point, and has many terrific bits of advice for your career and life.
 I would totally recommend you to read it since it&amp;rsquo;s not expensive and quick to read/listen to (around 1 hour on Audible).
 Here are my raw notes about the book:
- Feedback analysis: whenever you take a crucial decision or action take note of the results you&amp;rsquo;re expecting.</description>
+Feedback analysis: whenever you take a crucial decision or action take note of the results you&amp;rsquo;re expecting.</description>
             <content type="html"><![CDATA[<p>Book: <a href="https://www.goodreads.com/book/show/2477223">Managing Oneself</a> by Peter F. Drucker. Rating: ⭐️⭐️⭐️⭐️.</p>
 <p>This book is not life-changing but it&rsquo;s small, straight to the point, and has many terrific bits of advice for your career and life.</p>
 <p>I would totally recommend you to read it since it&rsquo;s not expensive and quick to read/listen to (around 1 hour on Audible).</p>
@@ -10224,8 +10223,7 @@ We cannot take for granted that the future will be better, so we have to work to
             
             <guid>https://pothix.com/may2018/</guid>
             <description>It&amp;rsquo;s May, and it&amp;rsquo;s time for metrics! 📊
-Books Two books read this month, but both received a 3 stars review: 
- Wait, What?: And Life&amp;rsquo;s Other Essential Questions: Exactly what the author says in the beginning: It&amp;rsquo;s a lecture that became a book. Not bad, but OK-ish. Shop Class as Soulcraft: An Inquiry into the Value of Work: More political views than I was expecting and the pacing is not so good.</description>
+Books Two books read this month, but both received a 3 stars review: Wait, What?: And Life&amp;rsquo;s Other Essential Questions: Exactly what the author says in the beginning: It&amp;rsquo;s a lecture that became a book. Not bad, but OK-ish. Shop Class as Soulcraft: An Inquiry into the Value of Work: More political views than I was expecting and the pacing is not so good.</description>
             <content type="html"><![CDATA[<p>It&rsquo;s May, and it&rsquo;s time for metrics! 📊</p>
 <h3 id="books">Books</h3>
 <p>Two books read this month, but both received a 3 stars review:
@@ -10558,7 +10556,6 @@ Here are my raw notes about the book:</description>
             <description>It&amp;rsquo;s time for April metrics! 📊
 Books Note: I write a review for each book I read. You can find them on my Goodreads account.
 Again, just one book this month, and again, a 5 stars one!
-
 A Guide to the Good Life: The Ancient Art of Stoic Joy. This book was on my reading list for many months now. After reading it, I realized I&amp;rsquo;m practicing a fraction of Stoicism for many years.</description>
             <content type="html"><![CDATA[<p>It&rsquo;s time for April metrics! 📊</p>
 <h3 id="books">Books</h3>
@@ -10857,7 +10854,6 @@ The book starts with the history of stoicism, the first stoics, and the context 
             <description>March is gone, and it&amp;rsquo;s time for metrics! 📊
 Books Note: I write a review for each book I read. You can find them on my Goodreads account.
 Just one book this month, but a 5 stars one:
-
 When: The Scientific Secrets of Perfect Timing. This book is about optimization based on time and energy. What is the best time to do some action based on statistics? I found it to be amazing and could confirm many of the assumptions with my data.</description>
             <content type="html"><![CDATA[<p>March is gone, and it&rsquo;s time for metrics! 📊</p>
 <h3 id="books">Books</h3>
@@ -11079,7 +11075,6 @@ when I should enjoy life and let things go.</p>
             <description>February time! Let&amp;rsquo;s see what we can get from my metrics. 😀
 Books Note: I write a review for each book I read. You can find them on my Goodreads account.
 I&amp;rsquo;m quite satisfied with my reading list for this month:
-
 Five books read in a month and a 4.6 average rating. That&amp;rsquo;s what I call a good reading month.
 The Art of Learning: A Journey in the Pursuit of Excellence.</description>
             <content type="html"><![CDATA[<p>February time! Let&rsquo;s see what we can get from my metrics. 😀</p>
@@ -11416,7 +11411,6 @@ The first part of this book was truly amazing. I really enjoyed the way he was s
             <description>I&amp;rsquo;m excited to write this post about my performance for the first month of the year. I think I will have some great news at the end of this post, related to my expenses.
 Let&amp;rsquo;s get started! 😀
 Books I decided to listen to my podcasts this month, so I did not hear that many audiobooks. The only book I read this month was a physical book:
-
 Hiding in unnatural happiness is a book I received from a monk in York.</description>
             <content type="html"><![CDATA[<p>I&rsquo;m excited to write this post about my performance for the first month
 of the year. I think I will have some great news at the end of this
@@ -12396,8 +12390,7 @@ with the Quit problem.</p>
             
             <guid>https://pothix.com/nov2017/</guid>
             <description>Came back from a travel last month and just packed my stuff to travel again this month. Let&amp;rsquo;s see if it affected my performance.
-Books 
-Read three books this month. My first book of H.P. Lovecraft, called At the mountains of madness was one of them. It was an interesting experience to read it. I also read about minimalism just to realize that I&amp;rsquo;m a minimalism since forever. If you like minimalism I also recommend to listen to their podcast and read their website.</description>
+Books Read three books this month. My first book of H.P. Lovecraft, called At the mountains of madness was one of them. It was an interesting experience to read it. I also read about minimalism just to realize that I&amp;rsquo;m a minimalism since forever. If you like minimalism I also recommend to listen to their podcast and read their website.</description>
             <content type="html"><![CDATA[<p>Came back from a travel last month and just packed my stuff to travel
 again this month. Let&rsquo;s see if it affected my performance.</p>
 <h3 id="books">Books</h3>
@@ -12843,8 +12836,7 @@ The whole thing about the electricity was a reality for my mom (and for me when 
             
             <guid>https://pothix.com/sep2017/</guid>
             <description>It&amp;rsquo;s already the end of October and I could not manage to post my stats from September but I have a good reason for that (which you will read about in the next month 😉).
-Books 
-What Doesn’t Kill Us: How Freezing Water, Extreme Altitude and Environmental Conditioning Will Renew Our Lost Evolutionary Strength is a book that describes what the human body can do if trained for it. The writing process is not so good for my taste, sometimes it looks like a memoir, sometimes it&amp;rsquo;s non-fiction&amp;hellip; but the message it passes is really interesting.</description>
+Books What Doesn’t Kill Us: How Freezing Water, Extreme Altitude and Environmental Conditioning Will Renew Our Lost Evolutionary Strength is a book that describes what the human body can do if trained for it. The writing process is not so good for my taste, sometimes it looks like a memoir, sometimes it&amp;rsquo;s non-fiction&amp;hellip; but the message it passes is really interesting.</description>
             <content type="html"><![CDATA[<p>It&rsquo;s already the end of October and I could not manage to post my stats
 from September but I have a good reason for that (which you will read
 about in the next month 😉).</p>
@@ -13148,9 +13140,8 @@ The good part of this book is to convince you, or at least inspire you to resear
             
             <guid>https://pothix.com/aug2017/</guid>
             <description>September is here, time to review my stats for August, 2017.
-Books 
-This is my personal record of books read in one single month. 7 freaking books. 😱
-Let&amp;rsquo;s start with two small books I read. Cesar Millan&amp;rsquo;s Guide to Audiobooks for Dogs and Cesar Millan&amp;rsquo;s Guide to Bringing Home a Shelter Dog. These two books were free on Audible for Dogs, so I decided to give them a try.</description>
+Books This is my personal record of books read in one single month. 7 freaking books. 😱
+Let&amp;rsquo;s start with two small books I read. Cesar Millan&amp;rsquo;s Guide to Audiobooks for Dogs and Cesar Millan&amp;rsquo;s Guide to Bringing Home a Shelter Dog. These two books were free on Audible for Dogs, so I decided to give them a try. They are ordinary books but I would recommend for dog lovers.</description>
             <content type="html"><![CDATA[<p>September is here, time to review my stats for August, 2017.</p>
 <h3 id="books">Books</h3>
 <p><a href="https://www.goodreads.com/pothix" title=""><img src="/images/stats/2017/aug/goodreads.png" alt="List of books read this month" title="List of books read this month"></a></p>
@@ -13545,8 +13536,8 @@ A book every boss should read. It helps to create a culture of giving and receiv
             
             <guid>https://pothix.com/jul2017/</guid>
             <description>Okay, here we go for the first full month working in my new job. :)
-Books 
-This month I read Let My People Go Surfing: The Education of a Reluctant Businessman, which was recommended by the other Doisters. It&amp;rsquo;s a great book by the guy who built the company Patagonia, a bootstrapped company, from scratch. Their way of thinking looks a lot like the way we think at Doist.</description>
+Books This month I read Let My People Go Surfing: The Education of a Reluctant Businessman, which was recommended by the other Doisters. It&amp;rsquo;s a great book by the guy who built the company Patagonia, a bootstrapped company, from scratch. Their way of thinking looks a lot like the way we think at Doist.
+The second one is Practice Perfect: 42 Rules for Getting Better at Getting Better.</description>
             <content type="html"><![CDATA[<p>Okay, here we go for the first full month working in my new job. :)</p>
 <h3 id="books">Books</h3>
 <p><a href="https://www.goodreads.com/pothix" title=""><img src="/images/stats/2017/jul/goodreads.png" alt="List of books read this month" title="List of books read this month"></a></p>
@@ -13869,7 +13860,7 @@ the WM side (Wayland&hellip;) but it worth the trade-off.</p>
             <description>Book: Leadership and Self-Deception: Getting Out of the Box by The Arbinger Institute. Rating: ⭐️⭐️⭐️.
 It&amp;rsquo;s a good book. Good information in a good narrative form.
 This is a short book with an easy to follow narrative about leadership. There are not so many notes about this one, but here they are:
- See People as people, not objects Self-betrayal is an act in contrary of what I feel I should do for another person.</description>
+See People as people, not objects Self-betrayal is an act in contrary of what I feel I should do for another person.</description>
             <content type="html"><![CDATA[<p>Book: <a href="https://www.goodreads.com/book/show/180463">Leadership and Self-Deception: Getting Out of the Box</a> by The Arbinger Institute. Rating: ⭐️⭐️⭐️.</p>
 <p>It&rsquo;s a good book. Good information in a good narrative form.</p>
 <p>This is a short book with an easy to follow narrative about leadership. There are not so many notes about this one, but here they are:</p>
@@ -13968,8 +13959,7 @@ As the title says, it shows 42 rules to improve yourself and practice in the rig
             
             <guid>https://pothix.com/jun2017/</guid>
             <description>I&amp;rsquo;m ready to review my stats for June and share them with you! Are you? Hope so! :D
-Books 
-Last month I read Deep Work again because I was preparing to work for a new company. The new company is Doist, but this is a topic for a another post. It proved to be a great asset, as they also recommend reading it. From their reading list I also took The score takes care of itself and Start with Why.</description>
+Books Last month I read Deep Work again because I was preparing to work for a new company. The new company is Doist, but this is a topic for a another post. It proved to be a great asset, as they also recommend reading it. From their reading list I also took The score takes care of itself and Start with Why.</description>
             <content type="html"><![CDATA[<p>I&rsquo;m ready to review my stats for June and share them with you! Are
 you? Hope so! :D</p>
 <h3 id="books">Books</h3>
@@ -14248,7 +14238,7 @@ Bill Walsh took the San Francisco 49ers from a really bad performance (2 wins/14
             <description>Book: Start with Why: How Great Leaders Inspire Everyone to Take Action by Simon Sinek. Rating: ⭐️⭐️⭐️⭐️.
 I always thought we must first have a reason to create something and this book shows some companies that are famous for doing that and how they did it.
 Here are some notes about it:
- Most of what we have now is marketing by manipulation Fear is the most powerful manipulation of all.</description>
+Most of what we have now is marketing by manipulation Fear is the most powerful manipulation of all. A good example is the insurance commercials talking about guns or heart attacks.</description>
             <content type="html"><![CDATA[<p>Book: <a href="https://www.goodreads.com/book/show/7108725">Start with Why: How Great Leaders Inspire Everyone to Take Action</a> by Simon Sinek. Rating: ⭐️⭐️⭐️⭐️.</p>
 <p>I always thought we must first have a reason to create something and this book shows some companies that are famous for doing that and how they did it.</p>
 <p>Here are some notes about it:</p>
@@ -14597,8 +14587,7 @@ doing that you can even use HSTS! :D</p>
             
             <guid>https://pothix.com/may2017/</guid>
             <description>Here we go again for my stats for the last month. :)
-Books 
-I will start a in a new company this month, so I decided to re-read Deep Work (I really recommend this one). This book is just great for everyone who wants to focus and do the hard work. It has everything to do with my new work schedule. The book about Elon Musk was a good reading as well, this guy has some great ideas.</description>
+Books I will start a in a new company this month, so I decided to re-read Deep Work (I really recommend this one). This book is just great for everyone who wants to focus and do the hard work. It has everything to do with my new work schedule. The book about Elon Musk was a good reading as well, this guy has some great ideas.</description>
             <content type="html"><![CDATA[<p>Here we go again for my stats for the last month. :)</p>
 <h3 id="books">Books</h3>
 <p><a href="https://www.goodreads.com/pothix" title=""><img src="/images/stats/2017/may/goodreads.png" alt="List of books read this month" title="List of books read this month"></a></p>
@@ -14816,8 +14805,8 @@ apply it to your life. It will definitely change the way I work.</p>
             <description>Book: Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future by Ashlee Vance. Rating: ⭐️⭐️⭐️.
 It&amp;rsquo;s not a life-changing book but it&amp;rsquo;s cool to understand Elon Musk path.
 Here are some few sentences I like and some comments on them:
- The best minds of our time are working to make users click on ads
- That&amp;rsquo;s really sad. Elon has a great vision of the future and you can feel like him when reading the book (at least I can).</description>
+The best minds of our time are working to make users click on ads
+That&amp;rsquo;s really sad. Elon has a great vision of the future and you can feel like him when reading the book (at least I can).</description>
             <content type="html"><![CDATA[<p>Book: <a href="https://www.goodreads.com/book/show/22535480">Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future</a> by Ashlee Vance. Rating: ⭐️⭐️⭐️.</p>
 <p>It&rsquo;s not a life-changing book but it&rsquo;s cool to understand Elon Musk path.</p>
 <p>Here are some few sentences I like and some comments on them:</p>
@@ -14857,7 +14846,6 @@ Here are some few sentences I like and some comments on them:
             <description>This was not a good month. I spent most of the time sick, recovering from what may be a Labyrinthitis. I still have to confirm that, but I&amp;rsquo;m in slow motion for a while.
 But anyways, let&amp;rsquo;s go to the collected data.
 Books Books for this month:
-
 &amp;ldquo;Einstein no Brasil&amp;rdquo; (Einstein in Brazil) is a physical book I borrowed from a friend and The Art of The Lord of the Rings I have in my shelf (as a good LotR fan).</description>
             <content type="html"><![CDATA[<p>This was not a good month. I spent most of the time sick, recovering
 from what may be a Labyrinthitis. I still have to confirm that, but
@@ -15074,7 +15062,7 @@ Mike does a great job describing how is the life of an astronaut. Listen (yes, I
 It is a good book. I almost gave 3 stars, but it is still a Mastery effect. It deserves four.
 Each chapter in the book is devoted to a specific area: Motivation, Teams, Focus, Goal setting, Managing others, Decision making, Innovation, and Absorbing data.
 My notes on each topic:
-Motivation  Motivation is feeling in control.</description>
+Motivation Motivation is feeling in control.</description>
             <content type="html"><![CDATA[<p>Book: <a href="https://www.goodreads.com/book/show/25733966">Smarter Faster Better: The Secrets of Being Productive in Life and Business</a> by Charles Duhigg. Rating: ⭐️⭐️⭐️⭐️.</p>
 <p>It is a good book. I almost gave 3 stars, but it is still a Mastery effect. It deserves four.</p>
 <p>Each chapter in the book is devoted to a specific area: Motivation, Teams, Focus, Goal setting, Managing others, Decision making, Innovation, and Absorbing data.</p>
@@ -15145,7 +15133,6 @@ It is nice to read if you already read The Hobbit and The Lord of the Rings. Thi
             <description>Back to work this month. :)
 After one month vacation, I got back to my routine and got some good results this month.
 Books Added three more books to the list:
-
 I have to note here that Mastery is one of the best books I ever read. Both Mindfulness in plain English and The Urban Monk are about meditation and how to live a minimalist life.
 Articles I&amp;rsquo;m still trying to find a way to track the articles I read.</description>
             <content type="html"><![CDATA[<p>Back to work this month. :)</p>
@@ -15247,7 +15234,6 @@ be. Maybe next month. :)</p>
             <description>February was an atypical month because I was on vacation. :)
 Much of my stats will reflect my travel around Europe. But no coding was done during this trip.
 Books Continuing my goal to read 30 books this year, I read two books this month:
-
 I had plans to visit Amsterdam and Oxford during my travel. Because of that I decided to read the story of Kullervo, which mention a lot about J.</description>
             <content type="html"><![CDATA[<p>February was an atypical month because I was on vacation. :)</p>
 <p>Much of my stats will reflect my travel around Europe. But no coding was done during this trip.</p>
@@ -15993,7 +15979,7 @@ I started with Programming Phoenix for a more practical learning. This book feel
 It was good at the beginning but the end was too self-help for me.
 I learned good things in this book and that&amp;rsquo;s what matters for me.
 Here are my raw notes about the book:
- Give a fuck about things you already have, not only what you want.</description>
+Give a fuck about things you already have, not only what you want. We have a limited number of fucks to give, choose yours wisely.</description>
             <content type="html"><![CDATA[<p>Book: <a href="https://www.goodreads.com/book/show/28257707">The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life</a> by Mark Manson. Rating: ⭐️⭐️⭐️.</p>
 <p>It was good at the beginning but the end was too self-help for me.</p>
 <p>I learned good things in this book and that&rsquo;s what matters for me.</p>
@@ -16076,7 +16062,7 @@ This book shows the way to deliver a presentation that earns a standing ovation 
             <description>Book: Will It Fly?: How to Test Your Next Business Idea So You Don&amp;rsquo;t Waste Your Time and Money . Rating: ⭐️⭐️⭐️⭐️.
 I like this book and have a bunch of notes to share.
 Here are my raw notes about the book:
- Grab a piece of paper and divide it into four sections. Then, identify the four most important parts of your life. Your categories might be, for example, Family, Career, Well-being and Money.</description>
+Grab a piece of paper and divide it into four sections. Then, identify the four most important parts of your life. Your categories might be, for example, Family, Career, Well-being and Money.</description>
             <content type="html"><![CDATA[<p>Book: <a href="https://www.goodreads.com/review/show/3908836343">Will It Fly?: How to Test Your Next Business Idea So You Don&rsquo;t Waste Your Time and Money </a>. Rating: ⭐️⭐️⭐️⭐️.</p>
 <p>I like this book and have a bunch of notes to share.</p>
 <p>Here are my raw notes about the book:</p>
@@ -16577,7 +16563,7 @@ contínua de conhecimento vai continuar. :)</p>
             <description>Book: The Coaching Habit: Say Less, Ask More &amp;amp; Change the Way You Lead Forever. Rating: ⭐️⭐️⭐️.
 Read this book in 2016 but never published any review until now (2021, even if the post date is the day I finished the book). I don&amp;rsquo;t have much to say now, but at least I can publish my notes from 2016.
 Here are my raw notes about the book:
- Kickstart, AWE (and what else), and Focus - Are the guides for a coach.</description>
+Kickstart, AWE (and what else), and Focus - Are the guides for a coach.</description>
             <content type="html"><![CDATA[<p>Book: <a href="https://www.goodreads.com/review/show/3911931080">The Coaching Habit: Say Less, Ask More &amp; Change the Way You Lead Forever</a>. Rating: ⭐️⭐️⭐️.</p>
 <p>Read this book in 2016 but never published any review until now (2021, even if the post date is the day I finished the book). I don&rsquo;t have much to say now, but at least I can publish my notes from 2016.</p>
 <p>Here are my raw notes about the book:</p>
@@ -17289,7 +17275,7 @@ about my journey is that <strong>I would do it again if I could</strong>. :)</p>
             
             <guid>https://pothix.com/escolhasdev/</guid>
             <description>Esse ano fui chamado para palestrar em todas as edições do Encontro Locaweb que acontecem por várias cidades do Brasil! Palestrei em 6 cidades de estados diferentes, e aconteceram na seguinte ordem:
- Belo Horizonte Curitiba Recife Porto Alegre Rio de Janeiro São Paulo  Adicionei os links para as fotos dos eventos na listagem acima. :)
+Belo Horizonte Curitiba Recife Porto Alegre Rio de Janeiro São Paulo Adicionei os links para as fotos dos eventos na listagem acima. :)
 Minha palestra se chama &amp;ldquo;As escolhas do desenvolvedor&amp;rdquo; e fala sobre as escolhas que fazemos durante nossa carreira de desenvolvedor, escolhas com linguagens, configurações de servidores, deploy, equipe, testes e etc.</description>
             <content type="html"><![CDATA[<p>Esse ano fui chamado para palestrar em todas as edições do Encontro Locaweb que
 acontecem por várias cidades do Brasil! Palestrei em 6 cidades de estados
@@ -17615,7 +17601,7 @@ Portland. :(</p>
             <description>Welcome to the new blog layout of PotHix.com! :)
 I decided that the time has came to change not just the layout but the blog engine as well. I&amp;rsquo;m now using middleman instead of wordpress. Just to be clear, I don&amp;rsquo;t think wordpress is not good at all, but I want to publish static files instead of keeping the wordpress &amp;ldquo;infrastructure&amp;rdquo;.
 I&amp;rsquo;ve divided into 3 feeds:
- Only english posts: http://feeds.</description>
+Only english posts: http://feeds.feedburner.com/EnglishPotHix All posts: http://feeds.</description>
             <content type="html"><![CDATA[<p>Welcome to the new blog layout of PotHix.com! :)</p>
 <p>I decided that the time has came to change not just the layout but the blog
 engine as well. I&rsquo;m now using middleman instead of wordpress. Just to be clear,
@@ -18094,7 +18080,7 @@ entrega pessoalmente.</p>
             <guid>https://pothix.com/dragstar2008/</guid>
             <description>Chegou a hora de pendurar o colete por um tempo, obviamente estarei de volta num futuro não tão distante, mas pelo menos por enquanto vou ficar um tempo sem motos. Por esse motivo estou vendendo minha Dragstar 2008.
 Informações sobre ela:
- Segundo dono Licenciada 2013 31000 km de boas estradas! Pneu dianteiro e traseiro trocados há menos de 1000km (duraram mais ou menos 29k)  Acessórios que vão com ela (além de todas as peças originais):</description>
+Segundo dono Licenciada 2013 31000 km de boas estradas! Pneu dianteiro e traseiro trocados há menos de 1000km (duraram mais ou menos 29k) Acessórios que vão com ela (além de todas as peças originais):</description>
             <content type="html"><![CDATA[<p>Chegou a hora de pendurar o colete por um tempo, obviamente estarei de
 volta num futuro não tão distante, mas pelo menos por enquanto vou
 ficar um tempo sem motos. Por esse motivo estou vendendo minha
@@ -18133,7 +18119,7 @@ conversamos. :)</p>
             <guid>https://pothix.com/intruder125/</guid>
             <description>Depois de brincar de customização de motos por um tempo chegou a hora de vender minha intrudinha. Estou com ela desde 2008 e só me deu alegrias.
 Algumas informações sobre ela:
- Único dono Toda a parafernalha que veio com ela quando eu comprei eu ainda tenho IPVA pago Pneu traseiro praticamente novo, não rodou nem 100km Bateria nova, 1 mês de uso Motor, protetor de corrente e paralamas frontal são preto fosco.</description>
+Único dono Toda a parafernalha que veio com ela quando eu comprei eu ainda tenho IPVA pago Pneu traseiro praticamente novo, não rodou nem 100km Bateria nova, 1 mês de uso Motor, protetor de corrente e paralamas frontal são preto fosco.</description>
             <content type="html"><![CDATA[<p>Depois de brincar de customização de motos por um tempo chegou a hora
 de vender minha intrudinha. Estou com ela desde 2008 e só me deu
 alegrias.</p>
@@ -20924,7 +20910,7 @@ desse mes. ;)</p>
             <guid>https://pothix.com/acdc2009/</guid>
             <description>Como muitos sabem eu tive o prazer de estar no show do ACDC aqui no Brasil, que aconteceu no dia 27 de novembro de 2009.
 Eu não queria perder esse show por nada, por vários motivos, sendo 2 deles:
- Eu curto pra caramba ACDC Os caras já estão bem velhinhos! Assim como o Ozzy que eu fui e já pensava que podia ser a ultima vez :P  O show foi no estádio do Morumbi:</description>
+Eu curto pra caramba ACDC Os caras já estão bem velhinhos! Assim como o Ozzy que eu fui e já pensava que podia ser a ultima vez :P O show foi no estádio do Morumbi: Por sorte consegui chegar relativamente cedo ( 17:00 ) e peguei um estacionamento razoável ( na casa de alguem que fatura com isso ) e um lugar razoável na arquibancada (infelizmente nesse show eu não fui de pista):</description>
             <content type="html"><![CDATA[<p>Como muitos sabem eu tive o prazer de estar no show do ACDC aqui no
 Brasil, que aconteceu no dia 27 de novembro de 2009.</p>
 <p>Eu não queria perder esse show por nada, por vários motivos, sendo 2
@@ -21209,7 +21195,7 @@ picasaweb</a>.</p>
             <guid>https://pothix.com/servicos-oct-2009/</guid>
             <description>Já estava me esquecendo de postar sobre os serviçoes legais desse mes! :P
 Estava com poucos quando lembrei, mas não demorou muito para que eu lembrasse de alguns muito bons. Vamos lá!
-yUML&amp;lt; O yUML é um serviço para se criar UML facilmente utilizando apenas uma URL com determinadas marcações. O caike que me mostrou no ultimo post quando eu tinha mencionado sobre criação deUML. Valeu Caike!
+yUML&amp;lt; O yUML é um serviço para se criar UML facilmente utilizando apenas uma URL com determinadas marcações. O caike que me mostrou no ultimo post quando eu tinha mencionado sobre criação de UML. Valeu Caike!
 Gliffy Continuando em diagramas e UML temos o Gliffy que também faz uma grande quantidade de diagramas diferentes.</description>
             <content type="html"><![CDATA[<p>Já estava me esquecendo de postar sobre os serviçoes legais desse mes! :P</p>
 <p>Estava com poucos quando lembrei, mas não demorou muito para que eu
@@ -21251,7 +21237,7 @@ arrastar os post-its para as próximas áreas ( todo, wip, verify, done
             <guid>https://pothix.com/monit/</guid>
             <description>Esses dias eu peguei para instalar o monit no servidor da empresa que eu trabalho e sofri um pouquinho com algumas coisas básicas, portanto decidi postar aqui para que seja útil para quem quer começar a utilizar o monit.
 Se você usa Ubuntu, você pode fazer download do Monit por apt-get:
-sudo apt-get install monit  Se você não usa Ubuntu ou quer a ultima versão do Monit, então faça download do tar.</description>
+sudo apt-get install monit Se você não usa Ubuntu ou quer a ultima versão do Monit, então faça download do tar.</description>
             <content type="html"><![CDATA[<p>Esses dias eu peguei para instalar o monit no servidor da empresa que
 eu trabalho e sofri um pouquinho com algumas coisas básicas, portanto
 decidi postar aqui para que seja útil para quem quer começar a
@@ -21349,7 +21335,7 @@ ou várias outras coisas interessantes.</p>
             <guid>https://pothix.com/meme-gamedesign/</guid>
             <description>Estou escrevendo esse post por que fui convocado para esse meme pelo Bruno Croci, que foi meu parceiro no desenvolvimento de um dos games vencedores do GameJam do itaú cultural, o Robotz Warehouse.
 A idéia do post é mostrar alguns games interessantes e falar a sua opinião sobre eles. As regras são:
- Liste quantos jogos em Flash quiser. Preferencialmente aqueles que, por algum motivo de design chamaram sua atenção. Diga o que desses jogos te chamou a atenção, seja em quantas linhas quiser.</description>
+Liste quantos jogos em Flash quiser. Preferencialmente aqueles que, por algum motivo de design chamaram sua atenção. Diga o que desses jogos te chamou a atenção, seja em quantas linhas quiser.</description>
             <content type="html"><![CDATA[<p>Estou escrevendo esse post por que fui convocado para esse
 <a href="http://crocidb.com/blog/2009/08/meme-game-design-ao-extremo/" title="Meme de games no blog do CrociDB">meme pelo Bruno Croci</a>,
 que foi meu parceiro no desenvolvimento de um dos games
@@ -22260,7 +22246,7 @@ conseguir ir até o final.</p>
             <description>Nesse sábado aconteceu o quinto encontro do Guru-sp! :)
 O encontro estava marcado para as 10 da manhã com uma seção para iniciantes e começou as 10:30 ( sempre atrasa um pouquinho né? hehe ), já com um bate papo legal coordenado pelo @rafaelrosafu após uma breve apresentação de todos os participantes.
 Rails para iniciantes Nessa primeira seção tiveram muitas conversas interessantes sobre algumas filosofias Rails, como:
- DRY REST TDD Test all the Fucking Time Skynny Controllers and Fat Models  e mais algumas outras coisas bem interessantes que fomentaram uma ótima discussão sobre quais os melhores padrões para se seguir quando se constrói uma aplicação Rails (sim, falamos tomando como base uma aplicação Rails), como utilizar plugins como o ResourceController (que tem seus prós e contras), manter seus scripts num lugar diferente da pasta scripts, que é a pasta padrão para scripts &amp;ldquo;internos&amp;rdquo; do Rails e tentar centralizar em uma pasta dentro de lib, além de usar Rake sempre que possível para essas tarefas ficarem organizadas e de fácil acesso.</description>
+DRY REST TDD Test all the Fucking Time Skynny Controllers and Fat Models e mais algumas outras coisas bem interessantes que fomentaram uma ótima discussão sobre quais os melhores padrões para se seguir quando se constrói uma aplicação Rails (sim, falamos tomando como base uma aplicação Rails), como utilizar plugins como o ResourceController (que tem seus prós e contras), manter seus scripts num lugar diferente da pasta scripts, que é a pasta padrão para scripts &amp;ldquo;internos&amp;rdquo; do Rails e tentar centralizar em uma pasta dentro de lib, além de usar Rake sempre que possível para essas tarefas ficarem organizadas e de fácil acesso.</description>
             <content type="html"><![CDATA[<p><a href="/images/posts/5_encontro_guru.jpg" title=""><img src="/images/posts/5_encontro_guru.jpg" alt="Foto do pessoal reunido com seus notebooks no encontro" title="Quinto encontro do Guru-sp"></a></p>
 <p>Nesse sábado aconteceu o
 <a href="http://guru-sp.com/index.php/Quinto_Encontro" title="Quinto encontro do Guru-sp">quinto encontro do Guru-sp</a>! :)</p>
@@ -22643,7 +22629,7 @@ não é rápida o suficiente para dar uma boa impressão para o serviço.</p>
             <guid>https://pothix.com/modemclaro-ubuntu/</guid>
             <description>Após receber um modem Claro da empresa que eu trabalho atualmente eu fui fazer o processo de instalação no Ubuntu. Já tinha recebido a informação de um colega de trabalho de como fazer, e obviamente não foi nada difícil (o que que é difícil no Ubuntu? :)).
 Vou descrever aqui o processo:
- Inserir o modem na entrada USB Vai aparecer um assistente de configuração simples ( Next Next Finish ), para você seguir e instalar.</description>
+Inserir o modem na entrada USB Vai aparecer um assistente de configuração simples ( Next Next Finish ), para você seguir e instalar.</description>
             <content type="html"><![CDATA[<p>Após receber um modem Claro da <a href="http://www.ikwa.com.br" title="Ikwa Orientação Profissional">empresa que eu trabalho atualmente</a>
 eu fui fazer o processo de instalação no Ubuntu. Já tinha recebido a
 informação de um <a href="http://github.com/mateuslinhares">colega de trabalho</a>
@@ -23116,8 +23102,8 @@ perdeu! :D</p>
             <guid>https://pothix.com/ruby-inicio/</guid>
             <description>Se você já conhece Ruby, ignore esse post! A idéia do post é mostrar um pouco da linguagem Ruby para pessoas que não conhecem nada sobre ela.
 Eu, claro, acho muito interessante que muita gente por aí ainda não conhece Ruby, mesmo com a grande popularização do Rails, e eu chego a ouvir coisas assim:
- &amp;ldquo;Não é você que programa naquela linguagem esquisita?&amp;rdquo;
- Cheguei a ouvir do meu &amp;ldquo;professor de algoritmo&amp;rdquo; (perdeu meu respeito):</description>
+&amp;ldquo;Não é você que programa naquela linguagem esquisita?&amp;rdquo;
+Cheguei a ouvir do meu &amp;ldquo;professor de algoritmo&amp;rdquo; (perdeu meu respeito):</description>
             <content type="html"><![CDATA[<p>Se você já conhece Ruby, ignore esse post! A idéia do post é mostrar
 um pouco da linguagem Ruby para pessoas que não conhecem nada sobre
 ela.</p>
@@ -23780,7 +23766,7 @@ já terei minha aplicação alterada lá! :)</p>
             <guid>https://pothix.com/ironmaiden2009/</guid>
             <description>Fui ao show do Iron maiden nesse domingo dia 15/03 e resolvi postar as minhas considerações.
 O show do Iron Maiden em si foi muito legal! Tocaram muitos clássicos como:
- Fear of the dark ( der&amp;hellip; ) Wasted Years Aces High The rime of ancient mariner Phanton of the Opera Hallowed be the name 666 the number of the beast The trooper  entre outras!
+Fear of the dark ( der&amp;hellip; ) Wasted Years Aces High The rime of ancient mariner Phanton of the Opera Hallowed be the name 666 the number of the beast The trooper entre outras!
 A abertura com o discurso de Winston Churchill e já entrando com Aces High foi muito legal!</description>
             <content type="html"><![CDATA[<p>Fui ao show do Iron maiden nesse domingo dia 15/03 e resolvi postar as
 minhas considerações.</p>
@@ -24042,7 +24028,6 @@ Party!</p>
             
             <guid>https://pothix.com/dia-dificil/</guid>
             <description>Hoje o dia foi $#&amp;amp;&amp;amp;!
-
 Atualmente moro em Diadema (que não é uma cidade ruim como muitos ouvem falar), e tenho o azer de morar próximo a um córrego, que a prefeitura promete canalizar há mais de 10 anos, e agora parece que finalmente o projeto começou a andar, mas enquanto o projeto não é concluído de vez a coisa ficou pior que o normal&amp;hellip;
 No momento ruim eu tirei algumas fotos (o que sempre faço nesses casos) para mostrar a situação da coisa&amp;hellip;</description>
             <content type="html"><![CDATA[<p>Hoje o dia foi $#&amp;&amp;!</p>
@@ -25405,8 +25390,8 @@ quantidade de coisas legais que você pode ter nesse sistema.</p>
             <guid>https://pothix.com/nero-linux/</guid>
             <description>Vou comentar agora sobre como montar aquela imagem chata do Nero (.nrg ) que seu amigo que gosta de janelas lhe enviou com aqueles vários arquivos que você tinha pedido&amp;hellip; É um hack bem fácil!
 Instalações Primeiro instale o nrg2iso
-No Ubuntu # apt-get install nrg2iso  No Slackware Baixando o pacote no Linux Packages e instalando normalmente com:
-# installpkg nrg2iso-versao.tgz  Utilização Agora já podemos utilizar o nrg3iso para converter nossa imagem:</description>
+No Ubuntu # apt-get install nrg2iso No Slackware Baixando o pacote no Linux Packages e instalando normalmente com:
+# installpkg nrg2iso-versao.tgz Utilização Agora já podemos utilizar o nrg3iso para converter nossa imagem:</description>
             <content type="html"><![CDATA[<p>Vou comentar agora sobre como montar aquela imagem chata do Nero (.nrg
 ) que seu amigo que gosta de janelas lhe enviou com aqueles vários
 arquivos que você tinha pedido&hellip; É um hack bem fácil!</p>

@@ -100,7 +100,7 @@ Por algum motivo bizarro (nem tanto assim, parece ser dns, mas já tentei opendn
       <description>Nesse sábado aconteceu o quinto encontro do Guru-sp! :)
 O encontro estava marcado para as 10 da manhã com uma seção para iniciantes e começou as 10:30 ( sempre atrasa um pouquinho né? hehe ), já com um bate papo legal coordenado pelo @rafaelrosafu após uma breve apresentação de todos os participantes.
 Rails para iniciantes Nessa primeira seção tiveram muitas conversas interessantes sobre algumas filosofias Rails, como:
- DRY REST TDD Test all the Fucking Time Skynny Controllers and Fat Models  e mais algumas outras coisas bem interessantes que fomentaram uma ótima discussão sobre quais os melhores padrões para se seguir quando se constrói uma aplicação Rails (sim, falamos tomando como base uma aplicação Rails), como utilizar plugins como o ResourceController (que tem seus prós e contras), manter seus scripts num lugar diferente da pasta scripts, que é a pasta padrão para scripts &amp;ldquo;internos&amp;rdquo; do Rails e tentar centralizar em uma pasta dentro de lib, além de usar Rake sempre que possível para essas tarefas ficarem organizadas e de fácil acesso.</description>
+DRY REST TDD Test all the Fucking Time Skynny Controllers and Fat Models e mais algumas outras coisas bem interessantes que fomentaram uma ótima discussão sobre quais os melhores padrões para se seguir quando se constrói uma aplicação Rails (sim, falamos tomando como base uma aplicação Rails), como utilizar plugins como o ResourceController (que tem seus prós e contras), manter seus scripts num lugar diferente da pasta scripts, que é a pasta padrão para scripts &amp;ldquo;internos&amp;rdquo; do Rails e tentar centralizar em uma pasta dentro de lib, além de usar Rake sempre que possível para essas tarefas ficarem organizadas e de fácil acesso.</description>
     </item>
     
     <item>
@@ -111,8 +111,8 @@ Rails para iniciantes Nessa primeira seção tiveram muitas conversas interessan
       <guid>https://pothix.com/ruby-inicio/</guid>
       <description>Se você já conhece Ruby, ignore esse post! A idéia do post é mostrar um pouco da linguagem Ruby para pessoas que não conhecem nada sobre ela.
 Eu, claro, acho muito interessante que muita gente por aí ainda não conhece Ruby, mesmo com a grande popularização do Rails, e eu chego a ouvir coisas assim:
- &amp;ldquo;Não é você que programa naquela linguagem esquisita?&amp;rdquo;
- Cheguei a ouvir do meu &amp;ldquo;professor de algoritmo&amp;rdquo; (perdeu meu respeito):</description>
+&amp;ldquo;Não é você que programa naquela linguagem esquisita?&amp;rdquo;
+Cheguei a ouvir do meu &amp;ldquo;professor de algoritmo&amp;rdquo; (perdeu meu respeito):</description>
     </item>
     
     <item>

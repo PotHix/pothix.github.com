@@ -7,7 +7,59 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 10 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pothix.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pothix.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rome</title>
+      <link>https://pothix.com/places/rome/</link>
+      <pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/places/rome/</guid>
+      <description>In July 2022 I spent 3 days in Rome and quite enjoyed it. The only problem was the extreme heat and crowded city, but other than that, things went great.
+Stay I stayed on a BnB called CityLife Rome. I booked it on booking as I was traveling with my wife and sister and was looking for a place for 3 that was affortable and had a great location.
+This place is quite close to the Roma Termini, giving you access to the lines A and B and a lot of flexibility to use the Metro.</description>
+    </item>
+    
+    <item>
+      <title>Florence</title>
+      <link>https://pothix.com/places/florence/</link>
+      <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/places/florence/</guid>
+      <description>As part of a 1-week trip through Italy 🇮🇹 in 2022, I had the chance to spend 2 days in Florence with my wife and sister.
+Stay After staying on a Penzione in Venice, we decided to get a Hotel for Firenze. We got a 3-star hotel with an amazing location, right in front of the main basilica. The hotel is called Hotel Bigallo.
+The place is good enough for what we wanted.</description>
+    </item>
+    
+    <item>
+      <title>Venice</title>
+      <link>https://pothix.com/places/venice/</link>
+      <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/places/venice/</guid>
+      <description>As part of a 1-week trip through Italy 🇮🇹 in 2022, I had the chance to spend 2 days in Venice with my wife and sister. It was right after the Doist retreat, and I was feeling quite tired in the first day of the trip, but the mood changed quite fast after the first day. 😀
+Stay We decided to get a Penzione with a room for 3. The name of the place is Penzione Guerrato, and it is near the Rialto bridge.</description>
+    </item>
+    
+    <item>
+      <title>Pertisau</title>
+      <link>https://pothix.com/places/pertisau/</link>
+      <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/places/pertisau/</guid>
+      <description>The Doist retreat 2022 happened in Pertisau, so I had the chance to visit Austria for the first time 🇦🇹!
+I really enjoyed the city. We got there in summer, and I heard it&amp;rsquo;s a totally different town in the winter. It&amp;rsquo;s quite cool to see how they adapt sports for the season. As an example of things I saw: they have Ski on winter, lake swimming and paragliding on summer.</description>
+    </item>
+    
+    <item>
+      <title>Munich</title>
+      <link>https://pothix.com/places/munich/</link>
+      <pubDate>Thu, 16 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/places/munich/</guid>
+      <description>In June 2021 I had the chance to spend 3 days in Munich while preparing for the Doist retreat. Unfortunately, I was not feeling well in the second day of the trip, so it was mostly 2 working days, but I enjoyed it.
+It was interesting to see how Germans are totally fine on doing topless or changing in public places. Not in the street, but close to the river, for example.</description>
+    </item>
+    
     <item>
       <title>Review of Speed Up Your Python with Rust: Optimize Python performance by creating Python pip modules in Rust with PyO3</title>
       <link>https://pothix.com/pythonwithrustbook/</link>
@@ -27,8 +79,8 @@ It&amp;rsquo;s not news to anyone that I&amp;rsquo;m a big fan of the Rust progr
       <guid>https://pothix.com/typingspeed/</guid>
       <description>It&amp;rsquo;s not the first time I have an argument with someone about typing speed, so I decided to write this small post to make my point clear.
 The discussion usually starts with the following argument:
- I don&amp;rsquo;t have to type fast to be a good programmer. Programming is not about typing, but thinking about the solution.
- Yes, that&amp;rsquo;s true! The whole job of a programmer is not to type, but to solve problems.</description>
+I don&amp;rsquo;t have to type fast to be a good programmer. Programming is not about typing, but thinking about the solution.
+Yes, that&amp;rsquo;s true! The whole job of a programmer is not to type, but to solve problems.</description>
     </item>
     
     <item>
@@ -100,7 +152,7 @@ I will try to not write spoilers here, especially for the main plot, but I may t
       <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/sleepladybook/</guid>
-      <description>Book: The Sleep Lady&amp;rsquo;s Good Night, Sleep Tight: Gentle Proven Solutions to Help Your Child Sleep without Leaving Them to Cry-it-Out  by Kim West. Rating: ⭐️⭐️⭐️⭐️.
+      <description>Book: The Sleep Lady&amp;rsquo;s Good Night, Sleep Tight: Gentle Proven Solutions to Help Your Child Sleep without Leaving Them to Cry-it-Out by Kim West. Rating: ⭐️⭐️⭐️⭐️.
 This is not a book I read because I was excited to read it. It&amp;rsquo;s a book I read to make my nights less bad and try to understand how to improve the life with babies. I read this after a friend mentioned it had sections on how to deal with multiples.</description>
     </item>
     
@@ -331,7 +383,7 @@ I can say for sure that 2020 was a complicated year and a lot of things change i
       <guid>https://pothix.com/pirataria/</guid>
       <description>Há alguns dias atrás, um amigo meu compartilhou um texto sobre pirataria no twitter. O texto possui o tema &amp;ldquo;Precisamos falar sobre a pirataria&amp;rdquo; e pode ser visto aqui.
 O texto é bem leve ao falar do assunto e mostra a visão da autora e sua própria experiência com a pirataria. Se eu fosse resumir o texto em uma frase (sim, é o meu entendimento sobre ele), seria:
- Todo mundo já usou pirataria de uma forma ou de outra quando não tinha dinheiro o suficiente para pagar por um determinado material.</description>
+Todo mundo já usou pirataria de uma forma ou de outra quando não tinha dinheiro o suficiente para pagar por um determinado material.</description>
     </item>
     
     <item>
@@ -428,7 +480,7 @@ What first caught my attention was the pattern of the peak, through, rebound eve
       <guid>https://pothix.com/ghcli/</guid>
       <description>The GitHub CLI is been a major time saver for me. I was skeptical about its usage in the beginning but it proved to be very useful.
 Cloning When I want to download a new repository, instead of typing the whole URL or going to the browser to find the repository, I just type:
- gh repo clone name-of-the-repository  It works out of the box if the repo is mine.</description>
+gh repo clone name-of-the-repository It works out of the box if the repo is mine. If it&amp;rsquo;s from someone else, I have to specify the user:</description>
     </item>
     
     <item>
@@ -439,7 +491,7 @@ Cloning When I want to download a new repository, instead of typing the whole UR
       <guid>https://pothix.com/lotrfocus/</guid>
       <description>💡 Quick thought post. A bigger tweet but on my own platform.
 I&amp;rsquo;m co-authoring a book about Rust and was reviewing an example about enums. My plan was to use some sort of reference to J.R.R. Tolkien fantasy world (because I really like it). I was considering using something like this:
-enum Race {  Elf,  Dwarf,  Men,  Hobbit,  Ent } PS: I&amp;rsquo;m only considering the free-peoples of middle earth for this enum.</description>
+enum Race { Elf, Dwarf, Men, Hobbit, Ent } PS: I&amp;rsquo;m only considering the free-peoples of middle earth for this enum.</description>
     </item>
     
     <item>
@@ -855,6 +907,26 @@ Even with the small problems we had (as any other big conference), the feedback 
     </item>
     
     <item>
+      <title>Porto</title>
+      <link>https://pothix.com/places/opo/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/places/opo/</guid>
+      <description>I&amp;rsquo;ve been in Porto for the first time in 2017 when I first joined Doist, but also had the chance to visit the city in 2019 in the company retreat.
+I really like the city. Unlike Lisbon, it feels like a city that is not so big but is also not so small. To me, it feels right in the middle of a big and small city, with historical places and nice views.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://pothix.com/places/azores/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/places/azores/</guid>
+      <description>I went to Azores (actually, Açores in Portuguese) in the Doist company retreat of 2019. It was a hell of a ride to get there because there was a lot of complication to leave Uruguay (I was organizing Rust LATAM) and get there. Maybe it&amp;rsquo;s a story for a different context.
+Anana We visisted a place where they cultivate a specific local Anana. It looks like a pineapple, but it has its own category.</description>
+    </item>
+    
+    <item>
       <title>NYC</title>
       <link>https://pothix.com/places/nyc/</link>
       <pubDate>Mon, 25 Mar 2019 08:45:26 -0300</pubDate>
@@ -1051,8 +1123,7 @@ I have to say that his method seems to be really good.</description>
       <guid>https://pothix.com/jun2018/</guid>
       <description>Guess what!? Yes, metrics for June! 📊
 Books I usually don&amp;rsquo;t count how many books I read, I just track and check at the end of the month. When I saw that I read five books read this month, my face was like 😱. All of them received a 4-star review, so the result is quite good.
-
- Managing Oneself: This is a great book. It&amp;rsquo;s not life-changing, but there are many great tips to improve your life.</description>
+Managing Oneself: This is a great book. It&amp;rsquo;s not life-changing, but there are many great tips to improve your life.</description>
     </item>
     
     <item>
@@ -1075,7 +1146,7 @@ It&amp;rsquo;s a good book overall. I was between 4 and 5 for this one. It share
 This book is not life-changing but it&amp;rsquo;s small, straight to the point, and has many terrific bits of advice for your career and life.
 I would totally recommend you to read it since it&amp;rsquo;s not expensive and quick to read/listen to (around 1 hour on Audible).
 Here are my raw notes about the book:
- Feedback analysis: whenever you take a crucial decision or action take note of the results you&amp;rsquo;re expecting.</description>
+Feedback analysis: whenever you take a crucial decision or action take note of the results you&amp;rsquo;re expecting.</description>
     </item>
     
     <item>
@@ -1130,8 +1201,7 @@ I have to highlight one item of my notes:
       
       <guid>https://pothix.com/may2018/</guid>
       <description>It&amp;rsquo;s May, and it&amp;rsquo;s time for metrics! 📊
-Books Two books read this month, but both received a 3 stars review: 
- Wait, What?: And Life&amp;rsquo;s Other Essential Questions: Exactly what the author says in the beginning: It&amp;rsquo;s a lecture that became a book. Not bad, but OK-ish. Shop Class as Soulcraft: An Inquiry into the Value of Work: More political views than I was expecting and the pacing is not so good.</description>
+Books Two books read this month, but both received a 3 stars review: Wait, What?: And Life&amp;rsquo;s Other Essential Questions: Exactly what the author says in the beginning: It&amp;rsquo;s a lecture that became a book. Not bad, but OK-ish. Shop Class as Soulcraft: An Inquiry into the Value of Work: More political views than I was expecting and the pacing is not so good.</description>
     </item>
     
     <item>
@@ -1165,7 +1235,6 @@ Here are my raw notes about the book:</description>
       <description>It&amp;rsquo;s time for April metrics! 📊
 Books Note: I write a review for each book I read. You can find them on my Goodreads account.
 Again, just one book this month, and again, a 5 stars one!
-
 A Guide to the Good Life: The Ancient Art of Stoic Joy. This book was on my reading list for many months now. After reading it, I realized I&amp;rsquo;m practicing a fraction of Stoicism for many years.</description>
     </item>
     
@@ -1189,7 +1258,6 @@ The book starts with the history of stoicism, the first stoics, and the context 
       <description>March is gone, and it&amp;rsquo;s time for metrics! 📊
 Books Note: I write a review for each book I read. You can find them on my Goodreads account.
 Just one book this month, but a 5 stars one:
-
 When: The Scientific Secrets of Perfect Timing. This book is about optimization based on time and energy. What is the best time to do some action based on statistics? I found it to be amazing and could confirm many of the assumptions with my data.</description>
     </item>
     
@@ -1202,7 +1270,6 @@ When: The Scientific Secrets of Perfect Timing. This book is about optimization 
       <description>February time! Let&amp;rsquo;s see what we can get from my metrics. 😀
 Books Note: I write a review for each book I read. You can find them on my Goodreads account.
 I&amp;rsquo;m quite satisfied with my reading list for this month:
-
 Five books read in a month and a 4.6 average rating. That&amp;rsquo;s what I call a good reading month.
 The Art of Learning: A Journey in the Pursuit of Excellence.</description>
     </item>
@@ -1248,7 +1315,6 @@ The first part of this book was truly amazing. I really enjoyed the way he was s
       <description>I&amp;rsquo;m excited to write this post about my performance for the first month of the year. I think I will have some great news at the end of this post, related to my expenses.
 Let&amp;rsquo;s get started! 😀
 Books I decided to listen to my podcasts this month, so I did not hear that many audiobooks. The only book I read this month was a physical book:
-
 Hiding in unnatural happiness is a book I received from a monk in York.</description>
     </item>
     
@@ -1327,8 +1393,7 @@ It&amp;rsquo;s not the first time that I hit ctrl+q by accident just to see the 
       
       <guid>https://pothix.com/nov2017/</guid>
       <description>Came back from a travel last month and just packed my stuff to travel again this month. Let&amp;rsquo;s see if it affected my performance.
-Books 
-Read three books this month. My first book of H.P. Lovecraft, called At the mountains of madness was one of them. It was an interesting experience to read it. I also read about minimalism just to realize that I&amp;rsquo;m a minimalism since forever. If you like minimalism I also recommend to listen to their podcast and read their website.</description>
+Books Read three books this month. My first book of H.P. Lovecraft, called At the mountains of madness was one of them. It was an interesting experience to read it. I also read about minimalism just to realize that I&amp;rsquo;m a minimalism since forever. If you like minimalism I also recommend to listen to their podcast and read their website.</description>
     </item>
     
     <item>
@@ -1383,8 +1448,7 @@ The whole thing about the electricity was a reality for my mom (and for me when 
       
       <guid>https://pothix.com/sep2017/</guid>
       <description>It&amp;rsquo;s already the end of October and I could not manage to post my stats from September but I have a good reason for that (which you will read about in the next month 😉).
-Books 
-What Doesn’t Kill Us: How Freezing Water, Extreme Altitude and Environmental Conditioning Will Renew Our Lost Evolutionary Strength is a book that describes what the human body can do if trained for it. The writing process is not so good for my taste, sometimes it looks like a memoir, sometimes it&amp;rsquo;s non-fiction&amp;hellip; but the message it passes is really interesting.</description>
+Books What Doesn’t Kill Us: How Freezing Water, Extreme Altitude and Environmental Conditioning Will Renew Our Lost Evolutionary Strength is a book that describes what the human body can do if trained for it. The writing process is not so good for my taste, sometimes it looks like a memoir, sometimes it&amp;rsquo;s non-fiction&amp;hellip; but the message it passes is really interesting.</description>
     </item>
     
     <item>
@@ -1416,9 +1480,8 @@ The good part of this book is to convince you, or at least inspire you to resear
       
       <guid>https://pothix.com/aug2017/</guid>
       <description>September is here, time to review my stats for August, 2017.
-Books 
-This is my personal record of books read in one single month. 7 freaking books. 😱
-Let&amp;rsquo;s start with two small books I read. Cesar Millan&amp;rsquo;s Guide to Audiobooks for Dogs and Cesar Millan&amp;rsquo;s Guide to Bringing Home a Shelter Dog. These two books were free on Audible for Dogs, so I decided to give them a try.</description>
+Books This is my personal record of books read in one single month. 7 freaking books. 😱
+Let&amp;rsquo;s start with two small books I read. Cesar Millan&amp;rsquo;s Guide to Audiobooks for Dogs and Cesar Millan&amp;rsquo;s Guide to Bringing Home a Shelter Dog. These two books were free on Audible for Dogs, so I decided to give them a try. They are ordinary books but I would recommend for dog lovers.</description>
     </item>
     
     <item>
@@ -1473,8 +1536,8 @@ A book every boss should read. It helps to create a culture of giving and receiv
       
       <guid>https://pothix.com/jul2017/</guid>
       <description>Okay, here we go for the first full month working in my new job. :)
-Books 
-This month I read Let My People Go Surfing: The Education of a Reluctant Businessman, which was recommended by the other Doisters. It&amp;rsquo;s a great book by the guy who built the company Patagonia, a bootstrapped company, from scratch. Their way of thinking looks a lot like the way we think at Doist.</description>
+Books This month I read Let My People Go Surfing: The Education of a Reluctant Businessman, which was recommended by the other Doisters. It&amp;rsquo;s a great book by the guy who built the company Patagonia, a bootstrapped company, from scratch. Their way of thinking looks a lot like the way we think at Doist.
+The second one is Practice Perfect: 42 Rules for Getting Better at Getting Better.</description>
     </item>
     
     <item>
@@ -1496,7 +1559,7 @@ Talking to Fabio Akita about my Archlinux tunning, I heard that I should be post
       <description>Book: Leadership and Self-Deception: Getting Out of the Box by The Arbinger Institute. Rating: ⭐️⭐️⭐️.
 It&amp;rsquo;s a good book. Good information in a good narrative form.
 This is a short book with an easy to follow narrative about leadership. There are not so many notes about this one, but here they are:
- See People as people, not objects Self-betrayal is an act in contrary of what I feel I should do for another person.</description>
+See People as people, not objects Self-betrayal is an act in contrary of what I feel I should do for another person.</description>
     </item>
     
     <item>
@@ -1528,8 +1591,7 @@ As the title says, it shows 42 rules to improve yourself and practice in the rig
       
       <guid>https://pothix.com/jun2017/</guid>
       <description>I&amp;rsquo;m ready to review my stats for June and share them with you! Are you? Hope so! :D
-Books 
-Last month I read Deep Work again because I was preparing to work for a new company. The new company is Doist, but this is a topic for a another post. It proved to be a great asset, as they also recommend reading it. From their reading list I also took The score takes care of itself and Start with Why.</description>
+Books Last month I read Deep Work again because I was preparing to work for a new company. The new company is Doist, but this is a topic for a another post. It proved to be a great asset, as they also recommend reading it. From their reading list I also took The score takes care of itself and Start with Why.</description>
     </item>
     
     <item>
@@ -1563,7 +1625,7 @@ It&amp;rsquo;s a great book on leadership. I confess that I was really bored in 
       <description>Book: Start with Why: How Great Leaders Inspire Everyone to Take Action by Simon Sinek. Rating: ⭐️⭐️⭐️⭐️.
 I always thought we must first have a reason to create something and this book shows some companies that are famous for doing that and how they did it.
 Here are some notes about it:
- Most of what we have now is marketing by manipulation Fear is the most powerful manipulation of all.</description>
+Most of what we have now is marketing by manipulation Fear is the most powerful manipulation of all. A good example is the insurance commercials talking about guns or heart attacks.</description>
     </item>
     
     <item>
@@ -1607,8 +1669,7 @@ I needed a blog at the time but could not spend time creating something, I just 
       
       <guid>https://pothix.com/may2017/</guid>
       <description>Here we go again for my stats for the last month. :)
-Books 
-I will start a in a new company this month, so I decided to re-read Deep Work (I really recommend this one). This book is just great for everyone who wants to focus and do the hard work. It has everything to do with my new work schedule. The book about Elon Musk was a good reading as well, this guy has some great ideas.</description>
+Books I will start a in a new company this month, so I decided to re-read Deep Work (I really recommend this one). This book is just great for everyone who wants to focus and do the hard work. It has everything to do with my new work schedule. The book about Elon Musk was a good reading as well, this guy has some great ideas.</description>
     </item>
     
     <item>
@@ -1645,8 +1706,8 @@ Embrace boredom is the most difficult practice from this book.</description>
       <description>Book: Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future by Ashlee Vance. Rating: ⭐️⭐️⭐️.
 It&amp;rsquo;s not a life-changing book but it&amp;rsquo;s cool to understand Elon Musk path.
 Here are some few sentences I like and some comments on them:
- The best minds of our time are working to make users click on ads
- That&amp;rsquo;s really sad. Elon has a great vision of the future and you can feel like him when reading the book (at least I can).</description>
+The best minds of our time are working to make users click on ads
+That&amp;rsquo;s really sad. Elon has a great vision of the future and you can feel like him when reading the book (at least I can).</description>
     </item>
     
     <item>
@@ -1658,7 +1719,6 @@ Here are some few sentences I like and some comments on them:
       <description>This was not a good month. I spent most of the time sick, recovering from what may be a Labyrinthitis. I still have to confirm that, but I&amp;rsquo;m in slow motion for a while.
 But anyways, let&amp;rsquo;s go to the collected data.
 Books Books for this month:
-
 &amp;ldquo;Einstein no Brasil&amp;rdquo; (Einstein in Brazil) is a physical book I borrowed from a friend and The Art of The Lord of the Rings I have in my shelf (as a good LotR fan).</description>
     </item>
     
@@ -1705,7 +1765,7 @@ Mike does a great job describing how is the life of an astronaut. Listen (yes, I
 It is a good book. I almost gave 3 stars, but it is still a Mastery effect. It deserves four.
 Each chapter in the book is devoted to a specific area: Motivation, Teams, Focus, Goal setting, Managing others, Decision making, Innovation, and Absorbing data.
 My notes on each topic:
-Motivation  Motivation is feeling in control.</description>
+Motivation Motivation is feeling in control.</description>
     </item>
     
     <item>
@@ -1728,7 +1788,6 @@ It is nice to read if you already read The Hobbit and The Lord of the Rings. Thi
       <description>Back to work this month. :)
 After one month vacation, I got back to my routine and got some good results this month.
 Books Added three more books to the list:
-
 I have to note here that Mastery is one of the best books I ever read. Both Mindfulness in plain English and The Urban Monk are about meditation and how to live a minimalist life.
 Articles I&amp;rsquo;m still trying to find a way to track the articles I read.</description>
     </item>
@@ -1742,7 +1801,6 @@ Articles I&amp;rsquo;m still trying to find a way to track the articles I read.<
       <description>February was an atypical month because I was on vacation. :)
 Much of my stats will reflect my travel around Europe. But no coding was done during this trip.
 Books Continuing my goal to read 30 books this year, I read two books this month:
-
 I had plans to visit Amsterdam and Oxford during my travel. Because of that I decided to read the story of Kullervo, which mention a lot about J.</description>
     </item>
     
@@ -1913,7 +1971,7 @@ I started with Programming Phoenix for a more practical learning. This book feel
 It was good at the beginning but the end was too self-help for me.
 I learned good things in this book and that&amp;rsquo;s what matters for me.
 Here are my raw notes about the book:
- Give a fuck about things you already have, not only what you want.</description>
+Give a fuck about things you already have, not only what you want. We have a limited number of fucks to give, choose yours wisely.</description>
     </item>
     
     <item>
@@ -1936,7 +1994,7 @@ This book shows the way to deliver a presentation that earns a standing ovation 
       <description>Book: Will It Fly?: How to Test Your Next Business Idea So You Don&amp;rsquo;t Waste Your Time and Money . Rating: ⭐️⭐️⭐️⭐️.
 I like this book and have a bunch of notes to share.
 Here are my raw notes about the book:
- Grab a piece of paper and divide it into four sections. Then, identify the four most important parts of your life. Your categories might be, for example, Family, Career, Well-being and Money.</description>
+Grab a piece of paper and divide it into four sections. Then, identify the four most important parts of your life. Your categories might be, for example, Family, Career, Well-being and Money.</description>
     </item>
     
     <item>
@@ -2039,7 +2097,7 @@ Essa Rubyconf teve vários pontos especialmente importantes para mim. O primeiro
       <description>Book: The Coaching Habit: Say Less, Ask More &amp;amp; Change the Way You Lead Forever. Rating: ⭐️⭐️⭐️.
 Read this book in 2016 but never published any review until now (2021, even if the post date is the day I finished the book). I don&amp;rsquo;t have much to say now, but at least I can publish my notes from 2016.
 Here are my raw notes about the book:
- Kickstart, AWE (and what else), and Focus - Are the guides for a coach.</description>
+Kickstart, AWE (and what else), and Focus - Are the guides for a coach.</description>
     </item>
     
     <item>
@@ -2347,7 +2405,7 @@ There is a keyboard layouts heatmap for you to understand the benefits of using 
       
       <guid>https://pothix.com/escolhasdev/</guid>
       <description>Esse ano fui chamado para palestrar em todas as edições do Encontro Locaweb que acontecem por várias cidades do Brasil! Palestrei em 6 cidades de estados diferentes, e aconteceram na seguinte ordem:
- Belo Horizonte Curitiba Recife Porto Alegre Rio de Janeiro São Paulo  Adicionei os links para as fotos dos eventos na listagem acima. :)
+Belo Horizonte Curitiba Recife Porto Alegre Rio de Janeiro São Paulo Adicionei os links para as fotos dos eventos na listagem acima. :)
 Minha palestra se chama &amp;ldquo;As escolhas do desenvolvedor&amp;rdquo; e fala sobre as escolhas que fazemos durante nossa carreira de desenvolvedor, escolhas com linguagens, configurações de servidores, deploy, equipe, testes e etc.</description>
     </item>
     
@@ -2370,7 +2428,7 @@ OSCON (Open Source Conference) is one of the most important open source conferen
       <description>Welcome to the new blog layout of PotHix.com! :)
 I decided that the time has came to change not just the layout but the blog engine as well. I&amp;rsquo;m now using middleman instead of wordpress. Just to be clear, I don&amp;rsquo;t think wordpress is not good at all, but I want to publish static files instead of keeping the wordpress &amp;ldquo;infrastructure&amp;rdquo;.
 I&amp;rsquo;ve divided into 3 feeds:
- Only english posts: http://feeds.</description>
+Only english posts: http://feeds.feedburner.com/EnglishPotHix All posts: http://feeds.</description>
     </item>
     
     <item>
@@ -2426,7 +2484,7 @@ Estou aproveitando para testar a plataforma do loja integrada, mas os pagamentos
       <guid>https://pothix.com/dragstar2008/</guid>
       <description>Chegou a hora de pendurar o colete por um tempo, obviamente estarei de volta num futuro não tão distante, mas pelo menos por enquanto vou ficar um tempo sem motos. Por esse motivo estou vendendo minha Dragstar 2008.
 Informações sobre ela:
- Segundo dono Licenciada 2013 31000 km de boas estradas! Pneu dianteiro e traseiro trocados há menos de 1000km (duraram mais ou menos 29k)  Acessórios que vão com ela (além de todas as peças originais):</description>
+Segundo dono Licenciada 2013 31000 km de boas estradas! Pneu dianteiro e traseiro trocados há menos de 1000km (duraram mais ou menos 29k) Acessórios que vão com ela (além de todas as peças originais):</description>
     </item>
     
     <item>
@@ -2437,7 +2495,7 @@ Informações sobre ela:
       <guid>https://pothix.com/intruder125/</guid>
       <description>Depois de brincar de customização de motos por um tempo chegou a hora de vender minha intrudinha. Estou com ela desde 2008 e só me deu alegrias.
 Algumas informações sobre ela:
- Único dono Toda a parafernalha que veio com ela quando eu comprei eu ainda tenho IPVA pago Pneu traseiro praticamente novo, não rodou nem 100km Bateria nova, 1 mês de uso Motor, protetor de corrente e paralamas frontal são preto fosco.</description>
+Único dono Toda a parafernalha que veio com ela quando eu comprei eu ainda tenho IPVA pago Pneu traseiro praticamente novo, não rodou nem 100km Bateria nova, 1 mês de uso Motor, protetor de corrente e paralamas frontal são preto fosco.</description>
     </item>
     
     <item>
@@ -2851,7 +2909,7 @@ Perdi um pouco a hora, portanto não assisti o começo da palestra do José Vali
       <guid>https://pothix.com/acdc2009/</guid>
       <description>Como muitos sabem eu tive o prazer de estar no show do ACDC aqui no Brasil, que aconteceu no dia 27 de novembro de 2009.
 Eu não queria perder esse show por nada, por vários motivos, sendo 2 deles:
- Eu curto pra caramba ACDC Os caras já estão bem velhinhos! Assim como o Ozzy que eu fui e já pensava que podia ser a ultima vez :P  O show foi no estádio do Morumbi:</description>
+Eu curto pra caramba ACDC Os caras já estão bem velhinhos! Assim como o Ozzy que eu fui e já pensava que podia ser a ultima vez :P O show foi no estádio do Morumbi: Por sorte consegui chegar relativamente cedo ( 17:00 ) e peguei um estacionamento razoável ( na casa de alguem que fatura com isso ) e um lugar razoável na arquibancada (infelizmente nesse show eu não fui de pista):</description>
     </item>
     
     <item>
@@ -2872,7 +2930,7 @@ Rails Insurgency – Chad Fowler A palestra foi muito interessante e o Chad Fowl
       <guid>https://pothix.com/servicos-oct-2009/</guid>
       <description>Já estava me esquecendo de postar sobre os serviçoes legais desse mes! :P
 Estava com poucos quando lembrei, mas não demorou muito para que eu lembrasse de alguns muito bons. Vamos lá!
-yUML&amp;lt; O yUML é um serviço para se criar UML facilmente utilizando apenas uma URL com determinadas marcações. O caike que me mostrou no ultimo post quando eu tinha mencionado sobre criação deUML. Valeu Caike!
+yUML&amp;lt; O yUML é um serviço para se criar UML facilmente utilizando apenas uma URL com determinadas marcações. O caike que me mostrou no ultimo post quando eu tinha mencionado sobre criação de UML. Valeu Caike!
 Gliffy Continuando em diagramas e UML temos o Gliffy que também faz uma grande quantidade de diagramas diferentes.</description>
     </item>
     
@@ -2884,7 +2942,7 @@ Gliffy Continuando em diagramas e UML temos o Gliffy que também faz uma grande 
       <guid>https://pothix.com/monit/</guid>
       <description>Esses dias eu peguei para instalar o monit no servidor da empresa que eu trabalho e sofri um pouquinho com algumas coisas básicas, portanto decidi postar aqui para que seja útil para quem quer começar a utilizar o monit.
 Se você usa Ubuntu, você pode fazer download do Monit por apt-get:
-sudo apt-get install monit  Se você não usa Ubuntu ou quer a ultima versão do Monit, então faça download do tar.</description>
+sudo apt-get install monit Se você não usa Ubuntu ou quer a ultima versão do Monit, então faça download do tar.</description>
     </item>
     
     <item>
@@ -2906,7 +2964,7 @@ Com ele é possível fazer uma grande quantidade coisas, como diagramas de class
       <guid>https://pothix.com/meme-gamedesign/</guid>
       <description>Estou escrevendo esse post por que fui convocado para esse meme pelo Bruno Croci, que foi meu parceiro no desenvolvimento de um dos games vencedores do GameJam do itaú cultural, o Robotz Warehouse.
 A idéia do post é mostrar alguns games interessantes e falar a sua opinião sobre eles. As regras são:
- Liste quantos jogos em Flash quiser. Preferencialmente aqueles que, por algum motivo de design chamaram sua atenção. Diga o que desses jogos te chamou a atenção, seja em quantas linhas quiser.</description>
+Liste quantos jogos em Flash quiser. Preferencialmente aqueles que, por algum motivo de design chamaram sua atenção. Diga o que desses jogos te chamou a atenção, seja em quantas linhas quiser.</description>
     </item>
     
     <item>
@@ -3007,7 +3065,7 @@ Como quem já me conhece sabe, eu sou um fã de homem aranha! Não aquele fã qu
       <description>Nesse sábado aconteceu o quinto encontro do Guru-sp! :)
 O encontro estava marcado para as 10 da manhã com uma seção para iniciantes e começou as 10:30 ( sempre atrasa um pouquinho né? hehe ), já com um bate papo legal coordenado pelo @rafaelrosafu após uma breve apresentação de todos os participantes.
 Rails para iniciantes Nessa primeira seção tiveram muitas conversas interessantes sobre algumas filosofias Rails, como:
- DRY REST TDD Test all the Fucking Time Skynny Controllers and Fat Models  e mais algumas outras coisas bem interessantes que fomentaram uma ótima discussão sobre quais os melhores padrões para se seguir quando se constrói uma aplicação Rails (sim, falamos tomando como base uma aplicação Rails), como utilizar plugins como o ResourceController (que tem seus prós e contras), manter seus scripts num lugar diferente da pasta scripts, que é a pasta padrão para scripts &amp;ldquo;internos&amp;rdquo; do Rails e tentar centralizar em uma pasta dentro de lib, além de usar Rake sempre que possível para essas tarefas ficarem organizadas e de fácil acesso.</description>
+DRY REST TDD Test all the Fucking Time Skynny Controllers and Fat Models e mais algumas outras coisas bem interessantes que fomentaram uma ótima discussão sobre quais os melhores padrões para se seguir quando se constrói uma aplicação Rails (sim, falamos tomando como base uma aplicação Rails), como utilizar plugins como o ResourceController (que tem seus prós e contras), manter seus scripts num lugar diferente da pasta scripts, que é a pasta padrão para scripts &amp;ldquo;internos&amp;rdquo; do Rails e tentar centralizar em uma pasta dentro de lib, além de usar Rake sempre que possível para essas tarefas ficarem organizadas e de fácil acesso.</description>
     </item>
     
     <item>
@@ -3069,7 +3127,7 @@ Eu nunca utilizei Opera ( não por que eu sou contra, e sim por que eu nunca pre
       <guid>https://pothix.com/modemclaro-ubuntu/</guid>
       <description>Após receber um modem Claro da empresa que eu trabalho atualmente eu fui fazer o processo de instalação no Ubuntu. Já tinha recebido a informação de um colega de trabalho de como fazer, e obviamente não foi nada difícil (o que que é difícil no Ubuntu? :)).
 Vou descrever aqui o processo:
- Inserir o modem na entrada USB Vai aparecer um assistente de configuração simples ( Next Next Finish ), para você seguir e instalar.</description>
+Inserir o modem na entrada USB Vai aparecer um assistente de configuração simples ( Next Next Finish ), para você seguir e instalar.</description>
     </item>
     
     <item>
@@ -3142,8 +3200,8 @@ O palestrante soube levar bem a palestra, com momentos engraçados ( várias bri
       <guid>https://pothix.com/ruby-inicio/</guid>
       <description>Se você já conhece Ruby, ignore esse post! A idéia do post é mostrar um pouco da linguagem Ruby para pessoas que não conhecem nada sobre ela.
 Eu, claro, acho muito interessante que muita gente por aí ainda não conhece Ruby, mesmo com a grande popularização do Rails, e eu chego a ouvir coisas assim:
- &amp;ldquo;Não é você que programa naquela linguagem esquisita?&amp;rdquo;
- Cheguei a ouvir do meu &amp;ldquo;professor de algoritmo&amp;rdquo; (perdeu meu respeito):</description>
+&amp;ldquo;Não é você que programa naquela linguagem esquisita?&amp;rdquo;
+Cheguei a ouvir do meu &amp;ldquo;professor de algoritmo&amp;rdquo; (perdeu meu respeito):</description>
     </item>
     
     <item>
@@ -3227,7 +3285,7 @@ Primeiramente, você precisa ter acesso SSH na sua conta. Se você ainda não ti
       <guid>https://pothix.com/ironmaiden2009/</guid>
       <description>Fui ao show do Iron maiden nesse domingo dia 15/03 e resolvi postar as minhas considerações.
 O show do Iron Maiden em si foi muito legal! Tocaram muitos clássicos como:
- Fear of the dark ( der&amp;hellip; ) Wasted Years Aces High The rime of ancient mariner Phanton of the Opera Hallowed be the name 666 the number of the beast The trooper  entre outras!
+Fear of the dark ( der&amp;hellip; ) Wasted Years Aces High The rime of ancient mariner Phanton of the Opera Hallowed be the name 666 the number of the beast The trooper entre outras!
 A abertura com o discurso de Winston Churchill e já entrando com Aces High foi muito legal!</description>
     </item>
     
@@ -3259,7 +3317,6 @@ Atualmente estou utilizando Ubuntu no meu notebook (não tenho mais PC nem em ca
       
       <guid>https://pothix.com/dia-dificil/</guid>
       <description>Hoje o dia foi $#&amp;amp;&amp;amp;!
-
 Atualmente moro em Diadema (que não é uma cidade ruim como muitos ouvem falar), e tenho o azer de morar próximo a um córrego, que a prefeitura promete canalizar há mais de 10 anos, e agora parece que finalmente o projeto começou a andar, mas enquanto o projeto não é concluído de vez a coisa ficou pior que o normal&amp;hellip;
 No momento ruim eu tirei algumas fotos (o que sempre faço nesses casos) para mostrar a situação da coisa&amp;hellip;</description>
     </item>
@@ -3441,8 +3498,8 @@ Eu sempre ouvia falar de Linux quando eu lia Livros sobre segurança e tudo mais
       <guid>https://pothix.com/nero-linux/</guid>
       <description>Vou comentar agora sobre como montar aquela imagem chata do Nero (.nrg ) que seu amigo que gosta de janelas lhe enviou com aqueles vários arquivos que você tinha pedido&amp;hellip; É um hack bem fácil!
 Instalações Primeiro instale o nrg2iso
-No Ubuntu # apt-get install nrg2iso  No Slackware Baixando o pacote no Linux Packages e instalando normalmente com:
-# installpkg nrg2iso-versao.tgz  Utilização Agora já podemos utilizar o nrg3iso para converter nossa imagem:</description>
+No Ubuntu # apt-get install nrg2iso No Slackware Baixando o pacote no Linux Packages e instalando normalmente com:
+# installpkg nrg2iso-versao.tgz Utilização Agora já podemos utilizar o nrg3iso para converter nossa imagem:</description>
     </item>
     
     <item>
@@ -3559,7 +3616,7 @@ Lembro muito bem da época que associava blog com os &amp;ldquo;flogão&amp;rdqu
       <guid>https://pothix.com/about/</guid>
       <description>I&amp;rsquo;m Willian Molinari, also known as PotHix. I&amp;rsquo;ve been working with software development since 2006, using many languages professionally throughout the years.
 It would be hard to add all the topics I&amp;rsquo;m passionate about in the top menu, so I decided to keep a list here:
- Write: I&amp;rsquo;m a published author and writing is something I love. Tech: I love technology and I&amp;rsquo;m usually speaking about programming in Brazil and around the world.</description>
+Write: I&amp;rsquo;m a published author and writing is something I love. Tech: I love technology and I&amp;rsquo;m usually speaking about programming in Brazil and around the world.</description>
     </item>
     
     <item>
@@ -3571,7 +3628,7 @@ It would be hard to add all the topics I&amp;rsquo;m passionate about in the top
       <description>This is my page of all things code-related.
 I&amp;rsquo;ve been writing code professioally since 2007 and have some things to show. Some of them were done on my spare time and others were part of my paid job.
 Paid work These are projects I&amp;rsquo;ve worked full-time while being employed by a company or working as a freelancer. They are projects I deeply cared about, in one way or another.
-Locaweb: Cloud PRO</description>
+Locaweb: Cloud PRO I was the main developer for the Cloud Server PRO product at Locaweb.</description>
     </item>
     
     <item>
@@ -3581,10 +3638,8 @@ Locaweb: Cloud PRO</description>
       
       <guid>https://pothix.com/articles/</guid>
       <description>Articles published outside of this blog I as invited to write articles for other blogs which I respect and/or have a good reach. I will list here some of them.
-The game loop: Gamedev tuts+ 
-An article that explains how the Game loop works in game development. It was written for gamedev.tutsplus.com in Nov 2012.
-Client side prediction: Gamedev tuts+ 
-Article that explains how client side pretiction works in game development.</description>
+The game loop: Gamedev tuts+ An article that explains how the Game loop works in game development. It was written for gamedev.tutsplus.com in Nov 2012.
+Client side prediction: Gamedev tuts+ Article that explains how client side pretiction works in game development.</description>
     </item>
     
     <item>
@@ -3606,7 +3661,7 @@ It&amp;rsquo;s important to understand all the pieces involved in a web request 
       <description>Sometimes people want to give me stuff and I would like to refer them to a page. Well&amp;hellip; this is the page for it. 🙂
 This page may contain things from cheap to very expensive, it&amp;rsquo;s OK if I never receive any of them.
 Let&amp;rsquo;s go for the list:
- SteamDeck Razer Kishi controller to play mobile games.  </description>
+SteamDeck Razer Kishi controller to play mobile games. </description>
     </item>
     
     <item>
@@ -3646,7 +3701,7 @@ I currently live in Brazil and I think the current president do not act in good 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://pothix.com/talks/</guid>
-      <description>No. Date Presentation Event     74 2022-05-17 Desconstruindo a web Talks4devs Iugu   73 2021-08-18 Note-taking: My experience, how to do it, and why it worth it Doist talks   72 2021-07-29 Keynote: Ruby, além da linguagem Rubyconf   71 2021-07-17 Desconstruindo a web Mutirão DevOps   70 2021-04-24 Mesa redonda: Trabalho remoto para empresas de fora Guru-SP   69 2020-11-18 Exploring a Core Library for Multiple Languages using Rust Doist talks   68 2020-10-06 Trabalho remoto e assincrono Future of Work   67 2019-11-29 Mongo, Rails 3 -&amp;gt; Postgres, Rails 5 Rubyconf BR   66 2019-06-21 Mongo, Rails 3 -&amp;gt; Postgres, Rails 5 Guru-SP   65 2018-10-27 10 anos de Guru-SP Guru-SP   64 2018-09-21 Writing a simple game in Rust THE CONF   63 2018-09-15 Como foi participar da Rustconf 2018 Rust-SP   62 2018-07-21 Escrevendo um jogo simples em Rust Rust - TDC   61 2018-07-21 Introdução a Rust (ft.</description>
+      <description>No. Date Presentation Event 74 2022-05-17 Desconstruindo a web Talks4devs Iugu 73 2021-08-18 Note-taking: My experience, how to do it, and why it worth it Doist talks 72 2021-07-29 Keynote: Ruby, além da linguagem Rubyconf 71 2021-07-17 Desconstruindo a web Mutirão DevOps 70 2021-04-24 Mesa redonda: Trabalho remoto para empresas de fora Guru-SP 69 2020-11-18 Exploring a Core Library for Multiple Languages using Rust Doist talks 68 2020-10-06 Trabalho remoto e assincrono Future of Work 67 2019-11-29 Mongo, Rails 3 -&amp;gt; Postgres, Rails 5 Rubyconf BR 66 2019-06-21 Mongo, Rails 3 -&amp;gt; Postgres, Rails 5 Guru-SP 65 2018-10-27 10 anos de Guru-SP Guru-SP 64 2018-09-21 Writing a simple game in Rust THE CONF 63 2018-09-15 Como foi participar da Rustconf 2018 Rust-SP 62 2018-07-21 Escrevendo um jogo simples em Rust Rust - TDC 61 2018-07-21 Introdução a Rust (ft.</description>
     </item>
     
     <item>
@@ -3659,7 +3714,7 @@ I currently live in Brazil and I think the current president do not act in good 
 Spending some time with my parents at Croatá, Ceará while working for Doist remotely and asynchronously full-time.
 Intervac when there time to spare.
 Here is a list of my current priorities:
- Improving Todoist and Twist APIs and backend codebase at Doist. Mostly working with Python and Golang. Improving my Rust skills and trying to contribute to the compiler (not much time for it nowadays, unfortunately) Co-authoring a book about Rust in pt-BR 🦀 Taking care of my twin children at home with all its ups and downs.</description>
+Improving Todoist and Twist APIs and backend codebase at Doist. Mostly working with Python and Golang. Improving my Rust skills and trying to contribute to the compiler (not much time for it nowadays, unfortunately) Co-authoring a book about Rust in pt-BR 🦀 Taking care of my twin children at home with all its ups and downs.</description>
     </item>
     
   </channel>
