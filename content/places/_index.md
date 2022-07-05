@@ -68,13 +68,13 @@ cities and I still want to visit all states. ;)
 + 🇳🇱 Netherlands, Amsterdam
 + 🇳🇱 Netherlands, Rotterdam
 + 🇳🇱 Netherlands, The hague
-+ 🇵🇹 Portugal, Azores
++ [🇵🇹 Portugal, Azores](azores)
 + 🇵🇹 Portugal, Batalha
 + 🇵🇹 Portugal, Cascais
 + 🇵🇹 Portugal, Fatima
 + 🇵🇹 Portugal, Lisboa
 + 🇵🇹 Portugal, Nazareth
-+ 🇵🇹 Portugal, Porto
++ [🇵🇹 Portugal, Porto](porto)
 + 🇵🇹 Portugal, Óbidos
 + 🇵🇹 Portugal, Sintra
 + 🇵🇹 Portugal, Colares (Cabo da roca)
@@ -90,6 +90,11 @@ cities and I still want to visit all states. ;)
 + 🇺🇸 United States, Portland
 + 🇺🇸 United States, San Francisco
 + 🇺🇾 Uruguay, Montevideo
++ [🇩🇪 Germany, Munich](munich)
++ [🇦🇹 Austria, Pertisau](pertisau)
++ [🇮🇹 Italy, Venice](venice)
++ [🇮🇹 Italy, Florence](florence)
++ [🇮🇹 Italy, Rome](rome)
 
 There are links to the content whenever it's available, but I will also list
 all the posts I have by date. The posts are dated by travel date, not
