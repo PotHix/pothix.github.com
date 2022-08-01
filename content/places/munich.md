@@ -49,3 +49,7 @@ I was not aware of the way they did to open the valves. 🤓
 
 I went to a beer place (will look for the right name soon) which was quite
 traditional in Munich.
+
+- I got ate a Döner kebab for the first time. A friend of mine is muslim and was
+  looking for Halal food, so I went with him in a very small Turkish restaurant
+  and we got a Döner kebab. I liked it.
