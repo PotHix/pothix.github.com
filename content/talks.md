@@ -10,6 +10,7 @@ aliases = [
 
 No. | Date       | Presentation  | Event
 --- | ---------- | ------------- | ------
+76  | 2022-09-24 | [Painel: A linguagem Rust e seu uso](/images/speaking/codecon2022-painel-rust.jpg) | [Codecon 2022](https://www.codecon.dev/programacao)
 75  | 2022-07-23 | [Notas. Porque? Como? Vale a pena?](https://www.youtube.com/watch?v=5opS7kKZz5A&t=11132s) | Guru-SP 62
 74  | 2022-05-17 | [Desconstruindo a web](https://www.youtube.com/watch?v=8O9flFlLwWQ) | [Talks4devs Iugu](/images/talks/202205-talks4devs.jpg)
 73  | 2021-08-18 | [Note-taking: My experience, how to do it, and why it worth it](https://cege.la/2VU6eZh) | Doist talks
