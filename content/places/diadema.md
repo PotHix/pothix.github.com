@@ -1,6 +1,5 @@
 ---
 title: "Diadema"
-aliases: ["diadema"]
 date: 2022-10-05
 skip_feed: true
 ---

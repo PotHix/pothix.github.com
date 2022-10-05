@@ -37,7 +37,7 @@ cities and I still want to visit all states. ;)
 + 🇧🇷 São Paulo, Guarujá
 + 🇧🇷 São Paulo, São Pedro
 + 🇧🇷 São Paulo, Ibiúna
-+ 🇧🇷 São Paulo, Indaiatuba
++ [🇧🇷 São Paulo, Indaiatuba](indaiatuba)
 + 🇧🇷 São Paulo, Itupeva
 + 🇧🇷 São Paulo, Boituva
 + 🇧🇷 São Paulo, Buritama
