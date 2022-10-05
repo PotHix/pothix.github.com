@@ -28,6 +28,7 @@ cities and I still want to visit all states. ;)
 + 🇧🇷 Minas Gerais, Congonhas
 + 🇧🇷 Minas Gerais, São Tomé das Letras
 + 🇧🇷 Rio de Janeiro, Rio de Janeiro
++ [🇧🇷 São Paulo, Diadema](diadema)
 + 🇧🇷 São Paulo, São Paulo
 + 🇧🇷 São Paulo, Campos do Jordão
 + 🇧🇷 São Paulo, Mirassol
