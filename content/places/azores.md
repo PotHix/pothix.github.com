@@ -1,5 +1,5 @@
 ---
-aliases: ["azores"]
+title: "Azores"
 date: 2019-04-01
 skip_feed: true
 ---
@@ -11,7 +11,7 @@ and get there. Maybe it's a story for a different context.
 
 ## Anana
 
-We visisted a place where they cultivate a specific local Anana. It looks like a
+We visited a place where they cultivate a specific local Anana. It looks like a
 pineapple, but it has its own category.
 
 ## Bus tour
