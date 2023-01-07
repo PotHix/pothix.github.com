@@ -14,6 +14,7 @@ I also have here a guide on how I [travel (without kids)](/places/travelwithoutk
 Now let's go for the list! I'm Brazilian, so I will list Brazil first because
 it will have many more cities and I still want to visit all states. ;)
 
++ [🇦🇹 Austria, Pertisau](pertisau)
 + 🇧🇷 Ceará, Fortaleza
 + 🇧🇷 Ceará, Croatá
 + 🇧🇷 Ceará, Sobral
@@ -67,6 +68,11 @@ it will have many more cities and I still want to visit all states. ;)
 + 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England, London
 + 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England, Oxford
 + 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England, York
++ [🇫🇷 France, Paris](paris)
++ [🇩🇪 Germany, Munich](munich)
++ [🇮🇹 Italy, Venice](venice)
++ [🇮🇹 Italy, Florence](florence)
++ [🇮🇹 Italy, Rome](rome)
 + 🇳🇱 Netherlands, Amsterdam
 + 🇳🇱 Netherlands, Rotterdam
 + 🇳🇱 Netherlands, The hague
@@ -92,11 +98,6 @@ it will have many more cities and I still want to visit all states. ;)
 + 🇺🇸 United States, Portland
 + 🇺🇸 United States, San Francisco
 + 🇺🇾 Uruguay, Montevideo
-+ [🇩🇪 Germany, Munich](munich)
-+ [🇦🇹 Austria, Pertisau](pertisau)
-+ [🇮🇹 Italy, Venice](venice)
-+ [🇮🇹 Italy, Florence](florence)
-+ [🇮🇹 Italy, Rome](rome)
 
 There are links to the content whenever it's available, but I will also list
 all the posts I have by date. The posts are dated by travel date, not
