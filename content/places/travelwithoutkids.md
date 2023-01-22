@@ -14,7 +14,7 @@ trip that I will describe in a different post.
 
 ## Gear
 
-I'm an adept of the [onebag](https://reddit.com/r/onebag)  ravel, so I mostly
+I'm an adept of the [onebag](https://reddit.com/r/onebag)  travel, so I mostly
 use only one backpack to travel.
 
 As I'm writing this post, the Minaal travel and the PeakDesign Travel are our
