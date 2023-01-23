@@ -2,16 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pothix.com/places/paris/</loc>
+    <lastmod>2023-01-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/places/</loc>
+    <lastmod>2023-01-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/</loc>
+    <lastmod>2023-01-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://pothix.com/places/diadema/</loc>
     <lastmod>2022-10-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pothix.com/places/indaiatuba/</loc>
-    <lastmod>2022-10-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pothix.com/places/</loc>
-    <lastmod>2022-10-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pothix.com/</loc>
     <lastmod>2022-10-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pothix.com/places/travelwithoutkids/</loc>
