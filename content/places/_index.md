@@ -58,7 +58,7 @@ it will have many more cities and I still want to visit all states. ;)
 + 🇧🇷 Paraná, Curitiba
 + 🇧🇷 Paraná, Foz do Iguaçu
 + 🇧🇷 Rio Grande do Sul, Porto Alegre
-+ 🇦🇷 Argentina, Misiones
++ [🇦🇷 Argentina, Misiones, Eldorado](eldorado)
 + 🇧🇪 Belgium, Antwerp
 + 🇧🇪 Belgium, Bruges
 + 🇧🇪 Belgium, Brussels
