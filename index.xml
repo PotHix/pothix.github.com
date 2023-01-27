@@ -2668,6 +2668,21 @@ Nessa talk eu mostrei como criar dois bots simples e como subir eles na sua cont
     </item>
     
     <item>
+      <title>San Francisco</title>
+      <link>https://pothix.com/places/sanfrancisco/</link>
+      <pubDate>Fri, 13 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/places/sanfrancisco/</guid>
+      <description>I visited San Francisco in 2012. It was my first international trip ever. I went to Openstack conference, as it was something we (the company I worked for) were into at the time.
+It&amp;rsquo;s been more than 10 years since I went there (writing this in 2023), so take the recommendations here with a grain of salt. 😉
+Stay TBD
+Airport TBD
+Transport TBD
+Places TBD
+Food TBD</description>
+    </item>
+    
+    <item>
       <title>Viagem de moto para Eldorado na Argentina</title>
       <link>https://pothix.com/moto-argentina/</link>
       <pubDate>Mon, 09 Apr 2012 00:00:00 +0000</pubDate>
@@ -3703,7 +3718,7 @@ It&amp;rsquo;s important to understand all the pieces involved in a web request 
       <description>Sometimes people want to give me stuff and I would like to refer them to a page. Well&amp;hellip; this is the page for it. 🙂
 This page may contain things from cheap to very expensive, it&amp;rsquo;s OK if I never receive any of them.
 Let&amp;rsquo;s go for the list:
-SteamDeck Razer Kishi controller to play mobile games. </description>
+SteamDeck Razer Kishi controller to play mobile games. MNT Pocket Reform Lord of the Rings deck of cards by Theory11 MTG Items on Aliexpress </description>
     </item>
     
     <item>
@@ -3753,7 +3768,7 @@ I currently live in Brazil and I think the current president do not act in good 
       
       <guid>https://pothix.com/now/</guid>
       <description>This is my now page, inspired by Derek Sievers.
-I&amp;rsquo;m currently living in Diadema, São Paulo while working for Doist remotely and asynchronously full-time and Intervac when there time to spare.
+I&amp;rsquo;m currently living in Indaiatuba, São Paulo while working remotely. I have my own company and work full-time for Doist and Intervac when there time to spare.
 Here is a list of my current priorities:
 Improving Todoist and Twist APIs and backend codebase at Doist. Mostly working with Python and a bit of Golang. Improving my Rust skills. I would love to contribute to the compiler, but I can&amp;rsquo;t find enough time for it nowadays, unfortunately.</description>
     </item>
