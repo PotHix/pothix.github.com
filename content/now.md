@@ -8,9 +8,10 @@ tags = [
 This is my [now page](http://nownownow.com/about), inspired
 by [Derek Sievers](https://sivers.org/now).
 
-I'm currently living in Diadema, São Paulo while working for
-[Doist](https://doist.com) remotely and asynchronously full-time and
-[Intervac](https://intervac-homeexchange.com) when there time to spare.
+I'm currently living in Indaiatuba, São Paulo while working remotely. I have
+[my own company](aule.software) and work full-time for
+[Doist](https://doist.com) and [Intervac](https://intervac-homeexchange.com)
+when there time to spare.
 
 Here is a list of my current priorities:
 
@@ -21,8 +22,8 @@ Here is a list of my current priorities:
    to [contribute to the compiler](/post/contributing-to-rust/), but I can't
    find enough time for it nowadays, unfortunately.
 1. Taking care of my twins at home with all its ups and downs. They are
-   currently on their terrible twos. I have to say it's much better than it
-   once was, so I'm positive about it.
+   currently on their terrible twos, but starting preschool now, which makes me
+   feel the silence again for a few hours.
 1. Building a [second brain](/knowledgebase) using [Roam
    Research](https://roamresearch.com). 
 1. Organizing the [São Paulo Rust
@@ -37,4 +38,4 @@ Here is a list of my current priorities:
 1. Consuming books (mostly audiobooks on Audible). My reviews are available
    [here](https://pothix.com/tags/books/).
 
-(last updated in Aug 2022)
+(last updated in Jan 2023)
