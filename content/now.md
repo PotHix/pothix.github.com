@@ -9,7 +9,7 @@ This is my [now page](http://nownownow.com/about), inspired
 by [Derek Sievers](https://sivers.org/now).
 
 I'm currently living in Indaiatuba, São Paulo while working remotely. I have
-[my own company](aule.software) and work full-time for
+[my own company](https://aule.software), work full-time for
 [Doist](https://doist.com) and [Intervac](https://intervac-homeexchange.com)
 when there time to spare.
 
