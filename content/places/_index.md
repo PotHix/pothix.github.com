@@ -96,7 +96,7 @@ it will have many more cities and I still want to visit all states. ;)
 + 🇺🇸 United States, Denver
 + [🇺🇸 United States, New York](nyc)
 + 🇺🇸 United States, Portland
-+ 🇺🇸 United States, San Francisco
++ [🇺🇸 United States, San Francisco](sanfrancisco)
 + 🇺🇾 Uruguay, Montevideo
 
 There are links to the content whenever it's available, but I will also list
