@@ -25,6 +25,11 @@ casas, condomínios e prédios por ali, aí vai do seu gosto e orçamento.
 ## Comida
 
 * [Restaurante Caseiro](https://www.instagram.com/caseiro_restaurante): Comida simples e preço bom. Os pratos são bem servidos.
+* [Hamburgueria O Burguês](https://goo.gl/maps/fbQhvaCttbuhFNP88): Tive problemas em uma entrega, mas resolveram tudo e me deram outro lanche. Curti o lanche no geral.
+
+### Ainda não testei, mas recebi recomendações
+
+* [Hamburgueria Brooks](https://brookshamburgueriaindaiatuba.menudino.com/)
 
 
 ## Serviços
