@@ -50,6 +50,10 @@ We decided to pick a fancy restaurant in Florence. This one was amazing, you jus
 
 You need a reservation and the place is usually full, but it's totally worth visiting.
 
+### Osteria Dell'oca
+
+The guide recommended this one and we loved it! I recommend to have a Pappa al Pomodoro, with bread and tomato or the Panzanella, which is also amazing.
+
 ### Get some gelattos
 
 This is not really a place, but a recommendation to have as many gelattos as you can. These ice creams re amazing.
