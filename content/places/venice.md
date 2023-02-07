@@ -1,6 +1,7 @@
 ---
 title: "Venice"
 aliases: ["venice"]
+tags: ["english"]
 date: 2022-06-24
 skip_feed: true
 ---
@@ -28,18 +29,38 @@ more.
 
 ## Things to do
 
-- Walking tour.
-- Gondola tour: €120
+### Walking tour
+
+As usual, we went to a walking tour and it was quite nice.
+
+I certainly recommend our guide. Some nice recommendations and good history about Venice while walking around the city.
+
+https://www.guruwalk.com/walks/41773-free-tour-secret-and-mysterious-venice-the-jewish-ghetto-and-cannaregio
+
+### Basilica San Marco
+
+Nice to go inside, just don't buy the audiobook, I considered it to be a waste of money.
+
+### Gondola tour
+
+We spent €120 for the tour, but I have to say: totally worth it. Was such a good experience doing the full Gondola tour through the city. They have a smaller one too, but the full tour is worth it.
+
+### Other places (to expand later)
+
 - Museo Correr
 - Palacio Ducal
-- Campanario
-- Basilica: não pegar o audioguia. Ir a tarde.
+- St Mark's Campanile
 
 ## Foods & drinks
 
-- Venchi: Gelatto
-- Restaurante da noite
-- Restaurante perto do hotel
+### Venchi: Gelatto
+
+A nice place to have some different Gelattos.
+
+### Trattoria Al Gazzettino
+
+It was the first place we ate in Venice. We had a nice lunch there. We found it
+very randomly, just by looking at Google maps, but it did not disappoint.
 
 ## Transport
 
