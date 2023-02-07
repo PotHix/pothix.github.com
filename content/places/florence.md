@@ -1,6 +1,7 @@
 ---
 title: "Florence"
 aliases: ["florence"]
+tags: ["english"]
 date: 2022-06-27
 skip_feed: true
 ---
@@ -20,19 +21,38 @@ was not locking, but these were very small details for us.
 
 ## Things to do
 
-- Walking tour
-- Visit the basilica
+### Walking tour
+
+We did the tour with Gabriel and it was very good. The guy is brazilian, so it was even better for us as we had some conversations after the tour.
+
+Even if you're not brazilian, I totally recommend it: https://www.florencefreetourtale.com/ren-tips-tourtale-gabri-2022
+
+### Visit the basilica
+
+You can get in for free, but there's a giant line to get in. We went there at the end of the afternoon and the line was less bad.
+
+### Bobolli gardens
+
+It was very disappointing. Seeing fontanas (fountains) without water was very lame. The gardens didn't feel very well maintained.
+
+### Other places (to expand later)
+
 - Palazzo Vechio
 - Palazzo Pitti
-- Bobolli gardens (a bit disappointing)
 - Uffizi galeries
 - Dell'a academia (we did not go there)
-- Statues
 
 ## Food & drinks
 
-- Bucca Mario (Reservation needed)
-- Gelattos everywhere
+### Bucca Mario
+
+We decided to pick a fancy restaurant in Florence. This one was amazing, you just have to be ready to spend some money there.
+
+You need a reservation and the place is usually full, but it's totally worth visiting.
+
+### Get some gelattos
+
+This is not really a place, but a recommendation to have as many gelattos as you can. These ice creams re amazing.
 
 ## Transport
 
