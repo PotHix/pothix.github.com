@@ -1,9 +1,7 @@
 ---
 title: "Rome"
 aliases: ["rome"]
-tags = [
-  "english",
-]
+tags: ["english"]
 date: 2022-06-29
 skip_feed: true
 ---
