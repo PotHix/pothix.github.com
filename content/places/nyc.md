@@ -1,7 +1,7 @@
 ---
 title: "NYC"
 aliases: ["NYC"]
-date: 2019-03-25T08:45:26-03:00
+date: 2019-03-25
 skip_feed: true
 ---
 
@@ -31,9 +31,9 @@ trip here and there it would be worthwhile.
 
 Be careful with the side you're going to enter in the subway. Where I
 live (São Paulo, Brazil) you can enter on whatever entrance and then
-pick the side you want (e.g. Noath or South). In NYC you have to be
+pick the side you want (e.g. North or South). In NYC you have to be
 sure you're entering in the right entrance because **some** stations
-have one entrance for each side (e.g. one entrace to go to Manhatan &
+have one entrance for each side (e.g. one entrance to go to Manhattan &
 the Bronx, and another one to go to Downtown Brooklyn).
 
 ## Places to visit
@@ -41,31 +41,46 @@ the Bronx, and another one to go to Downtown Brooklyn).
 There are some places that are must see (IMO) and others that are nice
 but OK. Here are the must see and why:
 
-+ **Statue of Liberty**: I almost not went there for the first time
-  because it seemed too crowded and was 'just a statue'. In the end I
-  decided to go and the whole experience proved me wrong. It's not
-  just a statue, the whole story behind it is really nice to know. It
-  worth the money you pay to go there. The entrance to the pedestal is
-  still a puzzle for me. I got it the second time I went but not the
-  first, I don't know why. I would recommend you to ask for it or do
-  some research before. If you want to go to the crown of the statue,
-  you have to reserve it beforehand.
-+ **Transit museum**: I really like steam engines and the whole
-  history about trains. The transit museum has a lot to tell about the
-  NYC subway. It was really nice to understand why the subway work
-  that way.
-+ **Natural history musuem**: The first time I went there, I was one
-  of the first visitors to enter and left when the museum was
-  closing. It's a big place with so many amazing things to see. I
-  would recommend going there early and going straight to the
-  dinosaurs room because it's the most crowded. After that you can
-  enjoy the museum on your own pace.
++ **Statue of Liberty**: I almost not went there for the first time because it
+  seemed too crowded and was 'just a statue'. In the end I decided to go and
+  the whole experience proved me wrong. It's not just a statue, the whole story
+  behind it is really nice to know. It worth the money you pay to go there. The
+  entrance to the pedestal is still a puzzle for me. I got it the second time I
+  went but not the first, I don't know why. I would recommend you to ask for it
+  or do some research before. If you want to go to the crown of the statue, you
+  have to reserve it beforehand.
++ **Transit museum**: I really like steam engines and the whole history about
+  trains. The transit museum has a lot to tell about the NYC subway. It was
+  really nice to understand why the subway work that way.
++ **Natural history museum**: The first time I went there, I was one of the
+  first visitors to enter and left when the museum was closing. It's a big
+  place with so many amazing things to see. I would recommend going there early
+  and going straight to the dinosaurs room because it's the most crowded. After
+  that you can enjoy the museum on your own pace.
 + **Morgan Library**: I may be a bit biased because I went there for a
-  exposition about J.R.R Tolkien
+  exposition about J.R.R Tolkien. I went on a Friday night and they had free
+  entrance.
++ **Brooklyn Bridge**: I went there once and was surprised by how beautiful it
+  is. I went walking from one side to the other and it was a fun experience.
++ **New York Public Library**: It's worth a visit, the place is quite nice and
+  there's even a place to work if you need a desk and internet.
++ **Rockefeller Center**: There's a huge building there and you can go to the
+  top. It was a great experience because you can see the whole city **and** the
+  empire state and Chrysler buildings.
++ **Empire State Building**: It's a nice place to see the whole city, but I
+  would recommend going to the Rockefeller tower instead. The view is mostly
+  the same, but you can see the Empire state from there.
++ **Intrepid**: It's a museum about the US Navy and it's really nice. It's not
+  that big, but it's worth a visit.
 
 And here are some that were good but I'm not sure if I would go again:
 
-+ Ellis Island
++ **Ellis Island**: OK-ish, but maybe I was too tired from the trip to the
+  statue.
++ **Brooklyn Museum**: It was different and the place is nice, but not many
+  expositions that would grab my interest at the timei
++ **Times square**: too crowded and nothing really interesting to me, to be
+  honest.
 
 ### New York city pass?
 
@@ -89,8 +104,8 @@ _(if you really care about food, skip this part because I don't. This
 list is for those who just like me wants a list of places to not have
 to care about looking for places to eat)._
 
-I went mostly to quick lunchs, so you will see fast foods most of the
-time here. I usually don't eat at big and known places like McDonalds,
+I went mostly to quick lunches, so you will see fast foods most of the
+time here. I usually don't eat at big and known places like McDonald's,
 Burger King, etc. but I look for places where I can quickly eat
 something and go to the next location.
 
