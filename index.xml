@@ -3783,6 +3783,16 @@ I currently live in Brazil and I think the current president do not act in good 
     </item>
     
     <item>
+      <title>Rustlang and me</title>
+      <link>https://pothix.com/rustlang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/rustlang/</guid>
+      <description>Sometimes I&amp;rsquo;m kindly mentioned by people when there&amp;rsquo;s a topic about Rust going on. I decided to create this page so I could share a bit of my relationship with Rust in one single place 🦀.
+Books I&amp;rsquo;m the co-author of Rust — Concorrência e alta performance com segurança. A book written in pt-BR, which covers the basics a programmer needs to know to start his journey with the language.</description>
+    </item>
+    
+    <item>
       <title>What is happening now</title>
       <link>https://pothix.com/now/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
