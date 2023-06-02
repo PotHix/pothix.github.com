@@ -1,3 +1,4 @@
+# hugo version: 0.109
 rebuild:
 	@echo "Cleaning up"
 	@rm -rf public/*
