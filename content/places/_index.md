@@ -59,10 +59,10 @@ it will have many more cities and I still want to visit all states. ;)
 + 🇧🇷 Paraná, Foz do Iguaçu
 + 🇧🇷 Rio Grande do Sul, Porto Alegre
 + [🇦🇷 Argentina, Misiones, Eldorado](eldorado)
-+ 🇧🇪 Belgium, Antwerp
-+ 🇧🇪 Belgium, Bruges
-+ 🇧🇪 Belgium, Brussels
-+ 🇧🇪 Belgium, Ghent
++ [🇧🇪 Belgium, Antwerp](antwerp)
++ [🇧🇪 Belgium, Bruges](bruges)
++ [🇧🇪 Belgium, Brussels](brussels)
++ [🇧🇪 Belgium, Ghent](ghent)
 + 🇨🇱 Chile, Pucón
 + 🇨🇱 Chile, Santiago
 + 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England, London
