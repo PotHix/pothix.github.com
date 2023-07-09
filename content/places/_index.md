@@ -76,8 +76,8 @@ it will have many more cities and I still want to visit all states. ;)
 + [🇮🇹 Italy, Venice](venice)
 + [🇮🇹 Italy, Florence](florence)
 + [🇮🇹 Italy, Rome](rome)
-+ 🇳🇱 Netherlands, Amsterdam
-+ 🇳🇱 Netherlands, Rotterdam
++ [🇳🇱 Netherlands, Amsterdam](amsterdam)
++ [🇳🇱 Netherlands, Rotterdam](rotterdam)
 + 🇳🇱 Netherlands, The hague
 + [🇵🇹 Portugal, Azores](azores)
 + 🇵🇹 Portugal, Batalha
