@@ -69,7 +69,10 @@ it will have many more cities and I still want to visit all states. ;)
 + 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England, Oxford
 + 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England, York
 + [🇫🇷 France, Paris](paris)
++ [🇩🇪 Germany, Bad Liebenzell](badliebenzell)
++ [🇩🇪 Germany, Berlin](berlin)
 + [🇩🇪 Germany, Munich](munich)
++ [🇮🇹 Italy, Pisa](pisa)
 + [🇮🇹 Italy, Venice](venice)
 + [🇮🇹 Italy, Florence](florence)
 + [🇮🇹 Italy, Rome](rome)
