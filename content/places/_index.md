@@ -100,7 +100,7 @@ it will have many more cities and I still want to visit all states. ;)
 + [🇺🇸 United States, New York](nyc)
 + [🇺🇸 United States, Portland](portland)
 + [🇺🇸 United States, San Francisco](sanfrancisco)
-+ 🇺🇾 Uruguay, Montevideo
++ [🇺🇾 Uruguay, Montevideo](montevideo)
 
 There are links to the content whenever it's available, but I will also list
 all the posts I have by date. The posts are dated by travel date, not
