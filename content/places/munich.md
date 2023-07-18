@@ -5,7 +5,7 @@ date: 2022-06-16
 skip_feed: true
 ---
 
-In June 2021 I had the chance to spend 3 days in Munich while preparing for the
+In June 2022 I had the chance to spend 3 days in Munich while preparing for the
 [Doist](/doist) retreat. Unfortunately, I was not feeling well in the second day
 of the trip, so it was mostly 2 working days, but I enjoyed it.
 
@@ -47,9 +47,14 @@ I was not aware of the way they did to open the valves. 🤓
 
 ## Food & drinks
 
-I went to a beer place (will look for the right name soon) which was quite
-traditional in Munich.
+I went to a Biergarten which was quite traditional in Munich.
 
-- I got ate a Döner kebab for the first time. A friend of mine is muslim and was
-  looking for Halal food, so I went with him in a very small Turkish restaurant
-  and we got a Döner kebab. I liked it.
+- Leo's lounge restaurant bar - Had a common German lunch there and it was
+  good. As usual, I'm wrinting this at least one year after and I have no idea
+  what it was, but the experience was good.
+- I got ate a Döner kebab for the first time. A friend of mine is muslim and
+  was looking for Halal food, so I went with him in a very small Turkish
+  restaurant and we got a Döner kebab. I liked it.
+- Herrschaftszeiten - Das Paulaner im Tal - When with people from work and we
+  had a great time there. It's a traditional bavarian restaurant.
+  ![food in munich](/images/places/food-munich1.png)
