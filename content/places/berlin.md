@@ -22,13 +22,14 @@ wanted to pay (â‚¬1200 for 7 days) but it was the cheaper one on booking, so ðŸ¤
 
 ## Airport
 
-I only got to know Berlin Brandenburg, while going to Pisa after spending some
+I only got to know Berlin Brandenburg while going to Pisa after spending some
 time in Berlin, as I arrived in Berlin by train.
 
-The airport is not close to the city, but other than that, it worked well for
-me.
-
-I got the train in downtown and got to the airport in ~1 hour.
+The airport is not close to the city, it's around 1h by train, but it's quite
+easy to get there by buying an extended (ABC) ticket and taking the S train.
+Arrive in the terminal 1, and I had to go to the terminal 2, and it took me
+around 10 minutes to get there. The security and boarding was quite simple, but
+I was doing a 1-bag trip, so YMMV.
 
 ## Transport
 
@@ -101,6 +102,15 @@ understand a few things.
   Nazi era. Seeing the trains evolving to match the needs of the people was
   quite nice. Other than that, they also had tons of old ships and airplanes.
   The World war I and II airplanes were quite interesting.
+- **Checkpoint Chalie** - The US military checkpoint between West and East
+  Berlin. There were many of them, but checkpoint charlie became the most
+  famous one as it was the only to allow outsiders to cross. It was also the
+  place where the tense picture of the US and USSR tanks facing off. It's an
+  interesting place to visit and imagine the whole scene.
+- I also visited some alternative places of Berlin with a friend of mine. He is
+  into the social part of the city and it was interesting to see things outside
+  of the touristic agenda. I'm not going to list places here, but just want to
+  mention as a thank you note to him and also a reminder for my future self.
 
 ## Food
 
