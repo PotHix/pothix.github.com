@@ -49,20 +49,60 @@ bikes. I was usually buying 4 tickets and using from time to time. If you're
 going to use the train a lot, I would recommend the weekly pass (if you're
 staying a week or more, of course).
 
+## Services
+
+- **Togo Waschwelt GmbH**: This was a one bag trip for me, which limits the
+  amount of stuff I will bring and carry, so I planned to wash my clothes in
+  the middle of the trip. I went to this place and the experience was superb.
+  There was a lady there who helped me navigate the whole process and it was a
+  seamless experience. In less than one hour I was leaving the place with all
+  my clothes clean and dry. 
+
 ## Places
 
-- A friend of mine recommended the Walkative! walking tour and I decided to go
-  for it. I got the tour about Berlin under the Nazi's regime. It was very
-  informative (and a bit sad). I enjoyed it.
-- Brandenburg gate - Many things happened there. The statue at the top was the
-  "goddess" of peace. Napoleon invaded the city through the Brandenburg gates,
-  won the battle and stole the statue. After many years, they got the statue
-  back and made it the goddess of victory. It's also worth noting that it was
-  also quite close to part of the berlin wall, so you may have seen footages of
-  it online along with the wall if you searched for it.
-- Berlin wall memorial
-- East side galery
+I decided to have the "history theme" into this trip, so I'm mostly visiting
+places about the history of Germany and Berlin. This is a bit depressing,
+because the history of Germany is... complicated, but I wanted to really
+understand a few things.
+
+- **Walking tour from Alexander Platz** - A friend of mine recommended the
+  Walkative! walking tour and I decided to go for it. I got the tour about
+  Berlin under the Nazi's regime. It was very informative (and a bit sad). I
+  enjoyed it.
+- **Brandenburg gate** - Many things happened there. The statue at the top was
+  the "goddess" of peace. Napoleon invaded the city through the Brandenburg
+  gates, won the battle and stole the statue. After many years, they got the
+  statue back and made it the goddess of victory. It's also worth noting that
+  it was also quite close to part of the berlin wall, so you may have seen
+  footages of it online along with the wall if you searched for it.
+- **Berlin wall memorial** - They perserved part of the wall as it was at the
+  time and created a memorial for it. It's nice to understand the context and
+  how complicated it was for people living around the wall at the time. For a
+  south american guy, it was quite amazing to finally understand it.
+- **East side galery** - Part of the Berlin wall that was kept in the East
+  (Socialist part, under the Soviet control). It's full of nice drawing by
+  artists from many places in the world and it's still a place for protests in
+  form of art against big problems in the world.
+- **Topography of terror** - It's the place where the SS and Gestapo was
+  located. It's free to enter and has most of the story of the Nazism era.
+  Totally recommended if you're into getting more context of the story of that
+  time.
+- **Berlin Story Bunker** - The bunker where Hitler commited suicide after
+  losing the war. It tells his whole story, from being a teenager that wanted
+  to be an artist, to the mass murderer dictator. The museum is great, and it
+  was the most depressing of all. It is very detailed and shows pictures of
+  many things that happened during that era. It was the first museum I went
+  that I literally felt angry by following the exposition and getting all the
+  context. I woult totally recommend people to go, but you have to be ready for
+  that.
+- **German Museum of Technology** - I like to visit technology museums every
+  time I visit a city and they have one. This was no different, great
+  experience. They had trains from the last 100 years to show, including the
+  Nazi era. Seeing the trains evolving to match the needs of the people was
+  quite nice. Other than that, they also had tons of old ships and airplanes.
+  The World war I and II airplanes were quite interesting.
 
 ## Food
 
-TBD
+- **Shiso burger** - Didn't eat much there, just got the sweet potatoes, but
+  nothing to complain. I quite like the food and place.

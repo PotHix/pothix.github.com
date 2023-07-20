@@ -20,6 +20,12 @@ was a bunch of people there just enjoying life, drinking beer, etc.
 I also met a friend who is living in Berlin for some years, and it was an
 amazing conversation on how Munich is different from Berlin. :)
 
+## Stay
+
+I stayed in the Hilton Munich City, which was quite nice, but was paid by the
+company and it's hard to recommend it without really understanding the cost and
+benefit. Without considering the cost, it was a great experience.
+
 ## Things to do
 
 As usual, I did a walking tour with a guide and had the chance to walk around
