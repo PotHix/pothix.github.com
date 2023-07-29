@@ -30,12 +30,16 @@ Via taxi
 
 - **Circolo ricreativo**: It's a bar that is quite close to the hotel. We had
   aa company happy hour there and was nice.
-- **Erato Wellness Luxury SPA**: 
+- **Erato Wellness Luxury SPA**:  I had the chance to book a few hours there as
+  part of the company package and it was very relaxing. They have a combination
+  of hot water/sauna combined with cold water and ice (classic SPA). The place
+  is clean, with some relaxing music going on.
 
 
 ## Food
 
 - **Biagio pignatta**: We had a pasta making class there and ate the past we
   made. It was great.
-- **La cantina dei Redi**: 
+- **La cantina dei Redi**: It's in the village and the default place to have
+  breakfast for my group. Very friendly staff and a good variety of food.
 
