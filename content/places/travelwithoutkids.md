@@ -1,6 +1,5 @@
 ---
 title: "Travel (without kids)"
-date: 2022-10-01
 skip_feed: true
 ---
 
