@@ -59,6 +59,15 @@ needs.
   20 minutes before it started. The guide was a cool guy who lives in Florence,
   so he also gave people some tips if they wanted to go there. We went through
   the history of Pisa and visited places other than the leaning tower.
+- **Piazza del Duomo**: The main square
+- **Catedrale di Pisa**: 
+- **Piazza dei cavalieri**: 
+- **Camposanto**:
+- **Batistero di San Giovanni**:
+- **Tuttomondo painting**: 
+- **Chiesa di Santa Maria della Spina**: 
+- **Logge dei Banchi**: 
+- **San Sisto in Cortevecchia**:
 - **Leaning tower**: Of course I went there. It's weird to see so many people
   taking the same pictures, it seems everyone want to be another brick in the
   wall. Other than that, the leaning tower itself is a nice monument and I
@@ -69,11 +78,10 @@ needs.
 
 - **Cecina**: This is a very local food that is quite cheap, it's just bread
   and olive oil (IIRC) baked into the owen. I liked it.
-- **Francesco place**: (sorry, I don't really have internet connection while
-  writing this, hopefully™ I will have the real name here soon). It was a
-  recommendation of the guide, it felt to me they had some sort of agreement,
-  as Francesco gave us some Cecina for free. I had some pizzas there and I
-  liked it. Not fancy at all, just simple food that locals like.
+- **A tutta pizza**: It was a recommendation of the guide, it felt to me they
+  had some sort of agreement, as Francesco gave us some Cecina for free. I had
+  some pizzas there and I liked it. Not fancy at all, just simple food that
+  locals like.
 - **Food square**: Quite close to the place above (from Francesco), there's a
   squarre that is used for happy hours by the locals (mostly students) some
   good options for food that are not tourist traps.
