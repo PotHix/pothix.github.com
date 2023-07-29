@@ -55,24 +55,51 @@ needs.
 
 ## Places
 
+If you're planning to go to the top of the leaning tower, I recommend buying
+the full ticket, as the leaning tower is the most expensive and if you want to
+visit a second monument, it will be the price of the full ticket already.
+
 - **Walking tour**: I went to a walking tour via Guruwalk. Literally booked it
   20 minutes before it started. The guide was a cool guy who lives in Florence,
   so he also gave people some tips if they wanted to go there. We went through
   the history of Pisa and visited places other than the leaning tower.
-- **Piazza del Duomo**: The main square
-- **Catedrale di Pisa**: 
-- **Piazza dei cavalieri**: 
-- **Camposanto**:
-- **Batistero di San Giovanni**:
-- **Tuttomondo painting**: 
-- **Chiesa di Santa Maria della Spina**: 
-- **Logge dei Banchi**: 
-- **San Sisto in Cortevecchia**:
+- **Piazza del Duomo**: The main square, that contains the catedral, leaning
+  tower and batistery. You're going to visit there if you want to visit the
+  monuments. Many people just lay down on the grass and have some rest during
+  the week. In the weekend the police is a bit more strict about it.
+- **Catedrale di Pisa**: The main Categral. You can go there for free, but have
+  to go to the ticket office anyway, for some reason. If you have the full
+  ticket, you can just go in.
+- **Camposanto**: Right next to the catedral, it hosts the people who were
+  buried close to the catedral. They were moved there once the square started
+  to become what it is today. It's an interesting place to visit if you have
+  the full ticket, but I wouldn't pay to visit it by itself.
+- **Batistero di San Giovanni**: It's the baptistery, as the name suggests. The
+  place is beautiful and has some interesting sound effects. Every 30 minutes,
+  someone from the staff "sings" to show the effect on the echo. If you have
+  the chance, stay there for a bit more than 30 minutes to listen to this.
 - **Leaning tower**: Of course I went there. It's weird to see so many people
   taking the same pictures, it seems everyone want to be another brick in the
   wall. Other than that, the leaning tower itself is a nice monument and I
   definitely recommend going to the top. The experience of going up stairs and
   fighting gravity is quite interesting.
+- **Piazza dei cavalieri**: Is a square that contains an important university
+  in Pisa. It is quite old too. Worth visiting.
+- **Tuttomondo painting**: A famous street painting in Pisa. The painter wanted
+  to represent people dancing together. This is a guy with a television head in
+  the center, which was the way the painter used to represent the power of the
+  television, which was a good thing at the time (the Berlin wall was still
+  intact), only if he knew the current situation...
+- **Chiesa di Santa Maria della Spina**: It's a beautiful church (on the
+  outside, I couldn't really see the inside) that seems to have an original
+  fragment of the one spine from Christ crown. It seems christians brought many
+  "souveniers" from the crusades. 🤷‍♂️
+- **Logge dei Banchi**: A bank of the Medici family. It's an interesting
+  structure and important to the history of Pisa. Big celebrations happen there
+  once a year.
+- **San Sisto in Cortevecchia**: The churt of the first saint, protector of
+  Pisa. The church was closed when I was there, unfortunately, so I couldn't
+  see the inside.
 
 ## Food
 
