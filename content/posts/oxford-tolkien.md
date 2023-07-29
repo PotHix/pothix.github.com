@@ -26,8 +26,8 @@ The last step of this journey would be London. Then I realized: "Why not to
 visit Oxford?". It's a historical city and Tolkien himself wrote most part of
 his books there.
 
-I used Oxfordbus company as transport from Heathrow Airport to Oxford center. I
-choose a cozy house to say via Airbnb for 3 days and 2 nights.
+I used the Oxfordbus company as transport from Heathrow Airport to Oxford
+center and choose a cozy house to stay via Airbnb for 3 days and 2 nights.
 
 Everything in Oxford closes really early. I got there around 4pm and there was
 nothing to do anymore. I tried to visit the Bodleian Library, but it was

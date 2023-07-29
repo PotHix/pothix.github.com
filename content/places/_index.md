@@ -66,7 +66,7 @@ it will have many more cities and I still want to visit all states. ;)
 + 🇨🇱 Chile, Pucón
 + 🇨🇱 Chile, Santiago
 + 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England, London
-+ 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England, Oxford
++ [🏴󠁧󠁢󠁥󠁮󠁧󠁿 England, Oxford](oxford)
 + 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England, York
 + [🇫🇷 France, Paris](paris)
 + [🇩🇪 Germany, Bad Liebenzell](badliebenzell)
