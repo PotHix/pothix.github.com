@@ -85,14 +85,13 @@ it will have many more cities and I still want to visit all states. ;)
 + [🇵🇹 Portugal, Azores](azores)
 + 🇵🇹 Portugal, Batalha
 + [🇵🇹 Portugal, Cascais](cascais)
-+ [🇵🇹 Portugal, Colares](colares)
++ [🇵🇹 Portugal, Colares, Cabo da roca](colares)
 + 🇵🇹 Portugal, Fatima
-+ 🇵🇹 Portugal, Lisboa
++ [🇵🇹 Portugal, Lisbon](lisbon)
 + 🇵🇹 Portugal, Nazareth
 + [🇵🇹 Portugal, Porto](porto)
 + 🇵🇹 Portugal, Óbidos
 + 🇵🇹 Portugal, Sintra
-+ 🇵🇹 Portugal, Colares (Cabo da roca)
 + 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland, Edinburgh
 + 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland, Glasgow
 + 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland, Stirling
