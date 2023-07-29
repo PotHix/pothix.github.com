@@ -84,7 +84,8 @@ it will have many more cities and I still want to visit all states. ;)
 + 🇳🇱 Netherlands, The hague
 + [🇵🇹 Portugal, Azores](azores)
 + 🇵🇹 Portugal, Batalha
-+ 🇵🇹 Portugal, Cascais
++ [🇵🇹 Portugal, Cascais](cascais)
++ [🇵🇹 Portugal, Colares](colares)
 + 🇵🇹 Portugal, Fatima
 + 🇵🇹 Portugal, Lisboa
 + 🇵🇹 Portugal, Nazareth
