@@ -82,7 +82,7 @@ needs.
   had some sort of agreement, as Francesco gave us some Cecina for free. I had
   some pizzas there and I liked it. Not fancy at all, just simple food that
   locals like.
-- **Food square**: Quite close to the place above (from Francesco), there's a
+- **Piazza delle Vettovaglie**: Quite close to the place above (from Francesco), there's a
   squarre that is used for happy hours by the locals (mostly students) some
   good options for food that are not tourist traps.
 - **Gelato**: It's close to the river, hard to miss. They have a good variety
