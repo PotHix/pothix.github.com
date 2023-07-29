@@ -6,13 +6,16 @@ subtitle = "Places I visited"
 +++
 
 It's been a while since I wanted to list the places I visited, especially
-because people usually ask me to list them. The plan is to add links and
-pictures to many of the places here.
+because people usually ask me to list them or give more information about
+places they want to visit. The plan is to add links and pictures to many of the
+places here.
 
-I also have here a guide on how I [travel (without kids)](/places/travelwithoutkids), because people ask for tips from time to time.
+I also have here a guide on how I [travel (without
+kids)](/places/travelwithoutkids), because people ask for tips from time to
+time.
 
 Now let's go for the list! I'm Brazilian, so I will list Brazil first because
-it will have many more cities and I still want to visit all states. ;)
+it will have a lot more cities (the plan is to visit all states 😉).
 
 + [🇦🇹 Austria, Pertisau](pertisau)
 + 🇧🇷 Ceará, Fortaleza
@@ -81,7 +84,7 @@ it will have many more cities and I still want to visit all states. ;)
 + [🇮🇹 Italy, Venice](venice)
 + [🇳🇱 Netherlands, Amsterdam](amsterdam)
 + [🇳🇱 Netherlands, Rotterdam](rotterdam)
-+ 🇳🇱 Netherlands, The hague
++ [🇳🇱 Netherlands, The hague](thehague)
 + [🇵🇹 Portugal, Azores](azores)
 + 🇵🇹 Portugal, Batalha
 + [🇵🇹 Portugal, Cascais](cascais)
