@@ -11,7 +11,8 @@ edition happened in September 2023, and my description below reflects that.
 
 ## Stay
 
-TBD
+Union Station Hotel is a great place to stay. It's a historic building and
+
 
 ## Airport
 
@@ -23,8 +24,18 @@ TBD
 
 ## Places
 
-TBD
+City Museum
+Stifel Theater
+Bodach's games
+21c museum lounge
 
 ## Food
 
-TBD
+Sugarfire smoke house
+The Pitch Athletic Club & Tavern
+Anchor room coffee house
+Seoul taco
+City Foundry STL
+Catalyst coffee bar
+The train shed
+

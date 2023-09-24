@@ -13,3 +13,12 @@ TBD
 ## Transport
 
 TBD
+
+## Places
+
+Miami beach botanical garden
+Bayside Marketplace
+
+## Food
+
+Margheritaville
