@@ -102,8 +102,11 @@ it will have a lot more cities (the plan is to visit all states 😉).
 + 🇪🇸 Spain, Madrid
 + 🇪🇸 Spain, Toledo
 + 🇺🇸 United States, Boulder
++ [🇺🇸 United States, Dallas](dallas)
 + 🇺🇸 United States, Denver
++ [🇺🇸 United States, Miami](miami)
 + [🇺🇸 United States, New York](nyc)
++ [🇺🇸 United States, St. Louis](stlouis)
 + [🇺🇸 United States, Portland](portland)
 + [🇺🇸 United States, San Francisco](sanfrancisco)
 + [🇺🇾 Uruguay, Montevideo](montevideo)
