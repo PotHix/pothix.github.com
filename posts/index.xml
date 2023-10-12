@@ -6,8 +6,359 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Mon, 06 Feb 2023 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 12 Oct 2023 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://pothix.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>StrangeLoop 2023</title>
+            <link>https://pothix.com/strangeloop2023/</link>
+            <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
+            
+            <guid>https://pothix.com/strangeloop2023/</guid>
+            <description>I&amp;rsquo;ve been following the StrangeLoop conference for about 10 years now. Watching some of the talks online, talking to friends who had the chance to attend in the past, and following the news from time to time.
+This year&amp;rsquo;s edition would be the last one. When a friend of mine told me that, I decided to make an effort to participate. It is a long trip to get to St. Louis (~16 hours, door to door), but it would be worth it.</description>
+            <content type="html"><![CDATA[<p>I&rsquo;ve been following the StrangeLoop conference for about 10 years now. Watching
+some of the talks online, talking to friends who had the chance to attend in
+the past, and following the news from time to time.</p>
+<p>This year&rsquo;s edition would be the last one. When a friend of mine told me that,
+I decided to make an effort to participate. It is a long trip to get to <a href="/places/stlouis">St.
+Louis</a> (~16 hours, door to door), but it would be worth it.</p>
+<p>Below are my notes from the talks I attended. These are mostly raw notes, so
+you&rsquo;re reading them raw as they come from my understanding watching the talk. I
+didn&rsquo;t have that much time to review everything. 😅</p>
+<h2 id="first-day">First day:</h2>
+<h3 id="how-to-have-a-meaningful-careerhttpswwwyoutubecomwatchv_egqrm13qym"><a href="https://www.youtube.com/watch?v=_egQrM13qyM">How to have a meaningful career</a></h3>
+<p>Nice talk. I like these kinds of talks that inspire you more than teach you one
+or two commands or tricks in your favorite programming language.</p>
+<ul>
+<li>Everyone is an expert in something. I&rsquo;m an expert in my own journey.</li>
+<li>Give yourself grace, even in hard moments.
+<ul>
+<li>To give myself some grace, I took a sabbatical.</li>
+</ul>
+</li>
+<li>It&rsquo;s the &ldquo;L&quot;s that make us
+<ul>
+<li>The guy was ranting about HTTP to the guy who wrote the specifications</li>
+</ul>
+</li>
+<li>Luck = opportunity+being prepared</li>
+<li>Scott hanselman (Microsoft) once had a presentation and two people showed up because Linus was speaking nearby.</li>
+<li>Two things can be good at the same time, you may be there for the money and be passionate about it.</li>
+<li>Technical resilience: do the job and persist</li>
+<li>Your task is not to foresee, but enable it &ndash; Antoine de St Exupery</li>
+<li>Growth happens when you&rsquo;re stretching not when you&rsquo;re drowning. It&rsquo;s OK to deal with things that are more than you can handle, but just the right amount.</li>
+<li>She is speaking at the last conference she loved and attended for so many years.</li>
+<li>If you find meaning, and it&rsquo;s important to keep moving in that direction.</li>
+</ul>
+<h3 id="playing-with-engineeringhttpswwwyoutubecomwatchv6ao8gs488ha"><a href="https://www.youtube.com/watch?v=6Ao8GS488hA">Playing with Engineering</a></h3>
+<p>Another inspiring talk, especially for people who have kids. She shows that
+engineering can be fun in many different ways, and this is her research.</p>
+<ul>
+<li>Talk by AnnMarie Thomas</li>
+<li>Playful learning lab</li>
+<li>Professors in STEM don&rsquo;t have training into actually teaching and the psychilogof it.</li>
+<li>Play is about process, not the outcome. Play involves freedom of choice. it&rsquo;s often social.</li>
+<li>Instead of using a soldering iron, she teaches her daughter with dough that conducts electricity</li>
+<li>You can find sounds in everything. Looking for sounds in the house.</li>
+<li>&ldquo;OK go sandbox&rdquo; playlist on Spotify</li>
+<li><strong>Play is about process, not the outcome.</strong></li>
+<li>How can I create an engineering culture hat my kids want to be in?</li>
+</ul>
+<h3 id="the-attacker-has-expensive-radio-equipment-but-your-android-phone-is-resilienthttpswwwyoutubecomwatchvt7mnpmhleu0"><a href="https://www.youtube.com/watch?v=T7MnpMhlEU0">The Attacker Has Expensive Radio Equipment, But Your Android Phone Is Resilient</a></h3>
+<p>Stop what you&rsquo;re doing and disable 2G from your phone right now. 😅 Yomna shows
+the problems with radio protocols, especially the old ones. Your phone probably
+still supports the old protocols, so there&rsquo;s a good chance you&rsquo;re still
+vulnerable. The talk was nice.</p>
+<ul>
+<li>A view on implementing android radio security</li>
+<li>Cell towers, BTS, etc.</li>
+<li>GSM (2g) LTE (4g). We will call GSM.</li>
+<li>AOSP (Android open source project)</li>
+<li>OEM (Original equipment manufacturers), companies who ship hardware with android</li>
+<li>Bands of frequencies are pre-programmed in the SIM card, they are searched first.</li>
+<li>IMSI is the unique identifier of your SIM card. Must be kept private.</li>
+<li>TMSI is a temporary location identifier when connecting to a tower.</li>
+<li>The phone is not always connected, it&rsquo;s mostly on idle mode waiting for the trigger to &ldquo;wake up&rdquo;.</li>
+<li>In 2G, some clients even use a NOCIPHER, to not have encryption.</li>
+<li>Atlas of surveillance. org</li>
+<li>Swearing trojan from China (2017) - Link I read in the internet: <a href="https://www.linkedin.com/pulse/chinese-hackers-use-fake-cellphone-tower-spread-stu-sjouwerman/">https://www.linkedin.com/pulse/chinese-hackers-use-fake-cellphone-tower-spread-stu-sjouwerman/</a></li>
+<li>Broadcast of SMS may not be authenticated and attacks happen.</li>
+<li>Phones that still accept 2G are vulnerable. Android has a &ldquo;Allow 2G&rdquo; option that can be disabled.</li>
+<li>In AOSP, the hardware/interfaces/radio/1.6 directory contains the code to handle versions.</li>
+<li>yomna.net</li>
+</ul>
+<h3 id="lessons-from-building-github-code-searchhttpswwwyoutubecomwatchvcqza_kmygkw"><a href="https://www.youtube.com/watch?v=CqZA_KmygKw">Lessons from building GitHub Code Search</a></h3>
+<p>This is probably the talk I liked the most. Luke was able to clearly describe
+the problem they had, and why the architecture was not enough for it. He showed
+the research they did and how they approached the problem step by step.</p>
+<p>On each of those steps, he described what the problem was and how they evolved
+the infrastructure to deal with it.</p>
+<p>The solution looks great, and the lesson for me is to think about your solution
+in a scalable way. Do it to solve a smaller version of the problem and iterate
+over it to fix bigger problems. Be sure you can change/rewrite/add more small
+pieces of the solution.</p>
+<ul>
+<li>Talk by <a href="https://github.com/look">Luke Francl</a></li>
+<li><a href="https://github.com/look/lessons-from-ghcs">https://github.com/look/lessons-from-ghcs</a></li>
+<li>Blackbird is the name of the search engine</li>
+<li>The goal of the system is to ask programmer&rsquo;s questions</li>
+<li>We rewrote it in rust 🦀</li>
+<li>Blackbird crawler is written in Go</li>
+<li>We use Kafka for message queue</li>
+<li>The cost for the CS cluster costs 4.5MM</li>
+<li>Lessons
+<ul>
+<li>purpose built software <strong>can</strong> make sense. Creating a search engine from scratch is complicated, but was worth it.</li>
+<li>Every level f scaling bring new challenges</li>
+<li>Designing for change is hard. It takes a lot of effort to make your system easy to change. If you can, design your system to be malleable.</li>
+</ul>
+</li>
+</ul>
+<h3 id="risks-and-opportunity-of-ai-in-incident-managementhttpswwwyoutubecomwatchvk7c03xkzzzo"><a href="https://www.youtube.com/watch?v=K7c03xKzzzo">Risks and Opportunity of AI in incident management</a></h3>
+<p>I went to this talk to understand what was the idea behind the topic. I found
+it to be too abstract. It was more related to ideas on how to use AI and how it
+can contribute. Not really my kind of talk.</p>
+<ul>
+<li>Emily Arnott</li>
+<li>Maybe in an incident response, we should ask questions that are not formhumaes. Some very specific questions.</li>
+<li>Everything that is pulling you away from your plans must be planned accordingly.</li>
+<li>Challenges
+<ul>
+<li>It is time sensitive</li>
+<li>expertise requeriment</li>
+<li>coordination and communication</li>
+</ul>
+</li>
+<li>Things to be careful about
+<ul>
+<li>black box
+<ul>
+<li>They don&rsquo;t know anything specific</li>
+</ul>
+</li>
+<li>hallucinations
+<ul>
+<li>Some answers don&rsquo;t really make sense. Give everything another layer of sanity check.</li>
+</ul>
+</li>
+<li>Desynchronization
+<ul>
+<li>The model is not updated every day.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Build a blameless culture for incidents</li>
+<li>Empower engineers with strategic perspective on how to use AI to enhance themselves</li>
+<li>Train engineers in AI operations and let them experiment with it.</li>
+<li>You need a robust and resilient process</li>
+<li>The benefits of AI has nothing to do with downsizing, it just helps a bit</li>
+<li>Risks
+<ul>
+<li>Technical debt with AI</li>
+<li>Weird new bugs</li>
+<li>Alienated engineers who can&rsquo;t use the new tools</li>
+</ul>
+</li>
+<li>blameless.com/author/emily-rnott</li>
+</ul>
+<h3 id="written-comedy-with-generative-modelshttpswwwyoutubecomwatchvm2o4f_2l0no"><a href="https://www.youtube.com/watch?v=M2o4f_2L0No">Written comedy with generative models</a></h3>
+<p>I don&rsquo;t have that many notes on this one, but it was <strong>A-M-A-Z-I-N-G</strong>. I
+really recommend you to watch this video. It&rsquo;s not the kind of talk you learn a
+ton of new tricks, but it&rsquo;s the kind of &ldquo;programming art&rdquo; that really brings
+back everything that brought me to programming.</p>
+<p>The talk was interesting and fun. Definitely worth watching.</p>
+<ul>
+<li>Is predictive text a makov chain?</li>
+<li>small models, small data and simple n-gram models</li>
+<li>Tokenization</li>
+</ul>
+<h3 id="the-level-of-human-involvement-behind-remote-desktop-protocol-brute-force-attackhttpswwwyoutubecomwatchvpxx5cyukzy8"><a href="https://www.youtube.com/watch?v=PxX5cYUKzY8">The level of human involvement behind remote desktop protocol brute-force attack</a></h3>
+<p>This talk was less technical and more about the human interaction on the
+attach. The did the setup of a honeypot and did some research on it. It was
+nice to see the results of such a technique, but not very technical.</p>
+<ul>
+<li>Andreanne bergeron</li>
+<li>They used honeypots for RDP and collected 13 million attempts</li>
+<li>3427,611 attacks. 1.5k IPs</li>
+<li>50% of the attacks came from Asia (Russia was clarified as Asia, and most are from Russia). Russia, HK, and Panama.</li>
+<li>They created a fake company to the honeypot and attackers used specific usernames related to that company.</li>
+<li>Users did some research before doing the brute force and tried specific Digital Ocean tooling names.</li>
+</ul>
+<h2 id="second-day">Second day</h2>
+<h3 id="playable-quotes-for-gameboy-gameshttpswwwyoutubecomwatchvz9jyozwlmlo"><a href="https://www.youtube.com/watch?v=z9JYOZWLMlo">Playable quotes for gameboy games</a></h3>
+<p>I really liked this one too. You can see the results at <a href="https://tenmile.quote.games/">tenmile.quote.games</a></p>
+<p>They added a way to record playing games in NES emulators. They were able to do
+that adding one line of code to the emulator to inject code that inspects
+memory. The fact that they can add metadata to the screenshot of the game and
+use it to import the quote and replay it is awesome. Such a great and fun
+research. Definitely worth watching.</p>
+<ul>
+<li>Stenographically encoded pixels in the image. Its a zip file of 5 different things.</li>
+<li>A quote has the game rom, buttons pressed, save state, and a readme.</li>
+<li>Interactive tour m2.quote.games</li>
+<li>They used Binaryen to change memory</li>
+</ul>
+<h3 id="economics-of-programming-languageshttpswwwyoutubecomwatchvxz3w_jec1v8"><a href="https://www.youtube.com/watch?v=XZ3w_jec1v8">Economics of programming languages</a></h3>
+<p>Talk by the creaor of Elm. I was always curious about the creation of new
+languages and how to earn money from it. It was interesting to see his
+perspective on the topic (from experience) and analysis on different
+programming languages and companies. Definitely an interesting topic and talk.</p>
+<ul>
+<li>Working on a programming languages was all intrinsic motivation</li>
+<li>Who pays for these?</li>
+<li>Progress and poverty book recommendation</li>
+<li>Traffic aquisition cost is very significant for Google. Its important for the company to be everywhere</li>
+<li>The open source way
+<ul>
+<li>You solve a problem yourself and give it away</li>
+<li>Other things slowly come &ldquo;for free&rdquo; with people and intrinsic motivation. A lit of work to get to that though</li>
+</ul>
+</li>
+<li>Independent languages
+<ul>
+<li>Recruiting</li>
+<li>Consulting: which also takes the time from language work</li>
+<li>Research grants</li>
+<li>Editor licences</li>
+<li>Hosting</li>
+<li>Donations</li>
+</ul>
+</li>
+<li>Design incentives
+<ul>
+<li>Add features? Yes: less conflict, NO: less complexity</li>
+</ul>
+</li>
+<li>Patronage
+<ul>
+<li>Your job serves the purpose of a powerful person. What is it? What if it changes?</li>
+<li>Working hard is not enough if you&rsquo;re not aligned to &ldquo;the goal&rdquo;</li>
+</ul>
+</li>
+<li>Donations
+<ul>
+<li>People donate for their own personal reasons</li>
+<li>&ldquo;ill donators approve this?&rdquo;</li>
+</ul>
+</li>
+<li>Hosting
+<ul>
+<li>People use the service because is suits their needs.</li>
+<li>&ldquo;Will it be easier to make websites&rdquo;</li>
+</ul>
+</li>
+<li>For authors: &ldquo;The open source way&rdquo; is for businesses</li>
+<li>For language users: What are the goals of this language? What is the situation of the author? The trade offs suit your needs?</li>
+</ul>
+<h3 id="unmasking-the-godfather---reverse-engineering-the-latest-android-banking-trojanhttpswwwyoutubecomwatchvjnqmc2rewfg"><a href="https://www.youtube.com/watch?v=jNQmc2REwFg">Unmasking the Godfather - Reverse Engineering the Latest Android Banking Trojan</a></h3>
+<p>It is literally a reverse engineering of a trojan. Not many notes on this one,
+but it was interesting to see the trojan working and how it tricks the user to
+enable some kinds of features it needs. A bit eye openining on the technology
+side and also in the user side.</p>
+<ul>
+<li>The malware keeps asking for accessibility services, create fake HTML pages when they detect important pages, steal credentials for the user</li>
+</ul>
+<h3 id="a-long-strange-loophttpswwwyoutubecomwatchvsuv76al0nra"><a href="https://www.youtube.com/watch?v=suv76aL0NrA">A Long Strange Loop</a></h3>
+<p>It was a great talk for me, personally. I organized conferences in the past and
+plan to do it again. Listening to his experience during these 10+ years was
+quite insightful.</p>
+<p>The talk was also very emotional because it&rsquo;s something he is doing for more
+than 10 years out of love. You can clearly see that. Leaving it behind is a bit emotional.</p>
+<p>I also have a feeling that it is becoming harder and harder to make the
+conference sustainable, given the history of past conferences he shared. The
+pandemic made this even worse too.</p>
+<p>Well, it was great to watch this and be able to be part of the crew given a
+standing ovation to the organizers.</p>
+<ul>
+<li>Started in 2009</li>
+<li>2008, peak time for meetup</li>
+<li>&ldquo;I am a strange loop - Douglas Hofstadter&rdquo;</li>
+<li>He wanted to connect people in a place he liked. His Uncle id that before.</li>
+<li>Important talk feedback
+<ul>
+<li>Every talk in the conference was in the list of favorite talks</li>
+<li>multi-tracks are good</li>
+<li>match expectations</li>
+</ul>
+</li>
+<li>Thrown for a loop (2013)
+<ul>
+<li>There was a teatrical piece and a presentation by Douglas Hofstadter.</li>
+</ul>
+</li>
+<li>&ldquo;The people are here. This is the conference&rdquo;</li>
+<li>The grant program was very rewarding. They paid for people&rsquo;s hotel, conference, etc.</li>
+<li>Risks
+<ul>
+<li>signing contracts in advance</li>
+<li>natural disasters</li>
+<li>human disasters (terrorism, etc.)</li>
+</ul>
+</li>
+<li>What is he future?
+<ul>
+<li>We have a big carbon footprint to fly everyone here</li>
+</ul>
+</li>
+<li>Virtual conferences
+<ul>
+<li>When you are in a virtual conference, you don&rsquo;t have your &ldquo;third place&rdquo;, you&rsquo;re usually at home or work.</li>
+<li>Doing talks is hard, doing remote talks is even harder.</li>
+<li>Maybe VR an help a bit n the future, but I&rsquo;m not sure.</li>
+<li>Is there something in between?
+<ul>
+<li>There are places for people to meet locally, it would be a way to unite them. Maybe a local conference? Company?</li>
+<li>Async conference. People make local conferences and share with other groups. 💭 that&rsquo;s an interesting idea I&rsquo;m going to think about</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Why is it ending?
+<ul>
+<li>It achieved everyone I want t to achieve.</li>
+<li>It got harder and riskier to do these events. Is this the year I&rsquo;m going to go bankrupt?</li>
+<li>Strange Loop has a point of view, and etsmy point of view. If someone takes the conference, it will be a different conference. I can totally let you know everything I know if you want to do something like this.</li>
+<li>It&rsquo;s OK for things to end.</li>
+</ul>
+</li>
+</ul>
+<h3 id="making-hard-things-easyhttpswwwyoutubecomwatchv30ywsgdr8ma"><a href="https://www.youtube.com/watch?v=30YWsGDr8mA">Making Hard Things Easy</a></h3>
+<p>This is the talk by Julia Evans. I&rsquo;ve been following her work for many years,
+as I wrote the <a href="https://desconstruindoaweb.com.br/">Desconstruindo a web</a> book,
+which has a similar idea of her zines.</p>
+<p>It was a fun talk and I learned a lot of small things that can go wrong with
+tools we use all the time. Definitely recommended.</p>
+<ul>
+<li>DNS shouldn&rsquo;t be so hard. Everyone is having the same probueover and over again.</li>
+<li>Bash does not stop. set -e to make it stop when there&rsquo;s an error</li>
+<li>shellcheck</li>
+<li>Share tools you&rsquo;re using to reduce cognitive load</li>
+<li>Finding the right references is not easy</li>
+<li>Understanding the whole process is a great activity to do with coworkers</li>
+</ul>
+<h3 id="drawing-comics-at-work-no-video-yet">Drawing comics at work (no video yet)</h3>
+<p>This is a talk by the creator of the Xkcd comics. It was a fun talk. Did not
+learn a lot, but it was interesting to learn more about how xkcd came to life
+and became something most developers know and love. There are also some cool
+stories behind the scenes.</p>
+<ul>
+<li>He had a talk at Google and got questions about Python by Guido and algorithms by Donald Knuth</li>
+<li>He is a physicist and was contracting with NASA before XKCD</li>
+<li>He created the &ldquo;someone is wrong in the internet&rdquo; as a satire for himself and other people doing the same.</li>
+<li>The playballs comic was a thought that became comic. Someone actually did it nd he tried too!</li>
+<li>I got Serena Williams to try to drop a drone</li>
+<li>I got responses from experts in many fields and many fun people.</li>
+<li>Chris Hatfield was interviewed by Monroe</li>
+<li>&ldquo;You can write a good book even if your keyboard layout is not optimal&rdquo; 😂</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>It was a great conference. I&rsquo;m glad I had the chance to attend it. It was
+expensive and I&rsquo;m glad <a href="/doist">the company I work for</a> help me to attend
+these, otherwise, it would be quite complicated for me to go there. ❤️</p>
+]]></content>
+        </item>
         
         <item>
             <title>Choosing my first car</title>

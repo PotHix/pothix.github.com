@@ -2,13 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pothix.com/places/pisa/</loc>
-    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+    <loc>https://pothix.com/tags/english/</loc>
+    <lastmod>2023-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pothix.com/places/</loc>
-    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+    <loc>https://pothix.com/posts/</loc>
+    <lastmod>2023-10-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pothix.com/</loc>
+    <lastmod>2023-10-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/strangeloop2023/</loc>
+    <lastmod>2023-10-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/tags/</loc>
+    <lastmod>2023-10-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/tags/tech/</loc>
+    <lastmod>2023-10-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/places/miami/</loc>
+    <lastmod>2023-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/places/</loc>
+    <lastmod>2023-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/places/stlouis/</loc>
+    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/places/dallas/</loc>
+    <lastmod>2023-09-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pothix.com/places/pisa/</loc>
     <lastmod>2023-07-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pothix.com/places/prato/</loc>
@@ -27,15 +51,6 @@
     <lastmod>2023-07-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pothix.com/firstcar/</loc>
-    <lastmod>2023-02-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pothix.com/tags/english/</loc>
-    <lastmod>2023-02-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pothix.com/posts/</loc>
-    <lastmod>2023-02-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pothix.com/tags/</loc>
     <lastmod>2023-02-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pothix.com/places/paris/</loc>
@@ -63,9 +78,6 @@
     <lastmod>2022-06-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pothix.com/typingspeed/</loc>
-    <lastmod>2022-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pothix.com/tags/tech/</loc>
     <lastmod>2022-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pothix.com/bravenewworldbook/</loc>
