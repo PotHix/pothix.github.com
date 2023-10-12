@@ -43,18 +43,36 @@ You will mostly rely on Ride apps or renting a car, unfortunataly.
 
 ## Places
 
-City Museum
-Stifel Theater
-Bodach's games
-21c museum lounge
++ **City Museum**: What an amazing place. Loved it. I can totally see how kids
+  would love this place. There are slides and tunels everywhere. Definitely a
+  place to visit if you're in St. Louis.
++ **Stifel Theater**: The conference I attended was there. It's a beautiful
+  theater, and I think it's worth visiting even if there's no event happening
+  there.
++ **Bodach's Games**: It's a shop that sells many kinds of games. Electronic
+  games, card games, board games, etc. I decided to visit because a friend from
+  Twitter is from Misouri and said it's a nice place to play MTG. I didn't have
+  my deck with me, but it was nice to see people playing Pauper there. They
+  also have a giant bank safe inside the store. It's quite cool! Definitely
+  recommend the visit if you're into games.
++ **21c museum lounge**: A friend of mine was staying in this hotel and we had
+  the chance to stay in the lobby drinking and having a conversation. The hotel
+  looks nice and we had some shuffle board games while we were there. :)
 
 ## Food
 
-Sugarfire smoke house
-The Pitch Athletic Club & Tavern
-Anchor room coffee house
-Seoul taco
-City Foundry STL
-Catalyst coffee bar
-The train shed
-
++ **Sugarfire Smoke House**: We were looking for a "St. Louis" BBQ and went to
+  this place. It was nice. Nothing to complain.
++ **The Pitch Athletic Club & Tavern**: I went to this place because it was
+  very close to the hotel I was staying. It's a sports bar, so not really my
+  thing. The place is nice, though. We had some chicken wings and they were
+  good.
++ **Anchor room coffee house**: It's ran by volunteers of the church. We went
+  there at the day of the conference and there were a lot of people looking for
+  coffee out of knowhere. The people there (1 person) was doing their best to
+  serve everyone in time. There were nice and the coffee was good, just avoid
+  going there with a crew of ~20 people 😅.
++ **Seoul taco**: TBD
++ **City Foundry STL**: TBD
++ **Catalyst coffee bar**: TBD
++ **The Train Shed**: TBD
