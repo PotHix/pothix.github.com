@@ -72,7 +72,13 @@ You will mostly rely on Ride apps or renting a car, unfortunataly.
   coffee out of knowhere. The people there (1 person) was doing their best to
   serve everyone in time. There were nice and the coffee was good, just avoid
   going there with a crew of ~20 people 😅.
-+ **Seoul taco**: TBD
-+ **City Foundry STL**: TBD
-+ **Catalyst coffee bar**: TBD
-+ **The Train Shed**: TBD
++ **Seoul taco**: Had a burrito there and it was great. Recommended.
++ **City Foundry STL**: Great place to eat and visit the local market. They had
+  live music and good diversity of food when I went there for dinner. We had a
+  great time!
++ **Catalyst coffee bar**: It's an art museum and coffee shop (nothing to eat,
+  though). I had some good coffee there and visited the art museum. I would
+  definitely returm for more coffee.
++ **The Train Shed**: We went to this place because it was very close the to
+  Union Station Hotel, but it was very good. It is in the Union Station, so you
+  can appreciate the place while having some decent food.
