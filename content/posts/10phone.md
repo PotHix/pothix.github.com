@@ -31,7 +31,7 @@ So... why not? 🙂
 
 A few months before, I bought a new battery and case for it on Aliexpress. It
 was cheap enough to worth it. My plan is to give this phone to my children when
-needed. If they drop and and it breaks, it's fine (it's a 10yo anyway).
+needed. If they drop and it breaks, it's fine (it's a 10yo anyway).
 
 The new case already gave the phone a fresh new look.
 The new battery gives the phone half a day of life if I'm being careful about the power consumption
@@ -67,22 +67,23 @@ That's it! Nexus 5 works as it should.
 
 You have to be patient with the oldie. 😅
 
-It works most of the time, but it's not very powerful for the current word. You
-have to do most things very slowly for it to catch up.
+It works most of the time, but it's not very powerful for
+the current world. You have to do most things very slowly
+for it to catch up.
 
 I was mostly relying on the power saving feature of Android to avoid greedy
 apps to wake up and consume power quickly. By doing that, I could keep the
 phone on for more than half a day. The problem comes when I disable the power
 saving and **all** apps decide to do their thing at the same time. It usually
-takes a few minutes to the phone to be responsible again. 😅
+takes a few minutes for the phone to be responsible again. 😅
 
 You have to learn to deal with "unresponsible apps". Most of the time, it's not
 a problem, it's just the hardware being too slow to respond. You have to tap
 "wait" instead of closing the apps.
 
-I used this phone during a trip to a different country. It was a bit risky, but
-also an interesting experience. I just needed it to work for a few days, and it
-did not disappoint. :)
+I used this phone during an international trip. It was a bit
+risky, but also an interesting experience. I just needed it
+to work for a few days, and it did not disappoint. :)
 
 ### For science
 
