@@ -6,8 +6,116 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Thu, 12 Oct 2023 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 16 Oct 2023 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://pothix.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Using a 10yo phone (Nexus 5)</title>
+            <link>https://pothix.com/10phone/</link>
+            <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+            
+            <guid>https://pothix.com/10phone/</guid>
+            <description>I decided to change my phone to a newer hardware. While changing hardware, I would have to do a little dance of devices:
+Move whatever I have in my phone to another device Do a factory reset on my current phone Give it to my wife Get her phone and do a factory reset before sending it for a battery change That means I would need a third device while I don&amp;rsquo;t have my new hardware.</description>
+            <content type="html"><![CDATA[<p>I decided to change my phone to a newer hardware. While changing hardware, I
+would have to do a little dance of devices:</p>
+<ul>
+<li>Move whatever I have in my phone to another device</li>
+<li>Do a factory reset on my current phone</li>
+<li>Give it to my wife</li>
+<li>Get her phone and do a factory reset before sending it for a battery change</li>
+</ul>
+<p>That means I would need a third device while I don&rsquo;t have my new hardware. For
+that, I have a very old Nexus 5 phone and decided to try it out.</p>
+<p>I was doing it for a few reasons:</p>
+<ol>
+<li>The device was still working, so why not?</li>
+<li>How would it be to use a 10 years old phone nowadays?</li>
+<li>How updated can I make this device?</li>
+<li>Feeling a bit nostalgic about installing custom android ROMs 😂</li>
+</ol>
+<p>So&hellip; why not? 🙂</p>
+<h2 id="preparing-the-hardware">Preparing the hardware</h2>
+<p>A few months before, I bought a new battery and case for it on Aliexpress. It
+was cheap enough to worth it. My plan is to give this phone to my children when
+needed. If they drop and and it breaks, it&rsquo;s fine (it&rsquo;s a 10yo anyway).</p>
+<p>The new case already gave the phone a fresh new look.
+The new battery gives the phone half a day of life if I&rsquo;m being careful about the power consumption</p>
+<p>I decided to open it and clean the inside with isopropyl alcohol, just to be
+sure buttons would not be sticky. Which was already a symptom.</p>
+<p>After that, the phone looked new.</p>
+<h2 id="preparing-the-software">Preparing the software</h2>
+<p>I was running a very weird custom Android, but the good news is that it was
+already prepared for custom ROMs.</p>
+<p>The first step is to factory reset it and go for the new Android. I&rsquo;m not going
+to repeat the whole process here and instead will recommend <a href="https://www.city17.xyz/flashing-lineageos-on-lg-google-nexus-5-hammerhead/">this great article
+a friend mine
+wrote</a>.
+I just followed what is written there and it was done.</p>
+<p>In summary, for the curious but lazy:</p>
+<ul>
+<li>Install an updated version of TWRP that can repartition the phone</li>
+<li>Repartition the phone (much easier than what I expected)</li>
+<li>Download the most updated version of Android for this phone
+<ul>
+<li>Turns out the only one I found is an image a random guy is kindly
+maintaining for years. Sill supports Andorid 11 and works great.</li>
+</ul>
+</li>
+<li>Install it as you do with any custom ROM</li>
+</ul>
+<p>That&rsquo;s it! Nexus 5 works as it should.</p>
+<h2 id="how-is-it-to-use-an-old-phone-like-that">How is it to use an old phone like that?</h2>
+<p>You have to be patient with the oldie. 😅</p>
+<p>It works most of the time, but it&rsquo;s not very powerful for the current word. You
+have to do most things very slowly for it to catch up.</p>
+<p>I was mostly relying on the power saving feature of Android to avoid greedy
+apps to wake up and consume power quickly. By doing that, I could keep the
+phone on for more than half a day. The problem comes when I disable the power
+saving and <strong>all</strong> apps decide to do their thing at the same time. It usually
+takes a few minutes to the phone to be responsible again. 😅</p>
+<p>You have to learn to deal with &ldquo;unresponsible apps&rdquo;. Most of the time, it&rsquo;s not
+a problem, it&rsquo;s just the hardware being too slow to respond. You have to tap
+&ldquo;wait&rdquo; instead of closing the apps.</p>
+<p>I used this phone during a trip to a different country. It was a bit risky, but
+also an interesting experience. I just needed it to work for a few days, and it
+did not disappoint. :)</p>
+<h3 id="for-science">For science</h3>
+<p>This was the perfect opportunity to see how much a phone can still be useful
+after years and it turns out this phone was very useful if you&rsquo;re in right
+mood.</p>
+<p>It&rsquo;s not recommended to use it as a primary phone, but certainly a usable phone
+in case you need it temporarily or for some very specific task.</p>
+<p>I also used this opportunity to test Todoist under these circunstances. The
+team asked to test certain features we are developing to see how it&rsquo;s going to
+work under stress like that. The results were interesting.</p>
+<h2 id="hardware-problems">Hardware problems</h2>
+<p>Let&rsquo;s be real, it&rsquo;s a 10yo device. Of course I will have hardware problems at
+some point.</p>
+<p>It&rsquo;s quite common for the Nexus 5 to have a button stuck. Sometimes it&rsquo;s the
+power button, which makes the phone to keep rebooting. Sometimes it&rsquo;s the
+volume button, which makes the phone always start in safe mode (power + volume
+down goes to recovery).</p>
+<p>Everything worked well enough during my trip (thankfully!), but the device
+started showing problems with the volume down button when I arrived at home.
+This effectively made the device unusable, as it was in safe mode all the time.</p>
+<p>The solution for that is to <a href="https://clevercreations.org/how-to-fix-stuck-nexus-5-power-button/">change the
+button</a>
+(<a href="https://www.youtube.com/watch?v=YMNsk_-dK-Y">video</a>), but I don&rsquo;t have a
+replacement here (yet!). My solution was simple:</p>
+<blockquote>
+<p>Who needs a volume down button anyway? 😂</p>
+</blockquote>
+<p>After trying may different ideas, I had to remove the button and everything was
+back working.</p>
+<p>For a while&hellip; now the other two buttons are showing the same problems, so I
+will have to wait for the replacement buttons to arrive so I can fix the phone
+before giving it to my children as a playing device.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Don&rsquo;t throw your devices away, they can still be useful after 10 years! If
+you&rsquo;re up for the task, it can be useful and fun! Enjoy!</p>
+]]></content>
+        </item>
         
         <item>
             <title>StrangeLoop 2023</title>

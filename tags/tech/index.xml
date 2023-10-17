@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 12 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pothix.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pothix.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using a 10yo phone (Nexus 5)</title>
+      <link>https://pothix.com/10phone/</link>
+      <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pothix.com/10phone/</guid>
+      <description>I decided to change my phone to a newer hardware. While changing hardware, I would have to do a little dance of devices:
+Move whatever I have in my phone to another device Do a factory reset on my current phone Give it to my wife Get her phone and do a factory reset before sending it for a battery change That means I would need a third device while I don&amp;rsquo;t have my new hardware.</description>
+    </item>
+    
     <item>
       <title>StrangeLoop 2023</title>
       <link>https://pothix.com/strangeloop2023/</link>
