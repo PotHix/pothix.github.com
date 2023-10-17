@@ -305,6 +305,23 @@ stories behind the scenes.
 - Chris Hatfield was interviewed by Monroe
 - "You can write a good book even if your keyboard layout is not optimal" 😂
 
+## Post-conference
+
+There's one famous happy hour they do after the first day when people visit the
+city museum, which is amazing.
+
+They also had some sort of happy hour after the second day of the conference,
+and I used this time to meet new people. 
+
+I met a few people and randomly joined a group that was forming to discuss
+local-first software. We discussed CRDT, [automerge](https://automerge.org/),
+the ideas shared by [Martin Kleppmann on his talk about collaborative text
+editing](https://www.youtube.com/watch?v=Mr0a5KyD6BU) and
+[Upwelling](https://www.inkandswitch.com/upwelling/), and some personal
+experiences with projects we're working on.
+
+It was fun that I joined this group because I could share some experiences from
+Todoist, which is a local-first app for many years.
 
 ## Conclusion
 
