@@ -1,7 +1,6 @@
 +++
 title = "Using a 10yo phone (Nexus 5)"
 date = 2023-10-16
-draft = true
 tags = [
     "english",
     "tech",
