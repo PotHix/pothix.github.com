@@ -6,9 +6,100 @@ skip_feed: true
 Indaiatuba é a minha cidade de escolha para morar a partir de 2022.
 
 Por muitos anos eu queria me mudar para o interior de São Paulo, mas nunca foi
-uma realidade. Agora com filhos e precisando de um lugar melhor, decidi por
-Indaiatuba e espero morar muitos anos aqui.
+uma realidade. Agora com filhos e precisando de um lugar maior/melhor, decidi
+por Indaiatuba e espero morar muitos anos aqui.
 
+## Porque Indaiatuba?
+
+Essa seção vai ser um pouco longa porque quero contar a história completa.
+
+Muita gente me pergunta porque eu escolhi Indaiatuba para morar, especialmente
+porque eu não tenho família aqui e conheço pouquíssimas pessoas que moram por
+esses lados.
+
+Com os filhos, meu apartamento em Diadema não era o suficiente mais. O layout
+era desconfortável e a gente já estava achando pequeno para uma família de 5 (2
+adultos, 2 crianças e um cachorro).
+
+Desde o começo da minha carreira, meu plano era ter minha própria empresa,
+trabalhar remotamente, e morar no interior de algum lugar. Eu tenho minha
+empresa e trabalho remotamente, portanto estava faltando me mudar para o
+interior.
+
+Aproveitamos que tudo estava se conectando e começamos a busca por outro lugar
+para morar.
+
+A gente podia escolher qualquer lugar no mundo, literalmente. Era só querer e
+planejar. Não seria um problema para o meu trabalho e minha esposa ia se virar
+bem com certeza.
+
+Depois de conversar bastante, decidimos que queriamos ficar perto o suficiente
+da família para fazer uma visita de fim de semana. Essa decisão limitou nossa
+escolha a um raio de ~200km de Diadema/SP, portanto eliminamos todo o resto do
+mundo da decisão. A ideia é que conseguissemos chegar em Diadema em menos de 2
+horas.
+
+Tinha também alguns critérios adicionais para a avaliação:
+
+* Cidade segura (o suficiente para o nosso gosto)
+* Fácil acesso a rodovia
+* Boa rodovia para Diadema, dado que vamos pelo menos uma vez por mês
+* Ensino bom e acesso a escolas que consideramos boas
+* Um condomínio de casas que a gente goste
+* Bons espaços públicos
+* Facil acesso a algum aeroporto para viajar e receber meus pais, que moram no
+  Ceará
+
+Algumas cidades que consideramos:
+
+* Sorocaba: tenho amigos lá que falam muito bem da cidade. Estava numa boa
+  posição no nosso ranking.
+* Salto: a cidade parece legal e com custo de vida bom. Estava bem posicionada
+  no nosso ranking também.
+* Campinas: Cidade muito grande, a gente queria algo menor.
+* Boituva: Meus padrinhos moram lá e tenho outros amigos que curtem a cidade
+* Itupeva: Ficamos numa chácara num condomínio simples e legal. Gostamos da
+  experiência como um todo.
+* Jundiaí: Acho que é maior do que a gente queria, no fim não demos tanta
+  atenção.
+* Vinhedo e Valinhos: Essas duas entraram na nossa lista, mas acabamos não
+  vendo tantas vantagens.
+
+Indaiatuba atendeu todos os nossos critérios. A única desvantagem é que as
+coisas são caras por aqui, mas decidimos investir mesmo assim. Coisas que eu
+gosto de destacar:
+
+* Tem muitos condomínios de casas por aqui, para muitos gostos e orçamentos.
+  Escolhemos um que nos dá acesso fácil ao parque ecológico da cidade. Adoramos
+  o condomínio na primeira visita. Temos um amigo que mora aqui, o que
+  facilitou também.
+* A rodovia dos bandeirantes (melhor do país) é a rodovia que liga Indaiatuba a
+  São Paulo
+* [O ensino é bom quando se compara cidades com o mesmo
+  tamanho](https://indaiatuba.sp.gov.br/relacoes-institucionais/imprensa/noticias/28869/).
+* O acesso ao aeroporto de Viracopos é bem fácil. Em 20 minutos de carro eu
+  estou lá buscando meus pais que estão vindo de FOR.
+* [A cidade tem um índice de desenvolvimento ótimo para a categoria
+  dela](https://indaiatuba.sp.gov.br/relacoes-institucionais/imprensa/noticias/28869/)
+* Os espaços publicos são ótimos. O parque ecológico é incrível e tem outros
+  parques legais também. Para quem vem de Diadema, ver a quantidade de opções
+  de lazer parece um sonho.
+
+É claro que nenhuma cidade é perfeita. Alguns items que eu destacaria:
+
+* É uma cidade bem cara. Não só na compra de imóveis, mas valores de serviços e
+  outras coisas. A cidade é bem elitizada no geral. Isso traz coisas boas e
+  ruins.
+* Mega calor. No verão as coisas são tensas por aqui.
+* A cidade está crescendo bastante, com isso você sente uma certa
+  gentrificação. Toda a descrição que eu dei até agora é parte disso. Não sei
+  muito bem o que fazer sobre essa situação.
+
+Dado o tipo/tamanho de cidade que estavamos procurando, Indaiatuba se mostrou a
+melhor opção. Estou bem feliz com a nossa escolha.
+
+Agora de volta ao [procedimento normal das cidades que eu descrevo](/places)
+😅.
 
 ## Moradia
 
