@@ -114,15 +114,24 @@ casas, condomínios e prédios por ali, aí vai do seu gosto e orçamento.
 
 ## Comida
 
-* [Restaurante Caseiro](https://www.instagram.com/caseiro_restaurante): Comida simples e preço bom. Os pratos são bem servidos.
-* [Restaurante Caipirão](): O forte deles é o parmeggiana. Já pedimos delivery e
-  fomos até o local também. O parmeggiana é bem bom e bem grande, serve varias
-  pessoas. O restaurante físico deles tem um ambiente bem legal, pena que quando
-  visitamos eles tinham meio que desfeito o espaço kids.
-* [Restaurante Bologna](): Meu restaurante delivery preferido. Bem fácil de
-  pedir pelo WhatsApp e entregam bem rapido. Não é o mais barato, mas a
-  qualidade é bem boa.
-* [Hamburgueria O Burguês](https://goo.gl/maps/fbQhvaCttbuhFNP88): Tive problemas em uma entrega, mas resolveram tudo e me deram outro lanche. Curti o lanche no geral.
+* [Restaurante Caseiro](https://www.instagram.com/caseiro_restaurante): Comida
+  simples e preço bom. Os pratos são bem servidos.
+* [Restaurante Caipirão](https://maps.app.goo.gl/WSKELkm4XoQSeb9t8): O forte
+  deles é o parmeggiana. Já pedimos delivery e fomos até o local também. O
+  parmeggiana é bem bom e bem grande, serve varias pessoas. O restaurante
+  físico deles tem um ambiente bem legal, pena que quando visitamos eles tinham
+  meio que desfeito o espaço kids.
+* [Restaurante Bologna](https://maps.app.goo.gl/BqKCd9pFCuuQEhkM8): Meu
+  restaurante delivery preferido. Bem fácil de pedir pelo WhatsApp e entregam
+  bem rapido. Não é o mais barato, mas a qualidade é bem boa.
+* [Hamburgueria O Burguês](https://goo.gl/maps/fbQhvaCttbuhFNP88): Tive
+  problemas em uma entrega, mas resolveram tudo e me deram outro lanche. Curti
+  o lanche no geral.
+* [The Dragon's Kneipe](https://www.instagram.com/thedragonskneipe/):
+  Hamburgueria fantástica. Não só o lanche é ótimo, mas a experiência toda foi
+  muito boa. Eles criaram uma temática medieval que para mim tem um ótimo
+  apelo. Provavelmente a melhor experiência que eu já tive com delivery de
+  hamburguer.
 
 
 ### Com espaço kids
@@ -130,12 +139,14 @@ casas, condomínios e prédios por ali, aí vai do seu gosto e orçamento.
 Para quem tem crianças, isso é bem importante. Eu tenho descoberto as maravilhas
 de restaurantes com espaço kids e quero deixar as minhas recomendações aqui.
 
-* [Mundo animal](): O restaurante fica no centro, bem acessível, mas sem
-  estacionamento. Fomos num sábado e estava relativamente vazio. O playground é
-  fantástico com monitor e a comida é boa. As crianças se divertiram bastante e
-  todo mundo comeu bem. O valor me surpreendeu positivamente, dada a estrutura.
-* [Restaurante Santo Parque](): Ao lado do parque ecológico. Ótimo
-  estacionamento, bom playground com monitor, comida boa e ambiente legal.
+* [Mundo animal](https://maps.app.goo.gl/fBbXKdsD7ZEC92bs8): O restaurante fica
+  no centro, bem acessível, mas sem estacionamento. Fomos num sábado e estava
+  relativamente vazio. O playground é fantástico com monitor e a comida é boa.
+  As crianças se divertiram bastante e todo mundo comeu bem. O valor me
+  surpreendeu positivamente, dada a estrutura.
+* [Restaurante Santo Parque](https://maps.app.goo.gl/d3qeeWHMb95aS1vy8): Ao
+  lado do parque ecológico. Ótimo estacionamento, bom playground com monitor,
+  comida boa e ambiente legal.
 
 ### Ainda não testei, mas recebi recomendações
 
@@ -148,10 +159,10 @@ de restaurantes com espaço kids e quero deixar as minhas recomendações aqui.
 
 Tive uma ótima experiência comprando minha casa com a [Tieli
 Cardoso](https://www.tielicardoso.com.br/) e o [Jefferson
-Bonafé](https://dlbimoveis.com.br/). Ambos são gente ótimas pessoas e fizeram
-um trabalho legal para encontrar a casa que a gente precisava. O processo
-demorou meses até encontrarmos uma casa que atendia a nossa necessidade. Vimos
-dezenas de imóveis e eles foram super atenciosos.
+Bonafé](https://dlbimoveis.com.br/). Ambos são ótimas pessoas e fizeram um
+trabalho legal para encontrar a casa que a gente precisava. O processo demorou
+meses até encontrarmos uma casa que atendia a nossa necessidade. Vimos dezenas
+de imóveis (mais de 30) e eles foram super atenciosos.
 
 ### Painéis Solares
 
@@ -162,11 +173,27 @@ que eu cotei, mas gostei da qualidade do material e do serviço.
 
 ### Pet shop
 
-* [Noah pet care](https://www.instagram.com/noah.pet.care)
+* [Noah pet care](https://www.instagram.com/noah.pet.care): Levamos o nosso
+  cachorro para banho e o serviço foi bem bom. A localização ajuda também, dado
+  que é bem perto do parque ecológico.
+* [Pet Peron](https://maps.app.goo.gl/5JGzCmbdXdpZoQcL8): Gostei bastante do
+  serviço de banho deles e do atendimento. Apesar de não estar usando sempre,
+  voltaria com certeza.
+
+### Veterinário e exames pet
+
+* [Clínica veterinária Mundo Azul](https://maps.app.goo.gl/ycgj4LNKA2HxLWYS8):
+Nosso cachorro precisou de uma cirurgia e fizemos tudo com eles. Ótimo
+atendimento e tudo muito fácil. Processo super tranquilo.
 
 
 ## Médicos e clínicas
 
-* [Pro-medica](): Eles tem várias especialidades. Eu passei com a
-  ottorrinolaringologista e gostei do atendimento tanto da clínica como da
-  doutora. É um pouco ruim de marcar, mas fora isso funcionou muito bem.
+* [Pro-medica](https://maps.app.goo.gl/pxna9iK4LPGYbPLX7): Eles tem várias
+  especialidades. Eu passei com a ottorrinolaringologista e gostei do
+  atendimento tanto da clínica como da doutora. É um pouco ruim de marcar, mas
+  fora isso funcionou muito bem.
+* [ImunoVacin](https://maps.app.goo.gl/sF5vjGChZNMu5LxD8): Fomos lá dar vacina
+  nas nossas crianças e a experiência foi ótima. Também falam muito bem dos
+  médicos dessa clínica, sempre tem indicações das pessoas que moram por aqui.
+  Por enquanto, só gente falando bem.
