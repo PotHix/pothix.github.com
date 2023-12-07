@@ -104,26 +104,29 @@ Agora de volta ao [procedimento normal das cidades que eu descrevo](/places)
 ## Moradia
 
 O mais próximo do parque ecológico possível. É uma área muito boa. Tem desde
-casas, condomínios e prédios por ali, aí vai do seu gosto e orçamento.
+casas, condomínios e prédios por ali, aí vai do seu gosto e orçamento (porque a
+região é cara).
 
 
 ## Entretenimento
 
-* Magic the Gathering: [X1 Arena cards](https://www.x1arenacards.com.br/). Tem um grupo no WhatsApp para o pessoal que joga na loja também.
+* Magic the Gathering: [X1 Arena cards](https://www.x1arenacards.com.br/). Tem
+  um grupo no WhatsApp para o pessoal que joga na loja também.
 
 
 ## Comida
 
+* [Bologna Rotisserie](https://maps.app.goo.gl/BqKCd9pFCuuQEhkM8): Meu
+  restaurante delivery preferido. Bem fácil de pedir pelo WhatsApp e entregam
+  bem rapido. Os marmitex tem preço tão bom quanto do Caseiro e eu prefiro a
+  comida deles no geral.
 * [Restaurante Caseiro](https://www.instagram.com/caseiro_restaurante): Comida
   simples e preço bom. Os pratos são bem servidos.
 * [Restaurante Caipirão](https://maps.app.goo.gl/WSKELkm4XoQSeb9t8): O forte
-  deles é o parmeggiana. Já pedimos delivery e fomos até o local também. O
-  parmeggiana é bem bom e bem grande, serve varias pessoas. O restaurante
+  deles é o parmegiana. Já pedimos delivery e fomos até o local também. O
+  parmegiana é bem bom e bem grande, serve varias pessoas. O restaurante
   físico deles tem um ambiente bem legal, pena que quando visitamos eles tinham
   meio que desfeito o espaço kids.
-* [Restaurante Bologna](https://maps.app.goo.gl/BqKCd9pFCuuQEhkM8): Meu
-  restaurante delivery preferido. Bem fácil de pedir pelo WhatsApp e entregam
-  bem rapido. Não é o mais barato, mas a qualidade é bem boa.
 * [Hamburgueria O Burguês](https://goo.gl/maps/fbQhvaCttbuhFNP88): Tive
   problemas em uma entrega, mas resolveram tudo e me deram outro lanche. Curti
   o lanche no geral.
@@ -141,12 +144,17 @@ de restaurantes com espaço kids e quero deixar as minhas recomendações aqui.
 
 * [Mundo animal](https://maps.app.goo.gl/fBbXKdsD7ZEC92bs8): O restaurante fica
   no centro, bem acessível, mas sem estacionamento. Fomos num sábado e estava
-  relativamente vazio. O playground é fantástico com monitor e a comida é boa.
-  As crianças se divertiram bastante e todo mundo comeu bem. O valor me
-  surpreendeu positivamente, dada a estrutura.
+  relativamente vazio. O playground é fantástico com monitor e a comida é mais
+  ou menos. As opções nunca são saudáveis por lá. As crianças sempre se
+  divertem muito. O valor é OK dado a estrutura, mas se for só pela comida dá
+  para comer melhor em outro lugar.
 * [Restaurante Santo Parque](https://maps.app.goo.gl/d3qeeWHMb95aS1vy8): Ao
   lado do parque ecológico. Ótimo estacionamento, bom playground com monitor,
   comida boa e ambiente legal.
+* [The Cleaver burger](https://maps.app.goo.gl/si211EyjHc2vNJry6): Um esquema
+  mais burger mas com uma brinquedoteca pequena. Funciona bem para levar as
+  crianças e comer algo diferente de vez em quando. Não tem tanta coisa na
+  brinquedoteca, mas geralmente tem alguém para olhar as crianças e isso ajuda.
 
 ### Ainda não testei, mas recebi recomendações
 
@@ -187,13 +195,50 @@ Nosso cachorro precisou de uma cirurgia e fizemos tudo com eles. Ótimo
 atendimento e tudo muito fácil. Processo super tranquilo.
 
 
-## Médicos e clínicas
+## Saúde
+
+### Clínicas e vacinas
 
 * [Pro-medica](https://maps.app.goo.gl/pxna9iK4LPGYbPLX7): Eles tem várias
-  especialidades. Eu passei com a ottorrinolaringologista e gostei do
+  especialidades. Eu passei com a otorrinolaringologista e gostei do
   atendimento tanto da clínica como da doutora. É um pouco ruim de marcar, mas
   fora isso funcionou muito bem.
 * [ImunoVacin](https://maps.app.goo.gl/sF5vjGChZNMu5LxD8): Fomos lá dar vacina
   nas nossas crianças e a experiência foi ótima. Também falam muito bem dos
   médicos dessa clínica, sempre tem indicações das pessoas que moram por aqui.
   Por enquanto, só gente falando bem.
+
+
+### Para crianças
+
+* **Pediatra** Dra. Ana Paula Rodrigues Massa: A dra. Ana Paula é incrível. Ela
+  atende em clínica própria na Torre Medical. Ela tem bastante experiência e
+  sabe lidar muito bem com as crianças. Passei com os meus filhos com ela e tem
+  dado um suporte bem próximo para nós em todo o processo.
+* **Pediatra** e Alergo [Dra. Paula
+  Beatriz](https://www.instagram.com/drapaulabeatriz): Atende na Clínica
+  ImunoVacin, que é ótima. A Dra. atendeu a gente muito bem para avaliar as
+  alergias dos meus filhos. Só elogios.
+* **Dentista** [Dra. Estela Amstalden](https://maps.app.goo.gl/FnqBCtFSC7ADLHKt6)
+
+
+### Para Adultos
+
+* **Dentista**: Dr. João bosco
+
+### Exames
+
+#### Exames de Sangue
+
+* [Confiance](https://maps.app.goo.gl/LjUtkiKUebfpU1Ly8): Meus filhos fizeram
+  exames de sangue lá e o processo foi bem tranquilo. Cobre vários convênios.
+* [Centrolab](https://maps.app.goo.gl/M5tfExGkdoKTxMco8): Minha esposa fez
+  exame de sangue aqui e o processo foi bem tranquilo. Cobre vários convênios.
+
+#### Exames de imagem
+
+* [MRI](https://maps.app.goo.gl/172stEHAPHpUfyY27): Ainda não visitei, mas
+  recebi indicação de alguns médicos.
+* [Diagmed](https://maps.app.goo.gl/4RAwiGR6kKpQMQPd8): Fiz com meus filhos um
+  raio x e o resultado não foi dos melhores. Dito isso, o resto do processo foi
+  OK. Eu vou dar outra chance para eles.
