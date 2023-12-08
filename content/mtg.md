@@ -75,27 +75,6 @@ championships, but it was certainly not my experience playing Pauper there.
 There's also the online community. Great youtube channels, great content,
 people brewing new decks for fun (Strong and junk decks), etc.
 
-## My current status in Pauper
-
-I'm currently an owner of the following Pauper decks:
-
-- Mono-White Heroic
-- Temur Affinity
-- Selesnya (and sometimes Naya 😉) Slivers
-- Abzan Soul Sisters
-
-I'm a big fan of White decks and everything I do is centered in the white color,
-even if I have to corrupt it a little bit with other colors to make it a
-stronger deck.
-
-I decided to build the Temur Affinity and Selesnya Slivers because these were
-two decks I really wanted to have in 2007 but couldn't afford them. When I
-decided to get back to MTG, I realized now I had enough money to build them for
-the Pauper format.
-
-I'm currently brewing some other _white weenies_ decks for fun, but I prefer to
-not add them to the list before they are not finished and tested.
-
 ## How I test Pauper deck brews
 
 I do everything on my cellphone. I'm usually doing important stuff when I'm at
@@ -128,26 +107,16 @@ it's quite decent in this scenario.
 If I like what I see after playing against meta-game aggro decks, then I move
 forward to build it on paper or other media I'm using.
 
-## Decks I'm currently brewing
+## My current state in Pauper
 
-Some of them are copies from other decks that I'm just modifying and adding more
-stuff, but others I'm just doing from scratch.
+I usually kept a list of decks I'm brewing with more info on each of them, but
+I realized it will be quite hard to keep it updated.
 
-### Pauper Commander
+I'm a big fan of mono-White decks, and sometimes I use corrupt white by adding
+other colors alongside it 😅. 
 
-#### Brews
-
-* [Phalanx leader](https://manabox.app/decks/d6K6xnVASf-USpmxDR4q5w)
-* [Hamza creatures](https://manabox.app/decks/RkSXe4FBReGLPUbWUDbktA)
-* [Satyr enchanter](https://manabox.app/decks/7csYeMm2Tg2OjYs9fxcVag)
-* [Mesa enchantress](https://manabox.app/decks/Ifru__VCRLqPRwsJtw0B0Q)
-* [Kor Blademaster](https://manabox.app/decks/hQrQwxMaTi-yMmf2SmQ3FA)
-* [Reyav Double strike](https://manabox.app/decks/mNOaFnNwSP2kHVKtW8DESA)
-* [Illuminator virtuoso](https://manabox.app/decks/F_Qqv5EpSOGMhxW0zlvPqQ)
-* [Siona Tokens](https://manabox.app/decks/Tcwp3gc6Q_6R4ExbpvAsuA)
-
-### Pauper
-
-* [Mono-white Vigilance](https://manabox.app/decks/V6ermW6SSJSulI6jOdhX_g)
-* [Chimera Weenies](https://manabox.app/decks/KLDT8vA7QDyOM-a9NC6hbg)
-* [Mono-white Soldiers](https://manabox.app/decks/e38-mnc9R5eyK-0v7Wnzlw)
+I first started with Mono-white Heroic, and then built a Selesnya Slivers. I
+still like to play with both, but my current obsession is a Mono-White deck
+that I call "Mono White Bully". It's a deck similar in strategy to Boros Bully,
+but betting on Raffine's informant and Guardians' pledge instead of Faithless
+looting and Rally the peasants. Such a great deck.
