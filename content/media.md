@@ -18,6 +18,7 @@ can understand, if any.
 
 Date       | Lang  | Episode title
 ---------- | ----- | -------------
+2023-12-12 | pt-BR | [Trabalho remoto e async](https://www.youtube.com/watch?v=tfiFRyt28eA)
 2021-10-26 | pt-BR | [A linguagem Rust](https://hipsters.tech/rust-hipsters-ponto-tech-276/)
 2021-04-30 | pt-BR | [Todoist e trabalho remoto](https://fechatagpodcast.com.br/)
 2019-10-01 | pt-BR | [Cultura de aprendizado](https://hipsters.tech/cultura-de-aprendizado-hipsters-168/)
@@ -58,6 +59,9 @@ Date       | Lang  | Magazine
 
 Date       | Lang  | Magazine
 ---------- | ----- | -------------
+2023-01-27 | pt-BR | [Entrevistando PotHix: desenvolvedor na Doist](https://blogorganize.com/entrevistando-pothix-desenvolvedor-de-software/)
+2021-02-16 | en    | [Todoist blog: How to craft a perfect daily schedule](https://todoist.com/inspiration/daily-schedule)
+2018-06-29 | en    | [Todoist blog: Quantified self](https://todoist.com/inspiration/quantified-self-apps)
 2017-04-12 | pt-BR | [Training center: Como é trabalhar como software developer](https://medium.com/trainingcenter/como-%C3%A9-trabalhar-como-software-developer-por-willian-molinari-o-pothix-6da503d07b0)
 2013-01-31 | en    | [Gamedev tuts+: What Is "Client-Side Prediction"?](https://gamedevelopment.tutsplus.com/articles/gamedev-glossary-what-is-client-side-prediction--gamedev-3849)
 2012-10-30 | en    | [Gamedev tuts+: What Is the “Game Loop”?](https://gamedevelopment.tutsplus.com/articles/gamedev-glossary-what-is-the-game-loop--gamedev-2469)
