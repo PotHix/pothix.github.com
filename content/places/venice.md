@@ -38,7 +38,7 @@ As usual, we went to a walking tour and it was quite nice.
 
 I certainly recommend our guide. Some nice recommendations and good history about Venice while walking around the city.
 
-https://www.guruwalk.com/walks/41773-free-tour-secret-and-mysterious-venice-the-jewish-ghetto-and-cannaregio
+<https://www.guruwalk.com/walks/41773-free-tour-secret-and-mysterious-venice-the-jewish-ghetto-and-cannaregio>
 
 ### Basilica San Marco
 

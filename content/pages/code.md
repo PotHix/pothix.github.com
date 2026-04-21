@@ -1,4 +1,5 @@
 +++
+path = "/code/"
 title = "Code"
 aliases = [
   "mywork.html",

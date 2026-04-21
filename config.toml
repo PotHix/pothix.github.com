@@ -76,9 +76,9 @@ name = "Now"
 url = "/now"
 
 [[extra.menu]]
-name = "Talks"
-url = "/talks"
-
-[[extra.menu]]
 name = "Tags"
 url = "/tags"
+
+[[extra.menu]]
+name = "Talks"
+url = "/talks"

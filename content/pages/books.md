@@ -1,4 +1,5 @@
 +++
+path = "/books/"
 title = "Books"
 date = 2021-02-14
 
@@ -32,4 +33,4 @@ navigating with him while he wrote the books I love.
 The fact that he only had one manuscript of the Lord of the Rings and had to
 lend it to his editor is mind-blowind to someone reading it now in 2020. 🤯
 
-Full review: https://pothix.com/tolkienbio/
+Full review: <https://pothix.com/tolkienbio/>

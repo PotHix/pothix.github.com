@@ -1,4 +1,5 @@
 +++
+path = "/talks/"
 title = "Presentations"
 aliases = [
   "speaking"

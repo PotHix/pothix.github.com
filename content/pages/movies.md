@@ -1,4 +1,5 @@
 +++
+path = "/movies/"
 title = "Movies"
 date = 2021-02-14
 

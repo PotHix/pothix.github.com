@@ -1,4 +1,5 @@
 +++
+path = "/articles/"
 aliases = []
 title = "Desconstruindo a web"
 

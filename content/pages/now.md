@@ -1,4 +1,5 @@
 +++
+path = "/now/"
 title = "What is happening now"
 
 [taxonomies]

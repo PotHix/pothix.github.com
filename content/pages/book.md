@@ -1,4 +1,5 @@
 +++
+path = "/book/"
 aliases = [
   "writing.html",
   "writing",

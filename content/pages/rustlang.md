@@ -1,4 +1,5 @@
 +++
+path = "/rustlang/"
 title = "Rustlang and me"
 
 [taxonomies]

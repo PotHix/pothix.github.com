@@ -1,4 +1,5 @@
 +++
+path = "/about/"
 aliases = [
   "about.html",
   "blog",

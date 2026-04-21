@@ -1,4 +1,5 @@
 +++
+path = "/politics/"
 title = "Politics"
 +++
 I usually don't talk much about politics, mostly because it usually do not worth

@@ -1,4 +1,5 @@
 +++
+path = "/mtg/"
 title = "Magic The Gathering"
 date = 2021-02-09
 

@@ -1,4 +1,5 @@
 +++
+path = "/media/"
 title = "Media"
 
 [extra]

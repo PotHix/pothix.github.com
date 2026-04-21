@@ -1,4 +1,5 @@
 +++
+path = "/wishlist/"
 title = "Gifts I want to receive"
 aliases = [
   "gifts",

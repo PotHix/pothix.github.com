@@ -43,7 +43,7 @@ delay this time. Our train got late by ~50 minutes.
 - **Walking tour**: We did the tour with Gabriel and it was very good. The guy
   is brazilian, so it was even better for us as we had some conversations after
   the tour. Even if you're not brazilian, I totally recommend it:
-  https://www.florencefreetourtale.com/ren-tips-tourtale-gabri-2022
+  <https://www.florencefreetourtale.com/ren-tips-tourtale-gabri-2022>
 - **Basilica Santa Maria del Fiori**: You can get in for free, but there's a
   giant line to get in. We went there at the end of the afternoon and the line
   was less bad. The second time I went to Florence, I was able to get the
