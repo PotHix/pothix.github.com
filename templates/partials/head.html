@@ -8,17 +8,6 @@
 <meta name="theme-color" content="{{ config.extra.favicon.color.theme }}" />
 {% if page is defined %}<link rel="canonical" href="{{ page.permalink }}" />{% endif %}
 
-<title>
-    {% if current_path is defined and current_path == "/" %}
-        {{ config.title }}
-    {% elif page is defined %}
-        {{ page.title }} :: {{ config.title }}
-    {% elif section is defined %}
-        {{ section.title }} :: {{ config.title }}
-    {% else %}
-        {{ config.title }}
-    {% endif %}
-</title>
 
 <!-- CSS -->
 <link rel="stylesheet" href="/main.css">

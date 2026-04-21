@@ -2,6 +2,23 @@
 <html lang="{{ config.default_language }}">
     <head>
         {% include "partials/head.html" %}
+        <title>
+            {% block title %}
+                {% if current_path is defined and current_path == "/" %}
+                    {{ config.title }}
+                {% elif page is defined %}
+                    {{ page.title }} :: {{ config.title }}
+                {% elif term is defined %}
+                    {{ term.name }} :: {{ config.title }}
+                {% elif taxonomy is defined %}
+                    {{ taxonomy.name | capitalize }} :: {{ config.title }}
+                {% elif section is defined %}
+                    {{ section.title }} :: {{ config.title }}
+                {% else %}
+                    {{ config.title }}
+                {% endif %}
+            {% endblock title %}
+        </title>
     </head>
 
     <body>

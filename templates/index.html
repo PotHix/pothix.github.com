@@ -1,14 +1,18 @@
 {% extends "base.html" %}
 {% block content %}
-    {% set posts_section = get_section(path="posts/_index.md") %}
-
     <main class="posts">
         {% if section.content %}
             <div class="content">{{ section.content | safe }}</div>
         {% endif %}
 
+        {% if paginator %}
+            {% set pages = paginator.pages %}
+        {% else %}
+            {% set pages = section.pages %}
+        {% endif %}
+
         <ul class="posts-list">
-            {% for page in posts_section.pages %}
+            {% for page in pages %}
                 <li class="post-item" style="padding:10px 0">
                     <a href="{{ page.permalink }}">
                         <span class="post-title" style="text-transform: uppercase">{{ page.title }}{% if page.draft %}<strong> :: Draft</strong>{% endif %}</span>
@@ -16,9 +20,15 @@
                             {{ page.date | date(format=config.extra.dateformShort) }}
                         </span>
                     </a>
-                    {% if page.summary %}<p>{{ page.summary | striptags | safe }}</p>{% endif %}
+                    {% if page.summary %}
+                        <p>{{ page.summary | striptags | safe }}</p>
+                    {% elif page.content %}
+                        <p>{{ page.content | striptags | trim | truncate(length=500) }}</p>
+                    {% endif %}
                 </li>
             {% endfor %}
         </ul>
+
+        {% include "partials/pagination.html" %}
     </main>
 {% endblock %}

@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "partials/toc.html" as toc %}
 {% block content %}
     <main class="post">
 
@@ -20,7 +21,7 @@
                 <hr />
                 <aside id="toc">
                 <div class="toc-title">Table of Contents</div>
-                    {{ page.toc | safe }}
+                    {{ toc::render(items=page.toc) }}
                 </aside>
                 <hr />
             {% endif %}
