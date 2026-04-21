@@ -16,7 +16,7 @@ coisa inútil durante 4 anos...) e aprendendo bastante coisa. Nos ultimos meses
 eu li vários code reviews dos códigos do Quake e do Doom.
 
 Os review foram feitos por Fabien Anglard e estão todos disponíveis no site dele
-[http://fabiensanglard.net](http://fabiensanglard.net).
+[<http://fabiensanglard.net>](http://fabiensanglard.net).
 
 O primeiro artigo que eu li foi sobre o
 [code review do código do Quake 2 de 1997](http://fabiensanglard.net/quake2/index.php).
@@ -28,15 +28,15 @@ quem é programador e curte Quake é uma ótima leitura.
 Uma coisa muito interessante que vi na leitura desse artigo foi que eu acabei
 estudando várias outras coisas para poder entender o artigo, como:
 
-* BSP trees: [http://downloads.gamedev.net/pdf/gpbb/gpbb59.pdf](http://downloads.gamedev.net/pdf/gpbb/gpbb59.pdf)
-* Octree: [http://en.wikipedia.org/wiki/Octree](http://en.wikipedia.org/wiki/Octree)
-* Memory management: [http://www.ualberta.ca/CNS/RESEARCH/LinuxClusters/mem.html](http://www.ualberta.ca/CNS/RESEARCH/LinuxClusters/mem.html)
-* Radiosity: [http://freespace.virgin.net/hugo.elias/radiosity/radiosity.htm ](http://freespace.virgin.net/hugo.elias/radiosity/radiosity.htm) (esse artigo é animal)
+* BSP trees: [<http://downloads.gamedev.net/pdf/gpbb/gpbb59.pdf>](http://downloads.gamedev.net/pdf/gpbb/gpbb59.pdf)
+* Octree: [<http://en.wikipedia.org/wiki/Octree>](http://en.wikipedia.org/wiki/Octree)
+* Memory management: [<http://www.ualberta.ca/CNS/RESEARCH/LinuxClusters/mem.html>](http://www.ualberta.ca/CNS/RESEARCH/LinuxClusters/mem.html)
+* Radiosity: [<http://freespace.virgin.net/hugo.elias/radiosity/radiosity.htm> ](http://freespace.virgin.net/hugo.elias/radiosity/radiosity.htm) (esse artigo é animal)
 
 E outras coisas do mesmo genero.
 
 Com o lançamento do código do DOOM 3 open source, mais um code review foi
-escrito: [http://fabiensanglard.net/doom3/](http://fabiensanglard.net/doom3/),
+escrito: [<http://fabiensanglard.net/doom3/>](http://fabiensanglard.net/doom3/),
 e nesse review ele explica como a parte de iluminação (que era a grande
 funcionalidade do Doom 3) foi feita e quais as técnicas foram utilizadas.
 Apesar de eu conhecer pouco de renderização e algoritmos de iluminação é

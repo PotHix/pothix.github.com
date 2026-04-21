@@ -19,7 +19,7 @@ lembrasse de alguns muito bons. Vamos lá!
 
 #### yUML<
 
-O [yUML]( http://yuml.me/diagram/scruffy/class/samples "yUML") é um serviço para se criar [UML]( http://yuml.me/diagram/scruffy/class/samples "UML na wikipedia") facilmente utilizando apenas uma URL com determinadas marcações.
+O [yUML]( <http://yuml.me/diagram/scruffy/class/samples> "yUML") é um serviço para se criar [UML]( <http://yuml.me/diagram/scruffy/class/samples> "UML na wikipedia") facilmente utilizando apenas uma URL com determinadas marcações.
 O caike que me mostrou no ultimo post quando eu tinha mencionado sobre criação de[ UML](http://yuml.me/diagram/scruffy/class/samples "UML na wikipedia"). Valeu [Caike](http://www.caikesouza.com/blog/ "Blog do Caike")!
 
 #### Gliffy

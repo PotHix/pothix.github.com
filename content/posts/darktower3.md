@@ -34,5 +34,5 @@ Here are my raw notes about the book:
 - North central positronics, a empresa por trás ta tecnologia do urso.
 - Susannah perguntou para o pai se Deus existe e ele respondeu que talvez até exista, mas depois que matamos o seu filho ele provavelmente não liga mais para nós
 - Deus fala com a gente. To mundo provavelmente ouve sua voz, mas essa voz fala o que você quer ouvir
-- The lottery story by Shirley Jackson https://www.newyorker.com/magazine/1948/06/26/the-lottery
+- The lottery story by Shirley Jackson <https://www.newyorker.com/magazine/1948/06/26/the-lottery>
 - As perguntas do blaine lembram riddles in the dark do Hobbit

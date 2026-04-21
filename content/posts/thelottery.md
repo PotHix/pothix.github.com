@@ -26,4 +26,4 @@ good things will not happen anymore.
 
 It's a very short story, but makes us think about many things. Totally worth
 reading, IMO. There's even an audio version, which I recommend:
-https://www.newyorker.com/magazine/1948/06/26/the-lottery
+<https://www.newyorker.com/magazine/1948/06/26/the-lottery>

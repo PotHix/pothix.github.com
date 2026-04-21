@@ -24,7 +24,7 @@ My notes on each topic:
 
 ## Teams
 
-- He explains the results of project Aristotle from Google. You don't need stars on your team, you must have a team that cares for each other, where all opinions matter. Read more about https://en.wikipedia.org/wiki/Psychological_safety
+- He explains the results of project Aristotle from Google. You don't need stars on your team, you must have a team that cares for each other, where all opinions matter. Read more about <https://en.wikipedia.org/wiki/Psychological_safety>
 
 ## Focus
 

@@ -92,7 +92,7 @@ exemplos de como usar no [Railscasts] e na [própria página do plugin].
 
 Espero que seja útil para mais alguem como está sendo para mim.
 
-  [Railscasts]: http://www.railscasts.com
-  [própria página do plugin]: http://github.com/javan/whenever
+  [Railscasts]: <http://www.railscasts.com>
+  [própria página do plugin]: <http://github.com/javan/whenever>
 
 

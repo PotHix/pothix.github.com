@@ -131,9 +131,9 @@ Espero que essas informações sejam úteis para mais alguém.
 
 Qualquer dúvida ou sugestão deixe nos comentários. :)
 
-[Post do Caike sobre Pair programming remoto usando screen]: http://www.caikesouza.com/blog/2009/05/remote-pair-programming-with-screen/
-[Post do Qmx sobre pair programming usando screen]: http://qmx.me/pair%20programming
-[@mateuslinhares]: http://twitter.com/mateuslinhares
+[Post do Caike sobre Pair programming remoto usando screen]: <http://www.caikesouza.com/blog/2009/05/remote-pair-programming-with-screen/>
+[Post do Qmx sobre pair programming usando screen]: <http://qmx.me/pair%20programming>
+[@mateuslinhares]: <http://twitter.com/mateuslinhares>
 
 
 

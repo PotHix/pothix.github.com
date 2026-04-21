@@ -21,7 +21,7 @@ Se você usa Ubuntu, você pode fazer download do Monit por apt-get:
     sudo apt-get install monit
 
 Se você não usa Ubuntu ou quer a ultima versão do Monit, então faça
-download do tar.gz http://mmonit.com/monit/download/ e compile.
+download do tar.gz <http://mmonit.com/monit/download/> e compile.
 
 O Monit tem 2 dependencias:
 

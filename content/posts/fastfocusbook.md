@@ -12,7 +12,7 @@ tags = [
 Book: [Fast Focus: A Quick-Start Guide To Mastering Your Attention, Ignoring Distractions, And Getting More Done In Less Time!](https://www.goodreads.com/book/show/33780690) by Damon Zahariades. Rating: ⭐️⭐️⭐️⭐️.
 
 It's a good book overall. I was between 4 and 5 for this one.
-It shares some great insights with [b:When: The Scientific Secrets of Perfect Timing|35412097|When The Scientific Secrets of Perfect Timing|Daniel H. Pink|https://images.gr-assets.com/books/1502223427s/35412097.jpg|56779991][b:When: The Scientific Secrets of Perfect Timing|35412097|When The Scientific Secrets of Perfect Timing|Daniel H. Pink|https://images.gr-assets.com/books/1502223427s/35412097.jpg|56779991] and [b:Deep Work: Rules for Focused Success in a Distracted World|25744928|Deep Work Rules for Focused Success in a Distracted World|Cal Newport|https://images.gr-assets.com/books/1447957962s/25744928.jpg|45502249], which are also amazing books.
+It shares some great insights with [b:When: The Scientific Secrets of Perfect Timing|35412097|When The Scientific Secrets of Perfect Timing|Daniel H. Pink|<https://images.gr-assets.com/books/1502223427s/35412097.jpg|56779991>][b:When: The Scientific Secrets of Perfect Timing|35412097|When The Scientific Secrets of Perfect Timing|Daniel H. Pink|<https://images.gr-assets.com/books/1502223427s/35412097.jpg|56779991>] and [b:Deep Work: Rules for Focused Success in a Distracted World|25744928|Deep Work Rules for Focused Success in a Distracted World|Cal Newport|<https://images.gr-assets.com/books/1447957962s/25744928.jpg|45502249>], which are also amazing books.
 
 This book is short and full of great advices.
 

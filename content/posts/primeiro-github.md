@@ -79,7 +79,7 @@ E lá está o seu código no GitHub! :)
 Tudo que eu falei aqui está no tutorial do GitHub quando você cria um
 diretório:
 
-[http://github.com/guides/setting-up-a-remote-repository-using-github-and-osx](http://github.com/guides/setting-up-a-remote-repository-using-github-and-osx "")
+[<http://github.com/guides/setting-up-a-remote-repository-using-github-and-osx>](http://github.com/guides/setting-up-a-remote-repository-using-github-and-osx "")
 
 Por enquanto é isso! Algo bem simples só para você não se assustar
 quando lhe falarem de GitHub.

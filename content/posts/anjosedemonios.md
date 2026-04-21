@@ -72,7 +72,7 @@ já conhece as histórias do [Dan Brown] como para quem nunca leu nenhum
 livro e tem curiosidade. E apenas para lembrar… **NÃO** veja o filme
 se você já leu o livro. 😉
 
-[Dan Brown]: http://pt.wikipedia.org/wiki/Dan_Brown
+[Dan Brown]: <http://pt.wikipedia.org/wiki/Dan_Brown>
 
 
 

@@ -14,7 +14,7 @@ Book: [The Secrets of Story: Innovative Tools for Perfecting Your Fiction and Ca
 A great book on how to write books. 4.5 stars.
 
 The book goes through many problems and misconceptions behind writing a fiction book.
-In the book blog, you can find a big checklist with many questions your book has to answer: http://www.secretsofstory.com/2014/09/the-ultimate-story-checklist-raising.html
+In the book blog, you can find a big checklist with many questions your book has to answer: <http://www.secretsofstory.com/2014/09/the-ultimate-story-checklist-raising.html>
 
 There are many examples around each of these topics throughout the book. Here are some notes:
 

@@ -68,7 +68,7 @@ Here are my notes about this book:
 * Tolerating bad performance is unfair to people performing well
 * Say thank you. it's a simple gesture and makes a huge difference for the employee
 * Don't announce promotions if it doesn't make sense for the other employees (new responsibilities)
-* There is a chart about micro management vs. Partnership. This article describes it: http://firstround.com/review/warning-this-is-not-your-grandfathers-talent-planning/
+* There is a chart about micro management vs. Partnership. This article describes it: <http://firstround.com/review/warning-this-is-not-your-grandfathers-talent-planning/>
 * If people are canceling 1-1 frequently is because your partnership is not worth enough
 * If you're not receiving enough criticism, people are not feeling safe sharing it with you
 * Google employees do team update snippets to share with the team

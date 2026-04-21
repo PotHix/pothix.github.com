@@ -249,26 +249,26 @@ por que ficou ótimo!
 Se quiser ver as fotos que eu tirei no evento veja [o album no meu
 picasaweb].
 
-[Carlos Brando]: http://twitter.com/carlosbrando "Carlos Brando"
-[r4f4e1]: http://twitter.com/r4f4e1 "Rafael"
-[Vinícius Baggio]: http://twitter.com/vinibaggio "Vinicius Baggio"
-[Shadow]: http://twitter.com/shadow11 "Ricardo Yasuda"
-[Agaelebe]: http://twitter.com/agaelebe "Hugo Borges"
-[Akita]: http://akitaonrails.com
-[Rafael Rosa]: http://rafaelrosafu.com/ "Rafael Rosa Fu"
-[Thiago Scalone]: http://twitter.com/scalone "Thiago Scalone"
-[o album no meu picasaweb]: http://picasaweb.google.com/Willian.molinari/20091013RailsSummit?feat=directlink "Album do Rails Summit no Picasa"
-[Tapajós]: http://improveit.com.br/empresa/tapajos "Tapajós na improve-it"
-[Bruno Miranda]: http://twitter.com/brupm "Twitter do Bruno Miranda"
-[Jason Seifer]: http://jasonseifer.com/ "Jason Seifer"
-[Guru-sp apresentando o grupo e falando sobre o crescimento e futuras atividades]: http://blip.tv/file/2728861 "Guru-sp falando no Rails Summit"
-[ThoughtWorks]: http://www.thoughtworks.com/ "ThoughtWorks"
-[ikwa]: http://www.ikwa.com.br "Ikwa Orientação Profissional"
-[Carlos Vilela]: http://twitter.com/cv "Carlos Vilela no Twitter"
-[Nando Vieira]: http://simplesideias.com.br/ "Simples Ideias - Por Nando Vieira"
-[RSpec]: http://rspec.info/ "RSpec"
-[Cucumber]: http://cukes.info/ "Cucumber page"
-[madmimi]: http://madmimi.com/ "madmimi"
+[Carlos Brando]: <http://twitter.com/carlosbrando> "Carlos Brando"
+[r4f4e1]: <http://twitter.com/r4f4e1> "Rafael"
+[Vinícius Baggio]: <http://twitter.com/vinibaggio> "Vinicius Baggio"
+[Shadow]: <http://twitter.com/shadow11> "Ricardo Yasuda"
+[Agaelebe]: <http://twitter.com/agaelebe> "Hugo Borges"
+[Akita]: <http://akitaonrails.com>
+[Rafael Rosa]: <http://rafaelrosafu.com/> "Rafael Rosa Fu"
+[Thiago Scalone]: <http://twitter.com/scalone> "Thiago Scalone"
+[o album no meu picasaweb]: <http://picasaweb.google.com/Willian.molinari/20091013RailsSummit?feat=directlink> "Album do Rails Summit no Picasa"
+[Tapajós]: <http://improveit.com.br/empresa/tapajos> "Tapajós na improve-it"
+[Bruno Miranda]: <http://twitter.com/brupm> "Twitter do Bruno Miranda"
+[Jason Seifer]: <http://jasonseifer.com/> "Jason Seifer"
+[Guru-sp apresentando o grupo e falando sobre o crescimento e futuras atividades]: <http://blip.tv/file/2728861> "Guru-sp falando no Rails Summit"
+[ThoughtWorks]: <http://www.thoughtworks.com/> "ThoughtWorks"
+[ikwa]: <http://www.ikwa.com.br> "Ikwa Orientação Profissional"
+[Carlos Vilela]: <http://twitter.com/cv> "Carlos Vilela no Twitter"
+[Nando Vieira]: <http://simplesideias.com.br/> "Simples Ideias - Por Nando Vieira"
+[RSpec]: <http://rspec.info/> "RSpec"
+[Cucumber]: <http://cukes.info/> "Cucumber page"
+[madmimi]: <http://madmimi.com/> "madmimi"
 
 
 

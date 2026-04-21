@@ -23,7 +23,7 @@ Estou aproveitando para testar a plataforma do loja integrada, mas os
 pagamentos eu prefiro que sejam por depósito mesmo, e se possível marcamos a
 entrega pessoalmente.
 
-Dá para acessar a loja pelo link [http://loja.pothix.com](http://loja.pothix.com)
+Dá para acessar a loja pelo link [<http://loja.pothix.com>](http://loja.pothix.com)
 (redireciona para a [lojaintegrada](http://pothix.lojaintegrada.com.br)).
 
 Espero conseguir vender essas paradas o quanto antes. :)

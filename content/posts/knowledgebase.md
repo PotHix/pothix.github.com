@@ -172,7 +172,7 @@ Here is how I approached it:
    my
    blog](https://github.com/PotHix/pothix-codes/tree/master/rust/goodreads-to-hugo)
    (I'm using all the chances I have to play with Rust).  The project generated
-   pages like this: https://pothix.com/deepworkbook/.
+   pages like this: <https://pothix.com/deepworkbook/>.
 6. Now that I had all the content in markdown on my blog, I imported the whole
    blog on [Roam Research](https://roamresearch.com) and started fixing the
    formatting (removing front-matter, etc.) and linking to other content there.

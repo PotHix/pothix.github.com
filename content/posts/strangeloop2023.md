@@ -75,7 +75,7 @@ vulnerable. The talk was nice.
 -  The phone is not always connected, it's mostly on idle mode waiting for the trigger to "wake up".
 - In 2G, some clients even use a NOCIPHER, to not have encryption.
 - Atlas of surveillance. org
-- Swearing trojan from China (2017) - Link I read in the internet: https://www.linkedin.com/pulse/chinese-hackers-use-fake-cellphone-tower-spread-stu-sjouwerman/
+- Swearing trojan from China (2017) - Link I read in the internet: <https://www.linkedin.com/pulse/chinese-hackers-use-fake-cellphone-tower-spread-stu-sjouwerman/>
 - Broadcast of SMS may not be authenticated and attacks happen.
 - Phones that still accept 2G are vulnerable. Android has a "Allow 2G" option that can be disabled.
 - In AOSP, the hardware/interfaces/radio/1.6 directory contains the code to handle versions.
@@ -96,7 +96,7 @@ over it to fix bigger problems. Be sure you can change/rewrite/add more small
 pieces of the solution.
 
 - Talk by [Luke Francl](https://github.com/look)
-- https://github.com/look/lessons-from-ghcs
+- <https://github.com/look/lessons-from-ghcs>
 - Blackbird is the name of the search engine
 - The goal of the system is to ask programmer's questions
 - We rewrote it in rust 🦀

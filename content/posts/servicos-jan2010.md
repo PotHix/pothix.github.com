@@ -43,7 +43,7 @@ mandar sua aplicação para o heroku (estou assumindo que vc usa Git):
 * `heroku create nome_do_proj`
 * `git push heroku master`
 
-E pronto! Sua aplicação já estará disponível em http://nome_do_proj.heroku.com
+E pronto! Sua aplicação já estará disponível em <http://nome_do_proj.heroku.com>
 
 #### Caliper ####
 

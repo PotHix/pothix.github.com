@@ -28,4 +28,4 @@ As usual, there is some good information here as well. Here are my notes:
 
 They don't say that as "you must do it!" or "you have to complete this checklist to be a minimalist" but instead, they show some ways to live a better life and recommend you to experiment with them.
 
-I really recommend you to check out their website in case you're interested in the whole minimalism thing. https://www.theminimalists.com/start/
+I really recommend you to check out their website in case you're interested in the whole minimalism thing. <https://www.theminimalists.com/start/>
