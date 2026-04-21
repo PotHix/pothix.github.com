@@ -1,10 +1,12 @@
 +++
-type = "page"
-layout = "title_subtitle"
 title = "Places"
+sort_by = "date"
+template = "section.html"
+page_template = "page.html"
+
+[extra]
 subtitle = "Places I visited"
 +++
-
 It's been a while since I wanted to list the places I visited, especially
 because people usually ask me to list them or give more information about
 places they want to visit. The plan is to add links and pictures to many of the

@@ -1,4 +1,5 @@
 +++
+path = "foraie6"
 title = "Fora IE6"
 aliases=[
   "post/fora-ie6",
@@ -6,9 +7,10 @@ aliases=[
   "blog/development/fora-ie6"
 ]
 date = "2009-01-12"
+
+[taxonomies]
 tags = ["tech"]
 +++
-
 Já está mais do que na hora de eu fazer um post sobre isso, e acho que
 não há momento mais propício do que esse afinal, até o Google já está
 dando alertas[sobre isso no Gmail](http://www.tgdaily.com/html_tmp/content-view-40785-140.html "Google corta o suporte ao IE6 no Gmail").

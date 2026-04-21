@@ -1,12 +1,14 @@
 +++
+path = "archlinux"
 title = "My Archlinux setup"
 date = "2017-08-05"
-tags = ["english"," tech"]
 aliases=[
   "post/my-archlinux-setup"
 ]
-+++
 
+[taxonomies]
+tags = ["english"," tech"]
++++
 I was playing with Archlinux in the last 3 or 4 years and last year I decided to
 reboot my configuration files and start using Xfce.
 

@@ -1,12 +1,14 @@
 +++
+path = "louderthanwords"
 title = "Review of Louder Than Words: The New Science of How the Mind Makes Meaning"
 date = 2017-06-05
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Louder Than Words: The New Science of How the Mind Makes Meaning](https://www.goodreads.com/book/show/13587146) by Benjamin K. Bergen. Rating: ⭐️⭐️⭐️.
 
 A good book, but maybe it's not for me.

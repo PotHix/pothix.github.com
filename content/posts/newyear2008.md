@@ -1,13 +1,15 @@
 +++
+path = "newyear2008"
 title = "New year is coming"
 date = "2008-12-31"
-tags = ["personal","english"]
 aliases=[
   "post/new-year-is-coming",
   "2008/12/31/new-year-is-coming.html"
 ]
-+++
 
+[taxonomies]
+tags = ["personal","english"]
++++
 Estou apenas postando para dizer que nesse novo ano eu pretendo postar
 mais sobre programação! Essa é a primeira virada de ano desse blog,
 então resolvi postar meus "planos" para o próximo ano.

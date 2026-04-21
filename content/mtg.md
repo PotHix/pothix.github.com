@@ -1,11 +1,12 @@
 +++
 title = "Magic The Gathering"
 date = 2021-02-09
+
+[taxonomies]
 tags = [
     "english",
 ]
 +++
-
 ## Some context
 
 I'm a big fan of Magic The Gathering (or MTG) since the first time I played it

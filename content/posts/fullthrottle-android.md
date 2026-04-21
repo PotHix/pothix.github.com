@@ -1,4 +1,5 @@
 +++
+path = "fullthrottle-android"
 title = "Instalando o Full Throttle no Motorola Milestone"
 aliases=[
   "post/instalando-o-full-throttle-no-motorola-milestone",
@@ -6,9 +7,10 @@ aliases=[
   "blog/android/instalando-o-full-throttle-no-motorola-milestone"
 ]
 date = "2011-03-03"
+
+[taxonomies]
 tags = ["android","games","motorcycles"]
 +++
-
 [![Foto do full throtle rodando no meu notebook toshiba](/images/posts/full_throtle_pothix.jpg "Full throtle rodando no meu toshiba")](/images/posts/full_throtle_pothix.jpg "")
 
 Logo depois que eu comprei a minha

@@ -1,12 +1,14 @@
 +++
+path = "kullervo"
 title = "Review de A história de Kullervo"
 date = 2017-02-01
+
+[taxonomies]
 tags = [
     "books",
     "tolkien",
 ]
 +++
-
 Book: [A história de Kullervo](https://www.goodreads.com/book/show/33846671) by J.R.R. Tolkien. Rating: ⭐️⭐️⭐️.
 
 Um livro para quem é fã de Tolkien.

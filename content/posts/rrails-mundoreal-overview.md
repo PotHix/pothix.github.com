@@ -1,4 +1,5 @@
 +++
+path = "rrails-mundoreal-overview"
 title = "Ruby e Rails no mundo real"
 aliases=[
   "post/ruby-e-rails-no-mundo-real-overview",
@@ -6,9 +7,10 @@ aliases=[
   "blog/events/ruby-e-rails-no-mundo-real-overview"
 ]
 date = "2009-04-07"
+
+[taxonomies]
 tags = ["events","tech","ruby"]
 +++
-
 Como muitos leitores do Blog sabem, eu palestrei no Evento
 "[Ruby e Rails no mundo real](http://www.temporealeventos.com.br/?area=130 "Ruby e Rails no mundo real")",
 e vou fazer um pequeno overview desse evento que eu

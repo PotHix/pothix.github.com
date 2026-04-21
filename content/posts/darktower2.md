@@ -1,12 +1,14 @@
 +++
+path = "darktower2"
 title = "Review of The Drawing of the Three (The Dark Tower, #2)"
 date = 2021-04-21
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Drawing of the Three (The Dark Tower, #2)](https://www.goodreads.com/review/show/1631915639) by Stephen King. Rating: ⭐️⭐️⭐️⭐️.
 
 What a surprise! I enjoyed listening to this book. I have the whole series of books (printed version) here and decided to listen to the first one some years ago. I was not very impressed by it and decided to put the who series aside for some time. Last month I decided to give the second book a shot.

@@ -1,12 +1,14 @@
 +++
+path = "strangeloop2023"
 title = "StrangeLoop 2023"
 date = 2023-10-12
+
+[taxonomies]
 tags = [
     "english",
     "tech",
 ]
 +++
-
 I've been following the StrangeLoop conference for about 10 years now. Watching
 some of the talks online, talking to friends who had the chance to attend in
 the past, and following the news from time to time.

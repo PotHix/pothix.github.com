@@ -1,10 +1,12 @@
 +++
+path = "locaweb"
 date = "2017-06-14T11:26:10-03:00"
 title = "7 anos de Locaweb e a saida"
-tags = ["career"]
 aliases=["post/7-anos-de-locaweb-e-a-saida"]
-+++
 
+[taxonomies]
+tags = ["career"]
++++
 **TL;DR**: Esse mês eu completaria 7 anos trabalhando para a Locaweb, mas decidi
 sair no dia 2 de junho. Nada demais, só procurando coisas diferentes
 

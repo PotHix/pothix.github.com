@@ -1,4 +1,5 @@
 +++
+path = "metallica2010"
 title = "Show do Metallica"
 aliases=[
   "post/show-do-metallica",
@@ -6,9 +7,10 @@ aliases=[
   "blog/music/show-do-metallica"
 ]
 date = "2010-02-02"
+
+[taxonomies]
 tags = ["events"]
 +++
-
 E vou para um assunto meio OFF no meu blog (ou não), que é falar de
 shows que vou, nesse caso o do Metallica!
 

@@ -1,4 +1,5 @@
 +++
+path = "palestra-vim"
 title = "Palestra sobre Vim"
 aliases=[
   "post/palestra-sobre-vim",
@@ -6,9 +7,10 @@ aliases=[
   "blog/presentation/palestra-sobre-vim"
 ]
 date = "2010-03-29"
+
+[taxonomies]
 tags = ["events","linux","speaking","tech","vim"]
 +++
-
 Esse vai ser um post curto, apenas para deixar registrado algumas
 informações sobre a palestra de Vim que teve no sétimo encontro do
 Guru-sp (sim, eu fui o palestrante :D).

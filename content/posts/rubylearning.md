@@ -1,4 +1,5 @@
 +++
+path = "rubylearning"
 title = "Aprenda Ruby no Rubylearning"
 aliases=[
   "post/aprenda-ruby-no-rubylearning",
@@ -6,9 +7,10 @@ aliases=[
   "blog/development/aprenda-ruby-no-rubylearning"
 ]
 date = "2008-11-07"
+
+[taxonomies]
 tags = ["ruby","tech"]
 +++
-
 Como muitos sabem, eu sou um dos professores assistentes do
 [Rubylearning.org](http://rubylearning.org/class "") que oferece
 **gratuitamente** cursos de ruby!

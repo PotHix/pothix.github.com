@@ -1,4 +1,5 @@
 +++
+path = "skeleton-jigsaw"
 title = "Plaev, HTML5 e Skeleton-jigsaw"
 aliases=[
   "post/plaev5-e-skeleton-jigsaw",
@@ -6,9 +7,10 @@ aliases=[
   "blog/development/plaev-html5-e-skeleton-jigsaw"
 ]
 date = "2012-12-04"
+
+[taxonomies]
 tags = ["gamedev","tech","speaking","events"]
 +++
-
 Depois de muito tempo desenvolvendo finalmente terminamos o Skeleton-Jigsaw em
 outubro! Demorei para postar sobre isso aqui no blog por falta de tempo, mas
 aqui está!

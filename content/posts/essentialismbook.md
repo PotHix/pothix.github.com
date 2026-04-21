@@ -1,12 +1,14 @@
 +++
+path = "essentialismbook"
 title = "Review of Essentialism: The Disciplined Pursuit of Less"
 date = 2020-03-09
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Essentialism: The Disciplined Pursuit of Less](https://www.goodreads.com/book/show/18077875) by Greg McKeown. Rating: ⭐️⭐️⭐️⭐️.
 
 Nothing outstanding, but a good book overall.

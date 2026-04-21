@@ -1,9 +1,10 @@
----
-title: "Amsterdam"
-date: "2017-02-20"
-skip_feed: true
----
++++
+title = "Amsterdam"
+date = "2017-02-20"
 
+[extra]
+skip_feed = true
++++
 In 2017 I had the chance to speak at [FOSDEM](/fosdem2017) in
 [Brussels](brussels), and I used this opportunity to do a bigger travel through
 a few countries in Europe. After visiting a few cities in Belgium, I went

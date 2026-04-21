@@ -1,11 +1,14 @@
----
-title: "Florence"
-aliases: ["florence"]
-tags: ["english"]
-date: 2022-06-27
-skip_feed: true
----
++++
+title = "Florence"
+aliases = ["florence"]
+date = "2022-06-27"
 
+[taxonomies]
+tags = ["english"]
+
+[extra]
+skip_feed = true
++++
 As part of a 1-week trip through Italy 🇮🇹 in 2022 (2 days) and had the chance
 to do a 1-day trip in 2023. I had the chance to spend 2 days in Florence with
 my wife and sister.

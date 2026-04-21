@@ -1,15 +1,15 @@
-# hugo version: 0.109
+# zola version: 0.22
 rebuild:
 	@echo "Cleaning up"
 	@rm -rf public/*
 	@make build
 
 run:
-	@hugo server --buildDrafts --buildExpired --buildFuture --disableKinds=RSS --noTimes
+	@zola serve --drafts
 
 build:
 	@echo "Building"
-	@hugo
+	@zola build
 
 publish:
 	@make rebuild
@@ -29,10 +29,3 @@ publish:
 
 drafts:
 	@egrep "draft.*true" content/posts/ -rl | grep "\.md"
-
-roam:
-	mkdir -p roam-export
-	unzip $(filter-out $@,$(MAKECMDGOALS)) -d roam-export/
-	for i in roam-export/blog/*; do sed -i "s/^..//; 1i+++\ntitle = \"Podcasts\"\ntags = [\"english\"]\n+++" $$i; done
-	mv roam-export/blog/*.md content/
-	rm -rf roam-export

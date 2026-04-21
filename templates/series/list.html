@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+    <main class="posts">
+        <h1>Series</h1>
+        <ul class="posts-list">
+            {% for term in terms %}
+                <li class="post-item">
+                    <a href="{{ term.permalink }}">
+                        <span class="post-title">{{ term.name }} ({{ term.pages | length }})</span>
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </main>
+{% endblock %}

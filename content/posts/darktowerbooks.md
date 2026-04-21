@@ -1,12 +1,14 @@
 +++
+path = "darktowerbooks"
 title = "Review of The Dark Tower Book Series"
 date = 2021-08-25
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Last month I finished the final book I wanted to read about The Dark Tower
 Series. I wrote reviews for all books, but I also want to write one single post
 about the story as a whole.

@@ -1,13 +1,14 @@
 +++
 title = "Presentations"
-tags = [
-  "english",
-]
 aliases = [
   "speaking"
 ]
-+++
 
+[taxonomies]
+tags = [
+  "english",
+]
++++
 No. | Date       | Presentation  | Event
 --- | ---------- | ------------- | ------
 76  | 2022-09-24 | [Painel: A linguagem Rust e seu uso](/images/speaking/codecon2022-painel-rust.jpg) | [Codecon 2022](https://www.codecon.dev/programacao)

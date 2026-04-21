@@ -1,13 +1,15 @@
 +++
+path = "inklings"
 title = "Review of The Inklings: C.S. Lewis, J.R.R. Tolkien, Charles Williams, and Their Friends"
 date = 2020-09-05
+
+[taxonomies]
 tags = [
     "english",
     "books",
     "tolkien",
 ]
 +++
-
 Book: [The Inklings: C.S. Lewis, J.R.R. Tolkien, Charles Williams, and Their Friends](https://www.goodreads.com/book/show/76834) by Humphrey Carpenter. Rating: ⭐️⭐️⭐️⭐️⭐️.
 
 I'm giving it 5 stars because I enjoyed it a lot and it came at the right time for me. For most people, it will probably be a 4-stars book.

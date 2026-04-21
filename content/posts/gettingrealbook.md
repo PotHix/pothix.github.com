@@ -1,12 +1,14 @@
 +++
+path = "gettingrealbook"
 title = "Review of Getting Real: The Smarter, Faster, Easier Way to Build a Web Application"
 date = 2016-04-04
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Getting Real: The Smarter, Faster, Easier Way to Build a Web Application](https://www.goodreads.com/book/show/447648) by 37 Signals. Rating: ⭐️⭐️⭐️⭐️.
 
 There are almost 10 years from this book release and the ideas are still valid for the software development industry that we have now.

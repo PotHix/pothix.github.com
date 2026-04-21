@@ -1,11 +1,13 @@
 +++
+path = "bookinsidebook"
 title = "A book inside a book"
 date = 2021-07-21
+
+[taxonomies]
 tags = [
     "english",
 ]
 +++
-
 This is a post I'm postponing since 2016. 😅
 
 I built a case for my Kindle using a book with a nice cover that a friend gave

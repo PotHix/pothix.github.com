@@ -6,11 +6,12 @@ aliases = [
   "blog/about"
 ]
 title = "About me"
+
+[taxonomies]
 tags = [
   "english",
 ]
 +++
-
 I'm Willian Molinari, also known as **PotHix**. I've been working with software
 development since 2006, using many languages professionally throughout the
 years.

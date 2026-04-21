@@ -1,4 +1,5 @@
 +++
+path = "usp-verao"
 title = "Curso de verão da USP"
 aliases=[
   "post/curso-de-verao-da-usp",
@@ -6,9 +7,10 @@ aliases=[
   "blog/development/curso-de-verao-da-usp"
 ]
 date = "2009-02-20"
+
+[taxonomies]
 tags = ["tech"]
 +++
-
 [![Foto da grama escrito IME-USP](/images/posts/curso_verao_ime.jpg "IME-USP")](/images/posts/curso_verao_ime.jpg "")
 
 Com o fim do curso de verão de 2009 da USP, resolvi postar minhas

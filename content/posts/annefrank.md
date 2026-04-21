@@ -1,12 +1,14 @@
 +++
+path = "annefrank"
 title = "Review of The Diary of a Young Girl"
 date = 2017-02-01
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Diary of a Young Girl](https://www.goodreads.com/book/show/48855) by Anne Frank. Rating: ⭐️⭐️⭐️.
 
 I decided to read this book one month before visiting the Anne Frank Museum in Amsterdam. My plan is to use the whole context of the book to have the full experience when visiting the museum.

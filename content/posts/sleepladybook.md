@@ -1,12 +1,14 @@
 +++
+path = "sleepladybook"
 title = "Review of The Sleep Lady's Good Night, Sleep Tight"
 date = 2021-08-24
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Sleep Lady's Good Night, Sleep Tight: Gentle Proven Solutions to Help
 Your Child Sleep without Leaving Them to Cry-it-Out
 ](https://www.goodreads.com/review/show/4098564482) by Kim West. Rating:

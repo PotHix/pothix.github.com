@@ -1,4 +1,5 @@
 +++
+path = "git-configurado"
 title = "Configurando seu git para começar a usar"
 aliases=[
   "post/configurando-seu-git-para-comecar-a-usar",
@@ -7,9 +8,10 @@ aliases=[
   "blog/uncategorized/configurando-seu-git-para-comecar-a-usar"
 ]
 date = "2008-12-21"
+
+[taxonomies]
 tags = ["tech","linux"]
 +++
-
 Meu ultimo post foi sobre como subir um projeto para o
 [GitHub](http://github.com ""), mas me veio agora uma vontade
 repentina de falar como deixar seu git legalzinho para começar a criar

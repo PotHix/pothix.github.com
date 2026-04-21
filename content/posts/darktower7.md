@@ -1,12 +1,14 @@
 +++
+path = "darktower7"
 title = "Review of The Dark Tower (The Dark Tower, #7)"
 date = 2021-06-29
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Dark Tower (The Dark Tower, #7)](https://www.goodreads.com/review/show/1631915975) by Stephen King. Rating: ⭐️⭐️⭐️⭐️.
 
 Último livro da série, também lido (ouvido!) em Português, então vamos ao review

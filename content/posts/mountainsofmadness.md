@@ -1,12 +1,14 @@
 +++
+path = "mountainsofmadness"
 title = "Review of At the Mountains of Madness"
 date = 2017-11-17
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [At the Mountains of Madness](https://www.goodreads.com/book/show/32767) by H.P. Lovecraft. Rating: ⭐️⭐️⭐️.
 
 The first H.P. Lovecraft book I read/listen and now I understand what people say from his descriptions.

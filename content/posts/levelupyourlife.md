@@ -1,12 +1,14 @@
 +++
+path = "levelupyourlife"
 title = "Review of Level Up Your Life: How to Unlock Adventure and Happiness by Becoming the Hero of Your Own Story"
 date = 2016-10-03
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Level Up Your Life: How to Unlock Adventure and Happiness by Becoming the Hero of Your Own Story](https://www.goodreads.com/book/show/24615920) by Steve Kamb. Rating: ⭐️⭐️⭐️.
 
 This is a good book but it's not for me.

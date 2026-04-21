@@ -1,4 +1,5 @@
 +++
+path = "ubuntu"
 title = "A facilidade do Ubuntu"
 aliases=[
   "post/a-facilidade-do-ubuntu",
@@ -6,9 +7,10 @@ aliases=[
   "blog/win2linux/a-facilidade-do-ubuntu"
 ]
 date = "2008-11-29"
+
+[taxonomies]
 tags = ["tech","linux"]
 +++
-
 Deixa eu explicar aqui para quem estou destinando esse post. Esse post
 é destinado a algumas pessoas que costumam me perguntar se o Linux é
 difícil, se ele vai conseguir mexer nele se instalar, se Linux é

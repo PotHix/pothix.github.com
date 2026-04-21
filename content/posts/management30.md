@@ -1,12 +1,14 @@
 +++
+path = "management30"
 title = "Review of Management 3.0: Leading Agile Developers, Developing Agile Leaders"
 date = 2015-12-31
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Management 3.0: Leading Agile Developers, Developing Agile Leaders](https://www.goodreads.com/review/show/1434553976) by Jurgen Appelo. Rating: ⭐️⭐️⭐️⭐️.
 
 I read this book in 2015 when the product director of the company I worked for

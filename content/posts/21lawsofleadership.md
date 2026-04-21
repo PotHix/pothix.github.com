@@ -1,12 +1,14 @@
 +++
+path = "21lawsofleadership"
 title = "Review of The 21 Irrefutable Laws of Leadership: Follow Them and People Will Follow You"
 date = 2018-12-20
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The 21 Irrefutable Laws of Leadership: Follow Them and People Will Follow You](https://www.goodreads.com/book/show/815716) by John C. Maxwell. Rating: ⭐️⭐️⭐️.
 
 I was between 3 and 4 stars and decided to go with 3 for this one.

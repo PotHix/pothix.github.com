@@ -1,12 +1,14 @@
 +++
+path = "maketimebook"
 title = "Review of Make Time: How to Focus on What Matters Every Day"
 date = 2019-06-24
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Make Time: How to Focus on What Matters Every Day](https://www.goodreads.com/book/show/37880811) by Jake Knapp. Rating: ⭐️⭐️⭐️.
 
 It's a good book but maybe it's not for me.

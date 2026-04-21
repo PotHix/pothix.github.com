@@ -1,4 +1,5 @@
 +++
+path = "mais-distros"
 title = "Mais de uma distro no Notebook!"
 aliases=[
   "post/mais-de-uma-distro-no-notebook",
@@ -6,9 +7,10 @@ aliases=[
   "blog/ubuntu/mais-de-uma-distro-no-notebook"
 ]
 date = "2008-10-13"
+
+[taxonomies]
 tags = ["linux"]
 +++
-
 Pouco tempo atrás comprei um notebook
 [Toshiba U405-S2854](http://explore.toshiba.com/laptops/satellite/U400/U405-S2854)
 e instalei o Slackware 12.0 (não tinha baixado o 12.1 ainda) com

@@ -1,4 +1,5 @@
 +++
+path = "ubuntu-beep"
 title = "Como desabilitar o beep no Ubuntu"
 aliases=[
   "post/como-desabilitar-o-beep-no-ubuntu",
@@ -6,9 +7,10 @@ aliases=[
   "blog/ubuntu/como-desabilitar-o-beep-no-ubuntu"
 ]
 date = "2009-07-09"
+
+[taxonomies]
 tags = ["tech","linux"]
 +++
-
 Resolvi postar sobre isso por que é uma coisa tão simples mas irrita
 muito quando você não sabe como desabilitar, e sempre que eu procurava
 eu caia em fóruns com vários comandos bizarros e colocar algo

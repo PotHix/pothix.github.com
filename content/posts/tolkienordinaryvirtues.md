@@ -1,13 +1,15 @@
 +++
+path = "tolkienordinaryvirtues"
 title = "Review of Tolkien's Ordinary Virtues book"
 date = 2021-01-28
+
+[taxonomies]
 tags = [
   "english",
   "books",
   "tolkien",
 ]
 +++
-
 Book: [Tolkien’s Ordinary Virtues, by Mark Eddy Smith](https://www.goodreads.com/review/show/3745484650). Rating: ⭐️⭐️⭐️.
 
 I’m a big fan of Tolkien (if you follow me or my blog, you probably already know that) and decided to give a chance to this one even knowing it was totally related to religion and it’s not my thing anymore.

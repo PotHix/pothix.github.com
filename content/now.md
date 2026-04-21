@@ -1,10 +1,11 @@
 +++
 title = "What is happening now"
+
+[taxonomies]
 tags = [
   "english",
 ]
 +++
-
 This is my [now page](http://nownownow.com/about), inspired by [Derek
 Sivers](https://sivers.org/now).
 

@@ -1,13 +1,15 @@
 +++
+path = "softwareatgoogle"
 title = "Review of Software Engineering at Google"
 date = 2021-09-28
+
+[taxonomies]
 tags = [
     "english",
     "tech",
     "books",
 ]
 +++
-
 Book: [Software Engineering at Google: Lessons Learned from Programming Over
 Time](https://www.goodreads.com/review/show/3491762189) by Titus Winters.
 Rating: ⭐️⭐️⭐️⭐️.

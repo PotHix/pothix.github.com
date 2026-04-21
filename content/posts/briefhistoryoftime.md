@@ -1,12 +1,14 @@
 +++
+path = "briefhistoryoftime"
 title = "Review of A Brief History of Time"
 date = 2018-07-20
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [A Brief History of Time](https://www.goodreads.com/book/show/3869) by Stephen Hawking. Rating: ⭐️⭐️⭐️⭐️.
 
 Nice book but not that simple for those who are not engaged with physics. That's not a problem with the book, IMO, physics is complicated.

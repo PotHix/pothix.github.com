@@ -1,4 +1,5 @@
 +++
+path = "servicos-aug2009"
 title = "Serviços legais de Agosto"
 aliases=[
   "post/servicos-legais-de-agosto",
@@ -6,10 +7,11 @@ aliases=[
   "blog/coolservices/servicos-legais-de-agosto"
 ]
 date = "2009-08-06"
+
+[taxonomies]
 tags = ["tech","services"]
 series = ["Cool services"]
 +++
-
 E lá vamos nós com mais um post (que felizmente estou conseguindo
 manter mensal) sobre os serviços legais que eu vi no mês passado e
 estou usando esse mês.

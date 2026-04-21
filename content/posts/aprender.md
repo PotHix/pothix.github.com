@@ -1,4 +1,5 @@
 +++
+path = "aprender"
 title = "Sempre aprender coisas diferentes"
 aliases=[
   "post/sempre-aprender-coisas-diferentes",
@@ -6,9 +7,10 @@ aliases=[
   "blog/personal/sempre-aprender-coisas-diferentes"
 ]
 date = "2011-04-27"
+
+[taxonomies]
 tags = ["tech"]
 +++
-
 Estou começando a fazer meu TCC agora e resolvi brincar um pouco com LaTeX. Ja
 faz um bom tempo que eu queria brincar um pouco com ele, entender melhor como
 funciona e por que tanta gente usa ele e acha legal.

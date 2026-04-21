@@ -1,13 +1,16 @@
 +++
 title = "Books"
 date = 2021-02-14
+
+[taxonomies]
 tags = [
     "english",
     "tech",
 ]
+
+[extra]
 toc = true
 +++
-
 _If you want to see all my reviews, not just the small list of recommended books
 (still WIP), I suggest you to check the [books tag](/tags/books)._
 

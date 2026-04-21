@@ -1,4 +1,5 @@
 +++
+path = "antiie6army"
 title = "Plugin para WordPress: Anti IE6 Army"
 aliases=[
   "post/plugin-para-wordpress-anti-ie6-army",
@@ -6,9 +7,10 @@ aliases=[
   "blog/development/plugin-para-wordpress-anti-ie6-army"
 ]
 date = "2009-04-11"
+
+[taxonomies]
 tags = ["tech"]
 +++
-
 Estou postando para anunciar que foi lançada a versão 1.0 do meu
 plugin para Wordpress chamado
 [anti-IE6-army](http://wordpress.org/extend/plugins/anti-ie6-army/ "Anti IE6 Army Download")! :D

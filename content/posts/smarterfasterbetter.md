@@ -1,12 +1,14 @@
 +++
+path = "smarterfasterbetter"
 title = "Review of Smarter Faster Better: The Secrets of Being Productive in Life and Business"
 date = 2017-04-10
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Smarter Faster Better: The Secrets of Being Productive in Life and Business](https://www.goodreads.com/book/show/25733966) by Charles Duhigg. Rating: ⭐️⭐️⭐️⭐️.
 
 It is a good book. I almost gave 3 stars, but it is still a Mastery effect. It deserves four.

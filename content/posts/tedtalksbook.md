@@ -1,12 +1,14 @@
 +++
+path = "tedtalksbook"
 title = "Review of TED Talks: The Official TED Guide to Public Speaking"
 date = 2016-12-02
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [TED Talks: The Official TED Guide to Public Speaking](https://www.goodreads.com/book/show/25897871) by Chris J. Anderson. Rating: ⭐️⭐️⭐️.
 
 There are some cool tips in this book but it's not so straight to the point if you're just looking for speaking tips. If you like to speak at IT events (like I do) I really recommend http://speaking.io.

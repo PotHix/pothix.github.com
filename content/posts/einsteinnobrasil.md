@@ -1,11 +1,13 @@
 +++
+path = "einsteinnobrasil"
 title = "Review de Einstein no Brasil"
 date = 2017-04-13
+
+[taxonomies]
 tags = [
     "books",
 ]
 +++
-
 Book: [Einstein no Brasil](https://www.goodreads.com/book/show/34664961) by Aguinaldo Prandini Ricieri. Rating: ⭐️⭐️⭐️.
 
 Um livro comum, com apenas um quote que valeu muito a pena. No geral consegui extrair algumas poucas boas informações sobre o Einstein daqui.

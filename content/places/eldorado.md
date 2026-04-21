@@ -1,9 +1,10 @@
----
-title: "Eldorado, Misiones, Argentina"
-date: 2012-04-02
-skip_feed: true
----
++++
+title = "Eldorado, Misiones, Argentina"
+date = "2012-04-02"
 
+[extra]
+skip_feed = true
++++
 I went for a motorcycle trip to Argentina in 2012. The whole description (in
 pt-BR) can be found [here](moto-argentina).
 

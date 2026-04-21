@@ -1,12 +1,14 @@
 +++
+path = "anythingyouwant"
 title = "Review of Anything You Want"
 date = 2018-02-06
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Anything You Want](https://www.goodreads.com/book/show/11878168) by Derek Sivers. Rating: ⭐️⭐️⭐️⭐️⭐️.
 
 Amazing book! It's worth 5 stars.

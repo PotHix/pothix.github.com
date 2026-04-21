@@ -1,12 +1,14 @@
 +++
+path = "guidetogoodlife"
 title = "Review of A Guide to the Good Life: The Ancient Art of Stoic Joy"
 date = 2018-04-18
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [A Guide to the Good Life: The Ancient Art of Stoic Joy](https://www.goodreads.com/book/show/5617966) by William B. Irvine. Rating: ⭐️⭐️⭐️⭐️⭐️.
 
 Great book if you're curious about stoicism and its practices. After reading this I found that I'm practicing many techniques of stoicism for many years without knowing it.

@@ -1,4 +1,5 @@
 +++
+path = "gmail-inboxzero"
 title = "Organizando seu Gmail para manter Inbox zero"
 aliases=[
   "post/organizando-seu-gmail-para-manter-inbox-zero",
@@ -6,9 +7,10 @@ aliases=[
   "blog/personal/organizando-seu-gmail-para-manter-inbox-zero"
 ]
 date = "2009-05-20"
+
+[taxonomies]
 tags = ["tech"]
 +++
-
 Agora chegando em tempo de provas e grande acumulo de atividades no
 trabalho eu fico começando a procurar as brechas de tempo que eu gasto
 "inútilmente" para ver se eu consigo aplicar em alguma coisa que possa

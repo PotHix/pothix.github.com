@@ -1,12 +1,14 @@
 +++
+path = "scoretakescareofitself"
 title = "Review of The Score Takes Care of Itself: My Philosophy of Leadership"
 date = 2017-06-29
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Score Takes Care of Itself: My Philosophy of Leadership](https://www.goodreads.com/book/show/6342995) by Bill   Walsh. Rating: ⭐️⭐️⭐️⭐️.
 
 It's a great book on leadership.

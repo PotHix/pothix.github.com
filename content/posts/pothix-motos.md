@@ -1,4 +1,5 @@
 +++
+path = "pothix-motos"
 title = "PotHix e as motos"
 aliases=[
   "post/pothix-e-as-motos",
@@ -6,9 +7,10 @@ aliases=[
   "blog/motorcycle/pothix-e-as-motos"
 ]
 date = "2011-01-25"
+
+[taxonomies]
 tags = ["motorcycles"]
 +++
-
 Bem, para introduzir um assunto sobre os meus Hobbies aqui no blog eu
 vou falar um pouco da minha história com motos.  Eu nunca gostei da
 idéia de ter um veículo, mas na época que eu comecei a trabalhar mais

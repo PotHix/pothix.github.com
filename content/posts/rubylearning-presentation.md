@@ -1,4 +1,5 @@
 +++
+path = "rubylearning-presentation"
 title = "Translated Rubylearning presentation"
 aliases=[
   "post/translated-rubylearning-presentation",
@@ -6,9 +7,10 @@ aliases=[
   "blog/english/translated-rubylearning-presentation"
 ]
 date = "2009-04-10"
+
+[taxonomies]
 tags = ["events","ruby","tech","english"]
 +++
-
 As I promised, here goes my presentation! :)
 
 Finally i finished to translate all the presentation! Watched the

@@ -1,9 +1,11 @@
 +++
+path = "pf"
 date = 2020-10-11
 title = "Freelancer PF para o exterior"
+
+[taxonomies]
 series = ["PF & PJ"]
 +++
-
 Esse é um texto que eu escrevi em 2017 quando eu comecei a abrir a minha
 empresa. Como o post ficou interminado e eu acho que ainda tem valor, eu
 resolvi terminar e publicar.

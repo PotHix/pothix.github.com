@@ -1,7 +1,6 @@
 +++
 title = "Politics"
 +++
-
 I usually don't talk much about politics, mostly because it usually do not worth
 my time discussing it or because I want to keep all my public profiles tech
 related (I don't care much if you think politics is everywhere BTW).

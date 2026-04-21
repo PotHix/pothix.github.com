@@ -1,4 +1,5 @@
 +++
+path = "ferias-julho2009"
 title = "Saldo final das férias de julho"
 aliases=[
   "post/saldo-final-das-ferias-de-julho",
@@ -6,9 +7,10 @@ aliases=[
   "blog/personal/saldo-final-das-ferias-de-julho"
 ]
 date = "2009-08-17"
+
+[taxonomies]
 tags = ["personal"]
 +++
-
 Eu sempre digo que a faculdade me atrasa bastante, por que eu não
 consigo estudar/fazer um monte de coisas que eu tenho vontade para me
 dedicar as coisas que a faculdade me obriga a fazer. Se a faculdade é

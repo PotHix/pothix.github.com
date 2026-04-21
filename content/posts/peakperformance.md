@@ -1,12 +1,14 @@
 +++
+path = "peakperformance"
 title = "Review of Peak Performance: Elevate Your Game, Avoid Burnout, and Thrive with the New Science of Success"
 date = 2019-12-07
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Peak Performance: Elevate Your Game, Avoid Burnout, and Thrive with the New Science of Success](https://www.goodreads.com/book/show/31450959) by Brad Stulberg. Rating: ⭐️⭐️⭐️⭐️.
 
 A great book. I felt like it's a compilation of some good books I read in the past years. It was not a life-changing book for me but it was great to review the important info I collected in the past years. I would totally recommend this book as the first book for someone looking for performance improvement.

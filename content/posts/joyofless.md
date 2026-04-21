@@ -1,12 +1,14 @@
 +++
+path = "joyofless"
 title = "Review of The Joy of Less, A Minimalist Living Guide: How to Declutter, Organize, and Simplify Your Life"
 date = 2019-05-20
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Joy of Less, A Minimalist Living Guide: How to Declutter, Organize, and Simplify Your Life](https://www.goodreads.com/book/show/8576972) by Francine Jay. Rating: ⭐️⭐️⭐️⭐️.
 
 This is a book I can see myself writing. I would say that around 80% of the things said here regarding a personal organization I already practice since I was a child. The ones about decluttering I learned many years ago when my home was robbed and I decided to get rid of [almost] everything that was left.

@@ -1,12 +1,14 @@
 +++
+path = "masterybook"
 title = "Review of Mastery"
 date = 2017-03-18
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Mastery](https://www.goodreads.com/book/show/13589182) by Robert Greene. Rating: ⭐️⭐️⭐️⭐️⭐️.
 
 One of the best books I ever read.

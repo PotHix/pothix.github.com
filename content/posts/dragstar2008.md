@@ -1,4 +1,5 @@
 +++
+path = "dragstar2008"
 title = "Vendo Dragstar 2008"
 aliases=[
   "post/vendo-dragstar-2008",
@@ -6,9 +7,10 @@ aliases=[
   "blog/personal/vendo-dragstar-2008"
 ]
 date = "2013-07-29"
+
+[taxonomies]
 tags = ["motorcycles"]
 +++
-
 Chegou a hora de pendurar o colete por um tempo, obviamente estarei de
 volta num futuro não tão distante, mas pelo menos por enquanto vou
 ficar um tempo sem motos. Por esse motivo estou vendendo minha

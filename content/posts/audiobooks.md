@@ -1,13 +1,15 @@
 +++
+path = "audiobooks"
 title = "Ouvir livros (audiobooks), o futuro da leitura"
 date = "2016-06-22"
-tags = ["books"]
 aliases=[
   "2016/06/22/audiobooks.html",
   "post/audiobooks"
 ]
-+++
 
+[taxonomies]
+tags = ["books"]
++++
 **TL;DR**: Ouvir livros é o futuro.
 
 **Atualização de 18/06/2016**: Adicionando o [audiobooks.com](https://www.audiobooks.com/).

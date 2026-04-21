@@ -1,12 +1,14 @@
 +++
+path = "filosofiaquestoes"
 title = "Review of A Filosofia Explica as Grandes Questões da Humanidade"
 date = 2018-06-26
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [A Filosofia Explica as Grandes Questões da Humanidade](https://www.goodreads.com/book/show/18624377) by Clóvis de Barros Filho. Rating: ⭐️⭐️⭐️⭐️.
 
 Um livro bem interessante para aqueles que querem pensar sobre algumas coisas mais "profundas" mas sem precisar adentar em um idioma mais complicado. Os autores comentam de forma simples sobre algumas questões interessantes (e as vezes complicadas) da filosofia. Se você já conhece muitas delas mais a fundo, provavelmente esse não seja um livro para você. Caso você conheça pouco e está procurando um meio termo entre raso e profundo, esse provavelmente seja um bom livro.

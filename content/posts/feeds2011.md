@@ -1,13 +1,15 @@
 +++
+path = "feeds2011"
 title = "Organizando os Feeds do Blog"
 date = "2011-01-24"
-tags = ["personal","tech"]
 aliases=[
   "post/organizando-os-feeds-do-blog",
   "2011/01/24/organizando-os-feeds-do-blog.html"
 ]
-+++
 
+[taxonomies]
+tags = ["personal","tech"]
++++
 Como muitos sabem, eu sou meio doido por organização (heheh) e eu
 mesmo não gosto de ficar lendo coisas que não me interessam de outros
 blogs, ou seja, no blog de alguém que gosta bastante de Vim eu ter que

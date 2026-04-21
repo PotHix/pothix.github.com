@@ -1,12 +1,14 @@
 +++
+path = "powerofless"
 title = "Review of The Power Of Less: The Fine Art of Limiting Yourself to the Essential"
 date = 2018-11-12
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Power Of Less: The Fine Art of Limiting Yourself to the Essential](https://www.goodreads.com/book/show/3467088) by Leo Babauta. Rating: ⭐️⭐️⭐️⭐️.
 
 It's a good book. It's repetitive and a bit outdated (I heard Google reader somewhere) but all the hints here are still valid.

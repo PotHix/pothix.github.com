@@ -1,9 +1,10 @@
----
-title: "Prato, Artimino"
-date: 2023-07-20
-skip_feed: true
----
++++
+title = "Prato, Artimino"
+date = "2023-07-20"
 
+[extra]
+skip_feed = true
++++
 In July 2023, the [Doist](/doist) retreat happened in Artimino, which is part
 of the province of Prato. My descriptions here will be only related to that
 part of Prato.

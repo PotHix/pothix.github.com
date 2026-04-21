@@ -1,12 +1,14 @@
 +++
+path = "hitchhiker1"
 title = "Review of The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)"
 date = 2016-06-06
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)](https://www.goodreads.com/book/show/11) by Douglas Adams. Rating: ⭐️⭐️⭐️⭐️⭐️.
 
 This book is amazing! There are some non-sense parts but in general, it makes you think about "life, universe, and everything".

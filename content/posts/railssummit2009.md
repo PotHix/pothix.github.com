@@ -1,4 +1,5 @@
 +++
+path = "railssummit2009"
 title = "Rails Summit 2009"
 aliases=[
   "post/rails-summit-2009",
@@ -6,9 +7,10 @@ aliases=[
   "blog/events/rails-summit-2009"
 ]
 date = "2009-10-19"
+
+[taxonomies]
 tags = ["events","ruby","tech"]
 +++
-
 Esse é um post para relatar como foi o Rails Summit Latin America desse
 ano! 😀 Já começo o post com um grande \#win para a organização do
 \#railssummit, por que eles tem tomadas para todos e wi-fi liberado para

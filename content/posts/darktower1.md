@@ -1,14 +1,16 @@
 +++
+path = "darktower1"
 title = "Review de O Pistoleiro (A Torre Negra, #1)"
 date = 2016-03-08
-tags = [
-    "books",
-]
 aliases = [
     "torrenegra1"
 ]
-+++
 
+[taxonomies]
+tags = [
+    "books",
+]
++++
 Book: [O Pistoleiro (A Torre Negra, #1)](https://www.goodreads.com/book/show/3030034) by Stephen King. Rating: ⭐️⭐️⭐️⭐️.
 
 Nunca tinha lido Stephen King, esse foi meu primeiro livro dele.

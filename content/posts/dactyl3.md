@@ -1,6 +1,9 @@
 +++
+path = "dactyl3"
 title = "3D printing the Dactyl-cc case"
 date = 2021-09-22
+
+[taxonomies]
 series = [
     "dactyl",
 ]
@@ -9,7 +12,6 @@ tags = [
     "keyboards",
 ]
 +++
-
 This is another post of my [dactyl](/series/dactyl) series. This time I'm going
 write about the process to make the 3D printed case, and prepare it for the
 keyboard.

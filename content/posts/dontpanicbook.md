@@ -1,12 +1,14 @@
 +++
+path = "dontpanicbook"
 title = "Review of Don't Panic: Taking Control of Anxiety Attacks"
 date = 2020-04-07
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Don't Panic: Taking Control of Anxiety Attacks](https://www.goodreads.com/book/show/65940) by R. Reid Wilson. Rating: ⭐️⭐️⭐️⭐️.
 
 A good book and exactly what I needed, thanks for the recommendation, Rafael

@@ -1,12 +1,14 @@
 +++
+path = "hardthingabouthardthings"
 title = "Review of The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers"
 date = 2018-06-18
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers](https://www.goodreads.com/book/show/18176747) by Ben Horowitz. Rating: ⭐️⭐️⭐️⭐️.
 
 It's a good book overall, especially if you are (or want to be) a CEO. Some (many?) ideas are not aligned with the way I would manage my own company, but there are many useful insights into hairy situations one may be faced during his CEO time.

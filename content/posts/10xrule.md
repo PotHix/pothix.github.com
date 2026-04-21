@@ -1,12 +1,14 @@
 +++
+path = "10xrule"
 title = "Review of The 10x Rule: The Only Difference Between Success and Failure"
 date = 2016-11-11
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The 10x Rule: The Only Difference Between Success and Failure](https://www.goodreads.com/book/show/10339170) by Grant Cardone. Rating: ⭐️⭐️⭐️⭐️.
 
 I really like this book. I would recommend it if you are the kind of person that

@@ -1,4 +1,5 @@
 +++
+path = "vim"
 title = "Um pouco sobre o Vim"
 aliases=[
   "post/um-pouco-sobre-o-vim",
@@ -6,9 +7,10 @@ aliases=[
   "blog/development/um-pouco-sobre-o-vim"
 ]
 date = "2009-08-14"
+
+[taxonomies]
 tags = ["tech","vim"]
 +++
-
 Aqui começa uma série de artigos sobre por que eu gosto de usar o VIM
 para programar.
 

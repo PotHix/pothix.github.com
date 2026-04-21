@@ -1,12 +1,14 @@
 +++
+path = "freakonomics"
 title = "Review of Freakonomics: A Rogue Economist Explores the Hidden Side of Everything"
 date = 2016-02-03
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Freakonomics: A Rogue Economist Explores the Hidden Side of Everything](https://www.goodreads.com/book/show/1202) by Steven D. Levitt. Rating: ⭐️⭐️⭐️⭐️.
 
 Nice book with really interesting statistics done in some sets of data. It remembers me about the whole "big data" trend that we have today.

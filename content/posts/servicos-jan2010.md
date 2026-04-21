@@ -1,4 +1,5 @@
 +++
+path = "servicos-jan2010"
 title = "Serviços legais de Janeiro"
 aliases=[
   "post/servicos-legais-de-janeiro",
@@ -6,10 +7,11 @@ aliases=[
   "blog/coolservices/servicos-legais-de-janeiro"
 ]
 date = "2010-01-26"
+
+[taxonomies]
 tags = ["tech","services"]
 series = ["Cool services"]
 +++
-
 E ae galera! Vamos para mais um post sobre os serviços legais do mes.
 
 #### OpenDNS ####

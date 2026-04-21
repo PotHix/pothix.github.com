@@ -1,13 +1,15 @@
 +++
+path = "first-post"
 title = "First post in English here"
 date = "2008-12-16"
-tags = ["personal","english"]
 aliases=[
   "post/first-post-in-english-here",
   "2008/12/16/first-post-in-english-here.html"
 ]
-+++
 
+[taxonomies]
+tags = ["personal","english"]
++++
 Hi international friends! :)
 
 I'm just posting to inform that I want to post some content in English

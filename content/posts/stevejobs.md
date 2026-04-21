@@ -1,4 +1,5 @@
 +++
+path = "stevejobs"
 title = "A cabeça de Steve Jobs"
 aliases=[
   "post/bookreview-a-cabeca-de-steve-jobs",
@@ -6,9 +7,10 @@ aliases=[
   "blog/books/bookreview-a-cabeca-de-steve-jobs"
 ]
 date = "2010-01-05"
+
+[taxonomies]
 tags = ["books"]
 +++
-
 Aqui estou eu novamente para falar de um livro que eu li nas férias!
 Dessa vez vou comentar sobre: **"A cabeça de Steve Jobs"**
 

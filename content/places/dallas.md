@@ -1,9 +1,10 @@
----
-title: "Dallas"
-date: 2023-09-20
-skip_feed: true
----
++++
+title = "Dallas"
+date = "2023-09-20"
 
+[extra]
+skip_feed = true
++++
 Dallas was just a connection while going to [St. Louis](stlouis). Keep that in
 mind when reading the rest of what I describe here.
 

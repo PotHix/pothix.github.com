@@ -1,12 +1,14 @@
 +++
+path = "howtolivebook"
 title = "Review of How to Live: 27 conflicting answers and one weird conclusion"
 date = 2021-11-23
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [How to Live: 27 conflicting answers and one weird
 conclusion](https://www.goodreads.com/review/show/4254945382) by Derek Sivers.
 Rating: ⭐️⭐️⭐⭐️.

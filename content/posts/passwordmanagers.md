@@ -1,11 +1,13 @@
 +++
+path = "passwordmanagers"
 title = "Password managers"
 date = 2021-03-02
+
+[taxonomies]
 tags = [
     "english",
 ]
 +++
-
 After many years using [LastPass](https://lastpass.com), I decided to make the
 switch to [1Password](https://1Password.com). I'm going to describe here why I
 did this and how was my process to choose.

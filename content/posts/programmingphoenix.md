@@ -1,12 +1,14 @@
 +++
+path = "programmingphoenix"
 title = "Review of Programming Phoenix: Productive |> Reliable |> Fast"
 date = 2016-10-15
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Programming Phoenix: Productive |> Reliable |> Fast](https://www.goodreads.com/book/show/26871792) by Chris McCord. Rating: ⭐️⭐️⭐️⭐️.
 
 It is a great book for web developers learning Elixir (yeah, not just Phoenix).

@@ -1,13 +1,15 @@
 +++
+path = "fosdem-guide"
 title = "FOSDEM survival guide"
 date = "2017-03-06"
-tags = ["events","english","tech"]
 aliases=[
   "post/fosdem-survival-guide",
   "2017/03/06/fosdem-survival-guide.html"
 ]
-+++
 
+[taxonomies]
+tags = ["events","english","tech"]
++++
 **TL;DR**: It was my first time at [FOSDEM](http://fosdem.org) and it
 took some time to feel comfortable, this post may help newcomers.
 

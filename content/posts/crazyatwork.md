@@ -1,12 +1,14 @@
 +++
+path = "crazyatwork"
 title = "Review of It Doesn't Have to Be Crazy at Work"
 date = 2018-10-21
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [It Doesn't Have to Be Crazy at Work](https://www.goodreads.com/book/show/39674332) by Jason Fried. Rating: ⭐️⭐️⭐️⭐️⭐️.
 
 What a great book! The best part of this book is that there's nothing so out of this world there, they are just talking about what we should be doing.

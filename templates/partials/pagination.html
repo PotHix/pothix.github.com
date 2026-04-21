@@ -1,0 +1,22 @@
+{% if paginator is defined %}
+<div class="pagination">
+    <div class="pagination__buttons">
+        {% if paginator.previous %}
+            <span class="button previous">
+                <a href="{{ paginator.previous }}">
+                    <span class="button__icon">&#x2190;</span>
+                    <span class="button__text">Newer posts</span>
+                </a>
+            </span>
+        {% endif %}
+        {% if paginator.next %}
+            <span class="button next">
+                <a href="{{ paginator.next }}">
+                    <span class="button__text">Older posts</span>
+                    <span class="button__icon">&#x2192;</span>
+                </a>
+            </span>
+        {% endif %}
+    </div>
+</div>
+{% endif %}

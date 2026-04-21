@@ -1,12 +1,14 @@
 +++
+path = "radicalfocus"
 title = "Review of Radical Focus: Achieving Your Most Important Goals with Objectives and Key Results"
 date = 2018-12-20
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Radical Focus: Achieving Your Most Important Goals with Objectives and Key Results](https://www.goodreads.com/book/show/28951428) by Christina Wodtke. Rating: ⭐️⭐️⭐️.
 
 This one is hard to rate. I'm not sure if I liked it or not, and it's probably related to the structure of the book.

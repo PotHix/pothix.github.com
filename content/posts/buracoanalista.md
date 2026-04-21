@@ -1,11 +1,13 @@
 +++
+path = "buracoanalista"
 title = "Review of Buraco Analista"
 date = 2019-07-07
+
+[taxonomies]
 tags = [
     "books",
 ]
 +++
-
 Book: [Buraco Analista](https://www.goodreads.com/book/show/18341222) by Aguinaldo Prandini Ricieri. Rating: ⭐️⭐️⭐️.
 
 É um livro interessante se você tiver interesse em conhecer a vida do professor Ricieri. Eu fui a uma de suas palestras alguns anos atrás e achei muito interessante a forma que ele apresenta a matemática. Ainda não participei de um de seus cursos, mas pretendo.

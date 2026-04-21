@@ -1,4 +1,5 @@
 +++
+path = "campusparty2010"
 title = "Campus Party 2010"
 aliases=[
   "post/campus-party-2010",
@@ -6,9 +7,10 @@ aliases=[
   "blog/events/campus-party-2010"
 ]
 date = "2010-02-02"
+
+[taxonomies]
 tags = ["events"]
 +++
-
 Esse começo de ano eu estou aproveitando para participar de alguns
 eventos, e a Campus Party é um dos principais deles.  Assim que eu
 entrei na empresa que eu estou trabalhando atualmente eu já informei

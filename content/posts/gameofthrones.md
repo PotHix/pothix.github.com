@@ -1,12 +1,14 @@
 +++
+path = "gameofthrones"
 title = "Review of A Game of Thrones (A Song of Ice and Fire, #1)"
 date = 2017-07-28
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [A Game of Thrones (A Song of Ice and Fire, #1)](https://www.goodreads.com/book/show/13496) by George R.R. Martin. Rating: ⭐️⭐️⭐️⭐️.
 
 It's a great book.

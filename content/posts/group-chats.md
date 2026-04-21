@@ -1,12 +1,14 @@
 +++
+path = "group-chats"
 title = "Thoughts on group chats"
 date = 2021-02-13
+
+[taxonomies]
 tags = [
     "english",
     "tech",
 ]
 +++
-
 I'm a big fan of group chats. The current app I use the most for group chats
 (and direct messages as well) is Telegram. I even created some group chats for
 topics I like (mechanical keyboards, note taking and productivity, Books and

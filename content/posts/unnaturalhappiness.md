@@ -1,12 +1,14 @@
 +++
+path = "unnaturalhappiness"
 title = "Review of Hiding in Unnatural Happiness"
 date = 2018-01-28
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Hiding in Unnatural Happiness](https://www.goodreads.com/book/show/30247805) by Devamrita Swami. Rating: ⭐️⭐️⭐️.
 
 I received this book from a monk while walking on the streets of York (UK) last year. I gave a small donation, and he told me to keep the book, so I decided to read it. He said it was about meditation, but it's about yoga in general (not the physical practice).

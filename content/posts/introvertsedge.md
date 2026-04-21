@@ -1,12 +1,14 @@
 +++
+path = "introvertsedge"
 title = "Review of The Introvert's Edge: How the Quiet and Shy Can Outsell Anyone"
 date = 2018-07-14
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Introvert's Edge: How the Quiet and Shy Can Outsell Anyone](https://www.goodreads.com/book/show/34963434) by Matthew Owen Pollard. Rating: ⭐️⭐️⭐️.
 
 I bought this book because I wanted to understand a little bit more about introverts, so I can improve myself and understand others better. In the end, this book is totally related to sales, and part of it was not so interesting to me.

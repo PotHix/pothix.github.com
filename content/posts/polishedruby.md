@@ -1,13 +1,15 @@
 +++
+path = "polishedruby"
 title = "Review of Polished Ruby Programming"
 date = 2021-08-17
+
+[taxonomies]
 tags = [
     "english",
     "books",
     "tech",
 ]
 +++
-
 Book: [Polished Ruby Programming: Build better software with more intuitive, maintainable, scalable, and high-performance Ruby code](https://www.goodreads.com/review/show/4062011051) by Jeremy Evans. Rating: ⭐️⭐️⭐️⭐️.
 
 I got a contact from Packtpub about this book. The deal was to receive the book

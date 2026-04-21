@@ -1,4 +1,5 @@
 +++
+path = "highperfwebsites"
 title = "High Performance Websites"
 aliases=[
   "post/bookreview-high-performance-websites",
@@ -6,9 +7,10 @@ aliases=[
   "blog/books/bookreview-high-performance-websites"
 ]
 date = "2009-07-30"
+
+[taxonomies]
 tags = ["books","tech"]
 +++
-
 Mais um dos livros que eu consegui terminar de ler nas férias! O livro
 fala sobre performance de front end, como fazer as suas páginas
 carregarem mais rapidamente e fornecer uma melhor experiência para o

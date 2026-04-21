@@ -1,13 +1,14 @@
 +++
 title = "Gifts I want to receive"
-tags = [
-  "english",
-]
 aliases = [
   "gifts",
 ]
-+++
 
+[taxonomies]
+tags = [
+  "english",
+]
++++
 Sometimes people want to give me stuff and I would like to refer them to a page.
 Well... this is the page for it. 🙂
 

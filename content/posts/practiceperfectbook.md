@@ -1,12 +1,14 @@
 +++
+path = "practiceperfectbook"
 title = "Review of Practice Perfect: 42 Rules for Getting Better at Getting Better"
 date = 2017-07-12
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Practice Perfect: 42 Rules for Getting Better at Getting Better](https://www.goodreads.com/book/show/13838561) by Doug Lemov. Rating: ⭐️⭐️⭐️.
 
 A good book with lots of advice. The structure is not so good, but it's OK.

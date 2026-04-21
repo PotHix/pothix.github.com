@@ -1,12 +1,14 @@
 +++
+path = "shopclasssoulcraft"
 title = "Review of Shop Class as Soulcraft: An Inquiry Into the Value of Work"
 date = 2018-05-17
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Shop Class as Soulcraft: An Inquiry Into the Value of Work](https://www.goodreads.com/book/show/6261332) by Matthew B. Crawford. Rating: ⭐️⭐️⭐️.
 
 I was between 3 and 4 stars for this review but decided to stick with 3. The book has some interesting insights and the whole motorcycle thing resonates a lot with me, but in general, I found myself bored by the pacing and abstraction.

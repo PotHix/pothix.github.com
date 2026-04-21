@@ -1,12 +1,14 @@
 +++
+path = "urbanmonk"
 title = "Review of The Urban Monk: Eastern Wisdom and Modern Hacks to Stop Time and Find Success, Happiness, and Peace"
 date = 2017-03-24
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Urban Monk: Eastern Wisdom and Modern Hacks to Stop Time and Find Success, Happiness, and Peace](https://www.goodreads.com/book/show/25664522) by Pedram Shojai. Rating: ⭐️⭐️⭐️.
 
 The author was a Monk for 4 years, is a Doctor of Oriental Medicine and studied Kung Fu and Tai Chi for decades, this is what you will get from the book.

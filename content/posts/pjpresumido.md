@@ -1,9 +1,11 @@
 +++
+path = "pjpresumido"
 title = "PJ optante do Lucro Presumido"
 date = 2020-11-08
+
+[taxonomies]
 series = ["PF & PJ"]
 +++
-
 Nesse quarto post da [série de PF & PJ](/series/pf-pj) eu vou explicar o que eu
 sei sobre o Lucro Presumido para o nosso tipo de trabalho (desenvolvimento de
 software), como é o dia-a-dia de impostos e porque decidi migrar do Simples

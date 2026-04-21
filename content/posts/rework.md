@@ -1,4 +1,5 @@
 +++
+path = "rework"
 title = "Rework"
 aliases=[
   "post/rework",
@@ -6,9 +7,10 @@ aliases=[
   "blog/books/rework"
 ]
 date = "2010-08-06"
+
+[taxonomies]
 tags = ["books"]
 +++
-
 Hoje terminei de ler o livro da 37signals chamado Rework! E vou falar
 um pouco sobre a idéia dele aqui.
 

@@ -1,12 +1,14 @@
 +++
+path = "moneymasterthegame"
 title = "Review of MONEY Master the Game: 7 Simple Steps to Financial Freedom"
 date = 2016-03-21
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [MONEY Master the Game: 7 Simple Steps to Financial Freedom](https://www.goodreads.com/book/show/23014006) by Anthony Robbins. Rating: ⭐️⭐️⭐️⭐️.
 
 I have mixed feelings about this one. I got some cool insights about financing and how I can improve my plant of financial freedom, but the book was repetitive most of the time.

@@ -1,9 +1,10 @@
----
-title: "Paris"
-date: 2023-01-21
-skip_feed: true
----
++++
+title = "Paris"
+date = "2023-01-21"
 
+[extra]
+skip_feed = true
++++
 In January 2023, my team at Doist had a meeting in Paris, so I scheduled one
 week before the meeting to be a tourist in Paris. What I'm writing below is a
 combination of the time I had as a tourist with my wife **and** the places we

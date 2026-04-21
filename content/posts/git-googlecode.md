@@ -1,4 +1,5 @@
 +++
+path = "git-googlecode"
 title = "Usando Git em projetos do Google Code"
 aliases=[
   "post/usando-git-em-projetos-do-google-code",
@@ -6,9 +7,10 @@ aliases=[
   "blog/development/usando-git-em-projetos-do-google-code"
 ]
 date = "2009-05-11"
+
+[taxonomies]
 tags = ["tech"]
 +++
-
 Resolvi escrever esse post depois de começar a contribuir para o
 projeto do
 [vimbook](http://code.google.com/p/vimbook "Projeto do VimmBook no Google Code"),

@@ -1,4 +1,5 @@
 +++
+path = "rubyconfbr-adl-gddbr"
 title = "Semana de eventos (#rubyconfbr, #adl e #gddbr)"
 aliases=[
   "post/semana-de-eventos-rubyconfbr-adl-e-gddbr",
@@ -6,9 +7,10 @@ aliases=[
   "blog/events/semana-de-eventos-rubyconfbr-adl-e-gddbr"
 ]
 date = "2010-10-31"
+
+[taxonomies]
 tags = ["android","events","ruby","tech"]
 +++
-
 Na semana passada (semana do dia 24 ao dia 30 de outubro) foi uma
 semana de grandes eventos, que eu tive o prazer de participar de
 todos! :)

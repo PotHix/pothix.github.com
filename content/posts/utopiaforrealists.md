@@ -1,12 +1,14 @@
 +++
+path = "utopiaforrealists"
 title = "Review of Utopia for Realists: How We Can Build the Ideal World"
 date = 2019-10-19
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Utopia for Realists: How We Can Build the Ideal World](https://www.goodreads.com/book/show/40876575) by Rutger Bregman. Rating: ⭐️⭐️⭐️⭐️.
 
 A good book that I will recommend to many people. I was between 4 and 5 stars for this one and decided to go with 4. If there was a 4.5, I would totally go for it.

@@ -1,9 +1,10 @@
----
-title: "Pforzheim"
-date: 2023-07-09
-skip_feed: true
----
++++
+title = "Pforzheim"
+date = "2023-07-09"
 
+[extra]
+skip_feed = true
++++
 While going to [Bad Liebenzell](badliebenzell) from [Frankfurt](frankfurt), I
 had to forcefully stop in Pforzheim for a bit more than 2 hours. My trains were
 delayed and I had to wait for the last train to get to Bad Liebenzell.

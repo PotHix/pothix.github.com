@@ -1,4 +1,5 @@
 +++
+path = "encontro-designtec"
 title = "Encontro de Design e Tecnologia Digital"
 aliases=[
   "post/encontro-de-design-e-tecnologia-digital",
@@ -6,9 +7,10 @@ aliases=[
   "blog/events/encontro-de-design-e-tecnologia-digital"
 ]
 date = "2009-04-26"
+
+[taxonomies]
 tags = ["events","tech"]
 +++
-
 Participei nesse sábado do EDTED (Encontro de Design e Tecnologia
 Digital), e vou postar as minhas impressões sobre o evento, focando
 as palestras que assisti:

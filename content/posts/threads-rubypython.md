@@ -1,4 +1,5 @@
 +++
+path = "threads-rubypython"
 title = "Ruby, Python e native threads"
 aliases=[
   "post/ruby-python-e-native-threads",
@@ -6,9 +7,10 @@ aliases=[
   "blog/development/ruby-python-e-native-threads"
 ]
 date = "2014-02-14"
+
+[taxonomies]
 tags = ["ruby","python","tech"]
 +++
-
 Pode ser que eu seja meio burro (heheh) mas eu ainda achava que o Ruby e o
 Python usavam Green Threads, mas depois de conversar com uma galera me disseram
 que eram threads nativas. Pesquisando na internet eu vi que eram mesmo, mas decidi

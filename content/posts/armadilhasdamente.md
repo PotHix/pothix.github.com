@@ -1,11 +1,13 @@
 +++
+path = "armadilhasdamente"
 title = "Review de Armadilhas da Mente"
 date = 2016-07-12
+
+[taxonomies]
 tags = [
     "books",
 ]
 +++
-
 Book: [Armadilhas da Mente](https://www.goodreads.com/book/show/18074817) by Augusto Cury. Rating: ⭐️⭐️⭐️.
 
 Eu já tinha lido o "Ansiedade - Como Enfrentar o Mal do Século", portanto esse livro não adicionou tanto para mim.

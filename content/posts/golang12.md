@@ -1,4 +1,5 @@
 +++
+path = "golang12"
 title = "Golang and 1.2 version performance improvement"
 aliases=[
   "post/golang-and-1-2-version-performance-improvement",
@@ -6,9 +7,10 @@ aliases=[
   "blog/development/golang-and-1-2-version-performance-improvement"
 ]
 date = "2013-12-03"
+
+[taxonomies]
 tags = ["golang","english","tech"]
 +++
-
 I've started using Go last month and I really liked to work with the language.
 
 The project I'm working on is dead simple and just retrieves metrics and save on

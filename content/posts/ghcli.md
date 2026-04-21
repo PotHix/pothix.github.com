@@ -1,12 +1,14 @@
 +++
+path = "ghcli"
 title = "GitHub CLI (a.k.a gh)"
 date = 2020-12-15
+
+[taxonomies]
 tags = [
     "english",
     "tech",
 ]
 +++
-
 The GitHub CLI is been a major time saver for me. I was skeptical about its
 usage in the beginning but it proved to be very useful.
 

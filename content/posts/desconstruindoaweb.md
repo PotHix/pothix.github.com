@@ -1,13 +1,15 @@
 +++
+path = "desconstruindoaweb"
 title = "Escrevendo o Desconstruindo a web"
 date = "2016-10-03"
-tags = ["desconstruindo-a-web"]
 aliases=[
   "post/escrevendo-o-desconstruindo-a-web",
   "2016/10/03/escrevendo-o-desconstruindo-a-web.html"
 ]
-+++
 
+[taxonomies]
+tags = ["desconstruindo-a-web"]
++++
 **TL;DR**: Escrevi um livro em 315 horas, geralmente aos fins de semana durante
 2 ou 3 horas consecutivas. O processo completo durou 8 meses e foi lançado
 oficialmente na Rubyconfbr2016.

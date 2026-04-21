@@ -1,4 +1,5 @@
 +++
+path = "dia-dificil"
 title = "Dia difícil"
 aliases=[
   "post/dia-dificil",
@@ -6,9 +7,10 @@ aliases=[
   "blog/personal/dia-dificil"
 ]
 date = "2009-02-08"
+
+[taxonomies]
 tags = ["personal"]
 +++
-
 Hoje o dia foi $#&amp;&amp;!
 
 [![Foto da minha garagem cheia de água de enchente](https://lh6.googleusercontent.com/-o-d1Cuoqs4U/SY4LyeeCslI/AAAAAAAABSk/h8ZKw09LENY/w1200-h900-no/S7301819.JPG "Água de enchente")](https://plus.google.com/photos/+WillianMolinari/albums/5300186538520936977?banner=pwa "")

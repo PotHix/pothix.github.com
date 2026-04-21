@@ -1,4 +1,5 @@
 +++
+path = "railssummit-day1"
 title = "Rails Summit Latin America"
 aliases=[
   "post/rails-summit-latin-america",
@@ -6,10 +7,11 @@ aliases=[
   "blog/events/rails-summit-latin-america"
 ]
 date = "2008-10-21"
+
+[taxonomies]
 tags = ["ruby","tech"]
 series = ["Rails Summit"]
 +++
-
 Como muitos sabem eu participei da Rails Summit Latin America e vou
 agora fazer uns comentários sobre o evento.
 

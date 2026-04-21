@@ -1,17 +1,19 @@
 +++
+path = "oxford-tolkien"
 title = "Oxford for Tolkien fans"
 date = "2017-03-10"
+aliases=[
+  "post/oxford-for-tolkien-fans",
+  "2017/03/08/oxford-for-tolkien-fans.html"
+]
+
+[taxonomies]
 tags = [
   "personal",
   "english",
   "tolkien",
 ]
-aliases=[
-  "post/oxford-for-tolkien-fans",
-  "2017/03/08/oxford-for-tolkien-fans.html"
-]
 +++
-
 **TL;DR**: When traveling to Europe, I decided to take 2 or 3 days to visit
 Oxford. I will describe how was the experience of a J.R.R. Tolkien fan there.
 

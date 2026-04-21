@@ -1,4 +1,5 @@
 +++
+path = "monit"
 title = "Instalando e configurando o monit"
 aliases=[
   "post/instalando-e-configurando-o-monit",
@@ -6,9 +7,10 @@ aliases=[
   "blog/ubuntu/instalando-e-configurando-o-monit"
 ]
 date = "2009-09-10"
+
+[taxonomies]
 tags = ["linux","tech"]
 +++
-
 Esses dias eu peguei para instalar o monit no servidor da empresa que
 eu trabalho e sofri um pouquinho com algumas coisas básicas, portanto
 decidi postar aqui para que seja útil para quem quer começar a

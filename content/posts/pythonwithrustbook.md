@@ -1,12 +1,14 @@
 +++
+path = "pythonwithrustbook"
 title = "Review of Speed Up Your Python with Rust: Optimize Python performance by creating Python pip modules in Rust with PyO3"
 date = 2022-06-10
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Speed Up Your Python with Rust: Optimize Python performance by creating Python pip modules in Rust with PyO3](https://www.goodreads.com/review/show/4606266441) by Maxwell Flitton. Rating: ⭐️⭐️⭐️.
 
 I got this book from Packt in an exchange for an honest review, so here it is.

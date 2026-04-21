@@ -1,4 +1,5 @@
 +++
+path = "ambiente-dev"
 title = "Meu ambiente de desenvolvimento"
 aliases=[
   "post/meu-ambiente-de-desenvolvimento",
@@ -6,9 +7,10 @@ aliases=[
   "blog/development/meu-ambiente-de-desenvolvimento"
 ]
 date = "2010-12-29"
+
+[taxonomies]
 tags = ["tech"]
 +++
-
 Fui convidado pelo [@jtadeulopes](http://twitter.com/#!/jtadeulopes) e
 pelo [@qmx](http://twitter.com/#!/qmx) para participar do meme sobre
 ambientes de desenvolvimento, então estou fazendo esse post para falar

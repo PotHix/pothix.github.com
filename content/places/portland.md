@@ -1,9 +1,10 @@
----
-title: "Portland"
-date: 2019-09-20
-skip_feed: true
----
++++
+title = "Portland"
+date = "2019-09-20"
 
+[extra]
+skip_feed = true
++++
 I had the chance to visit Portland in 2015 for OSCON and 2018 for Rustconf.
 The city has a hipster vibe, and I like it.
 

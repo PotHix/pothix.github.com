@@ -1,4 +1,5 @@
 +++
+path = "problemas-vivo"
 title = "Usuários resolvem os problemas da VIVO"
 aliases=[
   "post/usuarios-resolvem-os-problemas-da-vivo",
@@ -6,9 +7,10 @@ aliases=[
   "blog/development/usuarios-resolvem-os-problemas-da-vivo"
 ]
 date = "2009-01-13"
+
+[taxonomies]
 tags = ["tech"]
 +++
-
 Primeiramente quero parabenizar o
 [Diogo Santos](http://blog.diogosantos.com/2009/01/acesse-o-vivo-online-com-avoi-um-complemento-para-firefox/)
 pelo seu [add-on para Firefox](http://diogosantos.com/avoi/ "AVOI"),

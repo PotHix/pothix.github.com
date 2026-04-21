@@ -1,12 +1,14 @@
 +++
+path = "willitfly"
 title = "Review of Will It Fly?: How to Test Your Next Business Idea So You Don't Waste Your Time and Money"
 date = 2016-11-13
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Will It Fly?: How to Test Your Next Business Idea So You Don't Waste Your Time and Money ](https://www.goodreads.com/review/show/3908836343). Rating: ⭐️⭐️⭐️⭐️.
 
 I like this book and have a bunch of notes to share.

@@ -1,12 +1,14 @@
 +++
+path = "waitwhat"
 title = "Review of Wait, What?: And Life's Other Essential Questions"
 date = 2018-05-25
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Wait, What?: And Life's Other Essential Questions](https://www.goodreads.com/book/show/31307683) by James E. Ryan. Rating: ⭐️⭐️⭐️.
 
 I bought this book as an Audible daily deal. For the price and size of the book, it was ok.

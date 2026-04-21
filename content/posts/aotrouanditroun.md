@@ -1,13 +1,15 @@
 +++
+path = "aotrouanditroun"
 title = "Review of The Lay of Aotrou and Itroun"
 date = 2018-08-29
+
+[taxonomies]
 tags = [
     "english",
     "books",
     "tolkien",
 ]
 +++
-
 Book: [The Lay of Aotrou and Itroun](https://www.goodreads.com/book/show/31122069) by J.R.R. Tolkien. Rating: ⭐️⭐️⭐️.
 
 It's an OK book if you're a Tolkien fan.

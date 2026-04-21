@@ -1,12 +1,14 @@
 +++
+path = "reddeath"
 title = "Review of The Masque of the Red Death"
 date = 2021-06-29
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Masque of the Red Death](https://www.goodreads.com/review/show/4061861792) by Edgar Allan Poe. Rating: ⭐️⭐️⭐️⭐️.
 
 I decided to read this book after reading [Song of Susannah (The Dark Tower,

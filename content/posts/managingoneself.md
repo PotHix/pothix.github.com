@@ -1,12 +1,14 @@
 +++
+path = "managingoneself"
 title = "Review of Managing Oneself"
 date = 2018-07-01
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Managing Oneself](https://www.goodreads.com/book/show/2477223) by Peter F. Drucker. Rating: ⭐️⭐️⭐️⭐️.
 
 This book is not life-changing but it's small, straight to the point, and has many terrific bits of advice for your career and life.

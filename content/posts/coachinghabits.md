@@ -1,12 +1,14 @@
 +++
+path = "coachinghabits"
 title = "Review of The Coaching Habit: Say Less, Ask More & Change the Way You Lead Forever"
 date = 2016-09-02
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Coaching Habit: Say Less, Ask More & Change the Way You Lead Forever](https://www.goodreads.com/review/show/3911931080). Rating: ⭐️⭐️⭐️.
 
 Read this book in 2016 but never published any review until now (2021, even if the post date is the day I finished the book). I don't have much to say now, but at least I can publish my notes from 2016.

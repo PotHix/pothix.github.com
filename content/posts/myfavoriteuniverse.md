@@ -1,12 +1,14 @@
 +++
+path = "myfavoriteuniverse"
 title = "Review of My Favorite Universe"
 date = 2017-08-23
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [My Favorite Universe](https://www.goodreads.com/book/show/33410046) by Neil deGrasse Tyson. Rating: ⭐️⭐️⭐️⭐️.
 
 A good book to introduce physics to common people.

@@ -1,12 +1,14 @@
 +++
+path = "bravenewworldbook"
 title = "Review of Brave New World"
 date = 2021-12-05
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Brave New World](https://www.goodreads.com/review/show/2630302498) by Aldous Huxley. Rating: ⭐️⭐️⭐️⭐️.
 
 People usually mention Brave New World along with [1984](/1984), so I had this

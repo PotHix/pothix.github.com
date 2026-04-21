@@ -1,12 +1,14 @@
 +++
+path = "ferreirobosquegrande"
 title = "Review de Ferreiro de Bosque Grande"
 date = 2016-04-25
+
+[taxonomies]
 tags = [
     "books",
     "tolkien",
 ]
 +++
-
 Book: [Ferreiro de Bosque Grande](https://www.goodreads.com/book/show/27999395) by J.R.R. Tolkien. Rating: ⭐️⭐️⭐️⭐️.
 
 É um livro muito legal para quem é fã de Tolkien. A história é bem pequena, menos da metade de livro. O restante do livro é um pouco de contexto sobre a história e porque ela foi escrita, juntamente com algumas ligações sobre a vida do Tolkien na época.

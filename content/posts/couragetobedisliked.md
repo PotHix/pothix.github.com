@@ -1,12 +1,14 @@
 +++
+path = "couragetobedisliked"
 title = "Review of The Courage to Be Disliked: How to Free Yourself, Change your Life and Achieve Real Happiness"
 date = 2020-02-13
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Courage to Be Disliked: How to Free Yourself, Change your Life and Achieve Real Happiness](https://www.goodreads.com/book/show/43306206) by Ichiro Kishimi. Rating: ⭐️⭐️⭐️⭐️⭐️.
 
 I love these kinds of dialogues where both sides know how to win something. Currently, there are not many good dialogues on our society, especially with the advent of social media (🙄), but I would not go into detail here.

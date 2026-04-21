@@ -1,13 +1,15 @@
 +++
+path = "tolkienwest"
 title = "Review of Tolkien and the West: Recovering the Lost Tradition of Europe (The Modern Scholar)"
 date = 2018-07-22
+
+[taxonomies]
 tags = [
   "english",
   "books",
   "tolkien",
 ]
 +++
-
 Book: [Tolkien and the West: Recovering the Lost Tradition of Europe (The Modern Scholar)](https://www.goodreads.com/book/show/15750149) by Michael D.C. Drout. Rating: ⭐️⭐️⭐️⭐️⭐️.
 
 A great book if you are a fan of J.R.R. Tolkien (like me).

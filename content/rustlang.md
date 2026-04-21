@@ -1,11 +1,12 @@
 +++
 title = "Rustlang and me"
+
+[taxonomies]
 tags = [
   "rust",
   "english",
 ]
 +++
-
 Sometimes I'm kindly mentioned by people when there's a topic about Rust going
 on. I decided to create this page so I could share a bit of my relationship
 with Rust in one single place 🦀.

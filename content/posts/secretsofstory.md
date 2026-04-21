@@ -1,12 +1,14 @@
 +++
+path = "secretsofstory"
 title = "Review of The Secrets of Story: Innovative Tools for Perfecting Your Fiction and Captivating Readers"
 date = 2017-06-14
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Secrets of Story: Innovative Tools for Perfecting Your Fiction and Captivating Readers](https://www.goodreads.com/book/show/28627416) by Matt Bird. Rating: ⭐️⭐️⭐️⭐️.
 
 A great book on how to write books. 4.5 stars.

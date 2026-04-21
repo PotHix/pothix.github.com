@@ -1,12 +1,14 @@
 +++
+path = "dailyrituals"
 title = "Review of Daily Rituals: How Artists Work"
 date = 2020-12-16
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Daily Rituals: How Artists Work](https://www.goodreads.com/review/show/1831746176). Rating: ⭐️⭐️⭐️⭐️.
 
 I just read the book [When](/when) and it mentioned this book. The idea was so

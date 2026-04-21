@@ -1,4 +1,5 @@
 +++
+path = "crontab-rails"
 title = "Crontab dentro da sua aplicação rails com whenever"
 aliases=[
   "post/crontab-dentro-da-sua-aplicacao-rails-com-whenever",
@@ -6,9 +7,10 @@ aliases=[
   "blog/development/crontab-dentro-da-sua-aplicacao-rails-com-whenever"
 ]
 date = "2009-12-02"
+
+[taxonomies]
 tags = ["ruby","tech"]
 +++
-
 Hoje estou aqui para falar de uma coisa que quando vi pela primeira vez
 ignorei por parecer uma coisa boba, mas olhando melhor eu percebi que é
 uma idéia bem interessante. O que a gem whenever faz é manter o seu

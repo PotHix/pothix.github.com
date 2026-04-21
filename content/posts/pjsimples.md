@@ -1,9 +1,11 @@
 +++
+path = "pjsimples"
 title = "PJ optante do Simples"
 date = 2020-11-07
+
+[taxonomies]
 series = ["PF & PJ"]
 +++
-
 Nesse terceiro post da [série de PF & PJ](/series/pf-pj) eu vou explicar o que
 eu sei sobre o Simples Nacional atual e como era a minha vida quando minha
 empresa era optante.

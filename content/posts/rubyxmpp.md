@@ -1,13 +1,15 @@
 +++
+path = "rubyxmpp"
 title = "XMPP e Ruby"
 aliases=[
   "2012/07/10/xmpp-e-ruby.html",
   "post/xmpp-e-ruby"
 ]
 date = "2012-07-10"
+
+[taxonomies]
 tags = ["ruby","tech"]
 +++
-
 Alguns (vários…) meses atrás eu fiz uma palestra pequena no Guru-SP(São Paulo
 Ruby Users Group) sobre Ruby e XMPP, os vídeos e slides estão disponíveis:
 

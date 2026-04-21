@@ -1,4 +1,5 @@
 +++
+path = "ruby-inicio"
 title = "Começando a falar de Ruby"
 aliases=[
   "post/comecando-a-falar-de-ruby",
@@ -6,9 +7,10 @@ aliases=[
   "blog/development/comecando-a-falar-de-ruby"
 ]
 date = "2009-04-13"
+
+[taxonomies]
 tags = ["ruby","tech"]
 +++
-
 Se você já conhece Ruby, ignore esse post! A idéia do post é mostrar
 um pouco da linguagem Ruby para pessoas que não conhecem nada sobre
 ela.

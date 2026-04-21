@@ -1,12 +1,14 @@
 +++
+path = "deepworkbook"
 title = "Review of Deep Work: Rules for Focused Success in a Distracted World"
 date = 2017-05-31
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Deep Work: Rules for Focused Success in a Distracted
 World](https://www.goodreads.com/book/show/25744928) by Cal Newport. Rating:
 ⭐️⭐️⭐️⭐️⭐️.

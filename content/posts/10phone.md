@@ -1,12 +1,14 @@
 +++
+path = "10phone"
 title = "Using a 10yo phone (Nexus 5)"
 date = 2023-10-16
+
+[taxonomies]
 tags = [
     "english",
     "tech",
 ]
 +++
-
 I decided to change my phone to a newer hardware. While changing hardware, I
 would have to do a little dance of devices:
 

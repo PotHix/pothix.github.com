@@ -1,12 +1,14 @@
 +++
+path = "powerofhabit"
 title = "Review of The Power of Habit: Why We Do What We Do in Life and Business"
 date = 2016-07-08
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Power of Habit: Why We Do What We Do in Life and Business](https://www.goodreads.com/book/show/12609433) by Charles Duhigg. Rating: ⭐️⭐️⭐️⭐️⭐️.
 
 Read this book for the first time in 2016 and re-read it now (2019). The first time I read it, I did not take notes, so I decided to "properly read/listen" now.

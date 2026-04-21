@@ -1,13 +1,15 @@
 +++
+path = "lifestyle"
 title = "A lifestyle"
 date = "2012-09-10"
-tags = ["motorcycles", "english"]
 aliases=[
   "post/a-lifestyle",
   "2012/09/10/a-lifestyle.html"
 ]
-+++
 
+[taxonomies]
+tags = ["motorcycles", "english"]
++++
 Just a transcript from [here](http://www.youtube.com/watch?v=vlZ4ONTb9i0&feature=youtu.be),
 but it reflects my way of life at this stage of my life:
 

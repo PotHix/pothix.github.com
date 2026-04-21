@@ -1,4 +1,5 @@
 +++
+path = "allegro422"
 title = "Instalando o Allegro 4.2.2 no Linux x86"
 aliases=[
   "post/instalando-o-allegro-4-2-2-no-linux-x86",
@@ -6,9 +7,10 @@ aliases=[
   "blog/development/instalando-o-allegro-4-2-2-no-linux-x86"
 ]
 date = "2009-08-12"
+
+[taxonomies]
 tags = ["gamedev","tech","linux"]
 +++
-
 Como mencionei no
 [meu ultimo post](http://pothix.com/blog/development/gamejam "Post sobre o GameJam")
 eu parcicipei do GameJam do Itaú cultural e desenvolvi um jogo com

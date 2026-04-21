@@ -1,12 +1,14 @@
 +++
+path = "shortenessoflife"
 title = "Review of On the Shortness of Life"
 date = 2019-12-26
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [On the Shortness of Life](https://www.goodreads.com/book/show/97412) by Seneca. Rating: ⭐️⭐️⭐️⭐️.
 
 A short and good book. After reading [Letters from a Stoic](/letterfromastoic), I got the recommendation of this book as well and it was worth listening to it. This book makes me think about the way I'm living my life and how I'm using my time (not focusing enough?).

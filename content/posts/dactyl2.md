@@ -1,6 +1,9 @@
 +++
+path = "dactyl2"
 title = "Testing a promicro"
 date = 2020-11-09
+
+[taxonomies]
 series = [
     "dactyl",
 ]
@@ -9,7 +12,6 @@ tags = [
     "keyboards",
 ]
 +++
-
 A lot happened since [my last post](/dactyl1) and all parts are already here! 😃
 
 It was expected that I would not have that much time to work on the keyboard

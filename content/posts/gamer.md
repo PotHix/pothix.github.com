@@ -1,4 +1,5 @@
 +++
+path = "gamer"
 title = "Voltando a ser um gamer"
 aliases=[
   "post/voltando-a-ser-um-gamer",
@@ -6,9 +7,10 @@ aliases=[
   "blog/games/voltando-a-ser-um-gamer"
 ]
 date = "2008-12-14"
+
+[taxonomies]
 tags = ["gamedev","games"]
 +++
-
 Esse aqui vai ser um post um pouco fora do escopo "programação", mas
 ainda no escopo "nerd"! :)
 

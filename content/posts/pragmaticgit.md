@@ -1,4 +1,5 @@
 +++
+path = "pragmaticgit"
 title = "Pragmatic version control using Git"
 aliases=[
   "post/bookreview-pragmatic-version-control-using-git",
@@ -6,9 +7,10 @@ aliases=[
   "blog/books/bookreview-pragmatic-version-control-using-git"
 ]
 date = "2009-07-19"
+
+[taxonomies]
 tags = ["books","tech"]
 +++
-
 Há tempos que eu estava querendo conhecer um pouco mais do Git e nos
 últimos dias estava procurando um livro legal, quando me deparei com
 esse livro. Fiz algumas perguntas para um pessoal no Twitter como

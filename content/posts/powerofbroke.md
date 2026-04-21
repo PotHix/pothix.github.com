@@ -1,12 +1,14 @@
 +++
+path = "powerofbroke"
 title = "Review of The Power of Broke: How Empty Pockets, a Tight Budget, and a Hunger for Success Can Become Your Greatest Competitive Advantage"
 date = 2017-04-29
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Power of Broke: How Empty Pockets, a Tight Budget, and a Hunger for Success Can Become Your Greatest Competitive Advantage](https://www.goodreads.com/book/show/25430691) by Daymond John. Rating: ⭐️⭐️⭐️.
 
 An ordinary book. 3 stars are good enough.

@@ -1,12 +1,14 @@
 +++
+path = "leadershipselfdeception"
 title = "Review of Leadership and Self-Deception: Getting Out of the Box"
 date = 2017-08-03
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Leadership and Self-Deception: Getting Out of the Box](https://www.goodreads.com/book/show/180463) by The Arbinger Institute. Rating: ⭐️⭐️⭐️.
 
 It's a good book. Good information in a good narrative form.

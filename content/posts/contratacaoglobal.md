@@ -1,11 +1,13 @@
 +++
+path = "contratacaoglobal"
 title = "Opinião: Produtos e contratações globais"
 date = 2021-03-20
+
+[taxonomies]
 tags = [
     "tech",
 ]
 +++
-
 Tudo começou com uma discussão no grupo off-topic do Ruby Brasil. Alguém
 compartilhou a seguinte imagem:
 

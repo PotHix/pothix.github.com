@@ -1,12 +1,14 @@
 +++
+path = "zerotoone"
 title = "Review of Zero to One: Notes on Startups, or How to Build the Future"
 date = 2018-06-08
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Zero to One: Notes on Startups, or How to Build the Future](https://www.goodreads.com/book/show/18050143) by Peter Thiel. Rating: ⭐️⭐️⭐️⭐️.
 
 It's a good book. There are some good insights, some things that only work for a particular context, and some others that I disagree.

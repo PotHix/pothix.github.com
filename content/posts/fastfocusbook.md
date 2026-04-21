@@ -1,12 +1,14 @@
 +++
+path = "fastfocusbook"
 title = "Review of Fast Focus: A Quick-Start Guide To Mastering Your Attention, Ignoring Distractions, And Getting More Done In Less Time!"
 date = 2018-07-13
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Fast Focus: A Quick-Start Guide To Mastering Your Attention, Ignoring Distractions, And Getting More Done In Less Time!](https://www.goodreads.com/book/show/33780690) by Damon Zahariades. Rating: ⭐️⭐️⭐️⭐️.
 
 It's a good book overall. I was between 4 and 5 for this one.

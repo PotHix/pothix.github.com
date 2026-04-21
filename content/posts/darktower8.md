@@ -1,12 +1,14 @@
 +++
+path = "darktower8"
 title = "Review of The Wind Through the Keyhole"
 date = 2021-07-07
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Wind Through the Keyhole](https://www.goodreads.com/review/show/4086228715) by Stephen King. Rating: ⭐️⭐️⭐️.
 
 I wish I have read this book in chronological order. The book is not bad, but

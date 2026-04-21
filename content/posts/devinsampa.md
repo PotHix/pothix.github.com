@@ -1,4 +1,5 @@
 +++
+path = "devinsampa"
 title = "Dev In Sampa"
 aliases=[
   "post/dev-in-sampa",
@@ -6,9 +7,10 @@ aliases=[
   "blog/events/dev-in-sampa"
 ]
 date = "2009-12-02"
+
+[taxonomies]
 tags = ["events","tech"]
 +++
-
 [![Imagem com o logo do DevInSampa](/images/posts/dev_in_sampa.jpg "Logo do DevInSampa")](/images/posts/dev_in_sampa.jpg "")
 
 Nesse sábado, dia 28/11/2009 aconteceu aqui em São Paulo (obviamente!

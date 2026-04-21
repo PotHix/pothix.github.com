@@ -1,11 +1,13 @@
 +++
+path = "knowledgebase"
 title = "My knowledge base bootstrap"
 date = 2021-05-01
+
+[taxonomies]
 tags = [
     "english",
 ]
 +++
-
 Note-taking is my current obsession, so it's time to talk about it here. 😃
 
 ## How it started

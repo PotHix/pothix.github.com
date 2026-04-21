@@ -1,12 +1,14 @@
 +++
+path = "rust-contrib"
 title="Contributing to Rust"
 date=2019-11-22
-tags=["english","tech"]
 aliases=[
   "post/contributing-to-rust"
 ]
-+++
 
+[taxonomies]
+tags=["english","tech"]
++++
 I'm involved with the Rust community for a while now. I'm one of the main
 organizers of the [Rust meetup in São
 Paulo](https://www.meetup.com/Rust-Sao-Paulo-Meetup/) and also the [Rust

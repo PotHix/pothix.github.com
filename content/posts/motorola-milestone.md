@@ -1,4 +1,5 @@
 +++
+path = "motorola-milestone"
 title = "Motorola Milestone e Android"
 aliases=[
   "post/motorola-milestone-e-android",
@@ -6,9 +7,10 @@ aliases=[
   "blog/android/motorola-milestone-e-android"
 ]
 date = "2010-09-08"
+
+[taxonomies]
 tags = ["android","tech"]
 +++
-
 Muita gente tem me perguntado sobre o meu Android atual, um motorola
 Milestone, e resolvi postar algumas informações e opiniões sobre o
 aparelho e sobre o Android em si.

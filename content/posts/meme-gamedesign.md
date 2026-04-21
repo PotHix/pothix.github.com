@@ -1,4 +1,5 @@
 +++
+path = "meme-gamedesign"
 title = "Meme: Game design ao Extremo"
 aliases=[
   "post/meme-game-design-ao-extremo",
@@ -6,9 +7,10 @@ aliases=[
   "blog/games/meme-game-design-ao-extremo"
 ]
 date = "2009-08-22"
+
+[taxonomies]
 tags = ["games"]
 +++
-
 Estou escrevendo esse post por que fui convocado para esse
 [meme pelo Bruno Croci](http://crocidb.com/blog/2009/08/meme-game-design-ao-extremo/ "Meme de games no blog do CrociDB"),
 que foi meu parceiro no desenvolvimento de um dos games

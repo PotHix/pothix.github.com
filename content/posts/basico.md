@@ -1,4 +1,5 @@
 +++
+path = "basico"
 title = "Ir além do básico tambem é gratis"
 aliases=[
   "post/ir-alem-do-basico-tambem-e-gratis",
@@ -6,9 +7,10 @@ aliases=[
   "blog/advice/ir-alem-do-basico-tambem-e-gratis"
 ]
 date = "2008-12-11"
+
+[taxonomies]
 tags = ["tech"]
 +++
-
 Faz um tempinho que eu estou querendo fazer um post seguindo os moldes da
 campanha do [Marco
 Gomes](http://marcogomes.com/blog/2008/campanha-programar-e-gratis), que também

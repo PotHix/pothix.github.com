@@ -1,12 +1,14 @@
 +++
+path = "artofnotgivingafuck"
 title = "Review of The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life"
 date = 2016-12-09
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life](https://www.goodreads.com/book/show/28257707) by Mark Manson. Rating: ⭐️⭐️⭐️.
 
 It was good at the beginning but the end was too self-help for me.

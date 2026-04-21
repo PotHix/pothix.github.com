@@ -1,4 +1,5 @@
 +++
+path = "gamedev-javascript"
 title = "Palestra sobre Gamedev, Javascript e HTML5"
 aliases=[
   "post/palestra-sobre-gamedev-javascript-e5",
@@ -6,9 +7,10 @@ aliases=[
   "blog/games/palestra-sobre-gamedev-javascript-e-html5"
 ]
 date = "2011-05-23"
+
+[taxonomies]
 tags = ["gamedev","speaking","events"]
 +++
-
 Esse fim de semana eu palestrei no FLISOL de São José dos Campos sobre
 desenvolvimento de jogos, Javascript e HTML5. Foi uma palestra simples
 e rápida, durou pouco mais de meia hora (preciso aprender a falar um

@@ -1,4 +1,5 @@
 +++
+path = "amarok"
 title = "Ouvindo suas musicas no Amarok"
 aliases=[
   "post/ouvindo-suas-musicas-no-amarok",
@@ -6,9 +7,10 @@ aliases=[
   "blog/ubuntu/ouvindo-suas-musicas-no-amarok"
 ]
 date = "2008-11-13"
+
+[taxonomies]
 tags = ["linux"]
 +++
-
 Como sabem, instalei o Ubuntu no meu notebook Toshiba U405-S2854, e
 estou brincando um pouco com programas bunitinhos e mais pesados do
 que os que eu costumava usar no Slackware.

@@ -1,4 +1,5 @@
 +++
+path = "diablo"
 title = "GameReview: Diablo"
 aliases=[
   "post/gamereview-diablo",
@@ -6,9 +7,10 @@ aliases=[
   "blog/games/gamereview-diablo"
 ]
 date = "2009-07-20"
+
+[taxonomies]
 tags = ["games"]
 +++
-
 Pois é... Sei que muitos de vocês devem estar pensando se esse era um
 review de algum demo do Diablo III que sabe se lá como eu teria
 conseguido por que ainda nem lançou, mas não, esse é um review do

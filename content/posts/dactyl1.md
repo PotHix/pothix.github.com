@@ -1,9 +1,12 @@
 +++
+path = "dactyl1"
 title = "Dactyl keyboard - Part 1"
 date = 2020-08-28
 aliases = [
     "dactyl",
 ]
+
+[taxonomies]
 tags = [
     "english",
     "keyboards",
@@ -12,7 +15,6 @@ series = [
     "Dactyl"
 ]
 +++
-
 After build the [Iris keyboard](/iris) I decided to start a new quest to build
 a Dactyl-cc (as I mentioned at the end of the Iris post 😉)
 

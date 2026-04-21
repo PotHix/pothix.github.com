@@ -1,8 +1,10 @@
----
-title: "Travel (without kids)"
-skip_feed: true
----
++++
+title = "Travel (without kids)"
+date = "2020-01-01"
 
+[extra]
+skip_feed = true
++++
 I have [a long list of places I visited](/places) and if you look at the
 descriptions you will notice a pattern on how I usually travel. I decided to
 write this one, so I can refer to it most of the time. Here I'm going to

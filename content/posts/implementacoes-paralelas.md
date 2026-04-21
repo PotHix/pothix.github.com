@@ -1,13 +1,15 @@
 +++
+path = "implementacoes-paralelas"
 title = "Palestra sobre implementacoes paralelas"
 date = "2012-07-16"
-tags = ["tech","speaking","events"]
 aliases=[
   "post/palestra-sobre-implementacoes-paralelas",
   "2012/07/16/palestra-sobre-implementacoes-paralelas.html"
 ]
-+++
 
+[taxonomies]
+tags = ["tech","speaking","events"]
++++
 Esse post ficou como draft desde que eu palestrei sobre implementações
 paralelas, e agora que eu lembrei dele decidi publicar! :)
 

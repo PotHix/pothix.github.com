@@ -1,4 +1,5 @@
 +++
+path = "rails-django"
 title = "Rails X Django"
 aliases=[
   "post/rails-x-django",
@@ -6,9 +7,10 @@ aliases=[
   "blog/development/rails-x-django"
 ]
 date = "2009-04-08"
+
+[taxonomies]
 tags = ["python","ruby","tech"]
 +++
-
 Como todos sabem eu sou do mundo Ruby/Rails (Não sou xiita mas é o
 que mais gosto) e de vez em quando começo a brincar com coisas
 diferentes para poder formar a minha própria opinião sobre o assunto.

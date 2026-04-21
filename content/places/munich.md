@@ -1,10 +1,11 @@
----
-title: "Munich"
-aliases: ["munich"]
-date: 2022-06-16
-skip_feed: true
----
++++
+title = "Munich"
+aliases = ["munich"]
+date = "2022-06-16"
 
+[extra]
+skip_feed = true
++++
 In June 2022 I had the chance to spend 3 days in Munich while preparing for the
 [Doist](/doist) retreat. Unfortunately, I was not feeling well in the second day
 of the trip, so it was mostly 2 working days, but I enjoyed it.

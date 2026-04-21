@@ -1,12 +1,14 @@
 +++
+path = "typingspeed"
 title = "How typing speed influences our life"
 date = 2022-02-05
+
+[taxonomies]
 tags = [
     "english",
     "tech",
 ]
 +++
-
 It's not the first time I have an argument with someone about typing speed, so I
 decided to write this small post to make my point clear.
 

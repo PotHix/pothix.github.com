@@ -1,4 +1,5 @@
 +++
+path = "gurusp5"
 title = "O Guru-SP e seus 5 anos de vida"
 aliases=[
   "post/o-guru-sp-e-seus-5-anos-de-vida",
@@ -6,9 +7,10 @@ aliases=[
   "blog/events/o-guru-sp-e-seus-5-anos-de-vida"
 ]
 date = "2013-09-17"
+
+[taxonomies]
 tags = ["events","ruby"]
 +++
-
 Há pouco tempo aconteceu o [encontro numero 31 do Guru-SP](http://gurusp.org/encontros/trigesimo-primeiro-encontro-do-guru-sp), e como sempre saímos
 (dessa vez estavamos [@vinibaggio](http://twitter.com/vinibaggio), [@agaelebe](http://twitter.com/agaelebe), [@nuxlli](http://twitter.com/nuxlli) e [@anderson_leite](http://twitter.com/anderson_leite)) para
 aquele velho momento de bate papo pós evento. Durante a conversa o @nuxlli perguntou sobre como o Guru-SP começou e nesse momento eu comecei a relembrar

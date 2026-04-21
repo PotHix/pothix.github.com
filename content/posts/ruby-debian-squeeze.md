@@ -1,13 +1,15 @@
 +++
+path = "ruby-debian-squeeze"
 title = "Simlinks for ruby on Debian Squeeze"
 date = "2012-07-17"
-tags = ["linux","english"]
 aliases=[
   "post/simlinks-for-ruby-on-debian-squeeze",
   "2012/07/17/simlinks-for-ruby-on-debian-squeeze.html"
 ]
-+++
 
+[taxonomies]
+tags = ["linux","english"]
++++
 Every time we need to deploy a new Ruby application on top of Debian Squeeze
 we need to fix some Ruby depedencies to make the application work as it should.
 

@@ -1,4 +1,5 @@
 +++
+path = "intruder125"
 title = "Vendo intruder 125 customizada e com guidão seca suvaco"
 aliases=[
   "post/vendo-intruder-125-customizada-e-com-guidao-seca-suvaco",
@@ -6,9 +7,10 @@ aliases=[
   "/blog/personal/vendo-intruder-125-customizada-e-com-guidao-seca-suvaco"
 ]
 date = "2013-07-29"
+
+[taxonomies]
 tags = ["motorcycles"]
 +++
-
 Depois de brincar de customização de motos por um tempo chegou a hora
 de vender minha intrudinha. Estou com ela desde 2008 e só me deu
 alegrias.

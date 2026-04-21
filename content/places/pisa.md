@@ -1,9 +1,10 @@
----
-title: "Pisa"
-date: 2023-07-20
-skip_feed: true
----
++++
+title = "Pisa"
+date = "2023-07-20"
 
+[extra]
+skip_feed = true
++++
 In July 2023, after going to [Berlin](berlin) for 1 week, I decided it would
 be best to go to Pisa before going to Florence for the Doist retreat because
 flights were usually less expensive there.

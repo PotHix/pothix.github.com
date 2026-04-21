@@ -1,11 +1,13 @@
 +++
+path = "pirataria"
 title = "Falando sobre a pirataria"
 date = 2021-02-17
+
+[taxonomies]
 tags = [
     "tech",
 ]
 +++
-
 Há alguns dias atrás, [um amigo meu compartilhou um texto sobre pirataria no
 twitter](https://twitter.com/infoslack/status/1361800614414540803). O texto
 possui o tema "Precisamos falar sobre a pirataria" e pode ser visto

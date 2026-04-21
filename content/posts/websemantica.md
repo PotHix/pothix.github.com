@@ -1,11 +1,13 @@
 +++
+path = "websemantica"
 title = "Review de Introdução à Web Semântica: A inteligência da informação"
 date = 2016-12-24
+
+[taxonomies]
 tags = [
     "books",
 ]
 +++
-
 Book: [Introdução à Web Semântica: A inteligência da informação](https://www.goodreads.com/book/show/36246402) by Diego Eis. Rating: ⭐️⭐️⭐️⭐️.
 
 Tive o prazer de ajudar no processo de revisão desse livro. O assunto sempre me chamou a atenção mas nunca parei para estudar e entender as necessidades.

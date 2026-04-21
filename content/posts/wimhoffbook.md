@@ -1,12 +1,14 @@
 +++
+path = "wimhoffbook"
 title = "Review of What Doesn't Kill Us: How Freezing Water, Extreme Altitude, and Environmental Conditioning Will Renew Our Lost Evolutionary Strength"
 date = 2017-09-14
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [What Doesn't Kill Us: How Freezing Water, Extreme Altitude, and Environmental Conditioning Will Renew Our Lost Evolutionary Strength](https://www.goodreads.com/book/show/30039048) by Scott Carney. Rating: ⭐️⭐️⭐️⭐️.
 
 It was 3 stars most part of the book but I actually learned some stuff and added some pointers for further research, so it deserves a 4.

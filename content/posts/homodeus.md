@@ -1,12 +1,14 @@
 +++
+path = "homodeus"
 title = "Review of Homo Deus: A History of Tomorrow"
 date = 2019-05-12
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Homo Deus: A History of Tomorrow](https://www.goodreads.com/review/show/2055385130) by Yuval Noah Harari. Rating: ⭐️⭐️⭐️⭐️⭐️.
 
 This is a great book that made me pause many times think. This is the kind of book I love to read. I heard some criticism about Yuval's books and they are mostly related to his way to connect things that he is not an expert about. For me, it's the best part of the books because it also makes me consider the connections and think about them. You don't have to assume everything as a truth when you read a book, especially when the books are mostly theoretical (as some of the "forecasting" shown on this one).

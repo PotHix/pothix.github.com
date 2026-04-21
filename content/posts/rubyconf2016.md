@@ -1,13 +1,15 @@
 +++
+path = "rubyconf2016"
 title = "Rubyconf 2016"
 date = "2016-09-26"
-tags = ["events"]
 aliases=[
   "2016/09/26/rubyconf-2016.html",
   "post/rubyconf-2016"
 ]
-+++
 
+[taxonomies]
+tags = ["events"]
++++
 **TL;DR**: A melhor Rubyconf que eu participei
 
 Nos dias 24 e 25 de Setembro de 2016 aconteceu a Rubyconf Brasil.

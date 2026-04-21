@@ -1,4 +1,5 @@
 +++
+path = "gamejam"
 title = "GameJam"
 aliases=[
   "post/gamejam",
@@ -6,9 +7,10 @@ aliases=[
   "blog/development/gamejam"
 ]
 date = "2009-08-12"
+
+[taxonomies]
 tags = ["gamedev","tech"]
 +++
-
 [![Foto que mostra o pothix programando](/images/posts/gamejam_espaco.jpg "Espaço do Gamejam")](/images/posts/gamejam_espaco.jpg "")
 
 Como alguns sabem no final de semana passado ( dias 7, 8 e 9 ) eu participei do

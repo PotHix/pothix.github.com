@@ -1,10 +1,12 @@
 +++
+path = "doist"
 title = "PotHix ❤ Doist"
 date = "2017-10-30"
-tags = ["career", "english", "tech"]
 aliases=["post/doist-pothix"]
-+++
 
+[taxonomies]
+tags = ["career", "english", "tech"]
++++
 **TL;DR:** I'm working on something I really believe is good
 at [Doist](https://doist.com) and I feel great.
 

@@ -1,12 +1,14 @@
 +++
+path = "phoenixproject"
 title = "Review of The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win"
 date = 2016-10-05
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win](https://www.goodreads.com/book/show/17255186) by Gene Kim. Rating: ⭐️⭐️⭐️⭐️.
 
 This is a great book for IT folks.

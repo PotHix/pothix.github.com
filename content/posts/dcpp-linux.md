@@ -1,4 +1,5 @@
 +++
+path = "dcpp-linux"
 title = "DC++ no Linux"
 aliases=[
   "post/dc-no-linux",
@@ -6,9 +7,10 @@ aliases=[
   "blog/ubuntu/dc-no-linux"
 ]
 date = "2009-02-09"
+
+[taxonomies]
 tags = ["tech","linux"]
 +++
-
 Hoje finalmente estou conseguindo escrever um post sobre o DC++! Desde
 a [Campus Party](http://pothix.com/blog/events/campus-party-2009 "Campus Party")
 eu quero escrever esse post mas nunca consigo tempo!

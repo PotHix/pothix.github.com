@@ -1,4 +1,5 @@
 +++
+path = "gems-github"
 title = "Instalando gems do GitHub manualmente"
 aliases=[
   "post/instalando-gems-do-github-manualmente",
@@ -6,9 +7,10 @@ aliases=[
   "blog/development/instalando-gems-do-github-manualmente"
 ]
 date = "2009-07-28"
+
+[taxonomies]
 tags = ["ruby","tech"]
 +++
-
 Esse vai ser um post rápido para relatar um problema que eu tive ( e
 ainda estou tendo ) para instalar gems do GitHub.
 

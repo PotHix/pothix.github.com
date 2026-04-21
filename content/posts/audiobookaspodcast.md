@@ -1,11 +1,13 @@
 +++
+path = "audiobookaspodcast"
 title = "Audiobooks as podcasts"
 date = 2021-06-25
+
+[taxonomies]
 tags = [
     "english",
 ]
 +++
-
 I love to [listen to audiobooks (article in pt-BR)](/audiobooks), and I'm was an
 [Audible](https://audible.com) subscriber for many years, just pausing my
 subscription because I have way too many books (~150) already and need some time

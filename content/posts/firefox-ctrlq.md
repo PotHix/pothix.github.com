@@ -1,12 +1,14 @@
 +++
+path = "firefox-ctrlq"
 title = "Firefox Quantum ctrl-q"
 date = "2017-12-05"
-tags = ["tips","english"]
 aliases=[
   "post/firefox-quantum-ctrl-q"
 ]
-+++
 
+[taxonomies]
+tags = ["tips","english"]
++++
 This will be a quick post to help people that are doing the same
 search as I was doing some minutes ago: "firefox disable ctrl+q".
 

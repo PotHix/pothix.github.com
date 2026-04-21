@@ -1,14 +1,15 @@
 +++
-tags = [
-  "english",
-]
 aliases = [
   "writing.html",
   "writing",
 ]
 title = "Desconstruindo a web"
-+++
 
+[taxonomies]
+tags = [
+  "english",
+]
++++
 
 [![desconstruindo a web](/images/writing/desconstruindoaweb_book.jpg)](https://desconstruindoaweb.com.br)
 

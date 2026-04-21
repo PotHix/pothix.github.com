@@ -1,0 +1,128 @@
+{% extends "base.html" %}
+{% block content %}
+  <main class="post">
+
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        {{ page.reading_time }} minutes reading
+
+        |
+
+        {% if page.taxonomies.tags is defined and page.taxonomies.tags is containing("english") %}
+            Also available in
+            <a href="https://translate.google.com/translate?sl=en&amp;tl=pt&amp;u={{ page.permalink }}" target="_blank" rel="nofollow noopener noreferrer">&#x1F1E7;&#x1F1F7;</a>
+        {% else %}
+            Also available in
+            <a href="https://translate.google.com/translate?sl=pt&amp;tl=en&amp;u={{ page.permalink }}" target="_blank" rel="nofollow noopener noreferrer">&#x1F1FA;&#x1F1F8;</a>
+        {% endif %}
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="{{ page.permalink }}">{{ page.title }}</a>
+      </h1>
+
+      {% if page.extra.toc is defined and page.extra.toc %}
+        <hr />
+        <aside id="toc">
+          <div class="toc-title">Table of Contents</div>
+          {{ page.toc | safe }}
+        </aside>
+        <hr />
+      {% endif %}
+
+      {% if page.extra.cover is defined %}
+        <img src="/{{ page.extra.cover }}" class="post-cover" />
+      {% endif %}
+
+      <div class="post-content">
+        {{ page.content | safe }}
+      </div>
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+      {% if page.taxonomies.tags is defined %}
+        <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+            {% for tag in page.taxonomies.tags %}
+                <span class="tag"><a href="{{ get_taxonomy_url(kind="tags", name=tag) }}">{{ tag }}</a></span>
+            {% endfor %}
+        </p>
+      {% endif %}
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        {{ page.word_count }} Words
+      </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        {{ page.date | date(format=config.extra.dateformNumTime) }}
+
+        {% if page.updated %}
+          {% if page.updated != page.date %}
+            (Last updated: {{ page.updated | date(format=config.extra.dateformNumTime) }})
+          {% endif %}
+        {% endif %}
+      </p>
+    </div>
+
+    {% if config.extra.enableSharingButtons %}
+      <hr />
+      <div class="sharing-buttons">
+        <span style="padding-top:17px">Share:</span> {% include "partials/sharing-buttons.html" %}
+      </div>
+    {% endif %}
+
+    {% if not config.extra.disableReadOtherPosts %}
+      {% if page.higher or page.lower %}
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Read other posts</span>
+            <hr />
+          </div>
+
+          <div class="pagination__buttons">
+            {% if page.higher %}
+              <span class="button previous">
+                <a href="{{ page.higher.permalink }}">
+                  <span class="button__icon">&#x2190;</span>
+                  <span class="button__text">{{ page.higher.title }}</span>
+                </a>
+              </span>
+            {% endif %}
+
+            {% if page.lower %}
+              <span class="button next">
+                <a href="{{ page.lower.permalink }}">
+                  <span class="button__text">{{ page.lower.title }}</span>
+                  <span class="button__icon">&#x2192;</span>
+                </a>
+              </span>
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+    {% endif %}
+
+  </main>
+{% endblock %}

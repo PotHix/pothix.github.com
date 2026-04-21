@@ -1,4 +1,5 @@
 +++
+path = "gurusp-meetup5"
 title = "Encontro de numero 5 do Guru-sp"
 aliases=[
   "post/encontro-de-numero-5-do-guru-sp",
@@ -6,9 +7,10 @@ aliases=[
   "blog/events/encontro-de-numero-5-do-guru-sp"
 ]
 date = "2009-07-21"
+
+[taxonomies]
 tags = ["events","ruby","tech"]
 +++
-
 [![Foto do pessoal reunido com seus notebooks no encontro](/images/posts/5_encontro_guru.jpg "Quinto encontro do Guru-sp")](/images/posts/5_encontro_guru.jpg "")
 
 Nesse sábado aconteceu o

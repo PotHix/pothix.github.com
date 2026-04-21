@@ -1,12 +1,14 @@
 +++
+path = "rendezvouswithrama"
 title = "Review of Rendezvous with Rama (Rama, #1)"
 date = 2017-08-31
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Rendezvous with Rama (Rama, #1)](https://www.goodreads.com/book/show/112537) by Arthur C. Clarke. Rating: ⭐️⭐️⭐️⭐️.
 
 I tend to not read much science fiction but this is a great book.

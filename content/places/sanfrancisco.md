@@ -1,9 +1,10 @@
----
-title: "San Francisco"
-date: 2012-04-13
-skip_feed: true
----
++++
+title = "San Francisco"
+date = "2012-04-13"
 
+[extra]
+skip_feed = true
++++
 I visited San Francisco in 2012. It was my first international trip by airplane
 (I literally returned from a motorcycle trip to Argentina less than a week
 before) ever. I went to Openstack conference, as it was something we (the

@@ -1,12 +1,14 @@
 +++
+path = "artofinvisibility"
 title = "Review of The Art of Invisibility: The World's Most Famous Hacker Teaches You How to Be Safe in the Age of Big Brother and Big Data"
 date = 2018-02-06
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Art of Invisibility: The World's Most Famous Hacker Teaches You How to Be Safe in the Age of Big Brother and Big Data](https://www.goodreads.com/book/show/30363785) by Kevin D. Mitnick. Rating: ⭐️⭐️⭐️⭐️.
 
 It is not new to me that we have a lot of security flaws everywhere. Yes, it's scary, but that's what you sign for when you decide to use the internet.

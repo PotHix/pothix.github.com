@@ -1,4 +1,5 @@
 +++
+path = "fisl11"
 title = "FISL11"
 aliases=[
   "post/fisl11",
@@ -6,9 +7,10 @@ aliases=[
   "blog/events/fisl11"
 ]
 date = "2010-08-01"
+
+[taxonomies]
 tags = ["events","tech"]
 +++
-
 Finalmente depois de 4 anos planejando eu consegui ir para o FISL! :)
 
 Para quem ainda não sabe, eu estou trabalhando na [Locaweb] desde o

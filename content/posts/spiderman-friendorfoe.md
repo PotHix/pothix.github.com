@@ -1,4 +1,5 @@
 +++
+path = "spiderman-friendorfoe"
 title = "GameReview: SpiderMan - Friend or Foe"
 aliases=[
   "post/gamereview-spiderman-friend-or-foe",
@@ -6,9 +7,10 @@ aliases=[
   "blog/games/gamereview-spiderman-friend-or-foe"
 ]
 date = "2009-07-22"
+
+[taxonomies]
 tags = ["games"]
 +++
-
 Aqui estou eu com mais um GameReview de um jogo que eu tenho jogado
 ultimamente no PSP e finalmente no sábado as 02:15
 [eu consegui terminar](http://pothix.com/blog/wp-content/uploads/2009/07/moto_0690.jpg "Tela de créditos do Jogo"),

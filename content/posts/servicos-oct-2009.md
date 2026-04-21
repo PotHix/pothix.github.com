@@ -1,4 +1,5 @@
 +++
+path = "servicos-oct-2009"
 title = "Serviços legais de outubro"
 aliases=[
   "post/servicos-legais-de-outubro",
@@ -6,10 +7,11 @@ aliases=[
   "blog/coolservices/servicos-legais-de-outubro"
 ]
 date = "2009-10-04"
+
+[taxonomies]
 tags = ["tech","services"]
 series = ["Cool services"]
 +++
-
 Já estava me esquecendo de postar sobre os serviçoes legais desse mes! :P
 
 Estava com poucos quando lembrei, mas não demorou muito para que eu

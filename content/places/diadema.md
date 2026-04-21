@@ -1,8 +1,10 @@
----
-title: "Diadema"
-skip_feed: true
----
++++
+title = "Diadema"
+date = "2020-01-01"
 
+[extra]
+skip_feed = true
++++
 Morei em Diadema por quase 30 anos. Desde os 7 anos de idade até os 34.
 
 Por muito tempo morei no suburbio, próximo a divisa com São Bernardo do Campo e

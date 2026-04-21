@@ -1,12 +1,14 @@
 +++
+path = "nonviolentcommunication"
 title = "Review of Nonviolent Communication"
 date = 2020-05-22
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Nonviolent Communication](https://www.goodreads.com/book/show/560861) by Marshall B. Rosenberg. Rating: ⭐️⭐️⭐️⭐️⭐️.
 
 Great book! It's short and straight to the point.

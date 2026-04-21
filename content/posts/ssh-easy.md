@@ -1,4 +1,5 @@
 +++
+path = "ssh-easy"
 title = "Deixando seu ssh mais facil de trabalhar"
 aliases=[
   "post/deixando-seu-ssh-mais-facil-de-trabalhar",
@@ -6,9 +7,10 @@ aliases=[
   "blog/slackware/deixando-seu-ssh-mais-facil-de-trabalhar"
 ]
 date = "2008-11-27"
+
+[taxonomies]
 tags = ["tech","linux"]
 +++
-
 Se você usa bastante [SSH](http://en.wikipedia.org/wiki/Ssh) vou
 mostrar um método para facilitar um pouco a sua vida. Sei que existem
 métodos melhores para trabalhar com vários SSH ao mesmo tempo,

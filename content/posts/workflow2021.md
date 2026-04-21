@@ -1,9 +1,11 @@
 +++
+path = "workflow2021"
 title = "My 2021 Productivity Workflow"
 date = "2021-05-12"
+
+[taxonomies]
 tags = ["personal", "english", "productivity"]
 +++
-
 _This post is the updated version of [the one I wrote in 2019](/workflow2019).
 Instead of changing the previous one, I decided to create an updated version
 based on that._

@@ -1,12 +1,14 @@
 +++
+path = "7habits"
 title = "Review of The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change"
 date = 2016-05-02
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change](https://www.goodreads.com/book/show/36072) by Stephen R. Covey. Rating: ⭐️⭐️⭐️⭐️.
 
 This is a good book. There are some good examples there and it is worth reading, but if you want to understand the habits in a quick and easy manner just read on the author's website.

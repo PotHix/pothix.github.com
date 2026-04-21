@@ -1,4 +1,5 @@
 +++
+path = "moto-argentina"
 title = "Viagem de moto para Eldorado na Argentina"
 aliases=[
   "post/viagem-de-moto-para-eldorado-na-argentina",
@@ -6,9 +7,10 @@ aliases=[
   "blog/motorcycle/viagem-de-moto-para-eldorado-na-argentina"
 ]
 date = "2012-04-09"
+
+[taxonomies]
 tags = ["motorcycles"]
 +++
-
 **TL; DR** Fiz uma viagem de moto saindo de São Paulo e indo para Eldorado (Argentina)
 , durou uma semana no total e rodei mais de 3000km, esse é o relato da viagem.
 

@@ -1,12 +1,14 @@
 +++
+path = "programmingelixir"
 title = "Review of Programming Elixir: Functional |> Concurrent |> Pragmatic |> Fun"
 date = 2016-12-16
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Programming Elixir: Functional |> Concurrent |> Pragmatic |> Fun](https://www.goodreads.com/book/show/17971957) by Dave Thomas. Rating: ⭐️⭐️⭐️.
 
 It's not the best Elixir book I read but it's a good book.

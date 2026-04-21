@@ -1,12 +1,14 @@
 +++
+path = "onpowerbook"
 title = "Review of On Power"
 date = 2017-11-02
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [On Power](https://www.goodreads.com/book/show/35049472) by Robert A. Caro. Rating: ⭐️⭐️.
 
 Not that much to learn from this "book".

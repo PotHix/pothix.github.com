@@ -1,4 +1,5 @@
 +++
+path = "primeiro-github"
 title = "Iniciando seu primeiro projeto no GitHub"
 aliases=[
   "post/iniciando-seu-primeiro-projeto-no-github",
@@ -6,9 +7,10 @@ aliases=[
   "blog/development/iniciando-seu-primeiro-projeto-no-github"
 ]
 date = "2008-12-21"
+
+[taxonomies]
 tags = ["tech"]
 +++
-
 Hoje estou aqui para postar um pouco sobre o GitHub! =)
 
 Minha idéia hoje é apenas mostrar como você inicia um projeto por lá,

@@ -1,11 +1,13 @@
 +++
+path = "firstcar"
 title = "Choosing my first car"
 date = 2023-02-06
+
+[taxonomies]
 tags = [
     "english",
 ]
 +++
-
 I don't really care about cars, but I had to buy one and I'm going to describe
 the process I used to find the one.
 

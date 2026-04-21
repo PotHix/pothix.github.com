@@ -1,12 +1,14 @@
 +++
+path = "lotrfocus"
 title = "Rust, LotR, and focus"
 date = 2020-12-01
+
+[taxonomies]
 tags = [
     "english",
     "tolkien",
 ]
 +++
-
 _💡 Quick thought post. A bigger tweet but on my own platform._
 
 I'm co-authoring a book about Rust and was reviewing an example about `enum`s.

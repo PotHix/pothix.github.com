@@ -1,12 +1,14 @@
 +++
+path = "thelottery"
 title = "Review of The Lottery"
 date = 2021-06-29
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Lottery](https://www.goodreads.com/review/show/4061861214) by Shirley Jackson. Rating: ⭐️⭐️⭐️⭐️.
 
 I decided to read The Lottery after reading [The Waste Lands (The Dark Tower,

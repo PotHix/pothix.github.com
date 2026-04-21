@@ -1,13 +1,15 @@
 +++
+path = "escolhasdev"
 title = "As escolhas do desenvolvedor"
 date = "2015-08-31"
-tags = ["events","speaking"]
 aliases=[
   "2015/08/31/as-escolhas-do-desenvolvedor.html",
   "post/as-escolhas-do-desenvolvedor"
 ]
-+++
 
+[taxonomies]
+tags = ["events","speaking"]
++++
 Esse ano fui chamado para palestrar em todas as edições do Encontro Locaweb que
 acontecem por várias cidades do Brasil! Palestrei em 6 cidades de estados
 diferentes, e aconteceram na seguinte ordem:

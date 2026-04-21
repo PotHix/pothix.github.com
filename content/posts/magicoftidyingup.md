@@ -1,12 +1,14 @@
 +++
+path = "magicoftidyingup"
 title = "Review of The Life‑Changing Magic of Tidying Up"
 date = 2021-04-11
+
+[taxonomies]
 tags = [
     "english",
     "books"
 ]
 +++
-
 Book: [The Life‑Changing Magic of Tidying Up](https://www.goodreads.com/review/show/1839858488) by Marie Kondo. Rating: ⭐️⭐️⭐️⭐️.
 
 I like the book and there are very few things I disagree with the author. I

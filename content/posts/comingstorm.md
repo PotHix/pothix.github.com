@@ -1,12 +1,14 @@
 +++
+path = "comingstorm"
 title = "Review of The Coming Storm"
 date = 2019-05-14
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Coming Storm](https://www.goodreads.com/book/show/41016100) by Michael   Lewis. Rating: ⭐️⭐️⭐️.
 
 A nice and informative book. It's not outstanding but I found it to have great information about how data can change the way we live, especially in this case where human lives may be in danger. The whole thing about the way the U.S. government deal with their data department is weird, but at least they have one. 🤷‍♂️

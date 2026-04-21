@@ -1,12 +1,14 @@
 +++
+path = "richestmaninbabylon"
 title = "Review of The Richest Man in Babylon"
 date = 2018-02-10
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Richest Man in Babylon](https://www.goodreads.com/book/show/1052) by George S. Clason. Rating: ⭐️⭐️⭐️.
 
 I just read "rich dad poor dad" before reading this one and I think it ruined my experience. After reading that book first, this one looks like a puzzle you already know the answer.

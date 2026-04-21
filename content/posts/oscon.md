@@ -1,13 +1,15 @@
 +++
+path = "oscon"
 title = "OSCON 2015"
 date = "2015-07-27"
-tags = ["events","english"]
 aliases=[
   "post/oscon",
   "2015/07/27/oscon.html"
 ]
-+++
 
+[taxonomies]
+tags = ["events","english"]
++++
 **TL;DR** I've been at OSCON this year (thanks to
 [Locaweb](http://locaweb.com.br)) and this post will summarize my
 impressions about the conference. I spoke at Locaweb Tech-Talks about it and

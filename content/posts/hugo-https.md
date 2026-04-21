@@ -1,12 +1,14 @@
 +++
+path = "hugo-https"
 date = "2017-06-13T13:54:49-03:00"
 title = "Wordpress to Middleman, to Hugo using github-pages and HTTPS"
-tags = ["tech","english"]
 aliases=[
   "post/hugo-github-pages-and-https"
 ]
-+++
 
+[taxonomies]
+tags = ["tech","english"]
++++
 Yes, it was a journey. I decided to chance my blog engine again.
 
 But this time I decided to post about the whole transition, since I started my

@@ -1,13 +1,15 @@
 +++
+path = "layout2015"
 title = "New layout of PotHix blog"
 date = "2015-05-25"
-tags = ["english"]
 aliases=[
   "post/new-layout-of-pothix-blog",
   "2015/05/25/new-layout-of-pothix-blog.html"
 ]
-+++
 
+[taxonomies]
+tags = ["english"]
++++
 Welcome to the new blog layout of PotHix.com! :)
 
 I decided that the time has came to change not just the layout but the blog

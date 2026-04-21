@@ -1,16 +1,18 @@
 +++
+path = "silmarillion"
 title = "Review of The Silmarillion"
 date = 2010-07-07
+aliases = [
+    "silmarilion"
+]
+
+[taxonomies]
 tags = [
     "english",
     "books",
     "tolkien",
 ]
-aliases = [
-    "silmarilion"
-]
 +++
-
 Book: [The Silmarilion](https://www.goodreads.com/review/show/1434543586) by J.R.R.
 Tolkien. Rating: ⭐️⭐️⭐️⭐️⭐️.
 

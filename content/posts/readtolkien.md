@@ -1,13 +1,15 @@
 +++
+path = "readtolkien"
 title = "How to read Tolkien, in my experience"
 date = 2021-08-26
+
+[taxonomies]
 tags = [
   "english",
   "books",
   "tolkien",
 ]
 +++
-
 I'm a huge fan of J.R.R. Tolkien, and It's not the first time friends
 ask me about how to read Tolkien books. I even discussed this on Twitter because
 of some misconceptions people have about some of his book. To make things clear,

@@ -1,4 +1,5 @@
 +++
+path = "servicos-jul2019"
 title = "Serviços interessantes"
 aliases=[
   "post/servicos-interessantes",
@@ -7,10 +8,11 @@ aliases=[
   "blog/personal/servicos-interessantes"
 ]
 date = "2009-06-12"
+
+[taxonomies]
 tags = ["tech","services"]
 series = ["Cool services"]
 +++
-
 Depois de conhecer alguns serviços legais na internet resolvi postar sobre eles aqui.  Gostaria de fazer um post desse tipo mensalmente ( assim como o [Ronaldo Ferraz faz no seu blog](http://logbr.reflectivesurface.com "Blog do Ronaldo Ferraz") sobre o balanço cultural, que eu acho bem legal ), mas pelo menos dessa vez quero postar algumas coisas legais, e se possível eu posto periódicamente o que eu tenho feito / encontrado de divertido. ;)
 
 #### Dropbox

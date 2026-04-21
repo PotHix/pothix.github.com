@@ -1,12 +1,14 @@
 +++
+path = "sogoodtheycantignoreyou"
 title = "Review of So Good They Can't Ignore You: Why Skills Trump Passion in the Quest for Work You Love"
 date = 2019-10-25
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [So Good They Can't Ignore You: Why Skills Trump Passion in the Quest for Work You Love](https://www.goodreads.com/book/show/13525945) by Cal Newport. Rating: ⭐️⭐️⭐️⭐️.
 
 This is the kind of book you read and think: "I would love to have read this when I was starting my career", as you have seen a lot of what he describes during the past 10 years.

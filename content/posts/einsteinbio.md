@@ -1,12 +1,14 @@
 +++
+path = "einsteinbio"
 title = "Review of Einstein: His Life and Universe"
 date = 2016-10-27
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Einstein: His Life and Universe](https://www.goodreads.com/book/show/10884) by Walter Isaacson. Rating: ⭐️⭐️⭐️⭐️⭐️.
 
 This is the first biography that I read and I found it amazing.

@@ -1,12 +1,14 @@
 +++
+path = "digitalminimalism"
 title = "Review of Digital Minimalism: Choosing a Focused Life in a Noisy World"
 date = 2019-12-20
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Digital Minimalism: Choosing a Focused Life in a Noisy World](https://www.goodreads.com/book/show/40672036) by Cal Newport. Rating: ⭐️⭐️⭐️⭐️.
 
 I'm a big fan of the [Deep Work: Rules for Focused Success in a Distracted World](/deepworkbook) book and this is another great book by Cal Newport. This one is not life-changing as Deep work was for me, but it brings great insights into technology in general.

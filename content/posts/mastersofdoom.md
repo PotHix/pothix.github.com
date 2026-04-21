@@ -1,12 +1,14 @@
 +++
+path = "mastersofdoom"
 title = "Review of Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture"
 date = 2016-02-17
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture](https://www.goodreads.com/book/show/222146) by David Kushner. Rating: ⭐️⭐️⭐️⭐️⭐️.
 
 I love this book. The two Johns created an empire by using the engineering capabilities of Carmack with the enthusiasm and ideas of Romero.

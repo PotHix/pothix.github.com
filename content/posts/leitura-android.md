@@ -1,4 +1,5 @@
 +++
+path = "leitura-android"
 title = "Fluxo de leitura e o Android"
 aliases=[
   "post/fluxo-de-leitura-e-o-android",
@@ -6,9 +7,10 @@ aliases=[
   "blog/android/fluxo-de-leitura-e-o-android"
 ]
 date = "2010-09-08"
+
+[taxonomies]
 tags = ["android","books","personal"]
 +++
-
 Quem me conhece sabe como eu sou meio doido quanto a ler coisas
 aleatórias (Google reader e artigos interessantes que eu acho perdidos
 por aí), e como eu tenho um tempo um pouco limitado, devido ao

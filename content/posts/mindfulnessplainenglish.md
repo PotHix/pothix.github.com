@@ -1,12 +1,14 @@
 +++
+path = "mindfulnessplainenglish"
 title = "Review of Mindfulness in Plain English"
 date = 2017-03-29
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Mindfulness in Plain English](https://www.goodreads.com/book/show/64369) by Henepola Gunaratana. Rating: ⭐️⭐️⭐️.
 
 I was expecting some more but after reading the description again it seems to deliver exactly what it says.

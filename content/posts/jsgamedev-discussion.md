@@ -1,13 +1,15 @@
 +++
+path = "jsgamedev-discussion"
 title = "Javascript and Gamedev discussion"
 date = "2012-09-02"
-tags = ["gamedev","english","tech"]
 aliases=[
   "post/javascript-and-gamedev-discussion",
   "2012/09/02/javascript-and-gamedev-discussion.html"
 ]
-+++
 
+[taxonomies]
+tags = ["gamedev","english","tech"]
++++
 I read the [blog post](http://www.phoboslab.org/log/2012/08/letter-to-john-carmack)
 from [Impact engine](http://impactjs.com) creator
 [Dominic](http://www.phoboslab.org/) where he shows an email he sent to

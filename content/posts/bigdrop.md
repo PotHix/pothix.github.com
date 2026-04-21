@@ -1,12 +1,14 @@
 +++
+path = "bigdrop"
 title = "Review of The Big Drop: How To Grow Your Wealth During the Coming Collapse"
 date = 2016-02-10
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Big Drop: How To Grow Your Wealth During the Coming Collapse](https://www.goodreads.com/book/show/26160453) by James Rickards. Rating: ⭐️⭐️⭐️.
 
 TL; DR - A lot of theories about the next economic crash, if you want to know some connections between gold, dollar and other different investments to protect you in case it happens, it may be a good book for you.

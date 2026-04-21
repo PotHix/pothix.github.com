@@ -1,12 +1,14 @@
 +++
+path = "bringinghomeashelterdog"
 title = "Review of Cesar Millan's Guide to Bringing Home a Shelter Dog"
 date = 2017-08-21
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Cesar Millan's Guide to Bringing Home a Shelter Dog](https://www.goodreads.com/book/show/29939161) by Cesar Millan. Rating: ⭐️⭐️⭐️.
 
 Nice book for those thinking about adopting a shelter dog and did not research it yet.

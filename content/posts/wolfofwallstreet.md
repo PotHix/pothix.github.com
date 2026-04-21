@@ -1,12 +1,14 @@
 +++
+path = "wolfofwallstreet"
 title = "Review of The Wolf of Wall Street (The Wolf of Wall Street, #1)"
 date = 2016-05-11
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Wolf of Wall Street (The Wolf of Wall Street, #1)](https://www.goodreads.com/book/show/522776) by Jordan Belfort. Rating: ⭐️⭐️⭐️.
 
 Did you watch the movie?

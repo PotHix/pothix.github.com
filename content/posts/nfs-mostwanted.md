@@ -1,4 +1,5 @@
 +++
+path = "nfs-mostwanted"
 title = "GameReview: Need For Speed - Most Wanted"
 aliases=[
   "post/gamereview-need-for-speed-most-wanted",
@@ -6,9 +7,10 @@ aliases=[
   "blog/games/gamereview-need-for-speed-most-wanted"
 ]
 date = "2008-12-14"
+
+[taxonomies]
 tags = ["games"]
 +++
-
 Como eu disse no [ultimo post](http://pothix.com/blog/games/voltando-a-ser-um-gamer)
 agora eu vou fazer uns pomsts sobre uns jogos que eu estou voltando a
 jogar no PSP, dizendo o que eu achei, como foi jogar ele, defeitos,

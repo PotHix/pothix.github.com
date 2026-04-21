@@ -1,12 +1,14 @@
 +++
+path = "memoryillusion"
 title = "Review of The Memory Illusion: Remembering, Forgetting, and the Science of False Memory"
 date = 2017-01-18
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Memory Illusion: Remembering, Forgetting, and the Science of False Memory](https://www.goodreads.com/book/show/29610119) by Julia  Shaw. Rating: ⭐️⭐️⭐️.
 
 The whole point of this book is to show that our memories are not reliable.

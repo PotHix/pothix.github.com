@@ -1,4 +1,5 @@
 +++
+path = "slackware-pacotes"
 title = "Facilitando a instalação de pacotes no Slackware"
 aliases=[
   "post/facilitando-a-instalacao-de-pacotes-no-slackware",
@@ -6,9 +7,10 @@ aliases=[
   "blog/slackware/facilitando-a-instalacao-de-pacotes-no-slackware"
 ]
 date = "2008-11-11"
+
+[taxonomies]
 tags = ["linux","tech"]
 +++
-
 Estava escrevendo outro post e chegando em um ponto onde eu instalaria
 um pequeno Software utilizando o
 [SlackBuilds](http://www.slackbuilds.org "Slack Builds") me fez

@@ -1,12 +1,10 @@
----
-title: "Assembling an Iris Rev4"
-date: 2020-07-23T09:48:21-03:00
-tags: ["tech","english", "keyboards"]
-aliases: [
-  "post/assembling-an-iris-rev4/"
-]
----
-
++++
+path = "iris"
+title = "Assembling an Iris Rev4"
+date = "2020-07-23T09:48:21-03:00"
+[taxonomies]
+tags = ["tech","english", "keyboards"]
++++
 It's been a while since I'm looking for a keyboard that would be great to take
 with me when I'm not working from home for some days. I finally found the Iris
 keyboard that seems to be exactly what I'm looking for.

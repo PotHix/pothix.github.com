@@ -1,11 +1,13 @@
 +++
+path = "darktower3"
 title = "Review of The Waste Lands (The Dark Tower, #3)"
 date = 2021-05-06
+
+[taxonomies]
 tags = [
     "books",
 ]
 +++
-
 Book: [The Waste Lands (The Dark Tower, `#3`)](https://www.goodreads.com/review/show/1631915699) by Stephen King. Rating: ⭐️⭐️⭐️⭐️.
 
 Ouvi esse livro em Português (e provavelmente farei o mesmo para todos os

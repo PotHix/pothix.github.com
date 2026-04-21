@@ -1,12 +1,14 @@
 +++
+path = "sapiens"
 title = "Review of Sapiens: A Brief History of Humankind"
 date = 2018-12-20
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Sapiens: A Brief History of Humankind](https://www.goodreads.com/book/show/23692271) by Yuval Noah Harari. Rating: ⭐️⭐️⭐️⭐️⭐️.
 
 One of the best books I ever read. The amount of information here is huge. There are many things I did not know about the history and some possible explanations about where we came to the current state.

@@ -1,11 +1,13 @@
 +++
+path = "guiafrontend"
 title = "Review de Guia Front-End: O caminho das pedras para ser um dev Front-End"
 date = 2016-11-01
+
+[taxonomies]
 tags = [
     "books",
 ]
 +++
-
 Book: [Guia Front-End: O caminho das pedras para ser um dev Front-End](https://www.goodreads.com/book/show/25731525) by Diego Eis. Rating: ⭐️⭐️⭐️⭐️.
 
 O Diego Eis está aí desde a época que usávamos tabelas para construir sites, é sempre interessante absorver conteúdo de pessoas com tanto histórico.

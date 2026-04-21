@@ -1,13 +1,15 @@
 +++
+path = "rubyinsideBR"
 title = "Ruby Inside Brasil"
 date = "2009-03-31"
-tags = ["tech","ruby"]
 aliases=[
   "post/ruby-inside-brasil",
   "2009/03/31/ruby-inside-brasil.html"
 ]
-+++
 
+[taxonomies]
+tags = ["tech","ruby"]
++++
 Há um tempo já que eu deveria ter postado sobre o [Ruby Inside Brasil],
 mas estou esvaziando aos poucos o meu Todo List e estou aproveitando a
 [promoção que eles fizeram] para liberar esse post tambem. :)

@@ -1,4 +1,5 @@
 +++
+path = "quarto-nerd"
 title = "Concurso Quarto mais Nerd"
 aliases=[
   "post/concurso-quarto-mais-nerd",
@@ -6,9 +7,10 @@ aliases=[
   "blog/geek-nerd/concurso-quarto-mais-nerd"
 ]
 date = "2008-12-27"
+
+[taxonomies]
 tags = ["personal"]
 +++
-
 Bem...Estava eu aproveitando as férias (tanto da faculdade como as
 férias coletivas do trabalho) para colocar as coisas em ordem,
 começando pelo meu quarto que é o lugar da casa que eu passo mais

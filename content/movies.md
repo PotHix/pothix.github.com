@@ -1,13 +1,16 @@
 +++
 title = "Movies"
 date = 2021-02-14
+
+[taxonomies]
 tags = [
     "english",
     "tech",
 ]
+
+[extra]
 toc = true
 +++
-
 It's been a while since I wanted to write down the movies I recommend. There are
 so many great movies to recommend that I will never be able to reply from the
 top of my head.

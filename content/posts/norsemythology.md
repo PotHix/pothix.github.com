@@ -1,12 +1,14 @@
 +++
+path = "norsemythology"
 title = "Review of Norse Mythology"
 date = 2019-06-24
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Norse Mythology](https://www.goodreads.com/book/show/37903770) by Neil Gaiman. Rating: ⭐️⭐️⭐️⭐️.
 
 This book was in my reading list for a while. After an exam that requires pupil dilatation, I decided to go for the audiobook as it would not require any notes. :)

@@ -1,12 +1,14 @@
 +++
+path = "spacemanbook"
 title = "Review of Spaceman: An Astronaut's Unlikely Journey to Unlock the Secrets of the Universe"
 date = 2017-04-13
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Spaceman: An Astronaut's Unlikely Journey to Unlock the Secrets of the Universe](https://www.goodreads.com/book/show/28439264) by Mike Massimino. Rating: ⭐️⭐️⭐️⭐️.
 
 Great book, 4.5 stars.

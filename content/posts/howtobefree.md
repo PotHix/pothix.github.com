@@ -1,12 +1,14 @@
 +++
+path = "howtobefree"
 title = "Review of How to Be Free: An Ancient Guide to the Stoic Life"
 date = 2019-11-16
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [How to Be Free: An Ancient Guide to the Stoic Life](https://www.goodreads.com/book/show/39204065) by Epictetus. Rating: ⭐️⭐️⭐️⭐️.
 
 A good book. It seems like a summary of the whole enchiridion. After reading Seneca, I decided to try Epictetus. These books are usually very dense and require some time to think about, so I decided to not go with the long form of the enchiridion. I do not regret it; it was a good reading/listening.

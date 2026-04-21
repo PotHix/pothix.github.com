@@ -1,12 +1,14 @@
 +++
+path = "thisisunsafe"
 title = "Chrome: Invalid HTTPS in development"
 date = 2020-12-17
+
+[taxonomies]
 tags = [
     "english",
     "tech",
 ]
 +++
-
 It's not the first time I had to use HTTPS for local development and had to do
 the whole setup of self-signed certificates. It's a painful process that doesn't
 have a good ROI for the developer.

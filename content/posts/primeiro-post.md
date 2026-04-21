@@ -1,13 +1,15 @@
 +++
+path = "primeiro-post"
 title = "Primeiro post por aqui!"
 date = "2008-09-02"
-tags = ["tech"]
 aliases=[
   "2008/09/02/primeiro-post-por-aqui.html",
   "post/primeiro-post-por-aqui"
 ]
-+++
 
+[taxonomies]
+tags = ["tech"]
++++
 Bem, como primeiro post vou me apresentar e dizer qual o meu intuito
 com esse blog.
 

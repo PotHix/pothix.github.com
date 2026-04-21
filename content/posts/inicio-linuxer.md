@@ -1,4 +1,5 @@
 +++
+path = "inicio-linuxer"
 title = "Como são os primeiros passos de um Linuxer"
 aliases=[
   "post/como-sao-os-primeiros-passos-de-um-linuxer",
@@ -6,9 +7,10 @@ aliases=[
   "blog/win2linux/como-sao-os-primeiros-passos-de-um-linuxer"
 ]
 date = "2008-11-29"
+
+[taxonomies]
 tags = ["tech","linux"]
 +++
-
 Nesse post eu vou contar um pouco de como são os primeiros passos de
 alguem que quer mesmo brincar com Linux. No caso vou falar como **eu**
 comecei com o Linux! Vamos lá! :)

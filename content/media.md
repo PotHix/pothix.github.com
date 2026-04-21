@@ -1,10 +1,11 @@
 +++
+title = "Media"
+
+[extra]
 type = "page"
 layout = "title_subtitle"
-title = "Media"
 subtitle = "A list of podcasts, newsletters, magazines, and video episodes I've been a guest"
 +++
-
 _If you're here looking for videos of my talks, I recommend you to check my [list of talks page](/talks)._
 
 

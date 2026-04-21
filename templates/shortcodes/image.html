@@ -1,0 +1,3 @@
+{% if src %}
+<img src="{{ src }}" {% if alt %}alt="{{ alt }}"{% endif %} class="{{ position | default(value='left') }}" {% if style %}style="{{ style }}"{% endif %} />
+{% endif %}

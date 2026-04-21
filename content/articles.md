@@ -1,14 +1,12 @@
 +++
+aliases = []
+title = "Desconstruindo a web"
+
+[taxonomies]
 tags = [
   "english",
 ]
-aliases = [
-  "writing.html",
-  "writing",
-]
-title = "Desconstruindo a web"
 +++
-
 ## Articles published outside of this blog
 
 I as invited to write articles for other blogs which I respect and/or have a
@@ -30,7 +28,7 @@ Wrote for gamedev.tutsplus.com in Jan 2013.
 
 ### Audiobooks: Locaweb blog
 
-{{< image src="/images/writing/audiobooks_article.png" alt="audiobooks" position="center" >}}
+{{ image(src="/images/writing/audiobooks_article.png", alt="audiobooks", position="center") }}
 
 A pt-BR article about how audiobooks can change your "reading" life forever.
 It's mostly what I've written [here](/audiobooks) too.

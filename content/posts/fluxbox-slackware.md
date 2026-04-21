@@ -1,4 +1,5 @@
 +++
+path = "fluxbox-slackware"
 title = "Ativando numlock na Inicialização do Fluxbox no Slackware"
 aliases=[
   "post/ativando-numlock-na-inicializacao-do-fluxbox-no-slackware",
@@ -6,9 +7,10 @@ aliases=[
   "blog/slackware/ativando-numlock-na-inicializacao-do-fluxbox-no-slackware"
 ]
 date = "2008-11-13"
+
+[taxonomies]
 tags = ["tech","linux"]
 +++
-
 Estava eu pesquisando na internet como conseguir fazer o meu
 numlock já iniciar ativado quando meu fluxbox inicia e encontrei
 várias dicas, sendo umas para XFCE e outros sistemas não sendo

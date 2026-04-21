@@ -1,4 +1,5 @@
 +++
+path = "ironmaiden2009"
 title = "Show do Iron Maiden"
 aliases=[
   "post/show-do-iron-maiden",
@@ -6,9 +7,10 @@ aliases=[
   "blog/events/show-do-iron-maiden"
 ]
 date = "2009-03-17"
+
+[taxonomies]
 tags = ["events"]
 +++
-
 Fui ao show do Iron maiden nesse domingo dia 15/03 e resolvi postar as
 minhas considerações.
 

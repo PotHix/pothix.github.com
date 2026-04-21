@@ -1,12 +1,14 @@
 +++
+path = "minimalismbook"
 title = "Review of Minimalism: Live a Meaningful Life"
 date = 2017-11-08
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Minimalism: Live a Meaningful Life](https://www.goodreads.com/book/show/13185350) by Joshua Fields Millburn. Rating: ⭐️⭐️⭐️.
 
 I was expecting more from this book.

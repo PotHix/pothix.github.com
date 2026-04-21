@@ -1,12 +1,14 @@
 +++
+path = "algorithmstoliveby"
 title = "Review of Algorithms to Live By: The Computer Science of Human Decisions"
 date = 2016-12-29
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Algorithms to Live By: The Computer Science of Human Decisions](https://www.goodreads.com/book/show/25666050) by Brian Christian. Rating: ⭐️⭐️⭐️⭐️.
 
 This is that kind of book that does not answer questions, it just creates a lot more. :)

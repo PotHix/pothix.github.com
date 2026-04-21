@@ -1,13 +1,15 @@
 +++
+path = "fosdem2017"
 title = "My presentation at FOSDEM 2017"
 date = "2017-03-04"
-tags = ["events","speaking","english","tech"]
 aliases=[
   "2017/03/04/my-presentation-at-fosdem-2017.html",
   "post/my-presentation-at-fosdem-2017"
 ]
-+++
 
+[taxonomies]
+tags = ["events","speaking","english","tech"]
++++
 This year my proposal to speak at [FOSDEM](http://fosdem.org) was accepted and I
 spoke at the Desktop devroom! :)
 

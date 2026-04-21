@@ -1,12 +1,14 @@
 +++
+path = "elonmuskbook"
 title = "Review of Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future"
 date = 2017-05-18
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future](https://www.goodreads.com/book/show/22535480) by Ashlee Vance. Rating: ⭐️⭐️⭐️.
 
 It's not a life-changing book but it's cool to understand Elon Musk path.

@@ -1,14 +1,15 @@
 +++
 title = "Code"
-tags = [
-  "english",
-]
 aliases = [
   "mywork.html",
   "coding",
 ]
-+++
 
+[taxonomies]
+tags = [
+  "english",
+]
++++
 This is my page of all things code-related.
 
 I've been writing code professioally since 2007 and have some things to show.

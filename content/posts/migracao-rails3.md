@@ -1,4 +1,5 @@
 +++
+path = "migracao-rails3"
 title = "Conto da migração para Rails 3"
 aliases=[
   "post/conto-da-migracao-para-rails-3",
@@ -6,9 +7,10 @@ aliases=[
   "blog/development/conto-da-migracao-para-rails-3"
 ]
 date = "2010-10-21"
+
+[taxonomies]
 tags = ["ruby","tech"]
 +++
-
 Nesse post eu vou falar um pouco de como foi atualizar a aplicação que
 eu trabalho atualmente para Rails3.
 

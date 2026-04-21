@@ -1,9 +1,10 @@
----
-title: "Montevideo"
-date: "2019-03-26"
-skip_feed: true
----
++++
+title = "Montevideo"
+date = "2019-03-26"
 
+[extra]
+skip_feed = true
++++
 In March 2019 happened the [Rust LATAM 2019](/rustlatam2019), which I was one
 of the main organizers. It happened in Montevideo, so I had some time to also
 walk around the city and get to know a few places.

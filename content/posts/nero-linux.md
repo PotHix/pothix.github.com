@@ -1,4 +1,5 @@
 +++
+path = "nero-linux"
 title = "Montando imagens do Nero (nrg) no Linux"
 aliases=[
   "post/montando-imagens-do-nero-nrg-no-linux",
@@ -6,9 +7,10 @@ aliases=[
   "blog/win2linux/montando-imagens-do-nero-nrg-no-linux"
 ]
 date = "2008-11-29"
+
+[taxonomies]
 tags = ["tech","linux"]
 +++
-
 Vou comentar agora sobre como montar aquela imagem chata do Nero (.nrg
 ) que seu amigo que gosta de janelas lhe enviou com aqueles vários
 arquivos que você tinha pedido... É um hack bem fácil!

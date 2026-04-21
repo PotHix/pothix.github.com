@@ -1,4 +1,5 @@
 +++
+path = "lotr"
 title = "Lord of the Rings"
 aliases=[
   "post/bookreview-lord-of-the-rings",
@@ -6,12 +7,13 @@ aliases=[
   "blog/books/bookreview-lord-of-the-rings"
 ]
 date = "2009-07-25"
+
+[taxonomies]
 tags = [
   "books",
   "tolkien",
 ]
 +++
-
 Chegou o momento que eu estava esperando há vários meses.... Após
 terminar de ler, vou escrever sobre O Senhor dos Anéis! :D
 

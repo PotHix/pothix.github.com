@@ -1,13 +1,15 @@
 +++
+path = "opera-unite"
 title = "Opera Unite"
 date = "2009-06-16"
-tags = ["tech"]
 aliases=[
   "post/opera-unite",
   "2009/06/16/opera-unite.html"
 ]
-+++
 
+[taxonomies]
+tags = ["tech"]
++++
 Hoje é o dia em que o pessoal da Opera falou que iria reinventar a
 web, e o que eles fizeram foi lancar o [Opera
 Unite](http://unite.opera.com/ "Opera unite")!

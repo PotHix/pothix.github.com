@@ -1,4 +1,5 @@
 +++
+path = "servicos-mar2010"
 title = "Serviços legais de Março"
 aliases=[
   "post/servicos-legais-de-marco",
@@ -6,10 +7,11 @@ aliases=[
   "blog/coolservices/servicos-legais-de-marco"
 ]
 date = "2010-04-01"
+
+[taxonomies]
 tags = ["tech","services"]
 series = ["Cool services"]
 +++
-
 Como vocês puderam perceber (ou não) eu não postei sobre os serviços
 legais de fevereiro e tenho um bom motivo para isso: Não achei nenhum
 serviço que valia a pena ser mencionado e não queria fazer um post

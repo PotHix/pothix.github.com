@@ -1,12 +1,14 @@
 +++
+path = "21lessons21stcentury"
 title = "Review of 21 Lessons for the 21st Century"
 date = 2019-01-29
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [21 Lessons for the 21st Century](https://www.goodreads.com/book/show/38820046) by Yuval Noah Harari. Rating: ⭐️⭐️⭐️⭐️.
 
 I just read Sapiens and I don't think this book is so good as Sapiens is, that's why I decided to go with 4 stars.

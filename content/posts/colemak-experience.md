@@ -1,13 +1,15 @@
 +++
+path = "colemak-experience"
 title = "Experiences of almost two years using Colemak"
 date = "2015-10-08"
-tags =  ["english", "tech"]
 aliases=[
   "post/experiences-of-almost-two-years-using-colemak",
   "2015/10/08/experiences-of-almost-two-years-using-Colemak.html"
 ]
-+++
 
+[taxonomies]
+tags =  ["english", "tech"]
++++
 TL;DR: I like Colemak, and it is a *very good* layout. I found some equivalent
 pros and cons, so I can't recommend it to anyone without a little bit of
 philosophy. :)

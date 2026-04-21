@@ -1,12 +1,14 @@
 +++
+path = "when"
 title = "Review of When: The Scientific Secrets of Perfect Timing"
 date = 2020-10-24
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [When: The Scientific Secrets of Perfect Timing, by Daniel Pink](https://www.goodreads.com/review/show/2254843906). Rating: ⭐️⭐️⭐️⭐️⭐️.
 
 I read this book two times. The first time I had no context and was just looking for something to improve myself. The second time I read it to review everything I used and implemented so I could quote the book when writing an article about how to manage your energy to be more effective.

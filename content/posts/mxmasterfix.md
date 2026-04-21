@@ -1,12 +1,14 @@
 +++
+path = "mxmasterfix"
 title = "Fixing Logitech mouse MX Master 2 problem"
 date = 2021-06-22
+
+[taxonomies]
 tags = [
     "english",
     "tech",
 ]
 +++
-
 This is a quick post for any Logitech MX master 2 (any version, really) owner
 having problems with their mouse. If your mouse is not moving at all but buttons
 are still working, there's a good chance your problem has an easy fix.

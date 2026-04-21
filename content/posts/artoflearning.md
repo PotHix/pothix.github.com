@@ -1,12 +1,14 @@
 +++
+path = "artoflearning"
 title = "Review of The Art of Learning: A Journey in the Pursuit of Excellence"
 date = 2018-02-27
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Art of Learning: A Journey in the Pursuit of Excellence](https://www.goodreads.com/book/show/857333) by Josh Waitzkin. Rating: ⭐️⭐️⭐️⭐️.
 
 Nice book. I first heard of Josh when listening to Tim Ferriss show and then I got a recommendation (tks, Amir!).

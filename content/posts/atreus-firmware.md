@@ -1,12 +1,10 @@
----
-title: "Flashing a different firmware for the Atreus keyboard"
-date: 2018-10-22
-tags: ["english", "keyboards"]
-aliases: [
-  "post/compiling-atreus-firmware"
-]
----
-
++++
+path = "atreus-firmware"
+title = "Flashing a different firmware for the Atreus keyboard"
+date = "2018-10-22"
+[taxonomies]
+tags = ["english", "keyboards"]
++++
 I just bought an Atreus keyboard and I'm now configuring my own firmware.
 
 To do that, I'm using the `qmk_firmware`.

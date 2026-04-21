@@ -1,12 +1,14 @@
 +++
+path = "moonwalkingwitheinstein"
 title = "Review of Moonwalking with Einstein: The Art and Science of Remembering Everything"
 date = 2019-08-13
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Moonwalking with Einstein: The Art and Science of Remembering Everything](https://www.goodreads.com/book/show/6346975) by Joshua Foer. Rating: ⭐️⭐️⭐️⭐️.
 
 I like this book. Learned many things and enjoyed listening to it as a story. I don't think it's life-changing for me, but it brought good insights and some curiosity about how I can improve my memory.

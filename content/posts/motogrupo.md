@@ -1,4 +1,5 @@
 +++
+path = "motogrupo"
 title = "Viajar de moto com um grupo de motociclistas"
 aliases=[
   "post/viajar-de-moto-com-um-grupo-de-motociclistas",
@@ -6,9 +7,10 @@ aliases=[
   "blog/motorcycle/viajar-de-moto-com-um-grupo-de-motociclistas"
 ]
 date = "2011-01-25"
+
+[taxonomies]
 tags = ["motorcycles"]
 +++
-
 Pois é! Essa era uma das coisas que eu tinha vontade de fazer há muito tempo,
 mas não queria ir de Intruder 125, e agora o momento chegou. :)
 

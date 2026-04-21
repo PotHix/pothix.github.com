@@ -1,9 +1,10 @@
----
-title: "Istanbul"
-date: 2024-02-29
-skip_feed: true
----
++++
+title = "Istanbul"
+date = "2024-02-29"
 
+[extra]
+skip_feed = true
++++
 In February 2024, my team at Doist had a meeting in Istanbul. We do it every year
 and Istanbul was chosen as the place for 2024. This time I did not schedule some
 time for vacations, it was mostly work. I'm really glad I did that this time,

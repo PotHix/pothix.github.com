@@ -1,4 +1,5 @@
 +++
+path = "quakecode"
 title = "Aprendendo com o código do Quake"
 aliases=[
   "post/aprendendo-com-o-codigo-do-quake",
@@ -6,9 +7,10 @@ aliases=[
   "blog/development/aprendendo-com-o-codigo-do-quake"
 ]
 date = "2012-07-18"
+
+[taxonomies]
 tags = ["gamedev","tech"]
 +++
-
 Desde que eu terminei a faculdade eu venho lendo bastante coisa útil (foi muita
 coisa inútil durante 4 anos...) e aprendendo bastante coisa. Nos ultimos meses
 eu li vários code reviews dos códigos do Quake e do Doom.

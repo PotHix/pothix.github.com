@@ -1,13 +1,15 @@
 +++
+path = "workflow2019"
 title = "My 2019 Productivity Workflow"
 date = "2019-08-15"
-tags = ["personal", "english", "productivity"]
 aliases=[
   "post/my-current-productivity-workflow",
   "productivity-workflow",
 ]
-+++
 
+[taxonomies]
+tags = ["personal", "english", "productivity"]
++++
 From time to time, I receive questions about my productivity workflow, so I
 decided to write it down here. Keep in mind it's a living thing and may change
 with time, but what I'm documenting here is what I'm using right now.

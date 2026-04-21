@@ -1,4 +1,5 @@
 +++
+path = "rrails-mundoreal"
 title = "Ruby e Rails no mundo real"
 aliases=[
   "post/ruby-e-rails-no-mundo-real",
@@ -6,9 +7,10 @@ aliases=[
   "blog/events/ruby-e-rails-no-mundo-real"
 ]
 date = "2009-02-06"
+
+[taxonomies]
 tags = ["ruby","tech","events"]
 +++
-
 Pessoal, hoje o meu post é para comentar sobre o evento do
 [Guru-sp](http://www.guru-sp.org/ "Site do Guru-sp") (Grupo de
 usuário Ruby de São Paulo), cujo fui um dos fundadores e participo

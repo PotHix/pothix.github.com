@@ -1,13 +1,15 @@
 +++
+path = "tolkienbio"
 title = "J.R.R. Tolkien: A Biography"
 date = 2020-10-21
+
+[taxonomies]
 tags = [
   "english",
   "books",
   "tolkien",
 ]
 +++
-
 Book: [J.R.R. Tolkien: A Biography, by Humphrey Carpenter](https://www.goodreads.com/review/show/3401638686). Rating: ⭐️⭐️⭐️⭐️⭐️.
 
 It's not a secret to anyone that [I'm a big fan of J.R.R.

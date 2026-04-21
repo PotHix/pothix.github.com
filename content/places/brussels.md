@@ -1,9 +1,10 @@
----
-title: "Antwerp"
-date: "2017-10-31"
-skip_feed: true
----
++++
+title = "Antwerp"
+date = "2017-10-31"
 
+[extra]
+skip_feed = true
++++
 In 2017 I had the chance to speak at [FOSDEM](/fosdem2017) in 
 Brussels, so I explored the city with some friends.
 

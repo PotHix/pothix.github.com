@@ -1,4 +1,5 @@
 +++
+path = "modemclaro-ubuntu"
 title = "Instalando modem 3G Claro USB E226 no Ubuntu"
 aliases=[
   "post/instalando-modem-3g-claro-usb-e226-no-ubuntu",
@@ -6,9 +7,10 @@ aliases=[
   "blog/ubuntu/instalando-modem-3g-claro-usb-e226-no-ubuntu"
 ]
 date = "2009-06-13"
+
+[taxonomies]
 tags = ["tech","linux"]
 +++
-
 Após receber um modem Claro da [empresa que eu trabalho atualmente](http://www.ikwa.com.br "Ikwa Orientação Profissional")
 eu fui fazer o processo de instalação no Ubuntu. Já tinha recebido a
 informação de um [colega de trabalho](http://github.com/mateuslinhares)

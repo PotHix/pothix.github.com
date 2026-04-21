@@ -1,13 +1,15 @@
 +++
+path = "poker"
 title = "Saudades do Poker"
 date = "2012-10-31"
-tags = ["games"]
 aliases=[
   "post/saudades-do-poker",
   "2012/10/31/saudades-do-poker.html"
 ]
-+++
 
+[taxonomies]
+tags = ["games"]
++++
 Apesar de eu não ser bom o suficiente eu curto bastante jogar poker, mas as
 poucas vezes que me juntei com os amigos pessoalmente para jogar foi na época
 da faculdade, que marcavamos as "poker nights" e jogavamos apostando pequenas

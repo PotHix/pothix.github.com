@@ -1,12 +1,14 @@
 +++
+path = "outliersbook"
 title = "Review of Outliers: The Story of Success"
 date = 2017-01-23
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Outliers: The Story of Success](https://www.goodreads.com/book/show/3228917) by Malcolm Gladwell. Rating: ⭐️⭐️⭐️⭐️.
 
 It was a good reading. I would review this book as 3 stars but at the end, I was convinced that it made me think about many interesting things on successful people in general.

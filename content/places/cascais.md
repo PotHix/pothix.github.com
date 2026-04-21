@@ -1,9 +1,10 @@
----
-title: "Cascais"
-date: 2019-04-13
-skip_feed: true
----
++++
+title = "Cascais"
+date = "2019-04-13"
 
+[extra]
+skip_feed = true
++++
 A friend of mine was driving us to nice places around Lisbon and he recommended
 us to go to Cascais, which is a place he likes.
 

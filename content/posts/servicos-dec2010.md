@@ -1,4 +1,5 @@
 +++
+path = "servicos-dec2010"
 title = "Serviços legais de dezembro"
 aliases=[
   "post/servicos-legais-de-dezembro",
@@ -6,10 +7,11 @@ aliases=[
   "blog/coolservices/servicos-legais-de-dezembro"
 ]
 date = "2009-12-02"
+
+[taxonomies]
 tags = ["tech","services"]
 series = ["Cool services"]
 +++
-
 Infelizmente não consegui postar sobre os serviços legais do mes de
 novembro por que eu estava cheio de coisas para fazer ( devido as provas
 de fim de ano, e meu curso é anual ), portanto não consegui agregar nada

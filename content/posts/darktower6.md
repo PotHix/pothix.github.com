@@ -1,11 +1,13 @@
 +++
+path = "darktower6"
 title = "Review of Song of Susannah (The Dark Tower, #6)"
 date = 2021-06-16
+
+[taxonomies]
 tags = [
     "books",
 ]
 +++
-
 Book: [Song of Susannah (The Dark Tower, #6)](https://www.goodreads.com/review/show/1631915867) by Stephen King. Rating: ⭐️⭐️⭐️⭐️.
 
 Livro lido (ouvido? 🙂) em Português, portanto review em Português também.

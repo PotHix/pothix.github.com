@@ -1,12 +1,14 @@
 +++
+path = "remotebook"
 title = "Review of Remote: Office Not Required"
 date = 2019-05-23
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Remote: Office Not Required](https://www.goodreads.com/book/show/17316682) by David Heinemeier Hansson. Rating: ⭐️⭐️⭐️.
 
 The interesting part of reading this book is that I'm currently living most part of it in the past 2 years. :)

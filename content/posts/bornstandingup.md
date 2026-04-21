@@ -1,12 +1,14 @@
 +++
+path = "bornstandingup"
 title = "Review of Born Standing Up: A Comic's Life"
 date = 2019-11-23
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Born Standing Up: A Comic's Life](https://www.goodreads.com/book/show/773858) by Steve Martin. Rating: ⭐️⭐️⭐️⭐️.
 
 I got a recommendation for this book on Quora. I don't even remember what was the question about, but I usually mark some books to read when I get these "books you should read" questions.

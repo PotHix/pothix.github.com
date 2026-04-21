@@ -1,4 +1,5 @@
 +++
+path = "railssummit-day2"
 title = "Rails Summit Latin America (Day 2)"
 aliases=[
   "post/rails-summit-latin-america-day-2",
@@ -6,10 +7,11 @@ aliases=[
   "post/rails-summit-latin-amerira-day-2"
 ]
 date = "2008-10-22"
+
+[taxonomies]
 tags = ["events","ruby","tech"]
 series = ["Rails Summit"]
 +++
-
 Para quem não viu o meu post sobre o primeiro dia da Rails Summit,
 veja [aqui](http://pothix.com/blog/rails/rails-summit-latin-america)! ;)
 E agora vamos ao segundo post sobre a Rails Summit! :)

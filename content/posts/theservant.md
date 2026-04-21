@@ -1,12 +1,14 @@
 +++
+path = "theservant"
 title = "Review of The Servant: A Simple Story about the True Essence of Leadership"
 date = 2019-01-29
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Servant: A Simple Story about the True Essence of Leadership](https://www.goodreads.com/book/show/181736) by James C. Hunter. Rating: ⭐️⭐️⭐️⭐️.
 
 This book was a big hit in Brazil for a while and of course, I heard about it in the past. I'm a bit skeptical about books that became a hit, so I didn't pick this one. My sister asked me to buy this book for her as a gift and I decided to buy one for me too so we could discuss it.

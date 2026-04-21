@@ -1,9 +1,11 @@
 +++
+path = "mespj"
 title = "Um mês de um PJ para o exterior"
 date = 2021-01-09
+
+[taxonomies]
 series = ["PF & PJ"]
 +++
-
 Esse é o último post que eu tinha planejado para a [série de PF &
 PJ](/series/pf-pj). Não necessariamente será o último da série, mas toda essa
 série começou para eu poder fazer esse post. 😄

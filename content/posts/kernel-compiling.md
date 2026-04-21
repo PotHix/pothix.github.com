@@ -1,13 +1,15 @@
 +++
+path = "kernel-compiling"
 title = "Kernel compiling"
 date = "2012-07-23"
-tags = ["linux","english","tech"]
 aliases=[
   "post/kernel-compiling",
   "2012/07/23/kernel-compiling.html"
 ]
-+++
 
+[taxonomies]
+tags = ["linux","english","tech"]
++++
 Since I bought an Acer notebook to use Linux again (I sold my mac, I
 have a post about it but in portuguese) I started to compile my own
 kernel.

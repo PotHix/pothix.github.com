@@ -1,12 +1,14 @@
 +++
+path = "bloodsweatandpixels"
 title = "Review of Blood, Sweat, and Pixels: The Triumphant, Turbulent Stories Behind How Video Games Are Made"
 date = 2018-06-11
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Blood, Sweat, and Pixels: The Triumphant, Turbulent Stories Behind How Video Games Are Made](https://www.goodreads.com/book/show/34376766) by Jason Schreier. Rating: ⭐️⭐️⭐️⭐️.
 
 Good book overall, I did not take notes because it seems like a fictional book. :P

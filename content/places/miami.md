@@ -1,9 +1,10 @@
----
-title: "Miami"
-date: 2023-09-24
-skip_feed: true
----
++++
+title = "Miami"
+date = "2023-09-24"
 
+[extra]
+skip_feed = true
++++
 I had the chance to spend 10 hours in Miami in a long layover in September
 2023, and will describe my experience here.
 

@@ -1,12 +1,14 @@
 +++
+path = "meetthefrugalwoods"
 title = "Review of Meet the Frugalwoods: Achieving Financial Independence Through Simple Living"
 date = 2018-11-26
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Meet the Frugalwoods: Achieving Financial Independence Through Simple Living](https://www.goodreads.com/book/show/35068719) by Elizabeth Willard Thames. Rating: ⭐️⭐️⭐️.
 
 I follow their blog for a while now and like it a lot, but I didn't have the same feeling with the book.

@@ -1,11 +1,14 @@
----
-title: "Rome"
-aliases: ["rome"]
-tags: ["english"]
-date: 2022-06-29
-skip_feed: true
----
++++
+title = "Rome"
+aliases = ["rome"]
+date = "2022-06-29"
 
+[taxonomies]
+tags = ["english"]
+
+[extra]
+skip_feed = true
++++
 In July 2022 I spent 3 days in Rome and quite enjoyed it. The only problem was
 the extreme heat and crowded city, but other than that, things went great.
 

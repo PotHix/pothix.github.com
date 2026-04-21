@@ -1,12 +1,10 @@
----
-title: "How was Rust LATAM 2019"
-tags: ["english","tech","events"]
-date: 2019-04-21T14:02:54-03:00
-aliases: [
-  "post/how-was-rust-latam-2019"
-]
----
-
++++
+path = "rustlatam2019"
+title = "How was Rust LATAM 2019"
+date = "2019-04-21T14:02:54-03:00"
+[taxonomies]
+tags = ["english","tech","events"]
++++
 For those who don't know, I'm a proud core organizer of the [Rust
 LATAM conference](https://rustlatam.org). 🎉 The conference happened
 on March 29 and 30, and this post describes how it was to organize the

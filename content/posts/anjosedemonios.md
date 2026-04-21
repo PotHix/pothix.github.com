@@ -1,4 +1,5 @@
 +++
+path = "anjosedemonios"
 title = "Anjos e Demônios"
 aliases=[
   "post/bookreview-anjos-e-demonios",
@@ -6,9 +7,10 @@ aliases=[
   "blog/books/bookreview-anjos-e-demonios"
 ]
 date = "2009-12-28"
+
+[taxonomies]
 tags = ["books"]
 +++
-
 Felizmente eu estou de férias da faculdade novamente, e isso me dá um
 tempo livre para ler alguns livros, portanto resolvi começar com
 “**Anjos e Demônios**“, que é um livro que eu estou postergando a

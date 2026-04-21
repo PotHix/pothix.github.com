@@ -1,4 +1,5 @@
 +++
+path = "game-netprog"
 title = "Game Network Programming"
 aliases=[
   "post/game-network-programming",
@@ -6,9 +7,10 @@ aliases=[
   "blog/development/game-network-programming"
 ]
 date = "2013-07-15"
+
+[taxonomies]
 tags = ["gamedev","speaking","english","events"]
 +++
-
 **English Abstract**: This post was about my presentation with Diego Souza
 (vulgo Marciano) about Game network programming. I was studying and reading
 Quake source just for fun and decided to learn more about game networking in

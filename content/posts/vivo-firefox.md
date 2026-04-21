@@ -1,4 +1,5 @@
 +++
+path = "vivo-firefox"
 title = "VIVO online agora funciona no Firefox / Safari"
 aliases=[
   "post/vivo-online-agora-funciona-no-firefox-safari",
@@ -6,9 +7,10 @@ aliases=[
   "blog/development/vivo-online-agora-funciona-no-firefox-safari"
 ]
 date = "2009-01-30"
+
+[taxonomies]
 tags = ["tech"]
 +++
-
 Boas novas!
 
 Eu tinha feito [um post](http://pothix.com/blog/development/usuarios-resolvem-os-problemas-da-vivo "Usuários resolvem problemas da VIVO")

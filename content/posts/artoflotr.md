@@ -1,13 +1,15 @@
 +++
+path = "artoflotr"
 title = "Review of The Art of The Lord of the Rings by J.R.R. Tolkien"
 date = 2017-04-07
+
+[taxonomies]
 tags = [
     "english",
     "books",
     "tolkien",
 ]
 +++
-
 Book: [The Art of The Lord of the Rings by J.R.R. Tolkien](https://www.goodreads.com/book/show/24886320) by Wayne G. Hammond. Rating: ⭐️⭐️⭐️⭐️.
 
 This is one of those books for Tolkien fans. I do not recommend it if you did not read other books by Tolkien.

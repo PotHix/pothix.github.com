@@ -1,9 +1,12 @@
 +++
 title = "Podcasts"
+
+[taxonomies]
 tags = ["english"]
+
+[extra]
 toc = true
 +++
-
 I listen to podcasts since 2007 when I had to download them and transfer to my
 AAA-battery powered MP3 player every day (👴). A lot changed since then, but I
 still listen to podcast now and then.

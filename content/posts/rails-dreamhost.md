@@ -1,4 +1,5 @@
 +++
+path = "rails-dreamhost"
 title = "Colocando sua aplicação Rails na Dreamhost"
 aliases=[
   "post/colocando-sua-aplicacao-rails-na-dreamhost",
@@ -6,9 +7,10 @@ aliases=[
   "blog/development/colocando-sua-aplicacao-rails-na-dreamhost"
 ]
 date = "2009-03-25"
+
+[taxonomies]
 tags = ["ruby","tech"]
 +++
-
 Estou fazendo um pequeno site em Rails e como tinha que mostrar o
 andamento para um colega, aproveitei para testar como seria o Deploy
 desse projeto na DreamHost ( mesmo sabendo que o provedor final não

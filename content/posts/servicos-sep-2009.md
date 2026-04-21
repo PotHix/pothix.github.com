@@ -1,4 +1,5 @@
 +++
+path = "servicos-sep-2009"
 title = "Serviços legais de setembro"
 aliases=[
   "post/servicos-legais-de-setembro",
@@ -6,10 +7,11 @@ aliases=[
   "blog/coolservices/servicos-legais-de-setembro"
 ]
 date = "2009-09-10"
+
+[taxonomies]
 tags = ["tech","services"]
 series = ["Cool services"]
 +++
-
 E lá vamos nós novamente para mais um post sobre os serviços legais que eu encontrei esse mes.
 
 #### Creately

@@ -1,4 +1,5 @@
 +++
+path = "sshfs"
 title = "Utilizando o sshfs"
 aliases=[
   "post/utilizando-o-sshfs",
@@ -6,9 +7,10 @@ aliases=[
   "blog/slackware/utilizando-o-sshfs"
 ]
 date = "2008-11-29"
+
+[taxonomies]
 tags = ["tech","linux"]
 +++
-
 Estou utilizando bastante o
 [sshfs](http://fuse.sourceforge.net/sshfs.html "sshfs") para
 transferir alguns arquivos para o servidor, ao invés de utilizar o bom

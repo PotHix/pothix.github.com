@@ -1,4 +1,5 @@
 +++
+path = "gtalk-pidgin"
 title = "Configurando seu Gtalk do Google Apps no Pidgin"
 aliases=[
   "post/configurando-seu-gtalk-do-google-apps-no-pidgin",
@@ -6,9 +7,10 @@ aliases=[
   "blog/slackware/configurando-seu-gtalk-do-google-apps-no-pidgin"
 ]
 date = "2009-05-09"
+
+[taxonomies]
 tags = ["tech","linux"]
 +++
-
 Resolvi postar sobre isso depois de passar por 3 empresas que usam o
 [Google Apps for your Domain](http://www.google.com/apps/intl/en/business/index.html "Google Apps")
 e eu sempre esbarrar com o maldito probleminha ao se configurar o Pidgin.

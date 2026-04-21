@@ -1,11 +1,13 @@
 +++
+path = "darktower5"
 title = "Review of Wolves of the Calla (The Dark Tower, #5)"
 date = 2021-06-13
+
+[taxonomies]
 tags = [
     "books",
 ]
 +++
-
 Book: [Wolves of the Calla (The Dark Tower, #5)](https://www.goodreads.com/review/show/1631915804) by Stephen King. Rating: ⭐️⭐️⭐️⭐️
 
 Estou lendo essa série em português, então os reviews também serão em português.

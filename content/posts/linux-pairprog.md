@@ -1,4 +1,5 @@
 +++
+path = "linux-pairprog"
 title = "Linux, Vim, Screen e Pair programming!"
 aliases=[
   "post/linux-vim-screen-e-pair-programming",
@@ -6,9 +7,10 @@ aliases=[
   "blog/development/linux-vim-screen-e-pair-programming"
 ]
 date = "2010-03-29"
+
+[taxonomies]
 tags = ["linux","tech"]
 +++
-
 Aqui estou eu mais uma vez para falar mais uma das maluquices que eu
 fiz um bom tempo atrás mas não tive tempo de postar.
 

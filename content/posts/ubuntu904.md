@@ -1,4 +1,5 @@
 +++
+path = "ubuntu904"
 title = "Ubuntu 9.04"
 aliases=[
   "post/ubuntu-904",
@@ -6,9 +7,10 @@ aliases=[
   "blog/ubuntu/ubuntu-904"
 ]
 date = "2009-05-06"
+
+[taxonomies]
 tags = ["linux","tech"]
 +++
-
 Hoje estou aqui para falar um pouco sobre o Ubuntu 9.04! :)
 
 Alguns dias atrás eu

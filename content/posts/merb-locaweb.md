@@ -1,4 +1,5 @@
 +++
+path = "merb-locaweb"
 title = "Deploying a simple Merb application on Locaweb"
 aliases=[
   "post/deploying-a-simple-merb-application-on-locaweb",
@@ -6,9 +7,10 @@ aliases=[
   "blog/english/deploying-a-simple-merb-application-on-locaweb"
 ]
 date = "2009-01-07"
+
+[taxonomies]
 tags = ["english","linux","ruby","tech"]
 +++
-
 I writing this post to help my friends of
 [Rubylearning](http://rubylearning.org/class/ "Rubylearning.org") with
 a little [Merb](http://merbivore.com/ "Merb Official Home Page")

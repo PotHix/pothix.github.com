@@ -1,12 +1,14 @@
 +++
+path = "startwithwhy"
 title = "Review of Start with Why: How Great Leaders Inspire Everyone to Take Action"
 date = 2017-06-22
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Start with Why: How Great Leaders Inspire Everyone to Take Action](https://www.goodreads.com/book/show/7108725) by Simon Sinek. Rating: ⭐️⭐️⭐️⭐️.
 
 I always thought we must first have a reason to create something and this book shows some companies that are famous for doing that and how they did it.

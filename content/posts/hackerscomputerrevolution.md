@@ -1,12 +1,14 @@
 +++
+path = "hackerscomputerrevolution"
 title = "Review of Hackers: Heroes of the Computer Revolution"
 date = 2016-04-01
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Hackers: Heroes of the Computer Revolution](https://www.goodreads.com/book/show/56829) by Steven Levy. Rating: ⭐️⭐️⭐️⭐️⭐️.
 
 Great book. John Carmack said it was the most inspiring book for him and I can understand why.

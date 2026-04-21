@@ -1,12 +1,14 @@
 +++
+path = "programmingrust"
 title = "Review of Programming Rust: Fast, Safe Systems Development"
 date = 2020-08-11
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Programming Rust: Fast, Safe Systems Development](https://www.goodreads.com/review/25550614). Rating: ⭐️⭐️⭐️⭐️⭐️.
 
 This is a great book for sure. I started reading it in 2017 but never find the

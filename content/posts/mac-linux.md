@@ -1,4 +1,5 @@
 +++
+path = "mac-linux"
 title = "Menos mac e mais Linux"
 aliases=[
   "post/menos-mac-e-mais-linux",
@@ -6,9 +7,10 @@ aliases=[
   "blog/development/menos-mac-e-mais-linux"
 ]
 date = "2012-07-19"
+
+[taxonomies]
 tags = ["linux","tech"]
 +++
-
 **TL; DR** Usei mac por mais de 6 meses e decidi voltar ao Linux. Na minha opinião
 mac não é ruim, mas Linux é melhor.
 

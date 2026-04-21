@@ -1,12 +1,14 @@
 +++
+path = "powerful"
 title = "Review of Powerful: Building a Culture of Freedom and Responsibility"
 date = 2019-05-29
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Powerful: Building a Culture of Freedom and Responsibility](https://www.goodreads.com/book/show/36417234) by Patty McCord. Rating: ⭐️⭐️⭐️.
 
 It's a good book but I was expecting more from it. I think it happened because I had the chance to attend a workshop with Patty and it was very good. My feeling is that the book was not bringing that much news for me.

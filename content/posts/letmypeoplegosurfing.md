@@ -1,12 +1,14 @@
 +++
+path = "letmypeoplegosurfing"
 title = "Review of Let My People Go Surfing: The Education of a Reluctant Businessman"
 date = 2017-07-06
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Let My People Go Surfing: The Education of a Reluctant Businessman](https://www.goodreads.com/book/show/22155) by Yvon Chouinard. Rating: ⭐️⭐️⭐️⭐️.
 
 It was 3 stars until 70% of the book but the ending deserves 4.

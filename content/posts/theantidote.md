@@ -1,12 +1,14 @@
 +++
+path = "theantidote"
 title = "Review of The Antidote: Happiness for People Who Can't Stand Positive Thinking"
 date = 2020-05-15
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [The Antidote: Happiness for People Who Can't Stand Positive Thinking](https://www.goodreads.com/book/show/13721709) by Oliver Burkeman. Rating: ⭐️⭐️⭐️⭐️.
 
 It was a suggestion from a friend when I published the review of [Don't Panic: Taking Control of Anxiety Attacks](/dontpanicbook), as he found the content to be complimentary.

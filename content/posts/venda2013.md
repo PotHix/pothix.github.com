@@ -1,4 +1,5 @@
 +++
+path = "venda2013"
 title = "Vendendo minhas coisas"
 aliases=[
   "post/vendendo-minhas-coisas",
@@ -6,9 +7,10 @@ aliases=[
   "blog/personal/vendendo-minhas-coisas"
 ]
 date = "2013-07-29"
+
+[taxonomies]
 tags = ["personal"]
 +++
-
 Esse ano aconteceram algumas coisas zuadas para mim e resolvi capitalizar o
 dinheiro das coisas que eu tenho e começar denovo no ano que vem.
 

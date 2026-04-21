@@ -1,12 +1,14 @@
 +++
+path = "principlesbook"
 title = "Review of Principles"
 date = 2018-10-05
+
+[taxonomies]
 tags = [
     "english",
     "books",
 ]
 +++
-
 Book: [Principles (Summary)](https://www.goodreads.com/book/show/12935037) by Ray Dalio. Rating: ⭐️⭐️⭐️⭐️⭐️.
 
 I was between 4 and 5 stars for this one. I would say I would rate it with 4.5, but when I was editing my notes I realized the big number of notes I had and decided to go for 5 stars.
