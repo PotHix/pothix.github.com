@@ -3,6 +3,9 @@ title = "Munich"
 aliases = ["munich"]
 date = "2022-06-16"
 
+[taxonomies]
+tags = ["english"]
+
 [extra]
 skip_feed = true
 +++

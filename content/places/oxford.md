@@ -2,6 +2,9 @@
 title = "Oxford"
 date = "2017-02-28"
 
+[taxonomies]
+tags = ["english"]
+
 [extra]
 skip_feed = true
 +++

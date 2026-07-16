@@ -2,6 +2,9 @@
 title = "Antwerp"
 date = "2017-10-31"
 
+[taxonomies]
+tags = ["english"]
+
 [extra]
 skip_feed = true
 +++

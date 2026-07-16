@@ -2,6 +2,9 @@
 title = "Travel (without kids)"
 date = "2020-01-01"
 
+[taxonomies]
+tags = ["english"]
+
 [extra]
 skip_feed = true
 +++

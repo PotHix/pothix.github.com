@@ -3,6 +3,9 @@ title = "NYC"
 aliases = ["NYC"]
 date = "2019-03-25"
 
+[taxonomies]
+tags = ["english"]
+
 [extra]
 skip_feed = true
 +++

@@ -2,6 +2,9 @@
 title = "Azores"
 date = "2019-04-01"
 
+[taxonomies]
+tags = ["english"]
+
 [extra]
 skip_feed = true
 +++

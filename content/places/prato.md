@@ -2,6 +2,9 @@
 title = "Prato, Artimino"
 date = "2023-07-20"
 
+[taxonomies]
+tags = ["english"]
+
 [extra]
 skip_feed = true
 +++

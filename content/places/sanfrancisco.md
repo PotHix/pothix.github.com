@@ -2,6 +2,9 @@
 title = "San Francisco"
 date = "2012-04-13"
 
+[taxonomies]
+tags = ["english"]
+
 [extra]
 skip_feed = true
 +++

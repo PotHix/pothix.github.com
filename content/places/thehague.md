@@ -2,6 +2,9 @@
 title = "The Hague, Netherlands"
 date = "2017-03-01"
 
+[taxonomies]
+tags = ["english"]
+
 [extra]
 skip_feed = true
 +++

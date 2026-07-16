@@ -2,6 +2,9 @@
 title = "Portland"
 date = "2019-09-20"
 
+[taxonomies]
+tags = ["english"]
+
 [extra]
 skip_feed = true
 +++

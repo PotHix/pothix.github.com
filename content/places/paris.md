@@ -2,6 +2,9 @@
 title = "Paris"
 date = "2023-01-21"
 
+[taxonomies]
+tags = ["english"]
+
 [extra]
 skip_feed = true
 +++

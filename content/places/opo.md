@@ -3,6 +3,9 @@ title = "Porto"
 aliases = ["porto", "opo"]
 date = "2019-04-07"
 
+[taxonomies]
+tags = ["english"]
+
 [extra]
 skip_feed = true
 +++
