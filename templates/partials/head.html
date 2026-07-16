@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="{{ config.extra.author }}">
+<meta name="description" content="{% if current_path is defined and current_path == '/' %}{{ config.extra.homeSubtitle }}{% elif page is defined and page.summary %}{{ page.summary | striptags | truncate(length=200) }}{% elif section is defined %}{{ section.title }}{% endif %}" />
+<meta name="keywords" content="{{ config.extra.keywords | join(sep=", ") }}{% if page is defined and page.taxonomies.tags is defined %}{% for tag in page.taxonomies.tags %}, {{ tag }}{% endfor %}{% endif %}" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="{{ config.extra.favicon.color.theme }}" />
+{% if page is defined %}<link rel="canonical" href="{{ page.permalink }}" />{% endif %}
+
+
+<!-- CSS -->
+<link rel="stylesheet" href="/main.css">
+
+<!-- Icons -->
+{% include "partials/favicons.html" %}
+
+{% if page is defined and page.date %}
+    <meta property="article:published_time" content="{{ page.date }}" />
+{% endif %}
+
+<!-- RSS -->
+<link rel="alternate" type="application/rss+xml" href="{{ config.base_url }}/rss.xml" title="{{ config.title }}" />

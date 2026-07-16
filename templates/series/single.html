@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+    <main class="posts">
+        <h1>Series: {{ term.name }}</h1>
+
+        {% set current_year = "" %}
+        {% for page in term.pages %}
+            {% set page_year = page.date | date(format="%Y") %}
+            {% if page_year != current_year %}
+                {% if current_year != "" %}
+                    </ul>
+                    </div>
+                {% endif %}
+                <div class="posts-group">
+                <div class="post-year">{{ page_year }}</div>
+                <ul class="posts-list">
+                {% set_global current_year = page_year %}
+            {% endif %}
+            <li class="post-item">
+                <a href="{{ page.permalink }}">
+                    <span class="post-title">{{ page.title }}</span>
+                    <span class="post-day">
+                        {{ page.date | date(format=config.extra.dateformShort) }}
+                    </span>
+                </a>
+            </li>
+        {% endfor %}
+        {% if current_year != "" %}
+            </ul>
+            </div>
+        {% endif %}
+    </main>
+{% endblock %}

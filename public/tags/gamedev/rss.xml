@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>PotHix - gamedev</title>
+      <link>https://pothix.com</link>
+      <description></description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://pothix.com/tags/gamedev/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Mon, 15 Jul 2013 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Game Network Programming</title>
+          <pubDate>Mon, 15 Jul 2013 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://pothix.com/game-netprog/</link>
+          <guid>https://pothix.com/game-netprog/</guid>
+          <description xml:base="https://pothix.com/game-netprog/">&lt;p&gt;&lt;strong&gt;English Abstract&lt;&#x2F;strong&gt;: This post was about my presentation with Diego Souza
+(vulgo Marciano) about Game network programming. I was studying and reading
+Quake source just for fun and decided to learn more about game networking in
+general, so I decided to prepare this presentation to show other people what
+I’ve learned. You can see the full video (portuguese only, sorry) and the slides
+below.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Portuguese&lt;&#x2F;strong&gt;: Eu e o Diego Souza (vulgo Marciano) fizemos uma palestra sobre
+Game network programming tanto na Locaweb como no Guru-SP. A palestra que
+fizemos no Guru-SP foi gravada pelo Agaelebe e está &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=nG1oGfrDiUc&quot;&gt;disponível no
+Youtube&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Como eu estava na vibe de jogos desde o começo do ano passado, eu estava lendo
+os posts sobre o código do Quake. Quem me conhece sabe que eu trabalho na equipe
+de IaaS da Locaweb e lá nós lidamos com bastante coisa de redes e eu curto o
+assunto.&lt;&#x2F;p&gt;
+&lt;p&gt;Conversando com o Diego sobre os algoritmos de redes utilizados no Quake nós
+decidimos juntar as pesquisas dele sobre os protocolos TCP e UDP com o que eu li
+sobre a implementação dos algoritmos nos jogos para poder fazer uma palestra
+legal de game network programming, e assim saiu essa palestra.&lt;&#x2F;p&gt;
+&lt;p&gt;Lá nós apresentamos os algoritmos de alguns jogos como o Quake, Age of Empires e
+outros não tão conhecidos, mostrando as soluções legais que eles chegaram e
+quais foram os maiores desafios que eles encontraram para resolver os problemas
+de latencia e necessidade de velocidade. O Diego focou mais na parte de
+otimização dos algoritmos e flags que podem ser alteradas para melhorar o
+comportamento da rede.&lt;&#x2F;p&gt;
+&lt;p&gt;Essa foi uma palestra muito legal de fazer e aprendi bastante no processo
+também! Se tiverem dúvidas postem aí nos comentários. :)&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Plaev, HTML5 e Skeleton-jigsaw</title>
+          <pubDate>Tue, 04 Dec 2012 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://pothix.com/skeleton-jigsaw/</link>
+          <guid>https://pothix.com/skeleton-jigsaw/</guid>
+          <description xml:base="https://pothix.com/skeleton-jigsaw/">&lt;p&gt;Depois de muito tempo desenvolvendo finalmente terminamos o Skeleton-Jigsaw em
+outubro! Demorei para postar sobre isso aqui no blog por falta de tempo, mas
+aqui está!&lt;&#x2F;p&gt;
+&lt;p&gt;Eu e o Rafael Masoni trabalhamos nesse jogo durante quase 1 ano (começamos a
+falar dele no comecinho de janeiro) investindo nosso tempo livre para fazer
+todas as partes do jogo (audio, programação, arte, game design, level design e
+etc).&lt;&#x2F;p&gt;
+&lt;p&gt;Vou descrever um pouco do que fizemos e como organizamos, mas vai ser apenas um
+resumo do que falamos na nossa palestra no Guru-SP:&lt;&#x2F;p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;J2yDMOHCYak&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;&#x2F;iframe&gt;
+&lt;iframe src=&quot;http:&#x2F;&#x2F;www.slideshare.net&#x2F;slideshow&#x2F;embed_code&#x2F;15490608&quot; width=&quot;427&quot; height=&quot;356&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&quot; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;&#x2F;iframe&gt;
+&lt;p&gt;Obrigado pelo vídeo Agaelebe!&lt;&#x2F;p&gt;
+&lt;p&gt;Começamos a trabalhar em janeiro do ano passado no que seria um protótipo da
+impact e aos poucos o jogo foi tomando forma e estavamos investindo cada vez
+mais esforço nele. A cada semana fazíamos uma Skype call para discutir no que
+trabalharíamos durante a semana e fazíamos o possível para entregar o que
+conversamos até a próxima call.&lt;&#x2F;p&gt;
+&lt;p&gt;Foi bem legal trabalhar em todos os pontos do jogo, opinando em arte,
+trabalhando em trilha sonora, programando, discutindo level design, escrevendo
+uma prévia de história, otimizando assets, testando em vários navegadores,
+fazendo game design e tudo mais.&lt;&#x2F;p&gt;
+&lt;p&gt;Todo esse trabalho trouxe muitas experiências legais de como é entregar um jogo
+funcional e completo para o seu escopo, e estou bem orgulhoso de conseguir
+entregar o jogo demo finalizado, e não deixar mais um trabalho incompleto
+perdido por aí.&lt;&#x2F;p&gt;
+&lt;p&gt;Ainda não sabemos quais os planos para a Plæv, mas agora ela já tem seu primeiro
+jogo demo para não ficar com o portfolio em branco. :)&lt;&#x2F;p&gt;
+&lt;p&gt;Não quis descrever muito aqui no post para não ficar somente repetindo conteúdo
+do vídeo, mas se tiverem dúvidas coloquem nos comentários.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Javascript and Gamedev discussion</title>
+          <pubDate>Sun, 02 Sep 2012 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://pothix.com/jsgamedev-discussion/</link>
+          <guid>https://pothix.com/jsgamedev-discussion/</guid>
+          <description xml:base="https://pothix.com/jsgamedev-discussion/">&lt;p&gt;I read the &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;www.phoboslab.org&#x2F;log&#x2F;2012&#x2F;08&#x2F;letter-to-john-carmack&quot;&gt;blog post&lt;&#x2F;a&gt;
+from &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;impactjs.com&quot;&gt;Impact engine&lt;&#x2F;a&gt; creator
+&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;www.phoboslab.org&#x2F;&quot;&gt;Dominic&lt;&#x2F;a&gt; where he shows an email he sent to
+&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;twitter.com&#x2F;ID_AA_Carmack&quot;&gt;John Carmack&lt;&#x2F;a&gt;
+about his opinions on Javascript expressed on
+&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=wt-iVFxgFWk&quot;&gt;his keynote&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Dominic is trying to show that Javascript is not a good language
+to develop the next AAA game but it is awesome to make simple
+games and have it easily available to the world.&lt;&#x2F;p&gt;
+&lt;p&gt;We have a lot of negative comments on the post (I really don&#x27;t
+know why) but some good ones too. One of the good comments was
+written by John Carmack himself!&lt;&#x2F;p&gt;
+&lt;p&gt;He was just explaining his point of view about Javascript and game
+development, and said what we already know and is obvious (right?)
+that javascript is not so fast to perform some kind of tasks.&lt;&#x2F;p&gt;
+&lt;p&gt;Some people are dreaming that Javascript is so fast as C in some
+cases but we know that it is not true for a whole game and the
+native version will always run faster. But you should say that the
+web (and the computers at all) are evolving each day, so the javascript
+performance, but the native version is evolving as well and javascript
+will always be some steps back.&lt;&#x2F;p&gt;
+&lt;p&gt;John&#x27;s comment is really interesting because he knows that javascript
+has its benefits but he also knows that some of the real problems they
+are solving at &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;idsoftware.com&quot;&gt;Id Software&lt;&#x2F;a&gt;
+will not be solved efficiently using Javascript (and a browser)
+as the platform.&lt;&#x2F;p&gt;
+&lt;p&gt;The conclusion for the discussion is what I was expecting:&lt;&#x2F;p&gt;
+&lt;p&gt;&quot;Choose the right tool for the right job&quot;&lt;&#x2F;p&gt;
+&lt;p&gt;Are you doing a little 2D game? Try javascript,
+and define the platforms for it to run. But if your game really needs
+performance because you need to have the most impressive graphics,
+you need to go native.&lt;&#x2F;p&gt;
+&lt;p&gt;Obviously you should choose a lot of different languages &#x2F; platforms as
+well, you just need to decide which one is better for your business.&lt;&#x2F;p&gt;
+&lt;p&gt;Use the right tool. That&#x27;s it, no silver bullet. :)&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Aprendendo com o código do Quake</title>
+          <pubDate>Wed, 18 Jul 2012 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://pothix.com/quakecode/</link>
+          <guid>https://pothix.com/quakecode/</guid>
+          <description xml:base="https://pothix.com/quakecode/">&lt;p&gt;Desde que eu terminei a faculdade eu venho lendo bastante coisa útil (foi muita
+coisa inútil durante 4 anos...) e aprendendo bastante coisa. Nos ultimos meses
+eu li vários code reviews dos códigos do Quake e do Doom.&lt;&#x2F;p&gt;
+&lt;p&gt;Os review foram feitos por Fabien Anglard e estão todos disponíveis no site dele
+&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;fabiensanglard.net&quot;&gt;&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;fabiensanglard.net&quot;&gt;http:&#x2F;&#x2F;fabiensanglard.net&lt;&#x2F;a&gt;&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;O primeiro artigo que eu li foi sobre o
+&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;fabiensanglard.net&#x2F;quake2&#x2F;index.php&quot;&gt;code review do código do Quake 2 de 1997&lt;&#x2F;a&gt;.
+Esse quake foi o ultimo que fez Software Rendering e o cara que analizou o código
+explica direitinho como foi feito, explicando todos os problemas que os
+desenvolvedores enfrentaram e porque eles chegaram aquela implementação. Para
+quem é programador e curte Quake é uma ótima leitura.&lt;&#x2F;p&gt;
+&lt;p&gt;Uma coisa muito interessante que vi na leitura desse artigo foi que eu acabei
+estudando várias outras coisas para poder entender o artigo, como:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;BSP trees: &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;downloads.gamedev.net&#x2F;pdf&#x2F;gpbb&#x2F;gpbb59.pdf&quot;&gt;&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;downloads.gamedev.net&#x2F;pdf&#x2F;gpbb&#x2F;gpbb59.pdf&quot;&gt;http:&#x2F;&#x2F;downloads.gamedev.net&#x2F;pdf&#x2F;gpbb&#x2F;gpbb59.pdf&lt;&#x2F;a&gt;&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Octree: &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Octree&quot;&gt;&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Octree&quot;&gt;http:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Octree&lt;&#x2F;a&gt;&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Memory management: &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;www.ualberta.ca&#x2F;CNS&#x2F;RESEARCH&#x2F;LinuxClusters&#x2F;mem.html&quot;&gt;&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;www.ualberta.ca&#x2F;CNS&#x2F;RESEARCH&#x2F;LinuxClusters&#x2F;mem.html&quot;&gt;http:&#x2F;&#x2F;www.ualberta.ca&#x2F;CNS&#x2F;RESEARCH&#x2F;LinuxClusters&#x2F;mem.html&lt;&#x2F;a&gt;&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Radiosity: &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;freespace.virgin.net&#x2F;hugo.elias&#x2F;radiosity&#x2F;radiosity.htm&quot;&gt;&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;freespace.virgin.net&#x2F;hugo.elias&#x2F;radiosity&#x2F;radiosity.htm&quot;&gt;http:&#x2F;&#x2F;freespace.virgin.net&#x2F;hugo.elias&#x2F;radiosity&#x2F;radiosity.htm&lt;&#x2F;a&gt; &lt;&#x2F;a&gt; (esse artigo é animal)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;E outras coisas do mesmo genero.&lt;&#x2F;p&gt;
+&lt;p&gt;Com o lançamento do código do DOOM 3 open source, mais um code review foi
+escrito: &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;fabiensanglard.net&#x2F;doom3&#x2F;&quot;&gt;&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;fabiensanglard.net&#x2F;doom3&#x2F;&quot;&gt;http:&#x2F;&#x2F;fabiensanglard.net&#x2F;doom3&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;a&gt;,
+e nesse review ele explica como a parte de iluminação (que era a grande
+funcionalidade do Doom 3) foi feita e quais as técnicas foram utilizadas.
+Apesar de eu conhecer pouco de renderização e algoritmos de iluminação é
+possível entender uma boa parte desse review.&lt;&#x2F;p&gt;
+&lt;p&gt;E por ultimo li o &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;fabiensanglard.net&#x2F;quake3&#x2F;index.php&quot;&gt;code review do código do Quake III&lt;&#x2F;a&gt;,
+que mostra uma das coisas que eu estava curioso para ler, networking! Todos
+sabemos que a parte de redes (não somente ela, acho que tudo) precisa de
+velocidade, e eu queria entender o que os caras planejaram para essa camada, e
+isso é uma das coisas que o code review traz, inclusive linkando para a análise da antiga
+engine do Quake e explicando algumas decisões e as premissas simples que foram
+utilizadas para construir uma camada consistente e deixar o jogo o mais fluido possível.&lt;&#x2F;p&gt;
+&lt;p&gt;Esse ultimo code review acaba muito legal, linkando para a IA do Quake III,
+que é muito boa por sinal, e por isso rendeu uma
+&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;dev.johnstevenson.co.uk&#x2F;bots&#x2F;20585341-The-Quake-III-Arena-Bot.pdf&quot;&gt;tese de mestrado do desenvolvedor&lt;&#x2F;a&gt;
+que apesar de eu não ter lido inteira, eu recomendo a leitura para quem se interessa no assunto.&lt;&#x2F;p&gt;
+&lt;p&gt;Enfim, todos sabem que o &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;twitter.com&#x2F;ID_AA_Carmack&#x2F;&quot;&gt;John Carmack&lt;&#x2F;a&gt; é
+um dos programadores que eu mais admiro, e Quake é um dos jogos que eu mais
+curto, e o código é open source! Esse review era a oportunidade que faltava
+para conhecer o código melhor e aprender coisas novas. Se você curte jogos e
+programação &lt;strong&gt;RECOMENDO&lt;&#x2F;strong&gt; fortemente tirar algumas horas e ler os reviews!&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Palestra sobre Gamedev, Javascript e HTML5</title>
+          <pubDate>Mon, 23 May 2011 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://pothix.com/gamedev-javascript/</link>
+          <guid>https://pothix.com/gamedev-javascript/</guid>
+          <description xml:base="https://pothix.com/gamedev-javascript/">&lt;p&gt;Esse fim de semana eu palestrei no FLISOL de São José dos Campos sobre
+desenvolvimento de jogos, Javascript e HTML5. Foi uma palestra simples
+e rápida, durou pouco mais de meia hora (preciso aprender a falar um
+pouco mais devagar :P) mas foi divertido.&lt;&#x2F;p&gt;
+&lt;p&gt;A grande maioria das pessoas que estavam assistindo a palestra não
+eram desenvolvedores, e estavam começando a estudar agora, e acho que
+por isso não surgiram muitas perguntas sobre o assunto, mesmo eu
+evitando colocar código.&lt;&#x2F;p&gt;
+&lt;p&gt;Os slides da palestra foram esses:&lt;&#x2F;p&gt;
+&lt;iframe src=&quot;http:&#x2F;&#x2F;www.slideshare.net&#x2F;slideshow&#x2F;embed_code&#x2F;8069932&quot;
+width=&quot;425&quot; height=&quot;355&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot;
+marginheight=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;&#x2F;iframe&gt;
+&lt;p&gt;Queria agradecer ao &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;kesiev.com&quot;&gt;Kesiev&lt;&#x2F;a&gt; pelas dicas sobre o
+que falar do Akihabara e para os amigos da
+&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;plaevteam.com&quot;&gt;Plaev&lt;&#x2F;a&gt; pelas fotos para o slide do
+&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;plaevteam.com&#x2F;rott&quot;&gt;Rise of theTitans&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Um amigo que estava assistindo a palestra fez o favor de gravar para mim:&lt;&#x2F;p&gt;
+&lt;iframe src=&quot;http:&#x2F;&#x2F;player.vimeo.com&#x2F;video&#x2F;24100947?title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; width=&quot;400&quot; height=&quot;300&quot; frameborder=&quot;0&quot;&gt;&lt;&#x2F;iframe&gt;
+&lt;p&gt;Vou colocar mais exemplos e código para as próximas apresentações desse tema.
+Sugestões e críticas construtivas são bem vindas! ;)&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Instalando o Allegro 4.2.2 no Linux x86</title>
+          <pubDate>Wed, 12 Aug 2009 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://pothix.com/allegro422/</link>
+          <guid>https://pothix.com/allegro422/</guid>
+          <description xml:base="https://pothix.com/allegro422/">&lt;p&gt;Como mencionei no
+&lt;a rel=&quot;external&quot; title=&quot;Post sobre o GameJam&quot; href=&quot;http:&#x2F;&#x2F;pothix.com&#x2F;blog&#x2F;development&#x2F;gamejam&quot;&gt;meu ultimo post&lt;&#x2F;a&gt;
+eu parcicipei do GameJam do Itaú cultural e desenvolvi um jogo com
+Allegro. Agora com o jogo pronto estou criando arquivos executáveis
+para divulgar e tinha me esquecido da diferença de arquitetura no
+Linux, assim compilei apenas para meu Linux x64.&lt;&#x2F;p&gt;
+&lt;p&gt;Quando me dei conta que não funcionou no computador do trabalho por
+que eu tinha um binário x64, eu tive que instalar o Allegro no
+computador de lá para poder fazer funcionar também em Linux
+x86. Pensei eu:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&quot;Vai ser moleza, assim como foi instalar o &lt;a rel=&quot;external&quot; title=&quot;Allegro 4.2.2 download&quot; href=&quot;http:&#x2F;&#x2F;sourceforge.net&#x2F;projects&#x2F;alleg&#x2F;files&#x2F;allegro&#x2F;4.2.2&#x2F;allegro-4.2.2.tar.gz&#x2F;download&quot;&gt;Allegro
+4.2.2&lt;&#x2F;a&gt; no notebook x64&quot;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;E lá fui eu:&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #ABB2BF; background-color: #282C34;&quot;&gt;&lt;code data-lang=&quot;plain&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;.&#x2F;configure&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;make&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Ué...Deu um problema bizarro com o &lt;em&gt;FNSTSW&lt;&#x2F;em&gt; no make, então não vai ser
+tão fácil assim...E lá vamos nós procurar na internet. Procurando
+&lt;a rel=&quot;external&quot; title=&quot;Pergunta em uma lista de discussão&quot; href=&quot;http:&#x2F;&#x2F;lists.alioth.debian.org&#x2F;pipermail&#x2F;pkg-allegro-maintainers&#x2F;2009-May&#x2F;000251.html&quot;&gt;eu descobri&lt;&#x2F;a&gt;
+que tem realmente um erro em uma parte Assembly do código do Allegro
+para x86 que está errada na versão 4.2.2 que provavelmente foi
+consertada nas versões futuras, mas nesse caso tive que arrumar na
+mão:&lt;&#x2F;p&gt;
+&lt;p&gt;No arquivo &lt;code&gt;src&#x2F;i386&#x2F;icpus.s&lt;&#x2F;code&gt; alterar a seguinte linha (tirar a que tem
+um menos e colocar a que tem um mais):&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #ABB2BF; background-color: #282C34;&quot;&gt;&lt;code data-lang=&quot;plain&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;fninit&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;movl $0x5A5A, %eax&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;-   fnstsw %eax&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;+   fnstsw %ax&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;cmpl $0, %eax&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;jne is_fpu_not_found&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;E assim eu consegui compilar certinho! :D&lt;&#x2F;p&gt;
+&lt;p&gt;Quando tentei rodar meu binário me deparei com o seguinte erro: &quot;error
+while loading shared libraries: liballeg.so.4.2: cannot open shared
+object file: No such file or directory&quot; ¬¬&lt;&#x2F;p&gt;
+&lt;p&gt;Pesquisando na internet novamente eu descobri que estava faltando eu
+adicionar o diretório &lt;code&gt;&#x2F;usr&#x2F;local&#x2F;lib&lt;&#x2F;code&gt; ao meu &lt;code&gt;LD_LIBRARY_PATH&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
+&lt;p&gt;No meu .bashrc:&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #ABB2BF; background-color: #282C34;&quot;&gt;&lt;code data-lang=&quot;plain&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:&#x2F;usr&#x2F;local&#x2F;lib&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;OU&lt;&#x2F;p&gt;
+&lt;p&gt;Editar o meu arquivo &lt;code&gt;&#x2F;etc&#x2F;ld.so.conf&lt;&#x2F;code&gt; e incluir &lt;code&gt;&#x2F;usr&#x2F;local&#x2F;lib&lt;&#x2F;code&gt; no
+final do arquivo e depois rodar o comando &lt;code&gt;ldconfig&lt;&#x2F;code&gt; como root ;)&lt;&#x2F;p&gt;
+&lt;p&gt;Com isso eu consegui finalmente compilar ojogo e fazer o meu binário
+rodar o meu jogo normalmente. :)&lt;&#x2F;p&gt;
+&lt;p&gt;Espero que seja útil para mais alguem.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>GameJam</title>
+          <pubDate>Wed, 12 Aug 2009 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://pothix.com/gamejam/</link>
+          <guid>https://pothix.com/gamejam/</guid>
+          <description xml:base="https://pothix.com/gamejam/">&lt;p&gt;&lt;a href=&quot;&#x2F;images&#x2F;posts&#x2F;gamejam_espaco.jpg&quot;&gt;&lt;img src=&quot;&#x2F;images&#x2F;posts&#x2F;gamejam_espaco.jpg&quot; alt=&quot;Foto que mostra o pothix programando&quot; title=&quot;Espaço do Gamejam&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Como alguns sabem no final de semana passado ( dias 7, 8 e 9 ) eu participei do
+&lt;a rel=&quot;external&quot; title=&quot;Site do GameJam&quot; href=&quot;http:&#x2F;&#x2F;itaucultural.org.br&#x2F;gameplay&#x2F;?s=gamejam&quot;&gt;GameJam do Itaú cultural&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Nesse evento os participantes tinham que formar equipes de até 4
+pessoas e fazer um jogo em 48 horas, sendo que o tema ao qual o jogo
+devia responder só seria passado na sexta feira as 19, e teríamos até
+as 19 horas do domingo para entregar o jogo pronto utilizando qualquer
+plataforma para desenvolvimento.&lt;&#x2F;p&gt;
+&lt;p&gt;Pois bem, o que eu falei acima resume bem as regras do evento, agora
+vamos a minha situação. Fiquei sabendo na segunda feira pelo
+&lt;a rel=&quot;external&quot; title=&quot;CrociDB Blog&quot; href=&quot;http:&#x2F;&#x2F;crocidb.com&#x2F;blog&#x2F;&quot;&gt;CrociDB&lt;&#x2F;a&gt; que teria esse
+concurso e que tinha até quarta feira para se cadastrar, e eu tinha
+acabado de fazer uma mini-cirurgia para tirar um dente, portanto
+estava sentindo dores e tomando 4 tipos de remédios diferentes e não
+pude confirmar nada devido a esse motivo, mas a vontade era
+grande. Enquanto eu não confirmava o
+&lt;a rel=&quot;external&quot; title=&quot;CrociDB Blog&quot; href=&quot;http:&#x2F;&#x2F;crocidb.com&#x2F;blog&#x2F;&quot;&gt;CrociDB&lt;&#x2F;a&gt; ia procurando
+pessoas para a equipe.&lt;&#x2F;p&gt;
+&lt;p&gt;Quarta feira (último dia para inscrição chega) e eu já estava um
+pouco melhor e decidi me inscrever! Procurei por outras pessoas para
+compor a equipe, alguns descartei logo de cara por que sabia que ia
+ficar arrumando desculpinha para não participar, ou não teria peito o
+suficiente para aguentar a competição, então nem chamei, outros sabia
+que infelizmente não poderiam participar por motivo de força maior
+(fez falta hein &lt;a rel=&quot;external&quot; title=&quot;Rafael Masoni Website&quot; href=&quot;http:&#x2F;&#x2F;rafaelmasoni.com&#x2F;&quot;&gt;Rafael Masoni&lt;&#x2F;a&gt;)
+, e teve ainda os últimos que eu achei que participariam e
+fui chamar mas me decepcionaram...&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;inicio-do-contest&quot;&gt;Início do contest&lt;&#x2F;h4&gt;
+&lt;p&gt;Sexta feira tudo preparado e lá vou eu as 19 para o Gamejam (que foi na faculdade
+&lt;a rel=&quot;external&quot; title=&quot;Faculdade Anhembi Morumbi&quot; href=&quot;http:&#x2F;&#x2F;portal.anhembi.br&#x2F;&quot;&gt;Anhembi Morumbi&lt;&#x2F;a&gt;),
+e após me perder um pouco ( para variar ) cheguei em cima da abertura
+e recebemos o tema:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&quot;Maquinas e computadores podem tomar decisões inovadoras?&quot;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;E com isso lá se vai o nosso pensamento...&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Criar um robô em 2d no estilo side scroller?&lt;&#x2F;li&gt;
+&lt;li&gt;Criar um robô fazendo algum tipo de shooter?&lt;&#x2F;li&gt;
+&lt;li&gt;Criar um braço robô que faz algo?&lt;&#x2F;li&gt;
+&lt;li&gt;Como ele seria inovador?&lt;&#x2F;li&gt;
+&lt;li&gt;Ele seria inovador?&lt;&#x2F;li&gt;
+&lt;li&gt;Como são as decisões dos computadores atualmente?&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;E com essas várias perguntas chegamos a conclusão que um computador
+sozinho não pode tomar decisões inovadoras, ele apenas é programado
+para uma determinada finalidade, nunca cabe a ele as decisões finais
+com novas idéias. Com isso em mente nosso game foi baseado num braço
+robô que distribui caixas num armazém seguindo sua própria ordem,
+supostamente tentando uma maneira inovadora de organização de cores
+que pode ou não estar certa, e cabe ao jogador organizá-la da melhor
+maneira possível. Obviamente a idéia inicial não se fechou tão fácil,
+e fomos desenvolvendo ela de acordo com a evolução do game.&lt;&#x2F;p&gt;
+&lt;p&gt;Com uma base inicial desenvolvida passamos para o desenvolvimento! :D&lt;&#x2F;p&gt;
+&lt;p&gt;Preparamos o ambiente com Allegro e algumas classes que o
+&lt;a rel=&quot;external&quot; title=&quot;CrociDB Blog&quot; href=&quot;http:&#x2F;&#x2F;crocidb.com&#x2F;blog&#x2F;&quot;&gt;CrociDB&lt;&#x2F;a&gt; usa para facilitar
+algumas coisas e eu dei uma introdução sobre o workflow do Git para
+trabalhar utilizando controle de versão&lt;a rel=&quot;external&quot; title=&quot;CrociDB Blog&quot; href=&quot;http:&#x2F;&#x2F;crocidb.com&#x2F;blog&#x2F;&quot;&gt;&lt;&#x2F;a&gt;. Usamos um roteador para conectar os 2 notebooks e
+compartilhar um repositório para os códigos, por ssh mesmo, que
+infelizmente deixava a transferência muito ruim devido ao uso do
+Cygwin no Windows, mas não fui um grande empecilho, foi apenas chato.&lt;&#x2F;p&gt;
+&lt;p&gt;Tenho que admitir que eu sou um zero a esquerda em Allegro e fui com a
+cara e a coragem participar desse contest, mas eu sabia que isso me
+traria muita experiência, por que eu sei que o
+&lt;a rel=&quot;external&quot; title=&quot;CrociDB Blog&quot; href=&quot;http:&#x2F;&#x2F;crocidb.com&#x2F;blog&#x2F;&quot;&gt;CrociDB&lt;&#x2F;a&gt; conhece bastante de
+Allegro e de desenvolvimento de games em si, e eu só comprovei isso
+durante todo o contest, ele já conhecia bem o conceito de
+desenvolvimento de games e tem bastante experiência com erros que
+podem acontecer.&lt;&#x2F;p&gt;
+&lt;p&gt;Ficamos programando desde as 21 mais ou menos até as 5 da manhã e
+resolvemos ir para casa descansar para voltar no sábado a noite e
+ficar até terminar o game. A primeira vista achei o pessoal das outras
+equipes meio acuado, cada equipe isolada em suas mesas, excluindo
+apenas o pessoal que já se conhecia ou que era da faculdade.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;momento-hard-work&quot;&gt;Momento Hard work&lt;&#x2F;h4&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;images&#x2F;posts&#x2F;gamejam_hard_work.jpg&quot;&gt;&lt;img src=&quot;&#x2F;images&#x2F;posts&#x2F;gamejam_hard_work.jpg&quot; alt=&quot;Foto do pothix programando, e nosso roteador do lado&quot; title=&quot;PotHix programando&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Voltei no sábado as 19:30 para a programação e o
+&lt;a rel=&quot;external&quot; title=&quot;CrociDB Blog&quot; href=&quot;http:&#x2F;&#x2F;crocidb.com&#x2F;blog&#x2F;&quot;&gt;CrociDB&lt;&#x2F;a&gt; já estava por lá
+programando fazia alguns minutos e já tinha resolvido alguns
+probleminhas. Então já começamos a programar outras funcionalidades e
+fazer os desenhos para o jogo, que por sinal foi a parte mais difícil
+para nós, tendo em vista que nenhum dos dois tem a arte do desenho
+assim como as outras equipes tinham ( vi muitos desenhos e trabalhos
+legais ). Eu assumi uma boa parte dos desenhos para deixar o
+&lt;a rel=&quot;external&quot; title=&quot;CrociDB Blog&quot; href=&quot;http:&#x2F;&#x2F;crocidb.com&#x2F;blog&#x2F;&quot;&gt;CrociDB&lt;&#x2F;a&gt; mais focado na
+programação.&lt;&#x2F;p&gt;
+&lt;p&gt;Durante o domingo tivemos vários problemas, como o não funcionamento
+do teclado do notebook do &lt;a rel=&quot;external&quot; title=&quot;CrociDB Blog&quot; href=&quot;http:&#x2F;&#x2F;crocidb.com&#x2F;blog&#x2F;&quot;&gt;CrociDB&lt;&#x2F;a&gt;,
+nos fazendo perder um tempo e ir para o laboratório usar um teclado
+USB, que levou a outro #fail, por que levamos o roteador e não
+prestamos atenção que a fonte não era bivolt, assim queimando a fonte
+do roteador...Ou seja...Nada de Git na parte final do projeto...&lt;&#x2F;p&gt;
+&lt;p&gt;No laboratório conseguimos finalizar o jogo e encontrar umas midis
+legais até as 14:30 mais ou menos, quando preparamos as coisas para
+entregar o projeto final. Ao entregar o projeto e ver a organizadora
+testando percebemos que faltou uma dll para o allegro funcionar no
+Windows, e tivemos que pegar o projeto de volta umas 2 vezes para
+encontrar a dll certa, mas enfim funcionou. :)&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;networking&quot;&gt;Networking&lt;&#x2F;h4&gt;
+&lt;p&gt;Depois de entregar o projeto aproveitamos para fazer um Networking com
+alguma das outras equipes. Durante o evento estávamos sempre vendo
+algumas pequenas cenas dos outros jogos e algumas ferramentas, e uma
+que chamou bastante a atenção foi da equipe que estava ao nosso lado
+(&lt;strong&gt;Danilo&lt;&#x2F;strong&gt;, &lt;strong&gt;Gabriel&lt;&#x2F;strong&gt;, &lt;strong&gt;Theo&lt;&#x2F;strong&gt; e o &lt;strong&gt;Mario&lt;&#x2F;strong&gt; que eu não conheci)
+que estava desenvolvendo um game totalmente em blender! (assim que
+eles divulgarem o game eu posto o link aqui). O game deles ficou muito
+legal e o pessoal é muito gente fina também, foi muito válido
+conhecê-los! :)&lt;&#x2F;p&gt;
+&lt;p&gt;Vi por cima mais alguns games que estavam em fase de produção ainda, e
+conheci algumas outras pessoas como o &lt;strong&gt;Danilo Vin&lt;&#x2F;strong&gt; (só conheço ele
+assim até agora...hahaha) que estava fazendo as artes do grupo dele,
+muito boas por sinal, mas não vi o jogo finalizado. Revi tambem o
+Speeder já tinha visto na campus party mas não tinha conversado muito.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;consideracoes&quot;&gt;Considerações&lt;&#x2F;h4&gt;
+&lt;p&gt;Finalizando, eu acho que esse contest foi muito legal,dormi apenas 40
+minutos de sábado para domingo, mas foi minha primeira experiência com
+competição de desenvolvimento de games, meu primeiro contato mais
+próximo com Allegro, revi alguns conceitos de C++, conheci pessoas
+interessantes, vi alguns jogos serem criados do zero... Mesmo se nosso
+jogo não ganhar (o que é provável....hehe) esse contest valeu muito a
+pena!  O nosso game não ficou exatamente como queríamos por que além
+dos problemas, não conseguimos aplicar todas as idéias que tínhamos em
+apenas 48 horas.&lt;&#x2F;p&gt;
+&lt;p&gt;Uma coisa que me deixou muito feliz foi ter conseguido fazer esse jogo
+usando apenas Software Livre! Utilizamos Inkscape, Gimp, Allegro e
+GNU&#x2F;Linux. O Croci utilizou Windows para compilar a versão windows do
+jogo, e não tivemos &lt;strong&gt;sequer um&lt;&#x2F;strong&gt; problema de compatibilidade entre
+plataformas.&lt;&#x2F;p&gt;
+&lt;p&gt;Para quem quiser dar uma olhada no nosso game, pode baixar ele no
+GitHub (o código não está um dos melhores, mas leve em consideração
+que foi um contest de 48 horas...hehe):&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;images&#x2F;posts&#x2F;gamejam_robotz_warehouse.jpg&quot;&gt;&lt;img src=&quot;&#x2F;images&#x2F;posts&#x2F;gamejam_robotz_warehouse.jpg&quot; alt=&quot;Imagem de um robô e o nome Robotz Warehouse em cima&quot; title=&quot;Tittle screen robotz warehouse&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;images&#x2F;posts&#x2F;gamejam_robotz_warehouse_gameplay.jpg&quot;&gt;&lt;img src=&quot;&#x2F;images&#x2F;posts&#x2F;gamejam_robotz_warehouse_gameplay.jpg&quot; alt=&quot;Imagem com várias pequenas caixas coloridas e uma garra indo em direção a elas&quot; title=&quot;Gameplay robotz warehouse&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; title=&quot;Página principal do jogo no GitHub&quot; href=&quot;http:&#x2F;&#x2F;github.com&#x2F;PotHix&#x2F;RobotzWarehouse&#x2F;tree&#x2F;master&quot;&gt;Código fonte&lt;&#x2F;a&gt;
+&lt;a rel=&quot;external&quot; title=&quot;Arquivo para download&quot; href=&quot;http:&#x2F;&#x2F;www.itaucultural.org.br&#x2F;gameplay&#x2F;games&#x2F;robotzwarehouse.zip&quot;&gt;Download do pacote&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;executáveis no diretório &lt;code&gt;bin&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+      </item>
+      <item>
+          <title>Voltando a ser um gamer</title>
+          <pubDate>Sun, 14 Dec 2008 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://pothix.com/gamer/</link>
+          <guid>https://pothix.com/gamer/</guid>
+          <description xml:base="https://pothix.com/gamer/">&lt;p&gt;Esse aqui vai ser um post um pouco fora do escopo &quot;programação&quot;, mas
+ainda no escopo &quot;nerd&quot;! :)&lt;&#x2F;p&gt;
+&lt;p&gt;Com esse post eu pretendo introduzir uma nova &lt;em&gt;série&lt;&#x2F;em&gt; (não achei
+palavra melhor) posts sobre os games que eu estou jogando
+atualmente, postanto umas opiniões e tudo mais, e quem sabe até alguns
+jogos que eu pretendo instalar no Linux.&lt;&#x2F;p&gt;
+&lt;p&gt;Vou contar um pouco do título &quot;&lt;strong&gt;Voltando&lt;&#x2F;strong&gt; a ser um gamer&quot;.&lt;&#x2F;p&gt;
+&lt;p&gt;Eu sempre gostei de jogar vídeo games desde pequeno, a ponto da minha
+mãe dizer que eu só podia jogar 3 horas por dia... hahaha... Tive poucos
+vídeo games pois meus pais não tinham tanto dinheiro assim para ficar
+comprando novos, portanto se eu quisesse algo novo eu tinha que me
+virar e comprar.&lt;&#x2F;p&gt;
+&lt;p&gt;Primeiramente tive o bom e velho &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;www.atarifun.com&#x2F;atari%202600%20console%20and%20controllers.jpg&quot;&gt;Atari&lt;&#x2F;a&gt; (era bem pequeno nessa época)&lt;&#x2F;p&gt;
+&lt;p&gt;Mais pra frente ganhei um
+&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;upload.wikimedia.org&#x2F;wikipedia&#x2F;commons&#x2F;2&#x2F;24&#x2F;Super_Nintendo_Entertainment_System-USA.jpg&quot;&gt;SuperNES&lt;&#x2F;a&gt;,
+que me trouxe bons divertimentos com vários jogos clássicos como
+TopGear, Super Mario World, Road Rash, Samurai Spirit, International
+Super Star Soccer (eu ainda gostava de futebol nessa época), Street
+Fighter, Final Fight, Double Dragon e muitos outros!&lt;&#x2F;p&gt;
+&lt;p&gt;Saí do SuperNes para ir para o Playstation (tive que me virar e rifar
+o meu SuperNes para comprar o PS), onde me diverti bastante com Ace
+Combat 2, Fighting force, Syphon Filter, Monster Rancher 2, Spider
+Man, Street Fighter Ex Plus, Metal Gear Solid, Soul Edge, Bload Roar e
+mais vários jogos legais.&lt;&#x2F;p&gt;
+&lt;p&gt;Vendi meu Playstation, e aproveitei para comprar um &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;images.techtree.com&#x2F;ttimages&#x2F;story&#x2F;75827_gbc.jpg&quot;&gt;GameBoy
+Color&lt;&#x2F;a&gt;
+(sim...Foi na época do Pokémon)&lt;&#x2F;p&gt;
+&lt;p&gt;Um adendo na minha vida de Gamer! Eu sempre participava dos encontros
+do &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;www.classicgaming.com.br&#x2F;canal3&#x2F;&quot;&gt;canal3&lt;&#x2F;a&gt; com meu primo
+&lt;a rel=&quot;external&quot; title=&quot;Marcelo Nietto&quot; href=&quot;http:&#x2F;&#x2F;nietto.cjb.net&#x2F;&quot;&gt;Marcelo Nietto&lt;&#x2F;a&gt; e era sempre
+&lt;a rel=&quot;external&quot; title=&quot;Jogando!&quot; href=&quot;http:&#x2F;&#x2F;www.classicgaming.com.br&#x2F;Images&#x2F;Canal3&#x2F;Eventos&#x2F;18o_Encontro&#x2F;encontro18_12.jpg&quot;&gt;muito legal&lt;&#x2F;a&gt;
+ver vídeo games antigos (e de vez em quando até uns OFF-TOPICs com vídeo games novos!),
+jogar o bom, velho e divertido campeonato de War Lords!&lt;&#x2F;p&gt;
+&lt;p&gt;Felizmente nessa época eu comecei a trabalhar, não oficialmente mas já
+conseguia um dinheirinho, portanto comprei um
+&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;web-japan.org&#x2F;kidsweb&#x2F;archives&#x2F;cool&#x2F;98-10-12&#x2F;dreamcast.jpg&quot;&gt;dreamcast&lt;&#x2F;a&gt;,
+mesmo sabendo que a linhagem de jogos dele estava acabando e a
+SEGA estava desistindo de continuar a investir, mas achei que valia a
+pena, afinal, além dos meus amigos tinham, e eu tinha visto jogos bem
+legais, como SNK x CAPCOM, Marvel x CAPCOM 2, Crazy Taxy e etc. Me
+diverti muito com o Dreamcast tambem! Joguei bastante Shenmue (o
+melhor jogo de todos os tempos, que eu quero saber o resto da história
+até hoje), Record Of Lodoss War, Tony Hawks 2, Le Mans 24 Hours, Sega
+GT, Sonic Adventure 2 (era tanto vício nesse que quando saia levava o
+VMU com o Sonic para jogar heheeh), Soul Calibur, Sega Tennis, e
+vários outros bem legais!&lt;&#x2F;p&gt;
+&lt;p&gt;Agora depois disso tudo começa a &quot;decadência&quot; da vida de gamer...:P&lt;&#x2F;p&gt;
+&lt;p&gt;Vendi meu GameBoy por que já nem estava jogando mais...&lt;&#x2F;p&gt;
+&lt;p&gt;Finalmente comprei meu primeiro computador (com 16 anos de idade... Só
+quando comecei a trabalhar de verdade ), com o seguinte pensamento:
+&quot;Vou conseguir rodar uns jogos da hora!&quot;, com uma GeForce4! (agora
+não é muita coisa, mas na época era foda!). Joguei bastante coisa
+legal, como Need For Speed Underground, Need For Speed Hot Pursuit 2,
+Diablo, Diablo 2, Halo, Gunbound, Metin 2, Unreal Tournament esse eu
+me matei de jogar! A ponto de ir na casa do meu primo com vários
+disquetes e voltar com os novos Skins que ele baixava! :D ) e mais
+vários outros!&lt;&#x2F;p&gt;
+&lt;p&gt;Bem, mas voltando a decadência ( de gamer, obviamente )...Nesse tempo
+eu comecei a conhecer mais o Linux e a programação! E meu espírito
+gamer se foi de vez! :P&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Encostei de vez o meu Dreamcast, mas não tive coragem de vender&lt;&#x2F;li&gt;
+&lt;li&gt;Abandonei os jogos de computador, não que eu nao gostasse mais, mas eu tinha mais vontade de programar ou estudar coisas do gênero enquanto eu estava em frente ao computador, e tambem com o meu curso na ETE, sempre tinha alguma coisa para fazer.&lt;&#x2F;li&gt;
+&lt;li&gt;Nesse tempo eu tambem comecei a trabalhar com programação, o que me animou mais a estudar para fazer outras coisas! :)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Pois bem... Tinha me livrado dos games e estava feliz como programador
+e jogador casual quando dava. Ficou assim até poucos meses atrás,
+quando eu fui para a faculdade e me aparece um colega meu com um
+aparelho portátil preto com logotipo da Sony que eu já tinha ouvido
+falar...PSP! Isso mesmo! E ele me contou como se divertia com o
+bichinho, que dava para ver vídeos, ouvir musica, e jogar vários jogos
+bem legais e tal.&lt;&#x2F;p&gt;
+&lt;p&gt;Tudo isso somado com meu novo colega de faculdade chamado Leonardo
+Foroni, que tem as mesmas características que eu tinha na minha época
+de gamer hardcore.&lt;&#x2F;p&gt;
+&lt;p&gt;Adivinha no que deu? Sim! menos de 1 mês depois estou eu com o meu
+PSP! Demorei um pouco para começar a jogar no bichinho, mas aos poucos
+eu estou vontando a me tornar um gamer hardcore!&lt;&#x2F;p&gt;
+&lt;p&gt;Inclusive criei junto com os meus primos ( os velhos amigos de games ) o
+&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;picasaweb.google.com&#x2F;Willian.molinari&#x2F;20081130NerdNightGames2#&quot;&gt;NerdNightGames&lt;&#x2F;a&gt;,
+que é um evento interno na casa do
+&lt;a rel=&quot;external&quot; title=&quot;LeoStorm&quot; href=&quot;http:&#x2F;&#x2F;picasaweb.google.com&#x2F;lh&#x2F;photo&#x2F;7IvEn9jLkK4AnS5zeMlhFw&quot;&gt;meu primo&lt;&#x2F;a&gt;
+onde passamos uma madrugada (geralmente de sábado para
+domingo) só jogando em rede, tanto de PSPs como de computadores!&lt;&#x2F;p&gt;
+&lt;p&gt;Então hoje mantenho Dreamcast guardadinho e meu PSP sempre com jogos
+legais, onde jogo sempre depois do almoço, e a noite antes de durmir!
+Como o PSP está sempre comigo (ouço meus Podcasts nele tambem)
+sempre que possível e seguro eu estou jogando!&lt;&#x2F;p&gt;
+&lt;p&gt;Os jogos de PC estão instalados no windows Vista que veio no meu
+notebook (deixei numa partição minúscula), que por sinal eu só uso
+no Nerd Night Games, afinal, para que mais o Windows serve senão para
+usar como vídeo game. ;)&lt;&#x2F;p&gt;
+&lt;p&gt;Confesso que agora que sou programador o velho sonho de criança de se
+desenvolver jogos (que eu destruí pensando que era um sonho
+impossível de criança, assim como aqueles que queriam ser jogadores de
+futebol) veio a tona, e eu ainda vou desenvolver algo, mesmo que seja
+pequeno. Com isso eu tambem me tornei uma pessoa mais crítica quanto a
+jogos, prestando mais atenção na inteligencia artificial dos inimigos,
+pequenos erros que acontecem e passam meio desapercebidos e outras
+coisinhas, o que me motiva mais ainda a escrever sobre os jogos que
+estou terminando!&lt;&#x2F;p&gt;
+&lt;p&gt;Só para finalizar, outra coisa que está me motivando a voltar a jogar
+agora é o &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;www.nowloading.com.br&#x2F;&quot;&gt;Podcast NowLoading&lt;&#x2F;a&gt;
+que tem sempre informações muito legais e conteúdo bem
+divertido!&lt;&#x2F;p&gt;
+&lt;p&gt;Como eu disse... Esse post é para vocês entenderem por que eu vou
+começar a postar um pouco alguns jogos tambem. :)&lt;&#x2F;p&gt;
+&lt;p&gt;No mais nada mais! :)&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>

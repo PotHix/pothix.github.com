@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% import "partials/toc.html" as toc %}
+{% block content %}
+    <main class="post">
+
+        {% if section.taxonomies.tags is defined %}
+        <div class="post-info">
+            {% if section.taxonomies.tags is containing("english") %}
+                Também disponível em
+                <a href="https://translate.google.com/translate?sl=en&amp;tl=pt&amp;u={{ section.permalink }}" target="_blank" rel="nofollow noopener noreferrer">&#x1F1E7;&#x1F1F7;</a>
+            {% else %}
+                Also available in
+                <a href="https://translate.google.com/translate?sl=pt&amp;tl=en&amp;u={{ section.permalink }}" target="_blank" rel="nofollow noopener noreferrer">&#x1F1FA;&#x1F1F8;</a>
+            {% endif %}
+        </div>
+        {% endif %}
+
+        <article>
+            <h2 class="post-title"><a href="{{ section.permalink }}">{{ section.title }}</a></h2>
+
+            {% if section.extra.subtitle is defined %}
+                <p class="post-subtitle">{{ section.extra.subtitle }}</p>
+            {% endif %}
+
+            {% if section.extra.toc is defined and section.extra.toc %}
+                <hr />
+                <aside id="toc">
+                <div class="toc-title">Table of Contents</div>
+                    {{ toc::render(items=section.toc) }}
+                </aside>
+                <hr />
+            {% endif %}
+
+            {% if section.extra.cover is defined %}
+                <img src="{{ section.extra.cover }}" class="post-cover" />
+            {% endif %}
+
+            <div class="post-content">
+                {{ section.content | safe }}
+            </div>
+        </article>
+
+        {% if section.taxonomies.tags is defined %}
+        <hr />
+        <div class="post-info">
+            <p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+                {% for tag in section.taxonomies.tags %}
+                    <span class="tag"><a href="{{ get_taxonomy_url(kind="tags", name=tag) }}">{{ tag }}</a></span>
+                {% endfor %}
+            </p>
+        </div>
+        {% endif %}
+    </main>
+{% endblock %}
