@@ -29,3 +29,8 @@ publish:
 
 drafts:
 	@egrep "draft.*true" content/posts/ -rl | grep "\.md"
+
+places:
+	@echo "Syncing places from Obsidian"
+	@cp ~/obsidian/second-brain/NotHix/Places/*.md content/places/
+	@rm -f content/places/_readme.md
