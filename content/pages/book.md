@@ -27,7 +27,7 @@ The whole writing process (research, drawing, writing, publishing, etc.) took
 me 315 houurs. I wrote about this process [here](/desconstruindoaweb) in pt-BR
 (with automatic translation to English).
 
-At the moment of this writing, this book bought by almost 1500 people and [has
+At the moment of this writing, this book bought by more than 2000 people and [has
 the highest review between the books of my publisher with more than 50
 reviews](https://www.goodreads.com/review/list/27871094?sort=num_ratings) (5
 star average with 1 review doesn't count 😛), which makes me quite happy.
