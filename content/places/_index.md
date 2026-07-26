@@ -69,6 +69,7 @@ it will have a lot more cities (the plan is to visit all states 😉).
 + [🇧🇪 Belgium, Bruges](bruges)
 + [🇧🇪 Belgium, Brussels](brussels)
 + [🇧🇪 Belgium, Ghent](ghent)
++ [🇩🇰 Denmark, Billund](billund)
 + 🇨🇱 Chile, Pucón
 + 🇨🇱 Chile, Santiago
 + 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England, London
