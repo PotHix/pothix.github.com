@@ -36,7 +36,7 @@ places:
 	@rm -f content/places/_readme.md
 
 notes: places
-	@cp ~/obsidian/second-brain/NotHix/now.md content/pages/now.md
+	@cp ~/obsidian/second-brain/NotHix/pothix.com/pages/*.md content/pages/
 
 
 
