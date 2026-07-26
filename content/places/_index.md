@@ -105,6 +105,7 @@ it will have a lot more cities (the plan is to visit all states 😉).
 + 🇪🇸 Spain, Barcelona
 + 🇪🇸 Spain, Madrid
 + 🇪🇸 Spain, Toledo
++ [🇹🇭 Thailand, Phuket](phuket)
 + [🇹🇷 Istanbul, Turkey](istanbul)
 + 🇺🇸 United States, Boulder
 + [🇺🇸 United States, Dallas](dallas)
