@@ -73,6 +73,7 @@ it will have a lot more cities (the plan is to visit all states 😉).
 + [🇩🇰 Denmark, Copenhagen](copenhagen)
 + 🇨🇱 Chile, Pucón
 + 🇨🇱 Chile, Santiago
++ [🇮🇪 Ireland, Dublin](dublin)
 + 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England, London
 + [🏴󠁧󠁢󠁥󠁮󠁧󠁿 England, Oxford](oxford)
 + 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England, York
