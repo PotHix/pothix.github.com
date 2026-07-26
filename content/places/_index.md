@@ -77,6 +77,7 @@ it will have a lot more cities (the plan is to visit all states 😉).
 + 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England, London
 + [🏴󠁧󠁢󠁥󠁮󠁧󠁿 England, Oxford](oxford)
 + 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England, York
++ [🇬🇷 Greece, Athens](athens)
 + [🇫🇷 France, Paris](paris)
 + [🇩🇪 Germany, Bad Liebenzell](badliebenzell)
 + [🇩🇪 Germany, Berlin](berlin)
