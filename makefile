@@ -34,3 +34,10 @@ places:
 	@echo "Syncing places from Obsidian"
 	@cp ~/obsidian/second-brain/NotHix/Places/*.md content/places/
 	@rm -f content/places/_readme.md
+
+notes: places
+	@cp ~/obsidian/second-brain/NotHix/now.md content/pages/now.md
+
+
+
+

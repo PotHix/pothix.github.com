@@ -8,17 +8,14 @@ page_template = "page.html"
 [extra]
 subtitle = "Places I visited"
 +++
-It's been a while since I wanted to list the places I visited, especially
-because people usually ask me to list them or give more information about
-places they want to visit. The plan is to add links and pictures to many of the
-places here.
 
-I also have here a guide on how I [travel (without
-kids)](/places/travelwithoutkids), because people ask for tips from time to
-time.
+I've been to 20+ countries since I started travelling and I wanted to list the places I visited. 
 
-Now let's go for the list! I'm Brazilian, so I will list Brazil first because
-it will have a lot more cities (the plan is to visit all states 😉).
+From time to time, friends visit these places and ask for information about it, and I thought it would be nice to make this one link away, while feeling I'm actually updating my website.
+
+I also have here a guide on how I [travel (without kids)](/places/travelwithoutkids), because people ask for tips from time to time. Now let's go for the list! 
+
+I'm Brazilian, and that explains why we have so many cities in Brazil (the plan is to visit all states 😉).
 
 + [🇦🇹 Austria, Pertisau](pertisau)
 + 🇧🇷 Ceará, Fortaleza
