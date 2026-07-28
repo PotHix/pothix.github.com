@@ -11,21 +11,28 @@ build:
 	@echo "Building"
 	@zola build
 
+# Files that live on main only and must survive a publish
+KEEP := ':(exclude)CNAME' ':(exclude).nojekyll' ':(exclude).gitignore' ':(exclude)README.markdown'
+
 publish:
 	@make rebuild
 	@echo "Publishing"
-	@git log --oneline | head -n1 | sed -r 's/^[a-zA-Z0-9]+ //g' > public/last_commit
-	@git checkout main
-	@git pull --rebase
-	@rm -rf *.html *.xml 2* about* page tags series stylesheets images avatar javascripts resources content
-	@for i in $(find . -path ./public -prune -o -name index.html); do rm -rf $(dirname $i); done
-	@cp -R public/* .
-	@rm -rf public
-	@git add -A .
-	@git commit -m "Last commit from source branch: '`cat last_commit`'"
-	@rm -rf last_commit
-	@git push
-	@git checkout -
+	@msg="$$(git log -1 --format=%s)"; \
+	git checkout main || exit 1; \
+	{ \
+		git pull --rebase && \
+		git rm -r -q -f --ignore-unmatch -- . $(KEEP) && \
+		cp -R public/. . && \
+		git add -A . && \
+		if git diff --cached --quiet; then \
+			echo "Nothing to publish"; \
+		else \
+			git commit -q -m "Last commit from source branch: '$$msg'" && git push; \
+		fi; \
+	}; \
+	status=$$?; \
+	git checkout -; \
+	exit $$status
 
 drafts:
 	@egrep "draft.*true" content/posts/ -rl | grep "\.md"
