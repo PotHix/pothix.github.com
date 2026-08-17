@@ -1,11 +1,10 @@
 {% extends "base.html" %}
-{% import "partials/toc.html" as toc %}
 {% block content %}
     <main class="post">
 
         {% if section.taxonomies.tags is defined %}
         <div class="post-info">
-            {% if section.taxonomies.tags is containing("english") %}
+            {% if "english" in section.taxonomies.tags %}
                 Também disponível em
                 <a href="https://translate.google.com/translate?sl=en&amp;tl=pt&amp;u={{ section.permalink }}" target="_blank" rel="nofollow noopener noreferrer">&#x1F1E7;&#x1F1F7;</a>
             {% else %}
@@ -26,7 +25,7 @@
                 <hr />
                 <aside id="toc">
                 <div class="toc-title">Table of Contents</div>
-                    {{ toc::render(items=section.toc) }}
+                    {{< toc.list items={section.toc} />}}
                 </aside>
                 <hr />
             {% endif %}

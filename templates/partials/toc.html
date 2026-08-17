@@ -1,12 +1,21 @@
-{% macro render(items) %}
+{# Recursive table of contents.
+
+   Tera 2 (Zola 0.23) removed macros, so what used to be
+   `{% macro render(items) %}` + `{% import %}` is now a component. It is
+   registered globally by the name in the `component` tag, so templates
+   call it without importing anything:
+
+       {{< toc.list items={page.toc} />}}
+#}
+{% component toc.list(items) %}
 <ul>
   {% for h in items %}
     <li>
       <a href="{{ h.permalink }}">{{ h.title }}</a>
       {% if h.children %}
-        {{ self::render(items=h.children) }}
+        {{< toc.list items={h.children} />}}
       {% endif %}
     </li>
   {% endfor %}
 </ul>
-{% endmacro %}
+{% endcomponent toc.list %}

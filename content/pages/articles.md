@@ -29,7 +29,7 @@ Wrote for gamedev.tutsplus.com in Jan 2013.
 
 ### Audiobooks: Locaweb blog
 
-{{ image(src="/images/writing/audiobooks_article.png", alt="audiobooks", position="center") }}
+<img src="/images/writing/audiobooks_article.png" alt="audiobooks" class="center" />
 
 A pt-BR article about how audiobooks can change your "reading" life forever.
 It's mostly what I've written [here](/audiobooks) too.
