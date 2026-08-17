@@ -9,7 +9,7 @@ tags = ["english"]
 skip_feed = true
 +++
 In 2017 I had the chance to speak at [FOSDEM](/fosdem2017) in
-[Brussels](brussels), and I used this opportunity to travel around Belgium a
+[Brussels](@/places/brussels.md), and I used this opportunity to travel around Belgium a
 bit, one city every day. One of the cities I visited was Antwerp.
 
 Being very honest, it's definitely not a city I would visit again. The best
@@ -24,7 +24,7 @@ TBD
 
 I did everything walking, the city is not that big and I like walking.
 I got the train to get there from Ghent and then got the train again
-to go to [Rotterdam](rotterdam). The main reason why I decided to stop
+to go to [Rotterdam](@/places/rotterdam.md). The main reason why I decided to stop
 in Antwerp was because it was literally in the way of going to Rotterdam
 from Ghent.
 

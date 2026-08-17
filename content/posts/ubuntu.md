@@ -157,7 +157,7 @@ o [Pidgin](http://www.pidgin.im/ "Pidgin"), o
 vários que tem para esse serviço! Mas...Quer uma dica? Use outros
 serviços bem mais interessantes como o do Gtalk (que pode ser
 configurado no Pidgin e no Kopete) ou até mesmo o
-[Skype](www.skype.com "Skype") (que pode ser instalado com apt-get
+[Skype](https://www.skype.com "Skype") (que pode ser instalado com apt-get
 install :P )
 
 #### Fotos

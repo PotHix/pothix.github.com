@@ -8,7 +8,7 @@ tags = ["english"]
 [extra]
 skip_feed = true
 +++
-Dallas was just a connection while going to [St. Louis](stlouis). Keep that in
+Dallas was just a connection while going to [St. Louis](@/places/stlouis.md). Keep that in
 mind when reading the rest of what I describe here.
 
 ## Airport

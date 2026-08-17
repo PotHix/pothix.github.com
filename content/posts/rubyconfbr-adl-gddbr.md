@@ -17,7 +17,7 @@ todos! :)
 
 #### Rubyconf Brasil
 
-A [Rubyconf Brasil](www.rubyconf.com.br) é o Antigo Rails Summit Latin
+A [Rubyconf Brasil](https://www.rubyconf.com.br) é o Antigo Rails Summit Latin
 America, que acontecia no centro de convenções do Anhembi, e agora
 mudou sua localização para o centro de convenções Frei Caneca, para
 diminuir os custos e prover um local mais acessível para os
@@ -45,7 +45,7 @@ Tiveram outras ótimas palestras, sobre encoding do Ruby (que é bizarro
 assim como qualquer outra implementação de encoding), integração de
 redes sociais, redis e resque e etc. Não vou falar de todas aqui para
 o post não ficar muito grande, mas aconselho a ficar de olho nas
-notícias pois a [Locaweb](www.locaweb.com.br) filmou o evento e
+notícias pois a [Locaweb](https://www.locaweb.com.br) filmou o evento e
 provavelmente vão liberar os vídeos das palestras, e quando isso
 acontecer, aconselho você a assistir! :)
 

@@ -34,7 +34,7 @@ IST is a giant airport, it takes a while to get to the exit after leaving the pl
 I don't have anything to report, even the passport control was very chill.
 
 I went to the iGA lounge on that airport. It's not my first time there, as we
-had a connection when going to [Italy](rome) last time and I had the chance to
+had a connection when going to [Italy](@/places/rome.md) last time and I had the chance to
 visit before. If your card gives you an entitlement, it's worth giving it a visit
 and resting a bit before the flight.
 

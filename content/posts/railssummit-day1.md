@@ -30,7 +30,7 @@ Fazendo um pequeno resumo do pessoal que eu queria encontrar e encontrei:
 Que tambem é um dos professores assistentes do Rubylearning.org junto
 comigo, e só o conhecia pelos foruns do Rubylearning. Essa foi uma
 grande oportunidade de conhecê-lo pessoalmente, além de poder tirar
-fotos com ele e com o [Akita](www.akitaonrails.com "") para enviar
+fotos com ele e com o [Akita](https://www.akitaonrails.com "") para enviar
 para o [Satish Talim](http://rubylearning.org/class "")
 
 [Dirs](http://twitter.com/dirs "") e [Mauricio](http://twitter.com/mauricio "")

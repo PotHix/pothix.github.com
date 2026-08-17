@@ -8,7 +8,7 @@ tags = ["english"]
 [extra]
 skip_feed = true
 +++
-In July 2023, after going to [Berlin](berlin) for 1 week, I decided it would
+In July 2023, after going to [Berlin](@/places/berlin.md) for 1 week, I decided it would
 be best to go to Pisa before going to Florence for the Doist retreat because
 flights were usually less expensive there.
 

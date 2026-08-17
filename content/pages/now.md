@@ -23,7 +23,7 @@ The only hobby I'm able to keep up nowadays is playing [Magic the gathering (Pau
 
 There are some things I'm still involved with, but not very active:
 
-1. Organizing the [São Paulo Rust community](http//www.meetup.com/Rust-Sao-Paulo-Meetup/) 🦀 (since 2017) and the [Ruby community in São Paulo](https://gurusp.org) (since 2008!). I miss meetups and speaking, but I can't really justify it right now.
+1. Organizing the [São Paulo Rust community](https://www.meetup.com/Rust-Sao-Paulo-Meetup/) 🦀 (since 2017) and the [Ruby community in São Paulo](https://gurusp.org) (since 2008!). I miss meetups and speaking, but I can't really justify it right now.
 2. Custom computer keyboards in general. I'm still trying to find some time to fix my fully assembled [dactyl-cc](https://github.com/mjohns/dactyl-cc/) and post about it, and also trying to find time to build my Corne low profile keyboard. I have half of it working, but never finished 😅.
 
 (last updated in Jul 2026)

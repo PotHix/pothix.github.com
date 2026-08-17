@@ -17,7 +17,7 @@ I stayed at **Hotel Vejlefjord**, which is actually in nearby Stouby with the re
 
 ## Transport
 
- I arrived in the **Billund Airport**, and first went to [Copenhagen](copenhagen). The bus 43 takes you from the Billund airport to the Vejle train station. From there, you can get to Copenhagen. 
+ I arrived in the **Billund Airport**, and first went to [Copenhagen](@/places/copenhagen.md). The bus 43 takes you from the Billund airport to the Vejle train station. From there, you can get to Copenhagen. 
  
  I had a weird experience with the bus. In theory, you should be able to pay by car and cash, but the driver said it was all out of service and I had to pay using the app. He gave me a small card with QR codes to set it up, but it required a phone number to get the SMS. It was the only way to confirm your identity to the app (🙄), so I couldn't finish the setup and pay for the ride, and I was already inside the bus on my way to Vejle. I tried many things during the trip (even asking a friend to pay for me on their app, thanks Rikke!), but couldn't have the payment locally. The bus driver said it's OK, I didn't have to pay that one anymore since we already arrived.
 

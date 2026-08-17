@@ -43,7 +43,7 @@ heard of and I wanted to visit it. It was ~20 mins by Uber from the airport.
   is very interesting, I felt like being in a rain forest. 
 * **Monument to the holocaust**: It's right after the bonical garden, so I
   decided to check it out. I have to say I'm quite tired of reading about the
-  Holocaust after visiting [Berlin](berlin), but it was interesting anymore.
+  Holocaust after visiting [Berlin](@/places/berlin.md), but it was interesting anymore.
 
 After visiting these two, I rent a City bike and went on a bike ride through
 south beach. It's a nice place, but nothing unusual for a Brazilian. It's even

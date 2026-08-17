@@ -84,7 +84,7 @@ começou a falar mais sobre o
 parece muito interessante para usar!
 
 Para mudar um pouco eu resolvi ir numa palestra sobre testes ( hehe )
-dessa vez foi a palestra do [Danilo Sato](www.dtsato.com/ "") sobre
+dessa vez foi a palestra do [Danilo Sato](https://www.dtsato.com/ "") sobre
 "testes automatizados -
 [TDD](http://en.wikipedia.org/wiki/Test-driven_development "")", onde
 ele mostrou algumas ferramentas e deu algumas dicas sobre como ele

@@ -161,12 +161,12 @@ picasa]. ;)
 
 Obrigado [Locaweb] por ter me levado lá! You Rock!
 
-[Locaweb]: www.locaweb.com.br
+[Locaweb]: https://www.locaweb.com.br
 [Eduardo Otubo]: <http://picasaweb.google.com/Willian.molinari/FISL11#5498175193882024498>
 [Github]: <http://www.github.com>
 [Maurício Szabo]: <http://mauricioszabo.wordpress.com/>
 [oVirt]: <https://fedorahosted.org/ovirt/>
-[Locaweb]: www.locaweb.com.br
+[Locaweb]: https://www.locaweb.com.br
 [GUS-BR]: <http://www.slackwarebrasil.org/>
 [vários Rubyistas]: <http://picasaweb.google.com/Willian.molinari/FISL11#5498179634054435602>
 [e-Genial]: <http://www.egenialsas.com.br/>
@@ -180,7 +180,7 @@ Obrigado [Locaweb] por ter me levado lá! You Rock!
 [Gustavo Guanabara]: <http://www.guanabara.info>
 [Fabio Akita]: <http://www.akitaonrails.com>
 [fotos que eu tirei por lá é só ver no meu picasa]: <http://picasaweb.google.com/Willian.molinari/FISL11#>
-[Locaweb]: www.locaweb.com.br
+[Locaweb]: https://www.locaweb.com.br
 
 
 

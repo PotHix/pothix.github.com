@@ -9,7 +9,7 @@ tags = ["english"]
 skip_feed = true
 +++
 Frankfurt was just a connecting city for me. I was going to [Bad
-Liebenzell](badliebenzell) and LATAM has direct flights from São Paulo to
+Liebenzell](@/places/badliebenzell.md) and LATAM has direct flights from São Paulo to
 Frankfurt.
 
 ## Airport

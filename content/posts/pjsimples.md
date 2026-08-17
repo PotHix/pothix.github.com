@@ -35,7 +35,7 @@ para pagamento, portanto preferi não fazer.
 ### Simples nacional
 
 Eu descrevi brevemente o Simples nacional no meu post sobre [abertura de
-empresa](aberturapj) e aqui eu vou descrever mais algumas nuancias que eu tive
+empresa](@/posts/aberturapj.md) e aqui eu vou descrever mais algumas nuancias que eu tive
 que pesquisar na época.
 
 ### Os anexos do simples

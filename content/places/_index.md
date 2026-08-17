@@ -96,7 +96,7 @@ I'm Brazilian, and that explains why we have so many cities in Brazil (the plan 
 + 🇵🇹 Portugal, Fatima
 + [🇵🇹 Portugal, Lisbon](lisbon)
 + 🇵🇹 Portugal, Nazareth
-+ [🇵🇹 Portugal, Porto](porto)
++ [🇵🇹 Portugal, Porto](@/places/opo.md)
 + 🇵🇹 Portugal, Óbidos
 + 🇵🇹 Portugal, Sintra
 + 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland, Edinburgh

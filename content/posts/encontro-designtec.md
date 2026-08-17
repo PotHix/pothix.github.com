@@ -31,7 +31,7 @@ obviamente o Joomla, cada um para sua determinada finalidade.
 Crédito para o palestrante: Falou que uma parte do valor que eles
 conseguem com os projetos eles doam para os softwares livres que eles
 usam, e isso sim é devolver o que você conseguiu gratuitamente!
-Parabens a [Fabrica Livre](www.fabricalivre.com.br "Fabrica Livre").
+Parabens a [Fabrica Livre](https://www.fabricalivre.com.br "Fabrica Livre").
 
 ### Scrum
 

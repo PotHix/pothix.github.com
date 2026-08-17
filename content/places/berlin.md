@@ -8,7 +8,7 @@ tags = ["english"]
 [extra]
 skip_feed = true
 +++
-In July 2023, after going to [Bad Liebenzell](badliebenzell), I still had ~1 week
+In July 2023, after going to [Bad Liebenzell](@/places/badliebenzell.md), I still had ~1 week
 before the Doist retreat, so I decided to visit some friends in Berlin and
 get to know the city. It was a great experience.
 
