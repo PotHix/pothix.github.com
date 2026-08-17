@@ -1,4 +1,4 @@
-# zola version: 0.22
+# zola version: 0.23
 rebuild:
 	@echo "Cleaning up"
 	@rm -rf public/*
