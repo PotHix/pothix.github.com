@@ -15,27 +15,27 @@
           <link>https://pothix.com/firefox-ctrlq/</link>
           <guid>https://pothix.com/firefox-ctrlq/</guid>
           <description xml:base="https://pothix.com/firefox-ctrlq/">&lt;p&gt;This will be a quick post to help people that are doing the same
-search as I was doing some minutes ago: &quot;firefox disable ctrl+q&quot;.&lt;&#x2F;p&gt;
-&lt;p&gt;I&#x27;m using &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.mozilla.org&#x2F;firefox&#x2F;new&#x2F;&quot;&gt;Firefox Quantum&lt;&#x2F;a&gt; for
+search as I was doing some minutes ago: &quot;firefox disable ctrl+q&quot;.&lt;/p&gt;
+&lt;p&gt;I&#39;m using &lt;a rel=&quot;external&quot; href=&quot;https://www.mozilla.org/firefox/new/&quot;&gt;Firefox Quantum&lt;/a&gt; for
 some weeks now (will probably post about it in the future) and the
-ctrl+q &quot;feature&quot; really annoys me.&lt;&#x2F;p&gt;
-&lt;p&gt;It&#x27;s not the first time that I hit ctrl+q by accident just to see the
+ctrl+q &quot;feature&quot; really annoys me.&lt;/p&gt;
+&lt;p&gt;It&#39;s not the first time that I hit ctrl+q by accident just to see the
 entire browser and tabs being closed without warning. I was looking on
 Google and could not find anything on how to disable it. There were
 some extensions but none of them work on Firefox Quantum, so I decided
-to dig into the internal configurations.&lt;&#x2F;p&gt;
-&lt;p&gt;Looks like there is a configuration called &lt;code&gt;browser.showQuitWarning&lt;&#x2F;code&gt;
+to dig into the internal configurations.&lt;/p&gt;
+&lt;p&gt;Looks like there is a configuration called &lt;code&gt;browser.showQuitWarning&lt;/code&gt;
 that helps with this problem. It does not disable the ctrl+q but shows
-a warning and you can just cancel it in case it was an accident.&lt;&#x2F;p&gt;
-&lt;p&gt;It&#x27;s easy to enable it:&lt;&#x2F;p&gt;
+a warning and you can just cancel it in case it was an accident.&lt;/p&gt;
+&lt;p&gt;It&#39;s easy to enable it:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Type &lt;code&gt;about:config&lt;&#x2F;code&gt; in the address bar&lt;&#x2F;li&gt;
-&lt;li&gt;It will say that it&#x27;s a place for advanced users, so you have to &lt;code&gt;accept the risk!&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;search for &lt;code&gt;browser.showQuitWarning&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;click on it and change it to &lt;code&gt;true&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
+&lt;li&gt;Type &lt;code&gt;about:config&lt;/code&gt; in the address bar&lt;/li&gt;
+&lt;li&gt;It will say that it&#39;s a place for advanced users, so you have to &lt;code&gt;accept the risk!&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;search for &lt;code&gt;browser.showQuitWarning&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;click on it and change it to &lt;code&gt;true&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Firefox Quantum is really better than Chrome nowadays, hope it helps
-with the Quit problem.&lt;&#x2F;p&gt;
+with the Quit problem.&lt;/p&gt;
 </description>
       </item>
     </channel>

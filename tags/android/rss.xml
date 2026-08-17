@@ -14,32 +14,32 @@
           <author>Unknown</author>
           <link>https://pothix.com/fullthrottle-android/</link>
           <guid>https://pothix.com/fullthrottle-android/</guid>
-          <description xml:base="https://pothix.com/fullthrottle-android/">&lt;p&gt;&lt;a href=&quot;&#x2F;images&#x2F;posts&#x2F;full_throtle_pothix.jpg&quot;&gt;&lt;img src=&quot;&#x2F;images&#x2F;posts&#x2F;full_throtle_pothix.jpg&quot; alt=&quot;Foto do full throtle rodando no meu notebook toshiba&quot; title=&quot;Full throtle rodando no meu toshiba&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+          <description xml:base="https://pothix.com/fullthrottle-android/">&lt;p&gt;&lt;a href=&quot;/images/posts/full_throtle_pothix.jpg&quot;&gt;&lt;img src=&quot;/images/posts/full_throtle_pothix.jpg&quot; alt=&quot;Foto do full throtle rodando no meu notebook toshiba&quot; title=&quot;Full throtle rodando no meu toshiba&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Logo depois que eu comprei a minha
-&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;picasaweb.google.com&#x2F;lh&#x2F;photo&#x2F;HIT3xHsxwbk29ZWpW4x0wA?feat=directlink&quot;&gt;Dragstar 650&lt;&#x2F;a&gt;,
+&lt;a rel=&quot;external&quot; href=&quot;https://picasaweb.google.com/lh/photo/HIT3xHsxwbk29ZWpW4x0wA?feat=directlink&quot;&gt;Dragstar 650&lt;/a&gt;,
 me deu uma grande vontade de voltar a jogar full throttle (por que será, né?), e
-eu comecei a procurar uma forma de fazer isso.&lt;&#x2F;p&gt;
-&lt;p&gt;Eu tenho o jogo (o CD-ROM mesmo) ripado no meu computador, e agora só faltava emular ele.&lt;&#x2F;p&gt;
-&lt;p&gt;Procurando na internet eu achei o &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;www.scummvm.org&#x2F;&quot;&gt;scummvm&lt;&#x2F;a&gt; que emula
-os games da &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;www.lucasarts.com&#x2F;&quot;&gt;LucasArts&lt;&#x2F;a&gt; em várias plataformas! Baixei
-o .deb e comecei a jogar no Ubuntu. Rodou bonitinho e estava gostando pra caramba!&lt;&#x2F;p&gt;
+eu comecei a procurar uma forma de fazer isso.&lt;/p&gt;
+&lt;p&gt;Eu tenho o jogo (o CD-ROM mesmo) ripado no meu computador, e agora só faltava emular ele.&lt;/p&gt;
+&lt;p&gt;Procurando na internet eu achei o &lt;a rel=&quot;external&quot; href=&quot;http://www.scummvm.org/&quot;&gt;scummvm&lt;/a&gt; que emula
+os games da &lt;a rel=&quot;external&quot; href=&quot;http://www.lucasarts.com/&quot;&gt;LucasArts&lt;/a&gt; em várias plataformas! Baixei
+o .deb e comecei a jogar no Ubuntu. Rodou bonitinho e estava gostando pra caramba!&lt;/p&gt;
 &lt;p&gt;Depois de jogar um pouco eu me toquei que eu não tenho tanto tempo para parar na
 frente do computador e ficar jogando, e não é nada prático ficar levando meu
 notebook para lá e para cá, portanto eu precisava de uma maneira mais portátil
 de jogar o game, e consequentemente isso me levou a pensar em como fazer o game
-funcionar no meu Android (um motorola milestone).&lt;&#x2F;p&gt;
-&lt;p&gt;Procurando no &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;www.scummvm.org&#x2F;downloads&#x2F;&quot;&gt;site do scummvm eu encontrei um build para Android
-(um .apk, bonitinho)&lt;&#x2F;a&gt;, mas ao tentar instalar no
+funcionar no meu Android (um motorola milestone).&lt;/p&gt;
+&lt;p&gt;Procurando no &lt;a rel=&quot;external&quot; href=&quot;http://www.scummvm.org/downloads/&quot;&gt;site do scummvm eu encontrei um build para Android
+(um .apk, bonitinho)&lt;/a&gt;, mas ao tentar instalar no
 Milestone ele não funcionou, devido as modificações na versão do NDK, pois a
-versão oficial do build que está no site é um pouco antiga. :(&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;forums.scummvm.org&#x2F;viewtopic.php?t=8137&amp;amp;postdays=0&amp;amp;postorder=asc&amp;amp;start=30&quot;&gt;Procurando nos fóruns por ae&lt;&#x2F;a&gt;
-eu &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;anddev.at.ua&#x2F;load&#x2F;scummvm_svn55436&#x2F;1-1-0-7&quot;&gt;encontrei uma versão feita em cima de um commit mais recente&lt;&#x2F;a&gt;
+versão oficial do build que está no site é um pouco antiga. :(&lt;/p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;http://forums.scummvm.org/viewtopic.php?t=8137&amp;amp;postdays=0&amp;amp;postorder=asc&amp;amp;start=30&quot;&gt;Procurando nos fóruns por ae&lt;/a&gt;
+eu &lt;a rel=&quot;external&quot; href=&quot;http://anddev.at.ua/load/scummvm_svn55436/1-1-0-7&quot;&gt;encontrei uma versão feita em cima de um commit mais recente&lt;/a&gt;
 do antigo svn (agora eles estão usando Git e o projeto está no
-&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;github.com&quot;&gt;GitHub&lt;&#x2F;a&gt; \o&#x2F;) do scummvm.&lt;&#x2F;p&gt;
+&lt;a rel=&quot;external&quot; href=&quot;http://github.com&quot;&gt;GitHub&lt;/a&gt; \o/) do scummvm.&lt;/p&gt;
 &lt;p&gt;Baixei o .apk e instalei no Android. Após algumas configurações do SDL tudo
 funcionou beleza e o scummvm abriu bonitinho! Agora é só colocar o meu full
-throttle ripado no SD e falar para o scummvm dar o load.&lt;&#x2F;p&gt;
-&lt;p&gt;Seja bem vindo ao mundo dos polecats novamente! :D&lt;&#x2F;p&gt;
+throttle ripado no SD e falar para o scummvm dar o load.&lt;/p&gt;
+&lt;p&gt;Seja bem vindo ao mundo dos polecats novamente! :D&lt;/p&gt;
 </description>
       </item>
       <item>
@@ -50,114 +50,114 @@ throttle ripado no SD e falar para o scummvm dar o load.&lt;&#x2F;p&gt;
           <guid>https://pothix.com/rubyconfbr-adl-gddbr/</guid>
           <description xml:base="https://pothix.com/rubyconfbr-adl-gddbr/">&lt;p&gt;Na semana passada (semana do dia 24 ao dia 30 de outubro) foi uma
 semana de grandes eventos, que eu tive o prazer de participar de
-todos! :)&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;rubyconf-brasil&quot;&gt;Rubyconf Brasil&lt;&#x2F;h4&gt;
-&lt;p&gt;A &lt;a href=&quot;https:&#x2F;&#x2F;pothix.com&#x2F;rubyconfbr-adl-gddbr&#x2F;www.rubyconf.com.br&quot;&gt;Rubyconf Brasil&lt;&#x2F;a&gt; é o Antigo Rails Summit Latin
+todos! :)&lt;/p&gt;
+&lt;h4 id=&quot;rubyconf-brasil&quot;&gt;Rubyconf Brasil&lt;/h4&gt;
+&lt;p&gt;A &lt;a href=&quot;https://pothix.com/rubyconfbr-adl-gddbr/www.rubyconf.com.br&quot;&gt;Rubyconf Brasil&lt;/a&gt; é o Antigo Rails Summit Latin
 America, que acontecia no centro de convenções do Anhembi, e agora
 mudou sua localização para o centro de convenções Frei Caneca, para
 diminuir os custos e prover um local mais acessível para os
-participantes (próximo ao metrô e a avenida paulista).&lt;&#x2F;p&gt;
+participantes (próximo ao metrô e a avenida paulista).&lt;/p&gt;
 &lt;p&gt;O evento foi muito bom, contando com mais de 20 palestras com um
 número bem equilibrado de palestrantes nacionais e internacionais, que
 ministraram muitas palestras com ótimo conteúdo técnico.  Infelizmente
 o evento teve problemas com WIFI, e os participantes mal conseguiram
-acessar a internet utilizando a infra do evento.&lt;&#x2F;p&gt;
-&lt;p&gt;Algumas palestras:&lt;&#x2F;p&gt;
+acessar a internet utilizando a infra do evento.&lt;/p&gt;
+&lt;p&gt;Algumas palestras:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;A palestra do &lt;strong&gt;Jim Weiric&lt;&#x2F;strong&gt; sobre SOLID Ruby foi fantástica! Além dele ser um ótimo orador, muito divertido, mostrou conceitos bem interessante e algumas comparações com outras linguagens. Uma das melhores palestras do evento.&lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
+&lt;p&gt;A palestra do &lt;strong&gt;Jim Weiric&lt;/strong&gt; sobre SOLID Ruby foi fantástica! Além dele ser um ótimo orador, muito divertido, mostrou conceitos bem interessante e algumas comparações com outras linguagens. Uma das melhores palestras do evento.&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;O &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;github.com&#x2F;tenderlove&quot;&gt;tenderlove&lt;&#x2F;a&gt; mandou muito bem na sua palestra sobre Fibers e ruby 1.9. Além das corriqueiras brincadeiras com fotos sobre a suposta criação da palestra, ele mostrou um conteúdo muito interessante, com muitos exemplos préviamente contruídos para demonstrar o conceito de Fibers. Uma palestra densa mas muito boa! :)&lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
+&lt;p&gt;O &lt;a rel=&quot;external&quot; href=&quot;http://github.com/tenderlove&quot;&gt;tenderlove&lt;/a&gt; mandou muito bem na sua palestra sobre Fibers e ruby 1.9. Além das corriqueiras brincadeiras com fotos sobre a suposta criação da palestra, ele mostrou um conteúdo muito interessante, com muitos exemplos préviamente contruídos para demonstrar o conceito de Fibers. Uma palestra densa mas muito boa! :)&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;O &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;github.com&#x2F;josevalim&quot;&gt;José Valim&lt;&#x2F;a&gt; palestrou sobre Rails 3 e mostrou algumas das novas funcionalidades e também o que estar por vir, e como sempre deixou a dica para a galera contribuir, &quot;as próximas features depende de vocês&quot; :)&lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
+&lt;p&gt;O &lt;a rel=&quot;external&quot; href=&quot;http://github.com/josevalim&quot;&gt;José Valim&lt;/a&gt; palestrou sobre Rails 3 e mostrou algumas das novas funcionalidades e também o que estar por vir, e como sempre deixou a dica para a galera contribuir, &quot;as próximas features depende de vocês&quot; :)&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;O &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;github.com&#x2F;wycats&quot;&gt;Yehuda Katz&lt;&#x2F;a&gt; fez uma palestra bem interessante sobre como melhorar a performance da sua aplicação movendo muito de sua lógica para o cliente, e apresentou um projeto que ele está trabalhando atualmente. Gostei do conceito, mesmo pensando que não é um conceito para aplicar para qualquer aplicação web, mas para um aplicação com muitos acessos faz muitos sentido e o modelo parece bom. :)&lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
+&lt;p&gt;O &lt;a rel=&quot;external&quot; href=&quot;http://github.com/wycats&quot;&gt;Yehuda Katz&lt;/a&gt; fez uma palestra bem interessante sobre como melhorar a performance da sua aplicação movendo muito de sua lógica para o cliente, e apresentou um projeto que ele está trabalhando atualmente. Gostei do conceito, mesmo pensando que não é um conceito para aplicar para qualquer aplicação web, mas para um aplicação com muitos acessos faz muitos sentido e o modelo parece bom. :)&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;O pessoal da Caelum &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;github.com&#x2F;andersonleite&quot;&gt;Anderson Leite&lt;&#x2F;a&gt; e &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;github.com&#x2F;guilhermesilveira&quot;&gt;Guilherme Silveira&lt;&#x2F;a&gt; apresentaram sobre como utilizar uma Ruby funcionalmente, e a palestra foi muito boa, apesar de ser bem densa e os dois falarem rápido&lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
+&lt;p&gt;O pessoal da Caelum &lt;a rel=&quot;external&quot; href=&quot;http://github.com/andersonleite&quot;&gt;Anderson Leite&lt;/a&gt; e &lt;a rel=&quot;external&quot; href=&quot;http://github.com/guilhermesilveira&quot;&gt;Guilherme Silveira&lt;/a&gt; apresentaram sobre como utilizar uma Ruby funcionalmente, e a palestra foi muito boa, apesar de ser bem densa e os dois falarem rápido&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Tiveram outras ótimas palestras, sobre encoding do Ruby (que é bizarro
 assim como qualquer outra implementação de encoding), integração de
 redes sociais, redis e resque e etc. Não vou falar de todas aqui para
 o post não ficar muito grande, mas aconselho a ficar de olho nas
-notícias pois a &lt;a href=&quot;https:&#x2F;&#x2F;pothix.com&#x2F;rubyconfbr-adl-gddbr&#x2F;www.locaweb.com.br&quot;&gt;Locaweb&lt;&#x2F;a&gt; filmou o evento e
+notícias pois a &lt;a href=&quot;https://pothix.com/rubyconfbr-adl-gddbr/www.locaweb.com.br&quot;&gt;Locaweb&lt;/a&gt; filmou o evento e
 provavelmente vão liberar os vídeos das palestras, e quando isso
-acontecer, aconselho você a assistir! :)&lt;&#x2F;p&gt;
+acontecer, aconselho você a assistir! :)&lt;/p&gt;
 &lt;p&gt;E é claro que nesse evento também teve um espaço para a
 desconferência, onde apareceram algumas outras apresentações legais
 (cômicas ou não), sobre assuntos derivados, como: node.js, deploy
 continuo, programando algo parecido com Ruby para Java, e etc! Foi bem
-divertido também!&lt;&#x2F;p&gt;
+divertido também!&lt;/p&gt;
 &lt;p&gt;Além de tudo isso ainda temos que contar o networking com a galera que
 foi fantástico, rever velhos amigos que quase nunca vemos (a galera da
-&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;www.fande.com.br&quot;&gt;Fande&lt;&#x2F;a&gt; e do Ikwa
-(&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;twitter.com&#x2F;mateuslinhares&quot;&gt;@mateuslinhares&lt;&#x2F;a&gt;,
-&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;twitter.com&#x2F;danielaltman&quot;&gt;@danielaltman&lt;&#x2F;a&gt;,
-&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;twitter.com&#x2F;jorge_silveira&quot;&gt;@jorge_silveira&lt;&#x2F;a&gt;,
-&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;twitter.com&#x2F;willian&quot;&gt;@willian&lt;&#x2F;a&gt;,
-&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;twitter.com&#x2F;_bojak&quot;&gt;@_bojak&lt;&#x2F;a&gt;,
-&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;twitter.com&#x2F;rafaeltimbo&quot;&gt;@rafaeltimbo&lt;&#x2F;a&gt; e
-&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;twitter.com&#x2F;vitormateus&quot;&gt;@vitormateus&lt;&#x2F;a&gt;) por exemplo),
-reencontrar o pessoal do &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;www.guru-sp.org&quot;&gt;Guru-SP&lt;&#x2F;a&gt; que apesar
+&lt;a rel=&quot;external&quot; href=&quot;http://www.fande.com.br&quot;&gt;Fande&lt;/a&gt; e do Ikwa
+(&lt;a rel=&quot;external&quot; href=&quot;http://twitter.com/mateuslinhares&quot;&gt;@mateuslinhares&lt;/a&gt;,
+&lt;a rel=&quot;external&quot; href=&quot;http://twitter.com/danielaltman&quot;&gt;@danielaltman&lt;/a&gt;,
+&lt;a rel=&quot;external&quot; href=&quot;http://twitter.com/jorge_silveira&quot;&gt;@jorge_silveira&lt;/a&gt;,
+&lt;a rel=&quot;external&quot; href=&quot;http://twitter.com/willian&quot;&gt;@willian&lt;/a&gt;,
+&lt;a rel=&quot;external&quot; href=&quot;http://twitter.com/_bojak&quot;&gt;@_bojak&lt;/a&gt;,
+&lt;a rel=&quot;external&quot; href=&quot;http://twitter.com/rafaeltimbo&quot;&gt;@rafaeltimbo&lt;/a&gt; e
+&lt;a rel=&quot;external&quot; href=&quot;http://twitter.com/vitormateus&quot;&gt;@vitormateus&lt;/a&gt;) por exemplo),
+reencontrar o pessoal do &lt;a rel=&quot;external&quot; href=&quot;http://www.guru-sp.org&quot;&gt;Guru-SP&lt;/a&gt; que apesar
 de encontrar sempre é legal reunir toda a galera e foi mais um
 encontro :), e ainda tem mais um monte de gente que encontrei por lá,
-e isso fora as pessoas que conheci! Enfim...Networking #FTW! :).&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;picasaweb.google.com&#x2F;Willian.molinari&#x2F;20101026Rubyconf?feat=directlink&quot;&gt;Minhas fotos do evento&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;android-dev-lab&quot;&gt;Android Dev Lab&lt;&#x2F;h4&gt;
+e isso fora as pessoas que conheci! Enfim...Networking #FTW! :).&lt;/p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;http://picasaweb.google.com/Willian.molinari/20101026Rubyconf?feat=directlink&quot;&gt;Minhas fotos do evento&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;android-dev-lab&quot;&gt;Android Dev Lab&lt;/h4&gt;
 &lt;p&gt;Eu sinceramente esperava que o Google fosse dar um Nexus One para a
 galera assim como eles fizeram na OSCon lá fora, mas obviamente me
 enganei :P.  No fim das contas o evento foi razoável, apesar dos
 problemas com WIFI (que já é corriqueiro...), foi interessante para
 conhecer um pouco do SDK, principalmente para quem não ia no Google
 Developers Day no dia seguinte (o que não foi o meu caso), e para
-ganhar uma camiseta bonitinha do Android :P&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;strong&gt;Resumo&lt;&#x2F;strong&gt;: Foi legal mas eu esperava mais.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;picasaweb.google.com&#x2F;Willian.molinari&#x2F;20101028AndroidDevLab?feat=directlink&quot;&gt;Minhas fotos do evento&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;google-developers-day&quot;&gt;Google Developers Day&lt;&#x2F;h4&gt;
+ganhar uma camiseta bonitinha do Android :P&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resumo&lt;/strong&gt;: Foi legal mas eu esperava mais.&lt;/p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;http://picasaweb.google.com/Willian.molinari/20101028AndroidDevLab?feat=directlink&quot;&gt;Minhas fotos do evento&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;google-developers-day&quot;&gt;Google Developers Day&lt;/h4&gt;
 &lt;p&gt;Para compensar o Android Dev Lab o GDD foi um evento fantástico! Muito
 mais gente (como era de se esperar) poucos lugares nas palestras
 principais, mas um ótimo conteúdo de palestras (se você souber
-escolher bem :D).&lt;&#x2F;p&gt;
-&lt;p&gt;Algumas palestras:&lt;&#x2F;p&gt;
+escolher bem :D).&lt;/p&gt;
+&lt;p&gt;Algumas palestras:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Para mim foi quase um Tim Bray Developers Day, por que eu assisti 3 palestras do Tim Bray, todas sobre Android, direta ou indiretamente. Gostei de todas, o Tim falou muito bem sobre os temas que escolheu. Deu uma boa visão sobre design de aplicações, sobre o Android em si (algumas coisas eu já tinha visto no dia anterior...), e mostrou por que eles seguem algumas filosofias.&lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
+&lt;p&gt;Para mim foi quase um Tim Bray Developers Day, por que eu assisti 3 palestras do Tim Bray, todas sobre Android, direta ou indiretamente. Gostei de todas, o Tim falou muito bem sobre os temas que escolheu. Deu uma boa visão sobre design de aplicações, sobre o Android em si (algumas coisas eu já tinha visto no dia anterior...), e mostrou por que eles seguem algumas filosofias.&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Uma frase que ele falou que eu ia mencionar no twitter na hora mas não ia caber, e resolvi deixar para (trollar aqui n)o post:&lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
+&lt;p&gt;Uma frase que ele falou que eu ia mencionar no twitter na hora mas não ia caber, e resolvi deixar para (trollar aqui n)o post:&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&quot;O Android Market não precisa de moderação por que sabemos que as pessoas são inteligentes e caso uma aplicação não seja boa ou pareça maliciosa, eles simplesmente não instalam e não usam&quot;&lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
+&lt;p&gt;&quot;O Android Market não precisa de moderação por que sabemos que as pessoas são inteligentes e caso uma aplicação não seja boa ou pareça maliciosa, eles simplesmente não instalam e não usam&quot;&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;A palestra sobre Desenvolvimento de extensões para o Chrome foi bem legal e mostrou como é simples desenvolver uma extensão e como ele consegue acesso fácil ao chrome apenas utilizando Javascript. E o mais engraçado é que o desenvolvedor do Chromed Bird fez uma pequena apresentação mostrando a extensão dele e ele tinha uma direct message com um link para um twit meu. Vai saber :P&lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
+&lt;p&gt;A palestra sobre Desenvolvimento de extensões para o Chrome foi bem legal e mostrou como é simples desenvolver uma extensão e como ele consegue acesso fácil ao chrome apenas utilizando Javascript. E o mais engraçado é que o desenvolvedor do Chromed Bird fez uma pequena apresentação mostrando a extensão dele e ele tinha uma direct message com um link para um twit meu. Vai saber :P&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Achei que a palestra sobre HTML5 seria a mesmice de sempre, mas aprendi muita coisa interessante com ela! Não sabia que agora existem buscas no estilo jQuery nativamente no Javascript. Algo como .search(&#x27;#id&#x27;) (não é esse método, mas existe), fora as dicas que ele deu e os exemplos que ele mostrou que valeram a pena. Vou procurar a apresentação dele na internet depois para dar uma olhada novamente, e se eu encontrar atualizo o post.&lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
+&lt;p&gt;Achei que a palestra sobre HTML5 seria a mesmice de sempre, mas aprendi muita coisa interessante com ela! Não sabia que agora existem buscas no estilo jQuery nativamente no Javascript. Algo como .search(&#39;#id&#39;) (não é esse método, mas existe), fora as dicas que ele deu e os exemplos que ele mostrou que valeram a pena. Vou procurar a apresentação dele na internet depois para dar uma olhada novamente, e se eu encontrar atualizo o post.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Novamente, teve outras palestras legais, mas essas são as que eu
-lembro, e aproveitei! :)&lt;&#x2F;p&gt;
-&lt;p&gt;Nesse evento também encontrei velhos amigos como o &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;twitter.com&#x2F;dalembertian&quot;&gt;Rubens
-Altimari&lt;&#x2F;a&gt; da
-&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;www.whitehat.com.br&quot;&gt;Whitehat&lt;&#x2F;a&gt; empresa que eu já tive o prazer
-de trabalhar, e meu amigo &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;www.twitter.com&#x2F;brunoassis&quot;&gt;Bruno
-Assis&lt;&#x2F;a&gt; que sempre marcamos de
-conversar e nunca nos encontramos :P.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;picasaweb.google.com&#x2F;Willian.molinari&#x2F;20101029GoogleDevelopersDay2010?feat=directlink&quot;&gt;Minhas fotos do evento&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;resumo&quot;&gt;Resumo&lt;&#x2F;h4&gt;
-&lt;p&gt;Foi uma semana &lt;strong&gt;Muito&lt;&#x2F;strong&gt; cansativa, fazia tempo que eu não ficava tão
+lembro, e aproveitei! :)&lt;/p&gt;
+&lt;p&gt;Nesse evento também encontrei velhos amigos como o &lt;a rel=&quot;external&quot; href=&quot;http://twitter.com/dalembertian&quot;&gt;Rubens
+Altimari&lt;/a&gt; da
+&lt;a rel=&quot;external&quot; href=&quot;http://www.whitehat.com.br&quot;&gt;Whitehat&lt;/a&gt; empresa que eu já tive o prazer
+de trabalhar, e meu amigo &lt;a rel=&quot;external&quot; href=&quot;http://www.twitter.com/brunoassis&quot;&gt;Bruno
+Assis&lt;/a&gt; que sempre marcamos de
+conversar e nunca nos encontramos :P.&lt;/p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;http://picasaweb.google.com/Willian.molinari/20101029GoogleDevelopersDay2010?feat=directlink&quot;&gt;Minhas fotos do evento&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;resumo&quot;&gt;Resumo&lt;/h4&gt;
+&lt;p&gt;Foi uma semana &lt;strong&gt;Muito&lt;/strong&gt; cansativa, fazia tempo que eu não ficava tão
 cansado assim. Entre um evento e outro teve as minhas seções de
 fisioterapia (para curar umas dores nas costas devido a uma queda), e
 também trabalhei bastante para compensar os eventos (e o mais legal é
-que foi uma parte divertida do trabalho para fazer!).&lt;&#x2F;p&gt;
+que foi uma parte divertida do trabalho para fazer!).&lt;/p&gt;
 &lt;p&gt;No fim das contas, tudo isso valeu muito a pena, aprendi bastante,
 conheci pessoas, revi outras pessoas, consegui manter o fluxo do meu
-trabalho, e descansei no final da semana! Portanto... Vitória! :D&lt;&#x2F;p&gt;
+trabalho, e descansei no final da semana! Portanto... Vitória! :D&lt;/p&gt;
 </description>
       </item>
       <item>
@@ -170,69 +170,69 @@ trabalho, e descansei no final da semana! Portanto... Vitória! :D&lt;&#x2F;p&gt
 aleatórias (Google reader e artigos interessantes que eu acho perdidos
 por aí), e como eu tenho um tempo um pouco limitado, devido ao
 trabalho e a faculdade eu sempre tenho alguns esquemas diferentes para
-ler. :P&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;fluxo-de-leitura&quot;&gt;Fluxo de leitura&lt;&#x2F;h4&gt;
+ler. :P&lt;/p&gt;
+&lt;h4 id=&quot;fluxo-de-leitura&quot;&gt;Fluxo de leitura&lt;/h4&gt;
 &lt;p&gt;Depois que eu comprei um Android o meu fluxo de leitura se modificou
-um pouco. E está da seguinte maneira:&lt;&#x2F;p&gt;
+um pouco. E está da seguinte maneira:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Aproveito o café da manhã para dar uma revisada no meu Google Reader pelo celular, colocando estrela nos artigos que me interessam&lt;&#x2F;li&gt;
-&lt;li&gt;Termino de separar os artigos e colocar estrela nos que me interessam e marcar como lido os que não interessam&lt;&#x2F;li&gt;
-&lt;li&gt;Leio os artigos pequenos que estão com estrela e os artigos maiores vão para o Android&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
+&lt;li&gt;Aproveito o café da manhã para dar uma revisada no meu Google Reader pelo celular, colocando estrela nos artigos que me interessam&lt;/li&gt;
+&lt;li&gt;Termino de separar os artigos e colocar estrela nos que me interessam e marcar como lido os que não interessam&lt;/li&gt;
+&lt;li&gt;Leio os artigos pequenos que estão com estrela e os artigos maiores vão para o Android&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;E com isso eu consigo pegar meus &quot;tempos livres&quot; para ler um pouco
-desses artigos aos poucos.&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;aplicacoes-para-android&quot;&gt;Aplicações para Android&lt;&#x2F;h4&gt;
+desses artigos aos poucos.&lt;/p&gt;
+&lt;h4 id=&quot;aplicacoes-para-android&quot;&gt;Aplicações para Android&lt;/h4&gt;
 &lt;p&gt;Quando comprei o celular já estava pensando em conseguir aplicações
 legais para leitura justamente para ajudar a resolver esse meu
 &quot;problema&quot;, portanto fui atrás logo cedo.  Minha primeira idéia era
 simplesmente colocar um .pdf no Android e ler em qualquer leitor de
 PDF normal, como o quickoffice ou até mesmo o adobereader para
-Android.&lt;&#x2F;p&gt;
+Android.&lt;/p&gt;
 &lt;p&gt;Seguindo o caminho PDF eu descobri que é um pouco desconfortável ficar
 lendo PDFs em uma tela pequena, e vc precisa ficar fazendo scroll com
 frequencia, dar zoom e etc, e isso deixa a leitura meio enfadonha
 (sempre quis usar essa palavra :P).  Então decidi seguir outro rumo
 não muito comum, vou transformar esses artigos em .epub e ler em um
 leitor de epubs para Android.  Os dois leitores legais que eu
-encontrei foram:&lt;&#x2F;p&gt;
+encontrei foram:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;www.appbrain.com&#x2F;app&#x2F;com.reader.books.laputa.ui&quot;&gt;Laputa&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;www.appbrain.com&#x2F;app&#x2F;com.aldiko.android&quot;&gt;Aldiko&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;p&gt;Primeiramente tentei algo com o &lt;strong&gt;Laputa&lt;&#x2F;strong&gt; que parecia um iBooks para
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;http://www.appbrain.com/app/com.reader.books.laputa.ui&quot;&gt;Laputa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;http://www.appbrain.com/app/com.aldiko.android&quot;&gt;Aldiko&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Primeiramente tentei algo com o &lt;strong&gt;Laputa&lt;/strong&gt; que parecia um iBooks para
 Android. Todo cheio de frescuras de desenhar quando você está virando
 a página para parecer um livro e tal, mas eu prefiro as coisas mais
-simples :).&lt;&#x2F;p&gt;
-&lt;p&gt;Ao mesmo tempo já estava testando o &lt;strong&gt;Aldiko&lt;&#x2F;strong&gt; tambem e comparando
+simples :).&lt;/p&gt;
+&lt;p&gt;Ao mesmo tempo já estava testando o &lt;strong&gt;Aldiko&lt;/strong&gt; tambem e comparando
 funcionalidades. O Aldiko tinha as mesmas funcionalidades só que com
 menos frescuras e algumas coisas a mais que realmente fazem a
 diferença, como o ajuste de brilho tocando o lado esquerdo da tela,
-por exemplo.&lt;&#x2F;p&gt;
-&lt;p&gt;E no fim das contas acabei decidindo usar o &lt;strong&gt;Aldiko&lt;&#x2F;strong&gt; como meu leitor
+por exemplo.&lt;/p&gt;
+&lt;p&gt;E no fim das contas acabei decidindo usar o &lt;strong&gt;Aldiko&lt;/strong&gt; como meu leitor
 padrão, por ter boas funcionalidades e não ter frescuras. Mas depois
 disso ainda tinha um problema para resolver...Tinha que transformar em
 .epub e colocar no Android toda vez que eu quisesse ler um texto nele,
 e isso provavelmente ia ser uma tarefa muito chata...Se não fosse o
-&lt;strong&gt;Calibre&lt;&#x2F;strong&gt;! :D&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;calibre&quot;&gt;Calibre&lt;&#x2F;h4&gt;
-&lt;p&gt;O &lt;strong&gt;Calibre&lt;&#x2F;strong&gt; é uma aplicação para organização de ebooks que provê uma
-maneira fácil para editar metatags e exportar para diversos formatos.&lt;&#x2F;p&gt;
+&lt;strong&gt;Calibre&lt;/strong&gt;! :D&lt;/p&gt;
+&lt;h4 id=&quot;calibre&quot;&gt;Calibre&lt;/h4&gt;
+&lt;p&gt;O &lt;strong&gt;Calibre&lt;/strong&gt; é uma aplicação para organização de ebooks que provê uma
+maneira fácil para editar metatags e exportar para diversos formatos.&lt;/p&gt;
 &lt;p&gt;A ultima versão (se vc usa Ubuntu, não instale por apt-get que a
-versão é antiga, &lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;calibre-ebook.com&#x2F;download_linux&quot;&gt;instale diretamente do
-site&lt;&#x2F;a&gt;) reconhece
-perfeitamente o meu Milestone e envia para a pasta eBooks&#x2F;import, que
-é a pasta que o Aldiko usa para importar ebooks! :D&lt;&#x2F;p&gt;
+versão é antiga, &lt;a rel=&quot;external&quot; href=&quot;http://calibre-ebook.com/download_linux&quot;&gt;instale diretamente do
+site&lt;/a&gt;) reconhece
+perfeitamente o meu Milestone e envia para a pasta eBooks/import, que
+é a pasta que o Aldiko usa para importar ebooks! :D&lt;/p&gt;
 &lt;p&gt;Portanto, utilizando essas ferramentas ficou muito fácil de seguir o
-meu fluxo de leitura:&lt;&#x2F;p&gt;
+meu fluxo de leitura:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Ler um artigo com estrela&lt;&#x2F;li&gt;
-&lt;li&gt;Se for grande imprimir em pdf (geralmente uso um plugin do Chrome chamado iReader, que formata muito bem para leitura&#x2F;impressão)&lt;&#x2F;li&gt;
-&lt;li&gt;converter o .pdf para .epub no calibre e já enviar direto para o Android&lt;&#x2F;li&gt;
-&lt;li&gt;no Aldiko importar os novos livros&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
+&lt;li&gt;Ler um artigo com estrela&lt;/li&gt;
+&lt;li&gt;Se for grande imprimir em pdf (geralmente uso um plugin do Chrome chamado iReader, que formata muito bem para leitura/impressão)&lt;/li&gt;
+&lt;li&gt;converter o .pdf para .epub no calibre e já enviar direto para o Android&lt;/li&gt;
+&lt;li&gt;no Aldiko importar os novos livros&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;E pronto! Agora tenho os artigos que eu quero ler em boa fonte, como
-se fosse um ebook comum! :)&lt;&#x2F;p&gt;
-&lt;p&gt;Espero que seja útil para mais alguem.&lt;&#x2F;p&gt;
+se fosse um ebook comum! :)&lt;/p&gt;
+&lt;p&gt;Espero que seja útil para mais alguem.&lt;/p&gt;
 </description>
       </item>
       <item>
@@ -243,51 +243,51 @@ se fosse um ebook comum! :)&lt;&#x2F;p&gt;
           <guid>https://pothix.com/motorola-milestone/</guid>
           <description xml:base="https://pothix.com/motorola-milestone/">&lt;p&gt;Muita gente tem me perguntado sobre o meu Android atual, um motorola
 Milestone, e resolvi postar algumas informações e opiniões sobre o
-aparelho e sobre o Android em si.&lt;&#x2F;p&gt;
+aparelho e sobre o Android em si.&lt;/p&gt;
 &lt;p&gt;Primeiramente, gostaria de dizer que o Android é um sistema muito bom,
-e estou bastante satisfeito com as features, apps, SDK e etc.&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;milestone&quot;&gt;Milestone&lt;&#x2F;h4&gt;
+e estou bastante satisfeito com as features, apps, SDK e etc.&lt;/p&gt;
+&lt;h4 id=&quot;milestone&quot;&gt;Milestone&lt;/h4&gt;
 &lt;p&gt;É um aparelho bem legal e na minha opinião é o Android mais &quot;custo X
 benefício&quot; do Brasil. Tem um hardware bom o bastante (processador 600
 Mhz e 256 de RAM), que já dá para rodar alguns joguinhos legais e
-deixar o telefone com uma boa usabilidade.&lt;&#x2F;p&gt;
+deixar o telefone com uma boa usabilidade.&lt;/p&gt;
 &lt;p&gt;Uma coisa que me agrada muito no telefone é o teclado qwerty físico,
 por que eu sempre estou conversando com alguém no Gtalk ou escrevendo
 algumas outras coisas, e eu tenho certeza que iria passar muita raiva
 com o teclado virtual (apesar de estar gostando do teclado virtual do
-Milestone quando está no modo horizontal).&lt;&#x2F;p&gt;
+Milestone quando está no modo horizontal).&lt;/p&gt;
 &lt;p&gt;A comparação do Milestone com o Nexus One dá uma grande diferença de
 performance, sendo que o Nexus vence por uma boa diferença (tem
 processador de 1Gb e memória de 512), mas como eu já disse antes, o
 Milestone é um ótimo custo X benefício para quem nunca teve um Android
-e quer uma linha &quot;poderosa&quot; :D&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;android&quot;&gt;Android&lt;&#x2F;h4&gt;
+e quer uma linha &quot;poderosa&quot; :D&lt;/p&gt;
+&lt;h4 id=&quot;android&quot;&gt;Android&lt;/h4&gt;
 &lt;p&gt;O Milestone em particular vem com o Android 2.1, e a Motorola promete
-o Froyo (Android 2.2) para o primeiro trimestre de 2011.  Uma pequena&lt;&#x2F;p&gt;
-&lt;p&gt;lista de vantagens legais do Android:&lt;&#x2F;p&gt;
+o Froyo (Android 2.2) para o primeiro trimestre de 2011.  Uma pequena&lt;/p&gt;
+&lt;p&gt;lista de vantagens legais do Android:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Download de aplicações legais facilmente pelo Android Market&lt;&#x2F;li&gt;
-&lt;li&gt;Muitas aplicações de qualidade no Android Market com Rating e comentários dos próprios usuários&lt;&#x2F;li&gt;
-&lt;li&gt;Api de desenvolvimento bem legal e multiplataforma&lt;&#x2F;li&gt;
-&lt;li&gt;Integração fantástica com os serviços do Google, até comecei a usar alguns que eu não usava só por que é &lt;em&gt;MUITO&lt;&#x2F;em&gt; bom.&lt;&#x2F;li&gt;
-&lt;li&gt;Multitasking de verdadinha&lt;&#x2F;li&gt;
-&lt;li&gt;Sua liberdade continua intacta&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;h4 id=&quot;problemas&quot;&gt;Problemas&lt;&#x2F;h4&gt;
+&lt;li&gt;Download de aplicações legais facilmente pelo Android Market&lt;/li&gt;
+&lt;li&gt;Muitas aplicações de qualidade no Android Market com Rating e comentários dos próprios usuários&lt;/li&gt;
+&lt;li&gt;Api de desenvolvimento bem legal e multiplataforma&lt;/li&gt;
+&lt;li&gt;Integração fantástica com os serviços do Google, até comecei a usar alguns que eu não usava só por que é &lt;em&gt;MUITO&lt;/em&gt; bom.&lt;/li&gt;
+&lt;li&gt;Multitasking de verdadinha&lt;/li&gt;
+&lt;li&gt;Sua liberdade continua intacta&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;problemas&quot;&gt;Problemas&lt;/h4&gt;
 &lt;p&gt;Tenho visto pouquíssimos problemas no Milestone. O unico que eu vi até
 hoje foi um reboot do celular enquanto eu estava jogando, mas acho que
 eu exagerei um pouco no multitasking (para quem não sabe o Android tem
 um multitasking real, portanto, você precisa fechar algumas apps de
-vez em quando, por que elas ficam rodando em background)&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;consideracoes&quot;&gt;Considerações&lt;&#x2F;h4&gt;
+vez em quando, por que elas ficam rodando em background)&lt;/p&gt;
+&lt;h4 id=&quot;consideracoes&quot;&gt;Considerações&lt;/h4&gt;
 &lt;p&gt;Eu recomendo muito comprar um Android, e o que eu recomendo atualmente
 no Brasil é o Milestone, por que você consegue sentir um gostinho do
-que o Android pode fazer sem gastar tanto assim.&lt;&#x2F;p&gt;
+que o Android pode fazer sem gastar tanto assim.&lt;/p&gt;
 &lt;p&gt;Para quem tem ou está pensando em ter um Android, pode aproveitar para
-dar uma lida na &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;docs.google.com&#x2F;document&#x2F;pub?id=1ZtMGH-HZvNTjprVPpAcxhKr19FJ6ReFaJ_YFmtt0Z_4&quot;&gt;lista de aplicações
-legais&lt;&#x2F;a&gt;
-que eu estou mantendo com uns amigos.&lt;&#x2F;p&gt;
-&lt;p&gt;E Aguardem mais posts meus sobre Android ;)&lt;&#x2F;p&gt;
+dar uma lida na &lt;a rel=&quot;external&quot; href=&quot;https://docs.google.com/document/pub?id=1ZtMGH-HZvNTjprVPpAcxhKr19FJ6ReFaJ_YFmtt0Z_4&quot;&gt;lista de aplicações
+legais&lt;/a&gt;
+que eu estou mantendo com uns amigos.&lt;/p&gt;
+&lt;p&gt;E Aguardem mais posts meus sobre Android ;)&lt;/p&gt;
 </description>
       </item>
     </channel>
