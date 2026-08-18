@@ -1090,7 +1090,7 @@ o &lt;a rel=&quot;external&quot; title=&quot;Pidgin&quot; href=&quot;http://www.
 vários que tem para esse serviço! Mas...Quer uma dica? Use outros
 serviços bem mais interessantes como o do Gtalk (que pode ser
 configurado no Pidgin e no Kopete) ou até mesmo o
-&lt;a href=&quot;https://pothix.com/ubuntu/www.skype.com&quot; title=&quot;Skype&quot;&gt;Skype&lt;/a&gt; (que pode ser instalado com apt-get
+&lt;a rel=&quot;external&quot; title=&quot;Skype&quot; href=&quot;https://www.skype.com&quot;&gt;Skype&lt;/a&gt; (que pode ser instalado com apt-get
 install :P )&lt;/p&gt;
 &lt;h4 id=&quot;fotos&quot;&gt;Fotos&lt;/h4&gt;
 &lt;p&gt;Quer manusear suas fotos, fazer modificações, disponibilizar elas na

@@ -903,7 +903,7 @@ Sugestões e críticas construtivas são bem vindas! ;)&lt;/p&gt;
 semana de grandes eventos, que eu tive o prazer de participar de
 todos! :)&lt;/p&gt;
 &lt;h4 id=&quot;rubyconf-brasil&quot;&gt;Rubyconf Brasil&lt;/h4&gt;
-&lt;p&gt;A &lt;a href=&quot;https://pothix.com/rubyconfbr-adl-gddbr/www.rubyconf.com.br&quot;&gt;Rubyconf Brasil&lt;/a&gt; é o Antigo Rails Summit Latin
+&lt;p&gt;A &lt;a rel=&quot;external&quot; href=&quot;https://www.rubyconf.com.br&quot;&gt;Rubyconf Brasil&lt;/a&gt; é o Antigo Rails Summit Latin
 America, que acontecia no centro de convenções do Anhembi, e agora
 mudou sua localização para o centro de convenções Frei Caneca, para
 diminuir os custos e prover um local mais acessível para os
@@ -935,7 +935,7 @@ acessar a internet utilizando a infra do evento.&lt;/p&gt;
 assim como qualquer outra implementação de encoding), integração de
 redes sociais, redis e resque e etc. Não vou falar de todas aqui para
 o post não ficar muito grande, mas aconselho a ficar de olho nas
-notícias pois a &lt;a href=&quot;https://pothix.com/rubyconfbr-adl-gddbr/www.locaweb.com.br&quot;&gt;Locaweb&lt;/a&gt; filmou o evento e
+notícias pois a &lt;a rel=&quot;external&quot; href=&quot;https://www.locaweb.com.br&quot;&gt;Locaweb&lt;/a&gt; filmou o evento e
 provavelmente vão liberar os vídeos das palestras, e quando isso
 acontecer, aconselho você a assistir! :)&lt;/p&gt;
 &lt;p&gt;E é claro que nesse evento também teve um espaço para a
@@ -1018,7 +1018,7 @@ trabalho, e descansei no final da semana! Portanto... Vitória! :D&lt;/p&gt;
           <link>https://pothix.com/fisl11/</link>
           <guid>https://pothix.com/fisl11/</guid>
           <description xml:base="https://pothix.com/fisl11/">&lt;p&gt;Finalmente depois de 4 anos planejando eu consegui ir para o FISL! :)&lt;/p&gt;
-&lt;p&gt;Para quem ainda não sabe, eu estou trabalhando na &lt;a href=&quot;https://pothix.com/fisl11/www.locaweb.com.br&quot;&gt;Locaweb&lt;/a&gt; desde o
+&lt;p&gt;Para quem ainda não sabe, eu estou trabalhando na &lt;a rel=&quot;external&quot; href=&quot;https://www.locaweb.com.br&quot;&gt;Locaweb&lt;/a&gt; desde o
 começo deste mês e consegui ir com a equipe deles para o FISL.&lt;/p&gt;
 &lt;p&gt;Esperava um conteúdo técnico melhor no FISL, e algumas palestras (ou a
 falta de boas palestras) me decepcionou um pouco, mas pelo que eu fiquei
@@ -1050,7 +1050,7 @@ que foi um pouco mais interessante, mas nada além do que eu já estava
 acostumado.&lt;/p&gt;
 &lt;h4 id=&quot;deltacloud-many-cloud-one-api&quot;&gt;DeltaCloud: Many cloud one API&lt;/h4&gt;
 &lt;p&gt;Outra palestra do Eduardo Otubo, que desta vez até fez uma citação para
-a &lt;a href=&quot;https://pothix.com/fisl11/www.locaweb.com.br&quot;&gt;Locaweb&lt;/a&gt; que talvez usará algo com DeltaCloud. Essa tecnologia é bem
+a &lt;a rel=&quot;external&quot; href=&quot;https://www.locaweb.com.br&quot;&gt;Locaweb&lt;/a&gt; que talvez usará algo com DeltaCloud. Essa tecnologia é bem
 legal por centralizar várias APIs em um ponto único. :)&lt;/p&gt;
 &lt;h4 id=&quot;seguranca-e-desafios-em-cloud-computing&quot;&gt;Segurança e desafios em cloud computing&lt;/h4&gt;
 &lt;p&gt;Achei que essa palestra fosse mais sobre “como fazer cloud computing”
@@ -1105,7 +1105,7 @@ não era nada interessante a palestra.&lt;/p&gt;
 &lt;p&gt;A ultima palestra do FISL para mim. Fui mesmo para conhecer o &lt;a rel=&quot;external&quot; href=&quot;https://fedorahosted.org/ovirt/&quot;&gt;oVirt&lt;/a&gt; e
 saber “qual é a dele”, mas o projeto não me impressionou muito.&lt;/p&gt;
 &lt;p&gt;No fim de cada dia do evento eu sai com uma galera diferente para bater
-papo, um dia com o próprio pessoal da &lt;a href=&quot;https://pothix.com/fisl11/www.locaweb.com.br&quot;&gt;Locaweb&lt;/a&gt;, outro com a galera do
+papo, um dia com o próprio pessoal da &lt;a rel=&quot;external&quot; href=&quot;https://www.locaweb.com.br&quot;&gt;Locaweb&lt;/a&gt;, outro com a galera do
 &lt;a rel=&quot;external&quot; href=&quot;http://www.slackwarebrasil.org/&quot;&gt;GUS-BR&lt;/a&gt;, e outras pessoas também!&lt;/p&gt;
 &lt;h4 id=&quot;conclusao&quot;&gt;Conclusão&lt;/h4&gt;
 &lt;p&gt;O evento foi muito legal, conheci muita gente legal, assisti palestras
@@ -1125,7 +1125,7 @@ da &lt;a rel=&quot;external&quot; href=&quot;http://www.mozillabrasil.org/&quot;
 outros.&lt;/p&gt;
 &lt;p&gt;Para quem quiser ver as &lt;a rel=&quot;external&quot; href=&quot;http://picasaweb.google.com/Willian.molinari/FISL11#&quot;&gt;fotos que eu tirei por lá é só ver no meu
 picasa&lt;/a&gt;. ;)&lt;/p&gt;
-&lt;p&gt;Obrigado &lt;a href=&quot;https://pothix.com/fisl11/www.locaweb.com.br&quot;&gt;Locaweb&lt;/a&gt; por ter me levado lá! You Rock!&lt;/p&gt;
+&lt;p&gt;Obrigado &lt;a rel=&quot;external&quot; href=&quot;https://www.locaweb.com.br&quot;&gt;Locaweb&lt;/a&gt; por ter me levado lá! You Rock!&lt;/p&gt;
 </description>
       </item>
       <item>
@@ -1146,7 +1146,7 @@ todas as linguagens de programação estão permitidas, não somente hacks
 web eram permitidos, o que deixou a criatividade ir longe. :D&lt;/p&gt;
 &lt;h4 id=&quot;equipe-e-ideia&quot;&gt;Equipe e idéia&lt;/h4&gt;
 &lt;p&gt;Participei do evento juntamente com uma equipe que formamos no
-&lt;a href=&quot;https://pothix.com/hack2010/www.ikwa.com.br&quot;&gt;Ikwa&lt;/a&gt;, e chamamos a equipe de SleepyProgrammers.&lt;/p&gt;
+&lt;a rel=&quot;external&quot; href=&quot;https://www.ikwa.com.br&quot;&gt;Ikwa&lt;/a&gt;, e chamamos a equipe de SleepyProgrammers.&lt;/p&gt;
 &lt;p&gt;Nossa idéia era fazer um site para marcar rolês fotográficos, e
 utilizaríamos para isso as API&#39;s do Flickr, Meme, Weather e Maps.&lt;/p&gt;
 &lt;p&gt;Ao chegar no evento e ver a palestra sobre YQL nós já percebemos que
@@ -1156,7 +1156,7 @@ poderíamos retornar de qual serviço. :)&lt;/p&gt;
 &lt;h4 id=&quot;metodologia-e-projeto&quot;&gt;Metodologia e projeto&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&quot;/images/posts/openhack.jpg&quot; title=&quot;Equipe do openhack&quot;&gt;&lt;img src=&quot;/images/posts/openhack.jpg&quot; alt=&quot;Foto da equipe do Openhack&quot; title=&quot;Equipe do Openhack&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Como já estamos acostumados a utilizar Scrum no
-&lt;a href=&quot;https://pothix.com/hack2010/www.ikwa.com.br&quot;&gt;Ikwa&lt;/a&gt; nós resolvemos fazer o mesmo para o nosso
+&lt;a rel=&quot;external&quot; href=&quot;https://www.ikwa.com.br&quot;&gt;Ikwa&lt;/a&gt; nós resolvemos fazer o mesmo para o nosso
 projetinho. Começamos com uma planning meeting logo na primeira hora
 para poder dar uma estimada no que pretendíamos fazer, e logo depois
 dividir as tarefas entre os membros da equipe.  Mais ou menos de 2 em
@@ -1945,7 +1945,7 @@ obviamente o Joomla, cada um para sua determinada finalidade.&lt;/p&gt;
 &lt;p&gt;Crédito para o palestrante: Falou que uma parte do valor que eles
 conseguem com os projetos eles doam para os softwares livres que eles
 usam, e isso sim é devolver o que você conseguiu gratuitamente!
-Parabens a &lt;a href=&quot;https://pothix.com/encontro-designtec/www.fabricalivre.com.br&quot; title=&quot;Fabrica Livre&quot;&gt;Fabrica Livre&lt;/a&gt;.&lt;/p&gt;
+Parabens a &lt;a rel=&quot;external&quot; title=&quot;Fabrica Livre&quot; href=&quot;https://www.fabricalivre.com.br&quot;&gt;Fabrica Livre&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&quot;scrum&quot;&gt;Scrum&lt;/h3&gt;
 &lt;p&gt;Encontrei um amigos como o Ricardo
 (Guitarrista do &lt;a rel=&quot;external&quot; title=&quot;Megadriver&quot; href=&quot;http://www.megadriver.com.br&quot;&gt;Megadriver&lt;/a&gt; e programador
@@ -2713,7 +2713,7 @@ começou a falar mais sobre o
 &lt;a rel=&quot;external&quot; href=&quot;http://blog.davidchelimsky.net/2008/9/22/cucumber&quot;&gt;cucumber&lt;/a&gt;, que
 parece muito interessante para usar!&lt;/p&gt;
 &lt;p&gt;Para mudar um pouco eu resolvi ir numa palestra sobre testes ( hehe )
-dessa vez foi a palestra do &lt;a href=&quot;https://pothix.com/railssummit-day2/www.dtsato.com/&quot;&gt;Danilo Sato&lt;/a&gt; sobre
+dessa vez foi a palestra do &lt;a rel=&quot;external&quot; href=&quot;https://www.dtsato.com/&quot;&gt;Danilo Sato&lt;/a&gt; sobre
 &quot;testes automatizados -
 &lt;a rel=&quot;external&quot; href=&quot;http://en.wikipedia.org/wiki/Test-driven_development&quot;&gt;TDD&lt;/a&gt;&quot;, onde
 ele mostrou algumas ferramentas e deu algumas dicas sobre como ele
