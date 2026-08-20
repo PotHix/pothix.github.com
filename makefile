@@ -37,10 +37,15 @@ publish:
 drafts:
 	@egrep "draft.*true" content/posts/ -rl | grep "\.md"
 
+# The vault is the source of truth. Notes there use plain [Foo](foo.md)
+# links so Obsidian can resolve them; Zola needs its own @/ form, which
+# would resolve against /places/<slug>/ and 404 if left as a bare path.
+# Links already written as @/... are skipped by the pattern.
 places:
 	@echo "Syncing places from Obsidian"
 	@cp ~/obsidian/second-brain/NotHix/Places/*.md content/places/
 	@rm -f content/places/_readme.md
+	@sed -i '' -E 's|\]\(([a-z0-9-]+)\.md\)|](@/places/\1.md)|g' content/places/*.md
 
 notes: places
 	@cp ~/obsidian/second-brain/NotHix/pothix.com/pages/*.md content/pages/
