@@ -1,10 +1,9 @@
-+++
-title = "Indaiatuba"
-date = "2020-01-01"
-
-[extra]
-skip_feed = true
-+++
+---
+title: Indaiatuba
+date: '2020-01-01'
+extra:
+  skip_feed: true
+---
 Indaiatuba é a minha cidade de escolha para morar a partir de 2022.
 
 Por muitos anos eu queria me mudar para o interior de São Paulo, mas nunca foi

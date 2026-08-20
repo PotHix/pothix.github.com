@@ -1,13 +1,12 @@
-+++
-title = "Billund"
-date = "2026-03-01"
-
-[taxonomies]
-tags = ["english"]
-
-[extra]
-skip_feed = true
-+++
+---
+title: Billund
+date: '2026-07-20'
+taxonomies:
+  tags:
+  - english
+extra:
+  skip_feed: true
+---
 
 Billund is the home of the LEGO Group, LEGO house and Legoland. I went there as part of the Doist connect 2026.
 

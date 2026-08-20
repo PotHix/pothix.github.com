@@ -1,13 +1,12 @@
-+++
-title = "Copenhagen"
-date = "2026-07-18"
-
-[taxonomies]
-tags = ["english"]
-
-[extra]
-skip_feed = true
-+++
+---
+title: Copenhagen
+date: '2026-07-18'
+taxonomies:
+  tags:
+  - english
+extra:
+  skip_feed: true
+---
 
 In July 2026, I went to Denmark for Doist Connect in Billund and got some days to explore Copenhagen.
 

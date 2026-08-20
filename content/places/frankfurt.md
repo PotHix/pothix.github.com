@@ -1,13 +1,12 @@
-+++
-title = "Frankfurt"
-date = "2023-07-09"
-
-[taxonomies]
-tags = ["english"]
-
-[extra]
-skip_feed = true
-+++
+---
+title: Frankfurt
+date: '2023-07-09'
+taxonomies:
+  tags:
+  - english
+extra:
+  skip_feed: true
+---
 Frankfurt was just a connecting city for me. I was going to [Bad
 Liebenzell](@/places/badliebenzell.md) and LATAM has direct flights from São Paulo to
 Frankfurt.

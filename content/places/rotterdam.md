@@ -1,13 +1,12 @@
-+++
-title = "Rotterdam"
-date = "2017-02-20"
-
-[taxonomies]
-tags = ["english"]
-
-[extra]
-skip_feed = true
-+++
+---
+title: Rotterdam
+date: '2017-02-20'
+taxonomies:
+  tags:
+  - english
+extra:
+  skip_feed: true
+---
 In 2017 I had the chance to speak at [FOSDEM](/fosdem2017) in
 [Brussels](@/places/brussels.md), and I used this opportunity to do a bigger travel through
 a few countries in Europe. After visiting a few cities in Belgium, I went

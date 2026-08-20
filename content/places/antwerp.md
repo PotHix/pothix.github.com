@@ -1,13 +1,12 @@
-+++
-title = "Antwerp"
-date = "2017-10-31"
-
-[taxonomies]
-tags = ["english"]
-
-[extra]
-skip_feed = true
-+++
+---
+title: Antwerp
+date: '2017-10-31'
+taxonomies:
+  tags:
+  - english
+extra:
+  skip_feed: true
+---
 In 2017 I had the chance to speak at [FOSDEM](/fosdem2017) in
 [Brussels](@/places/brussels.md), and I used this opportunity to travel around Belgium a
 bit, one city every day. One of the cities I visited was Antwerp.

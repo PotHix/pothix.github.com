@@ -1,13 +1,12 @@
-+++
-title = "Athens"
-date = "2025-02-23"
-
-[taxonomies]
-tags = ["english"]
-
-[extra]
-skip_feed = true
-+++
+---
+title: Athens
+date: '2025-02-23'
+taxonomies:
+  tags:
+  - english
+extra:
+  skip_feed: true
+---
 
 In February 2025, I visited Athens to meet the backend team of Doist. It was right when greeks were protesting against the measures done after two years of the train crash that killed many people. I was walking around when the protests started getting more serious, which was a bit scaring. Everything went well, though.
 

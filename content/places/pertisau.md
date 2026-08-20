@@ -1,16 +1,14 @@
-+++
-title = "Pertisau"
-aliases = ["pertisau"]
-date = "2022-06-19"
-
-[extra]
-skip_feed = true
-
-[taxonomies]
-tags = [
-    "english",
-]
-+++
+---
+title: Pertisau
+aliases:
+- pertisau
+date: '2022-06-19'
+extra:
+  skip_feed: true
+taxonomies:
+  tags:
+  - english
+---
 The [Doist](/doist) retreat 2022 happened in Pertisau, so I had the chance to
 visit Austria for the first time 🇦🇹!
 

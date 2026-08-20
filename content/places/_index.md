@@ -1,13 +1,12 @@
-+++
-title = "Places"
-sort_by = "date"
-paginate_by = 10
-template = "section.html"
-page_template = "page.html"
-
-[extra]
-subtitle = "Places I visited"
-+++
+---
+title: Places
+sort_by: date
+paginate_by: 10
+template: section.html
+page_template: page.html
+extra:
+  subtitle: Places I visited
+---
 
 I've been to 20+ countries since I started travelling and I wanted to list the places I visited. 
 
@@ -17,8 +16,9 @@ I also have here a guide on how I [travel (without kids)](/places/travelwithoutk
 
 I'm Brazilian, and that explains why we have so many cities in Brazil (the plan is to visit all states 😉).
 
-+ [🇦🇹 Austria, Pertisau](pertisau)
++ [🇦🇹 Austria, Pertisau](@/places/pertisau.md)
 + 🇧🇷 Ceará, Fortaleza
++ 🇧🇷 Ceará, Aquiraz
 + 🇧🇷 Ceará, Croatá
 + 🇧🇷 Ceará, Sobral
 + 🇧🇷 Ceará, Jericoacoara
@@ -33,16 +33,18 @@ I'm Brazilian, and that explains why we have so many cities in Brazil (the plan 
 + 🇧🇷 Minas Gerais, Congonhas
 + 🇧🇷 Minas Gerais, São Tomé das Letras
 + 🇧🇷 Rio de Janeiro, Rio de Janeiro
-+ [🇧🇷 São Paulo, Diadema](diadema)
++ [🇧🇷 São Paulo, Diadema](@/places/diadema.md)
++ 🇧🇷 São Paulo, Atibaia
 + 🇧🇷 São Paulo, São Paulo
 + 🇧🇷 São Paulo, Campos do Jordão
 + 🇧🇷 São Paulo, Mirassol
++ 🇧🇷 São Paulo, Olímpia
 + 🇧🇷 São Paulo, São José do Rio Preto
 + 🇧🇷 São Paulo, Santa Fé do Sul
 + 🇧🇷 São Paulo, Guarujá
 + 🇧🇷 São Paulo, São Pedro
 + 🇧🇷 São Paulo, Ibiúna
-+ [🇧🇷 São Paulo, Indaiatuba](indaiatuba)
++ [🇧🇷 São Paulo, Indaiatuba](@/places/indaiatuba.md)
 + 🇧🇷 São Paulo, Itupeva
 + 🇧🇷 São Paulo, Boituva
 + 🇧🇷 São Paulo, Buritama
@@ -61,40 +63,47 @@ I'm Brazilian, and that explains why we have so many cities in Brazil (the plan 
 + 🇧🇷 Paraná, Curitiba
 + 🇧🇷 Paraná, Foz do Iguaçu
 + 🇧🇷 Rio Grande do Sul, Porto Alegre
-+ [🇦🇷 Argentina, Misiones, Eldorado](eldorado)
-+ [🇧🇪 Belgium, Antwerp](antwerp)
-+ [🇧🇪 Belgium, Bruges](bruges)
-+ [🇧🇪 Belgium, Brussels](brussels)
-+ [🇧🇪 Belgium, Ghent](ghent)
-+ [🇩🇰 Denmark, Billund](billund)
-+ [🇩🇰 Denmark, Copenhagen](copenhagen)
++ 🇧🇷 Rio Grande do Sul, Pelotas
++ [🇦🇷 Argentina, Misiones, Eldorado](@/places/eldorado.md)
++ [🇧🇪 Belgium, Antwerp](@/places/antwerp.md)
++ [🇧🇪 Belgium, Bruges](@/places/bruges.md)
++ [🇧🇪 Belgium, Brussels](@/places/brussels.md)
++ [🇧🇪 Belgium, Ghent](@/places/ghent.md)
++ [🇩🇰 Denmark, Billund](@/places/billund.md)
++ [🇩🇰 Denmark, Copenhagen](@/places/copenhagen.md)
++ 🇩🇰 Denmark, Roskilde
 + 🇨🇱 Chile, Pucón
 + 🇨🇱 Chile, Santiago
-+ [🇮🇪 Ireland, Dublin](dublin)
++ 🇨🇱 Chile, Viña del Mar
++ [🇮🇪 Ireland, Dublin](@/places/dublin.md)
 + 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England, London
-+ [🏴󠁧󠁢󠁥󠁮󠁧󠁿 England, Oxford](oxford)
++ [🏴󠁧󠁢󠁥󠁮󠁧󠁿 England, Oxford](@/places/oxford.md)
++ 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England, Durham
 + 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England, York
-+ [🇬🇷 Greece, Athens](athens)
-+ [🇫🇷 France, Paris](paris)
-+ [🇩🇪 Germany, Bad Liebenzell](badliebenzell)
-+ [🇩🇪 Germany, Berlin](berlin)
-+ [🇩🇪 Germany, Frankfurt](frankfurt)
-+ [🇩🇪 Germany, Pforzheim](pforzheim)
-+ [🇩🇪 Germany, Munich](munich)
-+ [🇮🇹 Italy, Prato, Artimino](prato)
-+ [🇮🇹 Italy, Florence](florence)
-+ [🇮🇹 Italy, Pisa](pisa)
-+ [🇮🇹 Italy, Rome](rome)
-+ [🇮🇹 Italy, Venice](venice)
-+ [🇳🇱 Netherlands, Amsterdam](amsterdam)
-+ [🇳🇱 Netherlands, Rotterdam](rotterdam)
-+ [🇳🇱 Netherlands, The hague](thehague)
-+ [🇵🇹 Portugal, Azores](azores)
++ [🇬🇷 Greece, Athens](@/places/athens.md)
++ [🇫🇷 France, Paris](@/places/paris.md)
++ 🇫🇷 France, Chantilly
++ 🇫🇷 France, Versailles
++ [🇩🇪 Germany, Bad Liebenzell](@/places/badliebenzell.md)
++ [🇩🇪 Germany, Berlin](@/places/berlin.md)
++ [🇩🇪 Germany, Frankfurt](@/places/frankfurt.md)
++ [🇩🇪 Germany, Pforzheim](@/places/pforzheim.md)
++ [🇩🇪 Germany, Munich](@/places/munich.md)
++ [🇮🇹 Italy, Prato, Artimino](@/places/prato.md)
++ [🇮🇹 Italy, Florence](@/places/florence.md)
++ [🇮🇹 Italy, Pisa](@/places/pisa.md)
++ [🇮🇹 Italy, Rome](@/places/rome.md)
++ [🇮🇹 Italy, Venice](@/places/venice.md)
++ 🇻🇦 Vatican City
++ [🇳🇱 Netherlands, Amsterdam](@/places/amsterdam.md)
++ [🇳🇱 Netherlands, Rotterdam](@/places/rotterdam.md)
++ [🇳🇱 Netherlands, The hague](@/places/thehague.md)
++ [🇵🇹 Portugal, Azores](@/places/azores.md)
 + 🇵🇹 Portugal, Batalha
-+ [🇵🇹 Portugal, Cascais](cascais)
-+ [🇵🇹 Portugal, Colares, Cabo da roca](colares)
++ [🇵🇹 Portugal, Cascais](@/places/cascais.md)
++ [🇵🇹 Portugal, Colares, Cabo da roca](@/places/colares.md)
 + 🇵🇹 Portugal, Fatima
-+ [🇵🇹 Portugal, Lisbon](lisbon)
++ [🇵🇹 Portugal, Lisbon](@/places/lisbon.md)
 + 🇵🇹 Portugal, Nazareth
 + [🇵🇹 Portugal, Porto](@/places/opo.md)
 + 🇵🇹 Portugal, Óbidos
@@ -105,17 +114,18 @@ I'm Brazilian, and that explains why we have so many cities in Brazil (the plan 
 + 🇪🇸 Spain, Barcelona
 + 🇪🇸 Spain, Madrid
 + 🇪🇸 Spain, Toledo
-+ [🇹🇭 Thailand, Phuket](phuket)
-+ [🇹🇷 Istanbul, Turkey](istanbul)
++ [🇹🇭 Thailand, Phuket](@/places/phuket.md)
++ 🇦🇪 United Arab Emirates, Dubai
++ [🇹🇷 Istanbul, Turkey](@/places/istanbul.md)
 + 🇺🇸 United States, Boulder
-+ [🇺🇸 United States, Dallas](dallas)
++ [🇺🇸 United States, Dallas](@/places/dallas.md)
 + 🇺🇸 United States, Denver
-+ [🇺🇸 United States, Miami](miami)
-+ [🇺🇸 United States, New York](nyc)
-+ [🇺🇸 United States, St. Louis](stlouis)
-+ [🇺🇸 United States, Portland](portland)
-+ [🇺🇸 United States, San Francisco](sanfrancisco)
-+ [🇺🇾 Uruguay, Montevideo](montevideo)
++ [🇺🇸 United States, Miami](@/places/miami.md)
++ [🇺🇸 United States, New York](@/places/nyc.md)
++ [🇺🇸 United States, St. Louis](@/places/stlouis.md)
++ [🇺🇸 United States, Portland](@/places/portland.md)
++ [🇺🇸 United States, San Francisco](@/places/sanfrancisco.md)
++ [🇺🇾 Uruguay, Montevideo](@/places/montevideo.md)
 
 There are links to the content whenever it's available, but I will also list
 all the posts I have by date. The posts are dated by travel date, not

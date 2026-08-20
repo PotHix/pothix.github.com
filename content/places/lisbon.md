@@ -1,13 +1,12 @@
-+++
-title = "Lisbon"
-date = "2019-04-10"
-
-[taxonomies]
-tags = ["english"]
-
-[extra]
-skip_feed = true
-+++
+---
+title: Lisbon
+date: '2019-04-10'
+taxonomies:
+  tags:
+  - english
+extra:
+  skip_feed: true
+---
 I had the chance to visit Lisbon two times, both of them visiting friends and
 staying with them.
 

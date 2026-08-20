@@ -1,13 +1,12 @@
-+++
-title = "The Hague, Netherlands"
-date = "2017-03-01"
-
-[taxonomies]
-tags = ["english"]
-
-[extra]
-skip_feed = true
-+++
+---
+title: The Hague, Netherlands
+date: '2017-03-01'
+taxonomies:
+  tags:
+  - english
+extra:
+  skip_feed: true
+---
 After speaking at [FOSDEM](/fosdem2017), I did a bigger trip through a few
 countries, and one of them was the Netherlands. While going from Rotterdam to
 Amsterday, I decided to spend a few hours (almost a day) in The Hague.

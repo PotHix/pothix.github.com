@@ -1,14 +1,14 @@
-+++
-title = "Venice"
-aliases = ["venice"]
-date = "2022-06-24"
-
-[taxonomies]
-tags = ["english"]
-
-[extra]
-skip_feed = true
-+++
+---
+title: Venice
+aliases:
+- venice
+date: '2022-06-24'
+taxonomies:
+  tags:
+  - english
+extra:
+  skip_feed: true
+---
 As part of a 1-week trip through Italy 🇮🇹 in 2022, I had the chance to spend 2
 days in Venice with my wife and sister. It was right after the Doist retreat, and
 I was feeling quite tired in the first day of the trip, but the mood changed

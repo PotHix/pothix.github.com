@@ -1,13 +1,12 @@
-+++
-title = "Pforzheim"
-date = "2023-07-09"
-
-[taxonomies]
-tags = ["english"]
-
-[extra]
-skip_feed = true
-+++
+---
+title: Pforzheim
+date: '2023-07-09'
+taxonomies:
+  tags:
+  - english
+extra:
+  skip_feed: true
+---
 While going to [Bad Liebenzell](@/places/badliebenzell.md) from [Frankfurt](@/places/frankfurt.md), I
 had to forcefully stop in Pforzheim for a bit more than 2 hours. My trains were
 delayed and I had to wait for the last train to get to Bad Liebenzell.

@@ -1,13 +1,12 @@
-+++
-title = "Colares"
-date = "2019-04-13"
-
-[taxonomies]
-tags = ["english"]
-
-[extra]
-skip_feed = true
-+++
+---
+title: Colares
+date: '2019-04-13'
+taxonomies:
+  tags:
+  - english
+extra:
+  skip_feed: true
+---
 A friend of mine was driving us to nice places around Lisbon and we went to
 Colares just to see one single place: Cabo da Roca.
 

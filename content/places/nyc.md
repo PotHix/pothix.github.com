@@ -1,14 +1,14 @@
-+++
-title = "NYC"
-aliases = ["NYC"]
-date = "2019-03-25"
-
-[taxonomies]
-tags = ["english"]
-
-[extra]
-skip_feed = true
-+++
+---
+title: NYC
+aliases:
+- NYC
+date: '2019-03-25'
+taxonomies:
+  tags:
+  - english
+extra:
+  skip_feed: true
+---
 I had to chance to go to travel to NYC more than once. The first time
 I came there alone and the second one I went with my wife and both
 trips were good.

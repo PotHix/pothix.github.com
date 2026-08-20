@@ -1,13 +1,12 @@
-+++
-title = "Dublin"
-date = "2024-09-25"
-
-[taxonomies]
-tags = ["english"]
-
-[extra]
-skip_feed = true
-+++
+---
+title: Dublin
+date: '2024-09-25'
+taxonomies:
+  tags:
+  - english
+extra:
+  skip_feed: true
+---
 
 I visited Dublin in late 2024 to meet my Doist colleagues for Doist connect. Didn't plan much for this one because I was very concerned about the trip as a whole. I was having a medical condition and had to find ways to go for the trip and guarantee everything was OK.
 

@@ -1,13 +1,12 @@
-+++
-title = "Oxford"
-date = "2017-02-28"
-
-[taxonomies]
-tags = ["english"]
-
-[extra]
-skip_feed = true
-+++
+---
+title: Oxford
+date: '2017-02-28'
+taxonomies:
+  tags:
+  - english
+extra:
+  skip_feed: true
+---
 After speaking at [FOSDEM](/fosdem2017), I did a bigger trip through a few
 countries, and one of them was England. I'm a big fan of Tolkien, so I decided
 to explore Oxford too. I wrote more about it on the page [Oxford for Tolkien

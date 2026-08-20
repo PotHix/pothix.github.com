@@ -1,13 +1,12 @@
-+++
-title = "Bad Liebenzell"
-date = "2023-07-09"
-
-[taxonomies]
-tags = ["english"]
-
-[extra]
-skip_feed = true
-+++
+---
+title: Bad Liebenzell
+date: '2023-07-09'
+taxonomies:
+  tags:
+  - english
+extra:
+  skip_feed: true
+---
 In July 2023, I used the chance of being in Europe to get to know people
 from a company I've been doing some maintenance work 7 years.
 

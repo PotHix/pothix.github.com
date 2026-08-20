@@ -1,13 +1,12 @@
-+++
-title = "Phuket"
-date = "2025-07-10"
-
-[taxonomies]
-tags = ["english"]
-
-[extra]
-skip_feed = true
-+++
+---
+title: Phuket
+date: '2025-07-10'
+taxonomies:
+  tags:
+  - english
+extra:
+  skip_feed: true
+---
 
 I visited Phuket in July 2025 to attend Doist Connect, where the whole company get together for a week.
 

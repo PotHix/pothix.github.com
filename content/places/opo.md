@@ -1,14 +1,15 @@
-+++
-title = "Porto"
-aliases = ["porto", "opo"]
-date = "2019-04-07"
-
-[taxonomies]
-tags = ["english"]
-
-[extra]
-skip_feed = true
-+++
+---
+title: Porto
+aliases:
+- porto
+- opo
+date: '2019-04-07'
+taxonomies:
+  tags:
+  - english
+extra:
+  skip_feed: true
+---
 I've been in Porto for the first time in 2017 when I first joined
 [Doist](/doist), but also had the chance to visit the city in 2019 in the
 company retreat.
