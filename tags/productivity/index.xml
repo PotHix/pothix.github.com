@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>PotHix - productivity</title>
+      <link>https://pothix.com</link>
+      <description></description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://pothix.com/tags/productivity/index.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Wed, 12 May 2021 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>My 2021 Productivity Workflow</title>
+          <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://pothix.com/workflow2021/</link>
+          <guid>https://pothix.com/workflow2021/</guid>
+          <description xml:base="https://pothix.com/workflow2021/">&lt;p&gt;&lt;em&gt;This post is the updated version of &lt;a href=&quot;/workflow2019&quot;&gt;the one I wrote in 2019&lt;/a&gt;.
+Instead of changing the previous one, I decided to create an updated version
+based on that.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;From time to time, I receive questions about my productivity workflow and I
+think it will be useful to have it written down somewhere. This post will
+describe how I&#39;m dealing with it in 2021.&lt;/p&gt;
+&lt;h2 id=&quot;tool&quot;&gt;Tool&lt;/h2&gt;
+&lt;p&gt;As you probably know, &lt;a href=&quot;/post/doist&quot;&gt;I work for Doist&lt;/a&gt; for some time now,
+and I&#39;m a Todoist user since 2007, so the my tool of choice is quite obvious.&lt;/p&gt;
+&lt;p&gt;I love how &lt;a rel=&quot;external&quot; href=&quot;https://Todoist.com&quot;&gt;Todoist&lt;/a&gt; brings simplicity to creating and
+managing tasks. Things become even better when you add filters to the mix. 😉&lt;/p&gt;
+&lt;p&gt;The organization for my top level projects looks like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Personal&lt;/strong&gt;: Anything personal like money, investments, random thoughts, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aulë Software&lt;/strong&gt;: It&#39;s my company name. This project holds bureaucracy of having a BR company, things to pay, people to reach, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Work&lt;/strong&gt;: Everything related to my full time job. It&#39;s probably the one with more sub-projects and tasks&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hobbies&lt;/strong&gt;: I have many, so I have a project for each. Examples: Drums, MTG, Cardistry, Photography, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Me &amp;amp; Wife&lt;/strong&gt;: A shared project with my wife. Anything we do together we add there.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Calendars&lt;/strong&gt;: Projects I use do bring tasks from my calendar to my Todoist.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Others&lt;/strong&gt;: Projects I could not fit in any other category. Example: Todoist integrations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Most of these top level projects have have their own sub-projects.&lt;/p&gt;
+&lt;h2 id=&quot;process&quot;&gt;Process&lt;/h2&gt;
+&lt;p&gt;I use due dates to guide my life inside Todoist. Every day I open Todoist and
+find what I have to do during that day.&lt;/p&gt;
+&lt;p&gt;When I have something in mind it goes to my &lt;code&gt;Inbox&lt;/code&gt; project. It doesn&#39;t matter
+if I&#39;m at the computer or walking on the street, I just open Todoist and add it
+there so I can do the triage later.&lt;/p&gt;
+&lt;p&gt;I try to apply the &lt;a rel=&quot;external&quot; href=&quot;https://gettingthingsdone.com/&quot;&gt;Getting Things Done&lt;/a&gt; idea,
+but my own version of GTD looks like &lt;a rel=&quot;external&quot; href=&quot;https://zenhabits.net/zen-to-done-ztd-the-ultimate-simple-productivity-system/&quot;&gt;Zen To
+Done&lt;/a&gt;
+to be honest. The principles are the same in the end, but the methods differ.&lt;/p&gt;
+&lt;p&gt;Both methods say you have to process your &lt;code&gt;Inbox&lt;/code&gt; at least once a day, and
+that&#39;s exactly what I do. Every task I add to my &lt;code&gt;Inbox&lt;/code&gt; in project on Todoist
+will be processed and added to the right project with a possible due date so it
+will pop up in my Today list in the future.&lt;/p&gt;
+&lt;p&gt;It doesn&#39;t matter much if I will finish all of the tasks or not, but they are
+there to remember me what I planned for that day and what is important to keep
+focused on. If I can&#39;t finish at the end of the day I postpone for the next or
+find a due in the future where this task will it makes more sense to do it.&lt;/p&gt;
+&lt;p&gt;I tried many times to use a label for next actions instead of using dates, but
+it requires a time consuming periodic review and I was never very good at it.
+From time to time I give a try to the &quot;Next actions&quot; via label though.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Everything&lt;/strong&gt; I have to do is added to Todoist. I don&#39;t keep any task hanging
+around in my mind because I don&#39;t want anything asking for attention when I have
+to focus. If there&#39;s something to do on Monday, I can rest assured that Todoist
+will notify me about that in the right day and time.&lt;/p&gt;
+&lt;h2 id=&quot;recurring-tasks&quot;&gt;Recurring tasks&lt;/h2&gt;
+&lt;p&gt;There are two types of recurring tasks for me: daily tasks and other recurring
+tasks&lt;/p&gt;
+&lt;h3 id=&quot;daily-recurring-tasks&quot;&gt;Daily recurring tasks&lt;/h3&gt;
+&lt;p&gt;I have some recurring tasks to be sure I do the things I have to do every day.
+It&#39;s important to make time for the things you care about, sometimes they are
+work-related tasks but you also have other things in life to take care of.&lt;/p&gt;
+&lt;p&gt;Here are some of them:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Check a Slack group of friends I want to keep in touch&lt;/li&gt;
+&lt;li&gt;Check the Discord of the conference/community I&#39;m currently a core organizer&lt;/li&gt;
+&lt;li&gt;Remember to track my progress on Goodreads and write reviews&lt;/li&gt;
+&lt;li&gt;Be sure my Inbox is processed&lt;/li&gt;
+&lt;li&gt;Check my board of tasks at work&lt;/li&gt;
+&lt;li&gt;Review all code review tasks that require my attention (to not block others)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These are usually tasks that I have to remind myself to do. Every time I miss
+some event or forget to do something it becomes a recurring task so it will not
+happen again.&lt;/p&gt;
+&lt;h3 id=&quot;other-recurring&quot;&gt;Other recurring&lt;/h3&gt;
+&lt;p&gt;These are tasks that are recurring but they are not present every day. Some
+examples of tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bills to pay (usually once a month)&lt;/li&gt;
+&lt;li&gt;Review my life insurance (usually once a year)&lt;/li&gt;
+&lt;li&gt;Send &lt;a rel=&quot;external&quot; href=&quot;https://futureme.org&quot;&gt;a random email to my future self&lt;/a&gt; (every 6 months)&lt;/li&gt;
+&lt;li&gt;Download free HTML templates from themeforest (every month)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It&#39;s been almost 5 years since I started downloading the free themes from
+themeforest every month and I have a good collection of them for personal
+projects. I&#39;ve been doing this consistently during these years, thanks to this
+process.&lt;/p&gt;
+&lt;p&gt;You may have better things to do with your recurring tasks, these are just
+examples that are important to me.&lt;/p&gt;
+&lt;h2 id=&quot;filtering-to-avoid-distractions&quot;&gt;Filtering to avoid distractions&lt;/h2&gt;
+&lt;p&gt;I use Todoist filters a lot!&lt;/p&gt;
+&lt;p&gt;Filters are very useful to... hm... filter non-important tasks from your current
+focus mode i.e. if you&#39;re doing deep work, you don&#39;t need to know your routine.&lt;/p&gt;
+&lt;p&gt;The method I use the most at the moment (and recommend) is the peak, trough,
+rebound one mentioned on &lt;a href=&quot;/when&quot;&gt;When: The Scientific Secrets of Perfect
+Timing&lt;/a&gt;. The others are also useful but not my main workflow nowadays.&lt;/p&gt;
+&lt;p&gt;Let&#39;s break down my filters and explain their usage 🙂&lt;/p&gt;
+&lt;h3 id=&quot;peak-trough-recovery&quot;&gt;Peak, trough, recovery&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Peak —  &lt;em&gt;&lt;code&gt;(@peak | p1 | (@Gcal &amp;amp; due before: +4 hours &amp;amp; !overdue)) &amp;amp; today &amp;amp; (assigned to: me | !assigned)&lt;/code&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Trough —  &lt;em&gt;&lt;code&gt;(@trough | (!@peak &amp;amp; !@recovery)) &amp;amp;  today &amp;amp; (assigned to: me | !assigned)&lt;/code&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Rebound —  &lt;em&gt;&lt;code&gt;(@rebound | @peak | p1 | p2) &amp;amp; today &amp;amp; (assigned to: me | !assigned)&lt;/code&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As you can see, I also rely on Todoist labels to mark the tasks I want to have
+in each of these chunks.&lt;/p&gt;
+&lt;p&gt;I used the &lt;a rel=&quot;external&quot; href=&quot;https://www.danpink.com/wp-content/uploads/2018/01/time-sheet.pdf&quot;&gt;Daily when
+tracker&lt;/a&gt; to
+check when was my peak, trough, and recovery times:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/productivity_dailywhentracker.png&quot; alt=&quot;A sheet of paper with something that looks like a chart showing the times I feel more productive&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;As you can see, my peak time is usually in the morning, so I use the &lt;strong&gt;peak&lt;/strong&gt;
+filter in the morning to be sure I use my energy in the right way. I wrote a
+good article about this at the &lt;a rel=&quot;external&quot; href=&quot;https://blog.doist.com/daily-schedule/&quot;&gt;Doist blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;peak&lt;/strong&gt; filter lists all the tasks with the &lt;strong&gt;@peak&lt;/strong&gt; label or the ones
+that are priority 1 for me today. I also list any tasks related to my calendar
+by filtering the tag &lt;strong&gt;@Gcal&lt;/strong&gt; and retrieving the ones that must be done in the
+next 4 hours. I sort the tasks by priority and do them in order whenever
+possible.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;Trough&lt;/strong&gt; label is used right after lunch, when I know I usually don&#39;t have
+enough energy. I use this time to do everything that don&#39;t require that much
+concentration to finish (email, team discussions, simple code reviews, etc).&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;Rebound&lt;/strong&gt; filter is used when I have part of my energy back and it&#39;s time
+to get that final boost before ending my day of work.&lt;/p&gt;
+&lt;p&gt;Rebound is a bit more complicated because my days are not very simple to
+organize nowadays as a parent of twins. Sometimes it happens in the afternoon,
+but sometimes it happens after 22:00, when babies are sleeping.&lt;/p&gt;
+&lt;h3 id=&quot;deep-work-filters&quot;&gt;Deep work filters&lt;/h3&gt;
+&lt;p&gt;For some time I used a simple version of the &quot;peak, trough, rebound&quot; method and
+just labeled my tasks as deep and shallow work, based on concept of &lt;a href=&quot;/deepworkbook&quot;&gt;Deep
+work&lt;/a&gt; by Cal Newport.&lt;/p&gt;
+&lt;p&gt;If you don&#39;t know the concept, it basically tells you to reserve chunks of your
+day to work on things without distractions. It means: no cellphones, no social
+media, no chatting, no email, etc.&lt;/p&gt;
+&lt;p&gt;I usually have the following filters as favorites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Deep @ Work -- &lt;em&gt;&lt;code&gt;(today | overdue)  &amp;amp; (assigned to: me|!assigned) &amp;amp; @deep_work &amp;amp; ##Work&lt;/code&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Shallow @ Work -- &lt;em&gt;&lt;code&gt;(today | overdue)  &amp;amp; (assigned to: me|!assigned) &amp;amp; !@deep_work &amp;amp; ##Work&lt;/code&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &quot;&lt;code&gt;Deep @ Work&lt;/code&gt;&quot; filter gets all tasks from projects under my &quot;&lt;code&gt;Work&lt;/code&gt;&quot;
+project that should be done &lt;code&gt;today&lt;/code&gt; and have the &quot;&lt;code&gt;@deepwork&lt;/code&gt;&quot; tag.&lt;/p&gt;
+&lt;p&gt;The &quot;&lt;code&gt;Shallow @ Work&lt;/code&gt;&quot; filter is almost the same but it takes everything
+&lt;strong&gt;without&lt;/strong&gt; the &quot;&lt;code&gt;@deepwork&lt;/code&gt;&quot; label. Everything else without this label is
+considered shallow work.&lt;/p&gt;
+&lt;p&gt;This is a simpler way to achieve the same idea of deep work, without having to
+worry about energy levels or dealing with it &quot;in your head&quot;.&lt;/p&gt;
+&lt;h3 id=&quot;priority-filters&quot;&gt;Priority filters&lt;/h3&gt;
+&lt;p&gt;I also have some filters based on the tasks I set priorities, so I can quickly
+see what should be a priority for my day instead of just reacting to what is
+going on. It doesn&#39;t work all the time because &lt;a rel=&quot;external&quot; href=&quot;https://miro.medium.com/max/1120/1*tDk8uelQtJnpx33rIQVjjA.png&quot;&gt;urgent and
+important&lt;/a&gt;
+things sometimes pop up, but it gives me a clear view of what my priorities
+are.&lt;/p&gt;
+&lt;p&gt;Here are the filters I have:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Priority today -- &lt;em&gt;``(today | overdue) &amp;amp; (assigned to: me|!assigned) &amp;amp; p1&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Priority @ Work -- &lt;em&gt;&lt;code&gt;(today | overdue) &amp;amp; (assigned to: me|!assigned) &amp;amp; (p1 | p2 | p3) &amp;amp; ##Work&lt;/code&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These two helps me when I just want to focus on the work I have to do today.
+Sometimes I have personal things that are also priority, so I keep both
+together, but I mostly use the &lt;code&gt;Priority @ Work&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;integrations-and-automation&quot;&gt;Integrations and automation&lt;/h2&gt;
+&lt;p&gt;There are some automation you can use based on Todoist. You don&#39;t have to be a
+programmer to set this up and I totally recommend the usage of
+&lt;a rel=&quot;external&quot; href=&quot;https://ifttt.com&quot;&gt;IFTTT&lt;/a&gt; and &lt;a rel=&quot;external&quot; href=&quot;https://zapier.com&quot;&gt;Zapier&lt;/a&gt; if you&#39;re using
+Todoist.&lt;/p&gt;
+&lt;h3 id=&quot;shopping-list&quot;&gt;Shopping list&lt;/h3&gt;
+&lt;p&gt;I keep a shopping list in Todoist shared with my wife. Every time we see that
+something is missing and have to be bought, we try to add it there right away.&lt;/p&gt;
+&lt;p&gt;In the past, I used the location reminder for Todoist in on my phone, so it
+reminds me to check that list every time I&#39;m nearby a local supermarket. It&#39;s
+still enabled but the pandemic changed everything and I&#39;m not going to the
+supermarket anymore (doing everything online).&lt;/p&gt;
+&lt;p&gt;Every time I check a task, IFTTT sends a message to a group chat in Telegram,
+informing my wife that it&#39;s done so she will not buy it again. Sometimes we
+forget to check the list, so it&#39;s helpful to get a reminder that it was bought
+already.&lt;/p&gt;
+&lt;h3 id=&quot;automatic-sharing-on-twitter&quot;&gt;Automatic sharing on Twitter&lt;/h3&gt;
+&lt;p&gt;I&#39;m currently using Todoist to track the articles I wanted to read. Some years I
+used &lt;a rel=&quot;external&quot; href=&quot;https://getpocket.com&quot;&gt;Pocket&lt;/a&gt;, but I found it was serving as a bookmarks
+app instead of a list of things I want to get done. Do you know what app is
+perfect to add things you want to get done? Yes, TODOIST! :)&lt;/p&gt;
+&lt;p&gt;I have a list of articles on Todoist and schedule them for reading when I have
+enough time (&lt;strong&gt;trough&lt;/strong&gt;? 🙂). If I think the article may be useful to someone, I
+add a &lt;strong&gt;@twitter&lt;/strong&gt; tag and complete the task when I finish reading (and &lt;a href=&quot;/knowledgebase&quot;&gt;make my
+notes&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;I have an applet on IFTTT that gets all completed tasks on my &quot;🗒️ Read&quot; project
+and adds it to &lt;a rel=&quot;external&quot; href=&quot;https://buffer.com&quot;&gt;Buffer&lt;/a&gt; if it has a &lt;strong&gt;@twitter&lt;/strong&gt; label. By
+doing that I keep an informative social presence.&lt;/p&gt;
+&lt;h2 id=&quot;how-a-typical-day-looks-like&quot;&gt;How a typical day looks like&lt;/h2&gt;
+&lt;p&gt;The day is much more chaotic than &lt;a href=&quot;/workflow2019&quot;&gt;what it was in 2019&lt;/a&gt;. I wake
+up when it&#39;s time to wake up (depending on how much I was able to sleep and if
+the babies are sleeping or not) and prepare some breakfast. After breakfast I
+go to my office (at home) and start working.&lt;/p&gt;
+&lt;p&gt;I click my &lt;strong&gt;peak&lt;/strong&gt; filter and start checking tasks one by one and interacting
+with my team while we still have a timezone overlap. I try to squeeze as much
+deep work as I can in these ~2 hours while things are manageable.&lt;/p&gt;
+&lt;p&gt;Around noon I go for lunch and get back for my &lt;strong&gt;trough&lt;/strong&gt; section. Things tend
+to be lighter at this time of the day. Sometimes my wife needs help with the
+babies and I take some time to stay with them (the power of async. I just work a
+bit more at night).&lt;/p&gt;
+&lt;p&gt;In the afternoon (~16:00) I start my &lt;strong&gt;reboud&lt;/strong&gt; and switch to the right filter.
+Again, I try to squeeze as much deep work as I can here but it&#39;s usually not
+easy and sometimes I have to do it in small chunks, which is not recommended
+(and I totally see why, but that&#39;s what we have for the moment).&lt;/p&gt;
+&lt;p&gt;At the end of the day, I postpone my tasks (if any) or just let them become
+overdue to be postponed quickly via Todoist on the next day. I usually do the
+planning for the week every Friday, so everything should be ready for the next
+day.&lt;/p&gt;
+&lt;h3 id=&quot;calendar&quot;&gt;Calendar&lt;/h3&gt;
+&lt;p&gt;I use Google Calendar since I started using Gmail (~2004?) and the integration
+with Todoist is very useful for me.&lt;/p&gt;
+&lt;p&gt;Todoist has a 2-way-sync integration with Google calendar, but I don&#39;t care much
+about using it that way. What I do is to bring everything I have on Google
+calendar to my Todoist so I can better plan my day only relying on one tool.&lt;/p&gt;
+&lt;p&gt;I mentioned I have a &lt;strong&gt;Calendars&lt;/strong&gt; project and I use it as an umbrella to 2 other
+projects. These projects have the name of two of my calendars: my personal
+calendar and work calendar.&lt;/p&gt;
+&lt;p&gt;I use the option to sync &quot;A specific project&quot; and just sync one of those empty
+projects. I never add anything there, their role here is to bring my calendar
+events to Todoist tasks with dates and times.&lt;/p&gt;
+&lt;p&gt;I have a policy of disabling all the notifications when doing focused work and
+totally recommend it. The only problem is that you also miss some important
+notifications. When I integrated my calendar with my Todoist, I was able to know
+exactly what I have to do and can do my peak work without worrying if there&#39;s
+something important I&#39;m missing.&lt;/p&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;I&#39;ve improving my process since 2007, when I started looking for a productivity
+tool and found Todoist. It requires a lot of practice to have a working
+system/process.&lt;/p&gt;
+&lt;p&gt;I used different tools along the way (Remember the milk, Toodledo, Habitica,
+Thingking Rock, Google keep, and the list goes on) but I always came back to
+Todoist because I really like it. It&#39;s not by coincidence that I&#39;m working for
+Doist, I think about that since the beginning, but decided to apply for it in
+2017.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I love Todoist and I totally recommend it! It&#39;s worth mentioning that it&#39;s not
+about the tool, but your mindset, and how you organize your process.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Something important to keep in mind that &lt;strong&gt;persistence is important&lt;/strong&gt;. Your
+process will certainly fail (as the one I described do), but you will improve it
+and make it (and yourself!) better in the process. If it&#39;s not working, just
+think about it and adjust it to match your way of doing things.&lt;/p&gt;
+&lt;p&gt;Stay focused and productive 😉&lt;/p&gt;
+&lt;h2 id=&quot;final-notes&quot;&gt;Final notes&lt;/h2&gt;
+&lt;p&gt;If you read my &lt;a href=&quot;/workflow2019&quot;&gt;previous post&lt;/a&gt;, you may be wondered what happened
+with the &lt;a href=&quot;/workflow2019#routine&quot;&gt;routine section&lt;/a&gt;. The answer is simple: Twin
+babies. 🙂&lt;/p&gt;
+</description>
+      </item>
+      <item>
+          <title>My 2019 Productivity Workflow</title>
+          <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://pothix.com/workflow2019/</link>
+          <guid>https://pothix.com/workflow2019/</guid>
+          <description xml:base="https://pothix.com/workflow2019/">&lt;p&gt;From time to time, I receive questions about my productivity workflow, so I
+decided to write it down here. Keep in mind it&#39;s a living thing and may change
+with time, but what I&#39;m documenting here is what I&#39;m using right now.&lt;/p&gt;
+&lt;h2 id=&quot;tool&quot;&gt;Tool&lt;/h2&gt;
+&lt;p&gt;As you probably know, &lt;a href=&quot;/post/doist-pothix&quot;&gt;I work for Doist&lt;/a&gt; for some time now,
+and I&#39;m a Todoist user since 2007, so the my tool of choice is quite obvious.&lt;/p&gt;
+&lt;p&gt;I love how &lt;a rel=&quot;external&quot; href=&quot;https://todoist.com&quot;&gt;Todoist&lt;/a&gt; brings simplicity to creating and
+managing tasks. Things become even better when you add filters to the mix. 😉&lt;/p&gt;
+&lt;p&gt;The organization for my top level projects looks like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Personal&lt;/strong&gt;: Anything personal like money, investments, random thoughts, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MyCompany&lt;/strong&gt;: Bureaucracy of having a BR company, things to pay, people to reach, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Work&lt;/strong&gt;: Everything related to my full time job. It&#39;s probably the one with more sub-projects and tasks&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hobbies&lt;/strong&gt;: I have many, so I have a project for each. Examples: Drums, MTG, Cardistry, Photography, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Me &amp;amp; Wife&lt;/strong&gt;: A shared project with my wife. Anything we do together we add there.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Others&lt;/strong&gt;: projects I could not fit in any other category. Example: Todoist integrations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Most of these top level projects have have their own sub-projects.&lt;/p&gt;
+&lt;h2 id=&quot;process&quot;&gt;Process&lt;/h2&gt;
+&lt;p&gt;I use due dates to guide my life inside Todoist. Every day I open Todoist and
+find what I have to do during that day.&lt;/p&gt;
+&lt;p&gt;When I have something in mind it goes to my &lt;code&gt;Inbox&lt;/code&gt; project. It doesn&#39;t matter
+if I&#39;m at the computer or walking on the street, I just open Todoist and add it
+there so I can do the triage later.&lt;/p&gt;
+&lt;p&gt;I try to apply the &lt;a rel=&quot;external&quot; href=&quot;https://gettingthingsdone.com/&quot;&gt;Getting Things Done&lt;/a&gt; idea,
+but my own version of GTD looks like &lt;a rel=&quot;external&quot; href=&quot;https://zenhabits.net/zen-to-done-ztd-the-ultimate-simple-productivity-system/&quot;&gt;Zen To
+Done&lt;/a&gt;
+to be honest. The principles are the same in the end, but the methods differ.&lt;/p&gt;
+&lt;p&gt;Both methods say you have to process your &lt;code&gt;Inbox&lt;/code&gt; at least once a day, and
+that&#39;s exactly what I do. Every task I add to my &lt;code&gt;Inbox&lt;/code&gt; in project on Todoist
+will be processed and added to the right project with a possible due date so it
+will pop up in my Today list in the future.&lt;/p&gt;
+&lt;p&gt;It doesn&#39;t matter much if I will finish all of the tasks or not, but they are
+there to remember me what I planned for that day and what is important to keep
+focused on. If I can&#39;t finish at the end of the day I postpone for the next or
+find a due in the future where this task will it makes more sense to do it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Everything&lt;/strong&gt; I have to do is added to Todoist. I don&#39;t keep anything in my
+mind because I don&#39;t want anything asking for attention when I have to focus.
+If there&#39;s something to do on Monday, I can rest assured that Todoist will
+notify me about that in the right day and time.&lt;/p&gt;
+&lt;h2 id=&quot;routine&quot;&gt;Routine&lt;/h2&gt;
+&lt;p&gt;I love routines, but it&#39;s important that I&#39;m able to have full control over
+them, and that&#39;s exactly what I have. I built my current routine based on my
+schedule, my wife&#39;s schedule, the times I feel more productive, and other
+studies I did to myself through the years.&lt;/p&gt;
+&lt;p&gt;Every weekday I have at least 8 tasks that are fixed and define my routine:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[06:00] Wake up and prepare breakfast
+&lt;ul&gt;
+&lt;li&gt;I have some notes on this one. Sometimes I want to prepare a different
+breakfast and never remember how to do it, so it&#39;s there&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[08:00] Walk the dog&lt;/li&gt;
+&lt;li&gt;[10:30] Start the deep work session&lt;/li&gt;
+&lt;li&gt;[12:30] Go to the Gym&lt;/li&gt;
+&lt;li&gt;[14:00] Record body data
+&lt;ul&gt;
+&lt;li&gt;I try to quantify myself as much as possible. This is just a reminder to add my weight to the tracking app&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[17:00] Start the deep work session&lt;/li&gt;
+&lt;li&gt;[19:00] Relax after a good day of work&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These are the things &lt;strong&gt;I want to do&lt;/strong&gt;. Sometimes people say things like: &quot;You
+let your task app say what you have to do&quot;, but is quite the opposite. I plan
+what I want for my days and I use my task list to keep me focused on what I
+want.&lt;/p&gt;
+&lt;p&gt;Some of these tasks trigger integrations that help me get laser focused on what
+I want to do. A good example is the &lt;code&gt;Start the deep work session&lt;/code&gt;, as it
+triggers the &quot;Focus time&quot; of &lt;a rel=&quot;external&quot; href=&quot;https://rescuetime.com&quot;&gt;rescuetime&lt;/a&gt; and block
+sites I consider not productive.&lt;/p&gt;
+&lt;h2 id=&quot;recurring-tasks&quot;&gt;Recurring tasks&lt;/h2&gt;
+&lt;p&gt;I have some recurring tasks that are not part of my routine and they are not
+related to work. It&#39;s also important to make time for the things you care
+about, not just work-related tasks.&lt;/p&gt;
+&lt;p&gt;Here are some of them:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Check a Slack group of friends I want to keep in touch&lt;/li&gt;
+&lt;li&gt;Check the Discord of the conference/community I&#39;m currently a core organizer&lt;/li&gt;
+&lt;li&gt;Remember to track my progress on Goodreads and write reviews&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Track my reading progress help me to stay on track. Writing reviews help me to
+retain more information by reviewing it to myself.&lt;/p&gt;
+&lt;h2 id=&quot;filtering-to-avoid-distractions&quot;&gt;Filtering to avoid distractions&lt;/h2&gt;
+&lt;p&gt;I use Todoist filters a lot!&lt;/p&gt;
+&lt;p&gt;Filters are very useful to... hm... filter non-important tasks from your current
+focus mode i.e. if you&#39;re doing deep work, you don&#39;t need to know your routine.&lt;/p&gt;
+&lt;p&gt;I like to consume books, &lt;a rel=&quot;external&quot; href=&quot;https://www.goodreads.com/author/show/15679564.Willian_Molinari&quot;&gt;my average is 30 books a
+year&lt;/a&gt;, and
+every time I consume a book that mentions productivity I try the method with
+filters.&lt;/p&gt;
+&lt;p&gt;Let&#39;s break down my filters and explain their usage 🙂&lt;/p&gt;
+&lt;h3 id=&quot;peak-trough-recovery&quot;&gt;Peak, trough, recovery&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Peak -- &lt;em&gt;&lt;code&gt;@peak &amp;amp; today &amp;amp; (assigned to: me | !assigned)&lt;/code&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Trough -- &lt;em&gt;&lt;code&gt;(@trough | (!@peak &amp;amp; !@recovery)) &amp;amp;  today &amp;amp; (assigned to: me | !assigned)&lt;/code&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Recovery -- &lt;em&gt;&lt;code&gt;(@recovery | @peak) &amp;amp; today &amp;amp; (assigned to: me | !assigned)&lt;/code&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As you can see, I also rely on Todoist labels to mark the tasks I want to have
+in each of these chunks.&lt;/p&gt;
+&lt;p&gt;These filters came from the book &lt;a rel=&quot;external&quot; href=&quot;https://www.goodreads.com/review/show/2254843906&quot;&gt;When&lt;/a&gt;.
+I used the &lt;a rel=&quot;external&quot; href=&quot;https://www.danpink.com/wp-content/uploads/2018/01/time-sheet.pdf&quot;&gt;Daily when tracker&lt;/a&gt; to check when was my peak, trough, and recovery times:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/productivity_dailywhentracker.png&quot; alt=&quot;A sheet of paper with something that looks like a chart showing the times I feel more productive&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I also use the concept of &lt;a rel=&quot;external&quot; href=&quot;https://www.goodreads.com/review/show/1601212243&quot;&gt;Deep work&lt;/a&gt; described by the book with the same name.&lt;/p&gt;
+&lt;p&gt;This is the reason why I have the task &quot;&lt;em&gt;Start the deep work session&lt;/em&gt;&quot; in the
+morning and at the end of the afternoon.&lt;/p&gt;
+&lt;h3 id=&quot;deep-work-filters&quot;&gt;Deep work filters&lt;/h3&gt;
+&lt;p&gt;Based on the same &lt;a rel=&quot;external&quot; href=&quot;https://www.goodreads.com/review/show/1601212243&quot;&gt;Deep work&lt;/a&gt;
+book mentioned above, I also use &lt;code&gt;@deepwork&lt;/code&gt; labels on Todoist so I can filter
+the right tasks depending on my current mode.&lt;/p&gt;
+&lt;p&gt;If you don&#39;t know the concept, it basically tells you to reserve chunks of your
+day to work on things without distractions. It means: no cellphones, no social
+media, no chatting, no email, etc.&lt;/p&gt;
+&lt;p&gt;I usually have the following filters as favorites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Deep @ Work -- &lt;em&gt;&lt;code&gt;(today | overdue)  &amp;amp; (assigned to: me|!assigned) &amp;amp; @deep_work &amp;amp; ##Work&lt;/code&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Shallow @ Work -- &lt;em&gt;&lt;code&gt;(today | overdue)  &amp;amp; (assigned to: me|!assigned) &amp;amp; !@deep_work &amp;amp; ##Work&lt;/code&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &quot;&lt;code&gt;Deep @ Work&lt;/code&gt;&quot; filter gets all tasks from projects under my &quot;&lt;code&gt;Work&lt;/code&gt;&quot;
+project that should be done &lt;code&gt;today&lt;/code&gt; and have the &quot;&lt;code&gt;@deepwork&lt;/code&gt;&quot; tag.&lt;/p&gt;
+&lt;p&gt;The &quot;&lt;code&gt;Shallow @ Work&lt;/code&gt;&quot; filter is almost the same but it takes everything
+&lt;strong&gt;without&lt;/strong&gt; the &quot;&lt;code&gt;@deepwork&lt;/code&gt;&quot; label. Everything else without this label is
+considered shallow work.&lt;/p&gt;
+&lt;h3 id=&quot;priority-filters&quot;&gt;Priority filters&lt;/h3&gt;
+&lt;p&gt;I also have some filters based on the tasks I set priorities, so I can quickly
+see what should be a priority for my day instead of just reacting to what is
+going on. It doesn&#39;t work all the time because &lt;a rel=&quot;external&quot; href=&quot;https://miro.medium.com/max/1120/1*tDk8uelQtJnpx33rIQVjjA.png&quot;&gt;urgent and
+important&lt;/a&gt;
+things sometimes pop up, but it gives me a clear view of what my priorities
+are.&lt;/p&gt;
+&lt;p&gt;Here are the filters I have:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Priority today -- &lt;em&gt;``(today | overdue) &amp;amp; (assigned to: me|!assigned) &amp;amp; p1&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Priority @ Work -- &lt;em&gt;&lt;code&gt;(today | overdue) &amp;amp; (assigned to: me|!assigned) &amp;amp; (p1 | p2 | p3) &amp;amp; ##Work&lt;/code&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These two helps me when I just want to focus on the work I have to do today.
+Sometimes I have personal things that are also priority, so I keep both
+together, but I mostly use the &lt;code&gt;Priority @ Work&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;integrations-and-automation&quot;&gt;Integrations and automation&lt;/h2&gt;
+&lt;p&gt;I mentioned the trigger I have for rescuetime&#39;s Focus mode but it&#39;s not the only automation I have. Here are some others:&lt;/p&gt;
+&lt;h3 id=&quot;shopping-list&quot;&gt;Shopping list&lt;/h3&gt;
+&lt;p&gt;I keep a shopping list in Todoist shared with my wife. Every time we see that
+something is missing and have to be bought, we try to add it there right away.&lt;/p&gt;
+&lt;p&gt;I have the location reminder enabled for Todoist in on my phone, so it reminds
+me to check that list every time I&#39;m nearby a local supermarket, which happens
+almost every day because of my daily routine.&lt;/p&gt;
+&lt;p&gt;Every time I check a task, IFTTT sends a message to a group chat in Telegram,
+informing my wife that it&#39;s done so she will not buy it again. Sometimes we
+forget to check the list, so it&#39;s helpful to get a reminder that it was bought
+already.&lt;/p&gt;
+&lt;h3 id=&quot;weekly-snippets&quot;&gt;Weekly snippets&lt;/h3&gt;
+&lt;p&gt;Every week at Doist, we post a list of important tasks we did during the past
+week and what we plan to do during the next.&lt;/p&gt;
+&lt;p&gt;I add a &quot;&lt;code&gt;@snippet&lt;/code&gt;&quot; label to every task I want to report. When a task with a
+&quot;&lt;code&gt;@snippet&lt;/code&gt;&quot; label is completed, IFTTT creates a new task in a project called
+&quot;&lt;code&gt;Snippets&lt;/code&gt;&quot; with the completion date and the task project in the task title.&lt;/p&gt;
+&lt;p&gt;When I want to report that, I go to the &quot;&lt;code&gt;Snippets&lt;/code&gt;&quot; project, click on the menu,
+&lt;strong&gt;Export as a Template&lt;/strong&gt;, and &lt;strong&gt;Export as file&lt;/strong&gt;. I have a note in the same
+project with a command the does the job of formatting that:&lt;/p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #ABB2BF; background-color: #282C34;&quot; &gt;&lt;code data-lang=&quot;plain&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;cat ~/Downloads/Snippets.csv | grep -v project_note | grep &amp;quot;task,&amp;quot; | awk -F &amp;quot;,&amp;quot; &amp;#39;/1/ {print &amp;quot;- &amp;quot; $2}&amp;#39;; rm /home/pothix/Downloads/Snippets.csv&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;So I can just post it to &lt;a rel=&quot;external&quot; href=&quot;https://twist.com&quot;&gt;Twist&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;how-a-typical-day-looks-like&quot;&gt;How a typical day looks like&lt;/h2&gt;
+&lt;p&gt;I wake up early (because that&#39;s what I want for myself, I don&#39;t have to),
+prepare the breakfast, and take some time to eat and chat with my wife. We try
+to not waste our time together looking at cellphones.&lt;/p&gt;
+&lt;p&gt;After breakfast I check my Todoist and what has to be done for the day, just to
+be sure there&#39;s nothing pressing for the next 1-2 hours. If it&#39;s OK, I take
+these 1-2 hours for myself. I&#39;m now writing this blog post. ;)&lt;/p&gt;
+&lt;p&gt;After that, the &lt;a href=&quot;https://pothix.com/workflow2019/#routine&quot;&gt;routine I described&lt;/a&gt; starts. There are many other
+tasks that are not part of my routine, so I use filters to focus on what I
+think fits better for that time.&lt;/p&gt;
+&lt;p&gt;At the end of the day, I postpone my tasks (if any) or just let them become
+overdue to be postponed quickly via Todoist on the next day. I usually don&#39;t
+have anything pressing from 6-8 a.m. so I don&#39;t have to check my plans for
+tomorrow every night.&lt;/p&gt;
+&lt;h2 id=&quot;final-notes&quot;&gt;Final notes&lt;/h2&gt;
+&lt;p&gt;I&#39;ve been doing this since 2007, when I started looking for a productivity tool
+and found Todoist. It&#39;s a lot of practice to have a working system/process.&lt;/p&gt;
+&lt;p&gt;I used different tools along the way (Remember the milk, Toodledo, Habitica,
+Thingking Rock, Google keep, and the list goes on) but I always came back to
+Todoist because I really like it. It&#39;s not by coincidence that I&#39;m working for
+Doist, I think about that since the beginning, but decided to apply for it in
+2017.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I love Todoist and I recommend it, but keep in mind that it&#39;s not about the
+tool, but your mindset, and how you organize your process.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Keep in mind that &lt;strong&gt;persistence is important&lt;/strong&gt;. Your process will certainly
+fail (as the one I described do), but you will improve it and make it (and
+yourself!) better in the process. If it&#39;s not working, just think about it and
+adjust it to match your way of doing things.&lt;/p&gt;
+&lt;p&gt;Stay focused and productive 😉&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;PS:&lt;/em&gt; ⏱  &lt;em&gt;It took me 2h27 to write this blog post&lt;/em&gt;&lt;/p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>PotHix - tips</title>
+      <link>https://pothix.com</link>
+      <description></description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://pothix.com/tags/tips/index.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Tue, 05 Dec 2017 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Firefox Quantum ctrl-q</title>
+          <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://pothix.com/firefox-ctrlq/</link>
+          <guid>https://pothix.com/firefox-ctrlq/</guid>
+          <description xml:base="https://pothix.com/firefox-ctrlq/">&lt;p&gt;This will be a quick post to help people that are doing the same
+search as I was doing some minutes ago: &quot;firefox disable ctrl+q&quot;.&lt;/p&gt;
+&lt;p&gt;I&#39;m using &lt;a rel=&quot;external&quot; href=&quot;https://www.mozilla.org/firefox/new/&quot;&gt;Firefox Quantum&lt;/a&gt; for
+some weeks now (will probably post about it in the future) and the
+ctrl+q &quot;feature&quot; really annoys me.&lt;/p&gt;
+&lt;p&gt;It&#39;s not the first time that I hit ctrl+q by accident just to see the
+entire browser and tabs being closed without warning. I was looking on
+Google and could not find anything on how to disable it. There were
+some extensions but none of them work on Firefox Quantum, so I decided
+to dig into the internal configurations.&lt;/p&gt;
+&lt;p&gt;Looks like there is a configuration called &lt;code&gt;browser.showQuitWarning&lt;/code&gt;
+that helps with this problem. It does not disable the ctrl+q but shows
+a warning and you can just cancel it in case it was an accident.&lt;/p&gt;
+&lt;p&gt;It&#39;s easy to enable it:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Type &lt;code&gt;about:config&lt;/code&gt; in the address bar&lt;/li&gt;
+&lt;li&gt;It will say that it&#39;s a place for advanced users, so you have to &lt;code&gt;accept the risk!&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;search for &lt;code&gt;browser.showQuitWarning&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;click on it and change it to &lt;code&gt;true&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Firefox Quantum is really better than Chrome nowadays, hope it helps
+with the Quit problem.&lt;/p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
+

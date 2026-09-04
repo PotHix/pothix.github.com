@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>PotHix - keyboards</title>
+      <link>https://pothix.com</link>
+      <description></description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://pothix.com/tags/keyboards/index.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Wed, 22 Sep 2021 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>3D printing the Dactyl-cc case</title>
+          <pubDate>Wed, 22 Sep 2021 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://pothix.com/dactyl3/</link>
+          <guid>https://pothix.com/dactyl3/</guid>
+          <description xml:base="https://pothix.com/dactyl3/">&lt;p&gt;This is another post of my &lt;a href=&quot;/series/dactyl&quot;&gt;dactyl&lt;/a&gt; series. This time I&#39;m going
+write about the process to make the 3D printed case, and prepare it for the
+keyboard.&lt;/p&gt;
+&lt;p&gt;Unfortunately, the process of assembling the keyboard is taking much longer than
+I anticipated. Being a parent of twins takes a lot of energy, and my predictions
+were very distant from the truth (for a change!). For this reason, I&#39;m posting a
+step by step of what I&#39;m doing with this dactyl project.&lt;/p&gt;
+&lt;h2 id=&quot;quoting&quot;&gt;Quoting&lt;/h2&gt;
+&lt;p&gt;There are some websites acting like marketplaces for 3D printing. One of them is
+&lt;a rel=&quot;external&quot; href=&quot;https://www.treatstock.com/&quot;&gt;treatstock&lt;/a&gt;, but there&#39;s also local people with 3D
+printing using other places to advertise, so I decided to get some quotes for
+the Dactyl-cc printing.&lt;/p&gt;
+&lt;h3 id=&quot;treat-stock&quot;&gt;Treat stock&lt;/h3&gt;
+&lt;p&gt;On treatstock the process is quite simple to get a quote. I just found a place
+that delivers to my location, uploaded the STL and got a price. Simple as that.
+The problem is the price, because I got no less than R$300.&lt;/p&gt;
+&lt;h3 id=&quot;mercado-livre&quot;&gt;Mercado livre&lt;/h3&gt;
+&lt;p&gt;My next step was to look for a seller providing this service via Mercado Livre,
+since we can find anything there (just like eBay, giving its own proportions). I
+found a person doing it for R$240, but the process of getting the quote was not
+very good. The person didn&#39;t even know what exactly he would print 🙄.&lt;/p&gt;
+&lt;h3 id=&quot;recommendation&quot;&gt;Recommendation&lt;/h3&gt;
+&lt;p&gt;This is always the best way to go. If you have a recommendation, there&#39;s a good
+chance things are going to work better, IMO.&lt;/p&gt;
+&lt;p&gt;A friend of mine, from a &lt;a rel=&quot;external&quot; href=&quot;https://t.me/tecladomecanicobr&quot;&gt;Mechanical Keyboards Telegram
+chat&lt;/a&gt;, have a contact who printed his &lt;a rel=&quot;external&quot; href=&quot;https://github.com/mattdibi/redox-keyboard&quot;&gt;redox
+keyboard&lt;/a&gt; case for a good price, so
+I decided to contact this person and ask for a quote. He could do it for R$100,
+which is a pretty good price.&lt;/p&gt;
+&lt;p&gt;The process of getting the quote was great. We talked via Telegram, and he got
+the STL files to analyze before getting back with the quote. I would totally
+recommend it. If you&#39;re from Brazil and is looking for some 3D printing for your
+keyboard, I totally recommend talking to Renato. His nickname is &lt;a rel=&quot;external&quot; href=&quot;https://t.me/renny_br&quot;&gt;@renny_br on
+Telegram&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;a-favor-from-a-friend&quot;&gt;A favor from a friend&lt;/h3&gt;
+&lt;p&gt;I was about to do it with Renato when I mentioned to a friend
+(&lt;a rel=&quot;external&quot; href=&quot;https://twitter.com/agaelebe&quot;&gt;agaelebe&lt;/a&gt;) if it was possible to use the printer
+of the hackerspace he is a member (&lt;a rel=&quot;external&quot; href=&quot;https://garoa.net.br&quot;&gt;Garoa Hacker Club&lt;/a&gt;)
+and he said he was going to check.&lt;/p&gt;
+&lt;p&gt;After some time, he got back to me and said he could print it himself or ask one
+of his friends to do it. He will just need the material if it&#39;s not available.
+It turns out that his friend &lt;a rel=&quot;external&quot; href=&quot;https://marcelocampos.cc&quot;&gt;Marcelo Campos&lt;/a&gt;, said he
+could try to print this.&lt;/p&gt;
+&lt;p&gt;This is the left side right after printing (in September 2020, but I&#39;m only
+posting about this now. Thanks a lot, Marcelo!):&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPotHix-KB%2FIPJ-91OppJ.jpg?alt=media&amp;amp;token=4c4a27ca-99c1-4cca-ad3a-aaace35ba173&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;the-results-when-i-got-the-case&quot;&gt;The results when I got the case&lt;/h2&gt;
+&lt;p&gt;After a few days, I was able to get the case from
+&lt;a rel=&quot;external&quot; href=&quot;https://twitter.com/agaelebe&quot;&gt;agaelebe&lt;/a&gt; and check it myself. For those who are
+curious, this is the raw format you receive right after printing:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPotHix-KB%2FjnIr2mxzVb.jpg?alt=media&amp;amp;token=6cfbad0a-c2f0-4af8-93b5-7cce32246cb6&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPotHix-KB%2FEn13ZKrejm.jpg?alt=media&amp;amp;token=ad3e5cc9-bd90-4115-b594-4e8fe5a8ac5d&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPotHix-KB%2FiE9rM8IkeL.jpg?alt=media&amp;amp;token=45392eac-469d-48c8-b903-b5a3ded34b52&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;It was the first time I got some raw result of a 3D printing process in my
+hands, and I found it quite interesting.&lt;/p&gt;
+&lt;p&gt;I was very curious about how it would look like with keycaps, so I cleaned it up
+and added the switches and keycaps to check (I will talk about the process in
+the next post). This is what I got:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPotHix-KB%2FPJy_NL0R_D.png?alt=media&amp;amp;token=c6b9d5f2-839e-41d3-b4e0-54f3dda5761f&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPotHix-KB%2F0Tu3X2QPgt.jpg?alt=media&amp;amp;token=160c5773-e7af-428f-ab2b-5fa60a09bb4e&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Not pretty I would say, but it felt great to type on it. It almost felt like my
+kinesis, and I still want to improve its aesthetics, so it motivated me to
+continue.&lt;/p&gt;
+&lt;p&gt;This whole process was done in 2020 and the current version (still WIP) is more
+advanced. I will post about the cleanup, sanding, and painting soon. 🙂&lt;/p&gt;
+</description>
+      </item>
+      <item>
+          <title>Testing a promicro</title>
+          <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://pothix.com/dactyl2/</link>
+          <guid>https://pothix.com/dactyl2/</guid>
+          <description xml:base="https://pothix.com/dactyl2/">&lt;p&gt;A lot happened since &lt;a href=&quot;/dactyl1&quot;&gt;my last post&lt;/a&gt; and all parts are already here! 😃&lt;/p&gt;
+&lt;p&gt;It was expected that I would not have that much time to work on the keyboard
+when all the parts arrive, this will be a long journey. The only thing that I
+wanted to do as soon as possible was to check if the products were in a good
+condition.&lt;/p&gt;
+&lt;p&gt;These are cheap parts coming from China in a month-long journey, so it&#39;s
+important to check if they are working as expected while I still can open a
+dispute with the seller if something is wrong.&lt;/p&gt;
+&lt;p&gt;Most parts are very simple:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/dactyl2/parts.jpg&quot; alt=&quot;Other parts&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I tested the switches with a multimeter just to be sure they were doing their
+job. It&#39;s a simple continuity test: Each probe touching one pin and pressing
+the switch to &quot;hear the beep&quot;.&lt;/p&gt;
+&lt;p&gt;The part that I was mostly interested in was the microcontrollers:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/dactyl2/microcontroller.jpg&quot; alt=&quot;Both microcontrollers&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I bought a cheap Arduino promicro and I wanted to be sure it was working. To do
+that, I connected it to the computer via micro-USB cable and flashed QMK into
+it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; It&#39;s important to be sure you are using a good cable that transmits
+both data and power. I was initially using a simple cable I have here that
+doesn&#39;t transmit data and was quite sad none of my microcontrollers were
+working 🤦‍♂.&lt;/p&gt;
+&lt;p&gt;A &lt;a rel=&quot;external&quot; href=&quot;https://twitter.com/rhruiz&quot;&gt;friend of mine&lt;/a&gt; recommended me to try the
+Laplace firmware for the test because it was very simple to check and that&#39;s
+what I did.&lt;/p&gt;
+&lt;p&gt;The process is straightforward:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Connect the microcontroller via micro-USB&lt;/li&gt;
+&lt;li&gt;It should be recognized on &lt;code&gt;dmesg&lt;/code&gt; (when using the right cable 🙄) and light up the red led&lt;/li&gt;
+&lt;li&gt;You need to reset it by shorting the right pins&lt;/li&gt;
+&lt;li&gt;Run the flash command for the firmware chosen&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The steps &lt;strong&gt;1&lt;/strong&gt; and &lt;strong&gt;2&lt;/strong&gt; don&#39;t need further description but let&#39;s go through
+the steps &lt;strong&gt;3&lt;/strong&gt; and &lt;strong&gt;4&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;reset-the-promicro&quot;&gt;Reset the promicro&lt;/h2&gt;
+&lt;p&gt;To reset the promicro, you will need a tweezer (preferred) or anything that you
+can use to short the two pins. Than you have to short the RST and GND pins
+while connected.&lt;/p&gt;
+&lt;p&gt;After shorting, you will see a different output on your &lt;code&gt;dmesg&lt;/code&gt; (I suggest
+keeping a &lt;code&gt;dmesg -w&lt;/code&gt; running.&lt;/p&gt;
+&lt;h2 id=&quot;flash-the-firmware&quot;&gt;Flash the firmware&lt;/h2&gt;
+&lt;p&gt;The process was quite simple. I just connected the microcontroller, went to the
+qmk firmware directory and ran the following command right after reseting the
+promicro:&lt;/p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #ABB2BF; background-color: #282C34;&quot; &gt;&lt;code data-lang=&quot;plain&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;make keebio:laplace:default:avrdude&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and voilà:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/dactyl2/flash-laplace.jpg&quot; alt=&quot;Flashing laplace firmware&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;testing-the-promicro&quot;&gt;Testing the promicro&lt;/h2&gt;
+&lt;p&gt;Now that the micro controller already has a firmware loaded, I decided to test
+some of the connections to be sure it was working as expected. Again you will
+need your tweezers and the microcontroller connected to the computer.&lt;/p&gt;
+&lt;p&gt;I used &lt;a rel=&quot;external&quot; href=&quot;https://linux.die.net/man/1/xev&quot;&gt;xev&lt;/a&gt; to test. It only receives any
+events received by the X server on Linux.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/dactyl2/testing-tweezer.jpg&quot; alt=&quot;Testing the microcontroller with a tweezer&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I &lt;a rel=&quot;external&quot; href=&quot;https://github.com/qmk/qmk_firmware/blob/master/keyboards/keebio/laplace/config.h#L34&quot;&gt;used the matrix pins described on laplace&#39;s
+firmware&lt;/a&gt;
+and started shorting. I was able to find ESC and DELETE, so I considered it as
+a working hardware. 🎉&lt;/p&gt;
+&lt;p&gt;That&#39;s the simplest way I found (with some help, of course 😉) to test the
+microcontroller without assembling the keyboard. Hope it&#39;s useful to someone
+else.&lt;/p&gt;
+</description>
+      </item>
+      <item>
+          <title>Dactyl keyboard - Part 1</title>
+          <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://pothix.com/dactyl1/</link>
+          <guid>https://pothix.com/dactyl1/</guid>
+          <description xml:base="https://pothix.com/dactyl1/">&lt;p&gt;After build the &lt;a href=&quot;/iris&quot;&gt;Iris keyboard&lt;/a&gt; I decided to start a new quest to build
+a Dactyl-cc (as I mentioned at the end of the Iris post 😉)&lt;/p&gt;
+&lt;p&gt;Dactyl is the keyboad I wanted to build from the start but I certainly didn&#39;t
+have the skils to do it. I decided to first build a &quot;portable kinesis&quot;, so I
+could take it with me when I was traveling and Iris seemed like a great fit for
+this and not that hard for a first project. Now that I have the skills, I will
+build the Dactyl to maybe take my kinesis&#39; place.&lt;/p&gt;
+&lt;p&gt;This is the first post of &lt;a href=&quot;/series/dactyl&quot;&gt;a series about building a dactyl
+keyboard&lt;/a&gt; and we will focus on the parts I had to buy.&lt;/p&gt;
+&lt;h2 id=&quot;where-to-buy&quot;&gt;Where to buy&lt;/h2&gt;
+&lt;p&gt;I decided to buy everything from AliExpress. It&#39;s usually cheaper than buying
+everything where I like (Brazil) and I not in a hurry, which is the bigger
+disadvantage of AliExpress.&lt;/p&gt;
+&lt;p&gt;Many of these parts I could easily find in a local store, sometimes even
+cheaper, but due to the pandemic I don&#39;t want to visit any physical store.&lt;/p&gt;
+&lt;p&gt;With that said, let&#39;s go for the list of parts I bought and the individual
+links (the advantage of buying everything on AliExpress 😄):&lt;/p&gt;
+&lt;h2 id=&quot;required-parts&quot;&gt;Required parts&lt;/h2&gt;
+&lt;p&gt;It required a lot of reserach to understand what each of these do and why they
+are required, but here are my choices:&lt;/p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Qty&lt;/th&gt;&lt;th&gt;Item&lt;/th&gt;&lt;th&gt;Total price&lt;/th&gt;&lt;th&gt;BRL (+taxes)&lt;/th&gt;&lt;th&gt;Link&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;68&lt;/td&gt;&lt;td&gt;Gateron Brown Sw&lt;/td&gt;&lt;td&gt;$ 17.57&lt;/td&gt;&lt;td&gt;R$ 109,34*&lt;/td&gt;&lt;td&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.aliexpress.com/item/32980039972.html&quot;&gt;AliExpress&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;Ergodox caps set&lt;/td&gt;&lt;td&gt;$ 19.90&lt;/td&gt;&lt;td&gt;R$ 123,84*&lt;/td&gt;&lt;td&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.aliexpress.com/item/32895788424.html&quot;&gt;AliExpress&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;RJ9 female&lt;/td&gt;&lt;td&gt;$ 5.10&lt;/td&gt;&lt;td&gt;R$ 31,73*&lt;/td&gt;&lt;td&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.aliexpress.com/item/4001341125623.html&quot;&gt;AliExpress&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;del&gt;50&lt;/del&gt;&lt;/td&gt;&lt;td&gt;&lt;del&gt;M3 Screw 5mm&lt;/del&gt;&lt;/td&gt;&lt;td&gt;&lt;del&gt;$ 1.91&lt;/del&gt;&lt;/td&gt;&lt;td&gt;&lt;del&gt;R$ 11,89*&lt;/del&gt;&lt;/td&gt;&lt;td&gt;&lt;del&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.aliexpress.com/item/4000220786440.html&quot;&gt;AliExpress&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;25&lt;/td&gt;&lt;td&gt;Nut insert M3&lt;/td&gt;&lt;td&gt;$ 1.58&lt;/td&gt;&lt;td&gt;R$ 9,83*&lt;/td&gt;&lt;td&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.aliexpress.com/item/33003887129.html&quot;&gt;AliExpress&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;200&lt;/td&gt;&lt;td&gt;IN4148 Diodes&lt;/td&gt;&lt;td&gt;$ 1.14&lt;/td&gt;&lt;td&gt;R$ 7,09*&lt;/td&gt;&lt;td&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.aliexpress.com/item/2025724181.html&quot;&gt;AliExpress&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;Wrist Rest&lt;/td&gt;&lt;td&gt;$ 5.60&lt;/td&gt;&lt;td&gt;R$ 34,85*&lt;/td&gt;&lt;td&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.aliexpress.com/item/32977646806.html&quot;&gt;AliExpress&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;Jumper cables&lt;/td&gt;&lt;td&gt;$ 0.98&lt;/td&gt;&lt;td&gt;R$ 6,10*&lt;/td&gt;&lt;td&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.aliexpress.com/item/33041631448.html&quot;&gt;AliExpress&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;MicroUSB to USBC&lt;/td&gt;&lt;td&gt;$ 2.97&lt;/td&gt;&lt;td&gt;R$ 18,48*&lt;/td&gt;&lt;td&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.aliexpress.com/item/33014954687.html&quot;&gt;AliExpress&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;RJ9 cables&lt;/td&gt;&lt;td&gt;$ 2.24&lt;/td&gt;&lt;td&gt;R$ 13,94*&lt;/td&gt;&lt;td&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.aliexpress.com/item/4001216996891.html&quot;&gt;AliExpress&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;20&lt;/td&gt;&lt;td&gt;Reset buttons&lt;/td&gt;&lt;td&gt;$ 1.06&lt;/td&gt;&lt;td&gt;R$ 6,59*&lt;/td&gt;&lt;td&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.aliexpress.com/item/32912175986.html&quot;&gt;AliExpress&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;135&lt;/td&gt;&lt;td&gt;Hotswap sockets&lt;/td&gt;&lt;td&gt;$ 13.50&lt;/td&gt;&lt;td&gt;R$ 84,01*&lt;/td&gt;&lt;td&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.aliexpress.com/item/4000019410050.html&quot;&gt;AliExpress&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;Colored wires&lt;/td&gt;&lt;td&gt;$ 8.82&lt;/td&gt;&lt;td&gt;R$ 54,89*&lt;/td&gt;&lt;td&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.aliexpress.com/item/32849118753.html&quot;&gt;AliExpress&lt;/a&gt;**&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;Promicro&lt;/td&gt;&lt;td&gt;$ 5.90&lt;/td&gt;&lt;td&gt;R$ 36,72*&lt;/td&gt;&lt;td&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.aliexpress.com/item/32989454698.html&quot;&gt;AliExpress&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;2.0% flux solder&lt;/td&gt;&lt;td&gt;$ 2.11&lt;/td&gt;&lt;td&gt;R$ 11,60&lt;/td&gt;&lt;td&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.aliexpress.com/item/33006453680.html&quot;&gt;AliExpress&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;update: It turned out the M3 screw is not the right one and the wrong jumper cables were sent 😕&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;extras&quot;&gt;Extras:&lt;/h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Qty&lt;/th&gt;&lt;th&gt;Item&lt;/th&gt;&lt;th&gt;Price&lt;/th&gt;&lt;th&gt;BRL (+taxes)&lt;/th&gt;&lt;th&gt;Link&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;Testing Switches&lt;/td&gt;&lt;td&gt;$ 1.20&lt;/td&gt;&lt;td&gt;R$ 7,45*&lt;/td&gt;&lt;td&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.aliexpress.com/item/32956853282.html&quot;&gt;AliExpress&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;* I bought so many things and bundled them together that it&#39;s now hard to find
+the exact amount of money I spent considering taxes, currencies, bundled
+orders, etc. To simplify things a bit I used the average currency exchange from
+my credit card bill to get all the BRL prices for these items.&lt;/p&gt;
+&lt;p&gt;** This item is open for dispute. For some reason the shipment was cancelled
+so I&#39;m checking with the seller and didn&#39;t get a response.&lt;/p&gt;
+&lt;h2 id=&quot;cost-and-eta&quot;&gt;Cost and ETA&lt;/h2&gt;
+&lt;p&gt;Currently, it&#39;s a total of &lt;strong&gt;$92.50&lt;/strong&gt; or R$568,35 approximately. I would say &lt;strong&gt;R$600&lt;/strong&gt;
+would be a good guess because of the currency exchange flutuation. As a
+comparison, the minimum wage in Brazil is R$ 1045.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2021 edit:&lt;/strong&gt; A friend of mine just bought the spare parts I had here for
+R$100. The final price for the keyboard was ~&lt;strong&gt;R$500&lt;/strong&gt; (not considering the huge
+amount of work I&#39;m putting into it, of course 😉).&lt;/p&gt;
+&lt;p&gt;The average time to get something from AliExpress to Brazil is around 3 weeks
+and some of these parts started to arrive already 😃&lt;/p&gt;
+&lt;p&gt;Wait for more about this soon 🚀&lt;/p&gt;
+</description>
+      </item>
+      <item>
+          <title>Assembling an Iris Rev4</title>
+          <pubDate>Thu, 23 Jul 2020 09:48:21 -0300</pubDate>
+          <author>Unknown</author>
+          <link>https://pothix.com/iris/</link>
+          <guid>https://pothix.com/iris/</guid>
+          <description xml:base="https://pothix.com/iris/">&lt;p&gt;It&#39;s been a while since I&#39;m looking for a keyboard that would be great to take
+with me when I&#39;m not working from home for some days. I finally found the Iris
+keyboard that seems to be exactly what I&#39;m looking for.&lt;/p&gt;
+&lt;h2 id=&quot;the-need&quot;&gt;The need&lt;/h2&gt;
+&lt;p&gt;I currently have a Kinesis Advantage at home. The keyboard is great, probably
+the best keyboard I used so far, but it&#39;s far from what we can call portable
+😅. I needed a keyboard I could take with me when I wanted, so I started a
+quest to find it.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I bought a &lt;a rel=&quot;external&quot; href=&quot;http://www.typematrix.com/2030/features.php&quot;&gt;typematrix keyboard&lt;/a&gt;
+but it was not good enough (not even mechanical).&lt;/li&gt;
+&lt;li&gt;I had a &lt;a rel=&quot;external&quot; href=&quot;https://deskthority.net/wiki/HHKB_Lite&quot;&gt;HHKB Lite&lt;/a&gt; but I wanted a
+mechanical keyboard (it uses rubber dome).&lt;/li&gt;
+&lt;li&gt;I bought a
+&lt;a rel=&quot;external&quot; href=&quot;https://mechanicalkeyboards.com/shop/index.php?l=product_list&amp;amp;c=165&quot;&gt;Pok3r&lt;/a&gt;
+keyboard but it was too heavy for what I wanted.&lt;/li&gt;
+&lt;li&gt;I bought an &lt;a rel=&quot;external&quot; href=&quot;https://atreus.technomancy.us/&quot;&gt;Atreus keyboard&lt;/a&gt; but found that
+a 40% layout was too small for my needs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Then I found the &lt;a rel=&quot;external&quot; href=&quot;https://keeb.io/products/iris-keyboard-split-ergonomic-keyboard&quot;&gt;Iris
+keyboard&lt;/a&gt;,
+which seems to be the perfect size between the Atreus and Kinesis keyboards.
+The problem is that it&#39;s a DIY keyboard and I had zero experience with anything
+electronic.&lt;/p&gt;
+&lt;p&gt;Talking to some friends I found that the Iris is the easy mode of DIY
+keyboards, so I decided to give it a try.&lt;/p&gt;
+&lt;h2 id=&quot;pieces-and-prices&quot;&gt;Pieces and prices&lt;/h2&gt;
+&lt;p&gt;I had to buy the following pieces to be able to do it:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1 x &lt;a rel=&quot;external&quot; href=&quot;https://www.amazon.com/gp/product/B07S18VCDN/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&amp;amp;psc=1&quot;&gt;DSA Keycaps&lt;/a&gt;: $23.50&lt;/li&gt;
+&lt;li&gt;5 x &lt;a rel=&quot;external&quot; href=&quot;https://www.amazon.com/gp/product/B01N45BWC3/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&amp;amp;psc=1&quot;&gt;Cherry MX Clear Keyswitch (10 pack)&lt;/a&gt;: $50&lt;/li&gt;
+&lt;li&gt;1 x &lt;a rel=&quot;external&quot; href=&quot;https://keeb.io/products/iris-keyboard-case-plates?variant=7472218210334&quot;&gt;Iris Keyboard - Case/Plates&lt;/a&gt;: $27.99&lt;/li&gt;
+&lt;li&gt;1 x &lt;a rel=&quot;external&quot; href=&quot;https://keeb.io/products/iris-keyboard-split-ergonomic-keyboard?variant=29480467267678&quot;&gt;Iris Keyboard - PCBs for Split Ergonomic Keyboard&lt;/a&gt;: $59.99&lt;/li&gt;
+&lt;li&gt;1 x &lt;a rel=&quot;external&quot; href=&quot;https://keeb.io/account/orders/25478d0d3478d5aa26c647de49310efd&quot;&gt;TRRS Cable - Black Coiled&lt;/a&gt;: $7.98&lt;/li&gt;
+&lt;li&gt;Shipping costs: $6.10 (keeb.io) + $30 to ship it to Brazil (the final value is R$125 in my local currency)&lt;/li&gt;
+&lt;li&gt;1 Multimeter: R$37,00&lt;/li&gt;
+&lt;li&gt;1 Soldering kit (soldering iron, desoldering pump, soldering iron stand, tin wire tube): R$88,00&lt;/li&gt;
+&lt;li&gt;Acrylic Middle layers: $30.00 (bought after the keyboard was assembled as it&#39;s optional)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The sum is about $234.60 + R$125,00 (~30 USD). I believe I spent around &lt;strong&gt;280
+USD&lt;/strong&gt; to build the keyboard. In my local currency, using the current
+conversion (it may have been different when I first bought the needed
+components), it&#39;s around &lt;strong&gt;R$1400,00&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;I had some credits on Amazon and the currency was not that bad at the time. The
+effective value considering the credits was about R$800,00 which is still
+almost 4/5 of the minimum wage here in Brazil.&lt;/p&gt;
+&lt;h2 id=&quot;assembling&quot;&gt;Assembling&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/iris-rev4/initial.jpg&quot; alt=&quot;A laptop, PCB, soldering iron, keycaps, and switches on the table&quot; title=&quot;Ready to start&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Again, I would like to mention that I had 0 experience with anything
+electronic, so it was a amazing how noob I was. :)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/iris-rev4/first-soldering.jpg&quot; alt=&quot;Soldering on a switch pin in the PCB&quot; title=&quot;My first soldering, not very good&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This was my first soldering. Not something I&#39;m proud of but something I laugh
+about today.&lt;/p&gt;
+&lt;p&gt;A friend of mine recommended me to use a fan to avoid inhaling the melted tin,
+so I was doing that. It just took me a while to realize that my fan was
+actually cooling the tin and the soldering iron making the whole process harder
+to do. If this is your case, be careful with your fan.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/iris-rev4/corner-switches.jpg&quot; alt=&quot;A PCB with four switches mounted&quot; title=&quot;Starting with the four corners&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;It&#39;s recommended to first do the soldering for the corner switches so it&#39;s easy
+to change anything in case the position is wrong somehow.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/iris-rev4/testing-all-switches.jpg&quot; alt=&quot;A laptop, a notebook with a drawing of the keyboard layout, and the PCB connected to the laptop&quot; title=&quot;Testing connections with a tweezer&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I first checked if all the connections for the switches were working correcly.
+I just used a tweezer to close the connection and get the signal on &lt;code&gt;xev&lt;/code&gt;. Keep
+in mind that the &lt;code&gt;fn&lt;/code&gt; keys do not emit any signal and it doesn&#39;t mean it&#39;s not
+working. 😉&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/iris-rev4/testing-the-mount.jpg&quot; alt=&quot;The PCB with 4 switches mounted. Three brown and one purple&quot; title=&quot;Initial mount just to be sure everything is in place&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The four switches were soldered and I did the initia mounting to be sure
+everything is in place. I&#39;m using brown switches for almost all keys, except
+the modifiers where I&#39;m using outemu purple switches.&lt;/p&gt;
+&lt;p&gt;It seems like a planned change but I did that to avoid buying another set of
+switches and a friend (thanks rhruiz!) kindly gave me these outemu purple to
+complete my set.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/iris-rev4/mounting-all-switches.jpg&quot; alt=&quot;A PCB with half of the switches already inserted. Most of them are brown but there&amp;#39;s also 4 purple&quot; title=&quot;Inserting all switches&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;It&#39;s time to insert all switches.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/iris-rev4/soldering-process.jpg&quot; alt=&quot;macro picture of the PCB to show the soldering&quot; title=&quot;Soldering one by one&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Soldering time! The soldering is not great but it&#39;s the best I could do on my first attempt. :)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/iris-rev4/all-soldering-done.jpg&quot; alt=&quot;A picture of the PCB with all its soldering points&quot; title=&quot;Soldering done&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The left side is done!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/iris-rev4/testing-on-xev.jpg&quot; alt=&quot;The left side of the keyboard turned on with red LED. The laptop in the background running xev on the termimal&quot; title=&quot;Testing all switches using xev&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Testing all the switches using &lt;code&gt;xev&lt;/code&gt; just to be sure the soldering is working (spoiler: it is!)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/iris-rev4/other-side.jpg&quot; alt=&quot;The right side PCB upside down right below the completed left part of the keyborad. Laptop in the background&quot; title=&quot;Soldering the other side&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;It&#39;s time to do the soldering on the right side. Same process.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/iris-rev4/keycaps.jpg&quot; alt=&quot;Both sides of the keyboard side by side and some keycaps already inserted&quot; title=&quot;Adding the keycaps&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Now that everything is in place, let&#39;s add the keycaps.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/iris-rev4/v0-done-fixing-bugs.jpg&quot; alt=&quot;The laptop running xev on top, a notebook with a pen to highlight faulty keys on a drawing and the full keyboard running on the side&quot; title=&quot;Finished the initial version and testing everything again to find problems&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Here it is! The first version is done! 🎉&lt;/p&gt;
+&lt;p&gt;It&#39;s expected that some keys will stop working after adding the keycaps,
+especially in my case since my soldering skills are not good.  I went one by
+one and found some malfunctioning keys, so it&#39;s time to get back to soldering.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/iris-rev4/done.jpg&quot; alt=&quot;The laptop running Vim with the text &amp;quot;DONE!&amp;quot; written. The completed keyboard with red LEDs below&quot; title=&quot;Problems fixed, all done!&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;That&#39;s it! Everything done for now and the keyboard is usable already!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;PS: &lt;a rel=&quot;external&quot; href=&quot;https://photos.google.com/share/AF1QipOEfqRQ-V2aVWYO1ENs4xrMADgwfMQM36D0hgdGdv1kW8T04pNHui4JX3UffsHO9A?key=WnJ1YXhNTERaTnhNNFVDQnh2enA3ekd6ZjlTZVN3&quot;&gt;Here&lt;/a&gt; is the album with all pictures I took while assembling the keyboard.&lt;/em&gt; 😉&lt;/p&gt;
+&lt;h3 id=&quot;debugging&quot;&gt;Debugging&lt;/h3&gt;
+&lt;p&gt;At some point I started having some weird behaviors like this &quot;heaven and hell&quot; LEDs:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/iris-rev4/heaven-and-hell.jpg&quot; alt=&quot;The laptop mounted on a Roost stand and the keyboard below. One side with right LEDs and the other with blue LEDs&quot; title=&quot;It was a nice bug, I actually liked this coloring LOL&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;And after some time the keyboard just got disconnected with a yellow LED light:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/iris-rev4/yellow-light.jpg&quot; alt=&quot;The laptop mounted on a Roost stand and the keyboard below. The keyboard showing an yellow LED color&quot; title=&quot;This is a bad color for sure :(&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;After disconnecting, the keyboad was not responding anymore. No LEDs, no
+&lt;code&gt;dmesg&lt;/code&gt; message or anything. :(&lt;/p&gt;
+&lt;p&gt;I used the multimeter to do some basic continuity tests (thanks for the
+guidance &lt;a rel=&quot;external&quot; href=&quot;https://twitter.com/rhruiz&quot;&gt;@rhruiz&lt;/a&gt;) but found not short circuit or
+anything like that. After some time and a RESET while plugged, the keyboard went
+back to life, showing itself again on &lt;code&gt;dmesg&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;I saw a &lt;code&gt;dmesg&lt;/code&gt; message complaining about the USB cabe and we (me and rhruiz)
+have a feeling the max brightness on both sides was too much too handle. 🤔&lt;/p&gt;
+&lt;p&gt;After all of that, the keyboard was reborn and baptized as Telperion:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/iris-rev4/telperion.jpg&quot; alt=&quot;The keyboard with a blue/white LED lighting&quot; title=&quot;Welcome back to life, Telperion!&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;It&#39;s important to keep in mind that DIY keyboard will certainly require some
+sort of maintenance from time to time. This is especially true if it&#39;s your
+first keyboard (as it&#39;s mine!) because your soldering may not be the best and
+it will require some small resoldering fix after some time.&lt;/p&gt;
+&lt;h2 id=&quot;customizing-the-firmware&quot;&gt;Customizing the firmware&lt;/h2&gt;
+&lt;p&gt;The first thing to do is to clone the &lt;a rel=&quot;external&quot; href=&quot;https://github.com/qmk/qmk_firmware/&quot;&gt;qmk firmware
+repository&lt;/a&gt;. I suggest forking it and
+cloning your own fork since you will probably change it. 😉&lt;/p&gt;
+&lt;p&gt;After cloning the repository, you have to install the software needed to
+compile and flash the firmware. There are two (maybe more) ways to do that:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;You can use docker via &lt;code&gt;util/docker_build.sh&lt;/code&gt; script. It would be something
+like: &lt;code&gt;util/docker_build.sh keebio/iris/rev4:default:flash&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;You can install all the tools locally via &lt;code&gt;util/qmk_install.sh&lt;/code&gt; and flash
+with &lt;code&gt;make keebio/iris/rev4:default:flash&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I would love to use the option 1 but for some reason docker cannot find the
+keyboard via USB and I had to install the tooling locally. I suggest you to
+start trying docker and if it didn&#39;t work, go for option 2.&lt;/p&gt;
+&lt;h3 id=&quot;compiling-your-own-keymap&quot;&gt;Compiling your own keymap&lt;/h3&gt;
+&lt;p&gt;I &lt;a rel=&quot;external&quot; href=&quot;https://github.com/PotHix/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/pothix&quot;&gt;created my own keymap inside my
+fork&lt;/a&gt;
+so it would be easy to keep the main code updated. So I have to use the following command to compile it:&lt;/p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #ABB2BF; background-color: #282C34;&quot; &gt;&lt;code data-lang=&quot;plain&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;make keebio/iris/rev4:pothix&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If everything goes right, I just can just flash it.&lt;/p&gt;
+&lt;p&gt;Connect the keyboard to the USB port and hit the RESET button. It may be via
+RESET button at the back of the keyboard of actually hitting the RESET key on
+the &quot;LOWER&quot; layer (check the default keymap for more info).&lt;/p&gt;
+&lt;p&gt;After that, run the following command:&lt;/p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #ABB2BF; background-color: #282C34;&quot; &gt;&lt;code data-lang=&quot;plain&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;sudo make keebio/iris/rev4:pothix:flash&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I&#39;m not able to flash it without sudo, so keep it in mind when flashing.&lt;/p&gt;
+&lt;p&gt;Remember to flash both sides because you may get incompatibilities and weird
+behaviors sometimes. Here is one I had:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/iris-rev4/flash-both-sides.jpg&quot; alt=&quot;The keyboard with a blue/white LEDs on the left side and a red+blue on the right side. The right side seems to be malfunctioning.&quot; title=&quot;The right side is totally messed up!&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;optimizing&quot;&gt;Optimizing&lt;/h3&gt;
+&lt;p&gt;Depending on what you&#39;re using on your keyboard, you may exceed the maximum
+size for the binary. If this is the case for you (as it was for me :P), you can
+start disabling features you&#39;re not using.&lt;/p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https://thomasbaart.nl/2018/12/01/reducing-firmware-size-in-qmk/&quot;&gt;This
+article&lt;/a&gt; was
+very helpful for me to understand what can be done. If you want some examples,
+check my
+&lt;a rel=&quot;external&quot; href=&quot;https://github.com/PotHix/qmk_firmware/blob/master/keyboards/keebio/iris/keymaps/pothix/rules.mk&quot;&gt;rules.mk&lt;/a&gt;
+and
+&lt;a rel=&quot;external&quot; href=&quot;https://github.com/PotHix/qmk_firmware/blob/master/keyboards/keebio/iris/keymaps/pothix/config.h&quot;&gt;config.h&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;It&#39;s not cheaper to build your own keyboard as one would expect, but it&#39;s
+definitely fun if you want to get your hands dirty with soldering to build
+something custom for yourself. I learned a lot in the process and I hope to be
+able to maybe build another keyboard in the future.&lt;/p&gt;
+&lt;p&gt;It will probably not be the last keyboard I will build. I still want to build a
+&lt;a rel=&quot;external&quot; href=&quot;https://github.com/mjohns/dactyl-cc&quot;&gt;dactyl-cc&lt;/a&gt; at some point to take the
+place of my current Kinesis Advantage. It&#39;s a handwired keyboard, so I will
+have to move to the hard version of keyboard assembling. :)&lt;/p&gt;
+&lt;p&gt;Happy keyboard building! ⌨&lt;/p&gt;
+</description>
+      </item>
+      <item>
+          <title>Flashing a different firmware for the Atreus keyboard</title>
+          <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://pothix.com/atreus-firmware/</link>
+          <guid>https://pothix.com/atreus-firmware/</guid>
+          <description xml:base="https://pothix.com/atreus-firmware/">&lt;p&gt;I just bought an Atreus keyboard and I&#39;m now configuring my own firmware.&lt;/p&gt;
+&lt;p&gt;To do that, I&#39;m using the &lt;code&gt;qmk_firmware&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;I&#39;m adding a new file as a layout (link here) and I have to change
+&lt;code&gt;tmk_core/common/avr/bootloader.c&lt;/code&gt; to be able to compile it:&lt;/p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #ABB2BF; background-color: #282C34;&quot; &gt;&lt;code data-lang=&quot;plain&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;-uint32_t reset_key  __attribute__ ((section (&amp;quot;.noinit&amp;quot;)));&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;+uint32_t reset_key __attribute__ ((section (&amp;quot;.noinit,\&amp;quot;aw\&amp;quot;,@nobits;&amp;quot;)));&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After that, I just had to get the keyboard to the reset mode via &lt;code&gt;fn + ESC&lt;/code&gt; (to
+change the layout) and then pressed the RESET button. I had to refer to the map
+for the current layot to find the keys but after that, it went smoothly.&lt;/p&gt;
+&lt;p&gt;To compile the firmware you want, just use &lt;code&gt;make&lt;/code&gt; and specify the keyboard and layout:&lt;/p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #ABB2BF; background-color: #282C34;&quot; &gt;&lt;code data-lang=&quot;plain&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;make keyboard=atreus keymap=pothix&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In this case, I have a keymap called &quot;pothix&quot; at &lt;code&gt;qmk_firmware/keyboards/atreus/keymaps&lt;/code&gt;.
+To flash the firmware, I used the &lt;code&gt;avrdude&lt;/code&gt; command:&lt;/p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #ABB2BF; background-color: #282C34;&quot; &gt;&lt;code data-lang=&quot;plain&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;sudo avrdude -p atmega32u4 -c avr109 -U flash:w:atreus_pothix.hex -P /dev/ttyACM0&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The result will be something like:&lt;/p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #ABB2BF; background-color: #282C34;&quot; &gt;&lt;code data-lang=&quot;plain&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;Connecting to programmer: .&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;Found programmer: Id = &amp;quot;CATERIN&amp;quot;; type = S&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;    Software Version = 1.0; No Hardware Version given.&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;Programmer supports auto addr increment.&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;Programmer supports buffered memory access with buffersize=128 bytes.&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;Programmer supports the following devices:&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;    Device code: 0x44&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;avrdude: AVR device initialized and ready to accept instructions&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;Reading | ################################################## | 100% 0.00s&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;avrdude: Device signature = 0x1e9587 (probably m32u4)&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;avrdude: NOTE: &amp;quot;flash&amp;quot; memory has been specified, an erase cycle will be performed&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;         To disable this feature, specify the -D option.&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;avrdude: erasing chip&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;avrdude: reading input file &amp;quot;atreus_pothix.hex&amp;quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;avrdude: input file atreus_pothix.hex auto detected as Intel Hex&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;avrdude: writing flash (22090 bytes):&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;Writing | ################################################## | 100% 1.69s&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;avrdude: 22090 bytes of flash written&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;avrdude: verifying flash memory against atreus_pothix.hex:&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;avrdude: load data flash data from input file atreus_pothix.hex:&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;avrdude: input file atreus_pothix.hex auto detected as Intel Hex&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;avrdude: input file atreus_pothix.hex contains 22090 bytes&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;avrdude: reading on-chip flash data:&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;Reading | ################################################## | 100% 0.20s&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;avrdude: verifying ...&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;avrdude: 22090 bytes of flash verified&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;avrdude: safemode: Fuses OK (E:C8, H:D0, L:FF)&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;avrdude done.  Thank you.&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Hope it&#39;s helpful to someone else. :)&lt;/p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
+
